@@ -6,11 +6,12 @@
 "name": "Vestus the Unlikely",
 "class": "Mage",
 "level": 1,
-"xp": 0,
+"xp": 162,
 "hp_max": 3,
 "attributes": {"STR":8,"INT":13,"WIL":12,"DEX":13,"CON":10,"CHA":7},
-"items": [],
+"items": [{"type":"spell","name":"Mage Missile","level":1},{"type":"spell","name":"Protection from Evil","level":1}],
 "modifiers": [],
+"possessions": {"coins":{"gp":149,"sp":6,"cp":3}},
 "state": {"hp":3,"conditions":[],"spells_used":[]},
-"changes": [{"field":"role","from":"npc","to":"henchman","cause":"joins marcia's service (AX1 p. 51: the Brethren serve their rescuers; now within the level limit)"}]
+"changes": [{"field":"role","from":"npc","to":"henchman","cause":"joins marcia's service (AX1 p. 51: the Brethren serve their rescuers; now within the level limit)"},{"field":"items.spell","from":null,"to":{"type":"spell","name":"Mage Missile","level":1},"cause":"spellbook recovered from the dragon hoard (L1 75) and returned"},{"field":"items.spell","from":null,"to":{"type":"spell","name":"Protection from Evil","level":1},"cause":"spellbook recovered from the dragon hoard (L1 75) and returned"},{"field":"state.spells_used","from":[],"to":["Mage Missile"],"cause":"cast Magic Missile at the gnoll escort"},{"field":"state.spells_used","from":["Mage Missile"],"to":[],"cause":"a night's restful sleep: spells regained (engine stage 4)"},{"field":"xp","from":0,"to":162,"cause":"payout of Buried Temple, delve 6 (the catacombs) (day 111)"},{"field":"possessions.coins","from":null,"to":{"gp":149,"sp":6,"cp":3},"cause":"payout of Buried Temple, delve 6 (the catacombs) (day 111)"}]
 }

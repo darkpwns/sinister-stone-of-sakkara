@@ -39,7 +39,7 @@ The engine decides all of this (tools repo `engine/COVERAGE.md`, stage 5): treas
   would give it away). Such a lot is sold off the books (`sell` and `inv sell` both refuse it): `inv remove <id> wN
   --why 'sold off-book' --cause "…"`, then `inv receive <id> <coins> --from <buyer> --cause "…"` at your price; no sale
   XP is computed (none for a used item, RR p. 310; award it yourself for a divided lot sold unused).
-- Selling: `acks.sh sell L#,L# --by ID --market-note "07 Markets/<Place> (Market).md"` (market class and demand modifiers from the note). Gems and jewelry at their value (reading), special treasures at their listed value (the engine flags a negative demand modifier: rule on it), identified magic items at base cost within the market's monthly sales by rarity, unidentified ones at apparent value (reading). Merchandise by the mercantile rules: `--arbitrage` (price per stone, daily volume, tariff). `--bargaining` for the seller's Bargaining.
+- Selling: `acks.sh sell L#,L# --by ID --market-note "07 Markets/<Place> (Market).md" [--bargaining]` (`--bargaining` when the seller has Bargaining: +10%, RR p. 107; the engine does not read it from the actor) (market class and demand modifiers from the note). Gems and jewelry at their value (reading), special treasures at their listed value (the engine flags a negative demand modifier: rule on it), identified magic items at base cost within the market's monthly sales by rarity, unidentified ones at apparent value (reading). Merchandise by the mercantile rules: `--arbitrage` (price per stone, daily volume, tariff). `--bargaining` for the seller's Bargaining.
 
 ## 5. End of an adventure: payout (open)
 

@@ -662,7 +662,7 @@
    "wage_gp": 12.0,
    "wage_per": "month",
    "hired_day": 12,
-   "periods_paid": 2,
+   "periods_paid": 4,
    "missed": [
     1,
     2
@@ -721,6 +721,21 @@
      "total": 6,
      "result": "Grudging Loyalty",
      "loyalty": -1
+    },
+    {
+     "day": 98,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 102,
+     "event": "loyalty roll (calamity: wage due day 102 not paid) [VOID: Judge slip, the party was in town and pays on time; wage paid day 111]",
+     "total": 5,
+     "result": "Resignation",
+     "loyalty": -2
+    },
+    {
+     "day": 111,
+     "event": "wages paid: 1 month(s), 12 gp"
     }
    ],
    "actor": "gallus",
@@ -800,7 +815,7 @@
    "wage_gp": 12.0,
    "wage_per": "month",
    "hired_day": 32,
-   "periods_paid": 2,
+   "periods_paid": 4,
    "missed": [
     2
    ],
@@ -832,6 +847,14 @@
      "total": 9,
      "result": "Loyalty",
      "loyalty": 2
+    },
+    {
+     "day": 98,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 122,
+     "event": "wages paid: 1 month(s), 12 gp"
     }
    ],
    "actor": "hesper",
@@ -856,16 +879,14 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": -1,
+   "loyalty": 1,
    "morale": -1,
    "morale_src": "carried over (Judge)",
    "wage_gp": 0.0,
    "wage_per": "month",
    "hired_day": 38,
    "periods_paid": 1,
-   "missed": [
-    1
-   ],
+   "missed": [],
    "status": "active",
    "history": [
     {
@@ -888,7 +909,7 @@
     },
     {
      "day": 68,
-     "event": "loyalty roll (calamity: wage due day 68 not paid)",
+     "event": "loyalty roll (calamity: wage due day 68 not paid) [VOID: no wage is owed to a shares-only henchman (engine fix 7.13.1)]",
      "total": 8,
      "result": "Grudging Loyalty",
      "loyalty": -1
@@ -916,17 +937,15 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": 0,
+   "loyalty": 1,
    "morale": -1,
    "morale_src": "carried over (Judge)",
    "wage_gp": 0.0,
    "wage_per": "month",
    "hired_day": 38,
    "periods_paid": 1,
-   "missed": [
-    1
-   ],
-   "status": "left (resigned)",
+   "missed": [],
+   "status": "active",
    "history": [
     {
      "day": 38,
@@ -954,7 +973,7 @@
     },
     {
      "day": 68,
-     "event": "loyalty roll (calamity: wage due day 68 not paid)",
+     "event": "loyalty roll (calamity: wage due day 68 not paid) [VOID: no wage is owed to a shares-only henchman (engine fix 7.13.1)]",
      "total": 5,
      "result": "Resignation",
      "loyalty": 0

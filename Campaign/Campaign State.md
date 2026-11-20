@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 97
-  time: '11:08'
+    day: 122
+  time: 06:00
   weather: Brisk (63 to 67 F) by day, Chilly (57 to 62 F) at night; overcast; wind moderate
   place: Buried Temple
-  hex: '11.07'
+  hex: '13.08'
   party:
   - name: Aulus
     sheet: Characters/aulus.json
@@ -23,7 +23,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 8.892
+    encumbrance_st: 9.284
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
@@ -32,7 +32,7 @@ public:
     conditions:
     - lost an eye and an ear (half her face mauled)
     spells_used: []
-    encumbrance_st: 9.056
+    encumbrance_st: 9.376
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
@@ -40,7 +40,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 8.227
+    encumbrance_st: 8.306
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
@@ -49,7 +49,7 @@ public:
     conditions:
     - raspy voice (-2 to speech throws)
     spells_used: []
-    encumbrance_st: 8.217
+    encumbrance_st: 8.79
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -57,7 +57,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 8.721
+    encumbrance_st: 9.625
   - name: Marcia
     sheet: Characters/marcia.json
     role: pc
@@ -65,7 +65,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 4.056
+    encumbrance_st: 4.448
   - name: Gallus
     sheet: Characters/gallus.json
     role: henchman
@@ -73,7 +73,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 5.074
+    encumbrance_st: 4.881
   - name: Hesper
     sheet: Characters/hesper.json
     role: henchman
@@ -81,7 +81,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 4.896
+    encumbrance_st: 5.897
   - name: Thorcigar
     sheet: Characters/thorcigar.json
     role: henchman
@@ -89,7 +89,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 2.395
+    encumbrance_st: 2.562
   - name: Thorwell
     sheet: Characters/thorwell.json
     role: henchman
@@ -97,7 +97,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 4.062
+    encumbrance_st: 4.229
   - name: Quintus the Rager
     sheet: Characters/quintus-the-rager.json
     role: henchman
@@ -120,21 +120,10 @@ public:
     conditions: []
     spells_used: []
   light: torch (Lucilla) out; torch (Vettius) out; torch (Hesper) out; torch (Hesper) out; torch (Gallus) out; torch (Gallus) out; torch (Lucilla) out
-  rations: 'Aulus: food 0 d, water 0.6 d (hungry, underfed); Sabina: food 0 d, water 1.2 d (hungry, underfed); Tarq: food 0 d, water 1 d (hungry); Lucilla: food 0 d, water 1 d (hungry, underfed); Vettius: food 0 d, water 1 d (hungry, underfed); Marcia: food 0 d, water 1.4 d (hungry, underfed); Thorwell: food 0 d, water 0 d (hungry, underfed); Thorcigar: food 0 d, water 0 d (hungry, underfed); Gallus: food 0 d, water 0.8 d (hungry, underfed); Quintus the Rager: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Zaira the Beautiful: food 0 d, water 0 d; Hesper: food 0 d, water 0 d (underfed); Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Aulus: food 0 d, water 0 d; Sabina: food 1 d, water 0.2 d; Tarq: food 2 d, water 0 d; Lucilla: food 10 d, water 0 d; Vettius: food 1 d, water 0 d; Marcia: food 1 d, water 0.4 d; Thorwell: food 1 d, water 0 d; Thorcigar: food 1 d, water 0 d; Gallus: food 1 d, water 0 d; Quintus the Rager: food 1 d, water 0 d; Vestus the Unlikely: food 1 d, water 0 d; Zaira the Beautiful: food 1 d, water 0 d; Hesper: food 1 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '12.07'
-  - '11.07'
-  - '10.07'
-  - '11.07'
-  - '08.06'
-  - '09.06'
-  - '10.06'
-  - '11.07'
-  - '12.07'
-  - '13.08'
-  - '12.07'
   - '11.07'
   - '10.07'
   - '11.07'
@@ -144,7 +133,18 @@ public:
   - '11.07'
   - '10.07'
   - '11.07'
-clock_day: 97
+  - '12.07'
+  - '13.08'
+  - '12.07'
+  - '11.07'
+  - '11.08'
+  - '10.07'
+  - '11.07'
+  - '12.07'
+  - '13.08'
+  - '12.08'
+  - '13.08'
+clock_day: 122
 ---
 # Campaign State
 

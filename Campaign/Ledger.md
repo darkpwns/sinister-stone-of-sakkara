@@ -229,3 +229,56 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 84 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
 | 84 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
 | 84 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 98 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 98 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 103 | Traveler's Inn | lodging 1sp and meals 1sp per head, days 98-102 (AX1 p. 22) |  |  | 2gp | aulus |
+| 103 | Traveler's Inn | lodging 1sp and meals 1sp per head, days 98-102 (AX1 p. 22) |  |  | 1gp | sabina |
+| 103 | Traveler's Inn | lodging 1sp and meals 1sp per head, days 98-102 (AX1 p. 22) |  |  | 3gp | tarq |
+| 103 | Traveler's Inn | lodging 1sp and meals 1sp per head, days 98-102 (AX1 p. 22) |  |  | 4gp | lucilla |
+| 103 | Traveler's Inn | lodging 1sp and meals 1sp per head, days 98-102 (AX1 p. 22) |  |  | 1gp | vettius |
+| 103 | Traveler's Inn | lodging 1sp and meals 1sp per head, days 98-102 (AX1 p. 22) |  |  | 2gp | marcia |
+| 103 | Türos Tem | Rations, Iron (one week) | 3 |  | 8gp 1sp | lucilla |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | aulus |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | sabina |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | lucilla |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | vettius |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | marcia |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | gallus |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | hesper |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | thorwell |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | thorcigar |
+| 103 | Türos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | tarq |
+| 103 | Türos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | aulus |
+| 103 | Türos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | marcia |
+| 103 | Türos Tem | Sack, Large (holds 6 stone) | 1 |  | 7sp 2cp | lucilla |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | tarq |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | aulus |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | marcia |
+| 103 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | lucilla |
+| 103 | Türos Tem | Waterskin | 5 |  | 2gp 7sp | aulus |
+| 103 | Türos Tem | Waterskin | 5 |  | 2gp 7sp | marcia |
+| 103 | Türos Tem | Waterskin | 5 |  | 2gp 7sp | lucilla |
+| 103 | Türos Tem | Waterskin | 5 |  | 2gp 7sp | lucilla |
+| 103 | Türos Tem | torch | 6 |  | 9cp | vettius |
+| 108 | Red Eye gnoll guards (L2 10) | bribe: a week's pay for three gnoll guards to introduce the party to their chief |  |  | 9gp | lucilla |
+| 111 |  | treasure share |  | 299gp 2sp 6cp |  | aulus |
+| 111 |  | treasure share |  | 299gp 2sp 6cp |  | sabina |
+| 111 |  | treasure share |  | 299gp 2sp 6cp |  | tarq |
+| 111 |  | treasure share |  | 299gp 2sp 6cp |  | marcia |
+| 111 |  | treasure share |  | 299gp 2sp 6cp |  | lucilla |
+| 111 |  | treasure share |  | 299gp 2sp 6cp |  | vettius |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | gallus |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | hesper |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | thorwell |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | thorcigar |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | quintus-the-rager |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | vestus-the-unlikely |
+| 111 |  | treasure share |  | 149gp 6sp 3cp |  | zaira-the-beautiful |
+| 111 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 122 | Traveler's Inn | lodging and meals for self and henchmen, days 111-120 (1sp+1sp a head a day, AX1 p. 22) |  |  | 4gp | aulus |
+| 122 | Traveler's Inn | lodging and meals for self and henchmen, days 111-120 (1sp+1sp a head a day, AX1 p. 22) |  |  | 2gp | sabina |
+| 122 | Traveler's Inn | lodging and meals for self and henchmen, days 111-120 (1sp+1sp a head a day, AX1 p. 22) |  |  | 6gp | tarq |
+| 122 | Traveler's Inn | lodging and meals for self and henchmen, days 111-120 (1sp+1sp a head a day, AX1 p. 22) |  |  | 8gp | lucilla |
+| 122 | Traveler's Inn | lodging and meals for self and henchmen, days 111-120 (1sp+1sp a head a day, AX1 p. 22) |  |  | 2gp | vettius |
+| 122 | Traveler's Inn | lodging and meals for self and henchmen, days 111-120 (1sp+1sp a head a day, AX1 p. 22) |  |  | 4gp | marcia |
+| 122 | the retinue | wages paid |  |  | 12gp | lucilla |

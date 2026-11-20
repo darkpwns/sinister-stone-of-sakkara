@@ -6,7 +6,7 @@
 "name": "Marcia",
 "class": "Mage",
 "level": 2,
-"xp": 3114,
+"xp": 3437,
 "alignment": "Neutral",
 "age": 22,
 "gender": "female",
@@ -15,5 +15,6 @@
 "inventory_holder": true,
 "items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Elementalism (fire)","list":"class"},{"type":"proficiency","name":"Naturalism","list":"general"},{"type":"proficiency","name":"Alchemy","list":"general"},{"type":"spell","name":"Fan of Flames","level":1},{"type":"spell","name":"Blinding Flash","level":1},{"type":"spell","name":"Sleep","level":1}],
 "modifiers": [],
-"state": {"conditions":[],"spells_used":[],"hp":8}
+"state": {"conditions":[],"spells_used":[],"hp":8},
+"changes": [{"field":"state.spells_used","from":[],"to":["Sleep"],"cause":"cast Sleep in the Outer Fane, day 108"},{"field":"state.spells_used","from":["Sleep"],"to":[],"cause":"a night's restful sleep: spells regained (engine stage 4)"},{"field":"xp","from":3114,"to":3437,"cause":"payout of Buried Temple, delve 6 (the catacombs) (day 111)"}]
 }
