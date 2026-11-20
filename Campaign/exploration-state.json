@@ -1,9 +1,9 @@
 {
  "schema": "acks-exploration/3",
  "clock": {
-  "day": 96,
-  "round_of_day": 548,
-  "total_rounds": 136868
+  "day": 97,
+  "round_of_day": 668,
+  "total_rounds": 138428
  },
  "party": {
   "aulus": {
@@ -108,6 +108,14 @@
    "actor": "zaira-the-beautiful",
    "name": "Zaira the Beautiful",
    "perceived": "Zaira the Beautiful",
+   "conditions": [],
+   "endurance": false
+  },
+  "hesper": {
+   "id": "hesper",
+   "actor": "hesper",
+   "name": "Hesper",
+   "perceived": "Hesper",
    "conditions": [],
    "endurance": false
   }
@@ -282,7 +290,10 @@
   "rest_rounds": 0,
   "winded": []
  },
- "location": null,
+ "location": {
+  "site": "11.07",
+  "kind": "wilderness"
+ },
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
@@ -417,7 +428,7 @@
   "turn_start_done": 136380
  },
  "turn_actions": {
-  "turn": 13686,
+  "turn": 13842,
   "listened": [],
   "actions": []
  },
@@ -820,6 +831,10 @@
   "96": {
    "delve_rounds": 58,
    "rest_rounds": 10
+  },
+  "97": {
+   "delve_rounds": 0,
+   "rest_rounds": 0
   }
  },
  "events": [
@@ -1582,18 +1597,26 @@
     "delve_rounds": 60,
     "rest_rounds": 0
    }
+  },
+  {
+   "event": "day_rollover",
+   "day": 97,
+   "previous": {
+    "delve_rounds": 58,
+    "rest_rounds": 10
+   }
   }
  ],
  "next_ids": {
-  "enc": 76,
+  "enc": 77,
   "torch": 18,
   "t": 1
  },
  "travel": {
   "hex_source": "/home/user/sakkara-playtest/Campaign/campaign.yaml",
   "given": {},
-  "hex": "10.07",
-  "believed": "10.07",
+  "hex": "11.07",
+  "believed": "11.07",
   "lost": null,
   "season": "spring",
   "dawn": "06:00",
@@ -1601,7 +1624,18 @@
   "month_days": 30,
   "formation_width": 15,
   "pace": "normal",
-  "progress": null,
+  "progress": {
+   "hex": "11.07",
+   "from": "10.07",
+   "hours_need": 12.0,
+   "hours_done": 8.0,
+   "mph": 0.5,
+   "fac": 0.6666666666666666,
+   "route": [
+    "12.07",
+    "13.08"
+   ]
+  },
   "weather": {
    "R04.02": {
     "climate": "Cfb",
@@ -1774,17 +1808,17 @@
     "hist": {
      "food": [
       1.0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1.0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1.0
+      0
      ],
      "water": [
       1.0,
@@ -1802,7 +1836,7 @@
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": true,
      "starving": false,
      "dehydrated": false,
@@ -1810,8 +1844,10 @@
      "hypothermic": false,
      "heat_fatigued": false
     },
-    "underfed_hist": [],
-    "strenuous_run": 2,
+    "underfed_hist": [
+     0
+    ],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -1870,8 +1906,8 @@
       0,
       0,
       0,
-      0,
-      1.0
+      1.0,
+      0
      ],
      "water": [
       1.0,
@@ -1882,14 +1918,14 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": true,
      "starving": false,
      "dehydrated": false,
@@ -1897,8 +1933,10 @@
      "hypothermic": false,
      "heat_fatigued": false
     },
-    "underfed_hist": [],
-    "strenuous_run": 2,
+    "underfed_hist": [
+     0
+    ],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -1958,7 +1996,7 @@
       1.0,
       1.0,
       1.0,
-      1.0
+      0
      ],
      "water": [
       1.0,
@@ -1969,14 +2007,14 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": false,
      "starving": false,
      "dehydrated": false,
@@ -2113,8 +2151,8 @@
       0,
       0,
       0,
-      0,
-      1.0
+      1.0,
+      0
      ],
      "water": [
       1.0,
@@ -2125,22 +2163,24 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": true,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
-    "underfed_hist": [],
-    "strenuous_run": 2,
+    "underfed_hist": [
+     0
+    ],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2199,8 +2239,8 @@
       0,
       0,
       0,
-      0,
-      1.0
+      1.0,
+      0
      ],
      "water": [
       1.0,
@@ -2211,22 +2251,24 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": true,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
-    "underfed_hist": [],
-    "strenuous_run": 2,
+    "underfed_hist": [
+     0
+    ],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2355,8 +2397,8 @@
       0,
       0,
       0,
-      0,
-      1.0
+      1.0,
+      0
      ],
      "water": [
       1.0,
@@ -2374,15 +2416,17 @@
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": true,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
-    "underfed_hist": [],
-    "strenuous_run": 2,
+    "underfed_hist": [
+     0
+    ],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2440,8 +2484,8 @@
       0,
       0,
       0,
-      0,
-      1.0
+      1.0,
+      0
      ],
      "water": [
       1.0,
@@ -2452,22 +2496,24 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.8,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": false,
+     "hungry": true,
      "underfed": true,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
-    "underfed_hist": [],
-    "strenuous_run": 2,
+    "underfed_hist": [
+     0
+    ],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2591,7 +2637,7 @@
     "con": 13,
     "con_mod": 1,
     "con_lost": {
-     "food": 5,
+     "food": 4,
      "water": 3,
      "cold": 0
     },
@@ -2600,7 +2646,6 @@
     "firewood": 0.0,
     "hist": {
      "food": [
-      1.0,
       0,
       0,
       0,
@@ -2611,7 +2656,8 @@
       0,
       0,
       0,
-      0
+      0,
+      1.0
      ],
      "water": [
       1.0,
@@ -2623,30 +2669,20 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": true,
+     "hungry": false,
      "underfed": true,
-     "starving": true,
+     "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
-    "underfed_hist": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
+    "underfed_hist": [],
     "strenuous_run": 0,
     "forced_run": 0,
     "sleep_due": null,
@@ -2705,9 +2741,9 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0,
-      0
+      0,
+      1.0
      ],
      "water": [
       1.0,
@@ -2718,22 +2754,22 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": true,
-     "underfed": true,
+     "hungry": false,
+     "underfed": false,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2787,12 +2823,12 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0,
       0,
       0,
       0,
-      0
+      0,
+      1.0
      ],
      "water": [
       1.0,
@@ -2803,26 +2839,22 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": true,
-     "underfed": true,
+     "hungry": false,
+     "underfed": false,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
-    "underfed_hist": [
-     0,
-     0,
-     0
-    ],
-    "strenuous_run": 2,
+    "underfed_hist": [],
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2879,9 +2911,9 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0,
-      0
+      0,
+      1.0
      ],
      "water": [
       1.0,
@@ -2892,22 +2924,22 @@
       1.0,
       1.0,
       1.0,
-      1.0,
       0.0,
+      1.0,
       1.0,
       1.0
      ]
     },
     "cond": {
-     "hungry": true,
-     "underfed": true,
+     "hungry": false,
+     "underfed": false,
      "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2946,19 +2978,12 @@
     "con": 11,
     "con_mod": 0,
     "con_lost": {
-     "food": 11,
+     "food": 4,
      "water": 0,
      "cold": 0
     },
-    "food": [
-     {
-      "kind": "iron",
-      "days": 1.0,
-      "wild": 42.0,
-      "dungeon": 0.0
-     }
-    ],
-    "water": 1.0,
+    "food": [],
+    "water": 0.0,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -2972,7 +2997,7 @@
       0,
       0,
       0,
-      0,
+      1.0,
       0
      ],
      "water": [
@@ -2983,8 +3008,8 @@
       1.0,
       1.0,
       1.0,
-      0.0,
       1.0,
+      0.8,
       1.0,
       1.0,
       1.0
@@ -2993,29 +3018,15 @@
     "cond": {
      "hungry": true,
      "underfed": true,
-     "starving": true,
+     "starving": false,
      "dehydrated": false,
-     "fatigued": 2,
+     "fatigued": 0,
      "hypothermic": false
     },
     "underfed_hist": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
      0
     ],
-    "strenuous_run": 7,
+    "strenuous_run": 3,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -3031,7 +3042,7 @@
      "rainy": 0,
      "snowy": 0
     },
-    "dead": true,
+    "dead": false,
     "profs": {
      "labor": false,
      "endurance": false,
@@ -3054,19 +3065,12 @@
     "con": 9,
     "con_mod": 0,
     "con_lost": {
-     "food": 7,
-     "water": 5,
+     "food": 4,
+     "water": 0,
      "cold": 0
     },
-    "food": [
-     {
-      "kind": "iron",
-      "days": 1.0,
-      "wild": 42.0,
-      "dungeon": 0.0
-     }
-    ],
-    "water": 1.0,
+    "food": [],
+    "water": 0.0,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -3080,7 +3084,7 @@
       0,
       0,
       0,
-      0,
+      1.0,
       0
      ],
      "water": [
@@ -3092,31 +3096,21 @@
       1.0,
       1.0,
       1.0,
+      0.8,
       1.0,
       1.0,
-      1.0,
-      0.0
+      1.0
      ]
     },
     "cond": {
      "hungry": true,
      "underfed": true,
-     "starving": true,
+     "starving": false,
      "dehydrated": false,
      "fatigued": 0,
      "hypothermic": false
     },
     "underfed_hist": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
      0
     ],
     "strenuous_run": 3,
@@ -3135,7 +3129,7 @@
      "rainy": 0,
      "snowy": 0
     },
-    "dead": true,
+    "dead": false,
     "profs": {
      "labor": false,
      "endurance": false,
@@ -3420,9 +3414,13 @@
      [
       0,
       1
+     ],
+     [
+      0,
+      1
      ]
     ],
-    "supplies_st": 5.5,
+    "supplies_st": 0.0,
     "grazed_day": 91
    }
   },
@@ -19261,171 +19259,251 @@
    },
    "96": {
     "_party": {
-     "nav": null,
+     "nav": {
+      "thrown": true,
+      "ok": true,
+      "natural": 15,
+      "total": 19,
+      "target": 8
+     },
      "water_tried": true,
      "weather_regions": [
       "R03.02"
      ],
-     "encounter_checks": []
+     "encounter_checks": [],
+     "anc_start": 137348
     },
     "aulus": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 12.0
     },
     "sabina": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 12.0
     },
     "tarq": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 12.0
     },
     "lucilla": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 16.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 16.0
     },
     "vettius": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 12.0
     },
     "marcia": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 16.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 16.0
     },
     "gallus": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 16.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 16.0
     },
     "quintus-the-rager": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 12.0
     },
     "vestus-the-unlikely": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
-     "ancillary": 1,
-     "strenuous": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 9.0,
      "ration": null,
      "water_ration": null,
-     "forage": false,
+     "forage": true,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 16.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 16.0
     },
     "zaira-the-beautiful": {
+     "travel_hours": 8.0,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 2,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 9.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": true,
+     "interrupt_rounds": 0,
+     "sleep_hours": 12.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "anc_window": 1,
+     "slept_restful": 12.0
+    },
+    "thorwell": {
+     "travel_hours": 8.0,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 1,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 9.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": true,
+     "interrupt_rounds": 0,
+     "sleep_hours": 12.0,
+     "cared_by": null,
+     "hunted": false,
+     "anc_window": 1,
+     "slept_restful": 12.0
+    },
+    "thorcigar": {
+     "travel_hours": 8.0,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 1,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 9.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": true,
+     "interrupt_rounds": 0,
+     "sleep_hours": 16.0,
+     "cared_by": null,
+     "hunted": false,
+     "anc_window": 1,
+     "slept_restful": 16.0
+    },
+    "hesper": {
      "travel_hours": 0.0,
      "forced": false,
      "dedicated": null,
-     "ancillary": 1,
+     "ancillary": 0,
      "strenuous": false,
      "rest": false,
      "outdoor_hours": 0.0,
@@ -19433,15 +19511,14 @@
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "slept_restful": 12.0
     }
    }
   },
   "trail": [
-   "13.08",
    "12.07",
    "11.07",
    "10.07",
@@ -19480,7 +19557,8 @@
    "13.08",
    "12.07",
    "11.07",
-   "10.07"
+   "10.07",
+   "11.07"
   ],
   "visited": [
    "13.08",
@@ -19673,14 +19751,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc57",
-   "at": "day 48 10:00",
-   "monster_name": "Hobgoblin",
-   "number": 2,
-   "reaction": "indifferent",
-   "status": "reaction"
-  },
-  {
    "id": "enc58",
    "at": "day 49 22:10",
    "monster_name": "Commoner",
@@ -19829,6 +19899,14 @@
    "monster_name": "Brigand",
    "number": 8,
    "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc77",
+   "at": "day 96 21:20",
+   "monster_name": "Elf",
+   "number": 29,
+   "reaction": "unfriendly",
    "status": "reaction"
   }
  ]

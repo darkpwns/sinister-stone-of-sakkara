@@ -6,9 +6,15 @@ type: party-notes
 The players' shared notebook, written by the Judge from the party agent's suggested updates at state saves. Player-facing: only what the party has been told or has seen, in the players' own understanding (mistakes included; the Judge does not correct them from hidden knowledge). Prefix bullets with the session (`S03:`).
 
 ## Rumours and what we make of them
+- S06: Night 96, forest hex 11.07: thirteen of us were found asleep, with no watch, by an elven file. The speaker is tall, in a grey cloak, with an old white scar across one cheek, and speaks clipped, formal Common. Bows were in hand but not drawn.
 
 ## Plans
+- S06: Feed the party from Tarq's rations, scout the stair head only, then withdraw to camp at the stream for water and food before any descent.
 
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->
+
+
+### Buried Temple, vault under the stepped tower
+- S06: 20' square vault; long straight steep staircase descending about 35' to an unseen lower level; unexplored.

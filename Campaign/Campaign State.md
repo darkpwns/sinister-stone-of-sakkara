@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 96
-  time: 09:08
+    day: 97
+  time: '11:08'
   weather: Brisk (63 to 67 F) by day, Chilly (57 to 62 F) at night; overcast; wind moderate
   place: Buried Temple
-  hex: '10.07'
+  hex: '11.07'
   party:
   - name: Aulus
     sheet: Characters/aulus.json
@@ -119,12 +119,11 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-  light: torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (Gallus) out; torch (Gallus) out; torch (Lucilla) out
-  rations: 'Aulus: food 0 d, water 0.6 d (underfed); Sabina: food 0 d, water 1.2 d (underfed); Tarq: food 0 d, water 1 d; Lucilla: food 0 d, water 1 d (underfed); Vettius: food 0 d, water 1 d (underfed); Marcia: food 0 d, water 1.4 d (underfed); Thorwell: food 1 d, water 1 d (hungry, underfed, starving, fatigued); Thorcigar: food 1 d, water 1 d (hungry, underfed, starving); Gallus: food 0 d, water 0.8 d (underfed); Quintus the Rager: food 0 d, water 0 d (hungry, underfed); Vestus the Unlikely: food 0 d, water 0 d (hungry, underfed); Zaira the Beautiful: food 0 d, water 0 d (hungry, underfed); Donkey, Draft: fodder 0 st, water 0 st'
+  light: torch (Lucilla) out; torch (Vettius) out; torch (Hesper) out; torch (Hesper) out; torch (Gallus) out; torch (Gallus) out; torch (Lucilla) out
+  rations: 'Aulus: food 0 d, water 0.6 d (hungry, underfed); Sabina: food 0 d, water 1.2 d (hungry, underfed); Tarq: food 0 d, water 1 d (hungry); Lucilla: food 0 d, water 1 d (hungry, underfed); Vettius: food 0 d, water 1 d (hungry, underfed); Marcia: food 0 d, water 1.4 d (hungry, underfed); Thorwell: food 0 d, water 0 d (hungry, underfed); Thorcigar: food 0 d, water 0 d (hungry, underfed); Gallus: food 0 d, water 0.8 d (hungry, underfed); Quintus the Rager: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Zaira the Beautiful: food 0 d, water 0 d; Hesper: food 0 d, water 0 d (underfed); Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '13.08'
   - '12.07'
   - '11.07'
   - '10.07'
@@ -144,7 +143,8 @@ public:
   - '12.07'
   - '11.07'
   - '10.07'
-clock_day: 96
+  - '11.07'
+clock_day: 97
 ---
 # Campaign State
 
