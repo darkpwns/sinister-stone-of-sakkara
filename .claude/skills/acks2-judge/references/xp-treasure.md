@@ -1,0 +1,68 @@
+# Treasure, experience and advancement (engine stage 5)
+
+Load when treasure is rolled, placed, found, carried, valued, identified or sold; when an adventure ends (return to civilization); when a character gains a level or a 0th-level henchman reaches 1st level; when a character dies or is restored.
+
+The engine decides all of this (tools repo `engine/COVERAGE.md`, stage 5): treasure types and their rolls, gems, jewelry, special treasures, magic items by type (Classic: this campaign's Table rules) with their vault note, base cost and apparent value, dungeon stocking treasure, weight, appraisal, selling (market class and demand modifiers from the market note), identification, monster XP, shares, key-attribute adjustments, the one-level cap, the treasure split, levelling (21 classes), 0th-level advancement, death, reserve XP, heroic funerals, heirs and Tampering with Mortality. Its numbers and sources stand: no lookups for them. Item **effects** stay in the item's vault note (the engine links it). Every call goes through `bash $S/acks.sh` (adds the adventure ledger `Campaign/adventure-state.json`, the clock, the retinue state, the roll log).
+
+## 1. Start of an adventure
+
+- First time only: `acks.sh adventure init` (placement setting Classic and the arms column from `campaign.yaml` tools.treasure).
+- When the party leaves civilization: `acks.sh adventure start --name "<site or errand>"`, then `adventure join ID --kind pc|henchman|hireling [--player NAME] [--retinue-id M]` for every member. Hirelings join with no XP share (reading `xp.hireling_share`) and no treasure share (they get wages).
+
+## 2. Rolling and placing treasure (hidden)
+
+- Lair: `acks.sh treasure --monster NAME [--groups N] --label "<room>"` (the statblock's Treasure Type; "per warband" types need `--groups`; met outside its lair: `--outside-lair`, no lair treasure). A Treasure Type by letter: `--type H`. Terrain cache: `--terrain Forest`. NPC party: `--npc-level N`. Planning a site: `--plan-xp N --category hoarder|raider|incidental`. Special treasures in place of coin lots: add `--special`.
+- Dungeon rooms (unprepped sites, prep): `acks.sh place --room empty|trap|monster|unique --level L --label "<room>"`, or `--stock N` for N rooms; the ratio: `place --ratio GP XP`.
+- One magic item: `acks.sh item --category potions|scrolls|… ` (Classic).
+- Each result is stored as a hoard `H#` (unfound, Judge only). The line lists true contents; never show them. Judge items the engine raises (spell scroll contents, a treasure map's destination, a misc item's form, an apparent value the vault does not give) are answered when the hoard is found: an apparent value with `recover --lots L# --apparent N` (a plain +1 weapon: about a masterwork's value, as the named +1 weapons' 650gp + the weapon's price).
+
+## 3. Finding and carrying (open, as perceived)
+
+- `acks.sh recover --hoard H# --carrier ID [--lots 0,2] --where "<room>"`: each lot gets an id `L#`, a true record (Judge only, in the ledger; the actor's view shows it under `judge.treasure`) and a player record (what the characters see: "a potion (golden, honey-scented)", "4,000 electrum pieces", "a piece of jewelry (carved jade)"; its apparent value). Coins are counted at once; other values are unknown until appraised or sold.
+- Loose finds: `recover --coins 300gp|--gem 50|--jewelry 400|--item NAME [--apparent N]|--goods "…" --value N --stone S|--reward N|--ransom N --carrier ID [--looks "…"]`.
+- Weight: the line gives the carrier's new encumbrance and speeds (stage 2 bands; also the exploration state, so `travel` and `turn` use them). Over the maximum he cannot move: share the load (`recover --give L# --carrier OTHER`; part of a coin lot: `--qty N`) or leave it (`recover --drop L#`). A carrier without an actor (a hireling) needs one for the speed check: a draft actor in `Campaign/candidates/` (`actor new`), then `party add ID`.
+- Monsters defeated (killed, captured, outsmarted): `acks.sh recover --monster NAME --number N [--variant warrior] [--how captured]` (statblock XP; a classed NPC: `--xp-each` from his level as HD).
+- A module's magic item with no vault note: an item note in a folder named by config `tools.items` (front matter `name`, `category`, `base_cost`, `apparent_value`), then `recover --item "<name>"`. A placed plain +N item names its type: `recover --item "Armor +1 (Chain Mail)" --apparent N` (no type roll).
+- Narrate only the player record. Actors are updated by the engine.
+
+## 4. Appraising, identifying, selling, using
+
+- Appraisal (the rules give no procedure; reading `appraise.methods`): `acks.sh appraise L# --by ID --prof "Craft (jeweler)"` (Art/Craft throw by rank; the Judge confirms the craft fits), `--naturalism` (monster parts), `--sale` (a merchant's offer), `--expert [--fee N]` (a hired specialist). A failed throw is not repeated until he gains a level.
+- Identification: `acks.sh identify L# --by ID --method sip|equip|use|train|read|alchemy|dabbling|loremastery|magical-engineering|research|judge [--reveal "fact; fact"]`. The engine checks the method's limits (proficiency on the actor, rarity limits of Loremastery and Magical Engineering, no retry until a level is gained) and moves only what the method reveals to the player record; curses trigger where the rules say. Research: `--caster-level N --spell-levels N [--library-over GP] [--loremastery]` (1,000gp + 1,000gp).
+- Using an item in play: `acks.sh use L#` (no sale XP if it is sold later). A magic weapon lot that is used becomes a
+  weapon in its carrier's inventory (it keeps its lot id; `--slot` / `--row` if the engine asks); divided by agreement:
+  `acks.sh inv claim L# <id> --cause "divided by agreement"`. An Armor or Shield lot claimed this way is worn at once
+  (armor or left-hand slot, catalog type from the lot or `--row`, AC modifiers named `lot L# (…)`); taking it off:
+  `acks.sh inv remove`/`inv move` the item and `acks.sh actor <id> unmod --source "lot L# (…)" --cause "…"`. Its player record governs what the players know: the
+  actor shows "Sword" until identification teaches "bonus +1"; the engine always uses the true bonus, marks the
+  damage extraordinary, and hides that weapon's attack and damage rolls while the bonus is unknown (an open 1d20+2
+  would give it away). Such a lot is sold off the books (`sell` and `inv sell` both refuse it): `inv remove <id> wN
+  --why 'sold off-book' --cause "…"`, then `inv receive <id> <coins> --from <buyer> --cause "…"` at your price; no sale
+  XP is computed (none for a used item, RR p. 310; award it yourself for a divided lot sold unused).
+- Selling: `acks.sh sell L#,L# --by ID --market-note "07 Markets/<Place> (Market).md"` (market class and demand modifiers from the note). Gems and jewelry at their value (reading), special treasures at their listed value (the engine flags a negative demand modifier: rule on it), identified magic items at base cost within the market's monthly sales by rarity, unidentified ones at apparent value (reading). Merchandise by the mercantile rules: `--arbitrage` (price per stone, daily volume, tariff). `--bargaining` for the seller's Bargaining.
+
+## 5. End of an adventure: payout (open)
+
+- When the first member reaches civilization (a friendly settlement or stronghold, or a civilized hex): `acks.sh adventure return [ID,ID] --name "<place>"`, then `acks.sh payout --at "<place>" [--returned ID,ID] [--award NAME:XP] --ledger` (a preview: nothing changes) and the same with `--apply`. Appraising, selling and identifying in town can come before or after it (a later sale: below).
+  - Treasure XP 1 per gp of what was brought back (≥ 1 sp per stone), magic items at apparent value (plus the sale price if identified and sold unused), rewards and ransoms; monster XP; awards only if Table rules turn quest/discovery awards on (they are not ACKS II core).
+  - Shares: PC 1, henchman ½; the dead left behind get none; the dead brought back get a share (and lose it to the player's reserve fund if not restored within a day: `death ID --not-restored --player P`).
+  - Key-attribute adjustment, then the cap (1 XP short of the level after next; reading `xp.cap_after_bonus`).
+  - The treasure split (henchmen half a share) of coin and sale proceeds: `--apply` adds each share to the holder's coins in the inventory and marks the coin lots divided. Unsold gems, jewelry, goods and magic items are listed for the players to divide by agreement (or sell first): a choice owed to the players.
+- Copy the `--ledger` rows into `Campaign/Ledger.md` (Treasure recovered, Monster XP, Shares and XP awarded; Purchases and sales is generated from the inventory) **before** `save.sh`; `--apply` has written the actors' XP and put each share's coins into the inventory (a dead member's XP is held until he is restored or `death --not-restored`). If `advance-0th` later caps a henchman's award, correct his Shares row with the total it prints.
+- A later sale of an identified, unused item: `acks.sh payout --sale L# --apply` (its XP to that adventure's share-holders; reading `xp.sale_after_payout`).
+
+## 6. Levels
+
+- "level-up owed": `acks.sh level-up --sheet <id> [--member M] --apply` (it refuses to run without `--apply`: it rolls dice once). It rolls the hp (open), and reports and writes every number changed (title, XP for the next level, hp, attack throw, saves, cleaves, damage bonus, class tables) and every **choice owed to the player** (class or general proficiency, spells to add to the repertoire): ask the player; the engine never chooses. Record each choice with `acks.sh actor item <id> add proficiency "<name>" --list class|general [--ranks N --replace]` or `add spell "<name>" --level N`, `--cause "level N: player's choice"`. Henchmen (`--member`): the loyalty roll for the level (hidden) and the morale changes.
+- "advance-0th owed": the Judge chooses the class from attributes, proficiencies and adventures to date, then `acks.sh advance-0th --sheet <id> --class C [--member M] --apply` (requirements checked; hp re-roll keeping the higher of the new roll or old + 1; Adventuring; class throws and powers; proficiencies reconciled, with what is replaced, kept, lost; the cap at 1 XP short of 2nd level; the loyalty roll). Confirm the proficiency-to-power equivalences it lists.
+- Monstrous henchmen: `acks.sh level-up --monster NAME --hd N --xp X [--sapient|--enchanted]`.
+
+## 7. Death
+
+- During the adventure: `acks.sh death ID --dies --body carried|left_behind` (what he carried stays with a body left behind; his possessions go to the inventory holder `body:ID`; a retinue member is marked dead in the retinue state: then `git mv Characters/<id>.json Characters/former/`).
+- After: `--not-restored --player P` (his XP to the reserve fund), `--reserve-spend GP --player P` (money spent to no benefit: 90%), `--funeral GP --player P [--unheroic]`, `--new-character --player P --prior-xp N` (starting XP never above the prior character's; template gear or 3d6 × 10gp), `--successor HENCH --player P` (a henchman taken over; the dead PC's other henchmen leave unless recruited: stage 3), `--heir NAME [--will] [--deposits GP]` / `--no-heir`.
+- Restored to life or healed of a permanent wound by *restore life and limb* or *repair disfigurement and disability*: `acks.sh restore ID --alignment lawful|neutral|chaotic --caster-level N [--temple] [--age old] [--instant] [--limbs N] [--wil-mod N] [--days-dead N] [--side-effects N]` (open), then the bed rest it gives with stage 4 `heal ID --bed-rest N`.
+
+## 8. Secrecy
+
+Hidden: every treasure and placement roll, true identities, values before appraisal, rarities (never told to players, TT p. 29), appraisal and identification throws, monster XP during the adventure, a small market's buyer roll, loyalty rolls. Open: what the characters perceive of found treasure, coins, appraised values, identified facts, sale prices, the payout and split, level-ups and the hp rolls, Tampering with Mortality. `snapshot.py` refuses an unidentified item's true name or note anywhere in the output and the true-record fields; the party agent sees only the actors' `treasure` player records (`party.py` lists them as "treasure carried"; the `judge` block is never passed).

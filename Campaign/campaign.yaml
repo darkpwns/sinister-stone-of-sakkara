@@ -1,0 +1,207 @@
+# Sakkara playtest (2026-11-20): AX1 The Sinister Stone of Sakkara run as an acks2-judge campaign, AI party of six.
+# Local test instance; Kardakia's master state is untouched. Schema: .claude/skills/acks2-judge/references/config-schema.md.
+
+campaign:
+  name: AX1 Playtest
+  repo: local
+  clone_dir: /home/user/sakkara-playtest
+  resume_phrase: resume Sakkara
+  chat_name: Sakkara S## — <summary>
+  commit_prefix: S##
+rules:
+  repo: darkpwns/acks2-rules-vault
+  clone_dir: /home/claude/acks2-rules-vault
+  lookup_skill: acks2-rules-lookup
+  supplements: none
+  warfare: ACKS II Rules/10 Warfare/
+tools:
+  repo: darkpwns/acks2-tools
+  clone_dir: /home/claude/acks2-tools
+  ref: claude/sakkara-adventure-playtest-7kql1w
+  min_version: 7.13.0
+  setup: setup.sh
+  wrapper: .claude/skills/acks2-judge/scripts/acks.sh
+  combat_state: Campaign/combat-state.json
+  exploration_state: Campaign/exploration-state.json
+  retinue_state: Campaign/retinue-state.json
+  actor_changes: Campaign/actor-changes/
+  candidates: Campaign/candidates/
+  engine_rulings: Campaign/engine-rulings.yaml
+  coverage: engine/COVERAGE.md
+  hexes: Campaign/campaign.yaml
+  inventory_state: Campaign/inventory-state.json
+  adventure_state: Campaign/adventure-state.json
+  treasure:
+    setting: classic
+    arms_setting: Classical Epic
+  bestiary:
+  - Adventure/Bestiary/
+  items:
+  - Adventure/Items/
+  travel:
+    dawn: 06:00
+    moon: half
+start:
+  year: ''
+  season: spring
+  day: 1
+  time: morning
+  mode: town
+  location: '[[Turos Tem]]'
+  hex: '13.08'
+paths:
+  home: Adventure/AX1 Hub.md
+  wiki_folders:
+    world: Adventure/
+    region: Adventure/
+    places: Adventure/
+    people: Adventure/
+    factions: Adventure/
+    realms: Adventure/
+    markets: Adventure/
+    dynamic_lairs: Adventure/
+    tables: Adventure/
+    secrets: Campaign/
+    sessions: Session Log/
+    build_notes: Campaign/
+    templates: Templates/
+    maps: Adventure/
+  sites_folder: Adventure/
+  state:
+    campaign_state: Campaign/Campaign State.md
+    world_state: Campaign/World State.md
+    rulings: Campaign/Rulings.md
+    ledger: Campaign/Ledger.md
+    roll_log: Campaign/roll-log.jsonl
+    snapshot: Campaign/snapshot.json
+  characters: Characters/
+  actors:
+  - Characters/
+  - Characters/former/
+  - Campaign/candidates/
+  - Actors/npc/
+  - Actors/monsters/
+  calendar: Campaign/Campaign State.md
+secrecy:
+  judge_only_folders:
+  - Campaign/
+  - Actors/
+  - Adventure/
+  judge_only_files: []
+  judge_only_tag: sakkara/secret
+  judge_only_callout: '> [!danger] Judge only'
+  player_facing:
+  - Party/
+  revealed: [Turos Tem, Viaspen Forest]
+logs:
+  session_log:
+    folder: Session Log/
+    template: Templates/Session.md
+    filename: S## — <summary>.md
+    index: Session Log/Campaign Log.md
+    index_section: '## Sessions'
+    judge_block: '> [!judge]- Judge rolls'
+  rumours:
+    note: Session Log/Rumours Heard.md
+    section: '## Rumours heard by the party'
+  story_strands:
+    note: Campaign/World State.md
+  clocks: []
+procedures:
+  overland: core
+  flags: none
+  procedure_notes:
+  - Adventure/AX1 Hub.md
+  weather:
+    source: ACKS II Rules/Judges Journal/02 Adventures/Weathering the Wilderness.md
+    unit: 24-mile hex, rolled at the start of each game day
+    climate: hexes.climate
+display: {}
+party:
+  structure: ai-party
+  caller: gideon
+  user_pc: ''
+  active_players:
+  - id: gideon
+    pc: Characters/aulus.json
+  - id: priya
+    pc: Characters/marcia.json
+  - id: tomasz
+    pc: Characters/vettius.json
+  - id: rosa
+    pc: Characters/lucilla.json
+  - id: kwame
+    pc: Characters/tarq.json
+  - id: ingrid
+    pc: Characters/sabina.json
+  pc_pdf_template: ''
+  pc_pdf_source: none
+  agent:
+    call: Agent tool, subagent_type general-purpose, model sonnet, prompt = build's one-line pointer
+    model: Claude Sonnet 5.5
+    base_prompt: Party/prompt/base.md
+    profiles: Party/profiles/
+    heuristics: Party/heuristics.md
+    memory: Party/memory/
+    party_notes: Party/party-notes.md
+    call_dir: /tmp/claude-0/-home-user/3b98de0d-2af8-5380-a3d1-84449e84267b/scratchpad/party
+    call_log: Campaign/party-log.jsonl
+    retries: 1
+    rules_refused:
+    - vault/Bestiaries/
+    - vault/ACKS II Rules/Monster Rules/
+    - vault/ACKS II Rules/Judges Journal/
+hexes:
+  csv: Data/hexes.csv
+  numbering: CC.RR column.row; 6-mile hexes (module Region Map, CCRR)
+  offset: even-columns-down
+  columns:
+    hex: hex
+    terrain: terrain
+    zone: zone
+    river: river
+    domain: domain_ruler
+    domain_kind: domain_kind
+    classification: classification
+    revenue: land_revenue_gp
+    site: point_of_interest
+    encounters: encounters                  # AX1 Viaspen Forest: the module's 1d6 6+ check and table replace the RR throw (travel, search, hunt)
+  roads:
+    file: Data/world.json
+    key: roads
+  navigable_rivers:
+    file: Data/world.json
+    keys: []
+  places: Data/places.csv
+  terrain_map:
+    grass:
+      acks: grassland-farmland
+    scrub:
+      acks: scrubland-sparse
+    hills:
+      acks: hills-rocky
+    mountains:
+      acks: mountains-rocky
+    forest:
+      acks: forest-deciduous
+    swamp:
+      acks: swamp-marshy
+    barrens:
+      acks: barrens-rocky
+    sea:
+      acks: null
+  climate:
+    by_column:
+      below: 99
+      west: Cfb
+      east: Cfb
+  weather_region:
+    size: 4
+  settlements:
+    file: Data/places.csv
+    hex_column: hex
+    name_column: note
+    type_column: type
+    types:
+    - stronghold
+    - town

@@ -1,0 +1,21 @@
+# Town mode
+
+Load when the party is in a settlement or stronghold and buys, sells, lodges, asks around or hires.
+
+## Where things are
+- The settlement or stronghold note (config `paths.wiki_folders.places`) and its market note (`market:` property → config `paths.wiki_folders.markets`): market class, characteristics, demand modifiers. `hex.py HEX` gives the site note path.
+- Rules: `Purchasing Equipment` (## Equipment Availability by market class), `Expected Living Expenses (Optional)` (RR pp. 173–174). Hiring is the engine's (stage 3): no rules lookups for it.
+
+## Procedure
+1. Time: track days spent in town; the Campaign State `public.date` and `time` advance with what the party does.
+2. Buying and selling equipment: the engine (stage 6, `inventory.md`): `acks.sh inv buy <id> "<item>" [PACKS] --market "<Place>" --market-note "<market note>"` checks the month's availability for the party (percentages rolled hidden, once a month per item), takes the price from the payer's coins and gives change; `inv sell` the same way. A venturer or a Bargaining character haggling for the party: `--bargainer ID`. Animals and vehicles are bought with `--as ID` (they become holders; a vehicle is harnessed with `inv harness`) and sold empty with `inv sell <id> <holder>`. Demand modifiers from the market note apply to merchandise trade, not to ordinary adventuring gear unless the note says so.
+3. Selling, appraising, identifying (engine stage 5, `xp-treasure.md` §4): `acks.sh sell L#,… --by ID --market-note "<market note>"` (gems and jewelry at their value, special treasures at their listed value with the market's demand flagged, magic items at base cost within the month's sales by rarity, unidentified ones at apparent value; `--arbitrage` for merchandise by the mercantile rules); `acks.sh appraise L# --by ID --prof "Craft (jeweler)" | --sale | --expert`; `acks.sh identify L# --by ID --method …` (Alchemy, Magical Engineering, Loremastery, magic research). Lot sale prices reach the characters at the payout; the XP for them is the payout's (`payout --sale L#` after the adventure's payout).
+4. Living and lodging: Expected Living Expenses is optional in ACKS II. If Table rules have not settled it, ask the user once and record the choice in Table rules ("Other") and Rulings. Charge lodging and food at RR prices for each day spent: `acks.sh inv pay <id> <amount> --to "<inn>" --cause "lodging, N nights"`.
+5. Rumours: when the party asks around (taverns, markets, officials), roll on the campaign's rumour table (config `logs.rumours.note`) hidden, then add the rumour given, the date and source to its "heard by the party" section (config `logs.rumours.section`). Never mark rumours true or false there. A rumour already given is not given again; roll again.
+6. Hiring: load henchmen-hirelings.md and use the engine: `acks.sh recruit --market-class <market note's market_class> --market "<Place>" --region "<Place>" …` for each type sought (a week's search per type: the fee is open and the engine takes it from the employer's coins; arrivals by week), `candidate` for each one the party meets, `offer`, `hire`. Days spent searching pass with `acks.sh wait --days N` (wage days run inside it).
+7. Spellcasting services (RR pp. 172-173): `acks.sh spellcasting --payer ID --market "<Place>" --market-class N --type arcane|divine --level L [--spell NAME] [--other-faith] [--opposite-alignment] [--prof diplomacy|intimidation|seduction|"mystic aura"]`. The engine rolls the day's availability for that market and level (hidden, kept per market, level and day), the hiring-offer reaction with the payer's CHA and the approach, and on acceptance takes the fee from the payer's coins. A refusal stands for the day.
+8. Talking to a townsman (reaction, bribes, influence) without a monster stand-in: `acks.sh encounter start --npc "<name>" [--npc-actor ID]`, then `reaction` as in encounters.md §4 (diplomatic and seductive approaches use the NPC actor's WIL); `encounter end` when done.
+9. NPCs: the settlement note names its ruler and notable people; for anyone else give two or three traits and a voice, and add the name to the prep queue.
+
+## State
+Every transaction is an inventory event (the actors' gear and coins and the Ledger's Purchases and sales are generated from it); time in Campaign State; `save.sh`.

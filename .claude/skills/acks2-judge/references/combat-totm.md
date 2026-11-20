@@ -1,0 +1,111 @@
+# Combat (theater of the mind) — with the rules engine
+
+Load when a fight starts. The engine (`bash $S/acks.sh CMD …`, config `tools`) decides attack throws, damage,
+saves, proficiency throws, initiative, the round sequence, morale and Mortal Wounds, and names the source of every
+number. Do not look those up. Look up (rules lookup skill) only what the engine's coverage table (config
+`tools.coverage`) leaves to lookup: a spell's or monster ability's effect, an unusual maneuver, positions it is not
+told. If setup printed `engine: UNAVAILABLE`, run the fight by Judge's Screen §2 with `dice.py` (the old procedure is
+in git history of this file).
+
+Every engine command prints one line. Parts marked `[H]` are Judge-only (monster rolls, monster hp, morale): they go
+in the Judge block, never to the player. Lines with `| JUDGE:` list what the engine left to you; `| NOTE:` lists
+actor differences and readings applied (book contradictions, rulings). `--json` gives every number with its source.
+
+## Start of the fight
+1. `acks.sh state init` (creates the config `tools.combat_state` file; add `--group-initiative` to roll once per
+   group of identical monsters).
+2. Add every combatant once:
+   - PCs and henchmen: `acks.sh state add <id> --side party` (the actor id; it starts at the actor's current hp,
+     `state.hp`; `--ac-mode no_shield` if no shield is in hand).
+   - A named monster or NPC with its own actor (`Actors/monsters/`, `Actors/npc/`; an NPC's is made on demand,
+     characters.md → NPCs): `acks.sh state add <id> --side foe --group <g> --perceived "…"`.
+   - Other monsters: `acks.sh state add <id> --monster "<MM note name>" --group <g> --perceived "<what the party sees>"`
+     (hp rolled hidden). The line lists any field the statblock leaves as a choice (`JUDGE: needs Judge: ac …`):
+     set it with `acks.sh state set <id> ac=5` (also `hd`, `morale`, `save=F3`, `attack_throw`, `weapon=spear`,
+     `size`, `armor_ac`, `running`). Leaders with their own statblock line in the
+     entry: `--set ac=… --set hd=… --set attack_throw=…`.
+   - Immunities and resistances load with the monster from its bestiary note (engine 6.20.0: typed records, mundane
+     or extraordinary, with flaws such as silver; effect immunities for saves): do not read the note for them. Only a
+     `needs Judge: defenses: …` line asks you (a dragon's picks, a lycanthrope's form, an elemental's element, an
+     exception such as "except from the warder"). For that rare case: `acks.sh state set <id> immune=fire:mundane,all:mundane
+     resist=fire:extraordinary flaw=silver immune_effects=fear` (tier mundane|extraordinary|both; no tier = both, which
+     is what the old `resist=fire` means). `acks.sh monster "<name>"` shows the records.
+   - Use perceived names in `--perceived`: open-roll labels use them and reach the snapshot. `acks.sh` refuses a foe
+     without one (`state add` of a non-party combatant, `encounter fight`, `npc-party --to-state`).
+3. Positions: `acks.sh state distance <a> <b> <feet>` (opening distance from the encounter roll),
+   `state engage <a> <b>`, cover by argument at the attack. Surprised combatants: `state cond <id> surprised`.
+
+## Each round
+1. Declarations, then initiative: `acks.sh round-start [--declare <id>:spell|retreat|withdraw …] [--mod <id>:<name>:+N]`.
+   It gives the order. Ties name who chooses. Show the party's initiative rolls; give the monsters only as the order.
+2. Count down: `acks.sh round-next` gives the next combatant to act (it ends disordered/charging/defending and
+   readied actions at their initiative, and faltering when unengaged). Then resolve that combatant's actions:
+   - **Attack:** `acks.sh attack <a> <t> [--routine N --attack N] [--charge|--countercharge|--set-vs-charge]
+     [--range short|medium|long] [--cover waist|chest|narrow] [--flank|--rear] [--higher] [--maneuver M] [--ambush]
+     [--through-melee] [--dual dual|specialized] [--mod "<proficiency or item>:+N"]`. Damage follows
+     on a hit. A PC's or henchman's weapon is the one in hand in the inventory, with its grip (one or two hands): no
+     `--weapon`, `--two-handed` or `--type`. `--weapon <item or id>` only switches to the other weapon in hand
+     (`--weapon unarmed` for a punch); a weapon not in hand, no weapon in hand, or `--two-handed` against the grip is
+     refused. The damage line names its types and tier (mundane, or extraordinary for a magic weapon or a monster's
+     extraordinary attack) and the target's records apply by themselves (RR p. 300: reduced only if protected against
+     every type). Monsters fighting by weapon still take `--weapon NAME`. `--extraordinary`: an effect the engine does
+     not model makes this attack extraordinary (your call).
+   - **Grip and drawing:** `acks.sh inv wield <id> <item> [--two-handed] [--hand right|left]` takes a weapon in hand;
+     `acks.sh inv grip <id> <item> one|two --cause "…"` changes the grip (a shield or anything else in the other hand
+     refuses two hands; a large weapon is always two-handed; a lance on foot is two-handed with its die one size
+     smaller, `grip … one --cause "mounted"` when mounted). Putting it away: `inv move <id> <item> --slot belt`. A missile attack uses one of the attacker's arrows, bolts or sling stones from the inventory (`--ammo "silver arrow"` to choose; hit: destroyed, miss: on the ground at the site), a thrown weapon lands at the site, and a lance, spear or polearm breaks on a natural 1 (`inventory.md`). The engine refuses illegal attacks (charge when engaged at round start, missiles at an engaging foe or
+     at foes engaged with allies without Precise Shooting, beyond long range, conditions that forbid attacking).
+     A monster's multiple attacks: one call per attack (`--attack 0`, `--attack 1`, …).
+   - **Cleave:** when the line says "may cleave", attack another foe in reach with `--cleave` (and the same
+     `--charge`/`--ambush` flags if the bonus continues).
+   - **Coup de grace:** a helpless foe (slumbering, unconscious, paralyzed) and an attacker not engaged: `acks.sh attack <a> <t> --coup-de-grace` slays it outright (RR p. 511). A sneaking thief against a sleeping monster is the classic case.
+   - **Sweep:** `acks.sh sweep <a> <t1> <t2> …`.
+   - **Other damage** (spells, traps, falls, oil): `acks.sh damage <t> --dice XdY --type T [--extraordinary|--mundane]
+     [--half]` (spells: `--extraordinary`; refused without a tier when the target's protection differs by tier).
+   - **Saves:** `acks.sh save <id> paralysis|death|blast|implements|spells [--vs-size <id>] [--cover …] [--vs-type T
+     [--extraordinary|--mundane]] [--vs-effect enchantment|fear|"death effects"|disease|…] [--vs-fear] [--vs-enemy]`
+     (a maneuver's save, a spell's save, the perils of cowardice; immunity to the type or effect succeeds by itself).
+   - **Defend:** `acks.sh state defend <defender> [<protected>] [--note shield]`.
+   - **Conditions:** `acks.sh state cond <id> <condition> [--rounds N]` / `uncond`.
+   - **Moves:** you decide what the distance allows (combat speed, running speed; Judge's Screen §4 Movement in the
+     wilderness), then `state distance` / `state engage` / `state disengage`. A move the distance does not allow
+     does not happen.
+   - **Proficiency throws in combat:** `acks.sh throw <id> --adventuring dungeonbashing` (or `--prof`, `--guideline`).
+3. End of round: `acks.sh round-end [--party-fled] [--cornered <group>] [--mod <group>:<name>:+N]`. It rolls morale
+   (hidden) exactly where the rules require it, applies the result (frightened, cowering, faltering, pursuit state),
+   counts down durations and kills a combatant dying "within 1 round" who was not healed. Narrate the behaviour.
+   Morale modifiers from the monster entry (leader alive, war drums) go in `--mod`.
+
+## Wounds
+- A PC or henchman at 0 hp or less is unconscious (the line says so; a henchman at 0 hp also needs a loyalty roll
+  for a calamity — henchmen-hirelings.md).
+- Treat Injury (combat action) or a cure spell: `acks.sh mortal-wounds <id> [--healing-magic <spell level>]
+  [--healing-ranks N] [--horsetail] [--laying-on-hands <level>] [--heavy-helm|--no-heavy-helm]`; the elapsed time
+  comes from the round it fell (or `--elapsed 3t|2h|1d` outside the fight; `--untreated-24h`). Open roll. The line
+  gives the condition and the permanent wound; record them in the actor: `actor set <id> state.conditions "[…]"
+  --cause …` (scarring and lasting wounds also in his prose note).
+
+## The tracker for the player and the Judge block
+- Player half (`public.tracker` in Campaign State): `acks.sh state show --player` prints exactly what the
+  characters perceive (perceived names, party hp, engagements, distances, initiative order). Copy those fields.
+- Judge half: the engine's state file is the tracker (monster identities, hp, morale state). In the session log's
+  collapsed Judge block, put the `[H]` lines of the fight (or `dice.py --dump hidden`, which includes engine rolls).
+
+## Rulings that must stay consistent
+The first time in the campaign a fight needs either of these, look for a rule first (`rl_find.sh`), then rule, and
+append the ruling to Rulings.md:
+- **Area effects in the mind's eye:** how many creatures a blast, cone or line catches given the distances and formation.
+- **How many attackers can reach one target:** the optional *Engagement by Smaller or Larger Creatures* table
+  (the engine has it as data, not enforced); state whether it is used and the limit for same-size attackers.
+
+## End of the fight
+Foes at 0 hp are unconscious and possibly slain (RR p. 302). While the fight lasts the party may slay a helpless one
+(coup de grace) or treat one (`mortal-wounds <id> --elapsed …`, e.g. to take a prisoner). When it ends, first
+`acks.sh state end` (a piercing-and-slashing weapon's table is a hidden 1d2; `--type <id>:<type>` only for other mixes, such as fire and bludgeoning): every foe still unconscious and
+untouched rolls Mortal Wounds at once, hidden, as untreated for 24 hours (Rulings 2026-11-19). Slain, or **recovering**
+at 1 hp with its wound and bed rest: note each survivor in World State `## Dungeons and lairs` (where it lies, the
+wound, the bed rest; the party believes it dead) and play it from there. Then:
+Monsters slain or fled → World State; monster XP and treasure → Ledger; each PC's and henchman's hp and conditions
+from `state show` → his actor (`acks.sh actor set <id> state.hp N --cause "fight, S##"`, likewise `state.conditions`;
+`public.party` follows at the save); clear `public.tracker`; delete the combat state file (`git rm` if committed);
+`save.sh`.

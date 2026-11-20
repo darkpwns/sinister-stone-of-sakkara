@@ -1,0 +1,231 @@
+---
+type: ledger
+tags:
+  - gotfn/campaign
+---
+# Ledger
+
+## Treasure recovered
+
+| Session | Adventure | Lot | Description | Value (gp) | XP |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Buried Temple, delve 1 | L1 | spider egg cluster (room 11) | 295 (sold 324.50) | 295 |
+
+## Monster XP
+
+| Session | Adventure | Monster | Number | XP each | XP |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Buried Temple, delve 1 | stirge | 2 | 13 | 26 |
+
+## Shares and XP awarded
+
+| Session | Adventure | Character | Share | Treasure XP | Monster XP | Other XP | Adjustment | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 01 | Buried Temple, delve 1 | Aulus | 1 | 59 | 5 | 0 | +5% | 67 |
+| 01 | Buried Temple, delve 1 | Sabina | 1 | 59 | 5 | 0 | +10% | 70 |
+| 01 | Buried Temple, delve 1 | Tarq | 1 | 59 | 5 | 0 | +0% | 64 |
+| 01 | Buried Temple, delve 1 | Lucilla | 1 | 59 | 5 | 0 | +10% | 70 |
+| 01 | Buried Temple, delve 1 | Vettius | 1 | 59 | 5 | 0 | +5% | 67 |
+
+## Wages
+
+| Date (game) | Henchman | Months | gp | Paid by |
+| --- | --- | --- | --- | --- |
+| spring 8 | Brannoc | 1 (+3gp signing) | 12 | Lucilla |
+
+## Purchases and sales
+
+Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never edited by hand.
+
+| Date (game) | Where | Item | Qty | gp in | gp out | Character |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Turos Tem | Oil, Common (1 pint) | 6 |  | 1gp 6sp 2cp | cassia |
+| 1 | Turos Tem | Crowbar | 1 |  | 9sp | cassia |
+| 1 | Turos Tem | Sack, Large (holds 6 stone) | 2 |  | 1gp 4sp 4cp | cassia |
+| 1 | Turos Tem | Javelin, Javelin, Javelin | 3 |  | 2gp 7sp | tarq |
+| 1 | Turos Tem | Short Bow | 1 |  | 2gp 7sp | aulus |
+| 1 | Turos Tem | Shield | 1 |  | 9gp | tarq |
+| 1 | Turos Tem | arrow | 20 |  | 9sp | aulus |
+| 1 | Turos Tem | Pole, Wooden | 1 |  |  |  |
+| 1 | Turos Tem | Rope, 50' | 1 |  | 9sp | aulus |
+| 1 | Turos Tem | torch | 18 |  | 2sp 7cp | aulus |
+| 1 | Turos Tem forum | the pole's price: bargaining rounding fixed (engine), paid the copper owed |  |  | 1cp | cassia |
+| 1 | brokers and criers | recruiting fee (a week's search) |  |  | 2gp | cassia |
+| 8 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 8 | Brannoc | signing bonus (a week's wage) |  |  | 3gp | lucilla |
+| 8 | lucilla | signing bonus |  | 3gp |  | brannoc |
+| 8 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | lucilla |
+| 8 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | lucilla |
+| 9 | Urza, the kobold king | toll for safe passage through kobold territory (10gp a head, Bargaining -10%: 63gp for 7) |  |  | 40gp | cassia |
+| 9 | Urza, the kobold king | toll (share) |  |  | 20gp | tarq |
+| 9 | Urza, the kobold king | toll (share) |  |  | 3gp | lucilla |
+| 12 |  | treasure share |  | 64gp 9sp |  | aulus |
+| 12 |  | treasure share |  | 64gp 9sp |  | sabina |
+| 12 |  | treasure share |  | 64gp 9sp |  | tarq |
+| 12 |  | treasure share |  | 64gp 9sp |  | lucilla |
+| 12 |  | treasure share |  | 64gp 9sp |  | vettius |
+| 12 | brokers and criers | recruiting fee (a week's search) |  |  | 4gp | lucilla |
+| 12 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | aulus |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | tarq |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | marcia |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | lucilla |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | vettius |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | lucilla |
+| 12 | Turos Tem | torch | 12 |  | 1sp 8cp | lucilla |
+| 12 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | sabina |
+| 12 | Turos Tem | Waterskin | 4 |  | 2gp 1sp 6cp | sabina |
+| 12 | Turos Tem | Sack, Small (holds 2 stone) | 1 |  | 2sp 7cp | marcia |
+| 12 | Turos Tem | Oil, Common (1 pint) | 4 |  | 1gp 8cp | marcia |
+| 12 | Turos Tem | Hide and Fur Armor | 1 |  | 9gp | lucilla |
+| 12 | Turos Tem | Shield | 1 |  | 9gp | lucilla |
+| 15 | Traveler's Inn | courtyard lodging 1sp x3 nights, meals ~1sp x3 days (AX1 p. 22 prices) |  |  | 6sp | aulus |
+| 15 | Traveler's Inn | courtyard lodging 1sp x3 nights, meals ~1sp x3 days (AX1 p. 22 prices) |  |  | 6sp | sabina |
+| 15 | Traveler's Inn | courtyard lodging 1sp x3 nights, meals ~1sp x3 days (AX1 p. 22 prices) |  |  | 6sp | tarq |
+| 15 | Traveler's Inn | courtyard lodging 1sp x3 nights, meals ~1sp x3 days (AX1 p. 22 prices) |  |  | 6sp | marcia |
+| 15 | Traveler's Inn | courtyard lodging 1sp x3 nights, meals ~1sp x3 days (AX1 p. 22 prices) |  |  | 6sp | lucilla |
+| 15 | Traveler's Inn | courtyard lodging 1sp x3 nights, meals ~1sp x3 days (AX1 p. 22 prices) |  |  | 6sp | vettius |
+| 15 | Traveler's Inn | Gallus' lodging and meals, 3 days |  |  | 6sp | lucilla |
+| 15 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | aulus |
+| 15 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | sabina |
+| 15 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | lucilla |
+| 15 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | vettius |
+| 15 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | marcia |
+| 15 | Turos Tem | Rations, Standard (one week) | 1 |  | 9sp | lucilla |
+| 23 | a travelling merchant in the Viaspen | a week of iron rations (Judge's price 3gp, Lucilla's Bargaining -10%) |  |  | 2gp 7sp | aulus |
+| 23 | a travelling merchant in the Viaspen | a week of iron rations (Judge's price 3gp, Lucilla's Bargaining -10%) |  |  | 2gp 7sp | sabina |
+| 23 | a travelling merchant in the Viaspen | a week of iron rations (Judge's price 3gp, Lucilla's Bargaining -10%) |  |  | 2gp 7sp | vettius |
+| 32 |  | treasure share |  | 110gp 7sp 7cp |  | aulus |
+| 32 |  | treasure share |  | 110gp 7sp 7cp |  | sabina |
+| 32 |  | treasure share |  | 110gp 7sp 7cp |  | tarq |
+| 32 |  | treasure share |  | 110gp 7sp 7cp |  | marcia |
+| 32 |  | treasure share |  | 110gp 7sp 7cp |  | lucilla |
+| 32 |  | treasure share |  | 110gp 7sp 7cp |  | vettius |
+| 32 |  | treasure share |  | 55gp 3sp 8cp |  | gallus |
+| 32 | brokers and criers | recruiting fee (a week's search) |  |  | 6gp | tarq |
+| 32 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 32 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 32 | Turos Tem | Leather Armor | 1 |  | 18gp | lucilla |
+| 32 | Turos Tem | Spear | 1 |  | 2gp 7sp | lucilla |
+| 32 | Turos Tem | Shield | 1 |  | 9gp | lucilla |
+| 32 | Turos Tem | Spear | 1 |  | 2gp 7sp | lucilla |
+| 32 | Turos Tem | Shield | 1 |  | 9gp | lucilla |
+| 32 | Turos Tem | Hide and Fur Armor | 1 |  | 9gp | lucilla |
+| 32 | Turos Tem | bought in Turos Tem |  |  | 9gp | lucilla |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 5gp 4sp | aulus |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | sabina |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | lucilla |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | vettius |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | marcia |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | lucilla |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | lucilla |
+| 32 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | lucilla |
+| 36 | Traveler's Inn | courtyard lodging and meals, 4 days |  |  | 8sp | aulus |
+| 36 | Traveler's Inn | courtyard lodging and meals, 4 days |  |  | 8sp | sabina |
+| 36 | Traveler's Inn | courtyard lodging and meals, 4 days |  |  | 8sp | tarq |
+| 36 | Traveler's Inn | courtyard lodging and meals, 4 days |  |  | 8sp | marcia |
+| 36 | Traveler's Inn | courtyard lodging and meals, 4 days |  |  | 8sp | lucilla |
+| 36 | Traveler's Inn | courtyard lodging and meals, 4 days |  |  | 8sp | vettius |
+| 36 | Traveler's Inn | lodging and meals for Gallus, Durio, Hesper, 4 days |  |  | 2gp 4sp | lucilla |
+| 36 | Turos Tem stable lofts | fodder for the donkey (Judge's price; AX1 hay prices unclear) |  |  | 2gp | lucilla |
+| 43 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 43 |  | treasure share |  | 122gp 5sp 9cp |  | aulus |
+| 43 |  | treasure share |  | 122gp 5sp 9cp |  | sabina |
+| 43 |  | treasure share |  | 122gp 5sp 9cp |  | tarq |
+| 43 |  | treasure share |  | 122gp 5sp 9cp |  | marcia |
+| 43 |  | treasure share |  | 122gp 5sp 9cp |  | lucilla |
+| 43 |  | treasure share |  | 122gp 5sp 9cp |  | vettius |
+| 43 |  | treasure share |  | 61gp 2sp 9cp |  | gallus |
+| 43 |  | treasure share |  | 61gp 2sp 9cp |  | durio |
+| 43 |  | treasure share |  | 61gp 2sp 9cp |  | hesper |
+| 43 |  | treasure share |  | 61gp 2sp 9cp |  | thorwell |
+| 43 |  | treasure share |  | 61gp 2sp 9cp |  | thorcigar |
+| 43 | Turos Tem | Oil, Military (1 pint) | 3 |  | 5gp 4sp | aulus |
+| 43 | Turos Tem | torch | 12 |  | 1sp 8cp | lucilla |
+| 43 | Traveler's Inn | lodging and meals, 2 days |  |  | 4sp | aulus |
+| 43 | Traveler's Inn | lodging and meals, 2 days |  |  | 4sp | sabina |
+| 43 | Traveler's Inn | lodging and meals, 2 days |  |  | 4sp | tarq |
+| 43 | Traveler's Inn | lodging and meals, 2 days |  |  | 4sp | marcia |
+| 43 | Traveler's Inn | lodging and meals, 2 days |  |  | 4sp | lucilla |
+| 43 | Traveler's Inn | lodging and meals, 2 days |  |  | 4sp | vettius |
+| 43 | Traveler's Inn | henchmen's lodging and meals, 2 days |  |  | 1gp 6sp | lucilla |
+| 43 | Traveler's Inn | Thorwell's and Thorcigar's lodging and meals, 2 days |  |  | 8sp | tarq |
+| 43 | Turos Tem | Tunic and Pants, Crafter/Freeholder | 1 |  | 1gp 8sp | tarq |
+| 43 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | tarq |
+| 43 | Turos Tem | Spear | 1 |  | 2gp 7sp | tarq |
+| 43 | Turos Tem | Shield | 1 |  | 9gp | tarq |
+| 43 | Turos Tem | Hide and Fur Armor | 1 |  | 9gp | tarq |
+| 43 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | tarq |
+| 43 | Turos Tem | Tunic and Pants, Crafter/Freeholder | 1 |  | 1gp 8sp | tarq |
+| 43 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | tarq |
+| 43 | Turos Tem | Hide and Fur Armor | 1 |  | 9gp | tarq |
+| 43 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | tarq |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 43 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 53 |  | treasure share |  | 900gp |  | aulus |
+| 53 |  | treasure share |  | 900gp |  | sabina |
+| 53 |  | treasure share |  | 900gp |  | tarq |
+| 53 |  | treasure share |  | 900gp |  | marcia |
+| 53 |  | treasure share |  | 900gp |  | lucilla |
+| 53 |  | treasure share |  | 900gp |  | vettius |
+| 53 |  | treasure share |  | 450gp |  | gallus |
+| 53 |  | treasure share |  | 450gp |  | durio |
+| 53 |  | treasure share |  | 450gp |  | hesper |
+| 53 |  | treasure share |  | 450gp |  | thorwell |
+| 53 |  | treasure share |  | 450gp |  | thorcigar |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | aulus |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | sabina |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | tarq |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | marcia |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | vettius |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | gallus |
+| 53 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | hesper |
+| 53 | Traveler's Inn | lodging, 1 day |  |  | 2sp | aulus |
+| 53 | Traveler's Inn | lodging, 1 day |  |  | 2sp | sabina |
+| 53 | Traveler's Inn | lodging, 1 day |  |  | 2sp | tarq |
+| 53 | Traveler's Inn | lodging, 1 day |  |  | 2sp | marcia |
+| 53 | Traveler's Inn | lodging, 1 day |  |  | 2sp | lucilla |
+| 53 | Traveler's Inn | lodging, 1 day |  |  | 2sp | vettius |
+| 61 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 67 |  | treasure share |  | 1,205gp |  | aulus |
+| 67 |  | treasure share |  | 1,205gp |  | sabina |
+| 67 |  | treasure share |  | 1,205gp |  | tarq |
+| 67 |  | treasure share |  | 1,205gp |  | marcia |
+| 67 |  | treasure share |  | 1,205gp |  | lucilla |
+| 67 |  | treasure share |  | 1,205gp |  | vettius |
+| 67 |  | treasure share |  | 602gp 5sp |  | gallus |
+| 67 |  | treasure share |  | 602gp 5sp |  | hesper |
+| 67 |  | treasure share |  | 602gp 5sp |  | thorwell |
+| 67 |  | treasure share |  | 602gp 5sp |  | thorcigar |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | aulus |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | sabina |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | tarq |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | marcia |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | lucilla |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | vettius |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | gallus |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | hesper |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | thorwell |
+| 82 | Traveler's Inn | lodging and meals, 14 days |  |  | 1gp 4sp | thorcigar |
+| 84 | the retinue | wages paid |  |  | 25gp | aulus |
+| 84 | the retinue | wages paid |  |  | 25gp | marcia |
+| 84 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 84 | Turos Tem | Sword | 1 |  | 9gp | aulus |
+| 84 | Turos Tem | Leather Armor | 1 |  | 18gp | aulus |
+| 84 | Turos Tem | Shield | 1 |  | 9gp | aulus |
+| 84 | Turos Tem | Sword | 1 |  | 9gp | lucilla |
+| 84 | Turos Tem | Shield | 1 |  | 9gp | lucilla |
+| 84 | Turos Tem | Dagger | 1 |  | 2gp 7sp | marcia |
+| 84 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 84 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
+| 84 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | lucilla |
