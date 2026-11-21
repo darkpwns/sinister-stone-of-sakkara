@@ -35,6 +35,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - A3 not entered (3 swarms, 6 tunnel prawns). A4: creeper feeding; bronze door to D1 forced open.
 - D1: slab to D2 (Eolande) untouched. D3, D4 entered (Sabina named Bel; nobody went near the dais). D5: 24 wall graves looted (L68, 48gp); altar and jackals untouched.
 - D6a/b/c walked through; graves untouched; Vettius found that the chariot panel in D6b is a secret door held shut, with a weighted plate in the empty pedestal (not opened: the 48 skeletons sleep).
+- A3 (day 191): 3 swarms burned, 6 tunnel prawns fled, 15 graves looted (L69, 30gp); a sage slime clings to the ceiling by the east opening.
+- C1 (day 195): 3 swarms burned (195 XP); the 12 cavern locusts panicked and shrieked; a grey ooze came up the SW lava tube and the party withdrew; C1's 24 graves not looted.
+- Undercity avenue tunnel (Emporium grate to 12u): 5 rhagodessas met (3 day 187; 2 slain day 192, 1 fled); 7 shrieking fungi about 80' from the grate.
 - D7 door opened (day 187 09:35): the troglodyte hunters in D8 judged the party strong and slipped away home to warn the tribe (Judge's call, D7 key): the tribe is alerted.
 
 ## Events triggered

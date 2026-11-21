@@ -424,3 +424,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 191 | Silk Pony Inn (#25) | beds for nine, night of day 191 |  |  | 1gp 8sp | lucilla |
 | 192 | Silk Pony Inn (#25) | beds for nine, night of day 192 |  |  | 1gp 8sp | lucilla |
 | 193 | Silk Pony Inn (#25) | beds for nine, night of day 193 |  |  | 1gp 8sp | lucilla |
+| 194 | Silk Pony Inn (#25) | beds for nine, night of day 194 |  |  | 1gp 8sp | lucilla |
+| 195 | Cyfaraun | Oil, Military (1 pint) | 8 |  | 14gp 4sp | lucilla |

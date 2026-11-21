@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 194
-  time: 05:29
+    day: 195
+  time: 08:12
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.937
+    encumbrance_st: 9.419
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -33,7 +33,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.371
+    encumbrance_st: 8.871
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -47,8 +47,7 @@ public:
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Cure Light Injury
+    spells_used: []
     encumbrance_st: 2.167
   - name: Ottar
     sheet: Characters/ottar.json
@@ -57,7 +56,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 7.333
+    encumbrance_st: 7
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -66,7 +65,7 @@ public:
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     spells_used: []
-    encumbrance_st: 6.167
+    encumbrance_st: 6.333
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -74,9 +73,8 @@ public:
     hp_max: 13
     conditions:
     - minor scarring (puncture wound)
-    spells_used:
-    - Cure Light Injury
-    encumbrance_st: 8.025
+    spells_used: []
+    encumbrance_st: 8.192
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -118,7 +116,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 194
+clock_day: 195
 ---
 # Campaign State
 
