@@ -324,3 +324,7 @@ Left in H13: 2,000sp, antlers (3 st). Gnaeus wage day 271 (selling day too); mon
 **Update day 265 05:25:** the ancient coin (16,441gp 258sp 235cp) and opals L156-L159 are in the party's locked chest in
 the Grey Sisters' vault (holder `grey-sisters-vault`; Doarë Friendly; 10gp a month paid to day 293; Rulings S11). The
 Silk Pony strongbox holds only spare gear. Stalls paid to day 270. Vettius 9.6 st (60'). Vestus copying day 2 done.
+**Update day 267 06:18:** expedition 20 done (H6 looted; the princess fled as a swan at 8/27 hp: when the party next
+meets her, roll the SOTN mummy reaction table). Vettius (max 19) and Aelia (max 11) cured of enervation. Brennus F5.
+Strength 48 (Sub-Abyssal floor reached: Lucilla 5, Vettius 6, Iulia 5, Vestus 4, Neris 4, Brennus 5, henchmen 3+3+3+4+3+3).
+Vestus has copied 3 of 6 days. Vault: 17,341gp 258sp 235cp + opals. Next: H7-H8 (8 skeletons + warlord AC 11), H21.

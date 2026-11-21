@@ -1311,3 +1311,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 264 | the Grey Sisters (House of Mourning) | a gift for the dead in their keeping |  |  | 25gp | lucilla |
 | 264 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 257-270 (2sp a stall a day; owed from 257, Judge slip) |  |  | 11gp 2sp | vettius |
 | 264 | Silk Pony Inn (#25) | beds for twelve, night of day 264 |  |  | 2gp 4sp | vettius |
+| 265 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | brennus |
+| 265 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | marcellus |
+| 265 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | vettius |
+| 265 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | iulia |
+| 265 |  | treasure share |  | 100gp |  | lucilla |
+| 265 |  | treasure share |  | 100gp |  | vettius |
+| 265 |  | treasure share |  | 100gp |  | iulia |
+| 265 |  | treasure share |  | 100gp |  | vestus-the-unlikely |
+| 265 |  | treasure share |  | 100gp |  | neris |
+| 265 |  | treasure share |  | 100gp |  | brennus |
+| 265 |  | treasure share |  | 50gp |  | phaedra |
+| 265 |  | treasure share |  | 50gp |  | varro |
+| 265 |  | treasure share |  | 50gp |  | hrodvar |
+| 265 |  | treasure share |  | 50gp |  | aelia |
+| 265 |  | treasure share |  | 50gp |  | marcellus |
+| 265 |  | treasure share |  | 50gp |  | gnaeus |
+| 265 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H6 relics (L185-L191, A25) sold through the Argollëan Family, day 265 |  | 3,364gp |  | lucilla |
+| 265 | Silk Pony Inn (#25) | beds for ten, night of day 265 (Vettius and Aelia under the Citadel's dome) |  |  | 2gp | vettius |
+| 265 | Solar Citadel | alms for his pallet under the oculus (Rulings S10), night of day 265 |  |  | 1gp | vettius |
+| 265 | Solar Citadel | alms for her pallet under the oculus (Rulings S10), night of day 265 |  |  | 1gp | aelia |
+| 266 | Silk Pony Inn (#25) | beds for ten, night of day 266 (Vettius and Aelia under the Citadel's dome) |  |  | 2gp | vettius |
+| 266 | Solar Citadel | alms for his pallet under the oculus, night of day 266 |  |  | 1gp | vettius |
+| 266 | Solar Citadel | alms for her pallet under the oculus, night of day 266 |  |  | 1gp | aelia |

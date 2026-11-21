@@ -83,6 +83,19 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   Revered Mother Doarë heard them out, cool at first; Neris told her the vision of the sleeper below the black
   river, and the old oracle's face changed. "I have dreamed of the river," she said. The chest went down into the
   vault, unopened, ten gold a month. The opals went in with it. Vettius left his spare gear at the inn.
+- Day 265, twentieth descent, to the facing tombs in the curving corridor. Something translucent stirred in the
+  entrance caves and lost them at the shaft (they never knew). At the facing slabs the haulers pulled at the west
+  one four times without luck; then a shadow came silently out of the side passage. Everyone was caught flat-footed:
+  its touch drew something out of Aelia, then Vettius, that did not come back. Lucilla's mace and Gnaeus' axe
+  unmade it. The company waited a turn in silence and pulled again: the slab rolled. Six vipers poured out; the fans
+  of Vestus and Phaedra, Vettius' fire, Brennus, Varro, Gnaeus and Marcellus killed them all without a bite. Then the
+  princess came to her door: half the company froze; her slam rotted Brennus; Iulia's rebuke failed. Brennus' axe
+  and Marcellus' sword drove her back, and she drew up the hood of her rose-pink cloak and flew off up the corridor
+  as a swan. Her tomb held a black cobra statuette, an opal cameo, silver bangles and a belly chain, perfume, silver
+  plates and spilled gold. Out by ten; Brennus cured; Liber took the relics (3,364gp); the gold went to Doarë's
+  vault. Brennus became an exemplar (5th rank) and the gods' slow mark on her lifted.
+- Days 265-267: Neris laid Salving Rest on Vettius and Aelia and they lay under the Citadel's oculus; each passed two
+  mornings in a row and the withering stopped. What it took stays taken (Vettius 19 hp at most, Aelia 11).
 
 ## Who they met
 - Revered Mother Doarë of the Grey Sisters: 59, a bard's voice, a face overcast with great sadness; speaks of things to come in the past tense ("I have buried you already, child, in three dreams of four"). Friendly; keeps the party's chest.
@@ -94,6 +107,7 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   can hold.
 
 ## Treasure and XP
+- Day 265 (A25): 5,105 treasure XP + 245 monster XP; relics through Liber 3,364gp. Brennus Fighter 5.
 - Day 262: crystal ball sold unused through Liber, 19,200gp (2,133 XP a share).
 - Day 263 (A24): 4,950 treasure XP + 2,080 monster XP; relics through Liber 14,440gp (faerie flute and spellbook sale XP 12,840). Vettius Thief 6, Aelia Bard 4.
 - Day 261 (A23): 3,550 treasure XP (goods at value; the crystal ball and spellbook at their apparent value until sold) + 1,622 monster XP; far-seeing glass and jars sold to Liber 1,420gp.

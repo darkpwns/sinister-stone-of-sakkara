@@ -184,3 +184,12 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   (Revered Mother Doarë's), knights at the gates. 10gp a month, paid to day 293. We take coin out by asking Doarë
   (she is in most days). Nothing of value stays at the Silk Pony now; only spare gear. Doarë believes the Awakening
   is coming; she dreamed of the river. Another ear for what we find below.
+- S11 (day 265), the princess's tomb (west of the facing pair). Four failed pulls woke her; we stopped, waited a turn
+  in silence, and the next pull caught her still in her coffin, but she had already turned her bundles of sticks
+  into six vipers. She flew off as a swan when hard-pressed: she will be back in her tomb. The warrior's tomb opposite
+  (east) is untouched; the inquisitor's by the crossroads too.
+- S11 (day 265), the shadow: silent, unseen until it touched; its touch takes strength for good (Aelia, Vettius).
+  Only magic weapons hurt it; Iulia cannot rebuke it. Neris' Salving Rest and the Citadel's dome cured the
+  withering in two mornings. Lesson (7): rearguard faces the side passages while the haulers pull.
+- S11 (day 265): if the first two pulls fail, stop and wait a turn in silence before pulling again: the dead go
+  back to sleep and the next pull may catch them in their coffins. (It worked.)
