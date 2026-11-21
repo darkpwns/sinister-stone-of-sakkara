@@ -179,3 +179,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - Left in the bard's tomb: two thousand silver coins on the floor and the antlered head-dress (3 st), for a later
   trip. Still sealed in the temple: the princess's tomb and the warrior's tomb (opposite pair in the curving
   corridor, worn smooth) and the inquisitor's tomb by the crossroads.
+- S11 (day 264), our coin. The ancient coin (over 16,000) and the opals are now in an ironbound chest of our own,
+  locked (keys: Lucilla, Vettius), in the Grey Sisters' vault under the Shrine of the Ancestors: iron door, one key
+  (Revered Mother Doarë's), knights at the gates. 10gp a month, paid to day 293. We take coin out by asking Doarë
+  (she is in most days). Nothing of value stays at the Silk Pony now; only spare gear. Doarë believes the Awakening
+  is coming; she dreamed of the river. Another ear for what we find below.

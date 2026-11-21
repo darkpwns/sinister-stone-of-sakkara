@@ -75,8 +75,17 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   pan-pipe, a book of dirges, the bard's spellbook in blue ink, and thousands of spilled coins. Out by half past
   eleven; Gnaeus cured of the rot at the temples. Liber took the relics (14,440gp); the coin went into the strongbox.
   Vettius became a scoundrel (6th rank), Aelia an annalist (4th).
+- Day 264: over breakfast Rosa did the sum: more than sixteen thousand in old gold sat in an unguarded box in
+  Selene Nictorian's inn. Nobody slept easy after that. Hiring guards meant strangers in Sand & Bones' house; the
+  Guildhouse meant the tax men. Iulia and Neris remembered where Septima's coin went: the Grey Sisters keep
+  testators' chests in a vault under the Shrine of the Ancestors, behind an iron door with one key. They loaded the
+  coin into an ironbound chest on the cart and drove it to the House of Mourning with every blade beside it.
+  Revered Mother Doarë heard them out, cool at first; Neris told her the vision of the sleeper below the black
+  river, and the old oracle's face changed. "I have dreamed of the river," she said. The chest went down into the
+  vault, unopened, ten gold a month. The opals went in with it. Vettius left his spare gear at the inn.
 
 ## Who they met
+- Revered Mother Doarë of the Grey Sisters: 59, a bard's voice, a face overcast with great sadness; speaks of things to come in the past tense ("I have buried you already, child, in three dreams of four"). Friendly; keeps the party's chest.
 - Mother Drakima, priestess of Mityara (mother, 7th rank), who runs the Keepers' hospital: square-handed, grey
   braid pinned up, smells of vinegar and lye; brisk, practical, prays as if giving orders ("Lie still. The goddess
   does the work; you do the lying still.").

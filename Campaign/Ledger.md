@@ -1305,3 +1305,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 263 |  | treasure share |  | 152gp 7sp 8cp |  | gnaeus |
 | 263 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H13 relics (L175-L179, A24) sold through the Argollëan Family, day 263 |  | 14,440gp |  | lucilla |
 | 263 | Silk Pony Inn (#25) | beds for twelve, night of day 263 |  |  | 2gp 4sp | vettius |
+| 264 | Cyfaraun | Chest, Ironbound (holds 20 st.) | 1 |  | 19gp 8sp | lucilla |
+| 264 | Cyfaraun | Lock | 1 |  | 18gp | lucilla |
+| 264 | the Grey Sisters (House of Mourning) | first month's keeping of the party's chest in their vault (Rulings S11: 10gp a month) |  |  | 10gp | lucilla |
+| 264 | the Grey Sisters (House of Mourning) | a gift for the dead in their keeping |  |  | 25gp | lucilla |
+| 264 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 257-270 (2sp a stall a day; owed from 257, Judge slip) |  |  | 11gp 2sp | vettius |
+| 264 | Silk Pony Inn (#25) | beds for twelve, night of day 264 |  |  | 2gp 4sp | vettius |

@@ -321,3 +321,6 @@ proceeds banked (Liber); H13 ancient coin in the strongbox. Kept: L172 charts, L
 spellbook (Vestus copying, 1 of 6 days done). Strength 47 (Sub-Abyssal 48 one short). Next targets: H6/H7-H8
 (facing slabs in H3b), H21 (by H11). Vettius still overloaded (13 st): share out his gear before the next descent.
 Left in H13: 2,000sp, antlers (3 st). Gnaeus wage day 271 (selling day too); month 9 ends day 270.
+**Update day 265 05:25:** the ancient coin (16,441gp 258sp 235cp) and opals L156-L159 are in the party's locked chest in
+the Grey Sisters' vault (holder `grey-sisters-vault`; Doarë Friendly; 10gp a month paid to day 293; Rulings S11). The
+Silk Pony strongbox holds only spare gear. Stalls paid to day 270. Vettius 9.6 st (60'). Vestus copying day 2 done.

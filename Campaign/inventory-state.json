@@ -392,6 +392,12 @@
    "name": "ground:nethercity-h---great-temple-of-awakening",
    "actor": null,
    "status": "active"
+  },
+  "grey-sisters-vault": {
+   "kind": "cache",
+   "name": "the party's sealed chest in the Vault of the Grey Sisters (Catacombs of the Ancestors 6)",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -46197,6 +46203,364 @@
    "price_cp": 240,
    "cmd": "inv pay",
    "n": 2083
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "chest, ironbound (holds 20 st.)",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": -10,
+     "sp": 3,
+     "gp": -20
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 9,
+   "row": "Chest, Ironbound (holds 20 st.)",
+   "packs": 1,
+   "price_cp": 1980,
+   "cmd": "inv buy",
+   "n": 2084
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "lock",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -18
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 9,
+   "row": "Lock",
+   "packs": 1,
+   "price_cp": 1800,
+   "cmd": "inv buy",
+   "n": 2085
+  },
+  {
+   "op": "give",
+   "cause": "the party's sealed chest, left in the Grey Sisters' vault (day 264)",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "chest, ironbound (holds 20 st.)",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "grey-sisters-vault",
+     "item": "chest, ironbound (holds 20 st.)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2086
+  },
+  {
+   "op": "give",
+   "cause": "the chest's lock (Vettius and Lucilla hold the two keys)",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "lock",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "grey-sisters-vault",
+     "item": "lock",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2087
+  },
+  {
+   "op": "give",
+   "cause": "the ancient coin moved by cart from the Silk Pony to the Grey Sisters' vault, sealed in the party's chest (day 264)",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "silk-pony-strongbox",
+     "cp": -235,
+     "sp": -258,
+     "gp": -16441
+    },
+    {
+     "who": "grey-sisters-vault",
+     "cp": 235,
+     "sp": 258,
+     "gp": 16441
+    }
+   ],
+   "cmd": "inv give",
+   "n": 2088
+  },
+  {
+   "op": "pay",
+   "cause": "first month's keeping of the party's chest in their vault (Rulings S11: 10gp a month)",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -10
+    }
+   ],
+   "to": "the Grey Sisters (House of Mourning)",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 2089
+  },
+  {
+   "op": "pay",
+   "cause": "a gift for the dead in their keeping",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -25
+    }
+   ],
+   "to": "the Grey Sisters (House of Mourning)",
+   "price_cp": 2500,
+   "cmd": "inv pay",
+   "n": 2090
+  },
+  {
+   "op": "pay",
+   "cause": "stalls for mule1, donkey1, donkey2 and the cart, days 257-270 (2sp a stall a day; owed from 257, Judge slip)",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -2,
+     "gp": -11
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 1120,
+   "cmd": "inv pay",
+   "n": 2091
+  },
+  {
+   "op": "give",
+   "cause": "Vettius' load lightened: kept at the inn",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "lantern",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "lantern",
+     "slot": "here",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2092
+  },
+  {
+   "op": "give",
+   "cause": "Vettius' load lightened: kept at the inn",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "grappling hook",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "grappling hook",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2093
+  },
+  {
+   "op": "give",
+   "cause": "Vettius' load lightened: kept at the inn",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2094
+  },
+  {
+   "op": "give",
+   "cause": "Vettius' load lightened: kept at the inn",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2095
+  },
+  {
+   "op": "give",
+   "cause": "loads shared out",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "iron spike",
+     "slot": "backpack",
+     "qty": -10
+    },
+    {
+     "who": "phaedra",
+     "item": "iron spike",
+     "slot": "backpack",
+     "qty": 10
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2096
+  },
+  {
+   "op": "give",
+   "cause": "loads shared out",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "caltrops (20 oz bag)",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "phaedra",
+     "item": "caltrops (20 oz bag)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2097
+  },
+  {
+   "op": "give",
+   "cause": "spare blade kept at the inn",
+   "day": 264,
+   "time": "day 264 06:25",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "#w12",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "#w12",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 2098
+  },
+  {
+   "op": "pay",
+   "cause": "beds for twelve, night of day 264",
+   "day": 264,
+   "time": "day 264 17:25",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -4,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 240,
+   "cmd": "inv pay",
+   "n": 2099
   }
  ],
  "holdings": {
@@ -46245,25 +46609,18 @@
    "backpack": {
     "thieves' tools": 1,
     "rope, 50'": 1,
-    "grappling hook": 1,
     "tinderbox (flint & steel)": 1,
-    "lantern": 3,
+    "lantern": 1,
     "oil, common (1 pint)": 3,
     "hammer (small)": 1,
-    "iron spike": 10,
-    "waterskin": 8,
+    "waterskin": 5,
     "copper-painted key": 1,
     "gold-painted key": 1,
     "holy symbol": 1,
-    "caltrops (20 oz bag)": 2,
     "torch": 2
-   },
-   "belt": {
-    "#w12": 1
    },
    "back": {
     "pole, wooden": 1,
-    "backpack (holds 4 stone)": 1,
     "rations, iron (one week)": 1
    },
    "right_hand": {
@@ -46593,7 +46950,9 @@
    "backpack": {
     "waterskin": 5,
     "rations, iron (one week)": 1,
-    "oil, military (1 pint)": 6
+    "oil, military (1 pint)": 6,
+    "iron spike": 10,
+    "caltrops (20 oz bag)": 2
    },
    "right_hand": {
     "#w37": 1
@@ -46838,20 +47197,35 @@
    "here": {
     "bolt": 13
    }
+  },
+  "grey-sisters-vault": {
+   "here": {
+    "chest, ironbound (holds 20 st.)": 1,
+    "lock": 1
+   }
+  },
+  "silk-pony-strongbox": {
+   "here": {
+    "lantern": 2,
+    "grappling hook": 1,
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 3,
+    "#w12": 1
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 150,
-   "sp": 6,
-   "cp": 11
+   "gp": 77,
+   "sp": 9,
+   "cp": 1
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 148,
-   "sp": 9,
+   "gp": 135,
+   "sp": 3,
    "cp": 13
   },
   "durio": {
@@ -46979,13 +47353,13 @@
   "calpurnia": {
    "gp": 125
   },
-  "silk-pony-strongbox": {
-   "gp": 16441,
-   "sp": 258,
-   "cp": 235
-  },
   "titus-aurelianus": {
    "gp": 75
+  },
+  "grey-sisters-vault": {
+   "cp": 235,
+   "sp": 258,
+   "gp": 16441
   }
  },
  "rolls": {
