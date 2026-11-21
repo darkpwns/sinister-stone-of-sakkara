@@ -35079,6 +35079,104 @@
    "price_cp": 260,
    "cmd": "inv pay",
    "n": 1496
+  },
+  {
+   "op": "give",
+   "cause": "Battle Axe +1 returned to Lucilla on Quirinus' retirement (issued day 219)",
+   "day": 223,
+   "time": "day 223 06:00",
+   "deltas": [
+    {
+     "who": "quirinus",
+     "item": "#w25",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "lucilla",
+     "item": "#w25",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 1497
+  },
+  {
+   "op": "give",
+   "cause": "divided by agreement: the battle axe to Gnaeus (Quirinus retired)",
+   "day": 223,
+   "time": "day 223 06:00",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "#w25",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "gnaeus",
+     "item": "#w25",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 1498
+  },
+  {
+   "op": "move",
+   "cause": "sword to the belt",
+   "day": 223,
+   "time": "day 223 06:00",
+   "deltas": [
+    {
+     "who": "gnaeus",
+     "item": "#w49",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "gnaeus",
+     "item": "#w49",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 1499
+  },
+  {
+   "op": "wield",
+   "cause": "Battle Axe +1 taken in hand",
+   "day": 223,
+   "time": "day 223 06:00",
+   "deltas": [
+    {
+     "who": "gnaeus",
+     "item": "#w25",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "gnaeus",
+     "item": "#w25",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w25",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 1500
   }
  ],
  "holdings": {
@@ -35461,9 +35559,6 @@
    "backpack": {
     "waterskin": 5,
     "oil, military (1 pint)": 1
-   },
-   "right_hand": {
-    "#w25": 1
    }
   },
   "phaedra": {
@@ -35586,7 +35681,8 @@
     "leather armor": 1
    },
    "belt": {
-    "#w48": 1
+    "#w48": 1,
+    "#w49": 1
    },
    "worn": {
     "backpack (holds 4 stone)": 1
@@ -35602,7 +35698,7 @@
     "shield": 1
    },
    "right_hand": {
-    "#w49": 1
+    "#w25": 1
    }
   },
   "nysa": {

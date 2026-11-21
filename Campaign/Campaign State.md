@@ -78,17 +78,6 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5.113
-  - name: Quirinus
-    sheet: Characters/quirinus.json
-    role: henchman
-    hp: 7
-    hp_max: 7
-    conditions:
-    - 'enervated (day 219): Death save each day on waking, failure -1 max hp more; three passes in a row end it'
-    - 'Salving Rest (Neris, day 219): +4 on the enervation save, two passes in a row end it, +1d3 hp a day of complete rest; ends if he leaves complete rest or takes damage (RR p. 242)'
-    - 'resting under the Solar Citadel''s oculus (hallowed pinnacle of good: +2 on the enervation save, +2 hp a day of rest; JJ Pinnacles of Good)'
-    spells_used: []
-    encumbrance_st: 6.956
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -128,17 +117,9 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 8.02
-  - name: Decimus
-    sheet: Characters/decimus.json
-    role: henchman
-    hp: 4
-    hp_max: 4
-    conditions: []
-    spells_used: []
-    encumbrance_st: 7.496
+    encumbrance_st: 8.187
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Decimus: food 7 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
