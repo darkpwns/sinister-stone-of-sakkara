@@ -150,3 +150,20 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   - **The stare plan, added:** Vestus' Ogre Strength on the hauler at the rig; Iulia's Striking on Brennus' great axe
     before the slab moves; a fire rune at the doorway when there is time to lay one; Marcellus and Hrodvar are the
     eyes-down rear guard if they cannot stand the stare.
+
+- S11 (day 261), the astrologer's tomb (the slab south of the annex below the great hall). The plan worked in its
+  first half: rig from 40', slab at the first pull, the dead thing still in its coffin, Aelia's song and Iulia's
+  wrath before it rose. It did not work in its second: seven of us froze at the first look even blessed and sung to,
+  and the cats came through the fire at Vettius. What won it: Brennus' rage and the holy light on her axe, and
+  Gnaeus' wrath, through the burning doorway before its spell; Iulia's rebuke on the cats; Phaedra's fan.
+  Lessons: (1) 40' is not far enough when the slab is the only door: next time look from the far end of a longer
+  gallery, or from behind a corner, and let the frozen stay frozen out of reach; (2) the burning pool works, but it
+  burns our own fighters too: pour it so there is a way round, or pour it after our fighters are through;
+  (3) Iulia's rebuke is worth trying on whatever comes with them.
+- S11 (day 261), the crystal ball (cracked: now and then it shows the looker's own past instead). Kept, not sold:
+  three looks a day at any place we name. Use: look into the next tomb from safety before we open it; whoever looks
+  at the thing in the ball and stands it is steady for a few minutes, so the looker can be the first through. (Rosa
+  wanted it sold: twenty-four thousand. Overruled: we sell it when the tombs are done.)
+- S11 (day 261), the astrologer's spellbook: Vestus copies the lightning and dispelling formulas for when he reaches
+  the next rank (about six days), then it goes to Liber. The star charts and the map stay with us: a sage (or the
+  Tower) should read the charts for the Patriarch.

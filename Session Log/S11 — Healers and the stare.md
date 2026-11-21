@@ -46,6 +46,23 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
 - Day 257: Lucilla rose, a band over her brow; Varro's and Hrodvar's wages paid; she went round her old contacts
   (two rumours). Days 255-261: Vestus studied Ogre Strength and Phaedra Illusory Duplicates.
 - Day 261 dawn: Brennus rose from her pallet. The company is whole, rested, and stronger than it has ever been.
+- Day 261, eighteenth descent: down the far grate at seven with a day's water each. An insect swarm drifted at them
+  in the southern galleries by the crossroads; the company stepped through the east cedar door and shut it. In the
+  annex below the great hall Hrodvar set his rig on the south slab and set a lantern beside it; Neris' augury said
+  good. With Neris' blessing on all, Iulia's holy light on Brennus' axe and Vestus' ogre strength in Varro's arms,
+  the haulers pulled from forty feet: the slab rolled at the first heave. In the black-marble tomb nothing stirred
+  yet. Aelia sang; Iulia laid her wrath on Gnaeus; Vettius ran to the doorway and poured a burning pool across it.
+  The bronze coffin's lid lifted and a wrapped figure rose: seven of the company froze at the sight of it. Two
+  mummified black cats sprang through the fire at Vettius and clawed him. Iulia's holy symbol sent the cats
+  cringing; Vettius cut one down and Phaedra's fan of flame burned the other. Brennus, raging, charged through the
+  fire and struck the mummy before its spell left its lips; Gnaeus came through the flames beside her. Its blows
+  missed Gnaeus twice; in the fifth round Brennus and Gnaeus hacked it apart. In the tomb: a bronze far-seeing
+  glass, a cracked black crystal sphere, canopic jars, a scroll jar with a spellbook in gold ink, rolls of star
+  charts and a map of the old elven kingdom. Vestus and Aelia could not read the charts' meaning. Giant rats in the
+  curving corridor gave way to drawn steel. Out by noon.
+- Day 261 afternoon: Vettius cured of the rot at the temples. Lucilla named the sphere a crystal ball (it shows
+  far places, three times a day); Vestus read the spellbook. Liber Faunus took the far-seeing glass and the jars
+  (1,420gp). The crystal ball, the charts, the map and the spellbook are kept for now.
 
 ## Who they met
 - Mother Drakima, priestess of Mityara (mother, 7th rank), who runs the Keepers' hospital: square-handed, grey
@@ -56,6 +73,7 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   can hold.
 
 ## Treasure and XP
+- Day 261 (A23): 3,550 treasure XP (goods at value; the crystal ball and spellbook at their apparent value until sold) + 1,622 monster XP; far-seeing glass and jars sold to Liber 1,420gp.
 - Day 255: the transmogrifier's spellbook (expedition 15) sold through Liber Faunus, 25,400gp, 2,540 XP a share. Iulia Crusader 5, Neris Priestess 4, Vestus Mage 4, Phaedra Mage 3, Varro Fighter 3, Hrodvar Vaultguard 3, Marcellus Fighter 3, Gnaeus Explorer 3.
 
 ## Rumours given

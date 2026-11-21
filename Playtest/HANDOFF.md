@@ -310,3 +310,9 @@ Neris a vision). L126 sold through Liber (25,400gp) and paid out: eight level-up
 Party notes S11 hold the downtime and the full visage plan. A23 is open (joined day 244; no delve yet). Next: choose
 the target (Abyssal now allowed), prayers (Iulia: Striking, Holy Blessing, Righteous Wrath; Neris: Holy Blessing,
 Augury), equip magic weapons, ration and light, down the far grate. Wages next: Aelia, Marcellus day 264; Gnaeus 271.
+**Update day 262 06:02:** expedition 18 (A23) done and paid out (H16 cleared: hierophant + 2 cat mummies). Kept: L169
+Crystal Ball (Lucilla; scry 3/day; Rulings S11: scrying a mummy = beholding it), L172 charts and L173 map (Vestus; for
+a sage / Arëtar), L174 astrologer's spellbook (Vestus; copy Thunderbolt and Dispel Magic, 6 days, then sell to Liber:
+base 25,900, sale XP to A23). Remaining H tombs: H13 (courtier, illusions; slab off H9, west balcony), H6 (princess,
+snakes), H7-H8 (8 skeletons + warlord), H21 (inquisitor, berserkers). Divine Blessing +2 is not in the engine's
+saves: pass `--mod "Divine Blessing:+2"` (Neris, Iulia). Wages: Aelia, Marcellus day 264.

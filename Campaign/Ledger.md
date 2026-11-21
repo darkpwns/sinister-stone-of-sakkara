@@ -1259,3 +1259,28 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 260 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 260 |  |  | 1gp | brennus |
 | 260 | Silk Pony Inn (#25) | beds for eleven, night of day 260 (Brennus at the hospital) |  |  | 2gp 4sp | vettius |
 | 261 | Silk Pony Inn (#25) | refund: beds for eleven overpaid 2sp a night, nights 257-260 (Judge slip) |  | 8sp |  | vettius |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vestus-the-unlikely |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | neris |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | iulia |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | varro |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | hrodvar |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | brennus |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | phaedra |
+| 261 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
+| 261 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | iulia |
+| 261 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 |  | treasure share |  |  |  |  |
+| 261 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H16 far-seeing glass and canopic jars (L168, L170, A23) sold through the Argollëan Family, day 261 |  | 1,420gp |  | lucilla |
+| 261 | Silk Pony Inn (#25) | beds for twelve, night of day 261 |  |  | 2gp 4sp | vettius |
