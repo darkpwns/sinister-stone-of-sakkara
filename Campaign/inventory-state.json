@@ -22936,6 +22936,104 @@
    ],
    "cmd": "payout --apply",
    "n": 913
+  },
+  {
+   "op": "pay",
+   "cause": "beds for nine, night of day 195",
+   "day": 195,
+   "time": "day 195 14:41",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 2,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 180,
+   "cmd": "inv pay",
+   "n": 914
+  },
+  {
+   "op": "light",
+   "cause": "torch58 lit (torch)",
+   "day": 196,
+   "time": "day 196 12:41",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch58",
+   "cmd": "light on",
+   "n": 915
+  },
+  {
+   "op": "light",
+   "cause": "torch59 lit (torch)",
+   "day": 196,
+   "time": "day 196 14:01",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch59",
+   "cmd": "light on",
+   "n": 916
+  },
+  {
+   "op": "drop",
+   "cause": "dropped at ground:nethercity-a4",
+   "day": 196,
+   "time": "day 196 14:01",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rope, 50'",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "ground:nethercity-a4",
+     "item": "rope, 50'",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv drop",
+   "n": 917
+  },
+  {
+   "op": "light",
+   "cause": "torch60 lit (torch)",
+   "day": 196,
+   "time": "day 196 15:01",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch60",
+   "cmd": "light on",
+   "n": 918
   }
  ],
  "holdings": {
@@ -22957,7 +23055,6 @@
     "ink (1 pint)": 1,
     "waterskin": 5,
     "collection of ancient coins": 1,
-    "rope, 50'": 1,
     "torch": 6,
     "#w29": 1
    },
@@ -23212,7 +23309,7 @@
    },
    "backpack": {
     "waterskin": 5,
-    "torch": 6
+    "torch": 3
    },
    "left_hand": {
     "shield": 1
@@ -23342,12 +23439,17 @@
    "right_hand": {
     "#w37": 1
    }
+  },
+  "ground:nethercity-a4": {
+   "here": {
+    "rope, 50'": 1
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 503,
-   "sp": 5
+   "gp": 501,
+   "sp": 7
   },
   "body:cassia": {
    "cp": 3

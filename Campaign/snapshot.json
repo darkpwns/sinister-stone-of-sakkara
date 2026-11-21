@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795265528,
+ "generated": 1795265649,
  "date": {
   "year": "",
   "season": "fall",
-  "day": 195
+  "day": 196
  },
- "time": "14:41",
+ "time": "15:01",
  "weather": "Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -20,10 +20,12 @@
    "hp_max": 19,
    "conditions": [
     "lost an eye and an ear (half her face mauled)",
-    "minor scarring (fang mark on the hand)"
+    "minor scarring (fang mark on the hand)",
+    "wears a Ring of Fire Protection (L63, identified day 195)",
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.508
+   "encumbrance_st": 8.508
   },
   {
    "name": "Vettius",
@@ -31,7 +33,9 @@
    "role": "pc",
    "hp": 12,
    "hp_max": 12,
-   "conditions": [],
+   "conditions": [
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
+   ],
    "spells_used": [],
    "encumbrance_st": 8.96
   },
@@ -62,7 +66,7 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.049
+   "encumbrance_st": 5.549
   },
   {
    "name": "Brennus",
@@ -71,7 +75,8 @@
    "hp": 6,
    "hp_max": 6,
    "conditions": [
-    "ear torn clean off (-1 to Listening throws and -1 to surprise rolls)"
+    "ear torn clean off (-1 to Listening throws and -1 to surprise rolls)",
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
    ],
    "spells_used": [],
    "encumbrance_st": 6.256
@@ -83,7 +88,8 @@
    "hp": 13,
    "hp_max": 13,
    "conditions": [
-    "minor scarring (puncture wound)"
+    "minor scarring (puncture wound)",
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
    ],
    "spells_used": [],
    "encumbrance_st": 8.114
@@ -104,12 +110,14 @@
    "role": "henchman",
    "hp": 18,
    "hp_max": 18,
-   "conditions": [],
+   "conditions": [
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
+   ],
    "spells_used": [],
    "encumbrance_st": 6.382
   }
  ],
- "light": "lantern (Vettius) out | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra",
+ "light": "lantern (Vettius) out; torch (Ottar) 6 turns left",
  "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
@@ -557,7 +565,15 @@
      "held": "right hand"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L77",
+     "looks": "88 gold pieces",
+     "qty": 88,
+     "value_gp": 88.0,
+     "stone": 0.088
+    }
+   ],
    "spells": {
     "repertoire": {
      "1": [
@@ -854,14 +870,13 @@
       "Journal",
       "Mace",
       "Quill, writing",
-      "Rope, 50'",
       "Waterskin ×5",
       "bolt ×9",
       "collection of ancient coins",
       "torch ×6"
      ],
      "items": 16,
-     "stone": 1
+     "stone": 0
     },
     "sack": {
      "contents": [
@@ -886,11 +901,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 503,
-    "sp": 5,
+    "gp": 501,
+    "sp": 7,
     "cp": 0
    },
-   "encumbrance_st": 9.508,
+   "encumbrance_st": 8.508,
    "weapons": [
     {
      "name": "Dagger",
@@ -1619,9 +1634,9 @@
     "backpack": {
      "contents": [
       "Waterskin ×5",
-      "torch ×6"
+      "torch ×3"
      ],
-     "items": 11,
+     "items": 8,
      "stone": 0
     },
     "sack": {
@@ -1644,7 +1659,7 @@
     "sp": 6,
     "cp": 0
    },
-   "encumbrance_st": 6.049,
+   "encumbrance_st": 5.549,
    "weapons": [
     {
      "name": "Spear",
@@ -2142,7 +2157,15 @@
     }
    ],
    "gems": "",
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L76",
+     "looks": "80 gold pieces",
+     "qty": 80,
+     "value_gp": 80.0,
+     "stone": 0.08
+    }
+   ],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 18,
@@ -2707,142 +2730,6 @@
  ],
  "open_rolls": [
   {
-   "label": "init Lucilla",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Neris",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Ottar",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Brennus",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Iulia",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Quirinus",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Phaedra",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    3
-   ],
-   "total": 4
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    14
-   ],
-   "total": 15
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    5
-   ],
-   "total": 6
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    15
-   ],
-   "total": 16
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    3
-   ],
-   "total": 4
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    13
-   ],
-   "total": 14
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "Brennus bash bronze double doors C2a-E1",
-   "spec": "1d20+1",
-   "rolls": [
-    11
-   ],
-   "total": 12
-  },
-  {
    "label": "Brennus bash bronze double doors C2a-E1",
    "spec": "1d20+1",
    "rolls": [
@@ -3105,6 +2992,142 @@
     14
    ],
    "total": 18
+  },
+  {
+   "label": "search fee Crusader of level 2 (Class II)",
+   "spec": "1d10+10",
+   "rolls": [
+    5
+   ],
+   "total": 15
+  },
+  {
+   "label": "search fee Priestess of level 2 (Class II)",
+   "spec": "1d10+10",
+   "rolls": [
+    7
+   ],
+   "total": 17
+  },
+  {
+   "label": "search fee Mage of level 2 (Class II)",
+   "spec": "1d10+10",
+   "rolls": [
+    3
+   ],
+   "total": 13
+  },
+  {
+   "label": "lucilla death save",
+   "spec": "1d20+4",
+   "rolls": [
+    7
+   ],
+   "total": 11
+  },
+  {
+   "label": "vettius death save",
+   "spec": "1d20+4",
+   "rolls": [
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "vestus-the-unlikely death save",
+   "spec": "1d20+4",
+   "rolls": [
+    18
+   ],
+   "total": 22
+  },
+  {
+   "label": "neris death save",
+   "spec": "1d20+4",
+   "rolls": [
+    8
+   ],
+   "total": 12
+  },
+  {
+   "label": "ottar death save",
+   "spec": "1d20+5",
+   "rolls": [
+    14
+   ],
+   "total": 19
+  },
+  {
+   "label": "brennus death save",
+   "spec": "1d20+4",
+   "rolls": [
+    7
+   ],
+   "total": 11
+  },
+  {
+   "label": "iulia death save",
+   "spec": "1d20+5",
+   "rolls": [
+    4
+   ],
+   "total": 9
+  },
+  {
+   "label": "quirinus death save",
+   "spec": "1d20+3",
+   "rolls": [
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "phaedra death save",
+   "spec": "1d20+4",
+   "rolls": [
+    18
+   ],
+   "total": 22
+  },
+  {
+   "label": "Brennus bash bronze door E6b-F1",
+   "spec": "1d20+1",
+   "rolls": [
+    16
+   ],
+   "total": 17
+  },
+  {
+   "label": "Brennus bash bronze door E6b-F1",
+   "spec": "1d20+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "Brennus bash bronze door E6b-F1",
+   "spec": "1d20+1",
+   "rolls": [
+    14
+   ],
+   "total": 15
+  },
+  {
+   "label": "Brennus bash bronze door E6b-F1",
+   "spec": "1d20+1",
+   "rolls": [
+    19
+   ],
+   "total": 20
+  },
+  {
+   "label": "Iulia throw",
+   "spec": "1d20",
+   "rolls": [
+    8
+   ],
+   "total": 8
   }
  ],
  "rumours_heard": [

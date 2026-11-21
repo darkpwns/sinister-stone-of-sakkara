@@ -457,3 +457,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 195 |  | treasure share |  | 87gp 2sp |  | iulia |
 | 195 |  | treasure share |  | 43gp 6sp |  | quirinus |
 | 195 |  | treasure share |  | 43gp 6sp |  | phaedra |
+| 195 | Silk Pony Inn (#25) | beds for nine, night of day 195 |  |  | 1gp 8sp | lucilla |
