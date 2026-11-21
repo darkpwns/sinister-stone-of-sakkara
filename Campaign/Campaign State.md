@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 191
-  time: 07:15
+  time: 08:35
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -25,16 +25,15 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.342
+    encumbrance_st: 9.946
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
     hp: 12
     hp_max: 12
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used: []
-    encumbrance_st: 8.704
+    encumbrance_st: 9.371
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -57,7 +56,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 7.667
+    encumbrance_st: 7.5
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -65,7 +64,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.833
+    encumbrance_st: 6.333
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -73,7 +72,7 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 7.358
+    encumbrance_st: 8.192
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -87,11 +86,10 @@ public:
     role: henchman
     hp: 16
     hp_max: 18
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used: []
-    encumbrance_st: 6.167
-  light: lantern (Vettius) out; torch (Ottar) 4 turns 1 round left
+    encumbrance_st: 6.5
+  light: lantern (Vettius) out; torch (Ottar) 6 turns left
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
