@@ -22,7 +22,7 @@ Running: Temple / Tomb column, `level: 4`: throw 1d6 every 3 turns, 6+ → 2d10 
 - **East balcony H5:** a bronze-inlaid cedar door on its south wall opens on a curving stair down to the east archway of the Grand Gallery **H14**; its west side is a railing over H14.
 - **Grand Gallery H14** (lower storey): east archway to the stair up to H5; heavy bronze door in the middle of the south wall to the annex **H15**.
 - **Annex H15:** stone slab door south to the astrologer's tomb **H16**; a side corridor west then south ends at two cedar doors: west to the vestry **H17**, south to the mosaic gallery **H18**.
-- **H18:** cedar door in the south corner of its west wall to **H19**, whose cedar door south leads to **G19** ([[Nethercity G - Grand Chthonic Temple]]); a side hallway off the north part of H18's west wall ends at a cedar door to **H20** (Judge's call: this is the cedar door H11's east branch reaches, see H11).
+- **H18:** cedar door in the south corner of its west wall to **H19**, whose cedar door south leads to **G19** ([[Nethercity G - Grand Chthonic Temple]]); a side hallway off the north part of H18's west wall ends at a cedar door to **H20**. H11's east passage also ends at a cedar door "to H18" (Judge's call: the map is unclear; treat H11's east door as opening on that side hallway, so H11, H18 and H20 all connect).
 - **South-western galleries:** the ramp from H9 runs down into **H10a** (stone slab door west to the priest's tomb **H25**) and on down to **H10b** (stone slab door east to the embalmer's tomb **H22**), which ends at the four-way intersection **H11**: east to a cedar door (H18 side), south 15’ into the commoners' tomb **H20**, west 30’ (stone slab door north to the inquisitor's tomb **H21**) then south as **H23**, which slopes down into the meditation well **H24**.
 - **Down to the river:** H24's 5’ floor hole drops 10’ to the river at **P7**; a secret door in H25's north wall opens on the secret stair **H26**, whose foot is a secret door to **P5** ([[Nethercity P - Sub-Abyssal River Banks]]).
 
@@ -167,7 +167,7 @@ No organised group holds area H; its intelligent inhabitants are seven solitary 
 - **Graves:** 54 horizontal wall graves, 28 west and 24 east (52 by the book's split), 2400 BE, usual inscriptions, remains and goods (about 243gp).
 
 ### H11. Great Temple Four-Way Intersection (2300 BE)
-- **Exits:** north to H10b; east to a cedar door (to H18; Judge's call: this is the cedar door at the end of H18's side hallway, which opens toward H20's side of the complex); south 15’ into H20; west 30’, then sharply south as H23 (SOTN prints "towards 8u"; read H23); the west hallway has a stone slab door in its north face to H21.
+- **Exits:** north to H10b; east to a cedar door (to H18, by H18's side hallway; see Layout); south 15’ into H20; west 30’, then sharply south as H23 (SOTN prints "towards 8u"; read H23); the west hallway has a stone slab door in its north face to H21.
 - > [!player]
   > A crossroads. East, a passage ends at a cedar door; south, a short passage opens after 15’ into a room; west, a hallway runs 30’ with a stone slab door in its north side, then turns sharply south. Wall graves pierce the walls of every passage.
 - **Graves:** 12 horizontal wall graves around the intersection, 2300 BE, usual inscriptions, remains and goods (about 54gp).
