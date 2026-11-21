@@ -71,7 +71,7 @@ intended: use mules, porters, wagons. `min_version` in the instance is 7.13.0.
 - Free NPCs in town: Zaira ES1 (retired, one leg), Vestus M1 (rehire by offer); Genelen (Priestess 6, Friendly, actor Actors/npc/priestess-genelen).
 - Engine 7.13.4 on claude/eager-turing-48ne25 (min_version 7.13.4). Skill: bootstrap.md new section and xsync season sync, also in kardakia-campaign on claude/eager-turing-48ne25.
 
-## Next session: the journey to Cyfaraun (Secrets of the Nethercity) — start here
+## Next session: the journey to Cyfaraun (Secrets of the Nethercity) (done in S08: see the S08 section at the end)
 **State on resume (day 161, 06:00, summer, Türos Tem 22.20):** Campaign State `adventure: between adventures`; the
 engine's clock, travel block (hex 22.20, believed 22.20, season start spring day 1), inventory, retinue and the hex map
 are ready. Engine 7.13.6 (`min_version`; rebuke, note initiative bonus, attack --extra-dice/--double-on-20, food sharing, water --source, early-resolved encounter: see references/judge-screen.md). No open adventure; no combat or encounter open.
@@ -122,3 +122,41 @@ Spen, Turos Orn, Cyfaraun); market classes VI, VI, IV, III.
 `Adventures/_source/Secrets_of_the_Nethercity.pdf`: hub with `Running …` lines, level keys, tables), and AX3's city
 detail for Cyfaraun (districts, encounters, rumours). Open the adventure (`adventure start --name "Secrets of the
 Nethercity"`, `adventure join` each PC) before the first delve.
+
+## S08 (2026-11-21) — start here (supersedes "Next session" above)
+**Branch:** S08 is on `ccr-6e7c0096-7nmfvu` (pushed), not the default branch. Check that branch out (or merge it into
+the default) before resuming, or the instance resumes from day 161. The same branch name exists (no changes) in
+kardakia-campaign and acks2-rules-vault; acks2-tools stays on `claude/eager-turing-48ne25` (7.13.6, unchanged).
+
+**State on resume:** day 186, 08:20, fall (season turned day 181), Cyfaraun (18.05), mode town, Silk Pony Inn
+(Festival District #25; beds 2sp, paid through the night of day 185 — pay each night: `inv pay lucilla 1gp 4sp`).
+Adventure A9 "Secrets of the Nethercity (journey to Cyfaraun)" open: all PCs and Neris, Ottar joined. No combat or
+encounter open. Session log `Session Log/S08 — The road to Cyfaraun.md` (continue it, or close it as S08 and open S09).
+
+**Party (8):** Sabina Cru4 16/16 (1 of 2 spells used today), Tarq Bar3 13/13, Lucilla Ven4 19/19, Vettius Thf4 12/12
+(spine restored day 171, no side effect; bed rest done), Hesper F2 10/10, Vestus M1 3/3; henchmen **Neris** (Priestess 1,
+Sabina's, 35gp/month, STR 4, 4 hp, both spells used today; Healing proficiency not on the actor) and **Ottar** (0th,
+Lucilla's torch-bearer, 12gp, 2 hp, 12 torches). Wages paid through day 204. Food 7-22 days each, skins full.
+Animals (mule1 + cart1, donkey1, donkey2) stabled at the Silk Pony, paid through day 188: they stay in town for a
+delve (`party` still lists them in the travel block's animals; nobody rides: Hesper and Vettius were seated in cart1 —
+`mounts dismount cart1 --rider hesper` / `vettius` before walking, and check `mounts show`: dismount has left stale riders twice).
+
+**Threads (player-facing):** Genelen's letter was coldly received by a sister of the Hearth Fire (Unfriendly); a
+priestess henchman found anyway. Rumours (Session Log/Rumours Heard.md): Argollëan Family vs Sand & Bones; Silk Pony
+blood sports; the Order of the Eclipse and the river bodies; **Tavus Ionicus with the lepers in the undercity** (the
+pointed lead: AX3 rumour 20 → Vagrant Colony #75u, his body, drawings and note). Party intent: down through an Old
+District sewer grate into the Undercity, toward the lepers and what lies beneath.
+
+**Next:** load R/dungeon.md and R/encounters.md; the Undercity is AX3's (`Adventure/AX3/AX3 Hub.md` "Running Undercity
+of Cyfaraun"; Old District throw 5+; [[Undercity of Cyfaraun]]); the Nethercity proper via Old District #12u =
+Nethercity A1 (`Adventure/SOTN/SOTN Hub.md`: `acks.sh location --hub "Adventure/SOTN/SOTN Hub.md"` for the sewer caves;
+unsettling events every 12 turns; sludge miasma). Light the torch (`light on --kind torch --carrier ottar`). In town every
+day: `eat --in-town` **before** each rollover (`wait`), else the travel block starves and dehydrates the party (S08 slip,
+corrected). Rulings added in S08: Genelen's letter (+1/+2), farmstead wells on roads, pointed rumour questions.
+
+**Engine findings S08** (Playtest/judge-notes.txt): `mounts dismount` leaves riders_st (twice, fixed by hand);
+`spellcasting` crashes on a null retinue `spellcasting` record (set to {}); `mortal-wounds` outside a fight needs a
+combat state, `state set ID status=unconscious` and `--type`; passenger bed rest under a healer is never credited on
+travel days (only rest-day sets cared_by); `wait` in a settlement eats carried supplies (use `eat --in-town`); a hired
+henchman's proficiencies cannot be set; campaign tables (Adventure/**/Tables/*.yaml) are not found by `acks table roll`
+(roll 1d20 and read the row); `throw ID --prof climbing` has no recorded target (use `--target 8`).
