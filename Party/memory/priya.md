@@ -15,3 +15,5 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Opinions of NPCs
 
 ## Henchmen and hirelings
+
+- S08 (day 196): Vestus learned old lore (Loremastery), map-making and the old elven tongue (Ancient Argollëan): he can read the grave and wall inscriptions below.

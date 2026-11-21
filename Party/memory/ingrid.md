@@ -15,3 +15,5 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Opinions of NPCs
 
 ## Henchmen and hirelings
+
+- S08 (day 196): Neris' laying on of hands (once a day, more with practice) ends paralysis, heals, or helps the badly wounded; her prayers of consolation double a patient's rest healing.
