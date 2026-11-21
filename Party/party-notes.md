@@ -23,6 +23,9 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   bottom **48**. Torch-bearers and other 0th-level help count 1 each. Day 196: Lucilla 4, Vettius 4, Iulia 2,
   Quirinus 2, Vestus 1, Neris 1, Brennus 1, Phaedra 1, Ottar 1 = **17**. Day 211, after hiring: **25**.
 
+- S09 (day 211): keep only the help the strength rule needs. Every henchman is a half share of treasure and XP out of
+  our pockets: when we stand at the floor without one, we let him go. Nysa let go on day 211 (25 against 24).
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->
