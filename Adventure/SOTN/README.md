@@ -55,6 +55,13 @@ Unticked parts may already have files on main (snapshots of parts still being wr
 Each area note marks its own Judge's calls and book errors inline ("(Judge's call: …)", "(SOTN prints …)"); the list
 below gathers the ones that matter across notes.
 
+### Before play (not done here: Campaign/ is not touched in prep)
+- `Campaign/campaign.yaml` `tools.bestiary` lists only `Adventure/Bestiary/`: add `Adventure/SOTN/Bestiary/` (and
+  `Adventure/AX3/Bestiary/`) so `encounter`/`monster` find the SOTN and AX3 statblocks (all 38 SOTN notes parse with
+  the engine's `monsters.statblocks`; the wandering tables resolve when those folders are passed).
+- The SOTN classes (Elven Cultist, Hierophant, Warlord, Wizard) are campaign builds, not engine class data.
+- Open the adventure (`adventure start --name "Secrets of the Nethercity"`, `adventure join` each PC) before the first delve.
+
 ### Conversion rules applied throughout (Judge's calls)
 - **Wandering column per area:** sewer caves A, C, L; volcanic caves I, M; temple/tomb B, D-H, J, K, N, O, Q-T; river P.
   **Dungeon levels** 2 / 3 / 4 / 5 by the columns' threat (SOTN p. 19: 1-2, 2-3, 3-4, 4-6). Wandering "faewyrd" = lesser
