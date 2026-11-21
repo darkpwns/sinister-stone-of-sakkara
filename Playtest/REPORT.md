@@ -64,3 +64,6 @@ The legate (Neutral, Genelen vouching) paid the 2,000gp reward. Payout: 2,065 tr
 
 ## Engine fixes in S07 (7.13.2-7.13.3)
 `death --dies` takes a henchman out of the retinue; `state set` honours `--hp` and `--set` (silently ignored before: a cure and the Lady's settings had not been applied).
+
+## Between adventures (day 161)
+AX1 complete. The four survivors retired: their 12,119gp went to reserve XP (Ingrid 2,819, Kwame 2,769, Rosa 2,496, Tomasz 2,823); Aulus and Marcia got cenotaphs paid from their estates (funeral XP: Gideon 1,337, Priya 1,989). Hesper, Zaira and Vestus are free in Türos Tem. Engine 7.13.4: the S07 gaps fixed, and the season now follows the calendar (it had stayed spring for 161 days; today is summer).

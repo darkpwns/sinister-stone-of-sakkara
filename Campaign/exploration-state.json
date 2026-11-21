@@ -5,78 +5,7 @@
   "round_of_day": 360,
   "total_rounds": 230280
  },
- "party": {
-  "sabina": {
-   "id": "sabina",
-   "actor": "sabina",
-   "name": "Sabina",
-   "perceived": "Sabina",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.8333333333333334
-  },
-  "tarq": {
-   "id": "tarq",
-   "actor": "tarq",
-   "name": "Tarq",
-   "perceived": "Tarq",
-   "conditions": [],
-   "endurance": true,
-   "treasure_stone": 0.16666666666666666
-  },
-  "lucilla": {
-   "id": "lucilla",
-   "actor": "lucilla",
-   "name": "Lucilla",
-   "perceived": "Lucilla",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.3333333333333333
-  },
-  "vettius": {
-   "id": "vettius",
-   "actor": "vettius",
-   "name": "Vettius",
-   "perceived": "Vettius",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.6666666666666666
-  },
-  "vestus-the-unlikely": {
-   "id": "vestus-the-unlikely",
-   "actor": "vestus-the-unlikely",
-   "name": "Vestus the Unlikely",
-   "perceived": "Vestus the Unlikely",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.0
-  },
-  "priestess-genelen": {
-   "id": "priestess-genelen",
-   "actor": "priestess-genelen",
-   "name": "Priestess Genelen",
-   "perceived": "Priestess Genelen",
-   "conditions": [],
-   "endurance": false
-  },
-  "hesper": {
-   "id": "hesper",
-   "actor": "hesper",
-   "name": "Hesper",
-   "perceived": "Hesper",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.0
-  },
-  "zaira-the-beautiful": {
-   "id": "zaira-the-beautiful",
-   "actor": "zaira-the-beautiful",
-   "name": "Zaira the Beautiful",
-   "perceived": "Zaira the Beautiful",
-   "conditions": [],
-   "endurance": false
-  }
- },
+ "party": {},
  "lights": [
   {
    "id": "torch1",
@@ -2552,7 +2481,7 @@
   "hex": "13.08",
   "believed": "13.08",
   "lost": null,
-  "season": "spring",
+  "season": "summer",
   "dawn": "06:00",
   "moon": "half",
   "month_days": 30,
@@ -2562,39 +2491,36 @@
   "weather": {
    "R04.02": {
     "climate": "Cfb",
-    "season": "spring",
+    "season": "summer",
     "rolls": {
-     "T": 4,
-     "P": 8,
-     "W": 9
+     "T": 9,
+     "P": 6,
+     "W": 7
     },
     "modified": {
-     "T": 5,
-     "T_night": 4,
-     "P": 7,
-     "W": 9
+     "T": 12,
+     "T_night": 10,
+     "P": 5,
+     "W": 7
     },
     "mods": {
-     "T_day": 1,
-     "T_night": 0,
+     "T_day": 3,
+     "T_night": 1,
      "P": -1,
      "W": 0
     },
-    "temp_day": "Brisk (63 to 67 F)",
-    "temp_night": "Chilly (57 to 62 F)",
+    "temp_day": "Hot (91 to 94 F)",
+    "temp_night": "Warm (83 to 86 F)",
     "temp_cond": "moderate",
     "night_cond": "moderate",
-    "precip_table": "Drizzly",
-    "precip": "drizzly",
+    "precip_table": "Mostly Cloudy",
+    "precip": "mostly",
     "wind": "Moderate",
-    "conditions": [
-     "drizzly"
-    ],
+    "conditions": [],
     "fronts": [],
     "notes": [],
-    "day": 146,
-    "region": "R04.02",
-    "kept_from": "R03.02"
+    "day": 161,
+    "region": "R04.02"
    },
    "R03.02": {
     "climate": "Cfb",
@@ -2670,15 +2596,13 @@
   "weather_days": {
    "R04.02": {
     "modified": {
-     "T": 5,
-     "T_night": 4,
-     "P": 7,
-     "W": 9
+     "T": 12,
+     "T_night": 10,
+     "P": 5,
+     "W": 7
     },
-    "conditions": [
-     "drizzly"
-    ],
-    "day": 146
+    "conditions": [],
+    "day": 161
    },
    "R03.02": {
     "modified": {
@@ -33978,6 +33902,16 @@
      "hunted": false,
      "in_settlement": true
     }
+   },
+   "161": {
+    "_party": {
+     "nav": null,
+     "water_tried": false,
+     "weather_regions": [
+      "R04.02"
+     ],
+     "encounter_checks": []
+    }
    }
   },
   "trail": [
@@ -34060,11 +33994,6 @@
   "weather_hist": {
    "R04.02": [
     {
-     "day": 109,
-     "conditions": [],
-     "temp": "moderate"
-    },
-    {
      "day": 110,
      "conditions": [
       "foggy"
@@ -34119,6 +34048,11 @@
      "conditions": [
       "drizzly"
      ],
+     "temp": "moderate"
+    },
+    {
+     "day": 161,
+     "conditions": [],
      "temp": "moderate"
     }
    ],
@@ -34211,7 +34145,11 @@
    "13.07": "found day 63",
    "14.07": "found day 65"
   },
-  "night_pending": null
+  "night_pending": null,
+  "season_start": {
+   "day": 1,
+   "season": "spring"
+  }
  },
  "past_encounters": [
   {

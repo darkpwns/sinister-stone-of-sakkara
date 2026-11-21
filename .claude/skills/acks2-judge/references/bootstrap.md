@@ -1,6 +1,6 @@
 # Bootstrap (first session)
 
-Load when `brief.py` says **bootstrap needed** (Campaign State `public.party` is empty).
+Load when `brief.py` says **bootstrap needed** (Campaign State `public.party` is empty). If Campaign State's `adventure:` says **between adventures**, follow the last section (A new adventure in a running campaign) instead.
 
 1. **Table rules in one AskUserQuestion** (four questions; the first combines two settings so all five fit):
    - "Quest and discovery awards, and hidden rolls?" — options: awards off, hidden rolls in the Judge block (recommended) / awards off, hidden rolls logged openly / awards on, hidden rolls in the Judge block / awards on, hidden rolls logged openly.
@@ -18,3 +18,31 @@ Load when `brief.py` says **bootstrap needed** (Campaign State `public.party` is
 5. **Session log:** create `S01 — <summary>.md` from the template (config `logs.session_log`), link it under the index section of the campaign log, and add the PC to the log's party list (config `logs.session_log.index`, `## Party`).
 6. `save.sh "S01 bootstrap: table rules, <PC name>"`.
 7. Begin play at the start location: narrate the arrival or the first morning there, the visible prompts of the starting situation (the campaign's starting-point note, if the wiki has one: player-facing parts only), then stop for the player's first action.
+
+
+## A new adventure in a running campaign
+
+Load this section instead of steps 1-2c when `brief.py` says **bootstrap needed** but Campaign State's `adventure:` says
+**between adventures** (Table rules, the inventory, the retinue and the rulings already exist: keep them all).
+1. **The new adventure and where it lies.** Its module notes go in the wiki folders (config `paths.wiki_folders`) and
+   its hub's `Running …` section (prep). Place its sites on the campaign's hex grid and extend `Data/hexes.csv` and
+   `Data/places.csv` as the region note says (the campaign's fixed point and grid: `Adventure/Region Map.md` in the
+   Sakkara campaign). Never renumber existing hexes. Update config `start` (location, hex) only if play begins
+   somewhere else; the date stays the engine clock's.
+2. **Each player's starting XP** (RR Character Death: reserve XP fund and heroic funeral, never more than the prior
+   character's XP): `acks.sh death <prior id> --new-character --player <player> --prior-xp <prior character's xp>`
+   (the prior actor is in `Characters/former/`). Run it only when that player's new character is made: it consumes
+   the funeral XP. The players' funds are the adventure ledger's `players` block.
+3. **The new PCs:** party-structure.md → Making the AI players' PCs (or `acks.sh chargen` for a human player), one per
+   player, at 1st level; then `acks.sh actor set <id> xp <starting XP> --cause "reserve XP (RR Character Death)"` and
+   `acks.sh level-up --sheet <id> --apply` once for each level that XP reaches. Equipment: the template's, or 3d6 × 10
+   gp, unless he inherits (a relative may collect a dead character's belongings once: `death <prior> --heir <id>
+   --deposits N`). Set config `party.active_players[].pc`; make each an inventory holder (inventory.md Setup) and
+   `acks.sh party add <id>`.
+4. **Henchmen** of former characters stay in `Characters/former/` and the retinue as dismissed; they may be recruited
+   again (henchmen-hirelings.md: a new offer).
+5. **Travel state:** keep the existing travel block (its hex, season start and calendar); do not run `travel-init`
+   again. Check the season with `acks.sh travel-show` (it follows the calendar from engine 7.13.4).
+6. **Open the adventure:** `acks.sh adventure start --name "<module>"` and `adventure join` each PC and henchman before
+   the first delve or journey. Campaign State: `adventure:` the module, `mode`, `location`, `session` + 1.
+7. Session log, save and the first scene as steps 5-7 above.

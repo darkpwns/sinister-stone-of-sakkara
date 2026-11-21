@@ -35,6 +35,12 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | --- | --- | --- | --- |
 
 ## NPC attitudes
+- Legate Valerian: Neutral (paid the reward day 146; will arrest the party if raids resume). Priestess Genelen: Friendly (holds the Fragments for Mityara's order). Annalist Socolo: Friendly (identified common items). Ur-Shet: Indifferent (day 142).
+
+## Retired and former characters (day 161)
+- Retired after AX1 (Characters/former/, gear and magic items kept): Sabina Cru4, Tarq Bar3, Lucilla Ven4 (ring L63), Vettius Thf4 (swords L47, L58; temple map L31; scroll L45; the Lady's unholy symbol). Dead: Aulus, Marcia (cenotaphs in Türos Tem), Thorwell, Quintus (bodies in L2 38).
+- Former henchmen in Türos Tem, dismissed, may be rehired: Hesper F2, Zaira ES1 (one leg), Vestus M1.
+- Karanos' bank (karanos-bank, 5,016gp): Hesper 1,773; estates of Gallus 1,119, Thorwell 1,062, Thorcigar 1,062 (no wills; a relative may collect once).
 
 ## Faction standing
 

@@ -55,3 +55,21 @@ intended: use mules, porters, wagons. `min_version` in the instance is 7.13.0.
 - Adventure A8 paid. Open the next adventure before any delve.
 - Helpers this chat (scratchpad, not kept): und2.py (undead driver with per-undead target lists; resolve cleaves). The Lady's arcane strike and weapon-focus doubling were done by hand (`damage --dice 1d1 --mod`).
 - Engine 7.13.3 on claude/eager-turing-48ne25; min_version 7.13.3.
+
+## Between adventures (2026-11-21, after S07)
+- **AX1 is complete.** Day 161, summer (calendar: 30-day months, 3 months a season, spring from day 1; engine 7.13.4 turns the season at the rollover). Türos Tem, hex 13.08. `Adventure/Region Map.md` is the fixed point: grid, Türos Tem's position and neighbours, what is built (columns 08-16, rows 02-10), the AX1 seed sites, and how to place a new module's map.
+- **No PCs:** Campaign State `adventure: between adventures` and an empty `Characters/` make `brief.py` say bootstrap needed; follow `R/bootstrap.md` → A new adventure in a running campaign (keeps Table rules, inventory, retinue, rulings, travel block).
+- **Players' starting XP** (RR Character Death; never more than the prior character's XP):
+
+  | Player | Prior character (Characters/former/) | Prior XP | Reserve | Funeral | New character starts with |
+  | --- | --- | --- | --- | --- | --- |
+  | gideon | aulus (dead) | 3,610 | 0 | 1,337 | 1,337 |
+  | priya | marcia (dead) | 3,543 | 0 | 1,989 | 1,989 |
+  | ingrid | sabina (retired) | 6,598 | 2,819 | 0 | 2,819 |
+  | kwame | tarq (retired) | 5,741 | 2,769 | 0 | 2,769 |
+  | rosa | lucilla (retired) | 6,598 | 2,496 | 0 | 2,496 |
+  | tomasz | vettius (retired) | 6,296 | 2,823 | 0 | 2,823 |
+
+  Run `death <prior> --new-character --player <p> --prior-xp <xp>` when each is made (it consumes the funeral XP), then `actor set <id> xp N` and `level-up --sheet <id> --apply` per level reached.
+- Free NPCs in town: Hesper F2, Zaira ES1 (one leg), Vestus M1 (former henchmen, rehire by offer); Genelen (Priestess 6, Friendly, actor Actors/npc/priestess-genelen). Bank: 5,016gp (Hesper 1,773; dead henchmen's estates).
+- Engine 7.13.4 on claude/eager-turing-48ne25 (min_version 7.13.4). Skill: bootstrap.md new section and xsync season sync, also in kardakia-campaign on claude/eager-turing-48ne25.

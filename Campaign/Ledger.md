@@ -334,3 +334,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 146 |  | treasure share |  | 200gp |  | vestus-the-unlikely |
 | 146 |  | treasure share |  | 200gp |  | hesper |
 | 161 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 161 | Mityara's hospital | tithe to Mityara's hospital at retirement (no tangible benefit: reserve XP, RR p. 311) |  |  | 3,132gp | sabina |
+| 161 | the inn and the camp followers | a month of carousing at retirement (no tangible benefit: reserve XP, RR p. 311) |  |  | 3,077gp | tarq |
+| 161 | the garrison and the village | a feast for the fort at retirement (no tangible benefit: reserve XP, RR p. 311) |  |  | 2,773gp | lucilla |
+| 161 | the inn's gaming tables | gambling and carousing at retirement (no tangible benefit: reserve XP, RR p. 311) |  |  | 3,137gp | vettius |
+| 161 | Aulus' cenotaph and funeral games, Türos Tem | heroic funeral for Aulus (died in the Inner Fane, day 142), paid from his deposits (RR Heroic Funerals) |  |  | 1,486gp | karanos-bank |
+| 161 | Marcia's cenotaph and funeral games, Türos Tem | heroic funeral for Marcia (died in the Inner Fane, day 142), paid from her deposits (RR Heroic Funerals) |  |  | 2,210gp | karanos-bank |

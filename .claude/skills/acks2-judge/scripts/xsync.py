@@ -95,6 +95,16 @@ if _m:
         want["date"] = d
         fm["clock_day"] = cday
 tv = view.get("travel") or {}
+# the season follows the engine's calendar (engine 7.13.4: the travel block's season turns every 3 months from its
+# season start); the year stays the Judge's
+try:
+    _xs = json.load(open(jlib.path(cfg["tools"]["exploration_state"]), encoding="utf-8"))
+    _sn = ((_xs.get("travel") or {}).get("season") if (_xs.get("travel") or {}).get("season_start") else None)
+except Exception:
+    _sn = None
+if _sn and isinstance(pub.get("date"), dict) and pub["date"].get("season") != _sn:
+    d = dict(want.get("date") or pub["date"]); d["season"] = _sn
+    want["date"] = d
 if tv:
     want["hex"] = tv["hex"]
     want["trail"] = list(tv.get("trail") or [])[-20:]

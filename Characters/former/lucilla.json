@@ -1,0 +1,83 @@
+{
+ "schema": "acks-actor/2",
+ "id": "lucilla",
+ "type": "character",
+ "role": "pc",
+ "name": "Lucilla",
+ "class": "Venturer",
+ "level": 4,
+ "xp": 6598,
+ "alignment": "Neutral",
+ "age": 21,
+ "gender": "female",
+ "hp_max": 19,
+ "attributes": {
+  "STR": 11,
+  "INT": 13,
+  "WIL": 12,
+  "DEX": 14,
+  "CON": 13,
+  "CHA": 17
+ },
+ "inventory_holder": true,
+ "items": [
+  {
+   "type": "proficiency",
+   "name": "Adventuring",
+   "list": "general"
+  },
+  {
+   "type": "proficiency",
+   "name": "Magical Engineering",
+   "list": "class"
+  },
+  {
+   "type": "proficiency",
+   "name": "Knowledge (history)",
+   "list": "general"
+  },
+  {
+   "type": "proficiency",
+   "name": "Driving",
+   "list": "class"
+  },
+  {
+   "type": "proficiency",
+   "name": "Bargaining",
+   "list": "general"
+  },
+  {
+   "type": "proficiency",
+   "name": "Leadership",
+   "list": "class"
+  }
+ ],
+ "modifiers": [
+  {
+   "target": "ac.shield",
+   "value": 1,
+   "source": "lot L28 (Chain Mail +1)",
+   "cause": "divided by agreement: Lucilla wears the chain"
+  },
+  {
+   "target": "ac.no_shield",
+   "value": 1,
+   "source": "lot L28 (Chain Mail +1)",
+   "cause": "divided by agreement: Lucilla wears the chain"
+  }
+ ],
+ "state": {
+  "conditions": [
+   "lost an eye and an ear (half her face mauled)",
+   "minor scarring (fang mark on the hand)"
+  ],
+  "spells_used": [],
+  "hp": 19
+ },
+ "judge": {
+  "retired": {
+   "day": 161,
+   "why": "retired after AX1; wealth spent to reserve XP; gear and magic items kept"
+  }
+ }
+}
