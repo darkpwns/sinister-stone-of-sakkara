@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: fall
-    day: 232
-  time: '10:07'
-  weather: Chilly (51 to 55 F) by day, Chilly (51 to 55 F) at night; overcast; wind strong
+    day: 233
+  time: '11:05'
+  weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; partly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 8.965
+    encumbrance_st: 9.007
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,15 +34,16 @@ public:
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 9.7
+    encumbrance_st: 9.748
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 9
+    hp: 4
     hp_max: 9
     conditions: []
     spells_used:
     - Fan of Flames
+    - Mage Missile
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -50,53 +51,45 @@ public:
     hp_max: 7
     conditions: []
     spells_used:
-    - Holy Circle
-    encumbrance_st: 2.867
+    - Holy Blessing
+    encumbrance_st: 2.581
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 21
+    hp: 17
     hp_max: 23
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     spells_used: []
-    encumbrance_st: 8.2
+    encumbrance_st: 7.915
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 23
+    hp: 17
     hp_max: 23
     conditions:
     - minor scarring (puncture wound)
     spells_used:
     - Holy Blessing
-    encumbrance_st: 8.533
-  - name: Phaedra
-    sheet: Characters/phaedra.json
+    encumbrance_st: 8.248
+  - name: Hrodvar
+    sheet: Characters/hrodvar.json
     role: henchman
     hp: 5
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 3.625
-  - name: Hrodvar
-    sheet: Characters/hrodvar.json
-    role: henchman
-    hp: 4
-    hp_max: 4
-    conditions: []
-    spells_used: []
-    encumbrance_st: 7.292
+    encumbrance_st: 7.154
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 4
-    hp_max: 4
+    hp: 8
+    hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 8.958
+    encumbrance_st: 8.987
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -104,25 +97,17 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 4.125
+    encumbrance_st: 4.487
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 6
-    hp_max: 6
+    hp: 11
+    hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 9.625
-  - name: Gnaeus
-    sheet: Characters/gnaeus.json
-    role: henchman
-    hp: 9
-    hp_max: 9
-    conditions: []
-    spells_used: []
-    encumbrance_st: 7.125
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.2 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Phaedra: food 6 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 8.321
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (phaedra) out; torch (phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out
+  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.2 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -146,7 +131,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 232
+clock_day: 233
 ---
 # Campaign State
 

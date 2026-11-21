@@ -76,6 +76,17 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   Home by ten, the goods kept back for the next month's selling day. Iulia became a curate, Neris a sister-initiate,
   Aelia a versifier. With the party well above the line, Calpurnia and Titus were let go.
 
+- Day 233, sixteenth descent, to the galleries above the deep ones. Giant ants at the cliff kept their distance. The
+  family tomb behind a bronze door held a game board of obsidian and quartz and a painted lyre (Lucilla named it a
+  lyre of lullabies); Vestus read the grieving father's inscription. Behind its slab the father himself, a mummy in a
+  gold circlet, rose ready; Iulia's rebuke held him cowering while four blades cut him down. The last slab, in the
+  gallery wall, took fourteen heaves; Vettius heard chanting and a scrape above before it opened, so no one went in.
+  A woman's mummy in black leather clung to the ceiling and lashed down with a black whip; she threw Brennus at
+  Iulia's feet-almost, cut Vestus and Iulia, and burned to nothing under a rain of military oil. A diamond nose-ring
+  in a lacquered box, a scroll on black handles, silver in an amphora, alabaster apes, and the whip itself (+1).
+  Home by eleven. Varro, Hrodvar and Marcellus each rose to the second rank; with the party again above its line,
+  Phaedra and Gnaeus were let go, and Gnaeus' battle axe passed to Varro.
+
 ## Who they met
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
 - A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.
@@ -84,6 +95,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 - A vicar of Ammonar at the Solar Citadel: grey-templed, measured; asked what they had seen before what they wanted.
 
 ## Treasure and XP
+- Day 233 (A21): 4,001gp (E7-E9; goods unsold, held for day 241) + 2,120 monster XP. Varro Fighter 2, Hrodvar Vaultguard 2, Marcellus Fighter 2. Lucilla 34 XP short of Venturer 5.
 - Day 232 (A20): 4,465gp (E3 compartment; goods unsold, held for day 241) + 1,560 monster XP. Iulia Crusader 4, Neris Priestess 3, Aelia Bard 2.
 - Day 223 (A19): 14,185gp (H12 charms and natron, H17 scrolls and myrrh, G21 treasury coin; goods sold 4,384gp) + 58 monster XP. Vettius Thief 5, Vestus Mage 3, Brennus Fighter 3.
 - Day 221 (A18): 5,350gp (warlord's chapel vault; sold 8,470gp with the death orb) + 270 monster XP; death orb sale XP 3,300. Iulia Crusader 3, Brennus Fighter 2, Neris Priestess 2.

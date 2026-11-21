@@ -78,6 +78,22 @@ tags:
 | 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
 | 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
 | 232 | Nethercity, expedition 15 (the deep galleries) | six terracotta scroll jars | 30 | marcellus |
+| 233 | Nethercity, expedition 16 (the upper galleries) | an ebony game board with carved obsidian and quartz pieces | 445 | hrodvar |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Lyre of the Lullaby | 100 | aelia |
+| 233 | Nethercity, expedition 16 (the upper galleries) | jewelry worth 500.0gp | 500 | lucilla |
+| 233 | Nethercity, expedition 16 (the upper galleries) | 250 electrum pieces | 125 | lucilla |
+| 233 | Nethercity, expedition 16 (the upper galleries) | SOTN Courtier's Spellbook | 100 | vestus-the-unlikely |
+| 233 | Nethercity, expedition 16 (the upper galleries) | a gilded ebony fan with griffon plumes | 200 | phaedra |
+| 233 | Nethercity, expedition 16 (the upper galleries) | four canopic jars of embalmed organs | 100 | varro |
+| 233 | Nethercity, expedition 16 (the upper galleries) | 15 small black-figure amphorae | 75 | brennus |
+| 233 | Nethercity, expedition 16 (the upper galleries) | 1,500 silver pieces | 150 | aelia |
+| 233 | Nethercity, expedition 16 (the upper galleries) | seven white alabaster figurines of great apes | 70 | phaedra |
+| 233 | Nethercity, expedition 16 (the upper galleries) | a black-figure amphora | 20 | marcellus |
+| 233 | Nethercity, expedition 16 (the upper galleries) | 1,400 silver pieces | 140 | gnaeus |
+| 233 | Nethercity, expedition 16 (the upper galleries) | a lacquered ebony jewellery box | 25 | lucilla |
+| 233 | Nethercity, expedition 16 (the upper galleries) | jewelry worth 1200.0gp | 1,200 | lucilla |
+| 233 | Nethercity, expedition 16 (the upper galleries) | SOTN Nightblade's Spellbook | 100 | vestus-the-unlikely |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Whip +1 | 651 | vettius |
 
 ## Monster XP
 
@@ -102,6 +118,8 @@ tags:
 | 223 | Nethercity, expedition 14 (the temple of the dead) | Mechanical Cobra (SOTN) | 2 | 29 | 58 |
 | 232 | Nethercity, expedition 15 (the deep galleries) | Mummy | 1 | 1,060 | 1,060 |
 | 232 | Nethercity, expedition 15 (the deep galleries) | Baboon Mummy (SOTN) | 1 | 500 | 500 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Mummy | 1 | 1,060 | 1,060 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Mummy | 1 | 1,060 | 1,060 |
 
 ## Shares and XP awarded
 
@@ -235,6 +253,18 @@ tags:
 | 232 | Nethercity, expedition 15 (the deep galleries) | Gnaeus | 0.5 | 223 | 78 | 0 | +0% | 301 |
 | 232 | Nethercity, expedition 15 (the deep galleries) | Calpurnia | 0.5 | 223 | 78 | 0 | +0% | 301 |
 | 232 | Nethercity, expedition 15 (the deep galleries) | Titus Aurelianus | 0.5 | 223 | 78 | 0 | +5% | 316 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Lucilla | 1 | 445 | 236 | 0 | +10% | 748 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Vettius | 1 | 445 | 236 | 0 | +5% | 714 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Iulia | 1 | 445 | 236 | 0 | +5% | 714 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Vestus the Unlikely | 1 | 445 | 236 | 0 | +5% | 714 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Neris | 1 | 445 | 236 | 0 | +0% | 680 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Brennus | 1 | 445 | 236 | 0 | +5% | 714 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Phaedra | 0.5 | 222 | 118 | 0 | +0% | 340 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Varro | 0.5 | 222 | 118 | 0 | +0% | 340 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Hrodvar | 0.5 | 222 | 118 | 0 | +0% | 340 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Aelia | 0.5 | 222 | 118 | 0 | +0% | 340 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Marcellus | 0.5 | 222 | 118 | 0 | +0% | 340 |
+| 233 | Nethercity, expedition 16 (the upper galleries) | Gnaeus | 0.5 | 222 | 118 | 0 | +0% | 340 |
 
 ## Wages
 
@@ -1069,3 +1099,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 232 |  | treasure share |  | 75gp |  | gnaeus |
 | 232 |  | treasure share |  | 75gp |  | calpurnia |
 | 232 |  | treasure share |  | 75gp |  | titus-aurelianus |
+| 233 | Silk Pony Inn (#25) | beds for twelve, night of day 232 |  |  | 2gp 4sp | lucilla |
+| 233 | Cyfaraun | torch | 12 |  | 2sp | phaedra |
+| 233 |  | treasure share |  | 46gp 1sp 1cp |  | lucilla |
+| 233 |  | treasure share |  | 46gp 1sp 1cp |  | vettius |
+| 233 |  | treasure share |  | 46gp 1sp 1cp |  | iulia |
+| 233 |  | treasure share |  | 46gp 1sp 1cp |  | vestus-the-unlikely |
+| 233 |  | treasure share |  | 46gp 1sp 1cp |  | neris |
+| 233 |  | treasure share |  | 46gp 1sp 1cp |  | brennus |
+| 233 |  | treasure share |  | 23gp 6cp |  | phaedra |
+| 233 |  | treasure share |  | 23gp 6cp |  | varro |
+| 233 |  | treasure share |  | 23gp 6cp |  | hrodvar |
+| 233 |  | treasure share |  | 23gp 6cp |  | aelia |
+| 233 |  | treasure share |  | 23gp 6cp |  | marcellus |
+| 233 |  | treasure share |  | 23gp 6cp |  | gnaeus |
