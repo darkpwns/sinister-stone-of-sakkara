@@ -145,6 +145,24 @@
    "level": 0,
    "wage": "12gp/month",
    "race": "human"
+  },
+  "Cyfaraun|henchman|2nd level": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "2nd level",
+   "table": "henchmen-availability",
+   "row": 2,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 2,
+   "wage": "50gp/month"
   }
  },
  "candidates": {
@@ -1390,6 +1408,170 @@
    "market": "Cyfaraun",
    "actor": "c14",
    "try_again": true
+  },
+  "C15": {
+   "id": "C15",
+   "kind": "henchman",
+   "level": 2,
+   "race": "human",
+   "name": "Quirinus",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 11,
+     "result": "Accept",
+     "day": 190,
+     "wage": 50.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 10,
+     "mod": 0
+    },
+    "INT": {
+     "score": 11,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 8,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 9,
+     "mod": 0
+    },
+    "CON": {
+     "score": 16,
+     "mod": 2
+    },
+    "CHA": {
+     "score": 17,
+     "mod": 2
+    }
+   },
+   "class": "Fighter",
+   "hit_die": "1d8",
+   "hp_max": 18,
+   "attack_throw": 9,
+   "saves": {
+    "paralysis": 12,
+    "death": 13,
+    "blast": 14,
+    "implements": 15,
+    "spells": 16
+   },
+   "caster": false,
+   "morale": null,
+   "ac": 0,
+   "wage_table": "50gp/month",
+   "search": "Cyfaraun|rarity|Fighter of level 2|0",
+   "wanted": "Fighter of level 2",
+   "market": "Cyfaraun",
+   "actor": "quirinus",
+   "try_again": false,
+   "accepted_by": "lucilla",
+   "elan": false,
+   "offer_wage": 50.0
+  },
+  "C16": {
+   "id": "C16",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Phaedra",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 7,
+     "result": "Try Again",
+     "day": 190,
+     "wage": 25.0,
+     "signing": null
+    },
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 7,
+     "result": "Try Again",
+     "day": 190,
+     "wage": 30.0,
+     "signing": "month"
+    },
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 15,
+     "result": "Accept with élan",
+     "day": 190,
+     "wage": 40.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 10,
+     "mod": 0
+    },
+    "INT": {
+     "score": 6,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 11,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 8,
+     "mod": -1
+    },
+    "CON": {
+     "score": 14,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 7,
+     "mod": -1
+    }
+   },
+   "class": "Mage",
+   "hit_die": "1d4",
+   "hp_max": 5,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 13,
+    "blast": 15,
+    "implements": 11,
+    "spells": 12
+   },
+   "caster": true,
+   "morale": null,
+   "ac": -1,
+   "wage_table": "25gp/month",
+   "search": "Cyfaraun|rarity|Mage of level 1|0",
+   "wanted": "Mage of level 1",
+   "market": "Cyfaraun",
+   "actor": "phaedra",
+   "try_again": false,
+   "accepted_by": "vettius",
+   "elan": true,
+   "offer_wage": 40.0
   }
  },
  "members": {
@@ -2111,16 +2293,101 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "quirinus": {
+   "id": "quirinus",
+   "name": "Quirinus",
+   "candidate": "C15",
+   "employer": "lucilla",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 2,
+   "class": "Fighter",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": null,
+   "morale_src": null,
+   "wage_gp": 50.0,
+   "wage_per": "month",
+   "hired_day": 190,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 190,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 190,
+     "event": "wages paid: 1 month(s), 50 gp"
+    }
+   ],
+   "actor": "quirinus",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "phaedra": {
+   "id": "phaedra",
+   "name": "Phaedra",
+   "candidate": "C16",
+   "employer": "vettius",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Mage",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 1,
+   "morale": null,
+   "morale_src": null,
+   "wage_gp": 40.0,
+   "wage_per": "month",
+   "hired_day": 190,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 190,
+     "event": "hired",
+     "loyalty": 1
+    },
+    {
+     "day": 190,
+     "event": "wages paid: 1 month(s), 40 gp"
+    }
+   ],
+   "actor": "phaedra",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 14,
+ "seq": 16,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
+  "cand.classed_hp",
   "dehyd.weather_day",
   "fatigue.endurance",
   "fatigue.six_day_onset",

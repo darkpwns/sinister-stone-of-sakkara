@@ -396,3 +396,20 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 189 | House of Mourning (#62), Grey Sisters of Calefa | Sabina's heroic funeral, paid from her recovered coin |  |  | 793gp | neris |
 | 189 | House of Mourning (#62), Grey Sisters of Calefa | Tarq's heroic funeral, paid from his recovered coin |  |  | 861gp | ottar |
 | 189 | House of Mourning (#62), Grey Sisters of Calefa | Hesper's heroic funeral, paid from her recovered coin |  |  | 406gp | vestus-the-unlikely |
+| 189 | Silk Pony Inn (#25) | beds for seven, night of day 189 |  |  | 1gp 4sp | lucilla |
+| 190 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 190 | the retinue | wages paid |  |  | 40gp | vettius |
+| 190 | Phaedra | signing bonus: a month's wage |  |  | 40gp | vettius |
+| 190 | Cyfaraun | Chain Mail Armor | 1 |  | 36gp | lucilla |
+| 190 | Cyfaraun | Shield | 1 |  | 9gp | lucilla |
+| 190 | Cyfaraun | Sword | 1 |  | 9gp | lucilla |
+| 190 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
+| 190 | Cyfaraun | Waterskin | 5 |  | 2gp 7sp | lucilla |
+| 190 | Cyfaraun | Dagger | 1 |  | 2gp 7sp | vettius |
+| 190 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | vettius |
+| 190 | Cyfaraun | Waterskin | 5 |  | 2gp 7sp | vettius |
+| 190 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 190 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
+| 190 | Cyfaraun | Oil, Military (1 pint) | 4 |  | 7gp 2sp | lucilla |
+| 190 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 8cp | lucilla |
+| 190 | Cyfaraun | torch | 12 |  | 1sp 8cp | lucilla |

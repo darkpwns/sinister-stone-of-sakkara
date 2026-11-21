@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: fall
-    day: 189
+    day: 190
   time: 06:46
-  weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle
+  weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.478
+    encumbrance_st: 10.36
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -33,7 +33,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 8.793
+    encumbrance_st: 8.704
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -56,7 +56,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6
+    encumbrance_st: 8
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -64,7 +64,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.667
+    encumbrance_st: 6
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -72,9 +72,25 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 8.192
+    encumbrance_st: 7.192
+  - name: Phaedra
+    sheet: Characters/phaedra.json
+    role: henchman
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 2.167
+  - name: Quirinus
+    sheet: Characters/quirinus.json
+    role: henchman
+    hp: 18
+    hp_max: 18
+    conditions: []
+    spells_used: []
+    encumbrance_st: 7.167
   light: lantern (Vettius) out
-  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 7 d, water 0.2 d; Iulia: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -98,7 +114,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 189
+clock_day: 190
 ---
 # Campaign State
 
