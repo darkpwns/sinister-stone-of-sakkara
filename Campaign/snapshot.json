@@ -1,16 +1,16 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795259527,
+ "generated": 1795259810,
  "date": {
   "year": "",
   "season": "summer",
-  "day": 165
+  "day": 167
  },
- "time": "06:00",
+ "time": "07:00",
  "weather": "Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; mostly cloudy; wind moderate",
  "place": "Türos Tem",
- "hex": "26.18",
+ "hex": "26.14",
  "party": [
   {
    "name": "Lucilla",
@@ -56,9 +56,12 @@
    "name": "Vettius",
    "sheet": "Characters/vettius.json",
    "role": "pc",
-   "hp": 12,
+   "hp": 1,
    "hp_max": 12,
-   "conditions": [],
+   "conditions": [
+    "spine broken at the neck: paralyzed (cannot move, fight, use items or cast spells; Death save each month or die of complications) — RR p. 519 Mortal Wounds",
+    "bed rest 1 month (incapacitated, max 1 hp)"
+   ],
    "spells_used": [],
    "encumbrance_st": 9.408
   },
@@ -83,16 +86,10 @@
   }
  ],
  "light": "none",
- "rations": "Sabina: food 10 d, water 1.2 d; Tarq: food 8.5 d, water 1 d; Lucilla: food 4 d, water 1 d; Vettius: food 3 d, water 0.4 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Sabina: food 8 d, water 1.2 d (fatigued); Tarq: food 8.5 d, water 1 d; Lucilla: food 2 d, water 1 d (fatigued); Vettius: food 1 d, water 0.4 d (fatigued); Hesper: food 9 d, water 1 d; Vestus the Unlikely: food 13 d, water 1 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "21.21",
-  "22.20",
-  "21.20",
-  "20.19",
-  "19.19",
-  "20.19",
   "21.20",
   "22.20",
   "21.20",
@@ -106,7 +103,13 @@
   "23.20",
   "24.19",
   "25.19",
-  "26.18"
+  "26.18",
+  "26.17",
+  "27.17",
+  "28.16",
+  "27.16",
+  "26.15",
+  "26.14"
  ],
  "explored_hexes": [],
  "characters": [
@@ -1912,86 +1915,6 @@
  ],
  "open_rolls": [
   {
-   "label": "Sabina surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Tarq surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Lucilla surprise",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Vettius surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Hesper surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Vestus the Unlikely surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Sabina surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Tarq surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Lucilla surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Vettius surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
    "label": "Hesper surprise",
    "spec": "1d6",
    "rolls": [
@@ -2223,6 +2146,190 @@
     20
    ],
    "total": 22
+  },
+  {
+   "label": "weather temperature (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather wind (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "label": "safe haven",
+   "spec": "1d10",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "weather temperature (R07.04)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R07.04)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R07.04)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    4
+   ],
+   "total": 6
+  },
+  {
+   "label": "Tarq",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Sabina",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Hesper",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Vestus",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Vettius",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Vettius falls 30' (brittle ledge)",
+   "spec": "3d6",
+   "rolls": [
+    4,
+    4,
+    5
+   ],
+   "total": 13
+  },
+  {
+   "label": "jagged rocks struck",
+   "spec": "1d4",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "rock 1",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "rock 2",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "rock 3",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Sabina throw",
+   "spec": "1d20",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Vettius d20",
+   "spec": "1d20",
+   "rolls": [
+    10
+   ],
+   "total": 10
+  },
+  {
+   "label": "Mortal Wounds Vettius d6",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Sabina Cure Light Injury on Vettius",
+   "spec": "1d6+1",
+   "rolls": [
+    3
+   ],
+   "total": 4
   }
  ],
  "rumours_heard": [

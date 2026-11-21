@@ -87,3 +87,9 @@ Hand-over corrected (user): only characters unfit through injury retire. The fir
 Hand-over day 161 (user's request): hex map rebuilt on the AX3 Borderlands sheet (Library maps/ACKS_borderlands-amended-GM.tif); 150 hexes (the Türos Tem block and the east road to Cyfaraun); old numbering mapped (+9,+12) in the travel state, Campaign State and the module notes; weather regions renamed (R04.02→R06.05, R03.02→R05.05, R02.02→R04.05). A first rebuild on the JJ p. 188 map was discarded before saving
 Judge's correction (S07 review): Sabina's day-142 reading of the ward scroll was never possible (she does not read Ancient Zaharan; TT p. 94), so no reading took place and the scroll is intact; the earlier call 'not used up because interrupted' was wrong in its reason (a disrupted reading loses the spell from the scroll, TT p. 94)
 Finding closed (engine 7.13.6): Rebuke Undead (rebuke), monster arcane strike and natural-20 doubling (attack --extra-dice, --double-on-20), monster note initiative bonuses, food shared at the rollover (supplies share), water at a given source (water --source), an encounter ended before its pending arrival no longer stops the next advance
+
+## S08 (2026-11-21)
+Judge slip day 161: camp without --hours ran 16 h (to 10:00 day 162); 4 morning hours lost, as played.
+Finding day 166: `mounts dismount donkey1 --rider vettius` took Vettius off donkey2 (the mount he had just been moved to) and left him on donkey1; fixed by hand in exploration-state (riders_st moved donkey1 -> donkey2).
+Finding day 166: `mortal-wounds` outside a fight needs a combat state with the PC added, `state set ID status=unconscious` (state cond unconscious is not enough) and `--type`; hp set by `actor set` is not carried into status.
+Judge's call day 166: Hazard (JJ Terrain Encounters) "brittle ledges" in grassland read as an undercut river bank; trap equivalent Rock-Cut Pit 5th level: 30' fall 3d6 + 1d4 jagged rocks 1d6 each, no save (JJ p. 240).

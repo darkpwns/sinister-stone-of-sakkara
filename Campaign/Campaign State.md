@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 165
-  time: 06:00
+    day: 167
+  time: 07:00
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; mostly cloudy; wind moderate
   place: Türos Tem
-  hex: '26.18'
+  hex: '26.14'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -50,9 +50,11 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 12
+    hp: 1
     hp_max: 12
-    conditions: []
+    conditions:
+    - 'spine broken at the neck: paralyzed (cannot move, fight, use items or cast spells; Death save each month or die of complications) — RR p. 519 Mortal Wounds'
+    - bed rest 1 month (incapacitated, max 1 hp)
     spells_used: []
     encumbrance_st: 9.408
   - name: Hesper
@@ -71,16 +73,10 @@ public:
     conditions: []
     spells_used: []
   light: none
-  rations: 'Sabina: food 10 d, water 1.2 d; Tarq: food 8.5 d, water 1 d; Lucilla: food 4 d, water 1 d; Vettius: food 3 d, water 0.4 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 8 d, water 1.2 d (fatigued); Tarq: food 8.5 d, water 1 d; Lucilla: food 2 d, water 1 d (fatigued); Vettius: food 1 d, water 0.4 d (fatigued); Hesper: food 9 d, water 1 d; Vestus the Unlikely: food 13 d, water 1 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '21.21'
-  - '22.20'
-  - '21.20'
-  - '20.19'
-  - '19.19'
-  - '20.19'
   - '21.20'
   - '22.20'
   - '21.20'
@@ -95,7 +91,13 @@ public:
   - '24.19'
   - '25.19'
   - '26.18'
-clock_day: 165
+  - '26.17'
+  - '27.17'
+  - '28.16'
+  - '27.16'
+  - '26.15'
+  - '26.14'
+clock_day: 167
 ---
 # Campaign State
 

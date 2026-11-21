@@ -1,62 +1,21 @@
 {
- "schema": "acks-actor/2",
- "id": "vettius",
- "type": "character",
- "role": "pc",
- "name": "Vettius",
- "class": "Thief",
- "level": 4,
- "xp": 6296,
- "alignment": "Neutral",
- "age": 22,
- "gender": "male",
- "hp_max": 12,
- "attributes": {
-  "STR": 15,
-  "INT": 16,
-  "WIL": 12,
-  "DEX": 13,
-  "CON": 15,
-  "CHA": 10
- },
- "inventory_holder": true,
- "items": [
-  {
-   "type": "proficiency",
-   "name": "Adventuring",
-   "list": "general"
-  },
-  {
-   "type": "proficiency",
-   "name": "Lockpicking Expertise",
-   "list": "class"
-  },
-  {
-   "type": "proficiency",
-   "name": "Art and Craft (locksmithing)",
-   "list": "general"
-  },
-  {
-   "type": "proficiency",
-   "name": "Healing",
-   "list": "general"
-  },
-  {
-   "type": "proficiency",
-   "name": "Navigation",
-   "list": "general"
-  },
-  {
-   "type": "proficiency",
-   "name": "Trapfinding",
-   "list": "class"
-  }
- ],
- "modifiers": [],
- "state": {
-  "conditions": [],
-  "spells_used": [],
-  "hp": 12
- },
- "judge": {}
+"schema": "acks-actor/2",
+"id": "vettius",
+"type": "character",
+"role": "pc",
+"name": "Vettius",
+"class": "Thief",
+"level": 4,
+"xp": 6296,
+"alignment": "Neutral",
+"age": 22,
+"gender": "male",
+"hp_max": 12,
+"attributes": {"STR":15,"INT":16,"WIL":12,"DEX":13,"CON":15,"CHA":10},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Lockpicking Expertise","list":"class"},{"type":"proficiency","name":"Art and Craft (locksmithing)","list":"general"},{"type":"proficiency","name":"Healing","list":"general"},{"type":"proficiency","name":"Navigation","list":"general"},{"type":"proficiency","name":"Trapfinding","list":"class"}],
+"modifiers": [],
+"state": {"conditions":["spine broken at the neck: paralyzed (cannot move, fight, use items or cast spells; Death save each month or die of complications) — RR p. 519 Mortal Wounds","bed rest 1 month (incapacitated, max 1 hp)"],"spells_used":[],"hp":1},
+"judge": {},
+"changes": [{"field":"state.hp","from":12,"to":-8,"cause":"fell 30' when a brittle bank gave way (hazard, 26.14): 13 + 7 jagged rocks"},{"field":"state.hp","from":-8,"to":4,"cause":"Sabina's Cure Light Injury within the round of the Mortal Wounds result (healed from 0, Rulings S07)"},{"field":"state.conditions","from":[],"to":["spine broken at the neck: paralyzed (cannot move, fight, use items or cast spells; Death save each month or die of complications) — RR p. 519 Mortal Wounds","bed rest 1 month (incapacitated, max 1 hp)"],"cause":"Mortal Wounds, fall in 26.14"},{"field":"state.hp","from":4,"to":1,"cause":"bed rest (incapacitated, max 1 hp; Judge's Screen §4)"}]
 }
