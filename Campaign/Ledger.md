@@ -297,17 +297,20 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 122 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | lucilla |
 | 122 | Türos Tem | Rations, Standard (one week) | 1 |  | 8sp 1cp | lucilla |
 | 122 | Türos Tem | bought in Türos Tem |  |  | 9gp | lucilla |
-| 129 | gnome warren (12.06) | a week's pay to the gnome elders for water and directions (bribe) |  |  | 10gp | lucilla |
-| 131 |  | treasure share |  | 721gp 5cp |  | aulus |
-| 131 |  | treasure share |  | 721gp 5cp |  | sabina |
-| 131 |  | treasure share |  | 721gp 5cp |  | lucilla |
-| 131 |  | treasure share |  | 721gp 5cp |  | vettius |
-| 131 |  | treasure share |  | 721gp 5cp |  | marcia |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | gallus |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | hesper |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | thorwell |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | thorcigar |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | quintus-the-rager |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | vestus-the-unlikely |
-| 131 |  | treasure share |  | 360gp 5sp 3cp |  | zaira-the-beautiful |
-| 131 | Temple of Mityara, Türos Tem | Tarq's heroic funeral |  |  | 200gp | body:tarq |
+| 126 |  | treasure share |  | 52gp 6sp 3cp |  | aulus |
+| 126 |  | treasure share |  | 52gp 6sp 3cp |  | sabina |
+| 126 |  | treasure share |  | 52gp 6sp 3cp |  | tarq |
+| 126 |  | treasure share |  | 52gp 6sp 3cp |  | lucilla |
+| 126 |  | treasure share |  | 52gp 6sp 3cp |  | vettius |
+| 126 |  | treasure share |  | 52gp 6sp 3cp |  | marcia |
+| 126 |  | treasure share |  | 26gp 3sp 2cp |  | hesper |
+| 126 |  | treasure share |  | 26gp 3sp 2cp |  | thorwell |
+| 126 |  | treasure share |  | 26gp 3sp 2cp |  | quintus-the-rager |
+| 126 |  | treasure share |  | 26gp 3sp 2cp |  | vestus-the-unlikely |
+| 126 |  | treasure share |  | 26gp 3sp 2cp |  | zaira-the-beautiful |
+| 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 4gp | aulus |
+| 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 2gp | sabina |
+| 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 4gp | tarq |
+| 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 6gp | lucilla |
+| 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 2gp | vettius |
+| 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 4gp | marcia |

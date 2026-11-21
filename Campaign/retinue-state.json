@@ -656,7 +656,7 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": -1,
+   "loyalty": -3,
    "morale": -1,
    "morale_src": "noncombatant (JJ p. 253)",
    "wage_gp": 12.0,
@@ -665,7 +665,8 @@
    "periods_paid": 4,
    "missed": [
     1,
-    2
+    2,
+    4
    ],
    "status": "active",
    "history": [
@@ -736,6 +737,13 @@
     {
      "day": 111,
      "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 132,
+     "event": "loyalty roll (calamity: wage due day 132 not paid)",
+     "total": 6,
+     "result": "Grudging Loyalty",
+     "loyalty": -3
     }
    ],
    "actor": "gallus",
@@ -919,6 +927,12 @@
      "event": "morale in combat (his employer Tarq fell (a shock))",
      "total": 13,
      "result": "Victory or Death"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (1/3 of the party felled (4/12))",
+     "total": 4,
+     "result": "Morale Faltering"
     }
    ],
    "actor": "thorwell",
@@ -1133,6 +1147,18 @@
    "trigger": "calamity",
    "why": "reduced to -1 hp (round 6)",
    "day": null
+  },
+  {
+   "member": "thorcigar",
+   "trigger": "calamity",
+   "why": "reduced to -8 hp (round 9)",
+   "day": null
+  },
+  {
+   "member": "gallus",
+   "trigger": "calamity",
+   "why": "reduced to -10 hp (round 10)",
+   "day": null
   }
  ],
  "events": [],
@@ -1148,11 +1174,5 @@
   "underfed.average",
   "wage.timing"
  ],
- "spellcasting": {
-  "Türos Tem|Divine-5th level|day 131": {
-   "available": 0,
-   "used": 0,
-   "attempts": []
-  }
- }
+ "spellcasting": null
 }

@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 7,
-  "L": 70,
+  "L": 61,
   "H": 0,
   "M": 22
  },
@@ -24,8 +24,8 @@
     "xp_before": 3504,
     "level_before": 2,
     "class": "Fighter",
-    "returned_day": 131,
-    "xp_award": 1973
+    "returned_day": 126,
+    "xp_award": 106
    },
    "sabina": {
     "id": "sabina",
@@ -40,8 +40,8 @@
     "xp_before": 3673,
     "level_before": 3,
     "class": "Crusader",
-    "returned_day": 131,
-    "xp_award": 2067
+    "returned_day": 126,
+    "xp_award": 111
    },
    "tarq": {
     "id": "tarq",
@@ -49,15 +49,15 @@
     "actor": "tarq",
     "kind": "pc",
     "player": "kwame",
-    "status": "dead",
-    "body": "carried",
+    "status": "alive",
+    "body": null,
     "returned": true,
     "retinue_id": null,
     "xp_before": 3338,
     "level_before": 2,
     "class": "Barbarian",
-    "xp_award": 1879,
-    "xp_held": 1879
+    "returned_day": 126,
+    "xp_award": 101
    },
    "lucilla": {
     "id": "lucilla",
@@ -72,8 +72,8 @@
     "xp_before": 3673,
     "level_before": 3,
     "class": "Venturer",
-    "returned_day": 131,
-    "xp_award": 2067
+    "returned_day": 126,
+    "xp_award": 111
    },
    "vettius": {
     "id": "vettius",
@@ -88,8 +88,8 @@
     "xp_before": 3504,
     "level_before": 3,
     "class": "Thief",
-    "returned_day": 131,
-    "xp_award": 1973
+    "returned_day": 126,
+    "xp_award": 106
    },
    "marcia": {
     "id": "marcia",
@@ -104,8 +104,8 @@
     "xp_before": 3437,
     "level_before": 2,
     "class": "Mage",
-    "returned_day": 131,
-    "xp_award": 1973
+    "returned_day": 126,
+    "xp_award": 106
    },
    "gallus": {
     "id": "gallus",
@@ -113,15 +113,17 @@
     "actor": "gallus",
     "kind": "henchman",
     "player": null,
-    "status": "alive",
-    "body": null,
+    "status": "dead",
+    "body": "carried",
     "returned": true,
     "retinue_id": null,
     "xp_before": 1732,
     "level_before": 2,
     "class": "Venturer",
     "returned_day": 131,
-    "xp_award": 1034
+    "died_day": 123,
+    "xp_award": 56,
+    "xp_held": 56
    },
    "hesper": {
     "id": "hesper",
@@ -136,8 +138,8 @@
     "xp_before": 1559,
     "level_before": 1,
     "class": "Fighter",
-    "returned_day": 131,
-    "xp_award": 940
+    "returned_day": 126,
+    "xp_award": 51
    },
    "thorwell": {
     "id": "thorwell",
@@ -152,8 +154,8 @@
     "xp_before": 1559,
     "level_before": 1,
     "class": "Fighter",
-    "returned_day": 131,
-    "xp_award": 940
+    "returned_day": 126,
+    "xp_award": 51
    },
    "thorcigar": {
     "id": "thorcigar",
@@ -161,15 +163,17 @@
     "actor": "thorcigar",
     "kind": "henchman",
     "player": null,
-    "status": "alive",
-    "body": null,
+    "status": "dead",
+    "body": "carried",
     "returned": true,
     "retinue_id": null,
     "xp_before": 1559,
     "level_before": 1,
     "class": "Fighter",
     "returned_day": 131,
-    "xp_award": 940
+    "died_day": 123,
+    "xp_award": 51,
+    "xp_held": 51
    },
    "quintus-the-rager": {
     "id": "quintus-the-rager",
@@ -184,8 +188,8 @@
     "xp_before": 162,
     "level_before": 1,
     "class": "Fighter",
-    "returned_day": 131,
-    "xp_award": 987
+    "returned_day": 126,
+    "xp_award": 54
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -200,8 +204,8 @@
     "xp_before": 162,
     "level_before": 1,
     "class": "Mage",
-    "returned_day": 131,
-    "xp_award": 987
+    "returned_day": 126,
+    "xp_award": 54
    },
    "zaira-the-beautiful": {
     "id": "zaira-the-beautiful",
@@ -216,8 +220,8 @@
     "xp_before": 154,
     "level_before": 1,
     "class": "Elven Spellsword",
-    "returned_day": 131,
-    "xp_award": 940
+    "returned_day": 126,
+    "xp_award": 51
    }
   },
   "monsters": [
@@ -239,191 +243,181 @@
    },
    {
     "id": "M22",
-    "monster": "Zakiti (Sakkara)",
-    "source": "Zakiti (Sakkara) (MM p. 64)",
-    "number": 1,
-    "how": "captured",
-    "xp_each": 660
+    "monster": "Skeleton",
+    "source": "Skeleton (MM p. 280)",
+    "number": 0,
+    "how": "killed",
+    "xp_each": 13
    }
   ],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 131,
+   "day": 126,
    "at": "Türos Tem",
-   "total": 17851.0,
-   "per_share": 1879.0526315789473,
+   "total": 961.0,
+   "per_share": 101.15789473684211,
    "awards": {
     "aulus": {
      "share": 1.0,
      "why": null,
-     "base": 1879,
+     "base": 101,
      "pct": 5,
      "pen": 0,
-     "award": 1973,
+     "award": 106,
      "xp_before": 3504,
-     "xp_after": 5477,
+     "xp_after": 3610,
      "capped": null,
-     "zero": false,
-     "level_up": 3
+     "zero": false
     },
     "sabina": {
      "share": 1.0,
      "why": null,
-     "base": 1879,
+     "base": 101,
      "pct": 10,
      "pen": 0,
-     "award": 2067,
+     "award": 111,
      "xp_before": 3673,
-     "xp_after": 5740,
+     "xp_after": 3784,
      "capped": null,
      "zero": false
     },
     "tarq": {
      "share": 1.0,
      "why": null,
-     "base": 1879,
+     "base": 101,
      "pct": 0,
      "pen": 0,
-     "award": 1879,
+     "award": 101,
      "xp_before": 3338,
-     "xp_after": 5217,
+     "xp_after": 3439,
      "capped": null,
-     "zero": false,
-     "level_up": 3
+     "zero": false
     },
     "lucilla": {
      "share": 1.0,
      "why": null,
-     "base": 1879,
+     "base": 101,
      "pct": 10,
      "pen": 0,
-     "award": 2067,
+     "award": 111,
      "xp_before": 3673,
-     "xp_after": 5740,
+     "xp_after": 3784,
      "capped": null,
      "zero": false
     },
     "vettius": {
      "share": 1.0,
      "why": null,
-     "base": 1879,
+     "base": 101,
      "pct": 5,
      "pen": 0,
-     "award": 1973,
+     "award": 106,
      "xp_before": 3504,
-     "xp_after": 5477,
+     "xp_after": 3610,
      "capped": null,
-     "zero": false,
-     "level_up": 4
+     "zero": false
     },
     "marcia": {
      "share": 1.0,
      "why": null,
-     "base": 1879,
+     "base": 101,
      "pct": 5,
      "pen": 0,
-     "award": 1973,
+     "award": 106,
      "xp_before": 3437,
-     "xp_after": 5410,
+     "xp_after": 3543,
      "capped": null,
-     "zero": false,
-     "level_up": 3
+     "zero": false
     },
     "gallus": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 10,
      "pen": 0,
-     "award": 1034,
+     "award": 56,
      "xp_before": 1732,
-     "xp_after": 2766,
+     "xp_after": 1788,
      "capped": null,
      "zero": false
     },
     "hesper": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 0,
      "pen": 0,
-     "award": 940,
+     "award": 51,
      "xp_before": 1559,
-     "xp_after": 2499,
+     "xp_after": 1610,
      "capped": null,
-     "zero": false,
-     "level_up": 2
+     "zero": false
     },
     "thorwell": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 0,
      "pen": 0,
-     "award": 940,
+     "award": 51,
      "xp_before": 1559,
-     "xp_after": 2499,
+     "xp_after": 1610,
      "capped": null,
-     "zero": false,
-     "level_up": 2
+     "zero": false
     },
     "thorcigar": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 0,
      "pen": 0,
-     "award": 940,
+     "award": 51,
      "xp_before": 1559,
-     "xp_after": 2499,
+     "xp_after": 1610,
      "capped": null,
-     "zero": false,
-     "level_up": 2
+     "zero": false
     },
     "quintus-the-rager": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 5,
      "pen": 0,
-     "award": 987,
+     "award": 54,
      "xp_before": 162,
-     "xp_after": 1149,
+     "xp_after": 216,
      "capped": null,
      "zero": false
     },
     "vestus-the-unlikely": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 5,
      "pen": 0,
-     "award": 987,
+     "award": 54,
      "xp_before": 162,
-     "xp_after": 1149,
+     "xp_after": 216,
      "capped": null,
      "zero": false
     },
     "zaira-the-beautiful": {
      "share": 0.5,
      "why": null,
-     "base": 940,
+     "base": 51,
      "pct": 0,
      "pen": 0,
-     "award": 940,
+     "award": 51,
      "xp_before": 154,
-     "xp_after": 1094,
+     "xp_after": 205,
      "capped": null,
      "zero": false
     }
    }
   },
   "events": [],
-  "returned": {
-   "day": 131,
-   "where": "Türos Tem"
-  }
+  "returned": null
  },
  "closed": [
   {
@@ -4590,7 +4584,7 @@
    "used": false,
    "sold": null,
    "judge": [],
-   "divided_day": 131
+   "divided_day": 126
   },
   "L57": {
    "id": "L57",
@@ -4624,7 +4618,7 @@
    "used": false,
    "sold": null,
    "judge": [],
-   "divided_day": 131
+   "divided_day": 126
   },
   "L58": {
    "id": "L58",
@@ -4632,7 +4626,7 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "thorwell",
+   "carrier": "aulus",
    "status": "carried",
    "found": {
     "day": 123,
@@ -4669,92 +4663,6 @@
     "Sword +1: the vault gives no apparent value for a plain +1 item (RR p. 310: about a non-magical masterwork's value): the Judge sets it (recover --apparent N)"
    ]
   },
-  "L59": {
-   "id": "L59",
-   "adventure": "A7",
-   "kind": "item",
-   "qty": 1,
-   "stone": 0.16666666666666666,
-   "carrier": "thorwell",
-   "status": "carried",
-   "found": {
-    "day": 123,
-    "where": "L2 pillars (Zakiti)"
-   },
-   "true": {
-    "kind": "item",
-    "qty": 1,
-    "cue": null,
-    "magical": true,
-    "rarity": "uncommon",
-    "base_gp": 5000,
-    "category": "Miscellaneous Weapon",
-    "arms_type": "Great Axe",
-    "name": "Great Axe +1",
-    "note": null,
-    "apparent_gp": 20.0,
-    "apparent_text": "20.0gp (Judge-set)",
-    "generic": true,
-    "stone": 0.16666666666666666
-   },
-   "player": {
-    "desc": "the Lady's black great axe",
-    "value_gp": null,
-    "apparent_gp": 20.0,
-    "magical": true,
-    "known": []
-   },
-   "appraised": false,
-   "identified": false,
-   "used": false,
-   "sold": null,
-   "judge": [
-    "Great Axe +1: the vault gives no apparent value for a plain +1 item (RR p. 310: about a non-magical masterwork's value): the Judge sets it (recover --apparent N)"
-   ]
-  },
-  "L60": {
-   "id": "L60",
-   "adventure": "A7",
-   "kind": "item",
-   "qty": 1,
-   "stone": 0.16666666666666666,
-   "carrier": "quintus-the-rager",
-   "status": "carried",
-   "found": {
-    "day": 123,
-    "where": "L2 pillars (Zakiti)"
-   },
-   "true": {
-    "kind": "item",
-    "qty": 1,
-    "cue": null,
-    "magical": true,
-    "rarity": "uncommon",
-    "base_gp": 5000,
-    "category": "Armor",
-    "arms_type": "Plate Armor",
-    "name": "Plate Armor +1",
-    "note": null,
-    "apparent_gp": 60.0,
-    "apparent_text": "60.0gp (Judge-set)",
-    "generic": true,
-    "stone": 0.16666666666666666
-   },
-   "player": {
-    "desc": "the Lady's black plate armor",
-    "value_gp": null,
-    "apparent_gp": 60.0,
-    "magical": true,
-    "known": []
-   },
-   "appraised": false,
-   "identified": false,
-   "used": false,
-   "sold": null,
-   "judge": [
-    "Plate Armor +1: the vault gives no apparent value for a plain +1 item (RR p. 310: about a non-magical masterwork's value): the Judge sets it (recover --apparent N)"
-   ]
-  },
   "L61": {
    "id": "L61",
    "adventure": "A7",
@@ -4787,330 +4695,6 @@
    "used": false,
    "sold": null,
    "judge": []
-  },
-  "L62": {
-   "id": "L62",
-   "adventure": "A7",
-   "kind": "coins",
-   "qty": 1500,
-   "stone": 1.5,
-   "carrier": "marcia",
-   "status": "divided",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "coins",
-    "coin": "sp",
-    "qty": 1500,
-    "value_gp": 150.0,
-    "stone": 1.5,
-    "name": "1,500 silver pieces"
-   },
-   "player": {
-    "desc": "1,500 silver pieces",
-    "value_gp": 150.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": null,
-   "judge": [],
-   "divided_day": 131
-  },
-  "L63": {
-   "id": "L63",
-   "adventure": "A7",
-   "kind": "coins",
-   "qty": 1000,
-   "stone": 1.0,
-   "carrier": "thorcigar",
-   "status": "divided",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "coins",
-    "coin": "gp",
-    "qty": 1000,
-    "value_gp": 1000.0,
-    "stone": 1.0,
-    "name": "1,000 gold pieces"
-   },
-   "player": {
-    "desc": "1,000 gold pieces",
-    "value_gp": 1000.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": null,
-   "judge": [],
-   "divided_day": 131
-  },
-  "L64": {
-   "id": "L64",
-   "adventure": "A7",
-   "kind": "coins",
-   "qty": 200,
-   "stone": 0.2,
-   "carrier": "gallus",
-   "status": "divided",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "coins",
-    "coin": "pp",
-    "qty": 200,
-    "value_gp": 1000.0,
-    "stone": 0.2,
-    "name": "200 platinum pieces"
-   },
-   "player": {
-    "desc": "200 platinum pieces",
-    "value_gp": 1000.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": null,
-   "judge": [],
-   "divided_day": 131
-  },
-  "L65": {
-   "id": "L65",
-   "adventure": "A7",
-   "kind": "gem",
-   "qty": 1,
-   "stone": 0.001,
-   "carrier": null,
-   "status": "sold",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "gem",
-    "qty": 1,
-    "value_gp": 500.0,
-    "stone": 0.001,
-    "name": "gem worth 500.0gp"
-   },
-   "player": {
-    "desc": "a black sapphire",
-    "value_gp": 500.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": {
-    "price": 550.0,
-    "market": "Turos Tem (Market)",
-    "day": 131,
-    "class": "V",
-    "by": "lucilla",
-    "identified": true,
-    "used": false
-   },
-   "judge": [],
-   "divided_day": 131
-  },
-  "L66": {
-   "id": "L66",
-   "adventure": "A7",
-   "kind": "gem",
-   "qty": 1,
-   "stone": 0.001,
-   "carrier": null,
-   "status": "sold",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "gem",
-    "qty": 1,
-    "value_gp": 500.0,
-    "stone": 0.001,
-    "name": "gem worth 500.0gp"
-   },
-   "player": {
-    "desc": "a black sapphire",
-    "value_gp": 500.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": {
-    "price": 550.0,
-    "market": "Turos Tem (Market)",
-    "day": 131,
-    "class": "V",
-    "by": "lucilla",
-    "identified": true,
-    "used": false
-   },
-   "judge": [],
-   "divided_day": 131
-  },
-  "L67": {
-   "id": "L67",
-   "adventure": "A7",
-   "kind": "gem",
-   "qty": 1,
-   "stone": 0.001,
-   "carrier": null,
-   "status": "sold",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "gem",
-    "qty": 1,
-    "value_gp": 1000.0,
-    "stone": 0.001,
-    "name": "gem worth 1000.0gp"
-   },
-   "player": {
-    "desc": "a black diamond",
-    "value_gp": 1000.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": {
-    "price": 1100.0,
-    "market": "Turos Tem (Market)",
-    "day": 131,
-    "class": "V",
-    "by": "lucilla",
-    "identified": true,
-    "used": false
-   },
-   "judge": [],
-   "divided_day": 131
-  },
-  "L68": {
-   "id": "L68",
-   "adventure": "A7",
-   "kind": "goods",
-   "qty": 1,
-   "stone": 0.5,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "goods",
-    "qty": 1,
-    "value_gp": 0.0,
-    "stone": 0.5,
-    "name": "iron-bound spellbook with pages of flayed skin (7 spells)",
-    "merch": null
-   },
-   "player": {
-    "desc": "iron-bound spellbook with pages of flayed skin (7 spells)",
-    "value_gp": null,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": false,
-   "identified": true,
-   "used": false,
-   "sold": null,
-   "judge": []
-  },
-  "L69": {
-   "id": "L69",
-   "adventure": "A7",
-   "kind": "goods",
-   "qty": 1,
-   "stone": 0.0167,
-   "carrier": "lucilla",
-   "status": "carried",
-   "found": {
-    "day": 123,
-    "where": "L2 39 chest"
-   },
-   "true": {
-    "kind": "goods",
-    "qty": 1,
-    "value_gp": 0.0,
-    "stone": 0.0167,
-    "name": "unsent letter in an ancient script",
-    "merch": null
-   },
-   "player": {
-    "desc": "unsent letter in an ancient script",
-    "value_gp": null,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": false,
-   "identified": true,
-   "used": false,
-   "sold": null,
-   "judge": []
-  },
-  "L70": {
-   "id": "L70",
-   "adventure": "A7",
-   "kind": "reward",
-   "qty": 1,
-   "stone": 0,
-   "carrier": "lucilla",
-   "status": "divided",
-   "found": {
-    "day": 131,
-    "where": "Türos Tem, the legate's office"
-   },
-   "true": {
-    "kind": "reward",
-    "qty": 1,
-    "value_gp": 2000.0,
-    "stone": 0,
-    "name": "reward 2000.0gp"
-   },
-   "player": {
-    "desc": "reward of 2000.0gp",
-    "value_gp": 2000.0,
-    "apparent_gp": null,
-    "magical": false,
-    "known": []
-   },
-   "appraised": true,
-   "identified": true,
-   "used": false,
-   "sold": null,
-   "judge": [],
-   "divided_day": 131
   }
  },
  "hoards": {},

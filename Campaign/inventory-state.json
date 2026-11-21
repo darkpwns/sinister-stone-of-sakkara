@@ -21,7 +21,7 @@
    "kind": "pc",
    "name": "tarq",
    "actor": "tarq",
-   "status": "dead"
+   "status": "active"
   },
   "cassia": {
    "kind": "pc",
@@ -81,7 +81,7 @@
    "kind": "henchman",
    "name": "Gallus",
    "actor": "gallus",
-   "status": "active"
+   "status": "dead"
   },
   "durio": {
    "kind": "henchman",
@@ -132,7 +132,7 @@
    "kind": "henchman",
    "name": "thorcigar",
    "actor": "thorcigar",
-   "status": "active"
+   "status": "dead"
   },
   "karanos-bank": {
    "kind": "cache",
@@ -155,9 +155,15 @@
    "actor": null,
    "status": "active"
   },
-  "body:tarq": {
+  "body:gallus": {
    "kind": "body",
-   "name": "body of tarq",
+   "name": "body of Gallus",
+   "actor": null,
+   "status": "active"
+  },
+  "body:thorcigar": {
+   "kind": "body",
+   "name": "body of thorcigar",
    "actor": null,
    "status": "active"
   }
@@ -14361,10 +14367,285 @@
    "n": 587
   },
   {
-   "op": "light",
-   "cause": "torch28 lit (torch)",
+   "op": "shoot",
+   "cause": "1 bolt shot (miss): it lies at ground:catacombs",
    "day": 123,
-   "time": "day 123 14:12",
+   "time": "day 123 13:51",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "bolt",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "ground:catacombs",
+     "item": "bolt",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 588
+  },
+  {
+   "op": "death",
+   "cause": "gallus died; body carried",
+   "day": 123,
+   "time": "day 123 13:51",
+   "deltas": [
+    {
+     "who": "gallus",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "boots, leather, low",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "boots, leather, low",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:gallus",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "gallus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:gallus",
+     "item": "torch",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "gallus",
+     "item": "#w16",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "#w16",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": -20
+    },
+    {
+     "who": "body:gallus",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 20
+    },
+    {
+     "who": "gallus",
+     "item": "spell book (blank)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "spell book (blank)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "hide and fur armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "hide and fur armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gallus",
+     "item": "#w19",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:gallus",
+     "item": "#w19",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "gallus",
+     "cp": -9,
+     "sp": -6,
+     "gp": -199
+    },
+    {
+     "who": "body:gallus",
+     "cp": 9,
+     "sp": 6,
+     "gp": 199
+    }
+   ],
+   "cmd": "death",
+   "n": 589
+  },
+  {
+   "op": "death",
+   "cause": "thorcigar died; body carried",
+   "day": 123,
+   "time": "day 123 13:51",
+   "deltas": [
+    {
+     "who": "thorcigar",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:thorcigar",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorcigar",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:thorcigar",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorcigar",
+     "item": "hide and fur armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:thorcigar",
+     "item": "hide and fur armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorcigar",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:thorcigar",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "thorcigar",
+     "item": "#w8",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:thorcigar",
+     "item": "#w8",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorcigar",
+     "item": "#w9",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:thorcigar",
+     "item": "#w9",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "thorcigar",
+     "cp": -21,
+     "sp": -10,
+     "gp": -198
+    },
+    {
+     "who": "body:thorcigar",
+     "cp": 21,
+     "sp": 10,
+     "gp": 198
+    }
+   ],
+   "cmd": "death",
+   "n": 590
+  },
+  {
+   "op": "light",
+   "cause": "torch33 lit (torch)",
+   "day": 123,
+   "time": "day 123 14:15",
    "deltas": [
     {
      "who": "vettius",
@@ -14375,376 +14656,109 @@
    ],
    "coins": [],
    "why": "used",
-   "light": "torch28",
-   "cmd": "light on",
-   "n": 588
-  },
-  {
-   "op": "light",
-   "cause": "torch29 lit (torch)",
-   "day": 123,
-   "time": "day 123 14:12",
-   "deltas": [
-    {
-     "who": "gallus",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch29",
-   "cmd": "light on",
-   "n": 589
-  },
-  {
-   "op": "light",
-   "cause": "torch30 lit (torch)",
-   "day": 123,
-   "time": "day 123 15:52",
-   "deltas": [
-    {
-     "who": "lucilla",
-     "item": "torch",
-     "slot": "sack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch30",
-   "cmd": "light on",
-   "n": 590
-  },
-  {
-   "op": "light",
-   "cause": "torch31 lit (torch)",
-   "day": 123,
-   "time": "day 123 15:52",
-   "deltas": [
-    {
-     "who": "gallus",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch31",
+   "light": "torch33",
    "cmd": "light on",
    "n": 591
   },
   {
    "op": "light",
-   "cause": "torch32 lit (torch)",
+   "cause": "torch34 lit (torch)",
    "day": 123,
-   "time": "day 123 16:52",
+   "time": "day 123 15:15",
    "deltas": [
     {
-     "who": "lucilla",
+     "who": "vettius",
      "item": "torch",
-     "slot": "sack",
+     "slot": "back",
      "qty": -1
     }
    ],
    "coins": [],
    "why": "used",
-   "light": "torch32",
+   "light": "torch34",
    "cmd": "light on",
    "n": 592
   },
   {
-   "op": "death",
-   "cause": "tarq died; body carried",
-   "day": 124,
-   "time": "day 124 14:08",
-   "deltas": [
-    {
-     "who": "tarq",
-     "item": "sack, small (holds 2 stone)",
-     "slot": "worn",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "sack, small (holds 2 stone)",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "tunic and pants, armiger",
-     "slot": "worn",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "tunic and pants, armiger",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "belt/sash, leather",
-     "slot": "worn",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "belt/sash, leather",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "sandals/shoes, leather, low",
-     "slot": "worn",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "sandals/shoes, leather, low",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "backpack (holds 4 stone)",
-     "slot": "worn",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "backpack (holds 4 stone)",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "arena armor, heavy",
-     "slot": "armor",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "arena armor, heavy",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "#w6",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "#w6",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "oil, common (1 pint)",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "oil, common (1 pint)",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "#w13",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "#w13",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "#w14",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "#w14",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "#w15",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "#w15",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "waterskin",
-     "slot": "sack",
-     "qty": -5
-    },
-    {
-     "who": "body:tarq",
-     "item": "waterskin",
-     "slot": "here",
-     "qty": 5
-    },
-    {
-     "who": "tarq",
-     "item": "#w5",
-     "slot": "belt",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "#w5",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "helmet, heavy",
-     "slot": "head",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "helmet, heavy",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "#w25",
-     "slot": "right_hand",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "#w25",
-     "slot": "here",
-     "qty": 1
-    },
-    {
-     "who": "tarq",
-     "item": "shield",
-     "slot": "left_hand",
-     "qty": -1
-    },
-    {
-     "who": "body:tarq",
-     "item": "shield",
-     "slot": "here",
-     "qty": 1
-    }
-   ],
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 126,
+   "time": "day 126 15:26",
+   "deltas": [],
    "coins": [
     {
-     "who": "tarq",
-     "cp": -15,
-     "sp": -5,
-     "gp": -437
-    },
-    {
-     "who": "body:tarq",
-     "cp": 15,
-     "sp": 5,
-     "gp": 437
+     "who": "aulus",
+     "cp": 3,
+     "sp": 6,
+     "gp": 52
     }
    ],
-   "cmd": "death",
+   "cmd": "payout --apply",
    "n": 593
   },
   {
-   "op": "give",
-   "cause": "lighten Aulus below 10 stone",
-   "day": 127,
-   "time": "day 127 15:08",
-   "deltas": [
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 126,
+   "time": "day 126 15:26",
+   "deltas": [],
+   "coins": [
     {
-     "who": "aulus",
-     "item": "#w1",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "thorcigar",
-     "item": "#w1",
-     "slot": "backpack",
-     "qty": 1
+     "who": "sabina",
+     "cp": 3,
+     "sp": 6,
+     "gp": 52
     }
    ],
-   "coins": [],
-   "cmd": "inv give",
+   "cmd": "payout --apply",
    "n": 594
   },
   {
-   "op": "pay",
-   "cause": "a week's pay to the gnome elders for water and directions (bribe)",
-   "day": 129,
-   "time": "day 129 01:30",
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 126,
+   "time": "day 126 15:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tarq",
+     "cp": 3,
+     "sp": 6,
+     "gp": 52
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 595
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
      "who": "lucilla",
-     "gp": -10
+     "cp": 3,
+     "sp": 6,
+     "gp": 52
     }
    ],
-   "to": "gnome warren (12.06)",
-   "price_cp": 1000,
-   "cmd": "inv pay",
-   "n": 595
-  },
-  {
-   "op": "give",
-   "cause": "lighten Sabina below 10 stone",
-   "day": 129,
-   "time": "day 129 14:48",
-   "deltas": [
-    {
-     "who": "sabina",
-     "item": "#w3",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "thorcigar",
-     "item": "#w3",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
+   "cmd": "payout --apply",
    "n": 596
   },
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "aulus",
-     "cp": 5,
-     "gp": 721
+     "who": "vettius",
+     "cp": 3,
+     "sp": 6,
+     "gp": 52
     }
    ],
    "cmd": "payout --apply",
@@ -14753,14 +14767,15 @@
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "sabina",
-     "cp": 5,
-     "gp": 721
+     "who": "marcia",
+     "cp": 3,
+     "sp": 6,
+     "gp": 52
     }
    ],
    "cmd": "payout --apply",
@@ -14769,14 +14784,15 @@
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "lucilla",
-     "cp": 5,
-     "gp": 721
+     "who": "hesper",
+     "cp": 2,
+     "sp": 3,
+     "gp": 26
     }
    ],
    "cmd": "payout --apply",
@@ -14785,14 +14801,15 @@
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "vettius",
-     "cp": 5,
-     "gp": 721
+     "who": "thorwell",
+     "cp": 2,
+     "sp": 3,
+     "gp": 26
     }
    ],
    "cmd": "payout --apply",
@@ -14801,14 +14818,15 @@
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "marcia",
-     "cp": 5,
-     "gp": 721
+     "who": "quintus-the-rager",
+     "cp": 2,
+     "sp": 3,
+     "gp": 26
     }
    ],
    "cmd": "payout --apply",
@@ -14817,15 +14835,15 @@
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "gallus",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "vestus-the-unlikely",
+     "cp": 2,
+     "sp": 3,
+     "gp": 26
     }
    ],
    "cmd": "payout --apply",
@@ -14834,119 +14852,119 @@
   {
    "op": "payout",
    "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "day": 126,
+   "time": "day 126 15:26",
    "deltas": [],
    "coins": [
     {
-     "who": "hesper",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "zaira-the-beautiful",
+     "cp": 2,
+     "sp": 3,
+     "gp": 26
     }
    ],
    "cmd": "payout --apply",
    "n": 603
   },
   {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "op": "pay",
+   "cause": "lodging and meals for self and henchmen, days 126-137 (AX1 p. 22)",
+   "day": 138,
+   "time": "day 138 06:00",
    "deltas": [],
    "coins": [
     {
-     "who": "thorwell",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "aulus",
+     "gp": -4
     }
    ],
-   "cmd": "payout --apply",
+   "to": "Traveler's Inn",
+   "price_cp": 400,
+   "cmd": "inv pay",
    "n": 604
   },
   {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "op": "pay",
+   "cause": "lodging and meals for self and henchmen, days 126-137 (AX1 p. 22)",
+   "day": 138,
+   "time": "day 138 06:00",
    "deltas": [],
    "coins": [
     {
-     "who": "thorcigar",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "sabina",
+     "gp": -2
     }
    ],
-   "cmd": "payout --apply",
+   "to": "Traveler's Inn",
+   "price_cp": 200,
+   "cmd": "inv pay",
    "n": 605
   },
   {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "op": "pay",
+   "cause": "lodging and meals for self and henchmen, days 126-137 (AX1 p. 22)",
+   "day": 138,
+   "time": "day 138 06:00",
    "deltas": [],
    "coins": [
     {
-     "who": "quintus-the-rager",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "tarq",
+     "gp": -4
     }
    ],
-   "cmd": "payout --apply",
+   "to": "Traveler's Inn",
+   "price_cp": 400,
+   "cmd": "inv pay",
    "n": 606
   },
   {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "op": "pay",
+   "cause": "lodging and meals for self and henchmen, days 126-137 (AX1 p. 22)",
+   "day": 138,
+   "time": "day 138 06:00",
    "deltas": [],
    "coins": [
     {
-     "who": "vestus-the-unlikely",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "lucilla",
+     "gp": -6
     }
    ],
-   "cmd": "payout --apply",
+   "to": "Traveler's Inn",
+   "price_cp": 600,
+   "cmd": "inv pay",
    "n": 607
   },
   {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 131,
-   "time": "day 131 07:48",
+   "op": "pay",
+   "cause": "lodging and meals for self and henchmen, days 126-137 (AX1 p. 22)",
+   "day": 138,
+   "time": "day 138 06:00",
    "deltas": [],
    "coins": [
     {
-     "who": "zaira-the-beautiful",
-     "cp": 3,
-     "sp": 5,
-     "gp": 360
+     "who": "vettius",
+     "gp": -2
     }
    ],
-   "cmd": "payout --apply",
+   "to": "Traveler's Inn",
+   "price_cp": 200,
+   "cmd": "inv pay",
    "n": 608
   },
   {
    "op": "pay",
-   "cause": "Tarq's heroic funeral",
-   "day": 131,
-   "time": "day 131 07:48",
+   "cause": "lodging and meals for self and henchmen, days 126-137 (AX1 p. 22)",
+   "day": 138,
+   "time": "day 138 06:00",
    "deltas": [],
    "coins": [
     {
-     "who": "body:tarq",
-     "gp": -200
+     "who": "marcia",
+     "gp": -4
     }
    ],
-   "to": "Temple of Mityara, Türos Tem",
-   "price_cp": 20000,
+   "to": "Traveler's Inn",
+   "price_cp": 400,
    "cmd": "inv pay",
    "n": 609
   }
@@ -14960,6 +14978,7 @@
     "boots, leather, high": 1
    },
    "backpack": {
+    "#w1": 1,
     "oil, military (1 pint)": 4,
     "tinderbox (flint & steel)": 1,
     "waterskin": 3,
@@ -14997,7 +15016,40 @@
     "shield": 1
    },
    "backpack": {
-    "waterskin": 4
+    "waterskin": 4,
+    "#w3": 1
+   }
+  },
+  "tarq": {
+   "worn": {
+    "sack, small (holds 2 stone)": 1,
+    "tunic and pants, armiger": 1,
+    "belt/sash, leather": 1,
+    "sandals/shoes, leather, low": 1,
+    "backpack (holds 4 stone)": 1
+   },
+   "armor": {
+    "arena armor, heavy": 1
+   },
+   "sack": {
+    "#w6": 1,
+    "oil, common (1 pint)": 1,
+    "#w13": 1,
+    "#w14": 1,
+    "#w15": 1,
+    "waterskin": 5
+   },
+   "belt": {
+    "#w5": 1
+   },
+   "head": {
+    "helmet, heavy": 1
+   },
+   "right_hand": {
+    "#w25": 1
+   },
+   "left_hand": {
+    "shield": 1
    }
   },
   "lucilla": {
@@ -15025,7 +15077,7 @@
     "#w10": 1
    },
    "sack": {
-    "torch": 2
+    "torch": 4
    }
   },
   "vettius": {
@@ -15040,7 +15092,7 @@
     "leather armor": 1
    },
    "backpack": {
-    "bolt": 14,
+    "bolt": 13,
     "#w12": 1,
     "thieves' tools": 1,
     "rope, 50'": 1,
@@ -15057,7 +15109,7 @@
    "back": {
     "pole, wooden": 1,
     "backpack (holds 4 stone)": 1,
-    "torch": 3
+    "torch": 2
    },
    "right_hand": {
     "#w11": 1
@@ -15109,29 +15161,6 @@
    },
    "right_hand": {
     "#w18": 1
-   }
-  },
-  "gallus": {
-   "worn": {
-    "tunic and pants, crafter/freeholder": 1,
-    "boots, leather, low": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 4,
-    "torch": 2,
-    "#w16": 1,
-    "arrow": 20,
-    "spell book (blank)": 1
-   },
-   "armor": {
-    "hide and fur armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w19": 1
    }
   },
   "durio": {
@@ -15234,24 +15263,6 @@
     "waterskin": 5
    }
   },
-  "thorcigar": {
-   "worn": {
-    "tunic and pants, crafter/freeholder": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "hide and fur armor": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "#w8": 1,
-    "#w1": 1,
-    "#w3": 1
-   },
-   "right_hand": {
-    "#w9": 1
-   }
-  },
   "donkey1": {
    "pack": {
     "holy book": 1
@@ -15259,62 +15270,69 @@
   },
   "ground:catacombs": {
    "here": {
-    "#w24": 1
+    "#w24": 1,
+    "bolt": 1
    }
   },
-  "body:tarq": {
+  "body:gallus": {
    "here": {
-    "sack, small (holds 2 stone)": 1,
-    "tunic and pants, armiger": 1,
-    "belt/sash, leather": 1,
-    "sandals/shoes, leather, low": 1,
+    "tunic and pants, crafter/freeholder": 1,
+    "boots, leather, low": 1,
     "backpack (holds 4 stone)": 1,
-    "arena armor, heavy": 1,
-    "#w6": 1,
-    "oil, common (1 pint)": 1,
-    "#w13": 1,
-    "#w14": 1,
-    "#w15": 1,
+    "waterskin": 4,
+    "torch": 4,
+    "#w16": 1,
+    "arrow": 20,
+    "spell book (blank)": 1,
+    "hide and fur armor": 1,
+    "shield": 1,
+    "#w19": 1
+   }
+  },
+  "body:thorcigar": {
+   "here": {
+    "tunic and pants, crafter/freeholder": 1,
+    "backpack (holds 4 stone)": 1,
+    "hide and fur armor": 1,
     "waterskin": 5,
-    "#w5": 1,
-    "helmet, heavy": 1,
-    "#w25": 1,
-    "shield": 1
+    "#w8": 1,
+    "#w9": 1
    }
   }
  },
  "coins": {
   "aulus": {
-   "gp": 1158,
-   "sp": 7,
-   "cp": 12
+   "gp": 485,
+   "sp": 13,
+   "cp": 10
   },
   "sabina": {
-   "sp": 3,
-   "gp": 1166,
-   "cp": 30
+   "sp": 9,
+   "gp": 495,
+   "cp": 28
+  },
+  "tarq": {
+   "gp": 485,
+   "sp": 11,
+   "cp": 18
   },
   "lucilla": {
-   "gp": 1048,
-   "cp": 8
+   "gp": 383,
+   "sp": 6,
+   "cp": 6
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 1166,
-   "sp": 7,
-   "cp": 11
+   "gp": 495,
+   "sp": 13,
+   "cp": 9
   },
   "marcia": {
-   "gp": 1158,
-   "cp": 14,
-   "sp": 2
-  },
-  "gallus": {
-   "gp": 559,
+   "gp": 485,
    "cp": 12,
-   "sp": 11
+   "sp": 8
   },
   "durio": {
    "gp": 514,
@@ -15322,42 +15340,42 @@
    "sp": 2
   },
   "hesper": {
-   "gp": 558,
-   "cp": 24,
-   "sp": 16
+   "gp": 224,
+   "cp": 23,
+   "sp": 14
   },
   "thorwell": {
-   "cp": 24,
-   "sp": 15,
-   "gp": 558
-  },
-  "thorcigar": {
-   "cp": 24,
-   "sp": 15,
-   "gp": 558
+   "cp": 23,
+   "sp": 13,
+   "gp": 224
   },
   "karanos-bank": {
    "gp": 17428
   },
   "quintus-the-rager": {
-   "cp": 6,
-   "sp": 11,
-   "gp": 509
+   "cp": 5,
+   "sp": 9,
+   "gp": 175
   },
   "vestus-the-unlikely": {
-   "cp": 6,
-   "sp": 11,
-   "gp": 509
+   "cp": 5,
+   "sp": 9,
+   "gp": 175
   },
   "zaira-the-beautiful": {
-   "cp": 6,
-   "sp": 11,
-   "gp": 509
+   "cp": 5,
+   "sp": 9,
+   "gp": 175
   },
-  "body:tarq": {
-   "cp": 15,
-   "sp": 5,
-   "gp": 237
+  "body:gallus": {
+   "cp": 9,
+   "sp": 6,
+   "gp": 199
+  },
+  "body:thorcigar": {
+   "cp": 21,
+   "sp": 10,
+   "gp": 198
   }
  },
  "rolls": {
