@@ -65,3 +65,18 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - S10: Quirinus, Lucilla's fighter since Türos Tem, withered by the hooded thing's touch (day 219), retired (day 223).
   He came through under the Solar Citadel's dome (day 229), weak but alive, and now serves in the Citadel Guard under
   Rector Drusus. His message (day 230): "Tell Gnaeus to keep the axe sharp. It did right by me."
+
+## Plans (continued)
+- S10 (day 230), the tax men. Half of what comes out from under the city is the prefecture's by law, and its men
+  watch the gates, the Emporium and the Guildhouse; one already stopped Lucilla (day 223). What we agreed:
+  - **One selling day a month, early in the month.** The more we sell in a month, the closer they look; so goods
+    wait in the strongbox and go out together on one day near the start of the next month, not a sack at a time.
+  - **Sell some of it elsewhere.** Gems and jewellery travel light: whatever is left over goes with Lucilla's
+    textile trade to Türos Tem and the road towns, where no one asks where it was dug up.
+  - **Coin stays in the strongbox**, spent a little at a time; no more ancient coin into the Guildhouse.
+  - **Lucilla does the talking** if an official stops us: the story of the old family warehouse, and a purse.
+  - **Liber Faunus** ("cheaper than the tax man", Lucilla's contacts, day 230): a last resort, not a first.
+    Ingrid's numbers: we lose half only when an official both stops us and will not be talked round, which has
+    not happened yet; a fence's cut on everything is worse unless they start stopping us every time. Kwame
+    wants to meet him anyway. Nobody Lawful goes near him.
+  - The Silk Pony's mistress makes debtors vanish (day 230). We pay every night; keep it that way.

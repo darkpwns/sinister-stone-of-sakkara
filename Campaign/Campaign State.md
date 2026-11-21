@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 230
-  time: 06:00
+  time: '20:00'
   weather: Cold (1 to 15 F) by day, Cold (1 to 15 F) at night; clear; wind still (cold)
   place: Cyfaraun
   hex: '18.05'

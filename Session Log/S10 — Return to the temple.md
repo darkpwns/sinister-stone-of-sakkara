@@ -53,6 +53,12 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   The jewellery, scrolls, myrrh and natron sold for 4,384gp. Vettius became a rogue of the fifth rank, Vestus a
   theurgist of the third, Brennus a swordmaster of the third.
 
+- Day 230: Lucilla spent the day with her old contacts. Asked how treasure hunters keep clear of the tax men, they
+  named Liber Faunus, "cheaper than the tax man"; they also spoke of the Silk Pony's mistress, river pirates and a
+  lanista's crocodile. The table talked it through and settled on one selling day a month, early in the month, some
+  sales on the road, coin kept in the strongbox, and Lucilla's tongue for any official; the fence only as a last
+  resort.
+
 ## Who they met
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
 - A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.
@@ -65,6 +71,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 - Day 221 (A18): 5,350gp (warlord's chapel vault; sold 8,470gp with the death orb) + 270 monster XP; death orb sale XP 3,300. Iulia Crusader 3, Brennus Fighter 2, Neris Priestess 2.
 
 ## Rumours given
+- Day 230 (Lucilla's contacts): Liber Faunus cheaper than the tax man; Selene's vanishing debtors; river pirates; Celictor's crocodile.
 
 ## Changes to the world
 

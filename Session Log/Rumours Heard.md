@@ -17,3 +17,7 @@ type: rumours
 - Day 177, Cyfaraun, drinkers in a tavern: the Order of the Eclipse beheads the bodies in the river; beware those who serve the Lady of Fortune, a dark goddess of buried riches.
 - Day 178, Cyfaraun, a patron of the Mink, asked about the sewers: poor Tavus Ionicus, last of a ruined landless patrician house, went mad and lost what little he had; maybe he lives with the lepers in the undercity.
 - Day 195, the Undercity cesspool, six filthy, twitchy wall-tappers (friendly): the regent of the wizards' chapterhouse wants to meet adventurers heading past the border forts into the Waste, and pays for credible news of threats from there.
+- Day 230, Cyfaraun, Lucilla's old contacts (Rumormongering), asked how treasure hunters keep clear of the tax men: Liber Faunus is no ordinary merchant but one of the most dangerous men in the city: costly to work with, true to his word if you keep yours, cheaper than the tax man. Never smuggle into the Old District without his blessing.
+- Day 230, Cyfaraun, Lucilla's old contacts: Selene Nictorian of the Silk Pony has a heart of steel: debtors who don't pay her vanish and are never found.
+- Day 230, Cyfaraun, Lucilla's old contacts: river pirates preying on bargemen are behind all the bodies in the river; their base is upstream near the mountains.
+- Day 230, Cyfaraun, Lucilla's old contacts: Lanista Celictor Nuvicus bought a monstrous crocodile and other beasts for the next seasonal festival, though he denies it; maybe a surprise to upstage Maximus.
