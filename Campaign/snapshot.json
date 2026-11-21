@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 7,
- "generated": 1795223438,
+ "generated": 1795224634,
  "date": {
   "year": "",
   "season": "spring",
   "day": 142
  },
- "time": "08:00",
+ "time": "11:00",
  "weather": "Hot (87 to 90 F) by day, Warm (83 to 86 F) at night; drizzle; wind moderate (drizzly)",
  "place": "Buried Temple",
  "hex": "10.07",
@@ -75,7 +75,9 @@
    "hp": 8,
    "hp_max": 8,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Fan of Flames"
+   ],
    "encumbrance_st": 4.471
   },
   {
@@ -114,7 +116,9 @@
    "hp": 3,
    "hp_max": 3,
    "conditions": [],
-   "spells_used": []
+   "spells_used": [
+    "Magic Missile"
+   ]
   },
   {
    "name": "Zaira the Beautiful",
@@ -128,8 +132,8 @@
    "spells_used": []
   }
  ],
- "light": "torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out",
- "rations": "Aulus: food 1.5 d, water 0.6 d; Sabina: food 1.5 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 1 d, water 1 d; Vettius: food 1.5 d, water 1 d; Marcia: food 1.5 d, water 1.4 d; Thorwell: food 2 d, water 1 d; Quintus the Rager: food 2 d, water 1 d; Vestus the Unlikely: food 2 d, water 1 d; Priestess Genelen: food 2 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "light": "torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out; torch (Priestess Genelen) 6 turns left",
+ "rations": "Aulus: food 4 d, water 0.6 d; Sabina: food 4 d, water 1.2 d; Tarq: food 4 d, water 1 d; Lucilla: food 3.5 d, water 1 d; Vettius: food 4 d, water 1 d; Marcia: food 4 d, water 1.4 d; Thorwell: food 4.5 d, water 1 d; Quintus the Rager: food 4.5 d, water 1 d; Vestus the Unlikely: food 4.5 d, water 1 d; Priestess Genelen: food 4.5 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -2957,112 +2961,405 @@
  ],
  "open_rolls": [
   {
-   "label": "weather temperature (R04.02)",
-   "spec": "2d6",
+   "label": "init Marcia",
+   "spec": "1d6",
    "rolls": [
-    6,
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Thorwell",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Quintus the Rager",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
     4
    ],
-   "total": 10
+   "total": 4
   },
   {
-   "label": "weather precipitation (R04.02)",
-   "spec": "2d6",
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
    "rolls": [
-    4,
     4
    ],
-   "total": 8
+   "total": 4
   },
   {
-   "label": "weather wind (R04.02)",
-   "spec": "2d6",
+   "label": "damage to Tarq",
+   "spec": "1d1+4",
    "rolls": [
-    5,
-    5
+    1
    ],
-   "total": 10
+   "total": 5
   },
   {
-   "label": "weather temperature (R04.02)",
-   "spec": "2d6",
+   "label": "attack Aulus vs Sabina",
+   "spec": "1d20+1",
    "rolls": [
-    1,
-    6
+    1
    ],
-   "total": 7
+   "total": 2
   },
   {
-   "label": "weather precipitation (R04.02)",
-   "spec": "2d6",
+   "label": "attack Quintus the Rager vs the Lady Below 1",
+   "spec": "1d20+4",
    "rolls": [
-    4,
-    4
+    20
    ],
-   "total": 8
+   "total": 24
   },
   {
-   "label": "weather wind (R04.02)",
-   "spec": "2d6",
+   "label": "damage to the Lady Below 1",
+   "spec": "1d6+2",
    "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather temperature (R03.02)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R03.02)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    4
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather wind (R03.02)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    5
-   ],
-   "total": 11
-  },
-  {
-   "label": "weather temperature (R03.02)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    4
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather precipitation (R03.02)",
-   "spec": "2d6",
-   "rolls": [
-    2,
     3
    ],
    "total": 5
   },
   {
-   "label": "weather wind (R03.02)",
-   "spec": "2d6",
+   "label": "Halt Humanoids targets (Genelen)",
+   "spec": "1d4",
    "rolls": [
-    3,
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Aulus paralysis save",
+   "spec": "1d20-1",
+   "rolls": [
+    9
+   ],
+   "total": 8
+  },
+  {
+   "label": "attack Thorwell vs the Lady Below 1",
+   "spec": "1d20+1",
+   "rolls": [
+    18
+   ],
+   "total": 19
+  },
+  {
+   "label": "damage to the Lady Below 1",
+   "spec": "1d6+1",
+   "rolls": [
     6
    ],
-   "total": 9
+   "total": 7
+  },
+  {
+   "label": "init Aulus",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Sabina",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Marcia",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Thorwell",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Quintus the Rager",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Mortal Wounds Tarq d20",
+   "spec": "1d20",
+   "rolls": [
+    14
+   ],
+   "total": 14
+  },
+  {
+   "label": "Mortal Wounds Tarq d6",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "attack Thorwell vs the Lady Below 1",
+   "spec": "1d20+1",
+   "rolls": [
+    13
+   ],
+   "total": 14
+  },
+  {
+   "label": "init Aulus",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Sabina",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Marcia",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Thorwell",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Genelen Cure Major Injury on Tarq (2d6 + half of 6)",
+   "spec": "2d6+3",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 13
+  },
+  {
+   "label": "init Aulus",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Sabina",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Tarq",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Marcia",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Aulus",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Marcia",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Tarq d20",
+   "spec": "1d20",
+   "rolls": [
+    7
+   ],
+   "total": 7
+  },
+  {
+   "label": "Mortal Wounds Tarq d6",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
   }
  ],
  "rumours_heard": [

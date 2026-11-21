@@ -11,7 +11,7 @@ public:
     year: ''
     season: spring
     day: 142
-  time: 08:00
+  time: '11:00'
   weather: Hot (87 to 90 F) by day, Warm (83 to 86 F) at night; drizzle; wind moderate (drizzly)
   place: Buried Temple
   hex: '10.07'
@@ -66,7 +66,8 @@ public:
     hp: 8
     hp_max: 8
     conditions: []
-    spells_used: []
+    spells_used:
+    - Fan of Flames
     encumbrance_st: 4.471
   - name: Hesper
     sheet: Characters/hesper.json
@@ -97,7 +98,8 @@ public:
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used: []
+    spells_used:
+    - Magic Missile
   - name: Zaira the Beautiful
     sheet: Characters/zaira-the-beautiful.json
     role: henchman
@@ -106,8 +108,8 @@ public:
     conditions:
     - one leg torn off (crutch required, movement -30 feet, DEX reduced by 1/3 for AC)
     spells_used: []
-  light: torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out
-  rations: 'Aulus: food 1.5 d, water 0.6 d; Sabina: food 1.5 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 1 d, water 1 d; Vettius: food 1.5 d, water 1 d; Marcia: food 1.5 d, water 1.4 d; Thorwell: food 2 d, water 1 d; Quintus the Rager: food 2 d, water 1 d; Vestus the Unlikely: food 2 d, water 1 d; Priestess Genelen: food 2 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out; torch (Priestess Genelen) 6 turns left
+  rations: 'Aulus: food 4 d, water 0.6 d; Sabina: food 4 d, water 1.2 d; Tarq: food 4 d, water 1 d; Lucilla: food 3.5 d, water 1 d; Vettius: food 4 d, water 1 d; Marcia: food 4 d, water 1.4 d; Thorwell: food 4.5 d, water 1 d; Quintus the Rager: food 4.5 d, water 1 d; Vestus the Unlikely: food 4.5 d, water 1 d; Priestess Genelen: food 4.5 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
