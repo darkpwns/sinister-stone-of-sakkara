@@ -16,3 +16,7 @@ Borderlands in the Library repo (`Adventures/Capital of the Borderlands/maps/`).
 4. **Domain:** the nearest fort's ruler (AX3 gazetteer entries), none in wilderness; **places** in `Data/places.csv`;
    roads as paths in `Data/world.json` (`{name: [hex, ...]}`, consecutive neighbours).
 5. Check with the engine's hex map: every road step adjacent and `on_road`, every hex present.
+
+Built so far (S07): 150 hexes first (the Türos Tem block and the east road corridor), then `extend_s07.py` (with
+`cls_s07_extension.json`, the classification and zone sampled from the JJ maps) for the rest of columns 14-31, rows
+2-24: 414 hexes in all. Its lists are the Judge's terrain reading, hex by hex.
