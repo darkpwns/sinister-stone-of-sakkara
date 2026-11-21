@@ -61,6 +61,8 @@ PY
 CMD="$1"; shift
 export ACKS_ISTATE="$ISTATE" ACKS_INV_XSTATE="$XSTATE" ACKS_INV_ASTATE="$ASTATE" ACKS_INV_RETINUE="$RSTATE" ACKS_ACTORS="$ACTORS" ACKS_INPUT_ALIASES="$TMAP"
 ACKS_BESTIARY=$(IFS=:; echo "${BEST[*]}"); export ACKS_BESTIARY
+# campaign tables (acks-table/1) for `table roll|show|find ID` (engine 7.13.7): every Tables/ folder under Adventure/
+ACKS_TABLES=$(find "$(dirname "$(dirname "$LOG")")/Adventure" -type d -name Tables 2>/dev/null | paste -sd: -); export ACKS_TABLES
 export ACKS_ITEMS="$ITEMS"   # module magic items for recover, identify, sell   # module creatures for every command (travel, turn, search too)
 # open-roll labels reach the snapshot: a foe joins a fight only under the name the party perceives (SKILL.md §4)
 needs_perceived() { case " $* " in *" --perceived "*|*" --perceived="*) return 1;; esac; return 0; }
