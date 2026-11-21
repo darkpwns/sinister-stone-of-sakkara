@@ -57,14 +57,21 @@ public:
     encumbrance_st: 9.408
   - name: Hesper
     sheet: Characters/hesper.json
-    role: henchman
+    role: pc
     hp: 10
     hp_max: 10
     conditions: []
     spells_used: []
     encumbrance_st: 5.461
+  - name: Vestus the Unlikely
+    sheet: Characters/vestus-the-unlikely.json
+    role: pc
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
   light: none
-  rations: 'Sabina: food 0 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0.4 d; Hesper: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 0 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0.4 d; Hesper: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -101,7 +108,8 @@ Set 2026-11-20 by the user's playtest brief (user away; recommended options othe
 
 - Quest and discovery awards: off; hidden rolls in the Judge block
 - Henchman control: the AI players direct routine actions and combat tactics; the Judge plays personality, morale, obedience
-- Party structure: AI party (six AI players; the user watches). Caller Gideon. Dead PCs replaced by new 1st-level PCs.
+- Party structure: AI party (six AI players; the user watches). Caller Gideon.
+- A PC's death (user, 2026-11-21): the player takes over the dead PC's henchman (RR p. 311 successor, `death <pc> --successor <henchman> --player <p>`); without one, a second-level henchman in the party; otherwise a new 1st-level character with the player's reserve XP. Characters retire only when their injuries make further adventures unlikely.
 - Character creation: templates (RR default)
 - AI players hire their own henchmen: yes
 - Month length: 30 days

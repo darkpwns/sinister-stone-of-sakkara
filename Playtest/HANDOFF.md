@@ -70,3 +70,45 @@ intended: use mules, porters, wagons. `min_version` in the instance is 7.13.0.
   Run `death <prior> --new-character --player <p> --prior-xp <xp>` when each is made (it consumes the funeral XP), then `actor set <id> xp N` and `level-up --sheet <id> --apply` per level reached. Ingrid, Kwame, Rosa and Tomasz have no reserve funds yet.
 - Free NPCs in town: Zaira ES1 (retired, one leg), Vestus M1 (rehire by offer); Genelen (Priestess 6, Friendly, actor Actors/npc/priestess-genelen).
 - Engine 7.13.4 on claude/eager-turing-48ne25 (min_version 7.13.4). Skill: bootstrap.md new section and xsync season sync, also in kardakia-campaign on claude/eager-turing-48ne25.
+
+## Next session: the journey to Cyfaraun (Secrets of the Nethercity) — start here
+**State on resume (day 161, 06:00, summer, Türos Tem 22.20):** Campaign State `adventure: between adventures`; the
+engine's clock, travel block (hex 22.20, believed 22.20, season start spring day 1), inventory, retinue and the hex map
+are ready. Engine 7.13.5 (`min_version`). No open adventure; no combat or encounter open.
+
+**Party (six PCs, no henchmen):**
+| Player | PC | Notes |
+| --- | --- | --- |
+| Ingrid | Sabina, Crusader 4 | one eye (-2 missiles) |
+| Kwame | Tarq, Barbarian 3 | one hand (no two-handed weapons), skull wound (-10% XP), raspy voice |
+| Rosa | Lucilla, Venturer 4 | lost an eye and an ear; Ring L63 unidentified |
+| Tomasz | Vettius, Thief 4 | Deciphering now; carries L47, L58 (swords), L31 (temple map), L45 (scroll), the Lady's unholy symbol |
+| Gideon | Hesper, Fighter 2 | Lucilla's henchman, taken over (Aulus died; his Quintus too) |
+| Priya | Vestus the Unlikely, Mage 1 | Marcia's henchman, taken over (Marcia died) |
+Table rule (S07): a dead PC's player takes over that PC's henchman; else a second-level henchman in the party; else a new
+character with reserve XP. No second-level henchmen are free in town (Zaira ES1 retired, one leg); recruiting one is a
+week's search in Türos Tem (class V): Lucilla (Ven4) and Sabina (Cru4) may hire up to 2nd level.
+
+**Before marching (town, R/town.md):** food is 0 for all but Tarq (1.5 d). A new market month began on day 151:
+buy iron rations (they keep), fill waterskins (`water`), torches and oil for the Nethercity; consider mules or a cart
+(speeds: Sabina, Tarq, Lucilla, Vettius 12 mi/day; Hesper 18; Vestus 24). Two donkeys (donkey1, donkey2) are with the
+party. Bank (Karanos): Sabina 2,242, Tarq 2,200, Lucilla 2,030, Vettius 2,244, Hesper 1,773 gp.
+
+**The march (R/overland.md):** the east road, all on road (no navigation throws on a road), 23 hexes, 138 miles;
+forts to resupply at each leg's end (`eat --in-town` and buying there need market notes: none written yet for
+Aster, Spen or Orn; Türos Orn is class IV, Cyfaraun class III per the JJ):
+```
+travel --route 23.20,24.19,25.19                                   # Türos Aster (#29), 3 hexes
+travel --route 26.18,26.17,27.17,28.16                             # Türos Spen (#22), 4
+travel --route 27.16,26.15,26.14,25.14,25.13,24.12,24.11,23.11,23.10   # Türos Orn (#15), 9
+travel --route 22.09,21.09,20.08,20.07,19.07,18.06,18.05           # Cyfaraun (#10), 7
+```
+(`travel` continues a route in progress with `travel` alone after a camp or an encounter.) The off-road ground
+beside the road is built one hex deep; a lost party or a detour off it stops at the map's edge: extend the map first
+(`Playtest/tools/map/README.md`).
+
+**Not built yet (prep before the party reaches the city):** the SOTN module notes (use the `module-vault` skill on
+Library `Adventures/_source/Secrets_of_the_Nethercity.pdf`: hub with `Running …` lines, level keys, tables); a
+Cyfaraun note and market note (AX3 has the city: Library `Adventures/Capital of the Borderlands/`); notes for the
+forts on the way (AX3 gazetteer #22, #29, #15). Open the adventure (`adventure start --name "Secrets of the
+Nethercity"`, `adventure join` each PC) before the first delve.

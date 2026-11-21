@@ -1,7 +1,7 @@
 {
  "campaign": "AX1 Playtest",
  "session": 7,
- "generated": 1795248182,
+ "generated": 1795248670,
  "date": {
   "year": "",
   "season": "summer",
@@ -65,16 +65,25 @@
   {
    "name": "Hesper",
    "sheet": "Characters/hesper.json",
-   "role": "henchman",
+   "role": "pc",
    "hp": 10,
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 5.461
+  },
+  {
+   "name": "Vestus the Unlikely",
+   "sheet": "Characters/vestus-the-unlikely.json",
+   "role": "pc",
+   "hp": 3,
+   "hp_max": 3,
+   "conditions": [],
+   "spells_used": []
   }
  ],
  "light": "none",
- "rations": "Sabina: food 0 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0.4 d; Hesper: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Sabina: food 0 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0.4 d; Hesper: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -103,7 +112,7 @@
  "characters": [
   {
    "type": "character",
-   "role": "henchman",
+   "role": "pc",
    "name": "Hesper",
    "class": "Fighter",
    "occupation": "Brewer",
@@ -379,7 +388,8 @@
      "adventuring_throws",
      "proficiencies",
      "class_powers",
-     "possessions"
+     "possessions",
+     "retinue"
     ],
     "level": 2,
     "max_level": 14,
@@ -1396,6 +1406,145 @@
       {
        "level": 5,
        "power": "Animal Magnetism"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "character",
+   "role": "pc",
+   "name": "Vestus the Unlikely",
+   "class": "Mage",
+   "level": 1,
+   "xp": 1559,
+   "hp_max": 3,
+   "attributes": {
+    "STR": {
+     "score": 8,
+     "mod": -1
+    },
+    "INT": {
+     "score": 13,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 12,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 10,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 7,
+     "mod": -1
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 13,
+    "blast": 15,
+    "implements": 11,
+    "spells": 12
+   },
+   "hit_die": "1d4",
+   "cleaves": 0,
+   "title": "Arcanist",
+   "xp_next": 2500,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [],
+    "general": []
+   },
+   "spells": {
+    "repertoire": {
+     "1": [
+      "Mage Missile",
+      "Protection from Evil"
+     ],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    },
+    "per_day": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "coins": {
+    "gp": 375,
+    "sp": 9,
+    "cp": 5
+   },
+   "treasure": [],
+   "movement": {
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
+   },
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 22,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "sheet": {
+    "profile": "mage",
+    "class": "Mage",
+    "caster": true,
+    "magic": "arcane",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "spells",
+     "possessions",
+     "retinue"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {},
+    "powers": {
+     "starting": [
+      "Arcane Magic",
+      "Collegiate Wizardry"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Minor Magical Research"
       }
      ]
     }
