@@ -56,6 +56,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 ## Who they met
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
 - A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.
+- Rector Drusus of the Solar Citadel (from afar): broad, battle-scarred, guilty to be healing while the legions march; took Quirinus into the Citadel Guard.
 - Decimus (explorer, Vettius' henchman): lanky, ink-stained fingers, counts everything twice, quick dry wit.
 - A vicar of Ammonar at the Solar Citadel: grey-templed, measured; asked what they had seen before what they wanted.
 
@@ -68,6 +69,26 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 ## Changes to the world
 
 ## Next time
+
+## Epilogue: Quirinus
+For ten mornings Quirinus woke on his pallet under the Solar Citadel's oculus and found himself a little less than he
+had been the night before. The acolytes who tended the altars learnt to read it in his face: the mornings he sat up
+and asked for bread, the mornings he lay still and counted his breaths. Neris' prayer held him in an unbroken sleep
+each night; the light that the iron ring of the dome stores by day and pours back at night lay on him like a blanket.
+
+On the twenty-eighth morning he woke and the cold in his chest had not deepened. On the twenty-ninth, when the dawn
+prayers began at the east altar, he stood up for the first time in ten days without a hand on the wall, and stayed
+standing to the end of them. The thing's touch had left him a husk of the man who swung the battle axe in the first
+tomb, thin-armed, quick to tire, but it had let go.
+
+Rector Drusus, the "Hammer of Ammonar", who was carried here himself from the wars in the west and sent to heal for a
+year, had watched him every dusk from the west altar. He did not offer pity. He offered a post: a place among the
+Citadel Guard, keeping the doors of the dome that had kept him alive. Quirinus took it.
+
+On day 230 a boy from the Citadel came to the Silk Pony with a message for Lucilla, in Quirinus' blunt hand: he was
+on his feet, he was wearing Ammonar's winged sun on a grey tabard, and if the company ever came back out of the dark
+with something that needed carrying past the Citadel's doors, they knew where to find him. "Tell Gnaeus to keep the
+axe sharp. It did right by me."
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 10). Slips, voids, findings and corrections: Playtest/judge-notes.txt (S10 section).

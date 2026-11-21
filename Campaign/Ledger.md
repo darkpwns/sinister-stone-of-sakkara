@@ -1018,3 +1018,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 230 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 230 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 230 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 230 | Solar Citadel (alms for the acolytes) | pallet under the oculus, nights of days 226-229, paid from his own purse |  |  | 4gp | quirinus |
