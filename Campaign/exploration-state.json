@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 198,
-  "round_of_day": 515,
-  "total_rounds": 283715
+  "round_of_day": 635,
+  "total_rounds": 283835
  },
  "party": {
   "lucilla": {
@@ -336,42 +336,67 @@
    "closed": false,
    "rounds_left": 20,
    "tallow": false
+  },
+  {
+   "id": "torch64",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch65",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 10,
+   "tallow": false
   }
  ],
- "timers": [],
+ "timers": [
+  {
+   "id": "t7",
+   "label": "unsettling event throw (Nethercity)",
+   "rounds_left": 20,
+   "hidden": true,
+   "source": null,
+   "started": "day 198 08:55"
+  }
+ ],
  "rest": {
   "rounds_since_rest": 0,
   "rest_rounds": 0,
   "winded": []
  },
- "location": null,
+ "location": {
+  "site": "Nethercity sewer caves",
+  "kind": "dungeon",
+  "level": 2,
+  "room": "B1",
+  "wandering": {
+   "none": false,
+   "die": "1d6",
+   "every": 3,
+   "target": 6
+  },
+  "table": "Adventure/SOTN/Tables/sotn-wandering-sewer-caves.yaml",
+  "source": {
+   "hub": "Adventure/SOTN/SOTN Hub.md",
+   "wandering": "site setting: '1d6 every 3 turns, 6+' (Adventure/SOTN/SOTN Hub.md)"
+  }
+ },
  "wandering": {
-  "turns_since_check": 0,
+  "turns_since_check": 1,
   "last_check": {
-   "at": "day 198 06:50",
-   "roll": 2,
+   "at": "day 198 10:20",
+   "roll": 1,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 195 06:40",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 195 08:40",
-    "roll": 5,
-    "target": 5,
-    "encounter": true
-   },
-   {
-    "at": "day 195 09:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 195 10:00",
     "roll": 1,
@@ -473,13 +498,31 @@
     "roll": 2,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 198 09:20",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 198 09:50",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 198 10:20",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 283640
+  "turn_start_done": 283830
  },
  "turn_actions": {
-  "turn": 28371,
+  "turn": 28383,
   "listened": [],
   "actions": []
  },
@@ -1289,8 +1332,8 @@
    "rest_rounds": 0
   },
   "198": {
-   "delve_rounds": 90,
-   "rest_rounds": 10
+   "delve_rounds": 180,
+   "rest_rounds": 30
   }
  },
  "events": [
@@ -2936,9 +2979,9 @@
   }
  ],
  "next_ids": {
-  "enc": 150,
-  "torch": 63,
-  "t": 6,
+  "enc": 151,
+  "torch": 65,
+  "t": 7,
   "lantern": 1
  },
  "travel": {
@@ -5138,7 +5181,7 @@
     "rest_pending": true
    },
    "brennus": {
-    "hp": 6,
+    "hp": 5,
     "hp_max": 6,
     "con": 12,
     "con_mod": 0,
@@ -41543,14 +41586,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc131",
-   "at": "day 186 08:20",
-   "monster_name": "a priestess at the Almshouse of the Keepers (#60)",
-   "number": 1,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
    "id": "enc132",
    "at": "day 187 07:20",
    "monster_name": "Carrion Horror",
@@ -41702,6 +41737,14 @@
    "number": 6,
    "reaction": "intimidated",
    "status": "reaction"
+  },
+  {
+   "id": "enc151",
+   "at": "day 198 10:18",
+   "monster_name": "Skeleton",
+   "number": 12,
+   "reaction": null,
+   "status": "fighting"
   }
  ]
 }

@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 198
-  time: 08:35
+  time: '10:35'
   weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; mostly cloudy; wind strong
   place: Cyfaraun
   hex: '18.05'
@@ -57,11 +57,11 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6.062
+    encumbrance_st: 5.729
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 6
+    hp: 5
     hp_max: 6
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
@@ -116,7 +116,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 7
-  light: lantern (Vettius) out; torch (Ottar) out
+  light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) 1 turn left
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
