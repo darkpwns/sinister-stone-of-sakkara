@@ -35,7 +35,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
   - [x] D, E (PDF 35-44): D1-D9, E1-E9 with sub-keys; D 11,216 gp / 1,974 XP, E 6,616 gp / 3,680 XP
   - [x] F (PDF 45-53): F1-F19 (+F11a-c); 18,290 gp, 6,759 XP
   - [ ] G (PDF 53-65)
-  - [ ] H (PDF 65-79)
+  - [x] H (PDF 65-79): H1-H26 with sub-keys; 32,550 gp + ~2,232 gp graves / 9,963 XP (+ up to 6,240 for the 480 H14 skeletons)
   - [ ] I, J (PDF 79-92)
   - [x] K, L (PDF 92-102): K1-K12, L1-L20; K 43,688 gp / 7,540 XP, L 3,789 gp / 4,504 XP
   - [ ] M, N (PDF 102-113)

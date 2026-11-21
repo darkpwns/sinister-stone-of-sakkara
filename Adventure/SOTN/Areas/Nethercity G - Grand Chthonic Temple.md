@@ -178,7 +178,7 @@ The long north-south burial gallery, G7a north and G7b south (SOTN p. 54).
 - > [!player]
   > Past the slab, a 5’ hall gives onto a 40’ × 30’ chamber of white-flecked black marble with a black tiled floor. A glittering mosaic on the west wall shows elf nobles attended by white-furred apes and two-legged lizards. A stone slab door in the east half of the north wall. The south wall holds 24 burial niches whose skeletons are not human: half have long snouted skulls with big fangs, half heavy bones, massive skulls, long arms and short bowed legs.
 - **Monster:** depending on how many attempts the G8 door took, the skeletons are just rising or already roused: brute **ape skeletons** and raptor-like **lizardman skeletons**, buried to serve their masters after death. Their graves bear no names, no dates and no goods.
-  - **12 lizardman skeletons** → [[Skeleton]]: MV 40’ / 120’, AC 2, HD 2*, hp 9 each, claw 9+, D 1d6, Save F2, ML n/a, AL C, XP 29 each. (Judge's call: SOTN's HD and single claw kept; the MM rule of HD as in life and the living creature's natural attacks would make them 2+1* with claw/claw/bite.)
+  - **12 lizardman skeletons** → [[Skeleton]] (of [[Lizardman|lizardmen]]): MV 40’ / 120’, AC 2, HD 2+1* (a non-human skeleton keeps its HD in life), hp 9 each, claw 8+, D 1d6, Save F2, ML n/a, AL C, XP 47 each (SOTN prints HD 2*, 9+, XP 29). (Judge's call: SOTN's single 1d6 claw kept rather than the living lizardman's claw/claw/bite.)
   - **12 ape skeletons** → [[Skeleton]] (of [[Cave Gorilla|white apes]]): MV 40’ / 120’, AC 2, HD 4*, hp 17 each, claw 7+, D 1d6, Save F2, ML n/a, AL C, XP 135 each (SOTN prints save "41", a misprint; Judge's call: F2 as the living cave gorilla).
   - Immune to enchantment, necrotic and poison; rebuked as skeletons whatever their HD.
 - **Trick:** one marble panel of the north wall is a **secret door** to G12; it turns on its vertical axis but must be opened **as a stone slab door (−12)**.
@@ -206,7 +206,7 @@ The long north-south burial gallery, G7a north and G7b south (SOTN p. 54).
 - > [!player]
   > Beyond the slab, a 20’ × 30’ chamber, black marble floor, black marble walls speckled red. A winding marble stair down fills the north half. A dozen burial niches in each of the east and west walls; between them two dozen skeletons with long snouted, big-fanged skulls stand drawn up for battle.
 - **Monster / Graves:** the niches bear no names, dates or goods. The **lizardman skeletons** began to animate when the G8 slab door was disturbed: just rising or already in battle order, by the number of attempts.
-  - **24 lizardman skeletons** → [[Skeleton]]: MV 40’ / 120’, AC 3 (bronze shield), HD 2*, hp 9 each, bronze short sword 9+, D 1d6, Save F2, ML n/a, AL C, XP 29 each (weapons and shield per [[Nethercity Features#Wall graves (SOTN pp. 14-16)]]; Judge's call from SOTN's AC 3 and "weapon"). Their arms are worth the era's grave-goods value as loot (1d8gp each); not in the tally.
+  - **24 lizardman skeletons** → [[Skeleton]] (of [[Lizardman|lizardmen]]): MV 40’ / 120’, AC 3 (2 + bronze shield), HD 2+1*, hp 9 each, bronze short sword 8+, D 1d6, Save F2, ML n/a, AL C, XP 47 each; rebuked as skeletons (SOTN prints HD 2*, 9+, XP 29; weapons and shield per [[Nethercity Features#Wall graves (SOTN pp. 14-16)]]; Judge's call from SOTN's AC 3 and "weapon"). Their arms are worth the era's grave-goods value as loot (1d8gp each); not in the tally.
 
 ### G14. Abyssal Level King Tomb (2200 BE)
 - **Exits:** SE a short corridor 20’ to the curving stair up (to G13); NW annex with a black marble well (to P9, 10’ below).
@@ -255,7 +255,7 @@ An L-shaped burial gallery: G15a south-north, G15b east-west (SOTN p. 59).
 - > [!player]
   > A triangular cave, 20’ × 15’, crowded with lava boulders and stalagmites. Tunnels leave from its north-west and north-east sides.
 - **Monster:** a **giant python** lairs here, feeding on the insects of area C; noise from the north-east (C) draws it out to hunt. Otherwise it lies in wait behind the lava boulders.
-  - **Giant python** → [[Python Snake]]: MV 30’ / 90’, AC 3, HD 5*, hp 25, bite 6+, D 1d4, then constriction 2d8 each round until the victim escapes (restrained), Save F3, ML −1, AL N, XP 350.
+  - **Giant python** → [[Python Snake]]: MV 30’ / 90’, AC 3, HD 5*, hp 25, bite 6+, D 1d4, then constriction 2d8 each round until the victim escapes (restrained), Save F3, ML −1, AL N, XP 350. The same snake as the one met from C11 ([[Nethercity C - Central Caves]]); SOTN's C11 prints hp 30 and constriction 5d6, a book error: G18's figures rule.
 
 ### G19. Grand Chthonic High Priest Gallery (2500 BE)
 - **Exits:** E end: cedar doors N (to H19, [[Nethercity H - Great Temple of Awakening]]) and E (to G16); W end turns south into G23, with G20 opening off the corner (map).
@@ -342,4 +342,4 @@ An L-shaped burial gallery: G15a south-north, G15b east-west (SOTN p. 59).
 
 Not in the tallies: magic items and spellbooks (value only when sold; spellbook weights are counted in G9 and G11); salvage of destroyed statues (G14 bronze 4 × 1,200gp, 12 st; G16 gold and ivory 3,000gp, 12 st; G6a Judge's call); the G13 skeletons' arms; the font G4 (a fixture).
 
-Monster XP (ACKS II): G2b 5 × 190 = 950; G6e 2,100; G9 1,280; G10 12 × 29 + 12 × 135 = 1,968; G12 1,280 + 8 × 10 = 1,360; G13 24 × 29 = 696; G14 1,600 + 4 × 350 = 3,000; G16 1,100; G18 350; G21 2 × 38 = 76; G25 4 × 190 = 760. **Total 13,640 XP.**
+Monster XP (ACKS II): G2b 5 × 190 = 950; G6e 2,100; G9 1,280; G10 12 × 47 + 12 × 135 = 2,184; G12 1,280 + 8 × 10 = 1,360; G13 24 × 47 = 1,128; G14 1,600 + 4 × 350 = 3,000; G16 1,100; G18 350; G21 2 × 38 = 76; G25 4 × 190 = 760. **Total 14,288 XP.**
