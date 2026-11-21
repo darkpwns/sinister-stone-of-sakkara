@@ -62,6 +62,22 @@ tags:
 | 223 | Nethercity, expedition 14 (the temple of the dead) | 3,000 electrum pieces | 1,500 | aelia |
 | 223 | Nethercity, expedition 14 (the temple of the dead) | 4,000 gold pieces | 4,000 | neris |
 | 223 | Nethercity, expedition 14 (the temple of the dead) | 2,000 gold pieces | 2,000 | gnaeus |
+| 232 | Nethercity, expedition 15 (the deep galleries) | a silver inkwell and stylus | 10 | lucilla |
+| 232 | Nethercity, expedition 15 (the deep galleries) | a small gilded cedar incense altar | 175 | hrodvar |
+| 232 | Nethercity, expedition 15 (the deep galleries) | 25 sticks of frankincense | 500 | phaedra |
+| 232 | Nethercity, expedition 15 (the deep galleries) | four canopic jars of embalmed organs | 100 | varro |
+| 232 | Nethercity, expedition 15 (the deep galleries) | jewelry worth 500.0gp | 500 | lucilla |
+| 232 | Nethercity, expedition 15 (the deep galleries) | 1,500 gold pieces | 1,500 | calpurnia |
+| 232 | Nethercity, expedition 15 (the deep galleries) | SOTN Transmogrifier's Spellbook | 250 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | AX1 Potion of Healing | 250 | neris |
+| 232 | Nethercity, expedition 15 (the deep galleries) | AX1 Potion of Healing | 250 | neris |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Spell Scroll | 150 | vestus-the-unlikely |
+| 232 | Nethercity, expedition 15 (the deep galleries) | six terracotta scroll jars | 30 | marcellus |
 
 ## Monster XP
 
@@ -84,6 +100,8 @@ tags:
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Wraith | 1 | 190 | 190 |
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | Jackal of Darkness (SOTN) | 2 | 135 | 270 |
 | 223 | Nethercity, expedition 14 (the temple of the dead) | Mechanical Cobra (SOTN) | 2 | 29 | 58 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Mummy | 1 | 1,060 | 1,060 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Baboon Mummy (SOTN) | 1 | 500 | 500 |
 
 ## Shares and XP awarded
 
@@ -203,6 +221,20 @@ tags:
 | 223 | Nethercity, expedition 14 (the temple of the dead) | Aelia | 0.5 | 788 | 3 | 0 | +0% | 791 |
 | 223 | Nethercity, expedition 14 (the temple of the dead) | Marcellus | 0.5 | 788 | 3 | 0 | +0% | 791 |
 | 223 | Nethercity, expedition 14 (the temple of the dead) | Gnaeus | 0.5 | 788 | 3 | 0 | +0% | 791 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Lucilla | 1 | 446 | 156 | 0 | +10% | 662 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Vettius | 1 | 446 | 156 | 0 | +5% | 632 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Iulia | 1 | 446 | 156 | 0 | +5% | 632 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Vestus the Unlikely | 1 | 446 | 156 | 0 | +5% | 632 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Neris | 1 | 446 | 156 | 0 | +0% | 602 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Brennus | 1 | 446 | 156 | 0 | +5% | 632 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Phaedra | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Varro | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Hrodvar | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Aelia | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Marcellus | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Gnaeus | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Calpurnia | 0.5 | 223 | 78 | 0 | +0% | 301 |
+| 232 | Nethercity, expedition 15 (the deep galleries) | Titus Aurelianus | 0.5 | 223 | 78 | 0 | +5% | 316 |
 
 ## Wages
 
@@ -1023,3 +1055,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 231 | a caravan master of the Merchant Guildhouse (textile caravan, Cyfaraun-Türos Tem) | Lucilla's passive investment 1: commercial expedition, balanced (short-distance), 700gp, day 231 (RR Passive Investment) |  |  | 700gp | guildhouse-bank |
 | 231 | a caravan master of the Merchant Guildhouse (long-distance caravan to the coast) | Lucilla's passive investment 2: commercial expedition, risky (long-distance), 700gp, day 231 (RR Passive Investment) |  |  | 700gp | guildhouse-bank |
 | 232 | Silk Pony Inn (#25) | beds for fourteen, night of day 231 |  |  | 2gp 8sp | lucilla |
+| 232 |  | treasure share |  | 150gp |  | lucilla |
+| 232 |  | treasure share |  | 150gp |  | vettius |
+| 232 |  | treasure share |  | 150gp |  | iulia |
+| 232 |  | treasure share |  | 150gp |  | vestus-the-unlikely |
+| 232 |  | treasure share |  | 150gp |  | neris |
+| 232 |  | treasure share |  | 150gp |  | brennus |
+| 232 |  | treasure share |  | 75gp |  | phaedra |
+| 232 |  | treasure share |  | 75gp |  | varro |
+| 232 |  | treasure share |  | 75gp |  | hrodvar |
+| 232 |  | treasure share |  | 75gp |  | aelia |
+| 232 |  | treasure share |  | 75gp |  | marcellus |
+| 232 |  | treasure share |  | 75gp |  | gnaeus |
+| 232 |  | treasure share |  | 75gp |  | calpurnia |
+| 232 |  | treasure share |  | 75gp |  | titus-aurelianus |

@@ -63,6 +63,19 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   Guildhouse putting 700gp each into two merchant caravans in her name: one on her textile road, one on the long haul
   to the coast.
 
+- Day 232, fifteenth descent (the first below the strength line for the deepest galleries): down the rope into the
+  huge cavern, wide of the mould and the grasshoppers, through the bronze doors to the smooth slab in the deep
+  gallery. Iulia called Ammonar's blessing over them; the slab rolled at the fifteenth heave. Inside, a mummy with
+  scaled, misshapen skin and, unseen at first, a scaly baboon-thing with a viper's fangs. Half the front rank shrank
+  from the mummy's stare; Vestus' spell died in his throat. Lucilla's fire-egg burst in the tomb; the mummy's curse
+  broke on Brennus' will; Iulia's prayer drove the baboon-thing cowering, and Brennus' axe and Gnaeus' finished it.
+  The mummy fell to Brennus in the fourth round. On the second search a seam in the dais: under the sarcophagus a
+  compartment with a silver inkwell, a gilded incense altar and frankincense, a chryselephantine unicorn, a chest of
+  1,500 ancient gold, two ginger-scented vials (Aelia named one a healing draught), canopic jars, a long encrypted
+  scroll on carved bone handles, and six scroll jars: Vestus read six arcane spells, two of them of the sixth rank.
+  Home by ten, the goods kept back for the next month's selling day. Iulia became a curate, Neris a sister-initiate,
+  Aelia a versifier. With the party well above the line, Calpurnia and Titus were let go.
+
 ## Who they met
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
 - A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.
@@ -71,6 +84,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 - A vicar of Ammonar at the Solar Citadel: grey-templed, measured; asked what they had seen before what they wanted.
 
 ## Treasure and XP
+- Day 232 (A20): 4,465gp (E3 compartment; goods unsold, held for day 241) + 1,560 monster XP. Iulia Crusader 4, Neris Priestess 3, Aelia Bard 2.
 - Day 223 (A19): 14,185gp (H12 charms and natron, H17 scrolls and myrrh, G21 treasury coin; goods sold 4,384gp) + 58 monster XP. Vettius Thief 5, Vestus Mage 3, Brennus Fighter 3.
 - Day 221 (A18): 5,350gp (warlord's chapel vault; sold 8,470gp with the death orb) + 270 monster XP; death orb sale XP 3,300. Iulia Crusader 3, Brennus Fighter 2, Neris Priestess 2.
 
