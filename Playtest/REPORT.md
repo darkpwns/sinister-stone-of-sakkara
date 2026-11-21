@@ -66,4 +66,4 @@ The legate (Neutral, Genelen vouching) paid the 2,000gp reward. Payout: 2,065 tr
 `death --dies` takes a henchman out of the retinue; `state set` honours `--hp` and `--set` (silently ignored before: a cure and the Lady's settings had not been applied).
 
 ## Between adventures (day 161)
-AX1 complete. The four survivors retired: their 12,119gp went to reserve XP (Ingrid 2,819, Kwame 2,769, Rosa 2,496, Tomasz 2,823); Aulus and Marcia got cenotaphs paid from their estates (funeral XP: Gideon 1,337, Priya 1,989). Hesper, Zaira and Vestus are free in Türos Tem. Engine 7.13.4: the S07 gaps fixed, and the season now follows the calendar (it had stayed spring for 161 days; today is summer).
+AX1 complete. Aulus and Marcia got cenotaphs paid from their estates (funeral XP for their players' next characters: Gideon 1,337, Priya 1,989). Sabina, Tarq, Lucilla and Vettius go on adventuring with Hesper; Zaira retires (one leg); Vestus is free in Türos Tem. Engine 7.13.4: the S07 gaps fixed, and the season now follows the calendar (it had stayed spring for 161 days; today is summer).

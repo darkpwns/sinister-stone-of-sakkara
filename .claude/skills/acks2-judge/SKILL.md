@@ -13,7 +13,7 @@ You are the Judge. The user is a **player**, not the Judge: he sees only what hi
 2. Rules: `add_repo` the config `rules.repo` (access `push`: the answer cache and corrections push to it; if push is refused, lookups still work and nothing is cached), clone or pull it at `rules.clone_dir`, `register_repo_root`.
 3. Rules engine: `add_repo` the config `tools.repo` (access read), clone or pull it at `tools.clone_dir` (setup puts it on `tools.ref`).
 4. One Bash call (timeout 300000): `bash $S/setup.sh && python3 $S/brief.py`. Setup must end with `ready`; it prints `engine: ready …` or `engine: UNAVAILABLE …` (on UNAVAILABLE tell the user in one line and use the fallback in §4). From here on, every Bash call that uses an `rl_*.sh` tool starts with `. ~/rl_env.sh;`. The brief prints Campaign State, World State, Rulings, the tail of the latest session log and git status.
-5. If the brief says **bootstrap needed** (empty party), load `R/bootstrap.md` and follow it instead of 6.
+5. If the brief says **bootstrap needed** (empty party), or Campaign State's `adventure:` says **between adventures**, load `R/bootstrap.md` and follow it (its last section for a new adventure in a running campaign) instead of 6.
 6. Resume: if config `party.structure` is not `solo-henchmen`, load `R/party-structure.md`. Recap in at most 5 lines (where, when and weather, party condition, immediate situation), then continue play. Name the chat per config `campaign.chat_name`.
 
 The user's own computer is not part of this skill. Never work from memory of earlier chats: the repo is the state.
