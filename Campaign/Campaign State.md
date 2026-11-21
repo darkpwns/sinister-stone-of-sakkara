@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 9
+session: 10
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A17 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 219
-  time: '12:19'
+    day: 221
+  time: 06:00
   weather: Balmy (66 to 68 F) by day, Balmy (66 to 68 F) at night; clear; wind strong
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.473
+    encumbrance_st: 9.376
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,44 +34,33 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 11.002
+    encumbrance_st: 15.81
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Cure Light Injury
-    encumbrance_st: 3.367
-  - name: Ottar
-    sheet: Characters/ottar.json
-    role: henchman
-    hp: 2
-    hp_max: 2
-    conditions: []
     spells_used: []
-    encumbrance_st: 0
+    encumbrance_st: 3.367
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 1
+    hp: 6
     hp_max: 6
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
-    - 'in shock (day 219): one night of bed rest needed, incapacitated until then'
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     spells_used: []
-    encumbrance_st: 7.829
+    encumbrance_st: 7.827
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -92,10 +81,12 @@ public:
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
-    hp: 9
-    hp_max: 10
+    hp: 8
+    hp_max: 8
     conditions:
     - 'enervated (day 219): Death save each day on waking, failure -1 max hp more; three passes in a row end it'
+    - 'Salving Rest (Neris, day 219): +4 on the enervation save, two passes in a row end it, +1d3 hp a day of complete rest; ends if he leaves complete rest or takes damage (RR p. 242)'
+    - 'resting under the Solar Citadel''s oculus (hallowed pinnacle of good: +2 on the enervation save, +2 hp a day of rest; JJ Pinnacles of Good)'
     spells_used: []
     encumbrance_st: 6.956
   - name: Hrodvar
@@ -106,14 +97,6 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 6.394
-  - name: Septima
-    sheet: Characters/septima.json
-    role: henchman
-    hp: 3
-    hp_max: 3
-    conditions: []
-    spells_used: []
-    encumbrance_st: 0
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -146,8 +129,16 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 6.864
+  - name: Decimus
+    sheet: Characters/decimus.json
+    role: henchman
+    hp: 4
+    hp_max: 4
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.006
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d (incapacitated); Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Decimus: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -171,7 +162,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 219
+clock_day: 221
 ---
 # Campaign State
 

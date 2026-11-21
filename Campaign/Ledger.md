@@ -883,3 +883,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | gnaeus |
 | 219 | body:septima (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
 | 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | body:septima |
+| 219 | Hospital of the Keepers | donation for Quirinus' pallet in the courtyard, night of day 219 |  |  | 1gp | lucilla |
+| 219 | Hospital of the Keepers | donation for his pallet in the courtyard, night of day 219 |  |  | 1gp | brennus |
+| 219 | House of Mourning (Grey Sisters) | Septima's funeral: rites of Calefa and a niche in the city necropolis (Judge's price) |  |  | 25gp | body:septima |
+| 219 | House of Mourning (Grey Sisters), testators' deposits | the rest of Septima's purse, deposited for her kin (one relative may collect, RR p. 312) |  |  | 367gp 9sp 9cp | body:septima |
+| 219 | the retinue | wages paid |  |  | 25gp | vettius |
+| 219 | his own purse | equipment on hiring (Cartographer template, Explorer) |  | 6gp |  | decimus |
+| 220 | Silk Pony Inn (#25) | beds for twelve, night of day 219 (Quirinus and Brennus at the hospital) |  |  | 2gp 4sp | lucilla |
+| 221 | Solar Citadel (donation at the vicar's altar) | Bribery: a week's pay of a 5th-level vicar, politely deniable (RR Venturer; Cost of Bribes) |  |  | 93gp 3sp | lucilla |
+| 221 | Silk Pony Inn (#25) | beds for twelve, night of day 220 (Quirinus and Brennus at the hospital) |  |  | 2gp 4sp | lucilla |
+| 221 | Hospital of the Keepers | donation for Quirinus' pallet in the courtyard, night of day 220 |  |  | 1gp | lucilla |
+| 221 | Hospital of the Keepers | donation for his pallet in the courtyard, night of day 220 |  |  | 1gp | brennus |
+| 221 | Solar Citadel (alms for the acolytes who keep Quirinus' pallet) | pallet under the oculus, from night of day 221 (Judge's price, 1gp a night, five nights ahead) |  |  | 5gp | lucilla |

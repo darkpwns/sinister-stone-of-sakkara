@@ -152,3 +152,11 @@ Vestus (Mage 2, day 212): Fan of Flames formula bought (100gp); a week's study t
 Judge slip days 213-218: Neris' Laying on Hands (2 hp a day, user's standing order) was not applied during the rest days; applied at once on day 219 (Lucilla 13 -> 19). Consolation (doubling rest healing, party memory) not modelled by rest-day; not applied.
 Judge's correction day 219 H11 round 2: Fan of Flames damage (8) applied before the wraith's Blast save, which succeeded: half (4) applied instead (hp 11 -> 7).
 Finding day 219: mortal-wounds --laying-on-hands 1 printed no laying-on-hands modifier in its breakdown (Septima: d20 8 -11 = -3); with +1 the band was the same (killed).
+
+## S10 (2026-11-21)
+Judge slip S09: Ottar (dead day 212) and Septima (dead day 219) were left in Characters/ (listed in public.party); moved to Characters/former/ at S10 start.
+Finding day 220: `rest-day --healer neris` printed "neris has no Healing proficiency on his sheet" although `actor show neris` lists Healing (general); the +1d3 care was not rolled. No effect (Brennus capped at full by the pinnacle and Laying on Hands).
+Finding day 220: Neris' Consolation cannot be used on Quirinus or Brennus (both Neutral; RR Priestess: not on creatures of a different alignment or religion).
+Judge's error/void day 221: the vicar of Ammonar's reaction was rolled with `--target-wil 16` (his WIL score; the option takes the modifier, +2): 2d6-12 -> [1,3] = -8 hostile. The dice stand; corrected total 4 +2 CHA +2 bribe (Lucilla's Bribery power, proficient row) -2 WIL = 6 (Neutral), applied with --apply-total 6 (no new dice).
+Finding day 221: the engine's bribe reads only a Bribery proficiency on the sheet, not the venturer's Bribery class power (it priced a week's pay at +1, the non-proficient row).
+Day 220-221: Quirinus' enervation saves at +5 (Salving Rest +4, illuminated pinnacle +1): 11 and 11 vs 13+, both failed: max hp 10 -> 9 -> 8.
