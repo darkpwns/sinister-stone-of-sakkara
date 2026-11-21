@@ -10,28 +10,43 @@ tags:
 
 Class **III** market, hex 18.05 (AX3 #10 and its domain table). A **venturer** may treat it as **Class II** or take +1 market impact; a party with market impact 0 treats it as **Class IV** (AX3 p. 56). Trading procedure, tolls (4d6+2gp per 5,000 st), customs (2d10% on imports), fees, banking and the treasure law: [[Doing Business in Cyfaraun]].
 
-## Demand modifiers (AX3 Borderlands Demand Modifiers table, pp. 222-223, Cyfaraun column)
-These replace the earlier partial list from the JJ p. 202 example (wood common −3; hides, furs −3; metals common −2; grain +1; spices +1; silk +1), which AX3 contradicts on every one of those six. Source of every value below: AX3 pp. 222-223. Doing Business (pp. 56-57) adds no other modifiers.
+## Demand modifiers (AX3 pp. 222-223, Cyfaraun column)
+Source of every value: the AX3 table; these replace the earlier partial JJ p. 202 example (wood common −3; hides, furs −3; metals common −2; grain +1; spices +1; silk +1), which AX3 contradicts on all six. Doing Business (pp. 56-57) adds no others.
 
-| Merchandise | Mod | | Merchandise | Mod |
-|---|---|---|---|---|
-| Grain, vegetables | +2 | | Tools | −3 |
-| Fish, preserved | −2 | | Armor, weapons | −3 |
-| Wood, common | +2 | | Dye & pigments | −3 |
-| Animals | −1 | | Glassware | −3 |
-| Salt | 0 | | Mounts | −1 |
-| Beer, ale | −1 | | Monster parts | +2 |
-| Oil, lamp | 0 | | Wood, rare | +2 |
-| Textiles | −2 | | Furs, rare | +2 |
-| Hides, furs | +1 | | Metals, precious | +2 |
-| Tea or coffee | +2 | | Ivory | +3 |
-| Metals, common | +3 | | Spices | +3 |
-| Meats, preserved | −1 | | Porcelain, fine | −2 |
-| Cloth | −2 | | Books, rare | −2 |
-| Wine, spirits | −1 | | Silk | −2 |
-| Pottery | −2 | | Semiprecious stones | +2 |
-| | | | Gems | +2 |
+| Merchandise (ACKS II) | AX3 type | **Final** |
+|---|---|---|
+| Grain & vegetables | Grain, vegetables | **+2** |
+| Preserved fish | Fish, preserved | **-2** |
+| Common wood | Wood, common | **+2** |
+| Salt | Salt | **0** |
+| Beer & ale | Beer, ale | **-1** |
+| Oils & sauces | Oil, lamp | **0** |
+| Textiles | Textiles | **-2** |
+| Common furs | Hides, furs | **+1** |
+| Botanicals | Tea or coffee | **+2** |
+| Common metal | Metals, common | **+3** |
+| Preserved meat | Meats, preserved | **-1** |
+| Clothing | Cloth | **-2** |
+| Wine & spirits | Wine, spirits | **-1** |
+| Pottery | Pottery | **-2** |
+| Tools | Tools | **-3** |
+| Armor & weapons | Armor, weapons | **-3** |
+| Dyes & pigments | Dye & pigments | **-3** |
+| Glassware | Glassware | **-3** |
+| Monster parts | Monster parts | **+2** |
+| Rare wood | Wood, rare | **+2** |
+| Rare furs | Furs, rare | **+2** |
+| Precious metals | Metals, precious | **+2** |
+| Ivory | Ivory | **+3** |
+| Spices | Spices | **+3** |
+| Fine porcelain | Porcelain, fine | **-2** |
+| Rare books & art | Books, rare | **-2** |
+| Silk | Silk | **-2** |
+| Semiprecious stones | Semiprecious stones | **+2** |
+| Gems | Gems | **+2** |
 
+- AX3 types with no ACKS II merchandise (livestock is bought as animals, not trade goods): Animals -1; Mounts -1. Mapping of AX3's ACKS I list to the ACKS II 29 types is a Judge's call: lamp oil → oils & sauces, tea or coffee → botanicals, cloth → clothing, hides and furs → common furs.
+- The engine reads the **Final** column (`inv sell … --market-note`). Modifiers apply to merchandise trade only.
 - **AX3's own notes disagree with its table** for four goods: the arbitrage notes (p. 223) give Cyfaraun **common metals +2** (table +3), **precious metals +3** (table +2), **semiprecious stones +3** (table +2) and **gems +3** (table +2). The table values are used above (Judge's call); the notes' values are the alternative.
 - AX3's summary (p. 222): Cyfaraun is the region's **major supplier** of tools, armour, weapons, dyes, glassware and rare books (all −3, rare books −2) and its **major consumer** of common metals, common and rare woods, monster parts, precious metals, ivory, spices, stones and gems.
 - Modifiers apply to merchandise trade only; adventuring gear uses Class III equipment availability (Class II for venturers).
