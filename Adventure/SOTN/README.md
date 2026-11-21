@@ -37,7 +37,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
   - [ ] G (PDF 53-65)
   - [ ] H (PDF 65-79)
   - [ ] I, J (PDF 79-92)
-  - [ ] K, L (PDF 92-102)
+  - [x] K, L (PDF 92-102): K1-K12, L1-L20; K 43,688 gp / 7,540 XP, L 3,789 gp / 4,504 XP
   - [ ] M, N (PDF 102-113)
   - [ ] O, P, Q (PDF 113-125)
   - [x] R, S, T (PDF 125-130): R1-R4, S1-S4, T1-T2; R 15,500 gp / 9,344 XP, S 23,625 gp / 10,630 XP, T 15,000 gp / 5,000 XP

@@ -113,13 +113,13 @@ No intelligent faction holds K. The troglodytes and apes do not come here; wande
 
 ### K12. Hallowed Hall Inner Gallery (2000 BE)
 
-### K12a. Hallowed Hall Inner Gallery
+### K12a. Hallowed Hall Inner Gallery (2000 BE)
 - **Exits:** N end to K1's east hallway; S end to K8 (north-east arm); W midway, alcove K12b.
 - > [!player]
   > A hallway 70’ long and 10’ wide; its walls are pierced from floor to the 20’ ceiling with horizontal grave niches. Several have caved in, crushing whatever lay inside.
 - **Graves:** 144 wall graves: 12 columns of eight on the east wall, 6 of eight on the west. c. 2000 BE, usual inscriptions, remains and goods: expected total 2,016gp (avg 14gp each), about 20 st. Looting takes the usual 10 graves per person per turn. (SOTN pp. 93-94)
 
-### K12b. Hallowed Hall Inner Gallery Alcove
+### K12b. Hallowed Hall Inner Gallery Alcove (2000 BE)
 - **Exits:** E to K12a.
 - > [!player]
   > Halfway along the hallway the west wall opens into an alcove 15’ by 20’. Mosaics on its north, south and west walls show ranks of elven soldiers in an archaic style, forming up for battle.

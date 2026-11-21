@@ -134,34 +134,34 @@ Running: Sewer Caves column, dungeon level 2 — throw 1d6 every 3 turns, 6+, th
   > An oval cavern 30’ wide and 20’ long, its walls pierced by 18 upright grave niches. In each sits a glistening yellow egg. Squatting in the middle like a titan of chitin is the giant ant that must have laid them: 15’ long.
 - **Monster:** **giant ant queen** → [[Giant Ant Queen]]: MV 40’ / 120’, AC 8, HD 6, hp 47, bite 5+, D 3d8 extraordinary, Save F3, ML +1 (+4 in nest defence), AL N, XP 320 (SOTN prints MV 180’, AC 6, HD 10, bite 2+, F5, XP 850; the MM queen is 7’-9’ long, SOTN's 15’). Judge's call: if the Judge wants SOTN's titan instead, use HD 10, bite 1+, Save F5, XP 850 with the MM queen's other traits. She attacks anything that comes near; **every surviving ant in L comes to her aid**.
 - **Graves and Loot:** 18 vertical wall graves with the usual inscriptions and goods (expected 81gp, 4.5gp each), but each holds an **ant egg** instead of remains. Each egg is about 6” tall, worth **115gp**, weighs **1 st** (the MM's eggs weigh 2/6 st; SOTN's figure used). The book's room total counts the eggs only: **2,070gp, 18 st**.
-- **Trick:** a **secret door** to N8c hides in the plaster panelling of one of the vertical graves (Searching). Found, it opens by pulling the panel down like a drawbridge. (SOTN pp. 98, 100)
+- **Trick:** a **secret door** to N8c hides in the plaster panelling of one of the vertical graves (Searching). Found, it opens by pulling the panel down like a drawbridge. (SOTN p. 98)
 
 ### L14. Abyssal Level Thumbs-Up Cave (2600 BE)
 - **Exits:** W toward L8; toward L16 (the tunnel from L16 runs south to here).
 - > [!player]
   > A cave shaped like a fist with the thumb up: the "fist" about 30’ square, running north-west to south-east, the "thumb" a 5’-wide passage reaching 15’ to the north-east. Many horizontal grave niches pierce the walls, all smothered in a white fungus that grows on dead insects and rubbish packed inside.
 - **Monster:** unless already called away to L5, **6 giant ants** tending the farms → [[Giant Ant Worker]]: MV 60’ / 180’, AC 6, HD 4, hp 21, 20, 18, 16, 14, 13, bite 7+, D 2d6, Save F2, ML −1 (+4 while the queen lives), AL N, XP 80 each.
-- **Graves:** 36, c. 2600 BE, **fungus farms**: expected total 72gp; double looting time, fungal infection risk. (SOTN p. 100)
+- **Graves:** 36, c. 2600 BE, **fungus farms**: expected total 72gp; double looting time, fungal infection risk. (SOTN p. 98)
 
 ### L15. Abyssal Level Rectangular Cave (2500 BE)
 - **Exits:** S toward L8; N into L17 and E toward L16 (map).
 - > [!player]
   > A rectangular cave about 45’ south-west to north-east and 30’ the other way. Scores of horizontal grave niches have been dug into its walls; a revolting white fungus blooms inside each, full of tiny insects and organic muck.
 - **Monster:** unless already called away, **6 giant ants** → [[Giant Ant Worker]]: MV 60’ / 180’, AC 6, HD 4, hp 22, 19, 18, 18, 15, 14, bite 7+, D 2d6, Save F2, ML −1 (+4 while the queen lives), AL N, XP 80 each.
-- **Graves:** 60, c. 2500 BE, **fungus farms**: expected total 270gp (4.5gp each); double looting time, fungal infection risk. (SOTN p. 100)
+- **Graves:** 60, c. 2500 BE, **fungus farms**: expected total 270gp (4.5gp each); double looting time, fungal infection risk. (SOTN p. 98)
 
 ### L16. Abyssal Level Cave (2500 BE)
 - **Exits:** S a tunnel toward L14; NW a natural arch into L17; W toward L15 (map).
 - > [!player]
   > A 35’ by 35’ cave walled with dozens of horizontal grave niches, every one overgrown with a foul blanket of white mould flecked with bits of carrion.
 - **Monster:** unless already called away, **6 giant ants** → [[Giant Ant Worker]]: MV 60’ / 180’, AC 6, HD 4, hp 21, 18, 18, 17, 16, 12, bite 7+, D 2d6, Save F2, ML −1 (+4 while the queen lives; SOTN prints "ML −1/+4" here, ML +4 for the other ants), AL N, XP 80 each.
-- **Graves:** 72, c. 2500 BE, **fungus farms**: expected total 324gp; double looting time, fungal infection risk. (SOTN p. 101)
+- **Graves:** 72, c. 2500 BE, **fungus farms**: expected total 324gp; double looting time, fungal infection risk. (SOTN p. 99)
 
 ### L17. Abyssal Level Oval Cave (2400 BE)
 - **Exits:** SE arch to L16; S to L15 (map); N a 15’ tunnel under a rising ceiling to L18 and L19.
 - > [!player]
   > An oval cave 40’ wide and 20’ deep, lined with scores of grave niches. Most are blanketed in white fungus speckled with insects, but on at least a third of them great pieces of the blanket are gone, torn away or eaten. To the north a tunnel 15’ wide runs on under a ceiling that slowly rises.
-- **Graves:** 120, c. 2400 BE, all made **fungus farms**; the white apes of M have eaten the fungus in 40 of them. Expected total 540gp; double looting time (all 120: the stripped graves still hold their goods; Judge's call: the 40 stripped ones loot at the normal rate but still risk infection), fungal infection risk. (SOTN p. 101)
+- **Graves:** 120, c. 2400 BE, all made **fungus farms**; the white apes of M have eaten the fungus in 40 of them. Expected total 540gp; double looting time (all 120: the stripped graves still hold their goods; Judge's call: the 40 stripped ones loot at the normal rate but still risk infection), fungal infection risk. (SOTN p. 99)
 
 ### L18. Abyssal Level Poisoner's Alcove (2400 BE)
 - **Exits:** S to L17; N to L19 (the alcove is in the tunnel's west wall).
@@ -169,13 +169,13 @@ Running: Sewer Caves column, dungeon level 2 — throw 1d6 every 3 turns, 6+, th
   > The tunnel's ceiling has climbed to 20’, rippled frozen lava with a dripping stalactite here and there. In the west wall a rough alcove 15’ deep and 30’ wide holds a huge relief of a giant scorpion stabbing the sun with its sting, painted a reddish black. Two maimed, rotting giant ants walk slow circles in front of it.
 - **Lore:** Loremastery or Theology: the carving is **Galmorm**, the Poisoner, Chthonic god of lies and treachery.
 - **Trick:** the paint was blood from a sacrifice: the alcove is a **blighted sinkhole of evil** ([[Nethercity Features]]). Lawful divine casters turn undead as if **four levels lower** here (with the other blighted-sinkhole effects).
-- **Monster:** two ants killed here lately by the white apes have risen as **2 giant ant zombies**, made poisonous by the Poisoner → [[Zombie]] (non-human zombie of a [[Giant Ant Worker]]: HD = living HD + 1): MV 30’ / 90’, AC 6 (the ant's chitin; SOTN), HD 5**, hp 23, 22, bite 6+, D 2d6 extraordinary + **poison** (save vs Death or die after 1 turn), Save F3, ML n/a, AL C, XP 500 each. Clumsy (−2 initiative); immune to enchantment, necrotic and poisonous damage; rebuked as easily as any zombie whatever its HD. (SOTN p. 101)
+- **Monster:** two ants killed here lately by the white apes have risen as **2 giant ant zombies**, made poisonous by the Poisoner → [[Zombie]] (non-human zombie of a [[Giant Ant Worker]]: HD = living HD + 1): MV 30’ / 90’, AC 6 (the ant's chitin; SOTN), HD 5**, hp 23, 22, bite 6+, D 2d6 extraordinary + **poison** (save vs Death or die after 1 turn), Save F3, ML n/a, AL C, XP 500 each. Clumsy (−2 initiative); immune to enchantment, necrotic and poisonous damage; rebuked as easily as any zombie whatever its HD. (SOTN p. 99)
 
 ### L19. Abyssal Level Cave (2300 BE)
 - **Exits:** S tunnel to L18; W hewn steps up the middle of a 10’ ledge to M1 ([[Nethercity M - Northern Caves]]); E a 12’ drop, with stairs winding down its north edge, to L20.
 - > [!player]
   > The tunnel from the south leads onto a shelf 30’ wide under a 20’ ceiling. To the west a 10’ ledge walls it off, with stone steps cut up its middle; to the east the shelf falls away in a 12’ cliff, with stairs carved down its northern edge.
-- **Noise:** a successful Listening throw here hears now and then the low scuffling and grunting of animals from the west (M2). (SOTN p. 101)
+- **Noise:** a successful Listening throw here hears now and then the low scuffling and grunting of animals from the west (M2). (SOTN p. 99)
 
 ### L20. Sub-Abyssal North Eastern Cave (2200 BE)
 - **Exits:** W the stairs up the cliff to L19; NE a heavy bronze door to N1 ([[Nethercity N - Sub-Abyssal Alchemic Laboratory]]).
@@ -183,7 +183,7 @@ Running: Sewer Caves column, dungeon level 2 — throw 1d6 every 3 turns, 6+, th
   > A triangular cave 45’ by 30’. Its western side is a 10’ cliff whose northern part is a curving staircase cut into the rock. A heavy bronze door is set in the north-east face. Along the south-east face lies a pool of dark water.
 - **Monster:** the pool is the white apes' main water. Each turn the party stays, throw 1d6: on **5+ three white apes** come to drink → [[Cave Gorilla]] (white apes): MV 40’ / 120’, AC 3, HD 4, hp 16 each, 2 claws 7+ (1d4/1d4) or thrown rock 7+ (1d6), Save F2, ML −1, AL N, XP 80 each. +1 on reaction rolls away from their den; pelts as in [[Nethercity Features]].
 - **Trick:** the bronze door is **permanently locked by magic** and radiates magic. It unlocks by itself when "approved personnel" come within 5’: any **elf showing a Chthonic holy symbol**, anyone wearing the **shadowcowl robe** (J14; [[SOTN Magic Items#Shadowcowl Robe]]) or an **iron mask** (J15; [[SOTN Magic Items#Iron Masks of Cyfaraun]]), or anyone bearing the **sword of command** (Q5; [[SOTN Magic Items#Sword of Command]]). Otherwise *knock* opens it for one turn (Judge's call: no ACKS II equivalent of *knock*) and [[Dispel Magic]] at caster level **11 or higher** unlocks it for good. Judge's call: as a magic-locked portal ([[Magic Lock]]) it can also be broken by force as a heavy bronze door (−4), the ACKS II remedy; SOTN offers only the two spells.
-- **Lore:** Caving, examining the pool: the water wells up from an underground spring; at this depth the caves may be near the water table. (SOTN pp. 101-102 [99-100])
+- **Lore:** Caving, examining the pool: the water wells up from an underground spring; at this depth the caves may be near the water table. (SOTN pp. 99-100)
 
 ## Treasure and XP summary
 | Room | Treasure | Value | Weight |
