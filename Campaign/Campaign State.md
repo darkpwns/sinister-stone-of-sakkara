@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 186
-  time: 08:20
+    day: 187
+  time: 07:55
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -24,38 +24,41 @@ public:
     conditions:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 9.319
+    encumbrance_st: 9.147
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
-    hp: 16
+    hp: 15
     hp_max: 16
     conditions:
     - one eye clawed out (-2 to missile attack throws)
-    spells_used:
-    - Cure Light Injury
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    spells_used: []
     encumbrance_st: 8.808
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
-    hp: 13
+    hp: 7
     hp_max: 13
     conditions:
     - raspy voice (-2 to speech throws)
     - minor scarring (fang marks on the neck)
     - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
     - one hand bitten off (cannot dual-wield or use two-handed weapons)
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 9.536
+    encumbrance_st: 9.202
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
     hp: 12
     hp_max: 12
-    conditions: []
+    conditions:
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 8.96
+    encumbrance_st: 8.793
   - name: Hesper
     sheet: Characters/hesper.json
     role: pc
@@ -70,15 +73,16 @@ public:
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used: []
+    spells_used:
+    - Mage Missile
   - name: Neris
     sheet: Characters/neris.json
     role: henchman
     hp: 4
     hp_max: 4
-    conditions: []
+    conditions:
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used:
-    - Cure Light Injury
     - Cure Light Injury
     encumbrance_st: 2.167
   - name: Ottar
@@ -86,10 +90,11 @@ public:
     role: henchman
     hp: 2
     hp_max: 2
-    conditions: []
+    conditions:
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 7
-  light: none
+    encumbrance_st: 6.667
+  light: torch (Ottar) 2 turns 5 rounds left; lantern (Vettius) 20 turns 5 rounds left
   rations: 'Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
@@ -114,7 +119,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 186
+clock_day: 187
 ---
 # Campaign State
 

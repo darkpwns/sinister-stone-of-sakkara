@@ -390,3 +390,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | sabina |
 | 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
 | 186 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 175-188 (2sp a stall a day) |  |  | 8gp 4sp | vettius |
+| 186 | Silk Pony Inn (#25) | beds for seven, night of day 186 |  |  | 1gp 4sp | lucilla |

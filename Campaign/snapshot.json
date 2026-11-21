@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795261055,
+ "generated": 1795261895,
  "date": {
   "year": "",
   "season": "fall",
-  "day": 186
+  "day": 187
  },
- "time": "08:20",
+ "time": "07:55",
  "weather": "Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -20,39 +20,40 @@
    "hp_max": 19,
    "conditions": [
     "lost an eye and an ear (half her face mauled)",
-    "minor scarring (fang mark on the hand)"
+    "minor scarring (fang mark on the hand)",
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.319
+   "encumbrance_st": 9.147
   },
   {
    "name": "Sabina",
    "sheet": "Characters/sabina.json",
    "role": "pc",
-   "hp": 16,
+   "hp": 15,
    "hp_max": 16,
    "conditions": [
-    "one eye clawed out (-2 to missile attack throws)"
+    "one eye clawed out (-2 to missile attack throws)",
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
    ],
-   "spells_used": [
-    "Cure Light Injury"
-   ],
+   "spells_used": [],
    "encumbrance_st": 8.808
   },
   {
    "name": "Tarq",
    "sheet": "Characters/tarq.json",
    "role": "pc",
-   "hp": 13,
+   "hp": 7,
    "hp_max": 13,
    "conditions": [
     "raspy voice (-2 to speech throws)",
     "minor scarring (fang marks on the neck)",
     "skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)",
-    "one hand bitten off (cannot dual-wield or use two-handed weapons)"
+    "one hand bitten off (cannot dual-wield or use two-handed weapons)",
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.536
+   "encumbrance_st": 9.202
   },
   {
    "name": "Vettius",
@@ -60,9 +61,11 @@
    "role": "pc",
    "hp": 12,
    "hp_max": 12,
-   "conditions": [],
+   "conditions": [
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
+   ],
    "spells_used": [],
-   "encumbrance_st": 8.96
+   "encumbrance_st": 8.793
   },
   {
    "name": "Hesper",
@@ -81,7 +84,9 @@
    "hp": 3,
    "hp_max": 3,
    "conditions": [],
-   "spells_used": []
+   "spells_used": [
+    "Mage Missile"
+   ]
   },
   {
    "name": "Neris",
@@ -89,9 +94,10 @@
    "role": "henchman",
    "hp": 4,
    "hp_max": 4,
-   "conditions": [],
+   "conditions": [
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
+   ],
    "spells_used": [
-    "Cure Light Injury",
     "Cure Light Injury"
    ],
    "encumbrance_st": 2.167
@@ -102,12 +108,14 @@
    "role": "henchman",
    "hp": 2,
    "hp_max": 2,
-   "conditions": [],
+   "conditions": [
+    "sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge"
+   ],
    "spells_used": [],
-   "encumbrance_st": 7
+   "encumbrance_st": 6.667
   }
  ],
- "light": "none",
+ "light": "torch (Ottar) 2 turns 5 rounds left; lantern (Vettius) 20 turns 5 rounds left",
  "rations": "Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
@@ -276,8 +284,8 @@
    },
    "gear": {
     "back": {
-     "item": "",
-     "items": 0,
+     "item": "Short Bow",
+     "items": 1,
      "stone": 0
     },
     "armor": {
@@ -317,12 +325,11 @@
     "backpack": {
      "contents": [
       "Dagger",
-      "Short Bow",
       "Waterskin ×5",
-      "arrow ×20",
+      "arrow ×19",
       "torch ×3"
      ],
-     "items": 11,
+     "items": 10,
      "stone": 0
     },
     "sack": {
@@ -371,7 +378,7 @@
       "medium": 150,
       "long": 300
      },
-     "held": "backpack"
+     "held": "back"
     },
     {
      "name": "Dagger",
@@ -544,8 +551,8 @@
      "stone": 4
     },
     "right_hand": {
-     "item": "Dagger",
-     "items": 1,
+     "item": "",
+     "items": 0,
      "stone": 0
     },
     "left_hand": {
@@ -577,7 +584,7 @@
      "contents": [
       "Ink (1 pint)",
       "Journal",
-      "Oil, Common (1 pint) ×3",
+      "Oil, Common (1 pint) ×2",
       "Quill, writing",
       "Rope, 50'",
       "Waterskin ×5",
@@ -585,12 +592,14 @@
       "collection of ancient coins",
       "torch ×6"
      ],
-     "items": 18,
+     "items": 17,
      "stone": 1
     },
     "sack": {
-     "contents": [],
-     "items": 0,
+     "contents": [
+      "Dagger"
+     ],
+     "items": 1,
      "stone": 0
     },
     "worn": {
@@ -608,11 +617,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 642,
-    "sp": 8,
+    "gp": 641,
+    "sp": 4,
     "cp": 2
    },
-   "encumbrance_st": 9.319,
+   "encumbrance_st": 9.147,
    "weapons": [
     {
      "name": "Dagger",
@@ -624,7 +633,7 @@
       "medium": 30,
       "long": 45
      },
-     "held": "right hand"
+     "held": "sack"
     }
    ],
    "treasure": [
@@ -1254,9 +1263,9 @@
     "backpack": {
      "contents": [
       "Waterskin ×5",
-      "torch ×12"
+      "torch ×10"
      ],
-     "items": 17,
+     "items": 15,
      "stone": 0
     },
     "sack": {
@@ -1279,7 +1288,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 7,
+   "encumbrance_st": 6.667,
    "weapons": [
     {
      "name": "Spear",
@@ -1873,10 +1882,8 @@
      "stone": 0
     },
     "backpack": {
-     "contents": [
-      "Oil, Military (1 pint) ×2"
-     ],
-     "items": 2,
+     "contents": [],
+     "items": 0,
      "stone": 0
     },
     "sack": {
@@ -1908,7 +1915,7 @@
     "sp": 0,
     "cp": 8
    },
-   "encumbrance_st": 9.536,
+   "encumbrance_st": 9.202,
    "weapons": [
     {
      "name": "Battle Axe",
@@ -2292,7 +2299,7 @@
      "stone": 2
     },
     "right_hand": {
-     "item": "Holy Symbol",
+     "item": "Short Sword",
      "items": 1,
      "stone": 0
     },
@@ -2325,10 +2332,9 @@
      "contents": [
       "Grappling Hook",
       "Hammer (small)",
+      "Holy Symbol",
       "Lantern",
-      "Oil, Common (1 pint)",
       "Rope, 50'",
-      "Short Sword",
       "Thieves' Tools",
       "Tinderbox (flint & steel)",
       "Waterskin ×5",
@@ -2337,7 +2343,7 @@
       "gold-painted key",
       "iron spike ×12"
      ],
-     "items": 16,
+     "items": 15,
      "stone": 2
     },
     "sack": {
@@ -2364,7 +2370,7 @@
     "sp": 2,
     "cp": 9
    },
-   "encumbrance_st": 8.96,
+   "encumbrance_st": 8.793,
    "weapons": [
     {
      "name": "Short Sword",
@@ -2376,7 +2382,7 @@
       "medium": 0,
       "long": 0
      },
-     "held": "backpack"
+     "held": "right hand"
     }
    ],
    "treasure": [
@@ -2550,214 +2556,391 @@
  ],
  "open_rolls": [
   {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
    "rolls": [
-    3
+    1
    ],
-   "total": 5
+   "total": 1
   },
   {
-   "label": "weather temperature (R07.04)",
-   "spec": "2d6",
+   "label": "init Neris",
+   "spec": "1d6",
    "rolls": [
-    6,
     6
-   ],
-   "total": 12
-  },
-  {
-   "label": "weather precipitation (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    3
    ],
    "total": 6
   },
   {
-   "label": "weather wind (R07.04)",
-   "spec": "2d6",
+   "label": "init Ottar",
+   "spec": "1d6",
    "rolls": [
-    4,
-    6
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Vettius vs the pale tentacled worm-thing 1",
+   "spec": "1d20+1",
+   "rolls": [
+    16
+   ],
+   "total": 17
+  },
+  {
+   "label": "damage to the pale tentacled worm-thing 1",
+   "spec": "1d6+1",
+   "rolls": [
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "attack Lucilla vs the pale tentacled worm-thing 1",
+   "spec": "1d20-1",
+   "rolls": [
+    7
+   ],
+   "total": 6
+  },
+  {
+   "label": "attack Hesper vs the pale tentacled worm-thing 1",
+   "spec": "1d20",
+   "rolls": [
+    10
    ],
    "total": 10
   },
   {
-   "label": "vettius natural healing",
-   "spec": "1d3",
+   "label": "Sabina surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Tarq surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Lucilla surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Vettius surprise",
+   "spec": "1d6",
    "rolls": [
     2
    ],
    "total": 2
   },
   {
-   "label": "weather temperature (R07.04)",
-   "spec": "2d6",
+   "label": "Hesper surprise",
+   "spec": "1d6",
    "rolls": [
-    3,
     4
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    6
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    5
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather temperature (R06.03)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    4
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather precipitation (R06.03)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    3
    ],
    "total": 4
   },
   {
-   "label": "weather wind (R06.03)",
-   "spec": "2d6",
+   "label": "Vestus the Unlikely surprise",
+   "spec": "1d6",
    "rolls": [
-    4,
-    6
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Neris surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Ottar surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "sabina death save",
+   "spec": "1d20+6",
+   "rolls": [
+    2
+   ],
+   "total": 8
+  },
+  {
+   "label": "tarq death save",
+   "spec": "1d20+5",
+   "rolls": [
+    5
    ],
    "total": 10
   },
   {
-   "label": "Tampering with Mortality vettius",
-   "spec": "1d20+6",
+   "label": "lucilla death save",
+   "spec": "1d20+4",
+   "rolls": [
+    8
+   ],
+   "total": 12
+  },
+  {
+   "label": "vettius death save",
+   "spec": "1d20+4",
+   "rolls": [
+    12
+   ],
+   "total": 16
+  },
+  {
+   "label": "hesper death save",
+   "spec": "1d20+4",
+   "rolls": [
+    9
+   ],
+   "total": 13
+  },
+  {
+   "label": "vestus-the-unlikely death save",
+   "spec": "1d20+4",
+   "rolls": [
+    14
+   ],
+   "total": 18
+  },
+  {
+   "label": "neris death save",
+   "spec": "1d20+4",
    "rolls": [
     5
+   ],
+   "total": 9
+  },
+  {
+   "label": "ottar death save",
+   "spec": "1d20+5",
+   "rolls": [
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "Sabina surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Tarq surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Lucilla surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Vettius surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Hesper surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Vestus the Unlikely surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Neris surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Ottar surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Sabina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Tarq",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Hesper",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Neris",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Ottar",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Tarq throws burning military oil at the swarm (11+, miasma -1)",
+   "spec": "1d20-1",
+   "rolls": [
+    19
+   ],
+   "total": 18
+  },
+  {
+   "label": "Vettius throws burning oil at the swarm (11+, DEX +1, miasma -1)",
+   "spec": "1d20",
+   "rolls": [
+    11
    ],
    "total": 11
   },
   {
-   "label": "Tampering with Mortality side effect vettius",
-   "spec": "1d6",
+   "label": "Lucilla throws burning oil at the swarm (11+, DEX +1, miasma -1)",
+   "spec": "1d20",
    "rolls": [
-    6
+    17
    ],
-   "total": 6
+   "total": 17
   },
   {
-   "label": "weather temperature (R06.03)",
-   "spec": "2d6",
+   "label": "init Sabina",
+   "spec": "1d6",
    "rolls": [
-    1,
-    2
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Tarq",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    3
    ],
    "total": 3
   },
   {
-   "label": "weather precipitation (R06.03)",
-   "spec": "2d6",
+   "label": "init Vettius",
+   "spec": "1d6",
    "rolls": [
-    2,
-    4
+    5
    ],
-   "total": 6
+   "total": 5
   },
   {
-   "label": "weather wind (R06.03)",
-   "spec": "2d6",
+   "label": "init Hesper",
+   "spec": "1d6",
    "rolls": [
-    6,
-    4
+    5
    ],
-   "total": 10
+   "total": 5
   },
   {
-   "label": "weather temperature (R05.02)",
-   "spec": "2d6",
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
    "rolls": [
-    2,
     4
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather precipitation (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    2
    ],
    "total": 4
   },
   {
-   "label": "search fee Priestess of level 2 (Class III)",
-   "spec": "1d8+5",
-   "rolls": [
-    2
-   ],
-   "total": 7
-  },
-  {
-   "label": "search fee Priestess of level 1 (Class III)",
-   "spec": "1d8+5",
-   "rolls": [
-    3
-   ],
-   "total": 8
-  },
-  {
-   "label": "vettius dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "tarq dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "lucilla dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "vettius dehydration CON",
+   "label": "init Neris",
    "spec": "1d6",
    "rolls": [
     2
@@ -2765,210 +2948,12 @@
    "total": 2
   },
   {
-   "label": "hesper dehydration CON",
+   "label": "init Ottar",
    "spec": "1d6",
    "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "vestus-the-unlikely dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "weather temperature (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    6
-   ],
-   "total": 12
-  },
-  {
-   "label": "weather wind (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    1
-   ],
-   "total": 6
-  },
-  {
-   "label": "search fee 0th level (Class III)",
-   "spec": "1d8+5",
-   "rolls": [
-    7
-   ],
-   "total": 12
-  },
-  {
-   "label": "search fee Fighter of level 2 (Class III)",
-   "spec": "1d8+5",
-   "rolls": [
-    2
-   ],
-   "total": 7
-  },
-  {
-   "label": "search fee Fighter of level 1 (Class III)",
-   "spec": "1d8+5",
-   "rolls": [
-    2
-   ],
-   "total": 7
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
     3
    ],
    "total": 3
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "vettius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Neris Cure Light Injury on Vettius",
-   "spec": "1d6+1",
-   "rolls": [
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "Neris Cure Light Injury on Vettius",
-   "spec": "1d6+1",
-   "rolls": [
-    5
-   ],
-   "total": 6
-  },
-  {
-   "label": "Sabina Cure Light Injury on Vettius",
-   "spec": "1d6+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "weather temperature (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    6
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather precipitation (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    3
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    5
-   ],
-   "total": 6
   }
  ],
  "rumours_heard": [
