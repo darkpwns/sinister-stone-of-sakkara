@@ -726,3 +726,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | marcellus |
 | 211 | gnaeus (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
 | 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | gnaeus |
+| 211 | Silk Pony Inn (#25) | beds for thirteen, night of day 211 (Nysa gone; Lucilla's bed prepaid one night on day 210) |  |  | 2gp 6sp | lucilla |

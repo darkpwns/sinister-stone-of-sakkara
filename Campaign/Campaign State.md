@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 211
-  time: '14:07'
+    day: 212
+  time: 06:07
   weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; drizzle; wind strong (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 8.721
+    encumbrance_st: 8.722
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -41,16 +41,14 @@ public:
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used:
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Cure Light Injury
+    spells_used: []
     encumbrance_st: 2.803
   - name: Ottar
     sheet: Characters/ottar.json
@@ -85,8 +83,7 @@ public:
     hp: 5
     hp_max: 5
     conditions: []
-    spells_used:
-    - Slumber
+    spells_used: []
     encumbrance_st: 1.503
   - name: Quirinus
     sheet: Characters/quirinus.json
@@ -169,7 +166,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 211
+clock_day: 212
 ---
 # Campaign State
 
