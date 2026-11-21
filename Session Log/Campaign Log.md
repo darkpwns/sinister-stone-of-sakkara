@@ -15,3 +15,4 @@ tags:
 - [[S04 — The ogre's secret]]
 - [[S05 — The sleeping dragon]]
 - [[S06 — The Lady Below]]
+- [[S07 — The Lady falls]]

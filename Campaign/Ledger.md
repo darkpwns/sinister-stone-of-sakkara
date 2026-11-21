@@ -327,3 +327,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 138 | the retinue | wages paid |  |  | 25gp | aulus |
 | 138 | the retinue | wages paid |  |  | 25gp | marcia |
 | 138 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 146 |  | treasure share |  | 400gp |  | sabina |
+| 146 |  | treasure share |  | 400gp |  | tarq |
+| 146 |  | treasure share |  | 400gp |  | lucilla |
+| 146 |  | treasure share |  | 400gp |  | vettius |
+| 146 |  | treasure share |  | 200gp |  | vestus-the-unlikely |
+| 146 |  | treasure share |  | 200gp |  | hesper |
+| 161 | the retinue | wages paid |  |  | 12gp | lucilla |

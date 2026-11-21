@@ -46,3 +46,12 @@ intended: use mules, porters, wagons. `min_version` in the instance is 7.13.0.
 - The first playing of rounds 9+ (surrender, legate's reward, 10,000 Fragment XP, Tarq's death) is void; its rolls stay in the roll log (judge-notes).
 - Party agent not used after S06 step 4 (user: Judge plays the party by the profiles and heuristics; no table talk).
 - Helpers: tools/fight.py (melee driver with latch and first strike) and tools/day.sh.
+
+## S07 end (2026-11-21)
+- Day 161, 06:00, Türos Tem, all healed. **The Lady is dead and the Stone destroyed** (day 142); the legate paid; the Fragments went to Genelen (Mityara's order). The adventure's goal is done; the test continues until a TPK.
+- Party: Sabina Cru4 (one eye), Tarq Bar3 (one hand: no two-handed weapons; -10% XP; raspy voice), Lucilla Ven4 (Ring of Fire Protection unidentified, L63), Vettius Thf4 (Deciphering now; carries L47 Death Drinker, L58 sword +1, L31 temple map, L45 scroll, the Lady's unholy symbol), Vestus M1 (3 hp max), Hesper F2 (camp keeper), Zaira ES1 (one leg; stays in town). Genelen is an NPC actor (Actors/npc/priestess-genelen), in the exploration party; she is back at her hospital (remove her with `party remove` before the next march unless she comes).
+- **Owed next chat:** two new 1st-level PCs to replace Aulus (Gideon) and Marcia (Priya), built with `acks chargen` (R/characters.md); new henchmen for Tarq/Aulus' successors (recruit). Wages: Vestus and Zaira due day 174, Hesper day 182.
+- L2 left: bodies of Aulus, Marcia, Thorwell, Quintus and the Lady (plate +1) in 38 with their gear (`body:` holders); 5 skeletons + 13 zombies at their posts (34, 35, 23); 9 catechists in 22; the Lady's chest (39), Black Fang chest (9, Ur-Shet now Indifferent), Red Eye loot (15), abominations and their nest loot (19), bone lair wand (37), Drusus (L1 17, 750gp bounty). No more replacements (the Lady and the Stone are gone).
+- Adventure A8 paid. Open the next adventure before any delve.
+- Helpers this chat (scratchpad, not kept): und2.py (undead driver with per-undead target lists; resolve cleaves). The Lady's arcane strike and weapon-focus doubling were done by hand (`damage --dice 1d1 --mod`).
+- Engine 7.13.3 on claude/eager-turing-48ne25; min_version 7.13.3.

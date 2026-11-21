@@ -51,3 +51,16 @@ Hobgoblin patrol (Friendly) and orcs (Neutral) passed. The Black Fangs (Ur-Shet 
 
 ## Engine fixes in S06 (7.13.1)
 Shares-only henchmen are never owed a wage; camp no longer re-applies sweltering heat saves to members out of armor; members packed on one animal drink from the group's shared water; `death --dies` marks the travel member dead; party.py's information wall counts rumours heard as player-facing.
+
+## Downtime 8 (days 138-139)
+Socolo identified the ward scroll and the philter (common items only); Priestess Genelen, told of the Stone, joined to destroy it herself (Priestess 6, new NPC actor). The market had only six weeks of rations and three flasks of military oil for the month, no holy water. Zaira (one leg) stays at the inn. Wages for Quintus, Vestus and Zaira paid ahead.
+
+## Delve 8 (days 139-146)
+Three slow days to the temple (mud, an overloaded venturer); food stretched with smoked pork from the Lady's store room (L2 12). Ur-Shet, offered coin to march on his mistress, cooled to Indifferent. Vettius' sneak failed but the Lady never saw him; the party, blessed by Genelen, met her alone in the Inner Fane. She charmed Aulus, cut down Tarq with a doubled natural 20 and arcane strike, then Quintus, Thorwell and Sabina; Tarq (cured by Genelen) dropped her and Vettius finished her with a coup de grace in round 5. Her 10 skeletons and 8 zombies arrived in round 4: Marcia's Fan of Flames burned five skeletons, then Marcia and the paralyzed Aulus were hacked apart outside Genelen's Holy Circle. A moving Holy Circle, Sustained let the survivors treat the fallen (Sabina saved; Thorwell and Quintus killed on the Mortal Wounds table) and walk out. Genelen shattered the Stone at the stream camp (Death save made); the Fragments went to Mityara's order. Lost on the way home for a day.
+Dead: Aulus (PC), Marcia (PC), Thorwell, Quintus. Bodies and their gear left in the Inner Fane.
+
+## Downtime 9 (days 146-161)
+The legate (Neutral, Genelen vouching) paid the 2,000gp reward. Payout: 2,065 treasure + 725 monster + 10,000 Fragments XP over 5 shares; Sabina Cru4, Tarq Bar3 (-10% XP, skull wound; one hand), Lucilla Ven4, Vettius Thf4, Hesper F2. Fourteen days' bed rest under Genelen: all healed. Hesper's wage missed on day 152 (Fanatic Loyalty roll), paid late.
+
+## Engine fixes in S07 (7.13.2-7.13.3)
+`death --dies` takes a henchman out of the retinue; `state set` honours `--hp` and `--set` (silently ignored before: a cure and the Lady's settings had not been applied).

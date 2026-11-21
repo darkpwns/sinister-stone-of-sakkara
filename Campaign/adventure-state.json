@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 8,
-  "L": 66,
+  "L": 67,
   "H": 0,
   "M": 24
  },
@@ -34,11 +34,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3784,
     "level_before": 3,
-    "class": "Crusader"
+    "class": "Crusader",
+    "xp_award": 2814
    },
    "tarq": {
     "id": "tarq",
@@ -48,11 +49,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3439,
     "level_before": 2,
-    "class": "Barbarian"
+    "class": "Barbarian",
+    "xp_award": 2558
    },
    "lucilla": {
     "id": "lucilla",
@@ -62,11 +64,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3784,
     "level_before": 3,
-    "class": "Venturer"
+    "class": "Venturer",
+    "xp_award": 2814
    },
    "vettius": {
     "id": "vettius",
@@ -76,11 +79,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3610,
     "level_before": 3,
-    "class": "Thief"
+    "class": "Thief",
+    "xp_award": 2686
    },
    "marcia": {
     "id": "marcia",
@@ -135,11 +139,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 216,
     "level_before": 1,
-    "class": "Mage"
+    "class": "Mage",
+    "xp_award": 1343
    },
    "hesper": {
     "id": "hesper",
@@ -149,11 +154,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1610,
     "level_before": 1,
-    "class": "Fighter"
+    "class": "Fighter",
+    "xp_award": 1279
    }
   },
   "monsters": [
@@ -175,8 +181,108 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 146,
+   "at": null,
+   "total": 12790.0,
+   "per_share": 2558.0,
+   "awards": {
+    "aulus": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "sabina": {
+     "share": 1.0,
+     "why": null,
+     "base": 2558,
+     "pct": 10,
+     "pen": 0,
+     "award": 2814,
+     "xp_before": 3784,
+     "xp_after": 6598,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "tarq": {
+     "share": 1.0,
+     "why": null,
+     "base": 2558,
+     "pct": 0,
+     "pen": 0,
+     "award": 2558,
+     "xp_before": 3439,
+     "xp_after": 5997,
+     "capped": null,
+     "zero": false,
+     "level_up": 3
+    },
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 2558,
+     "pct": 10,
+     "pen": 0,
+     "award": 2814,
+     "xp_before": 3784,
+     "xp_after": 6598,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 2558,
+     "pct": 5,
+     "pen": 0,
+     "award": 2686,
+     "xp_before": 3610,
+     "xp_after": 6296,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "marcia": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "thorwell": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "quintus-the-rager": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "vestus-the-unlikely": {
+     "share": 0.5,
+     "why": null,
+     "base": 1279,
+     "pct": 5,
+     "pen": 0,
+     "award": 1343,
+     "xp_before": 216,
+     "xp_after": 1559,
+     "capped": null,
+     "zero": false
+    },
+    "hesper": {
+     "share": 0.5,
+     "why": null,
+     "base": 1279,
+     "pct": 0,
+     "pen": 0,
+     "award": 1279,
+     "xp_before": 1610,
+     "xp_after": 2889,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -4896,15 +5002,16 @@
     "arms_type": "Great Axe",
     "name": "Great Axe +1",
     "note": null,
-    "apparent_gp": null,
+    "apparent_gp": 25.0,
     "apparent_text": null,
     "generic": true,
-    "stone": 0.16666666666666666
+    "stone": 0.16666666666666666,
+    "apparent_set_by": "Judge"
    },
    "player": {
     "desc": "a great axe with a hepatizon crescent blade",
     "value_gp": null,
-    "apparent_gp": null,
+    "apparent_gp": 25.0,
     "magical": true,
     "known": []
    },
@@ -4962,8 +5069,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.05,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "left",
    "found": {
     "day": 142,
     "where": "the shattered Stone, camp 10.07"
@@ -4995,8 +5102,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.05,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "left",
    "found": {
     "day": 142,
     "where": "the shattered Stone, camp 10.07"
@@ -5028,8 +5135,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.05,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "left",
    "found": {
     "day": 142,
     "where": "the shattered Stone, camp 10.07"
@@ -5054,6 +5161,39 @@
    "used": true,
    "sold": null,
    "judge": []
+  },
+  "L67": {
+   "id": "L67",
+   "adventure": "A8",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "lucilla",
+   "status": "divided",
+   "found": {
+    "day": 146,
+    "where": "Legate Valerian, Türos Tem"
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0,
+    "name": "reward 2000.0gp"
+   },
+   "player": {
+    "desc": "reward of 2000.0gp",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 146
   }
  },
  "hoards": {},
