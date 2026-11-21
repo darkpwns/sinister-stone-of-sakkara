@@ -38,7 +38,7 @@ Running: wandering monsters on the **Temple / Tomb** column, `level: 4` (`Tables
 | G25 | faewyrd in the walls | 4 | [[Lesser Faewyrd (SOTN)]] |
 
 Statlines used more than once:
-- **Faewyrd** → [[Lesser Faewyrd (SOTN)]]: MV 40’ / 120’, AC 5, HD 4**, chilling touch 7+, D 1d4 + 1 WIS drained for 8 turns (WIS 2: catatonic; 0: dead), Save E4, ML +4, AL C, XP 190 (SOTN's room lines print HD 4*; its appendix and XP are 4**). Dark whispers audible at 5’ (save vs Death each round at the start of its initiative, or maddened). Incorporeal: passes through non-magical matter; harmed only by silver weapons (half damage), magic weapons, spells and incorporeal creatures; immune to sleep, bewitch, halt and poison; rebuked as wights.
+- **Faewyrd** → [[Lesser Faewyrd (SOTN)]]: MV 40’ / 120’, AC 5, HD 4***, chilling touch 7+, D 1d4 + 1 WIS drained for 8 turns (WIS 2: catatonic; 0: dead), Save E4, ML +4, AL C, XP 245 (ACKS II 4***, see its note; SOTN's room lines print HD 4*, its appendix 4** and XP 190). Dark whispers audible at 5’ (save vs Death each round at the start of its initiative, or maddened). Incorporeal: passes through non-magical matter; harmed only by silver weapons (half damage), magic weapons, spells and incorporeal creatures; immune to sleep, bewitch, halt and poison; rebuked as wights.
 - **Mummies of this temple** (c. 2500-2200 BE: half or two-thirds of their living HD and class abilities, [[Nethercity Features#Necromancy and the mummies]]) start from the [[Mummy]]: horrific visage (Paralysis save at first sight and each later round of looking, −1 per extra mummy; fail: cower until next round; SOTN's "fearsome visage, paralyzed"), slam 1d12 + mummy rot (1 necrotic damage each dusk, no magical healing; cure disease cures), the MM's immunities and resistances by damage type, rebuked as mummies. Each woke when its tomb's slab door was disturbed (attempt count: [[Nethercity Features#Doors]]); a woken mummy that parleys, flees or is spared rolls on `Tables/sotn-mummy-reaction.yaml`.
 
 ## Factions
@@ -75,7 +75,7 @@ A long colonnaded corridor, G2a to the south and G2b to the north (SOTN p. 52).
 - > [!player]
   > The 20’ corridor runs on between ten tree-carved columns over 60’, ceiling 20’ up; white-flecked black marble walls, black marble floor. South, the corridor goes on into darkness; north, a marble-framed arch leads deeper in. Halfway along the colonnade, five figures in dark robes kneel at prayer.
 - **Monster:** the five are **faewyrd**. Anyone entering this northern half **without having washed at the font G4** makes them rise from prayer and attack. Purified characters pass unmolested.
-  - **5 faewyrd** → [[Lesser Faewyrd (SOTN)]]: MV 40’ / 120’, AC 5, HD 4**, hp 21, 20, 19, 18, 16, chilling touch 7+, D 1d4 + WIS drain, Save E4, ML +4, AL C, XP 190 each. Dark whispers within 5’ (−1 to the save per extra faewyrd heard: up to −4 here). SOTN's line here omits their immunity to ordinary weapons; the appendix gives it (applied).
+  - **5 faewyrd** → [[Lesser Faewyrd (SOTN)]]: MV 40’ / 120’, AC 5, HD 4***, hp 21, 20, 19, 18, 16, chilling touch 7+, D 1d4 + WIS drain, Save E4, ML +4, AL C, XP 245 each (SOTN 4**, 190). Dark whispers within 5’ (−1 to the save per extra faewyrd heard: up to −4 here). SOTN's line here omits their immunity to ordinary weapons; the appendix gives it (applied).
 - **Noise:** a Listening throw in G2b hears their whispers: save vs Death or maddened.
 
 ### G3. Grand Chthonic Narthex (2500 BE)
@@ -276,7 +276,7 @@ An L-shaped burial gallery: G15a south-north, G15b east-west (SOTN p. 59).
 - > [!player]
   > A 20’ × 15’ vault lined with black marble panels, stacked with four massive cedar chests shut with heavy bronze locks. At each side of the vault a bronze cobra statue rears as if to strike.
 - **Monster:** the statues are **bronze mechanical cobras**; they attack anyone except **elves showing Chthonic holy symbols**.
-  - **2 bronze mechanical cobras** → [[Mechanical Cobra (SOTN)]]: MV 40’ / 120’, AC 6, HD 2**, hp 11 each, bite 9+, D 1d2 + paralytic poison (save vs Death or paralysed 3d6 turns; SOTN's save vs Poison; 5 doses each), Save F2, ML n/a, AL N, XP 38 each.
+  - **2 bronze mechanical cobras** → [[Mechanical Cobra (SOTN)]]: MV 40’ / 120’, AC 6, HD 2*, hp 11 each, bite 9+, D 1d2 + paralytic poison (save vs Death or paralysed 3d6 turns; SOTN's save vs Poison; 5 doses each), Save F2, ML n/a, AL N, XP 29 each (ACKS II 2*: construct immunities come with the type; SOTN 2**, 38).
 - **Trap:** opening the door from G20 starts a clockwork countdown: **one turn later** two scything blades swing out of a gap in the south wall's panels, sweeping left and right across the room 4’ above the floor, and sheathe in the side walls. Everyone in the room saves vs **Blast** or takes **1d10** from a blade; a creature paralysed by the cobras fails automatically and takes **double**; a creature brought to 0 hp by the trap is **beheaded** and dies. Found with a Searching throw (traps), disarmed with a Trapbreaking throw ([[Traps and Trapbreaking]]).
 - **Loot:** the silver key (G6e) opens the chests: **6,000sp**, **6,000sp**, **6,000ep**, **6,000gp**. Tally: 10,200gp, 24 st.
 
@@ -306,7 +306,7 @@ An L-shaped burial gallery: G15a south-north, G15b east-west (SOTN p. 59).
 - > [!player]
   > A 45’ × 35’ room, 15’ ceiling, white-flecked black marble walls, a marble floor painted with red and black shapes. On the east wall, a sinister painted sign: a snake looped in a figure-eight swallowing its tail. Eight old sleeping couches stand along the walls, a cedar trunk at the foot of each; on four of them lie crumbling skeletons in rotting grey robes. A cedar door leads south, an arch north.
 - **Monster:** **4 faewyrd** lurk unseen in the walls of their old home and come out if living creatures stay in the dormitory **more than one round**. Purified characters are not attacked unless the faewyrd's remains (the skeletons) are disturbed.
-  - **4 faewyrd** → [[Lesser Faewyrd (SOTN)]]: MV 40’ / 120’, AC 5, HD 4**, hp 21, 20, 19, 17, chilling touch 7+, D 1d4 + WIS drain, Save E4, ML +4, AL C, XP 190 each (SOTN prints 4*). Dark whispers within 5’; incorporeal.
+  - **4 faewyrd** → [[Lesser Faewyrd (SOTN)]]: MV 40’ / 120’, AC 5, HD 4***, hp 21, 20, 19, 17, chilling touch 7+, D 1d4 + WIS drain, Save E4, ML +4, AL C, XP 245 each (SOTN prints 4*, appendix 4** and 190). Dark whispers within 5’; incorporeal.
 - **Loot:** each of the eight trunks holds a holy symbol of Iskara (**25gp**) and four rotten grey priest's robes. Tally: 200gp (weight not given).
 - **Lore:** Loremastery or Theology throw: Iskara's symbol as **Empress of Eternity**.
 
@@ -342,4 +342,4 @@ An L-shaped burial gallery: G15a south-north, G15b east-west (SOTN p. 59).
 
 Not in the tallies: magic items and spellbooks (value only when sold; spellbook weights are counted in G9 and G11); salvage of destroyed statues (G14 bronze 4 × 1,200gp, 12 st; G16 gold and ivory 3,000gp, 12 st; G6a Judge's call); the G13 skeletons' arms; the font G4 (a fixture).
 
-Monster XP (ACKS II): G2b 5 × 190 = 950; G6e 2,100; G9 1,280; G10 12 × 47 + 12 × 135 = 2,184; G12 1,280 + 8 × 10 = 1,360; G13 24 × 47 = 1,128; G14 1,600 + 4 × 350 = 3,000; G16 1,100; G18 350; G21 2 × 38 = 76; G25 4 × 190 = 760. **Total 14,288 XP.**
+Monster XP (ACKS II): G2b 5 × 245 = 1,225; G6e 2,100; G9 1,280; G10 12 × 47 + 12 × 135 = 2,184; G12 1,280 + 8 × 10 = 1,360; G13 24 × 47 = 1,128; G14 1,600 + 4 × 350 = 3,000; G16 1,100; G18 350; G21 2 × 29 = 58; G25 4 × 245 = 980. **Total 14,765 XP.**

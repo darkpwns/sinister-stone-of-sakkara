@@ -95,7 +95,7 @@ No intelligent faction holds K. The troglodytes and apes do not come here; wande
 - > [!player]
   > A 60’ by 40’ chamber floored with an inch of brown sand, streaked with great dark-brown stains. Low stone benches run the length of the north wall, their red and black cushions rotted away. On the west wall a mosaic shows gladiators fighting under the gaze of a six-armed demonic warrior; on the east wall the dead are carried off while the living celebrate.
   > As you enter, a ghostly shape forms in the middle of the sand: a lizardman in bronze armour with a double-bladed axe, its body torn open by terrible wounds.
-- **Monster:** **flailing spirit** → [[Flailing Spirit (SOTN)]] (SOTN p. 143): MV fly 80’ / 240’, AC 8, HD 7**, hp 35, 4 touches 4+, D 1d6 + energy drain (SOTN: 1d6 × 1,000 XP; the bestiary note gives the ACKS II reading, enervation), Save F6, ML +4, AL C, XP 1,140 (SOTN prints 1,300). Immune to mundane weapons and cold; undead immunities. It haunts the arena and attacks at once.
+- **Monster:** **flailing spirit** → [[Flailing Spirit (SOTN)]] (SOTN p. 143): MV fly 80’ / 240’, AC 8, HD 7****, hp 35, 4 touches 4+, D 1d6 + energy drain (SOTN: 1d6 × 1,000 XP; the bestiary note gives the ACKS II reading, enervation), Save F6, ML +4, AL C, XP 1,840 (ACKS II 7****, see its note; SOTN prints 7** and 1,300). Immune to mundane weapons and cold; undead immunities. It haunts the arena and attacks at once.
 - **Lore:** Loremastery or Theology: the six-armed figure is **Bel**, the Slaughterprince, Chthonic god of war. (SOTN p. 93)
 
 ### K10. Hallowed Hall Gladiator's Armory (2000 BE)
@@ -137,4 +137,4 @@ No intelligent faction holds K. The troglodytes and apes do not come here; wande
 | **Area K** | | **43,688gp** (40,000gp keyed + 2,688gp graves) | ~74 st |
 
 - Magic items (value excluded from tallies): K6 [[SOTN Magic Items#Sword of Valor]] (Ardghal, apparent 650gp); K6 long bow +1 (apparent 650gp); K6 elven cloak and boots → [[Cloak of the Elven Ranger]], [[Boots of the Elven Ranger]] (apparent 150gp); K6 [[SOTN Magic Items#Horn of the Eagles]] (apparent 750gp).
-- Monster XP: K4 4 × 1,600 = 6,400; K9 1,140 (SOTN 1,300). Area total **7,540 XP** (wanderers extra).
+- Monster XP: K4 4 × 1,600 = 6,400; K9 1,840 (SOTN 1,300). Area total **8,240 XP** (wanderers extra).

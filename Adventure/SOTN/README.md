@@ -32,12 +32,12 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
 - [x] Tables: 4 wandering columns (2d10), unsettling events, mummy reaction, 5 wall-grave tables — PDF 16-22
 - Areas (PDF 26-130):
   - [x] A, B, C (PDF 26-35): A1-A4, B1-B5, C1-C12; A 30 gp / 517 XP, B 3,603 gp / 1,050 XP, C 5,545 gp / 3,388 XP
-  - [x] D, E (PDF 35-44): D1-D9, E1-E9 with sub-keys; D 11,216 gp / 1,974 XP, E 6,616 gp / 3,680 XP
+  - [x] D, E (PDF 35-44): D1-D9, E1-E9 with sub-keys; D 11,216 gp / 1,864 XP, E 6,616 gp / 3,680 XP
   - [x] F (PDF 45-53): F1-F19 (+F11a-c); 18,290 gp, 6,759 XP
-  - [x] G (PDF 53-65): G1-G27 with sub-keys; 70,195 gp / 14,288 XP
+  - [x] G (PDF 53-65): G1-G27 with sub-keys; 70,195 gp / 14,765 XP
   - [x] H (PDF 65-79): H1-H26 with sub-keys; 32,550 gp + ~2,232 gp graves / 9,963 XP (+ up to 6,240 for the 480 H14 skeletons)
-  - [x] I, J (PDF 79-92): I1-I14, J1-J15; I 13,172 gp as printed (9,497 corrected) / 3,725 XP, J 24,300 gp / 6,714 XP
-  - [x] K, L (PDF 92-102): K1-K12, L1-L20; K 43,688 gp / 7,540 XP, L 3,789 gp / 4,504 XP
+  - [x] I, J (PDF 79-92): I1-I14, J1-J15; I 13,172 gp as printed (9,497 corrected) / 3,725 XP, J 24,300 gp / 6,604 XP
+  - [x] K, L (PDF 92-102): K1-K12, L1-L20; K 43,688 gp / 8,240 XP, L 3,789 gp / 4,504 XP
   - [x] M, N (PDF 102-113): M1-M22, N1-N13; M 37,290 gp / 4,840 XP, N 79,850 gp / 3,800 XP
   - [ ] O, P, Q (PDF 113-125)
   - [x] R, S, T (PDF 125-130): R1-R4, S1-S4, T1-T2; R 15,500 gp / 9,344 XP, S 23,625 gp / 10,630 XP, T 15,000 gp / 5,000 XP
