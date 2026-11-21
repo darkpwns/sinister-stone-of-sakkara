@@ -296,6 +296,24 @@
    "name": "ground:nethercity-a4",
    "actor": null,
    "status": "active"
+  },
+  "varro": {
+   "kind": "henchman",
+   "name": "Varro",
+   "actor": "varro",
+   "status": "active"
+  },
+  "hrodvar": {
+   "kind": "henchman",
+   "name": "Hrodvar",
+   "actor": "hrodvar",
+   "status": "active"
+  },
+  "septima": {
+   "kind": "henchman",
+   "name": "Septima",
+   "actor": "septima",
+   "status": "active"
   }
  },
  "custom": {
@@ -23256,6 +23274,1101 @@
    "price_cp": 960,
    "cmd": "inv pay",
    "n": 931
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -12
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 1200,
+   "cmd": "inv pay",
+   "n": 932
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -25
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2500,
+   "cmd": "inv wages",
+   "n": 933
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "iulia",
+     "gp": -25
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2500,
+   "cmd": "inv wages",
+   "n": 934
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -25
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2500,
+   "cmd": "inv wages",
+   "n": 935
+  },
+  {
+   "op": "pay",
+   "cause": "signing bonus, a month's wage",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -25
+    }
+   ],
+   "to": "septima",
+   "price_cp": 2500,
+   "cmd": "inv pay",
+   "n": 936
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "chain mail armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 937
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "#w38",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w38",
+     "key": "sword",
+     "row": "Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 4,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Judge's choice by class)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 938
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "#w39",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w39",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Judge's choice by class)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 939
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 940
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 941
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "chain mail armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 942
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "#w40",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w40",
+     "key": "mace",
+     "row": "Mace",
+     "table": "weapons-bludgeons",
+     "table_row": 2,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "bludgeoning"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Judge's choice by class)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     }
+    }
+   ],
+   "n": 943
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "#w41",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w41",
+     "key": "hand axe",
+     "row": "Hand Axe",
+     "table": "weapons-axes",
+     "table_row": 2,
+     "type": "Small Melee/Missile",
+     "size": "Small",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "slashing"
+     ],
+     "special": [
+      "Thrown"
+     ],
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Judge's choice by class)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-axes",
+        "row": 2
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-axes",
+        "row": 2
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-axes",
+        "row": 2
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-axes",
+        "row": 2
+       }
+      }
+     }
+    }
+   ],
+   "n": 944
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 945
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 946
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 947
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "#w42",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w42",
+     "key": "short bow",
+     "row": "Short Bow",
+     "table": "weapons-bows-crossbows",
+     "table_row": 5,
+     "type": "Missile",
+     "size": null,
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [],
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Judge's choice by class)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     }
+    }
+   ],
+   "n": 948
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "#w43",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w43",
+     "key": "short sword",
+     "row": "Short Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 3,
+     "type": "Small Melee",
+     "size": "Small",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Judge's choice by class)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     }
+    }
+   ],
+   "n": 949
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 950
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 951
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 952
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 953
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 954
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun (Lucilla's Mercantile Network: class II)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 4,
+     "gp": -4
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Oil, Military (1 pint)",
+   "packs": 2,
+   "price_cp": 360,
+   "cmd": "inv buy",
+   "n": 955
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun (Lucilla's Mercantile Network: class II)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "iulia",
+     "sp": -6,
+     "gp": -3
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Oil, Military (1 pint)",
+   "packs": 2,
+   "price_cp": 360,
+   "cmd": "inv buy",
+   "n": 956
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun (Lucilla's Mercantile Network: class II)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -6,
+     "gp": -3
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Oil, Military (1 pint)",
+   "packs": 2,
+   "price_cp": 360,
+   "cmd": "inv buy",
+   "n": 957
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun (Lucilla's Mercantile Network: class II)",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 8,
+     "sp": 2,
+     "gp": -1
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Tinderbox (flint & steel)",
+   "packs": 1,
+   "price_cp": 72,
+   "cmd": "inv buy",
+   "n": 958
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": -9
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Torches (6)",
+   "packs": 1,
+   "price_cp": 9,
+   "cmd": "inv buy",
+   "n": 959
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 1,
+     "sp": -1
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Torches (6)",
+   "packs": 1,
+   "price_cp": 9,
+   "cmd": "inv buy",
+   "n": 960
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 961
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "iulia",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 962
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": 6,
+     "gp": -6
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 963
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to varro: 7 days of iron rations; supplies: lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; vestus-the-unlikely food 19 d, water 1 d, firewood 0 st; neris food 7 d, water 1 d, firewood 0 st; ottar food 7 d, water 1 d, firewood 0 st; brennus food 14 d, water 0.2 d, firewood 0 st; iulia food 14 d, water 0.2 d, firewood 0 st; quirinus food 7 d, water 0 d, firewood 0 st; phaedra food 7 d, water 0 d, firewood 0 st; varro food 7 d, water 0 d, firewood 0 st; hrodvar food 0 d, water 0 d, firewood 0 st; septima food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "varro",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 964
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to hrodvar: 7 days of iron rations; supplies: lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; vestus-the-unlikely food 19 d, water 1 d, firewood 0 st; neris food 7 d, water 1 d, firewood 0 st; ottar food 7 d, water 1 d, firewood 0 st; brennus food 14 d, water 0.2 d, firewood 0 st; iulia food 14 d, water 0.2 d, firewood 0 st; quirinus food 7 d, water 0 d, firewood 0 st; phaedra food 7 d, water 0 d, firewood 0 st; varro food 7 d, water 0 d, firewood 0 st; hrodvar food 7 d, water 0 d, firewood 0 st; septima food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "hrodvar",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 965
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to septima: 7 days of iron rations; supplies: lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; vestus-the-unlikely food 19 d, water 1 d, firewood 0 st; neris food 7 d, water 1 d, firewood 0 st; ottar food 7 d, water 1 d, firewood 0 st; brennus food 14 d, water 0.2 d, firewood 0 st; iulia food 14 d, water 0.2 d, firewood 0 st; quirinus food 7 d, water 0 d, firewood 0 st; phaedra food 7 d, water 0 d, firewood 0 st; varro food 7 d, water 0 d, firewood 0 st; hrodvar food 7 d, water 0 d, firewood 0 st; septima food 7 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 197,
+   "time": "day 197 07:15",
+   "deltas": [
+    {
+     "who": "septima",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 966
+  },
+  {
+   "op": "pay",
+   "cause": "beds for twelve, night of day 197",
+   "day": 197,
+   "time": "day 197 18:15",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -3
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 240,
+   "cmd": "inv pay",
+   "n": 967
   }
  ],
  "holdings": {
@@ -23532,7 +24645,7 @@
    },
    "backpack": {
     "waterskin": 5,
-    "torch": 2
+    "torch": 8
    },
    "left_hand": {
     "shield": 1
@@ -23662,20 +24775,78 @@
    "right_hand": {
     "#w37": 1
    }
+  },
+  "varro": {
+   "armor": {
+    "chain mail armor": 1
+   },
+   "belt": {
+    "#w38": 1,
+    "#w39": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 2,
+    "oil, military (1 pint)": 2
+   },
+   "left_hand": {
+    "shield": 1
+   }
+  },
+  "hrodvar": {
+   "armor": {
+    "chain mail armor": 1
+   },
+   "belt": {
+    "#w40": 1,
+    "#w41": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 2,
+    "oil, military (1 pint)": 2
+   },
+   "left_hand": {
+    "shield": 1
+   }
+  },
+  "septima": {
+   "armor": {
+    "leather armor": 1
+   },
+   "belt": {
+    "#w42": 1,
+    "#w43": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "arrow": 20,
+    "waterskin": 2,
+    "oil, military (1 pint)": 2,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 522,
-   "sp": 3
+   "gp": 473,
+   "sp": 8,
+   "cp": 1
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 456,
-   "sp": 6,
-   "cp": 9
+   "gp": 396,
+   "sp": 8,
+   "cp": 8
   },
   "durio": {
    "gp": 514,
@@ -23745,8 +24916,8 @@
    "sp": 8
   },
   "iulia": {
-   "sp": 31,
-   "gp": 109
+   "sp": 21,
+   "gp": 76
   },
   "brennus": {
    "sp": 6,
@@ -26034,6 +27205,368 @@
      "catalog": {
       "table": "weapons-swords-daggers",
       "row": 1
+     }
+    }
+   }
+  },
+  "w38": {
+   "id": "w38",
+   "key": "sword",
+   "row": "Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 4,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w39": {
+   "id": "w39",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w40": {
+   "id": "w40",
+   "key": "mace",
+   "row": "Mace",
+   "table": "weapons-bludgeons",
+   "table_row": 2,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "bludgeoning"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   }
+  },
+  "w41": {
+   "id": "w41",
+   "key": "hand axe",
+   "row": "Hand Axe",
+   "table": "weapons-axes",
+   "table_row": 2,
+   "type": "Small Melee/Missile",
+   "size": "Small",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "slashing"
+   ],
+   "special": [
+    "Thrown"
+   ],
+   "range": {
+    "short": 15,
+    "medium": 30,
+    "long": 45
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-axes",
+      "row": 2
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-axes",
+      "row": 2
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-axes",
+      "row": 2
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-axes",
+      "row": 2
+     }
+    }
+   }
+  },
+  "w42": {
+   "id": "w42",
+   "key": "short bow",
+   "row": "Short Bow",
+   "table": "weapons-bows-crossbows",
+   "table_row": 5,
+   "type": "Missile",
+   "size": null,
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [],
+   "range": {
+    "short": 75,
+    "medium": 150,
+    "long": 300
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   }
+  },
+  "w43": {
+   "id": "w43",
+   "key": "short sword",
+   "row": "Short Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 3,
+   "type": "Small Melee",
+   "size": "Small",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Judge's choice by class)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
      }
     }
    }

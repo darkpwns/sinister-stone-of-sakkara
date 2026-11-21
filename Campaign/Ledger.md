@@ -480,3 +480,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 196 |  | treasure share |  | 11gp 2sp |  | phaedra |
 | 196 | Silk Pony Inn (#25) | beds for nine, night of day 196 |  |  | 1gp 8sp | lucilla |
 | 196 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 189-204 (2sp a stall a day; days 189-196 owed, Judge slip) |  |  | 9gp 6sp | vettius |
+| 197 | brokers and criers | recruiting fee (a week's search) |  |  | 12gp | lucilla |
+| 197 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 197 | the retinue | wages paid |  |  | 25gp | iulia |
+| 197 | the retinue | wages paid |  |  | 25gp | vettius |
+| 197 | septima | signing bonus, a month's wage |  |  | 25gp | vettius |
+| 197 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 197 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | iulia |
+| 197 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | vettius |
+| 197 | Cyfaraun | Tinderbox (flint & steel) | 1 |  | 7sp 2cp | vettius |
+| 197 | Cyfaraun | torch | 6 |  | 9cp | vettius |
+| 197 | Cyfaraun | torch | 6 |  | 9cp | lucilla |
+| 197 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 197 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | iulia |
+| 197 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
+| 197 | Silk Pony Inn (#25) | beds for twelve, night of day 197 |  |  | 2gp 4sp | lucilla |
