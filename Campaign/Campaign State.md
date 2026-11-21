@@ -12,7 +12,7 @@ public:
     season: fall
     day: 212
   time: 06:07
-  weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; drizzle; wind strong (drizzly)
+  weather: Cold (26 to 32 F) by day, Cold (26 to 32 F) at night; clear; wind gentle (cold)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 8.722
+    encumbrance_st: 9.285
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.723
+    encumbrance_st: 10.332
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -49,7 +49,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 2.803
+    encumbrance_st: 3.127
   - name: Ottar
     sheet: Characters/ottar.json
     role: henchman
@@ -57,7 +57,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 5.836
+    encumbrance_st: 10.003
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -84,7 +84,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 1.503
+    encumbrance_st: 1.836
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
@@ -108,7 +108,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 4.466
+    encumbrance_st: 5.132
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -116,7 +116,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 7.107
+    encumbrance_st: 7.607
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -124,7 +124,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 3.91
+    encumbrance_st: 5.91
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -140,7 +140,7 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 4.244
+    encumbrance_st: 6.91
   light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) out; torch (Ottar) out; torch (Aelia) out; torch (Ottar) out
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}

@@ -727,3 +727,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 211 | gnaeus (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
 | 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | gnaeus |
 | 211 | Silk Pony Inn (#25) | beds for thirteen, night of day 211 (Nysa gone; Lucilla's bed prepaid one night on day 210) |  |  | 2gp 6sp | lucilla |
+| 212 | Cyfaraun | torch | 12 |  | 1sp 8cp | lucilla |
+| 212 | Cyfaraun | torch | 12 |  | 1sp 8cp | lucilla |
+| 212 | Cyfaraun | iron spike | 12 |  | 1gp 8sp | lucilla |
+| 212 | Cyfaraun | Hammer (small) | 1 |  | 1gp 8sp | lucilla |
+| 212 | Cyfaraun | Oil, Military (1 pint) | 4 |  | 7gp 2sp | lucilla |
+| 212 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | vestus-the-unlikely |
+| 212 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | neris |
+| 212 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | vettius |
+| 212 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 8cp | vettius |
+| 212 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
+| 212 | Cyfaraun | torch | 24 |  | 3sp 6cp | lucilla |
+| 212 | an ironmonger in Cyfaraun | four bags of caltrops (40gp, Lucilla's Bargaining 10% off) |  |  | 36gp | lucilla |
+| 212 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 212 | the retinue | wages paid |  |  | 40gp | vettius |
