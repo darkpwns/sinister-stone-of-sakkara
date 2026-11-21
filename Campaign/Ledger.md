@@ -1006,3 +1006,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 223 | a tax collector of the prefecture | Bribery: a week's pay, politely deniable (RR Venturer) |  |  | 5gp | lucilla |
 | 223 | Cyfaraun buyers (jeweller, temple suppliers, a scholar) | sale of L106-L112 (A19) |  | 4,383gp |  | lucilla |
 | 223 | Cyfaraun buyers | sale of L106-L112 (A19), remainder |  | 5sp |  | lucilla |
+| 223 | brokers and criers | recruiting fee (a week's search) |  |  | 12gp | lucilla |
+| 223 | brokers and criers | recruiting fee (a week's search) |  |  | 15gp | lucilla |
+| 223 | Tower of Knowledge (#50) | spell formulas: Webbing and Burning Sparks (2nd level, 200gp each; AX3 p. 152) |  |  | 400gp | vestus-the-unlikely |
+| 230 | Silk Pony Inn (#25) | beds for twelve, nights of days 223-229 (7 nights at 2gp 4sp) |  |  | 16gp 8sp | lucilla |
+| 230 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 229-242 (2sp a stall a day) |  |  | 11gp 2sp | vettius |
+| 230 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 230 | Calpurnia (signing bonus) | signing bonus, a month's wage |  |  | 50gp | lucilla |
+| 230 | lucilla | signing bonus |  | 50gp |  | calpurnia |
+| 230 | the retinue | wages paid |  |  | 25gp | iulia |
+| 230 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 230 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 230 | the retinue | wages paid |  |  | 50gp | lucilla |
