@@ -61,6 +61,13 @@ prefecture's capital to hire a priestess of their own, carrying a letter from Pr
   (472gp); rats and a crawling mass of grave-worms avoided. Out by the farther grate. Treasure brought home: 654gp
   of ancient grave goods.
 
+- Day 195, in town: Lucilla put her merchant's craft to use: she named her ring (fire protection; now worn), Vettius'
+  plain sword (+1) and the jasmine philter, and set up a trade route in textiles and clothing between Cyfaraun and
+  Türos Tem. No second-level priestess or crusader to be had this month.
+- Day 196, the fifth descent by the far grate: the grave-worms had gone; the upper galleries' last graves (80gp);
+  through a bronze door into a hall painted with the five dark gods and the seven of the Empire (Iulia named them);
+  a gallery of martyrs' graves (88gp). Prawns fled. Home by the far grate: 168gp.
+
 ## Who they met
 - A brigand band (Friendly, night of day 161); a merchant camp (Friendly, 21.09).
 - An unnamed priest of Türos Orn (healed Vettius).
@@ -69,6 +76,7 @@ prefecture's capital to hire a priestess of their own, carrying a letter from Pr
 - Ottar, peltmonger (hired by Lucilla): broad, slow-moving, smells of tannery; laughs at his own jokes.
 
 ## Treasure and XP
+- Day 196 payout: 168gp treasure over 7.5 shares (22 per share).
 - Day 195 payout: 654gp treasure + 912 monster XP over 7.5 shares (about 209 per share; henchmen half).
 
 ## Rumours given

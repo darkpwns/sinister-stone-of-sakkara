@@ -18,6 +18,8 @@ tags:
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | 72 gold pieces | 72 | lucilla |
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | 80 gold pieces | 80 | vettius |
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | 104 gold pieces | 104 | neris |
+| 196 | Secrets of the Nethercity, delve 5 | 80 gold pieces | 80 | quirinus |
+| 196 | Secrets of the Nethercity, delve 5 | 88 gold pieces | 88 | iulia |
 
 ## Monster XP
 
@@ -48,6 +50,15 @@ tags:
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Iulia | 1 | 87 | 122 | 0 | +5% | 219 |
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Quirinus | 0.5 | 44 | 61 | 0 | +0% | 104 |
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Phaedra | 0.5 | 44 | 61 | 0 | +0% | 104 |
+| 196 | Secrets of the Nethercity, delve 5 | Lucilla | 1 | 22 | 0 | 0 | +10% | 24 |
+| 196 | Secrets of the Nethercity, delve 5 | Vettius | 1 | 22 | 0 | 0 | +5% | 23 |
+| 196 | Secrets of the Nethercity, delve 5 | Vestus the Unlikely | 1 | 22 | 0 | 0 | +5% | 23 |
+| 196 | Secrets of the Nethercity, delve 5 | Neris | 1 | 22 | 0 | 0 | +0% | 22 |
+| 196 | Secrets of the Nethercity, delve 5 | Brennus | 1 | 22 | 0 | 0 | +5% | 23 |
+| 196 | Secrets of the Nethercity, delve 5 | Iulia | 1 | 22 | 0 | 0 | +5% | 23 |
+| 196 | Secrets of the Nethercity, delve 5 | Ottar | 0.5 | 11 | 0 | 0 | +0% | 11 |
+| 196 | Secrets of the Nethercity, delve 5 | Quirinus | 0.5 | 11 | 0 | 0 | +0% | 11 |
+| 196 | Secrets of the Nethercity, delve 5 | Phaedra | 0.5 | 11 | 0 | 0 | +0% | 11 |
 
 ## Wages
 
@@ -458,3 +469,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 195 |  | treasure share |  | 43gp 6sp |  | quirinus |
 | 195 |  | treasure share |  | 43gp 6sp |  | phaedra |
 | 195 | Silk Pony Inn (#25) | beds for nine, night of day 195 |  |  | 1gp 8sp | lucilla |
+| 196 |  | treasure share |  | 22gp 4sp |  | lucilla |
+| 196 |  | treasure share |  | 22gp 4sp |  | vettius |
+| 196 |  | treasure share |  | 22gp 4sp |  | vestus-the-unlikely |
+| 196 |  | treasure share |  | 22gp 4sp |  | neris |
+| 196 |  | treasure share |  | 22gp 4sp |  | brennus |
+| 196 |  | treasure share |  | 22gp 4sp |  | iulia |
+| 196 |  | treasure share |  | 11gp 2sp |  | ottar |
+| 196 |  | treasure share |  | 11gp 2sp |  | quirinus |
+| 196 |  | treasure share |  | 11gp 2sp |  | phaedra |

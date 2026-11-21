@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 196
-  time: '15:01'
+  time: '17:05'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -25,18 +25,16 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 8.508
+    encumbrance_st: 9.534
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
     hp: 12
     hp_max: 12
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used: []
-    encumbrance_st: 8.96
+    encumbrance_st: 8.986
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -51,7 +49,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 2.256
+    encumbrance_st: 2.282
   - name: Ottar
     sheet: Characters/ottar.json
     role: henchman
@@ -59,7 +57,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 5.549
+    encumbrance_st: 5.395
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -67,9 +65,8 @@ public:
     hp_max: 6
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 6.256
+    encumbrance_st: 6.282
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -77,9 +74,8 @@ public:
     hp_max: 13
     conditions:
     - minor scarring (puncture wound)
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
-    encumbrance_st: 8.114
+    encumbrance_st: 8.14
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -87,17 +83,16 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 1.216
+    encumbrance_st: 1.229
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
     hp: 18
     hp_max: 18
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used: []
-    encumbrance_st: 6.382
-  light: lantern (Vettius) out; torch (Ottar) 6 turns left
+    encumbrance_st: 6.395
+  light: 'lantern (Vettius) out | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra'
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
