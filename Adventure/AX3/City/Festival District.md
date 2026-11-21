@@ -103,7 +103,7 @@ Up: [[AX3 Hub]] · [[Cyfaraun]] · market [[Cyfaraun (Market)]] · neighbours [[
 - **Traits:** tall, willowy, waist-length black hair, green eyes, cruelly beautiful; a sadist who loved humiliating her family's betters (stolen trinkets blamed on servants, seduced sweethearts, purgatives in the food); came back rich from years away adventuring.
 - **Voice:** silky and amused, always sounding as if she knows the punchline already. "Debts are such a burden. Let me lift yours."
 - **Statline:** Thief 9; MV 40’ / 120’, AC 4 (7 in leather armor +1), HD 9, hp 27, dagger +2 4+ (3+ vs beastmen), 1d4+2, T9, ML +4, AL C, XP 700; Sneaking 6+, Lockpicking 7+, backstab +3d.
-- **Wants:** wealth, cruelty, Maximus (bewitched by him, but she really does love him, and is thrilled by his lycanthropy and cannibalism); admires Liber Faunus, hates his sister Hesta.
+- **Wants:** wealth, cruelty, Maximus (bewitched by him, but she really does love him, and is thrilled by his lycanthropy and cannibalism); admires [[Liber Faunus (AX3)]], hates his sister [[Hesta Faunus (AX3)]].
 - **Knows:** everything about Maximus (his nature, the fixed bouts, the Abattoir); Mara is their dupe.
 - **Hooks:** dimly senses her love for Maximus was unnatural; her hoard (Hideout 1) is the richest prize in the district.
 

@@ -20,3 +20,7 @@ Borderlands in the Library repo (`Adventures/Capital of the Borderlands/maps/`).
 Built so far (S07): 150 hexes first (the Türos Tem block and the east road corridor), then `extend_s07.py` (with
 `cls_s07_extension.json`, the classification and zone sampled from the JJ maps) for the rest of columns 14-31, rows
 2-24: 414 hexes in all. Its lists are the Judge's terrain reading, hex by hex.
+
+AX3 gazetteer (2026-11-21): `extend_ax3.py` adds the hex of every AX3 point of interest outside that block and Siadanos's
+two road corridors (40 hexes, 454 in all), and extends the two Siadanos roads in `Data/world.json`; classification from
+AX3's domain records, since the JJ map is not in the container.
