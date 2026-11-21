@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 221,
-  "round_of_day": 360,
-  "total_rounds": 316680
+  "round_of_day": 565,
+  "total_rounds": 316885
  },
  "party": {
   "lucilla": {
@@ -13,7 +13,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.3333333333333333
+   "treasure_stone": 0.6683333333333333
   },
   "vettius": {
    "id": "vettius",
@@ -40,7 +40,7 @@
    "perceived": "Neris",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.8333333333333334
+   "treasure_stone": 1.0033333333333334
   },
   "iulia": {
    "id": "iulia",
@@ -49,16 +49,7 @@
    "perceived": "Iulia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.0
-  },
-  "quirinus": {
-   "id": "quirinus",
-   "actor": "quirinus",
-   "name": "Quirinus",
-   "perceived": "Quirinus",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 2.43
+   "treasure_stone": 0.34
   },
   "phaedra": {
    "id": "phaedra",
@@ -76,7 +67,7 @@
    "perceived": "Varro",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 1.98
+   "treasure_stone": 0.0
   },
   "hrodvar": {
    "id": "hrodvar",
@@ -85,7 +76,7 @@
    "perceived": "Hrodvar",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 5.04
+   "treasure_stone": 0.0
   },
   "brennus": {
    "id": "brennus",
@@ -94,7 +85,7 @@
    "perceived": "Brennus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 0.0
+   "treasure_stone": 0.5
   },
   "aelia": {
    "id": "aelia",
@@ -112,7 +103,7 @@
    "perceived": "Marcellus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 3.51
+   "treasure_stone": 0.0
   },
   "gnaeus": {
    "id": "gnaeus",
@@ -121,7 +112,7 @@
    "perceived": "Gnaeus",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 1.62
+   "treasure_stone": 0.0
   },
   "decimus": {
    "id": "decimus",
@@ -129,7 +120,8 @@
    "name": "Decimus",
    "perceived": "Decimus",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 0.6
   }
  },
  "lights": [
@@ -582,36 +574,75 @@
    "closed": false,
    "rounds_left": 10,
    "tallow": false
+  },
+  {
+   "id": "torch89",
+   "kind": "torch",
+   "carrier": "phaedra",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch90",
+   "kind": "torch",
+   "carrier": "aelia",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch91",
+   "kind": "torch",
+   "carrier": "phaedra",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 35,
+   "tallow": false
+  },
+  {
+   "id": "torch92",
+   "kind": "torch",
+   "carrier": "aelia",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 35,
+   "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 0,
-  "rest_rounds": 1,
+  "rounds_since_rest": 35,
+  "rest_rounds": 0,
   "winded": []
  },
- "location": null,
+ "location": {
+  "site": "Nethercity",
+  "kind": "dungeon",
+  "level": 4,
+  "room": "D5",
+  "wandering": {
+   "none": false,
+   "die": "1d6",
+   "every": 3,
+   "target": 6
+  },
+  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
+  "source": {
+   "wandering": "site setting: '1d6 every 3 turns, 6+'"
+  }
+ },
  "wandering": {
-  "turns_since_check": 0,
+  "turns_since_check": 2,
   "last_check": {
-   "at": "day 219 11:50",
-   "roll": 5,
+   "at": "day 221 09:00",
+   "roll": 6,
    "target": 6,
-   "encounter": false
+   "encounter": true
   },
   "history": [
-   {
-    "at": "day 211 10:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 211 11:20",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 211 11:50",
     "roll": 6,
@@ -719,13 +750,25 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 221 08:20",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 221 09:00",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
    }
   ],
   "pending_at": null,
-  "turn_start_done": 314160
+  "turn_start_done": 316880
  },
  "turn_actions": {
-  "turn": 31668,
+  "turn": 31688,
   "listened": [],
   "actions": []
  },
@@ -1627,8 +1670,8 @@
    "rest_rounds": 0
   },
   "221": {
-   "delve_rounds": 0,
-   "rest_rounds": 0
+   "delve_rounds": 75,
+   "rest_rounds": 10
   }
  },
  "events": [
@@ -3458,8 +3501,8 @@
   }
  ],
  "next_ids": {
-  "enc": 162,
-  "torch": 88,
+  "enc": 164,
+  "torch": 92,
   "t": 18,
   "lantern": 1
  },
@@ -3691,15 +3734,15 @@
     "climate": "Cfb",
     "season": "fall",
     "rolls": {
-     "T": 11,
+     "T": 7,
      "P": 5,
-     "W": 10
+     "W": 5
     },
     "modified": {
-     "T": 11,
-     "T_night": 11,
+     "T": 7,
+     "T_night": 7,
      "P": 3,
-     "W": 10
+     "W": 5
     },
     "mods": {
      "T_day": 0,
@@ -3707,17 +3750,17 @@
      "P": -2,
      "W": 0
     },
-    "temp_day": "Balmy (66 to 68 F)",
-    "temp_night": "Balmy (66 to 68 F)",
+    "temp_day": "Chilly (41 to 50 F)",
+    "temp_night": "Chilly (41 to 50 F)",
     "temp_cond": "moderate",
     "night_cond": "moderate",
     "precip_table": "Clear",
     "precip": "clear",
-    "wind": "Strong",
+    "wind": "Gentle",
     "conditions": [],
     "fronts": [],
     "notes": [],
-    "day": 219,
+    "day": 221,
     "region": "R05.02"
    }
   },
@@ -3796,13 +3839,13 @@
    },
    "R05.02": {
     "modified": {
-     "T": 11,
-     "T_night": 11,
+     "T": 7,
+     "T_night": 7,
      "P": 3,
-     "W": 10
+     "W": 5
     },
     "conditions": [],
-    "day": 219
+    "day": 221
    }
   },
   "ground": {
@@ -3970,7 +4013,7 @@
       "dungeon": 0.0
      }
     ],
-    "water": 0.4,
+    "water": 0.2,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -6675,8 +6718,15 @@
      "water": 0,
      "cold": 0
     },
-    "food": [],
-    "water": 0.0,
+    "food": [
+     {
+      "kind": "iron",
+      "days": 7.0,
+      "wild": 0.0,
+      "dungeon": 0.0
+     }
+    ],
+    "water": 0.2,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -47703,6 +47753,237 @@
      "hunted": false,
      "in_settlement": true
     }
+   },
+   "221": {
+    "_party": {
+     "nav": null,
+     "water_tried": false,
+     "weather_regions": [
+      "R05.02"
+     ],
+     "encounter_checks": []
+    },
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "iulia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "varro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "hrodvar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "aelia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "marcellus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "gnaeus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    },
+    "decimus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true
+    }
    }
   },
   "trail": [
@@ -48068,11 +48349,6 @@
    ],
    "R05.02": [
     {
-     "day": 172,
-     "conditions": [],
-     "temp": "moderate"
-    },
-    {
      "day": 173,
      "conditions": [],
      "temp": "moderate"
@@ -48122,6 +48398,11 @@
      "day": 219,
      "conditions": [],
      "temp": "moderate"
+    },
+    {
+     "day": 221,
+     "conditions": [],
+     "temp": "moderate"
     }
    ]
   },
@@ -48140,7 +48421,7 @@
    "25.13": "a freeholder's well",
    "23.11": "found day 170",
    "23.10": "the fortress well",
-   "18.05": "a public fountain in the Festival District"
+   "18.05": "the Silk Pony well"
   },
   "night_pending": null,
   "season_start": {
@@ -48149,22 +48430,6 @@
   }
  },
  "past_encounters": [
-  {
-   "id": "enc143",
-   "at": "day 195 06:49",
-   "monster_name": "Insect Swarm",
-   "number": 3,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc144",
-   "at": "day 195 06:52",
-   "monster_name": "Grey Goo",
-   "number": 1,
-   "reaction": null,
-   "status": "surprise rolled"
-  },
   {
    "id": "enc145",
    "at": "day 195 08:40",
@@ -48308,6 +48573,22 @@
    "number": 1,
    "reaction": "friendly",
    "status": "reaction"
+  },
+  {
+   "id": "enc163",
+   "at": "day 221 09:00",
+   "monster_name": "Tunnel Prawn (SOTN)",
+   "number": 4,
+   "reaction": "intimidated",
+   "status": "reaction"
+  },
+  {
+   "id": "enc164",
+   "at": "day 221 09:12",
+   "monster_name": "Jackal of Darkness (SOTN)",
+   "number": 2,
+   "reaction": null,
+   "status": "fighting"
   }
  ]
 }

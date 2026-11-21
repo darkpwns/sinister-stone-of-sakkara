@@ -895,3 +895,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 221 | Hospital of the Keepers | donation for Quirinus' pallet in the courtyard, night of day 220 |  |  | 1gp | lucilla |
 | 221 | Hospital of the Keepers | donation for his pallet in the courtyard, night of day 220 |  |  | 1gp | brennus |
 | 221 | Solar Citadel (alms for the acolytes who keep Quirinus' pallet) | pallet under the oculus, from night of day 221 (Judge's price, 1gp a night, five nights ahead) |  |  | 5gp | lucilla |
+| 221 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 205-228 (2sp a stall a day; days 205-220 owed, Judge slip S09) |  |  | 19gp 2sp | vettius |
