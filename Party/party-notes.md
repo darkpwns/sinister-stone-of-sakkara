@@ -33,6 +33,12 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - S09 (day 212): spike doors. Spike shut a door we retreat through, a door with something behind it we leave
   alone, and the doors of the room we sleep in; spike open a door we will need to run back through.
 
+- S09 (day 212): set traps for what we know is there. Fight known monsters on ground we prepared: poured burning oil
+  at a doorway they must cross (5' patch, a turn, 1d8 to anything entering), caltrops on the approach (bags, 10gp),
+  spiked doors to funnel them, nets and set spears at a choke point, holy water and oil ready. Lure, don't chase.
+  Known targets: the masked dead lord behind the last slab of the first tomb (fire hurts it, it walks slowly, it can't
+  cross Neris' holy circle); the troglodytes who use the galleries; the hunters of the sewer tunnel.
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->
