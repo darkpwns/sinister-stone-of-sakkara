@@ -26,6 +26,10 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - S09 (day 211): keep only the help the strength rule needs. Every henchman is a half share of treasure and XP out of
   our pockets: when we stand at the floor without one, we let him go. Nysa let go on day 211 (25 against 24).
 
+- S09 (day 212): we are adventurers, not grave-robbers on day trips. Plan expeditions of several days toward the
+  deepest, richest places our strength allows: a week of iron rations each, torches for a week, oil, rope; sleep below
+  in a cleared tomb with the door shut; come home when the packs are full or we are spent, not at the first scare.
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->
