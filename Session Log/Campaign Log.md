@@ -20,3 +20,4 @@ tags:
 - [[S09 — The deep galleries]]
 - [[S10 — Return to the temple]]
 - [[S11 — Healers and the stare]]
+- [[S12 — The princess and the inquisitor]]
