@@ -124,3 +124,29 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   6. **Those who cannot stand it** keep their eyes down and guard the rear; Iulia can still rebuke with her eyes
      lowered if she knows where it is.
   7. **Potions of valour** make a fighter fearless for a few minutes; bought in a market they cost more than twice what they cost to brew (over 3,000gp each). Lucilla asks after them on the next selling day; one for Brennus' partner at the door is worth it against a mummy lord, not a courtier.
+
+- S11 (days 244-261), mending and making ready while Lucilla lay abed.
+  - **Mended** (Temple of the Hearth Fire, 185gp each, the Keepers' mothers praying): Brennus' ear (day 244: rose at
+    once, and burned with the gods' courage all that day), Marcellus' fingers (245: up at once, and stronger than
+    before), Neris' ear (246: up at once, with a vision; below), Brennus' teeth (246: two weeks abed, and shaken: she
+    learns more slowly until she rises a rank) and Brennus' toe (247: whole, and woke a woman; same name, same axe; to
+    day 261 abed). Brennus keeps the scarred face. Nothing left to mend that hinders us.
+  - **Neris' vision (day 246):** "In the cold under the black river a teacher with a beetle's face sleeps, and dreams
+    the dead awake. While he sleeps, they wait. Do not be the hand that wakes him." Something for the Patriarch.
+  - **The bone-handled scroll** was the mummy wizard's encrypted spellbook. The Tower deciphered it (day 247); Vestus
+    copied two formulas from it, then Vettius sold it through Liber Faunus (day 255, 25,400gp: elven work goes through
+    him). Shared by the expedition-15 shares (Calpurnia and Titus got their halves). Iulia is a vicar (5th rank) now,
+    Neris a sister (4th), Vestus a magician (4th); Phaedra, Varro, Hrodvar, Marcellus and Gnaeus all 3rd rank.
+    **Strength 45**: the deeper levels (39) are open to us; the very bottom (48) is not.
+  - **What we bought or made:** 16 flasks of military oil, two bags of caltrops, two lanterns, a rubbing kit for
+    Vestus (rubbings of inscriptions for the Patriarch), 150' of rope and Hrodvar's hauling rig (pulley blocks and
+    slab hooks: we heave a tomb slab from 60' away, nobody standing at it when it gives). The market's magic this
+    month: nothing against the stare; nothing worth twice-and-a-quarter its price to us.
+  - **New tools against the dead:** Iulia's 3rd-rank prayers include *Striking* (a weapon deals holy light, which
+    the mummies cannot shrug off) and *Rune of Warding* (a fire rune laid at a door they must cross); Vestus'
+    *Ogre Strength* (+2 to hit and damage, and a far stronger heave on a slab); Phaedra's *Illusory Duplicates*;
+    Neris' gods' favour (Divine Blessing: +2 on every save, the stare's included); Marcellus and Hrodvar trained to
+    fight blind (eyes down, still hitting); Varro trained at heavy work (slabs and doors); Gnaeus quicker off the mark.
+  - **The stare plan, added:** Vestus' Ogre Strength on the hauler at the rig; Iulia's Striking on Brennus' great axe
+    before the slab moves; a fire rune at the doorway when there is time to lay one; Marcellus and Hrodvar are the
+    eyes-down rear guard if they cannot stand the stare.

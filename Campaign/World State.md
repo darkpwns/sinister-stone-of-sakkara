@@ -44,6 +44,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 198 delve 6 (A11): the A3 round slab to B1 heaved 50 rounds over two visits (crowbar; opened on a natural 20 at 10:18); the 12 B1 skeletons, formed up, destroyed in 7 rounds (Iulia rebuked 8; 156 XP). B1 open; B2 and B3 slabs untouched; the SE-corner shaft to C7 not found; 12 sets of bronze arms left in B1.
 - Day 198 (A11, cont.): the B1-B3 slab opened at the 2nd heave; 18 B3 skeletons (out of their graves) destroyed at the slab mouth behind burning oil (234 XP; Iulia's rebuke failed); Brennus fell (critically wounded, 1 week bed rest from day 198). B2 slab opened at the 2nd heave; B2 looted (L78-L80, sold day 198 for 1,515gp 8sp). B3: Iulia named the four Chthonic figures; Vettius found the B4 slab's propped ceiling block. B4, B5 slabs not touched. 30 sets of bronze arms left in B1/B3.
 - Antiquities sold openly in Cyfaraun, month 7 (days 181-210): 1,516gp (day 198) + 1,705gp (day 199) = 3,221gp; tax collector checks 6%, 6%: no. Month 8 (days 211-240): 455gp (day 211) + 743gp (day 212) + 1,604gp (day 219) = 2,802gp; checks 5%, 5%, 6%: no. Attracting attention (1% per 2,000gp spent, sold or banked; from day 198): 6,023gp so far; rolls at 2,000, 4,000 and 6,000: no; next at 8,000. Day 221: 8,470gp sold (A18; tax check 7%: no) -> 14,493gp: attention rolls at 8,000, 10,000, 12,000, 14,000: no; next at 16,000 (banked coin is counted once, as sold).
+- Day 255: every member banked his coin above 150gp after the L126 sale (balances per person: the inventory log, holder guildhouse-bank; the figures below are as of day 241).
 - Merchant Guildhouse, Cyfaraun (holder guildhouse-bank, client from day 223, Friendly banker; 0.25% a month): Lucilla 1,428 (28 after her investments of day 231), Vettius 1,843, Iulia 1,635, Vestus 2,001 (1 after the Tower fee, day 233), Neris 1,744, Brennus 1,530, Phaedra 847, Varro 792, Hrodvar 792, Aelia 603, Marcellus 602, Gnaeus 602 (14,419gp; day 233: Vestus' 2,000 to the Tower; day 241 deposits of the sale proceeds: Lucilla 2,701, Vettius, Iulia, Vestus, Neris, Brennus 2,625 each, henchmen about 1,312 each).
 - Silk Pony strongbox (holder silk-pony-strongbox, from day 230): the party's coin above 50gp a head (13,993gp 258sp 235cp on day 230, less 200gp for wages).
 - Lucilla's passive investments (RR Passive Investment; Cyfaraun, class III; her limit 3 without penalty: base + Driving + steady trade route; no XP): (1) commercial expedition, balanced (textile caravan Cyfaraun-Türos Tem), 700gp, 1%/month; (2) commercial expedition, risky (long-distance caravan to the coast), 700gp, 3%/month; both made day 231 from her Guildhouse funds. Month 8 (day 240): (1) 57 Return: 7gp; (2) 5 Delay (cause 7, inventory impounded): no return and no vagaries for 5 months (months 9-13); Lucilla waits. Vagaries 1d100 each at each month's end (first: day 240); returns collected in Cyfaraun (1 hour). Third slot free.
@@ -84,14 +85,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
-- Day 257: Lucilla's bed rest ends (Tampering, day 243; pallet in the Keepers' courtyard, 1gp a night).
+- Day 264: Aelia, Marcellus wages; day 271: Gnaeus wage and month 10's selling day (opals L156-L159); day 270: month 9 ends (investment 1 vagary).
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
 - Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
 - Strength 37 on day 243 (Deep 30, Abyssal 39). Party rule: keep henchmen, hire only below the floor (Rulings S10).
-- S11 (day 243): Lucilla healed (third eye). Left: Brennus toe, ear, teeth; Marcellus fingers; Neris ear (one casting a day as the market allows; Aundëmë 15% each at #58-61). Visage plan in party notes.
+- S11 (day 261): all wounds the user listed mended. Strength 45 (Abyssal 39 open; Sub-Abyssal 48 not). Market stock month 9 = hoards H1-H37 (nothing bought). Neris' prophecy (the Great Teacher) is a thread for Arëtar; Vestus carries a rubbing kit. Visage plan + S11 additions in party notes.
 - S11 aims (user): regenerate wounds (Repair Disfigurement and Disability, divine 4th: Prelate Romus, Patriarch
   Arëtar, temples' spellcasting; `restore --limbs`); then the party's plan against the mummies' horrific visage.
 - Lower targets left: H6 (princess, snakes), H7-H8 (warlord + 8 skeletons), H13 (bard), H16 (astrologer: telescope,

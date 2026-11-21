@@ -30,6 +30,22 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   listened to everything and promised nothing. He wants something he can hold. Iulia asked for a second healing that
   day; the temples sent word that none could be spared (try again tomorrow).
 - Day 243 afternoon, round Lucilla's bed: the table worked out a plan against the mummies' stare (party notes).
+- Days 244-247, mending: Lucilla, from her pallet, asked the Keepers each morning (twice with a gift equal to the
+  fee). Brennus' ear (244) and Marcellus' fingers (245) mended with no rest needed; Marcellus came out of it
+  stronger. Neris' ear (246) mended, and she woke from the prayer shaking, with a vision. Brennus' teeth (246) cost
+  her two weeks abed and her confidence; her toe (247) came back whole, and Brennus woke a woman.
+- Day 244: Vettius bought oil, caltrops and lanterns; Hrodvar built a hauling rig of pulley blocks and slab hooks;
+  Phaedra's alchemy named the potion Neris has carried since the first temple (healing). Vestus spent the week in
+  study (Burning Sparks). Lucilla's network showed what magic Cyfaraun had for sale this month: nothing to the
+  purpose at two and a quarter times its making.
+- Day 247: the Tower returned the bone-handled scroll deciphered: the mummy wizard's spellbook. Vestus copied two
+  formulas from it (days 251-254). Day 250: Phaedra's wage paid.
+- Day 255: Vettius took the spellbook to The Mink; Liber Faunus paid 25,400gp in clean coin. The expedition-15 share
+  holders were paid (Calpurnia and Titus their halves); everyone banked his coin at the Guildhouse. Iulia rose to
+  vicar, Neris to sister, Vestus to magician, and Phaedra, Varro, Hrodvar, Marcellus and Gnaeus each a rank.
+- Day 257: Lucilla rose, a band over her brow; Varro's and Hrodvar's wages paid; she went round her old contacts
+  (two rumours). Days 255-261: Vestus studied Ogre Strength and Phaedra Illusory Duplicates.
+- Day 261 dawn: Brennus rose from her pallet. The company is whole, rested, and stronger than it has ever been.
 
 ## Who they met
 - Mother Drakima, priestess of Mityara (mother, 7th rank), who runs the Keepers' hospital: square-handed, grey
@@ -40,10 +56,14 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   can hold.
 
 ## Treasure and XP
+- Day 255: the transmogrifier's spellbook (expedition 15) sold through Liber Faunus, 25,400gp, 2,540 XP a share. Iulia Crusader 5, Neris Priestess 4, Vestus Mage 4, Phaedra Mage 3, Varro Fighter 3, Hrodvar Vaultguard 3, Marcellus Fighter 3, Gnaeus Explorer 3.
 
 ## Rumours given
+- Day 257 (Lucilla's contacts): beheaded lepers in the river after the new moon; young wizards interested in the city's rats.
 
 ## Changes to the world
+- Day 244-247: Brennus' ear, teeth and toe, Marcellus' fingers, Neris' ear mended (Tampering marks: Brennus a woman and 10% slower learning until her next rank; Marcellus stronger; Neris a vision).
+- Day 255: the transmogrifier's spellbook sold to Liber Faunus.
 - Lucilla: eye and ear restored (day 243); a lidded third eye in her forehead (telepathy three times a day; people
   who see it fear her); bed rest to day 257.
 
@@ -51,6 +71,7 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 11). Slips, voids, findings and corrections: Playtest/judge-notes.txt (S11 section).
+> Days 244-247 mending (spellcasting class II, Lucilla, Diplomacy): 244 accepted after a sweetened retry (Brennus ear: Tampering d20 20 -> 30, d6 4 valiance 1 day); 245 accepted (Marcellus fingers: 26, d6 6 +2 STR), second request refused; 246 accepted (Neris ear: 28, d6 5 prophecy), second accepted sweetened (Brennus teeth: 15, d6 5 XP -10%, 2 weeks); 247 accepted (Brennus toe: 18 with -1 side effect, d6 1 sex change, 2 weeks). Aundëmë 72, 35, 66, 58 (never at the Temple). Neris' prophecy (Judge, true): the Great Teacher (T2) in cryostasis; waking him is the danger. Market stock month 9 rolled (H1-H37: potions H1-H11, wands H12-H13, horseshoes H14, ring H15, sword H16, scrolls H17-H37; Creature Warding types giants, dwarves/gnomes/halflings; spell scroll contents in Playtest/judge-notes.txt). Hrodvar's Engineering 16 vs 4+. Level-up loyalty: Phaedra 6 (+1), Varro 12 (+4), Hrodvar 12 (+4), Marcellus 11 (+4), Gnaeus 6 (+2). Lucilla's rumours 1d4 2: rows 1, 10 (2 repeated, re-rolled).
 > Day 243: spellcasting divine 4th, Cyfaraun class II: casting 1 accepted (Lucilla, Diplomacy); casting 2 'Try Again'
 > twice (Iulia; the second sweetened +1): none more that day. Lucilla's Tampering (Neutral): d20 6 + 9 = 15, side
 > effect d6 3 (third eye). Aundëmë's whereabouts d100 87 (away). Arëtar reaction 7 Neutral, influence 9 (Indifferent),

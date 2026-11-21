@@ -305,3 +305,8 @@ rulings (who saves, averting the eyes, Blessed + Inspired stack, Remove Fear use
 immune). Remaining wounds to mend (one `spellcasting --market-class II --type divine --level 4` a request, then
 `restore ID --alignment A --caster-level 9 --temple --parts N --alive --wil-mod M`, then the condition and
 `heal ID --bed-rest`): Brennus toe (parts 0), ear (1), teeth (0); Marcellus fingers (0); Neris ear (1).
+**Update day 261 06:02:** all listed wounds mended (Lucilla third eye; Brennus a woman, -10% XP to F5; Marcellus STR 9;
+Neris a vision). L126 sold through Liber (25,400gp) and paid out: eight level-ups; strength 45 (Abyssal band open).
+Party notes S11 hold the downtime and the full visage plan. A23 is open (joined day 244; no delve yet). Next: choose
+the target (Abyssal now allowed), prayers (Iulia: Striking, Holy Blessing, Righteous Wrath; Neris: Holy Blessing,
+Augury), equip magic weapons, ration and light, down the far grate. Wages next: Aelia, Marcellus day 264; Gnaeus 271.

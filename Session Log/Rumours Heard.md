@@ -21,3 +21,5 @@ type: rumours
 - Day 230, Cyfaraun, Lucilla's old contacts: Selene Nictorian of the Silk Pony has a heart of steel: debtors who don't pay her vanish and are never found.
 - Day 230, Cyfaraun, Lucilla's old contacts: river pirates preying on bargemen are behind all the bodies in the river; their base is upstream near the mountains.
 - Day 230, Cyfaraun, Lucilla's old contacts: Lanista Celictor Nuvicus bought a monstrous crocodile and other beasts for the next seasonal festival, though he denies it; maybe a surprise to upstage Maximus.
+- Day 257, Cyfaraun, Lucilla's old contacts (Rumormongering, month 9): beheaded bodies of lepers and vagrants were found floating in the river by the south wall the morning after the last new moon; the Watch is not looking, since nobody cares for outcasts.
+- Day 257, Cyfaraun, Lucilla's old contacts: a few young wizards have taken a great interest in the city's rats: exterminators, or a mad rat cult?

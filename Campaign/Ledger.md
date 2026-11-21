@@ -1191,3 +1191,71 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 243 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
 | 243 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 243 |  |  | 1gp | lucilla |
 | 243 | Silk Pony Inn (#25) | beds for eleven, night of day 243 (Lucilla at the hospital) |  |  | 2gp 2sp | vettius |
+| 244 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 244 | Temple of the Hearth Fire | donation with the request (sweetened offer, Rulings S09), Brennus' mending day 244 |  |  | 185gp | lucilla |
+| 244 | Cyfaraun | Oil, Military (1 pint) | 8 |  | 16gp | vettius |
+| 244 | Cyfaraun | Oil, Military (1 pint) | 8 |  | 16gp | vettius |
+| 244 | Cyfaraun | Lantern | 2 |  | 20gp | vettius |
+| 244 | Cyfaraun market | two bags of caltrops |  |  | 20gp | vettius |
+| 244 | Cyfaraun market | rubbing kit for Vestus |  |  | 3gp | vettius |
+| 244 | Cyfaraun smith | pulley blocks, rings and hooks for the hauling rig |  |  | 30gp | hrodvar |
+| 244 | Cyfaraun | Sack, Large (holds 6 stone) | 1 |  | 8sp | gnaeus |
+| 244 | Cyfaraun | Rope, 50' | 3 |  | 3gp | gnaeus |
+| 244 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 244 |  |  | 1gp | lucilla |
+| 244 | Silk Pony Inn (#25) | beds for eleven, night of day 244 (Lucilla at the hospital) |  |  | 2gp 2sp | vettius |
+| 245 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 245 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 245 |  |  | 1gp | lucilla |
+| 245 | Silk Pony Inn (#25) | beds for eleven, night of day 245 |  |  | 2gp 2sp | vettius |
+| 246 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 246 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 246 | Temple of the Hearth Fire | donation with the request (sweetened offer, Rulings S09), day 246 |  |  | 185gp | lucilla |
+| 246 | Hospital of the Keepers | donation for his pallet in the courtyard (bed rest), night of day 246 |  |  | 1gp | brennus |
+| 246 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 246 |  |  | 1gp | lucilla |
+| 246 | Silk Pony Inn (#25) | beds for ten, night of day 246 |  |  | 2gp | vettius |
+| 247 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 247 | Tower District stationer | blank 100-page spell book |  |  | 20gp | vestus-the-unlikely |
+| 247 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 247 |  |  | 1gp | brennus |
+| 247 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 247 |  |  | 1gp | lucilla |
+| 247 | Silk Pony Inn (#25) | beds for ten, night of day 247 |  |  | 2gp | vettius |
+| 248 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 248 |  |  | 1gp | brennus |
+| 248 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 248 |  |  | 1gp | lucilla |
+| 248 | Silk Pony Inn (#25) | beds for ten, night of day 248 |  |  | 2gp | vettius |
+| 249 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 249 |  |  | 1gp | brennus |
+| 249 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 249 |  |  | 1gp | lucilla |
+| 249 | Silk Pony Inn (#25) | beds for ten, night of day 249 |  |  | 2gp | vettius |
+| 250 | the retinue | wages paid |  |  | 40gp | vettius |
+| 250 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 250 |  |  | 1gp | brennus |
+| 250 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 250 |  |  | 1gp | lucilla |
+| 250 | Silk Pony Inn (#25) | beds for ten, night of day 250 |  |  | 2gp | vettius |
+| 251 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 251 |  |  | 1gp | brennus |
+| 251 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 251 |  |  | 1gp | lucilla |
+| 251 | Silk Pony Inn (#25) | beds for ten, night of day 251 |  |  | 2gp | vettius |
+| 252 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 252 |  |  | 1gp | brennus |
+| 252 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 252 |  |  | 1gp | lucilla |
+| 252 | Silk Pony Inn (#25) | beds for ten, night of day 252 |  |  | 2gp | vettius |
+| 253 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 253 |  |  | 1gp | brennus |
+| 253 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 253 |  |  | 1gp | lucilla |
+| 253 | Silk Pony Inn (#25) | beds for ten, night of day 253 |  |  | 2gp | vettius |
+| 254 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 254 |  |  | 1gp | brennus |
+| 254 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 254 |  |  | 1gp | lucilla |
+| 254 | Silk Pony Inn (#25) | beds for ten, night of day 254 |  |  | 2gp | vettius |
+| 255 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | the transmogrifier's spellbook (L126, A20) sold through the Argollëan Family, day 255 |  | 25,400gp |  | vettius |
+| 255 | Calpurnia (former henchman) | her/his A20 half share of L126, sold day 255 (the share agreement honoured) |  |  | 1,270gp | vettius |
+| 255 | Titus Aurelianus (former henchman) | her/his A20 half share of L126, sold day 255 (the share agreement honoured) |  |  | 1,270gp | vettius |
+| 255 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 255 |  |  | 1gp | brennus |
+| 255 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 255 |  |  | 1gp | lucilla |
+| 255 | Silk Pony Inn (#25) | beds for ten, night of day 255 |  |  | 2gp | vettius |
+| 256 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 256 |  |  | 1gp | brennus |
+| 256 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 256 |  |  | 1gp | lucilla |
+| 256 | Silk Pony Inn (#25) | beds for ten, night of day 256 |  |  | 2gp | vettius |
+| 257 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 257 | the retinue | wages paid |  |  | 25gp | iulia |
+| 257 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 257 |  |  | 1gp | brennus |
+| 257 | Silk Pony Inn (#25) | beds for eleven, night of day 257 (Brennus at the hospital) |  |  | 2gp 4sp | vettius |
+| 258 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 258 |  |  | 1gp | brennus |
+| 258 | Silk Pony Inn (#25) | beds for eleven, night of day 258 (Brennus at the hospital) |  |  | 2gp 4sp | vettius |
+| 259 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 259 |  |  | 1gp | brennus |
+| 259 | Silk Pony Inn (#25) | beds for eleven, night of day 259 (Brennus at the hospital) |  |  | 2gp 4sp | vettius |
+| 260 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 260 |  |  | 1gp | brennus |
+| 260 | Silk Pony Inn (#25) | beds for eleven, night of day 260 (Brennus at the hospital) |  |  | 2gp 4sp | vettius |
+| 261 | Silk Pony Inn (#25) | refund: beds for eleven overpaid 2sp a night, nights 257-260 (Judge slip) |  | 8sp |  | vettius |
