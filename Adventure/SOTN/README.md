@@ -33,7 +33,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
 - Areas (PDF 26-130):
   - [ ] A, B, C (PDF 26-34)
   - [ ] D, E (PDF 34-44)
-  - [ ] F (PDF 45-53)
+  - [x] F (PDF 45-53): F1-F19 (+F11a-c); 18,290 gp, 6,759 XP
   - [ ] G (PDF 53-65)
   - [ ] H (PDF 65-79)
   - [ ] I, J (PDF 79-92)
