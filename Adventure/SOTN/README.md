@@ -43,7 +43,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
   - [x] R, S, T (PDF 125-130): R1-R4, S1-S4, T1-T2; R 15,500 gp / 10,344 XP, S 23,625 gp / 11,630 XP, T 15,000 gp / 5,000 XP
 - [x] New monsters (Appendix B, PDF 143-153): 17 notes in `Bestiary/` (plus named NPCs from the area writers)
 - [x] Magic items and spells (Appendices A and C, PDF 131-142, 154-162): 47 item entries, 42 spells
-- [ ] Classes (Appendix D, PDF 163-175)
+- [x] Classes (Appendix D, PDF 163-175): [[Elven Cultist]] (Bel, Dirgion, Iskara, Nasga, Telith), [[Elven Hierophant]], [[Elven Warlord]], [[Elven Wizard]] (four colleges); `Classes/sotn-class-builds.yaml`; JJ ch. 12 numbers from `custom_class.py`
 - [x] `Nethercity Factions.md`: groups inside and above, 27 NPCs with traits and voice
 - [x] Merges into the AX3 notes: Old District #12u, Organizations of Cyfaraun (Brotherhood = Family), Undercity of Cyfaraun (SOTN p. 6), Cyfaraun, AX3 Hub, AX3 README, Borderlands Background, Tower District
 - [ ] Final checks: tables through `load_campaign_table`, hub through `read_hub`, `hex.py 18.05`, `brief.py`, independent check
@@ -81,6 +81,16 @@ below gathers the ones that matter across notes.
   38), iron cobra 3* 65 (80), lesser faewyrd 4*** 245 (190), flailing spirit 5-8**** (SOTN 800-1,600), jackal of
   darkness 4* 135 (190; room lines 285), baboon and crocodile mummy 5** 500 (350), rat mummy 1+2** 27 (21). The area
   statlines follow the bestiary notes.
+- **Class asterisks for mummies:** SOTN p. 162 counts class abilities as asterisks by build points outside Hit Dice
+  (on the ACKS II builds: cultist **, hierophant ***, warlord *, wizard **). The area notes add a flat two (above):
+  right for cultists and wizards; warlord mummies (D, E, I, M8, Q) would be one fewer, hierophants one more. Reconcile.
+- **Mummy spells per day:** SOTN's room keys give ACKS I counts; the class notes give the ACKS II counts beside them
+  (a 4th-level cultist 3/1 in SOTN, 3/3 in ACKS II). The area notes mostly keep SOTN's counts: use the class notes'
+  ACKS II column in play.
+- **Class builds (Judge's calls):** build allocations, spare powers, the warlord at 2,375 XP to 2nd (SOTN 2,125:
+  ACKS II charges for the weapon trade-off), hierophant divine spells from 1st level, fastness troops paid. SOTN errors:
+  warlord XP column shifted and its saves captioned "Elven Hierophant"; cultist save table vs text, spells and XP jumps
+  at 12th-13th; wizard college proficiencies never listed.
 - **Sepulchral worms:** MM −1 per 3 worms to the visage save and save F1 (SOTN −1 per worm, F4).
 - **Spells:** ACKS II names by effect. No ACKS II equivalent, kept in italics: *unseen servant*, *knock*, *ventriloquism*,
   *summon berserkers*, *summon fantastic creature* (one [[Greater Hellhound]]), *glitterdust*, *control undead*,
