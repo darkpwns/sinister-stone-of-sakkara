@@ -40,7 +40,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
   - [ ] K, L (PDF 92-102)
   - [ ] M, N (PDF 102-113)
   - [ ] O, P, Q (PDF 113-125)
-  - [ ] R, S, T (PDF 125-130)
+  - [x] R, S, T (PDF 125-130): R1-R4, S1-S4, T1-T2; R 15,500 gp / 9,344 XP, S 23,625 gp / 10,630 XP, T 15,000 gp / 5,000 XP
 - [ ] New monsters (Appendix B, PDF 143-153) in `Bestiary/`
 - [ ] Magic items and spells (Appendices A and C, PDF 131-142, 154-162); item placements filled from the area notes
 - [ ] Classes (Appendix D, PDF 163-175)
