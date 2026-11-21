@@ -135,6 +135,10 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 ## Changes to the world
 
 ## Next time
+Day 243 morning, Cyfaraun. Everyone alive and cured of the rot, but battered (Brennus 9/27, Neris 4, Marcellus 4,
+Gnaeus 2, Hrodvar 2). The table means to find a priest who can regrow Neris' ear, Marcellus' fingers and Brennus'
+toe, and then to think hard about the mummies' stare, which has turned every tomb fight into a near thing. The
+Tower names the bone-handled scroll on day 247.
 
 ## Epilogue: Quirinus
 For ten mornings Quirinus woke on his pallet under the Solar Citadel's oculus and found himself a little less than he
@@ -158,3 +162,13 @@ axe sharp. It did right by me."
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 10). Slips, voids, findings and corrections: Playtest/judge-notes.txt (S10 section).
+> Quirinus' enervation saves days 220-229: F F P F F P F F P P (max hp 10 -> 4); recovered day 229.
+> Encounters: vicar of Ammonar (6 Neutral -> Friendly after two influences); 4 tunnel prawns (D4, intimidated);
+> jackals of darkness 20, 18 (D5); bronze cobras 11, 11 (G21); 3 HD insect swarm (G20, shut out); E3 mummy
+> transmogrifier 26 + baboon-viper 25 (orb 20); 4 giant ant workers (overawed); E8 courtier 25 (rebuked); E9
+> nightblade 26 (oil); Guildhouse banker (Friendly after influence); tax official (Friendly, bribed, day 223);
+> Liber Faunus (natural 12, Friendly, day 241); 5 tunnel prawns (hostile after a natural 2 influence); H25 Telith
+> mummy 25; H22 embalmer 27 + 11 potence, 12 sepulchral worms, shrieking skull; 3 HD insect swarm (H22, intimidated).
+> Attention rolls: hits at 24,000 and 38,000 (day 241). Tax checks: day 223 (16%: questioned, bribed), day 241 (5%: no).
+> Investments month 8: 57 (Return 7gp), 5 (Delay, cause 7, 5 months). NPCs invented: Decimus, Calpurnia, Titus
+> Aurelianus (all let go), the vicar, the banker, the tax official.

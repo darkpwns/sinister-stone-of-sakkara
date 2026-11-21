@@ -67,3 +67,21 @@ The legate (Neutral, Genelen vouching) paid the 2,000gp reward. Payout: 2,065 tr
 
 ## Between adventures (day 161)
 AX1 complete. Aulus and Marcia got cenotaphs paid from their estates (funeral XP for their players' next characters: Gideon 1,337, Priya 1,989). Sabina, Tarq, Lucilla and Vettius go on adventuring with Hesper; Zaira retires (one leg); Vestus is free in Türos Tem. Engine 7.13.4: the S07 gaps fixed, and the season now follows the calendar (it had stayed spring for 161 days; today is summer).
+
+## S10 (2026-11-21): days 219-243
+- Quirinus' enervation: Salving Rest and two pinnacles of good (hospital courtyard, the Citadel's oculus); ten
+  saves, max hp 10 -> 4, recovered on day 229; retired with an epilogue.
+- Six expeditions (13-17 and the town work): D5 altar vault (jackals of darkness), H12 / H17 / G21 temple treasury
+  (bronze cobras, a warded door opened by rope), E3 transmogrifier and baboon-viper (death orb), E7-E9 (courtier
+  rebuked, nightblade burned off the ceiling), H25 Telith priest, H22 embalmer with 12 sepulchral worms and a
+  shrieking skull (three of the party down and saved; eight with mummy rot, cured). No deaths.
+- Treasure brought out about 30,000gp; levels: Iulia Cru4, Brennus F4, Neris Pr3, Lucilla Ven5, Vettius Thf5,
+  Vestus M3, henchmen to 2nd-3rd. Strength 23 -> 37.
+- Town: Guildhouse banking, the tax-collector law (batching sales), the Argollëan Family's attention and Liber
+  Faunus' 80% deal, Lucilla's caravan investments (passive), spellbook identification at the Tower.
+- Engine findings (judge-notes S10): rest-day ignores a Healing proficiency on the actor; damage ignores worn
+  fire resistance; bribes ignore the venturer's Bribery power; `payout --sale` reports no level and no key-attribute
+  bonus; a two-statblock note cannot be added by `encounter fight`; monster second weapons (the whip) fall back to
+  the slam; no mummy rot is recorded from a slam or a worm bite; spell scrolls are priced at the 1st level;
+  `identify --method judge` does not set identified; force-door does not refuse while an encounter is pending;
+  caches cannot hold treasure lots; identification writes the item note's file name to the player record.

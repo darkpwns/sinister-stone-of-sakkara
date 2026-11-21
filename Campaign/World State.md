@@ -87,9 +87,18 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Prep queue (Judge only)
 - Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
-- Strength floors (Rulings S09): Upper 18, Lower 24, Deep 30, Abyssal 39, Sub-Abyssal 48; party 23 on day 219 (Septima dead). Lower-band targets left: H17 vestry (scroll jars, 675gp of record scrolls), H18 mosaic gallery, H19 -> G19 (Grand Chthonic Temple), C5 (secret door behind C3's centre grave: 2 mummies, 5,125gp), C6 (from C2a: Deep route), C12 graves, F (via C12 bronze door or E6b), M (white apes). Slab tombs in H (H6, H7-H8, H13, H16, H21, H22, H25) all hold 6 HD mummies; H14 holds 480 skeletons (wakes on entry); H12 embalming materials raise the embalmer's wraith (one wraith already destroyed at H11 as a wanderer: Judge's call whether it was he).
-- Upper-band targets left: D5 altar vault (slab -12; 5,300gp; two jackals of darkness), D6b secret door (48 skeletons), D2 (Eolande), E7-E9 mummy tombs (via D9 or E2b).
-- Threads: Tavus Ionicus (rumour 20 -> Vagrant Colony #75u, AX3) untouched; the Horned Rat wererats seek the way in (they took the A1 hole for a drain on day 195); the Argollean Family wants the source of elven antiquities (attention rolls).
-- NPCs invented S09: Varro, Hrodvar, Septima (dead), Aelia, Marcellus, Gnaeus, Nysa (dismissed day 211, in Cyfaraun), Kaeso and Sextus (refused), Galla, Opimius, C25, C27, C29 (not hired).
-- Next market month: day 241. Wages: Quirinus, Phaedra, Varro, Hrodvar through day 249-256; Aelia, Marcellus through 233; Gnaeus through 240.
-- Bodies: Ottar's coin (303gp) and gear left in B3 (body:ottar); Septima's body carried to Cyfaraun (body:septima: burial owed).
+- Strength 37 on day 243 (Deep 30, Abyssal 39). Party rule: keep henchmen, hire only below the floor (Rulings S10).
+- S11 aims (user): regenerate wounds (Repair Disfigurement and Disability, divine 4th: Prelate Romus, Patriarch
+  Arëtar, temples' spellcasting; `restore --limbs`); then the party's plan against the mummies' horrific visage.
+- Lower targets left: H6 (princess, snakes), H7-H8 (warlord + 8 skeletons), H13 (bard), H16 (astrologer: telescope,
+  crystal ball, charts, spellbook), H21 (inquisitor, berserkers), H26 secret stair (to P5, Sub-Abyssal); C5 secret
+  sepulchre; G (faewyrd; purification at G4), G9-G13; M caves. Deep: I (troglodytes ~100, alerted; shaman parleys),
+  J (doom temple, via I7 or I9's hatch).
+- Threads: Liber Faunus (Friendly; wants news of the Nethercity); Patriarch Arëtar (evidence of the Awakening;
+  Captain of the Underwatch office); Rector Drusus (took Quirinus into the Citadel Guard); the party lodges at the
+  Silk Pony (Sand & Bones, the Family's rival); Tavus Ionicus (AX3 rumour 20); the Horned Rat wererats.
+- Scheduled: day 247 Tower identification of L126; day 250 Phaedra's wage; day 257 Varro, Hrodvar; day 263 Aelia,
+  Marcellus; day 270 Gnaeus and month 9's end (investment 1 vagary); day 271 month 10 selling day (opals). Stalls
+  owed from day 243.
+- NPCs invented S10: Decimus (explorer, let go), Calpurnia (mage 2, let go), Titus Aurelianus (crusader 1, let go),
+  the vicar of Ammonar (grey-templed, measured), a Guildhouse banker (plump, bored), a tax official (sharp-nosed).

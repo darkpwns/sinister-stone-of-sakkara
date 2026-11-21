@@ -232,3 +232,67 @@ carrier); set B/C/H location settings (temple/tomb level 4 for B and H; sewer le
 (ties: the side with fewer combatants chooses); apply a save before its damage; equip magic weapons before a delve
 (`use L#`, `inv give`, `inv wield`); the grey goo's slam destroys armour instead of damaging an armoured target; Neris'
 Laying on Hands each day on rest days. Helpers: Playtest/tools/s09_j.sh (source it), choke.py, brawl.py.
+
+## S10 (2026-11-21) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools unchanged at 7.13.7). Helpers: `Playtest/tools/s10_j.sh`
+(source it; `LC=phaedra` is the light carrier; `cadd`/`crem`, `miasma`, `clearmiasma`, `t`) and
+`Playtest/tools/melee2.py` (one combat round in initiative order: `python3 Playtest/tools/melee2.py a,b,c
+"id:NAME:+N"`; it resolves only plain melee: do spells, visage saves, worms, oil and holy water by hand).
+
+**State on resume:** day 243 06:02, fall, Cyfaraun (18.05), mode town, Silk Pony Inn. No adventure open (A22 paid
+out). Session 10 ended; start S11.
+
+**Party (12), strength 37** (Deep floor 30; Abyssal 39): Lucilla Ven5 21/21 (Rosa, caller), Vettius Thf5 18/21
+(Tomasz), Iulia Cru4 16/23 (Gideon), Vestus M3 9/9 (Priya; Mage Missile, Protection from Evil, Fan of Flames;
+Webbing, Burning Sparks), Neris Pr3 4/7 (Ingrid), Brennus F4 9/27 (Kwame). Henchmen: Phaedra M2 6/6 (Vettius';
+Slumber, Fan of Flames; the light carrier), Varro F2 8/8, Hrodvar Vaultguard 2 2/5 (Iulia's; Healing), Aelia Bard 3
+9/12, Marcellus F2 4/11 (Sword +1 Death Drinker), Gnaeus Explorer 2 2/9 (Battle Axe +1) (Varro, Aelia, Marcellus,
+Gnaeus are Lucilla's). Iulia and Neris now have recorded prayerful repertoires (Iulia's had never been recorded
+before S10). Retired/let go this session: Quirinus (recovered day 229 at max hp 4; Citadel Guard; epilogue in the
+S10 log), Decimus, Calpurnia, Titus. Phaedra and Gnaeus were let go and taken back on day 233.
+
+**Permanent wounds now:** Neris an ear bitten off (day 242); Marcellus two fingers off one hand (242); Brennus one
+toe off one foot (242), plus an ear torn off, six teeth, gruesome scarring (S09); Lucilla an eye and an ear (S06-S07),
+minor scarring. All in the actors' conditions.
+
+**User's instructions for S11 (also in the next-session prompt):**
+1. The party's next aim is to find someone to regenerate the ear, fingers and toes. Leads: *Repair Disfigurement and
+   Disability* is a divine 4th-level spell (Crusader repertoire row 8; RR); in Cyfaraun, Prelate Romus (Crusader 7,
+   one 4th-level spell a day) and Patriarch Arëtar (Crusader 10) of the Solar Citadel, and the temples
+   (`spellcasting --type divine --level 4`, 185gp a casting by RR; availability by market class, Lucilla's network
+   makes Cyfaraun class II). The engine's `restore ID ... --limbs N` applies the spell (R/xp-treasure.md §7). The
+   vicar of Ammonar is Friendly (day 221); Arëtar wants evidence of the Awakening (the party has plenty: the font
+   inscription, the mosaics of H18 and G20, the record scrolls of H17, the family tomb inscription E7).
+2. Then the party brainstorms a way around the mummies' horrific visage (it has crippled every mummy fight: Paralysis
+   save each round of looking, −1 per extra mummy, −1 per 3 worms; failure cowers; success immune 1 turn). Play the
+   brainstorm by the profiles; rules to look up before ruling: RR Fear (Monster Ability) and Horrific Visage (MM
+   Mummy), Remove Fear (divine 1st, Iulia and Neris have it), Holy Blessing and Inspire Courage (+1 vs magical fear;
+   the "blessed/inspired" bonuses do not stack), the Fearlessness proficiency (if any), averting the eyes / fighting
+   blind (no rule found yet: a Judge's ruling, record it), rebuking before the slab opens, missiles and fire from
+   out of sight, potions or items against fear. Record what the party settles on in the party notes.
+
+**Money and time:** coin in the Guildhouse (`guildhouse-bank`) and the Silk Pony strongbox (`silk-pony-strongbox`);
+the four opals L156-L159 wait in the strongbox for month 10's first selling day (day 271; this month's check is 28%).
+Elven relics go to Liber Faunus at 80% (Rulings S10, no tax check, no attention rolls). L126 (the encrypted
+transmogrifier's spellbook, worth 31,750gp) is at the Tower of Knowledge: identification ready **day 247** (then sell
+it through Liber or openly, or keep it). Wages: Phaedra due **day 250**, Varro and Hrodvar 257, Aelia and Marcellus
+263, Gnaeus 270. **Silk Pony stalls (mule1, donkey1, donkey2, cart) paid only through day 242: owed from 243** (2sp a
+stall a day; or sell the animals). Lucilla's investments: textile caravan (balanced, 700gp) rolls at each month's end
+(next day 270); coast caravan (risky, 700gp) delayed, no return until month 13's end. Military oil and holy water: the
+month-9 stock is mostly bought (holy water: none left until day 271).
+
+**Henchman rule (user, S10):** the party keeps its henchmen and hires only when strength falls below the floor of
+the band it is working (Rulings S10 supersedes the S09 "keep only what the floor needs").
+
+**Nethercity state:** see World State. Emptied: B, D5, E3, E7-E9, G19-G21, H12, H17, H22 (urn charms and hook taken;
+chest of natron, jars and the sarcophagi left), H25 (sarcophagus left; secret door to H26 found, not opened). Still
+sealed in H: H6, H7-H8, H13, H16, H21 (the inquisitor, summons berserkers). G: faewyrd (purify at G4 or fight with
+magic), G9, G10-G13, G14 (Abyssal), G16 statue. I: the troglodyte tribe (~100; alerted). J: the doom temple.
+
+**Judge reminders from S10's slips (judge-notes S10):** mummy rot bars all magical healing (and Lay on Hands) until
+Cure Disease; record it by hand on every slam and every grave-worm bite. Rest every 5 turns before the cliff/rope.
+Never let a loop roll past an arriving encounter or a fallen character (check after every roll). Relight torches only
+when they burn out. Spell scrolls: set `true.base_gp` by spell level before selling (the engine uses 1st level).
+A mage's reading of a spellbook: `identify --method judge --reveal` does not mark it identified: fix `identified`
+before `sell`. `inv give A B Ngp` moves coins between party holders. A cache cannot carry lots: drop them "at the
+Silk Pony strongbox" and `recover --give` them back.
