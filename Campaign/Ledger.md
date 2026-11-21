@@ -1113,3 +1113,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 233 |  | treasure share |  | 23gp 6cp |  | aelia |
 | 233 |  | treasure share |  | 23gp 6cp |  | marcellus |
 | 233 |  | treasure share |  | 23gp 6cp |  | gnaeus |
+| 233 | Tower of Knowledge (#50), full identification | Vestus' deposit: full identification of the bone-handled scroll L126 (2,000gp, two weeks; AX3 p. 152) |  |  | 2,000gp | guildhouse-bank |
+| 240 | Silk Pony Inn (#25) | beds for twelve, nights of days 233-239 (7 nights at 2gp 4sp) |  |  | 16gp 8sp | lucilla |
+| 241 | Silk Pony Inn (#25) | beds for twelve, night of day 240 |  |  | 2gp 4sp | lucilla |
+| 241 | a caravan master of the Merchant Guildhouse | investment 1 return, month 8 (1% of 700gp) |  | 7gp |  | lucilla |

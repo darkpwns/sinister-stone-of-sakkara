@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 233
-  time: '11:05'
+    day: 241
+  time: 06:00
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; partly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.007
+    encumbrance_st: 9.002
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -38,25 +38,22 @@ public:
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 4
+    hp: 9
     hp_max: 9
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 7
     hp_max: 7
     conditions: []
-    spells_used:
-    - Holy Blessing
+    spells_used: []
     encumbrance_st: 2.581
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 17
+    hp: 23
     hp_max: 23
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
@@ -67,12 +64,11 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 17
+    hp: 23
     hp_max: 23
     conditions:
     - minor scarring (puncture wound)
-    spells_used:
-    - Holy Blessing
+    spells_used: []
     encumbrance_st: 8.248
   - name: Hrodvar
     sheet: Characters/hrodvar.json
@@ -147,7 +143,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 233
+clock_day: 241
 ---
 # Campaign State
 
