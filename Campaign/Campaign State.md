@@ -4,17 +4,17 @@ tags:
 - sakkara/campaign
 session: 8
 mode: town
-location: '[[Turos Tem]]'
+location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), the journey to Cyfaraun
 public:
   date:
     year: ''
     season: summer
-    day: 171
-  time: '10:20'
-  weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; clear; wind strong
-  place: Türos Tem
-  hex: '23.10'
+    day: 173
+  time: 08:20
+  weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; misty; wind still
+  place: Cyfaraun
+  hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -72,17 +72,10 @@ public:
     conditions: []
     spells_used: []
   light: none
-  rations: 'Sabina: food 8 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0 d (incapacitated); Hesper: food 9 d, water 1 d; Vestus the Unlikely: food 16 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 6 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 5 d, water 1 d; Vettius: food 5 d, water 0 d (incapacitated); Hesper: food 7 d, water 1 d; Vestus the Unlikely: food 14 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '19.19'
-  - '20.19'
-  - '21.20'
-  - '22.20'
-  - '23.20'
-  - '24.19'
-  - '25.19'
   - '26.18'
   - '26.17'
   - '27.17'
@@ -96,7 +89,14 @@ public:
   - '24.11'
   - '23.11'
   - '23.10'
-clock_day: 171
+  - '22.09'
+  - '21.09'
+  - '20.08'
+  - '20.07'
+  - '19.07'
+  - '18.06'
+  - '18.05'
+clock_day: 173
 ---
 # Campaign State
 

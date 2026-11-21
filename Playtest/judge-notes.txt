@@ -96,3 +96,4 @@ Judge's call day 166: Hazard (JJ Terrain Encounters) "brittle ledges" in grassla
 Void day 167: 'valuable terrain (despoiled)' 1d20 -> 10 rolled on the wrong die (table is 1d12); rerolled 1d12.
 Finding day 171: retinue-state 'spellcasting' was null; hire.spellcasting's setdefault() returned None and crashed (AttributeError). Set to {} by hand.
 Finding day 171: again, mounts dismount left Vettius in donkey2's riders_st; removed by hand (the dismount seems not to clear riders_st at all).
+Finding day 171: a passenger's bed rest counts while travelling under a Healing character's care (RR; travel.py 1507), but only rest-day sets cared_by: no command sets it for travel days. Judge: Vettius' travel days in cart1 under Sabina's care are credited by hand on arrival (heal --bed-rest remaining).
