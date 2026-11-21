@@ -417,3 +417,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 190 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
 | 190 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
 | 190 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 190 | Silk Pony Inn (#25) | beds for nine, night of day 190 |  |  | 1gp 8sp | lucilla |

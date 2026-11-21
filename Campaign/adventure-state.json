@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 9,
-  "L": 68,
+  "L": 69,
   "H": 0,
-  "M": 25
+  "M": 26
  },
  "adventure": {
   "id": "A9",
@@ -153,6 +153,34 @@
     "xp_before": 1702,
     "level_before": 2,
     "class": "Crusader"
+   },
+   "quirinus": {
+    "id": "quirinus",
+    "name": "Quirinus",
+    "actor": "quirinus",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 0,
+    "level_before": 2,
+    "class": "Fighter"
+   },
+   "phaedra": {
+    "id": "phaedra",
+    "name": "Phaedra",
+    "actor": "phaedra",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 0,
+    "level_before": 1,
+    "class": "Mage"
    }
   },
   "monsters": [
@@ -163,6 +191,14 @@
     "number": 1,
     "how": "killed",
     "xp_each": 135
+   },
+   {
+    "id": "M26",
+    "monster": "Insect Swarm",
+    "source": "Insect Swarm",
+    "number": 3,
+    "how": "killed",
+    "xp_each": 29
    }
   ],
   "awards": [],
@@ -5391,6 +5427,39 @@
    "used": false,
    "sold": null,
    "judge": []
+  },
+  "L69": {
+   "id": "L69",
+   "adventure": "A9",
+   "kind": "coins",
+   "qty": 30,
+   "stone": 0.03,
+   "carrier": "quirinus",
+   "status": "carried",
+   "found": {
+    "day": 191,
+    "where": "A3 wall graves (15, 3100 BE)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 30,
+    "value_gp": 30.0,
+    "stone": 0.03,
+    "name": "30 gold pieces"
+   },
+   "player": {
+    "desc": "30 gold pieces",
+    "value_gp": 30.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
   }
  },
  "hoards": {},
@@ -5506,6 +5575,14 @@
   "iulia": {
    "id": "iulia",
    "actor": "iulia"
+  },
+  "quirinus": {
+   "id": "quirinus",
+   "actor": "quirinus"
+  },
+  "phaedra": {
+   "id": "phaedra",
+   "actor": "phaedra"
   }
  }
 }
