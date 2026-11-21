@@ -2,26 +2,10 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 187,
-  "round_of_day": 575,
-  "total_rounds": 267935
+  "round_of_day": 686,
+  "total_rounds": 268046
  },
  "party": {
-  "sabina": {
-   "id": "sabina",
-   "actor": "sabina",
-   "name": "Sabina",
-   "perceived": "Sabina",
-   "conditions": [],
-   "endurance": false
-  },
-  "tarq": {
-   "id": "tarq",
-   "actor": "tarq",
-   "name": "Tarq",
-   "perceived": "Tarq",
-   "conditions": [],
-   "endurance": true
-  },
   "lucilla": {
    "id": "lucilla",
    "actor": "lucilla",
@@ -36,14 +20,6 @@
    "actor": "vettius",
    "name": "Vettius",
    "perceived": "Vettius",
-   "conditions": [],
-   "endurance": false
-  },
-  "hesper": {
-   "id": "hesper",
-   "actor": "hesper",
-   "name": "Hesper",
-   "perceived": "Hesper",
    "conditions": [],
    "endurance": false
   },
@@ -95,9 +71,9 @@
    "id": "lantern1",
    "kind": "lantern",
    "carrier": "vettius",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 105,
+   "rounds_left": 0,
    "tallow": false
   },
   {
@@ -113,61 +89,52 @@
    "id": "torch43",
    "kind": "torch",
    "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch44",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch45",
+   "kind": "torch",
+   "carrier": "ottar",
    "lit": true,
    "closed": false,
-   "rounds_left": 20,
+   "rounds_left": 44,
    "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 0,
+  "rounds_since_rest": 61,
   "rest_rounds": 0,
-  "winded": []
+  "winded": [
+   "lucilla",
+   "vettius",
+   "vestus-the-unlikely",
+   "neris",
+   "ottar"
+  ]
  },
- "location": {
-  "site": "Nethercity D - Warlord's Tomb and Chapel to Bel",
-  "kind": "dungeon",
-  "level": 4,
-  "room": "D7 Upper Level Grand Balcony (door)",
-  "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
-  },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
-  "source": {
-   "wandering": "site setting: '1d6 every 3 turns, 6+'"
-  }
- },
+ "location": null,
  "wandering": {
-  "turns_since_check": 2,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 187 09:10",
+   "at": "day 187 11:10",
    "roll": 3,
-   "target": 6,
+   "target": 5,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 142 08:40",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 142 09:00",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 142 09:20",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 142 09:40",
     "roll": 5,
@@ -269,13 +236,31 @@
     "roll": 3,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 187 09:40",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 187 10:40",
+    "roll": 6,
+    "target": 5,
+    "encounter": true
+   },
+   {
+    "at": "day 187 11:10",
+    "roll": 3,
+    "target": 5,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 267930
+  "turn_start_done": 268040
  },
  "turn_actions": {
-  "turn": 26793,
+  "turn": 26804,
   "listened": [],
   "actions": []
  },
@@ -1041,8 +1026,8 @@
    "rest_rounds": 0
   },
   "187": {
-   "delve_rounds": 155,
-   "rest_rounds": 40
+   "delve_rounds": 256,
+   "rest_rounds": 50
   }
  },
  "events": [
@@ -2600,8 +2585,8 @@
   }
  ],
  "next_ids": {
-  "enc": 135,
-  "torch": 43,
+  "enc": 137,
+  "torch": 45,
   "t": 5,
   "lantern": 1
  },
@@ -3112,7 +3097,7 @@
       "dungeon": 0.0
      }
     ],
-    "water": 2.6,
+    "water": 0.4,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -3170,7 +3155,7 @@
      "rainy": 0,
      "snowy": 0
     },
-    "dead": false,
+    "dead": true,
     "profs": {
      "labor": false,
      "endurance": false,
@@ -3187,7 +3172,11 @@
     "mount": null,
     "passenger": false,
     "pack": "donkey1",
-    "rest_pending": true
+    "rest_pending": true,
+    "died": {
+     "day": 187,
+     "why": "death"
+    }
    },
    "tarq": {
     "hp": 13,
@@ -3282,7 +3271,7 @@
      "rainy": 0,
      "snowy": 0
     },
-    "dead": false,
+    "dead": true,
     "profs": {
      "labor": false,
      "endurance": true,
@@ -3300,7 +3289,11 @@
     "passenger": false,
     "pack": "donkey1",
     "vehicle": null,
-    "rest_pending": true
+    "rest_pending": true,
+    "died": {
+     "day": 187,
+     "why": "death"
+    }
    },
    "cassia": {
     "hp": 5,
@@ -3942,7 +3935,7 @@
       "dungeon": 0.0
      }
     ],
-    "water": 1.0,
+    "water": 0.0,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -3999,7 +3992,7 @@
      "rainy": 0,
      "snowy": 0
     },
-    "dead": false,
+    "dead": true,
     "profs": {
      "labor": true,
      "endurance": false,
@@ -4017,7 +4010,11 @@
     "passenger": true,
     "pack": null,
     "vehicle": "cart1",
-    "rest_pending": true
+    "rest_pending": true,
+    "died": {
+     "day": 187,
+     "why": "death"
+    }
    },
    "quintus-the-rager": {
     "hp": 7,
@@ -38443,7 +38440,6 @@
     "name": "Cart, Small",
     "cargo": 0.0,
     "riders_st": {
-     "hesper": 22.425,
      "vettius": 23.984
     },
     "food": 0.0,
@@ -38741,22 +38737,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc116",
-   "at": "day 165 10:40",
-   "monster_name": null,
-   "number": null,
-   "reaction": null,
-   "status": "terrain"
-  },
-  {
-   "id": "enc117",
-   "at": "day 166 08:27",
-   "monster_name": "Small Herd Animal",
-   "number": 39,
-   "reaction": null,
-   "status": "begun"
-  },
-  {
    "id": "enc118",
    "at": "day 166 12:53",
    "monster_name": null,
@@ -38899,6 +38879,22 @@
    "number": 6,
    "reaction": null,
    "status": "surprise rolled"
+  },
+  {
+   "id": "enc136",
+   "at": "day 187 10:40",
+   "monster_name": "Luminous Beetle",
+   "number": 2,
+   "reaction": "indifferent",
+   "status": "reaction"
+  },
+  {
+   "id": "enc137",
+   "at": "day 187 11:10",
+   "monster_name": "Rhagodessa (AX3)",
+   "number": 3,
+   "reaction": "unfriendly",
+   "status": "fighting"
   }
  ]
 }

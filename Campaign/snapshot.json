@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795262140,
+ "generated": 1795262625,
  "date": {
   "year": "",
   "season": "fall",
   "day": 187
  },
- "time": "09:35",
+ "time": "11:26",
  "weather": "Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -26,33 +26,6 @@
    "encumbrance_st": 9.147
   },
   {
-   "name": "Sabina",
-   "sheet": "Characters/sabina.json",
-   "role": "pc",
-   "hp": 15,
-   "hp_max": 16,
-   "conditions": [
-    "one eye clawed out (-2 to missile attack throws)"
-   ],
-   "spells_used": [],
-   "encumbrance_st": 8.808
-  },
-  {
-   "name": "Tarq",
-   "sheet": "Characters/tarq.json",
-   "role": "pc",
-   "hp": 7,
-   "hp_max": 13,
-   "conditions": [
-    "raspy voice (-2 to speech throws)",
-    "minor scarring (fang marks on the neck)",
-    "skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)",
-    "one hand bitten off (cannot dual-wield or use two-handed weapons)"
-   ],
-   "spells_used": [],
-   "encumbrance_st": 9.202
-  },
-  {
    "name": "Vettius",
    "sheet": "Characters/vettius.json",
    "role": "pc",
@@ -61,16 +34,6 @@
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 8.793
-  },
-  {
-   "name": "Hesper",
-   "sheet": "Characters/hesper.json",
-   "role": "pc",
-   "hp": 10,
-   "hp_max": 10,
-   "conditions": [],
-   "spells_used": [],
-   "encumbrance_st": 5.416
   },
   {
    "name": "Vestus the Unlikely",
@@ -86,11 +49,12 @@
   {
    "name": "Neris",
    "sheet": "Characters/neris.json",
-   "role": "henchman",
+   "role": "pc",
    "hp": 4,
    "hp_max": 4,
    "conditions": [],
    "spells_used": [
+    "Cure Light Injury",
     "Cure Light Injury"
    ],
    "encumbrance_st": 2.167
@@ -103,11 +67,11 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.333
+   "encumbrance_st": 6
   }
  ],
- "light": "lantern (Vettius) 10 turns 5 rounds left; torch (Ottar) 2 turns left",
- "rations": "Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Vettius) out; torch (Ottar) 4 turns 4 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar",
+ "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -134,311 +98,6 @@
  ],
  "explored_hexes": [],
  "characters": [
-  {
-   "type": "character",
-   "role": "pc",
-   "name": "Hesper",
-   "class": "Fighter",
-   "occupation": "Brewer",
-   "level": 2,
-   "xp": 2889,
-   "xp_bonus": "",
-   "alignment": "",
-   "birthplace": "",
-   "age": 19,
-   "gender": "",
-   "size": "man-sized",
-   "hp_max": 10,
-   "initiative": 0,
-   "surprise": 0,
-   "avoid_surprise": 0,
-   "save_mods": {
-    "paralysis": "",
-    "death": "",
-    "blast": "",
-    "implements": "",
-    "spells": ""
-   },
-   "movement": {
-    "stealth": 0,
-    "climb": 0,
-    "exploration": 90,
-    "combat": 30,
-    "running": 90,
-    "expedition": 18
-   },
-   "healing_rate": "",
-   "mortal_wounds": 0,
-   "class_features": "",
-   "languages": [],
-   "hired": {
-    "date": "day 32",
-    "wage_gp": 12.0,
-    "market": "Turos Tem",
-    "employer": "Lucilla",
-    "terms": ""
-   },
-   "attributes": {
-    "STR": {
-     "score": 12,
-     "mod": 0
-    },
-    "INT": {
-     "score": 9,
-     "mod": 0
-    },
-    "WIL": {
-     "score": 9,
-     "mod": 0
-    },
-    "DEX": {
-     "score": 12,
-     "mod": 0
-    },
-    "CON": {
-     "score": 13,
-     "mod": 1
-    },
-    "CHA": {
-     "score": 13,
-     "mod": 1
-    }
-   },
-   "attack_throw": 9,
-   "saves": {
-    "paralysis": 12,
-    "death": 13,
-    "blast": 14,
-    "implements": 15,
-    "spells": 16
-   },
-   "hit_die": "1d8",
-   "cleaves": 2,
-   "title": "Warrior",
-   "xp_next": 4000,
-   "attack_table": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19
-   ],
-   "proficiencies": {
-    "class": [],
-    "general": [
-     {
-      "name": "Craft (brewing) 2",
-      "throw": ""
-     },
-     {
-      "name": "Labor (milling/mashing)",
-      "throw": ""
-     },
-     {
-      "name": "Folkways",
-      "throw": ""
-     },
-     {
-      "name": "Revelry",
-      "throw": ""
-     },
-     {
-      "name": "Adventuring",
-      "throw": ""
-     }
-    ],
-    "gained_at": ""
-   },
-   "spells": {
-    "repertoire": {
-     "1": [],
-     "2": [],
-     "3": [],
-     "4": [],
-     "5": [],
-     "6": []
-    },
-    "per_day": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   "gear": {
-    "back": {
-     "item": "Short Bow",
-     "items": 1,
-     "stone": 0
-    },
-    "armor": {
-     "item": "Hide and Fur Armor",
-     "stone": 1
-    },
-    "right_hand": {
-     "item": "Spear",
-     "items": 0,
-     "stone": 1
-    },
-    "left_hand": {
-     "item": "Shield",
-     "items": 0,
-     "stone": 1
-    },
-    "belt": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "head": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "pouch": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "hidden": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "backpack": {
-     "contents": [
-      "Dagger",
-      "Waterskin ×5",
-      "arrow ×19",
-      "torch ×3"
-     ],
-     "items": 10,
-     "stone": 0
-    },
-    "sack": {
-     "contents": [],
-     "items": 0,
-     "stone": 0
-    },
-    "worn": {
-     "contents": [
-      "Backpack (holds 4 stone)",
-      "Boots, Leather, Low",
-      "Tunic and Pants, Crafter/Freeholder"
-     ],
-     "items": 1,
-     "stone": 0
-    }
-   },
-   "coins": {
-    "pp": 0,
-    "ep": 0,
-    "gp": 406,
-    "sp": 7,
-    "cp": 3
-   },
-   "encumbrance_st": 5.416,
-   "weapons": [
-    {
-     "name": "Spear",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6+1",
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "held": "right hand"
-    },
-    {
-     "name": "Short Bow",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6+1",
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "held": "back"
-    },
-    {
-     "name": "Dagger",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d4+1",
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "held": "backpack"
-    }
-   ],
-   "gems": "",
-   "treasure": [],
-   "proficiency_throws": {
-    "climbing": 8,
-    "dungeonbashing": 18,
-    "listening": 18,
-    "searching": 18,
-    "trapbreaking": 18
-   },
-   "ac": {
-    "shield": 2,
-    "no_shield": 1,
-    "dex_only": 0
-   },
-   "sheet": {
-    "profile": "fighter",
-    "class": "Fighter",
-    "caster": false,
-    "magic": "none",
-    "panels": [
-     "header",
-     "attributes",
-     "combat",
-     "weapons",
-     "adventuring_throws",
-     "proficiencies",
-     "class_powers",
-     "possessions",
-     "retinue"
-    ],
-    "level": 2,
-    "max_level": 14,
-    "class_skills": {},
-    "level_columns": {
-     "Damage Bonus": {
-      "value": "+1",
-      "kind": "damage-bonus",
-      "table": "fighter-level-progression",
-      "row": 1
-     }
-    },
-    "powers": {
-     "starting": [
-      "Manual of Arms"
-     ],
-     "gained": [],
-     "next": [
-      {
-       "level": 5,
-       "power": "Battlefield Prowess"
-      }
-     ]
-    }
-   }
-  },
   {
    "type": "character",
    "role": "pc",
@@ -542,8 +201,8 @@
      "stone": 4
     },
     "right_hand": {
-     "item": "",
-     "items": 0,
+     "item": "Dagger",
+     "items": 1,
      "stone": 0
     },
     "left_hand": {
@@ -587,10 +246,8 @@
      "stone": 1
     },
     "sack": {
-     "contents": [
-      "Dagger"
-     ],
-     "items": 1,
+     "contents": [],
+     "items": 0,
      "stone": 0
     },
     "worn": {
@@ -624,7 +281,7 @@
       "medium": 30,
       "long": 45
      },
-     "held": "sack"
+     "held": "right hand"
     }
    ],
    "treasure": [
@@ -720,7 +377,7 @@
   },
   {
    "type": "character",
-   "role": "henchman",
+   "role": "pc",
    "name": "Neris",
    "class": "Priestess",
    "occupation": "",
@@ -964,7 +621,8 @@
      "proficiencies",
      "class_powers",
      "spells",
-     "possessions"
+     "possessions",
+     "retinue"
     ],
     "level": 1,
     "max_level": 14,
@@ -1261,9 +919,9 @@
     "backpack": {
      "contents": [
       "Waterskin ×5",
-      "torch ×8"
+      "torch ×6"
      ],
-     "items": 13,
+     "items": 11,
      "stone": 0
     },
     "sack": {
@@ -1286,7 +944,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.333,
+   "encumbrance_st": 6,
    "weapons": [
     {
      "name": "Spear",
@@ -1329,730 +987,6 @@
      "proficiencies",
      "possessions"
     ]
-   }
-  },
-  {
-   "type": "character",
-   "role": "pc",
-   "name": "Sabina",
-   "class": "Crusader",
-   "level": 4,
-   "xp": 6598,
-   "alignment": "Lawful",
-   "age": 21,
-   "gender": "female",
-   "hp_max": 16,
-   "attributes": {
-    "STR": {
-     "score": 12,
-     "mod": 0
-    },
-    "INT": {
-     "score": 6,
-     "mod": -1
-    },
-    "WIL": {
-     "score": 16,
-     "mod": 2
-    },
-    "DEX": {
-     "score": 15,
-     "mod": 1
-    },
-    "CON": {
-     "score": 15,
-     "mod": 1
-    },
-    "CHA": {
-     "score": 9,
-     "mod": 0
-    }
-   },
-   "attack_throw": 9,
-   "saves": {
-    "paralysis": 12,
-    "death": 9,
-    "blast": 15,
-    "implements": 12,
-    "spells": 14
-   },
-   "hit_die": "1d6",
-   "cleaves": 2,
-   "title": "Curate",
-   "xp_next": 12000,
-   "attack_table": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19
-   ],
-   "proficiencies": {
-    "class": [
-     {
-      "name": "Divine Blessing",
-      "throw": ""
-     },
-     {
-      "name": "Healing",
-      "throw": ""
-     }
-    ],
-    "general": [
-     {
-      "name": "Adventuring",
-      "throw": ""
-     },
-     {
-      "name": "Theology 2",
-      "throw": ""
-     }
-    ]
-   },
-   "gear": {
-    "back": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "armor": {
-     "item": "Banded Plate Armor",
-     "stone": 5
-    },
-    "right_hand": {
-     "item": "Mace",
-     "items": 1,
-     "stone": 0
-    },
-    "left_hand": {
-     "item": "Shield",
-     "items": 0,
-     "stone": 1
-    },
-    "belt": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "head": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "pouch": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "hidden": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "backpack": {
-     "contents": [
-      "Letter of recommendation (Genelen)",
-      "Mace",
-      "Waterskin ×4"
-     ],
-     "items": 6,
-     "stone": 0
-    },
-    "sack": {
-     "contents": [
-      "Holy Symbol",
-      "Waterskin ×2"
-     ],
-     "items": 3,
-     "stone": 0
-    },
-    "worn": {
-     "contents": [
-      "Backpack (holds 4 stone)",
-      "Belt/Sash, Embossed Leather",
-      "Boots, Leather, High",
-      "Cassock, Linen or Wool",
-      "Sack, Small (holds 2 stone)"
-     ],
-     "items": 2,
-     "stone": 0
-    }
-   },
-   "coins": {
-    "pp": 0,
-    "ep": 0,
-    "gp": 793,
-    "sp": 7,
-    "cp": 8
-   },
-   "encumbrance_st": 8.808,
-   "weapons": [
-    {
-     "name": "Mace",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6",
-     "range": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-     },
-     "held": "right hand"
-    },
-    {
-     "name": "Mace",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6/1d8",
-     "range": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-     },
-     "held": "backpack"
-    }
-   ],
-   "treasure": [
-    {
-     "id": "L5",
-     "looks": "a vial of brown syrup smelling faintly of honey",
-     "qty": 1,
-     "apparent_value_gp": 250,
-     "magical": true,
-     "stone": 0.167
-    },
-    {
-     "id": "L30",
-     "looks": "a bone scroll case with a scroll in an ancient script",
-     "qty": 1,
-     "apparent_value_gp": 1000,
-     "magical": true,
-     "known": [
-      "identified by Annalist Socolo (Friendly, free",
-      "AX1 p. 30)"
-     ],
-     "stone": 0.167
-    },
-    {
-     "id": "L43",
-     "looks": "a vial of tan fluid smelling of mocha",
-     "qty": 1,
-     "apparent_value_gp": 25,
-     "magical": true,
-     "stone": 0.167
-    },
-    {
-     "id": "L44",
-     "looks": "a vial of pale amber, jasmine and vanilla",
-     "qty": 1,
-     "apparent_value_gp": 500,
-     "magical": true,
-     "known": [
-      "Socolo: a philter of love"
-     ],
-     "stone": 0.167
-    },
-    {
-     "id": "L46",
-     "looks": "a scroll in an ancient script",
-     "qty": 1,
-     "apparent_value_gp": 1000,
-     "magical": true,
-     "known": [
-      "Socolo: a scroll of ward against undead, in Ancient Zaharan"
-     ],
-     "stone": 0.167
-    }
-   ],
-   "spells": {
-    "repertoire": {
-     "1": [
-      "Counterspell",
-      "Cure Light Injury",
-      "Destroy Dead",
-      "Discern Evil",
-      "Discern Magic",
-      "Holy Circle",
-      "Illumination",
-      "Remove Fear",
-      "Sling Stone",
-      "Word of Command"
-     ],
-     "2": [
-      "Augury",
-      "Delay Poison",
-      "Energy Protection",
-      "Halt Humanoids",
-      "Holy Blessing",
-      "Holy Chant",
-      "Noiselessness",
-      "Physical Protection",
-      "Righteous Wrath",
-      "Spiritual Weapon"
-     ],
-     "3": [],
-     "4": [],
-     "5": [],
-     "6": []
-    },
-    "per_day": [
-     2,
-     2,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   "movement": {
-    "exploration": 60,
-    "combat": 20,
-    "running": 60,
-    "expedition": 12
-   },
-   "proficiency_throws": {
-    "climbing": 8,
-    "dungeonbashing": 18,
-    "listening": 18,
-    "searching": 18,
-    "trapbreaking": 18
-   },
-   "ac": {
-    "shield": 7,
-    "no_shield": 6,
-    "dex_only": 1
-   },
-   "sheet": {
-    "profile": "crusader",
-    "class": "Crusader",
-    "caster": true,
-    "magic": "divine",
-    "panels": [
-     "header",
-     "attributes",
-     "combat",
-     "weapons",
-     "adventuring_throws",
-     "proficiencies",
-     "class_powers",
-     "spells",
-     "possessions",
-     "retinue"
-    ],
-    "level": 4,
-    "max_level": 14,
-    "class_skills": {},
-    "level_columns": {},
-    "powers": {
-     "starting": [
-      "Divine Magic",
-      "Rebuke Undead",
-      "Theology"
-     ],
-     "gained": [],
-     "next": [
-      {
-       "level": 5,
-       "power": "Minor Magical Research"
-      }
-     ]
-    },
-    "prayerful_repertoire": {
-     "1": [
-      "Counterspell",
-      "Cure Light Injury",
-      "Destroy Dead",
-      "Discern Evil",
-      "Discern Magic",
-      "Holy Circle",
-      "Illumination",
-      "Remove Fear",
-      "Sling Stone",
-      "Word of Command"
-     ],
-     "2": [
-      "Augury",
-      "Delay Poison",
-      "Energy Protection",
-      "Halt Humanoids",
-      "Holy Blessing",
-      "Holy Chant",
-      "Noiselessness",
-      "Physical Protection",
-      "Righteous Wrath",
-      "Spiritual Weapon"
-     ],
-     "3": [
-      "Dispel Magic",
-      "Divine Protection",
-      "Holy Circle, Sustained",
-      "Holy Prayer",
-      "Illumination, Perpetual",
-      "Invulnerability to Evil",
-      "Remove Curse",
-      "Rune of Warding",
-      "Spellward",
-      "Striking"
-     ],
-     "4": [
-      "Angelic Aura",
-      "Call of the Regal Pride",
-      "Cure Serious Injury",
-      "Energy Invulnerability",
-      "Inspire Awe",
-      "Neutralize Poison",
-      "Physical Invulnerability",
-      "Repair Disfigurement and Disability",
-      "Smite Undead",
-      "Sunflare"
-     ],
-     "5": [
-      "Atonement",
-      "Blast Ward",
-      "Communion",
-      "Fiery Pillar",
-      "Locate Haunting",
-      "Restore Life and Limb",
-      "Strength of Mind",
-      "True Seeing",
-      "Turn to Dust",
-      "Vigor"
-     ],
-     "6": [
-      "Arrows of the Sun",
-      "Banner of Invincibility",
-      "Blast Ward, Greater",
-      "Dispel Evil",
-      "Hidden Host",
-      "Phoenix Aura",
-      "Prophetic Dream",
-      "Quest",
-      "Salvific Rain",
-      "Summon Winged Herald"
-     ]
-    }
-   }
-  },
-  {
-   "type": "character",
-   "role": "pc",
-   "name": "Tarq",
-   "class": "Barbarian",
-   "level": 3,
-   "xp": 5741,
-   "alignment": "Neutral",
-   "age": 20,
-   "gender": "male",
-   "hp_max": 13,
-   "attributes": {
-    "STR": {
-     "score": 14,
-     "mod": 1
-    },
-    "INT": {
-     "score": 16,
-     "mod": 2
-    },
-    "WIL": {
-     "score": 13,
-     "mod": 1
-    },
-    "DEX": {
-     "score": 12,
-     "mod": 0
-    },
-    "CON": {
-     "score": 10,
-     "mod": 0
-    },
-    "CHA": {
-     "score": 13,
-     "mod": 1
-    }
-   },
-   "attack_throw": 9,
-   "saves": {
-    "paralysis": 12,
-    "death": 13,
-    "blast": 14,
-    "implements": 15,
-    "spells": 16
-   },
-   "hit_die": "1d8",
-   "cleaves": 3,
-   "title": "Marauder",
-   "xp_next": 9000,
-   "attack_table": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19
-   ],
-   "proficiencies": {
-    "class": [
-     {
-      "name": "Combat Reflexes",
-      "throw": ""
-     },
-     {
-      "name": "Running",
-      "throw": ""
-     },
-     {
-      "name": "Endurance",
-      "throw": ""
-     },
-     {
-      "name": "Berserkergang",
-      "throw": ""
-     }
-    ],
-    "general": [
-     {
-      "name": "Adventuring",
-      "throw": ""
-     },
-     {
-      "name": "Gambling",
-      "throw": ""
-     },
-     {
-      "name": "Tracking",
-      "throw": ""
-     },
-     {
-      "name": "Survival",
-      "throw": ""
-     }
-    ]
-   },
-   "gear": {
-    "back": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "armor": {
-     "item": "Arena Armor, Heavy",
-     "stone": 4
-    },
-    "right_hand": {
-     "item": "Battle Axe",
-     "items": 1,
-     "stone": 0
-    },
-    "left_hand": {
-     "item": "Shield",
-     "items": 0,
-     "stone": 1
-    },
-    "belt": {
-     "item": "Net",
-     "items": 0,
-     "stone": 1
-    },
-    "head": {
-     "item": "Helmet, Heavy",
-     "items": 1,
-     "stone": 0
-    },
-    "pouch": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "hidden": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "backpack": {
-     "contents": [],
-     "items": 0,
-     "stone": 0
-    },
-    "sack": {
-     "contents": [
-      "Hand Axe",
-      "Javelin ×3",
-      "Oil, Common (1 pint)",
-      "Waterskin ×5"
-     ],
-     "items": 10,
-     "stone": 0
-    },
-    "worn": {
-     "contents": [
-      "Backpack (holds 4 stone)",
-      "Belt/Sash, Leather",
-      "Sack, Small (holds 2 stone)",
-      "Sandals/Shoes, Leather, Low",
-      "Tunic and Pants, Armiger"
-     ],
-     "items": 2,
-     "stone": 0
-    }
-   },
-   "coins": {
-    "pp": 0,
-    "ep": 0,
-    "gp": 861,
-    "sp": 0,
-    "cp": 8
-   },
-   "encumbrance_st": 9.202,
-   "weapons": [
-    {
-     "name": "Battle Axe",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6+3",
-     "range": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-     },
-     "held": "right hand"
-    },
-    {
-     "name": "Net",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "",
-     "range": {
-      "short": 10,
-      "medium": 15,
-      "long": 20
-     },
-     "held": "belt"
-    },
-    {
-     "name": "Hand Axe",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6+3",
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "held": "sack"
-    },
-    {
-     "name": "Javelin",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6+3",
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "held": "sack"
-    },
-    {
-     "name": "Javelin",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6+3",
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "held": "sack"
-    },
-    {
-     "name": "Javelin",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6+3",
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "held": "sack"
-    }
-   ],
-   "treasure": [
-    {
-     "id": "L62",
-     "looks": "a great axe with a hepatizon crescent blade",
-     "qty": 1,
-     "apparent_value_gp": 25.0,
-     "magical": true,
-     "stone": 0.167
-    }
-   ],
-   "movement": {
-    "exploration": 60,
-    "combat": 20,
-    "running": 60,
-    "expedition": 12
-   },
-   "proficiency_throws": {
-    "climbing": 8,
-    "dungeonbashing": 14,
-    "listening": 18,
-    "searching": 18,
-    "trapbreaking": 18
-   },
-   "sheet": {
-    "profile": "barbarian",
-    "class": "Barbarian",
-    "caster": false,
-    "magic": "none",
-    "panels": [
-     "header",
-     "attributes",
-     "combat",
-     "weapons",
-     "adventuring_throws",
-     "proficiencies",
-     "class_powers",
-     "possessions",
-     "retinue"
-    ],
-    "level": 3,
-    "max_level": 14,
-    "class_skills": {},
-    "level_columns": {
-     "Damage Bonus": {
-      "value": "+2",
-      "kind": "damage-bonus",
-      "table": "barbarian-level-progression",
-      "row": 2
-     }
-    },
-    "powers": {
-     "starting": [
-      "Animal Reflexes",
-      "Natural Proficiency",
-      "Natural Stealth",
-      "Savage Resilience"
-     ],
-     "gained": [],
-     "next": [
-      {
-       "level": 5,
-       "power": "Animal Magnetism"
-      }
-     ]
-    }
    }
   },
   {
@@ -2554,12 +1488,134 @@
  ],
  "open_rolls": [
   {
-   "label": "Ottar surprise",
+   "label": "init Sabina",
    "spec": "1d6",
    "rolls": [
-    2
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Tarq",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Hesper",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Neris",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Ottar",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Tarq paralysis save",
+   "spec": "1d20+1",
+   "rolls": [
+    7
+   ],
+   "total": 8
+  },
+  {
+   "label": "attack Hesper vs the long-legged pale hunter 3",
+   "spec": "1d20",
+   "rolls": [
+    12
+   ],
+   "total": 12
+  },
+  {
+   "label": "damage to the long-legged pale hunter 3",
+   "spec": "1d6+1",
+   "rolls": [
+    1
    ],
    "total": 2
+  },
+  {
+   "label": "Tarq paralysis save",
+   "spec": "1d20+1",
+   "rolls": [
+    13
+   ],
+   "total": 14
+  },
+  {
+   "label": "damage to Hesper",
+   "spec": "2d8",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "Hesper paralysis save",
+   "spec": "1d20",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "damage to Sabina",
+   "spec": "2d8",
+   "rolls": [
+    7,
+    4
+   ],
+   "total": 11
+  },
+  {
+   "label": "Sabina paralysis save",
+   "spec": "1d20+2",
+   "rolls": [
+    1
+   ],
+   "total": 3
   },
   {
    "label": "init Sabina",
@@ -2573,17 +1629,17 @@
    "label": "init Tarq",
    "spec": "1d6",
    "rolls": [
-    5
+    1
    ],
-   "total": 5
+   "total": 1
   },
   {
    "label": "init Lucilla",
    "spec": "1d6",
    "rolls": [
-    1
+    5
    ],
-   "total": 1
+   "total": 5
   },
   {
    "label": "init Vettius",
@@ -2594,23 +1650,7 @@
    "total": 3
   },
   {
-   "label": "init Hesper",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
    "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Neris",
    "spec": "1d6",
    "rolls": [
     3
@@ -2618,76 +1658,193 @@
    "total": 3
   },
   {
-   "label": "init Ottar",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Tarq throws burning military oil at the swarm (11+, miasma -1)",
-   "spec": "1d20-1",
-   "rolls": [
-    19
-   ],
-   "total": 18
-  },
-  {
-   "label": "Vettius throws burning oil at the swarm (11+, DEX +1, miasma -1)",
-   "spec": "1d20",
-   "rolls": [
-    11
-   ],
-   "total": 11
-  },
-  {
-   "label": "Lucilla throws burning oil at the swarm (11+, DEX +1, miasma -1)",
-   "spec": "1d20",
-   "rolls": [
-    17
-   ],
-   "total": 17
-  },
-  {
-   "label": "init Sabina",
+   "label": "init Neris",
    "spec": "1d6",
    "rolls": [
     1
    ],
    "total": 1
+  },
+  {
+   "label": "init Ottar",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Sabina paralysis save",
+   "spec": "1d20+2",
+   "rolls": [
+    8
+   ],
+   "total": 10
+  },
+  {
+   "label": "attack Vettius vs the long-legged pale hunter 1",
+   "spec": "1d20+3",
+   "rolls": [
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "damage to Hesper",
+   "spec": "2d8",
+   "rolls": [
+    6,
+    3
+   ],
+   "total": 9
+  },
+  {
+   "label": "Tarq paralysis save",
+   "spec": "1d20+1",
+   "rolls": [
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "Tarq paralysis save",
+   "spec": "1d20+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "Neris Cure Light Injury on Sabina",
+   "spec": "1d6+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "damage to Sabina",
+   "spec": "2d8",
+   "rolls": [
+    7,
+    4
+   ],
+   "total": 11
   },
   {
    "label": "init Tarq",
    "spec": "1d6",
    "rolls": [
-    1
+    6
    ],
-   "total": 1
+   "total": 6
   },
   {
    "label": "init Lucilla",
    "spec": "1d6",
    "rolls": [
-    3
+    6
    ],
-   "total": 3
+   "total": 6
   },
   {
    "label": "init Vettius",
    "spec": "1d6",
    "rolls": [
-    5
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Vestus the Unlikely",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Neris",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Ottar",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Tarq paralysis save",
+   "spec": "1d20+1",
+   "rolls": [
+    4
    ],
    "total": 5
   },
   {
-   "label": "init Hesper",
-   "spec": "1d6",
+   "label": "attack Lucilla vs the long-legged pale hunter 2",
+   "spec": "1d20",
    "rolls": [
+    12
+   ],
+   "total": 12
+  },
+  {
+   "label": "attack Vettius vs the long-legged pale hunter 1",
+   "spec": "1d20+1",
+   "rolls": [
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "damage to Sabina",
+   "spec": "2d8",
+   "rolls": [
+    4,
     5
    ],
-   "total": 5
+   "total": 9
+  },
+  {
+   "label": "damage to Tarq",
+   "spec": "2d8",
+   "rolls": [
+    8,
+    7
+   ],
+   "total": 15
+  },
+  {
+   "label": "damage to Hesper",
+   "spec": "2d8",
+   "rolls": [
+    6,
+    1
+   ],
+   "total": 7
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Vettius",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
   },
   {
    "label": "init Vestus the Unlikely",
@@ -2701,257 +1858,44 @@
    "label": "init Neris",
    "spec": "1d6",
    "rolls": [
-    2
+    6
    ],
-   "total": 2
+   "total": 6
   },
   {
    "label": "init Ottar",
    "spec": "1d6",
    "rolls": [
-    3
+    6
    ],
-   "total": 3
+   "total": 6
   },
   {
-   "label": "Tarq bash heavy bronze door, A4-D1",
-   "spec": "1d20",
+   "label": "damage to Hesper",
+   "spec": "2d8",
    "rolls": [
-    15
-   ],
-   "total": 15
-  },
-  {
-   "label": "Tarq bash heavy bronze door, A4-D1 (pair)",
-   "spec": "1d20+4",
-   "rolls": [
-    13
-   ],
-   "total": 17
-  },
-  {
-   "label": "Tarq bash heavy bronze door, A4-D1 (pair)",
-   "spec": "1d20+4",
-   "rolls": [
-    9
-   ],
-   "total": 13
-  },
-  {
-   "label": "Tarq bash heavy bronze door, A4-D1 (pair)",
-   "spec": "1d20+4",
-   "rolls": [
-    7
+    7,
+    4
    ],
    "total": 11
   },
   {
-   "label": "Tarq bash heavy bronze door, A4-D1 (pair)",
-   "spec": "1d20+4",
+   "label": "damage to Tarq",
+   "spec": "2d8",
    "rolls": [
-    15
-   ],
-   "total": 19
-  },
-  {
-   "label": "Tarq bash heavy bronze door, A4-D1",
-   "spec": "1d20+1",
-   "rolls": [
-    8
-   ],
-   "total": 9
-  },
-  {
-   "label": "Tarq bash heavy bronze door, A4-D1",
-   "spec": "1d20+1",
-   "rolls": [
-    20
-   ],
-   "total": 21
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Vettius bash cedar door D1-D3",
-   "spec": "1d20+4",
-   "rolls": [
-    12
-   ],
-   "total": 16
-  },
-  {
-   "label": "Tarq bash cedar door D1-D3",
-   "spec": "1d20+4",
-   "rolls": [
-    14
-   ],
-   "total": 18
-  },
-  {
-   "label": "Tarq bash cedar door D3-D4",
-   "spec": "1d20+4",
-   "rolls": [
-    8
-   ],
-   "total": 12
-  },
-  {
-   "label": "Tarq bash cedar door D3-D4",
-   "spec": "1d20+4",
-   "rolls": [
-    13
-   ],
-   "total": 17
-  },
-  {
-   "label": "Tarq bash cedar door D3-D4",
-   "spec": "1d20+4",
-   "rolls": [
-    9
-   ],
-   "total": 13
-  },
-  {
-   "label": "Tarq bash cedar door D3-D4",
-   "spec": "1d20+4",
-   "rolls": [
-    2
-   ],
-   "total": 6
-  },
-  {
-   "label": "Tarq bash cedar door D3-D4",
-   "spec": "1d20+4",
-   "rolls": [
-    14
-   ],
-   "total": 18
-  },
-  {
-   "label": "Sabina throw",
-   "spec": "1d20",
-   "rolls": [
-    7
-   ],
-   "total": 7
-  },
-  {
-   "label": "Tarq bash cedar city-gate door D4-D5",
-   "spec": "1d20+4",
-   "rolls": [
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "Tarq bash cedar city-gate door D4-D5",
-   "spec": "1d20+4",
-   "rolls": [
-    19
-   ],
-   "total": 23
-  },
-  {
-   "label": "Tarq bash cedar door D3-D6a",
-   "spec": "1d20+4",
-   "rolls": [
-    14
-   ],
-   "total": 18
-  },
-  {
-   "label": "Tarq bash cedar door D6c-D7",
-   "spec": "1d20+4",
-   "rolls": [
-    2
-   ],
-   "total": 6
-  },
-  {
-   "label": "Tarq bash cedar door D6c-D7",
-   "spec": "1d20+4",
-   "rolls": [
-    13
-   ],
-   "total": 17
-  },
-  {
-   "label": "Tarq bash cedar door D6c-D7",
-   "spec": "1d20+4",
-   "rolls": [
-    20
-   ],
-   "total": 24
-  },
-  {
-   "label": "Sabina surprise",
-   "spec": "1d6",
-   "rolls": [
+    7,
     3
    ],
-   "total": 3
+   "total": 10
   },
   {
-   "label": "Tarq surprise",
-   "spec": "1d6",
+   "label": "damage to Sabina",
+   "spec": "2d8",
    "rolls": [
-    4
+    5,
+    1
    ],
-   "total": 4
-  },
-  {
-   "label": "Lucilla surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Vettius surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Hesper surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Vestus the Unlikely surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Neris surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Ottar surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
+   "total": 6
   }
  ],
  "rumours_heard": [

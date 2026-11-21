@@ -15,13 +15,13 @@
    "kind": "pc",
    "name": "sabina",
    "actor": "sabina",
-   "status": "active"
+   "status": "dead"
   },
   "tarq": {
    "kind": "pc",
    "name": "tarq",
    "actor": "tarq",
-   "status": "active"
+   "status": "dead"
   },
   "cassia": {
    "kind": "pc",
@@ -93,7 +93,7 @@
    "kind": "henchman",
    "name": "Hesper",
    "actor": "hesper",
-   "status": "active"
+   "status": "dead"
   },
   "donkey1": {
    "kind": "animal",
@@ -246,6 +246,24 @@
   "ground:undercity-of-cyfaraun": {
    "kind": "cache",
    "name": "ground:undercity-of-cyfaraun",
+   "actor": null,
+   "status": "active"
+  },
+  "body:sabina": {
+   "kind": "body",
+   "name": "body of sabina",
+   "actor": null,
+   "status": "active"
+  },
+  "body:tarq": {
+   "kind": "body",
+   "name": "body of tarq",
+   "actor": null,
+   "status": "active"
+  },
+  "body:hesper": {
+   "kind": "body",
+   "name": "body of Hesper",
    "actor": null,
    "status": "active"
   }
@@ -19405,68 +19423,626 @@
    "light": "torch43",
    "cmd": "light on",
    "n": 781
+  },
+  {
+   "op": "light",
+   "cause": "torch44 lit (torch)",
+   "day": 187,
+   "time": "day 187 10:15",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch44",
+   "cmd": "light on",
+   "n": 782
+  },
+  {
+   "op": "light",
+   "cause": "torch45 lit (torch)",
+   "day": 187,
+   "time": "day 187 11:10",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch45",
+   "cmd": "light on",
+   "n": 783
+  },
+  {
+   "op": "wield",
+   "cause": "Dagger taken in hand",
+   "day": 187,
+   "time": "day 187 11:10",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "#w10",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "lucilla",
+     "item": "#w10",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w10",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 784
+  },
+  {
+   "op": "death",
+   "cause": "sabina died; body left_behind",
+   "day": 187,
+   "time": "day 187 11:16",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "cassock, linen or wool",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "cassock, linen or wool",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "belt/sash, embossed leather",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "belt/sash, embossed leather",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "boots, leather, high",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "boots, leather, high",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "holy symbol",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": -2
+    },
+    {
+     "who": "body:sabina",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 2
+    },
+    {
+     "who": "sabina",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "#w29",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "#w29",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:sabina",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "sabina",
+     "item": "#w3",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "#w3",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sabina",
+     "item": "letter of recommendation (genelen)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:sabina",
+     "item": "letter of recommendation (genelen)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "sabina",
+     "cp": -8,
+     "sp": -7,
+     "gp": -793
+    },
+    {
+     "who": "body:sabina",
+     "cp": 8,
+     "sp": 7,
+     "gp": 793
+    }
+   ],
+   "cmd": "death",
+   "n": 785
+  },
+  {
+   "op": "death",
+   "cause": "tarq died; body left_behind",
+   "day": 187,
+   "time": "day 187 11:16",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "tunic and pants, armiger",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "tunic and pants, armiger",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "belt/sash, leather",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "belt/sash, leather",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "sandals/shoes, leather, low",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "sandals/shoes, leather, low",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "arena armor, heavy",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "arena armor, heavy",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w6",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w6",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "oil, common (1 pint)",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "oil, common (1 pint)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w13",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w13",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w14",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w14",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w15",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w15",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": -5
+    },
+    {
+     "who": "body:tarq",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "tarq",
+     "item": "#w5",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w5",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "helmet, heavy",
+     "slot": "head",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "helmet, heavy",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w25",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w25",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "tarq",
+     "cp": -8,
+     "gp": -861
+    },
+    {
+     "who": "body:tarq",
+     "cp": 8,
+     "gp": 861
+    }
+   ],
+   "cmd": "death",
+   "n": 786
+  },
+  {
+   "op": "death",
+   "cause": "hesper died; body left_behind",
+   "day": 187,
+   "time": "day 187 11:16",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "boots, leather, low",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "boots, leather, low",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "#w23",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "#w23",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "hide and fur armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "hide and fur armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "body:hesper",
+     "item": "torch",
+     "slot": "here",
+     "qty": 3
+    },
+    {
+     "who": "hesper",
+     "item": "#w21",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "#w21",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "hesper",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:hesper",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "hesper",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": -19
+    },
+    {
+     "who": "body:hesper",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 19
+    },
+    {
+     "who": "hesper",
+     "item": "#w16",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:hesper",
+     "item": "#w16",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "hesper",
+     "cp": -3,
+     "sp": -7,
+     "gp": -406
+    },
+    {
+     "who": "body:hesper",
+     "cp": 3,
+     "sp": 7,
+     "gp": 406
+    }
+   ],
+   "cmd": "death",
+   "n": 787
   }
  ],
  "holdings": {
-  "sabina": {
-   "worn": {
-    "sack, small (holds 2 stone)": 1,
-    "cassock, linen or wool": 1,
-    "belt/sash, embossed leather": 1,
-    "boots, leather, high": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "sack": {
-    "holy symbol": 1,
-    "waterskin": 2
-   },
-   "armor": {
-    "banded plate armor": 1
-   },
-   "right_hand": {
-    "#w29": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "backpack": {
-    "waterskin": 4,
-    "#w3": 1,
-    "letter of recommendation (genelen)": 1
-   }
-  },
-  "tarq": {
-   "worn": {
-    "sack, small (holds 2 stone)": 1,
-    "tunic and pants, armiger": 1,
-    "belt/sash, leather": 1,
-    "sandals/shoes, leather, low": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "arena armor, heavy": 1
-   },
-   "sack": {
-    "#w6": 1,
-    "oil, common (1 pint)": 1,
-    "#w13": 1,
-    "#w14": 1,
-    "#w15": 1,
-    "waterskin": 5
-   },
-   "belt": {
-    "#w5": 1
-   },
-   "head": {
-    "helmet, heavy": 1
-   },
-   "right_hand": {
-    "#w25": 1
-   },
-   "left_hand": {
-    "shield": 1
-   }
-  },
   "lucilla": {
    "worn": {
     "backpack (holds 4 stone)": 1,
@@ -19489,7 +20065,7 @@
     "rope, 50'": 1,
     "torch": 6
    },
-   "sack": {
+   "right_hand": {
     "#w10": 1
    }
   },
@@ -19570,31 +20146,6 @@
    },
    "left_hand": {
     "shield": 1
-   }
-  },
-  "hesper": {
-   "worn": {
-    "tunic and pants, crafter/freeholder": 1,
-    "boots, leather, low": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "right_hand": {
-    "#w23": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "armor": {
-    "hide and fur armor": 1
-   },
-   "backpack": {
-    "torch": 3,
-    "#w21": 1,
-    "waterskin": 5,
-    "arrow": 19
-   },
-   "back": {
-    "#w16": 1
    }
   },
   "zaira-the-beautiful": {
@@ -19760,23 +20311,65 @@
    },
    "backpack": {
     "waterskin": 5,
-    "torch": 8
+    "torch": 6
    },
    "left_hand": {
     "shield": 1
    }
+  },
+  "body:sabina": {
+   "here": {
+    "sack, small (holds 2 stone)": 1,
+    "cassock, linen or wool": 1,
+    "belt/sash, embossed leather": 1,
+    "boots, leather, high": 1,
+    "backpack (holds 4 stone)": 1,
+    "holy symbol": 1,
+    "waterskin": 6,
+    "banded plate armor": 1,
+    "#w29": 1,
+    "shield": 1,
+    "#w3": 1,
+    "letter of recommendation (genelen)": 1
+   }
+  },
+  "body:tarq": {
+   "here": {
+    "sack, small (holds 2 stone)": 1,
+    "tunic and pants, armiger": 1,
+    "belt/sash, leather": 1,
+    "sandals/shoes, leather, low": 1,
+    "backpack (holds 4 stone)": 1,
+    "arena armor, heavy": 1,
+    "#w6": 1,
+    "oil, common (1 pint)": 1,
+    "#w13": 1,
+    "#w14": 1,
+    "#w15": 1,
+    "waterskin": 5,
+    "#w5": 1,
+    "helmet, heavy": 1,
+    "#w25": 1,
+    "shield": 1
+   }
+  },
+  "body:hesper": {
+   "here": {
+    "tunic and pants, crafter/freeholder": 1,
+    "boots, leather, low": 1,
+    "backpack (holds 4 stone)": 1,
+    "#w23": 1,
+    "shield": 1,
+    "hide and fur armor": 1,
+    "torch": 3,
+    "#w21": 1,
+    "waterskin": 5,
+    "arrow": 19,
+    "#w16": 1
+   }
   }
  },
  "coins": {
-  "sabina": {
-   "sp": 7,
-   "gp": 793,
-   "cp": 8
-  },
-  "tarq": {
-   "gp": 861,
-   "cp": 8
-  },
   "lucilla": {
    "gp": 641,
    "sp": 4,
@@ -19794,11 +20387,6 @@
    "gp": 514,
    "cp": 9,
    "sp": 2
-  },
-  "hesper": {
-   "gp": 406,
-   "cp": 3,
-   "sp": 7
   },
   "karanos-bank": {
    "gp": 13732
@@ -19841,6 +20429,20 @@
    "cp": 5,
    "sp": 1,
    "gp": 174
+  },
+  "body:sabina": {
+   "cp": 8,
+   "sp": 7,
+   "gp": 793
+  },
+  "body:tarq": {
+   "cp": 8,
+   "gp": 861
+  },
+  "body:hesper": {
+   "cp": 3,
+   "sp": 7,
+   "gp": 406
   }
  },
  "rolls": {

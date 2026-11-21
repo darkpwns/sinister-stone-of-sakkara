@@ -5,13 +5,13 @@ tags:
 session: 8
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), the journey to Cyfaraun
+adventure: Secrets of the Nethercity (AX2), first delve (A9 open)
 public:
   date:
     year: ''
     season: fall
     day: 187
-  time: 09:35
+  time: '11:26'
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -26,27 +26,6 @@ public:
     - minor scarring (fang mark on the hand)
     spells_used: []
     encumbrance_st: 9.147
-  - name: Sabina
-    sheet: Characters/sabina.json
-    role: pc
-    hp: 15
-    hp_max: 16
-    conditions:
-    - one eye clawed out (-2 to missile attack throws)
-    spells_used: []
-    encumbrance_st: 8.808
-  - name: Tarq
-    sheet: Characters/tarq.json
-    role: pc
-    hp: 7
-    hp_max: 13
-    conditions:
-    - raspy voice (-2 to speech throws)
-    - minor scarring (fang marks on the neck)
-    - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
-    - one hand bitten off (cannot dual-wield or use two-handed weapons)
-    spells_used: []
-    encumbrance_st: 9.202
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -55,14 +34,6 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 8.793
-  - name: Hesper
-    sheet: Characters/hesper.json
-    role: pc
-    hp: 10
-    hp_max: 10
-    conditions: []
-    spells_used: []
-    encumbrance_st: 5.416
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -73,11 +44,12 @@ public:
     - Mage Missile
   - name: Neris
     sheet: Characters/neris.json
-    role: henchman
+    role: pc
     hp: 4
     hp_max: 4
     conditions: []
     spells_used:
+    - Cure Light Injury
     - Cure Light Injury
     encumbrance_st: 2.167
   - name: Ottar
@@ -87,9 +59,9 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6.333
-  light: lantern (Vettius) 10 turns 5 rounds left; torch (Ottar) 2 turns left
-  rations: 'Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 6
+  light: 'lantern (Vettius) out; torch (Ottar) 4 turns 4 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar'
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
