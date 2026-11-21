@@ -57,7 +57,7 @@ intended: use mules, porters, wagons. `min_version` in the instance is 7.13.0.
 - Engine 7.13.3 on claude/eager-turing-48ne25; min_version 7.13.3.
 
 ## Between adventures (2026-11-21, after S07)
-- **AX1 is complete.** Day 161, summer (calendar: 30-day months, 3 months a season, spring from day 1; engine 7.13.4 turns the season at the rollover). Türos Tem, hex 13.08. `Adventure/Region Map.md` is the fixed point: grid, Türos Tem's position and neighbours, what is built (columns 08-16, rows 02-10), the AX1 seed sites, and how to place a new module's map.
+- **AX1 is complete.** Day 161, summer (calendar: 30-day months, 3 months a season, spring from day 1; engine 7.13.4 turns the season at the rollover). Türos Tem, hex 22.20 on the AX3 Borderlands sheet (renumbered after S07; old AX1 numbers ≈ +9, +12). `Adventure/Region Map.md`: grid, what is built (150 hexes: the Türos Tem block and the east road to Cyfaraun 18.05, 23 hexes via Türos Aster, Spen and Orn), and how to extend it.
 - Campaign State `adventure: between adventures`: start the next module with `R/bootstrap.md` → A new adventure in a running campaign (keeps Table rules, inventory, retinue, rulings, travel block).
 - **Party going on:** Sabina Cru4 (Ingrid), Tarq Bar3 (Kwame; one hand, -10% XP), Lucilla Ven4 (Rosa), Vettius Thf4 (Tomasz), henchman Hesper F2 (Lucilla's; wage due day 182). In the exploration party in Türos Tem, healed. Their coins and bank deposits are theirs (bank 13,732gp: see World State).
 - **New characters owed:** Gideon and Priya (Aulus and Marcia died). Starting XP (RR Character Death; never more than the prior character's):
