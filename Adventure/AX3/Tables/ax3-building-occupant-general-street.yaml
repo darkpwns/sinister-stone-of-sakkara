@@ -1,0 +1,26 @@
+schema: acks-table/1
+id: ax3-building-occupant-general-street
+title: "Cyfaraun Random Occupant - General/Street (streets, baths, public places, patrons)"
+source: {campaign: true, book: AX3, printed_pages: [51], note: "Adventure/AX3/City/Buildings of Cyfaraun.md"}
+usage: "Owner/tenants of cots and townhouses, and patrons/worshippers marked * on the Standard Occupants table (General/Street column). Never roll for dependents. Classed results: roll ax3-building-npc-level unless a level is given."
+columns: ["1d100", "Occupation", "Sub-table", "Special"]
+rows:
+  - ["01-26", "Laborer", "ax3-building-laborer-occupation", "-"]
+  - ["27-45", "Apprentice crafter", "ax3-building-artisan-occupation", "-"]
+  - ["46-55", "Journeyman crafter", "ax3-building-artisan-occupation", "-"]
+  - ["56-60", "Master crafter", "ax3-building-artisan-occupation", "-"]
+  - ["61-68", "Apprentice merchant", "ax3-building-merchant-occupation", "-"]
+  - ["69-72", "Licensed merchant", "ax3-building-merchant-occupation", "-"]
+  - ["73-74", "Master merchant", "ax3-building-merchant-occupation", "25% are venturers (roll ax3-building-npc-level)"]
+  - ["75-76", "Specialist", "ax3-building-specialist-occupation", "see sub-table"]
+  - ["77-81", "Hosteller", "ax3-building-hosteller-occupation", "see sub-table"]
+  - ["82-83", "Entertainer", "ax3-building-entertainer-occupation", "25% are bards (roll level)"]
+  - ["84-85", "Thief", "ax3-building-npc-class (Thief column) + ax3-building-npc-level", "-"]
+  - ["86-88", "Legionary/Watch", "ax3-building-military-occupation", "25% are veterans (Fighter 1)"]
+  - ["89-91", "Mercenary/Soldier", "ax3-building-military-occupation", "25% are veterans (Fighter 1)"]
+  - ["92-93", "Fighter", "ax3-building-npc-class (Fighter column) + ax3-building-npc-level", "-"]
+  - ["94-95", "Minor ecclesiastic", "ax3-building-minor-ecclesiastic-occupation", "-"]
+  - ["96-97", "Cleric (ACKS II Crusader)", "ax3-building-npc-class (Cleric column) + ax3-building-npc-level", "-"]
+  - ["98", "Minor magician", "ax3-building-minor-magician-occupation", "-"]
+  - ["99", "Mage", "ax3-building-npc-class (Mage column) + ax3-building-npc-level", "-"]
+  - ["100", "Patrician", "Patrician family (no sub-table printed: Judge's call)", "25% are fighters (roll level)"]

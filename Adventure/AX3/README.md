@@ -36,6 +36,9 @@ skill's calculator scripts are not in the cloud container). The Secrets of the N
 - [ ] Bestiary and items; Imperial Vanguard — PDF 193-202
 - [ ] Final check: `hex.py 18.05`, `brief.py`
 
+## Work in progress
+Unticked parts may already have files on main: snapshots of chapters still being written (district notes, dungeons, gazetteer, bestiary, tables). A part is done only when ticked above.
+
 ## Open items
 - Undercity dungeon level 2 is a Judge's call (AX3 gives none).
 - AX3 city table skips 113-114 (p. 62): set to "run 109-112"; escaped prisoner's 1d10 lacks a 5 (p. 67): given to the Argollëan Family. Both Judge's calls.

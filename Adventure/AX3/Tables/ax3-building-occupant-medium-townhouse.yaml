@@ -1,0 +1,16 @@
+schema: acks-table/1
+id: ax3-building-occupant-medium-townhouse
+title: "Cyfaraun Random Occupant - Medium Townhouse"
+source: {campaign: true, book: AX3, printed_pages: [51], note: "Adventure/AX3/City/Buildings of Cyfaraun.md"}
+usage: "Owner/tenants of cots and townhouses, and patrons/worshippers marked * on the Standard Occupants table (General/Street column). Never roll for dependents. Classed results: roll ax3-building-npc-level unless a level is given."
+columns: ["1d100", "Occupation", "Sub-table", "Special"]
+rows:
+  - ["01-18", "Journeyman crafter", "ax3-building-artisan-occupation", "-"]
+  - ["19-40", "Master crafter", "ax3-building-artisan-occupation", "-"]
+  - ["41-54", "Apprentice merchant", "ax3-building-merchant-occupation", "-"]
+  - ["55-79", "Licensed merchant", "ax3-building-merchant-occupation", "-"]
+  - ["80-86", "Master merchant", "ax3-building-merchant-occupation", "25% are venturers (roll ax3-building-npc-level)"]
+  - ["87-94", "Specialist", "ax3-building-specialist-occupation", "see sub-table"]
+  - ["95-96", "Entertainer", "ax3-building-entertainer-occupation", "25% are bards (roll level)"]
+  - ["97-98", "Thief", "ax3-building-npc-class (Thief column) + ax3-building-npc-level", "-"]
+  - ["99-100", "Fighter", "ax3-building-npc-class (Fighter column) + ax3-building-npc-level", "-"]

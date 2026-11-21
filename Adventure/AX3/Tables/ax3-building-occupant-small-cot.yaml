@@ -1,0 +1,12 @@
+schema: acks-table/1
+id: ax3-building-occupant-small-cot
+title: "Cyfaraun Random Occupant - Small Cot"
+source: {campaign: true, book: AX3, printed_pages: [51], note: "Adventure/AX3/City/Buildings of Cyfaraun.md"}
+usage: "Owner/tenants of cots and townhouses, and patrons/worshippers marked * on the Standard Occupants table (General/Street column). Never roll for dependents. Classed results: roll ax3-building-npc-level unless a level is given."
+columns: ["1d100", "Occupation", "Sub-table", "Special"]
+rows:
+  - ["01-48", "Laborer", "ax3-building-laborer-occupation", "-"]
+  - ["49-89", "Apprentice crafter", "ax3-building-artisan-occupation", "-"]
+  - ["90-97", "Journeyman crafter", "ax3-building-artisan-occupation", "-"]
+  - ["98-99", "Entertainer", "ax3-building-entertainer-occupation", "25% are bards (roll level)"]
+  - ["100", "Mercenary/Soldier", "ax3-building-military-occupation", "25% are veterans (Fighter 1)"]

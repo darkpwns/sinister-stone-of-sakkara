@@ -1,0 +1,12 @@
+schema: acks-table/1
+id: ax3-building-occupant-large-townhouse
+title: "Cyfaraun Random Occupant - Large Townhouse"
+source: {campaign: true, book: AX3, printed_pages: [51], note: "Adventure/AX3/City/Buildings of Cyfaraun.md"}
+usage: "Owner/tenants of cots and townhouses, and patrons/worshippers marked * on the Standard Occupants table (General/Street column). Never roll for dependents. Classed results: roll ax3-building-npc-level unless a level is given."
+columns: ["1d100", "Occupation", "Sub-table", "Special"]
+rows:
+  - ["01-31", "Master crafter", "ax3-building-artisan-occupation", "-"]
+  - ["32-67", "Master merchant", "ax3-building-merchant-occupation", "25% are venturers (roll ax3-building-npc-level)"]
+  - ["68-85", "Specialist", "ax3-building-specialist-occupation", "see sub-table"]
+  - ["86-95", "Thief", "ax3-building-npc-class (Thief column) + ax3-building-npc-level", "-"]
+  - ["96-100", "Fighter", "ax3-building-npc-class (Fighter column) + ax3-building-npc-level", "-"]
