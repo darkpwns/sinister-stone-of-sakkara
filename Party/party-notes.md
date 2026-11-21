@@ -20,7 +20,7 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   warlord's halls (bronze doors at the foot of the first cave) and the upper galleries reached through them **18**;
   the cave of wall graves below the triangular cave, the martyrs' gallery beyond the painted hall and anything at that
   depth **24**; the huge cavern below the rope cliff and the galleries off it **30**; deeper still **39**, the very
-  bottom **48**. Torch-bearers and other 0th-level help count 1 each. Day 196: Lucilla 4, Vettius 4, Iulia 2,
+  bottom **48**. Torch-bearers and other 0th-level help count 1 each; one who rises from 0th to 1st level counts 1½, at 2nd level 2, then his level. Day 196: Lucilla 4, Vettius 4, Iulia 2,
   Quirinus 2, Vestus 1, Neris 1, Brennus 1, Phaedra 1, Ottar 1 = **17**. Day 211, after hiring: **25**.
 
 - S09 (day 211): keep only the help the strength rule needs. Every henchman is a half share of treasure and XP out of
