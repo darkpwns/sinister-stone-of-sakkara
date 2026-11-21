@@ -1,0 +1,174 @@
+schema: acks-class-builds/1
+about: >-
+  SOTN (Secrets of the Nethercity, AX2, ACKS I) Appendix D "The Corrupt Elves of Antiquity" (SOTN pp. 162-173):
+  Elven Cultist, Elven Hierophant, Elven Warlord, Elven Wizard, rebuilt with the ACKS II Judges Journal custom class
+  procedure (JJ ch. 12). Same keys as acks2-tools engine/data/class-builds.yaml and Adventure/AX3/Classes/
+  ax3-class-builds-demihuman.yaml, without `tables`. XP for 2nd level, the XP table to 8th, Hit Die, attack and saving
+  throws come from acks/custom_class.py; the calculator knows dwarf racial values only and has no Arcane Value cost
+  term, so the Elf Value and the elven Arcane Value are recorded in `extra_costs`, and their build points (level limit),
+  XP after 8th (+50,000) and save bonuses (Connection to Nature: +1 Paralysis and Spells) are added by the JJ rules in
+  the `racial` block (Custom Racial Classes, JJ pp. 299-300; Elven Custom Classes, JJ p. 301). Spells per day are the
+  JJ progressions (engine tables arcane-N-power, divine-N-power) at the effective value. Rows above the level limit
+  (to 14th) exist only for corrupt elves become intelligent undead (SOTN p. 162). Judge-only (sakkara/secret).
+classes:
+  Elven Cultist:
+    note: Adventure/SOTN/Classes/Elven Cultist.md
+    book: SOTN
+    hit_dice: 0                  # d4
+    fighting: 0                  # mage attack throws, no cleaves
+    thievery: 1                  # 4 selections, all traded for custom powers
+    divine: 3                    # 133% power, list of 12 spells per level; rebuke undead as control undead (chaotic sect)
+    arcane: 0
+    elf: 0                       # Elf 0: the four elf powers, no arcane casting
+    armor: none
+    weapons: restricted          # dagger, sling, staff, whip
+    fighting_styles: [single weapon, missile weapon]   # optional style eliminated for 1 power (SOTN: no two-handed, no dual)
+    weapon_tradeoffs: 0
+    powers_bought: 5             # thief skills 4 + fighting style 1
+    powers:                      # JJ Custom Power Index names; SOTN names in brackets
+      1: [cult power 1, cult power 2, cult power 3, Divine Health (Judge's call), Sensing Good (Judge's call)]
+    cult_powers:
+      Bel: [Battle Magic, Inspire Courage, Savage Resilience (supernatural resilience)]
+      Dirgion: [Strength of Spirit (inexorable), Inspire Dread, Lordship Over the Undead]
+      Iskara: [Ancient Pacts (chthonic hegemon), Divine Blessing (dark blessing), Utter Domination]
+      Nasga: [Glamorous Aura, Mastery of Enchantments and Illusions (mastery of charms & illusions), Provoke the Passion]
+      Telith: [Awareness of the Earth, Elemental Connection (earth), Solidity of Rock]
+    level_locks: []
+    starting_proficiency_power: Theology
+    extra_costs:
+      elf: 125                   # JJ Elf Value table, Elf 0
+    saves_as: crusader
+    racial:
+      build_points: 0
+      xp_after8_extra: 50000
+      save_bonus: {Paralysis: 1, Spells: 1}
+      hd_roll_bonus_1st: 1
+      arcane_effective: 0
+    xp_per_level: 1375           # SOTN prints 1,325 (ACKS I)
+    level_limit: 13              # 4 build points
+    key_attributes: [WIL]
+    requirements: [INT 9 (elf), Chaotic]
+    stronghold: Cloister (Fane of Chaos)
+    undead_special_abilities: 2  # SOTN p. 162: 4 build points outside Hit Dice -> **
+    flags: [cultist-build, divine-3-133-percent]
+  Elven Hierophant:
+    note: Adventure/SOTN/Classes/Elven Hierophant.md
+    book: SOTN
+    hit_dice: 0                  # d4
+    fighting: 0
+    thievery: 0
+    divine: 2                    # 100% power (crusader), list of 10 spells per level
+    arcane: 2
+    elf: 2                       # Arcane 2 + Elf 2 = 4: casts and researches as a mage
+    armor: none
+    weapons: restricted          # dagger, sling, staff, whip
+    fighting_styles: [single weapon, missile weapon]   # optional style eliminated for 1 power
+    weapon_tradeoffs: 0
+    powers_bought: 3             # rebuke undead traded (Divine 2 = 2 powers) + fighting style 1
+    powers:
+      1: [Sensing Power (Judge's call)]
+      3: [Loremastery]
+      5: [Deciphering (read languages)]
+      9: [Unveil Esoteric Meaning (esoteric meaning)]
+      11: [Lore of Stars and Spheres]
+    level_locks: ["1 initial -> 3rd + 11th", "1 initial -> 5th + 9th"]
+    starting_proficiency_power: Theology
+    extra_costs:
+      arcane: 1125               # JJ Arcane Value 2 = 1,250, less 125 for elven classes
+      elf: 1375                  # JJ Elf Value table, Elf 2
+    saves_as: mage               # Arcane and Divine tied at 2: Arcane first
+    racial:
+      build_points: 2
+      xp_after8_extra: 50000
+      save_bonus: {Paralysis: 1, Spells: 1}
+      hd_roll_bonus_1st: 1
+      arcane_effective: 4
+    xp_per_level: 3000           # SOTN prints 3,000
+    level_limit: 11              # 6 build points
+    key_attributes: [INT, WIL]
+    requirements: [INT 13, WIL 13]
+    stronghold: Sanctum and Dungeon (Telesterion)
+    undead_special_abilities: 3  # 6 build points outside Hit Dice -> ***
+    flags: [hierophant-build, divine-from-1st]
+  Elven Warlord:
+    note: Adventure/SOTN/Classes/Elven Warlord.md
+    book: SOTN
+    hit_dice: 2                  # d8
+    fighting: 2                  # fighter attack, damage bonus, 1 cleave per level
+    thievery: 0
+    divine: 0
+    arcane: 0
+    elf: 0
+    armor: medium                # Heavy -> Medium: 1 power (no XP)
+    weapons: broad               # (iv) swords, daggers, spears, polearms; (v) all missile weapons: 1 power, +250 XP
+    fighting_styles: [single weapon, missile weapon, weapon and shield, two-handed weapon, dual weapon]
+    weapon_tradeoffs: 1
+    powers_bought: 2
+    powers:
+      3: [Armor Training or Martial Training (armor or weapon training)]
+      5: [Inspire Courage, Battlefield Prowess (Castle bonus power by Elven Fastness)]
+      9: [Student of War]
+      11: [Lion-Hearted Leader]
+    level_locks: ["1 initial -> 3rd + 11th", "1 initial -> 5th + 9th"]
+    starting_proficiency_power: Manual of Arms
+    extra_costs:
+      elf: 125
+    saves_as: fighter
+    racial:
+      build_points: 0
+      xp_after8_extra: 50000
+      save_bonus: {Paralysis: 1, Spells: 1}
+      hd_roll_bonus_1st: 1
+      arcane_effective: 0
+    xp_per_level: 2375           # SOTN prints 2,125 (ACKS I: no weapon trade-off XP)
+    level_limit: 13              # 4 build points
+    key_attributes: [STR, CHA]   # STR by the fighter progression; CHA added (Judge's call, SOTN)
+    requirements: [INT 9 (elf)]
+    stronghold: Elven Fastness
+    undead_special_abilities: 1  # 2 build points outside Hit Dice -> *
+    flags: [warlord-build]
+  Elven Wizard:
+    note: Adventure/SOTN/Classes/Elven Wizard.md
+    book: SOTN
+    hit_dice: 0
+    fighting: 0
+    thievery: 1                  # 4 selections, all traded for custom powers
+    divine: 0
+    arcane: 3
+    elf: 1                       # Arcane 3 + Elf 1 = 4: casts and researches as a mage (as the AX3 Elven Enchanter)
+    armor: none
+    weapons: restricted          # four by college (all from the JJ restricted ten)
+    fighting_styles: [single weapon, missile weapon, two-handed weapon]
+    weapon_tradeoffs: 0
+    powers_bought: 4
+    powers:
+      1: [college 1st-level power, College Training (Judge's call)]
+      3: [college 3rd-level power]
+      5: [college 5th-level power]
+      9: [college 9th-level power]
+      11: [college 11th-level power]
+    college_powers:
+      Artifice: [Magical Engineering, Siege Engineering, dispel magic 1/day, Flawless Precision, Marvelous Machines]
+      Nature: [Friend of Birds and Beasts, Martial Training (short bow, short sword, spear, javelin), skinchange 1/day,
+               Totem Animal (animal companion), Steward of the Wild (Passing Without Trace in domain + Animal Friendship 5 mi)]
+      Necromancy: [Secrets of the Dark Arts, Healing, speak with dead 1/day, Lordship Over the Undead, Secrets of Life and Death]
+      Transmogrification: [Transmogrification, Abominable Mutation, skinchange 1/day, Hideous Servant, Shape Flesh and Bone]
+    level_locks: ["1 initial -> 3rd + 11th", "1 initial -> 5th + 9th"]
+    starting_proficiency_power: Collegiate Wizardry
+    extra_costs:
+      arcane: 1750               # JJ Arcane Value 3 = 1,875, less 125
+      elf: 750
+    saves_as: mage
+    racial:
+      build_points: 1
+      xp_after8_extra: 50000
+      save_bonus: {Paralysis: 1, Spells: 1}
+      hd_roll_bonus_1st: 1
+      arcane_effective: 4
+    xp_per_level: 2750           # SOTN prints 2,700
+    level_limit: 12              # 5 build points
+    key_attributes: [INT, CHA]   # INT by the mage progression; CHA added (Judge's call, SOTN)
+    requirements: [INT 9 (elf)]
+    stronghold: Sanctum and Dungeon (Tower)
+    undead_special_abilities: 2  # 5 build points outside Hit Dice -> **
+    flags: [wizard-build, same-build-as-ax3-elven-enchanter]

@@ -188,8 +188,9 @@ Cultist repertoires in SOTN (for reference): **Bel** 1 bane-rune; **Dirgion** 1 
 - **ACKS II equivalent:** none.
 - **JJ build (Judge's call):** no JJ type builds slowed ageing of objects: **esoteric**; keep SOTN's levels. It explains the good condition of Nethercity grave goods ([[Nethercity Features]]).
 
-## Reflesh the Bones
-- **SOTN:** Arcane 6 · Range touch · Duration permanent (p. 158). (The appendix heading reads "Reflesh of the Bones"; the spellbooks and area text say "reflesh the bones".)
+## Reflesh of the Bones
+Alias: *reflesh the bones* (the name in the spellbooks and area text, SOTN pp. 40, 137).
+- **SOTN:** Arcane 6 · Range touch · Duration permanent (p. 158).
 - Touching the skeleton of a dead creature regrows its flesh, muscle, organs and tissue at once: a new living creature of the same kind and physical traits. Neither mind nor soul returns; a sapient adult comes back an empty-headed brute (**INT 3, WIS 3, CHA 3**). No effect on the living, undead, constructs or objects.
 - **ACKS II equivalent:** none (nearest in theme: [[Restore Life and Limb]], which restores the soul too).
 - **JJ build (Judge's call):** transmogrification "transform to the form of a living creature" (35) with "target creature can be dead" (×3), touch (×0.6), perpetual (×3.5) gives about 220 points, far beyond 6th level: **esoteric**; keep SOTN's Arcane 6.

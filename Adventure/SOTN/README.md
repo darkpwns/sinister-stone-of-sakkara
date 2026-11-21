@@ -38,11 +38,11 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
   - [x] H (PDF 65-79): H1-H26 with sub-keys; 32,550 gp + ~2,232 gp graves / 9,963 XP (+ up to 6,240 for the 480 H14 skeletons)
   - [x] I, J (PDF 79-92): I1-I14, J1-J15; I 13,172 gp as printed (9,497 corrected) / 3,725 XP, J 24,300 gp / 6,714 XP
   - [x] K, L (PDF 92-102): K1-K12, L1-L20; K 43,688 gp / 7,540 XP, L 3,789 gp / 4,504 XP
-  - [ ] M, N (PDF 102-113)
+  - [x] M, N (PDF 102-113): M1-M22, N1-N13; M 37,290 gp / 4,840 XP, N 79,850 gp / 3,800 XP
   - [ ] O, P, Q (PDF 113-125)
   - [x] R, S, T (PDF 125-130): R1-R4, S1-S4, T1-T2; R 15,500 gp / 9,344 XP, S 23,625 gp / 10,630 XP, T 15,000 gp / 5,000 XP
-- [ ] New monsters (Appendix B, PDF 143-153) in `Bestiary/`
-- [ ] Magic items and spells (Appendices A and C, PDF 131-142, 154-162); item placements filled from the area notes
+- [x] New monsters (Appendix B, PDF 143-153): 17 notes in `Bestiary/` (plus named NPCs from the area writers)
+- [x] Magic items and spells (Appendices A and C, PDF 131-142, 154-162): 47 item entries, 42 spells
 - [ ] Classes (Appendix D, PDF 163-175)
 - [ ] `Nethercity Factions.md` (NPCs and factions, from the area notes)
 - [ ] Merges into the AX3 notes (Old District #12u, Organizations of Cyfaraun, Undercity of Cyfaraun, Cyfaraun)

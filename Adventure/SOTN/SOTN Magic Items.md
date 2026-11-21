@@ -273,7 +273,7 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
   3. diminution ([[Growth]] reversed, shrinking), [[Gaseous Form]], growth ([[Growth]]), infravision ([[Lightless Vision]]), [[Skinchange]], [[Water Breathing]]
   4. [[SOTN Spells#Crafting|crafting]], [[Giant Strength]], [[SOTN Spells#Guise Self|guise self]]\*, growth of plants ([[Growth, Plant]]), polymorph self (nearest [[Transform Self]]; Judge's call), polymorph other ([[Transform Other]])
   5. [[SOTN Spells#Boil Blood|boil blood]], curse of swine ([[Curse of the Swine]]), [[SOTN Spells#Guise Other|guise other]], [[SOTN Spells#Inflict Lycanthropy|inflict lycanthropy]], [[Telekinesis]], transmute rock to mud ([[Earth's Mire]])
-  6. [[SOTN Spells#Bath of the Goddess|bath of the goddess]], [[SOTN Spells#Body Swap|body swap]], [[SOTN Spells#Reflesh the Bones|reflesh the bones]], [[SOTN Spells#Transform Self|transform self]]\*, [[Trollblood]]
+  6. [[SOTN Spells#Bath of the Goddess|bath of the goddess]], [[SOTN Spells#Body Swap|body swap]], [[SOTN Spells#Reflesh of the Bones|reflesh the bones]], [[SOTN Spells#Transform Self|transform self]]\*, [[Trollblood]]
   - \* SOTN stars guise self and transform self without explaining the mark (Judge's call: the spells still in the mummy's repertoire; check the area note).
 - **Value:** 31,750gp; **3/6 st**.
 - **Where:** Nethercity E3 ([[Nethercity E - Deep Level Central Complex]]); see area notes.
@@ -305,7 +305,7 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
   4. dimension door ([[Arcane Shift]]), [[Giant Strength]], [[SOTN Spells#Iron Maiden|iron maiden]]
   5. hold monster ([[Halt Monsters]]), protection from normal weapons ([[Deflect Ordinary Weapons]])
 - **Value:** 5,550gp; **2/6 st**.
-- **Where:** Nethercity F8 ([[Nethercity F - Lower Level Central Complex]]); see area notes.
+- **Where:** Nethercity F9 (SOTN p. 137 prints "F8"; [[Nethercity F - Lower Level Central Complex]]); see area notes.
 
 ## Enchantress's Spellbook
 - **Looks:** thin gold-gilded copper plates bound with thick bronze rings, each painted in bright inks with extravagant illustrations around the Ancient Argollëan text; kept in a bronze box with a gold latch.
@@ -368,7 +368,7 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
   2. [[Necromantic Potence]], ogre power ([[Ogre Strength]])
   3. clairvoyance ([[Clairvoyancy]]), [[Skinchange]]
 - **Value:** 700gp; **1/6 st**.
-- **Where:** Nethercity R3 ([[Nethercity R - Abyssal Level Southern Cave]]); see area notes.
+- **Where:** Nethercity R2 (SOTN p. 138 prints "R3"; [[Nethercity R - Abyssal Level Southern Cave]]); see area notes.
 
 ## Princess's Spellbook
 - **Looks:** vellum sheets stitched in a roll, Ancient Argollëan written **right to left** in black and gold ink, game animals illuminated in **black**; two ivory handles; leather clasp.
@@ -377,7 +377,7 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
   2. hypnotic pattern ([[Hypnotic Sigil]]), [[Invisibility]]
   3. fly ([[Flight]]), [[Skinchange]]
 - **Value:** 700gp (SOTN prints "The prince's spellbook is worth 700gp" a second time here; it means the princess's, and the per-level prices give 700gp); **1/6 st**.
-- **Where:** Nethercity R3 ([[Nethercity R - Abyssal Level Southern Cave]]); see area notes.
+- **Where:** Nethercity R2 (SOTN p. 138 prints "R3"; [[Nethercity R - Abyssal Level Southern Cave]]); see area notes.
 
 ---
 
