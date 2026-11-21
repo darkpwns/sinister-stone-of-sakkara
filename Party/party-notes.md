@@ -13,6 +13,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 
 - S07 (between adventures): Hire a priestess of our own as a henchman. Genelen will not leave her hospital, and Türos Tem has none to hire: go to the prefecture's capital up the Imperial road, where the temples are; ask Genelen for a good word first.
 
+- S08 (day 195), the shriekers: the grey-capped fungi in the sewer tunnel scream at light within about 60' (and at anything moving close to them), and twice their screams brought the long-legged pale hunters that killed Sabina, Tarq and Hesper. Contingency agreed: never walk past them again. Come down through the next grate along the avenue, beyond them (Old District grates lift out freely), with lights hooded until down the shaft and moving away from them. If we ever must pass them: hooded lights, at a run, oil and Phaedra's sleep-spell ready for the hunters, crossbows and spears to the rear. The big grasshoppers in the caves below shriek too when anyone comes within a few feet or fights near them: keep wide of them and fight elsewhere.
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->

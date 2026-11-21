@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 195,
-  "round_of_day": 492,
-  "total_rounds": 279372
+  "round_of_day": 564,
+  "total_rounds": 279444
  },
  "party": {
   "lucilla": {
@@ -202,36 +202,57 @@
    "closed": false,
    "rounds_left": 0,
    "tallow": false
+  },
+  {
+   "id": "torch52",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch53",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 58,
+   "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 50,
+  "rounds_since_rest": 22,
   "rest_rounds": 0,
   "winded": []
  },
- "location": null,
+ "location": {
+  "site": "Nethercity A - Entrance Caves",
+  "kind": "dungeon",
+  "level": 2,
+  "room": "A4 Warlord's Cavern Entrance",
+  "wandering": {
+   "none": false,
+   "die": "1d6",
+   "every": 3,
+   "target": 6
+  },
+  "table": "Adventure/SOTN/Tables/sotn-wandering-sewer-caves.yaml",
+  "source": {
+   "wandering": "site setting: '1d6 every 3 turns, 6+'"
+  }
+ },
  "wandering": {
-  "turns_since_check": 0,
+  "turns_since_check": 1,
   "last_check": {
-   "at": "day 195 06:40",
+   "at": "day 195 09:10",
    "roll": 5,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 142 12:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 142 12:30",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 142 12:40",
     "roll": 6,
@@ -339,13 +360,25 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 195 08:40",
+    "roll": 5,
+    "target": 5,
+    "encounter": true
+   },
+   {
+    "at": "day 195 09:10",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 279320
+  "turn_start_done": 279440
  },
  "turn_actions": {
-  "turn": 27937,
+  "turn": 27944,
   "listened": [],
   "actions": []
  },
@@ -1143,8 +1176,8 @@
    "rest_rounds": 0
   },
   "195": {
-   "delve_rounds": 143,
-   "rest_rounds": 20
+   "delve_rounds": 205,
+   "rest_rounds": 30
   }
  },
  "events": [
@@ -2766,8 +2799,8 @@
   }
  ],
  "next_ids": {
-  "enc": 144,
-  "torch": 51,
+  "enc": 146,
+  "torch": 53,
   "t": 5,
   "lantern": 1
  },
@@ -40511,22 +40544,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc125",
-   "at": "day 173 08:20",
-   "monster_name": "a sister of Mityara at the Temple of the Hearth Fire",
-   "number": 1,
-   "reaction": "unfriendly",
-   "status": "reaction"
-  },
-  {
-   "id": "enc126",
-   "at": "day 175 08:20",
-   "monster_name": "drinkers at the Silk Pony",
-   "number": 1,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
    "id": "enc127",
    "at": "day 176 08:20",
    "monster_name": "drinkers in a Cyfaraun tavern",
@@ -40670,6 +40687,22 @@
    "number": 1,
    "reaction": null,
    "status": "surprise rolled"
+  },
+  {
+   "id": "enc145",
+   "at": "day 195 08:40",
+   "monster_name": "Wererat",
+   "number": 6,
+   "reaction": "friendly",
+   "status": "reaction"
+  },
+  {
+   "id": "enc146",
+   "at": "day 195 09:22",
+   "monster_name": "Fungal Creeper (SOTN)",
+   "number": 1,
+   "reaction": null,
+   "status": "fighting"
   }
  ]
 }

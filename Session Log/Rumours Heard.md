@@ -16,3 +16,4 @@ type: rumours
 - Day 176, Cyfaraun, drinkers in a tavern: adventurers who want to prove themselves as gladiators before the next festival should try the Silk Pony: good coin if you don't mind blood.
 - Day 177, Cyfaraun, drinkers in a tavern: the Order of the Eclipse beheads the bodies in the river; beware those who serve the Lady of Fortune, a dark goddess of buried riches.
 - Day 178, Cyfaraun, a patron of the Mink, asked about the sewers: poor Tavus Ionicus, last of a ruined landless patrician house, went mad and lost what little he had; maybe he lives with the lepers in the undercity.
+- Day 195, the Undercity cesspool, six filthy, twitchy wall-tappers (friendly): the regent of the wizards' chapterhouse wants to meet adventurers heading past the border forts into the Waste, and pays for credible news of threats from there.

@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 195
-  time: 08:12
+  time: 09:24
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -31,7 +31,8 @@ public:
     role: pc
     hp: 12
     hp_max: 12
-    conditions: []
+    conditions:
+    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
     encumbrance_st: 8.871
   - name: Vestus the Unlikely
@@ -56,7 +57,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 7
+    encumbrance_st: 6.667
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -65,7 +66,7 @@ public:
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     spells_used: []
-    encumbrance_st: 6.333
+    encumbrance_st: 6.167
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -74,7 +75,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.192
+    encumbrance_st: 8.025
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -90,8 +91,8 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 6.5
-  light: lantern (Vettius) out
+    encumbrance_st: 6.333
+  light: lantern (Vettius) out; torch (Ottar) 5 turns 8 rounds left
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []

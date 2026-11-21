@@ -38,6 +38,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - A3 (day 191): 3 swarms burned, 6 tunnel prawns fled, 15 graves looted (L69, 30gp); a sage slime clings to the ceiling by the east opening.
 - C1 (day 195): 3 swarms burned (195 XP); the 12 cavern locusts panicked and shrieked; a grey ooze came up the SW lava tube and the party withdrew; C1's 24 graves not looted.
 - Undercity avenue tunnel (Emporium grate to 12u): 5 rhagodessas met (3 day 187; 2 slain day 192, 1 fled); 7 shrieking fungi about 80' from the grate.
+- Day 195 08:48, 12u: six Horned Rat wererats (human form, Friendly) came through the cesspool tapping walls; Lucilla called the hole a drain and they went on out the NE archway (Judge's call: they took it for a drain; they have not found the way in yet).
 - D7 door opened (day 187 09:35): the troglodyte hunters in D8 judged the party strong and slipped away home to warn the tribe (Judge's call, D7 key): the tribe is alerted.
 
 ## Events triggered
