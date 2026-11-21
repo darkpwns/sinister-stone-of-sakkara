@@ -602,3 +602,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | hrodvar |
 | 199 | septima (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
 | 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | septima |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |

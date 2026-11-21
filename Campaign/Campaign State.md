@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 199
-  time: 08:15
+  time: '13:11'
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -26,15 +26,15 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.693
+    encumbrance_st: 9.982
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 12
+    hp: 8
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.131
+    encumbrance_st: 9.631
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -48,7 +48,8 @@ public:
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used: []
+    spells_used:
+    - Holy Circle
     encumbrance_st: 2.668
   - name: Ottar
     sheet: Characters/ottar.json
@@ -57,7 +58,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 5.259
+    encumbrance_st: 5.926
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -77,7 +78,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.479
+    encumbrance_st: 8.312
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -93,7 +94,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 6.426
+    encumbrance_st: 6.759
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -118,7 +119,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 7.03
-  light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) out
+  light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) out; torch (Ottar) out
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []

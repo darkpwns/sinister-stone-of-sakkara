@@ -36,6 +36,11 @@ the Silk Pony.
   tomb's treasury (silver bowls, pots, a golden plumed fan, an ivory-inlaid chest, frankincense, a bronze pendant, a
   bag of seeds). A swarm of millipedes that had followed the party in burned under three flasks. A grey slick in the
   cesspool was left behind. Sold: 1,705gp. One slab is left, at the north end of the antechamber's east wall.
+- Day 199, eighth descent: back by ten with fresh prayers and the stable's oil. The last slab rolled at the third heave
+  onto a black burial chamber; a tall wrapped figure in a gold mask was already standing. One look and eight of the
+  eleven shrank down, unable to move; it struck Vettius, and a cold sickness crept from the blow. Neris raised her
+  holy circle and the dead lord could not cross it; the party ran, Neris last. It followed as far as the first hall.
+  In town a priest cured Vettius' sickness for 45gp.
 
 ## Who they met
 - Varro (fighter): lean, close-cropped, ex-watchman; answers in one word.
