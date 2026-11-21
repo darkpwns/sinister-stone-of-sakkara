@@ -40,6 +40,27 @@ prefecture's capital to hire a priestess of their own, carrying a letter from Pr
   patrician who may live with the lepers in the undercity. Day 186: Vettius rose; Neris' and Sabina's cures made him
   whole. Iron rations for everyone; the animals and cart stabled at the Silk Pony.
 
+- Day 187, the first descent: down an Old District grate, along the avenue sewer to the great cesspool under the
+  agora, and through the burst floor into black lava caves. A pale tentacled scavenger stung Tarq rigid twice and
+  fled, wounded; a cave carpeted with millipedes burned under three flasks of oil; a bronze door opened on an elven
+  general's tomb (reliefs of elves trampling humans; a six-armed statue Sabina named Bel, the Slaughterprince; a
+  chapel whose wall graves gave up 48gp; a gallery of armed skeletons in their graves and a secret panel by a fallen
+  bust, left shut). On the way out three long-legged pale hunters came down the sewer: Hesper, Sabina and Tarq were
+  seized and bitten down; the rest fled up the grate.
+- Days 188-190: the hunters fed for a day; the party recovered the dead's coin, magic weapons and potions and gave
+  Sabina, Tarq and Hesper heroic funerals at the House of Mourning. Neris (Ingrid) carries on; Brennus, a young
+  fighter (Kwame), and Iulia, a priest of the Winged Sun (Gideon), joined. Lucilla hired Quirinus, a veteran
+  fighter; Vettius hired Phaedra, an apprentice mage.
+- Days 191-192: the triangular cave below burned clear of its swarms (30gp of grave goods); a cavern of shrieking
+  grasshoppers below that; back in the sewer, grey-capped fungi screamed at the light and brought three more pale
+  hunters: Phaedra's sleep and Vettius' blade killed one, oil and steel another, the third fled. Brennus and Iulia
+  fell and were saved.
+- Day 195: the party came down by a farther grate, past the fungi (its plan: never walk past them again). Friendly
+  wall-tappers in the cesspool took the hole for a drain. A creeping red fungus burned; down a rope into the huge
+  cavern, wide of the mould and the grasshoppers; through bronze doors into galleries of wall graves, looted
+  (472gp); rats and a crawling mass of grave-worms avoided. Out by the farther grate. Treasure brought home: 654gp
+  of ancient grave goods.
+
 ## Who they met
 - A brigand band (Friendly, night of day 161); a merchant camp (Friendly, 21.09).
 - An unnamed priest of Türos Orn (healed Vettius).
@@ -48,6 +69,7 @@ prefecture's capital to hire a priestess of their own, carrying a letter from Pr
 - Ottar, peltmonger (hired by Lucilla): broad, slow-moving, smells of tannery; laughs at his own jokes.
 
 ## Treasure and XP
+- Day 195 payout: 654gp treasure + 912 monster XP over 7.5 shares (about 209 per share; henchmen half).
 
 ## Rumours given
 - Day 171: the Argollëan Family and Sand & Bones (merchant, 21.09).
