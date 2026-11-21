@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795263871,
+ "generated": 1795263919,
  "date": {
   "year": "",
   "season": "fall",
-  "day": 192
+  "day": 194
  },
- "time": "06:29",
+ "time": "05:29",
  "weather": "Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -42,9 +42,7 @@
    "hp": 3,
    "hp_max": 3,
    "conditions": [],
-   "spells_used": [
-    "Mage Missile"
-   ]
+   "spells_used": []
   },
   {
    "name": "Neris",
@@ -75,8 +73,7 @@
    "hp": 6,
    "hp_max": 6,
    "conditions": [
-    "ear torn clean off (-1 to Listening throws and -1 to surprise rolls)",
-    "in shock: needs magical healing and one night of bed rest, or 1 week of bed rest"
+    "ear torn clean off (-1 to Listening throws and -1 to surprise rolls)"
    ],
    "spells_used": [],
    "encumbrance_st": 6.167
@@ -85,12 +82,14 @@
    "name": "Iulia",
    "sheet": "Characters/iulia.json",
    "role": "pc",
-   "hp": 1,
+   "hp": 13,
    "hp_max": 13,
    "conditions": [
     "minor scarring (puncture wound)"
    ],
-   "spells_used": [],
+   "spells_used": [
+    "Cure Light Injury"
+   ],
    "encumbrance_st": 8.025
   },
   {
@@ -100,24 +99,22 @@
    "hp": 5,
    "hp_max": 5,
    "conditions": [],
-   "spells_used": [
-    "Slumber"
-   ],
+   "spells_used": [],
    "encumbrance_st": 1.167
   },
   {
    "name": "Quirinus",
    "sheet": "Characters/quirinus.json",
    "role": "henchman",
-   "hp": 14,
+   "hp": 18,
    "hp_max": 18,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 6.5
   }
  ],
- "light": "lantern (Vettius) out; torch (Ottar) 6 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra",
- "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Vettius) out",
+ "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -893,8 +890,8 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 436,
-    "sp": 1,
+    "gp": 432,
+    "sp": 5,
     "cp": 0
    },
    "encumbrance_st": 9.937,
@@ -2719,62 +2716,6 @@
  ],
  "open_rolls": [
   {
-   "label": "brennus death save",
-   "spec": "1d20+4",
-   "rolls": [
-    14
-   ],
-   "total": 18
-  },
-  {
-   "label": "iulia death save",
-   "spec": "1d20+5",
-   "rolls": [
-    8
-   ],
-   "total": 13
-  },
-  {
-   "label": "quirinus death save",
-   "spec": "1d20+3",
-   "rolls": [
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "phaedra death save",
-   "spec": "1d20+4",
-   "rolls": [
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Lucilla",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
    "label": "init Neris",
    "spec": "1d6",
    "rolls": [
@@ -3121,6 +3062,62 @@
     6
    ],
    "total": 6
+  },
+  {
+   "label": "iulia natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "quirinus natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Iulia Cure Light Injury on herself",
+   "spec": "1d6+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "Iulia Cure Light Injury on Quirinus",
+   "spec": "1d6+1",
+   "rolls": [
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "iulia natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Iulia Cure Light Injury on herself",
+   "spec": "1d6+1",
+   "rolls": [
+    3
+   ],
+   "total": 4
+  },
+  {
+   "label": "Neris Cure Light Injury on Iulia",
+   "spec": "1d6+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
   }
  ],
  "rumours_heard": [

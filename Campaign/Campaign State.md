@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 192
-  time: 06:29
+    day: 194
+  time: 05:29
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -40,8 +40,7 @@ public:
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used:
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -66,17 +65,17 @@ public:
     hp_max: 6
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
-    - 'in shock: needs magical healing and one night of bed rest, or 1 week of bed rest'
     spells_used: []
     encumbrance_st: 6.167
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 1
+    hp: 13
     hp_max: 13
     conditions:
     - minor scarring (puncture wound)
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
     encumbrance_st: 8.025
   - name: Phaedra
     sheet: Characters/phaedra.json
@@ -84,19 +83,18 @@ public:
     hp: 5
     hp_max: 5
     conditions: []
-    spells_used:
-    - Slumber
+    spells_used: []
     encumbrance_st: 1.167
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
-    hp: 14
+    hp: 18
     hp_max: 18
     conditions: []
     spells_used: []
     encumbrance_st: 6.5
-  light: 'lantern (Vettius) out; torch (Ottar) 6 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra'
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  light: lantern (Vettius) out
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -120,7 +118,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 192
+clock_day: 194
 ---
 # Campaign State
 
