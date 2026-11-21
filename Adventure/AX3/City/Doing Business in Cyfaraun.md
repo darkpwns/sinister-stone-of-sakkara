@@ -97,17 +97,17 @@ Specialists (Class III), selected: alchemist 1 (250gp); animal trainer common 1d
 
 | Place | Prices |
 |---|---|
-| Mercenary Guildhouse #10 (members) | 1sp a night |
-| Hall of Travelers #64 hostel (10 beds) | 2sp a night |
-| Silk Pony Inn #25 ([[Festival District]]) | bed 2sp, room 5sp a night; room by the hour 1sp; stable stall 2sp a day |
-| Imperial Charter Inn #74 ([[Lake District]]; the rumours' "Noble Charter Inn") | room 2gp a night, private bath +1gp; stall 1gp per horse a night; wagon berth 2gp a night; dwarf beer 2sp a mug, local wine 1gp a glass, fine Northern Argollëan wine 5-100gp a bottle; companions 1gp an hour, 5gp a night |
-| The Mink #11 ([[Old District]]) | private rooms 1sp an hour or 1gp a night (small), 2sp / 2gp (large), 3sp / 3gp with hearth; companions 2sp an hour, 1gp a night |
+| Mercenary Guildhouse #10 (members; p. 71) | 1sp a night |
+| Hall of Travelers #64 hostel (10 beds; p. 165) | 2sp a night |
+| Silk Pony Inn #25 ([[Festival District]]; pp. 118-119) | bed 2sp, room 5sp a night; room by the hour 1sp; stable stall 2sp a day |
+| Imperial Charter Inn #74 ([[Lake District]]; the rumours' "Noble Charter Inn"; p. 179) | room 2gp a night, private bath +1gp; stall 1gp per horse a night; wagon berth 2gp a night; dwarf beer 2sp a mug, local wine 1gp a glass, fine Northern Argollëan wine 5-100gp a bottle; companions 1gp an hour, 5gp a night |
+| The Mink #11 ([[Old District]]; pp. 82, 84) | private rooms 1sp an hour or 1gp a night (small), 2sp / 2gp (large), 3sp / 3gp with hearth; companions 2sp an hour, 1gp a night |
 | Ordinary bawdyhouse | 2sp a few moments, 1gp a night; up to 10× for patricians |
 | Random inn ([[Buildings of Cyfaraun]]) | 2d4 rooms, 2d4 stalls, 1d4 × 25% vacant; price: RR (not printed) |
 
 Menus and the remaining inns, baths (Public Baths #51) and taverns: district notes.
 
-## Legal matters (pp. 166, 187-189)
+## Legal matters (pp. 61, 114, 164, 172, 187-190)
 - **No public prosecutors:** a private citizen brings the case. Most lawsuits go to the **Imperial Courthouse #82** ([[Palace District]]): disputes between individuals (contracts, property, delicts and felonies against private persons and property: adultery, assault, breach of contract, burglary, defamation, embezzlement, kidnapping, murder, rape, robbery, theft, trespass, vandalism). The citizen accuses before one of **seven magistrates**, who qualifies the claim; the defendant is then brought in, by force if needed. Patrician magistrates preside; **juries of citizens** (paid 1sp a day, so often poor or old) decide; a patrician defendant may choose the magistrate instead. **2d10 trials a day** (40% contract and property, 40% delicts, 20% felonies). Lawyers are optional but present: 1d6+1 master, 2d6+1 licensed and 4d6+3 apprentice lawyers solicit there daily.
 - **Temple of Justice #63** ([[Temple District]]): crimes against the Empire, its gods and officers (bribery, conspiracy, corruption, diabolism, heresy, necromancy, treason ...). A denouncer must be of the same or higher legal status as the accused; the presiding templar investigates for **1d6+1 days**; if qualified, trial before the ranking templar with a jury of retired magistrates, councillors and clergy. A templar may prosecute an important case that lacks a citizen.
 - **Prisoners** await trial in the Prefect's Dungeon #78u (4d10 at a time: 65% capital charges, 30% serious felonies, 5% petty).

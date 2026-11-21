@@ -23,7 +23,7 @@ Running: inhabited building; **no wandering monster checks** (AX3 gives none); o
 - **South centre:** kitchen and refectory **6** (two long tables, stove on the south wall) (map).
 
 ## Wandering monsters
-None. Occupants per room below. Officers: [[Aurëus Ambador (AX3)]], [[Mentenus Cavië (AX3)]], [[Clitus Omnus (AX3)]].
+None. Occupants per room below. Officers: [[Aureus Ambador (AX3)]], [[Mentenus Cavie (AX3)]], [[Clitus Omnus (AX3)]].
 
 ---
 
@@ -32,12 +32,12 @@ None. Occupants per room below. Officers: [[Aurëus Ambador (AX3)]], [[Mentenus 
 ### 1. Provost's Quarters
 - **Exits:** door to the passage before the officers' rooms; the NW stair is beside it (map).
 - Fine furniture imported from Aura; a sitting table in the centre with an incense burner for daily meditation.
-- **Mentenus Cavië:** **25%** here by day, **75%** asleep here by night (door wizard locked and magic-mouthed). Stats: [[Mentenus Cavië (AX3)]].
+- **Mentenus Cavië:** **25%** here by day, **75%** asleep here by night (door wizard locked and magic-mouthed). Stats: [[Mentenus Cavie (AX3)]].
 
 ### 2. Regent's Quarters
 - **Exits:** door to the passage (map).
 - Luxurious, furnished fit for the great patricians. A small stand in the centre holds a **marble bust of Quintus Odysios**, first Regent, with fragrant oils burning before it. By the great bed, a sitting table with a **kyrpeges game in mid-play** and a stack of open letters on small pieces of parchment from the **Archregent of Aura**, each a single sentence giving the next move.
-- **Aurëus Ambador:** **30%** here by day, **95%** asleep here by night (door wizard locked and magic-mouthed). Stats: [[Aurëus Ambador (AX3)]].
+- **Aurëus Ambador:** **30%** here by day, **95%** asleep here by night (door wizard locked and magic-mouthed). Stats: [[Aureus Ambador (AX3)]].
 
 ### 3. Treasurer's Quarters
 - **Exits:** door to the passage; the NE stair is beside it (map).

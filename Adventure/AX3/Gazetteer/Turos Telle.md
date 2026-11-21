@@ -21,7 +21,7 @@ Westernmost fort of Ulkyreus's line, on an **island in the Mirmen**, watching th
 - **Ruler:** Legate Aurius Mennictor (class and level not given in AX3), vassal of **Palatine Theremus Augilian** ([[Siadanos]], #34); tribute **2,575gp** a month.
 - **Domain** (AX3 p. 30): **725 peasant / 108 urban families**; domain 6 (wilderness) hexes; realm 3,933 families in 31 (wilderness) hexes (four tribunes, as in the template: inferred); realm garrison budget 15,516gp a month.
 - **Settlement:** a village of camp followers, **Class VI** market (JJ p. 209: the forts' villages are Class VI).
-- **Stronghold and budget:** as the legate border-fort template ([[Turos Tem]], AX3 p. 32): stone walls, barracks, headquarters, towers, granaries, hospital, stable-barracks; stronghold value 200,250gp.
+- **Stronghold and budget:** as the legate border-fort template ([[Borderlands Gazetteer#Legate border-fort template]], AX3 p. 32): stone walls, barracks, headquarters, towers, granaries, hospital, stable-barracks; stronghold value 200,250gp.
 - **Garrison:** the standard legate's fort under-strength ([[Borderlands Gazetteer#Garrisons of the Unbroken Line]]): about 90 troops in the fort, 18 watchtowers on the line.
 
 ## Hooks

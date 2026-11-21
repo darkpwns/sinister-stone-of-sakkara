@@ -26,14 +26,14 @@ The campaign's fixed point for travel. Every hex the engine travels through must
   the AX3 map (S07); classification (civilized, borderlands, outlands, wilderness) from the JJ's classification map of
   the same sandbox (JJ p. 210); zone from the JJ's alignment lines; domain: the nearest fort's ruler (AX3 entries),
   none in wilderness or on the lake. The Viaspen's forest hexes carry AX1's forest check. Lake Laman (18 hexes) is
-  impassable. Record of the build: `Playtest/tools/map/` (README, `extend_s07.py`).
+  impassable. Record of the build: `Playtest/tools/map/` (README, `extend_s07.py`). **AX3 gazetteer extension** (2026-11-21, `extend_ax3.py`): +40 hexes, 454 in all: the hex of each of the 36 AX3 points of interest outside the block (single hexes, not yet joined by travel hexes) and Siadanos (#34, 11.21) with its two road corridors (13.21, 12.20; 13.19, 12.19). Classification from AX3's domain records (the JJ map is not in the container), zone extrapolated. Every AX3 site #1-#53: [[Borderlands Gazetteer]].
 - **Roads** (`Data/world.json`): the Imperial road Türos Tem - Aster - Spen - Orn - Cyfaraun (23 hexes); Cyfaraun -
-  Türos Quell along the lake's west shore (9); Türos Tem - Siadanos westward to the map's edge at 14.21 (8); Türos Tem
-  - Türos Luin (4); Türos Quell - Siadanos down the Mirmen to 14.18 (6). Roads north of Cyfaraun and Orn and east of
+  Türos Quell along the lake's west shore (9); Türos Tem - Siadanos westward along the Lusaun to Siadanos 11.21 (11); Türos Tem
+  - Türos Luin (4); Türos Quell - Siadanos down the Mirmen to Siadanos (10). Roads north of Cyfaraun and Orn and east of
   the Krysivor are drawn on AX3 but not entered.
 - **Settlement notes:** Türos Tem, Türos Aster, Türos Spen, Türos Orn, Cyfaraun (each with a market note in
-  `Adventure/Markets/`). The other forts (Quell, Luin, Morn, Zera, Mityethtem, Luseatum) are in `Data/places.csv`
-  without notes.
+  `Adventure/Markets/`). The other forts, towns and sites have short notes in `Adventure/AX3/Gazetteer/` (all
+  in `Data/places.csv`).
 
 ## Türos Tem — 22.20 (AX3 #28)
 - Fort on a 150' tor between the Krysivor and the Viaspen, over a ford; Legate Ulrand Valerian. Outlands on the JJ
@@ -52,4 +52,4 @@ The Nethercity lies under **Cyfaraun** (#10, 18.05), capital of the prefecture (
 | Türos Orn → Cyfaraun 18.05 (#10, Prefect Basilio) | 22.09, 21.09, 20.08, 20.07, 19.07, 18.06 | 7 | Lake Laman's north-east shore; civilized |
 
 Forts every 3-9 hexes; Türos Orn is a small town (class IV), Cyfaraun a city (class III).
-Beyond the built block (Siadanos, Samos, the Waste, the far north): extend from the same map the same way first.
+Beyond the built block (Samos, the Waste, the far north; their site hexes exist, the hexes between do not): extend from the same map the same way first.

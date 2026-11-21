@@ -21,7 +21,7 @@ A 300-year-old fort of the Second Krysean Rebellion's aftermath, like [[Andraste
 - **Ruler:** Legate Manthus Mirasca (class and level not given in AX3), vassal of **Palatine Vason Krateros** ([[Samos]], #9); tribute **2,575gp** a month.
 - **Domain** (AX3 p. 29): **725 peasant / 111 urban families**; domain 4 (borderlands) hexes; realm 3,925 families in 22 (borderlands/civilized) hexes (four tribunes, as in the template: inferred); realm garrison budget 15,490gp a month.
 - **Settlement:** a village of camp followers, **Class VI** market (JJ p. 209: the forts' villages are Class VI).
-- **Stronghold and budget:** as the legate border-fort template ([[Turos Tem]], AX3 p. 32): stone walls, barracks, headquarters, towers, granaries, hospital, stable-barracks; stronghold value 200,250gp.
+- **Stronghold and budget:** as the legate border-fort template ([[Borderlands Gazetteer#Legate border-fort template]], AX3 p. 32): stone walls, barracks, headquarters, towers, granaries, hospital, stable-barracks; stronghold value 200,250gp.
 - **Garrison:** the standard legate's fort under-strength ([[Borderlands Gazetteer#Garrisons of the Unbroken Line]]): about 90 troops in the fort, 18 watchtowers on the line.
 
 ## Hooks

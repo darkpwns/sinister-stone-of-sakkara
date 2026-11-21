@@ -32,7 +32,7 @@ None inside. Occupants:
 | Sorcerer (Mage 7) | 40% in 11, 40% in 13 | (classed NPC) | as above, hp 7d4, attack 8+, 3/2/2/1 spells, XP 440 | 11, 13 |
 | Warmages (Mage 7) | 2, 50% each by day | (classed NPC) | as sorcerer; Battle Magic, Elementalism | 6 |
 | Transmogrifiers (Mage 7) | 2 | (classed NPC) | as sorcerer | 7 |
-| Officers | 5% each in 11 and 13 | [[Aurëus Ambador (AX3)]], [[Mentenus Cavië (AX3)]], [[Clitus Omnus (AX3)]] | — | 1 (Aurëus 25% by day), 2 (Mentenus 50% day, 25% night) |
+| Officers | 5% each in 11 and 13 | [[Aureus Ambador (AX3)]], [[Mentenus Cavie (AX3)]], [[Clitus Omnus (AX3)]] | — | 1 (Aurëus 25% by day), 2 (Mentenus 50% day, 25% night) |
 
 ---
 
@@ -43,7 +43,7 @@ None inside. Occupants:
 - Opposite the door, a large **oil-painted map on the leathered hide of a huge bull**: the Borderlands and what little is charted of the Wastes, with points cryptically marked by sigil combinations (the spikes his agents have planted).
 - Table by the map: Aurëus's **[[Crystal Ball]]**, a stack of **embossed iron spikes** with unique sigil combinations, hard iron stamping tools and hammers. Adventurers who travel into the Wastes for him are given spikes to drive in at key landmarks (passes, fords); the map marks the points (pay: [[Tower District]]).
 - Left of the door: a 7’ oak bookshelf with his private journals, notes on suspected **beastman tribe** locations and appraisals of their war-chiefs and shamans, and **30 codices** on battle magic, military history, siege engineering and cartography (**4,500gp, 15 st**). Beside it a wizard-locked chest of **4,300gp**.
-- **Aurëus Ambador** here **25%** by day: [[Aurëus Ambador (AX3)]].
+- **Aurëus Ambador** here **25%** by day: [[Aureus Ambador (AX3)]].
 
 ### 2. Provost's Private Study
 - **Exits:** secret door (wizard locked, **9th level**) to the corridor (map).
@@ -51,7 +51,7 @@ None inside. Occupants:
 - Left of the door: shelves of a dozen glass jars of small dead animals (frogs, rats, snakes) in embalming fluids, and **ten small stoppered bottles of blood-coloured fluid (6gp each) labelled "rat lycanthropy"**. On the research table, three frogs pinned belly-up in small arcane circles of rare mineral salts, partly vivisected. Under the table a wizard-locked chest of **2,300gp**.
 - Right of the door: a 7’ bookshelf with the Provost's **research journals** and **25 books** on astrology, history, lycanthropy and summoning (**3,750gp, 12.5 st**); beside it a fine life-sized tapestry of the Provost in his robes (**250gp**).
 - **The journals** are in cipher: readable by magic ([[Discern Gist]]) or a successful proficiency throw to read languages (thief Deciphering; Judge's call for other readers). Decrypted: his research into elven fragments across the Borderlands; his conclusion that elven agelessness came from their ancestors' necromantic experiments, which he means to repeat to give himself and mankind eternal youth; ancient **elven tombs beneath Cyfaraun**; his work with recently expelled adjuncts and scholars to find entrances to the ruins from the sewers; and that he **infected his associates with wererat lycanthropy** to make them better searchers and protect them from the sewers' deadly diseases. **Delivered to the Prefect, the Regent or the Patriarch, they get Mentenus arrested.**
-- **Mentenus Cavië** here **50%** by day, **25%** at night: [[Mentenus Cavië (AX3)]].
+- **Mentenus Cavië** here **50%** by day, **25%** at night: [[Mentenus Cavie (AX3)]].
 
 ### 3. Treasurer's Private Study
 - **Exits:** secret door (wizard locked, 8th level) to the corridor (map).

@@ -26,5 +26,5 @@ treasure_type: "None"
 xp: "5"
 description: "Lay members of the Solar Citadel's Citadel Guard (24 in all): spear, short sword, shield bearing the winged sun, banded plate with winged light helm, yellow cloak with purple fringe."
 combat: "- AC 6 = banded plate 5 + shield 1 (matches ACKS II).\n- Module statline: MV 60’, AC 6, HD 1-1, hp 5, #AT 1, D 1d6, Save NM, ML +4, AL L, XP 5."
-notes: "Appearances: Bridge District special encounter 10 (2 escort each cleric, AX3 p. 131); Solar Citadel 13-16 (2 per door, p. 133); Catacombs of the Patriarchs 6 (4, p. 135) and Undercity patrol (1d4, p. 67); Death Cult Hideout 2, the Iron Gate (2, p. 183)."
+notes: "Appearances: Bridge District special encounter 10 (2 escort each cleric, AX3 p. 131); Solar Citadel 13-16 (2 per door, p. 133); Catacombs of the Patriarchs 6 (4, p. 135) and Undercity patrol (1d4, p. 67); Death Cult Hideout 2, the Iron Gate (2, p. 183). Temple District: 2 at the Temple Barracks doors, 1d6+3 guarding the House of Mourning and answering forced entry at the Barracks (pp. 165-166); Catacombs of the Ancestors 1 (1), 2 (2), 8 (2), 9 (1 patrolling) (pp. 170-172)."
 ```
