@@ -41,6 +41,13 @@ tags:
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 78 wall graves (2500 BE) | 351 | marcellus |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 54 wall graves (2400 BE) | 243 | quirinus |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 12 wall graves (2300 BE) and 24 (2400 BE) | 162 | gnaeus |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | 600 gold pieces | 600 | decimus |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | a gold candelabra | 1,250 | brennus |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | a gold sacrificial bowl | 850 | iulia |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | four gold and ivory libation cups | 1,600 | neris |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | gem worth 1000.0gp | 1,000 | lucilla |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | SOTN Cobalt Death Orb | 25 | lucilla |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | SOTN Cobalt Death Orb | 25 | lucilla |
 
 ## Monster XP
 
@@ -61,6 +68,7 @@ tags:
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Grey Goo | 1 | 95 | 95 |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Animated Iron Statue | 1 | 135 | 135 |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Wraith | 1 | 190 | 190 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Jackal of Darkness (SOTN) | 2 | 135 | 270 |
 
 ## Shares and XP awarded
 
@@ -155,6 +163,19 @@ tags:
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Aelia | 0.5 | 73 | 16 | 0 | +0% | 89 |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Marcellus | 0.5 | 73 | 16 | 0 | +0% | 89 |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Gnaeus | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Lucilla | 1 | 563 | 28 | 0 | +10% | 651 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Vettius | 1 | 563 | 28 | 0 | +5% | 622 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Iulia | 1 | 563 | 28 | 0 | +5% | 622 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Vestus the Unlikely | 1 | 563 | 28 | 0 | +5% | 622 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Neris | 1 | 563 | 28 | 0 | +0% | 592 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Brennus | 1 | 563 | 28 | 0 | +5% | 622 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Phaedra | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Varro | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Hrodvar | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Aelia | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Marcellus | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Gnaeus | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 221 | Nethercity, expedition 13 (the warlord's chapel) | Decimus | 0.5 | 282 | 14 | 0 | +0% | 296 |
 
 ## Wages
 
@@ -896,3 +917,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 221 | Hospital of the Keepers | donation for his pallet in the courtyard, night of day 220 |  |  | 1gp | brennus |
 | 221 | Solar Citadel (alms for the acolytes who keep Quirinus' pallet) | pallet under the oculus, from night of day 221 (Judge's price, 1gp a night, five nights ahead) |  |  | 5gp | lucilla |
 | 221 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 205-228 (2sp a stall a day; days 205-220 owed, Judge slip S09) |  |  | 19gp 2sp | vettius |
+| 221 |  | treasure share |  | 63gp 1sp 6cp |  | lucilla |
+| 221 |  | treasure share |  | 63gp 1sp 6cp |  | vettius |
+| 221 |  | treasure share |  | 63gp 1sp 6cp |  | iulia |
+| 221 |  | treasure share |  | 63gp 1sp 6cp |  | vestus-the-unlikely |
+| 221 |  | treasure share |  | 63gp 1sp 6cp |  | neris |
+| 221 |  | treasure share |  | 63gp 1sp 6cp |  | brennus |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | phaedra |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | varro |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | hrodvar |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | aelia |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | marcellus |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | gnaeus |
+| 221 |  | treasure share |  | 31gp 5sp 8cp |  | decimus |
+| 221 | Cyfaraun buyers (goldsmiths, gemcutter, a collector) | sale of L100-L104 (A18) |  | 8,470gp |  | lucilla |

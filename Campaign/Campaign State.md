@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 221
-  time: 09:25
+  time: '11:35'
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.21
+    encumbrance_st: 10.173
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.489
+    encumbrance_st: 11.25
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -46,31 +46,31 @@ public:
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 4
-    hp_max: 4
+    hp: 5
+    hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 3.534
+    encumbrance_st: 4.495
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 6
-    hp_max: 6
+    hp: 14
+    hp_max: 14
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     spells_used: []
-    encumbrance_st: 7.993
+    encumbrance_st: 8.954
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 13
-    hp_max: 13
+    hp: 14
+    hp_max: 14
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.242
+    encumbrance_st: 9.403
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -78,7 +78,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 4.789
+    encumbrance_st: 5.113
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
@@ -97,7 +97,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 7.061
+    encumbrance_st: 7.551
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -105,7 +105,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 8.727
+    encumbrance_st: 9.217
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -113,7 +113,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6.364
+    encumbrance_st: 6.687
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -121,7 +121,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 9.197
+    encumbrance_st: 9.687
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -129,7 +129,7 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 7.53
+    encumbrance_st: 8.02
   - name: Decimus
     sheet: Characters/decimus.json
     role: henchman
@@ -137,8 +137,8 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 7.006
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) 3 turns 5 rounds left; torch (Aelia) 3 turns 5 rounds left
+    encumbrance_st: 7.496
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Decimus: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
