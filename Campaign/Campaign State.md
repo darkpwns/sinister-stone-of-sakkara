@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 222
-  time: 06:35
+    day: 223
+  time: 06:00
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 10.165
+    encumbrance_st: 10.157
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -81,8 +81,8 @@ public:
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
-    hp: 8
-    hp_max: 8
+    hp: 7
+    hp_max: 7
     conditions:
     - 'enervated (day 219): Death save each day on waking, failure -1 max hp more; three passes in a row end it'
     - 'Salving Rest (Neris, day 219): +4 on the enervation save, two passes in a row end it, +1d3 hp a day of complete rest; ends if he leaves complete rest or takes damage (RR p. 242)'
@@ -124,7 +124,7 @@ public:
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
-    hp: 8
+    hp: 9
     hp_max: 9
     conditions: []
     spells_used: []
@@ -162,7 +162,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 222
+clock_day: 223
 ---
 # Campaign State
 

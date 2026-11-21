@@ -34,7 +34,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   is kept for the temple. The gold and the gem sold for 5,170gp. Iulia became a priest of the third rank (and her
   prayers to Ammonar, long unspoken, are now counted every morning), Brennus a warrior of the second, Neris a
   daughter of Mityara.
-- Day 222 dawn: Quirinus woke no weaker under the oculus.
+- Day 222 dawn: Quirinus woke no weaker under the oculus. Day 223 dawn: weaker again.
 
 ## Who they met
 - Decimus (explorer, Vettius' henchman): lanky, ink-stained fingers, counts everything twice, quick dry wit.
