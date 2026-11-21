@@ -1121,3 +1121,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 241 | Calpurnia (former henchman) | half share of the A20 goods sold day 241 |  |  | 595gp | lucilla |
 | 241 | Titus Aurelianus (former henchman) | half share of the A20 goods sold day 241 |  |  | 595gp | lucilla |
 | 242 | Silk Pony Inn (#25) | beds for twelve, night of day 241 |  |  | 2gp 4sp | lucilla |
+| 242 | Cyfaraun | Oil, Military (1 pint) | 12 |  | 21gp 6sp | lucilla |
+| 242 | Cyfaraun | Holy Water (1 pint) | 2 |  | 45gp | lucilla |
+| 242 | Cyfaraun | torch | 12 |  | 2sp | aelia |
+| 242 | Cyfaraun | torch | 12 |  | 2sp | phaedra |
+| 242 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | vettius |
