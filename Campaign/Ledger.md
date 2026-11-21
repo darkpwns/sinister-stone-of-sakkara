@@ -10,12 +10,25 @@ tags:
 | Session | Adventure | Lot | Description | Value (gp) | XP |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Buried Temple, delve 1 | L1 | spider egg cluster (room 11) | 295 (sold 324.50) | 295 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 48 gold pieces | 48 | lucilla |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 30 gold pieces | 30 | quirinus |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 96 gold pieces | 96 | quirinus |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 96 gold pieces | 96 | brennus |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 128 gold pieces | 128 | iulia |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 72 gold pieces | 72 | lucilla |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 80 gold pieces | 80 | vettius |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | 104 gold pieces | 104 | neris |
 
 ## Monster XP
 
 | Session | Adventure | Monster | Number | XP each | XP |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Buried Temple, delve 1 | stirge | 2 | 13 | 26 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Insect Swarm | 1 | 135 | 135 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Insect Swarm | 3 | 29 | 87 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Rhagodessa (AX3) | 2 | 215 | 430 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Insect Swarm | 3 | 65 | 195 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Fungal Creeper (SOTN) | 1 | 65 | 65 |
 
 ## Shares and XP awarded
 
@@ -26,6 +39,15 @@ tags:
 | 01 | Buried Temple, delve 1 | Tarq | 1 | 59 | 5 | 0 | +0% | 64 |
 | 01 | Buried Temple, delve 1 | Lucilla | 1 | 59 | 5 | 0 | +10% | 70 |
 | 01 | Buried Temple, delve 1 | Vettius | 1 | 59 | 5 | 0 | +5% | 67 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Lucilla | 1 | 87 | 122 | 0 | +10% | 230 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Vettius | 1 | 87 | 122 | 0 | +5% | 219 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Vestus the Unlikely | 1 | 87 | 122 | 0 | +5% | 219 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Neris | 1 | 87 | 122 | 0 | +0% | 209 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Ottar | 0.5 | 44 | 61 | 0 | +0% | 104 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Brennus | 1 | 87 | 122 | 0 | +5% | 219 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Iulia | 1 | 87 | 122 | 0 | +5% | 219 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Quirinus | 0.5 | 44 | 61 | 0 | +0% | 104 |
+| 195 | Secrets of the Nethercity (journey to Cyfaraun) | Phaedra | 0.5 | 44 | 61 | 0 | +0% | 104 |
 
 ## Wages
 
@@ -426,3 +448,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 193 | Silk Pony Inn (#25) | beds for nine, night of day 193 |  |  | 1gp 8sp | lucilla |
 | 194 | Silk Pony Inn (#25) | beds for nine, night of day 194 |  |  | 1gp 8sp | lucilla |
 | 195 | Cyfaraun | Oil, Military (1 pint) | 8 |  | 14gp 4sp | lucilla |
+| 195 |  | treasure share |  | 87gp 2sp |  | lucilla |
+| 195 |  | treasure share |  | 87gp 2sp |  | vettius |
+| 195 |  | treasure share |  | 87gp 2sp |  | vestus-the-unlikely |
+| 195 |  | treasure share |  | 87gp 2sp |  | neris |
+| 195 |  | treasure share |  | 43gp 6sp |  | ottar |
+| 195 |  | treasure share |  | 87gp 2sp |  | brennus |
+| 195 |  | treasure share |  | 87gp 2sp |  | iulia |
+| 195 |  | treasure share |  | 43gp 6sp |  | quirinus |
+| 195 |  | treasure share |  | 43gp 6sp |  | phaedra |

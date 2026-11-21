@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.419
+    encumbrance_st: 9.508
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -33,7 +33,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 8.871
+    encumbrance_st: 8.96
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -48,7 +48,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 2.167
+    encumbrance_st: 2.256
   - name: Ottar
     sheet: Characters/ottar.json
     role: henchman
@@ -56,7 +56,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6
+    encumbrance_st: 6.049
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -65,7 +65,7 @@ public:
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     spells_used: []
-    encumbrance_st: 6.167
+    encumbrance_st: 6.256
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -74,7 +74,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.025
+    encumbrance_st: 8.114
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -82,7 +82,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 1.167
+    encumbrance_st: 1.216
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
@@ -90,7 +90,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 6.333
+    encumbrance_st: 6.382
   light: 'lantern (Vettius) out | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra'
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}

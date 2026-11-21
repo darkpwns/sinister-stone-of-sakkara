@@ -49,11 +49,13 @@
     "player": "rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 6598,
     "level_before": 4,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 195,
+    "xp_award": 230
    },
    "vettius": {
     "id": "vettius",
@@ -63,11 +65,13 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 6296,
     "level_before": 4,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 195,
+    "xp_award": 219
    },
    "hesper": {
     "id": "hesper",
@@ -92,11 +96,13 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1559,
     "level_before": 1,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 195,
+    "xp_award": 219
    },
    "neris": {
     "id": "neris",
@@ -106,11 +112,13 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 195,
+    "xp_award": 209
    },
    "ottar": {
     "id": "ottar",
@@ -120,11 +128,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 0,
-    "class": "None (0th level)"
+    "class": "None (0th level)",
+    "returned_day": 195,
+    "xp_award": 104
    },
    "brennus": {
     "id": "brennus",
@@ -134,11 +144,13 @@
     "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 775,
     "level_before": 1,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 195,
+    "xp_award": 219
    },
    "iulia": {
     "id": "iulia",
@@ -148,11 +160,13 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1702,
     "level_before": 2,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 195,
+    "xp_award": 219
    },
    "quirinus": {
     "id": "quirinus",
@@ -162,11 +176,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 2,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 195,
+    "xp_award": 104
    },
    "phaedra": {
     "id": "phaedra",
@@ -176,11 +192,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 195,
+    "xp_award": 104
    }
   },
   "monsters": [
@@ -226,9 +244,140 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 195,
+   "at": "Cyfaraun",
+   "total": 1566.0,
+   "per_share": 208.8,
+   "awards": {
+    "sabina": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "tarq": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 209,
+     "pct": 10,
+     "pen": 0,
+     "award": 230,
+     "xp_before": 6598,
+     "xp_after": 6828,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 209,
+     "pct": 5,
+     "pen": 0,
+     "award": 219,
+     "xp_before": 6296,
+     "xp_after": 6515,
+     "capped": null,
+     "zero": false
+    },
+    "hesper": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 209,
+     "pct": 5,
+     "pen": 0,
+     "award": 219,
+     "xp_before": 1559,
+     "xp_after": 1778,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 209,
+     "pct": 0,
+     "pen": 0,
+     "award": 209,
+     "xp_before": 0,
+     "xp_after": 209,
+     "capped": null,
+     "zero": false
+    },
+    "ottar": {
+     "share": 0.5,
+     "why": null,
+     "base": 104,
+     "pct": 0,
+     "pen": 0,
+     "award": 104,
+     "xp_before": 0,
+     "xp_after": 104,
+     "capped": null,
+     "zero": true
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 209,
+     "pct": 5,
+     "pen": 0,
+     "award": 219,
+     "xp_before": 775,
+     "xp_after": 994,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 209,
+     "pct": 5,
+     "pen": 0,
+     "award": 219,
+     "xp_before": 1702,
+     "xp_after": 1921,
+     "capped": null,
+     "zero": false
+    },
+    "quirinus": {
+     "share": 0.5,
+     "why": null,
+     "base": 104,
+     "pct": 0,
+     "pen": 0,
+     "award": 104,
+     "xp_before": 0,
+     "xp_after": 104,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 104,
+     "pct": 0,
+     "pen": 0,
+     "award": 104,
+     "xp_before": 0,
+     "xp_after": 104,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 195,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -5426,7 +5575,7 @@
    "qty": 48,
    "stone": 0.048,
    "carrier": "lucilla",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 187,
     "where": "D5 wall graves (24, 2900 BE)"
@@ -5450,7 +5599,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L69": {
    "id": "L69",
@@ -5459,7 +5609,7 @@
    "qty": 30,
    "stone": 0.03,
    "carrier": "quirinus",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 191,
     "where": "A3 wall graves (15, 3100 BE)"
@@ -5483,7 +5633,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L70": {
    "id": "L70",
@@ -5492,7 +5643,7 @@
    "qty": 96,
    "stone": 0.096,
    "carrier": "quirinus",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 195,
     "where": "E2a wall graves (48, 2800 BE)"
@@ -5516,7 +5667,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L71": {
    "id": "L71",
@@ -5525,7 +5677,7 @@
    "qty": 96,
    "stone": 0.096,
    "carrier": "brennus",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 195,
     "where": "E2c wall graves (48, 2800 BE)"
@@ -5549,7 +5701,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L72": {
    "id": "L72",
@@ -5558,7 +5711,7 @@
    "qty": 128,
    "stone": 0.128,
    "carrier": "iulia",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 195,
     "where": "E4b wall graves (64, 2700-2600 BE)"
@@ -5582,7 +5735,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L73": {
    "id": "L73",
@@ -5591,7 +5745,7 @@
    "qty": 72,
    "stone": 0.072,
    "carrier": "lucilla",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 195,
     "where": "E5 common tomb graves (36, 2600 BE)"
@@ -5615,7 +5769,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L74": {
    "id": "L74",
@@ -5624,7 +5779,7 @@
    "qty": 80,
    "stone": 0.08,
    "carrier": "vettius",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 195,
     "where": "E4c wall graves, upper half (40, 2700 BE)"
@@ -5648,7 +5803,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   },
   "L75": {
    "id": "L75",
@@ -5657,7 +5813,7 @@
    "qty": 104,
    "stone": 0.104,
    "carrier": "neris",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 195,
     "where": "E6b wall graves (52, 2700 BE)"
@@ -5681,7 +5837,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 195
   }
  },
  "hoards": {},
