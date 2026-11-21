@@ -36,6 +36,11 @@ tags:
 | 211 | Secrets of the Nethercity, delve 10 | 324 gold pieces | 324 | quirinus |
 | 211 | Secrets of the Nethercity, delve 10 | grave goods of 92 wall graves (2500 BE) | 414 | brennus |
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | gold funerary mask with lapis lazuli eyes | 675 | iulia |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 112 wall graves (2500 BE) | 504 | hrodvar |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 44 wall graves (2500 BE) | 198 | varro |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 78 wall graves (2500 BE) | 351 | marcellus |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 54 wall graves (2400 BE) | 243 | quirinus |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | grave goods of 12 wall graves (2300 BE) and 24 (2400 BE) | 162 | gnaeus |
 
 ## Monster XP
 
@@ -54,6 +59,8 @@ tags:
 | 211 | Secrets of the Nethercity, delve 10 | Bombardier Beetle | 4 | 20 | 80 |
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Mummy | 1 | 660 | 660 |
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Grey Goo | 1 | 95 | 95 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Animated Iron Statue | 1 | 135 | 135 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Wraith | 1 | 190 | 190 |
 
 ## Shares and XP awarded
 
@@ -134,6 +141,20 @@ tags:
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Aelia | 0.5 | 34 | 38 | 0 | +0% | 72 |
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Marcellus | 0.5 | 34 | 38 | 0 | +0% | 72 |
 | 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Gnaeus | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Lucilla | 1 | 146 | 32 | 0 | +10% | 196 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Vettius | 1 | 146 | 32 | 0 | +5% | 187 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Vestus the Unlikely | 1 | 146 | 32 | 0 | +5% | 187 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Neris | 1 | 146 | 32 | 0 | +0% | 178 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Iulia | 1 | 146 | 32 | 0 | +5% | 187 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Brennus | 1 | 146 | 32 | 0 | +5% | 187 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Quirinus | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Phaedra | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Varro | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Hrodvar | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Septima | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Aelia | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Marcellus | 0.5 | 73 | 16 | 0 | +0% | 89 |
+| 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Gnaeus | 0.5 | 73 | 16 | 0 | +0% | 89 |
 
 ## Wages
 
@@ -822,3 +843,43 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 219 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 219 | the retinue | wages paid |  |  | 25gp | iulia |
 | 219 | the retinue | wages paid |  |  | 25gp | vettius |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 |  | treasure share |  |  |  |  |
+| 219 | Cyfaraun buyers (sale of L94-L98) | sale of the H grave goods (sell: proceeds not allocated) |  | 1,603gp 8sp |  | lucilla |
+| 219 | vettius (share) | share of the L94-L98 sale (A17, 1 share) |  |  | 160gp 4sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, 1 share) |  | 160gp 4sp |  | vettius |
+| 219 | vestus-the-unlikely (share) | share of the L94-L98 sale (A17, 1 share) |  |  | 160gp 4sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, 1 share) |  | 160gp 4sp |  | vestus-the-unlikely |
+| 219 | neris (share) | share of the L94-L98 sale (A17, 1 share) |  |  | 160gp 4sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, 1 share) |  | 160gp 4sp |  | neris |
+| 219 | iulia (share) | share of the L94-L98 sale (A17, 1 share) |  |  | 160gp 4sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, 1 share) |  | 160gp 4sp |  | iulia |
+| 219 | brennus (share) | share of the L94-L98 sale (A17, 1 share) |  |  | 160gp 4sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, 1 share) |  | 160gp 4sp |  | brennus |
+| 219 | quirinus (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | quirinus |
+| 219 | phaedra (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | phaedra |
+| 219 | varro (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | varro |
+| 219 | hrodvar (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | hrodvar |
+| 219 | aelia (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | aelia |
+| 219 | marcellus (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | marcellus |
+| 219 | gnaeus (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | gnaeus |
+| 219 | body:septima (share) | share of the L94-L98 sale (A17, half share) |  |  | 80gp 2sp | lucilla |
+| 219 | lucilla | share of the L94-L98 sale (A17, half share) |  | 80gp 2sp |  | body:septima |

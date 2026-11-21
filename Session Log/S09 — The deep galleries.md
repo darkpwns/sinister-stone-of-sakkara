@@ -67,8 +67,18 @@ the Silk Pony.
   Ottar, dissolving his leather and then him; Brennus' axe and Gnaeus' sword finished it. The gold mask came off the
   dead lord's face. The rot sent them home: three cures and a donation at the temples, Lucilla first. Vestus reached
   the second rank and bought a new spell's formula at the Tower. Mask sold for 743gp.
+- Days 212-218, Cyfaraun: a week abed for Lucilla and Vettius under Neris' hands; Vestus learnt Fan of Flames. The
+  magic weapons went to the fighters: Brennus the hepatizon great axe, Marcellus the black death-drinker, Quirinus the
+  battle axe.
+- Day 219, the twelfth descent, back to the temple of the dead: the cast-iron scarab-faced figure in the northern
+  alcove (Vestus and Iulia named it Khepri) stepped down and fought; Brennus fell in shock before Hrodvar's mace broke
+  it. The rest of the great curving corridor, the southern galleries and two commoners' tombs: 324 graves, 1,604gp.
+  By the crossroads a grey-robed hooded figure with a bronze hook came out of the dark: its touch withered Quirinus
+  for good; Septima's flask burst in her own hand and she burned to death; Vestus' fan of flames, Vettius' sword and
+  Lucilla's mace destroyed it. Home with Septima's body and Brennus carried.
 
 ## Who they met
+- Septima, explorer, Vettius' henchwoman, burned to death by her own flask by the temple crossroads (day 219).
 - Ottar, peltmonger and torch-bearer since Cyfaraun, killed and eaten by a grey ooze in the first tomb (day 212).
 - Aelia (bard): sharp-tongued, plain-faced, sings under her breath when she is afraid.
 - Marcellus (fighter): broad, cheerful, a city watchman's son.
