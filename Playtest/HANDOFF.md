@@ -183,3 +183,8 @@ henchman's proficiencies cannot be set; campaign tables (Adventure/**/Tables/*.y
 - Delve 5 (A10, paid out day 196: 168 treasure XP): E6a graves (L76 80gp), F1 frescoes (Iulia), F2 graves (L77 88gp). Not entered: F3/F5 (12 skeletons + mummy curate), F4 (mummy cultist, undead swarm, worms), the F11 gallery (128 skeletons wake for anyone carrying F-tomb treasure).
 - Still lootable at low risk: E4c lower 40 graves (80gp, near troglodytes), C1 24 graves (48gp, grey ooze there). Everything else left is a mummy tomb, a skeleton-guarded vault or deeper levels (G, H, I troglodyte tribe, L, M...).
 - Now: day 196 ~17:10, Cyfaraun, Silk Pony (pay the night). Open a new adventure before the next delve. Party at full hp less minor wounds; check `inv show` for oil (military about 5, common 3).
+
+## Engine 7.13.7 and the next session (2026-11-21)
+- acks2-tools 7.13.7 (branch ccr-6e7c0096-7nmfvu, bc189fd): the S08 findings fixed; campaign `tools.ref` ccr-6e7c0096-7nmfvu, `min_version` 7.13.7; acks.sh exports ACKS_TABLES.
+- The prompt to start the next session: `Playtest/NEXT-SESSION-PROMPT.md`.
+
