@@ -29,6 +29,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 142 (S07, delve 8): the Lady slain in 38 (coup de grace, Vettius); the Stone taken and destroyed at the stream camp by Genelen; Fragments to Mityara's order. 5 skeletons destroyed by fire; 5 skeletons and 13 zombies (8 + the 23 group not met) remain, back at their posts. Bodies left in 38: Aulus, Marcia (with their gear), Thorwell, Quintus; the Lady's body in her plate +1. The chest in 39 untouched. With the Lady dead and the Stone destroyed, no more replacements (AX1 p. 53 needs both).
 - Black Fangs: Indifferent after a failed bribe (day 142). Undead returned to 34/35.
 
+### [[SOTN Hub|Nethercity]] (S08, day 187)
+- A1 (12u cesspool): the carrion horror stung Tarq twice (paralysed twice), was hurt to 2 hp and fled into A4, where the fungal creeper caught it (being digested; creeper distracted while it feeds, Judge's call).
+- A2: the 4 HD insect swarm burned to death with three flasks of oil (135 XP).
+- A3 not entered (3 swarms, 6 tunnel prawns). A4: creeper feeding; bronze door to D1 forced open.
+- D1: slab to D2 (Eolande) untouched. D3, D4 entered (Sabina named Bel; nobody went near the dais). D5: 24 wall graves looted (L68, 48gp); altar and jackals untouched.
+- D6a/b/c walked through; graves untouched; Vettius found that the chariot panel in D6b is a secret door held shut, with a weighted plate in the empty pedestal (not opened: the 48 skeletons sleep).
+- D7 door opened (day 187 09:35): the troglodyte hunters in D8 judged the party strong and slipped away home to warn the tribe (Judge's call, D7 key): the tribe is alerted.
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |

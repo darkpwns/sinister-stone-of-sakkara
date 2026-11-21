@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 187,
-  "round_of_day": 475,
-  "total_rounds": 267835
+  "round_of_day": 575,
+  "total_rounds": 267935
  },
  "party": {
   "sabina": {
@@ -28,7 +28,8 @@
    "name": "Lucilla",
    "perceived": "Lucilla",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 0.38133333333333336
   },
   "vettius": {
    "id": "vettius",
@@ -85,9 +86,9 @@
    "id": "torch41",
    "kind": "torch",
    "carrier": "ottar",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 25,
+   "rounds_left": 0,
    "tallow": false
   },
   {
@@ -96,59 +97,59 @@
    "carrier": "vettius",
    "lit": true,
    "closed": false,
-   "rounds_left": 205,
+   "rounds_left": 105,
+   "tallow": false
+  },
+  {
+   "id": "torch42",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch43",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 20,
    "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 22,
+  "rounds_since_rest": 0,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Undercity of Cyfaraun",
+  "site": "Nethercity D - Warlord's Tomb and Chapel to Bel",
   "kind": "dungeon",
-  "level": 2,
-  "room": "A2 Mezzanine Level Cave",
+  "level": 4,
+  "room": "D7 Upper Level Grand Balcony (door)",
   "wandering": {
    "none": false,
    "die": "1d6",
    "every": 3,
-   "target": 5
+   "target": 6
   },
-  "table": "Adventure/AX3/Tables/ax3-undercity-encounters.yaml",
+  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
   "source": {
-   "wandering": "site setting: '1d6 every 3 turns, 5+'"
+   "wandering": "site setting: '1d6 every 3 turns, 6+'"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 2,
   "last_check": {
-   "at": "day 187 07:40",
-   "roll": 1,
-   "target": 5,
+   "at": "day 187 09:10",
+   "roll": 3,
+   "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 123 15:20",
-    "roll": 5,
-    "target": 5,
-    "encounter": true
-   },
-   {
-    "at": "day 142 08:10",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 142 08:20",
-    "roll": 2,
-    "target": 5,
-    "encounter": false
-   },
    {
     "at": "day 142 08:40",
     "roll": 3,
@@ -250,13 +251,31 @@
     "roll": 1,
     "target": 5,
     "encounter": false
+   },
+   {
+    "at": "day 187 08:10",
+    "roll": 1,
+    "target": 5,
+    "encounter": false
+   },
+   {
+    "at": "day 187 08:40",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 187 09:10",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 267830
+  "turn_start_done": 267930
  },
  "turn_actions": {
-  "turn": 26783,
+  "turn": 26793,
   "listened": [],
   "actions": []
  },
@@ -1022,8 +1041,8 @@
    "rest_rounds": 0
   },
   "187": {
-   "delve_rounds": 75,
-   "rest_rounds": 20
+   "delve_rounds": 155,
+   "rest_rounds": 40
   }
  },
  "events": [
@@ -2581,8 +2600,8 @@
   }
  ],
  "next_ids": {
-  "enc": 134,
-  "torch": 41,
+  "enc": 135,
+  "torch": 43,
   "t": 5,
   "lantern": 1
  },
@@ -38722,14 +38741,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc115",
-   "at": "day 165 07:07",
-   "monster_name": "Commoner",
-   "number": 1,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
    "id": "enc116",
    "at": "day 165 10:40",
    "monster_name": null,
@@ -38880,6 +38891,14 @@
    "number": 1,
    "reaction": null,
    "status": "fighting"
+  },
+  {
+   "id": "enc135",
+   "at": "day 187 09:35",
+   "monster_name": "Troglodyte",
+   "number": 6,
+   "reaction": null,
+   "status": "surprise rolled"
   }
  ]
 }

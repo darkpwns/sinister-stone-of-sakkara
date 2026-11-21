@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 187
-  time: 07:55
+  time: 09:35
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -24,7 +24,6 @@ public:
     conditions:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
     encumbrance_st: 9.147
   - name: Sabina
@@ -34,7 +33,6 @@ public:
     hp_max: 16
     conditions:
     - one eye clawed out (-2 to missile attack throws)
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
     encumbrance_st: 8.808
   - name: Tarq
@@ -47,7 +45,6 @@ public:
     - minor scarring (fang marks on the neck)
     - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
     - one hand bitten off (cannot dual-wield or use two-handed weapons)
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
     spells_used: []
     encumbrance_st: 9.202
   - name: Vettius
@@ -55,8 +52,7 @@ public:
     role: pc
     hp: 12
     hp_max: 12
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used: []
     encumbrance_st: 8.793
   - name: Hesper
@@ -80,8 +76,7 @@ public:
     role: henchman
     hp: 4
     hp_max: 4
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used:
     - Cure Light Injury
     encumbrance_st: 2.167
@@ -90,11 +85,10 @@ public:
     role: henchman
     hp: 2
     hp_max: 2
-    conditions:
-    - 'sewer miasma: -1 to attack throws and damage until 1 turn of rest away from the sludge'
+    conditions: []
     spells_used: []
-    encumbrance_st: 6.667
-  light: torch (Ottar) 2 turns 5 rounds left; lantern (Vettius) 20 turns 5 rounds left
+    encumbrance_st: 6.333
+  light: lantern (Vettius) 10 turns 5 rounds left; torch (Ottar) 2 turns left
   rations: 'Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
