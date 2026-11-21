@@ -1,6 +1,6 @@
 # Sakkara playtest — operating manual
 
-Local test instance (2026-11-20): AX1 *The Sinister Stone of Sakkara* run as a campaign of the `acks2-judge` skill
+Test instance (2026-11-20; repo `darkpwns/sinister-stone-of-sakkara` since 2026-11-21): AX1 *The Sinister Stone of Sakkara* run as a campaign of the `acks2-judge` skill
 (`.claude/skills/acks2-judge/`, a copy of the one in `darkpwns/kardakia-campaign`), AI party of six, to test whether
 the engine and skill are adequate for running a published adventure. Kardakia's master state and display page are
 not touched.
@@ -11,3 +11,5 @@ not touched.
 - Ruling order: room/area note → `Adventure/AX1 Hub.md` procedures → engine → rules → `Campaign/Rulings.md`.
 - Party decisions follow `Party/profiles/` and `Party/heuristics.md`; the party agent (`party.py`) is used at a few
   decision points only (cost).
+- Playtest record: `Playtest/REPORT.md` (per delve), `Playtest/judge-notes.txt` (voids, slips, corrections, findings), `Playtest/HANDOFF.md` (where play stands, how to resume), `Playtest/tools/` (fight and travel helpers).
+- Commit and push after every save (`save.sh`).

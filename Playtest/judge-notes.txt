@@ -1,0 +1,51 @@
+VOID: day 9 round 3 drain on Brannoc (1) applied after stirge 1 died; hp restored to -1
+VOID: day 11 12.07 dangerous terrain (Foul Fountain): the party was retracing its route (--retrace omitted by error; JJ: no terrain encounters on a route already travelled)
+VOID: day 20 rat fight round 1: Lucilla's attack (she was surprised; engine did not refuse)
+VOID: day 20 08:20 second wandering check (gnolls x2, enc24): duplicate check at the same turn start (engine bug, fixed)
+Judge's call day 25 night: insect swarms (surprised, 51') do not follow a party that wakes, lights torches and moves off along the stream
+Judge's ruling day 26: Sabina (incapacitated) carried on a litter by Tarq and Gallus, each bearing half her 15 st body weight; modelled as 7.5 st of 'firewood' supplies on each bearer (no litter mechanism in the engine)
+VOID: day 38 two made-up loyalty rolls for Thorwell/Thorcigar; loyalty set to Tarq's CHA modifier (+1) as on hiring (RR p. 166)
+Engine bug fixed mid-play: enc44 (2 gnolls, due 09:56 in room 2) was dropped by the advance; run now in its place
+Judge's call day 38 10:00: 18 giant rats coming in from the forest side of the crack; the party steps back through the bronze doors and the kobold door guards help bar them; the rats roam off (no fight)
+Judge's ruling day 48: goods buried in a pile (the ogre's furs) are found by clearing the pile for a turn, no search throw; the 18+ search is for hidden features
+VOID: lots L26/L27 (generic Armor +1 / Weapon +1 rolled random types: Leather, Short Bow); dropped and re-recorded as L28/L29 with the module's types after the engine fix
+Judge's call day 48 09:43: three hobgoblins Unfriendly (snake eyes) but facing twelve: they curse and withdraw
+VOID: day 54 Vettius Sneaking throw (engine test after the throw fix)
+Judge slip day 62 08:21: wandering orcs (3, enc67) at the exit were never met (commands chained past them); treated as passing by
+Judge's call day 66: from 14.07 the white-washed walls of Türos Tem on its 150' tor are visible (AX1 p. 5): the party fixes its position
+Judge correction day 83: Thorwell and Thorcigar were left dehydrated/unhealed by 16 settlement rest days (members joined after travel-init; engine open issue); set to full hp
+S06 (2026-11-20, second chat)
+VOID: party.py stub crashed after rolling impulses (Tomasz 1, Rosa 3, Kwame 3): Tarq's actor held a condition parsed as a YAML mapping ("grievously wounded: 2 weeks bed rest"); bed rest expired day 81, condition removed; stub rerun
+VOID: day 95/96 midnight rollover (dehydration CON rolls; Lucilla died at CON 0): the day-95 drink at the 10.07 stream was never recorded. Exploration and inventory state restored to the handoff, the drink recorded, the session's actions redone; no one was dehydrated in the rerun, so nothing was rolled twice
+Judge's correction day 95: Hesper, Thorwell, Thorcigar drank at the stream (engine allows one water forage a day; T&T have no day entries)
+Judge's correction day 96: Thorwell and Thorcigar were dead in the travel block (starvation, never processed at rollovers since joining after travel-init) but alive in play: records set to Gallus'
+Judge's correction day 96: Hesper dehydrated at the rollover after joining the travelling party (party add) after the day's water; CON and condition restored
+Judge's ruling day 96: Tarq's raspy voice -2 applies to a reaction roll when he is the face (actor mod CHA.mod -2 for the roll, then unmod)
+Judge slip day 96: camp --resume ran 16 h to day 97 11:08 (no --hours); morning travel lost
+Judge slip day 96: Tarq's food after forage was his Survival meal, not a kept ration; given to Hesper (fits the declared sharing), so Tarq went hungry
+Finding: the wall's player corpus lacked the rumours-heard section, so every prompt after a rumour was given verbatim was refused (fixed in party.py: kardakia-campaign skill)
+Finding: water fills only waterskins reachable by the member's supply carrier; supplies routed to a donkey with no skins hold no water (members switched to carry their own: supplies add ID --on none)
+Finding: the travel block's food record ran 9-11 days without meals including town days (days 90-91 in Türos Tem); kept as recorded for the PCs
+Judge slip day 98: a merchant on the road at 390' (enc78) was not narrated; the party went on into town (treated as passing)
+Engine fix (hire.py): a shares-only henchman (0 gp wage) was "owed" a wage; day-68 calamity rolls voided (Thorcigar's resignation, Thorwell's -2 loyalty); test added
+Engine fix (travel.py): camp re-applied sweltering heat saves to members who had shed their armor for the night; Aulus' and Sabina's heat fatigue cleared; test added
+Market day 103: only 3 weeks of iron rations, no holy water, no mules (hidden availability); standard rations for the march, iron for the dungeon
+VOID: day 108 Outer Fane round 1: Vestus' Mage Missile rolled 1d6+1 (3); ACKS II Mage Missile is 1d4; gnoll hp restored and 1d4 rolled
+Finding: an encounter rolled by rest (due at minute 7) and resolved early still stops the next turn advance at its minute (enc84); no new encounter
+Engine fix (travel.py): members packed on one animal drink from the group's shared water at the rollover (Lucilla lost 5 CON on day 110 while the group carried 4.8 days); her CON restored, a day's water taken from Aulus; test added
+Judge slip day 98-102: Gallus' second month (due day 102) not paid while in town; calamity (Resignation) voided, wage paid day 111
+Judge slip day 123: combat state removed before state end (ogre2 lacked a damage type: Ur-Shet's battle axe was set as 'battle-axe'); the unconscious ogres were finished off by the Black Fangs (helpless)
+VOID: day 123 Zakiti listening roll (13): hustling at 40' in quiet is heard automatically (earshot)
+Finding: Rebuke Undead (crusader, RR Crusader table) has no engine command; rolled with acks roll and applied with state cond
+VOID: day 123 Sabina's rebuke 2d6 (3): the rebuking throw failed
+VOID: day 123 round 3 Zakiti's save vs Zaira's Charm Person (Beguile Humanoid affects under 5 HD; Zakiti is HD 5); her spell was disrupted by Vestus' Mage Missile damage first. Judge slip: skeletons' round-3 attacks were skipped by the loop and resolved before round-end
+Finding: Zakiti's arcane strike (+1d6 per slot level after a hit) is not modelled; applied with damage by hand
+Finding: recover --item 'Armor +1 (Plate Armor)' records 1/6 st, not plate's weight (L60)
+Judge slip day 123 15:12-15:52: torches burned out and were not relit for 3 turns of walking (treated as relit; 3 torch-turns not charged)
+Judge slip day 124: food shifted off Aulus, Sabina and Vettius left them hungry at the rollover; finding: food is per member (no pooling like water)
+Finding: death --dies did not mark the travel member dead (Tarq's body was fed, watered and dehydrated at later rollovers); set by hand
+Judge's correction day 130: the party drank its fill at the gnomes' well on day 129 (recorded only as skins filled); Gallus' thirst death (-5 CON) and Aulus' -6 at the 129/130 rollover voided; both regained 3 CON as the others did. Finding: water given by NPCs at a source needs a 'drank at the source' path (supplies add only fills skins)
+Judge slip day 122-131: no adventure was started for delve 7; its monsters (M20-M22) and lots (L56-L70) were moved by hand from the paid A6 to a new A7
+Finding: actor item add spell accepts names not in the rules (added 'Scorching Ray'; replaced with Burning Sparks)
+VOID (user's request): everything after the end of round 8 at the pillars (day 123 13:51) through day 131 is replayed. Judge misread: the Lady's surrender at half hp ignored the module's override ("if she expects death or the Stone's destruction, she fights to the death"); the party was carrying her Stone away. State rebuilt: inventory log cut at event 587 and replayed; actors from the day-122 save with the round-8 hp, wounds and spells; adventure A7 reopened (ogres, skeletons; lots L56-L58, L61); clock, lights, travel rolled back. The rolls logged after that point (session 6, day 123 13:51 onward to day 131) stay in the roll log and are void; the combat's monster hp were re-rolled when re-added and set back to the recorded values (void).
+Judge's correction day 125: rebuilt ration records (replay) used wrong spoilage fields; standard rations 'spoiled' and the party went hungry one night; hunger voided, iron rations shared
