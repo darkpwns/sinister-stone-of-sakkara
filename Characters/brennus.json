@@ -1,0 +1,20 @@
+{
+"schema": "acks-actor/2",
+"id": "brennus",
+"type": "character",
+"role": "pc",
+"name": "Brennus",
+"class": "Fighter",
+"level": 1,
+"xp": 775,
+"alignment": "Neutral",
+"age": 18,
+"gender": "male",
+"hp_max": 6,
+"attributes": {"STR":14,"INT":13,"WIL":10,"DEX":18,"CON":12,"CHA":7},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Berserkergang","list":"class"},{"type":"proficiency","name":"Endurance","list":"general"},{"type":"proficiency","name":"Healing","list":"general"}],
+"modifiers": [],
+"state": {"conditions":[],"spells_used":[],"hp":6},
+"changes": [{"field":"attributes.STR","from":null,"to":14,"cause":"chargen: attribute STR (5d6)"},{"field":"attributes.CON","from":null,"to":12,"cause":"chargen: attribute CON (4d6)"},{"field":"attributes.DEX","from":null,"to":18,"cause":"chargen: attribute DEX (4d6)"},{"field":"attributes.INT","from":null,"to":13,"cause":"chargen: attribute INT (3d6)"},{"field":"attributes.WIL","from":null,"to":10,"cause":"chargen: attribute WIL (3d6)"},{"field":"attributes.CHA","from":null,"to":7,"cause":"chargen: attribute CHA (3d6)"},{"field":"class","from":null,"to":"Fighter","cause":"chargen: class Fighter"},{"field":"level","from":null,"to":1,"cause":"chargen: class Fighter"},{"field":"xp","from":null,"to":0,"cause":"chargen: class Fighter"},{"field":"hp_max","from":null,"to":6,"cause":"chargen: hit points (1d8)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Adventuring","list":"general"},"cause":"chargen: template Ravager"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Berserkergang","list":"class"},"cause":"chargen: template Ravager"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Endurance","list":"general"},"cause":"chargen: template Ravager"},{"field":"age","from":null,"to":18,"cause":"chargen: starting age (17 + 1d6)"},{"field":"alignment","from":null,"to":"Neutral","cause":"chargen: set alignment"},{"field":"gender","from":null,"to":"male","cause":"chargen: set gender"},{"field":"inventory_holder","from":null,"to":true,"cause":"chargen: inventory holder: starting equipment (template Ravager)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Healing","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"chargen","from":{"method":"templates","done":["attributes","class","hp","template","age","equipment"],"owed":{"class":0,"general":0,"spells":0},"template":"Ravager","next":"finish ID"},"to":null,"cause":"chargen: finished"},{"field":"xp","from":0,"to":775,"cause":"heroic funeral XP from Tarq (RR Character Death)"}]
+}

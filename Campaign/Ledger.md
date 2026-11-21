@@ -393,3 +393,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 186 | Silk Pony Inn (#25) | beds for seven, night of day 186 |  |  | 1gp 4sp | lucilla |
 | 187 | Silk Pony Inn (#25) | beds for five, night of day 187 |  |  | 1gp | lucilla |
 | 188 | Silk Pony Inn (#25) | beds for five, night of day 188 |  |  | 1gp | lucilla |
+| 189 | House of Mourning (#62), Grey Sisters of Calefa | Sabina's heroic funeral, paid from her recovered coin |  |  | 793gp | neris |
+| 189 | House of Mourning (#62), Grey Sisters of Calefa | Tarq's heroic funeral, paid from his recovered coin |  |  | 861gp | ottar |
+| 189 | House of Mourning (#62), Grey Sisters of Calefa | Hesper's heroic funeral, paid from her recovered coin |  |  | 406gp | vestus-the-unlikely |

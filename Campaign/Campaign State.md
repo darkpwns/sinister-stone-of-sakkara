@@ -48,7 +48,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 2.96
+    encumbrance_st: 2.167
   - name: Ottar
     sheet: Characters/ottar.json
     role: henchman
@@ -56,9 +56,25 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6.861
+    encumbrance_st: 6
+  - name: Brennus
+    sheet: Characters/brennus.json
+    role: pc
+    hp: 6
+    hp_max: 6
+    conditions: []
+    spells_used: []
+    encumbrance_st: 6.667
+  - name: Iulia
+    sheet: Characters/iulia.json
+    role: pc
+    hp: 13
+    hp_max: 13
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.192
   light: lantern (Vettius) out
-  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

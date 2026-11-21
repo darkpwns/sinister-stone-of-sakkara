@@ -1,0 +1,20 @@
+{
+"schema": "acks-actor/2",
+"id": "iulia",
+"type": "character",
+"role": "pc",
+"name": "Iulia",
+"class": "Crusader",
+"level": 2,
+"xp": 1702,
+"alignment": "Lawful",
+"age": 23,
+"gender": "female",
+"hp_max": 13,
+"attributes": {"STR":13,"INT":8,"WIL":15,"DEX":13,"CON":16,"CHA":14},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Divine Blessing","list":"class"},{"type":"proficiency","name":"Theology","list":"general","ranks":2}],
+"modifiers": [],
+"state": {"conditions":[],"spells_used":[],"hp":13},
+"changes": [{"field":"attributes.STR","from":null,"to":13,"cause":"chargen: attribute STR (5d6)"},{"field":"attributes.CON","from":null,"to":16,"cause":"chargen: attribute CON (4d6)"},{"field":"attributes.WIL","from":null,"to":15,"cause":"chargen: attribute WIL (4d6)"},{"field":"attributes.INT","from":null,"to":8,"cause":"chargen: attribute INT (3d6)"},{"field":"attributes.DEX","from":null,"to":13,"cause":"chargen: attribute DEX (3d6)"},{"field":"attributes.CHA","from":null,"to":14,"cause":"chargen: attribute CHA (3d6)"},{"field":"class","from":null,"to":"Crusader","cause":"chargen: class Crusader"},{"field":"level","from":null,"to":1,"cause":"chargen: class Crusader"},{"field":"xp","from":null,"to":0,"cause":"chargen: class Crusader"},{"field":"hp_max","from":null,"to":8,"cause":"chargen: hit points (1d6)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Adventuring","list":"general"},"cause":"chargen: template Priest"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Divine Blessing","list":"class"},"cause":"chargen: template Priest"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Theology","list":"general","ranks":2},"cause":"chargen: template Priest"},{"field":"age","from":null,"to":23,"cause":"chargen: starting age (17 + 1d6)"},{"field":"alignment","from":null,"to":"Lawful","cause":"chargen: set alignment"},{"field":"gender","from":null,"to":"female","cause":"chargen: set gender"},{"field":"inventory_holder","from":null,"to":true,"cause":"chargen: inventory holder: starting equipment (template Priest)"},{"field":"chargen","from":{"method":"templates","done":["attributes","class","hp","template","age","equipment"],"owed":{"class":0,"general":0,"spells":0},"template":"Priest","next":"finish ID"},"to":null,"cause":"chargen: finished"},{"field":"xp","from":0,"to":1702,"cause":"reserve and funeral XP: Aulus' funeral 1,337 + Hesper's 365 (RR Character Death)"},{"field":"level","from":1,"to":2,"cause":"level-up: Crusader level 2"},{"field":"hp_max","from":8,"to":13,"cause":"level-up: Crusader level 2"},{"field":"state.hp","from":8,"to":13,"cause":"level-up: Crusader level 2: hp maximum 8 -> 13"}]
+}

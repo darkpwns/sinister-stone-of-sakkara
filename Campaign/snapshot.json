@@ -1,7 +1,7 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795262747,
+ "generated": 1795263048,
  "date": {
   "year": "",
   "season": "fall",
@@ -52,7 +52,7 @@
    "hp_max": 4,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 2.96
+   "encumbrance_st": 2.167
   },
   {
    "name": "Ottar",
@@ -62,11 +62,31 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.861
+   "encumbrance_st": 6
+  },
+  {
+   "name": "Brennus",
+   "sheet": "Characters/brennus.json",
+   "role": "pc",
+   "hp": 6,
+   "hp_max": 6,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 6.667
+  },
+  {
+   "name": "Iulia",
+   "sheet": "Characters/iulia.json",
+   "role": "pc",
+   "hp": 13,
+   "hp_max": 13,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 8.192
   }
  ],
  "light": "lantern (Vettius) out",
- "rations": "Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "rations": "Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -93,6 +113,579 @@
  ],
  "explored_hexes": [],
  "characters": [
+  {
+   "type": "character",
+   "role": "pc",
+   "name": "Brennus",
+   "class": "Fighter",
+   "level": 1,
+   "xp": 775,
+   "alignment": "Neutral",
+   "age": 18,
+   "gender": "male",
+   "hp_max": 6,
+   "attributes": {
+    "STR": {
+     "score": 14,
+     "mod": 1
+    },
+    "INT": {
+     "score": 13,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 10,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 18,
+     "mod": 3
+    },
+    "CON": {
+     "score": 12,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 7,
+     "mod": -1
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 17
+   },
+   "hit_die": "1d8",
+   "cleaves": 1,
+   "title": "Man-at-Arms",
+   "xp_next": 2000,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Berserkergang",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Endurance",
+      "throw": ""
+     },
+     {
+      "name": "Healing",
+      "throw": ""
+     }
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Chain Mail Armor",
+     "stone": 4
+    },
+    "right_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "Rations, Iron (one week)",
+     "items": 0,
+     "stone": 1
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [
+      "Great Axe",
+      "Hand Axe",
+      "Waterskin"
+     ],
+     "items": 2,
+     "stone": 1
+    },
+    "worn": {
+     "contents": [
+      "Belt/Sash, Leather",
+      "Boots, Leather, Low",
+      "Cloak, Linen or Wool, Hooded",
+      "Pouch/Purse (holds 1/2 stone)",
+      "Sack, Small (holds 2 stone)",
+      "Tunic and Pants, Crafter/Freeholder"
+     ],
+     "items": 2,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
+   },
+   "encumbrance_st": 6.667,
+   "weapons": [
+    {
+     "name": "Great Axe",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d10+2",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "sack"
+    },
+    {
+     "name": "Hand Axe",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6+2",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "sack"
+    }
+   ],
+   "treasure": [],
+   "movement": {
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
+   },
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 14,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 7,
+    "no_shield": 7,
+    "dex_only": 3
+   },
+   "sheet": {
+    "profile": "fighter",
+    "class": "Fighter",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "possessions",
+     "retinue"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {
+     "Damage Bonus": {
+      "value": "+1",
+      "kind": "damage-bonus",
+      "table": "fighter-level-progression",
+      "row": 0
+     }
+    },
+    "powers": {
+     "starting": [
+      "Manual of Arms"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Battlefield Prowess"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "character",
+   "role": "pc",
+   "name": "Iulia",
+   "class": "Crusader",
+   "level": 2,
+   "xp": 1702,
+   "alignment": "Lawful",
+   "age": 23,
+   "gender": "female",
+   "hp_max": 13,
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 15,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 16,
+     "mod": 2
+    },
+    "CHA": {
+     "score": 14,
+     "mod": 1
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 10,
+    "blast": 16,
+    "implements": 13,
+    "spells": 15
+   },
+   "hit_die": "1d6",
+   "cleaves": 1,
+   "title": "Acolyte",
+   "xp_next": 3000,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Divine Blessing",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Theology 2",
+      "throw": ""
+     }
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Banded Plate Armor",
+     "stone": 5
+    },
+    "right_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "Rations, Iron (one week)",
+     "items": 0,
+     "stone": 1
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [
+      "Holy Book",
+      "Holy Symbol",
+      "Mace",
+      "Shield",
+      "Waterskin"
+     ],
+     "items": 3,
+     "stone": 1.5
+    },
+    "worn": {
+     "contents": [
+      "Belt/Sash, Embossed Leather",
+      "Boots, Leather, High",
+      "Cassock, Linen or Wool",
+      "Sack, Small (holds 2 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 25,
+    "cp": 0
+   },
+   "encumbrance_st": 8.192,
+   "weapons": [
+    {
+     "name": "Mace",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6/1d8+1",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "sack"
+    }
+   ],
+   "treasure": [],
+   "spells": {
+    "repertoire": {
+     "1": [
+      "Counterspell",
+      "Cure Light Injury",
+      "Destroy Dead",
+      "Discern Evil",
+      "Discern Magic",
+      "Holy Circle",
+      "Illumination",
+      "Remove Fear",
+      "Sling Stone",
+      "Word of Command"
+     ],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    },
+    "per_day": [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "movement": {
+    "exploration": 60,
+    "combat": 20,
+    "running": 60,
+    "expedition": 12
+   },
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 14,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 6,
+    "no_shield": 6,
+    "dex_only": 1
+   },
+   "sheet": {
+    "profile": "crusader",
+    "class": "Crusader",
+    "caster": true,
+    "magic": "divine",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "spells",
+     "possessions",
+     "retinue"
+    ],
+    "level": 2,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {},
+    "powers": {
+     "starting": [
+      "Divine Magic",
+      "Rebuke Undead",
+      "Theology"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Minor Magical Research"
+      }
+     ]
+    },
+    "prayerful_repertoire": {
+     "1": [
+      "Counterspell",
+      "Cure Light Injury",
+      "Destroy Dead",
+      "Discern Evil",
+      "Discern Magic",
+      "Holy Circle",
+      "Illumination",
+      "Remove Fear",
+      "Sling Stone",
+      "Word of Command"
+     ],
+     "2": [
+      "Augury",
+      "Delay Poison",
+      "Energy Protection",
+      "Halt Humanoids",
+      "Holy Blessing",
+      "Holy Chant",
+      "Noiselessness",
+      "Physical Protection",
+      "Righteous Wrath",
+      "Spiritual Weapon"
+     ],
+     "3": [
+      "Dispel Magic",
+      "Divine Protection",
+      "Holy Circle, Sustained",
+      "Holy Prayer",
+      "Illumination, Perpetual",
+      "Invulnerability to Evil",
+      "Remove Curse",
+      "Rune of Warding",
+      "Spellward",
+      "Striking"
+     ],
+     "4": [
+      "Angelic Aura",
+      "Call of the Regal Pride",
+      "Cure Serious Injury",
+      "Energy Invulnerability",
+      "Inspire Awe",
+      "Neutralize Poison",
+      "Physical Invulnerability",
+      "Repair Disfigurement and Disability",
+      "Smite Undead",
+      "Sunflare"
+     ],
+     "5": [
+      "Atonement",
+      "Blast Ward",
+      "Communion",
+      "Fiery Pillar",
+      "Locate Haunting",
+      "Restore Life and Limb",
+      "Strength of Mind",
+      "True Seeing",
+      "Turn to Dust",
+      "Vigor"
+     ],
+     "6": [
+      "Arrows of the Sun",
+      "Banner of Invincibility",
+      "Blast Ward, Greater",
+      "Dispel Evil",
+      "Hidden Host",
+      "Phoenix Aura",
+      "Prophetic Dream",
+      "Quest",
+      "Salvific Rain",
+      "Summon Winged Herald"
+     ]
+    }
+   }
+  },
   {
    "type": "character",
    "role": "pc",
@@ -596,11 +1189,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 793,
+    "gp": 0,
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 2.96,
+   "encumbrance_st": 2.167,
    "weapons": [
     {
      "name": "Staff",
@@ -1013,11 +1606,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 861,
+    "gp": 0,
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.861,
+   "encumbrance_st": 6,
    "weapons": [
     {
      "name": "Spear",
@@ -1569,168 +2162,6 @@
  ],
  "open_rolls": [
   {
-   "label": "init Sabina",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Tarq",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Lucilla",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Hesper",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Neris",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Ottar",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Tarq paralysis save",
-   "spec": "1d20+1",
-   "rolls": [
-    7
-   ],
-   "total": 8
-  },
-  {
-   "label": "attack Hesper vs the long-legged pale hunter 3",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to the long-legged pale hunter 3",
-   "spec": "1d6+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "Tarq paralysis save",
-   "spec": "1d20+1",
-   "rolls": [
-    13
-   ],
-   "total": 14
-  },
-  {
-   "label": "damage to Hesper",
-   "spec": "2d8",
-   "rolls": [
-    5,
-    5
-   ],
-   "total": 10
-  },
-  {
-   "label": "Hesper paralysis save",
-   "spec": "1d20",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "damage to Sabina",
-   "spec": "2d8",
-   "rolls": [
-    7,
-    4
-   ],
-   "total": 11
-  },
-  {
-   "label": "Sabina paralysis save",
-   "spec": "1d20+2",
-   "rolls": [
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Sabina",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Tarq",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Lucilla",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
    "label": "init Vestus the Unlikely",
    "spec": "1d6",
    "rolls": [
@@ -1975,6 +2406,202 @@
    "rolls": [
     5,
     1
+   ],
+   "total": 6
+  },
+  {
+   "label": "STR (5d6, drop 2)",
+   "spec": "5d6",
+   "rolls": [
+    3,
+    5,
+    2,
+    3,
+    6
+   ],
+   "total": 19
+  },
+  {
+   "label": "CON (4d6, drop 1)",
+   "spec": "4d6",
+   "rolls": [
+    4,
+    2,
+    4,
+    4
+   ],
+   "total": 14
+  },
+  {
+   "label": "DEX (4d6, drop 1)",
+   "spec": "4d6",
+   "rolls": [
+    6,
+    6,
+    1,
+    6
+   ],
+   "total": 19
+  },
+  {
+   "label": "INT (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    3,
+    5,
+    5
+   ],
+   "total": 13
+  },
+  {
+   "label": "WIL (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    3,
+    3,
+    4
+   ],
+   "total": 10
+  },
+  {
+   "label": "CHA (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    4,
+    1,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d8",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "template",
+   "spec": "3d6",
+   "rolls": [
+    4,
+    2,
+    1
+   ],
+   "total": 7
+  },
+  {
+   "label": "starting age",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "STR (5d6, drop 2)",
+   "spec": "5d6",
+   "rolls": [
+    2,
+    2,
+    1,
+    4,
+    5
+   ],
+   "total": 14
+  },
+  {
+   "label": "CON (4d6, drop 1)",
+   "spec": "4d6",
+   "rolls": [
+    3,
+    5,
+    6,
+    5
+   ],
+   "total": 19
+  },
+  {
+   "label": "WIL (4d6, drop 1)",
+   "spec": "4d6",
+   "rolls": [
+    5,
+    2,
+    5,
+    5
+   ],
+   "total": 17
+  },
+  {
+   "label": "INT (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    4,
+    1,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "label": "DEX (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    1,
+    6,
+    6
+   ],
+   "total": 13
+  },
+  {
+   "label": "CHA (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    6,
+    4,
+    4
+   ],
+   "total": 14
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "template",
+   "spec": "3d6",
+   "rolls": [
+    3,
+    3,
+    5
+   ],
+   "total": 11
+  },
+  {
+   "label": "starting age",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Iulia HD 1",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Iulia HD 2",
+   "spec": "1d6",
+   "rolls": [
+    6
    ],
    "total": 6
   }
