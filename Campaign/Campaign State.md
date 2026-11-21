@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 268
-  time: 08:00
+  time: 08:59
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -41,7 +41,9 @@ public:
     hp: 10
     hp_max: 10
     conditions: []
-    spells_used: []
+    spells_used:
+    - Ogre Strength
+    - Fan of Flames
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -49,7 +51,9 @@ public:
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used: []
+    spells_used:
+    - Augury
+    - Holy Blessing
     encumbrance_st: 3.504
   - name: Brennus
     sheet: Characters/brennus.json
@@ -68,7 +72,8 @@ public:
     hp_max: 26
     conditions:
     - minor scarring (puncture wound)
-    spells_used: []
+    spells_used:
+    - Righteous Wrath
     encumbrance_st: 9.679
   - name: Hrodvar
     sheet: Characters/hrodvar.json
@@ -118,7 +123,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 8.512
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 17 turns 4 rounds left
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 11 turns 5 rounds left
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []

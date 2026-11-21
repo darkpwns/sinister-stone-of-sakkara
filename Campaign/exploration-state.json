@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 268,
-  "round_of_day": 480,
-  "total_rounds": 384480
+  "round_of_day": 539,
+  "total_rounds": 384539
  },
  "party": {
   "lucilla": {
@@ -13,7 +13,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.3333333333333333
+   "treasure_stone": 0.5
   },
   "vettius": {
    "id": "vettius",
@@ -1148,7 +1148,7 @@
    "carrier": "vettius",
    "lit": true,
    "closed": false,
-   "rounds_left": 174,
+   "rounds_left": 115,
    "tallow": false
   },
   {
@@ -1161,9 +1161,34 @@
    "tallow": false
   }
  ],
- "timers": [],
+ "timers": [
+  {
+   "id": "t51",
+   "label": "Holy Blessing (Neris), H6",
+   "rounds_left": 55,
+   "hidden": false,
+   "source": null,
+   "started": "day 268 08:54"
+  },
+  {
+   "id": "t52",
+   "label": "Righteous Wrath on Varro (Iulia)",
+   "rounds_left": 5,
+   "hidden": false,
+   "source": null,
+   "started": "day 268 08:54"
+  },
+  {
+   "id": "t53",
+   "label": "Ogre Strength on Varro (Vestus)",
+   "rounds_left": 25,
+   "hidden": false,
+   "source": null,
+   "started": "day 268 08:54"
+  }
+ ],
  "rest": {
-  "rounds_since_rest": 6,
+  "rounds_since_rest": 5,
   "rest_rounds": 0,
   "winded": []
  },
@@ -1171,7 +1196,7 @@
   "site": "Nethercity (sewer caves)",
   "kind": "dungeon",
   "level": 4,
-  "room": null,
+  "room": "H3b",
   "wandering": {
    "none": false,
    "die": "1d6",
@@ -1187,24 +1212,12 @@
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 268 07:50",
-   "roll": 6,
+   "at": "day 268 08:50",
+   "roll": 1,
    "target": 6,
-   "encounter": true
+   "encounter": false
   },
   "history": [
-   {
-    "at": "day 263 09:30",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 263 10:00",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 263 10:30",
     "roll": 5,
@@ -1312,13 +1325,25 @@
     "roll": 6,
     "target": 6,
     "encounter": true
+   },
+   {
+    "at": "day 268 08:20",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 268 08:50",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 384470
+  "turn_start_done": 384530
  },
  "turn_actions": {
-  "turn": 38448,
+  "turn": 38453,
   "listened": [],
   "actions": []
  },
@@ -2421,8 +2446,8 @@
    "rest_rounds": 40
   },
   "268": {
-   "delve_rounds": 56,
-   "rest_rounds": 10
+   "delve_rounds": 105,
+   "rest_rounds": 20
   }
  },
  "events": [
@@ -4628,9 +4653,9 @@
   }
  ],
  "next_ids": {
-  "enc": 194,
+  "enc": 195,
   "torch": 150,
-  "t": 50,
+  "t": 53,
   "lantern": 5
  },
  "travel": {
@@ -59969,14 +59994,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc175",
-   "at": "day 242 07:38",
-   "monster_name": "Mummy",
-   "number": 1,
-   "reaction": null,
-   "status": "begun"
-  },
-  {
    "id": "enc176",
    "at": "day 242 08:02",
    "monster_name": "Mummy",
@@ -60126,6 +60143,14 @@
    "monster_name": "Insect Swarm",
    "number": 1,
    "reaction": "neutral",
+   "status": "fighting"
+  },
+  {
+   "id": "enc195",
+   "at": "day 268 08:58",
+   "monster_name": "Mummy",
+   "number": 1,
+   "reaction": null,
    "status": "fighting"
   }
  ]
