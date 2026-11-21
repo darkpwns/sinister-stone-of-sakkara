@@ -1,14 +1,14 @@
 {
  "campaign": "AX1 Playtest",
  "session": 9,
- "generated": 1795270094,
+ "generated": 1795270490,
  "date": {
   "year": "",
   "season": "fall",
   "day": 198
  },
- "time": "05:15",
- "weather": "Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still",
+ "time": "08:35",
+ "weather": "Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; mostly cloudy; wind strong",
  "place": "Cyfaraun",
  "hex": "18.05",
  "party": [
@@ -63,7 +63,7 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.395
+   "encumbrance_st": 6.062
   },
   {
    "name": "Brennus",
@@ -75,7 +75,7 @@
     "ear torn clean off (-1 to Listening throws and -1 to surprise rolls)"
    ],
    "spells_used": [],
-   "encumbrance_st": 6.282
+   "encumbrance_st": 6.448
   },
   {
    "name": "Iulia",
@@ -140,8 +140,8 @@
    "encumbrance_st": 7
   }
  ],
- "light": "lantern (Vettius) out",
- "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Varro: food 7 d, water 0 d; Hrodvar: food 7 d, water 0 d; Septima: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Vettius) out; torch (Ottar) out",
+ "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -294,9 +294,10 @@
     },
     "backpack": {
      "contents": [
+      "Crowbar",
       "Oil, Military (1 pint) ×2"
      ],
-     "items": 2,
+     "items": 3,
      "stone": 0
     },
     "sack": {
@@ -329,7 +330,7 @@
     "sp": 6,
     "cp": 0
    },
-   "encumbrance_st": 6.282,
+   "encumbrance_st": 6.448,
    "weapons": [
     {
      "name": "Great Axe",
@@ -644,6 +645,7 @@
     }
    ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 26,
@@ -1197,8 +1199,8 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 473,
-    "sp": 8,
+    "gp": 472,
+    "sp": 9,
     "cp": 1
    },
    "encumbrance_st": 9.482,
@@ -1938,9 +1940,9 @@
     "backpack": {
      "contents": [
       "Waterskin ×5",
-      "torch ×8"
+      "torch ×6"
      ],
-     "items": 13,
+     "items": 11,
      "stone": 0
     },
     "sack": {
@@ -1963,7 +1965,7 @@
     "sp": 8,
     "cp": 0
    },
-   "encumbrance_st": 6.395,
+   "encumbrance_st": 6.062,
    "weapons": [
     {
      "name": "Spear",
@@ -2761,6 +2763,7 @@
     }
    ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 22,
@@ -3047,6 +3050,7 @@
     }
    ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 18,
@@ -3636,6 +3640,289 @@
     2
    ],
    "total": 12
+  },
+  {
+   "label": "weather temperature (R05.02)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather precipitation (R05.02)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R05.02)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "lucilla death save",
+   "spec": "1d20+4",
+   "rolls": [
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "vettius death save",
+   "spec": "1d20+4",
+   "rolls": [
+    15
+   ],
+   "total": 19
+  },
+  {
+   "label": "vestus-the-unlikely death save",
+   "spec": "1d20+4",
+   "rolls": [
+    20
+   ],
+   "total": 24
+  },
+  {
+   "label": "neris death save",
+   "spec": "1d20+4",
+   "rolls": [
+    16
+   ],
+   "total": 20
+  },
+  {
+   "label": "brennus death save",
+   "spec": "1d20+4",
+   "rolls": [
+    10
+   ],
+   "total": 14
+  },
+  {
+   "label": "iulia death save",
+   "spec": "1d20+5",
+   "rolls": [
+    18
+   ],
+   "total": 23
+  },
+  {
+   "label": "ottar death save",
+   "spec": "1d20+5",
+   "rolls": [
+    6
+   ],
+   "total": 11
+  },
+  {
+   "label": "quirinus death save",
+   "spec": "1d20+3",
+   "rolls": [
+    16
+   ],
+   "total": 19
+  },
+  {
+   "label": "phaedra death save",
+   "spec": "1d20+4",
+   "rolls": [
+    20
+   ],
+   "total": 24
+  },
+  {
+   "label": "varro death save",
+   "spec": "1d20+4",
+   "rolls": [
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "hrodvar death save",
+   "spec": "1d20+4",
+   "rolls": [
+    13
+   ],
+   "total": 17
+  },
+  {
+   "label": "septima death save",
+   "spec": "1d20+3",
+   "rolls": [
+    19
+   ],
+   "total": 22
+  },
+  {
+   "label": "Brennus bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    17
+   ],
+   "total": 12
+  },
+  {
+   "label": "Iulia bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    18
+   ],
+   "total": 13
+  },
+  {
+   "label": "Brennus bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    12
+   ],
+   "total": 7
+  },
+  {
+   "label": "Vettius bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    6
+   ],
+   "total": 1
+  },
+  {
+   "label": "Ottar bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    12
+   ],
+   "total": 7
+  },
+  {
+   "label": "Iulia bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    10
+   ],
+   "total": 5
+  },
+  {
+   "label": "Brennus bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    18
+   ],
+   "total": 13
+  },
+  {
+   "label": "Vettius bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    11
+   ],
+   "total": 6
+  },
+  {
+   "label": "Ottar bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    16
+   ],
+   "total": 11
+  },
+  {
+   "label": "Iulia bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    4
+   ],
+   "total": -1
+  },
+  {
+   "label": "Brennus bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    6
+   ],
+   "total": 1
+  },
+  {
+   "label": "Vettius bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    15
+   ],
+   "total": 10
+  },
+  {
+   "label": "Ottar bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    15
+   ],
+   "total": 10
+  },
+  {
+   "label": "Iulia bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    18
+   ],
+   "total": 13
+  },
+  {
+   "label": "Brennus bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    11
+   ],
+   "total": 6
+  },
+  {
+   "label": "Vettius bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    7
+   ],
+   "total": 2
+  },
+  {
+   "label": "Ottar bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    17
+   ],
+   "total": 12
+  },
+  {
+   "label": "Iulia bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    18
+   ],
+   "total": 13
+  },
+  {
+   "label": "Brennus bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    13
+   ],
+   "total": 8
+  },
+  {
+   "label": "Vettius bash round stone slab (A3 west wall)",
+   "spec": "1d20-5",
+   "rolls": [
+    2
+   ],
+   "total": -3
   }
  ],
  "rumours_heard": [

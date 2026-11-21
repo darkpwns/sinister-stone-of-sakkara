@@ -495,3 +495,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 197 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | iulia |
 | 197 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
 | 197 | Silk Pony Inn (#25) | beds for twelve, night of day 197 |  |  | 2gp 4sp | lucilla |
+| 198 | Cyfaraun | Crowbar | 1 |  | 9sp | lucilla |

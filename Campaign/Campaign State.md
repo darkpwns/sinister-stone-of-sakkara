@@ -11,8 +11,8 @@ public:
     year: ''
     season: fall
     day: 198
-  time: 05:15
-  weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
+  time: 08:35
+  weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; mostly cloudy; wind strong
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -57,7 +57,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6.395
+    encumbrance_st: 6.062
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -66,7 +66,7 @@ public:
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     spells_used: []
-    encumbrance_st: 6.282
+    encumbrance_st: 6.448
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -116,8 +116,8 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 7
-  light: lantern (Vettius) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Varro: food 7 d, water 0 d; Hrodvar: food 7 d, water 0 d; Septima: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  light: lantern (Vettius) out; torch (Ottar) out
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
