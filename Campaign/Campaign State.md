@@ -2,10 +2,10 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 7
+session: 8
 mode: town
 location: '[[Turos Tem]]'
-adventure: between adventures (AX1 complete, day 161)
+adventure: Secrets of the Nethercity (AX2), the journey to Cyfaraun
 public:
   date:
     year: ''
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.258
+    encumbrance_st: 9.249
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
@@ -34,7 +34,7 @@ public:
     conditions:
     - one eye clawed out (-2 to missile attack throws)
     spells_used: []
-    encumbrance_st: 8.756
+    encumbrance_st: 8.896
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
@@ -46,7 +46,7 @@ public:
     - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
     - one hand bitten off (cannot dual-wield or use two-handed weapons)
     spells_used: []
-    encumbrance_st: 9.563
+    encumbrance_st: 9.554
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -71,7 +71,7 @@ public:
     conditions: []
     spells_used: []
   light: none
-  rations: 'Sabina: food 0 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0.4 d; Hesper: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 14 d, water 1.2 d; Tarq: food 8.5 d, water 1 d; Lucilla: food 14 d, water 1 d; Vettius: food 7 d, water 0.4 d; Hesper: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

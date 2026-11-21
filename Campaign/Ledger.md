@@ -336,3 +336,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 161 | the retinue | wages paid |  |  | 12gp | lucilla |
 | 161 | Aulus' cenotaph and funeral games, Türos Tem | heroic funeral for Aulus (died in the Inner Fane, day 142), paid from his deposits (RR Heroic Funerals) |  |  | 1,486gp | karanos-bank |
 | 161 | Marcia's cenotaph and funeral games, Türos Tem | heroic funeral for Marcia (died in the Inner Fane, day 142), paid from her deposits (RR Heroic Funerals) |  |  | 2,210gp | karanos-bank |
+| 161 | Turos Tem | Rations, Iron (one week) | 2 |  | 10gp 8sp | sabina |
+| 161 | Turos Tem | Rations, Iron (one week) | 1 |  | 5gp 4sp | tarq |
+| 161 | Turos Tem | Rations, Standard (one week) | 2 |  | 5gp 4sp | lucilla |
+| 161 | Turos Tem | Rations, Standard (one week) | 1 |  | 2gp 7sp | vettius |
