@@ -933,3 +933,34 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 221 | Cyfaraun buyers (goldsmiths, gemcutter, a collector) | sale of L100-L104 (A18) |  | 8,470gp |  | lucilla |
 | 222 | Silk Pony Inn (#25) | beds for thirteen, night of day 221 (Quirinus at the Solar Citadel) |  |  | 2gp 6sp | lucilla |
 | 223 | Silk Pony Inn (#25) | beds for thirteen, night of day 222 (Quirinus at the Solar Citadel) |  |  | 2gp 6sp | lucilla |
+| 223 | Cyfaraun | Waterskin | 1 |  | 6sp | vettius |
+| 223 | Cyfaraun | Waterskin | 4 |  | 2gp 4sp | iulia |
+| 223 | Cyfaraun | Waterskin | 4 |  | 2gp 4sp | brennus |
+| 223 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | varro |
+| 223 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | hrodvar |
+| 223 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | marcellus |
+| 223 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | gnaeus |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 1,428gp | lucilla |
+| 223 | lucilla | deposit of lucilla, day 223 |  | 1,428gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 1,843gp | vettius |
+| 223 | vettius | deposit of vettius, day 223 |  | 1,843gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 1,635gp | iulia |
+| 223 | iulia | deposit of iulia, day 223 |  | 1,635gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 2,001gp | vestus-the-unlikely |
+| 223 | vestus-the-unlikely | deposit of vestus-the-unlikely, day 223 |  | 2,001gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 1,744gp | neris |
+| 223 | neris | deposit of neris, day 223 |  | 1,744gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 1,530gp | brennus |
+| 223 | brennus | deposit of brennus, day 223 |  | 1,530gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 847gp | phaedra |
+| 223 | phaedra | deposit of phaedra, day 223 |  | 847gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 792gp | varro |
+| 223 | varro | deposit of varro, day 223 |  | 792gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 792gp | hrodvar |
+| 223 | hrodvar | deposit of hrodvar, day 223 |  | 792gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 603gp | aelia |
+| 223 | aelia | deposit of aelia, day 223 |  | 603gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 602gp | marcellus |
+| 223 | marcellus | deposit of marcellus, day 223 |  | 602gp |  | guildhouse-bank |
+| 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 602gp | gnaeus |
+| 223 | gnaeus | deposit of gnaeus, day 223 |  | 602gp |  | guildhouse-bank |
