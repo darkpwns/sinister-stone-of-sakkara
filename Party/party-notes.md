@@ -20,8 +20,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   warlord's halls (bronze doors at the foot of the first cave) and the upper galleries reached through them **18**;
   the cave of wall graves below the triangular cave, the martyrs' gallery beyond the painted hall and anything at that
   depth **24**; the huge cavern below the rope cliff and the galleries off it **30**; deeper still **39**, the very
-  bottom **48**. Torch-bearers and other 0th-level help count nothing. Now (day 196): Lucilla 4, Vettius 4, Iulia 2,
-  Quirinus 2, Vestus 1, Neris 1, Brennus 1, Phaedra 1 = **16**: hire more help before going down again.
+  bottom **48**. Torch-bearers and other 0th-level help count 1 each. Day 196: Lucilla 4, Vettius 4, Iulia 2,
+  Quirinus 2, Vestus 1, Neris 1, Brennus 1, Phaedra 1, Ottar 1 = **17**. Day 211, after hiring: **25**.
 
 ## Map notes
 

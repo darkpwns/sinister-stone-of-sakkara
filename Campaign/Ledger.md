@@ -638,3 +638,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 211 | brokers and criers | recruiting fee (a week's search) |  |  | 19gp | lucilla |
 | 211 | the retinue | wages paid |  |  | 25gp | vettius |
 | 211 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
+| 211 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 211 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 211 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | iulia |
+| 211 | Cyfaraun | Holy Water (1 pint) | 2 |  | 45gp | iulia |
+| 211 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | vettius |
+| 211 | Cyfaraun | torch | 6 |  | 9cp | lucilla |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  |  |  |  |

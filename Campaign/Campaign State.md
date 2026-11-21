@@ -11,8 +11,8 @@ public:
     year: ''
     season: fall
     day: 211
-  time: 06:00
-  weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; clear; wind still
+  time: 08:45
+  weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; drizzle; wind strong (drizzly)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.774
+    encumbrance_st: 9.765
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.597
+    encumbrance_st: 9.588
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -48,7 +48,8 @@ public:
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
     encumbrance_st: 2.668
   - name: Ottar
     sheet: Characters/ottar.json
@@ -57,7 +58,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 5.926
+    encumbrance_st: 5.592
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -76,7 +77,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.312
+    encumbrance_st: 8.925
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -124,7 +125,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 3
+    encumbrance_st: 4
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -132,7 +133,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.667
+    encumbrance_st: 7
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -140,17 +141,19 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 4
+    encumbrance_st: 4.333
   - name: Nysa
     sheet: Characters/nysa.json
     role: henchman
-    hp: 5
+    hp: 1
     hp_max: 5
-    conditions: []
+    conditions:
+    - 'in shock (day 211): one night of bed rest needed, incapacitated until then'
+    - ghostly visions of lost companions flicker before her eyes
     spells_used: []
-    encumbrance_st: 2.833
+    encumbrance_st: 3.167
   light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) out; torch (Ottar) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0 d; Marcellus: food 7 d, water 0 d; Gnaeus: food 7 d, water 0 d; Nysa: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Nysa: food 7 d, water 0.4 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

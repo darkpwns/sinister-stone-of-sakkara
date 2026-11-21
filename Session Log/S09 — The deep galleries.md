@@ -41,8 +41,21 @@ the Silk Pony.
   eleven shrank down, unable to move; it struck Vettius, and a cold sickness crept from the blow. Neris raised her
   holy circle and the dead lord could not cross it; the party ran, Neris last. It followed as far as the first hall.
   In town a priest cured Vettius' sickness for 45gp.
+- Days 199-211, Cyfaraun: Vestus could not place the seed bag, and no sage sat at the Tower this month. Quirinus
+  trained a day with the hepatizon great axe and Vettius with the black sword: both +1. Lucilla's second week of
+  searching brought Aelia (a bard; her eye for enchantments named the black sword a death drinker that feeds its
+  wielder when he fells a foe, and the bag as faerie seeds that turn the plants of a place to the planter's side) and
+  Marcellus (a fighter). Brennus left his bed on day 205. With the new month: Gnaeus (an explorer of the second rank)
+  and Nysa (an assassin). Strength 24.
+- Day 211, ninth descent: two turns of searching the first tomb hall found nothing, until the cracked south-east
+  corner gave way under Nysa: a shaft into a natural tunnel below. She fell badly; Neris climbed down and her prayer
+  brought her round, shaken and seeing the faces of the dead. Home by nine with Nysa carried between two.
 
 ## Who they met
+- Aelia (bard): sharp-tongued, plain-faced, sings under her breath when she is afraid.
+- Marcellus (fighter): broad, cheerful, a city watchman's son.
+- Gnaeus (explorer): grey at the temples, quiet, chews a stalk of something.
+- Nysa (assassin): small, watchful, says little and never sits with her back to a door.
 - Varro (fighter): lean, close-cropped, ex-watchman; answers in one word.
 - Hrodvar (dwarf vaultguard): squat, grey-braided, slow and precise; hums while he works.
 - Septima (explorer): wiry, sun-browned, a hunter's bow; counts paces under her breath.
