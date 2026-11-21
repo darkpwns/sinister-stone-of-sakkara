@@ -19,14 +19,14 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 19
-    hp_max: 19
+    hp: 21
+    hp_max: 21
     conditions:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.002
+    encumbrance_st: 8.727
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 9.748
+    encumbrance_st: 9.552
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -49,7 +49,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 2.581
+    encumbrance_st: 2.385
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -60,7 +60,7 @@ public:
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     spells_used: []
-    encumbrance_st: 7.915
+    encumbrance_st: 7.719
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -69,7 +69,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.248
+    encumbrance_st: 8.052
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -77,7 +77,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 7.154
+    encumbrance_st: 7.056
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -85,7 +85,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 8.821
+    encumbrance_st: 8.723
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -93,7 +93,7 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 4.487
+    encumbrance_st: 4.389
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -101,15 +101,15 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 8.321
+    encumbrance_st: 8.223
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 5
-    hp_max: 5
+    hp: 6
+    hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.994
+    encumbrance_st: 4.897
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -117,7 +117,7 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 7.154
+    encumbrance_st: 7.056
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.2 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Phaedra: food 6 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}

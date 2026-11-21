@@ -1117,3 +1117,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 240 | Silk Pony Inn (#25) | beds for twelve, nights of days 233-239 (7 nights at 2gp 4sp) |  |  | 16gp 8sp | lucilla |
 | 241 | Silk Pony Inn (#25) | beds for twelve, night of day 240 |  |  | 2gp 4sp | lucilla |
 | 241 | a caravan master of the Merchant Guildhouse | investment 1 return, month 8 (1% of 700gp) |  | 7gp |  | lucilla |
+| 241 | Cyfaraun buyers (goldsmiths, jewellers, the Tower's scroll-buyers, a collector) | sale of L120-L151 (A20, A21), day 241, with the Judge's price correction for L130, L132-L134, L140, L150 |  | 23,045gp |  | lucilla |
+| 241 | Calpurnia (former henchman) | half share of the A20 goods sold day 241 |  |  | 595gp | lucilla |
+| 241 | Titus Aurelianus (former henchman) | half share of the A20 goods sold day 241 |  |  | 595gp | lucilla |
