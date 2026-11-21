@@ -94,3 +94,5 @@ Finding day 166: `mounts dismount donkey1 --rider vettius` took Vettius off donk
 Finding day 166: `mortal-wounds` outside a fight needs a combat state with the PC added, `state set ID status=unconscious` (state cond unconscious is not enough) and `--type`; hp set by `actor set` is not carried into status.
 Judge's call day 166: Hazard (JJ Terrain Encounters) "brittle ledges" in grassland read as an undercut river bank; trap equivalent Rock-Cut Pit 5th level: 30' fall 3d6 + 1d4 jagged rocks 1d6 each, no save (JJ p. 240).
 Void day 167: 'valuable terrain (despoiled)' 1d20 -> 10 rolled on the wrong die (table is 1d12); rerolled 1d12.
+Finding day 171: retinue-state 'spellcasting' was null; hire.spellcasting's setdefault() returned None and crashed (AttributeError). Set to {} by hand.
+Finding day 171: again, mounts dismount left Vettius in donkey2's riders_st; removed by hand (the dismount seems not to clear riders_st at all).

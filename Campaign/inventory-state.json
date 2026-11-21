@@ -196,6 +196,40 @@
    "name": "body of quintus-the-rager",
    "actor": null,
    "status": "active"
+  },
+  "cart1": {
+   "kind": "vehicle",
+   "name": "Cart, Small",
+   "actor": null,
+   "status": "active",
+   "note": "bought in Turos Orn by vettius",
+   "owner": "vettius",
+   "vehicle": "Cart, Small",
+   "config": "Cart, Small (1 mule)",
+   "team": [
+    "mule1"
+   ],
+   "bearers": null,
+   "history": [
+    {
+     "harnessed": "Cart, Small (1 mule)",
+     "team": [
+      "mule1"
+     ],
+     "bearers": null,
+     "cause": null
+    }
+   ]
+  },
+  "mule1": {
+   "kind": "animal",
+   "name": "Mule, Draft",
+   "actor": null,
+   "status": "active",
+   "animal": "Mule, Draft",
+   "note": "bought in Turos Orn by vettius",
+   "owner": "vettius",
+   "harness": "cart1"
   }
  },
  "custom": {
@@ -17224,6 +17258,381 @@
    "price_cp": 60,
    "cmd": "inv pay",
    "n": 688
+  },
+  {
+   "op": "pay",
+   "cause": "spellcasting: Repair Disfigurement and Disability",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -185
+    }
+   ],
+   "to": "a caster in Turos Orn",
+   "price_cp": 18500,
+   "cmd": "inv pay",
+   "n": 689
+  },
+  {
+   "op": "pay",
+   "cause": "better offer: the fee doubled for Repair Disfigurement and Disability",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -185
+    }
+   ],
+   "to": "a divine caster in Turos Orn",
+   "price_cp": 18500,
+   "cmd": "inv pay",
+   "n": 690
+  },
+  {
+   "op": "give",
+   "cause": "repays Lucilla for the casting",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -185
+    },
+    {
+     "who": "lucilla",
+     "gp": 185
+    }
+   ],
+   "cmd": "inv give",
+   "n": 691
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -5,
+     "gp": -22
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Cart, Small",
+   "packs": 1,
+   "price_cp": 2250,
+   "cmd": "inv buy",
+   "animal": "cart1",
+   "n": 692
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -18
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Mule, Draft",
+   "packs": 1,
+   "price_cp": 1800,
+   "cmd": "inv buy",
+   "animal": "mule1",
+   "n": 693
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "sabina",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 694
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "tarq",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 695
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 696
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 697
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "hesper",
+     "cp": -10,
+     "sp": -3,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 698
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Orn",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Orn",
+   "market_class": "IV",
+   "month": 6,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 699
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to sabina: 7 days of iron rations; supplies: sabina food 8 d, water 2.6 d, firewood 0 st; tarq food 8.5 d, water 0 d, firewood 0 st; lucilla food 0 d, water 1 d, firewood 0 st; vettius food 0 d, water 0 d, firewood 0 st; hesper food 2 d, water 1 d, firewood 0 st; vestus-the-unlikely food 9 d, water 1 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 700
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to tarq: 7 days of iron rations; supplies: sabina food 8 d, water 2.6 d, firewood 0 st; tarq food 15.5 d, water 0 d, firewood 0 st; lucilla food 0 d, water 1 d, firewood 0 st; vettius food 0 d, water 0 d, firewood 0 st; hesper food 2 d, water 1 d, firewood 0 st; vestus-the-unlikely food 9 d, water 1 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 701
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to lucilla: 7 days of iron rations; supplies: sabina food 8 d, water 2.6 d, firewood 0 st; tarq food 15.5 d, water 0 d, firewood 0 st; lucilla food 7 d, water 1 d, firewood 0 st; vettius food 0 d, water 0 d, firewood 0 st; hesper food 2 d, water 1 d, firewood 0 st; vestus-the-unlikely food 9 d, water 1 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 702
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vettius: 7 days of iron rations; supplies: sabina food 8 d, water 2.6 d, firewood 0 st; tarq food 15.5 d, water 0 d, firewood 0 st; lucilla food 7 d, water 1 d, firewood 0 st; vettius food 7 d, water 0 d, firewood 0 st; hesper food 2 d, water 1 d, firewood 0 st; vestus-the-unlikely food 9 d, water 1 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 703
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to hesper: 7 days of iron rations; supplies: sabina food 8 d, water 2.6 d, firewood 0 st; tarq food 15.5 d, water 0 d, firewood 0 st; lucilla food 7 d, water 1 d, firewood 0 st; vettius food 7 d, water 0 d, firewood 0 st; hesper food 9 d, water 1 d, firewood 0 st; vestus-the-unlikely food 9 d, water 1 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 704
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vestus-the-unlikely: 7 days of iron rations; supplies: sabina food 8 d, water 2.6 d, firewood 0 st; tarq food 15.5 d, water 0 d, firewood 0 st; lucilla food 7 d, water 1 d, firewood 0 st; vettius food 7 d, water 0 d, firewood 0 st; hesper food 9 d, water 1 d, firewood 0 st; vestus-the-unlikely food 16 d, water 1 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 171,
+   "time": "day 171 10:20",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 705
   }
  ],
  "holdings": {
@@ -17556,26 +17965,25 @@
  },
  "coins": {
   "sabina": {
-   "sp": 9,
-   "gp": 879,
+   "sp": 5,
+   "gp": 874,
    "cp": 8
   },
   "tarq": {
-   "gp": 871,
-   "sp": 8,
+   "gp": 866,
+   "sp": 4,
    "cp": 8
   },
   "lucilla": {
-   "gp": 737,
-   "sp": 8,
+   "gp": 732,
+   "sp": 4,
    "cp": 7
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 890,
-   "sp": 9,
+   "gp": 475,
    "cp": 9
   },
   "durio": {
@@ -17584,17 +17992,16 @@
    "sp": 2
   },
   "hesper": {
-   "gp": 417,
-   "cp": 23,
-   "sp": 3
+   "gp": 412,
+   "cp": 13
   },
   "karanos-bank": {
    "gp": 13732
   },
   "vestus-the-unlikely": {
    "cp": 5,
-   "sp": 8,
-   "gp": 367
+   "sp": 4,
+   "gp": 362
   },
   "zaira-the-beautiful": {
    "cp": 5,

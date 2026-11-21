@@ -345,3 +345,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 166 | Turos Spen | Rations, Iron (one week) | 1 |  | 5gp 4sp | vestus-the-unlikely |
 | 166 | Turos Spen | Rations, Standard (one week) | 1 |  | 2gp 7sp | vestus-the-unlikely |
 | 168 | a freeholder's farmstead (25.13) | water from the well for six and two donkeys |  |  | 6sp | lucilla |
+| 171 | a caster in Turos Orn | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 171 | a divine caster in Turos Orn | better offer: the fee doubled for Repair Disfigurement and Disability |  |  | 185gp | vettius |
+| 171 | Turos Orn | bought in Turos Orn |  |  | 22gp 5sp | vettius |
+| 171 | Turos Orn | bought in Turos Orn |  |  | 18gp | vettius |
+| 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | sabina |
+| 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | tarq |
+| 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
+| 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | hesper |
+| 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | vestus-the-unlikely |

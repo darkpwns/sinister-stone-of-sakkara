@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 170
-  time: 06:00
-  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind gentle (drizzly)
+    day: 171
+  time: '10:20'
+  weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; clear; wind strong
   place: Türos Tem
-  hex: '25.13'
+  hex: '23.10'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.252
+    encumbrance_st: 9.243
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
@@ -34,7 +34,7 @@ public:
     conditions:
     - one eye clawed out (-2 to missile attack throws)
     spells_used: []
-    encumbrance_st: 8.896
+    encumbrance_st: 8.887
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
@@ -46,17 +46,16 @@ public:
     - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
     - one hand bitten off (cannot dual-wield or use two-handed weapons)
     spells_used: []
-    encumbrance_st: 9.554
+    encumbrance_st: 9.545
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
     hp: 3
     hp_max: 12
     conditions:
-    - 'spine broken at the neck: paralyzed (cannot move, fight, use items or cast spells; Death save each month or die of complications) — RR p. 519 Mortal Wounds'
-    - bed rest 1 month (incapacitated, max 1 hp)
+    - 'bed rest 2 weeks from day 171 (Tampering with Mortality 11: spine restored, no side effect)'
     spells_used: []
-    encumbrance_st: 9.408
+    encumbrance_st: 8.984
   - name: Hesper
     sheet: Characters/hesper.json
     role: pc
@@ -64,7 +63,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 5.443
+    encumbrance_st: 5.425
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -73,14 +72,10 @@ public:
     conditions: []
     spells_used: []
   light: none
-  rations: 'Sabina: food 3 d, water 2.6 d; Tarq: food 8.5 d, water 0 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0 d; Hesper: food 4 d, water 1 d; Vestus the Unlikely: food 10 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 8 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0 d (incapacitated); Hesper: food 9 d, water 1 d; Vestus the Unlikely: food 16 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '21.20'
-  - '20.19'
-  - '19.19'
-  - '20.19'
   - '19.19'
   - '20.19'
   - '21.20'
@@ -97,7 +92,11 @@ public:
   - '26.14'
   - '25.14'
   - '25.13'
-clock_day: 170
+  - '24.12'
+  - '24.11'
+  - '23.11'
+  - '23.10'
+clock_day: 171
 ---
 # Campaign State
 
