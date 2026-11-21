@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795264641,
+ "generated": 1795264764,
  "date": {
   "year": "",
   "season": "fall",
   "day": 195
  },
- "time": "11:48",
+ "time": "14:41",
  "weather": "Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -23,7 +23,7 @@
     "minor scarring (fang mark on the hand)"
    ],
    "spells_used": [],
-   "encumbrance_st": 8.419
+   "encumbrance_st": 9.419
   },
   {
    "name": "Vettius",
@@ -62,7 +62,7 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.333
+   "encumbrance_st": 6
   },
   {
    "name": "Brennus",
@@ -109,7 +109,7 @@
    "encumbrance_st": 6.333
   }
  ],
- "light": "lantern (Vettius) out; torch (Ottar) 3 turns left",
+ "light": "lantern (Vettius) out | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra",
  "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
@@ -870,13 +870,14 @@
       "Journal",
       "Mace",
       "Quill, writing",
+      "Rope, 50'",
       "Waterskin ×5",
       "bolt ×9",
       "collection of ancient coins",
       "torch ×6"
      ],
      "items": 16,
-     "stone": 0
+     "stone": 1
     },
     "sack": {
      "contents": [
@@ -905,7 +906,7 @@
     "sp": 3,
     "cp": 0
    },
-   "encumbrance_st": 8.419,
+   "encumbrance_st": 9.419,
    "weapons": [
     {
      "name": "Dagger",
@@ -1316,6 +1317,13 @@
       "Socolo: a scroll of ward against undead, in Ancient Zaharan"
      ],
      "stone": 0.167
+    },
+    {
+     "id": "L75",
+     "looks": "104 gold pieces",
+     "qty": 104,
+     "value_gp": 104.0,
+     "stone": 0.104
     }
    ],
    "proficiency_throws": {
@@ -1642,9 +1650,9 @@
     "backpack": {
      "contents": [
       "Waterskin ×5",
-      "torch ×8"
+      "torch ×6"
      ],
-     "items": 13,
+     "items": 11,
      "stone": 0
     },
     "sack": {
@@ -1667,7 +1675,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.333,
+   "encumbrance_st": 6,
    "weapons": [
     {
      "name": "Spear",
@@ -2748,78 +2756,6 @@
  ],
  "open_rolls": [
   {
-   "label": "init Neris",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Ottar",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Brennus",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Iulia",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Quirinus",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Phaedra",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Brennus burning military oil at the creeper (12+)",
-   "spec": "1d20+3",
-   "rolls": [
-    14
-   ],
-   "total": 17
-  },
-  {
-   "label": "Iulia burning military oil at the creeper (12+)",
-   "spec": "1d20+1",
-   "rolls": [
-    19
-   ],
-   "total": 20
-  },
-  {
-   "label": "Quirinus burning military oil at the creeper (12+)",
-   "spec": "1d20",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
    "label": "init Lucilla",
    "spec": "1d6",
    "rolls": [
@@ -3146,6 +3082,78 @@
     6
    ],
    "total": 6
+  },
+  {
+   "label": "lucilla death save",
+   "spec": "1d20+4",
+   "rolls": [
+    20
+   ],
+   "total": 24
+  },
+  {
+   "label": "vettius death save",
+   "spec": "1d20+4",
+   "rolls": [
+    7
+   ],
+   "total": 11
+  },
+  {
+   "label": "vestus-the-unlikely death save",
+   "spec": "1d20+4",
+   "rolls": [
+    15
+   ],
+   "total": 19
+  },
+  {
+   "label": "neris death save",
+   "spec": "1d20+4",
+   "rolls": [
+    16
+   ],
+   "total": 20
+  },
+  {
+   "label": "ottar death save",
+   "spec": "1d20+5",
+   "rolls": [
+    11
+   ],
+   "total": 16
+  },
+  {
+   "label": "brennus death save",
+   "spec": "1d20+4",
+   "rolls": [
+    20
+   ],
+   "total": 24
+  },
+  {
+   "label": "iulia death save",
+   "spec": "1d20+5",
+   "rolls": [
+    6
+   ],
+   "total": 11
+  },
+  {
+   "label": "quirinus death save",
+   "spec": "1d20+3",
+   "rolls": [
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "phaedra death save",
+   "spec": "1d20+4",
+   "rolls": [
+    14
+   ],
+   "total": 18
   }
  ],
  "rumours_heard": [

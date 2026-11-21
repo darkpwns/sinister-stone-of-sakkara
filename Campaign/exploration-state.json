@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 195,
-  "round_of_day": 708,
-  "total_rounds": 279588
+  "round_of_day": 881,
+  "total_rounds": 279761
  },
  "party": {
   "lucilla": {
@@ -40,7 +40,7 @@
    "perceived": "Neris",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.8333333333333334
+   "treasure_stone": 0.9373333333333334
   },
   "ottar": {
    "id": "ottar",
@@ -236,67 +236,55 @@
    "id": "torch55",
    "kind": "torch",
    "carrier": "ottar",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 30,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch56",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch57",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
    "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 30,
+  "rounds_since_rest": 70,
   "rest_rounds": 0,
-  "winded": []
+  "winded": [
+   "lucilla",
+   "vettius",
+   "vestus-the-unlikely",
+   "neris",
+   "ottar",
+   "iulia",
+   "quirinus",
+   "phaedra"
+  ]
  },
- "location": {
-  "site": "Nethercity E - Deep Level Central Complex",
-  "kind": "dungeon",
-  "level": 4,
-  "room": "E4c Gallery East (top)",
-  "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
-  },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
-  "source": {
-   "wandering": "site setting: '1d6 every 3 turns, 6+'"
-  }
- },
+ "location": null,
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 195 11:40",
-   "roll": 3,
-   "target": 6,
-   "encounter": false
+   "at": "day 195 14:30",
+   "roll": 5,
+   "target": 5,
+   "encounter": true
   },
   "history": [
-   {
-    "at": "day 187 07:40",
-    "roll": 1,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 187 08:10",
-    "roll": 1,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 187 08:40",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 187 09:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 187 09:40",
     "roll": 3,
@@ -392,13 +380,37 @@
     "roll": 3,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 195 12:10",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 195 12:40",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 195 13:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 195 14:30",
+    "roll": 5,
+    "target": 5,
+    "encounter": true
    }
   ],
   "pending_at": null,
-  "turn_start_done": 279580
+  "turn_start_done": 279760
  },
  "turn_actions": {
-  "turn": 27958,
+  "turn": 27976,
   "listened": [],
   "actions": []
  },
@@ -1196,8 +1208,8 @@
    "rest_rounds": 0
   },
   "195": {
-   "delve_rounds": 329,
-   "rest_rounds": 50
+   "delve_rounds": 482,
+   "rest_rounds": 70
   }
  },
  "events": [
@@ -2819,8 +2831,8 @@
   }
  ],
  "next_ids": {
-  "enc": 147,
-  "torch": 55,
+  "enc": 149,
+  "torch": 57,
   "t": 5,
   "lantern": 1
  },
@@ -40564,22 +40576,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc128",
-   "at": "day 177 08:20",
-   "monster_name": "drinkers in a Cyfaraun tavern",
-   "number": 1,
-   "reaction": "friendly",
-   "status": "reaction"
-  },
-  {
-   "id": "enc129",
-   "at": "day 178 08:20",
-   "monster_name": "drinkers in a Cyfaraun tavern",
-   "number": 1,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
    "id": "enc130",
    "at": "day 178 08:20",
    "monster_name": "patrons of the Mink (Old District #11)",
@@ -40723,6 +40719,22 @@
    "number": 11,
    "reaction": "neutral",
    "status": "reaction"
+  },
+  {
+   "id": "enc148",
+   "at": "day 195 12:10",
+   "monster_name": "Sepulchral Worm",
+   "number": 9,
+   "reaction": null,
+   "status": "begun"
+  },
+  {
+   "id": "enc149",
+   "at": "day 195 14:30",
+   "monster_name": "Giant Toad",
+   "number": 1,
+   "reaction": null,
+   "status": "begun"
   }
  ]
 }

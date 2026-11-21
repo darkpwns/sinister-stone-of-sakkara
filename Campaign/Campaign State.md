@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 195
-  time: '11:48'
+  time: '14:41'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 8.419
+    encumbrance_st: 9.419
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -56,7 +56,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6.333
+    encumbrance_st: 6
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -91,7 +91,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 6.333
-  light: lantern (Vettius) out; torch (Ottar) 3 turns left
+  light: 'lantern (Vettius) out | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra'
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d (fatigued); Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
