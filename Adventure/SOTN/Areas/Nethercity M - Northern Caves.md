@@ -4,7 +4,7 @@ level: 3
 hex: "18.05"
 tags:
   - sakkara/secret
-source: "SOTN pp. 99-105 (map pp. 23, 182-183)"
+source: "SOTN pp. 100-105 (map pp. 23, 182-183)"
 ---
 
 # Nethercity M — Northern Caves
@@ -44,7 +44,7 @@ Running: wandering 1d6 every 3 turns, 6+ → 2d10 on the **Volcanic Caves** colu
   - **Value to the party:** pelts (50gp adult, 25gp child, 12gp baby, 100gp each for the leader and the exile, intact only under the pelt rule), live young for monster dealers (13 children 185gp each, 14 babies 35gp each; cf. Liber Faunus's live-capture notices in [[Old District]]), and the exile's memory of the teleportation platform (L4).
 - **The three brothers** (M8): mummified warlords who wake when the M6 slab doors are disturbed; ordinary mummy wrath ([[Nethercity Features#Necromancy and the mummies (SOTN pp. 16-17)]]).
 
-## Rooms (SOTN pp. 99-105)
+## Rooms (SOTN pp. 100-105)
 
 ### M1. Deep Level Central Volcanic Tube East (2200 BE)
 - **Exits:** E a steep 10’ drop with narrow rough steps down to L19; W the tube continues 60’ and more into M2.
