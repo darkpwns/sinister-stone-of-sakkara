@@ -52,7 +52,7 @@ Up: [[AX3 Hub]] · [[Cyfaraun]] · market [[Cyfaraun (Market)]] · neighbours [[
 - For decades the true fans' favourite stable. Lanista **Omnus Pluris** is near bankruptcy because of Maximus and now bets riskily on his champion **Sentonus**: a string of wins may save him, one loss costs him the school. Stable: Sentonus, 3 veterans, 4 ordinary gladiators; staff 2 trainers, a guard, a part-time chirurgeon.
 
 ### 22. Gladiatorial School of Celictor Nuvicus (AX3 pp. 101-102)
-- Leading stable for 75 years by its own fans' reckoning. **Celictor Nuvicus** spent much of his fortune on 2 lizardman warriors, a lizardman champion and a wild giant crocodile from Arganos; they escaped the smugglers, and he desperately wants adventurers to recover them ([[Lizardman Sewer Lair]]; #45u Crocodile Nest in the [[Plaza District]]). Meanwhile he fields 4 ordinary gladiators, 3 veterans and the champion **Xandrama**; staff 2 trainers, a guard, a part-time chirurgeon.
+- Leading stable for 75 years by its own fans' reckoning. **Celictor Nuvicus** spent much of his fortune on 2 lizardman warriors, a lizardman champion and a wild giant crocodile from Arganos; they escaped the smugglers, and he desperately wants adventurers to recover them ([[Lizardman Sewer Lair]]; #45u [[Crocodile Nest]] in the [[Plaza District]]). Meanwhile he fields 4 ordinary gladiators, 3 veterans and the champion **Xandrama**; staff 2 trainers, a guard, a part-time chirurgeon.
 
 ### 23. Gladiatorial School of Maximus Arjentüran (AX3 p. 101)
 - Opened two years ago by "the Strong Silver Sword"; specializes in capturing and breaking beastmen to kill and die on the sands. 2 trainers; stable of beastmen (15 per p. 101, 12 per p. 106: Judge's call; the basement holds 11, see [[Imperial Amphitheater - Basement]]) dominated by his strength and fierce manner. Among the richest men in Cyfaraun.
@@ -199,7 +199,7 @@ When the street procedure calls for a special encounter here, roll **1d10, +3 af
 - **The Silk Pony Inn (25)** → [[Silk Pony Inn - Ground Floor]] (keys 1-6: common room, Gambling Snug, kitchen, cellar stair, stables, Backroom) and [[Silk Pony Inn - Top Floor]] (key 7, guest rooms).
 - **Sand & Bones Hideout (25u)** → [[Sand and Bones Hideout]]: Selene's secret office and hoard, the Abattoir, the Blood Moon pit, the cellar. Isolated; no wandering checks.
 - **Lizardman Lair (28u)** → [[Lizardman Sewer Lair]]: two warriors and a champion in a buried elven temple off the sewers; trip wires; exit to the river. Undercity rules around it.
-- **Crocodile Nest (45u)**: in the [[Plaza District]] (the giant crocodile from the same shipment).
+- **Crocodile Nest (45u)** → [[Crocodile Nest]] ([[Plaza District]]) (the giant crocodile from the same shipment).
 
 ## Running gladiatorial games and betting (AX3 pp. 104-105, 112-116)
 
