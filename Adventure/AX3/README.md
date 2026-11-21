@@ -26,7 +26,7 @@ skill's calculator scripts are not in the cloud container). The Secrets of the N
 | `AX3 Magic Items.md` | new magic items |
 
 ## Parts (AX3 PDF pages)
-- [ ] Hub (`AX3 Hub.md`) — intro PDF 6-8 and the procedures from the city chapters
+- [x] Hub (`AX3 Hub.md`): premise, 14 `Running …` sections (Undercity first, read by `--hub`), links to every note, procedures (city encounters, rumours, factions, hiring, services, city-building, Borderlands) — PDF 6-8 and the city chapters
 - [x] City chapters: `City/Organizations of Cyfaraun.md`, `City/Buildings of Cyfaraun.md` (29 `ax3-building-*` tables), `City/Doing Business in Cyfaraun.md`, `Tables/ax3-rumours.yaml`, `Tables/ax3-borderlands-demand-modifiers.yaml` (reference, not a roll table); merged into `Adventure/Cyfaraun.md` and `Adventure/Markets/Cyfaraun (Market).md` (class III kept; all 31 AX3 demand modifiers) — PDF 36-59, 224-225
 - [x] Streets and Undercity: `City/Streets of Cyfaraun.md`, `City/Undercity of Cyfaraun.md`; tables `ax3-city-encounters`, `ax3-undercity-encounters`, `ax3-undercity-special`, `ax3-irritating-rumours`; `Bestiary/Rhagodessa (AX3).md` — PDF 60-69, 203
 - City districts (8):
@@ -38,10 +38,10 @@ skill's calculator scripts are not in the cloud container). The Secrets of the N
   - [x] Temple District (PDF 162-178): `City/Temple District.md`; dungeons `Catacombs of the Ancestors`, `Eclipse Hideout`; 8 tables (`ax3-temple-*`, `ax3-orphan-gifts`, `ax3-eclipse-*`, `ax3-retribution-*`)
   - [x] Lake District (PDF 179-187): `City/Lake District.md`; dungeon `Death Cult Hideout`; 7 `ax3-lake-*` tables
   - [x] Palace District (PDF 188-196): `City/Palace District.md` (no keyed special location); 9 tables (`ax3-palace-*`, `ax3-prefect-dungeon-prisoners`, `ax3-courthouse-trials`)
-- [ ] Tables (district special encounters and the rest)
-- [ ] Dungeons (special locations, one note per level)
+- [x] Tables: 120+ acks-table/1 files in `Tables/` (listed in the hub)
+- [x] Dungeons: 22 notes in `Dungeons/` (one per level or floor), listed with their settings in the hub
 - [x] Gazetteer #1-#53 with hexes: 48 notes in `Gazetteer/` (incl. `Buried Temple`), `Borderlands Gazetteer.md` (index), `Borderlands Background.md` (PDF 9-18); tables `ax3-beastman-tribe`, `ax3-borderlands-rumors`; `Data/places.csv` +41 rows; `Data/hexes.csv` +40 rows (454: each outside site's own hex, plus Siadanos road hexes 13.21, 12.20, 13.19, 12.19); `Data/world.json` Siadanos roads extended; record `Playtest/tools/map/extend_ax3.py` — PDF 19-35
-- [ ] Bestiary and items (Imperial Vanguard done: `City/Imperial Vanguard.md` and six member statblocks plus Brother the lion, PDF 197-202) — magic items PDF 195
+- [x] Bestiary and items: 58 notes in `Bestiary/`; `AX3 Magic Items.md` (New Magic Items p. 194, and every placed item by district); `City/Imperial Vanguard.md` — PDF 193-202
 - [ ] Final check: `hex.py 18.05`, `brief.py`
 
 ## Work in progress
