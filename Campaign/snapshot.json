@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795262625,
+ "generated": 1795262747,
  "date": {
   "year": "",
   "season": "fall",
-  "day": 187
+  "day": 189
  },
- "time": "11:26",
+ "time": "06:46",
  "weather": "Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -23,7 +23,7 @@
     "minor scarring (fang mark on the hand)"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.147
+   "encumbrance_st": 9.478
   },
   {
    "name": "Vettius",
@@ -42,9 +42,7 @@
    "hp": 3,
    "hp_max": 3,
    "conditions": [],
-   "spells_used": [
-    "Mage Missile"
-   ]
+   "spells_used": []
   },
   {
    "name": "Neris",
@@ -53,11 +51,8 @@
    "hp": 4,
    "hp_max": 4,
    "conditions": [],
-   "spells_used": [
-    "Cure Light Injury",
-    "Cure Light Injury"
-   ],
-   "encumbrance_st": 2.167
+   "spells_used": [],
+   "encumbrance_st": 2.96
   },
   {
    "name": "Ottar",
@@ -67,11 +62,11 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6
+   "encumbrance_st": 6.861
   }
  ],
- "light": "lantern (Vettius) out; torch (Ottar) 4 turns 4 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar",
- "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Vettius) out",
+ "rations": "Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -234,6 +229,7 @@
      "contents": [
       "Ink (1 pint)",
       "Journal",
+      "Mace",
       "Oil, Common (1 pint) ×2",
       "Quill, writing",
       "Rope, 50'",
@@ -242,12 +238,14 @@
       "collection of ancient coins",
       "torch ×6"
      ],
-     "items": 17,
+     "items": 18,
      "stone": 1
     },
     "sack": {
-     "contents": [],
-     "items": 0,
+     "contents": [
+      "Battle Axe"
+     ],
+     "items": 1,
      "stone": 0
     },
     "worn": {
@@ -265,11 +263,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 641,
+    "gp": 639,
     "sp": 4,
     "cp": 2
    },
-   "encumbrance_st": 9.147,
+   "encumbrance_st": 9.478,
    "weapons": [
     {
      "name": "Dagger",
@@ -282,6 +280,30 @@
       "long": 45
      },
      "held": "right hand"
+    },
+    {
+     "name": "Mace",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6/1d8",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "backpack"
+    },
+    {
+     "name": "Battle Axe",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6/1d8",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "sack"
     }
    ],
    "treasure": [
@@ -574,11 +596,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 0,
+    "gp": 793,
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 2.167,
+   "encumbrance_st": 2.96,
    "weapons": [
     {
      "name": "Staff",
@@ -594,7 +616,58 @@
     }
    ],
    "gems": "",
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L5",
+     "looks": "a vial of brown syrup smelling faintly of honey",
+     "qty": 1,
+     "apparent_value_gp": 250,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L30",
+     "looks": "a bone scroll case with a scroll in an ancient script",
+     "qty": 1,
+     "apparent_value_gp": 1000,
+     "magical": true,
+     "known": [
+      "identified by Annalist Socolo (Friendly, free",
+      "AX1 p. 30)"
+     ],
+     "stone": 0.167
+    },
+    {
+     "id": "L43",
+     "looks": "a vial of tan fluid smelling of mocha",
+     "qty": 1,
+     "apparent_value_gp": 25,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L44",
+     "looks": "a vial of pale amber, jasmine and vanilla",
+     "qty": 1,
+     "apparent_value_gp": 500,
+     "magical": true,
+     "known": [
+      "Socolo: a philter of love"
+     ],
+     "stone": 0.167
+    },
+    {
+     "id": "L46",
+     "looks": "a scroll in an ancient script",
+     "qty": 1,
+     "apparent_value_gp": 1000,
+     "magical": true,
+     "known": [
+      "Socolo: a scroll of ward against undead, in Ancient Zaharan"
+     ],
+     "stone": 0.167
+    }
+   ],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 26,
@@ -940,11 +1013,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 0,
+    "gp": 861,
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6,
+   "encumbrance_st": 6.861,
    "weapons": [
     {
      "name": "Spear",
@@ -1355,6 +1428,14 @@
     {
      "id": "L58",
      "looks": "a backward-curved bronze sword with a cobra hilt",
+     "qty": 1,
+     "apparent_value_gp": 25.0,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L62",
+     "looks": "a great axe with a hepatizon crescent blade",
      "qty": 1,
      "apparent_value_gp": 25.0,
      "magical": true,

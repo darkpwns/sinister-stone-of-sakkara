@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 187
-  time: '11:26'
+    day: 189
+  time: 06:46
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.147
+    encumbrance_st: 9.478
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -40,18 +40,15 @@ public:
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used:
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Cure Light Injury
-    - Cure Light Injury
-    encumbrance_st: 2.167
+    spells_used: []
+    encumbrance_st: 2.96
   - name: Ottar
     sheet: Characters/ottar.json
     role: henchman
@@ -59,9 +56,9 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 6
-  light: 'lantern (Vettius) out; torch (Ottar) 4 turns 4 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar'
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 6.861
+  light: lantern (Vettius) out
+  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -85,7 +82,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 187
+clock_day: 189
 ---
 # Campaign State
 

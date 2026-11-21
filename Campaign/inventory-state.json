@@ -20040,6 +20040,143 @@
    ],
    "cmd": "death",
    "n": 787
+  },
+  {
+   "op": "pay",
+   "cause": "beds for five, night of day 187",
+   "day": 187,
+   "time": "day 187 11:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 100,
+   "cmd": "inv pay",
+   "n": 788
+  },
+  {
+   "op": "pay",
+   "cause": "beds for five, night of day 188",
+   "day": 188,
+   "time": "day 188 06:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 100,
+   "cmd": "inv pay",
+   "n": 789
+  },
+  {
+   "op": "give",
+   "cause": "recovered",
+   "day": 189,
+   "time": "day 189 06:36",
+   "deltas": [
+    {
+     "who": "body:sabina",
+     "item": "#w29",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "lucilla",
+     "item": "#w29",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 790
+  },
+  {
+   "op": "give",
+   "cause": "recovered",
+   "day": 189,
+   "time": "day 189 06:36",
+   "deltas": [
+    {
+     "who": "body:tarq",
+     "item": "#w25",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "lucilla",
+     "item": "#w25",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 791
+  },
+  {
+   "op": "give",
+   "cause": "the dead's coin recovered for heirs and funerals (Undercity, day 189)",
+   "day": 189,
+   "time": "day 189 06:36",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "body:sabina",
+     "gp": -793
+    },
+    {
+     "who": "neris",
+     "gp": 793
+    }
+   ],
+   "cmd": "inv give",
+   "n": 792
+  },
+  {
+   "op": "give",
+   "cause": "the dead's coin recovered",
+   "day": 189,
+   "time": "day 189 06:36",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "body:tarq",
+     "gp": -861
+    },
+    {
+     "who": "ottar",
+     "gp": 861
+    }
+   ],
+   "cmd": "inv give",
+   "n": 793
+  },
+  {
+   "op": "give",
+   "cause": "the dead's coin recovered",
+   "day": 189,
+   "time": "day 189 06:36",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "body:hesper",
+     "gp": -406
+    },
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 406
+    }
+   ],
+   "cmd": "inv give",
+   "n": 794
   }
  ],
  "holdings": {
@@ -20063,10 +20200,14 @@
     "collection of ancient coins": 1,
     "oil, common (1 pint)": 2,
     "rope, 50'": 1,
-    "torch": 6
+    "torch": 6,
+    "#w29": 1
    },
    "right_hand": {
     "#w10": 1
+   },
+   "sack": {
+    "#w25": 1
    }
   },
   "vettius": {
@@ -20327,7 +20468,6 @@
     "holy symbol": 1,
     "waterskin": 6,
     "banded plate armor": 1,
-    "#w29": 1,
     "shield": 1,
     "#w3": 1,
     "letter of recommendation (genelen)": 1
@@ -20349,7 +20489,6 @@
     "waterskin": 5,
     "#w5": 1,
     "helmet, heavy": 1,
-    "#w25": 1,
     "shield": 1
    }
   },
@@ -20371,7 +20510,7 @@
  },
  "coins": {
   "lucilla": {
-   "gp": 641,
+   "gp": 639,
    "sp": 4,
    "cp": 2
   },
@@ -20393,7 +20532,7 @@
   },
   "vestus-the-unlikely": {
    "cp": 5,
-   "gp": 357
+   "gp": 763
   },
   "zaira-the-beautiful": {
    "cp": 5,
@@ -20432,17 +20571,20 @@
   },
   "body:sabina": {
    "cp": 8,
-   "sp": 7,
-   "gp": 793
+   "sp": 7
   },
   "body:tarq": {
-   "cp": 8,
-   "gp": 861
+   "cp": 8
   },
   "body:hesper": {
    "cp": 3,
-   "sp": 7,
-   "gp": 406
+   "sp": 7
+  },
+  "neris": {
+   "gp": 793
+  },
+  "ottar": {
+   "gp": 861
   }
  },
  "rolls": {
