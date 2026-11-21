@@ -11,7 +11,7 @@ Judge only. Page references are AX3's printed page numbers ("AX3 p. N"; PDF page
 a Borderlands sandbox of 53 points of interest and the city of **Cyfaraun** (hex 18.05) with 8 districts, 82 points of interest
 and the Undercity. Statblocks and rules are converted to ACKS II (see each note; Judge's calls and AX3 errors are listed in
 `Adventure/AX3/README.md` under Open items). The Nethercity beneath the city is the separate module *Secrets of the Nethercity*
-(AX2; its notes are a separate job; its entrance is the collapsed cesspool #12u in the [[Old District]]).
+(AX2; notes in `Adventure/SOTN/`, hub [[SOTN Hub]]; its entrance is the collapsed cesspool #12u in the [[Old District]]).
 
 ## Running Undercity of Cyfaraun
 - Dungeon level: 2

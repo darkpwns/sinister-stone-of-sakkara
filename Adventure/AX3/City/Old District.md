@@ -98,7 +98,7 @@ Huge concrete facility serving the Emporium: an antechamber with entrances north
 ### 12U. Leaking Cesspool (AX3 p. 73)
 30’ under the latrines at the centre of the Old City; walls and floor coated with muck, mould and filth. Wiping the walls reveals ruined frescoes of a procession of white-gowned elven maidens with torches; a **Loremastery or Theology throw** identifies the worship of **Mityara** (the elves' Demara, their patron).
 - Archways NW and NE lead into large sewer tunnels, which carry less than they should: much of the sludge pours into a **door-sized hole in the floor**. Caving, Engineering or Mapping: the pressure of years of sewage burst the cesspool open.
-- Below the hole the slow stream of refuse runs into a tunnel and down winding rough-hewn steps: the **entrance to the Nethercity**, see SOTN (separate module notes).
+- Below the hole the slow stream of refuse runs into a tunnel and down winding rough-hewn steps: the **entrance to the Nethercity**: room by room in [[Nethercity A - Entrance Caves]] (A1 = 12u, A2-A4 below), hub [[SOTN Hub]].
 - **Carcass scavenger** in the tunnel below, eating animal waste and the odd corpse; unseen from the cesspool; **+1 to surprise** adventurers coming down the steps → [[Carrion Horror]]: MV 40’/120’, AC 2, HD 3+1***, hp 14, 8 stingers 7+, 1 piercing + paralysis (Paralysis save or paralysed 2d4 turns), save F2, ML +2, AL N, XP 170 (MM; AX3 prints 135).
 - **Access:** only through the Undercity (a sewer grate or a basement elsewhere, then the sewers). It sometimes climbs the pipes to the latrine (special encounter 5).
 
@@ -226,5 +226,5 @@ Survivors or evidence of the victims' fates from the Den are rewarded if handed 
 - **Tavis Drakomir and Zeodarë Ambador:** two noble heirs, possibly captives in the Den; their families would be grateful and their affair is a scandal.
 - **The Horned Rat:** a full-moon altar that makes wererats; the Tower of Knowledge's Provost leads the cult; the Solar Citadel and the Underwatch's memory want it ended.
 - **The blackmail files** (Hideout 6): 24,000gp to Sand & Bones, or leverage over half the city.
-- **The Nethercity** below the leaking cesspool (12u): see SOTN (separate module notes).
+- **The Nethercity** below the leaking cesspool (12u): [[SOTN Hub]]; antiquities brought up are conspicuous (ancient Argollëan coin; 1% per 2,000 gp spent, sold or banked of drawing rivals, merchants, thieves and the Family: [[Nethercity Features]] "Treasure").
 - **AX4 leads:** the orichalcum armband (Aedon Lann and the Bow of the Great Eagles), *The Book of Nine Arrows*, Malethor's quest.

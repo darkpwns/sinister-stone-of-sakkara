@@ -12,7 +12,7 @@ source: "AX3 #10 and its domain table (Peasant 7,500 / Urban 2,550 families; civ
 # Cyfaraun (hex 18.05)
 
 Judge note. Capital of the Borderlands prefecture and its largest city: a former elven metropolis (Cyfarawn) on the **Mirmen River** at the north tip of **Lake Laman**, ruled by **Prefect Justirius Tavicus Basilio** (11th level). City of 2,550 families (class III market); the road hub of the Borderlands with six routes. The ambitious, bold and greedy gather here as the border forts grow isolated.
-- **The Nethercity** lies beneath: reached through the city's sewers and cesspools (the cesspit under the agora collapsed about fifty years ago); see the Secrets of the Nethercity module (module notes not yet built).
+- **The Nethercity** lies beneath: reached through the city's sewers and cesspools (the cesspit under the agora collapsed about fifty years ago); see the Secrets of the Nethercity module notes: hub [[SOTN Hub]], entrance [[Nethercity A - Entrance Caves]] (Old District #12u), background [[Nethercity History]].
 - City detail (districts, encounters, rumours, factions, guilds): AX3 *Capital of the Borderlands* in the Library (`Adventures/Capital of the Borderlands/`); transcribed under `Adventure/AX3/` (hub [[AX3 Hub]]): city chapters [[Organizations of Cyfaraun]], [[Buildings of Cyfaraun]], [[Doing Business in Cyfaraun]], and one note per district (below). The Nethercity itself is not broken down (SOTN, separate module notes).
 - Roads: Türos Orn 7 hexes south-east along the lake; Türos Quell south along the lake's west shore; Samos west (about 48 miles, trade route); Kruantem and Mityethtem north.
 

@@ -10,7 +10,7 @@ source: "AX3 pp. 63-67"
 
 # Undercity of Cyfaraun
 
-Judge only. The sewers, crypts and cellars under [[Cyfaraun]], tunnelled through the soft volcanic tuff along the streets of the ancient elven city. Pages are AX3 printed pages. Hub: [[AX3 Hub]]; above ground: [[Streets of Cyfaraun]]. The deeper Nethercity is a separate module: see SOTN (separate module notes).
+Judge only. The sewers, crypts and cellars under [[Cyfaraun]], tunnelled through the soft volcanic tuff along the streets of the ancient elven city. Pages are AX3 printed pages. Hub: [[AX3 Hub]]; above ground: [[Streets of Cyfaraun]]. The deeper Nethercity, 60’ below, is the Secrets of the Nethercity module: [[SOTN Hub]]; its only known entrance is the leaking cesspool #12u ([[Old District]]) = [[Nethercity A - Entrance Caves]] A1. SOTN (p. 6) adds: the Prefect's Palace, Solar Citadel, Imperial Amphitheater, Tower of Knowledge and Hall of Mourning have underground parts joined to both the ancient ruins and the sewers; the Merchant Guild has vaults and the Imperial Bathhouse cisterns down here; the main sewers under Old Cyfaraun follow Ancient Cyfaraun's avenues.
 
 Running: wandering 1d6 every 3 turns, 6+ (**5+ below the Old District**); none inside an uncleared special location. Table: 1d100 `Tables/ax3-undercity-encounters.yaml`. The 80-00 results use `Tables/ax3-undercity-special.yaml`.
 
@@ -136,7 +136,7 @@ The keyed lairs below, with their special-encounter rows in `Tables/ax3-undercit
 | 81u | Barracks Vault | [[Palace District]] | p. 188 |
 
 Special-encounter highlights (full rows in the YAML):
-- **13u:** the 8 wererats search for the way into the Nethercity: Terkinos (Mage 3 wererat) from noon to midnight, Abimbola (Fighter 4 wererat) from midnight to noon. A lead into SOTN (separate module notes).
+- **13u:** the 8 wererats search for the way into the Nethercity: Terkinos (Mage 3 wererat) from noon to midnight, Abimbola (Fighter 4 wererat) from midnight to noon. A lead into the Nethercity ([[SOTN Hub]]; entrance [[Nethercity A - Entrance Caves]] below #12u).
 - **78u:** the escaped hood. His employer on 1d10: 1-4 Argollëan Family, 6-8 Sand & Bones, 9-10 lone wolf. **5 is not assigned in AX3** (Judge's call: Argollëan Family). While the party escorts him, throw 1d6 every minute: **5+** brings **1d4+1 Watch officers**. Turning him in pays **40gp**.
 - **81u:** 2d4 Prefectural Guards. Statline inferred: the legionaries of city encounter 81-84 (Fighter 1; AC 7, HD 1, hp 6, 10+, 1d6+1, F1, ML +3, XP 10). They carry torches.
 

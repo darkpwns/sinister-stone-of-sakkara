@@ -11,7 +11,7 @@ Judge only. Prep for the Sakkara campaign, not play: no `Campaign/` state, actor
 Source: Library `Adventures/Capital of the Borderlands/_source/AX3_Capital_of_the_Borderlands.pdf`; maps in
 `Adventures/Capital of the Borderlands/maps/`. Page references are printed pages ("AX3 p. N" = PDF page N + 2).
 Statblocks and rules converted to ACKS II (acks2-conversion method; the rules vault's MM notes and tables, since the
-skill's calculator scripts are not in the cloud container). The Secrets of the Nethercity module is a separate job.
+skill's calculator scripts are not in the cloud container). The Secrets of the Nethercity module has its own notes: `Adventure/SOTN/` ([[SOTN Hub]]).
 
 ## Layout
 | Path | Contents |

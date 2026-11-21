@@ -39,7 +39,7 @@ Known to any character with at least one rank of **Knowledge (history)** or **Lo
 - **Now:** Sebek is releasing a new breed of **dire beastmen**, settling them around Zahar and southward and enslaving the older tribes ([[Borderlands Gazetteer#Stocking the chaotic domains]]). He means to **invade the Borderlands**, enslave its peoples and, at the **Conjunction of the Void**, bring the Awakening in a sea of slaughter. The warlock Narsürius ([[Lair of the Warlock]]) and the Stone of Sakkara's awakening ([[Buried Temple]]) belong to this stirring (the second: Judge's call).
 
 ### Secret timeline (AX3 pp. 12-13) — key points
-Most of it concerns Cyfaraun and the **Nethercity** beneath it: see SOTN (separate module notes).
+Most of it concerns Cyfaraun and the **Nethercity** beneath it: see [[SOTN Hub]] (Secrets of the Nethercity).
 - 41st c. BE elven city-states (Cyfarawn = present Cyfaraun, Siadanos, Cyfandir in the south); 39th c. contact with the Zaharans; 35th c. with the dwarves of **Azen Khador** (lasting coldness).
 - 32nd-26th c. BE: the Great Teacher, the catacombs of the Nethercity, crossbreeding, the creation of the Thrassians (late 27th c.), the Argollëan Empire declared (mid 26th c.); the **Bitter War** with the Meniri dwarves (late 26th c.); the Empyrean faithful slaughtered (mid 24th c.); worship of **Dirgion**, god of death and undeath.
 - Late 21st c. BE: the warlord Marcan destroys Azen Khador; the dwarves withdraw into the mountains; the Great Teacher enters cryostasis in the Nethercity. Late 18th c.: the hierophant **Orthanach** becomes the first elven mummy lord.
