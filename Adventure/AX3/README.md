@@ -31,7 +31,7 @@ skill's calculator scripts are not in the cloud container). The Secrets of the N
 - [x] Streets and Undercity: `City/Streets of Cyfaraun.md`, `City/Undercity of Cyfaraun.md`; tables `ax3-city-encounters`, `ax3-undercity-encounters`, `ax3-undercity-special`, `ax3-irritating-rumours`; `Bestiary/Rhagodessa (AX3).md` — PDF 60-69, 203
 - City districts (8):
   - [x] Old District (PDF 70-99): `City/Old District.md`; dungeons `The Mink - Tavern`, `The Mink - Family Hideout`, `Shrine of the Horned Rat`, `Doppelganger Den`; 13 `ax3-old-*` tables
-  - [ ] Festival District (PDF 100-126)
+  - [x] Festival District (PDF 100-126): `City/Festival District.md` (gladiatorial games, betting, Blood Moon); dungeons `Imperial Amphitheater - Arena`, `- Basement`, `Silk Pony Inn - Ground Floor`, `- Top Floor`, `Sand and Bones Hideout`, `Lizardman Sewer Lair`; 21 `ax3-festival-*` tables; 14 bestiary notes
   - [x] Bridge District (PDF 127-137): `City/Bridge District.md`; dungeons `Solar Citadel`, `Catacombs of the Patriarchs`; 5 `ax3-bridge-*` tables
   - [x] Plaza District (PDF 138-143): `City/Plaza District.md`; dungeon `Crocodile Nest`; 4 `ax3-plaza-*` tables
   - [ ] Tower District (PDF 144-161)
@@ -59,3 +59,5 @@ Unticked parts may already have files on main: snapshots of chapters still being
 - No ACKS II class for ACKS I Mystic (Lubbo keeps AX3's statline) or Anti-Paladin (Rhankur on the Paladin progression); Romus's Apostasy has no ACKS II equivalent. Spells with no ACKS II equivalent: some mapped by effect (summon berserkers → Summon Manes, summon hero → Conjure Imp, ward against elementals → Energy Protection), others keep ACKS I names (unseen servant, ESP, ring of spell turning, cloak of displacement): reconcile.
 - AX3 misnumberings: death cult #73u (pp. 128, 182) is #75u; crocodile #44u (p. 130) is #45u. Malthusia's keys "to 4 and 10" (p. 185) read as 9 and 10. Shrine of the Horned Rat: two secret doors in room 2 lead nowhere keyed. Only nine wererat hp printed for ten (p. 92). Celictor's beast table says 1d10, lists 20 (1d20 used).
 - No statlines in AX3 for the six minor councillors; no price for Celictor's capture premium.
+- Festival: Maximus converted on the MM Devil Boar (limit of 9 thralls vs AX3's 12 charmed beastmen plus Selene); his stable is 15 beastmen on p. 101, 12 on p. 106. Special table prints two 9s (made a 1d2); lift-cargo result 2 missing (folded into the lion). No odds printed for bouts to the death or Blood Moon betting. Mara's detect evil / detect secret doors have no ACKS II arcane equivalent. Monthly games (p. 101) vs seasonal bout procedure: not reconciled in AX3.
+- Classed-NPC XP recomputed by ACKS II rules (level as HD plus abilities): several differ from AX3's printed XP (e.g. Mara 200 vs 500).
