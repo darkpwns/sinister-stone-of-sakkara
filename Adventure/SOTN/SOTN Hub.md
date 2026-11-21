@@ -79,9 +79,15 @@ Area **P** (the river banks, the funerary barge P11). Optional clearing applies.
   ([[AX3 Hub]] "Running Undercity of Cyfaraun"). The Family claims the Old District sewers: see Factions.
 - In the cesspool the sludge pours through a **door-sized hole** into a tunnel and down rough steps to A2; a
   [[Carrion Horror]] lurks below (+1 to surprise those coming down).
-- **Other ways, found from inside:** the **teleportation platform** (L4; troglodytes and one ape exile know of it; random
-  visitors arrive through it), the **teleportation disc** (N5) and the **funerary barge** (P11): see those area notes.
-  None is a way in until the party has found and learnt it (Judge's call).
+- **Other ways, found from inside** (none is a way in until the party has found and learnt it):
+  - **Teleportation platform L4** ([[Nethercity L - Abyssal Level Caves]]): two-way link with a platform in the **Istrith
+    Forest** east of the Krysivor (SOTN gives no hex: the Judge fixes it at first use); songbirds, beasts and the odd
+    wanderer come through it. Reached only across the sludge-flooded tunnel L3 (8’ of sludge, sage slime). The
+    troglodyte shaman (I13) and the elderly white ape (M14) remember it.
+  - **Teleportation disc N5** ([[Nethercity N - Sub-Abyssal Alchemic Laboratory]]): one way **up**, to a street in the
+    Thieves' Quarter ([[Old District]] #9); someone must stay at the N4 console to press the button.
+  - **Funerary barge P11** ([[Nethercity P - Sub-Abyssal River Banks]]): teleports once a day to a body of water within
+    360’ with a corpse in its cabin (the oar pattern is on the P12 basin).
 - **Rivals searching for the way in:** Provost Mentenus's **Horned Rat wererats** tap the sewer walls for it day and night
   ([[Shrine of the Horned Rat]], Old District #13u; AX3 Undercity special 13u); the **Argollëan Family** knows the
   Nethercity lies in its territory and wants it ([[Organizations of Cyfaraun]]).
@@ -157,7 +163,7 @@ recognise ancient Argollëan coin.
 - Items and spells: [[SOTN Magic Items]], [[SOTN Spells]].
 - Classes SOTN uses that ACKS II lacks (JJ ch. 12 builds, `Classes/`): [[Elven Cultist]], [[Elven Hierophant]],
   [[Elven Warlord]], [[Elven Wizard]]; build record `Classes/sotn-class-builds.yaml`.
-- Bestiary (`Bestiary/<Name> (SOTN).md`): BESTIARY-LIST. Everything else is a Monstrous Manual note.
+- Bestiary (`Bestiary/<Name> (SOTN).md`): [[Abyssal King (SOTN)]], [[Baboon Mummy (SOTN)]], [[Caecilian (SOTN)]], [[Cassair (SOTN)]], [[Cat Mummy (SOTN)]], [[Crocodile Mummy (SOTN)]], [[Elderly White Ape (SOTN)]], [[Eolande (SOTN)]], [[Flailing Spirit (SOTN)]], [[Fungal Creeper (SOTN)]], [[Grand Chthonic Consul (SOTN)]], [[Grand Chthonic Enchantress (SOTN)]], [[Grand Chthonic High Priest (SOTN)]], [[Great Teacher (SOTN)]], [[Great White Ape (SOTN)]], [[Greater Faewyrd (SOTN)]], [[Greater Undead Bone Golem (SOTN)]], [[Gross Troglodyte Breeder (SOTN)]], [[Hydropion (SOTN)]], [[Incarnation of Terror (SOTN)]], [[Jackal Mummy (SOTN)]], [[Jackal of Darkness (SOTN)]], [[Lesser Faewyrd (SOTN)]], [[Lesser Undead Bone Golem (SOTN)]], [[Marcan (SOTN)]], [[Martyr of the Doom Temple (SOTN)]], [[Mechanical Cobra (SOTN)]], [[Mummy Cultist of Iskara (SOTN)]], [[Mummy Prince (SOTN)]], [[Mummy Warlord Brothers (SOTN)]], [[Orthanach (SOTN)]], [[Rat Mummy (SOTN)]], [[Saorya (SOTN)]], [[Troglodyte Champion (SOTN)]], [[Troglodyte Chieftain (SOTN)]], [[Troglodyte Shaman (SOTN)]], [[Troglodyte Sub-Chieftain (SOTN)]], [[Tunnel Prawn (SOTN)]]. Everything else is a Monstrous Manual note.
 - The city above (AX3): [[Cyfaraun]], [[Cyfaraun (Market)]] (class III), [[Old District]] (#12/#12u: the entrance),
   [[Undercity of Cyfaraun]], [[Organizations of Cyfaraun]], [[Doing Business in Cyfaraun]], [[Streets of Cyfaraun]],
   [[Imperial Vanguard]] (rival party), [[Shrine of the Horned Rat]], [[The Mink - Family Hideout]]; hub [[AX3 Hub]].

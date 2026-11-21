@@ -16,7 +16,7 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **[A] / [D]**: usable by arcane / divine casters only.
 - Energy drain → enervation; charm → bewitch; hold → halt; turn undead → rebuke undead; infravision → [[Lightless Vision]].
 
-**Where:** placements are filled in from the area notes ([[Nethercity Features]] treasure conventions).
+**Where:** placements are taken from the area notes ([[Nethercity Features]] treasure conventions).
 
 ---
 
@@ -36,7 +36,7 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
   - No special means of talking with the plants.
 - **ACKS II:** [[Faerie Seed]] (TT): base cost **2,500gp**, apparent value 0gp; one magical seed per bag; plant creatures save vs Implements or are bewitched as [[Beguile Humanoid]]; saves at 9+ / 5-8 / under 5 HD intervals; ACKS II multiplier rows are "hills, forest, scrubland" and "mountain, jungle". SOTN's bag holds 2d4 seeds (Judge's call: keep SOTN's count).
 - **Value:** 2,500gp per faerie seed.
-- **Where:** see area notes.
+- **Where:** B4 ([[Nethercity B - Early Chthonic Tomb]]) — 5 seeds
 
 ## Bathtub of the Goddess
 - **Looks:** a hepatizon cauldron engraved with scenes of forbidden pleasure from the iconography of Nasga (beauty, pain and lust).
@@ -45,14 +45,14 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
   - Permanent until [[Dispel Magic]] or a second bath, which restores the original sex. Unlimited uses; one bather at a time, one turn each.
 - **ACKS II:** no TT item; the effect is the ACKS II spell [[Bath of the Goddess]] (Divine 6, perpetual; it becomes permanent if the creature births or sires children in its new sex — Judge's call: apply that rule to the bathtub too).
 - **Value:** 82,500gp.
-- **Where:** see area notes.
+- **Where:** C5 ([[Nethercity C - Central Caves]])
 
 ## Candle of Comfort
 - **Looks:** a foul-smelling taper of waxy white fat.
 - **Effect:** once lit it burns fast, **6 rounds** in all if not snuffed. Each round it burns it deals **1d8** damage to the **lowest-HD swarm** within **30’**, no save. Only swarms of ordinary bats, rats and insects (no giant animals or vermin). Named for ridding noble bedchambers of bedbugs.
 - **SOTN build:** exterminate pest cantrip; base cost 600gp; base time 9 days.
 - **ACKS II:** [[Candle of Comfort]] (TT): base cost **600gp**, apparent value 5gp; damage is extraordinary necrotic, at the end of each round; a snuffed candle can be relit for its remaining rounds.
-- **Where:** see area notes.
+- **Where:** G11 ([[Nethercity G - Grand Chthonic Temple]]) — 4 candles
 
 ## Censer of Prophetic Dreams
 - **[D].** **Looks:** a gold or silver incense burner covered in intricate religious iconography.
@@ -60,14 +60,14 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **Misuse:** on the wrong day, or by anyone not a divine caster: night terrors deny the sleeper his night's rest.
 - **ACKS II:** [[Censer of Prophetic Dreams]] (TT): base cost **18,000gp**, apparent value 600gp; usable **1/week**.
 - **Value:** 21,000gp.
-- **Where:** see area notes.
+- **Where:** J15 ([[Nethercity J - Doom Temple of Dirgion]]) — the gold thurible
 
 ## Charcoal of Phantasms
 - **Looks:** a briquette smelling of peat and exotic woods.
 - **Effect:** burned in a brazier, it shows a **1’ × 1’ × 1’** visual illusion of an object, creature or area in the flames: no sound, smell, texture or temperature. A lighter who knows its powers controls the image by concentration; otherwise (or if no one concentrates) the image is random (Judge's discretion). It lasts as long as concentrated upon, or **1 turn** if not.
 - **SOTN build:** phantasm of fire cantrip; base cost 100gp; base time 1½ days.
 - **ACKS II:** [[Charcoal of Phantasms]] (TT): same item; base cost **100gp**, apparent value 1gp.
-- **Where:** see area notes.
+- **Where:** G9 ([[Nethercity G - Grand Chthonic Temple]]) — 6 pieces
 
 ## Cloak of Skinchanging
 - **Looks:** a hooded cloak; raising the hood and wrapping oneself in it works the change.
@@ -82,21 +82,21 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
   | 4 | Wolf | Move 180’, AC 2, 1 bite, 1d6 |
 - **ACKS II:** [[Cloak of Skinchanging]] (TT): base cost **38,000gp**, apparent value 1,200gp; **1d6** table (bear, crow/raven, hawk, seal, swan, wolf; hawk AC 3 with dive attack); the wearer keeps his own hp and can cast if the form can gesture and speak; **3 turns** before reuse. ACKS I "swoop" = ACKS II dive.
 - **Value:** 24,000gp.
-- **Where:** see area notes.
+- **Where:** H6 ([[Nethercity H - Great Temple of Awakening]]) — swan; worn by the mummy princess
 
 ## Collar of Conversation
 - **Looks:** a jewelled leather collar.
 - **Effect:** fastened round an animal's throat, it lets the animal understand and speak the language of any intelligent creature within **60’**. For speech the animal has effective **INT 6 ± its Trainability Modifier** (e.g. a [[Cave Gorilla]] (white ape), TM +3: INT 9; a crocodile, TM −1: INT 5). On a sapient creature it has no magical effect.
 - **ACKS II:** [[Collar of Conversation]] (TT): base cost **100,000gp**, apparent value 1,000gp; range **90’** (as [[Tongues]]); TM per [[Animal Training]].
 - **Value:** 100,000gp.
-- **Where:** see area notes.
+- **Where:** not placed in SOTN's room keys (Judge's choice; the M notes mention it as a way to talk with white apes).
 
 ## Earring of Protection
 - **Looks:** an earring, worn in an ear or another fleshy appendage.
 - **Effect:** **+1 to AC and all saving throws**, like other protective devices. Stacks with magic armour, shield, cloak and spells, but **does not stack with a ring of protection**.
 - **ACKS II:** no TT item. Run as [[Ring of Protection]] +1 worn as an earring, keeping SOTN's no-stacking-with-rings rule (Judge's call; the TT ring itself stacks with everything).
 - **Value:** 25,000gp.
-- **Where:** see area notes.
+- **Where:** not placed in SOTN's room keys (Judge's choice).
 
 ## Faerie Flute
 - **Looks:** a beautifully made syrinx (pan flute).
@@ -118,7 +118,7 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
   - Works magically **once per week**.
 - **ACKS II:** no TT item (nearest in kind: [[Tokay Flute]], a calling flute). The 1-day service is a "calling" in JJ terms.
 - **Value:** 15,000gp.
-- **Where:** see area notes.
+- **Where:** H13 ([[Nethercity H - Great Temple of Awakening]])
 
 ## Funerary Barge of the Cults
 - **Looks:** a black, flat-bottomed river boat about **25’ × 10’**, weight **2,000 lbs**; a tall prow capped by a brass skull; a single oar in a rowlock at the stern; a cabin with blinded windows filling most of the deck, room for **four coffins or 400 stone** of cargo.
@@ -126,7 +126,7 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **Combat:** **AC 1, 45 SHP** (SOTN: 45 SP, ACKS I structural points; [[Vehicle Combat]]). Creatures inside the cabin get **+4 AC against missiles** and **+4 to Blast saves**.
 - **ACKS II:** no TT item (ACKS II small barge: [[Vessels]]).
 - **Value:** 68,000gp.
-- **Where:** see area notes.
+- **Where:** P11 ([[Nethercity P - Sub-Abyssal River Banks]]) — the oar pattern is engraved on the P12 basin
 
 ## Horn of the Eagles
 - **Looks:** a rune-carved ivory hunting horn.
@@ -136,7 +136,7 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
   - Usable **once per week**.
 - **ACKS II:** [[Horn of the Eagles]] (TT) is a different item: base cost **25,000**, apparent value 200gp, **1/day**, calls **2d4 [[Giant Raptor]]s** as henchmen for a day. (SOTN's text says "spell" and "caster" here, left over from a spell write-up.)
 - **Value:** 21,000gp.
-- **Where:** see area notes.
+- **Where:** K6 ([[Nethercity K - Hallowed Hall of Heroes]])
 
 ## Iron Masks of Cyfaraun
 - **Lore:** five masks forged by the corrupt elves of Cyfaraun on an altar of profane darkness at the height of Southern Argollë, given to the masters of the five Chthonic cults (Bel, Dirgion, Iskara, Nasga, Telith) and worn in the presence of the Great Teacher. Sages hold that the Thrassian conquerors melted them down; rumour says some survived ([[Nethercity History]]).
@@ -147,7 +147,7 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **SOTN design notes (ACKS I build costs):** invulnerability to enchantments (55), 1 creature, self (×0.75), 1 hour (×1.33), beneficial (×1) = 54.86; invulnerability to gases and vapours (55), same factors = 54.86; current form gains infravision (15), 1 creature, self (×0.5), 1 hour (×1), beneficial (×1) = 7.5.
 - **ACKS II:** [[Iron Mask of Cyfaraun]] (TT): base cost **128,500gp**, apparent value 4,000gp; adds **−2 to Listening and −1 to initiative and surprise** from the whispering; no alignment-shift roll (Judge's call: keep SOTN's d20 corruption roll for these, the five originals).
 - **Value:** 104,000gp each.
-- **Where:** see area notes.
+- **Where:** J15 ([[Nethercity J - Doom Temple of Dirgion]]) — the sculpted iron mask; also a key to the L20 door
 
 ## Lyre of the Lullaby
 - **Looks:** a well-made lyre with a tortoise-shell body painted with scenes of hearth and home; each has its own controlling lullaby (like a command word).
@@ -156,26 +156,26 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
   - Magic usable **once every 8 hours**; an ordinary instrument otherwise.
 - **SOTN build:** lullaby cantrip; base cost 1,200gp; base time 10 days.
 - **ACKS II:** [[Lyre of the Lullaby]] (TT): base cost **1,200gp**, apparent value 100gp; **3/day, not more than 1/hour**.
-- **Where:** see area notes.
+- **Where:** E7 ([[Nethercity E - Deep Level Central Complex]])
 
 ## Oil of Relaxing Respite
 - **Looks:** an oil smelling of lavender, its main reagent.
 - **Effect:** massaged onto the temples, forehead and back of the neck: soothing sleep that night free of pain and sorrow, and **1 extra hit point** healed the next day if the creature rests completely. Ends when he stops resting completely, takes damage, or after one full day of rest.
 - **SOTN build:** relaxing respite cantrip; base cost 100gp; base time 1½ days.
 - **ACKS II:** [[Oil of Relaxing Respite]] (TT): base cost **100gp**, apparent value 75gp; also **+2 to the Death save on waking** if [[Enervated (Condition)|enervated]]; no benefit under [[Salving Rest]].
-- **Where:** see area notes.
+- **Where:** C5 ([[Nethercity C - Central Caves]]) — 7 vials
 
 ## Potion of Freedom
 - **Effect:** the drinker is immune to paralysis of every kind: [[Grave Ghoul]] paralysis, [[Halt Humanoids]] and [[Halt Monsters]] (SOTN: hold person, hold monster), and **the paralysing fear of undead** (the [[Mummy]]'s fear in the Nethercity).
 - **ACKS II:** [[Potion of Freedom]] (TT): base cost **2,000gp**, apparent value 25gp; standard potion duration.
 - **Value:** 2,000gp.
-- **Where:** see area notes.
+- **Where:** J15 ([[Nethercity J - Doom Temple of Dirgion]])
 
 ## Ring of Life Protection
 - **Effect:** negates enervation (SOTN: energy drain): when an enervating attack or effect strikes the wearer, it is cancelled and **one charge** is drained from the ring instead. **4 charges**, refilled at **sunrise** each day; if all four are drained in one day, the ring **disintegrates**.
 - **ACKS II:** [[Ring of Life Protection]] (TT): base cost **20,250gp**, apparent value 300gp; **3/day (not more than 1/hour)**, regained at dawn; any further enervation it stops has a **1 in 3** chance of destroying it.
 - **Value:** 18,000gp.
-- **Where:** see area notes.
+- **Where:** J15 ([[Nethercity J - Doom Temple of Dirgion]])
 
 ## Rod of Elemental Spheres
 - **[A].** **Looks:** a rod of four intertwined materials (narwhal horn, sandstone, sky-iron, obsidian) topped by a glass sphere in which motes of water, earth, air and fire swirl.
@@ -187,20 +187,20 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **SOTN design notes (ACKS I build costs):** Sphere of Water: drowning (10), impermeable to vision (5), force back (10), must be sphere (×0.75), 500 sq ft (×0.75), 10’ wide (×2), evoked where creatures are (×2), range 120’ (×1), concentration (×0.5), save for half (×0.75) = 16.8. Sphere of Earth: 2d6 damage (20), impermeable (25), 100 sq ft (×0.5), 5’ thick (×1.75), moves away 20’/round (×1.5), range 0 (×0.4), concentration (×0.5), save for half (×0.75) = 8.8; plus knock down (10), impermeable (25), same factors, save for nothing (×0.5) = 11.5. Sphere of Fire: 2d6 damage to those passing through (20), sphere (×0.75), 100 sq ft (×0.5), 5’ wide (×1.75), moved by caster 20’/round (×3), evoked where creatures are (×2), range 30’ (×0.6), concentration (×0.5), save for half (×0.75) = 17.7. (SOTN's fire note says 2d6 and 5’; the power's text says **2d4** and **10’ diameter**: use the text.)
 - **ACKS II:** [[Rod of Elemental Spheres]] (TT): base cost **40,000gp**, apparent value 700gp; **each power once per day**; water drowning kills after **5 + CON modifier** rounds; earth: **2d6**, Blast save halves and prevents knockdown; damage types extraordinary.
 - **Value:** 40,000gp.
-- **Where:** see area notes.
+- **Where:** O3 ([[Nethercity O - Sub-Abyssal Secret Tomb of the Hierophant]]) — Orthanach
 
 ## Scepter of Sacred Power
 - **[D], Lawful only.** **Looks:** an ornate scepter.
 - **Effect:** speaking the proper phrase, **once per day**, the wielder rebukes undead and casts spells **as if 4 class levels higher** for the next **turn** (e.g. a 9th-level caster as 13th). No extra spells; range, duration and the like improve where they depend on level.
 - **ACKS II:** [[Scepter of Sacred Power]] (TT): same item; base cost **30,000gp**, apparent value 1,200gp; rebuking scales proportionally for partial rebukers.
 - **Value:** 30,000gp.
-- **Where:** see area notes.
+- **Where:** H21 ([[Nethercity H - Great Temple of Awakening]])
 
 ## Shadowcowl Robe
 - **Looks:** a dark robe with a deep cowl. Hood up, nothing shows inside but black emptiness; the wearer's face is hidden in impenetrable shadow; his own sight is unaffected.
 - **ACKS II:** [[Shadowcowl Robe]] (TT): base cost **5,000gp**, apparent value 100gp; the face cannot be recognised and [[Lip Reading]] cannot read his words.
 - **Value:** 25,000gp (SOTN; the TT's 5,000gp suits the effect better — Judge's call which to use for sale).
-- **Where:** see area notes.
+- **Where:** J14 ([[Nethercity J - Doom Temple of Dirgion]]) — chest 3; also a key to the L20 door
 
 ## Soul Gem
 - **Lore:** first made during the elven necromantic research that led to the [[Mummy Lord|mummy lords]], as prototypes of their phylacteries; the elves found the gems stored divine power drawn from the souls of the newly dead.
@@ -214,28 +214,28 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **Victims:** a creature whose residue is in a gem cannot be reached by speak with dead and its body yields no special components. It can still be raised or reincarnated, but counts as dead **20 days longer** and loses **10%** of its accumulated XP.
 - **Destruction:** fragile; can be **sundered** ([[Special Maneuvers]]) or destroyed by its carrier as an action in lieu of attacking. Breaking it releases all its divine power and lifts the victims' penalties; a creature **holding** it when it breaks saves vs **Death** or loses **10% of its accumulated XP** (SOTN: energy drained; Judge's call: an XP loss as printed, not the ACKS II [[Enervated (Condition)|enervated]] condition).
 - **ACKS II:** no TT item. In ACKS II a creature's death residue equals its XP value ([[Divine Power of Creatures]]), so the capture rule fits; ACKS II's own spell costs in divine power are lower ([[The Cost of Spells]]: 5/15/30/50/75/105). Judge's call: keep SOTN's costs for the gem.
-- **Where:** see area notes.
+- **Where:** O5 ([[Nethercity O - Sub-Abyssal Secret Tomb of the Hierophant]]) — large; holds 5,000 divine power and the residue of Caogan
 
 ## Sword of Command
 - **Looks:** a sickle-shaped **short sword +2**, meteorite-iron blade, hilt shaped as a golden crown. Forged in early Argollë and borne by the great king **Marcan** in the Bitter War ([[Nethercity History]]).
 - **Effect:** **3/day** the wielder may speak a command, as [[Word of Command]] (SOTN: command word), with the sword in hand and pointed at the target; his voice takes on a stentorian ring. Target's save: **Implements** (item rule).
 - **ACKS II:** [[Short Sword +2, Command]] (TT): same item; base cost **21,000gp**, apparent value 657gp; 3/day not more than 1/hour, target within 15’.
 - **Value:** 21,000gp.
-- **Where:** see area notes.
+- **Where:** Q5 ([[Nethercity Q - Great King Tomb]]) — Marcan; opens the magic-locked bronze door in M and the L20 door
 
 ## Sword of the Deathless Warlord
 - **Looks:** a **sword +1** with a backward-curved meteorite-iron blade on a bone hilt carved as a screaming skull, always cold to the touch; made in the last days of the Argollëan Empire to show its mastery of necromancy.
 - **Effect:** **3/day**, when it slays a living creature, the wielder may raise it as a deathless minion ([[Deathless Minion]]) **in lieu of cleaving**.
 - **ACKS II:** [[Sword +1, Deathless]] (TT): same item; base cost **17,000gp**, apparent value 660gp; not more than 1/hour.
 - **Value:** 17,000gp.
-- **Where:** see area notes.
+- **Where:** O3 ([[Nethercity O - Sub-Abyssal Secret Tomb of the Hierophant]]) — Cassair's "sword +1" read as this item, Judge's call
 
 ## Sword of Valor
 - **Looks:** a **sword +2**, 36" backward-curved orichalcum blade on an ivory hilt inlaid with silver, inscribed *arddghal* ("high valor" in Ancient Argollëan); one of the last magic blades forged in Southern Argollë by the Empyrean faction of elves.
 - **Effect:** **3/day** the wielder may inspire courage as a [[Bard]]; the sword sings a choral epic, audible over battle, for one round ([[Blessed and Inspired (Condition)|inspired]]).
 - **ACKS II:** [[Sword +2, Valor]] (TT): same item; base cost **21,000gp**, apparent value 660gp; not more than 1/hour.
 - **Value:** 21,000gp.
-- **Where:** see area notes.
+- **Where:** K6 ([[Nethercity K - Hallowed Hall of Heroes]]) — "Ardghal"
 
 ## Wolf-Spear of the Hunter
 - **Looks:** an ash spear with a flat leaf-shaped **silver** head and a bronze butt-knob shaped as a howling wolf.
@@ -243,21 +243,21 @@ Judge only. Hub: [[SOTN Hub]]. Spells: [[SOTN Spells]]. Pages are SOTN's printed
 - **Curse:** if the wielder ever kills a foe with a **natural 20**, he falls into a berserker rage: **+2 to attack throws**, immune to fear, **−2 to AC**, cannot retreat, until every enemy in sight is defeated.
 - **ACKS II:** nearest [[Spear +2, Wolf-Fang]] (TT: base cost **34,000gp**, apparent value 653gp; +3 vs animals; 3/day, a drop of blood grants [[Tracking]] or [[Berserkergang]] for 6 turns). A different item: run SOTN's.
 - **Value:** 31,000gp.
-- **Where:** see area notes.
+- **Where:** M10 ([[Nethercity M - Northern Caves]]) — the vault
 
 ## Waybread
 - **Looks:** an ordinary loaf in wrappings of dried leaves; made from ancient grain strains bred by the elves over generations.
 - **Effect:** one slice keeps a man-sized creature alive for a day **without any other food or water**. A loaf has **2d6** slices left when found. Kept in its original leaf wrappings, it stays fresh forever.
 - **ACKS II:** no TT item (Judge's call: a slice counts as a day's rations and a day's water).
 - **Value:** 375gp per slice.
-- **Where:** see area notes.
+- **Where:** G11 ([[Nethercity G - Grand Chthonic Temple]]) — 7 slices
 
 ## Woodwind of the Woodlands
 - **Looks:** a reed pipe carved with pastoral scenes.
 - **Effect:** played while an animal of **1 HD or less** is within **10’**, the nearest such animal saves (SOTN: vs Spells → **Implements**, item rule) at **−1 per rank** of the piper's [[Performance]] (not required). Failure: it obeys his commands, conveyed by the music, for as long as he plays, with a new save **each turn**. Freed, it heads back to where it came from, its attitude depending on its treatment. After he stops or the animal saves, the pipe cannot be used for **1 turn**.
 - **SOTN build:** call woodland creature cantrip; base cost 3,300gp; base time 16 days.
 - **ACKS II:** [[Woodwind of the Woodlands]] (TT): base cost **3,300gp**, apparent value 105gp; range **15’**.
-- **Where:** see area notes.
+- **Where:** not placed in SOTN's room keys (Judge's choice).
 
 ---
 
@@ -359,7 +359,7 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
   5. animate dead ([[Animate Undead]]), [[SOTN Spells#Circle of Agony|circle of agony]], cone of cold ([[Cone of Frost]]), *control undead* (no ACKS II equivalent), [[SOTN Spells#Fillet and Serve|fillet and serve]]
   6. globe of invulnerability ([[Sphere of Invulnerability, Greater]]), [[SOTN Spells#Soul Eating|soul eating]], [[Torpor]], [[Wall of Corpses]]
 - **Value:** 25,900gp; **3/6 st**.
-- **Where:** Nethercity O3 ([[Nethercity O - Sub-Abyssal Secret Tomb of the Hierophant]]); see area notes.
+- **Where:** O4 ([[Nethercity O - Sub-Abyssal Secret Tomb of the Hierophant]])
 
 ## Prince's Spellbook
 - **Looks:** vellum sheets stitched in a roll, Ancient Argollëan left to right in gold and black ink, game animals illuminated in **gold**; two ivory handles; leather clasp.
@@ -388,19 +388,19 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
 - **Effect:** after injection the character lives **five years without ageing** (those years do not count toward his biological age).
 - **Risk:** from the **second** dose the regimen can fail: **1%** on dose 2, **+1% per dose** after. On failure all the suspended years return at once. If more than **10 years** of ageing arrive at once, save vs **Death** or die of shock. A failed regimen cannot be restarted: any further dose forces a save vs **Death** or death within **1d6 rounds** from system shock.
 - **Value:** 3,000gp.
-- **Where:** see area notes.
+- **Where:** T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — 2 doses, on the Great Teacher
 
 ## Arcane Sword
 - **Looks:** a bladeless cylindrical hilt. A telepathic command makes a blue blade of crackling lightning spring out; another withdraws it (Kanahu: laser rapier).
 - **Effect:** **2d6** damage one-handed, **2d8** two-handed (Judge's call: extraordinary electrical damage). One energy crystal in the hilt powers **30 rounds (5 minutes)** of activation. Usable by **all and only arcane spellcasting classes**, whatever their weapon restrictions.
 - **Value:** 29,500gp.
-- **Where:** see area notes.
+- **Where:** F17 ([[Nethercity F - Lower Level Central Complex]]) — 1 crystal with 8 charges; T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — on the Great Teacher, 27 rounds left
 
 ## Cryostasis Tube
 - **Looks:** a metal canister **7’ tall, 3’ wide**, standing upright on a round base, with a small window at eye level; opens to take one man-sized creature.
 - **Effect:** resealed, it freezes the occupant in cryogenic stasis indefinitely; anyone familiar with the device can work the controls to thaw him, alive. Time does not pass for him, so mortally wounded or poisoned characters can wait for better treatment (SOTN: ACKS p. 106; ACKS II [[Mortal Wounds - Piercing|Mortal Wounds]] tables). A familiar character can work it from inside to freeze himself. Its micro-fusion battery lasts **5,000 years**; no outside power needed. Weight **300 lbs** without the occupant.
 - **Value:** 15,000gp.
-- **Where:** see area notes.
+- **Where:** T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — 30 st
 
 ## Death Orb
 - **Looks:** an oval, transparent orb of gas or fluid, its kind shown by colour. Thrown, it shatters on impact. SOTN lists five kinds as "cadmium, chartreuse, cobalt, silver, verdigris" but describes **cinnabar** for the silver one.
@@ -409,40 +409,40 @@ SOTN's book values follow a fixed price per spell level (1st 50gp, 2nd 100gp, 3r
   - **Cobalt** (glowing blue gas; plasma grenade): explodes for **6d6** fire damage in a **15’ radius**, half on a **Blast** save; may ignite flammables in the area. **Value:** 3,000gp.
   - **Cinnabar** (highly flammable silver liquid; incendiary grenade): burning liquid splashes a **15’ radius**: **5d6** fire damage, half on a **Blast** save; sets flammables alight; a creature that failed takes **1d6** more fire damage the next round. **Value:** 3,000gp.
   - **Verdigris** (coiling green-blue gas; SOTN also calls it "green"; stun gas bomb): a greenish cloud of **10’ radius**; living creatures in it save vs **Paralysis** or fall [[Unconscious (Condition)|unconscious]] for **1d6 turns**. The gas disperses after one round. **Value:** 2,500gp.
-- **Where:** see area notes.
+- **Where:** D5 ([[Nethercity D - Warlord's Tomb and Chapel to Bel]]) — 2 cobalt; F17 ([[Nethercity F - Lower Level Central Complex]]) — 5: cadmium, chartreuse, cobalt, verdigris, and the 'silver' one read as cinnabar
 
 ## Energy Crystal
 - **Looks:** stark orange, slightly transparent crystals about **5" long, 1" thick**, glowing faintly ruddy and warm to the touch. **15 crystals = 1 item** of encumbrance. Spent crystals crumble to fine orange dust. The power source of the Day Without Night's scientific sorcery (arcane sword, fire lance, flying disk, khepri neural scrambler).
 - **Value:** 500gp (an unenlightened jeweller pays **25gp** each).
-- **Where:** see area notes.
+- **Where:** F17 ([[Nethercity F - Lower Level Central Complex]]) — 5 in the fire lance, 1 in the arcane sword; H14 ([[Nethercity H - Great Temple of Awakening]]) — 28, the ceiling's stars; T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — 5, the Great Teacher's
 
 ## Fire Lance
 - **Looks:** a **4’** lance with a wide mouth at one end and a crossbow-like grip at the other (Kanahu: flamer).
 - **Effect:** turns an energy crystal into a cone of super-heated liquid fire **30’ long, 10’ wide**: **5d6** fire damage, half on a **Blast** save; anyone damaged takes **1d6** more fire damage the next round; flammables in the area ignite. Each blast uses a whole crystal; holds up to **five**. Usable only by fighters, barbarians, assassins, paladins and other fully martial classes (Judge's call: ACKS II classes with the fighter's attack progression).
 - **Value:** 25,000gp.
-- **Where:** see area notes.
+- **Where:** F17 ([[Nethercity F - Lower Level Central Complex]])
 
 ## Flying Disk
 - **Looks:** a round disc **6’** across and **1’** thick with small scoop-like machines underneath (SOTN also calls it a hoverboard; Kanahu: large hoverboard).
 - **Effect:** only an **arcane spellcaster** can steer it, telepathically, standing on it. It hovers at an adjustable height up to **30’** and moves at **150’ (50’)** (ACKS II: speed 150’ per turn, combat speed 50’; Judge's call). Carries up to **two man-sized creatures (500 lbs)**, giving them no protection. One energy crystal in its compartment (one at a time) runs it for **6 hours**.
 - **Value:** 78,000gp.
-- **Where:** see area notes.
+- **Where:** F15 ([[Nethercity F - Lower Level Central Complex]]) — 8’ across in the room text
 
 ## Healing Syringe
 - **Looks:** a prepacked disposable automatic syringe of enzymes, antiseptics, antibiotics, painkillers and wound medicines; one dose.
 - **Effect:** heals **3d6+3** damage to a living creature.
 - **Value:** 1,500gp.
-- **Where:** see area notes.
+- **Where:** T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — 2
 
 ## Khepri Neural Scrambler
 - **Effect:** when activated it scrambles the minds of up to **24 HD** of living creatures within **15’**, fewest HD first. Each saves vs **Spells** (→ **Implements**, item rule) or is paralysed for **30 rounds (5 minutes)** (Judge's call: [[Paralyzed (Condition)|paralyzed]], as a halt effect). The paralysed also lose all memory of the **30 rounds** before activation and form none of the **30 rounds** after. Afterward they are unaware anything happened, as if waking from a daydream. Lost memories return if the effect is dispelled or the creature makes a later save vs Spells (→ Implements): after **a day** at INT 13+, **a week** at INT 9-12, **a month** at INT 8 or less.
 - **Power:** holds up to **five** energy crystals; each activation uses one.
 - **Design notes:** see [[SOTN Spells#Custom spells modelling the technological wonders]].
 - **Value:** 150,000gp.
-- **Where:** see area notes.
+- **Where:** T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — the Great Teacher's
 
 ## Silkweave Suit
 - **Looks:** a suit of very light, breathing, bio-engineered fibre like spider silk; weighs as heavy clothing.
 - **Effect:** **AC 4** (effectively **leather armour +2**; ACKS II leather AC 2 + 2); wearable by any character able to wear leather armour. Protects from ambient temperatures from **−20 °C to 50 °C** (Judge's call: as [[Protection from Temperature]] within that range).
 - **Value:** 15,000gp.
-- **Where:** see area notes.
+- **Where:** T2 ([[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]) — worn by the Great Teacher
