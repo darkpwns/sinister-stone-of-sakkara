@@ -25,7 +25,7 @@ Party of 6-10 characters of 1st-3rd level, 8-12 total levels (p. 3).
 (For level 2 pass the settings explicitly, since `--hub` reads only the section above: `acks.sh location --site "Catacombs" --level 2 --wandering "1d6 every 2 turns, 6+" --table Adventure/Tables/level2-wandering.yaml`.)
 
 ## Notes
-- [[Turos Tem]] — the starting stronghold (hex 13.08): services, prices, NPCs, rewards, rumours.
+- [[Turos Tem]] — the starting stronghold (hex 22.20): services, prices, NPCs, rewards, rumours.
 - [[Viaspen Forest]] — finding the temple; forest encounter table.
 - [[Level 1 - Buried Temple]] — areas 1-6, rooms 1-75.
 - [[Level 2 - Catacombs]] — rooms 1-39, The Lady Below.
@@ -37,11 +37,11 @@ Party of 6-10 characters of 1st-3rd level, 8-12 total levels (p. 3).
 - Two years ago an earthquake cracked the dome open; the Stone woke. Brigands, then beastman warbands, then the Zaharan ruinguard **Zakiti, "The Lady Below"**, answered its call. She subjugated the warbands and sends them to raid hamlets and caravans for sacrifices to power the Stone's birthing pools.
 - **Legate Ulrand Valerian** of Türos Tem offers **2,000gp** to whoever uncovers and ends the threat. He does not know of the Stone. Raids continue until the Stone is destroyed.
 
-## Region (Region Map; module hex CCRR = our CC.RR)
-- Türos Tem: module hex 1308 = **13.08**. Buried temple: module 1007 = **10.07**. Crossing hex: 1107 = **11.07**.
-- Route Türos Tem → temple: **13.08 → 12.07 → 11.07 → 10.07** (3 hexes, 18 miles).
+## Region (AX1 Region Map; since S07 the campaign uses the AX3 Borderlands sheet numbering: AX1 module hex CCRR ≈ (CC+9).(RR+12), see [[Region Map]])
+- Türos Tem: module hex 1308 = **22.20** (AX3 #28). Buried temple: module 1007 = **19.19** (AX3 #27). Crossing hex (module 1107, the forest edge on the way): **20.19**.
+- Route Türos Tem → temple: **22.20 → 21.20 → 20.19 → 19.19** (3 hexes, 18 miles).
 - Viaspen Forest edge: about 9 miles NW of Türos Tem through lightly settled farmland (1.5-6 hours). The temple is 9 miles deeper into thick forest (movement ×½).
-- Other sites on the Region Map (p. 65, seeds only, not stocked): Sinkhole of Evil (04.11), Shrine of the White Lady (14.04; unicorn, 20 hp; pool: a Lawful drinker loses one Tampering with Mortality side effect once per lifetime and gains a geas to destroy Chaotic creatures in Southern Argollë), Ruined Imperial Fortress (17.07; bugbear tribe under a war-chief), Watchtower at Eammon Mór (17.14; ogre warlord with ~170 beastmen), Ruined Monastery (22.05; beastmen and chthonic cultists), the Dark Wall (cliffs of rock-cut Thrassian and Zaharan structures).
+- Other sites on the Region Map (p. 65, seeds only, not stocked): Sinkhole of Evil (13.23), Shrine of the White Lady (23.16; unicorn, 20 hp; pool: a Lawful drinker loses one Tampering with Mortality side effect once per lifetime and gains a geas to destroy Chaotic creatures in Southern Argollë), Ruined Imperial Fortress (26.19; bugbear tribe under a war-chief), Watchtower at Eammon Mór (26.26; ogre warlord with ~170 beastmen), Ruined Monastery (31.17; beastmen and chthonic cultists), the Dark Wall (cliffs of rock-cut Thrassian and Zaharan structures).
 
 ## Module procedures for the Judge
 
@@ -51,7 +51,7 @@ Party of 6-10 characters of 1st-3rd level, 8-12 total levels (p. 3).
 - Once found, the party travels to and from it without searching: 18 miles, 4.5-18 hours by movement rate.
 
 ### Travel after the temple is found (p. 34)
-- **Hex 11.07:** each time the party crosses it, wilderness encounter throw **1d6, on 6** an encounter by the core rules (ACKS p. 244-246; use the engine's wilderness encounter for forest).
+- **Hex 20.19:** each time the party crosses it, wilderness encounter throw **1d6, on 6** an encounter by the core rules (ACKS p. 244-246; use the engine's wilderness encounter for forest).
 - **Night in the Viaspen:** navigation throw **7+** or become lost (ACKS p. 94).
 
 ### Dungeon (both levels)

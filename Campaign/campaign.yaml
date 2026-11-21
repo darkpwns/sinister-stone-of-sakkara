@@ -48,7 +48,7 @@ start:
   time: morning
   mode: town
   location: '[[Turos Tem]]'
-  hex: '13.08'
+  hex: '22.20'
 paths:
   home: Adventure/AX1 Hub.md
   wiki_folders:
@@ -153,7 +153,7 @@ party:
     - vault/ACKS II Rules/Judges Journal/
 hexes:
   csv: Data/hexes.csv
-  numbering: CC.RR column.row; 6-mile hexes (module Region Map, CCRR)
+  numbering: CC.RR column.row; 6-mile hexes; the AX3 Borderlands regional map sheet (Library maps/ACKS_borderlands-amended-GM.tif), 01.01 at its top-left; Türos Tem 22.20
   offset: even-columns-down
   columns:
     hex: hex
@@ -165,6 +165,7 @@ hexes:
     classification: classification
     revenue: land_revenue_gp
     site: point_of_interest
+    lake: lake
     encounters: encounters                  # AX1 Viaspen Forest: the module's 1d6 6+ check and table replace the RR throw (travel, search, hunt)
   roads:
     file: Data/world.json
@@ -189,6 +190,8 @@ hexes:
     barrens:
       acks: barrens-rocky
     sea:
+      acks: null
+    lake:
       acks: null
   climate:
     by_column:

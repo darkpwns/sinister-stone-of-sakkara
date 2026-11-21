@@ -1,15 +1,15 @@
 ---
 type: settlement
-hex: "13.08"
+hex: "22.20"
 market_class: "V"
 tags:
   - sakkara/secret
 source: "AX1 pp. 5-31"
 ---
 
-# Türos Tem (hex 13.08)
+# Türos Tem (hex 22.20)
 
-Imperial border fort on a sheer 150’ tor between the Krysivor River and the Viaspen Forest, over a 110’ ford. Village of camp followers, shops and traders on the west side of the tor. Legate Ulrand Valerian rules a legature of 29 hexes; personal domain hexes 12.09, 13.08, 13.09, 14.08, 14.09. Domain morale −1 (Demoralized). Garrison only 90 of 600 (legions sent west two years ago). Market note: [[Turos Tem (Market)]]. Pages are printed pages.
+Imperial border fort on a sheer 150’ tor between the Krysivor River and the Viaspen Forest, over a 110’ ford. Village of camp followers, shops and traders on the west side of the tor. Legate Ulrand Valerian rules a legature of 29 hexes; personal domain hexes 21.21, 22.20, 22.21, 23.20, 14.09. Domain morale −1 (Demoralized). Garrison only 90 of 600 (legions sent west two years ago). Market note: [[Turos Tem (Market)]]. Pages are printed pages.
 
 ## Arrival and the gate (pp. 8-9)
 - Main (west) gatehouse 1: open dawn to dusk; anyone approaching peacefully with weapons sheathed is admitted to the Avenue (4). After dark only garrison members; persuading the night guard: reaction roll — **Friendly** opens, **Hostile** sounds the alarm.

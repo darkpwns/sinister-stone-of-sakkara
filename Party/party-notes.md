@@ -18,3 +18,4 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 
 ### Buried Temple, vault under the stepped tower
 - S06: 20' square vault; long straight steep staircase descending about 35' to an unseen lower level; unexplored.
+- S07: Hex numbers changed to the Borderlands regional map: Türos Tem is now 22.20, the temple 19.19 (older notes use the old numbers; add about 9 to the column and 12 to the row).

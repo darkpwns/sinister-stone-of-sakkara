@@ -12,9 +12,9 @@ public:
     season: summer
     day: 161
   time: 06:00
-  weather: Hot (87 to 90 F) by day, Warm (83 to 86 F) at night; drizzle; wind moderate (drizzly)
+  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; mostly cloudy; wind moderate
   place: Türos Tem
-  hex: '13.08'
+  hex: '22.20'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -68,26 +68,26 @@ public:
   tracker: {}
   threads: []
   trail:
-  - '10.07'
-  - '11.07'
-  - '12.07'
-  - '13.08'
-  - '12.08'
-  - '13.08'
-  - '12.07'
-  - '11.07'
-  - '10.07'
-  - '11.07'
-  - '12.07'
-  - '13.08'
-  - '12.07'
-  - '11.07'
-  - '10.07'
-  - '11.07'
-  - '10.07'
-  - '11.07'
-  - '12.07'
-  - '13.08'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
+  - '21.21'
+  - '22.20'
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
 clock_day: 161
 ---
 # Campaign State

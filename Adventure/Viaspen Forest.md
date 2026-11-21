@@ -1,6 +1,6 @@
 ---
 type: region
-hexes: ["12.07", "11.07", "10.07"]
+hexes: ["21.20", "20.19", "19.19"]
 tags:
   - sakkara/secret
 source: "AX1 pp. 33-34"
@@ -11,11 +11,11 @@ source: "AX1 pp. 33-34"
 Primeval cedar, yew and oak between the Mirmen and Krysivor rivers; grows into the Viamir Marshes (Lake Laman) to the north. Once elf-managed, now wild. **Thick forest: movement ×½.** Pages are printed pages.
 
 ## Procedure
-- Türos Tem (13.08) to the forest edge: about 9 miles NW through lightly settled farmland, 1.5-6 hours of long-distance movement.
-- The temple lies in **10.07**, 9 miles deeper. Until the party knows where it is:
+- Türos Tem (22.20) to the forest edge: about 9 miles NW through lightly settled farmland, 1.5-6 hours of long-distance movement.
+- The temple lies in **19.19**, 9 miles deeper. Until the party knows where it is:
   - **Each hour searching:** hidden proficiency throw for the party, **17+**, or **13+** with an explorer, elven ranger or a Tracking character → tracks/evidence leading to the temple.
   - **Each hour:** encounter throw 1d6, **6** = encounter: roll 1d6 below.
-- Once located: 18 miles (3 hexes, route 13.08 → 12.07 → 11.07 → 10.07), 4.5-18 hours; no searching. Each crossing of **11.07**: 1d6, on 6 a core wilderness encounter (ACKS p. 244-246).
+- Once located: 18 miles (3 hexes, route 22.20 → 21.20 → 20.19 → 19.19), 4.5-18 hours; no searching. Each crossing of **20.19**: 1d6, on 6 a core wilderness encounter (ACKS p. 244-246).
 - **Night in the Viaspen:** navigation 7+ or lost (ACKS p. 94).
 - The temple: a steep rocky hill under a dome of black granite; a 130’ wide, 30’ high crack in the plateau's side is the entrance (L1 room 1).
 

@@ -1,7 +1,7 @@
 ---
 type: dungeon-level
 level: 2
-hex: "10.07"
+hex: "19.19"
 tags:
   - sakkara/secret
 source: "AX1 pp. 53-64 (map p. 54)"
