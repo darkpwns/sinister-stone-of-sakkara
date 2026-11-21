@@ -16,7 +16,7 @@ public:
   place: Türos Tem
   hex: '13.08'
   party: []
-  light: torch (lucilla) out; torch (vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (lucilla) out; torch (vettius) out
+  light: none
   rations: 'Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
