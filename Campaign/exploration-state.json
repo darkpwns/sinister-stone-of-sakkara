@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 195,
-  "round_of_day": 564,
-  "total_rounds": 279444
+  "round_of_day": 708,
+  "total_rounds": 279588
  },
  "party": {
   "lucilla": {
@@ -13,7 +13,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.38133333333333336
+   "treasure_stone": 0.4533333333333333
   },
   "vettius": {
    "id": "vettius",
@@ -22,7 +22,7 @@
    "perceived": "Vettius",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.8333333333333334
+   "treasure_stone": 0.9133333333333333
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -57,7 +57,8 @@
    "name": "Brennus",
    "perceived": "Brennus",
    "conditions": [],
-   "endurance": true
+   "endurance": true,
+   "treasure_stone": 0.096
   },
   "iulia": {
    "id": "iulia",
@@ -65,7 +66,8 @@
    "name": "Iulia",
    "perceived": "Iulia",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 0.128
   },
   "quirinus": {
    "id": "quirinus",
@@ -74,7 +76,7 @@
    "perceived": "Quirinus",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.03
+   "treasure_stone": 0.126
   },
   "phaedra": {
    "id": "phaedra",
@@ -216,67 +218,61 @@
    "id": "torch53",
    "kind": "torch",
    "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch54",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch55",
+   "kind": "torch",
+   "carrier": "ottar",
    "lit": true,
    "closed": false,
-   "rounds_left": 58,
+   "rounds_left": 30,
    "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 22,
+  "rounds_since_rest": 30,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Nethercity A - Entrance Caves",
+  "site": "Nethercity E - Deep Level Central Complex",
   "kind": "dungeon",
-  "level": 2,
-  "room": "A4 Warlord's Cavern Entrance",
+  "level": 4,
+  "room": "E4c Gallery East (top)",
   "wandering": {
    "none": false,
    "die": "1d6",
    "every": 3,
    "target": 6
   },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-sewer-caves.yaml",
+  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
   "source": {
    "wandering": "site setting: '1d6 every 3 turns, 6+'"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 195 09:10",
-   "roll": 5,
+   "at": "day 195 11:40",
+   "roll": 3,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 142 12:40",
-    "roll": 6,
-    "target": 5,
-    "encounter": true
-   },
-   {
-    "at": "day 142 13:00",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 187 06:40",
-    "roll": 1,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 187 07:10",
-    "roll": 1,
-    "target": 5,
-    "encounter": false
-   },
    {
     "at": "day 187 07:40",
     "roll": 1,
@@ -372,13 +368,37 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 195 10:00",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 195 10:40",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 195 11:10",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 195 11:40",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 279440
+  "turn_start_done": 279580
  },
  "turn_actions": {
-  "turn": 27944,
+  "turn": 27958,
   "listened": [],
   "actions": []
  },
@@ -1176,8 +1196,8 @@
    "rest_rounds": 0
   },
   "195": {
-   "delve_rounds": 205,
-   "rest_rounds": 30
+   "delve_rounds": 329,
+   "rest_rounds": 50
   }
  },
  "events": [
@@ -2799,8 +2819,8 @@
   }
  ],
  "next_ids": {
-  "enc": 146,
-  "torch": 53,
+  "enc": 147,
+  "torch": 55,
   "t": 5,
   "lantern": 1
  },
@@ -40544,14 +40564,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc127",
-   "at": "day 176 08:20",
-   "monster_name": "drinkers in a Cyfaraun tavern",
-   "number": 1,
-   "reaction": "friendly",
-   "status": "reaction"
-  },
-  {
    "id": "enc128",
    "at": "day 177 08:20",
    "monster_name": "drinkers in a Cyfaraun tavern",
@@ -40703,6 +40715,14 @@
    "number": 1,
    "reaction": null,
    "status": "fighting"
+  },
+  {
+   "id": "enc147",
+   "at": "day 195 10:40",
+   "monster_name": "Giant Rat",
+   "number": 11,
+   "reaction": "neutral",
+   "status": "reaction"
   }
  ]
 }
