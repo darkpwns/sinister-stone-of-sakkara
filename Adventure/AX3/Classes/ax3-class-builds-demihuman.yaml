@@ -1,0 +1,149 @@
+schema: acks-class-builds/1
+about: >-
+  AX3 (Capital of the Borderlands, ACKS I) demi-human classes (Elven Courtier, Elven Enchanter, Elven Ranger, Gnomish
+  Trickster) rebuilt with the ACKS II Judges Journal custom class procedure (JJ ch. 12; the gnome race by JJ ch. 13).
+  Same keys as acks2-tools engine/data/class-builds.yaml, without `tables`. XP for 2nd level, the XP table, Hit Die,
+  attack and saving throws and thief skills come from acks/custom_class.py; the calculator knows dwarf racial values
+  only and has no Arcane Value cost term, so the Elf and Gnome values and the Arcane Value are recorded in
+  `extra_costs`, and their build points (level limit), XP after 8th and save bonuses are added by the JJ rules in the
+  `racial` block (Custom Racial Classes, JJ pp. 299-300; Elven Custom Classes, JJ p. 301; Creating a Fantasy Race,
+  JJ p. 333). Spells per day are the JJ Arcane 1-4 progressions (engine tables arcane-N-power) at Arcane + racial
+  value. Every Gnome value is a Judge's call. Judge-only (sakkara/secret).
+classes:
+  Elven Courtier:
+    note: Adventure/AX3/Classes/Elven Courtier.md
+    book: AX3
+    hit_dice: 1                  # d6
+    fighting: 1a                 # thief attack throws, 1 cleave per 2 levels
+    thievery: 2                  # 8 selections, all traded for custom powers (two of them level-locked)
+    divine: 0
+    arcane: 0
+    elf: 2                       # Elf + 50% Arcane: spellcasting from 2nd level on the Arcane 2 progression
+    armor: heavy                 # no armour trade-off
+    weapons: narrow              # (ii) bows and crossbows, (iv) swords and daggers (elf rule: two of bows/crossbows/swords/daggers)
+    fighting_styles: [single weapon, missile weapon, weapon and shield, dual weapon]
+    weapon_tradeoffs: 0
+    powers_bought: 8             # thief skills 8
+    powers:                      # JJ Custom Power Index names (ACKS I / AX3 names in brackets)
+      1: [Performance (perform), Magical Music, Inspire Courage, Martial Talent - melee (classical weapons training),
+          Perceive Intentions, Bonus Languages]
+      4: [Rumormongering]
+      5: [Chronicles of Battle (Castle bonus power)]
+      6: [Magical Music (second selection)]
+      8: [Martial Talent - missile]
+      10: [Blood of Kings]
+    level_locks: ["1 initial -> 4th + 10th", "1 initial -> 6th + 8th"]
+    starting_proficiency_power: Diplomacy (diplomacy and protocol)
+    extra_costs:
+      elf: 1375                  # JJ Elf Value table, Elf 2
+    saves_as: thief              # JJ: Thievery 2 is the highest category (racial value not counted)
+    racial:
+      build_points: 2            # Elf 2 counts toward the level limit
+      xp_after8_extra: 50000     # JJ Elven Custom Classes: +50,000 XP per level after 8th
+      save_bonus: {Paralysis: 1, Spells: 1}   # Connection to Nature
+      hd_roll_bonus_1st: 1       # Connection to Nature
+      arcane_effective: 2        # Arcane 0 + Elf 2
+    xp_per_level: 2875
+    level_limit: 11
+    key_attributes: [CHA, INT]   # CHA by the thief progression (DEX or CHA); INT for Arcane + Elf 2
+    stronghold: Castle (Elven Court)
+    flags: [courtier-build]
+  Elven Enchanter:
+    note: Adventure/AX3/Classes/Elven Enchanter.md
+    book: AX3
+    hit_dice: 0                  # d4
+    fighting: 0                  # mage attack throws, no cleaves
+    thievery: 1                  # 4 selections, all traded for custom powers
+    divine: 0
+    arcane: 3
+    elf: 1                       # Arcane 3 + Elf 1 = 4: casts and researches as a mage
+    armor: none
+    weapons: restricted          # dagger, dart, sling, staff
+    fighting_styles: [single weapon, missile weapon, two-handed weapon]
+    weapon_tradeoffs: 0
+    powers_bought: 4
+    powers:
+      1: [Glamorous Aura, Mastery of Enchantments and Illusions, Prestidigitation, Loremastery]
+    level_locks: []
+    starting_proficiency_power: Collegiate Wizardry
+    extra_costs:
+      arcane: 1750               # JJ Arcane Value 3 = 1,875, less 125 for elven classes (JJ Elven Custom Classes)
+      elf: 750                   # JJ Elf Value table, Elf 1
+    saves_as: mage
+    racial:
+      build_points: 1
+      xp_after8_extra: 50000
+      save_bonus: {Paralysis: 1, Spells: 1}
+      hd_roll_bonus_1st: 1
+      arcane_effective: 4
+    xp_per_level: 2750
+    level_limit: 12
+    key_attributes: [INT]
+    stronghold: Sanctum and Dungeon (Enchanted Bower)
+    flags: [enchanter-build]
+  Elven Ranger:
+    note: Adventure/AX3/Classes/Elven Ranger.md
+    book: AX3
+    hit_dice: 1                  # d6
+    fighting: 2                  # fighter attack, damage bonus (melee and missile), cleaves
+    thievery: 1                  # 4 selections, all traded for custom powers
+    divine: 0
+    arcane: 0
+    elf: 1                       # Elf + 33% Arcane: spellcasting from 2nd level on the Arcane 1 progression
+    armor: light                 # Heavy -> Medium -> Light: 2 powers (no XP)
+    weapons: unrestricted
+    fighting_styles: [single weapon, missile weapon, dual weapon, two-handed weapon, weapon and shield]
+    weapon_tradeoffs: 0
+    powers_bought: 6             # armour 2 + thief skills 4
+    powers:
+      1: [Accuracy, Skirmishing, Animal Reflexes, Natural Stealth (difficult to spot), Friend of Birds and Beasts,
+          Precise Shot]
+    level_locks: []
+    starting_proficiency_power: Tracking
+    extra_costs:
+      elf: 750
+    saves_as: fighter
+    racial:
+      build_points: 1
+      xp_after8_extra: 50000
+      save_bonus: {Paralysis: 1, Spells: 1}
+      hd_roll_bonus_1st: 1
+      arcane_effective: 1
+    xp_per_level: 2500
+    level_limit: 12
+    key_attributes: [STR]        # fighter progression (STR or CON); Arcane + Elf 1 adds no INT key
+    stronghold: Elven Fastness
+    flags: [ranger-build]
+  Gnomish Trickster:
+    note: Adventure/AX3/Classes/Gnomish Trickster.md
+    book: AX3
+    hit_dice: 1                  # d6
+    fighting: 1b                 # thief attack throws, 1 cleave per 2 levels
+    thievery: 2                  # 8 selections: 6 thief skills + Ambushing + Prestidigitation
+    divine: 0
+    arcane: 0                    # gnomes may not allocate Arcane (JJ Racial Class Category Values); Gnome Value mimics it
+    gnome: 2                     # Gnome + 50% Arcane: spellcasting from 2nd level on the Arcane 2 progression
+    armor: light
+    weapons: broad               # (iii) axes, flails, hammers, maces; (v) all missile weapons (gnome rule: arbalests, crossbows, war hammers); no long bow (size)
+    fighting_styles: [single weapon, missile weapon, weapon and shield]   # two-handed weapon style traded for 1 power
+    weapon_tradeoffs: 0
+    powers_bought: 9             # thief skills 8 + fighting style 1
+    thief_skills: [Hiding, Sneaking, Listening, Lockpicking, Searching, Trapbreaking]
+    powers:
+      1: [Ambushing, Prestidigitation, Innate Illusion Mastery (1/2), Gnomish Furtiveness (1/2, new: +2 Hiding)]
+    level_locks: []
+    starting_proficiency_power: Streetwise
+    extra_costs:
+      gnome: 1450                # Gnome Value 2, Judge's call by JJ ch. 13 (Gnome 0 = 200, + Arcane 2 = 1,250)
+    saves_as: thief
+    racial:
+      build_points: 2
+      xp_after8_extra: 50000     # JJ Creating a Fantasy Race step 7a: 2,700 / 2,625 x 50,000 = 51,429 -> 50,000
+      save_bonus: {Paralysis: 1, Spells: 1}   # Demi-Human Ancestry (Judge's call)
+      hd_roll_bonus_1st: 0
+      arcane_effective: 2
+    xp_per_level: 2950
+    level_limit: 11
+    key_attributes: [DEX, INT]   # DEX by the thief progression; INT for Gnome 2 (mimics Arcane 2)
+    stronghold: Hideout (Gnomish Warren)
+    flags: [trickster-build, gnome-race-judges-call]

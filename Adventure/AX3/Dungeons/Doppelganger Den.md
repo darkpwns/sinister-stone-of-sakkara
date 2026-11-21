@@ -26,7 +26,7 @@ Uses the Undercity table (see Running).
 |---|---|---|---|
 | Doppelgängers | 3 | [[Doppelgänger]] | MV 30’/90’, AC 4, HD 4*, hp 21, 16, 12, bite 7+ D 1d12 piercing or by weapon, save F10, ML +2, AL C, XP 135 each; shapeshift at will (movement action, non-magical, only true seeing shows the real form); witnesses of the change save v. Paralysis or are surprised until their next initiative; immune to enchantment (bewitching, slumber) and poisonous damage; Disguise 3+, Mimicry 3+ |
 
-**Identities** when met: `Tables/ax3-old-doppelganger-1.yaml`, `-2`, `-3` (1d6 each; "natural form" is rerolled if the creature was alerted or is outside the den). In disguise they carry the victim's kit (usually 2 hidden daggers).
+**Identities** when met: `Tables/ax3-old-doppelganger-1.yaml`, `-2`, `-3` (1d6 each; "natural form" is rerolled if the creature was alerted or is outside the den). In disguise they carry the victim's kit (usually 2 hidden daggers). Doppelgänger #3's elven guises are of JJ custom classes, [[Elven Courtier]] (Fionntan) and [[Elven Ranger]] (Tomman), but it fights as a doppelgänger.
 
 **Tactics:** found in assumed identities, they defuse, look harmless and probe the intruders' motives; depending on talks they may propose an alliance and offer the den as a base and refuge; if accepted, they try to **kill the party in its sleep**, preferably just after it returns with treasure. Seen in natural form, or suspecting that the party knows: **attack at once**.
 
@@ -57,7 +57,7 @@ Uses the Undercity table (see Running).
 
 ### 4. Cell
 - **Exits:** door E to the passage (map).
-- Door barred with thick oak. A **hear noise (Listening) throw** catches low, agonised groans. Inside, **1d3 humans and 1d3 elves** shackled to the walls, malnourished, kept for questioning until the doppelgängers know enough to pose as them, then to be killed. Who: **1d12** on the human and elven victim tables. (Pesca and Seanan are known to be held here: Emporium 5 and 6.)
+- Door barred with thick oak. A **hear noise (Listening) throw** catches low, agonised groans. Inside, **1d3 humans and 1d3 elves** shackled to the walls, malnourished, kept for questioning until the doppelgängers know enough to pose as them, then to be killed. Who: **1d12** on the human and elven victim tables. Nara (elven victim 11-12) is an [[Elven Enchanter]] 1: statline in that note. (Pesca and Seanan are known to be held here: Emporium 5 and 6.)
 
 ### 5. Abandoned Hideout
 - **Exits:** secret door to the north-west sewer tunnel (map).
