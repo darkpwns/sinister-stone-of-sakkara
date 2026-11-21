@@ -413,3 +413,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 190 | Cyfaraun | Oil, Military (1 pint) | 4 |  | 7gp 2sp | lucilla |
 | 190 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 8cp | lucilla |
 | 190 | Cyfaraun | torch | 12 |  | 1sp 8cp | lucilla |
+| 190 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
+| 190 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 190 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
+| 190 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |

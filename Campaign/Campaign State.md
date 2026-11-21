@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 10.36
+    encumbrance_st: 10.009
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -64,7 +64,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6
+    encumbrance_st: 6.167
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -72,7 +72,7 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 7.192
+    encumbrance_st: 7.692
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -90,7 +90,7 @@ public:
     spells_used: []
     encumbrance_st: 7.167
   light: lantern (Vettius) out
-  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 7 d, water 0.2 d; Iulia: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d (fatigued); Vettius: food 10 d, water 0 d (fatigued); Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
