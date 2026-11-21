@@ -60,3 +60,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   slab doors (worn smooth: leave), a side passage to a red glow, the bend, the Khepri alcove (statue broken), then S
   to the west balcony over a vast hall (do not go down), a slab door N, a hallway S, a ramp SW down to the southern
   galleries and the crossroads: cedar door E, commoners' tomb S, W then S a sloping gallery. All graves looted.
+
+## Old friends
+- S10: Quirinus, Lucilla's fighter since Türos Tem, withered by the hooded thing's touch (day 219), retired (day 223).
+  He came through under the Solar Citadel's dome (day 229), weak but alive, and now serves in the Citadel Guard under
+  Rector Drusus. His message (day 230): "Tell Gnaeus to keep the axe sharp. It did right by me."
