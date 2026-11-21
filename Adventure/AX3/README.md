@@ -35,13 +35,13 @@ skill's calculator scripts are not in the cloud container). The Secrets of the N
   - [x] Bridge District (PDF 127-137): `City/Bridge District.md`; dungeons `Solar Citadel`, `Catacombs of the Patriarchs`; 5 `ax3-bridge-*` tables
   - [x] Plaza District (PDF 138-143): `City/Plaza District.md`; dungeon `Crocodile Nest`; 4 `ax3-plaza-*` tables
   - [ ] Tower District (PDF 144-161)
-  - [ ] Temple District (PDF 162-178)
+  - [x] Temple District (PDF 162-178): `City/Temple District.md`; dungeons `Catacombs of the Ancestors`, `Eclipse Hideout`; 8 tables (`ax3-temple-*`, `ax3-orphan-gifts`, `ax3-eclipse-*`, `ax3-retribution-*`)
   - [x] Lake District (PDF 179-187): `City/Lake District.md`; dungeon `Death Cult Hideout`; 7 `ax3-lake-*` tables
   - [ ] Palace District (PDF 188-196)
 - [ ] Tables (district special encounters and the rest)
 - [ ] Dungeons (special locations, one note per level)
 - [ ] Gazetteer #1-#53 with hexes; `Data/places.csv`, `Data/hexes.csv` — PDF 19-35
-- [ ] Bestiary and items; Imperial Vanguard — PDF 193-202
+- [ ] Bestiary and items (Imperial Vanguard done: `City/Imperial Vanguard.md` and six member statblocks plus Brother the lion, PDF 197-202) — magic items PDF 195
 - [ ] Final check: `hex.py 18.05`, `brief.py`
 
 ## Work in progress
@@ -61,3 +61,4 @@ Unticked parts may already have files on main: snapshots of chapters still being
 - No statlines in AX3 for the six minor councillors; no price for Celictor's capture premium.
 - Festival: Maximus converted on the MM Devil Boar (limit of 9 thralls vs AX3's 12 charmed beastmen plus Selene); his stable is 15 beastmen on p. 101, 12 on p. 106. Special table prints two 9s (made a 1d2); lift-cargo result 2 missing (folded into the lion). No odds printed for bouts to the death or Blood Moon betting. Mara's detect evil / detect secret doors have no ACKS II arcane equivalent. Monthly games (p. 101) vs seasonal bout procedure: not reconciled in AX3.
 - Classed-NPC XP recomputed by ACKS II rules (level as HD plus abilities): several differ from AX3's printed XP (e.g. Mara 200 vs 500).
+- Temple/Vanguard: Gabriol run as a Mage (keeps his sword); Irial as Elven Spellsword and Nikolaus as Fighter (their AX3 classes are not in ACKS II); Süromus a Crusader with a shaman's list. Eclipse Hideout pits (text one, map two) set at 10' deep, 1d6; paladin knight ranks built; chest blast runes 16 damage (all Judge's calls). Cellë fights with a sword (printed flail); Valara AC 7 (printed 8). Thelesa villa (Una's home) has no keyed entry.
