@@ -1019,3 +1019,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 230 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 230 | the retinue | wages paid |  |  | 50gp | lucilla |
 | 230 | Solar Citadel (alms for the acolytes) | pallet under the oculus, nights of days 226-229, paid from his own purse |  |  | 4gp | quirinus |
+| 230 | Silk Pony Inn (#25) | beds for fourteen, night of day 230 |  |  | 2gp 8sp | lucilla |
+| 231 | a caravan master of the Merchant Guildhouse (textile caravan, Cyfaraun-Türos Tem) | Lucilla's passive investment 1: commercial expedition, balanced (short-distance), 700gp, day 231 (RR Passive Investment) |  |  | 700gp | guildhouse-bank |
+| 231 | a caravan master of the Merchant Guildhouse (long-distance caravan to the coast) | Lucilla's passive investment 2: commercial expedition, risky (long-distance), 700gp, day 231 (RR Passive Investment) |  |  | 700gp | guildhouse-bank |
+| 232 | Silk Pony Inn (#25) | beds for fourteen, night of day 231 |  |  | 2gp 8sp | lucilla |

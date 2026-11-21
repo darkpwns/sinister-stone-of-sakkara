@@ -59,6 +59,10 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   sales on the road, coin kept in the strongbox, and Lucilla's tongue for any official; the fence only as a last
   resort.
 
+- Day 231: Lucilla reckoned a cart of her own on the Türos Tem road would barely pay, and instead spent the day at the
+  Guildhouse putting 700gp each into two merchant caravans in her name: one on her textile road, one on the long haul
+  to the coast.
+
 ## Who they met
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
 - A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.

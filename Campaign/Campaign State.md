@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 230
-  time: '20:00'
+    day: 232
+  time: 06:00
   weather: Cold (1 to 15 F) by day, Cold (1 to 15 F) at night; clear; wind still (cold)
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 8.817
+    encumbrance_st: 8.815
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -131,11 +131,12 @@ public:
     role: henchman
     hp: 3
     hp_max: 3
-    conditions: []
+    conditions:
+    - dead (thirst, CON 0)
     spells_used: []
     encumbrance_st: 7.5
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0.2 d; Vestus the Unlikely: food 14 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 14 d, water 1 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Gnaeus: food 7 d, water 1 d; Calpurnia: food 7 d, water 0 d; Titus Aurelianus: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 7 d, water 0 d; Vettius: food 7 d, water 0 d; Vestus the Unlikely: food 7 d, water 0 d; Neris: food 6 d, water 0 d; Iulia: food 13 d, water 0 d; Phaedra: food 6 d, water 0 d; Varro: food 6 d, water 0 d; Hrodvar: food 6 d, water 0 d; Brennus: food 13 d, water 0 d; Aelia: food 6 d, water 0 d; Marcellus: food 6 d, water 0 d; Gnaeus: food 6 d, water 0 d; Calpurnia: food 6 d, water 0 d; Titus Aurelianus: food 6 d, water 0 d (dehydrated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -159,7 +160,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 230
+clock_day: 232
 ---
 # Campaign State
 

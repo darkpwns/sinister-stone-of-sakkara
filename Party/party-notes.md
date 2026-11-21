@@ -80,3 +80,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
     not happened yet; a fence's cut on everything is worse unless they start stopping us every time. Kwame
     wants to meet him anyway. Nobody Lawful goes near him.
   - The Silk Pony's mistress makes debtors vanish (day 230). We pay every night; keep it that way.
+- S10 (day 231), Lucilla's caravans. Her numbers: a cart of cloth to Türos Tem clears about 150gp a trip (that town
+  buys only a few stone a day) against weeks on the road, so a cart goes only when we travel anyway, loaded with
+  cloth and with the jewellery tucked under it. Instead she has put 700gp each into two Guildhouse caravans in her
+  name: a steady one on her own textile road to Türos Tem, and a riskier long haul to the coast. She can back one
+  more. Returns are collected in Cyfaraun after each month's end.
