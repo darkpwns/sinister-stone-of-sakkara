@@ -32,7 +32,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
 - [x] Tables: 4 wandering columns (2d10), unsettling events, mummy reaction, 5 wall-grave tables — PDF 16-22
 - Areas (PDF 26-130):
   - [x] A, B, C (PDF 26-35): A1-A4, B1-B5, C1-C12; A 30 gp / 517 XP, B 3,603 gp / 1,050 XP, C 5,545 gp / 3,388 XP
-  - [ ] D, E (PDF 34-44)
+  - [x] D, E (PDF 35-44): D1-D9, E1-E9 with sub-keys; D 11,216 gp / 1,974 XP, E 6,616 gp / 3,680 XP
   - [x] F (PDF 45-53): F1-F19 (+F11a-c); 18,290 gp, 6,759 XP
   - [ ] G (PDF 53-65)
   - [ ] H (PDF 65-79)
