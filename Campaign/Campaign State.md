@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 167
-  time: 07:00
-  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; mostly cloudy; wind moderate
+    day: 170
+  time: 06:00
+  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind gentle (drizzly)
   place: Türos Tem
-  hex: '26.14'
+  hex: '25.13'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.249
+    encumbrance_st: 9.252
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
@@ -50,7 +50,7 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 1
+    hp: 3
     hp_max: 12
     conditions:
     - 'spine broken at the neck: paralyzed (cannot move, fight, use items or cast spells; Death save each month or die of complications) — RR p. 519 Mortal Wounds'
@@ -73,12 +73,10 @@ public:
     conditions: []
     spells_used: []
   light: none
-  rations: 'Sabina: food 8 d, water 1.2 d (fatigued); Tarq: food 8.5 d, water 1 d; Lucilla: food 2 d, water 1 d (fatigued); Vettius: food 1 d, water 0.4 d (fatigued); Hesper: food 9 d, water 1 d; Vestus the Unlikely: food 13 d, water 1 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 3 d, water 2.6 d; Tarq: food 8.5 d, water 0 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 0 d; Hesper: food 4 d, water 1 d; Vestus the Unlikely: food 10 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '21.20'
-  - '22.20'
   - '21.20'
   - '20.19'
   - '19.19'
@@ -97,7 +95,9 @@ public:
   - '27.16'
   - '26.15'
   - '26.14'
-clock_day: 167
+  - '25.14'
+  - '25.13'
+clock_day: 170
 ---
 # Campaign State
 

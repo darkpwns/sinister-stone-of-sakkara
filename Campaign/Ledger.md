@@ -344,3 +344,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 164 | Turos Aster | Rations, Standard (one week) | 1 |  | 2gp 7sp | hesper |
 | 166 | Turos Spen | Rations, Iron (one week) | 1 |  | 5gp 4sp | vestus-the-unlikely |
 | 166 | Turos Spen | Rations, Standard (one week) | 1 |  | 2gp 7sp | vestus-the-unlikely |
+| 168 | a freeholder's farmstead (25.13) | water from the well for six and two donkeys |  |  | 6sp | lucilla |
