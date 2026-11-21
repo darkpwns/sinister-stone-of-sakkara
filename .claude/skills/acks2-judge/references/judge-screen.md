@@ -26,6 +26,10 @@ marked *convention* are no rule: rule once, record in Rulings.md, then follow th
 | Counterspell | A1 D1 | 180' | 1 ongoing spell | instant | unwilling target: Spells | attack throw vs AC = caster-level difference |
 
 Casting: declared before initiative; lost if the caster is damaged or fails a save first (Judge's Screen §2).
+Rebuke Undead (RR Crusader): `rebuke ID [--level-mod N] [--mod "righteous rebuke:+W"]` — one open d20 against every
+undead type present, 2d6 HD lowest first; frightened 10 rounds (cowering while engaged), broken by that crusader's
+melee attack; a complete failure bars him for the fight. Undead type: the note's "rebuked as X", else
+`state set ID rebuke_as=TYPE`. A place that makes Lawful casters "turn as if 4 levels lower": `--level-mod -4`.
 Spells and scrolls cast in a fight: check the target count, HD limit and save **before** rolling.
 
 ## 2. Scrolls (TT pp. 94-99, Magic Items - Scrolls)
@@ -96,7 +100,8 @@ choice or when injuries make adventuring unlikely.
 
 ## 9. Town loop (engine: R/town.md, R/xp-treasure.md)
 - Market availability is per market per month (hidden): small markets run out of rations, oil, holy water; buy at
-  the first chance and split food among members (food is not pooled).
+  the first chance. Food is shared at the day rollover (a member short eats from the others' surplus;
+  `supplies share --mode pack|none` to limit it).
 - Selling: magic items at apparent value unless identified; identified and sold unused adds sale XP. Identification:
   magic research (5th-level caster or Loremastery; 1,000gp + 1,000gp, library), a module's sage, or use.
 - Spellcasting services (RR pp. 172-173): castings per day by market class (class V: divine 1st 4d6, 2nd 2d4, 3rd
@@ -109,8 +114,10 @@ choice or when injuries make adventuring unlikely.
 - Who presents the symbol, password or sign the module's guards check for (unholy symbols, tribal marks).
 - Weekly replacement of slain monsters while the module's cause remains; stop when it is removed.
 - Distances the map does not give (camp to site, room to room in a cave): rule once, record.
-- Monster abilities the engine does not model (arcane strike, death healing, double damage on a natural 20): apply
-  by hand with `damage --dice …` and note it in the Judge block.
+- Monster powers that add to a hit: `attack … --extra-dice "arcane strike:2d6"` (the slot's dice) and
+  `--double-on-20` (weapon focus and the like); whether the power is used that round is the Judge's. Powers the
+  engine does not model (death healing, regeneration from a source): `damage`/`state set` by hand, noted in the Judge
+  block. Initiative and surprise bonuses written in a monster's note are read by the engine.
 
 ## 11. Routine (the slips of the Sakkara playtest)
 - Before a delve: `adventure start` + `join`; light lit, spares counted; rations and water per member; wages due
@@ -120,5 +127,6 @@ choice or when injuries make adventuring unlikely.
   rolled before saves; after the fight copy hp and conditions to the actors **before** deleting the combat state;
   `turn --rounds N`; `encounter end` closes the right encounter (a wandering one may have arrived meanwhile).
 - Each night: watches that leave everyone 8 hours (four 3-hour watches over a 12-hour camp).
-- Each march: daylight hours only unless the party chooses otherwise; `water` where the party passes water.
+- Each march: daylight hours only unless the party chooses otherwise; `water` where the party passes water;
+  `water --source "the camp well"` at a well, spring or cistern the place gives (no throw).
 - After deaths: `death --dies` (body, retinue, exploration party), then the takeover or new character (§7).

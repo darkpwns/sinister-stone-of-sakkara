@@ -74,7 +74,7 @@ intended: use mules, porters, wagons. `min_version` in the instance is 7.13.0.
 ## Next session: the journey to Cyfaraun (Secrets of the Nethercity) — start here
 **State on resume (day 161, 06:00, summer, Türos Tem 22.20):** Campaign State `adventure: between adventures`; the
 engine's clock, travel block (hex 22.20, believed 22.20, season start spring day 1), inventory, retinue and the hex map
-are ready. Engine 7.13.5 (`min_version`). No open adventure; no combat or encounter open.
+are ready. Engine 7.13.6 (`min_version`; rebuke, note initiative bonus, attack --extra-dice/--double-on-20, food sharing, water --source, early-resolved encounter: see references/judge-screen.md). No open adventure; no combat or encounter open.
 
 **Party (six PCs, no henchmen):**
 | Player | PC | Notes |
