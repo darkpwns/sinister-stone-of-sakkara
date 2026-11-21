@@ -66,6 +66,9 @@ Area **P** (the river banks, the funerary barge P11). Optional clearing applies.
   **4th to 8th**. A novice party gains experience in the Undercity first (AX3). It introduces the **Awakening** as a
   setting-wide threat (droppable). The campaign's party (four 4th-level PCs, two low-level, AX1 finished) fits the bottom
   of the band.
+- **Campaign hook:** the party comes to Cyfaraun to hire a priestess henchman (the lesson of Genelen in AX1;
+  `Playtest/HANDOFF.md`): the Temple District's Keepers of the Hearth Fire ([[Temple District]]), the city's
+  class III hiring ([[Doing Business in Cyfaraun]]), then the city's rumours and factions lead below.
 - **SOTN vs the campaign map:** SOTN p. 5 puts Cyfaraun "some fifty miles northwest of Türos Tem"; on the campaign's AX3
   sheet Cyfaraun (18.05) is 15 rows north of Türos Tem (22.20), 138 miles by road ([[Region Map]]). The map stands.
 

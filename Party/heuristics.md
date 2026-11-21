@@ -93,6 +93,17 @@ in any new place.
 - A dead friend still deserves a funeral: a cenotaph with games is paid from his estate and helps the next
   character.
 
+### A priestess is worth a dozen swords
+- Every time it mattered, a priestess of Law turned it: Genelen cured Sabina's fever and our wounds for free (S02),
+  blessed us and walked us out of the Inner Fane inside her holy circle past the Lady's dead (S07), and broke the
+  Stone. Without her, S07 was a wipe.
+- One cure on a fallen friend in the first round beats any sword; turning undead and a holy circle decide fights
+  against the dead; disease, blessings and a vouching voice with the legate come with her.
+- Genelen is a friend, not a henchman: she has her own hospital and order. We need a divine caster of our own in the
+  party, hired and paid as a henchman, at a level that can cure more than once a day.
+- A small fort rarely has one to hire. A city's market draws more and higher-level candidates: go where the temples
+  are, and ask the clergy (a priestess's good word helps).
+
 ### Henchmen and hirelings
 - Pay wages before leaving town, ahead if the delve may run long. A wage missed while a henchman keeps camp still
   costs loyalty or brings resignation.

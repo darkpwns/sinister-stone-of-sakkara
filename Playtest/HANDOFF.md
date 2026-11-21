@@ -89,6 +89,15 @@ Table rule (S07): a dead PC's player takes over that PC's henchman; else a secon
 character with reserve XP. No second-level henchmen are free in town (Zaira ES1 retired, one leg); recruiting one is a
 week's search in Türos Tem (class V): Lucilla (Ven4) and Sabina (Cru4) may hire up to 2nd level.
 
+**Hook (user, 2026-11-21):** the party has learned what a priestess is worth (Genelen in S02 and S07; see
+`Party/heuristics.md` "A priestess is worth a dozen swords") and goes to **Cyfaraun to hire a priestess henchman**:
+Genelen will not leave her hospital and order, and Türos Tem (class V) has no henchman above 2nd level. Cyfaraun is
+class III: henchmen 1st 1d4, 2nd 1d3, 3rd 1 (85%), 4th 1 (45%) per week's search (1d8+5gp per type), and the
+Keepers of the Hearth Fire (Mityara's clergy, Matriarch Aundëmë; `Adventure/AX3/City/Temple District.md`) are where
+a priestess candidate is found or vouched for (Judge's call: a letter from Genelen gives +1 or +2 on the hiring
+reaction there). The Nethercity follows once the party is in the city. Lucilla (Ven4) and Sabina (Cru4) can hire
+up to 3rd level by the RR henchman-level rule (Judge checks with `recruit`).
+
 **Before marching (town, R/town.md):** food is 0 for all but Tarq (1.5 d). A new market month began on day 151:
 buy iron rations (they keep), fill waterskins (`water`), torches and oil for the Nethercity; consider mules or a cart
 (speeds: Sabina, Tarq, Lucilla, Vettius 12 mi/day; Hesper 18; Vestus 24). Two donkeys (donkey1, donkey2) are with the

@@ -11,6 +11,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 ## Plans
 - S06: Feed the party from Tarq's rations, scout the stair head only, then withdraw to camp at the stream for water and food before any descent.
 
+- S07 (between adventures): Hire a priestess of our own as a henchman. Genelen will not leave her hospital, and Türos Tem has none to hire: go to the prefecture's capital up the Imperial road, where the temples are; ask Genelen for a good word first.
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->
