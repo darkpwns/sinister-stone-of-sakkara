@@ -160,3 +160,13 @@ combat state, `state set ID status=unconscious` and `--type`; passenger bed rest
 travel days (only rest-day sets cared_by); `wait` in a settlement eats carried supplies (use `eat --in-town`); a hired
 henchman's proficiencies cannot be set; campaign tables (Adventure/**/Tables/*.yaml) are not found by `acks table roll`
 (roll 1d20 and read the row); `throw ID --prof climbing` has no recorded target (use `--target 8`).
+
+## S08 continued (2026-11-21) — day 194 (supersedes the S08 "start here" state above)
+- Delve 1 (day 187): grate → A1 (carrion horror driven off, later eaten by the A4 creeper) → A2 swarm burned → A4 door → D1-D7 walked (D5 graves looted L68 48gp; D6b secret door found, not opened: 48 skeletons; troglodytes warned). Way out: 3 rhagodessas (Undercity) killed **Sabina, Tarq, Hesper** (devoured; Characters/former/). Gear, coin and lots recovered day 189; heroic funerals paid from their coin (Ingrid +714, Kwame +775, Gideon +365 funeral XP).
+- Successors: **Ingrid → Neris** (Priestess 1, PC); **Kwame → Brennus** (new Fighter 1, Ravager, 775 XP; lost an ear); **Gideon → Iulia** (new Crusader 2, Priest template, 1,702 XP). User's ruling: new PCs start at 1st level; higher-level help is hired.
+- Hired day 190: **Quirinus** (Fighter 2, Lucilla's, 50gp) and **Phaedra** (Mage 1, Slumber, Vettius', 40gp). Ottar (0th) still Lucilla's. Caller now Rosa (Lucilla).
+- Delve 2 (day 191): A3 swarms burned (87 XP), prawns fled, graves L69 30gp; C1 (3 swarms + 12 shrieking locusts) seen, party withdrew for oil. A3: a sage slime on the ceiling by the east opening (wandering result).
+- Day 192: shriekers in the tunnel drew 3 more rhagodessas: 2 slain (430 XP), 1 fled. Days 193-194 healing.
+- **Now:** day 194 ~06:30, Silk Pony. All at full hp except as cured; Neris and Iulia 1 spell left each today; Phaedra and Vestus full. Oil: military Brennus 2, Iulia 2, Quirinus 2; common Lucilla 4, Vettius 4; holy water 2 (Iulia). Adventure A9 open: lots L68, L69 + Sabina's L5/L30/L43/L44/L46 (Neris), L62 great axe (Vettius), magic mace and axe (Lucilla); monster XP 652 so far.
+- Helpers (scratchpad, recreate): cond.sh (append/remove one condition: `actor set state.conditions` replaces the whole list), miasma.sh (hourly +4 Death saves for the party), tr.sh (travel line filter).
+- Engine findings added: Tarq's Arena Armor read as AC 1 (set ac in combat state); monster statblocks with prose damage ("1 piercing", "grab", "2d8 piercing") need `attack --no-damage` + `damage`; AX3/SOTN bestiaries were not in tools.bestiary (added); shriekers' drawn wanderer re-rolled when it repeated.
