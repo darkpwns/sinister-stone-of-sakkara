@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 212,
-  "round_of_day": 367,
-  "total_rounds": 303727
+  "round_of_day": 610,
+  "total_rounds": 303970
  },
  "party": {
   "lucilla": {
@@ -22,7 +22,7 @@
    "perceived": "Vettius",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.8333333333333334
+   "treasure_stone": 0.6666666666666666
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -42,15 +42,6 @@
    "endurance": false,
    "treasure_stone": 0.8333333333333334
   },
-  "ottar": {
-   "id": "ottar",
-   "actor": "ottar",
-   "name": "Ottar",
-   "perceived": "Ottar",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.0
-  },
   "iulia": {
    "id": "iulia",
    "actor": "iulia",
@@ -58,7 +49,7 @@
    "perceived": "Iulia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.0
+   "treasure_stone": 0.16666666666666666
   },
   "quirinus": {
    "id": "quirinus",
@@ -67,7 +58,7 @@
    "perceived": "Quirinus",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.354
+   "treasure_stone": 0.0
   },
   "phaedra": {
    "id": "phaedra",
@@ -85,7 +76,7 @@
    "perceived": "Varro",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 0.27
+   "treasure_stone": 0.0
   },
   "hrodvar": {
    "id": "hrodvar",
@@ -112,7 +103,7 @@
    "perceived": "Brennus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 4.14
+   "treasure_stone": 0.0
   },
   "aelia": {
    "id": "aelia",
@@ -130,7 +121,7 @@
    "perceived": "Marcellus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 0.18
+   "treasure_stone": 0.0
   },
   "gnaeus": {
    "id": "gnaeus",
@@ -520,6 +511,33 @@
    "closed": false,
    "rounds_left": 20,
    "tallow": false
+  },
+  {
+   "id": "torch81",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch82",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch83",
+   "kind": "torch",
+   "carrier": "marcellus",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 60,
+   "tallow": false
   }
  ],
  "timers": [],
@@ -532,36 +550,12 @@
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 211 13:40",
-   "roll": 3,
+   "at": "day 212 09:40",
+   "roll": 1,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 198 10:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 198 11:20",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 198 11:50",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 199 05:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 199 06:20",
     "roll": 6,
@@ -657,13 +651,37 @@
     "roll": 3,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 212 08:10",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 212 08:40",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 212 09:10",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 212 09:40",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 302750
+  "turn_start_done": 303950
  },
  "turn_actions": {
-  "turn": 30372,
+  "turn": 30397,
   "listened": [],
   "actions": []
  },
@@ -1529,8 +1547,8 @@
    "rest_rounds": 59
   },
   "212": {
-   "delve_rounds": 0,
-   "rest_rounds": 0
+   "delve_rounds": 133,
+   "rest_rounds": 10
   }
  },
  "events": [
@@ -3288,9 +3306,9 @@
   }
  ],
  "next_ids": {
-  "enc": 158,
-  "torch": 80,
-  "t": 15,
+  "enc": 159,
+  "torch": 83,
+  "t": 16,
   "lantern": 1
  },
  "travel": {
@@ -4073,7 +4091,7 @@
     "passenger": false
    },
    "lucilla": {
-    "hp": 19,
+    "hp": 1,
     "hp_max": 19,
     "con": 13,
     "con_mod": 1,
@@ -4173,7 +4191,7 @@
     "rest_pending": true
    },
    "vettius": {
-    "hp": 12,
+    "hp": 3,
     "hp_max": 12,
     "con": 15,
     "con_mod": 1,
@@ -5401,7 +5419,7 @@
     "rest_pending": true
    },
    "ottar": {
-    "hp": 2,
+    "hp": -8,
     "hp_max": 2,
     "con": 13,
     "con_mod": 1,
@@ -5418,7 +5436,7 @@
       "dungeon": 0.0
      }
     ],
-    "water": 1.0,
+    "water": 0.0,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -5475,7 +5493,7 @@
      "rainy": 0,
      "snowy": 0
     },
-    "dead": false,
+    "dead": true,
     "profs": {
      "labor": false,
      "endurance": false,
@@ -5491,10 +5509,14 @@
     },
     "mount": null,
     "passenger": false,
-    "rest_pending": true
+    "rest_pending": true,
+    "died": {
+     "day": 212,
+     "why": "death"
+    }
    },
    "brennus": {
-    "hp": 6,
+    "hp": 5,
     "hp_max": 6,
     "con": 12,
     "con_mod": 0,
@@ -5692,7 +5714,7 @@
     "rest_pending": true
    },
    "quirinus": {
-    "hp": 18,
+    "hp": 13,
     "hp_max": 18,
     "con": 16,
     "con_mod": 2,
@@ -45792,14 +45814,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc139",
-   "at": "day 191 07:03",
-   "monster_name": "Insect Swarm",
-   "number": 3,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
    "id": "enc140",
    "at": "day 191 07:05",
    "monster_name": "Tunnel Prawn (SOTN)",
@@ -45950,6 +45964,14 @@
    "number": 5,
    "reaction": "intimidated",
    "status": "reaction"
+  },
+  {
+   "id": "enc159",
+   "at": "day 212 08:40",
+   "monster_name": "Grey Goo",
+   "number": 1,
+   "reaction": null,
+   "status": "fighting"
   }
  ]
 }

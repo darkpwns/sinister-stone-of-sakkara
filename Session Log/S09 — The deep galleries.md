@@ -59,8 +59,17 @@ the Silk Pony.
   painted with the dark gods (Iulia named Dirgion, Galmorm and Ravanor), and a commoners' tomb with a serpent eating
   its tail on the floor: 266 graves looted, 1,228gp of grave goods. Giant rats fled from Brennus' roar. Two slab doors
   facing each other, worn smooth by many hands, were left alone.
+- Day 212, the eleventh descent, planned as a long expedition: torches for days, oil, spikes, caltrops. First the
+  masked lord: the slab rolled at the thirteenth heave; Aelia sang them brave while they kept their eyes down; then
+  oil and holy water from a distance, and Lucilla's mace and Vettius' sword when it closed. Half the party shrank from
+  its gaze at one time or another; it struck Brennus, Vettius and Lucilla (down to her last breath) with its rotting
+  blow, and still it burned and broke and fell. Behind them a grey slick no one had seen crept up the hall and took
+  Ottar, dissolving his leather and then him; Brennus' axe and Gnaeus' sword finished it. The gold mask came off the
+  dead lord's face. The rot sent them home: three cures and a donation at the temples, Lucilla first. Vestus reached
+  the second rank and bought a new spell's formula at the Tower. Mask sold for 743gp.
 
 ## Who they met
+- Ottar, peltmonger and torch-bearer since Cyfaraun, killed and eaten by a grey ooze in the first tomb (day 212).
 - Aelia (bard): sharp-tongued, plain-faced, sings under her breath when she is afraid.
 - Marcellus (fighter): broad, cheerful, a city watchman's son.
 - Gnaeus (explorer): grey at the temples, quiet, chews a stalk of something.

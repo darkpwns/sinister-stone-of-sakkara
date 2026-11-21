@@ -35,6 +35,7 @@ tags:
 | 211 | Secrets of the Nethercity, delve 10 | 270 gold pieces | 270 | varro |
 | 211 | Secrets of the Nethercity, delve 10 | 324 gold pieces | 324 | quirinus |
 | 211 | Secrets of the Nethercity, delve 10 | grave goods of 92 wall graves (2500 BE) | 414 | brennus |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | gold funerary mask with lapis lazuli eyes | 675 | iulia |
 
 ## Monster XP
 
@@ -51,6 +52,8 @@ tags:
 | 199 | Secrets of the Nethercity, delve 7 | Insect Swarm | 1 | 29 | 29 |
 | 211 | Secrets of the Nethercity, delve 10 | Fungal Creeper (SOTN) | 1 | 65 | 65 |
 | 211 | Secrets of the Nethercity, delve 10 | Bombardier Beetle | 4 | 20 | 80 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Mummy | 1 | 660 | 660 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Grey Goo | 1 | 95 | 95 |
 
 ## Shares and XP awarded
 
@@ -117,6 +120,20 @@ tags:
 | 211 | Secrets of the Nethercity, delve 10 | Aelia | 0.5 | 58 | 7 | 0 | +0% | 65 |
 | 211 | Secrets of the Nethercity, delve 10 | Marcellus | 0.5 | 58 | 7 | 0 | +0% | 65 |
 | 211 | Secrets of the Nethercity, delve 10 | Gnaeus | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Lucilla | 1 | 68 | 76 | 0 | +10% | 157 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Vettius | 1 | 68 | 76 | 0 | +5% | 150 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Vestus the Unlikely | 1 | 68 | 76 | 0 | +5% | 150 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Neris | 1 | 68 | 76 | 0 | +0% | 143 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Iulia | 1 | 68 | 76 | 0 | +5% | 150 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Brennus | 1 | 68 | 76 | 0 | +5% | 150 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Quirinus | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Phaedra | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Varro | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Hrodvar | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Septima | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Aelia | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Marcellus | 0.5 | 34 | 38 | 0 | +0% | 72 |
+| 212 | Secrets of the Nethercity, expedition 11 (the masked lord, then the temple of the dead) | Gnaeus | 0.5 | 34 | 38 | 0 | +0% | 72 |
 
 ## Wages
 
@@ -741,3 +758,49 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 212 | an ironmonger in Cyfaraun | four bags of caltrops (40gp, Lucilla's Bargaining 10% off) |  |  | 36gp | lucilla |
 | 212 | the retinue | wages paid |  |  | 50gp | lucilla |
 | 212 | the retinue | wages paid |  |  | 40gp | vettius |
+| 212 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | vettius |
+| 212 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 212 | a temple in Cyfaraun | donation that sweetened the Cure Disease request |  |  | 45gp | lucilla |
+| 212 | a caster in Cyfaraun | spellcasting: Cure Disease (for Brennus) |  |  | 45gp | lucilla |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 |  | treasure share |  |  |  |  |
+| 212 | Cyfaraun buyers (sale of L93) | sale of the gold funerary mask (sell: proceeds not allocated) |  | 742gp 5sp |  | lucilla |
+| 212 | vettius (share) | share of the L93 sale (A16, 1 share) |  |  | 74gp 2sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, 1 share) |  | 74gp 2sp |  | vettius |
+| 212 | vestus-the-unlikely (share) | share of the L93 sale (A16, 1 share) |  |  | 74gp 2sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, 1 share) |  | 74gp 2sp |  | vestus-the-unlikely |
+| 212 | neris (share) | share of the L93 sale (A16, 1 share) |  |  | 74gp 2sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, 1 share) |  | 74gp 2sp |  | neris |
+| 212 | iulia (share) | share of the L93 sale (A16, 1 share) |  |  | 74gp 2sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, 1 share) |  | 74gp 2sp |  | iulia |
+| 212 | brennus (share) | share of the L93 sale (A16, 1 share) |  |  | 74gp 2sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, 1 share) |  | 74gp 2sp |  | brennus |
+| 212 | quirinus (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | quirinus |
+| 212 | phaedra (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | phaedra |
+| 212 | varro (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | varro |
+| 212 | hrodvar (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | hrodvar |
+| 212 | septima (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | septima |
+| 212 | aelia (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | aelia |
+| 212 | marcellus (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | marcellus |
+| 212 | gnaeus (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
+| 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | gnaeus |
+| 212 | Tower of Knowledge storefront | formula for Fan of Flames (1st level, AX3 Tower price list), to learn for his 2nd-level repertoire (a week's study) |  |  | 100gp | vestus-the-unlikely |
