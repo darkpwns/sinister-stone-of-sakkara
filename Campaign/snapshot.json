@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 7,
- "generated": 1795224634,
+ "generated": 1795225590,
  "date": {
   "year": "",
   "season": "spring",
   "day": 142
  },
- "time": "11:00",
+ "time": "13:14",
  "weather": "Hot (87 to 90 F) by day, Warm (83 to 86 F) at night; drizzle; wind moderate (drizzly)",
  "place": "Buried Temple",
  "hex": "10.07",
@@ -20,7 +20,7 @@
    "hp_max": 14,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 9.307
+   "encumbrance_st": 0
   },
   {
    "name": "Lucilla",
@@ -39,9 +39,12 @@
    "name": "Sabina",
    "sheet": "Characters/sabina.json",
    "role": "pc",
-   "hp": 14,
+   "hp": 11,
    "hp_max": 14,
-   "conditions": [],
+   "conditions": [
+    "grievously wounded: 2 weeks bed rest (day 142)",
+    "one eye clawed out (-2 to missile attack throws)"
+   ],
    "spells_used": [],
    "encumbrance_st": 8.356
   },
@@ -49,11 +52,14 @@
    "name": "Tarq",
    "sheet": "Characters/tarq.json",
    "role": "pc",
-   "hp": 6,
+   "hp": 5,
    "hp_max": 6,
    "conditions": [
     "raspy voice (-2 to speech throws)",
-    "minor scarring (fang marks on the neck)"
+    "minor scarring (fang marks on the neck)",
+    "critically wounded: 1 week bed rest (day 142)",
+    "skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)",
+    "one hand bitten off (cannot dual-wield or use two-handed weapons)"
    ],
    "spells_used": [],
    "encumbrance_st": 9.163
@@ -62,11 +68,11 @@
    "name": "Vettius",
    "sheet": "Characters/vettius.json",
    "role": "pc",
-   "hp": 11,
+   "hp": 3,
    "hp_max": 11,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 9.008
+   "encumbrance_st": 9.841
   },
   {
    "name": "Marcia",
@@ -78,7 +84,7 @@
    "spells_used": [
     "Fan of Flames"
    ],
-   "encumbrance_st": 4.471
+   "encumbrance_st": 0
   },
   {
    "name": "Hesper",
@@ -98,7 +104,7 @@
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 3.751
+   "encumbrance_st": 0
   },
   {
    "name": "Quintus the Rager",
@@ -132,8 +138,8 @@
    "spells_used": []
   }
  ],
- "light": "torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out; torch (Priestess Genelen) 6 turns left",
- "rations": "Aulus: food 4 d, water 0.6 d; Sabina: food 4 d, water 1.2 d; Tarq: food 4 d, water 1 d; Lucilla: food 3.5 d, water 1 d; Vettius: food 4 d, water 1 d; Marcia: food 4 d, water 1.4 d; Thorwell: food 4.5 d, water 1 d; Quintus the Rager: food 4.5 d, water 1 d; Vestus the Unlikely: food 4.5 d, water 1 d; Priestess Genelen: food 4.5 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "light": "torch (Lucilla) out; torch (Vettius) out; torch (Hesper) out; torch (Hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out",
+ "rations": "Sabina: food 4 d, water 1.2 d; Tarq: food 4 d, water 1 d; Lucilla: food 3.5 d, water 1 d; Vettius: food 4 d, water 0.4 d; Vestus the Unlikely: food 4.5 d, water 1 d; Priestess Genelen: food 4.5 d, water 1 d; Hesper: food 1.5 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -251,18 +257,18 @@
      "stone": 0
     },
     "armor": {
-     "item": "Banded Plate Armor",
-     "stone": 5
+     "item": "",
+     "stone": 0
     },
     "right_hand": {
-     "item": "Short Sword",
-     "items": 1,
+     "item": "",
+     "items": 0,
      "stone": 0
     },
     "left_hand": {
-     "item": "Shield",
+     "item": "",
      "items": 0,
-     "stone": 1
+     "stone": 0
     },
     "belt": {
      "item": "",
@@ -285,15 +291,9 @@
      "stone": 0
     },
     "backpack": {
-     "contents": [
-      "Crowbar",
-      "Oil, Military (1 pint) ×4",
-      "Spear",
-      "Tinderbox (flint & steel)",
-      "Waterskin ×3"
-     ],
-     "items": 9,
-     "stone": 1
+     "contents": [],
+     "items": 0,
+     "stone": 0
     },
     "sack": {
      "contents": [],
@@ -301,73 +301,26 @@
      "stone": 0
     },
     "worn": {
-     "contents": [
-      "Backpack (holds 4 stone)",
-      "Belt/Sash, Embossed Leather",
-      "Boots, Leather, High",
-      "Tunic and Pants, Armiger"
-     ],
-     "items": 1,
+     "contents": [],
+     "items": 0,
      "stone": 0
     }
    },
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 455,
-    "sp": 9,
-    "cp": 10
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
    },
-   "encumbrance_st": 9.307,
-   "weapons": [
-    {
-     "name": "Short Sword",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6+2",
-     "range": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-     },
-     "held": "right hand"
-    },
-    {
-     "name": "Spear",
-     "init_bonus": "",
-     "attack_throw": 8,
-     "damage": "1d6/1d8+2",
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "held": "backpack"
-    }
-   ],
-   "treasure": [
-    {
-     "id": "L47",
-     "looks": "a black, backward-curved blade with an ancient inscription",
-     "qty": 1,
-     "apparent_value_gp": 660,
-     "magical": true,
-     "stone": 0.167
-    },
-    {
-     "id": "L58",
-     "looks": "a backward-curved bronze sword with a cobra hilt",
-     "qty": 1,
-     "apparent_value_gp": 25.0,
-     "magical": true,
-     "stone": 0.167
-    }
-   ],
+   "encumbrance_st": 0,
+   "weapons": [],
+   "treasure": [],
    "movement": {
-    "exploration": 60,
-    "combat": 20,
-    "running": 60,
-    "expedition": 12
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -377,8 +330,8 @@
     "trapbreaking": 18
    },
    "ac": {
-    "shield": 8,
-    "no_shield": 6,
+    "shield": 1,
+    "no_shield": 1,
     "dex_only": 1
    },
    "sheet": {
@@ -909,7 +862,40 @@
      "held": "right hand"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L61",
+     "looks": "a blood-red gemstone the size of a heart",
+     "qty": 1,
+     "stone": 0.167
+    },
+    {
+     "id": "L63",
+     "looks": "a red-gold ring warm to the touch",
+     "qty": 1,
+     "apparent_value_gp": 40,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L64",
+     "looks": "a fragment of blood-red crystal with runes inside (Fragment of the Tablet of Destiny)",
+     "qty": 1,
+     "stone": 0.05
+    },
+    {
+     "id": "L65",
+     "looks": "a fragment of blood-red crystal with runes inside (Fragment of the Tablet of Destiny)",
+     "qty": 1,
+     "stone": 0.05
+    },
+    {
+     "id": "L66",
+     "looks": "a fragment of blood-red crystal with runes inside (Fragment of the Tablet of Destiny)",
+     "qty": 1,
+     "stone": 0.05
+    }
+   ],
    "movement": {
     "exploration": 60,
     "combat": 20,
@@ -1091,9 +1077,9 @@
      "stone": 0
     },
     "right_hand": {
-     "item": "Staff",
+     "item": "",
      "items": 0,
-     "stone": 1
+     "stone": 0
     },
     "left_hand": {
      "item": "",
@@ -1121,73 +1107,31 @@
      "stone": 0
     },
     "backpack": {
-     "contents": [
-      "Ink (1 pint)",
-      "Quill, writing",
-      "Spell Book (blank)",
-      "Waterskin ×7",
-      "dart ×5"
-     ],
-     "items": 9,
-     "stone": 0.5
+     "contents": [],
+     "items": 0,
+     "stone": 0
     },
     "sack": {
-     "contents": [
-      "Oil, Common (1 pint) ×4"
-     ],
-     "items": 4,
+     "contents": [],
+     "items": 0,
      "stone": 0
     },
     "worn": {
-     "contents": [
-      "Backpack (holds 4 stone)",
-      "Belt/Sash, Embossed Leather",
-      "Boots, Leather, Low",
-      "Cassock, Linen or Wool",
-      "Sack, Small (holds 2 stone)"
-     ],
-     "items": 2,
+     "contents": [],
+     "items": 0,
      "stone": 0
     }
    },
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 458,
-    "sp": 1,
-    "cp": 12
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
    },
-   "encumbrance_st": 4.471,
-   "weapons": [
-    {
-     "name": "Staff",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6+1",
-     "range": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-     },
-     "held": "right hand, two-handed"
-    }
-   ],
-   "treasure": [
-    {
-     "id": "L31",
-     "looks": "a construction map of the temple (Ancient Zaharan)",
-     "qty": 1,
-     "stone": 0
-    },
-    {
-     "id": "L45",
-     "looks": "a scroll in an elvish hand",
-     "qty": 1,
-     "apparent_value_gp": 750,
-     "magical": true,
-     "stone": 0.167
-    }
-   ],
+   "encumbrance_st": 0,
+   "weapons": [],
+   "treasure": [],
    "movement": {
     "exploration": 120,
     "combat": 40,
@@ -2014,7 +1958,15 @@
      "held": "sack"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L62",
+     "looks": "a great axe with a hepatizon crescent blade",
+     "qty": 1,
+     "magical": true,
+     "stone": 0.167
+    }
+   ],
    "movement": {
     "exploration": 60,
     "combat": 20,
@@ -2195,18 +2147,18 @@
      "stone": 0
     },
     "armor": {
-     "item": "Hide and Fur Armor",
-     "stone": 1
+     "item": "",
+     "stone": 0
     },
     "right_hand": {
-     "item": "Short Sword",
-     "items": 1,
+     "item": "",
+     "items": 0,
      "stone": 0
     },
     "left_hand": {
-     "item": "Shield",
+     "item": "",
      "items": 0,
-     "stone": 1
+     "stone": 0
     },
     "belt": {
      "item": "",
@@ -2229,12 +2181,8 @@
      "stone": 0
     },
     "backpack": {
-     "contents": [
-      "Crossbow",
-      "Waterskin ×5",
-      "bolt ×20"
-     ],
-     "items": 7,
+     "contents": [],
+     "items": 0,
      "stone": 0
     },
     "sack": {
@@ -2243,48 +2191,20 @@
      "stone": 0
     },
     "worn": {
-     "contents": [
-      "Backpack (holds 4 stone)",
-      "Tunic and Pants, Crafter/Freeholder"
-     ],
-     "items": 1,
+     "contents": [],
+     "items": 0,
      "stone": 0
     }
    },
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 223,
-    "sp": 5,
-    "cp": 23
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
    },
-   "encumbrance_st": 3.751,
-   "weapons": [
-    {
-     "name": "Short Sword",
-     "init_bonus": "",
-     "attack_throw": 10,
-     "damage": "1d6+1",
-     "range": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-     },
-     "held": "right hand"
-    },
-    {
-     "name": "Crossbow",
-     "init_bonus": "",
-     "attack_throw": 10,
-     "damage": "1d6+1",
-     "range": {
-      "short": 140,
-      "medium": 280,
-      "long": 420
-     },
-     "held": "backpack"
-    }
-   ],
+   "encumbrance_st": 0,
+   "weapons": [],
    "gems": "",
    "treasure": [],
    "proficiency_throws": {
@@ -2295,8 +2215,8 @@
     "trapbreaking": 18
    },
    "ac": {
-    "shield": 2,
-    "no_shield": 1,
+    "shield": 0,
+    "no_shield": 0,
     "dex_only": 0
    },
    "sheet": {
@@ -2567,8 +2487,8 @@
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone), Pole, Wooden, torch ×2",
-     "items": 3,
+     "item": "Backpack (holds 4 stone), Crossbow, Pole, Wooden, torch ×2",
+     "items": 4,
      "stone": 1
     },
     "armor": {
@@ -2576,7 +2496,7 @@
      "stone": 2
     },
     "right_hand": {
-     "item": "Crossbow",
+     "item": "Holy Symbol",
      "items": 1,
      "stone": 0
     },
@@ -2611,6 +2531,7 @@
       "Hammer (small)",
       "Lantern",
       "Oil, Common (1 pint)",
+      "Oil, Military (1 pint) ×4",
       "Rope, 50'",
       "Short Sword",
       "Thieves' Tools",
@@ -2621,7 +2542,7 @@
       "gold-painted key",
       "iron spike ×12"
      ],
-     "items": 16,
+     "items": 20,
      "stone": 2
     },
     "sack": {
@@ -2648,7 +2569,7 @@
     "sp": 6,
     "cp": 9
    },
-   "encumbrance_st": 9.008,
+   "encumbrance_st": 9.841,
    "weapons": [
     {
      "name": "Crossbow",
@@ -2660,7 +2581,7 @@
       "medium": 280,
       "long": 420
      },
-     "held": "right hand, two-handed"
+     "held": "back"
     },
     {
      "name": "Short Sword",
@@ -2677,6 +2598,12 @@
    ],
    "treasure": [
     {
+     "id": "L31",
+     "looks": "a construction map of the temple (Ancient Zaharan)",
+     "qty": 1,
+     "stone": 0
+    },
+    {
      "id": "L32",
      "looks": "a quiver of ten black-fletched arrows",
      "qty": 1,
@@ -2689,9 +2616,27 @@
      "stone": 0.167
     },
     {
-     "id": "L61",
-     "looks": "a blood-red gemstone the size of a heart",
+     "id": "L45",
+     "looks": "a scroll in an elvish hand",
      "qty": 1,
+     "apparent_value_gp": 750,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L47",
+     "looks": "a black, backward-curved blade with an ancient inscription",
+     "qty": 1,
+     "apparent_value_gp": 660,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L58",
+     "looks": "a backward-curved bronze sword with a cobra hilt",
+     "qty": 1,
+     "apparent_value_gp": 25.0,
+     "magical": true,
      "stone": 0.167
     }
    ],
@@ -2961,159 +2906,23 @@
  ],
  "open_rolls": [
   {
-   "label": "init Marcia",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Thorwell",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Quintus the Rager",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
    "label": "init Priestess Genelen",
    "spec": "1d6",
    "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "damage to Tarq",
-   "spec": "1d1+4",
-   "rolls": [
-    1
+    5
    ],
    "total": 5
-  },
-  {
-   "label": "attack Aulus vs Sabina",
-   "spec": "1d20+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Quintus the Rager vs the Lady Below 1",
-   "spec": "1d20+4",
-   "rolls": [
-    20
-   ],
-   "total": 24
-  },
-  {
-   "label": "damage to the Lady Below 1",
-   "spec": "1d6+2",
-   "rolls": [
-    3
-   ],
-   "total": 5
-  },
-  {
-   "label": "Halt Humanoids targets (Genelen)",
-   "spec": "1d4",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Aulus paralysis save",
-   "spec": "1d20-1",
-   "rolls": [
-    9
-   ],
-   "total": 8
-  },
-  {
-   "label": "attack Thorwell vs the Lady Below 1",
-   "spec": "1d20+1",
-   "rolls": [
-    18
-   ],
-   "total": 19
-  },
-  {
-   "label": "damage to the Lady Below 1",
-   "spec": "1d6+1",
-   "rolls": [
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "init Aulus",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Sabina",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
   },
   {
    "label": "init Lucilla",
    "spec": "1d6",
    "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
     3
    ],
    "total": 3
   },
   {
-   "label": "init Marcia",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Thorwell",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Quintus the Rager",
+   "label": "init Vettius",
    "spec": "1d6",
    "rolls": [
     1
@@ -3124,9 +2933,9 @@
    "label": "init Vestus the Unlikely",
    "spec": "1d6",
    "rolls": [
-    3
+    5
    ],
-   "total": 3
+   "total": 5
   },
   {
    "label": "init Priestess Genelen",
@@ -3137,125 +2946,45 @@
    "total": 4
   },
   {
-   "label": "Mortal Wounds Tarq d20",
+   "label": "Mortal Wounds Sabina d20",
    "spec": "1d20",
    "rolls": [
-    14
-   ],
-   "total": 14
-  },
-  {
-   "label": "Mortal Wounds Tarq d6",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "attack Thorwell vs the Lady Below 1",
-   "spec": "1d20+1",
-   "rolls": [
     13
-   ],
-   "total": 14
-  },
-  {
-   "label": "init Aulus",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Sabina",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Lucilla",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Marcia",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Thorwell",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Priestess Genelen",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Genelen Cure Major Injury on Tarq (2d6 + half of 6)",
-   "spec": "2d6+3",
-   "rolls": [
-    5,
-    5
    ],
    "total": 13
   },
   {
-   "label": "init Aulus",
+   "label": "Mortal Wounds Sabina d6",
    "spec": "1d6",
    "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Mortal Wounds Thorwell d20",
+   "spec": "1d20",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Mortal Wounds Thorwell d6",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Genelen Cure Major Injury on Sabina",
+   "spec": "2d6+3",
+   "rolls": [
+    2,
     6
    ],
-   "total": 6
-  },
-  {
-   "label": "init Sabina",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Tarq",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
+   "total": 11
   },
   {
    "label": "init Lucilla",
@@ -3274,7 +3003,7 @@
    "total": 5
   },
   {
-   "label": "init Marcia",
+   "label": "init Vestus the Unlikely",
    "spec": "1d6",
    "rolls": [
     6
@@ -3282,7 +3011,55 @@
    "total": 6
   },
   {
-   "label": "init Vestus the Unlikely",
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Mortal Wounds Quintus the Rager d20",
+   "spec": "1d20",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Mortal Wounds Quintus the Rager d6",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Genelen Cure Light Injury on Quintus",
+   "spec": "1d6+1",
+   "rolls": [
+    5
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Sabina",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Lucilla",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Vettius",
    "spec": "1d6",
    "rolls": [
     5
@@ -3290,76 +3067,244 @@
    "total": 5
   },
   {
-   "label": "init Priestess Genelen",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Aulus",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Lucilla",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Vettius",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Marcia",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
    "label": "init Vestus the Unlikely",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Priestess Genelen",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Mortal Wounds Tarq d20",
-   "spec": "1d20",
-   "rolls": [
-    7
-   ],
-   "total": 7
-  },
-  {
-   "label": "Mortal Wounds Tarq d6",
    "spec": "1d6",
    "rolls": [
     4
    ],
    "total": 4
+  },
+  {
+   "label": "init Priestess Genelen",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Genelen Cure Light Injury on Tarq",
+   "spec": "1d6+1",
+   "rolls": [
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "Mortal Wounds Aulus d20",
+   "spec": "1d20",
+   "rolls": [
+    12
+   ],
+   "total": 12
+  },
+  {
+   "label": "Mortal Wounds Aulus d6",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Marcia d20",
+   "spec": "1d20",
+   "rolls": [
+    16
+   ],
+   "total": 16
+  },
+  {
+   "label": "Mortal Wounds Marcia d6",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Aulus surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Sabina surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Tarq surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Lucilla surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Vettius surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Marcia surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Thorwell surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Quintus the Rager surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Vestus the Unlikely surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Priestess Genelen surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Sabina surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Tarq surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Lucilla surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Vettius surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Vestus the Unlikely surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Priestess Genelen surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Genelen strikes the Stone, blow 1 (Tarq's axe, STR -1: 1d6)",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Genelen strikes the Stone, blow 2 (Tarq's axe, STR -1: 1d6)",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Genelen strikes the Stone, blow 3 (Tarq's axe, STR -1: 1d6)",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Genelen strikes the Stone, blow 4 (Tarq's axe, STR -1: 1d6)",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Genelen strikes the Stone, blow 5 (Tarq's axe, STR -1: 1d6)",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Genelen strikes the Stone, blow 6 (Tarq's axe, STR -1: 1d6)",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "priestess-genelen death save",
+   "spec": "1d20",
+   "rolls": [
+    12
+   ],
+   "total": 12
   }
  ],
  "rumours_heard": [

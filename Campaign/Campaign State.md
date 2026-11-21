@@ -11,7 +11,7 @@ public:
     year: ''
     season: spring
     day: 142
-  time: '11:00'
+  time: '13:14'
   weather: Hot (87 to 90 F) by day, Warm (83 to 86 F) at night; drizzle; wind moderate (drizzly)
   place: Buried Temple
   hex: '10.07'
@@ -23,7 +23,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 9.307
+    encumbrance_st: 0
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
@@ -37,29 +37,34 @@ public:
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
-    hp: 14
+    hp: 11
     hp_max: 14
-    conditions: []
+    conditions:
+    - 'grievously wounded: 2 weeks bed rest (day 142)'
+    - one eye clawed out (-2 to missile attack throws)
     spells_used: []
     encumbrance_st: 8.356
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
-    hp: 6
+    hp: 5
     hp_max: 6
     conditions:
     - raspy voice (-2 to speech throws)
     - minor scarring (fang marks on the neck)
+    - 'critically wounded: 1 week bed rest (day 142)'
+    - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
+    - one hand bitten off (cannot dual-wield or use two-handed weapons)
     spells_used: []
     encumbrance_st: 9.163
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 11
+    hp: 3
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 9.008
+    encumbrance_st: 9.841
   - name: Marcia
     sheet: Characters/marcia.json
     role: pc
@@ -68,7 +73,7 @@ public:
     conditions: []
     spells_used:
     - Fan of Flames
-    encumbrance_st: 4.471
+    encumbrance_st: 0
   - name: Hesper
     sheet: Characters/hesper.json
     role: henchman
@@ -84,7 +89,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 3.751
+    encumbrance_st: 0
   - name: Quintus the Rager
     sheet: Characters/quintus-the-rager.json
     role: henchman
@@ -108,8 +113,8 @@ public:
     conditions:
     - one leg torn off (crutch required, movement -30 feet, DEX reduced by 1/3 for AC)
     spells_used: []
-  light: torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out; torch (Priestess Genelen) 6 turns left
-  rations: 'Aulus: food 4 d, water 0.6 d; Sabina: food 4 d, water 1.2 d; Tarq: food 4 d, water 1 d; Lucilla: food 3.5 d, water 1 d; Vettius: food 4 d, water 1 d; Marcia: food 4 d, water 1.4 d; Thorwell: food 4.5 d, water 1 d; Quintus the Rager: food 4.5 d, water 1 d; Vestus the Unlikely: food 4.5 d, water 1 d; Priestess Genelen: food 4.5 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: torch (Lucilla) out; torch (Vettius) out; torch (Hesper) out; torch (Hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out
+  rations: 'Sabina: food 4 d, water 1.2 d; Tarq: food 4 d, water 1 d; Lucilla: food 3.5 d, water 1 d; Vettius: food 4 d, water 0.4 d; Vestus the Unlikely: food 4.5 d, water 1 d; Priestess Genelen: food 4.5 d, water 1 d; Hesper: food 1.5 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

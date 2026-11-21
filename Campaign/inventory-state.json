@@ -9,7 +9,7 @@
    "kind": "pc",
    "name": "aulus",
    "actor": "aulus",
-   "status": "active"
+   "status": "dead"
   },
   "sabina": {
    "kind": "pc",
@@ -75,7 +75,7 @@
    "kind": "pc",
    "name": "marcia",
    "actor": "marcia",
-   "status": "active"
+   "status": "dead"
   },
   "gallus": {
    "kind": "henchman",
@@ -108,7 +108,7 @@
    "kind": "hireling",
    "name": "quintus-the-rager",
    "actor": null,
-   "status": "active"
+   "status": "dead"
   },
   "vestus-the-unlikely": {
    "kind": "hireling",
@@ -126,7 +126,7 @@
    "kind": "henchman",
    "name": "thorwell",
    "actor": "thorwell",
-   "status": "active"
+   "status": "dead"
   },
   "thorcigar": {
    "kind": "henchman",
@@ -170,6 +170,30 @@
   "priestess-genelen": {
    "kind": "hireling",
    "name": "Priestess Genelen",
+   "actor": null,
+   "status": "active"
+  },
+  "body:aulus": {
+   "kind": "body",
+   "name": "body of aulus",
+   "actor": null,
+   "status": "active"
+  },
+  "body:marcia": {
+   "kind": "body",
+   "name": "body of marcia",
+   "actor": null,
+   "status": "active"
+  },
+  "body:thorwell": {
+   "kind": "body",
+   "name": "body of thorwell",
+   "actor": null,
+   "status": "active"
+  },
+  "body:quintus-the-rager": {
+   "kind": "body",
+   "name": "body of quintus-the-rager",
    "actor": null,
    "status": "active"
   }
@@ -15849,33 +15873,759 @@
    "light": "torch38",
    "cmd": "light on",
    "n": 646
+  },
+  {
+   "op": "death",
+   "cause": "aulus died; body left_behind",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "aulus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "tunic and pants, armiger",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "tunic and pants, armiger",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "belt/sash, embossed leather",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "belt/sash, embossed leather",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "boots, leather, high",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "boots, leather, high",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "#w1",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "#w1",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:aulus",
+     "item": "oil, military (1 pint)",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "aulus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "body:aulus",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 3
+    },
+    {
+     "who": "aulus",
+     "item": "crowbar",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "crowbar",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "#w2",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "#w2",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aulus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:aulus",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "aulus",
+     "cp": -10,
+     "sp": -9,
+     "gp": -455
+    },
+    {
+     "who": "body:aulus",
+     "cp": 10,
+     "sp": 9,
+     "gp": 455
+    }
+   ],
+   "cmd": "death",
+   "n": 647
+  },
+  {
+   "op": "death",
+   "cause": "marcia died; body left_behind",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "marcia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "cassock, linen or wool",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "cassock, linen or wool",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "belt/sash, embossed leather",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "belt/sash, embossed leather",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "boots, leather, low",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "boots, leather, low",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "dart",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:marcia",
+     "item": "dart",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "marcia",
+     "item": "spell book (blank)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "spell book (blank)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "quill, writing",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "quill, writing",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "ink (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "ink (1 pint)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marcia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -7
+    },
+    {
+     "who": "body:marcia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 7
+    },
+    {
+     "who": "marcia",
+     "item": "oil, common (1 pint)",
+     "slot": "sack",
+     "qty": -4
+    },
+    {
+     "who": "body:marcia",
+     "item": "oil, common (1 pint)",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "marcia",
+     "item": "#w18",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:marcia",
+     "item": "#w18",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "marcia",
+     "cp": -12,
+     "sp": -1,
+     "gp": -458
+    },
+    {
+     "who": "body:marcia",
+     "cp": 12,
+     "sp": 1,
+     "gp": 458
+    }
+   ],
+   "cmd": "death",
+   "n": 648
+  },
+  {
+   "op": "death",
+   "cause": "thorwell died; body left_behind",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "thorwell",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:thorwell",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorwell",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:thorwell",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorwell",
+     "item": "#w9",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:thorwell",
+     "item": "#w9",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorwell",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:thorwell",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorwell",
+     "item": "hide and fur armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:thorwell",
+     "item": "hide and fur armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorwell",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:thorwell",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "thorwell",
+     "item": "#w8",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:thorwell",
+     "item": "#w8",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "thorwell",
+     "item": "bolt",
+     "slot": "backpack",
+     "qty": -20
+    },
+    {
+     "who": "body:thorwell",
+     "item": "bolt",
+     "slot": "here",
+     "qty": 20
+    }
+   ],
+   "coins": [
+    {
+     "who": "thorwell",
+     "cp": -23,
+     "sp": -5,
+     "gp": -223
+    },
+    {
+     "who": "body:thorwell",
+     "cp": 23,
+     "sp": 5,
+     "gp": 223
+    }
+   ],
+   "cmd": "death",
+   "n": 649
+  },
+  {
+   "op": "death",
+   "cause": "quintus-the-rager died; body left_behind",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "quintus-the-rager",
+     "item": "#w26",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "item": "#w26",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "quintus-the-rager",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "quintus-the-rager",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "quintus-the-rager",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "quintus-the-rager",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "quintus-the-rager",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "item": "oil, military (1 pint)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "quintus-the-rager",
+     "cp": -5,
+     "sp": -1,
+     "gp": -174
+    },
+    {
+     "who": "body:quintus-the-rager",
+     "cp": 5,
+     "sp": 1,
+     "gp": 174
+    }
+   ],
+   "cmd": "death",
+   "n": 650
+  },
+  {
+   "op": "add",
+   "cause": "the Lady's four vials, taken from her body",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": 4
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 651
+  },
+  {
+   "op": "move",
+   "cause": "slung to present the symbol",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "#w11",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "vettius",
+     "item": "#w11",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 652
+  },
+  {
+   "op": "add",
+   "cause": "the Lady's unholy symbol (serpent eating its tail), presented to her undead",
+   "day": 142,
+   "time": "day 142 11:00",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "holy symbol",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 653
+  },
+  {
+   "op": "light",
+   "cause": "torch39 lit (torch)",
+   "day": 142,
+   "time": "day 142 11:54",
+   "deltas": [
+    {
+     "who": "priestess-genelen",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch39",
+   "cmd": "light on",
+   "n": 654
+  },
+  {
+   "op": "remove",
+   "cause": "lit for the walk through L1 2 and 1 (relit late, Judge slip)",
+   "day": 142,
+   "time": "day 142 13:14",
+   "deltas": [
+    {
+     "who": "priestess-genelen",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "cmd": "inv remove",
+   "n": 655
+  },
+  {
+   "op": "give",
+   "cause": "lent to Genelen to strike the Stone",
+   "day": 142,
+   "time": "day 142 13:14",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "#w25",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "priestess-genelen",
+     "item": "#w25",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 656
+  },
+  {
+   "op": "wield",
+   "cause": "Battle Axe +1 taken in hand",
+   "day": 142,
+   "time": "day 142 13:14",
+   "deltas": [
+    {
+     "who": "priestess-genelen",
+     "item": "#w25",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "priestess-genelen",
+     "item": "#w25",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w25",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 657
+  },
+  {
+   "op": "give",
+   "cause": "returned after the Stone was destroyed",
+   "day": 142,
+   "time": "day 142 13:14",
+   "deltas": [
+    {
+     "who": "priestess-genelen",
+     "item": "#w25",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "tarq",
+     "item": "#w25",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 658
+  },
+  {
+   "op": "wield",
+   "cause": "Battle Axe +1 taken in hand",
+   "day": 142,
+   "time": "day 142 13:14",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "#w25",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "tarq",
+     "item": "#w25",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w25",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 659
   }
  ],
  "holdings": {
-  "aulus": {
-   "worn": {
-    "backpack (holds 4 stone)": 1,
-    "tunic and pants, armiger": 1,
-    "belt/sash, embossed leather": 1,
-    "boots, leather, high": 1
-   },
-   "backpack": {
-    "#w1": 1,
-    "oil, military (1 pint)": 4,
-    "tinderbox (flint & steel)": 1,
-    "waterskin": 3,
-    "crowbar": 1
-   },
-   "armor": {
-    "banded plate armor": 1
-   },
-   "right_hand": {
-    "#w2": 1
-   },
-   "left_hand": {
-    "shield": 1
-   }
-  },
   "sabina": {
    "worn": {
     "sack, small (holds 2 stone)": 1,
@@ -15987,15 +16737,17 @@
     "iron spike": 12,
     "waterskin": 5,
     "copper-painted key": 1,
-    "gold-painted key": 1
+    "gold-painted key": 1,
+    "oil, military (1 pint)": 4
    },
    "back": {
     "pole, wooden": 1,
     "backpack (holds 4 stone)": 1,
-    "torch": 2
+    "torch": 2,
+    "#w11": 1
    },
    "right_hand": {
-    "#w11": 1
+    "holy symbol": 1
    }
   },
   "turos-tem-inn": {
@@ -16022,28 +16774,6 @@
     "#w17": 1,
     "#w4": 1,
     "candle (tallow, 1 lb)": 1
-   }
-  },
-  "marcia": {
-   "worn": {
-    "backpack (holds 4 stone)": 1,
-    "cassock, linen or wool": 1,
-    "belt/sash, embossed leather": 1,
-    "boots, leather, low": 1,
-    "sack, small (holds 2 stone)": 1
-   },
-   "backpack": {
-    "dart": 5,
-    "spell book (blank)": 1,
-    "quill, writing": 1,
-    "ink (1 pint)": 1,
-    "waterskin": 7
-   },
-   "sack": {
-    "oil, common (1 pint)": 4
-   },
-   "right_hand": {
-    "#w18": 1
    }
   },
   "durio": {
@@ -16088,24 +16818,6 @@
     "arrow": 20
    }
   },
-  "quintus-the-rager": {
-   "right_hand": {
-    "#w26": 1
-   },
-   "armor": {
-    "leather armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "worn": {
-    "backpack (holds 4 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "oil, military (1 pint)": 1
-   }
-  },
   "zaira-the-beautiful": {
    "right_hand": {
     "#w27": 1
@@ -16132,26 +16844,6 @@
    },
    "backpack": {
     "waterskin": 5
-   }
-  },
-  "thorwell": {
-   "worn": {
-    "tunic and pants, crafter/freeholder": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "right_hand": {
-    "#w9": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "armor": {
-    "hide and fur armor": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "#w8": 1,
-    "bolt": 20
    }
   },
   "donkey1": {
@@ -16196,8 +16888,7 @@
    },
    "backpack": {
     "holy symbol": 1,
-    "waterskin": 5,
-    "torch": 2
+    "waterskin": 5
    }
   },
   "donkey2": {
@@ -16205,14 +16896,63 @@
     "torch": 4,
     "oil, common (1 pint)": 4
    }
+  },
+  "body:aulus": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "tunic and pants, armiger": 1,
+    "belt/sash, embossed leather": 1,
+    "boots, leather, high": 1,
+    "#w1": 1,
+    "oil, military (1 pint)": 4,
+    "tinderbox (flint & steel)": 1,
+    "waterskin": 3,
+    "crowbar": 1,
+    "banded plate armor": 1,
+    "#w2": 1,
+    "shield": 1
+   }
+  },
+  "body:marcia": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "cassock, linen or wool": 1,
+    "belt/sash, embossed leather": 1,
+    "boots, leather, low": 1,
+    "sack, small (holds 2 stone)": 1,
+    "dart": 5,
+    "spell book (blank)": 1,
+    "quill, writing": 1,
+    "ink (1 pint)": 1,
+    "waterskin": 7,
+    "oil, common (1 pint)": 4,
+    "#w18": 1
+   }
+  },
+  "body:thorwell": {
+   "here": {
+    "tunic and pants, crafter/freeholder": 1,
+    "backpack (holds 4 stone)": 1,
+    "#w9": 1,
+    "shield": 1,
+    "hide and fur armor": 1,
+    "waterskin": 5,
+    "#w8": 1,
+    "bolt": 20
+   }
+  },
+  "body:quintus-the-rager": {
+   "here": {
+    "#w26": 1,
+    "leather armor": 1,
+    "shield": 1,
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 5,
+    "oil, military (1 pint)": 1
+   }
   }
  },
  "coins": {
-  "aulus": {
-   "gp": 455,
-   "sp": 9,
-   "cp": 10
-  },
   "sabina": {
    "sp": 5,
    "gp": 490,
@@ -16236,11 +16976,6 @@
    "sp": 6,
    "cp": 9
   },
-  "marcia": {
-   "gp": 458,
-   "cp": 12,
-   "sp": 1
-  },
   "durio": {
    "gp": 514,
    "cp": 9,
@@ -16251,18 +16986,8 @@
    "cp": 23,
    "sp": 14
   },
-  "thorwell": {
-   "cp": 23,
-   "sp": 5,
-   "gp": 223
-  },
   "karanos-bank": {
    "gp": 17428
-  },
-  "quintus-the-rager": {
-   "cp": 5,
-   "sp": 1,
-   "gp": 174
   },
   "vestus-the-unlikely": {
    "cp": 5,
@@ -16283,6 +17008,26 @@
    "cp": 21,
    "sp": 10,
    "gp": 198
+  },
+  "body:aulus": {
+   "cp": 10,
+   "sp": 9,
+   "gp": 455
+  },
+  "body:marcia": {
+   "cp": 12,
+   "sp": 1,
+   "gp": 458
+  },
+  "body:thorwell": {
+   "cp": 23,
+   "sp": 5,
+   "gp": 223
+  },
+  "body:quintus-the-rager": {
+   "cp": 5,
+   "sp": 1,
+   "gp": 174
   }
  },
  "rolls": {

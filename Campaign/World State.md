@@ -26,6 +26,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - 7: ogres dead (day 123); safe resting place. 8-9: Black Fangs (Ur-Shet) Friendly; chest in 9's southern tip untouched.
 - 10/15: Red Eye guards Friendly (day-108 bribe), Hepsis Neutral; they attack anyone with Black Fangs. Loot pile in 15 untouched. 39: the Lady's chest untouched.
 - Weekly replacement (AX1 p. 53) rolled through day 136; next day 143.
+- Day 142 (S07, delve 8): the Lady slain in 38 (coup de grace, Vettius); the Stone taken and destroyed at the stream camp by Genelen; Fragments to Mityara's order. 5 skeletons destroyed by fire; 5 skeletons and 13 zombies (8 + the 23 group not met) remain, back at their posts. Bodies left in 38: Aulus, Marcia (with their gear), Thorwell, Quintus; the Lady's body in her plate +1. The chest in 39 untouched. With the Lady dead and the Stone destroyed, no more replacements (AX1 p. 53 needs both).
+- Black Fangs: Indifferent after a failed bribe (day 142). Undead returned to 34/35.
 
 ## Events triggered
 
