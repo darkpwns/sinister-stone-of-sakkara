@@ -624,3 +624,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 204 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 204 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
 | 204 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 204 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 204 | Silk Pony Inn (#25) | beds for fourteen, night of day 204 |  |  | 2gp 8sp | lucilla |
+| 205 | Silk Pony Inn (#25) | beds for fourteen, night of day 205 |  |  | 2gp 8sp | lucilla |
+| 206 | Silk Pony Inn (#25) | beds for fourteen, night of day 206 |  |  | 2gp 8sp | lucilla |
+| 207 | Silk Pony Inn (#25) | beds for fourteen, night of day 207 |  |  | 2gp 8sp | lucilla |
+| 208 | Silk Pony Inn (#25) | beds for fourteen, night of day 208 |  |  | 2gp 8sp | lucilla |
+| 209 | Silk Pony Inn (#25) | beds for fourteen, night of day 209 |  |  | 2gp 8sp | lucilla |
+| 210 | Silk Pony Inn (#25) | beds for fourteen, night of day 210 |  |  | 2gp 8sp | lucilla |
+| 211 | brokers and criers | recruiting fee (a week's search) |  |  | 11gp | lucilla |
+| 211 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 211 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 211 | brokers and criers | recruiting fee (a week's search) |  |  | 19gp | lucilla |
+| 211 | the retinue | wages paid |  |  | 25gp | vettius |
+| 211 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |

@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: fall
-    day: 204
+    day: 211
   time: 06:00
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; clear; wind still
   place: Cyfaraun
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.891
+    encumbrance_st: 9.774
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.631
+    encumbrance_st: 9.597
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -61,11 +61,10 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 1
+    hp: 6
     hp_max: 6
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
-    - 'critically wounded day 198 (B3 skeletons): 1 week of bed rest, incapacitated'
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
     spells_used: []
     encumbrance_st: 6.454
@@ -134,8 +133,24 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 6.667
+  - name: Gnaeus
+    sheet: Characters/gnaeus.json
+    role: henchman
+    hp: 9
+    hp_max: 9
+    conditions: []
+    spells_used: []
+    encumbrance_st: 4
+  - name: Nysa
+    sheet: Characters/nysa.json
+    role: henchman
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 2.833
   light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) out; torch (Ottar) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d (incapacitated); Aelia: food 7 d, water 0 d; Marcellus: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0 d; Marcellus: food 7 d, water 0 d; Gnaeus: food 7 d, water 0 d; Nysa: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -159,7 +174,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 204
+clock_day: 211
 ---
 # Campaign State
 
