@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 11,
-  "L": 77,
+  "L": 80,
   "H": 0,
-  "M": 30
+  "M": 31
  },
  "adventure": {
   "id": "A11",
@@ -19,11 +19,13 @@
     "player": "rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 6852,
     "level_before": 4,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 198,
+    "xp_award": 216
    },
    "vettius": {
     "id": "vettius",
@@ -33,11 +35,13 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 6538,
     "level_before": 4,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 198,
+    "xp_award": 206
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -47,11 +51,13 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1801,
     "level_before": 1,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 198,
+    "xp_award": 206
    },
    "neris": {
     "id": "neris",
@@ -61,11 +67,13 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 231,
     "level_before": 1,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 198,
+    "xp_award": 196
    },
    "brennus": {
     "id": "brennus",
@@ -75,11 +83,13 @@
     "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1017,
     "level_before": 1,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 198,
+    "xp_award": 206
    },
    "iulia": {
     "id": "iulia",
@@ -89,11 +99,13 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1944,
     "level_before": 2,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 198,
+    "xp_award": 206
    },
    "ottar": {
     "id": "ottar",
@@ -103,11 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "ottar",
     "xp_before": 115,
     "level_before": 0,
-    "class": "None (0th level)"
+    "class": "None (0th level)",
+    "returned_day": 198,
+    "xp_award": 98
    },
    "quirinus": {
     "id": "quirinus",
@@ -117,11 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "quirinus",
     "xp_before": 115,
     "level_before": 2,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 198,
+    "xp_award": 98
    },
    "phaedra": {
     "id": "phaedra",
@@ -131,11 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 115,
     "level_before": 1,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 198,
+    "xp_award": 98
    },
    "varro": {
     "id": "varro",
@@ -145,11 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "varro",
     "xp_before": 0,
     "level_before": 1,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 198,
+    "xp_award": 98
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -159,11 +179,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "hrodvar",
     "xp_before": 0,
     "level_before": 1,
-    "class": "Dwarven Vaultguard"
+    "class": "Dwarven Vaultguard",
+    "returned_day": 198,
+    "xp_award": 98
    },
    "septima": {
     "id": "septima",
@@ -173,11 +195,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "septima",
     "xp_before": 0,
     "level_before": 1,
-    "class": "Explorer"
+    "class": "Explorer",
+    "returned_day": 198,
+    "xp_award": 98
    }
   },
   "monsters": [
@@ -188,12 +212,175 @@
     "number": 12,
     "how": "killed",
     "xp_each": 13
+   },
+   {
+    "id": "M31",
+    "monster": "Skeleton",
+    "source": "Skeleton (MM p. 280)",
+    "number": 18,
+    "how": "killed",
+    "xp_each": 13
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 198,
+   "at": "Cyfaraun",
+   "total": 1768.0,
+   "per_share": 196.44444444444446,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 196,
+     "pct": 10,
+     "pen": 0,
+     "award": 216,
+     "xp_before": 6852,
+     "xp_after": 7068,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 196,
+     "pct": 5,
+     "pen": 0,
+     "award": 206,
+     "xp_before": 6538,
+     "xp_after": 6744,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 196,
+     "pct": 5,
+     "pen": 0,
+     "award": 206,
+     "xp_before": 1801,
+     "xp_after": 2007,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 196,
+     "pct": 0,
+     "pen": 0,
+     "award": 196,
+     "xp_before": 231,
+     "xp_after": 427,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 196,
+     "pct": 5,
+     "pen": 0,
+     "award": 206,
+     "xp_before": 1017,
+     "xp_after": 1223,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 196,
+     "pct": 5,
+     "pen": 0,
+     "award": 206,
+     "xp_before": 1944,
+     "xp_after": 2150,
+     "capped": null,
+     "zero": false
+    },
+    "ottar": {
+     "share": 0.5,
+     "why": null,
+     "base": 98,
+     "pct": 0,
+     "pen": 0,
+     "award": 98,
+     "xp_before": 115,
+     "xp_after": 213,
+     "capped": null,
+     "zero": true
+    },
+    "quirinus": {
+     "share": 0.5,
+     "why": null,
+     "base": 98,
+     "pct": 0,
+     "pen": 0,
+     "award": 98,
+     "xp_before": 115,
+     "xp_after": 213,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 98,
+     "pct": 0,
+     "pen": 0,
+     "award": 98,
+     "xp_before": 115,
+     "xp_after": 213,
+     "capped": null,
+     "zero": false
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 98,
+     "pct": 0,
+     "pen": 0,
+     "award": 98,
+     "xp_before": 0,
+     "xp_after": 98,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 98,
+     "pct": 0,
+     "pen": 0,
+     "award": 98,
+     "xp_before": 0,
+     "xp_after": 98,
+     "capped": null,
+     "zero": false
+    },
+    "septima": {
+     "share": 0.5,
+     "why": null,
+     "base": 98,
+     "pct": 0,
+     "pen": 0,
+     "award": 98,
+     "xp_before": 0,
+     "xp_after": 98,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 198,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -5439,14 +5626,17 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a mace with a bronze flanged head and a double-serpent haft",
+    "desc": "Mace +1",
     "value_gp": null,
     "apparent_gp": 15.0,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "general method of use"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": true,
    "sold": null,
    "judge": [
@@ -6381,6 +6571,129 @@
    "sold": null,
    "judge": [],
    "divided_day": 196
+  },
+  "L78": {
+   "id": "L78",
+   "adventure": "A11",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 7.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 198,
+    "where": "B2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1250.0,
+    "stone": 7.0,
+    "name": "canopic shrine of gilded cedar with bronze cobras",
+    "merch": null
+   },
+   "player": {
+    "desc": "a gilded cedar shrine with bronze cobras, chest-high",
+    "value_gp": 1250.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 198,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L79": {
+   "id": "L79",
+   "adventure": "A11",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.6667,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 198,
+    "where": "B2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 100.0,
+    "stone": 0.6667,
+    "name": "four terracotta canopic jars of embalmed organs",
+    "merch": null
+   },
+   "player": {
+    "desc": "four lidded terracotta jars, heavy and sealed",
+    "value_gp": 100.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 110.0,
+    "market": "Cyfaraun (Market)",
+    "day": 198,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L80": {
+   "id": "L80",
+   "adventure": "A11",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.3333,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 198,
+    "where": "B2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 28.0,
+    "stone": 1.3333,
+    "name": "four intact terracotta vases with geometric patterns",
+    "merch": null
+   },
+   "player": {
+    "desc": "four painted terracotta vases, unbroken",
+    "value_gp": 28.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 30.8,
+    "market": "Cyfaraun (Market)",
+    "day": 198,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
   }
  },
  "hoards": {},

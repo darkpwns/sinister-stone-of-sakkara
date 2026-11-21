@@ -20,6 +20,9 @@ tags:
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | 104 gold pieces | 104 | neris |
 | 196 | Secrets of the Nethercity, delve 5 | 80 gold pieces | 80 | quirinus |
 | 196 | Secrets of the Nethercity, delve 5 | 88 gold pieces | 88 | iulia |
+| 198 | Secrets of the Nethercity, delve 6 | canopic shrine of gilded cedar with bronze cobras | 1,250 | septima |
+| 198 | Secrets of the Nethercity, delve 6 | four terracotta canopic jars of embalmed organs | 100 | phaedra |
+| 198 | Secrets of the Nethercity, delve 6 | four intact terracotta vases with geometric patterns | 28 | phaedra |
 
 ## Monster XP
 
@@ -31,6 +34,8 @@ tags:
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Rhagodessa (AX3) | 2 | 215 | 430 |
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Insect Swarm | 3 | 65 | 195 |
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Fungal Creeper (SOTN) | 1 | 65 | 65 |
+| 198 | Secrets of the Nethercity, delve 6 | Skeleton | 12 | 13 | 156 |
+| 198 | Secrets of the Nethercity, delve 6 | Skeleton | 18 | 13 | 234 |
 
 ## Shares and XP awarded
 
@@ -59,6 +64,18 @@ tags:
 | 196 | Secrets of the Nethercity, delve 5 | Ottar | 0.5 | 11 | 0 | 0 | +0% | 11 |
 | 196 | Secrets of the Nethercity, delve 5 | Quirinus | 0.5 | 11 | 0 | 0 | +0% | 11 |
 | 196 | Secrets of the Nethercity, delve 5 | Phaedra | 0.5 | 11 | 0 | 0 | +0% | 11 |
+| 198 | Secrets of the Nethercity, delve 6 | Lucilla | 1 | 153 | 43 | 0 | +10% | 216 |
+| 198 | Secrets of the Nethercity, delve 6 | Vettius | 1 | 153 | 43 | 0 | +5% | 206 |
+| 198 | Secrets of the Nethercity, delve 6 | Vestus the Unlikely | 1 | 153 | 43 | 0 | +5% | 206 |
+| 198 | Secrets of the Nethercity, delve 6 | Neris | 1 | 153 | 43 | 0 | +0% | 196 |
+| 198 | Secrets of the Nethercity, delve 6 | Brennus | 1 | 153 | 43 | 0 | +5% | 206 |
+| 198 | Secrets of the Nethercity, delve 6 | Iulia | 1 | 153 | 43 | 0 | +5% | 206 |
+| 198 | Secrets of the Nethercity, delve 6 | Ottar | 0.5 | 77 | 22 | 0 | +0% | 98 |
+| 198 | Secrets of the Nethercity, delve 6 | Quirinus | 0.5 | 77 | 22 | 0 | +0% | 98 |
+| 198 | Secrets of the Nethercity, delve 6 | Phaedra | 0.5 | 77 | 22 | 0 | +0% | 98 |
+| 198 | Secrets of the Nethercity, delve 6 | Varro | 0.5 | 77 | 22 | 0 | +0% | 98 |
+| 198 | Secrets of the Nethercity, delve 6 | Hrodvar | 0.5 | 77 | 22 | 0 | +0% | 98 |
+| 198 | Secrets of the Nethercity, delve 6 | Septima | 0.5 | 77 | 22 | 0 | +0% | 98 |
 
 ## Wages
 
@@ -496,3 +513,40 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 197 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
 | 197 | Silk Pony Inn (#25) | beds for twelve, night of day 197 |  |  | 2gp 4sp | lucilla |
 | 198 | Cyfaraun | Crowbar | 1 |  | 9sp | lucilla |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 |  | treasure share |  |  |  |  |
+| 198 | Cyfaraun buyers (sale of L78-L80) | sale of the B2 shrine, jars and vases (sell: proceeds not allocated) |  | 1,515gp 8sp |  | lucilla |
+| 198 | vettius | share of the B2 sale (A11, 1 share) |  |  | 168gp 4sp | lucilla |
+| 198 | vestus-the-unlikely | share of the B2 sale (A11, 1 share) |  |  | 168gp 4sp | lucilla |
+| 198 | neris | share of the B2 sale (A11, 1 share) |  |  | 168gp 4sp | lucilla |
+| 198 | brennus | share of the B2 sale (A11, 1 share) |  |  | 168gp 4sp | lucilla |
+| 198 | iulia | share of the B2 sale (A11, 1 share) |  |  | 168gp 4sp | lucilla |
+| 198 | ottar | share of the B2 sale (A11, half share) |  |  | 84gp 2sp | lucilla |
+| 198 | quirinus | share of the B2 sale (A11, half share) |  |  | 84gp 2sp | lucilla |
+| 198 | phaedra | share of the B2 sale (A11, half share) |  |  | 84gp 2sp | lucilla |
+| 198 | varro | share of the B2 sale (A11, half share) |  |  | 84gp 2sp | lucilla |
+| 198 | hrodvar | share of the B2 sale (A11, half share) |  |  | 84gp 2sp | lucilla |
+| 198 | septima | share of the B2 sale (A11, half share) |  |  | 84gp 2sp | lucilla |
+| 198 | lucilla | share of the B2 sale (A11, 1 share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 168gp 4sp |  | vettius |
+| 198 | lucilla | share of the B2 sale (A11, 1 share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 168gp 4sp |  | vestus-the-unlikely |
+| 198 | lucilla | share of the B2 sale (A11, 1 share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 168gp 4sp |  | neris |
+| 198 | lucilla | share of the B2 sale (A11, 1 share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 168gp 4sp |  | brennus |
+| 198 | lucilla | share of the B2 sale (A11, 1 share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 168gp 4sp |  | iulia |
+| 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | ottar |
+| 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | quirinus |
+| 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | phaedra |
+| 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | varro |
+| 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | hrodvar |
+| 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | septima |
+| 198 | vettius | signing bonus, a month's wage (day 197); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 25gp |  | septima |
+| 198 | a Cyfaraun timber yard | oak props for the B4 block |  |  | 4gp | iulia |

@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 198,
-  "round_of_day": 635,
-  "total_rounds": 283835
+  "round_of_day": 766,
+  "total_rounds": 283966
  },
  "party": {
   "lucilla": {
@@ -84,7 +84,8 @@
    "name": "Phaedra",
    "perceived": "Phaedra",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 2.0
   },
   "varro": {
    "id": "varro",
@@ -108,7 +109,8 @@
    "name": "Septima",
    "perceived": "Septima",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 7.0
   }
  },
  "lights": [
@@ -350,20 +352,38 @@
    "id": "torch65",
    "kind": "torch",
    "carrier": "ottar",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 10,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch66",
+   "kind": "torch",
+   "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch67",
+   "kind": "torch",
+   "carrier": "septima",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
    "tallow": false
   }
  ],
  "timers": [
   {
-   "id": "t7",
+   "id": "t8",
    "label": "unsettling event throw (Nethercity)",
-   "rounds_left": 20,
+   "rounds_left": 11,
    "hidden": true,
    "source": null,
-   "started": "day 198 08:55"
+   "started": "day 198 10:57"
   }
  ],
  "rest": {
@@ -371,50 +391,16 @@
   "rest_rounds": 0,
   "winded": []
  },
- "location": {
-  "site": "Nethercity sewer caves",
-  "kind": "dungeon",
-  "level": 2,
-  "room": "B1",
-  "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
-  },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-sewer-caves.yaml",
-  "source": {
-   "hub": "Adventure/SOTN/SOTN Hub.md",
-   "wandering": "site setting: '1d6 every 3 turns, 6+' (Adventure/SOTN/SOTN Hub.md)"
-  }
- },
+ "location": null,
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 198 10:20",
+   "at": "day 198 11:50",
    "roll": 1,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 195 10:00",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 195 10:40",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 195 11:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 195 11:40",
     "roll": 3,
@@ -516,13 +502,31 @@
     "roll": 1,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 198 10:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 198 11:20",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 198 11:50",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 283830
+  "turn_start_done": 283950
  },
  "turn_actions": {
-  "turn": 28383,
+  "turn": 28396,
   "listened": [],
   "actions": []
  },
@@ -1332,8 +1336,8 @@
    "rest_rounds": 0
   },
   "198": {
-   "delve_rounds": 180,
-   "rest_rounds": 30
+   "delve_rounds": 281,
+   "rest_rounds": 50
   }
  },
  "events": [
@@ -2979,9 +2983,9 @@
   }
  ],
  "next_ids": {
-  "enc": 151,
-  "torch": 65,
-  "t": 7,
+  "enc": 152,
+  "torch": 67,
+  "t": 8,
   "lantern": 1
  },
  "travel": {
@@ -5181,7 +5185,7 @@
     "rest_pending": true
    },
    "brennus": {
-    "hp": 5,
+    "hp": 1,
     "hp_max": 6,
     "con": 12,
     "con_mod": 0,
@@ -5242,7 +5246,7 @@
     "strenuous_run": 0,
     "forced_run": 0,
     "sleep_due": null,
-    "bed_rest": 0,
+    "bed_rest": 7,
     "protective": null,
     "wet": false,
     "native": null,
@@ -5367,7 +5371,7 @@
     "rest_pending": true
    },
    "quirinus": {
-    "hp": 18,
+    "hp": 11,
     "hp_max": 18,
     "con": 16,
     "con_mod": 2,
@@ -41586,14 +41590,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc132",
-   "at": "day 187 07:20",
-   "monster_name": "Carrion Horror",
-   "number": 1,
-   "reaction": "indifferent",
-   "status": "fighting"
-  },
-  {
    "id": "enc133",
    "at": "day 187 07:43",
    "monster_name": "Carrion Horror",
@@ -41743,6 +41739,14 @@
    "at": "day 198 10:18",
    "monster_name": "Skeleton",
    "number": 12,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc152",
+   "at": "day 198 10:59",
+   "monster_name": "Skeleton",
+   "number": 18,
    "reaction": null,
    "status": "fighting"
   }
