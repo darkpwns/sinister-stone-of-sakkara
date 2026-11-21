@@ -32,20 +32,31 @@ prefecture's capital to hire a priestess of their own, carrying a letter from Pr
   rations for all.
 - Days 171-173, to Cyfaraun (7 hexes): shepherds; a friendly merchant camp at 21.09 (a rumour of the Argollëan
   Family's shadow war); a large cavalry patrol; across the Mirmen. Arrived day 173, 08:20.
+- Days 173-186, Cyfaraun: at the Temple of the Hearth Fire a sister of Mityara read Genelen's letter and turned the
+  party away coldly. Vettius lay twelve days in the Keepers' hospital (12gp). Sabina searched the city for a priestess
+  and found one novice: Neris, who took service at the third offer (35gp a month and a month's bonus). Lucilla hired
+  Ottar, a peltmonger, as torch-bearer (12gp), and passed on a scrawny fighter and a chandler who would not commit.
+  Lodged at the Silk Pony (beds 2sp); evenings in the taverns and the Mink gave three rumours, one about a mad
+  patrician who may live with the lepers in the undercity. Day 186: Vettius rose; Neris' and Sabina's cures made him
+  whole. Iron rations for everyone; the animals and cart stabled at the Silk Pony.
 
 ## Who they met
 - A brigand band (Friendly, night of day 161); a merchant camp (Friendly, 21.09).
 - An unnamed priest of Türos Orn (healed Vettius).
+- A sister of Mityara at the Temple of the Hearth Fire (Unfriendly): tall, ash-smudged sleeves, reads with her lips pressed thin; "Genelen sends us soldiers now?"
+- Neris, novice of Mityara (hired by Sabina): slight, sun-freckled, very quiet; holds her holy symbol in both hands when nervous.
+- Ottar, peltmonger (hired by Lucilla): broad, slow-moving, smells of tannery; laughs at his own jokes.
 
 ## Treasure and XP
 
 ## Rumours given
 - Day 171: the Argollëan Family and Sand & Bones (merchant, 21.09).
+- Days 176-178, Cyfaraun: Silk Pony gladiators; the Order of the Eclipse and the bodies in the river; Tavus Ionicus and the lepers of the undercity.
 
 ## Changes to the world
 
 ## Next time
-In Cyfaraun: lodging (Vettius' bed rest, 12 days left), the Keepers of the Hearth Fire with Genelen's letter, a week's search for a priestess henchman.
+Day 186, Cyfaraun, all healed. The party means to go down into the sewers from the Old District and look for the lepers' colony and whatever lies beneath.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 8). Slips, voids and findings: Playtest/judge-notes.txt (S08 section). Encounters: giant slug (intimidated, fled), 26 brigands (Friendly), 13 mountain curs (safe haven, passed), 10 and 25 patrollers (Indifferent), shepherds (Neutral), goats, cattle, merchants (Indifferent; Friendly at 21.09). Hazard 26.14: brittle ledges (rock-cut pit, 5th level). Despoiled shortcut 25.14 (cause: beastmen, not searched). Türos Orn caster: Try Again, then accepted at double fee.

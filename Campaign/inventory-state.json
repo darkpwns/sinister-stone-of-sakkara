@@ -236,6 +236,12 @@
    "name": "Neris",
    "actor": "neris",
    "status": "active"
+  },
+  "ottar": {
+   "kind": "henchman",
+   "name": "Ottar",
+   "actor": "ottar",
+   "status": "active"
   }
  },
  "custom": {
@@ -17851,6 +17857,948 @@
    "coins": [],
    "cmd": "inv add",
    "n": 714
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -12
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 1200,
+   "cmd": "inv pay",
+   "n": 715
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 716
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -18
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Leather Armor",
+   "packs": 1,
+   "price_cp": 1800,
+   "cmd": "inv buy",
+   "n": 717
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "#w32",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 3,
+     "gp": -3
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Spear",
+   "packs": 1,
+   "price_cp": 270,
+   "cmd": "inv buy",
+   "new_instances": [
+    {
+     "id": "w32",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "bought in Cyfaraun",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 718
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 2,
+     "gp": -2
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Backpack (holds 4 stone)",
+   "packs": 1,
+   "price_cp": 180,
+   "cmd": "inv buy",
+   "n": 719
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -7,
+     "gp": -2
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Waterskin",
+   "packs": 5,
+   "price_cp": 270,
+   "cmd": "inv buy",
+   "n": 720
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -9
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Shield",
+   "packs": 1,
+   "price_cp": 900,
+   "cmd": "inv buy",
+   "n": 721
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 12
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 2,
+     "sp": -2
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Torches (6)",
+   "packs": 2,
+   "price_cp": 18,
+   "cmd": "inv buy",
+   "n": 722
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 7,
+     "gp": -1
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 6,
+   "row": "Oil, Common (1 pint)",
+   "packs": 1,
+   "price_cp": 27,
+   "cmd": "inv buy",
+   "n": 723
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, night of day 175",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 724
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 176,
+   "time": "day 176 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": -10,
+     "sp": -3,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 725
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 177,
+   "time": "day 177 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 726
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 178,
+   "time": "day 178 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 727
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, night of day 178",
+   "day": 178,
+   "time": "day 178 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 728
+  },
+  {
+   "op": "pay",
+   "cause": "rounds bought, asking about the sewers",
+   "day": 178,
+   "time": "day 178 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -2
+    }
+   ],
+   "to": "the Mink (#11)",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 729
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 179,
+   "time": "day 179 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 730
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 180,
+   "time": "day 180 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 731
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 181,
+   "time": "day 181 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 732
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 182,
+   "time": "day 182 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 733
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 183,
+   "time": "day 183 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 734
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 184,
+   "time": "day 184 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 735
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 185,
+   "time": "day 185 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 736
+  },
+  {
+   "op": "pay",
+   "cause": "beds for seven, one night",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -2
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 737
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "sabina",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 738
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "tarq",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 739
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 740
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": 6,
+     "gp": -6
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 741
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "hesper",
+     "cp": -10,
+     "sp": 7,
+     "gp": -6
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 742
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 743
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "sabina",
+     "sp": 6,
+     "gp": -6
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 744
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": 6,
+     "gp": -6
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 7,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 745
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to sabina: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 15.5 d, water 0 d, firewood 0 st; lucilla food 3 d, water 1 d, firewood 0 st; vettius food 3 d, water 0 d, firewood 0 st; hesper food 5 d, water 1 d, firewood 0 st; vestus-the-unlikely food 12 d, water 1 d, firewood 0 st; neris food 0 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 746
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to tarq: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 3 d, water 1 d, firewood 0 st; vettius food 3 d, water 0 d, firewood 0 st; hesper food 5 d, water 1 d, firewood 0 st; vestus-the-unlikely food 12 d, water 1 d, firewood 0 st; neris food 0 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 747
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to lucilla: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 10 d, water 1 d, firewood 0 st; vettius food 3 d, water 0 d, firewood 0 st; hesper food 5 d, water 1 d, firewood 0 st; vestus-the-unlikely food 12 d, water 1 d, firewood 0 st; neris food 0 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 748
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vettius: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; hesper food 5 d, water 1 d, firewood 0 st; vestus-the-unlikely food 12 d, water 1 d, firewood 0 st; neris food 0 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 749
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to hesper: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; hesper food 12 d, water 1 d, firewood 0 st; vestus-the-unlikely food 12 d, water 1 d, firewood 0 st; neris food 0 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 750
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vestus-the-unlikely: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; hesper food 12 d, water 1 d, firewood 0 st; vestus-the-unlikely food 19 d, water 1 d, firewood 0 st; neris food 0 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 751
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to neris: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; hesper food 12 d, water 1 d, firewood 0 st; vestus-the-unlikely food 19 d, water 1 d, firewood 0 st; neris food 7 d, water 0 d, firewood 0 st; ottar food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 752
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to ottar: 7 days of iron rations; supplies: sabina food 11 d, water 2.6 d, firewood 0 st; tarq food 22.5 d, water 0 d, firewood 0 st; lucilla food 10 d, water 1 d, firewood 0 st; vettius food 10 d, water 0 d, firewood 0 st; hesper food 12 d, water 1 d, firewood 0 st; vestus-the-unlikely food 19 d, water 1 d, firewood 0 st; neris food 7 d, water 0 d, firewood 0 st; ottar food 7 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of sabina, tarq, vettius); donkey2 fodder 0 st, water 0 st (carries the supplies of lucilla); mule1 fodder 0 st, water 0 st",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [
+    {
+     "who": "ottar",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 753
+  },
+  {
+   "op": "pay",
+   "cause": "stalls for mule1, donkey1, donkey2 and the cart, days 175-188 (2sp a stall a day)",
+   "day": 186,
+   "time": "day 186 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -4,
+     "gp": -8
+    }
+   ],
+   "to": "Silk Pony Inn (#25)",
+   "price_cp": 840,
+   "cmd": "inv pay",
+   "n": 754
   }
  ],
  "holdings": {
@@ -17934,7 +18882,7 @@
     "ink (1 pint)": 1,
     "waterskin": 5,
     "collection of ancient coins": 1,
-    "oil, common (1 pint)": 2,
+    "oil, common (1 pint)": 3,
     "rope, 50'": 1,
     "torch": 6
    },
@@ -18195,29 +19143,47 @@
    "right_hand": {
     "holy symbol": 1
    }
+  },
+  "ottar": {
+   "armor": {
+    "leather armor": 1
+   },
+   "belt": {
+    "#w32": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 5,
+    "torch": 12
+   },
+   "left_hand": {
+    "shield": 1
+   }
   }
  },
  "coins": {
   "sabina": {
-   "sp": 5,
-   "gp": 804,
+   "sp": 7,
+   "gp": 793,
    "cp": 8
   },
   "tarq": {
-   "gp": 866,
-   "sp": 4,
+   "gp": 861,
    "cp": 8
   },
   "lucilla": {
-   "gp": 732,
-   "sp": 4,
-   "cp": 7
+   "gp": 642,
+   "sp": 8,
+   "cp": 2
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 463,
+   "gp": 449,
+   "sp": 2,
    "cp": 9
   },
   "durio": {
@@ -18226,16 +19192,16 @@
    "sp": 2
   },
   "hesper": {
-   "gp": 412,
-   "cp": 13
+   "gp": 406,
+   "cp": 3,
+   "sp": 7
   },
   "karanos-bank": {
    "gp": 13732
   },
   "vestus-the-unlikely": {
    "cp": 5,
-   "sp": 4,
-   "gp": 362
+   "gp": 357
   },
   "zaira-the-beautiful": {
    "cp": 5,
@@ -20183,6 +21149,71 @@
      "catalog": {
       "table": "weapons-other-weapons",
       "row": 9
+     }
+    }
+   }
+  },
+  "w32": {
+   "id": "w32",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "bought in Cyfaraun",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
      }
     }
    }

@@ -358,3 +358,35 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 173 | Hospital of the Keepers (#59) | a bed and healer's care for 12 days of bed rest (donation at the RR healer rate, 1gp a day; Judge's call) |  |  | 12gp | vettius |
 | 175 | the retinue | wages paid |  |  | 35gp | sabina |
 | 175 | Neris | signing bonus: a month's wage |  |  | 35gp | sabina |
+| 175 | brokers and criers | recruiting fee (a week's search) |  |  | 12gp | lucilla |
+| 175 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 175 | Cyfaraun | Leather Armor | 1 |  | 18gp | lucilla |
+| 175 | Cyfaraun | Spear | 1 |  | 2gp 7sp | lucilla |
+| 175 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
+| 175 | Cyfaraun | Waterskin | 5 |  | 2gp 7sp | lucilla |
+| 175 | Cyfaraun | Shield | 1 |  | 9gp | lucilla |
+| 175 | Cyfaraun | torch | 12 |  | 1sp 8cp | lucilla |
+| 175 | Cyfaraun | Oil, Common (1 pint) | 1 |  | 2sp 7cp | lucilla |
+| 175 | Silk Pony Inn (#25) | beds for seven, night of day 175 |  |  | 1gp 4sp | lucilla |
+| 176 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 177 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 178 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 178 | Silk Pony Inn (#25) | beds for seven, night of day 178 |  |  | 1gp 4sp | lucilla |
+| 178 | the Mink (#11) | rounds bought, asking about the sewers |  |  | 2gp | lucilla |
+| 179 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 180 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 181 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 182 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 183 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 184 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 185 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 186 | Silk Pony Inn (#25) | beds for seven, one night |  |  | 1gp 4sp | lucilla |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | sabina |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | tarq |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | hesper |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | vestus-the-unlikely |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | sabina |
+| 186 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 186 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 175-188 (2sp a stall a day) |  |  | 8gp 4sp | vettius |

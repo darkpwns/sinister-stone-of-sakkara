@@ -1,14 +1,14 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795260778,
+ "generated": 1795261023,
  "date": {
   "year": "",
-  "season": "summer",
-  "day": 175
+  "season": "fall",
+  "day": 186
  },
  "time": "08:20",
- "weather": "Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; heavy rain; wind gentle (rainy)",
+ "weather": "Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle",
  "place": "Cyfaraun",
  "hex": "18.05",
  "party": [
@@ -23,7 +23,7 @@
     "minor scarring (fang mark on the hand)"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.243
+   "encumbrance_st": 9.319
   },
   {
    "name": "Sabina",
@@ -34,8 +34,10 @@
    "conditions": [
     "one eye clawed out (-2 to missile attack throws)"
    ],
-   "spells_used": [],
-   "encumbrance_st": 8.817
+   "spells_used": [
+    "Cure Light Injury"
+   ],
+   "encumbrance_st": 8.808
   },
   {
    "name": "Tarq",
@@ -50,19 +52,17 @@
     "one hand bitten off (cannot dual-wield or use two-handed weapons)"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.545
+   "encumbrance_st": 9.536
   },
   {
    "name": "Vettius",
    "sheet": "Characters/vettius.json",
    "role": "pc",
-   "hp": 3,
+   "hp": 12,
    "hp_max": 12,
-   "conditions": [
-    "bed rest 2 weeks from day 171 (Tampering with Mortality 11: spine restored, no side effect)"
-   ],
+   "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 8.972
+   "encumbrance_st": 8.96
   },
   {
    "name": "Hesper",
@@ -72,7 +72,7 @@
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.425
+   "encumbrance_st": 5.416
   },
   {
    "name": "Vestus the Unlikely",
@@ -90,12 +90,25 @@
    "hp": 4,
    "hp_max": 4,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Cure Light Injury",
+    "Cure Light Injury"
+   ],
    "encumbrance_st": 2.167
+  },
+  {
+   "name": "Ottar",
+   "sheet": "Characters/ottar.json",
+   "role": "henchman",
+   "hp": 2,
+   "hp_max": 2,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 7
   }
  ],
  "light": "none",
- "rations": "Sabina: food 4 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 3 d, water 1 d; Vettius: food 3 d, water 0 d (incapacitated); Hesper: food 5 d, water 1 d; Vestus the Unlikely: food 12 d, water 1 d; Neris: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "rations": "Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -330,11 +343,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 412,
-    "sp": 0,
-    "cp": 13
+    "gp": 406,
+    "sp": 7,
+    "cp": 3
    },
-   "encumbrance_st": 5.425,
+   "encumbrance_st": 5.416,
    "weapons": [
     {
      "name": "Spear",
@@ -564,7 +577,7 @@
      "contents": [
       "Ink (1 pint)",
       "Journal",
-      "Oil, Common (1 pint) ×2",
+      "Oil, Common (1 pint) ×3",
       "Quill, writing",
       "Rope, 50'",
       "Waterskin ×5",
@@ -572,7 +585,7 @@
       "collection of ancient coins",
       "torch ×6"
      ],
-     "items": 17,
+     "items": 18,
      "stone": 1
     },
     "sack": {
@@ -595,11 +608,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 732,
-    "sp": 4,
-    "cp": 7
+    "gp": 642,
+    "sp": 8,
+    "cp": 2
    },
-   "encumbrance_st": 9.243,
+   "encumbrance_st": 9.319,
    "weapons": [
     {
      "name": "Dagger",
@@ -1075,6 +1088,244 @@
   },
   {
    "type": "character",
+   "role": "henchman",
+   "name": "Ottar",
+   "class": "None (0th level)",
+   "occupation": "Peltmonger/Skinner",
+   "level": 0,
+   "xp": 0,
+   "xp_bonus": "",
+   "alignment": "",
+   "birthplace": "",
+   "age": 27,
+   "gender": "",
+   "size": "man-sized",
+   "hp_max": 2,
+   "initiative": -1,
+   "surprise": 0,
+   "avoid_surprise": 0,
+   "save_mods": {
+    "paralysis": "",
+    "death": "",
+    "blast": "",
+    "implements": "",
+    "spells": ""
+   },
+   "movement": {
+    "stealth": 0,
+    "climb": 0,
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
+   },
+   "healing_rate": "",
+   "mortal_wounds": 0,
+   "class_features": "",
+   "languages": [],
+   "hired": {
+    "date": "day 175",
+    "wage_gp": 12.0,
+    "market": "Cyfaraun",
+    "employer": "Lucilla",
+    "terms": ""
+   },
+   "attributes": {
+    "STR": {
+     "score": 14,
+     "mod": 1
+    },
+    "INT": {
+     "score": 7,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 14,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 6,
+     "mod": -1
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "hit_die": "1/2 HD",
+   "xp_next": 660,
+   "attack_table": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "proficiencies": {
+    "class": [],
+    "general": [
+     {
+      "name": "Profession (merchant)",
+      "throw": ""
+     },
+     {
+      "name": "Craft (tanning)",
+      "throw": ""
+     },
+     {
+      "name": "Bargaining",
+      "throw": ""
+     },
+     {
+      "name": "Folkways",
+      "throw": ""
+     }
+    ],
+    "gained_at": ""
+   },
+   "spells": {
+    "repertoire": {
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Leather Armor",
+     "stone": 2
+    },
+    "right_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "Shield",
+     "items": 0,
+     "stone": 1
+    },
+    "belt": {
+     "item": "Spear",
+     "items": 0,
+     "stone": 1
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [
+      "Waterskin ×5",
+      "torch ×12"
+     ],
+     "items": 17,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
+   },
+   "encumbrance_st": 7,
+   "weapons": [
+    {
+     "name": "Spear",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d6/1d8+1",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "belt"
+    }
+   ],
+   "gems": "",
+   "treasure": [],
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 14,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 2,
+    "no_shield": 2,
+    "dex_only": -1
+   },
+   "sheet": {
+    "profile": "0th-level",
+    "class": "None (0th level)",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "possessions"
+    ]
+   }
+  },
+  {
+   "type": "character",
    "role": "pc",
    "name": "Sabina",
    "class": "Crusader",
@@ -1229,11 +1480,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 804,
-    "sp": 5,
+    "gp": 793,
+    "sp": 7,
     "cp": 8
    },
-   "encumbrance_st": 8.817,
+   "encumbrance_st": 8.808,
    "weapons": [
     {
      "name": "Mace",
@@ -1653,11 +1904,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 866,
-    "sp": 4,
+    "gp": 861,
+    "sp": 0,
     "cp": 8
    },
-   "encumbrance_st": 9.545,
+   "encumbrance_st": 9.536,
    "weapons": [
     {
      "name": "Battle Axe",
@@ -2109,11 +2360,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 463,
-    "sp": 0,
+    "gp": 449,
+    "sp": 2,
     "cp": 9
    },
-   "encumbrance_st": 8.972,
+   "encumbrance_st": 8.96,
    "weapons": [
     {
      "name": "Short Sword",
@@ -2298,172 +2549,6 @@
   }
  ],
  "open_rolls": [
-  {
-   "label": "rock 2",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "rock 3",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Sabina throw",
-   "spec": "1d20",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Mortal Wounds Vettius d20",
-   "spec": "1d20",
-   "rolls": [
-    10
-   ],
-   "total": 10
-  },
-  {
-   "label": "Mortal Wounds Vettius d6",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Sabina Cure Light Injury on Vettius",
-   "spec": "1d6+1",
-   "rolls": [
-    3
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather temperature (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    4
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather precipitation (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    4
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather wind (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    3
-   ],
-   "total": 8
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    11
-   ],
-   "total": 13
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    7
-   ],
-   "total": 9
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    16
-   ],
-   "total": 18
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    18
-   ],
-   "total": 20
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    5
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather temperature (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    6
-   ],
-   "total": 11
-  },
-  {
-   "label": "weather precipitation (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather wind (R07.04)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    6
-   ],
-   "total": 11
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    18
-   ],
-   "total": 20
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    19
-   ],
-   "total": 21
-  },
-  {
-   "label": "Sabina death save",
-   "spec": "1d20+2",
-   "rolls": [
-    12
-   ],
-   "total": 14
-  },
   {
    "label": "Sabina death save",
    "spec": "1d20+2",
@@ -2721,6 +2806,169 @@
     1
    ],
    "total": 6
+  },
+  {
+   "label": "search fee 0th level (Class III)",
+   "spec": "1d8+5",
+   "rolls": [
+    7
+   ],
+   "total": 12
+  },
+  {
+   "label": "search fee Fighter of level 2 (Class III)",
+   "spec": "1d8+5",
+   "rolls": [
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "search fee Fighter of level 1 (Class III)",
+   "spec": "1d8+5",
+   "rolls": [
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "vettius natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Neris Cure Light Injury on Vettius",
+   "spec": "1d6+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "Neris Cure Light Injury on Vettius",
+   "spec": "1d6+1",
+   "rolls": [
+    5
+   ],
+   "total": 6
+  },
+  {
+   "label": "Sabina Cure Light Injury on Vettius",
+   "spec": "1d6+1",
+   "rolls": [
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R05.02)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather precipitation (R05.02)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    3
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R05.02)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    5
+   ],
+   "total": 6
   }
  ],
  "rumours_heard": [
@@ -2731,7 +2979,10 @@
   "Day 38, the buried temple: drunken brigands, friendly over a shared bottle, said the hobgoblins butchered the goblins, an ogre at the west end of the northern hall takes tribute (gold or meat), the orcs charge 20 a head, and their chief Drusus would welcome hard folk.",
   "Day 38, the buried temple: overawed kobold guards babbled about 'the great purple one' who sleeps in the stepped tower in the courtyard, and whom they serve in terror.",
   "Day 48, the buried temple: friendly orcs, boasting, said 'the Lady Below' rewards any band that wipes out one of her lesser tribes, as she rewarded the Red Eye gnolls.",
-  "Day 171, the Imperial road (21.09), a friendly merchant camped by the road: the Argollëan Family has stepped up its shadow war on Sand & Bones in Cyfaraun, murdering merchants who would use Selene's services instead; hence the mutilated corpses on the river banks."
+  "Day 171, the Imperial road (21.09), a friendly merchant camped by the road: the Argollëan Family has stepped up its shadow war on Sand & Bones in Cyfaraun, murdering merchants who would use Selene's services instead; hence the mutilated corpses on the river banks.",
+  "Day 176, Cyfaraun, drinkers in a tavern: adventurers who want to prove themselves as gladiators before the next festival should try the Silk Pony: good coin if you don't mind blood.",
+  "Day 177, Cyfaraun, drinkers in a tavern: the Order of the Eclipse beheads the bodies in the river; beware those who serve the Lady of Fortune, a dark goddess of buried riches.",
+  "Day 178, Cyfaraun, a patron of the Mink, asked about the sewers: poor Tavus Ionicus, last of a ruined landless patrician house, went mad and lost what little he had; maybe he lives with the lepers in the undercity."
  ],
  "requests_done": []
 }

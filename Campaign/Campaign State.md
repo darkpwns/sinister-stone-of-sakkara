@@ -9,10 +9,10 @@ adventure: Secrets of the Nethercity (AX2), the journey to Cyfaraun
 public:
   date:
     year: ''
-    season: summer
-    day: 175
+    season: fall
+    day: 186
   time: 08:20
-  weather: Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; heavy rain; wind gentle (rainy)
+  weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; mostly cloudy; wind gentle
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.243
+    encumbrance_st: 9.319
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
@@ -33,8 +33,9 @@ public:
     hp_max: 16
     conditions:
     - one eye clawed out (-2 to missile attack throws)
-    spells_used: []
-    encumbrance_st: 8.817
+    spells_used:
+    - Cure Light Injury
+    encumbrance_st: 8.808
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
@@ -46,16 +47,15 @@ public:
     - skull wound, brain fluid leaked (-2 on magical research and proficiency throws, -10% earned XP)
     - one hand bitten off (cannot dual-wield or use two-handed weapons)
     spells_used: []
-    encumbrance_st: 9.545
+    encumbrance_st: 9.536
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 3
+    hp: 12
     hp_max: 12
-    conditions:
-    - 'bed rest 2 weeks from day 171 (Tampering with Mortality 11: spine restored, no side effect)'
+    conditions: []
     spells_used: []
-    encumbrance_st: 8.972
+    encumbrance_st: 8.96
   - name: Hesper
     sheet: Characters/hesper.json
     role: pc
@@ -63,7 +63,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 5.425
+    encumbrance_st: 5.416
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -77,10 +77,20 @@ public:
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
+    - Cure Light Injury
     encumbrance_st: 2.167
+  - name: Ottar
+    sheet: Characters/ottar.json
+    role: henchman
+    hp: 2
+    hp_max: 2
+    conditions: []
+    spells_used: []
+    encumbrance_st: 7
   light: none
-  rations: 'Sabina: food 4 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 3 d, water 1 d; Vettius: food 3 d, water 0 d (incapacitated); Hesper: food 5 d, water 1 d; Vestus the Unlikely: food 12 d, water 1 d; Neris: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 11 d, water 2.6 d; Tarq: food 22.5 d, water 0 d; Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -104,7 +114,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 175
+clock_day: 186
 ---
 # Campaign State
 

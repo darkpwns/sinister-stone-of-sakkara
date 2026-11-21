@@ -35,6 +35,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | --- | --- | --- | --- |
 
 ## NPC attitudes
+- Cyfaraun (S08): a sister of the Temple of the Hearth Fire Unfriendly (day 173, read Genelen's letter); a Türos Orn priest healed Vettius at double fee.
 - Legate Valerian: Neutral (paid the reward day 146; will arrest the party if raids resume). Priestess Genelen: Friendly (holds the Fragments for Mityara's order). Annalist Socolo: Friendly (identified common items). Ur-Shet: Indifferent (day 142).
 
 ## Former characters (day 161)
@@ -47,3 +48,6 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Scheduled events
 
 ## Prep queue (Judge only)
+- S08: Cyfaraun NPCs invented: the Hearth Fire sister (Unfriendly, day 173); Neris (henchman, Priestess 1, STR 4, 4 hp; proficiency Healing not on the actor); Ottar (henchman, 0th, 2 hp). Not hired: Kaeso (Fighter 1, C14), Bran the Chandler (C13). Candidates C7-C9, C11-C12 not interviewed.
+- S08 threads: Tavus Ionicus (rumour 20 -> Vagrant Colony #75u); the Undercity from the Old District grates (5+ throw); Nethercity A1 via #12u.
+- Next market month: day 211. Wages: Neris and Ottar paid through day 204.
