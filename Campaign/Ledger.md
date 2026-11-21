@@ -340,3 +340,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 161 | Turos Tem | Rations, Iron (one week) | 1 |  | 5gp 4sp | tarq |
 | 161 | Turos Tem | Rations, Standard (one week) | 2 |  | 5gp 4sp | lucilla |
 | 161 | Turos Tem | Rations, Standard (one week) | 1 |  | 2gp 7sp | vettius |
+| 164 | Turos Aster | Rations, Iron (one week) | 1 |  | 5gp 4sp | hesper |
+| 164 | Turos Aster | Rations, Standard (one week) | 1 |  | 2gp 7sp | hesper |

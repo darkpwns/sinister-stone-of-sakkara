@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 161
+    day: 165
   time: 06:00
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; mostly cloudy; wind moderate
   place: Türos Tem
-  hex: '22.20'
+  hex: '26.18'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -62,7 +62,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 5.461
+    encumbrance_st: 5.443
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -71,14 +71,10 @@ public:
     conditions: []
     spells_used: []
   light: none
-  rations: 'Sabina: food 14 d, water 1.2 d; Tarq: food 8.5 d, water 1 d; Lucilla: food 14 d, water 1 d; Vettius: food 7 d, water 0.4 d; Hesper: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 10 d, water 1.2 d; Tarq: food 8.5 d, water 1 d; Lucilla: food 4 d, water 1 d; Vettius: food 3 d, water 0.4 d; Hesper: food 12 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '19.19'
-  - '20.19'
-  - '21.20'
-  - '22.20'
   - '21.21'
   - '22.20'
   - '21.20'
@@ -95,7 +91,11 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 161
+  - '23.20'
+  - '24.19'
+  - '25.19'
+  - '26.18'
+clock_day: 165
 ---
 # Campaign State
 
