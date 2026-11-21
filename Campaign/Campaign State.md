@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: summer
-    day: 173
+    day: 175
   time: 08:20
-  weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; misty; wind still
+  weather: Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; heavy rain; wind gentle (rainy)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -34,7 +34,7 @@ public:
     conditions:
     - one eye clawed out (-2 to missile attack throws)
     spells_used: []
-    encumbrance_st: 8.887
+    encumbrance_st: 8.817
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
@@ -55,7 +55,7 @@ public:
     conditions:
     - 'bed rest 2 weeks from day 171 (Tampering with Mortality 11: spine restored, no side effect)'
     spells_used: []
-    encumbrance_st: 8.984
+    encumbrance_st: 8.972
   - name: Hesper
     sheet: Characters/hesper.json
     role: pc
@@ -71,8 +71,16 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
+  - name: Neris
+    sheet: Characters/neris.json
+    role: henchman
+    hp: 4
+    hp_max: 4
+    conditions: []
+    spells_used: []
+    encumbrance_st: 2.167
   light: none
-  rations: 'Sabina: food 6 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 5 d, water 1 d; Vettius: food 5 d, water 0 d (incapacitated); Hesper: food 7 d, water 1 d; Vestus the Unlikely: food 14 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Sabina: food 4 d, water 2.6 d; Tarq: food 15.5 d, water 0 d; Lucilla: food 3 d, water 1 d; Vettius: food 3 d, water 0 d (incapacitated); Hesper: food 5 d, water 1 d; Vestus the Unlikely: food 12 d, water 1 d; Neris: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -96,7 +104,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 173
+clock_day: 175
 ---
 # Campaign State
 

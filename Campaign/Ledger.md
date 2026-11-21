@@ -355,3 +355,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | vettius |
 | 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | hesper |
 | 171 | Turos Orn | Rations, Iron (one week) | 1 |  | 5gp 4sp | vestus-the-unlikely |
+| 173 | Hospital of the Keepers (#59) | a bed and healer's care for 12 days of bed rest (donation at the RR healer rate, 1gp a day; Judge's call) |  |  | 12gp | vettius |
+| 175 | the retinue | wages paid |  |  | 35gp | sabina |
+| 175 | Neris | signing bonus: a month's wage |  |  | 35gp | sabina |

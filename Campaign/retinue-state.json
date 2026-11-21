@@ -97,6 +97,24 @@
    "level": 0,
    "wage": "12gp/month",
    "race": "human"
+  },
+  "Cyfaraun|henchman|1st level": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "1st level",
+   "table": "henchmen-availability",
+   "row": 1,
+   "total": 3,
+   "by_week": [
+    2,
+    1,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 1,
+   "wage": "25gp/month"
   }
  },
  "candidates": {
@@ -592,6 +610,97 @@
    "accepted_by": "lucilla",
    "elan": true,
    "offer_wage": 12.0
+  },
+  "C6": {
+   "id": "C6",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Neris",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "sabina",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 175,
+     "wage": 25.0,
+     "signing": null
+    },
+    {
+     "employer": "sabina",
+     "party": "party",
+     "total": 7,
+     "result": "Try Again",
+     "day": 175,
+     "wage": 25.0,
+     "signing": "month"
+    },
+    {
+     "employer": "sabina",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 175,
+     "wage": 35.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 4,
+     "mod": -2
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 12,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 15,
+     "mod": 1
+    },
+    "CON": {
+     "score": 9,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "class": "Priestess",
+   "hit_die": "1d4",
+   "hp_max": 4,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 10,
+    "blast": 16,
+    "implements": 13,
+    "spells": 15
+   },
+   "caster": true,
+   "morale": null,
+   "ac": 1,
+   "wage_table": "25gp/month",
+   "search": "Cyfaraun|rarity|Priestess of level 1|0",
+   "wanted": "Priestess of level 1",
+   "market": "Cyfaraun",
+   "actor": "neris",
+   "try_again": false,
+   "accepted_by": "sabina",
+   "elan": true,
+   "offer_wage": 35.0
   }
  },
  "members": {
@@ -1213,13 +1322,55 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "neris": {
+   "id": "neris",
+   "name": "Neris",
+   "candidate": "C6",
+   "employer": "sabina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Priestess",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 1,
+   "morale": null,
+   "morale_src": null,
+   "wage_gp": 35.0,
+   "wage_per": "month",
+   "hired_day": 175,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 175,
+     "event": "hired",
+     "loyalty": 1
+    },
+    {
+     "day": 175,
+     "event": "wages paid: 1 month(s), 35 gp"
+    }
+   ],
+   "actor": "neris",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 5,
+ "seq": 6,
  "notes_shown": [
   "cand.age_row_merchant",
   "dehyd.weather_day",

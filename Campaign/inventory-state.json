@@ -230,6 +230,12 @@
    "note": "bought in Turos Orn by vettius",
    "owner": "vettius",
    "harness": "cart1"
+  },
+  "neris": {
+   "kind": "henchman",
+   "name": "Neris",
+   "actor": "neris",
+   "status": "active"
   }
  },
  "custom": {
@@ -17633,6 +17639,218 @@
    "coins": [],
    "cmd": "inv provision",
    "n": 705
+  },
+  {
+   "op": "pay",
+   "cause": "a bed and healer's care for 12 days of bed rest (donation at the RR healer rate, 1gp a day; Judge's call)",
+   "day": 173,
+   "time": "day 173 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -12
+    }
+   ],
+   "to": "Hospital of the Keepers (#59)",
+   "price_cp": 1200,
+   "cmd": "inv pay",
+   "n": 706
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "sabina",
+     "gp": -35
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 3500,
+   "cmd": "inv wages",
+   "n": 707
+  },
+  {
+   "op": "pay",
+   "cause": "signing bonus: a month's wage",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "sabina",
+     "gp": -35
+    }
+   ],
+   "to": "Neris",
+   "price_cp": 3500,
+   "cmd": "inv pay",
+   "n": 708
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (novice of Mityara)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "cassock, linen or wool",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 709
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (novice of Mityara)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "#w31",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w31",
+     "key": "staff",
+     "row": "Staff",
+     "table": "weapons-other-weapons",
+     "table_row": 9,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d4",
+      "2h": "1d6"
+     },
+     "types": [
+      "bludgeoning"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (novice of Mityara)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     }
+    }
+   ],
+   "n": 710
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (novice of Mityara)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 711
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (novice of Mityara)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 712
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (novice of Mityara)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "sandals/shoes, leather, low",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 713
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (novice of Mityara)",
+   "day": 175,
+   "time": "day 175 08:20",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "holy symbol",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 714
   }
  ],
  "holdings": {
@@ -17961,12 +18179,28 @@
     "waterskin": 5,
     "oil, military (1 pint)": 1
    }
+  },
+  "neris": {
+   "worn": {
+    "cassock, linen or wool": 1,
+    "backpack (holds 4 stone)": 1,
+    "sandals/shoes, leather, low": 1
+   },
+   "belt": {
+    "#w31": 1
+   },
+   "backpack": {
+    "waterskin": 5
+   },
+   "right_hand": {
+    "holy symbol": 1
+   }
   }
  },
  "coins": {
   "sabina": {
    "sp": 5,
-   "gp": 874,
+   "gp": 804,
    "cp": 8
   },
   "tarq": {
@@ -17983,7 +18217,7 @@
    "cp": 3
   },
   "vettius": {
-   "gp": 475,
+   "gp": 463,
    "cp": 9
   },
   "durio": {
@@ -19859,6 +20093,63 @@
    "grip": 1,
    "lot": null,
    "cause": "her staff of the serpent (AX1 p. 28; plain staff in play)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   }
+  },
+  "w31": {
+   "id": "w31",
+   "key": "staff",
+   "row": "Staff",
+   "table": "weapons-other-weapons",
+   "table_row": 9,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d4",
+    "2h": "1d6"
+   },
+   "types": [
+    "bludgeoning"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (novice of Mityara)",
    "magic": {
     "value": 0,
     "source": {
