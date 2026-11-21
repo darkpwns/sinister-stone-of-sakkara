@@ -63,6 +63,18 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
 - Day 261 afternoon: Vettius cured of the rot at the temples. Lucilla named the sphere a crystal ball (it shows
   far places, three times a day); Vestus read the spellbook. Liber Faunus took the far-seeing glass and the jars
   (1,420gp). The crystal ball, the charts, the map and the spellbook are kept for now.
+- Day 262: Ingrid pointed out that a magic item used even once earns nothing when sold; the table sold the crystal
+  ball to Liber unused (19,200gp). Vestus began copying from the astrologer's spellbook.
+- Day 263, nineteenth descent, to the bard's tomb off the west balcony. An ochre jelly slid up the ramp from below
+  while Hrodvar set the rig; it burned under thrown oil and the fans of Vestus and Phaedra. The slab took six heaves.
+  Inside: nothing but dust and cobwebs. Tomasz did not believe it; Iulia called on Ammonar to show her evil, and saw a
+  crimson shape slip out of the tomb along the wall, by the lantern. Vettius' flask splashed it and for a moment a
+  wrapped figure stood outlined in fire; nearly everyone stood the sight of it. Brennus, Marcellus and Gnaeus fought
+  it half blind; it smashed Gnaeus to his last breath and rotted him. Phaedra's fan scorched it, Iulia's rebuke left
+  it cringing, and Brennus and Marcellus cut it down. In the tomb (the illusion gone): a gold lyre, perfume, a cedar
+  pan-pipe, a book of dirges, the bard's spellbook in blue ink, and thousands of spilled coins. Out by half past
+  eleven; Gnaeus cured of the rot at the temples. Liber took the relics (14,440gp); the coin went into the strongbox.
+  Vettius became a scoundrel (6th rank), Aelia an annalist (4th).
 
 ## Who they met
 - Mother Drakima, priestess of Mityara (mother, 7th rank), who runs the Keepers' hospital: square-handed, grey
@@ -73,6 +85,8 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   can hold.
 
 ## Treasure and XP
+- Day 262: crystal ball sold unused through Liber, 19,200gp (2,133 XP a share).
+- Day 263 (A24): 4,950 treasure XP + 2,080 monster XP; relics through Liber 14,440gp (faerie flute and spellbook sale XP 12,840). Vettius Thief 6, Aelia Bard 4.
 - Day 261 (A23): 3,550 treasure XP (goods at value; the crystal ball and spellbook at their apparent value until sold) + 1,622 monster XP; far-seeing glass and jars sold to Liber 1,420gp.
 - Day 255: the transmogrifier's spellbook (expedition 15) sold through Liber Faunus, 25,400gp, 2,540 XP a share. Iulia Crusader 5, Neris Priestess 4, Vestus Mage 4, Phaedra Mage 3, Varro Fighter 3, Hrodvar Vaultguard 3, Marcellus Fighter 3, Gnaeus Explorer 3.
 

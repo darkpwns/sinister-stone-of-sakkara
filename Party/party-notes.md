@@ -167,3 +167,15 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - S11 (day 261), the astrologer's spellbook: Vestus copies the lightning and dispelling formulas for when he reaches
   the next rank (about six days), then it goes to Liber. The star charts and the map stay with us: a sage (or the
   Tower) should read the charts for the Patriarch.
+- S11 (days 262-263). The crystal ball sold, not used: anything used even once earns us nothing when sold
+  (Ingrid's rule); sold unused through Liber, 19,200gp and a good share of experience each. Same for the flute.
+- S11 (day 263), the bard's tomb: it took six pulls, and the thing inside had time to hide itself (the tomb looked
+  empty) and slip out past the lantern. Iulia's sight-of-evil prayer found it. Lessons: (4) a slab that takes more
+  than two pulls means the dead are awake and ready: Iulia casts her sight-of-evil before the slab gives;
+  (5) a lantern set by the door lights anything that comes out, and the burning flask shows what hides;
+  (6) only magic weapons, fire and Iulia's holy light hurt them: the rest hold back and throw oil.
+- S11 (day 263), loads: Vettius has been carrying far too much (oil, lanterns, spikes, bolts): he slows us all.
+  Share out the oil and lights before every descent. Strength now 47; the very bottom (48) is one short.
+- Left in the bard's tomb: two thousand silver coins on the floor and the antlered head-dress (3 st), for a later
+  trip. Still sealed in the temple: the princess's tomb and the warrior's tomb (opposite pair in the curving
+  corridor, worn smooth) and the inquisitor's tomb by the crossroads.

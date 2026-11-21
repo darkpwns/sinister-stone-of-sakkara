@@ -316,3 +316,8 @@ a sage / Arëtar), L174 astrologer's spellbook (Vestus; copy Thunderbolt and Dis
 base 25,900, sale XP to A23). Remaining H tombs: H13 (courtier, illusions; slab off H9, west balcony), H6 (princess,
 snakes), H7-H8 (8 skeletons + warlord), H21 (inquisitor, berserkers). Divine Blessing +2 is not in the engine's
 saves: pass `--mod "Divine Blessing:+2"` (Neris, Iulia). Wages: Aelia, Marcellus day 264.
+**Update day 264 06:25:** expeditions 18-19 done (H16, H13 cleared); crystal ball, faerie flute, both spellbooks'
+proceeds banked (Liber); H13 ancient coin in the strongbox. Kept: L172 charts, L173 map (Vestus), L174 astrologer's
+spellbook (Vestus copying, 1 of 6 days done). Strength 47 (Sub-Abyssal 48 one short). Next targets: H6/H7-H8
+(facing slabs in H3b), H21 (by H11). Vettius still overloaded (13 st): share out his gear before the next descent.
+Left in H13: 2,000sp, antlers (3 st). Gnaeus wage day 271 (selling day too); month 9 ends day 270.

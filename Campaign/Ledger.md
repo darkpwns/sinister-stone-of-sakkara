@@ -1284,3 +1284,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 261 |  | treasure share |  |  |  |  |
 | 261 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H16 far-seeing glass and canopic jars (L168, L170, A23) sold through the Argollëan Family, day 261 |  | 1,420gp |  | lucilla |
 | 261 | Silk Pony Inn (#25) | beds for twelve, night of day 261 |  |  | 2gp 4sp | vettius |
+| 262 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 262 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 262 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | the crystal ball (L169, A23), sold unused through the Argollëan Family, day 262 |  | 19,200gp |  | lucilla |
+| 262 | Silk Pony Inn (#25) | beds for twelve, night of day 262 |  |  | 2gp 4sp | vettius |
+| 263 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 8cp | vettius |
+| 263 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | iulia |
+| 263 | a temple of Cyfaraun | donation with the request (sweetened, Rulings S09), Gnaeus' Cure Disease day 263 |  |  | 45gp | iulia |
+| 263 |  | treasure share |  | 305gp 5sp 6cp |  | lucilla |
+| 263 |  | treasure share |  | 305gp 5sp 6cp |  | vettius |
+| 263 |  | treasure share |  | 305gp 5sp 6cp |  | iulia |
+| 263 |  | treasure share |  | 305gp 5sp 6cp |  | vestus-the-unlikely |
+| 263 |  | treasure share |  | 305gp 5sp 6cp |  | neris |
+| 263 |  | treasure share |  | 305gp 5sp 6cp |  | brennus |
+| 263 |  | treasure share |  | 152gp 7sp 8cp |  | phaedra |
+| 263 |  | treasure share |  | 152gp 7sp 8cp |  | varro |
+| 263 |  | treasure share |  | 152gp 7sp 8cp |  | hrodvar |
+| 263 |  | treasure share |  | 152gp 7sp 8cp |  | aelia |
+| 263 |  | treasure share |  | 152gp 7sp 8cp |  | marcellus |
+| 263 |  | treasure share |  | 152gp 7sp 8cp |  | gnaeus |
+| 263 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H13 relics (L175-L179, A24) sold through the Argollëan Family, day 263 |  | 14,440gp |  | lucilla |
+| 263 | Silk Pony Inn (#25) | beds for twelve, night of day 263 |  |  | 2gp 4sp | vettius |
