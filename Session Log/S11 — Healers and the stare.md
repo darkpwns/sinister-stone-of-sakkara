@@ -137,6 +137,10 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   who see it fear her); bed rest to day 257.
 
 ## Next time
+Day 268 dawn, Cyfaraun. Everyone whole and rested (Vettius 19 hp at most, Aelia 11, for good). The temple's warrior,
+bard and astrologer tombs are empty; the princess lies in her open tomb with her coffin shut; the inquisitor's slab by
+the crossroads is still sealed, and the stair behind the priest's fresco leads down to running water. Phaedra's new
+masks are ready for the cesspool. Month 9 ends on day 270; the next selling day is 271.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 11). Slips, voids, findings and corrections: Playtest/judge-notes.txt (S11 section).

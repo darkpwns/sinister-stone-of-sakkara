@@ -333,3 +333,52 @@ coffin in H6 (slab open, lid not moved: try with Ogre Strength; her reaction on 
 H21 untouched. Phaedra's filter masks: use `miasma6` (s11_mend.sh, +6). Neris Pr5 (Cure Disease in her repertoire).
 Strength 51. Vestus copying 3 of 6 days done. Vault holds the ancient coin. Day 270: month 9 ends; day 271: selling
 day (opals), Gnaeus' wage.
+
+## S11 (2026-11-21) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools unchanged at 7.13.7). Helpers: source
+`Playtest/tools/s10_j.sh` (set `PARTY="lucilla vettius vestus-the-unlikely neris brennus iulia phaedra varro hrodvar
+aelia marcellus gnaeus"`: its default still lists Quirinus; `LC=phaedra`; `cadd`/`crem`, `miasma`, `clearmiasma`, `t N`)
+and `Playtest/tools/s11_mend.sh` (`miasma6`: the +6 save with Phaedra's filter masks; `mendask`; `night`).
+`Playtest/tools/melee2.py` runs a plain melee round. Session 11 log: `Session Log/S11 — Healers and the stare.md`.
+
+**State on resume:** day 268 05:24, fall, Cyfaraun (18.05), town, Silk Pony Inn. No adventure open (A26 paid out).
+Run `acks.sh rest` once before each descent (the rest count carries over town days: S11 slip). Session 11 ended;
+start S12.
+
+**Party (12), strength 51** (Sub-Abyssal floor 48 reached): Lucilla Ven6 22/22 (Rosa, caller; third eye under a
+band), Vettius Thf6 19/19 (Tomasz; max hp lowered by a shadow), Iulia Cru5 26/26 (Gideon), Vestus M4 10/10 (Priya),
+Neris Pr5 14/14 (Ingrid; Cure Disease now in her repertoire), Brennus F5 28/28 (Kwame; a woman since day 247; keeps the
+scarred face). Henchmen: Phaedra M3 11/11 (Vettius'), Varro F4 22/22, Hrodvar Vaultguard 3 11/11 (Iulia's), Aelia Bard
+4 11/11 (max lowered), Marcellus F3 19/19 (STR 9), Gnaeus Explorer 3 10/10 (Varro, Aelia, Marcellus, Gnaeus are
+Lucilla's). No wounds, rot or enervation. Repertoires recorded: Neris 1st-3rd, Iulia 1st-3rd, Vestus (Ogre Strength
+added), Phaedra (Illusory Duplicates added).
+
+**What S11 did:** every listed wound mended by Repair Disfigurement and Disability (Tampering marks: Lucilla's third
+eye, Brennus a woman, Marcellus +2 STR, Neris' vision of the Great Teacher); the visage plan (party notes S11) and its
+rulings; downtime that sold L126 and raised eight levels; expeditions 18-21 cleared H16 (astrologer), H13 (bard), H6
+(looted; the princess fled as a swan) and H7-H8 (skeletons, warlord); the ancient coin moved to a locked chest in the
+Grey Sisters' vault (Doarë Friendly); the miasma answer (Phaedra's masks, +6; rest in B1 both ways). Rulings S11: 20 rows.
+
+**Money:** Guildhouse (`guildhouse-bank`) 98,514gp clean coin; the Grey Sisters' vault (`grey-sisters-vault`, 10gp a
+month paid to day 293; withdraw when Doarë is in, 60% by day) 18,439gp 258sp 235cp of ancient coin and the opals
+L156-L159; the Silk Pony strongbox holds only spare gear (2 lanterns, grappling hook, backpack, waterskins, short
+sword). Kept items: L172 star charts, L173 elven map (Vestus; Neris' Knowledge (astrology) 11+ reads the charts:
+first try failed), L174 astrologer's spellbook (Vestus copies Thunderbolt and Dispel Magic: 3 of 6 days done; then
+sell through Liber at 80%: sale XP to A23). L5/L127/L128 potions of healing with Neris. Elven relics go to Liber at
+80%; magic items found are sold unused unless their use is worth more than the XP (Rulings S11).
+
+**Dates:** day 270 month 9 ends (investment 1 vagary; month 10 starts day 271: Lucilla's Rumormongering again,
+selling day for the opals, a new month of magic-item stock to roll if the party shops); day 271 Gnaeus' wage; 280
+Phaedra; 287 Varro, Hrodvar; 293 vault fee; 294 Aelia, Marcellus. Stalls (mule1, donkey1, donkey2, cart) paid
+through day 270.
+
+**Nethercity:** H cleared except H21 (inquisitor of Bel, summons berserkers) and the princess in H6 (8/27 hp, in her
+coffin, slab open, stone lid unmoved: forcing -4, up to 3 helpers; Ogre Strength +8; on waking roll the SOTN mummy
+reaction table; hard-pressed she flies as a swan). H25's north-fresco secret door to the H26 stair (P5, Sub-Abyssal)
+is found, not opened. Left behind: H13 2,000sp and antlers; H7 2 ropes, amphora; H8 cedar chest. Deeper: see the
+World State prep queue.
+
+**Routine reminders (S11 slips):** two failed heaves (or lid tries) = stop and wait a turn in silence; rest every 5
+turns (a turn's rest also clears the miasma); rearguard watches the side passages while the haulers pull; Divine
+Blessing +2 is not in the engine's saves (pass `--mod "Divine Blessing:+2"` for Iulia and Neris); keep Vettius under
+10 st; never let a loop run past an encounter or a fallen character; resolve every round in initiative order.

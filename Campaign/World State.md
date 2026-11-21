@@ -96,19 +96,19 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Prep queue (Judge only)
 - Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
-- Strength 37 on day 243 (Deep 30, Abyssal 39). Party rule: keep henchmen, hire only below the floor (Rulings S10).
-- S11 (day 261): all wounds the user listed mended. Strength 45 (Abyssal 39 open; Sub-Abyssal 48 not). Market stock month 9 = hoards H1-H37 (nothing bought). Neris' prophecy (the Great Teacher) is a thread for Arëtar; Vestus carries a rubbing kit. Visage plan + S11 additions in party notes.
-- S11 aims (user): regenerate wounds (Repair Disfigurement and Disability, divine 4th: Prelate Romus, Patriarch
-  Arëtar, temples' spellcasting; `restore --limbs`); then the party's plan against the mummies' horrific visage.
-- Lower targets left: H6 (princess, snakes), H7-H8 (warlord + 8 skeletons), H13 (bard), H16 (astrologer: telescope,
-  crystal ball, charts, spellbook), H21 (inquisitor, berserkers), H26 secret stair (to P5, Sub-Abyssal); C5 secret
-  sepulchre; G (faewyrd; purification at G4), G9-G13; M caves. Deep: I (troglodytes ~100, alerted; shaman parleys),
-  J (doom temple, via I7 or I9's hatch).
-- Threads: Liber Faunus (Friendly; wants news of the Nethercity); Patriarch Arëtar (evidence of the Awakening;
-  Captain of the Underwatch office); Rector Drusus (took Quirinus into the Citadel Guard); the party lodges at the
-  Silk Pony (Sand & Bones, the Family's rival); Tavus Ionicus (AX3 rumour 20); the Horned Rat wererats.
-- Scheduled: day 247 Tower identification of L126; day 250 Phaedra's wage; day 257 Varro, Hrodvar; day 263 Aelia,
-  Marcellus; day 270 Gnaeus and month 9's end (investment 1 vagary); day 271 month 10 selling day (opals). Stalls
-  owed from day 243.
-- NPCs invented S10: Decimus (explorer, let go), Calpurnia (mage 2, let go), Titus Aurelianus (crusader 1, let go),
-  the vicar of Ammonar (grey-templed, measured), a Guildhouse banker (plump, bored), a tax official (sharp-nosed).
+- Strength 51 on day 268 (Sub-Abyssal 48 open). Party rule: keep henchmen, hire only below the floor (Rulings S10).
+- H targets left: H6 princess (in her coffin, 8/27 hp, slab open, lid unmoved; on waking roll the SOTN mummy reaction
+  table; she flees as a swan when hard-pressed); H21 inquisitor (Bel; summons berserkers); H26 secret stair (H25
+  north fresco, found, not opened) to P5 (Sub-Abyssal river banks: now within the floor). H13 left 2,000sp and the
+  antlers (3 st); H7 left the amphora and 2 ropes; H8 the cedar chest and the warlord's gear.
+- Elsewhere: C5 secret sepulchre; G (faewyrd; purification at G4), G9-G13, G14 (Abyssal); M caves; I (troglodytes
+  ~100, alerted); J (doom temple, via I7 or I9's hatch); L, R, S (Abyssal); P (Sub-Abyssal, the barge P11).
+- Threads: Arëtar (Neutral: wants physical proof; the H16 charts (Neris' Knowledge (astrology) 11+ retry), Vestus'
+  rubbing kit, Neris' vision); Doarë (Friendly; keeps the chest; dreamed of the river; can introduce the Order of the
+  Eclipse); Liber Faunus (Friendly; buys all elven relics at 80%; wants news of below); the Silk Pony (Sand & Bones);
+  the Horned Rat wererats (Mentenus Cavie, Prelate Romus); Tavus Ionicus; Mother Drakima (Keepers).
+- Scheduled: day 270 month 9 ends (investment 1 vagary; Lucilla's monthly Rumormongering resets); day 271 month 10
+  selling day (opals L156-L159, from the vault) and Gnaeus' wage; day 280 Phaedra; day 287 Varro, Hrodvar; day 293
+  the vault fee; day 294 Aelia, Marcellus. Stalls paid to day 270. Month 10 magic-item stock not rolled.
+- NPCs invented S11: Mother Drakima (Keepers' hospital, priestess 7: square-handed, grey braid, smells of lye, prays
+  like giving orders). Met from the notes: Patriarch Arëtar, Revered Mother Doarë.
