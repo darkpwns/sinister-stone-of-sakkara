@@ -1,0 +1,126 @@
+schema: acks-class-builds/1
+about: >-
+  AX3 (Capital of the Borderlands, ACKS I) human classes with no ACKS II equivalent (Mystic, Anti-Paladin, Chosen) and
+  the Thrassian Gladiator (a racial class on a Thrassian race built by JJ ch. 13), rebuilt with the ACKS II Judges
+  Journal custom class procedure (JJ ch. 12). Same keys as acks2-tools engine/data/class-builds.yaml, without
+  `tables`. XP for 2nd level, the XP table, Hit Die, attack and saving throws come from acks/custom_class.py; the
+  calculator knows dwarf racial values only, so the Thrassian value is recorded in `extra_costs`, and its build points
+  (level limit) and XP after 8th are added by the JJ rules in the `racial` block (Custom Racial Classes, JJ p. 299;
+  Creating a Fantasy Race, JJ p. 333). Every Thrassian racial value is a Judge's call. Judge-only (sakkara/secret).
+classes:
+  Mystic:
+    note: Adventure/AX3/Classes/Mystic.md
+    book: AX3
+    hit_dice: 1                  # d6
+    fighting: 2                  # fighter attack, damage bonus (melee and missile), cleaves
+    thievery: 1                  # 4 selections, all traded for custom powers
+    divine: 0
+    arcane: 0
+    armor: none                  # Heavy -> Medium -> Light -> Very Light -> None: 4 powers (no XP)
+    weapons: broad               # Unrestricted -> Broad: 1 power (+250 XP); (i) tiny/small/medium melee, (vi) bola, dart, javelin, net, sling
+    fighting_styles: [single weapon, missile weapon, dual weapon, two-handed weapon]   # no armour: no weapon and shield
+    weapon_tradeoffs: 1
+    powers_bought: 9             # armour 4 + weapons 1 + thief skills 4
+    powers:                      # JJ Custom Power Index names (ACKS I mystic names in brackets)
+      1: [Blade-Dancing (graceful fighting), Meditative Focus, Alertness (mindfulness), Animal Reflexes (speed of thought),
+          Strength of Spirit, Divine Health (purity of body and soul)]
+      5: [Probability Trance, Holy Fervor (Castle bonus power)]
+      6: [Divine Blessing (harmony of spirit)]
+      7: [Perceive Intentions, Command of Voice]
+      8: [Wholeness of Body]
+      9: [Longeval (perfection of body)]
+    level_locks: ["1 initial -> 5th + 9th", "1 initial -> 6th + 8th", "1 initial -> 2 at 7th"]
+    starting_proficiency_power: Theology
+    saves_as: fighter            # JJ: Fighting 2 is the highest category
+    xp_per_level: 2000
+    level_limit: 14              # human class (RR core and campaign classes reach 14); the calculator's level_limit() reads the racial table (13 at 4 build points)
+    key_attributes: [CON, WIL]   # CON by the fighter progression; WIL added (Judge's call: ACKS I prime requisite WIS)
+    stronghold: Castle (Monastery)
+    flags: [mystic-build]
+  Anti-Paladin:
+    note: Adventure/AX3/Classes/Anti-Paladin.md
+    book: AX3
+    hit_dice: 2                  # d8
+    fighting: 2
+    thievery: 0
+    divine: 0
+    arcane: 0
+    armor: heavy
+    weapons: narrow              # Unrestricted -> Broad -> Narrow: 3 powers (+750 XP); (iii) flails, hammers, maces; (iv) swords and daggers
+    fighting_styles: [single weapon, missile weapon, dual weapon, two-handed weapon, weapon and shield]
+    damage_bonus: melee only     # 1 power
+    weapon_tradeoffs: 3
+    powers_bought: 4
+    powers:
+      1: [Aura of Protection (against good), Command Undead, Discern Good (detect good), After the Flesh]
+      5: [Holy Fervor (unholy fanaticism; Castle bonus power)]
+    starting_proficiency_power: Manual of Arms
+    saves_as: fighter
+    xp_per_level: 2750
+    level_limit: 14              # human class (RR core and campaign classes reach 14); the calculator's level_limit() reads the racial table (13 at 4 build points)
+    key_attributes: [STR, CHA]   # as the RR Paladin (Judge's call)
+    stronghold: Castle (Dread Keep)
+    code_of_behavior: false      # Divine 0; the dark oaths are flavour (Judge's call)
+    flags: [anti-paladin-build]
+  Chosen:
+    note: Adventure/AX3/Classes/Chosen.md
+    book: AX3
+    hit_dice: 2                  # d8
+    fighting: 2
+    thievery: 0
+    divine: 0
+    arcane: 0
+    armor: very light            # Heavy -> Medium -> Light -> Very Light: 3 powers; Armor Training takes it to leather
+    weapons: narrow              # 3 powers (+750 XP); (iv) swords and daggers, (v) spears and pole arms (AX3's two "martial training")
+    fighting_styles: [single weapon, missile weapon, two-handed weapon, weapon and shield]   # dual weapon eliminated: 1 power
+    damage_bonus: melee only     # 1 power
+    weapon_tradeoffs: 3
+    powers_bought: 8             # armour 3 + weapons 3 + fighting style 1 + damage 1
+    powers:
+      1: [Divine Health, Wholeness of Body, Longeval (mystical bloodline), Strength of Spirit (courage)]
+      5: [Divine Blessing (via Divine Proficiency), Battlefield Prowess (Castle bonus power)]
+      6: [chosen power, chosen power]
+      7: [chosen power, chosen power]
+      8: [chosen power, chosen power]
+      9: [chosen power]
+    chosen_power_menu: JJ Custom Power Index entries listing the Chosen (Fate Point powers only with JJ Heroic Fate)
+    level_locks: ["1 initial -> 5th + 9th", "1 initial -> 6th + 8th", "1 initial -> 6th + 8th", "1 initial -> 2 at 7th"]
+    starting_proficiency_power: Manual of Arms
+    saves_as: fighter
+    xp_per_level: 2750
+    level_limit: 14              # human class (RR core and campaign classes reach 14); the calculator's level_limit() reads the racial table (13 at 4 build points)
+    key_attributes: [STR, CHA]   # STR by the fighter progression; CHA added (Judge's call)
+    stronghold: Castle
+    flags: [chosen-build]
+  Thrassian Gladiator:
+    note: Adventure/AX3/Classes/Thrassian Gladiator.md
+    book: AX3
+    hit_dice: 2                  # d8
+    fighting: 2
+    thievery: 0
+    divine: 0
+    arcane: 0
+    thrassian: 1                 # Thrassian race (JJ ch. 13 build, Judge's call): Thrassian 1 = natural AC 2, base move -30'
+    extra_costs:
+      thrassian: 300             # Thrassian Value table (Judge's call), Thrassian 1
+    armor: medium                # Heavy -> Medium: 1 power
+    weapons: broad               # Unrestricted -> Broad: 1 power (+250 XP); (iv) swords, daggers, spears, pole arms; (vi) cestus, hand axe, javelin, net, whip
+    fighting_styles: [single weapon, missile weapon, dual weapon, two-handed weapon, weapon and shield]
+    damage_bonus: melee only     # 1 power
+    weapon_tradeoffs: 1
+    powers_bought: 3
+    powers:
+      1: [Claws and Bite (3 powers)]
+      5: [Battlefield Prowess (arena reputation; Castle bonus power)]
+    starting_proficiency_power: Intimidation
+    saves_as: fighter
+    racial:
+      build_points: 1            # Thrassian 1 counted toward the level limit (JJ Custom Racial Classes): 5 build points
+      xp_after8_extra: 5000      # Thrassian 4 = 600 XP; 600 / 1,250 x 10,000 = 4,800 -> 5,000 (fighter and crusader progressions)
+      save_bonus: {}
+    xp_per_level: 2550
+    level_limit: 12
+    key_attributes: [STR]
+    requirements: STR 9+ (Thrassian race; moot, STR is the key attribute)
+    stronghold: Castle (Gladiator School)
+    flags: [thrassian-gladiator-build]
