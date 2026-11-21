@@ -103,12 +103,13 @@ travel --route 26.18,26.17,27.17,28.16                             # Türos Spen
 travel --route 27.16,26.15,26.14,25.14,25.13,24.12,24.11,23.11,23.10   # Türos Orn (#15), 9
 travel --route 22.09,21.09,20.08,20.07,19.07,18.06,18.05           # Cyfaraun (#10), 7
 ```
-(`travel` continues a route in progress with `travel` alone after a camp or an encounter.) The off-road ground
-beside the road is built one hex deep; a lost party or a detour off it stops at the map's edge: extend the map first
-(`Playtest/tools/map/README.md`).
+(`travel` continues a route in progress with `travel` alone after a camp or an encounter.) The map is built for the
+whole region (columns 14-31, rows 2-24: 414 hexes, five roads), so detours and a lost party stay on it. Buying at the
+forts: `inv buy … --market "Turos Aster" --market-note "Adventure/Markets/Turos Aster (Market).md"` (likewise Turos
+Spen, Turos Orn, Cyfaraun); market classes VI, VI, IV, III.
 
-**Not built yet (prep before the party reaches the city):** the SOTN module notes (use the `module-vault` skill on
-Library `Adventures/_source/Secrets_of_the_Nethercity.pdf`: hub with `Running …` lines, level keys, tables); a
-Cyfaraun note and market note (AX3 has the city: Library `Adventures/Capital of the Borderlands/`); notes for the
-forts on the way (AX3 gazetteer #22, #29, #15). Open the adventure (`adventure start --name "Secrets of the
+**Written (S07):** notes and market notes for Türos Aster, Türos Spen, Türos Orn and Cyfaraun (from AX3 and the JJ).
+**Not built yet:** the SOTN module notes (needs its own chat: the `module-vault` skill on Library
+`Adventures/_source/Secrets_of_the_Nethercity.pdf`: hub with `Running …` lines, level keys, tables), and AX3's city
+detail for Cyfaraun (districts, encounters, rumours). Open the adventure (`adventure start --name "Secrets of the
 Nethercity"`, `adventure join` each PC) before the first delve.

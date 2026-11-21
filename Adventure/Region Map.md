@@ -20,11 +20,20 @@ The campaign's fixed point for travel. Every hex the engine travels through must
   with the AX1 route fixed to AX3: 13.08 → 22.20, 12.07 → 21.20, 11.07 → 20.19, 10.07 → 19.19 (session logs, the
   roll log, the Judge notes and the Rulings before S07 keep the old numbers). AX1's seed sites land on AX3's: Shrine of
   the White Lady 23.16 (#21), Ruined Imperial Fortress 26.19 (#30).
-- **Built:** 150 hexes: columns 17-26, rows 14-23 around Türos Tem, the Viaspen and the Viamir Marshes, and the east
-  road with one hex on each side up to Cyfaraun. Terrain read from the AX3 map; classification (civilized, borderlands,
-  outlands, wilderness) from the JJ's classification map of the same sandbox (JJ p. 210); zone from the JJ's
-  alignment lines (the forts of the Unbroken Line on the neutral axis; Orn and Cyfaraun lawful); domain: the nearest
-  fort's ruler (AX3 entries), none in wilderness. The Viaspen's forest hexes carry AX1's forest check.
+- **Built:** 414 hexes, **columns 14-31, rows 2-24**: everything from Türos Quell and the Mirmen in the west to the
+  Blood River and Türos Zera in the east, and from Mityethtem and Luseatum in the north to the Lusaun Forest and Türos
+  Luin in the south (Cyfaraun, Lake Laman, the Viamir Marshes, the Viaspen, the Naungollë). Terrain read hex by hex from
+  the AX3 map (S07); classification (civilized, borderlands, outlands, wilderness) from the JJ's classification map of
+  the same sandbox (JJ p. 210); zone from the JJ's alignment lines; domain: the nearest fort's ruler (AX3 entries),
+  none in wilderness or on the lake. The Viaspen's forest hexes carry AX1's forest check. Lake Laman (18 hexes) is
+  impassable. Record of the build: `Playtest/tools/map/` (README, `extend_s07.py`).
+- **Roads** (`Data/world.json`): the Imperial road Türos Tem - Aster - Spen - Orn - Cyfaraun (23 hexes); Cyfaraun -
+  Türos Quell along the lake's west shore (9); Türos Tem - Siadanos westward to the map's edge at 14.21 (8); Türos Tem
+  - Türos Luin (4); Türos Quell - Siadanos down the Mirmen to 14.18 (6). Roads north of Cyfaraun and Orn and east of
+  the Krysivor are drawn on AX3 but not entered.
+- **Settlement notes:** Türos Tem, Türos Aster, Türos Spen, Türos Orn, Cyfaraun (each with a market note in
+  `Adventure/Markets/`). The other forts (Quell, Luin, Morn, Zera, Mityethtem, Luseatum) are in `Data/places.csv`
+  without notes.
 
 ## Türos Tem — 22.20 (AX3 #28)
 - Fort on a 150' tor between the Krysivor and the Viaspen, over a ford; Legate Ulrand Valerian. Outlands on the JJ
@@ -43,5 +52,4 @@ The Nethercity lies under **Cyfaraun** (#10, 18.05), capital of the prefecture (
 | Türos Orn → Cyfaraun 18.05 (#10, Prefect Basilio) | 22.09, 21.09, 20.08, 20.07, 19.07, 18.06 | 7 | Lake Laman's north-east shore; civilized |
 
 Forts every 3-9 hexes; Türos Orn is a small town (class IV), Cyfaraun a city (class III).
-Not built yet: the west road (Türos Tem - Siadanos - Türos Quell - Cyfaraun) and the rest of the sheet; build them
-from the same map the same way before travelling off this corridor.
+Beyond the built block (Siadanos, Samos, the Waste, the far north): extend from the same map the same way first.
