@@ -28,7 +28,10 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 
 - S09 (day 212): we are adventurers, not grave-robbers on day trips. Plan expeditions of several days toward the
   deepest, richest places our strength allows: a week of iron rations each, torches for a week, oil, rope; sleep below
-  in a cleared tomb with the door shut; come home when the packs are full or we are spent, not at the first scare.
+  in a cleared tomb with the door shut and spiked (iron spikes and a hammer: Vettius carries 12; buy more); come home when the packs are full or we are spent, not at the first scare.
+
+- S09 (day 212): spike doors. Spike shut a door we retreat through, a door with something behind it we leave
+  alone, and the doors of the room we sleep in; spike open a door we will need to run back through.
 
 ## Map notes
 
