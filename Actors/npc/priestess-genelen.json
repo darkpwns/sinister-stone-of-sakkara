@@ -1,0 +1,18 @@
+{
+"schema": "acks-actor/2",
+"id": "priestess-genelen",
+"type": "character",
+"role": "npc",
+"name": "Priestess Genelen",
+"class": "Priestess",
+"level": 6,
+"xp": 0,
+"alignment": "Lawful",
+"hp_max": 17,
+"attributes": {"STR":8,"INT":13,"WIL":12,"DEX":8,"CON":9,"CHA":10},
+"ac": {"shield":-1,"no_shield":-1,"dex_only":-1},
+"items": [{"type":"proficiency","name":"Laying on Hands","list":"class"},{"type":"proficiency","name":"Healing","list":"general","ranks":3},{"type":"proficiency","name":"Naturalism","list":"general"}],
+"modifiers": [],
+"state": {"hp":17,"conditions":[],"spells_used":[]},
+"changes": [{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Laying on Hands","list":"class"},"cause":"AX1 p. 28"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Healing","list":"general","ranks":3},"cause":"AX1 p. 28"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Naturalism","list":"general"},"cause":"AX1 p. 28"},{"field":"alignment","from":null,"to":"Lawful","cause":"AX1 p. 28"},{"field":"ac","from":null,"to":{"shield":-1,"no_shield":-1,"dex_only":-1},"cause":"AX1 p. 28 (AC -1 as printed)"}]
+}

@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 6
+session: 7
 mode: dungeon
 location: '[[Level 1 - Buried Temple]]'
 adventure: AX1 The Sinister Stone of Sakkara
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 138
-  time: 06:00
+    day: 142
+  time: 08:00
   weather: Hot (87 to 90 F) by day, Warm (83 to 86 F) at night; drizzle; wind moderate (drizzly)
   place: Buried Temple
-  hex: '13.08'
+  hex: '10.07'
   party:
   - name: Aulus
     sheet: Characters/aulus.json
@@ -23,7 +23,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 9.341
+    encumbrance_st: 9.307
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
@@ -33,7 +33,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.228
+    encumbrance_st: 8.87
   - name: Sabina
     sheet: Characters/sabina.json
     role: pc
@@ -41,7 +41,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 8.365
+    encumbrance_st: 8.356
   - name: Tarq
     sheet: Characters/tarq.json
     role: pc
@@ -51,7 +51,7 @@ public:
     - raspy voice (-2 to speech throws)
     - minor scarring (fang marks on the neck)
     spells_used: []
-    encumbrance_st: 8.847
+    encumbrance_st: 9.163
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -59,7 +59,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 9.017
+    encumbrance_st: 9.008
   - name: Marcia
     sheet: Characters/marcia.json
     role: pc
@@ -67,7 +67,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 4.505
+    encumbrance_st: 4.471
   - name: Hesper
     sheet: Characters/hesper.json
     role: henchman
@@ -75,7 +75,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.928
+    encumbrance_st: 5.261
   - name: Thorwell
     sheet: Characters/thorwell.json
     role: henchman
@@ -83,7 +83,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 3.26
+    encumbrance_st: 3.751
   - name: Quintus the Rager
     sheet: Characters/quintus-the-rager.json
     role: henchman
@@ -106,14 +106,11 @@ public:
     conditions:
     - one leg torn off (crutch required, movement -30 feet, DEX reduced by 1/3 for AC)
     spells_used: []
-  light: torch (Lucilla) out; torch (Vettius) out; torch (Hesper) out; torch (Hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out
-  rations: 'Aulus: food 0 d, water 0.6 d; Sabina: food 0 d, water 1.2 d; Tarq: food 0 d, water 1 d; Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Marcia: food 0 d, water 1.4 d; Thorwell: food 0 d, water 1 d; Quintus the Rager: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1 d; Zaira the Beautiful: food 0 d, water 1 d; Hesper: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: torch (Lucilla) out; torch (Vettius) out; torch (hesper) out; torch (hesper) out; torch (gallus) out; torch (gallus) out; torch (Lucilla) out; torch (Vettius) out
+  rations: 'Aulus: food 1.5 d, water 0.6 d; Sabina: food 1.5 d, water 1.2 d; Tarq: food 1.5 d, water 1 d; Lucilla: food 1 d, water 1 d; Vettius: food 1.5 d, water 1 d; Marcia: food 1.5 d, water 1.4 d; Thorwell: food 2 d, water 1 d; Quintus the Rager: food 2 d, water 1 d; Vestus the Unlikely: food 2 d, water 1 d; Priestess Genelen: food 2 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '11.07'
-  - '10.07'
-  - '11.07'
   - '12.07'
   - '13.08'
   - '12.07'
@@ -131,7 +128,10 @@ public:
   - '11.07'
   - '12.07'
   - '13.08'
-clock_day: 138
+  - '12.07'
+  - '11.07'
+  - '10.07'
+clock_day: 142
 ---
 # Campaign State
 

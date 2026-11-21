@@ -314,3 +314,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 6gp | lucilla |
 | 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 2gp | vettius |
 | 138 | Traveler's Inn | lodging and meals for self and henchmen, days 126-137 (AX1 p. 22) |  |  | 4gp | marcia |
+| 138 | Turos Tem | Rations, Iron (one week) | 1 |  | 5gp 4sp | aulus |
+| 138 | Turos Tem | Rations, Iron (one week) | 1 |  | 5gp 4sp | sabina |
+| 138 | Turos Tem | Rations, Iron (one week) | 1 |  | 5gp 4sp | tarq |
+| 138 | Turos Tem | Rations, Standard (one week) | 1 |  | 2gp 7sp | lucilla |
+| 138 | Turos Tem | Rations, Standard (one week) | 1 |  | 2gp 7sp | vettius |
+| 138 | Turos Tem | Rations, Standard (one week) | 1 |  | 2gp 7sp | marcia |
+| 138 | Turos Tem | Oil, Military (1 pint) | 2 |  | 3gp 6sp | tarq |
+| 138 | Turos Tem | bolt | 20 |  | 1gp 8sp | thorwell |
+| 138 | Turos Tem | torch | 6 |  | 9cp | lucilla |
+| 138 | Turos Tem | Oil, Military (1 pint) | 1 |  | 1gp 8sp | quintus-the-rager |
+| 138 | the retinue | wages paid |  |  | 25gp | aulus |
+| 138 | the retinue | wages paid |  |  | 25gp | marcia |
+| 138 | the retinue | wages paid |  |  | 25gp | lucilla |
