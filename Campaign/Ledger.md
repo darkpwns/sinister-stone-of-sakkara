@@ -48,6 +48,20 @@ tags:
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | gem worth 1000.0gp | 1,000 | lucilla |
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | SOTN Cobalt Death Orb | 25 | lucilla |
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | SOTN Cobalt Death Orb | 25 | lucilla |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | jewelry worth 2000.0gp | 2,000 | lucilla |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | jewelry worth 500.0gp | 500 | lucilla |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | jewelry worth 100.0gp | 100 | lucilla |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | jewelry worth 200.0gp | 200 | lucilla |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 14 vials of blue natron | 210 | neris |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | five clay scroll jars of temple record scrolls | 700 | hrodvar |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 11 sticks of myrrh in an oilcloth bundle | 275 | phaedra |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 6,000 silver pieces | 600 | vestus-the-unlikely |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 3,000 electrum pieces | 1,500 | vestus-the-unlikely |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 5,000 silver pieces | 500 | phaedra |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 1,000 silver pieces | 100 | aelia |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 3,000 electrum pieces | 1,500 | aelia |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 4,000 gold pieces | 4,000 | neris |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | 2,000 gold pieces | 2,000 | gnaeus |
 
 ## Monster XP
 
@@ -69,6 +83,7 @@ tags:
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Animated Iron Statue | 1 | 135 | 135 |
 | 219 | Secrets of the Nethercity, expedition 12 (the temple of the dead) | Wraith | 1 | 190 | 190 |
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | Jackal of Darkness (SOTN) | 2 | 135 | 270 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Mechanical Cobra (SOTN) | 2 | 29 | 58 |
 
 ## Shares and XP awarded
 
@@ -176,6 +191,18 @@ tags:
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | Marcellus | 0.5 | 282 | 14 | 0 | +0% | 296 |
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | Gnaeus | 0.5 | 282 | 14 | 0 | +0% | 296 |
 | 221 | Nethercity, expedition 13 (the warlord's chapel) | Decimus | 0.5 | 282 | 14 | 0 | +0% | 296 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Lucilla | 1 | 1,576 | 6 | 0 | +10% | 1,741 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Vettius | 1 | 1,576 | 6 | 0 | +5% | 1,662 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Iulia | 1 | 1,576 | 6 | 0 | +5% | 1,662 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Vestus the Unlikely | 1 | 1,576 | 6 | 0 | +5% | 1,662 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Neris | 1 | 1,576 | 6 | 0 | +0% | 1,583 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Brennus | 1 | 1,576 | 6 | 0 | +5% | 1,662 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Phaedra | 0.5 | 788 | 3 | 0 | +0% | 791 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Varro | 0.5 | 788 | 3 | 0 | +0% | 791 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Hrodvar | 0.5 | 788 | 3 | 0 | +0% | 791 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Aelia | 0.5 | 788 | 3 | 0 | +0% | 791 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Marcellus | 0.5 | 788 | 3 | 0 | +0% | 791 |
+| 223 | Nethercity, expedition 14 (the temple of the dead) | Gnaeus | 0.5 | 788 | 3 | 0 | +0% | 791 |
 
 ## Wages
 
@@ -964,3 +991,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 223 | marcellus | deposit of marcellus, day 223 |  | 602gp |  | guildhouse-bank |
 | 223 | Merchant Guildhouse (deposit) | deposited at the Merchant Guildhouse, day 223 |  |  | 602gp | gnaeus |
 | 223 | gnaeus | deposit of gnaeus, day 223 |  | 602gp |  | guildhouse-bank |
+| 223 |  | treasure share |  | 1,133gp 3sp 3cp |  | lucilla |
+| 223 |  | treasure share |  | 1,133gp 3sp 3cp |  | vettius |
+| 223 |  | treasure share |  | 1,133gp 3sp 3cp |  | iulia |
+| 223 |  | treasure share |  | 1,133gp 3sp 3cp |  | vestus-the-unlikely |
+| 223 |  | treasure share |  | 1,133gp 3sp 3cp |  | neris |
+| 223 |  | treasure share |  | 1,133gp 3sp 3cp |  | brennus |
+| 223 |  | treasure share |  | 566gp 6sp 7cp |  | phaedra |
+| 223 |  | treasure share |  | 566gp 6sp 7cp |  | varro |
+| 223 |  | treasure share |  | 566gp 6sp 7cp |  | hrodvar |
+| 223 |  | treasure share |  | 566gp 6sp 7cp |  | aelia |
+| 223 |  | treasure share |  | 566gp 6sp 7cp |  | marcellus |
+| 223 |  | treasure share |  | 566gp 6sp 7cp |  | gnaeus |
+| 223 | a tax collector of the prefecture | Bribery: a week's pay, politely deniable (RR Venturer) |  |  | 5gp | lucilla |
+| 223 | Cyfaraun buyers (jeweller, temple suppliers, a scholar) | sale of L106-L112 (A19) |  | 4,383gp |  | lucilla |
+| 223 | Cyfaraun buyers | sale of L106-L112 (A19), remainder |  | 5sp |  | lucilla |

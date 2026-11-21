@@ -35,12 +35,32 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   prayers to Ammonar, long unspoken, are now counted every morning), Brennus a warrior of the second, Neris a
   daughter of Mityara.
 - Day 222 dawn: Quirinus woke no weaker under the oculus. Day 223 dawn: weaker again.
+- Day 223: Quirinus, his strength withered to a shadow, left Lucilla's service; he stays under the Citadel's dome. His
+  battle axe went to Gnaeus. With the party at full strength without him, Vettius let Decimus go. The party opened an
+  account at the Merchant Guildhouse and banked its coin.
+- Day 223, fourteenth descent: back to the temple of the dead by the first tomb's shaft. In the embalming chamber south
+  of the west balcony (the hooded thing's own room, it seems: it did not return) the spilled urns gave up black pearl
+  prayer beads, an ivory pendant, a brooch, an amber amulet and vials of blue natron. Through the crossroads' east door
+  to the mosaic gallery of the Awakening and the vestry beyond: record scrolls (Vestus read them: the 480 warriors who
+  guard the great hall below the balconies in undeath) and myrrh. South through a cracked gallery into another temple:
+  past a gallery of robed figures, the high priests' bedchamber with its mosaic of four sleeping gods, and a
+  serpent-handled door. Vettius saw the ward cut in its frame and picked its lock; pulled open on a rope from round the
+  corner, it burst in lightning on empty air. Something whirred and swung inside unseen. Two bronze cobras rose from
+  beside four great chests and were broken in two rounds. The chests held ancient silver, electrum and gold: 10,200gp.
+  A crawling swarm came up behind; the vault door was shut and spiked until it went away. Home by five, every pack
+  full.
+- Day 223, in town: a tax official asked where the antiquities came from; Lucilla's story (and purse) satisfied him.
+  The jewellery, scrolls, myrrh and natron sold for 4,384gp. Vettius became a rogue of the fifth rank, Vestus a
+  theurgist of the third, Brennus a swordmaster of the third.
 
 ## Who they met
+- A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
+- A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.
 - Decimus (explorer, Vettius' henchman): lanky, ink-stained fingers, counts everything twice, quick dry wit.
 - A vicar of Ammonar at the Solar Citadel: grey-templed, measured; asked what they had seen before what they wanted.
 
 ## Treasure and XP
+- Day 223 (A19): 14,185gp (H12 charms and natron, H17 scrolls and myrrh, G21 treasury coin; goods sold 4,384gp) + 58 monster XP. Vettius Thief 5, Vestus Mage 3, Brennus Fighter 3.
 - Day 221 (A18): 5,350gp (warlord's chapel vault; sold 8,470gp with the death orb) + 270 monster XP; death orb sale XP 3,300. Iulia Crusader 3, Brennus Fighter 2, Neris Priestess 2.
 
 ## Rumours given

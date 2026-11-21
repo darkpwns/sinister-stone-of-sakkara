@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 19,
-  "L": 105,
+  "L": 119,
   "H": 0,
-  "M": 39
+  "M": 40
  },
  "adventure": {
   "id": "A19",
@@ -19,11 +19,13 @@
     "player": "rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 8815,
     "level_before": 4,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 223,
+    "xp_award": 1741
    },
    "vettius": {
     "id": "vettius",
@@ -33,11 +35,13 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 8411,
     "level_before": 4,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 223,
+    "xp_award": 1662
    },
    "iulia": {
     "id": "iulia",
@@ -47,11 +51,13 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3817,
     "level_before": 3,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 223,
+    "xp_award": 1662
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -61,11 +67,13 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3674,
     "level_before": 2,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 223,
+    "xp_award": 1662
    },
    "neris": {
     "id": "neris",
@@ -75,11 +83,13 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 2015,
     "level_before": 2,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 223,
+    "xp_award": 1583
    },
    "brennus": {
     "id": "brennus",
@@ -89,11 +99,13 @@
     "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 2682,
     "level_before": 2,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 223,
+    "xp_award": 1662
    },
    "phaedra": {
     "id": "phaedra",
@@ -103,11 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 1008,
     "level_before": 1,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 223,
+    "xp_award": 791
    },
    "varro": {
     "id": "varro",
@@ -117,11 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "varro",
     "xp_before": 893,
     "level_before": 1,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 223,
+    "xp_award": 791
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -131,11 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "hrodvar",
     "xp_before": 893,
     "level_before": 1,
-    "class": "Dwarven Vaultguard"
+    "class": "Dwarven Vaultguard",
+    "returned_day": 223,
+    "xp_award": 791
    },
    "aelia": {
     "id": "aelia",
@@ -145,11 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "aelia",
     "xp_before": 696,
     "level_before": 1,
-    "class": "Bard"
+    "class": "Bard",
+    "returned_day": 223,
+    "xp_award": 791
    },
    "marcellus": {
     "id": "marcellus",
@@ -159,11 +179,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "marcellus",
     "xp_before": 696,
     "level_before": 1,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 223,
+    "xp_award": 791
    },
    "gnaeus": {
     "id": "gnaeus",
@@ -173,18 +195,187 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "gnaeus",
     "xp_before": 696,
     "level_before": 2,
-    "class": "Explorer"
+    "class": "Explorer",
+    "returned_day": 223,
+    "xp_award": 791
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M40",
+    "monster": "Mechanical Cobra (SOTN)",
+    "source": "Bronze Mechanical Cobra (SOTN) (MM p. 142)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 29
+   }
+  ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 223,
+   "at": "Cyfaraun",
+   "total": 14243.0,
+   "per_share": 1582.5555555555557,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 1583,
+     "pct": 10,
+     "pen": 0,
+     "award": 1741,
+     "xp_before": 8815,
+     "xp_after": 10556,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 1583,
+     "pct": 5,
+     "pen": 0,
+     "award": 1662,
+     "xp_before": 8411,
+     "xp_after": 10073,
+     "capped": null,
+     "zero": false,
+     "level_up": 5
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 1583,
+     "pct": 5,
+     "pen": 0,
+     "award": 1662,
+     "xp_before": 3817,
+     "xp_after": 5479,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 1583,
+     "pct": 5,
+     "pen": 0,
+     "award": 1662,
+     "xp_before": 3674,
+     "xp_after": 5336,
+     "capped": null,
+     "zero": false,
+     "level_up": 3
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 1583,
+     "pct": 0,
+     "pen": 0,
+     "award": 1583,
+     "xp_before": 2015,
+     "xp_after": 3598,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 1583,
+     "pct": 5,
+     "pen": 0,
+     "award": 1662,
+     "xp_before": 2682,
+     "xp_after": 4344,
+     "capped": null,
+     "zero": false,
+     "level_up": 3
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 791,
+     "pct": 0,
+     "pen": 0,
+     "award": 791,
+     "xp_before": 1008,
+     "xp_after": 1799,
+     "capped": null,
+     "zero": false
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 791,
+     "pct": 0,
+     "pen": 0,
+     "award": 791,
+     "xp_before": 893,
+     "xp_after": 1684,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 791,
+     "pct": 0,
+     "pen": 0,
+     "award": 791,
+     "xp_before": 893,
+     "xp_after": 1684,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 791,
+     "pct": 0,
+     "pen": 0,
+     "award": 791,
+     "xp_before": 696,
+     "xp_after": 1487,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 791,
+     "pct": 0,
+     "pen": 0,
+     "award": 791,
+     "xp_before": 696,
+     "xp_after": 1487,
+     "capped": null,
+     "zero": false
+    },
+    "gnaeus": {
+     "share": 0.5,
+     "why": null,
+     "base": 791,
+     "pct": 0,
+     "pen": 0,
+     "award": 791,
+     "xp_before": 696,
+     "xp_after": 1487,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 223,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -10807,6 +10998,527 @@
    "used": false,
    "sold": null,
    "judge": []
+  },
+  "L106": {
+   "id": "L106",
+   "adventure": "A19",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H12 embalming chamber (spilled urns)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0.16666666666666666,
+    "name": "jewelry worth 2000.0gp"
+   },
+   "player": {
+    "desc": "a string of black pearl prayer beads",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 2200.0,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L107": {
+   "id": "L107",
+   "adventure": "A19",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H12 embalming chamber (spilled urns)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 0.16666666666666666,
+    "name": "jewelry worth 500.0gp"
+   },
+   "player": {
+    "desc": "an engraved ivory pendant",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 550.0,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L108": {
+   "id": "L108",
+   "adventure": "A19",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H12 embalming chamber (spilled urns)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "qty": 1,
+    "value_gp": 100.0,
+    "stone": 0.16666666666666666,
+    "name": "jewelry worth 100.0gp"
+   },
+   "player": {
+    "desc": "a bronze brooch",
+    "value_gp": 100.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 110.0,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L109": {
+   "id": "L109",
+   "adventure": "A19",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H12 embalming chamber (spilled urns)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "qty": 1,
+    "value_gp": 200.0,
+    "stone": 0.16666666666666666,
+    "name": "jewelry worth 200.0gp"
+   },
+   "player": {
+    "desc": "a bronze amulet set with amber",
+    "value_gp": 200.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 220.0,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L110": {
+   "id": "L110",
+   "adventure": "A19",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 2.34,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H12 armoire"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 210.0,
+    "stone": 2.34,
+    "name": "14 vials of blue natron",
+    "merch": null
+   },
+   "player": {
+    "desc": "14 vials of blue natron",
+    "value_gp": 210.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 231.0,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L111": {
+   "id": "L111",
+   "adventure": "A19",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.84,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H17 vestry"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 700.0,
+    "stone": 1.84,
+    "name": "five clay scroll jars of temple record scrolls",
+    "merch": null
+   },
+   "player": {
+    "desc": "five clay scroll jars of temple record scrolls",
+    "value_gp": 700.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 770.0,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L112": {
+   "id": "L112",
+   "adventure": "A19",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.34,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 223,
+    "where": "H17 vestry (armoire)"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 275.0,
+    "stone": 0.34,
+    "name": "11 sticks of myrrh in an oilcloth bundle",
+    "merch": null
+   },
+   "player": {
+    "desc": "11 sticks of myrrh in an oilcloth bundle",
+    "value_gp": 275.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 302.5,
+    "market": "Cyfaraun (Market)",
+    "day": 223,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": []
+  },
+  "L113": {
+   "id": "L113",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 6000,
+   "stone": 6.0,
+   "carrier": "vestus-the-unlikely",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 1)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 6000,
+    "value_gp": 600.0,
+    "stone": 6.0,
+    "name": "6,000 silver pieces"
+   },
+   "player": {
+    "desc": "6,000 silver pieces",
+    "value_gp": 600.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
+  },
+  "L114": {
+   "id": "L114",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 3000,
+   "stone": 3.0,
+   "carrier": "vestus-the-unlikely",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 3)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "ep",
+    "qty": 3000,
+    "value_gp": 1500.0,
+    "stone": 3.0,
+    "name": "3,000 electrum pieces"
+   },
+   "player": {
+    "desc": "3,000 electrum pieces",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
+  },
+  "L115": {
+   "id": "L115",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 5000,
+   "stone": 5.0,
+   "carrier": "phaedra",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 2)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 5000,
+    "value_gp": 500.0,
+    "stone": 5.0,
+    "name": "5,000 silver pieces"
+   },
+   "player": {
+    "desc": "5,000 silver pieces",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
+  },
+  "L116": {
+   "id": "L116",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 1000,
+   "stone": 1.0,
+   "carrier": "aelia",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 2)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 1000,
+    "value_gp": 100.0,
+    "stone": 1.0,
+    "name": "1,000 silver pieces"
+   },
+   "player": {
+    "desc": "1,000 silver pieces",
+    "value_gp": 100.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
+  },
+  "L117": {
+   "id": "L117",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 3000,
+   "stone": 3.0,
+   "carrier": "aelia",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 3)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "ep",
+    "qty": 3000,
+    "value_gp": 1500.0,
+    "stone": 3.0,
+    "name": "3,000 electrum pieces"
+   },
+   "player": {
+    "desc": "3,000 electrum pieces",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
+  },
+  "L118": {
+   "id": "L118",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 4000,
+   "stone": 4.0,
+   "carrier": "neris",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 4)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 4000,
+    "value_gp": 4000.0,
+    "stone": 4.0,
+    "name": "4,000 gold pieces"
+   },
+   "player": {
+    "desc": "4,000 gold pieces",
+    "value_gp": 4000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
+  },
+  "L119": {
+   "id": "L119",
+   "adventure": "A19",
+   "kind": "coins",
+   "qty": 2000,
+   "stone": 2.0,
+   "carrier": "gnaeus",
+   "status": "divided",
+   "found": {
+    "day": 223,
+    "where": "G21 temple treasury (chest 4)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 2000,
+    "value_gp": 2000.0,
+    "stone": 2.0,
+    "name": "2,000 gold pieces"
+   },
+   "player": {
+    "desc": "2,000 gold pieces",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 223
   }
  },
  "hoards": {},
