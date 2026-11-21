@@ -23,7 +23,7 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   bottom **48**. Torch-bearers and other 0th-level help count 1 each; one who rises from 0th to 1st level counts 1½, at 2nd level 2, then his level. Day 196: Lucilla 4, Vettius 4, Iulia 2,
   Quirinus 2, Vestus 1, Neris 1, Brennus 1, Phaedra 1, Ottar 1 = **17**. Day 211, after hiring: **25**.
 
-- S09 (day 211): keep only the help the strength rule needs. Every henchman is a half share of treasure and XP out of
+- S09 (day 211), superseded S10 (day 233): keep only the help the strength rule needs. Every henchman is a half share of treasure and XP out of
   our pockets: when we stand at the floor without one, we let him go. Nysa let go on day 211 (25 against 24).
 
 - S09 (day 212): we are adventurers, not grave-robbers on day trips. Plan expeditions of several days toward the
@@ -85,3 +85,6 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   cloth and with the jewellery tucked under it. Instead she has put 700gp each into two Guildhouse caravans in her
   name: a steady one on her own textile road to Türos Tem, and a riskier long haul to the coast. She can back one
   more. Returns are collected in Cyfaraun after each month's end.
+- S10 (day 233): we keep the people we have. Every one of them is earning his keep and his share now; we hire
+  again only if deaths drop us below the strength line for where we are going. Phaedra and Gnaeus, let go this
+  morning, are back (Gnaeus has his battle axe again).

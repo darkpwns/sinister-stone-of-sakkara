@@ -89,7 +89,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 8.987
+    encumbrance_st: 8.821
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -106,8 +106,24 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 8.321
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (phaedra) out; torch (phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.2 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  - name: Phaedra
+    sheet: Characters/phaedra.json
+    role: henchman
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 4.994
+  - name: Gnaeus
+    sheet: Characters/gnaeus.json
+    role: henchman
+    hp: 9
+    hp_max: 9
+    conditions: []
+    spells_used: []
+    encumbrance_st: 7.154
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out
+  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.2 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Phaedra: food 6 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

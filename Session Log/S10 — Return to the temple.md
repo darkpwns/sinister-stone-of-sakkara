@@ -85,7 +85,9 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   Brennus off his feet, cut Vestus and Iulia, and burned to nothing under a rain of military oil. A diamond nose-ring
   in a lacquered box, a scroll on black handles, silver in an amphora, alabaster apes, and the whip itself (+1).
   Home by eleven. Varro, Hrodvar and Marcellus each rose to the second rank; with the party again above its line,
-  Phaedra and Gnaeus were let go, and Gnaeus' battle axe passed to Varro.
+  Phaedra and Gnaeus were let go, and Gnaeus' battle axe passed to Varro. Before the day was out the table
+  thought better of it and took them both back: from now on the party keeps its people and hires only when it
+  falls below its line.
 
 ## Who they met
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
