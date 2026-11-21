@@ -931,3 +931,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 221 |  | treasure share |  | 31gp 5sp 8cp |  | gnaeus |
 | 221 |  | treasure share |  | 31gp 5sp 8cp |  | decimus |
 | 221 | Cyfaraun buyers (goldsmiths, gemcutter, a collector) | sale of L100-L104 (A18) |  | 8,470gp |  | lucilla |
+| 222 | Silk Pony Inn (#25) | beds for thirteen, night of day 221 (Quirinus at the Solar Citadel) |  |  | 2gp 6sp | lucilla |

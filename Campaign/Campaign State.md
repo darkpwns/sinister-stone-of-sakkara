@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 221
-  time: '11:35'
+    day: 222
+  time: 06:35
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -26,11 +26,11 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 10.173
+    encumbrance_st: 10.165
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 10
+    hp: 12
     hp_max: 12
     conditions: []
     spells_used: []
@@ -41,8 +41,7 @@ public:
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -139,7 +138,7 @@ public:
     spells_used: []
     encumbrance_st: 7.496
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Decimus: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Decimus: food 7 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -163,7 +162,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 221
+clock_day: 222
 ---
 # Campaign State
 
