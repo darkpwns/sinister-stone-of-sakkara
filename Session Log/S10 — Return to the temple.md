@@ -81,8 +81,8 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   lyre of lullabies); Vestus read the grieving father's inscription. Behind its slab the father himself, a mummy in a
   gold circlet, rose ready; Iulia's rebuke held him cowering while four blades cut him down. The last slab, in the
   gallery wall, took fourteen heaves; Vettius heard chanting and a scrape above before it opened, so no one went in.
-  A woman's mummy in black leather clung to the ceiling and lashed down with a black whip; she threw Brennus at
-  Iulia's feet-almost, cut Vestus and Iulia, and burned to nothing under a rain of military oil. A diamond nose-ring
+  A woman's mummy in black leather clung to the ceiling and lashed down with a black whip; she tried to sweep
+  Brennus off his feet, cut Vestus and Iulia, and burned to nothing under a rain of military oil. A diamond nose-ring
   in a lacquered box, a scroll on black handles, silver in an amphora, alabaster apes, and the whip itself (+1).
   Home by eleven. Varro, Hrodvar and Marcellus each rose to the second rank; with the party again above its line,
   Phaedra and Gnaeus were let go, and Gnaeus' battle axe passed to Varro.
