@@ -97,6 +97,21 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 - Day 241 evening, The Mink: Liber Faunus, who had heard of them, offered eight parts in ten for any elven work and
   his blessing on the Old District grates. The table took it.
 
+- Day 242, seventeenth descent, to the temple of the dead's sealed tombs. Five prawns, maddened by the party's
+  shouting, died in the ramp gallery. The ramp slab moved at the first heave: a priest-mummy of Telith (Iulia named
+  the earth-goddess) rose sluggishly and was cut down in five rounds; silver urn and plates, pearls, opals and a
+  scatter of ancient gold. Behind its north fresco Vettius felt a hidden door and heard running water beyond.
+- Then the slab by the crossroads, and the worst fight of the descent: an embalmer-priest, a mummy of Dirgion with a
+  golden hook, a crawling mass of grave-worms in his wrappings and a shrieking skull above him. Half the company
+  shrank from him; his dread oration chilled the rest; the skull's shriek sent Lucilla and Vettius running. The
+  worms brought Marcellus and then Neris down (Hrodvar's hands saved both), Iulia's holy water burned him, and her
+  holy circle held the gallery while the others threw every flask of oil they had from beyond it, until his
+  strangling prayer broke her hold. Brennus' axe finished the priest and then most of his worms before they brought
+  him down too; Gnaeus killed the last, and a healing draught and Hrodvar's hands brought Brennus back. Eight of
+  them carried the mummy's rot out of the dark; three were carried. Every one was cured at the temples before dusk,
+  for 405gp. Brennus became a hero of the fourth rank, Aelia an archivist of the third. Liber Faunus took the
+  temple's relics at eight in ten (2,472gp).
+
 ## Who they met
 - Liber Faunus, owner of The Mink: lean, ageless, faintly pointed ears, groomed goatee; soft, amused, courteous ("Blood is bad for business, friend. Let us find a price instead."). Friendly.
 - Aranth Faunus, his brother, behind The Mink's bar: elven ears, unkempt black hair, eager for tomb-raiders' tales.
@@ -107,6 +122,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 - A vicar of Ammonar at the Solar Citadel: grey-templed, measured; asked what they had seen before what they wanted.
 
 ## Treasure and XP
+- Day 242 (A22): 4,700gp (H25 and H22; relics sold to Liber 2,472gp; opals kept) + 2,882 monster XP. Brennus Fighter 4, Aelia Bard 3.
 - Day 241: goods of A20 and A21 sold, 23,045gp (scrolls, spellbooks, lyre, whip +1 at full value); sale XP to the share-holders. Lucilla Venturer 5, Phaedra Mage 2.
 - Day 233 (A21): 4,001gp (E7-E9; goods unsold, held for day 241) + 2,120 monster XP. Varro Fighter 2, Hrodvar Vaultguard 2, Marcellus Fighter 2. Lucilla 34 XP short of Venturer 5.
 - Day 232 (A20): 4,465gp (E3 compartment; goods unsold, held for day 241) + 1,560 monster XP. Iulia Crusader 4, Neris Priestess 3, Aelia Bard 2.

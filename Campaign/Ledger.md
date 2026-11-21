@@ -94,6 +94,22 @@ tags:
 | 233 | Nethercity, expedition 16 (the upper galleries) | jewelry worth 1200.0gp | 1,200 | lucilla |
 | 233 | Nethercity, expedition 16 (the upper galleries) | SOTN Nightblade's Spellbook | 100 | vestus-the-unlikely |
 | 233 | Nethercity, expedition 16 (the upper galleries) | Whip +1 | 651 | vettius |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | a wrought silver urn carved with serpents | 125 | hrodvar |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | 500 electrum pieces | 250 | hrodvar |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | an ebony and dawn-redwood jewellery box | 25 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 500.0gp | 500 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | gem worth 100.0gp | 100 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | gem worth 100.0gp | 100 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | gem worth 100.0gp | 100 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | gem worth 100.0gp | 100 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | a set of teeth engraved with prayers | 100 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | 24 silver offering plates | 240 | varro |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | 960 gold pieces | 960 | marcellus |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 500.0gp | 500 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 500.0gp | 500 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 500.0gp | 500 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 300.0gp | 300 | lucilla |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 300.0gp | 300 | lucilla |
 
 ## Monster XP
 
@@ -120,6 +136,10 @@ tags:
 | 232 | Nethercity, expedition 15 (the deep galleries) | Baboon Mummy (SOTN) | 1 | 500 | 500 |
 | 233 | Nethercity, expedition 16 (the upper galleries) | Mummy | 1 | 1,060 | 1,060 |
 | 233 | Nethercity, expedition 16 (the upper galleries) | Mummy | 1 | 1,060 | 1,060 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Tunnel Prawn (SOTN) | 5 | 10 | 50 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Mummy | 1 | 1,060 | 1,060 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Mummy | 1 | 1,580 | 1,580 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Sepulchral Worm | 12 | 16 | 192 |
 
 ## Shares and XP awarded
 
@@ -265,6 +285,18 @@ tags:
 | 233 | Nethercity, expedition 16 (the upper galleries) | Aelia | 0.5 | 222 | 118 | 0 | +0% | 340 |
 | 233 | Nethercity, expedition 16 (the upper galleries) | Marcellus | 0.5 | 222 | 118 | 0 | +0% | 340 |
 | 233 | Nethercity, expedition 16 (the upper galleries) | Gnaeus | 0.5 | 222 | 118 | 0 | +0% | 340 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Lucilla | 1 | 522 | 320 | 0 | +10% | 926 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Vettius | 1 | 522 | 320 | 0 | +5% | 884 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Iulia | 1 | 522 | 320 | 0 | +5% | 884 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Vestus the Unlikely | 1 | 522 | 320 | 0 | +5% | 884 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Neris | 1 | 522 | 320 | 0 | +0% | 842 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Brennus | 1 | 522 | 320 | 0 | +5% | 884 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Phaedra | 0.5 | 261 | 160 | 0 | +0% | 421 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Varro | 0.5 | 261 | 160 | 0 | +0% | 421 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Hrodvar | 0.5 | 261 | 160 | 0 | +0% | 421 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Aelia | 0.5 | 261 | 160 | 0 | +0% | 421 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Marcellus | 0.5 | 261 | 160 | 0 | +0% | 421 |
+| 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Gnaeus | 0.5 | 261 | 160 | 0 | +0% | 421 |
 
 ## Wages
 
@@ -1126,3 +1158,32 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 242 | Cyfaraun | torch | 12 |  | 2sp | aelia |
 | 242 | Cyfaraun | torch | 12 |  | 2sp | phaedra |
 | 242 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | vettius |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | the temple (donation) | donation to sweeten the eighth Cure Disease (Rulings S09) |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Light Injury |  |  | 5gp | lucilla |
+| 242 | the temple (donation) | donation to sweeten a Cure Light Injury (Rulings S09) |  |  | 5gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Light Injury |  |  | 5gp | lucilla |
+| 242 | the temple (donation) | donation to sweeten a Cure Light Injury (Rulings S09) |  |  | 5gp | lucilla |
+| 242 | a caster in Cyfaraun | spellcasting: Cure Light Injury |  |  | 5gp | lucilla |
+| 242 |  | treasure share |  | 134gp 4sp 4cp |  | lucilla |
+| 242 |  | treasure share |  | 134gp 4sp 4cp |  | vettius |
+| 242 |  | treasure share |  | 134gp 4sp 4cp |  | iulia |
+| 242 |  | treasure share |  | 134gp 4sp 4cp |  | vestus-the-unlikely |
+| 242 |  | treasure share |  | 134gp 4sp 4cp |  | neris |
+| 242 |  | treasure share |  | 134gp 4sp 4cp |  | brennus |
+| 242 |  | treasure share |  | 67gp 2sp 2cp |  | phaedra |
+| 242 |  | treasure share |  | 67gp 2sp 2cp |  | varro |
+| 242 |  | treasure share |  | 67gp 2sp 2cp |  | hrodvar |
+| 242 |  | treasure share |  | 67gp 2sp 2cp |  | aelia |
+| 242 |  | treasure share |  | 67gp 2sp 2cp |  | marcellus |
+| 242 |  | treasure share |  | 67gp 2sp 2cp |  | gnaeus |
+| 242 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | elven relics of A22 (L152-L167) sold through the Argollëan Family, day 242 |  | 2,472gp |  | lucilla |
+| 242 | Hospital of the Keepers | donation for three pallets in the courtyard (Brennus, Neris, Marcellus), night of day 242 |  |  | 3gp | lucilla |
+| 243 | Silk Pony Inn (#25) | beds for nine, night of day 242 (three at the hospital) |  |  | 1gp 8sp | lucilla |
