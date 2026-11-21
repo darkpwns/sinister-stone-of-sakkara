@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
  "session": 8,
- "generated": 1795263541,
+ "generated": 1795263871,
  "date": {
   "year": "",
   "season": "fall",
-  "day": 191
+  "day": 192
  },
- "time": "08:35",
+ "time": "06:29",
  "weather": "Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -23,7 +23,7 @@
     "minor scarring (fang mark on the hand)"
    ],
    "spells_used": [],
-   "encumbrance_st": 9.946
+   "encumbrance_st": 9.937
   },
   {
    "name": "Vettius",
@@ -42,7 +42,9 @@
    "hp": 3,
    "hp_max": 3,
    "conditions": [],
-   "spells_used": []
+   "spells_used": [
+    "Mage Missile"
+   ]
   },
   {
    "name": "Neris",
@@ -51,7 +53,9 @@
    "hp": 4,
    "hp_max": 4,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Cure Light Injury"
+   ],
    "encumbrance_st": 2.167
   },
   {
@@ -62,27 +66,32 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 7.5
+   "encumbrance_st": 7.333
   },
   {
    "name": "Brennus",
    "sheet": "Characters/brennus.json",
    "role": "pc",
-   "hp": 4,
+   "hp": 6,
    "hp_max": 6,
-   "conditions": [],
+   "conditions": [
+    "ear torn clean off (-1 to Listening throws and -1 to surprise rolls)",
+    "in shock: needs magical healing and one night of bed rest, or 1 week of bed rest"
+   ],
    "spells_used": [],
-   "encumbrance_st": 6.333
+   "encumbrance_st": 6.167
   },
   {
    "name": "Iulia",
    "sheet": "Characters/iulia.json",
    "role": "pc",
-   "hp": 13,
+   "hp": 1,
    "hp_max": 13,
-   "conditions": [],
+   "conditions": [
+    "minor scarring (puncture wound)"
+   ],
    "spells_used": [],
-   "encumbrance_st": 8.192
+   "encumbrance_st": 8.025
   },
   {
    "name": "Phaedra",
@@ -91,21 +100,23 @@
    "hp": 5,
    "hp_max": 5,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Slumber"
+   ],
    "encumbrance_st": 1.167
   },
   {
    "name": "Quirinus",
    "sheet": "Characters/quirinus.json",
    "role": "henchman",
-   "hp": 16,
+   "hp": 14,
    "hp_max": 18,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 6.5
   }
  ],
- "light": "lantern (Vettius) out; torch (Ottar) 6 turns left",
+ "light": "lantern (Vettius) out; torch (Ottar) 6 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra",
  "rations": "Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
@@ -259,9 +270,9 @@
     },
     "backpack": {
      "contents": [
-      "Oil, Military (1 pint) ×3"
+      "Oil, Military (1 pint) ×2"
      ],
-     "items": 3,
+     "items": 2,
      "stone": 0
     },
     "sack": {
@@ -294,7 +305,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.333,
+   "encumbrance_st": 6.167,
    "weapons": [
     {
      "name": "Great Axe",
@@ -472,8 +483,8 @@
      "stone": 5
     },
     "right_hand": {
-     "item": "",
-     "items": 0,
+     "item": "Mace",
+     "items": 1,
      "stone": 0
     },
     "left_hand": {
@@ -504,20 +515,19 @@
     "backpack": {
      "contents": [
       "Holy Water (1 pint) ×2",
-      "Oil, Military (1 pint) ×3"
+      "Oil, Military (1 pint) ×2"
      ],
-     "items": 5,
+     "items": 4,
      "stone": 0
     },
     "sack": {
      "contents": [
       "Holy Book",
       "Holy Symbol",
-      "Mace",
       "Shield",
       "Waterskin"
      ],
-     "items": 3,
+     "items": 2,
      "stone": 1.5
     },
     "worn": {
@@ -539,19 +549,19 @@
     "sp": 25,
     "cp": 0
    },
-   "encumbrance_st": 8.192,
+   "encumbrance_st": 8.025,
    "weapons": [
     {
      "name": "Mace",
      "init_bonus": "",
      "attack_throw": 9,
-     "damage": "1d6/1d8+1",
+     "damage": "1d6+1",
      "range": {
       "short": 0,
       "medium": 0,
       "long": 0
      },
-     "held": "sack"
+     "held": "right hand"
     }
    ],
    "treasure": [],
@@ -883,11 +893,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 437,
-    "sp": 9,
+    "gp": 436,
+    "sp": 1,
     "cp": 0
    },
-   "encumbrance_st": 9.946,
+   "encumbrance_st": 9.937,
    "weapons": [
     {
      "name": "Dagger",
@@ -1617,9 +1627,9 @@
     "backpack": {
      "contents": [
       "Waterskin ×5",
-      "torch ×15"
+      "torch ×14"
      ],
-     "items": 20,
+     "items": 19,
      "stone": 0
     },
     "sack": {
@@ -1642,7 +1652,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 7.5,
+   "encumbrance_st": 7.333,
    "weapons": [
     {
      "name": "Spear",
@@ -2709,113 +2719,55 @@
  ],
  "open_rolls": [
   {
-   "label": "weather precipitation (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather wind (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    1
-   ],
-   "total": 4
-  },
-  {
-   "label": "lucilla death save",
-   "spec": "1d20+4",
-   "rolls": [
-    12
-   ],
-   "total": 16
-  },
-  {
-   "label": "vettius death save",
-   "spec": "1d20+4",
-   "rolls": [
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "vestus-the-unlikely death save",
-   "spec": "1d20+4",
-   "rolls": [
-    13
-   ],
-   "total": 17
-  },
-  {
-   "label": "neris death save",
-   "spec": "1d20+4",
-   "rolls": [
-    20
-   ],
-   "total": 24
-  },
-  {
-   "label": "ottar death save",
-   "spec": "1d20+5",
-   "rolls": [
-    17
-   ],
-   "total": 22
-  },
-  {
    "label": "brennus death save",
    "spec": "1d20+4",
    "rolls": [
-    10
+    14
    ],
-   "total": 14
+   "total": 18
   },
   {
    "label": "iulia death save",
    "spec": "1d20+5",
    "rolls": [
-    13
+    8
    ],
-   "total": 18
+   "total": 13
   },
   {
    "label": "quirinus death save",
    "spec": "1d20+3",
    "rolls": [
-    4
+    6
    ],
-   "total": 7
+   "total": 9
   },
   {
    "label": "phaedra death save",
    "spec": "1d20+4",
    "rolls": [
-    19
+    1
    ],
-   "total": 23
+   "total": 5
   },
   {
-   "label": "Lucilla surprise",
+   "label": "init Lucilla",
    "spec": "1d6",
    "rolls": [
-    4
+    5
    ],
-   "total": 4
+   "total": 5
   },
   {
-   "label": "Vettius surprise",
+   "label": "init Vettius",
    "spec": "1d6",
    "rolls": [
-    6
+    5
    ],
-   "total": 6
+   "total": 5
   },
   {
-   "label": "Vestus the Unlikely surprise",
+   "label": "init Vestus the Unlikely",
    "spec": "1d6",
    "rolls": [
     2
@@ -2823,7 +2775,7 @@
    "total": 2
   },
   {
-   "label": "Neris surprise",
+   "label": "init Neris",
    "spec": "1d6",
    "rolls": [
     5
@@ -2831,15 +2783,7 @@
    "total": 5
   },
   {
-   "label": "Ottar surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Brennus surprise",
+   "label": "init Ottar",
    "spec": "1d6",
    "rolls": [
     1
@@ -2847,7 +2791,15 @@
    "total": 1
   },
   {
-   "label": "Iulia surprise",
+   "label": "init Brennus",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Iulia",
    "spec": "1d6",
    "rolls": [
     4
@@ -2855,20 +2807,87 @@
    "total": 4
   },
   {
-   "label": "Quirinus surprise",
+   "label": "init Quirinus",
    "spec": "1d6",
    "rolls": [
-    5
+    2
    ],
-   "total": 5
+   "total": 2
   },
   {
-   "label": "Phaedra surprise",
+   "label": "init Phaedra",
    "spec": "1d6",
    "rolls": [
-    4
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Brennus throws burning military oil at the charging hunter (15+, short)",
+   "spec": "1d20+3",
+   "rolls": [
+    16
+   ],
+   "total": 19
+  },
+  {
+   "label": "Iulia throws burning military oil at the charging hunter (15+)",
+   "spec": "1d20+1",
+   "rolls": [
+    17
+   ],
+   "total": 18
+  },
+  {
+   "label": "damage to Quirinus",
+   "spec": "2d8",
+   "rolls": [
+    1,
+    3
    ],
    "total": 4
+  },
+  {
+   "label": "Quirinus paralysis save",
+   "spec": "1d20-1",
+   "rolls": [
+    8
+   ],
+   "total": 7
+  },
+  {
+   "label": "damage to Brennus",
+   "spec": "2d8",
+   "rolls": [
+    7,
+    6
+   ],
+   "total": 13
+  },
+  {
+   "label": "Brennus paralysis save",
+   "spec": "1d20",
+   "rolls": [
+    18
+   ],
+   "total": 18
+  },
+  {
+   "label": "Quirinus paralysis save",
+   "spec": "1d20-1",
+   "rolls": [
+    8
+   ],
+   "total": 7
+  },
+  {
+   "label": "damage to Iulia",
+   "spec": "2d8",
+   "rolls": [
+    7,
+    2
+   ],
+   "total": 9
   },
   {
    "label": "init Lucilla",
@@ -2882,25 +2901,25 @@
    "label": "init Vettius",
    "spec": "1d6",
    "rolls": [
-    4
+    2
    ],
-   "total": 4
+   "total": 2
   },
   {
    "label": "init Vestus the Unlikely",
    "spec": "1d6",
    "rolls": [
-    3
+    6
    ],
-   "total": 3
+   "total": 6
   },
   {
    "label": "init Neris",
    "spec": "1d6",
    "rolls": [
-    3
+    6
    ],
-   "total": 3
+   "total": 6
   },
   {
    "label": "init Ottar",
@@ -2911,7 +2930,7 @@
    "total": 5
   },
   {
-   "label": "init Brennus",
+   "label": "init Iulia",
    "spec": "1d6",
    "rolls": [
     6
@@ -2919,23 +2938,7 @@
    "total": 6
   },
   {
-   "label": "init Iulia",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
    "label": "init Quirinus",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Phaedra",
    "spec": "1d6",
    "rolls": [
     5
@@ -2943,52 +2946,109 @@
    "total": 5
   },
   {
-   "label": "Brennus throws burning military oil at swarm 1 (12+)",
-   "spec": "1d20+3",
+   "label": "init Phaedra",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Brennus d20",
+   "spec": "1d20",
    "rolls": [
     20
    ],
-   "total": 23
+   "total": 20
   },
   {
-   "label": "Vettius throws burning oil at swarm 2 (11+, miasma -1)",
-   "spec": "1d20+0",
+   "label": "Mortal Wounds Brennus d6",
+   "spec": "1d6",
    "rolls": [
-    17
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Neris Cure Light Injury on Brennus",
+   "spec": "1d6+1",
+   "rolls": [
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "damage to Iulia",
+   "spec": "2d8",
+   "rolls": [
+    2,
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "Iulia paralysis save",
+   "spec": "1d20+1",
+   "rolls": [
+    16
    ],
    "total": 17
   },
   {
-   "label": "Lucilla throws burning oil at swarm 3 (11+)",
-   "spec": "1d20+1",
+   "label": "Quirinus paralysis save",
+   "spec": "1d20-1",
    "rolls": [
-    9
+    6
    ],
-   "total": 10
+   "total": 5
   },
   {
-   "label": "Iulia throws burning military oil at swarm 1 (12+)",
-   "spec": "1d20+1",
-   "rolls": [
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "Iulia's flask scatters (clock)",
-   "spec": "1d12",
+   "label": "attack Phaedra vs a long-legged pale hunter 1",
+   "spec": "1d20",
    "rolls": [
     2
    ],
    "total": 2
   },
   {
-   "label": "Iulia's flask scatters (feet)",
-   "spec": "1d10",
+   "label": "attack Lucilla vs a long-legged pale hunter 1",
+   "spec": "1d20",
    "rolls": [
-    6
+    15
    ],
-   "total": 6
+   "total": 15
+  },
+  {
+   "label": "damage to a long-legged pale hunter 1",
+   "spec": "1d4",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Ottar thrusts his torch at the hunter (16+)",
+   "spec": "1d20",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Mortal Wounds Iulia d20",
+   "spec": "1d20",
+   "rolls": [
+    14
+   ],
+   "total": 14
+  },
+  {
+   "label": "Mortal Wounds Iulia d6",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
   },
   {
    "label": "init Lucilla",
@@ -3010,9 +3070,9 @@
    "label": "init Vestus the Unlikely",
    "spec": "1d6",
    "rolls": [
-    4
+    2
    ],
-   "total": 4
+   "total": 2
   },
   {
    "label": "init Neris",
@@ -3026,25 +3086,25 @@
    "label": "init Ottar",
    "spec": "1d6",
    "rolls": [
-    6
+    4
    ],
-   "total": 6
+   "total": 4
   },
   {
    "label": "init Brennus",
    "spec": "1d6",
    "rolls": [
-    4
+    1
    ],
-   "total": 4
+   "total": 1
   },
   {
    "label": "init Iulia",
    "spec": "1d6",
    "rolls": [
-    4
+    2
    ],
-   "total": 4
+   "total": 2
   },
   {
    "label": "init Quirinus",
@@ -3058,59 +3118,9 @@
    "label": "init Phaedra",
    "spec": "1d6",
    "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Brennus throws burning military oil at swarm 3 (12+)",
-   "spec": "1d20+3",
-   "rolls": [
-    10
-   ],
-   "total": 13
-  },
-  {
-   "label": "Lucilla throws burning oil at swarm 2 (11+)",
-   "spec": "1d20+1",
-   "rolls": [
-    12
-   ],
-   "total": 13
-  },
-  {
-   "label": "Iulia throws burning military oil at swarm 1 (12+)",
-   "spec": "1d20+1",
-   "rolls": [
-    12
-   ],
-   "total": 13
-  },
-  {
-   "label": "Vettius throws burning oil at swarm 1 (11+, miasma -1)",
-   "spec": "1d20",
-   "rolls": [
     6
    ],
    "total": 6
-  },
-  {
-   "label": "damage to Quirinus",
-   "spec": "2d1",
-   "rolls": [
-    1,
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "damage to Brennus",
-   "spec": "2d1",
-   "rolls": [
-    1,
-    1
-   ],
-   "total": 2
   }
  ],
  "rumours_heard": [

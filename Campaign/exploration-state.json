@@ -1,9 +1,9 @@
 {
  "schema": "acks-exploration/3",
  "clock": {
-  "day": 191,
-  "round_of_day": 515,
-  "total_rounds": 273635
+  "day": 192,
+  "round_of_day": 389,
+  "total_rounds": 274949
  },
  "party": {
   "lucilla": {
@@ -171,34 +171,46 @@
    "id": "torch48",
    "kind": "torch",
    "carrier": "ottar",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch49",
+   "kind": "torch",
+   "carrier": "ottar",
    "lit": true,
    "closed": false,
-   "rounds_left": 60,
+   "rounds_left": 6,
    "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 50,
+  "rounds_since_rest": 54,
   "rest_rounds": 0,
-  "winded": []
+  "winded": [
+   "lucilla",
+   "vettius",
+   "vestus-the-unlikely",
+   "neris",
+   "ottar",
+   "iulia",
+   "quirinus",
+   "phaedra"
+  ]
  },
  "location": null,
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 191 08:30",
-   "roll": 3,
+   "at": "day 192 06:00",
+   "roll": 5,
    "target": 5,
-   "encounter": false
+   "encounter": true
   },
   "history": [
-   {
-    "at": "day 142 11:20",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 142 11:40",
     "roll": 3,
@@ -312,13 +324,19 @@
     "roll": 3,
     "target": 5,
     "encounter": false
+   },
+   {
+    "at": "day 192 06:00",
+    "roll": 5,
+    "target": 5,
+    "encounter": true
    }
   ],
   "pending_at": null,
-  "turn_start_done": 273630
+  "turn_start_done": 274940
  },
  "turn_actions": {
-  "turn": 27363,
+  "turn": 27494,
   "listened": [],
   "actions": []
  },
@@ -1102,6 +1120,10 @@
   "191": {
    "delve_rounds": 149,
    "rest_rounds": 20
+  },
+  "192": {
+   "delve_rounds": 54,
+   "rest_rounds": 0
   }
  },
  "events": [
@@ -2688,11 +2710,19 @@
     "delve_rounds": 0,
     "rest_rounds": 0
    }
+  },
+  {
+   "event": "day_rollover",
+   "day": 192,
+   "previous": {
+    "delve_rounds": 149,
+    "rest_rounds": 20
+   }
   }
  ],
  "next_ids": {
-  "enc": 140,
-  "torch": 48,
+  "enc": 142,
+  "torch": 49,
   "t": 5,
   "lantern": 1
  },
@@ -3485,13 +3515,13 @@
      {
       "kind": "iron",
       "days": 3.0,
-      "wild": 20.0,
+      "wild": 21.0,
       "dungeon": 0.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 5.0,
+      "wild": 6.0,
       "dungeon": 0.0
      }
     ],
@@ -3536,7 +3566,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -3585,13 +3615,13 @@
      {
       "kind": "iron",
       "days": 3.0,
-      "wild": 20.0,
+      "wild": 21.0,
       "dungeon": 0.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 5.0,
+      "wild": 6.0,
       "dungeon": 0.0
      }
     ],
@@ -3636,7 +3666,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -4245,19 +4275,19 @@
      {
       "kind": "iron",
       "days": 5.0,
-      "wild": 25.0,
+      "wild": 26.0,
       "dungeon": 0.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 20.0,
+      "wild": 21.0,
       "dungeon": 0.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 5.0,
+      "wild": 6.0,
       "dungeon": 0.0
      }
     ],
@@ -4302,7 +4332,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -4720,7 +4750,7 @@
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 5.0,
+      "wild": 6.0,
       "dungeon": 0.0
      }
     ],
@@ -4765,7 +4795,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -4812,7 +4842,7 @@
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 5.0,
+      "wild": 6.0,
       "dungeon": 0.0
      }
     ],
@@ -4857,7 +4887,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -4904,13 +4934,13 @@
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 1.0,
+      "wild": 2.0,
       "dungeon": 0.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 1.0,
+      "wild": 2.0,
       "dungeon": 0.0
      }
     ],
@@ -4919,9 +4949,11 @@
     "hist": {
      "food": [
       1.0,
+      1.0,
       1.0
      ],
      "water": [
+      1.0,
       1.0,
       1.0
      ]
@@ -4937,7 +4969,7 @@
     "underfed_hist": [],
     "strenuous_run": 0,
     "forced_run": 0,
-    "sleep_due": null,
+    "sleep_due": 191,
     "bed_rest": 0,
     "protective": null,
     "wet": false,
@@ -4969,7 +5001,7 @@
     "passenger": false
    },
    "iulia": {
-    "hp": 13,
+    "hp": 1,
     "hp_max": 13,
     "con": 16,
     "con_mod": 2,
@@ -4982,13 +5014,13 @@
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 1.0,
+      "wild": 2.0,
       "dungeon": 0.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 1.0,
+      "wild": 2.0,
       "dungeon": 0.0
      }
     ],
@@ -4997,9 +5029,11 @@
     "hist": {
      "food": [
       1.0,
+      1.0,
       1.0
      ],
      "water": [
+      1.0,
       1.0,
       1.0
      ]
@@ -5013,7 +5047,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -5047,7 +5081,7 @@
     "passenger": false
    },
    "quirinus": {
-    "hp": 18,
+    "hp": 14,
     "hp_max": 18,
     "con": 16,
     "con_mod": 2,
@@ -5060,15 +5094,19 @@
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 0.0,
+      "wild": 1.0,
       "dungeon": 0.0
      }
     ],
     "water": 0.0,
     "firewood": 0.0,
     "hist": {
-     "food": [],
-     "water": []
+     "food": [
+      1.0
+     ],
+     "water": [
+      1.0
+     ]
     },
     "cond": {
      "hungry": false,
@@ -5079,9 +5117,9 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
-    "sleep_due": null,
+    "sleep_due": 191,
     "bed_rest": 0,
     "protective": null,
     "wet": false,
@@ -5126,15 +5164,19 @@
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 0.0,
+      "wild": 1.0,
       "dungeon": 0.0
      }
     ],
     "water": 0.0,
     "firewood": 0.0,
     "hist": {
-     "food": [],
-     "water": []
+     "food": [
+      1.0
+     ],
+     "water": [
+      1.0
+     ]
     },
     "cond": {
      "hungry": false,
@@ -5145,7 +5187,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 0,
+    "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -5858,6 +5900,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ],
     "supplies_st": 6.583333333333333,
@@ -6182,6 +6228,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ]
    },
@@ -6213,6 +6263,10 @@
      [
       0,
       0
+     ],
+     [
+      1,
+      1
      ],
      [
       1,
@@ -39127,6 +39181,170 @@
      "forced": false,
      "dedicated": null,
      "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    },
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    },
+    "ottar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 5.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 5.0
+    },
+    "iulia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    },
+    "quirinus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 5.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 5.0
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 9.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 9.0
+    }
+   },
+   "192": {
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
      "strenuous": false,
      "rest": false,
      "outdoor_hours": 0.0,
@@ -39695,22 +39913,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc121",
-   "at": "day 171 07:40",
-   "monster_name": "Merchant",
-   "number": 1,
-   "reaction": "indifferent",
-   "status": "reaction"
-  },
-  {
-   "id": "enc122",
-   "at": "day 171 11:00",
-   "monster_name": "Commoner",
-   "number": 1,
-   "reaction": null,
-   "status": "begun"
-  },
-  {
    "id": "enc123",
    "at": "day 171 14:00",
    "monster_name": "Merchant",
@@ -39854,6 +40056,22 @@
    "number": 6,
    "reaction": "intimidated",
    "status": "reaction"
+  },
+  {
+   "id": "enc141",
+   "at": "day 192 06:00",
+   "monster_name": "Shrieking Fungus",
+   "number": 7,
+   "reaction": null,
+   "status": "begun"
+  },
+  {
+   "id": "enc142",
+   "at": "day 192 06:16",
+   "monster_name": "Rhagodessa (AX3)",
+   "number": 3,
+   "reaction": null,
+   "status": "fighting"
   }
  ]
 }

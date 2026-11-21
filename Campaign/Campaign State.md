@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 191
-  time: 08:35
+    day: 192
+  time: 06:29
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -25,7 +25,7 @@ public:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     spells_used: []
-    encumbrance_st: 9.946
+    encumbrance_st: 9.937
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -40,14 +40,16 @@ public:
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used: []
+    spells_used:
+    - Mage Missile
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
     encumbrance_st: 2.167
   - name: Ottar
     sheet: Characters/ottar.json
@@ -56,40 +58,44 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 7.5
+    encumbrance_st: 7.333
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 4
+    hp: 6
     hp_max: 6
-    conditions: []
+    conditions:
+    - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
+    - 'in shock: needs magical healing and one night of bed rest, or 1 week of bed rest'
     spells_used: []
-    encumbrance_st: 6.333
+    encumbrance_st: 6.167
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 13
+    hp: 1
     hp_max: 13
-    conditions: []
+    conditions:
+    - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.192
+    encumbrance_st: 8.025
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 5
     hp_max: 5
     conditions: []
-    spells_used: []
+    spells_used:
+    - Slumber
     encumbrance_st: 1.167
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
-    hp: 16
+    hp: 14
     hp_max: 18
     conditions: []
     spells_used: []
     encumbrance_st: 6.5
-  light: lantern (Vettius) out; torch (Ottar) 6 turns left
+  light: 'lantern (Vettius) out; torch (Ottar) 6 rounds left | winded: Lucilla, Vettius, Vestus the Unlikely, Neris, Ottar, Iulia, Quirinus, Phaedra'
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 0 d; Phaedra: food 7 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
@@ -114,7 +120,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 191
+clock_day: 192
 ---
 # Campaign State
 

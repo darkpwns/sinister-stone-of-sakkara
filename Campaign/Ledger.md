@@ -421,3 +421,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 191 | Cyfaraun | Oil, Military (1 pint) | 8 |  | 14gp 4sp | lucilla |
 | 191 | Cyfaraun | Oil, Common (1 pint) | 8 |  | 2gp 1sp 6cp | lucilla |
 | 191 | Cyfaraun | Holy Water (1 pint) | 2 |  | 45gp | lucilla |
+| 191 | Silk Pony Inn (#25) | beds for nine, night of day 191 |  |  | 1gp 8sp | lucilla |
