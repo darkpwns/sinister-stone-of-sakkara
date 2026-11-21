@@ -1,15 +1,15 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 14,
-  "L": 87,
+  "A": 15,
+  "L": 92,
   "H": 0,
-  "M": 32
+  "M": 34
  },
  "adventure": {
-  "id": "A14",
-  "name": "Secrets of the Nethercity, delve 9",
-  "start_day": 204,
+  "id": "A15",
+  "name": "Secrets of the Nethercity, delve 10",
+  "start_day": 211,
   "participants": {
    "lucilla": {
     "id": "lucilla",
@@ -25,7 +25,7 @@
     "level_before": 4,
     "class": "Venturer",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 143
    },
    "vettius": {
     "id": "vettius",
@@ -41,7 +41,7 @@
     "level_before": 4,
     "class": "Thief",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 136
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -57,7 +57,7 @@
     "level_before": 1,
     "class": "Mage",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 136
    },
    "neris": {
     "id": "neris",
@@ -73,7 +73,7 @@
     "level_before": 1,
     "class": "Priestess",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 130
    },
    "iulia": {
     "id": "iulia",
@@ -89,7 +89,7 @@
     "level_before": 2,
     "class": "Crusader",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 136
    },
    "brennus": {
     "id": "brennus",
@@ -105,7 +105,7 @@
     "level_before": 1,
     "class": "Fighter",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 136
    },
    "ottar": {
     "id": "ottar",
@@ -121,7 +121,7 @@
     "level_before": 0,
     "class": "None (0th level)",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "quirinus": {
     "id": "quirinus",
@@ -137,7 +137,7 @@
     "level_before": 2,
     "class": "Fighter",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "phaedra": {
     "id": "phaedra",
@@ -153,7 +153,7 @@
     "level_before": 1,
     "class": "Mage",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "varro": {
     "id": "varro",
@@ -169,7 +169,7 @@
     "level_before": 1,
     "class": "Fighter",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -185,7 +185,7 @@
     "level_before": 1,
     "class": "Dwarven Vaultguard",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "septima": {
     "id": "septima",
@@ -201,7 +201,7 @@
     "level_before": 1,
     "class": "Explorer",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "aelia": {
     "id": "aelia",
@@ -217,7 +217,7 @@
     "level_before": 1,
     "class": "Bard",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "marcellus": {
     "id": "marcellus",
@@ -233,7 +233,7 @@
     "level_before": 1,
     "class": "Fighter",
     "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    },
    "gnaeus": {
     "id": "gnaeus",
@@ -249,223 +249,212 @@
     "level_before": 2,
     "class": "Explorer",
     "returned_day": 211,
-    "xp_award": 0
-   },
-   "nysa": {
-    "id": "nysa",
-    "name": "Nysa",
-    "actor": "nysa",
-    "kind": "henchman",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": "nysa",
-    "xp_before": 0,
-    "level_before": 1,
-    "class": "Assassin",
-    "returned_day": 211,
-    "xp_award": 0
+    "xp_award": 65
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M33",
+    "monster": "Fungal Creeper (SOTN)",
+    "source": "Fungal Creeper (SOTN) (MM p. 143)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 65
+   },
+   {
+    "id": "M34",
+    "monster": "Bombardier Beetle",
+    "source": "Bombardier Beetle (MM p. 60)",
+    "number": 4,
+    "how": "killed",
+    "xp_each": 20
+   }
+  ],
   "awards": [],
   "status": "paid",
   "payout": {
    "day": 211,
    "at": "Cyfaraun",
-   "total": 0.0,
-   "per_share": 0.0,
+   "total": 1363.0,
+   "per_share": 129.8095238095238,
    "awards": {
     "lucilla": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 130,
      "pct": 10,
      "pen": 0,
-     "award": 0,
+     "award": 143,
      "xp_before": 7286,
-     "xp_after": 7286,
+     "xp_after": 7429,
      "capped": null,
      "zero": false
     },
     "vettius": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 130,
      "pct": 5,
      "pen": 0,
-     "award": 0,
+     "award": 136,
      "xp_before": 6952,
-     "xp_after": 6952,
+     "xp_after": 7088,
      "capped": null,
      "zero": false
     },
     "vestus-the-unlikely": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 130,
      "pct": 5,
      "pen": 0,
-     "award": 0,
+     "award": 136,
      "xp_before": 2215,
-     "xp_after": 2215,
+     "xp_after": 2351,
      "capped": null,
      "zero": false
     },
     "neris": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 130,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 130,
      "xp_before": 625,
-     "xp_after": 625,
+     "xp_after": 755,
      "capped": null,
      "zero": false
     },
     "iulia": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 130,
      "pct": 5,
      "pen": 0,
-     "award": 0,
+     "award": 136,
      "xp_before": 2358,
-     "xp_after": 2358,
+     "xp_after": 2494,
      "capped": null,
      "zero": false
     },
     "brennus": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 130,
      "pct": 5,
      "pen": 0,
-     "award": 0,
+     "award": 136,
      "xp_before": 1223,
-     "xp_after": 1223,
+     "xp_after": 1359,
      "capped": null,
      "zero": false
     },
     "ottar": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 312,
-     "xp_after": 312,
+     "xp_after": 377,
      "capped": null,
      "zero": true
     },
     "quirinus": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 312,
-     "xp_after": 312,
+     "xp_after": 377,
      "capped": null,
      "zero": false
     },
     "phaedra": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 312,
-     "xp_after": 312,
+     "xp_after": 377,
      "capped": null,
      "zero": false
     },
     "varro": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 197,
-     "xp_after": 197,
+     "xp_after": 262,
      "capped": null,
      "zero": false
     },
     "hrodvar": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 197,
-     "xp_after": 197,
+     "xp_after": 262,
      "capped": null,
      "zero": false
     },
     "septima": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 197,
-     "xp_after": 197,
+     "xp_after": 262,
      "capped": null,
      "zero": false
     },
     "aelia": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 0,
-     "xp_after": 0,
+     "xp_after": 65,
      "capped": null,
      "zero": false
     },
     "marcellus": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 0,
-     "xp_after": 0,
+     "xp_after": 65,
      "capped": null,
      "zero": false
     },
     "gnaeus": {
      "share": 0.5,
      "why": null,
-     "base": 0,
+     "base": 65,
      "pct": 0,
      "pen": 0,
-     "award": 0,
+     "award": 65,
      "xp_before": 0,
-     "xp_after": 0,
-     "capped": null,
-     "zero": false
-    },
-    "nysa": {
-     "share": 0.5,
-     "why": null,
-     "base": 0,
-     "pct": 0,
-     "pen": 0,
-     "award": 0,
-     "xp_before": 0,
-     "xp_after": 0,
+     "xp_after": 65,
      "capped": null,
      "zero": false
     }
@@ -4809,6 +4798,477 @@
     "day": 199,
     "where": "Cyfaraun"
    }
+  },
+  {
+   "id": "A14",
+   "name": "Secrets of the Nethercity, delve 9",
+   "start_day": 204,
+   "participants": {
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": "rosa",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 7286,
+     "level_before": 4,
+     "class": "Venturer",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": "tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 6952,
+     "level_before": 4,
+     "class": "Thief",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": "priya",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 2215,
+     "level_before": 1,
+     "class": "Mage",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": "ingrid",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 625,
+     "level_before": 1,
+     "class": "Priestess",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "iulia": {
+     "id": "iulia",
+     "name": "Iulia",
+     "actor": "iulia",
+     "kind": "pc",
+     "player": "gideon",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 2358,
+     "level_before": 2,
+     "class": "Crusader",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": "kwame",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 1223,
+     "level_before": 1,
+     "class": "Fighter",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "ottar": {
+     "id": "ottar",
+     "name": "Ottar",
+     "actor": "ottar",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "ottar",
+     "xp_before": 312,
+     "level_before": 0,
+     "class": "None (0th level)",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "quirinus": {
+     "id": "quirinus",
+     "name": "Quirinus",
+     "actor": "quirinus",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "quirinus",
+     "xp_before": 312,
+     "level_before": 2,
+     "class": "Fighter",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "phaedra",
+     "xp_before": 312,
+     "level_before": 1,
+     "class": "Mage",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "varro": {
+     "id": "varro",
+     "name": "Varro",
+     "actor": "varro",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "varro",
+     "xp_before": 197,
+     "level_before": 1,
+     "class": "Fighter",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "hrodvar": {
+     "id": "hrodvar",
+     "name": "Hrodvar",
+     "actor": "hrodvar",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "hrodvar",
+     "xp_before": 197,
+     "level_before": 1,
+     "class": "Dwarven Vaultguard",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "septima": {
+     "id": "septima",
+     "name": "Septima",
+     "actor": "septima",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "septima",
+     "xp_before": 197,
+     "level_before": 1,
+     "class": "Explorer",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "aelia": {
+     "id": "aelia",
+     "name": "Aelia",
+     "actor": "aelia",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "aelia",
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Bard",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "marcellus": {
+     "id": "marcellus",
+     "name": "Marcellus",
+     "actor": "marcellus",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "marcellus",
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Fighter",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "gnaeus": {
+     "id": "gnaeus",
+     "name": "Gnaeus",
+     "actor": "gnaeus",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "gnaeus",
+     "xp_before": 0,
+     "level_before": 2,
+     "class": "Explorer",
+     "returned_day": 211,
+     "xp_award": 0
+    },
+    "nysa": {
+     "id": "nysa",
+     "name": "Nysa",
+     "actor": "nysa",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "nysa",
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Assassin",
+     "returned_day": 211,
+     "xp_award": 0
+    }
+   },
+   "monsters": [],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 211,
+    "at": "Cyfaraun",
+    "total": 0.0,
+    "per_share": 0.0,
+    "awards": {
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 10,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 7286,
+      "xp_after": 7286,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 6952,
+      "xp_after": 6952,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 2215,
+      "xp_after": 2215,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 625,
+      "xp_after": 625,
+      "capped": null,
+      "zero": false
+     },
+     "iulia": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 2358,
+      "xp_after": 2358,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 1223,
+      "xp_after": 1223,
+      "capped": null,
+      "zero": false
+     },
+     "ottar": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 312,
+      "xp_after": 312,
+      "capped": null,
+      "zero": true
+     },
+     "quirinus": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 312,
+      "xp_after": 312,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 312,
+      "xp_after": 312,
+      "capped": null,
+      "zero": false
+     },
+     "varro": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 197,
+      "xp_after": 197,
+      "capped": null,
+      "zero": false
+     },
+     "hrodvar": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 197,
+      "xp_after": 197,
+      "capped": null,
+      "zero": false
+     },
+     "septima": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 197,
+      "xp_after": 197,
+      "capped": null,
+      "zero": false
+     },
+     "aelia": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 0,
+      "xp_after": 0,
+      "capped": null,
+      "zero": false
+     },
+     "marcellus": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 0,
+      "xp_after": 0,
+      "capped": null,
+      "zero": false
+     },
+     "gnaeus": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 0,
+      "xp_after": 0,
+      "capped": null,
+      "zero": false
+     },
+     "nysa": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 0,
+      "xp_after": 0,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 211,
+    "where": "Cyfaraun"
+   }
   }
  ],
  "lots": {
@@ -8134,6 +8594,183 @@
    "identified": true,
    "used": false,
    "sold": null,
+   "judge": []
+  },
+  "L88": {
+   "id": "L88",
+   "adventure": "A15",
+   "kind": "coins",
+   "qty": 30,
+   "stone": 0.03,
+   "carrier": "quirinus",
+   "status": "divided",
+   "found": {
+    "day": 211,
+    "where": "C3 wall graves (15, 3000 BE)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 30,
+    "value_gp": 30.0,
+    "stone": 0.03,
+    "name": "30 gold pieces"
+   },
+   "player": {
+    "desc": "30 gold pieces",
+    "value_gp": 30.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 211
+  },
+  "L89": {
+   "id": "L89",
+   "adventure": "A15",
+   "kind": "coins",
+   "qty": 180,
+   "stone": 0.18,
+   "carrier": "marcellus",
+   "status": "divided",
+   "found": {
+    "day": 211,
+    "where": "H3a wall graves (40, 2500 BE)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 180,
+    "value_gp": 180.0,
+    "stone": 0.18,
+    "name": "180 gold pieces"
+   },
+   "player": {
+    "desc": "180 gold pieces",
+    "value_gp": 180.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 211
+  },
+  "L90": {
+   "id": "L90",
+   "adventure": "A15",
+   "kind": "coins",
+   "qty": 270,
+   "stone": 0.27,
+   "carrier": "varro",
+   "status": "divided",
+   "found": {
+    "day": 211,
+    "where": "H4 wall graves (60, 2500 BE)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 270,
+    "value_gp": 270.0,
+    "stone": 0.27,
+    "name": "270 gold pieces"
+   },
+   "player": {
+    "desc": "270 gold pieces",
+    "value_gp": 270.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 211
+  },
+  "L91": {
+   "id": "L91",
+   "adventure": "A15",
+   "kind": "coins",
+   "qty": 324,
+   "stone": 0.324,
+   "carrier": "quirinus",
+   "status": "divided",
+   "found": {
+    "day": 211,
+    "where": "H3b wall graves (72, 2500 BE)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 324,
+    "value_gp": 324.0,
+    "stone": 0.324,
+    "name": "324 gold pieces"
+   },
+   "player": {
+    "desc": "324 gold pieces",
+    "value_gp": 324.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 211
+  },
+  "L92": {
+   "id": "L92",
+   "adventure": "A15",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.14,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 211,
+    "where": "H3c wall graves"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 414.0,
+    "stone": 4.14,
+    "name": "grave goods of 92 wall graves (2500 BE)",
+    "merch": null
+   },
+   "player": {
+    "desc": "grave goods: bronze and silver trinkets, beads, ancient coins",
+    "value_gp": 414.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 455.4,
+    "market": "Cyfaraun (Market)",
+    "day": 211,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   }
  },

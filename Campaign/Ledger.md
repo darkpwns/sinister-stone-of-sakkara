@@ -30,6 +30,11 @@ tags:
 | 199 | Secrets of the Nethercity, delve 7 | 19 sticks of frankincense | 380 | phaedra |
 | 199 | Secrets of the Nethercity, delve 7 | bronze pendant | 100 | phaedra |
 | 199 | Secrets of the Nethercity, delve 7 | SOTN Bag of Faerie Seeds | 5 | phaedra |
+| 211 | Secrets of the Nethercity, delve 10 | 30 gold pieces | 30 | quirinus |
+| 211 | Secrets of the Nethercity, delve 10 | 180 gold pieces | 180 | marcellus |
+| 211 | Secrets of the Nethercity, delve 10 | 270 gold pieces | 270 | varro |
+| 211 | Secrets of the Nethercity, delve 10 | 324 gold pieces | 324 | quirinus |
+| 211 | Secrets of the Nethercity, delve 10 | grave goods of 92 wall graves (2500 BE) | 414 | brennus |
 
 ## Monster XP
 
@@ -44,6 +49,8 @@ tags:
 | 198 | Secrets of the Nethercity, delve 6 | Skeleton | 12 | 13 | 156 |
 | 198 | Secrets of the Nethercity, delve 6 | Skeleton | 18 | 13 | 234 |
 | 199 | Secrets of the Nethercity, delve 7 | Insect Swarm | 1 | 29 | 29 |
+| 211 | Secrets of the Nethercity, delve 10 | Fungal Creeper (SOTN) | 1 | 65 | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Bombardier Beetle | 4 | 20 | 80 |
 
 ## Shares and XP awarded
 
@@ -95,6 +102,21 @@ tags:
 | 199 | Secrets of the Nethercity, delve 7 | Varro | 0.5 | 97 | 2 | 0 | +0% | 99 |
 | 199 | Secrets of the Nethercity, delve 7 | Hrodvar | 0.5 | 97 | 2 | 0 | +0% | 99 |
 | 199 | Secrets of the Nethercity, delve 7 | Septima | 0.5 | 97 | 2 | 0 | +0% | 99 |
+| 211 | Secrets of the Nethercity, delve 10 | Lucilla | 1 | 116 | 14 | 0 | +10% | 143 |
+| 211 | Secrets of the Nethercity, delve 10 | Vettius | 1 | 116 | 14 | 0 | +5% | 136 |
+| 211 | Secrets of the Nethercity, delve 10 | Vestus the Unlikely | 1 | 116 | 14 | 0 | +5% | 136 |
+| 211 | Secrets of the Nethercity, delve 10 | Neris | 1 | 116 | 14 | 0 | +0% | 130 |
+| 211 | Secrets of the Nethercity, delve 10 | Iulia | 1 | 116 | 14 | 0 | +5% | 136 |
+| 211 | Secrets of the Nethercity, delve 10 | Brennus | 1 | 116 | 14 | 0 | +5% | 136 |
+| 211 | Secrets of the Nethercity, delve 10 | Ottar | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Quirinus | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Phaedra | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Varro | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Hrodvar | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Septima | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Aelia | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Marcellus | 0.5 | 58 | 7 | 0 | +0% | 65 |
+| 211 | Secrets of the Nethercity, delve 10 | Gnaeus | 0.5 | 58 | 7 | 0 | +0% | 65 |
 
 ## Wages
 
@@ -660,3 +682,47 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 211 |  | treasure share |  |  |  |  |
 | 211 |  | treasure share |  |  |  |  |
 | 211 |  | treasure share |  |  |  |  |
+| 211 |  | treasure share |  | 76gp 5sp 7cp |  | lucilla |
+| 211 |  | treasure share |  | 76gp 5sp 7cp |  | vettius |
+| 211 |  | treasure share |  | 76gp 5sp 7cp |  | vestus-the-unlikely |
+| 211 |  | treasure share |  | 76gp 5sp 7cp |  | neris |
+| 211 |  | treasure share |  | 76gp 5sp 7cp |  | iulia |
+| 211 |  | treasure share |  | 76gp 5sp 7cp |  | brennus |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | ottar |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | quirinus |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | phaedra |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | varro |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | hrodvar |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | septima |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | aelia |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | marcellus |
+| 211 |  | treasure share |  | 38gp 2sp 9cp |  | gnaeus |
+| 211 | Cyfaraun buyers (sale of L92) | sale of the H3c grave goods (sell: proceeds not allocated) |  | 455gp 4sp |  | lucilla |
+| 211 | vettius (share) | share of the L92 sale (A15, 1 share) |  |  | 43gp 4sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, 1 share) |  | 43gp 4sp |  | vettius |
+| 211 | vestus-the-unlikely (share) | share of the L92 sale (A15, 1 share) |  |  | 43gp 4sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, 1 share) |  | 43gp 4sp |  | vestus-the-unlikely |
+| 211 | neris (share) | share of the L92 sale (A15, 1 share) |  |  | 43gp 4sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, 1 share) |  | 43gp 4sp |  | neris |
+| 211 | iulia (share) | share of the L92 sale (A15, 1 share) |  |  | 43gp 4sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, 1 share) |  | 43gp 4sp |  | iulia |
+| 211 | brennus (share) | share of the L92 sale (A15, 1 share) |  |  | 43gp 4sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, 1 share) |  | 43gp 4sp |  | brennus |
+| 211 | ottar (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | ottar |
+| 211 | quirinus (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | quirinus |
+| 211 | phaedra (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | phaedra |
+| 211 | varro (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | varro |
+| 211 | hrodvar (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | hrodvar |
+| 211 | septima (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | septima |
+| 211 | aelia (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | aelia |
+| 211 | marcellus (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | marcellus |
+| 211 | gnaeus (share) | share of the L92 sale (A15, half share) |  |  | 21gp 7sp | lucilla |
+| 211 | lucilla | share of the L92 sale (A15, half share) |  | 21gp 7sp |  | gnaeus |

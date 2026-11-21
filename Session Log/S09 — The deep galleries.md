@@ -50,6 +50,15 @@ the Silk Pony.
 - Day 211, ninth descent: two turns of searching the first tomb hall found nothing, until the cracked south-east
   corner gave way under Nysa: a shaft into a natural tunnel below. She fell badly; Neris climbed down and her prayer
   brought her round, shaken and seeing the faces of the dead. Home by nine with Nysa carried between two.
+- Day 211: strength counted again (torch-bearers count): 25 against the 24 needed below; Vettius let Nysa go.
+- Day 211, tenth descent: a red fungus in the triangular cave burned under oil. Down the shaft by rope into a natural
+  tunnel; Vettius' sneak south was heard, and four horned beetles came out of a resin-coated side cave: Phaedra put
+  three to sleep and they died in their sleep; the fourth fell to Brennus. Fifteen graves in the bean-shaped cave
+  (30gp). North, heavy bronze doors opened on a temple of the dead: a font of clear water under an inscription
+  ("Cleanse yourself of unbelief if you would Awaken"); nobody washed. A curving corridor of hundreds of wall graves,
+  painted with the dark gods (Iulia named Dirgion, Galmorm and Ravanor), and a commoners' tomb with a serpent eating
+  its tail on the floor: 266 graves looted, 1,228gp of grave goods. Giant rats fled from Brennus' roar. Two slab doors
+  facing each other, worn smooth by many hands, were left alone.
 
 ## Who they met
 - Aelia (bard): sharp-tongued, plain-faced, sings under her breath when she is afraid.
