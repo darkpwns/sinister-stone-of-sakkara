@@ -43,7 +43,7 @@ Areas **I** (troglodytes) and **M** (white apes). Optional clearing applies (bel
 
 Areas **B, D, E, F, G, H, J, K, N, O, Q, R, S, T**. A party **sealed in a temple or tomb** (resting) meets only the
 entries marked "enters a sealed temple or tomb"; ignore the rest (about one entry in three: ~0.9 encounters in an 8-hour
-rest, SOTN p. 18). Optional clearing applies.
+rest, SOTN p. 18). Optional clearing applies. (SOTN's worked example on p. 19 calls a 16 "1d8 shadows": on the table 16 is 1d6 wights and 17 the shadows; the table file follows the table.)
 
 ## Running the Nethercity underground river
 - Dungeon level: 5

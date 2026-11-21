@@ -73,7 +73,7 @@ Running: Volcanic Caves column, `level: 3` — 1d6 every 3 turns, 6+ → 2d10 on
   > (If not alerted:) Dozens of grotesque lizard-men squat in a loose ring near the middle of the cave, about half of them grinding what look like bones to points, the rest knapping shards of stone. A few dozen more lie asleep in the niches around them.
 - (SOTN heads it "Abyssal Level".)
 - **Monster:** the tribe's heart: **chieftain, sub-chieftain, 4 champions, 15 warriors, 27 breeders**. Unalerted, the warriors sleep in the converted graves and the breeders sharpen bones from the dead and chip stone. Breeders unarmed; warriors 3 barbed darts each; champions hide armour, stone battle axe, 3 darts; the chieftains leather armour, stone battle axe, 3 darts.
-  - **Troglodyte chieftain** → [[Troglodyte Chieftain (SOTN)]]: MV 40’ / 120’, AC 7 (SOTN prints AC 7/9), HD 6, hp 28, 2 claws/bite 5+, D 1d4+2 each (SOTN +3), or barbed dart 2+, D 1d6+3, or stone battle axe 5+, D 1d8+3, F6, ML +2, AL C, XP 320. Alive: the whole tribe has ML +2.
+  - **Troglodyte chieftain** → [[Troglodyte Chieftain (SOTN)]]: MV 40’ / 120’, AC 9 (MM AC 7 + leather; SOTN prints AC 7/9), HD 6, hp 28, 2 claws/bite 5+, D 1d4+2 each (SOTN +3), or barbed dart 2+, D 1d6+3, or stone battle axe 5+, D 1d8+3, F6, ML +2, AL C, XP 320. Alive: the whole tribe has ML +2.
   - **Troglodyte sub-chieftain** → [[Troglodyte Sub-Chieftain (SOTN)]]: AC 6, HD 4, hp 20, 2 claws/bite 7+, D 1d4+1 each (SOTN +2), or dart 4+, D 1d6+2, or axe 7+, D 1d8+2, F4, ML +1 (+2), AL C, XP 80.
   - **4 champions** → [[Troglodyte Champion (SOTN)]]: as I1, hp 16 each, XP 50 each.
   - **15 warriors** → [[Troglodyte]]: as I1, hp 9 each, XP 20 each.

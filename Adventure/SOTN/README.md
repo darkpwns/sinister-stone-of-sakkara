@@ -36,7 +36,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
   - [x] F (PDF 45-53): F1-F19 (+F11a-c); 18,290 gp, 6,759 XP
   - [x] G (PDF 53-65): G1-G27 with sub-keys; 70,195 gp / 16,365 XP
   - [x] H (PDF 65-79): H1-H26 with sub-keys; 32,550 gp + ~2,232 gp graves / 11,363 XP (+ up to 6,240 for the 480 H14 skeletons)
-  - [x] I, J (PDF 79-92): I1-I14, J1-J15; I 13,172 gp as printed (9,497 corrected) / 3,725 XP, J 24,300 gp / 6,604 XP
+  - [x] I, J (PDF 79-92): I1-I14, J1-J15; I 13,172 gp as printed (9,497 corrected) / 3,725 XP, J 24,300 gp / 6,904 XP
   - [x] K, L (PDF 92-102): K1-K12, L1-L20; K 43,688 gp / 8,240 XP, L 3,789 gp / 4,504 XP
   - [x] M, N (PDF 102-113): M1-M22, N1-N13; M 37,290 gp / 4,840 XP, N 79,850 gp / 3,800 XP
   - [x] O, P, Q (PDF 113-125): O1-O5, P1-P14 (P8a-b), Q1-Q6; O 51,000 gp / 14,200 XP, P 53,336 gp / 8,750 XP, Q 56,917 gp / 12,440 XP
@@ -46,7 +46,7 @@ module-vault method. The city above is AX3 (`Adventure/AX3/`), linked, not repea
 - [x] Classes (Appendix D, PDF 163-175): [[Elven Cultist]] (Bel, Dirgion, Iskara, Nasga, Telith), [[Elven Hierophant]], [[Elven Warlord]], [[Elven Wizard]] (four colleges); `Classes/sotn-class-builds.yaml`; JJ ch. 12 numbers from `custom_class.py`
 - [x] `Nethercity Factions.md`: groups inside and above, 27 NPCs with traits and voice
 - [x] Merges into the AX3 notes: Old District #12u, Organizations of Cyfaraun (Brotherhood = Family), Undercity of Cyfaraun (SOTN p. 6), Cyfaraun, AX3 Hub, AX3 README, Borderlands Background, Tower District
-- [ ] Final checks: tables through `load_campaign_table`, hub through `read_hub`, `hex.py 18.05`, `brief.py`, independent check
+- [x] Final checks: 11 tables load (`load_campaign_table`); hub through `read_hub` (sewer caves, level 2, 1d6 every 3 turns 6+); every wandering entry resolves to a statblock with `Adventure/SOTN/Bestiary/` and `Adventure/AX3/Bestiary/` as extra folders; all 38 bestiary notes parse (`monsters.statblocks`); `hex.py 18.05` and `brief.py` run; wikilinks resolve (repo + rules vault). Independent check (sample: A1-A4, G9, G12, H13, J2, L4, O3, Q5; the four wandering tables and unsettling events; Eolande, Great Teacher, Orthanach, Troglodyte Chieftain, Marcan; Features): fixed the J2 martyr's XP (6+1****, 1,580; area J 6,904), H13's wording, the troglodyte chieftain's AC (9 with leather), summon berserkers made uniform, the A3 prawn speed, Cassair's inspire courage note, the slab-door "found open" cell; flagged SOTN's p. 19 example error and the giant ants reading. Values, weights, tallies, hp lists, tables and Features found correct.
 
 ## Work in progress
 Unticked parts may already have files on main (snapshots of parts still being written). A part is done only when ticked.
@@ -95,8 +95,8 @@ below gathers the ones that matter across notes.
 - **Spells:** ACKS II names by effect. No ACKS II equivalent, kept in italics: *unseen servant*, *knock*, *ventriloquism*,
   *summon berserkers*, *summon fantastic creature* (one [[Greater Hellhound]]), *glitterdust*, *control undead*,
   *prayer*, *fellowship*, *snake charm*, *gate*, *temporal stasis*, *wizard eye*, *oblivion*, *bane* (run as the mirror of
-  Holy Blessing, −1). **Summon berserkers is not reconciled:** O-Q follow AX3 (Summon Manes); G, H and R summon MM
-  [[Berserker]]s. Pick one.
+  Holy Blessing, −1). **Summon berserkers** summons MM [[Berserker]]s in every SOTN note
+  (AX3 maps the spell to Summon Manes: the two books' notes differ; reconcile if a campaign-wide rule is wanted).
 - **Potions:** "potion of healing" run as one dose of Cure Light Injury (ACKS II has no potion of that name);
   invulnerability → Necromantic Invulnerability; longevity → Potion of Youth; philter of love → Potion of Passion.
 - **Items:** run the ACKS II version where one exists ([[SOTN Magic Items]] gives both); item effects saved vs Spells
@@ -140,6 +140,6 @@ below gathers the ones that matter across notes.
 - SOTN p. 6 lists the Undercity's underground parts (Palace, Solar Citadel, Amphitheater, Tower, Hall of Mourning,
   Merchant Guild vaults, Bathhouse cisterns): merged into [[Undercity of Cyfaraun]].
 - The rhagodessa: AX3's note (AX3 gives no stats) has AC 5, ML 0; SOTN's F19 line prints AC 4, ML +1.
-- Summon berserkers: AX3 → Summon Manes; SOTN notes split (above).
+- Summon berserkers: AX3 → Summon Manes; SOTN notes → MM Berserkers (above).
 - Remaining small items for a later pass: the hydropion's sting kills "instantly" (N9) vs "at the end of its initiative"
   (bestiary note); the D5 tally (printed 4,100 vs listed 5,300) is given both ways in the D note.

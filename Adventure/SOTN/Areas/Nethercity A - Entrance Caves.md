@@ -60,7 +60,7 @@ Running: wandering 1d6 every 3 turns, 6+ → 2d10 on the **Sewer Caves** column 
 
 - **Monster:** three swarms and six tunnel prawns. The swarms attack whatever moves through or near them (fliers, climbers and rope-crossers excepted); if the swarms are disturbed the prawns attack too.
   **3 insect swarms** → [[Insect Swarm]]: MV 10’/30’, AC 2, HD 2*, hp 13, 11, 7, engulf (automatic in area; 20’ × 10’ each), D 2 piercing (4 if unarmoured with natural AC 3 or less; halved if warded off), F0, ML +3, AL N, XP 29 each; immune to bludgeoning, piercing and slashing.
-  **6 tunnel prawns** → [[Tunnel Prawn (SOTN)]]: MV 60’, climb 60’, AC 5, HD 1, hp 8, 7, 5, 4, 4, 3, 2 pincers 10+, D 1d2 each, F1, ML +1, AL N, XP 10 each (SOTN's appendix gives ML +2; the room's +1 used). A fresh prawn sells for 3gp (a day's rations of meat).
+  **6 tunnel prawns** → [[Tunnel Prawn (SOTN)]]: MV 20’ / 60’, climb 20’ / 60’, AC 5, HD 1, hp 8, 7, 5, 4, 4, 3, 2 pincers 10+, D 1d2 each, F1, ML +1, AL N, XP 10 each (SOTN's appendix gives ML +2; the room's +1 used). A fresh prawn sells for 3gp (a day's rations of meat).
 - **Door:** the slab to B1 is a stone slab door (−12 to force, up to 3 helpers; [[Nethercity Features#Doors (SOTN p. 11)]]). Disturbing it wakes the 12 skeletons in B1; how many attempts it takes sets how ready they are.
 - **Graves:** 15 wall graves of about 3100 BE: the usual inscriptions, remains and goods ([[Nethercity Features#Wall graves (SOTN pp. 14-16)]]). Tally: 30gp, about 2/6 st.
 

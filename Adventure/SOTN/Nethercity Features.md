@@ -45,7 +45,7 @@ feed a food chain:
 Forcing a door is the ACKS II door-forcing throw (Dungeonbashing Expertise improves it); SOTN's penalties apply to it.
 | Door | Size | Penalty | Helpers | Found open |
 | --- | --- | --- | --- | --- |
-| **Stone slab** (rolling cylinder sealing a tomb, 1½-2 tons) | — | **−12** | up to 3 | never |
+| **Stone slab** (rolling cylinder sealing a tomb, 1½-2 tons) | — | **−12** | up to 3 | no chance given (closed) |
 | **Heavy bronze** (temple entrances; fretwork of horses, snakes, mountains, lotuses, eyes, fists) | 8’ × 4’, or 8’ × 8’ double | **−4** | 1 (2 for double doors) | 5% |
 | **Cedar interior** (marble frame, carved handles; important ones inlaid with bronze or gold) | 7’ × 3½’ | none | none | 10% |
 - Each helper adds **his unmodified STR bonus** to the forcer's throw. Example (p. 11): a fighter forcing on 6+ with
