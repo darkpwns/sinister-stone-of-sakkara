@@ -21,7 +21,7 @@
    "kind": "pc",
    "name": "tarq",
    "actor": "tarq",
-   "status": "active"
+   "status": "dead"
   },
   "cassia": {
    "kind": "pc",
@@ -137,6 +137,27 @@
   "karanos-bank": {
    "kind": "cache",
    "name": "Guildmaster Karanos' strongbox",
+   "actor": null,
+   "status": "active"
+  },
+  "donkey2": {
+   "kind": "animal",
+   "name": "Donkey, Draft",
+   "actor": null,
+   "status": "active",
+   "animal": "Donkey, Draft",
+   "note": "bought in Türos Tem by lucilla",
+   "owner": "lucilla"
+  },
+  "ground:catacombs": {
+   "kind": "cache",
+   "name": "ground:catacombs",
+   "actor": null,
+   "status": "active"
+  },
+  "body:tarq": {
+   "kind": "body",
+   "name": "body of tarq",
    "actor": null,
    "status": "active"
   }
@@ -13516,6 +13537,1418 @@
    "price_cp": 1200,
    "cmd": "inv wages",
    "n": 551
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": 3
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -1,
+     "gp": -8
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Iron (one week)",
+   "packs": 3,
+   "price_cp": 810,
+   "cmd": "inv buy",
+   "n": 552
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "aulus",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 553
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to aulus: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 1 d, water 0.2 d, firewood 0 st; tarq food 2 d, water 0 d, firewood 0 st; lucilla food 10 d, water 0 d, firewood 0 st; vettius food 1 d, water 0 d, firewood 0 st; marcia food 1 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 1 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "aulus",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 554
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 555
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to sabina: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 2 d, water 0 d, firewood 0 st; lucilla food 10 d, water 0 d, firewood 0 st; vettius food 1 d, water 0 d, firewood 0 st; marcia food 1 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 1 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 556
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": -11,
+     "sp": -7
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 557
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to tarq: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 10 d, water 0 d, firewood 0 st; vettius food 1 d, water 0 d, firewood 0 st; marcia food 1 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 1 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 558
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, standard (one week)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 559
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to lucilla: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 1 d, water 0 d, firewood 0 st; marcia food 1 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 1 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, standard (one week)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 560
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 561
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vettius: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 1 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 1 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 562
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "marcia",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 563
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to marcia: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 1 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "marcia",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 564
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "gallus",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 565
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to gallus: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 1 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "gallus",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 566
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": -41,
+     "sp": -4
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 567
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to hesper: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 1 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "hesper",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 568
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "thorwell",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 569
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to thorwell: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 8 d, water 0 d, firewood 0 st; thorcigar food 1 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "thorwell",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 570
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "thorcigar",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 571
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to thorcigar: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 8 d, water 0 d, firewood 0 st; thorcigar food 8 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 1 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "thorcigar",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 572
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "quintus-the-rager",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 573
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to quintus-the-rager: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 8 d, water 0 d, firewood 0 st; thorcigar food 8 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 8 d, water 0 d, firewood 0 st; vestus-the-unlikely food 1 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "quintus-the-rager",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 574
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 1,
+     "gp": -1
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 575
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vestus-the-unlikely: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 8 d, water 0 d, firewood 0 st; thorcigar food 8 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 8 d, water 0 d, firewood 0 st; vestus-the-unlikely food 8 d, water 0 d, firewood 0 st; zaira-the-beautiful food 1 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, standard (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 576
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "zaira-the-beautiful",
+     "item": "rations, standard (one week)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": -41,
+     "sp": -4
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Rations, Standard (one week)",
+   "packs": 1,
+   "price_cp": 81,
+   "cmd": "inv buy",
+   "n": 577
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to zaira-the-beautiful: 7 days of standard rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 17 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 8 d, water 0 d, firewood 0 st; thorcigar food 8 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 8 d, water 0 d, firewood 0 st; vestus-the-unlikely food 8 d, water 0 d, firewood 0 st; zaira-the-beautiful food 8 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "zaira-the-beautiful",
+     "item": "rations, standard (one week)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 578
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to lucilla: 21 days of iron rations; supplies: aulus food 7 d, water 0 d, firewood 0 st; sabina food 8 d, water 0.2 d, firewood 0 st; tarq food 9 d, water 0 d, firewood 0 st; lucilla food 38 d, water 0 d, firewood 0 st; vettius food 8 d, water 0 d, firewood 0 st; marcia food 8 d, water 0.4 d, firewood 0 st; thorwell food 8 d, water 0 d, firewood 0 st; thorcigar food 8 d, water 0 d, firewood 0 st; gallus food 8 d, water 0 d, firewood 0 st; quintus-the-rager food 8 d, water 0 d, firewood 0 st; vestus-the-unlikely food 8 d, water 0 d, firewood 0 st; zaira-the-beautiful food 8 d, water 0 d, firewood 0 st; hesper food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of aulus, sabina, tarq, lucilla, vettius)",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": -3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 579
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Türos Tem",
+   "day": 122,
+   "time": "day 122 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -9
+    }
+   ],
+   "market": "Türos Tem",
+   "market_class": "V",
+   "month": 5,
+   "row": "Donkey, Draft",
+   "packs": 1,
+   "price_cp": 900,
+   "cmd": "inv buy",
+   "animal": "donkey2",
+   "n": 580
+  },
+  {
+   "op": "light",
+   "cause": "torch24 lit (torch)",
+   "day": 123,
+   "time": "day 123 12:00",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "torch",
+     "slot": "back",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch24",
+   "cmd": "light on",
+   "n": 581
+  },
+  {
+   "op": "light",
+   "cause": "torch25 lit (torch)",
+   "day": 123,
+   "time": "day 123 12:00",
+   "deltas": [
+    {
+     "who": "gallus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch25",
+   "cmd": "light on",
+   "n": 582
+  },
+  {
+   "op": "light",
+   "cause": "torch26 lit (torch)",
+   "day": 123,
+   "time": "day 123 13:10",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "torch",
+     "slot": "back",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch26",
+   "cmd": "light on",
+   "n": 583
+  },
+  {
+   "op": "light",
+   "cause": "torch27 lit (torch)",
+   "day": 123,
+   "time": "day 123 13:10",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "torch",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch27",
+   "cmd": "light on",
+   "n": 584
+  },
+  {
+   "op": "throw",
+   "cause": "Spear thrown: it lies at ground:catacombs",
+   "day": 123,
+   "time": "day 123 13:43",
+   "deltas": [
+    {
+     "who": "thorwell",
+     "item": "#w24",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "ground:catacombs",
+     "item": "#w24",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 585
+  },
+  {
+   "op": "shoot",
+   "cause": "1 bolt shot (hit): destroyed",
+   "day": 123,
+   "time": "day 123 13:43",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "bolt",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 586
+  },
+  {
+   "op": "wield",
+   "cause": "Dagger taken in hand",
+   "day": 123,
+   "time": "day 123 13:43",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "#w10",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "lucilla",
+     "item": "#w10",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w10",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 587
+  },
+  {
+   "op": "light",
+   "cause": "torch28 lit (torch)",
+   "day": 123,
+   "time": "day 123 14:12",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "torch",
+     "slot": "back",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch28",
+   "cmd": "light on",
+   "n": 588
+  },
+  {
+   "op": "light",
+   "cause": "torch29 lit (torch)",
+   "day": 123,
+   "time": "day 123 14:12",
+   "deltas": [
+    {
+     "who": "gallus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch29",
+   "cmd": "light on",
+   "n": 589
+  },
+  {
+   "op": "light",
+   "cause": "torch30 lit (torch)",
+   "day": 123,
+   "time": "day 123 15:52",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "torch",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch30",
+   "cmd": "light on",
+   "n": 590
+  },
+  {
+   "op": "light",
+   "cause": "torch31 lit (torch)",
+   "day": 123,
+   "time": "day 123 15:52",
+   "deltas": [
+    {
+     "who": "gallus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch31",
+   "cmd": "light on",
+   "n": 591
+  },
+  {
+   "op": "light",
+   "cause": "torch32 lit (torch)",
+   "day": 123,
+   "time": "day 123 16:52",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "torch",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch32",
+   "cmd": "light on",
+   "n": 592
+  },
+  {
+   "op": "death",
+   "cause": "tarq died; body carried",
+   "day": 124,
+   "time": "day 124 14:08",
+   "deltas": [
+    {
+     "who": "tarq",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "tunic and pants, armiger",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "tunic and pants, armiger",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "belt/sash, leather",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "belt/sash, leather",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "sandals/shoes, leather, low",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "sandals/shoes, leather, low",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "arena armor, heavy",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "arena armor, heavy",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w6",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w6",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "oil, common (1 pint)",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "oil, common (1 pint)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w13",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w13",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w14",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w14",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w15",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w15",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": -5
+    },
+    {
+     "who": "body:tarq",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "tarq",
+     "item": "#w5",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w5",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "helmet, heavy",
+     "slot": "head",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "helmet, heavy",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "#w25",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "#w25",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tarq",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:tarq",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "tarq",
+     "cp": -15,
+     "sp": -5,
+     "gp": -437
+    },
+    {
+     "who": "body:tarq",
+     "cp": 15,
+     "sp": 5,
+     "gp": 437
+    }
+   ],
+   "cmd": "death",
+   "n": 593
+  },
+  {
+   "op": "give",
+   "cause": "lighten Aulus below 10 stone",
+   "day": 127,
+   "time": "day 127 15:08",
+   "deltas": [
+    {
+     "who": "aulus",
+     "item": "#w1",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "thorcigar",
+     "item": "#w1",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 594
+  },
+  {
+   "op": "pay",
+   "cause": "a week's pay to the gnome elders for water and directions (bribe)",
+   "day": 129,
+   "time": "day 129 01:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -10
+    }
+   ],
+   "to": "gnome warren (12.06)",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 595
+  },
+  {
+   "op": "give",
+   "cause": "lighten Sabina below 10 stone",
+   "day": 129,
+   "time": "day 129 14:48",
+   "deltas": [
+    {
+     "who": "sabina",
+     "item": "#w3",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "thorcigar",
+     "item": "#w3",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 596
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aulus",
+     "cp": 5,
+     "gp": 721
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 597
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "sabina",
+     "cp": 5,
+     "gp": 721
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 598
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 5,
+     "gp": 721
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 599
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 5,
+     "gp": 721
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 600
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "marcia",
+     "cp": 5,
+     "gp": 721
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 601
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gallus",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 602
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hesper",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 603
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "thorwell",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 604
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "thorcigar",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 605
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "quintus-the-rager",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 606
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 607
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "zaira-the-beautiful",
+     "cp": 3,
+     "sp": 5,
+     "gp": 360
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 608
+  },
+  {
+   "op": "pay",
+   "cause": "Tarq's heroic funeral",
+   "day": 131,
+   "time": "day 131 07:48",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "body:tarq",
+     "gp": -200
+    }
+   ],
+   "to": "Temple of Mityara, Türos Tem",
+   "price_cp": 20000,
+   "cmd": "inv pay",
+   "n": 609
   }
  ],
  "holdings": {
@@ -13527,7 +14960,6 @@
     "boots, leather, high": 1
    },
    "backpack": {
-    "#w1": 1,
     "oil, military (1 pint)": 4,
     "tinderbox (flint & steel)": 1,
     "waterskin": 3,
@@ -13565,40 +14997,7 @@
     "shield": 1
    },
    "backpack": {
-    "waterskin": 4,
-    "#w3": 1
-   }
-  },
-  "tarq": {
-   "worn": {
-    "sack, small (holds 2 stone)": 1,
-    "tunic and pants, armiger": 1,
-    "belt/sash, leather": 1,
-    "sandals/shoes, leather, low": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "arena armor, heavy": 1
-   },
-   "sack": {
-    "#w6": 1,
-    "oil, common (1 pint)": 1,
-    "#w13": 1,
-    "#w14": 1,
-    "#w15": 1,
-    "waterskin": 5
-   },
-   "belt": {
-    "#w5": 1
-   },
-   "head": {
-    "helmet, heavy": 1
-   },
-   "right_hand": {
-    "#w25": 1
-   },
-   "left_hand": {
-    "shield": 1
+    "waterskin": 4
    }
   },
   "lucilla": {
@@ -13614,7 +15013,6 @@
    },
    "backpack": {
     "bolt": 9,
-    "#w10": 1,
     "journal": 1,
     "quill, writing": 1,
     "ink (1 pint)": 1,
@@ -13623,8 +15021,11 @@
     "oil, common (1 pint)": 6,
     "rope, 50'": 1
    },
+   "right_hand": {
+    "#w10": 1
+   },
    "sack": {
-    "torch": 5
+    "torch": 2
    }
   },
   "vettius": {
@@ -13639,7 +15040,7 @@
     "leather armor": 1
    },
    "backpack": {
-    "bolt": 15,
+    "bolt": 14,
     "#w12": 1,
     "thieves' tools": 1,
     "rope, 50'": 1,
@@ -13656,7 +15057,7 @@
    "back": {
     "pole, wooden": 1,
     "backpack (holds 4 stone)": 1,
-    "torch": 6
+    "torch": 3
    },
    "right_hand": {
     "#w11": 1
@@ -13718,7 +15119,7 @@
    },
    "backpack": {
     "waterskin": 4,
-    "torch": 5,
+    "torch": 2,
     "#w16": 1,
     "arrow": 20,
     "spell book (blank)": 1
@@ -13823,9 +15224,6 @@
     "tunic and pants, crafter/freeholder": 1,
     "backpack (holds 4 stone)": 1
    },
-   "right_hand": {
-    "#w24": 1
-   },
    "left_hand": {
     "shield": 1
    },
@@ -13846,7 +15244,9 @@
    },
    "backpack": {
     "waterskin": 5,
-    "#w8": 1
+    "#w8": 1,
+    "#w1": 1,
+    "#w3": 1
    },
    "right_hand": {
     "#w9": 1
@@ -13856,46 +15256,65 @@
    "pack": {
     "holy book": 1
    }
+  },
+  "ground:catacombs": {
+   "here": {
+    "#w24": 1
+   }
+  },
+  "body:tarq": {
+   "here": {
+    "sack, small (holds 2 stone)": 1,
+    "tunic and pants, armiger": 1,
+    "belt/sash, leather": 1,
+    "sandals/shoes, leather, low": 1,
+    "backpack (holds 4 stone)": 1,
+    "arena armor, heavy": 1,
+    "#w6": 1,
+    "oil, common (1 pint)": 1,
+    "#w13": 1,
+    "#w14": 1,
+    "#w15": 1,
+    "waterskin": 5,
+    "#w5": 1,
+    "helmet, heavy": 1,
+    "#w25": 1,
+    "shield": 1
+   }
   }
  },
  "coins": {
   "aulus": {
-   "gp": 437,
+   "gp": 1158,
    "sp": 7,
-   "cp": 7
+   "cp": 12
   },
   "sabina": {
    "sp": 3,
-   "gp": 445,
-   "cp": 25
-  },
-  "tarq": {
-   "gp": 437,
-   "sp": 5,
-   "cp": 15
+   "gp": 1166,
+   "cp": 30
   },
   "lucilla": {
-   "gp": 364,
-   "sp": 6,
-   "cp": 6
+   "gp": 1048,
+   "cp": 8
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 445,
+   "gp": 1166,
    "sp": 7,
-   "cp": 6
+   "cp": 11
   },
   "marcia": {
-   "gp": 437,
-   "cp": 9,
+   "gp": 1158,
+   "cp": 14,
    "sp": 2
   },
   "gallus": {
-   "gp": 199,
-   "cp": 9,
-   "sp": 6
+   "gp": 559,
+   "cp": 12,
+   "sp": 11
   },
   "durio": {
    "gp": 514,
@@ -13903,37 +15322,42 @@
    "sp": 2
   },
   "hesper": {
-   "gp": 198,
-   "cp": 21,
-   "sp": 11
+   "gp": 558,
+   "cp": 24,
+   "sp": 16
   },
   "thorwell": {
-   "cp": 21,
-   "sp": 10,
-   "gp": 198
+   "cp": 24,
+   "sp": 15,
+   "gp": 558
   },
   "thorcigar": {
-   "cp": 21,
-   "sp": 10,
-   "gp": 198
+   "cp": 24,
+   "sp": 15,
+   "gp": 558
   },
   "karanos-bank": {
    "gp": 17428
   },
   "quintus-the-rager": {
-   "cp": 3,
-   "sp": 6,
-   "gp": 149
+   "cp": 6,
+   "sp": 11,
+   "gp": 509
   },
   "vestus-the-unlikely": {
-   "cp": 3,
-   "sp": 6,
-   "gp": 149
+   "cp": 6,
+   "sp": 11,
+   "gp": 509
   },
   "zaira-the-beautiful": {
-   "cp": 3,
-   "sp": 6,
-   "gp": 149
+   "cp": 6,
+   "sp": 11,
+   "gp": 509
+  },
+  "body:tarq": {
+   "cp": 15,
+   "sp": 5,
+   "gp": 237
   }
  },
  "rolls": {

@@ -5,16 +5,16 @@
 "role": "pc",
 "name": "Aulus",
 "class": "Fighter",
-"level": 2,
-"xp": 3504,
+"level": 3,
+"xp": 5477,
 "alignment": "Lawful",
 "age": 20,
 "gender": "male",
-"hp_max": 14,
+"hp_max": 23,
 "attributes": {"STR":13,"INT":14,"WIL":6,"DEX":14,"CON":14,"CHA":12},
 "inventory_holder": true,
-"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Fighting Style Specialization (weapon & shield)","list":"class"},{"type":"proficiency","name":"Siege Engineering","list":"general"},{"type":"proficiency","name":"Healing","list":"general"}],
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Fighting Style Specialization (weapon & shield)","list":"class"},{"type":"proficiency","name":"Siege Engineering","list":"general"},{"type":"proficiency","name":"Healing","list":"general"},{"type":"proficiency","name":"Combat Reflexes","list":"class"}],
 "modifiers": [],
-"state": {"conditions":[],"spells_used":[],"hp":14},
-"changes": [{"field":"state.hp","from":11,"to":14,"cause":"rest-day: travel state (healing or harm, engine stage 4)"},{"field":"xp","from":3181,"to":3504,"cause":"payout of Buried Temple, delve 6 (the catacombs) (day 111)"}]
+"state": {"conditions":["bewitched by the Lady (Beguile Humanoid, until day 124 ~13:40)"],"spells_used":[],"hp":23},
+"changes": [{"field":"state.hp","from":11,"to":14,"cause":"rest-day: travel state (healing or harm, engine stage 4)"},{"field":"xp","from":3181,"to":3504,"cause":"payout of Buried Temple, delve 6 (the catacombs) (day 111)"},{"field":"state.conditions","from":[],"to":["bewitched by the Lady (Beguile Humanoid, until day 124 ~13:40)"],"cause":"the Lady's charm day 123"},{"field":"xp","from":3504,"to":5477,"cause":"payout of Buried Temple, delve 7 (the Lady Below) (day 131)"},{"field":"level","from":2,"to":3,"cause":"level-up: Fighter level 3"},{"field":"hp_max","from":14,"to":23,"cause":"level-up: Fighter level 3"},{"field":"state.hp","from":14,"to":23,"cause":"level-up: Fighter level 3: hp maximum 14 -> 23"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Combat Reflexes","list":"class"},"cause":"level 3 class proficiency"}]
 }
