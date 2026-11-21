@@ -614,3 +614,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 199 |  | treasure share |  |  |  |  |
 | 199 |  | treasure share |  |  |  |  |
 | 199 | a caster in Cyfaraun | spellcasting: Cure Disease |  |  | 45gp | lucilla |
+| 199 | Silk Pony Inn (#25) | beds for twelve, night of day 199 |  |  | 2gp 4sp | lucilla |
+| 201 | Silk Pony Inn (#25) | beds for twelve, night of day 200 |  |  | 2gp 4sp | lucilla |
+| 202 | Silk Pony Inn (#25) | beds for twelve, night of day 201 |  |  | 2gp 4sp | lucilla |
+| 203 | Silk Pony Inn (#25) | beds for twelve, night of day 202 |  |  | 2gp 4sp | lucilla |
+| 204 | Silk Pony Inn (#25) | beds for twelve, night of day 203 |  |  | 2gp 4sp | lucilla |
+| 204 | brokers and criers | recruiting fee (a week's search) |  |  | 20gp | lucilla |
+| 204 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 204 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 204 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
+| 204 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | lucilla |
