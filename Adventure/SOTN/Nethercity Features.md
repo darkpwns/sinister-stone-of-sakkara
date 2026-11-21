@@ -148,7 +148,7 @@ the centuries, which sets each mummy's power by its era:
 | from ~2200 BE | ⅔ | 8+1 HD, 8th-level abilities (the abyssal mummies, R-S) |
 | from 1900 BE | all, with the After the Flesh racial power: keep advancing in undeath (to 14th) | 12+1 HD, 12th level (Q and O) |
 | ~1650 BE | mummy lords ([[Mummy Lord]]) | one only: Orthanach, O3 |
-A mummy with fewer HD than its era allows died below its maximum level (Cassair and Sorya, O3: 9th level in 1900 BE,
+A mummy with fewer HD than its era allows died below its maximum level ([[Cassair (SOTN)|Cassair]] and [[Saorya (SOTN)|Saorya]], O3: 9th level in 1900 BE,
 so 9 HD). Class abilities follow SOTN's corrupt-elf classes: [[Elven Cultist]], [[Elven Hierophant]],
 [[Elven Warlord]], [[Elven Wizard]] (SOTN pp. 161-173).
 - **Armed and armoured mummies (p. 17):** a warrior mummy may use its arms and armour: **AC + the armour and shield**;

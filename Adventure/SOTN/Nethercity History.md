@@ -67,7 +67,7 @@ short), [[Old District]], [[Undercity of Cyfaraun]]. Pages are SOTN printed page
 | late 23rd c. BE | The economy rests on servitors and slaves; the Zaharans, assimilated, turn Chthonic. |
 | late 21st c. BE | Warlord **Marcan** destroys Azen Khador and wins the Bitter War; the dwarves withdraw into the mountains. The empire spreads into Krysea and Nicea. The **Hallowed Hall of Heroes** built (K). The Great Teacher, his work done, enters **cryostasis** in the **Secret Alien Sepulcher** (T). |
 | late 20th c. BE | Marcan interred in the **Great King Tomb** (Q). |
-| late 18th c. BE | Hierophant **Orthanach** becomes the first Argollëan mummy lord, entombed in the **Secret Tomb** (O) with his spouse **Sorya** and guard **Cassair**, who chose mummification. |
+| late 18th c. BE | Hierophant **Orthanach** becomes the first Argollëan mummy lord, entombed in the **Secret Tomb** (O) with his spouse **Saorya** (p. 7 "Sorya") and guard **Cassair**, who chose mummification. |
 | early 17th c. BE | The Nethercity is full; new catacombs planned east of the river and north of the northern caves; the elves decline into decadence. |
 | mid 17th c. BE | The great earthquake levels Cyfarawn and seals the Nethercity under 6’ of debris; the Thrassians rebel and take Southern Argollë and Zahar; a few nobles flee north. Cyfarawn abandoned. |
 | 1400 BE | Thrassian rule over the southern coast of the Ammas Aurë and parts of Ulruk; Chthonic Zaharans serve as an upper caste. |

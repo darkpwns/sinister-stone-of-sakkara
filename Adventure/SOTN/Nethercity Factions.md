@@ -94,6 +94,9 @@ bestiary notes and area notes; this note gives the relations, the traits and the
 | Mummy prince | R2 | [[Mummy Prince (SOTN)]] | a royal hunter; intruders are game; never apart from his sister | imperious, royal plural; intruders are "beasts" |
 | Mummy cultist of Iskara | S2 | [[Mummy Cultist of Iskara (SOTN)]] | expects monsters and men to kneel; certain of glory at the Awakening; methodical | a slow liturgical chant; the living are "the unconsecrated" |
 | The Great Teacher | T2 | [[Great Teacher (SOTN)]] | patient beyond measure; his survival first; mortals are pupils or tools | warm, amused, inside the listener's head; "little ones"; answers with questions |
-| ORTHANACH-ROWS |
+| Orthanach, mummy lord hierophant | O3 | [[Orthanach (SOTN)]] | patient beyond measure; certain he will rule at the Awakening; values servants of Dirgion and news of the world above | a dry liturgical whisper; calls himself "the Hierophant" |
+| Saorya (p. 7 "Sorya") | O3 | [[Saorya (SOTN)]] | devoted to Orthanach; vain and cruel; jealous of any who draw his attention | low and caressing; a soft laugh before she does harm |
+| Cassair, bodyguard | O3 | [[Cassair (SOTN)]] | loyal unto annihilation; silent in battle; scorns those who flee | few words, like orders across a field |
+| Marcan, great king | Q | [[Marcan (SOTN)]] | imperious; despises dwarves and lizardmen; flattered only by subjects who kneel with tribute | booming and formal, the royal we |
 The mummies of H (princess, warlord, courtier, astrologer, inquisitor, embalmer, retainer) are unnamed: their character
 lines are in [[Nethercity H - Great Temple of Awakening]].
