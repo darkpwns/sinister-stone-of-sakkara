@@ -37,6 +37,7 @@ fi
 B=$(git branch --show-current)
 for try in 1 2; do
   if git pull -q --rebase origin "$B" 2>/dev/null && git -c push.negotiate=true push -q origin "HEAD:$B" 2>/tmp/judge_push.err; then
+    git fetch -q origin "$B:refs/remotes/origin/$B" 2>/dev/null || true
     echo "saved and pushed: $(git log --oneline -1)"; exit 0
   fi
   [ $try = 1 ] && sleep 3
