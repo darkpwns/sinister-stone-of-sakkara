@@ -93,3 +93,34 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   he buys the elven work (grave goods, art, jewellery) at eight parts in ten, clean coin, no tax men; our gold and
   gems stay our own; his people leave us be on the Old District grates; now and then he wants to hear what is below.
   He did not ask for the way in and we did not give it. Never sell elven work past him from now on.
+- S11 (day 243), the healers. Repair Disfigurement and Disability (a 4th-rank prayer of Ammonar's and Mityara's
+  clergy) mends one old wound a time, for 185gp, but each time the gods may leave a mark of their own, and the healed
+  one lies abed for weeks. Lucilla went first, in the Temple of the Hearth Fire: her eye and ear are back, and a third
+  eye has opened in her forehead (lidded; it lets her speak mind to mind three times a day; people fear it, so she
+  keeps a band over it). Two weeks abed in the Keepers' courtyard (to day 257). Prayed in a temple and under the
+  sacred fire or the Citadel's dome, the odds are best; the Patriarch himself would be better still, but he heard
+  Iulia out coolly and wants something he can hold (rubbings or a carved stone from the temple below). Next in line:
+  Brennus (he asked), then Marcellus, then Neris, one a day as the temples grant it.
+
+- S11 (day 243), the mummies' stare (round Lucilla's bed in the Keepers' courtyard: Priya, Ingrid, Tomasz, Kwame, Gideon; Rosa's call). What we know: the stare
+  takes only those who look at the thing, when they first see it and every moment after that they keep looking;
+  whoever stands it once can look at any of them for about ten minutes; whoever fails cowers for a moment. The
+  mummies walk slowly. Holy Blessing and Aelia's song each steady us and the two together are better than either;
+  Remove Fear does nothing for a man frozen by the stare. Iulia's Righteous Wrath makes one fighter fearless, and
+  Brennus' rage already does. A mirror is no help (still looking at it); shutting your eyes means fighting blind.
+  The plan:
+  1. **Look first, from far off.** No slab is opened with anyone near it: open it by rope from at least 60', with
+     the doorway lit (Illumination on the slab, or a lantern set by it beforehand). Everyone takes his first look
+     from back there, where freezing costs nothing. Whoever freezes looks down at once and steps behind the line;
+     he tries again the next moment. Nobody goes forward until he has stood the stare.
+  2. **Steadied before the slab moves.** Iulia's or Neris' Holy Blessing on everyone, Aelia's song the moment
+     before the rope is pulled (it cannot be sung once we are fighting).
+  3. **Fearless front.** Brennus rages; Iulia lays Righteous Wrath on one front-liner (Gnaeus or Varro). They hold
+     the corridor if it comes on fast.
+  4. **The clock.** From the first look we have about ten minutes before we must stand the stare again. Ingrid
+     counts rounds; if it is not finished by then, fall back out of sight and look again from far off.
+  5. **Ground prepared** as before: burning oil poured at the doorway it must cross, caltrops on the approach, holy
+     water and fire ready; it is slow, so missiles and Vestus' and Phaedra's spells work it while it walks to us.
+  6. **Those who cannot stand it** keep their eyes down and guard the rear; Iulia can still rebuke with her eyes
+     lowered if she knows where it is.
+  7. **Potions of valour** make a fighter fearless for a few minutes; bought in a market they cost more than twice what they cost to brew (over 3,000gp each). Lucilla asks after them on the next selling day; one for Brennus' partner at the door is worth it against a mummy lord, not a courtier.

@@ -296,3 +296,12 @@ when they burn out. Spell scrolls: set `true.base_gp` by spell level before sell
 A mage's reading of a spellbook: `identify --method judge --reveal` does not mark it identified: fix `identified`
 before `sell`. `inv give A B Ngp` moves coins between party holders. A cache cannot carry lots: drop them "at the
 Silk Pony strongbox" and `recover --give` them back.
+
+## S11 (2026-11-21) — in progress
+**State:** day 244 06:02, Cyfaraun, town. Session 11 log: `Session Log/S11 — Healers and the stare.md`. Lucilla on
+bed rest to day 257 (Keepers' courtyard, pay 1gp a night; inn beds for eleven). Neris' 1st-level repertoire now
+recorded. Party notes hold the visage plan (S11); Rulings S11 hold the Repair/Tampering modifiers and the visage
+rulings (who saves, averting the eyes, Blessed + Inspired stack, Remove Fear useless against cowering, Righteous Wrath
+immune). Remaining wounds to mend (one `spellcasting --market-class II --type divine --level 4` a request, then
+`restore ID --alignment A --caster-level 9 --temple --parts N --alive --wil-mod M`, then the condition and
+`heal ID --bed-rest`): Brennus toe (parts 0), ear (1), teeth (0); Marcellus fingers (0); Neris ear (1).

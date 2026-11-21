@@ -70,6 +70,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Lucilla (Venturer, Steady Trade Route): Cyfaraun - Türos Tem, textiles and clothing (bought Cyfaraun, sold Türos Tem); established day 195.
 
 ## NPC attitudes
+- Patriarch Arëtar (Solar Citadel): Neutral (day 243, Iulia's audience on the vicar's introduction; two influences: Indifferent, then back to Neutral). Wants physical evidence of the Awakening (rubbings, a carved stone, a record scroll). Leaves healing to the Citadel's paid services.
+- Mother Drakima (Keepers' Hospital, priestess 7): cast Repair Disfigurement and Disability on Lucilla day 243 (paid service).
 - Liber Faunus (Argollëan Family): Friendly (day 241, natural 12 at The Mink). Deal: elven relics through the Family at 80%; the party's coin and gems its own; free passage on the Old District grates; news of the Nethercity now and then (Rulings S10). Aranth Faunus met (barman). Note: the party lodges at the Silk Pony (Sand & Bones, the Family's rival): Judge's watch item.
 - Cyfaraun (S08): a sister of the Temple of the Hearth Fire Unfriendly (day 173, read Genelen's letter); a Türos Orn priest healed Vettius at double fee.
 - Legate Valerian: Neutral (paid the reward day 146; will arrest the party if raids resume). Priestess Genelen: Friendly (holds the Fragments for Mityara's order). Annalist Socolo: Friendly (identified common items). Ur-Shet: Indifferent (day 142).
@@ -82,12 +84,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- Day 257: Lucilla's bed rest ends (Tampering, day 243; pallet in the Keepers' courtyard, 1gp a night).
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
 - Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
 - Strength 37 on day 243 (Deep 30, Abyssal 39). Party rule: keep henchmen, hire only below the floor (Rulings S10).
+- S11 (day 243): Lucilla healed (third eye). Left: Brennus toe, ear, teeth; Marcellus fingers; Neris ear (one casting a day as the market allows; Aundëmë 15% each at #58-61). Visage plan in party notes.
 - S11 aims (user): regenerate wounds (Repair Disfigurement and Disability, divine 4th: Prelate Romus, Patriarch
   Arëtar, temples' spellcasting; `restore --limbs`); then the party's plan against the mummies' horrific visage.
 - Lower targets left: H6 (princess, snakes), H7-H8 (warlord + 8 skeletons), H13 (bard), H16 (astrologer: telescope,

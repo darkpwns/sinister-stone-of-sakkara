@@ -2,15 +2,15 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 10
+session: 11
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A17 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A22 paid out)
 public:
   date:
     year: ''
     season: fall
-    day: 243
+    day: 244
   time: 06:02
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
@@ -22,19 +22,19 @@ public:
     hp: 21
     hp_max: 21
     conditions:
-    - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
+    - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 8.383
+    encumbrance_st: 8.197
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 18
+    hp: 21
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 10.519
+    encumbrance_st: 10.502
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -45,16 +45,21 @@ public:
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 4
+    hp: 7
     hp_max: 7
     conditions:
     - ear bitten off (-1 to Listening throws and -1 to surprise rolls)
-    spells_used: []
+    spells_used:
+    - Cure Moderate Injury
+    - Cure Moderate Injury
+    - Cure Light Injury
+    - Cure Light Injury
+    - Cure Light Injury
     encumbrance_st: 2.636
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 9
+    hp: 25
     hp_max: 27
     conditions:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
@@ -66,16 +71,18 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 16
+    hp: 23
     hp_max: 23
     conditions:
     - minor scarring (puncture wound)
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
+    - Cure Light Injury
     encumbrance_st: 8.469
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 2
+    hp: 5
     hp_max: 5
     conditions: []
     spells_used: []
@@ -99,7 +106,7 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 4
+    hp: 10
     hp_max: 11
     conditions:
     - two fingers bitten off one hand (3 lost fingers on one hand make it useless)
@@ -116,13 +123,13 @@ public:
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
-    hp: 2
+    hp: 7
     hp_max: 9
     conditions: []
     spells_used: []
     encumbrance_st: 7.264
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.8 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Phaedra: food 6 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 7 d, water 1 d (incapacitated); Vettius: food 7 d, water 0.8 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Phaedra: food 6 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -146,7 +153,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 243
+clock_day: 244
 ---
 # Campaign State
 

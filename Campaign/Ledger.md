@@ -1187,3 +1187,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 242 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | elven relics of A22 (L152-L167) sold through the Argollëan Family, day 242 |  | 2,472gp |  | lucilla |
 | 242 | Hospital of the Keepers | donation for three pallets in the courtyard (Brennus, Neris, Marcellus), night of day 242 |  |  | 3gp | lucilla |
 | 243 | Silk Pony Inn (#25) | beds for nine, night of day 242 (three at the hospital) |  |  | 1gp 8sp | lucilla |
+| 243 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 243-256 (2sp a stall a day) |  |  | 11gp 2sp | vettius |
+| 243 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | lucilla |
+| 243 | Hospital of the Keepers | donation for her pallet in the courtyard (bed rest), night of day 243 |  |  | 1gp | lucilla |
+| 243 | Silk Pony Inn (#25) | beds for eleven, night of day 243 (Lucilla at the hospital) |  |  | 2gp 2sp | vettius |
