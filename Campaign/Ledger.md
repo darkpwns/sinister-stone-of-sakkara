@@ -478,3 +478,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 196 |  | treasure share |  | 11gp 2sp |  | ottar |
 | 196 |  | treasure share |  | 11gp 2sp |  | quirinus |
 | 196 |  | treasure share |  | 11gp 2sp |  | phaedra |
+| 196 | Silk Pony Inn (#25) | beds for nine, night of day 196 |  |  | 1gp 8sp | lucilla |
+| 196 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 189-204 (2sp a stall a day; days 189-196 owed, Judge slip) |  |  | 9gp 6sp | vettius |

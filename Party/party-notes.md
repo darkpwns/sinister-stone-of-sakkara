@@ -15,6 +15,14 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 
 - S08 (day 195), the shriekers: the grey-capped fungi in the sewer tunnel scream at light within about 60' (and at anything moving close to them), and twice their screams brought the long-legged pale hunters that killed Sabina, Tarq and Hesper. Contingency agreed: never walk past them again. Come down through the next grate along the avenue, beyond them (Old District grates lift out freely), with lights hooded until down the shaft and moving away from them. If we ever must pass them: hooded lights, at a run, oil and Phaedra's sleep-spell ready for the hunters, crossbows and spears to the rear. The big grasshoppers in the caves below shriek too when anyone comes within a few feet or fights near them: keep wide of them and fight elsewhere.
 
+- S09 (day 196), the table's strength rule: no descent below the cesspool starts unless the levels of the PCs and
+  classed henchmen going down add up to the floor for the deepest part we mean to reach: the entrance caves, the
+  warlord's halls (bronze doors at the foot of the first cave) and the upper galleries reached through them **18**;
+  the cave of wall graves below the triangular cave, the martyrs' gallery beyond the painted hall and anything at that
+  depth **24**; the huge cavern below the rope cliff and the galleries off it **30**; deeper still **39**, the very
+  bottom **48**. Torch-bearers and other 0th-level help count nothing. Now (day 196): Lucilla 4, Vettius 4, Iulia 2,
+  Quirinus 2, Vestus 1, Neris 1, Brennus 1, Phaedra 1 = **16**: hire more help before going down again.
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->
