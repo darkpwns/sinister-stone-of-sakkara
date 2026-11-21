@@ -56,3 +56,9 @@ grain, beer, wine, pottery), **Türos Spen** (fish), **Türos Luin** (wood, furs
 3. If the new module has its own hex numbers, convert them with one fixed offset (`ours = theirs + (dC, dR)`). With
    `even-columns-down`, use an **even column offset** or the rows of every other column shift by one.
 4. `hex.py <new hex>` and `hex.py --sites 13.08 N` check the result before the first `travel`.
+
+## Secrets of the Nethercity (AX2) — Cyfaraun, placement estimate (2026-11-21)
+- Source (Library `Adventures/_source/Secrets_of_the_Nethercity.pdf`, p. 4-5): the Nethercity lies under **Cyfaraun**, capital of the Borderlands prefecture, "some fifty miles northwest of Türos Tem"; the city was founded "at the junction of the Mirmen River and Lake Laman"; its sewers drain to the Krysivor. The module has no regional map.
+- With AX1's geography (the Viaspen between the Mirmen and the Krysivor, the Viamir Marshes and Lake Laman north of it): Cyfaraun about **07.02** (9 hexes, 48 miles straight, bearing 319°) or **06.02** (49 miles, 312°), beyond the built map (columns 04-07 not built). Not confirmed: needs the AX1 Region Map p. 65 or a Borderlands map.
+- Routes from 13.08 (6-mile hexes): **west arc on open ground** 12.07 - 11.08 - 10.08 - 09.08 - 08.07 (Lawful borderlands, grassland) then north up the unbuilt columns 07 or 06 to Cyfaraun: 11 hexes, about 66 miles; or **through the Viaspen** 12.07 - 11.07 - 10.06 - 09.06 (thick forest, the module's forest check, past the Buried Temple) - 08.05 then north-west: 9 hexes but slower in the forest and riskier.
+- Before travel: add columns 04-07 (at least rows 02-08) to `Data/hexes.csv` from a source map, and Cyfaraun to `Data/places.csv` (a city; market class III or IV per Axioms Compendium 2 examples).
