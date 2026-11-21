@@ -47,3 +47,16 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 ### Buried Temple, vault under the stepped tower
 - S06: 20' square vault; long straight steep staircase descending about 35' to an unseen lower level; unexplored.
 - S07: Hex numbers changed to the Borderlands regional map: Türos Tem is now 22.20, the temple 19.19 (older notes use the old numbers; add about 9 to the column and 12 to the row).
+
+### Under the agora cesspool (S08-S09, Priya's map)
+- Far grate on the avenue, 150' to the cesspool; the hole in its floor -> rough steps to the mezzanine cave -> steps S
+  to the triangular cave (round slab W: the first tomb; steps S to the cave of graves and grasshoppers; opening E to
+  the red-fungus cave, the bronze door to the warlord's halls, and the 20' rope cliff down to the huge cavern).
+- First tomb: hallway 20' -> hall 35' square (two slabs N: W the shrine vault, E a hallway N to the antechamber 60' x
+  30'; in it the treasury slab, propped block shored, and the burial chamber). All emptied. SE corner of the hall: a
+  shaft, rope tied, 8' drop into a natural tunnel: 25' SW to a T; S the bean cave (15 graves, looted) and the beetle
+  cave W; N the Y cave with bronze doors NW to the temple of the dead.
+- Temple of the dead: entrance hall with steps; font room E (do not wash); curving corridor W and N past two facing
+  slab doors (worn smooth: leave), a side passage to a red glow, the bend, the Khepri alcove (statue broken), then S
+  to the west balcony over a vast hall (do not go down), a slab door N, a hallway S, a ramp SW down to the southern
+  galleries and the crossroads: cedar door E, commoners' tomb S, W then S a sloping gallery. All graves looted.

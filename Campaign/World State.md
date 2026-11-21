@@ -74,6 +74,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Scheduled events
 
 ## Prep queue (Judge only)
-- S08: Cyfaraun NPCs invented: the Hearth Fire sister (Unfriendly, day 173); Neris (henchman, Priestess 1, STR 4, 4 hp; proficiency Healing not on the actor); Ottar (henchman, 0th, 2 hp). Not hired: Kaeso (Fighter 1, C14), Bran the Chandler (C13). Candidates C7-C9, C11-C12 not interviewed.
-- S08 threads: Tavus Ionicus (rumour 20 -> Vagrant Colony #75u); the Undercity from the Old District grates (5+ throw); Nethercity A1 via #12u.
-- Next market month: day 211. Wages: Neris and Ottar paid through day 204.
+- Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
+- Strength floors (Rulings S09): Upper 18, Lower 24, Deep 30, Abyssal 39, Sub-Abyssal 48; party 23 on day 219 (Septima dead). Lower-band targets left: H17 vestry (scroll jars, 675gp of record scrolls), H18 mosaic gallery, H19 -> G19 (Grand Chthonic Temple), C5 (secret door behind C3's centre grave: 2 mummies, 5,125gp), C6 (from C2a: Deep route), C12 graves, F (via C12 bronze door or E6b), M (white apes). Slab tombs in H (H6, H7-H8, H13, H16, H21, H22, H25) all hold 6 HD mummies; H14 holds 480 skeletons (wakes on entry); H12 embalming materials raise the embalmer's wraith (one wraith already destroyed at H11 as a wanderer: Judge's call whether it was he).
+- Upper-band targets left: D5 altar vault (slab -12; 5,300gp; two jackals of darkness), D6b secret door (48 skeletons), D2 (Eolande), E7-E9 mummy tombs (via D9 or E2b).
+- Threads: Tavus Ionicus (rumour 20 -> Vagrant Colony #75u, AX3) untouched; the Horned Rat wererats seek the way in (they took the A1 hole for a drain on day 195); the Argollean Family wants the source of elven antiquities (attention rolls).
+- NPCs invented S09: Varro, Hrodvar, Septima (dead), Aelia, Marcellus, Gnaeus, Nysa (dismissed day 211, in Cyfaraun), Kaeso and Sextus (refused), Galla, Opimius, C25, C27, C29 (not hired).
+- Next market month: day 241. Wages: Quirinus, Phaedra, Varro, Hrodvar through day 249-256; Aelia, Marcellus through 233; Gnaeus through 240.
+- Bodies: Ottar's coin (303gp) and gear left in B3 (body:ottar); Septima's body carried to Cyfaraun (body:septima: burial owed).

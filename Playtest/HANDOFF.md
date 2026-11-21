@@ -188,3 +188,47 @@ henchman's proficiencies cannot be set; campaign tables (Adventure/**/Tables/*.y
 - acks2-tools 7.13.7 (branch ccr-6e7c0096-7nmfvu, bc189fd): the S08 findings fixed; campaign `tools.ref` ccr-6e7c0096-7nmfvu, `min_version` 7.13.7; acks.sh exports ACKS_TABLES.
 - The prompt to start the next session: `Playtest/NEXT-SESSION-PROMPT.md`.
 
+
+## S09 (2026-11-21) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools unchanged at 7.13.7, bc189fd).
+
+**State on resume:** day 219 ~12:30, fall, Cyfaraun (18.05), mode town, Silk Pony Inn (pay 2gp 6sp a night for 13;
+`eat --in-town` before each rollover; after any delve day clear `sleep_due`/fatigue by hand after the inn night:
+`wait` records no sleep). No adventure open (A17 paid out; open A18 before the next delve, join PCs `--kind pc` and
+henchmen `--kind henchman --retinue-id ID`, then set each PC's `player` in adventure-state by hand).
+
+**Party (13), strength 23:** Lucilla Ven4 19/19 (Rosa, caller), Vettius Thf4 12/12 (Tomasz), Iulia Cru2 13/13
+(Gideon), Vestus M2 4/4 (Priya; Mage Missile, Protection from Evil, Fan of Flames), Neris Pr1 4/4 (Ingrid), Brennus F1
+1/6 (Kwame; in shock: one night's bed rest due tonight; gruesome scarring, six teeth, an ear). Henchmen: Quirinus F2
+9/10 (Lucilla's; ENERVATED by a wraith: max hp 18 -> 10, Death save each morning on waking, fail -1 max hp; three
+passes in a row end it: not yet modelled, roll it each morning), Gnaeus Explorer 2 (Lucilla's), Varro F1, Aelia Bard 1
+(Inspire Courage; Magical Engineering; Loremastery), Marcellus F1 (all Lucilla's), Phaedra M1 (Vettius'; Slumber),
+Hrodvar Dwarven Vaultguard 1 (Iulia's; Engineering, Healing). Dead: Ottar (day 212, eaten by a grey goo), Septima (day
+219, burned by her own fumbled flask; body carried to Cyfaraun, burial owed: body:septima). Nysa dismissed (day 211).
+Magic weapons in use: Brennus Great Axe +1 (w53), Marcellus Sword +1 Death Drinker (w54), Quirinus Battle Axe +1 (w25),
+Lucilla Mace +1 (w29), Vettius Sword +1 (w52). Kept: bag of faerie seeds (L87, Phaedra). Oil low (military sold out
+for month 8 after day 219's buys; holy water none until day 241).
+
+**User's instructions in S09 (all in Campaign/Rulings.md):**
+- Strength floor per depth band: Upper 18, Lower 24, Deep 30, Abyssal 39, Sub-Abyssal 48 (levels of PCs and
+  henchmen; 0th level counts 1 HD; a henchman advanced from 0th counts 1.5 at 1st, 2 at 2nd, then his level). A death
+  that drops the party below the floor of the band it is in turns it back.
+- Keep only the henchmen the floor needs: dismiss any the party can spare (every henchman is a half share).
+- Delve as adventurers: multi-day expeditions to the deepest, richest areas the strength allows; sleep below in a
+  sealed, spiked room; spike doors; set traps for known monsters (poured burning oil, caltrops, chokepoints).
+
+**Next:** Brennus' night of bed rest (heal), Quirinus' enervation save each morning. The party needs one more level
+(23 -> 24) to go back to the Lower band: hire one 1st-level henchman (Lucilla can hire up to 7; she has 5), or wait for
+a level (Iulia 2,831/3,000; Vestus 2,688/5,000; Brennus 1,696/2,000). Then the rest of the temple of the dead (H17
+vestry, H18, H19 -> G19), or C5's secret sepulchre (behind C3's centre grave, not found). Pending: unsettling event 7
+(a dead baby rabbit floats in the sewage) at the next trip below. Bury Septima.
+
+**Judge reminders from S09's slips (Playtest/judge-notes.txt S09):** only military oil is thrown as a weapon (common
+oil is lamp oil); advance one turn at a time so torches are relit when they burn out (the light stays on a dead
+carrier); set B/C/H location settings (temple/tomb level 4 for B and H; sewer level 2 for C); grave goods with
+`recover --goods … --stone value/100`; after `sell`, the proceeds go nowhere: `inv receive` them and split with
+`inv pay A … --to "B (share)"` + `inv receive B … --from A` pairs (there is no coin transfer between holders; `inv pay
+--to B` alone loses the coins); `identify --by ID` needs ID in the open adventure; resolve fights in initiative order
+(ties: the side with fewer combatants chooses); apply a save before its damage; equip magic weapons before a delve
+(`use L#`, `inv give`, `inv wield`); the grey goo's slam destroys armour instead of damaging an armoured target; Neris'
+Laying on Hands each day on rest days. Helpers: Playtest/tools/s09_j.sh (source it), choke.py, brawl.py.

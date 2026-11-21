@@ -11,6 +11,8 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Debts
 
 ## Lessons learned
+- S09: grey slicks that look like damp stone creep up behind and eat armour and men (Ottar). Watch the rear, not only the door.
+- S09: hooded figures with hooks wither a man for good with a touch (Quirinus). Keep them at flask range.
 
 ## Opinions of NPCs
 

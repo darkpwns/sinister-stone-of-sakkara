@@ -90,9 +90,35 @@ the Silk Pony.
 - Galla and Opimius (venturers), Kaeso (fighter): not hired.
 
 ## Treasure and XP
+- Day 198 (A11): 1,378gp (shrine, jars, vases; sold 1,516gp) + 390 monster XP.
+- Day 199 (A12): 1,555gp (treasury; goods sold 1,705gp; the seed bag kept) + 29 monster XP. Day 199 (A13): nothing.
+- Day 211 (A14): nothing. Day 211 (A15): 1,218gp (grave goods) + 145 monster XP.
+- Day 212 (A16): 675gp (the gold mask, sold 743gp) + 755 monster XP. Vestus reached Mage 2.
+- Day 219 (A17): 1,458gp (grave goods, sold 1,604gp) + 325 monster XP.
+- Identified: Mace +1, Battle Axe +1 (Lucilla); Great Axe +1, Sword +1 (training); Sword +1 Death Drinker and the bag
+  of faerie seeds (Aelia).
 
 ## Rumours given
+- None.
 
 ## Changes to the world
+- The first tomb (round slab in the triangular cave) emptied of its dead: 30 skeletons and the masked lord destroyed;
+  its treasury and annex looted. A shaft from its hall drops to the caves below (rope left tied).
+- The temple of the dead: its bronze doors open, its iron guardian broken, its long corridor and southern galleries
+  stripped of grave goods. Slab doors untouched.
+- Henchmen: Ottar and Septima dead; Nysa let go; Varro, Hrodvar, Aelia, Marcellus, Gnaeus hired.
 
 ## Next time
+Day 219 midday, Cyfaraun. Brennus needs a night's bed rest; Quirinus' strength is withered. The party stands one
+level short of the temple's floor (23 of 24): hire one more level or gain it, then go back for the rest of the temple
+(vestry, mosaic gallery, the doors beyond), planning to sleep below.
+
+> [!judge]- Judge rolls
+> Campaign/roll-log.jsonl (session 9). Slips, voids, findings and corrections: Playtest/judge-notes.txt (S09 section).
+> Encounters: B1 skeletons 12 (rebuked 8), B3 skeletons 18, sewer insect swarm 2 HD (13 hp), grey goo (A1, walked
+> away), B5 mummy (26 hp; fled day 199; reaction 6 exhaustion; destroyed day 212), A3 fungal creeper (10 hp), C4
+> bombardier beetles (16, 12, 4, 9; three slumbering), giant rats 5 (intimidated), grey goo (B3, 10 hp; ate Ottar),
+> Khepri iron statue (20 hp), wraith (16 hp). Hirings: Kaeso Try Again twice; Varro, Hrodvar accept; Septima after a
+> signing bonus; Marcellus refused Iulia, accepted Lucilla; Aelia with élan; Gnaeus; Nysa; Sextus refused twice.
+> Tax collector checks 6, 6, 5, 5, 6%: none. Attention rolls at 2,000/4,000/6,000gp: none. Unsettling events: one
+> (7, a dead baby rabbit in the sewage) pending for the next trip below.

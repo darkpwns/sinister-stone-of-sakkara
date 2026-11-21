@@ -11,6 +11,8 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Debts
 
 ## Lessons learned
+- S09: wrapped dead with gold masks freeze you with a look and their blow rots you (cure disease in town); fire only half hurts them, holy water and the magic weapons do. Neris' holy circle keeps them off.
+- S09: a missed flask at a foe in melee splashes our own; a fumbled flask burned Septima to death.
 
 ## Opinions of NPCs
 
