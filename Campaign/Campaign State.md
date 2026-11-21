@@ -10,47 +10,45 @@ public:
   date:
     year: ''
     season: fall
-    day: 212
-  time: '10:10'
-  weather: Cold (26 to 32 F) by day, Cold (26 to 32 F) at night; clear; wind gentle (cold)
+    day: 219
+  time: 06:00
+  weather: Balmy (66 to 68 F) by day, Balmy (66 to 68 F) at night; clear; wind strong
   place: Cyfaraun
   hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 1
+    hp: 19
     hp_max: 19
     conditions:
     - lost an eye and an ear (half her face mauled)
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.222
+    encumbrance_st: 9.487
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 3
+    hp: 12
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 10.863
+    encumbrance_st: 10.838
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Holy Circle
+    spells_used: []
     encumbrance_st: 3.203
   - name: Ottar
     sheet: Characters/ottar.json
@@ -69,7 +67,7 @@ public:
     - ear torn clean off (-1 to Listening throws and -1 to surprise rolls)
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
     spells_used: []
-    encumbrance_st: 6.331
+    encumbrance_st: 7.665
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -78,7 +76,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.136
+    encumbrance_st: 8.444
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -90,11 +88,11 @@ public:
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
-    hp: 13
+    hp: 18
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 6.707
+    encumbrance_st: 6.874
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -102,7 +100,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 6.145
+    encumbrance_st: 6.479
   - name: Septima
     sheet: Characters/septima.json
     role: henchman
@@ -110,7 +108,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 5.004
+    encumbrance_st: 5.337
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -118,7 +116,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 7.479
+    encumbrance_st: 7.812
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -134,7 +132,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 10.615
+    encumbrance_st: 11.115
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -142,7 +140,7 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 6.782
+    encumbrance_st: 7.115
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out
   rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Brennus: food 14 d, water 0.2 d; Aelia: food 7 d, water 0.4 d; Marcellus: food 7 d, water 0.4 d; Gnaeus: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
@@ -168,7 +166,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 212
+clock_day: 219
 ---
 # Campaign State
 

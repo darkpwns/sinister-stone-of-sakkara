@@ -804,3 +804,21 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 212 | gnaeus (share) | share of the L93 sale (A16, half share) |  |  | 37gp 1sp | lucilla |
 | 212 | lucilla | share of the L93 sale (A16, half share) |  | 37gp 1sp |  | gnaeus |
 | 212 | Tower of Knowledge storefront | formula for Fan of Flames (1st level, AX3 Tower price list), to learn for his 2nd-level repertoire (a week's study) |  |  | 100gp | vestus-the-unlikely |
+| 212 | Silk Pony Inn (#25) | beds for fourteen, night of day 212 |  |  | 2gp 8sp | lucilla |
+| 214 | Silk Pony Inn (#25) | beds for fourteen, night of day 213 |  |  | 2gp 8sp | lucilla |
+| 215 | Silk Pony Inn (#25) | beds for fourteen, night of day 214 |  |  | 2gp 8sp | lucilla |
+| 216 | Silk Pony Inn (#25) | beds for fourteen, night of day 215 |  |  | 2gp 8sp | lucilla |
+| 217 | Silk Pony Inn (#25) | beds for fourteen, night of day 216 |  |  | 2gp 8sp | lucilla |
+| 218 | Silk Pony Inn (#25) | beds for fourteen, night of day 217 |  |  | 2gp 8sp | lucilla |
+| 219 | Silk Pony Inn (#25) | beds for fourteen, night of day 218 |  |  | 2gp 8sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 219 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 219 | the retinue | wages paid |  |  | 25gp | iulia |
+| 219 | the retinue | wages paid |  |  | 25gp | vettius |
