@@ -26,6 +26,16 @@ the Silk Pony.
   ranks behind it. Iulia's rebuke broke eight of them; Brennus, raging, split two; Vestus' missile, Vettius, Varro
   and Septima's arrows finished the rest at the mouth, and the cowering eight were cut down in the hall beyond. Nobody
   hurt but Brennus' bruise from the slab.
+- Day 198, cont.: the west slab rolled at the second heave: a small vault with a gilded cedar shrine, canopic jars and
+  vases. The east slab, also at the second heave: eighteen more skeletons climbing from their graves. Iulia's rebuke
+  failed; Varro poured burning oil at the mouth and the dead walked into it; Brennus fell, critically hurt, and Neris'
+  prayer brought him back (six teeth gone, a week in bed). The antechamber beyond: four terrible gods carved among
+  the Empyrean ones (Iulia named Iskara, Bel, Nasga and Dirgion), and a slab whose ceiling block hangs on it. Home by
+  noon; the shrine, jars and vases sold for 1,516gp.
+- Day 199, seventh descent: Hrodvar propped the hanging block with oak beams; the slab rolled at the first heave: the
+  tomb's treasury (silver bowls, pots, a golden plumed fan, an ivory-inlaid chest, frankincense, a bronze pendant, a
+  bag of seeds). A swarm of millipedes that had followed the party in burned under three flasks. A grey slick in the
+  cesspool was left behind. Sold: 1,705gp. One slab is left, at the north end of the antechamber's east wall.
 
 ## Who they met
 - Varro (fighter): lean, close-cropped, ex-watchman; answers in one word.

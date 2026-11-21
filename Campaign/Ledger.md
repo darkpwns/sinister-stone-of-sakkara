@@ -23,6 +23,13 @@ tags:
 | 198 | Secrets of the Nethercity, delve 6 | canopic shrine of gilded cedar with bronze cobras | 1,250 | septima |
 | 198 | Secrets of the Nethercity, delve 6 | four terracotta canopic jars of embalmed organs | 100 | phaedra |
 | 198 | Secrets of the Nethercity, delve 6 | four intact terracotta vases with geometric patterns | 28 | phaedra |
+| 199 | Secrets of the Nethercity, delve 7 | ten smooth silver bowls | 100 | hrodvar |
+| 199 | Secrets of the Nethercity, delve 7 | four intact terracotta pots with geometric patterns | 20 | hrodvar |
+| 199 | Secrets of the Nethercity, delve 7 | fan of gilded cedar with giant hawk plumes | 100 | septima |
+| 199 | Secrets of the Nethercity, delve 7 | dawn redwood chest inlaid in ivory with Empyrean holy symbols | 850 | vestus-the-unlikely |
+| 199 | Secrets of the Nethercity, delve 7 | 19 sticks of frankincense | 380 | phaedra |
+| 199 | Secrets of the Nethercity, delve 7 | bronze pendant | 100 | phaedra |
+| 199 | Secrets of the Nethercity, delve 7 | SOTN Bag of Faerie Seeds | 5 | phaedra |
 
 ## Monster XP
 
@@ -36,6 +43,7 @@ tags:
 | 195 | Secrets of the Nethercity (journey to Cyfaraun) | Fungal Creeper (SOTN) | 1 | 65 | 65 |
 | 198 | Secrets of the Nethercity, delve 6 | Skeleton | 12 | 13 | 156 |
 | 198 | Secrets of the Nethercity, delve 6 | Skeleton | 18 | 13 | 234 |
+| 199 | Secrets of the Nethercity, delve 7 | Insect Swarm | 1 | 29 | 29 |
 
 ## Shares and XP awarded
 
@@ -76,6 +84,17 @@ tags:
 | 198 | Secrets of the Nethercity, delve 6 | Varro | 0.5 | 77 | 22 | 0 | +0% | 98 |
 | 198 | Secrets of the Nethercity, delve 6 | Hrodvar | 0.5 | 77 | 22 | 0 | +0% | 98 |
 | 198 | Secrets of the Nethercity, delve 6 | Septima | 0.5 | 77 | 22 | 0 | +0% | 98 |
+| 199 | Secrets of the Nethercity, delve 7 | Lucilla | 1 | 194 | 4 | 0 | +10% | 218 |
+| 199 | Secrets of the Nethercity, delve 7 | Vettius | 1 | 194 | 4 | 0 | +5% | 208 |
+| 199 | Secrets of the Nethercity, delve 7 | Vestus the Unlikely | 1 | 194 | 4 | 0 | +5% | 208 |
+| 199 | Secrets of the Nethercity, delve 7 | Neris | 1 | 194 | 4 | 0 | +0% | 198 |
+| 199 | Secrets of the Nethercity, delve 7 | Iulia | 1 | 194 | 4 | 0 | +5% | 208 |
+| 199 | Secrets of the Nethercity, delve 7 | Ottar | 0.5 | 97 | 2 | 0 | +0% | 99 |
+| 199 | Secrets of the Nethercity, delve 7 | Quirinus | 0.5 | 97 | 2 | 0 | +0% | 99 |
+| 199 | Secrets of the Nethercity, delve 7 | Phaedra | 0.5 | 97 | 2 | 0 | +0% | 99 |
+| 199 | Secrets of the Nethercity, delve 7 | Varro | 0.5 | 97 | 2 | 0 | +0% | 99 |
+| 199 | Secrets of the Nethercity, delve 7 | Hrodvar | 0.5 | 97 | 2 | 0 | +0% | 99 |
+| 199 | Secrets of the Nethercity, delve 7 | Septima | 0.5 | 97 | 2 | 0 | +0% | 99 |
 
 ## Wages
 
@@ -550,3 +569,36 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 198 | lucilla | share of the B2 sale (A11, half share); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 84gp 2sp |  | septima |
 | 198 | vettius | signing bonus, a month's wage (day 197); correction: inv pay --to a party holder sends the coins out of the party; the payee receives them here |  | 25gp |  | septima |
 | 198 | a Cyfaraun timber yard | oak props for the B4 block |  |  | 4gp | iulia |
+| 198 | Silk Pony Inn (#25) | beds for twelve, night of day 198 |  |  | 2gp 4sp | lucilla |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 |  | treasure share |  |  |  |  |
+| 199 | Cyfaraun buyers (sale of L81-L86) | sale of the B4 treasury goods (sell: proceeds not allocated) |  | 1,705gp |  | lucilla |
+| 199 | vettius (share) | share of the B4 sale (A12, 1 share) |  |  | 213gp 1sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, 1 share) |  | 213gp 1sp |  | vettius |
+| 199 | vestus-the-unlikely (share) | share of the B4 sale (A12, 1 share) |  |  | 213gp 1sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, 1 share) |  | 213gp 1sp |  | vestus-the-unlikely |
+| 199 | neris (share) | share of the B4 sale (A12, 1 share) |  |  | 213gp 1sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, 1 share) |  | 213gp 1sp |  | neris |
+| 199 | iulia (share) | share of the B4 sale (A12, 1 share) |  |  | 213gp 1sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, 1 share) |  | 213gp 1sp |  | iulia |
+| 199 | ottar (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | ottar |
+| 199 | quirinus (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | quirinus |
+| 199 | phaedra (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | phaedra |
+| 199 | varro (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | varro |
+| 199 | hrodvar (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | hrodvar |
+| 199 | septima (share) | share of the B4 sale (A12, half share) |  |  | 106gp 5sp | lucilla |
+| 199 | lucilla | share of the B4 sale (A12, half share) |  | 106gp 5sp |  | septima |

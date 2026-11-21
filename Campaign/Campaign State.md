@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: fall
-    day: 198
-  time: '12:46'
-  weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; mostly cloudy; wind strong
+    day: 199
+  time: 08:15
+  weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 9.647
+    encumbrance_st: 9.693
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,24 +34,22 @@ public:
     hp_max: 12
     conditions: []
     spells_used: []
-    encumbrance_st: 9.084
+    encumbrance_st: 9.131
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 3
     hp_max: 3
     conditions: []
-    spells_used:
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
     hp: 4
     hp_max: 4
     conditions: []
-    spells_used:
-    - Cure Light Injury
-    encumbrance_st: 2.454
+    spells_used: []
+    encumbrance_st: 2.668
   - name: Ottar
     sheet: Characters/ottar.json
     role: henchman
@@ -59,7 +57,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 5.648
+    encumbrance_st: 5.259
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -70,7 +68,7 @@ public:
     - 'critically wounded day 198 (B3 skeletons): 1 week of bed rest, incapacitated'
     - six teeth knocked out (-1 to reaction rolls with the opposite sex and upper-class NPCs)
     spells_used: []
-    encumbrance_st: 6.62
+    encumbrance_st: 6.454
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -79,7 +77,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.265
+    encumbrance_st: 8.479
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -87,7 +85,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 1.315
+    encumbrance_st: 1.426
   - name: Quirinus
     sheet: Characters/quirinus.json
     role: henchman
@@ -95,7 +93,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 6.481
+    encumbrance_st: 6.426
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -103,7 +101,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 6.253
+    encumbrance_st: 6.364
   - name: Septima
     sheet: Characters/septima.json
     role: henchman
@@ -111,7 +109,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 4.444
+    encumbrance_st: 4.555
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -119,9 +117,9 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 13.086
-  light: lantern (Vettius) out; torch (Ottar) out
-  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Brennus: food 14 d, water 0.2 d (incapacitated); Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 7.03
+  light: lantern (Vettius) out; torch (Ottar) out; torch (Ottar) out
+  rations: 'Lucilla: food 10 d, water 1 d; Vettius: food 10 d, water 0 d; Vestus the Unlikely: food 19 d, water 1 d; Neris: food 7 d, water 1 d; Ottar: food 7 d, water 1 d; Iulia: food 14 d, water 0.2 d; Quirinus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Varro: food 7 d, water 0.4 d; Hrodvar: food 7 d, water 0.4 d; Septima: food 7 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -145,7 +143,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 198
+clock_day: 199
 ---
 # Campaign State
 
