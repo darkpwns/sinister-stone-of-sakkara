@@ -96,6 +96,19 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   vault. Brennus became an exemplar (5th rank) and the gods' slow mark on her lifted.
 - Days 265-267: Neris laid Salving Rest on Vettius and Aelia and they lay under the Citadel's oculus; each passed two
   mornings in a row and the withering stopped. What it took stays taken (Vettius 19 hp at most, Aelia 11).
+- Day 267, twenty-first descent, to the warrior's tomb (east of the facing pair). A rat swarm fled from the torches;
+  a grey goo crept up the corridor while Hrodvar rigged the slab and died under Brennus' and Gnaeus' axes. The slab
+  rolled at the first pull; eight skeletons were still climbing out of their graves when Brennus reached the door,
+  Iulia's holy symbol scattered five, and two fans of fire finished them. The company waited a turn in silence, then
+  pulled the inner slab: a warrior-mummy in bronze scale rose from his coffin straight into Iulia's rebuke, and cowered
+  against the wall while Brennus, Vettius, Gnaeus and Marcellus (eyes down) cut him apart and Vestus' bolts struck
+  him. Not a scratch on anyone. A gold shield rimmed with ivory, a silver bowl and 6,500 in coin came out. The
+  princess's coffin lid would not move for Brennus and Varro; they left her for a day with more strength.
+  Coming out, a shimmering wall of jelly in the caves burned under Marcellus' and Brennus' flasks and Phaedra's fan.
+- Day 267, in town: the table had had enough of the cesspool's stink. Phaedra worked out masks of linen and
+  charcoal soaked in vinegar and camphor; a dozen for twelve gold. Liber took the gold shield, the jars and the bowl
+  (2,628gp); the old coin went to Doarë's vault. Lucilla became an enterpriser (6th rank), Neris a sister-disciple
+  (5th: she can now cure the mummies' rot herself), Varro a hero (4th).
 
 ## Who they met
 - Revered Mother Doarë of the Grey Sisters: 59, a bard's voice, a face overcast with great sadness; speaks of things to come in the past tense ("I have buried you already, child, in three dreams of four"). Friendly; keeps the party's chest.
@@ -107,6 +120,7 @@ to find a priest who can make them whole, and to find an answer to the mummies' 
   can hold.
 
 ## Treasure and XP
+- Day 267 (A26): 4,385 treasure XP + 1,424 monster XP; relics through Liber 2,628gp. Lucilla Venturer 6, Neris Priestess 5, Varro Fighter 4.
 - Day 265 (A25): 5,105 treasure XP + 245 monster XP; relics through Liber 3,364gp. Brennus Fighter 5.
 - Day 262: crystal ball sold unused through Liber, 19,200gp (2,133 XP a share).
 - Day 263 (A24): 4,950 treasure XP + 2,080 monster XP; relics through Liber 14,440gp (faerie flute and spellbook sale XP 12,840). Vettius Thief 6, Aelia Bard 4.

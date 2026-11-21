@@ -1334,3 +1334,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 266 | Silk Pony Inn (#25) | beds for ten, night of day 266 (Vettius and Aelia under the Citadel's dome) |  |  | 2gp | vettius |
 | 266 | Solar Citadel | alms for his pallet under the oculus, night of day 266 |  |  | 1gp | vettius |
 | 266 | Solar Citadel | alms for her pallet under the oculus, night of day 266 |  |  | 1gp | aelia |
+| 267 | Cyfaraun | Oil, Common (1 pint) | 2 |  | 5sp 4cp | vettius |
+| 267 |  | treasure share |  | 122gp 2sp 2cp |  | lucilla |
+| 267 |  | treasure share |  | 122gp 2sp 2cp |  | vettius |
+| 267 |  | treasure share |  | 122gp 2sp 2cp |  | iulia |
+| 267 |  | treasure share |  | 122gp 2sp 2cp |  | vestus-the-unlikely |
+| 267 |  | treasure share |  | 122gp 2sp 2cp |  | neris |
+| 267 |  | treasure share |  | 122gp 2sp 2cp |  | brennus |
+| 267 |  | treasure share |  | 61gp 1sp 1cp |  | phaedra |
+| 267 |  | treasure share |  | 61gp 1sp 1cp |  | varro |
+| 267 |  | treasure share |  | 61gp 1sp 1cp |  | hrodvar |
+| 267 |  | treasure share |  | 61gp 1sp 1cp |  | aelia |
+| 267 |  | treasure share |  | 61gp 1sp 1cp |  | marcellus |
+| 267 |  | treasure share |  | 61gp 1sp 1cp |  | gnaeus |
+| 267 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H8 relics (L198-L200, A26) sold through the Argollëan Family, day 267 |  | 2,628gp |  | lucilla |
+| 267 | Cyfaraun market (apothecary) | vinegar, camphor, charcoal and linen for twelve filter masks |  |  | 12gp | phaedra |
+| 267 | Silk Pony Inn (#25) | beds for twelve, night of day 267 |  |  | 2gp 4sp | vettius |

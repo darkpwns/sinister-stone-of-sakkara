@@ -328,3 +328,8 @@ Silk Pony strongbox holds only spare gear. Stalls paid to day 270. Vettius 9.6 s
 meets her, roll the SOTN mummy reaction table). Vettius (max 19) and Aelia (max 11) cured of enervation. Brennus F5.
 Strength 48 (Sub-Abyssal floor reached: Lucilla 5, Vettius 6, Iulia 5, Vestus 4, Neris 4, Brennus 5, henchmen 3+3+3+4+3+3).
 Vestus has copied 3 of 6 days. Vault: 17,341gp 258sp 235cp + opals. Next: H7-H8 (8 skeletons + warlord AC 11), H21.
+**Update day 268 05:24:** expedition 21 done (H7 skeletons, H8 warlord destroyed; H7-H8 looted). The princess is in her
+coffin in H6 (slab open, lid not moved: try with Ogre Strength; her reaction on waking: SOTN mummy reaction table).
+H21 untouched. Phaedra's filter masks: use `miasma6` (s11_mend.sh, +6). Neris Pr5 (Cure Disease in her repertoire).
+Strength 51. Vestus copying 3 of 6 days done. Vault holds the ancient coin. Day 270: month 9 ends; day 271: selling
+day (opals), Gnaeus' wage.

@@ -193,3 +193,13 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   withering in two mornings. Lesson (7): rearguard faces the side passages while the haulers pull.
 - S11 (day 265): if the first two pulls fail, stop and wait a turn in silence before pulling again: the dead go
   back to sleep and the next pull may catch them in their coffins. (It worked.)
+- S11 (day 267), the warrior's tomb and his burial chamber: both slabs at the first pull; Iulia's rebuke did the
+  rest. Rebuked dead cower against the wall and do not fight back; everyone but Iulia may cut at them. The
+  princess is back in her coffin; its stone lid needs more strength than two of us (bring Vestus' ogre strength).
+- S11 (day 267), the stink in the caves. What we know: a cloth over the face means one bad breath an hour, not one
+  a turn; the headache goes after a turn's rest away from the sludge. Holding breath is no good (three caves);
+  Neris' poison prayer is no good (it is foul air, not poison). What we do now: (1) Phaedra's filter masks (linen,
+  charcoal, vinegar and camphor), better than cloths; she resoaks them each evening; (2) straight through the
+  three sludge caves without stopping; (3) first rest in the first tomb (sealed, dry), and on the way out rest there
+  before the sludge, so nobody carries the headache into a fight; (4) no fighting in the sludge if we can avoid it.
+- S11 (day 267): Neris can now cure the rot herself (3rd-rank prayers). Strength 51: the very bottom (48) is open.

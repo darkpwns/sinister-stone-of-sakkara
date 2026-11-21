@@ -13,3 +13,6 @@ night(){ local d=$1 n=${2:-eleven} c=${3:-2gp2sp}
   $A inv pay lucilla 1gp --to "Hospital of the Keepers" --cause "donation for her pallet in the courtyard (bed rest), night of day $d" >/dev/null 2>&1
   $A inv pay vettius $c --to "Silk Pony Inn (#25)" --cause "beds for $n, night of day $d" 2>&1 | tail -1 | cut -c1-80
   $A wait --hours 12 2>&1 | tail -1 | grep -o "day [0-9]* begins\|[a-z-]*: bed rest, [0-9]* day(s) left\|[a-z-]* heals [0-9]* hp[^;]*\|wage[^;]*\|loyalty[^;]*" | tr '\n' ';'; echo; }
+# S11 miasma with Phaedra's filter masks (+6, Rulings S11): miasma6 [ids]
+miasma6(){ for i in ${@:-$PARTY}; do o=$($A save $i death --mod 6 2>&1 | tail -1 | f 140); echo "$i: $o"
+    if echo "$o" | grep -qi "fail"; then grep -q "sludge miasma" <<<"$(conds $i)" || cadd $i "$MIASMA" "failed the sludge miasma save (SOTN, Nethercity Features)" >/dev/null; fi; done; }
