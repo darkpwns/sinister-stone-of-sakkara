@@ -89,7 +89,17 @@ Brennus lies in shock. The party stands one level short of the strength the temp
   thought better of it and took them both back: from now on the party keeps its people and hires only when it
   falls below its line.
 
+- Days 233-241, Cyfaraun: a week's rest. Vestus learnt Burning Sparks and read two of the mummies' spellbooks; the
+  encrypted one went to the Tower of Knowledge to be named (two weeks). Lucilla's textile caravan paid a little; the
+  coast caravan's goods were impounded at customs and will be months coming back.
+- Day 241, the first selling day of the new month: everything held back went at once (23,045gp), the tax men none
+  the wiser. Lucilla became a mercantilist of the fifth rank, Phaedra a seer of the second.
+- Day 241 evening, The Mink: Liber Faunus, who had heard of them, offered eight parts in ten for any elven work and
+  his blessing on the Old District grates. The table took it.
+
 ## Who they met
+- Liber Faunus, owner of The Mink: lean, ageless, faintly pointed ears, groomed goatee; soft, amused, courteous ("Blood is bad for business, friend. Let us find a price instead."). Friendly.
+- Aranth Faunus, his brother, behind The Mink's bar: elven ears, unkempt black hair, eager for tomb-raiders' tales.
 - A tax official of the prefecture at the Emporium: sharp-nosed, ink-stained cuffs, "and where, madam, would a merchant find such old work?"; satisfied.
 - A banker of the Merchant Guildhouse: plump, bored, then brisk once Lucilla talked figures.
 - Rector Drusus of the Solar Citadel (from afar): broad, battle-scarred, guilty to be healing while the legions march; took Quirinus into the Citadel Guard.
@@ -97,6 +107,7 @@ Brennus lies in shock. The party stands one level short of the strength the temp
 - A vicar of Ammonar at the Solar Citadel: grey-templed, measured; asked what they had seen before what they wanted.
 
 ## Treasure and XP
+- Day 241: goods of A20 and A21 sold, 23,045gp (scrolls, spellbooks, lyre, whip +1 at full value); sale XP to the share-holders. Lucilla Venturer 5, Phaedra Mage 2.
 - Day 233 (A21): 4,001gp (E7-E9; goods unsold, held for day 241) + 2,120 monster XP. Varro Fighter 2, Hrodvar Vaultguard 2, Marcellus Fighter 2. Lucilla 34 XP short of Venturer 5.
 - Day 232 (A20): 4,465gp (E3 compartment; goods unsold, held for day 241) + 1,560 monster XP. Iulia Crusader 4, Neris Priestess 3, Aelia Bard 2.
 - Day 223 (A19): 14,185gp (H12 charms and natron, H17 scrolls and myrrh, G21 treasury coin; goods sold 4,384gp) + 58 monster XP. Vettius Thief 5, Vestus Mage 3, Brennus Fighter 3.

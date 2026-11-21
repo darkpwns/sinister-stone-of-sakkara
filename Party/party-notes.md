@@ -88,3 +88,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - S10 (day 233): we keep the people we have. Every one of them is earning his keep and his share now; we hire
   again only if deaths drop us below the strength line for where we are going. Phaedra and Gnaeus, let go this
   morning, are back (Gnaeus has his battle axe again).
+- S10 (day 241), Liber Faunus. After the big selling day a note asked Lucilla to The Mink. Liber (lean, soft-spoken,
+  never raises his voice: "Blood is bad for business, friend") knew about us and our grate already. Deal struck:
+  he buys the elven work (grave goods, art, jewellery) at eight parts in ten, clean coin, no tax men; our gold and
+  gems stay our own; his people leave us be on the Old District grates; now and then he wants to hear what is below.
+  He did not ask for the way in and we did not give it. Never sell elven work past him from now on.

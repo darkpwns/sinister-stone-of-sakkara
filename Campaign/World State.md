@@ -69,6 +69,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Lucilla (Venturer, Steady Trade Route): Cyfaraun - Türos Tem, textiles and clothing (bought Cyfaraun, sold Türos Tem); established day 195.
 
 ## NPC attitudes
+- Liber Faunus (Argollëan Family): Friendly (day 241, natural 12 at The Mink). Deal: elven relics through the Family at 80%; the party's coin and gems its own; free passage on the Old District grates; news of the Nethercity now and then (Rulings S10). Aranth Faunus met (barman). Note: the party lodges at the Silk Pony (Sand & Bones, the Family's rival): Judge's watch item.
 - Cyfaraun (S08): a sister of the Temple of the Hearth Fire Unfriendly (day 173, read Genelen's letter); a Türos Orn priest healed Vettius at double fee.
 - Legate Valerian: Neutral (paid the reward day 146; will arrest the party if raids resume). Priestess Genelen: Friendly (holds the Fragments for Mityara's order). Annalist Socolo: Friendly (identified common items). Ur-Shet: Indifferent (day 142).
 

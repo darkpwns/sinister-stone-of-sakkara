@@ -1120,3 +1120,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 241 | Cyfaraun buyers (goldsmiths, jewellers, the Tower's scroll-buyers, a collector) | sale of L120-L151 (A20, A21), day 241, with the Judge's price correction for L130, L132-L134, L140, L150 |  | 23,045gp |  | lucilla |
 | 241 | Calpurnia (former henchman) | half share of the A20 goods sold day 241 |  |  | 595gp | lucilla |
 | 241 | Titus Aurelianus (former henchman) | half share of the A20 goods sold day 241 |  |  | 595gp | lucilla |
+| 242 | Silk Pony Inn (#25) | beds for twelve, night of day 241 |  |  | 2gp 4sp | lucilla |

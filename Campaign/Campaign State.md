@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: fall
-    day: 241
+    day: 242
   time: 06:00
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; partly cloudy; wind moderate
   place: Cyfaraun
@@ -26,7 +26,7 @@ public:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     spells_used: []
-    encumbrance_st: 8.727
+    encumbrance_st: 8.721
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -119,7 +119,7 @@ public:
     spells_used: []
     encumbrance_st: 7.056
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 0.2 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 6 d, water 1 d; Iulia: food 13 d, water 1 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 13 d, water 1 d; Aelia: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Phaedra: food 6 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 6 d, water 0 d; Vettius: food 6 d, water 0 d; Vestus the Unlikely: food 6 d, water 0 d; Neris: food 5 d, water 0 d; Iulia: food 12 d, water 0 d; Varro: food 5 d, water 0 d; Hrodvar: food 5 d, water 0 d; Brennus: food 12 d, water 0 d; Aelia: food 5 d, water 0 d; Marcellus: food 5 d, water 0 d; Phaedra: food 5 d, water 0 d; Gnaeus: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -143,7 +143,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 241
+clock_day: 242
 ---
 # Campaign State
 
