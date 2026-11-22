@@ -528,7 +528,7 @@ Start S16. Cyfaraun is Class II for every party purchase (`--market-class 2`).
 **Party (12), strength about 55:** Lucilla Ven6, Vettius Thf7 (22/22), Iulia Cru6 (Captain of the Underwatch; spear
 +2, shield +1, Rod of the Dawn), Vestus M5, Neris Pr5, Brennus F6 (23 max; Weapon Focus axes; black plate +1).
 Henchmen Phaedra M4, Varro F4 (Lann Dhuille, Sword +1, identified, used), Hrodvar VG4 (max hp 13 after a shadow;
-enervation ended day 306), Aelia B5, Marcellus F4, Gnaeus Exp4. Brennus 19/23 (rat bites).
+enervation ended day 306), Aelia B5, Marcellus F4, Gnaeus Exp4. Brennus 22/23, Iulia 31/31: all whole or nearly.
 
 **What S15 did:** five descents and two town days. Upriver (A35): P9-P14 seen, P10 graves, four shadows and three
 wights destroyed. The P12 basin (A36): 20,900gp carried out past the P11 water elemental inside Neris' Holy Circle,
