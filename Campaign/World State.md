@@ -147,30 +147,28 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Scheduled events
 - The white fish: re-charmed day 309; day-316 save failed; **day-323 save 19: the charm is broken** (hidden; the party does not know). Its attitude rolled 2d6+2 = 12: Friendly (fed on every visit). The river's catfish throw (6+ each turn on the water) applies again (Rulings S15), as a friendly fish: it comes to the canoes for food and does not attack while Friendly; Neris may re-charm it (+0).
-- **Full moon: day 328** (Judge's call rolled day 309). Arëtar and Iulia plan to take the Provost at the Shrine at midnight (a sanctioned mission: 1d4 knights). **Mentenus, warned by Terkinos, will not come**: the Shrine stands empty that night (the party does not know until it looks). Where the pack went and what Mentenus does next are open (Judge's watch items: Prelate Romus may tell him who holds the seer and his papers).
+- Day 330 (month 11 end, done): Guildhouse storage fees posted (0.25% of each balance; Gnaeus' 9,397gp balance withdrawn by him, posted day 330); investments (1) 87 and (3) 89: **Protector** both ((1) a ruler, 5 months: ignores Annihilation, Delay, Decimation, Brigandage to month 16; (3) a powerful monster, 1 month); returns 7 + 30gp to Lucilla; Iulia's month-end: no task (2); **Mentenus learned the Underwatch office is filled again (1)**.
+- **Mentenus seeks the Brotherhood (day 330; the weekly Judge's call 1-in-6 came up 1, Mentenus 1):** a sealed note for "Vasan Tikala" left at the Emporium's Nicean wine stalls, password "sludge mold": a meeting at the Nicean outlet at midnight on day 333 (Judge's call: the S16 protocol, midnight two nights on); the work: the Captain of the Underwatch. The stall-keepers remember Lucilla asked for Vasan in S16 (Judge's watch: she hears of it if she asks there or at her Rumormongering, day 331+). Destrio's charge: report it.
+- Vestus' application to the Tower of Knowledge (day 325, 10gp): interview with the Provost and the Regent on day 339 (1d4 weeks: 2); admission 2d6 +1 INT +3 (3rd-level spells) +1 Loremastery +1 Magical Engineering, 12+ (AX3 p. 148).
+- Caeso Lentulus: bed rest to day 338.
+- **Full moon: day 328** (done: the ambush called off; the alley grate watched, nobody came). (Judge's call rolled day 309). Arëtar and Iulia plan to take the Provost at the Shrine at midnight (a sanctioned mission: 1d4 knights). **Mentenus, warned by Terkinos, will not come**: the Shrine stands empty that night (the party does not know until it looks). Where the pack went and what Mentenus does next are open (Judge's watch items: Prelate Romus may tell him who holds the seer and his papers).
 - Wages (400gp a month each from day 317, the RR table at 5th level): Phaedra to 339, Varro and Hrodvar to 346, Aelia and Marcellus to 353 (paid day 323); 2,000gp a month in all. Gnaeus resigned day 317. Vault fee paid to 353 (day 323). Lodging (day 316 on): the Solar Citadel barracks, free (Captain's privilege, Rulings S14); the mule, two donkeys and the cart in the Citadel stables (Judge's call rolled day 316: 3, taken as the Captain's beasts, free); the Silk Pony stalls paid to 332 left unused; the Silk Pony strongbox emptied into the Grey Sisters' vault with L238. Month 11 ends day 330 (investments 1 and 3 vagaries; Iulia's month-end Underwatch rolls; her first report to Arëtar due by then). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: the Nethercity and Undercity under Cyfaraun (18.05); no overland travel planned. Saved for later: the Ionicus
-  estate (27.19), Celictor's crocodile (#45u), the arena (rumour 8: Maximus).
-- Q (Marcan's tomb) is emptied (S17); its eight bronze statues remain, active, barred by the Underwatch ward. Open
-  Nethercity targets: F -> T (the Great Teacher; F14's hidden stair), R (beyond the P13 boulder door), O, the Night
-  Captain's tomb under the Citadel, the egg of the earth at P8b (pudding).
-- The Order of the Eclipse: the six PCs are acolytes (day 319); their initiation is the retribution on Provost
-  Mentenus (Mage 9, wererat; Chapterhouse, Tower District: quarters 25% by day / 75% asleep by night, study 50% /
-  25%). Destrio (traits: lean, grey at the temples, hands never move; "Calefa keeps the accounts. We only collect.")
-  wants word of anyone who seeks the Brotherhood (Judge's call each week, 1-in-6; day 323: 3, nobody). Liber and Selene
-  remain the Order's petitions.
-- Full moon day 328: Arëtar's ambush finds the Shrine empty (Terkinos's pack fled north the night of day 306 and
-  warned Mentenus). Arëtar's papers on Mentenus; Prelate Romus is his friend (Judge's watch item).
-- L295 (Marcan's scale, chain mail +1) unidentified: Vestus' Magical Engineering failed (no retry until his level 7);
-  Arëtar or the Tower can name it. L296 Helm of Comprehension and L297 Short Sword +2, Command identified, unused:
-  sale XP if sold unused.
-- Scheduled: 328 full moon; 330 month 11 ends (Guildhouse storage fee 0.25% of each balance; investments 1 and 3;
-  Iulia's month-end Underwatch rolls, her report due by 330); 331 selling day (month 12: the vault's goods; Liber
-  80% for elven relics); 335 Tertulla's mooring; 339-353 wages.
-- NPCs named in play, not written up: Brother Oppius (curate of Türas, Temple of Justice; thin, ink-stained fingers,
-  repeats names back as if writing them), Destrio's voice (above). Gnaeus (former henchman, Explorer 5, in Cyfaraun).
+- Sites: the Nethercity and Undercity under Cyfaraun (18.05); the Tower of Knowledge basement (keyed: Basement 2 the
+  Provost's study, wizard locked 9th; sewer gate 10 wizard locked 10th; magic mouth 9). Saved for later: the Ionicus
+  estate (27.19), Celictor's crocodile (#45u), the arena.
+- Threads: Arëtar wants proof from Basement 2 (journals, vials: a sanctioned mission); the Order's initiation
+  (Mentenus; a court's verdict would settle it and another would be given); **Mentenus's note to "Vasan Tikala"
+  (meeting day 333 midnight at the Nicean outlet; target: Iulia)**; Vestus' Tower interview (day 339, before the
+  Provost himself); Caeso Lentulus (Friendly; trailed a Family man into the sewers); the explorer search (day 331).
+- Selling day 331 (month 12): the vault's goods; L296 Helm of Comprehension (25,000) and L297 Short Sword +2, Command
+  (21,000) identified and unused; L295 unidentified; Liber 80% for elven relics; the barge (Tertulla to 335).
+- Scheduled: 331 selling day and the month-12 searches; 333 Mentenus's meeting; 335 Tertulla; 338 Caeso up; 339
+  Vestus' interview; 340-353 wages; 360 month 12 ends (fees, investments, Iulia's rolls; investment 1 Protector to
+  month 16).
+- NPCs named, not written up: Brother Oppius; Destrio's voice; Saturnin (Characters/saturnin.json: lakeside
+  cantina-keeper, trap-setter uncle in the hills, grins too much); Caeso Lentulus (note written).

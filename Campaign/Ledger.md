@@ -2137,3 +2137,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 324 |  | treasure share |  | 127gp 8sp 9cp |  | aelia |
 | 324 |  | treasure share |  | 127gp 8sp 9cp |  | marcellus |
 | 324 |  | treasure share |  | 127gp 8sp 9cp |  | saturnin |
+| 325 | the Tower of Knowledge (application fee) | Vestus applies for membership, day 325 (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
+| 330 | Lucilla's caravans (investments 1 and 3) | month 11 returns: (1) 1% of 693gp = 7gp, (3) 1% of 3,000gp = 30gp (both Protector vagaries; RR Passive Investment) |  | 37gp |  | lucilla |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 12596.0 |  |  | 31gp 4sp 9cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 22369.96 |  |  | 55gp 9sp 2cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 22452.18 |  |  | 56gp 1sp 3cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 21513.31 |  |  | 53gp 7sp 8cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of neris, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 23054.13 |  |  | 57gp 6sp 4cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 22056.72 |  |  | 55gp 1sp 4cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 11831.12 |  |  | 29gp 5sp 8cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of varro, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 12099.97 |  |  | 30gp 2sp 5cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 12089.11 |  |  | 30gp 2sp 2cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 11667.38 |  |  | 29gp 1sp 7cp | guildhouse-bank |
+| 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 11635.4 |  |  | 29gp 9cp | guildhouse-bank |

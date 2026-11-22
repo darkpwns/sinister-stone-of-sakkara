@@ -132,12 +132,28 @@ Silk Pony for the Solar Citadel.
 - Iulia took the letter to the Patriarch. Arëtar read it twice. "He knows. Then he will be careful, and I must be
   surer than he is. Bring me what he keeps in his own study, and the Tower cannot call it a skinchange."
 
+- Day 325. Iulia and Neris sent a question to the Order by way of Prelate Ezelus: if the Empire's court takes the
+  Provost first, what of their initiation? Vestus paid ten gold at the Tower of Knowledge's foyer and put his name
+  down to join the Chapterhouse ("the libraries," said Priya; "and a key to the building," said Tomasz). He will be
+  called to an interview before the Provost and the Regent in a week or two.
+- Day 326. Brother Oppius brought the answer, word for word: "Calefa keeps the accounts. If the Empire settles this
+  one, it is settled, and you will be given another to earn your names. The Order does not race the Empire. Nor
+  does it wait for it." The table: Gideon, "Then the Captain does the Patriarch's work, and the Order's comes when
+  it comes." Kwame, quietly: "Selene." Rosa: "Not Liber." Nobody decided anything more.
+- Nights of days 326 and 328 (the full moon): Vettius and Saturnin watched the alley grate above the rat-men's shaft
+  from a doorway two streets from the Chapterhouse. Nobody came. The Patriarch's ambush at the old shrine was called
+  off; there was nothing left there to ambush.
+- Day 330, the month's end. Lucilla's two caravans came in under the eye of powerful friends on the road; the
+  Guildhouse took its storage fee from everyone's balance.
+
 ## Who they met
 - Brother Oppius, curate of Türas (Temple of Justice): took the Captain's request. Prelate Ezelus: heard the deed
   and the proof; sent the six to the Order.
 - Destrio of the Order of the Eclipse: vetted the six and took their oaths as acolytes; kept the ledger.
 - Marcan, the great king (destroyed), his four guards (destroyed), his eight bronze warriors (still in the tomb).
 - Tertulla (Lake Laman): two more weeks for the barge. Gnaeus left the company (day 317).
+- Saturnin, a lakeside cantina-keeper who can read a trail (hired day 323). Caeso Lentulus, Watch subaltern (saved
+  day 324). Arëtar (day 324). Brother Oppius with Destrio's answer (day 326).
 
 ## Treasure and XP
 - Day 317 (A44): Marcan's scale (unknown), helm (Helm of Comprehension) and sword (Short Sword +2, Command), the
@@ -147,7 +163,9 @@ Silk Pony for the Solar Citadel.
 - Day 318 (A45): throne, chariot, eight cedar shields, the canopic shrine, jars and vases, mosaic gold (9,317gp).
 - Day 320 (A46): two bronze coffins (7,000gp); giant rats and an ochre ooze (550 XP).
 - Day 322 (A47): two bronze coffins (7,000gp); a green slime (56 XP).
-- In the Grey Sisters' vault for the selling day (331): all the tomb's goods and the three magic items.
+- Day 324 (A48): the rat-men's silver and electrum and a silver rat figurine (2,802gp); Terkinos's pack, the rat
+  nest and four ghouls (732 XP); 3,534 XP over 9 shares.
+- In the Grey Sisters' vault for the selling day (331): all the tomb's goods, the three magic items and the figurine.
 
 ## Rumours given
 - None.
@@ -157,10 +175,13 @@ Silk Pony for the Solar Citadel.
 - The six are acolytes of the Order of the Eclipse; the Brotherhood's ledger is the Order's; their initiation is
   the Provost Mentenus. The company lodges at the Solar Citadel and has left the Silk Pony.
 - Gnaeus has left the company.
+- Terkinos's pack is destroyed; its warren north of the old shrine is empty. A Watch subaltern owes the company his
+  life. Vestus has applied to join the Tower of Knowledge.
 
 ## Next time
-Day 323, late afternoon, Cyfaraun, the Solar Citadel. Eleven, all whole. The full moon falls on day 328 (Arëtar's
-ambush at the rat shrine); month 11 ends on day 330; the selling day is day 331. The Order waits on the Provost.
+Day 330, late afternoon, Cyfaraun, the Solar Citadel. Twelve, all whole. The selling day is tomorrow (day 331, month
+12): the tomb's goods, the helm and the sword. Arëtar wants proof from the Provost's study; Vestus waits for his
+interview at the Tower; the Order waits; a woodsman can be sought again from day 331.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 17). Judge notes: Playtest/judge-notes.txt (S17 entries).
@@ -173,3 +194,15 @@ ambush at the rat shrine); month 11 ends on day 330; the selling day is day 331.
 > 15 (blood symbol, day 322, not yet played). Day 320: giant rats' disease 24 (Bloody Flux; Brennus saved).
 > Day 321: Vettius' watch 4 (the Provost at the gate), noticed 6 (no). Day 319: Destrio's vetting 2d6+6 = 16.
 > Day 323: the white fish's save 19 (charm broken), attitude 2d6+2 = 12 (Friendly); Brotherhood patron 3 (none).
+> Week 2 (days 324-330). Site build: Rat Warren (Adventure/AX3/Dungeons/Rat Warren/): 800' north (1d4 4), 6 rooms
+> (1d4+3 6); stocking monster, empty, empty, trap, unique, monster (H38); nest 4 (yes), 12 rats; wererat hp 22/12/9/
+> 12/14; TT G H39; Romus told Mentenus (3: yes); the deadfall's 2d6 at the build void. Day 324: the pack goes out by
+> the W6 shaft only (6); at home (60 vs 75); ghouls 3/9/9/? hp, Iulia's rebukes R; Caeso Mortal Wounds 8 (5: grievous,
+> eye), cure 3 hp; wake rolls after the kills (three woke); morale faltering 4, frightened retreat -1; 8 cultists
+> (wanderers) intimidated 7 then 8 (Neutral); Undercity special at 09:50 (the pack: dead, none). Arëtar 4 (keeps
+> counsel, asks proof). Ezelus' answer 1 day; Vestus' interview 2 weeks (day 339); grate nights 326 (5) and 328 (5):
+> nobody. Day 330: vagaries 87 and 89 (Protector both: (1) 5 months, a ruler; (3) 1 month, a powerful monster);
+> Iulia's task 2 (none); **Mentenus learns the office is filled again (1)**; **someone seeks the Brotherhood (1):
+> Mentenus (1), to have the Captain of the Underwatch killed** (Judge's watch: his note for "Vasan Tikala" with
+> "sludge mold" at the Emporium's Nicean wine stalls, day 330).
+

@@ -665,3 +665,16 @@ every vulnerable target with `attack vettius T --ambush` (add `--rear` when he a
 surprised, helpless, prone, slumbering and paralyzed foes are vulnerable to all. Player-facing note in
 `Party/memory/tomasz.md`.
 
+## S17 week 2 (days 324-330) — start here (supersedes the S17 section above)
+**State on resume:** day 330 15:53, winter, Cyfaraun, the Solar Citadel. No adventure open (A48 paid out). Location
+Cyfaraun (settlement). Party (12): as S17 plus Saturnin (0th, Tracking 1). All whole. Spells: `dawn 331`.
+**What it did:** day 324 the Rat Warren (built judge-interim: Adventure/AX3/Dungeons/Rat Warren/): Terkinos's pack
+destroyed asleep, ghouls destroyed, the Watch subaltern Caeso Lentulus saved (Friendly); Mentenus's letter to
+Arëtar, who wants proof from the Provost's study (Basement 2). Day 325 Vestus applied to the Tower (interview day
+339); Destrio's answer (a court's verdict settles the initiation; another would be given). Full moon quiet. Day 330
+month end posted (fees, investments: Protector, Iulia's rolls).
+**Judge-only, live:** Mentenus knows the Captain's office is filled and the Citadel holds his papers; on day 330 he
+left a note for "Vasan Tikala" (sludge mold): meeting at the Nicean outlet, midnight day 333, target Iulia. The
+company can learn of it at the Emporium wine stalls (Lucilla asked there in S16) or by Rumormongering (day 331).
+**Next:** the selling day (331), the explorer search (331), the Vasan note, Basement 2, Vestus' interview (339).
+
