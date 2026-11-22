@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: spring
-    day: 401
+    day: 402
   time: 07:43
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
@@ -19,15 +19,15 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 12
+    hp: 13
     hp_max: 23
     conditions:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
-    - 'nose flattened, cheek crushed, ear cauliflowered (gruesome scarring, Mortal Wounds day 399): +1 to intimidate, -2 to all other reaction rolls, cannot impersonate (RR p. 517)'
+    - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 11.819
+    encumbrance_st: 11.541
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -42,8 +42,7 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Invisibility
+    spells_used: []
     encumbrance_st: 7.846
   - name: Neris
     sheet: Characters/neris.json
@@ -84,7 +83,7 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 22
+    hp: 23
     hp_max: 23
     conditions: []
     spells_used: []
@@ -92,7 +91,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 19
+    hp: 20
     hp_max: 20
     conditions: []
     spells_used: []
@@ -130,7 +129,7 @@ public:
     spells_used: []
     encumbrance_st: 5.107
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
-  rations: 'Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 0 d, water 0 d (incapacitated); Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'Sand & Bones is at war with us: Selene wants Lucilla alive for her pit at the next Blood Moon, and a note for Vasan named the Captain'
@@ -162,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 401
+clock_day: 402
 ---
 # Campaign State
 

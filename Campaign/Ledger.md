@@ -2777,3 +2777,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 399 |  | treasure share |  | 6sp 9cp |  | marcellus |
 | 399 |  | treasure share |  | 6sp 9cp |  | hrodvar |
 | 399 |  | treasure share |  | 6sp 9cp |  | cotta |
+| 402 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | iulia |
+| 402 | the Solar Citadel | the better offer: half again the fee for Repair Disfigurement (day 402) |  |  | 93gp | lucilla |

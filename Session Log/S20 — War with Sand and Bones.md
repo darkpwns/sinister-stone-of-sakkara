@@ -86,6 +86,12 @@ Argollëan Family. The Order has not yet named Selene.
   the morning, hoods and axemen, a man with a branding iron, a quick-handed rogue and two big arena veterans. No
   Selene. Vettius ran his fingers over the wall behind the barrels and found no seam before the room grew restless.
   He let himself out by the door (a hood swore at the draught and shut it) and was back at the Citadel by dawn.
+- Day 402. Rosa doubled down: half again the fee, and the Citadel's priest laid hands on Lucilla's face under the
+  oculus. The face came back; the gods took their price. She remembers little of it, she must lie abed two weeks
+  (to day 416), and her right arm is not always her own. Brother Oppius brought Destrio's word: the Order will name
+  the woman of the ruby lips. Hesta's girls found Thana's hour (she walks home from the Pony at dawn with one
+  footpad); Lucilla dictated a letter from her bed: when the Pony's mistress falls, its honest trade is Thana's to
+  run under the Family's roof, no pit, no flesh. Thana sent back one line: "Tomorrow, at dawn. Alone, or not at all."
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
