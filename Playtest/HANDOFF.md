@@ -568,3 +568,8 @@ secret but for Arëtar's copy of the Mentenus entries). Arëtar plans the full-m
 
 **Next (by the profiles):** Q (Marcan) with Ingrid's conditions; the full moon (day 328: the Shrine is empty: Terkinos's pack abandoned it the night of day 306 and warned Mentenus, user's ruling); the selling day (331).
 Rulings S16: 4 rows. Engine findings: judge-notes S16.
+
+**S16 after-play rulings (user):** Terkinos's pack abandoned the Shrine (night of day 306); Guildhouse storage fee
+0.25% a month posted for months 8-10 (next day 330); henchmen's wages raised to the RR table with 2,100gp back pay
+(raise the wage at every henchman level-up: `retinue set ID wage_gp=N`); over-limit henchmen stay until SOTN is
+done. All in Rulings S16.

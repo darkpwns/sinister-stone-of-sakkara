@@ -151,5 +151,6 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Full moon day 328: the planned Shrine ambush finds it empty (Terkinos's pack fled north through the NW secret door the night of day 306 and warned Mentenus). To find them: the NW room 2's secret door and the unkeyed tunnels beyond; Mentenus at the Tower (Mage 9 wererat; Arëtar holds his papers).
 - Threads: the Brotherhood's ledger (Liber, Selene, Mentenus as patrons); Arëtar and the Tower; men in the northern
   sewers and the half-elf; the Doppelganger Den's room 5; Malethor's bow (AX4); rumour 19 (false).
-- Scheduled: 321 Tertulla's mooring; 323 the fish's save, Aelia and Marcellus wages, vault fee; 328 full moon;
+- Wages from day 316 at the RR table (Rulings S16): Phaedra 200 (paid to 339), Varro 200 and Hrodvar 200 (to 346), Aelia 400 and Marcellus 200 (to 323), Gnaeus 200 (to 330); 1,400gp a month in all. Over-limit henchmen (Hrodvar, Varro, Marcellus, Gnaeus, Aelia) stay until SOTN is done (Rulings S16).
+- Scheduled: 321 Tertulla's mooring; 323 the fish's save, Aelia (400) and Marcellus (200) wages, vault fee; 328 full moon;
   330 month 11 ends (the Guildhouse storage fee, 0.25% of each balance; investments 1 and 3; Iulia's month-end rolls); 331 selling day; 332 stalls.

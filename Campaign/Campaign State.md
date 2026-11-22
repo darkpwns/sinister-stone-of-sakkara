@@ -102,7 +102,7 @@ public:
     hp_max: 16
     conditions: []
     spells_used: []
-    encumbrance_st: 13.409
+    encumbrance_st: 13.45
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
