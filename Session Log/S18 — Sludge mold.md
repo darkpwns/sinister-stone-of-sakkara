@@ -218,6 +218,29 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - In the Undercity on the way home, while the company rested, a filthy man tapping the walls with a rod came into
   the torchlight. Neris' prayer put him to sleep where he stood; under the rags, a rat's skull on a thong. He went
   to the Citadel bound in Lucilla's rope, a fourth for the Patriarch's court.
+- Day 353, heavy rain. Wages paid (Saturnin; Aelia and Marcellus to 383) and the vault fee (to 383). Vestus shut
+  himself in with the spellsword's roll to learn its fire (a week of study: he will trade the thunderbolt for the
+  fireball), and took the two black pages, the formula for unnatural vigour, to the Tower's Treasurer as members
+  must; the rest of the roll stays the company's.
+- Day 354, cloudy. Forty-eighth descent, ten strong (Vestus at his books). A bed of pale shrieking toadstools grew
+  across the usual way through the sewer caves; Vettius took the company round by the side galleries before they
+  could see the light. Down the empty skeleton gallery, down the steep west slope to a bronze door: a vestibule of
+  peeling sacred signs, and on the south wall a serpent swallowing its tail. Vettius went over it inch by inch: the
+  circle inside the loop is a door that pushes inward, with a blade's slot across it. "Not today," said Gideon.
+- North, a round chamber under a painted starless sky: a glass dome, dusty and chipped, over a dais, and inside it
+  an eight-foot disc of rainbow-sheened metal hanging in the air. Lucilla and Aelia found hairline cracks in the west
+  wall: a pivoting slab into a bare alcove with two great bronze levers. Each lever woke a low murmur like wind in
+  the walls; the first lifted the dome up its pipe, the second unbarred the bronze door north. The disc came down
+  into Brennus' and Hrodvar's arms, light for its size. Beyond the north door, a vault hung with fragments of the
+  same metal and three sealed glass cases, each with a grey egg-sized bulb fitted to it: five coloured metal orbs, a
+  lance with a mouth at one end and a crossbow grip, a sword hilt with no blade. Neris, very quietly: "The teacher
+  with a beetle's face." Ingrid: "Bulbs on every case. Alarms." Rosa wanted the lance; Gideon called it: the cases
+  stay shut. They prised the metal off the walls and left.
+- Six grey long-armed things came through the domed room while the company was in the vault, and caught most of it
+  flat-footed. Two clawed at Brennus and Varro in the doorway; Varro went rigid with the fever. Iulia lifted the Rod
+  and two crumbled; Neris raised her moving circle and pushed the rest out of the doorway; Phaedra's fan burned two
+  more; the last two broke and ran, and Iulia's prayer caught one. Neris cured Varro's fever on the spot. On the way
+  out nine pale grave-worms came at the circle and Iulia broke them all in two breaths. Out by half past ten.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before

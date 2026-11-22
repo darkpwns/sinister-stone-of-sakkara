@@ -273,6 +273,8 @@ tags:
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 100 | stored |
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 95 | stored |
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of the 16 east-gallery graves (F7) | 32 | stored |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | SOTN Flying Disk | 1,000 | stored |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | fragments of a shimmering rainbow-sheened metal prised from the reliquary walls | 5,000 | stored |
 
 ## Monster XP
 
@@ -347,6 +349,8 @@ tags:
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Skeleton | 44 | 13 | 572 |
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Skeleton | 84 | 13 | 1,092 |
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Wererat | 1 | 65 | 65 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Grave Ghoul | 5 | 38 | 190 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Sepulchral Worm | 9 | 16 | 144 |
 
 ## Shares and XP awarded
 
@@ -781,6 +785,16 @@ tags:
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Hrodvar | 0.5 | 31 | 68 | 0 | +0% | 99 |
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Aelia | 0.5 | 31 | 68 | 0 | +0% | 99 |
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Marcellus | 0.5 | 31 | 68 | 0 | +0% | 99 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Lucilla | 1 | 800 | 45 | 0 | +10% | 930 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Vettius | 1 | 800 | 45 | 0 | +5% | 887 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Neris | 1 | 800 | 45 | 0 | +0% | 845 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Brennus | 1 | 800 | 45 | 0 | +5% | 887 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Iulia | 1 | 800 | 45 | 0 | +5% | 887 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Phaedra | 0.5 | 400 | 22 | 0 | +0% | 422 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Varro | 0.5 | 400 | 22 | 0 | +0% | 422 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Hrodvar | 0.5 | 400 | 22 | 0 | +0% | 422 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Aelia | 0.5 | 400 | 22 | 0 | +0% | 422 |
+| 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Marcellus | 0.5 | 400 | 22 | 0 | +0% | 422 |
 
 ## Wages
 
@@ -2487,3 +2501,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 352 |  | treasure share |  |  |  |  |
 | 352 |  | treasure share |  |  |  |  |
 | 352 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 353 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 353 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 353 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 353 | the Grey Sisters (vault fee) | the company's chest in the Grey Sisters' vault, one month (days 354-383) |  |  | 10gp | lucilla |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
+| 354 |  | treasure share |  |  |  |  |
