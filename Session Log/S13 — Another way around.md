@@ -33,10 +33,19 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
   a wider stretch of the river, about 50' across, the water some 30' below the cave floor, a great pillar carved as a
   tree trunk beside the hole, its stone boughs spread across the ceiling. No bank under the hole: it is another way
   onto the river, not around it.
+- Back the way they came, and down the hidden stair to the beach: up the winged-sun steps to the burial cave, where
+  Brennus, Varro, Marcellus and Hrodvar each shouldered one of the four alabaster amphorae. On the slow climb back
+  through the temple an insect swarm hung back from the torches. Then, in the curving corridor, two pale hooded
+  shapes came out of the dark and were caught unready: Vestus' fan of flames scorched both, Iulia raised the Rod of
+  the Dawn and one fled cowering; the other flew at Brennus and its touch left her cold and diminished. Brennus'
+  axe, Lucilla's flask and Marcellus' sword finished it. The other did not come back.
+- Out by the far grate at half past two, rats scattering from the torches in the tunnel. The amphorae went to Liber
+  (960gp, shared). Phaedra rose to the fourth rank (Magician).
 
 ## Who they met
 
 ## Treasure and XP
+- Day 274 (A29): 1,200 treasure XP + 190 monster XP (one wraith destroyed) over 8.5 shares; amphorae L219-L222 sold through Liber (960gp).
 - Day 273: L174 sold, 20,720gp; sale XP to expedition 18's share-holders (one-level cap applied).
 
 ## Rumours given

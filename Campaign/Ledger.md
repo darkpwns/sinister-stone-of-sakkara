@@ -1463,3 +1463,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 273 | Silk Pony Inn (#25) | beds for twelve, night of day 273 |  |  | 2gp 4sp | vettius |
 | 274 | Cyfaraun market | a week of iron rations (6gp, Lucilla's bargaining; RR price range 1-6gp) |  |  | 5gp 4sp | aelia |
 | 274 | Cyfaraun market | a week of iron rations (6gp, Lucilla's bargaining; RR price range 1-6gp) |  |  | 5gp 4sp | marcellus |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 |  | treasure share |  |  |  |  |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 112gp 9sp 6cp |  | lucilla |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 112gp 9sp 6cp |  | vettius |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 112gp 9sp 6cp |  | iulia |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 112gp 9sp 6cp |  | vestus-the-unlikely |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 112gp 9sp 6cp |  | neris |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 112gp 9sp 6cp |  | brennus |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | phaedra |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | varro |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | hrodvar |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | aelia |
+| 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | marcellus |

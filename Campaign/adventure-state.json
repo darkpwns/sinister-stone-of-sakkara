@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 29,
-  "L": 218,
+  "L": 222,
   "H": 37,
-  "M": 65
+  "M": 66
  },
  "adventure": {
   "id": "A29",
@@ -19,11 +19,13 @@
     "player": "rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 29649,
     "level_before": 6,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 274,
+    "xp_award": 180
    },
    "vettius": {
     "id": "vettius",
@@ -33,11 +35,13 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 28299,
     "level_before": 6,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 274,
+    "xp_award": 172
    },
    "iulia": {
     "id": "iulia",
@@ -47,11 +51,13 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 23705,
     "level_before": 5,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 274,
+    "xp_award": 172
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -61,11 +67,13 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 21145,
     "level_before": 5,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 274,
+    "xp_award": 172
    },
    "neris": {
     "id": "neris",
@@ -75,11 +83,13 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 18654,
     "level_before": 5,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 274,
+    "xp_award": 164
    },
    "brennus": {
     "id": "brennus",
@@ -89,11 +99,13 @@
     "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 21733,
     "level_before": 5,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 274,
+    "xp_award": 172
    },
    "phaedra": {
     "id": "phaedra",
@@ -103,11 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 9999,
     "level_before": 3,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 274,
+    "xp_award": 82
    },
    "varro": {
     "id": "varro",
@@ -117,11 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "varro",
     "xp_before": 9217,
     "level_before": 4,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 274,
+    "xp_award": 82
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -131,11 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "hrodvar",
     "xp_before": 9217,
     "level_before": 4,
-    "class": "Dwarven Vaultguard"
+    "class": "Dwarven Vaultguard",
+    "returned_day": 274,
+    "xp_award": 82
    },
    "aelia": {
     "id": "aelia",
@@ -145,11 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "aelia",
     "xp_before": 10171,
     "level_before": 4,
-    "class": "Bard"
+    "class": "Bard",
+    "returned_day": 274,
+    "xp_award": 82
    },
    "marcellus": {
     "id": "marcellus",
@@ -159,18 +179,173 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "marcellus",
     "xp_before": 9020,
     "level_before": 4,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 274,
+    "xp_award": 82
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M66",
+    "monster": "Wraith",
+    "source": "Wraith (MM p. 343)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 190
+   }
+  ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 274,
+   "at": null,
+   "total": 1390.0,
+   "per_share": 163.52941176470588,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 164,
+     "pct": 10,
+     "pen": 0,
+     "award": 180,
+     "xp_before": 29649,
+     "xp_after": 29829,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 164,
+     "pct": 5,
+     "pen": 0,
+     "award": 172,
+     "xp_before": 28299,
+     "xp_after": 28471,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 164,
+     "pct": 5,
+     "pen": 0,
+     "award": 172,
+     "xp_before": 23705,
+     "xp_after": 23877,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 164,
+     "pct": 5,
+     "pen": 0,
+     "award": 172,
+     "xp_before": 21145,
+     "xp_after": 21317,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 164,
+     "pct": 0,
+     "pen": 0,
+     "award": 164,
+     "xp_before": 18654,
+     "xp_after": 18818,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 164,
+     "pct": 5,
+     "pen": 0,
+     "award": 172,
+     "xp_before": 21733,
+     "xp_after": 21905,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 82,
+     "pct": 0,
+     "pen": 0,
+     "award": 82,
+     "xp_before": 9999,
+     "xp_after": 10081,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 82,
+     "pct": 0,
+     "pen": 0,
+     "award": 82,
+     "xp_before": 9217,
+     "xp_after": 9299,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 82,
+     "pct": 0,
+     "pen": 0,
+     "award": 82,
+     "xp_before": 9217,
+     "xp_after": 9299,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 82,
+     "pct": 0,
+     "pen": 0,
+     "award": 82,
+     "xp_before": 10171,
+     "xp_after": 10253,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 82,
+     "pct": 0,
+     "pen": 0,
+     "award": 82,
+     "xp_before": 9020,
+     "xp_after": 9102,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 274,
+   "where": null
+  }
  },
  "closed": [
   {
@@ -19284,6 +19459,222 @@
     "by": "lucilla",
     "identified": true,
     "used": false
+   },
+   "judge": []
+  },
+  "L219": {
+   "id": "L219",
+   "adventure": "A29",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 274,
+    "where": "P6, the NW alcove"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "large finely carved alabaster amphora",
+    "merch": null
+   },
+   "player": {
+    "desc": "large finely carved alabaster amphora",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 240.0,
+    "market": "Cyfaraun",
+    "day": 274,
+    "class": "2",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 28.24,
+     "vettius": 28.24,
+     "iulia": 28.24,
+     "vestus-the-unlikely": 28.24,
+     "neris": 28.24,
+     "brennus": 28.24,
+     "phaedra": 14.12,
+     "varro": 14.12,
+     "hrodvar": 14.12,
+     "aelia": 14.12,
+     "marcellus": 14.12
+    }
+   },
+   "judge": []
+  },
+  "L220": {
+   "id": "L220",
+   "adventure": "A29",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 274,
+    "where": "P6, the NW alcove"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "large finely carved alabaster amphora",
+    "merch": null
+   },
+   "player": {
+    "desc": "large finely carved alabaster amphora",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 240.0,
+    "market": "Cyfaraun",
+    "day": 274,
+    "class": "2",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 28.24,
+     "vettius": 28.24,
+     "iulia": 28.24,
+     "vestus-the-unlikely": 28.24,
+     "neris": 28.24,
+     "brennus": 28.24,
+     "phaedra": 14.12,
+     "varro": 14.12,
+     "hrodvar": 14.12,
+     "aelia": 14.12,
+     "marcellus": 14.12
+    }
+   },
+   "judge": []
+  },
+  "L221": {
+   "id": "L221",
+   "adventure": "A29",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 274,
+    "where": "P6, the NW alcove"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "large finely carved alabaster amphora",
+    "merch": null
+   },
+   "player": {
+    "desc": "large finely carved alabaster amphora",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 240.0,
+    "market": "Cyfaraun",
+    "day": 274,
+    "class": "2",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 28.24,
+     "vettius": 28.24,
+     "iulia": 28.24,
+     "vestus-the-unlikely": 28.24,
+     "neris": 28.24,
+     "brennus": 28.24,
+     "phaedra": 14.12,
+     "varro": 14.12,
+     "hrodvar": 14.12,
+     "aelia": 14.12,
+     "marcellus": 14.12
+    }
+   },
+   "judge": []
+  },
+  "L222": {
+   "id": "L222",
+   "adventure": "A29",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 274,
+    "where": "P6, the NW alcove"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "large finely carved alabaster amphora",
+    "merch": null
+   },
+   "player": {
+    "desc": "large finely carved alabaster amphora",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 240.0,
+    "market": "Cyfaraun",
+    "day": 274,
+    "class": "2",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 28.24,
+     "vettius": 28.24,
+     "iulia": 28.24,
+     "vestus-the-unlikely": 28.24,
+     "neris": 28.24,
+     "brennus": 28.24,
+     "phaedra": 14.12,
+     "varro": 14.12,
+     "hrodvar": 14.12,
+     "aelia": 14.12,
+     "marcellus": 14.12
+    }
    },
    "judge": []
   }
