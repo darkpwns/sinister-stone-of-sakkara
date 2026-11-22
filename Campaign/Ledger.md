@@ -183,6 +183,17 @@ tags:
 | 313 | Old District riverside: the wine merchant's meeting | Battle Axe +1 | 650 | brennus |
 | 313 | Rewards for the den's prisoners (day 313) | reward 600.0gp | 600 | iulia |
 | 313 | Rewards for the den's prisoners (day 313) | reward 600.0gp | 600 | lucilla |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Chain Mail +1 | 650 | neris |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Helm of Comprehension | 100 | vestus-the-unlikely |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Short Sword +2, Command | 650 | iulia |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | jewelry worth 8000.0gp | 8,000 | stored |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | jewelry worth 800.0gp | 800 | stored |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | a large gilded ebony fan with gold-dipped plumes | 800 | stored |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | a pair of ceremonial gold sandals | 1,000 | stored |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | 1,000 gold pieces | 1,000 | vestus-the-unlikely |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | 1,000 gold pieces | 1,000 | phaedra |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | 1,000 gold pieces | 1,000 | neris |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | a sarcophagus of pure gold in the likeness of a cold, arrogant king (four bearers) | 20,000 | stored |
 
 ## Monster XP
 
@@ -235,6 +246,8 @@ tags:
 | 309 | Nethercity, expedition 34 (the bronze guards) | Jackal of Darkness (SOTN) | 4 | 135 | 540 |
 | 309 | Nethercity, expedition 34 (the bronze guards) | Abyssal King (SOTN) | 1 | 2,600 | 2,600 |
 | 313 | Old District riverside: the wine merchant's meeting | Doppelgänger | 3 | 135 | 405 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Mummy | 4 | 1,060 | 4,240 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Mummy | 1 | 5,400 | 5,400 |
 
 ## Shares and XP awarded
 
@@ -511,6 +524,18 @@ tags:
 | 313 | Rewards for the den's prisoners (day 313) | Aelia | 0.5 | 67 | 0 | 0 | +0% | 67 |
 | 313 | Rewards for the den's prisoners (day 313) | Marcellus | 0.5 | 67 | 0 | 0 | +0% | 67 |
 | 313 | Rewards for the den's prisoners (day 313) | Gnaeus | 0.5 | 67 | 0 | 0 | +0% | 67 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Lucilla | 1 | 3,889 | 1,071 | 0 | +10% | 5,456 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Vettius | 1 | 3,889 | 1,071 | 0 | +5% | 5,208 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Iulia | 1 | 3,889 | 1,071 | 0 | +5% | 5,208 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Vestus the Unlikely | 1 | 3,889 | 1,071 | 0 | +5% | 5,208 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Neris | 1 | 3,889 | 1,071 | 0 | +0% | 4,960 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Brennus | 1 | 3,889 | 1,071 | 0 | +5% | 5,208 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Phaedra | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Varro | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Hrodvar | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Aelia | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Marcellus | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
+| 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Gnaeus | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
 
 ## Wages
 
@@ -1962,3 +1987,22 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 316 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of varro, 0.25% a month (JJ pp. 218-219), months 8-10 posted late on day 316: month 8 (day 240): 1.98 on 792.00; month 9 (day 270): 14.38 on 5750.02; month 10 (day 300): 22.67 on 9066.64 |  |  | 39gp 3cp | guildhouse-bank |
 | 316 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), months 8-10 posted late on day 316: month 8 (day 240): 0.00 on 1.00; month 9 (day 270): 25.03 on 10012.00; month 10 (day 300): 41.66 on 16664.97 |  |  | 66gp 6sp 9cp | guildhouse-bank |
 | 316 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vettius, 0.25% a month (JJ pp. 218-219), months 8-10 posted late on day 316: month 8 (day 240): 4.61 on 1843.00; month 9 (day 270): 29.08 on 11631.39; month 10 (day 300): 45.35 on 18141.31 |  |  | 79gp 4cp | guildhouse-bank |
+| 317 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 317 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | vettius |
+| 317 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | neris |
+| 317 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | varro |
+| 317 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | brennus |
+| 317 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | gnaeus |
+| 317 | a Plaza butcher | a sheep (RR 2gp), slaughtered and quartered for the white fish's bait, day 317 |  |  | 2gp | marcellus |
+| 317 |  | treasure share |  | 333gp 3sp 3cp |  | lucilla |
+| 317 |  | treasure share |  | 333gp 3sp 3cp |  | vettius |
+| 317 |  | treasure share |  | 333gp 3sp 3cp |  | iulia |
+| 317 |  | treasure share |  | 333gp 3sp 3cp |  | vestus-the-unlikely |
+| 317 |  | treasure share |  | 333gp 3sp 3cp |  | neris |
+| 317 |  | treasure share |  | 333gp 3sp 3cp |  | brennus |
+| 317 |  | treasure share |  | 166gp 6sp 7cp |  | phaedra |
+| 317 |  | treasure share |  | 166gp 6sp 7cp |  | varro |
+| 317 |  | treasure share |  | 166gp 6sp 7cp |  | hrodvar |
+| 317 |  | treasure share |  | 166gp 6sp 7cp |  | aelia |
+| 317 |  | treasure share |  | 166gp 6sp 7cp |  | marcellus |
+| 317 |  | treasure share |  | 166gp 6sp 7cp |  | gnaeus |

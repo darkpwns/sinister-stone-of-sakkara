@@ -98,6 +98,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
   2 (the Assassins' Ledger taken: in the company's sealed chest at the Grey Sisters'; Arëtar has the Mentenus
   entries only), 3 (abattoir: 2 humans, 4 elves dead), 4 (cell: Tavis Drakomir, Zeodare Ambador, Malethor, Stateira
   freed). Room 5 (the abandoned hideout, beetle swarm, the founders' corpses) not found.
+- Day 317 expedition 36 (A44): **Q, Marcan's tomb** entered by the P3 slab door (opened at the first heave: the guards still in their coffins). The four mummy warlords (4,240 XP) and **Marcan** (5,400 XP) destroyed inside Iulia's shield and Neris' circle (the Rod's rebukes; no wound taken). The **eight bronze statues** remain active, barred by the ward; they do not leave the tomb (Judge's call: tomb guardians; they stand in Q1 by the open P3 slab). Taken: Marcan's scale (chain mail +1, L295, unidentified), helm (L296, Helm of Comprehension) and sword of command (L297, identified by Vestus), the crown, collar, fan and sandals (L298-L301), Q2's 3,000gp (L302-L304), the gold sarcophagus (L305); all but the coin to the Grey Sisters' vault. **Left:** Q1 mosaic gold (100gp) and the 4 gilded bronze sarcophagi (3,500gp, 20 st each); Q2 throne (2,000, 10 st), chariot (4,000, 10 st), 8 cedar shields (100 each, 1 st each), the 3 cedar chests (empty); Q3 mosaic gold (100); Q4 canopic shrine (2,000, 7 st), 11 jars (25 each), 6 vases (7 each). Q2's slab doors: the glyphs pass anyone who says "Marcan" (the N door now open). Q5's secret panel to Q6 not found from inside.
 
 ## Events triggered
 
@@ -125,6 +126,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Arëtar (day 306): has Mentenus's papers (the Provost of the Tower leads the Horned Rat cult) and the captive seer; asked Iulia to say nothing outside the Citadel (Judge's watch item: what he does about the Tower). Iulia's month-11 report made (day 306). Liber Faunus (day 305): told Lucilla where the rat-tappers go; glad to see them cleaned out.
 
 ## Former characters (day 161)
+- Gnaeus (Explorer 5): resigned from Lucilla's service at his level gain on day 317 (loyalty roll 2+3 = 5); left with his share and his own gear (Battle Axe +1 L29); in Cyfaraun, may form his own band (actor in Characters/former).
 - Dead: Aulus, Marcia (cenotaphs in Türos Tem, paid from their deposits), Thorwell, Quintus (bodies in L2 38). Retired (injury): Zaira ES1 (one leg), in Türos Tem.
 - Former henchman free in Türos Tem, may be rehired: Vestus M1 (employer Marcia dead).
 - Karanos' bank (karanos-bank, 13,732gp): Sabina 2,242, Tarq 2,200, Lucilla 2,030, Vettius 2,244, Hesper 1,773; estates of Gallus 1,119, Thorwell 1,062, Thorcigar 1,062 (no wills; a relative may collect once).
