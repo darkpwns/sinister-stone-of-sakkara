@@ -2,16 +2,16 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 16
+session: 17
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A39 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A43 paid out)
 public:
   date:
     year: ''
     season: winter
-    day: 316
-  time: 04:32
+    day: 317
+  time: 05:32
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -145,7 +145,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 316
+clock_day: 317
 ---
 # Campaign State
 
