@@ -1512,3 +1512,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 282 |  | treasure share |  |  |  |  |
 | 282 |  | treasure share |  |  |  |  |
 | 282 |  | treasure share |  |  |  |  |
+| 282 | Silk Pony Inn (#25) | beds for twelve, night of day 282 |  |  | 2gp 4sp | vettius |
+| 283 | Silk Pony Inn (#25) | beds for twelve, night of day 283 |  |  | 2gp 4sp | vettius |
+| 284 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 285-300 (2sp a stall a day) |  |  | 12gp 8sp | vettius |
+| 284 | Silk Pony Inn (#25) | beds for twelve, night of day 284 |  |  | 2gp 4sp | vettius |
+| 285 | Silk Pony Inn (#25) | beds for twelve, night of day 285 |  |  | 2gp 4sp | vettius |
+| 286 | Silk Pony Inn (#25) | beds for twelve, night of day 286 |  |  | 2gp 4sp | vettius |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 3,377gp 7sp 8cp |  | lucilla |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 3,377gp 7sp 8cp |  | vettius |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 3,377gp 7sp 8cp |  | iulia |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 3,377gp 7sp 8cp |  | vestus-the-unlikely |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 3,377gp 7sp 8cp |  | neris |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 3,377gp 7sp 8cp |  | brennus |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 1,688gp 8sp 9cp |  | phaedra |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 1,688gp 8sp 9cp |  | varro |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 1,688gp 8sp 9cp |  | hrodvar |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 1,688gp 8sp 9cp |  | aelia |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 1,688gp 8sp 9cp |  | marcellus |
+| 287 | Cyfaraun | his share of the sale of L202 (after the payout) |  | 1,688gp 8sp 9cp |  | gnaeus |
+| 287 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | lucilla |
+| 287 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | iulia |
+| 287 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | neris |
+| 287 | Silk Pony Inn (#25) | beds for twelve, night of day 287 |  |  | 2gp 4sp | vettius |

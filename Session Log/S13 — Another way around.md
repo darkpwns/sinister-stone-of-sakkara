@@ -61,10 +61,14 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
   extraordinary size. The table decided to come back with every spell and flask ready and the walls in mind.
   Downstream to the beach, two giant crabs backing off from the fire; out by the far grate at twenty past three.
 - Iulia rose to the sixth rank (Rector).
+- Days 283-287, in town, healing. On day 287 the Tower returned the pink cloak, named: a cloak of skinchanging that turns
+  its wearer into a swan. Sold unused through Liber (30,400gp, eight parts in ten), shared among those who brought it
+  out of the princess's tomb. More military oil bought; everyone's loads checked.
 
 ## Who they met
 
 ## Treasure and XP
+- Day 287: L202 (Cloak of Skinchanging) identified by the Tower, sold through Liber, 30,400gp; sale XP to expedition 22's share-holders.
 - Day 282 (A30): 3,260 monster XP (a flailing spirit, a mummy) over 8.5 shares; no treasure.
 - Day 274 (A29): 1,200 treasure XP + 190 monster XP (one wraith destroyed) over 8.5 shares; amphorae L219-L222 sold through Liber (960gp).
 - Day 273: L174 sold, 20,720gp; sale XP to expedition 18's share-holders (one-level cap applied).

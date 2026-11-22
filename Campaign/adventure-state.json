@@ -10474,7 +10474,14 @@
    "returned": {
     "day": 268,
     "where": "Cyfaraun"
-   }
+   },
+   "late_sale_xp": [
+    {
+     "lot": "L202",
+     "xp": 30400.0,
+     "paid": true
+    }
+   ]
   },
   {
    "id": "A28",
@@ -19136,8 +19143,8 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H6, from the princess's body"
@@ -19158,16 +19165,45 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a hooded cloak of pink swan feathers",
+    "desc": "Cloak of Skinchanging",
     "value_gp": null,
     "apparent_gp": 1200,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "properties: a cloak of skinchanging (swan): hood up, the wearer becomes a swan, keeps his own hp and mind",
+     "back at will",
+     "3 turns before the next use (TT p. 151)",
+     "named by the Tower of Knowledge, day 287"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 30400.0,
+    "market": "Cyfaraun",
+    "day": 287,
+    "class": "2",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "sale_xp": 30400.0,
+    "split": {
+     "lucilla": 3377.78,
+     "vettius": 3377.78,
+     "iulia": 3377.78,
+     "vestus-the-unlikely": 3377.78,
+     "neris": 3377.78,
+     "brennus": 3377.78,
+     "phaedra": 1688.89,
+     "varro": 1688.89,
+     "hrodvar": 1688.89,
+     "aelia": 1688.89,
+     "marcellus": 1688.89,
+     "gnaeus": 1688.89
+    }
+   },
    "judge": [
     "Cloak of Skinchanging: describe its form to the players (the item's note); the engine shows 'an object' until then (recover --looks)"
    ]
@@ -22126,7 +22162,7 @@
    "cap": 13
   },
   "Cyfaraun|10|very rare": {
-   "sold": 1,
+   "sold": 2,
    "cap": 3
   }
  },
