@@ -1083,3 +1083,29 @@ target; Slumber's 10' sphere holds 3 man-sized; `level-up` ignores permanent ene
 hand); kept rings need `actor mod`; armour lots `inv claim`; `recover --gem VALUE --looks "TEXT"` is one stone (set a
 batch's value by hand); trapbreaking: declare hasty or methodical before the throw; Cyfaraun is Class II for party
 purchases (`--market-class 2`), Class III for hiring.
+
+## S22 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: source `Playtest/tools/s10_j.sh`,
+`s11_mend.sh`, `s12_town.sh`, `s20_town.sh`; the S21 walk helper (`w N`, `relight`, `sup`) lived in the chat's
+scratchpad: rebuild it (judge-notes S21 findings) or use `s13_j.sh walk`. Session 21 log: `Session Log/S21 — Return to
+the Nethercity.md` (days 421-428; Judge block summary).
+
+**State on resume:** day 428 evening, spring, Cyfaraun, the Solar Citadel barracks. No adventure open (A87 paid). Twelve:
+Lucilla Venturer 8, Vettius Thief 8, Vestus Mage 6, Neris Priestess 7, Brennus Fighter 7, Iulia Crusader 7, Phaedra
+Mage 5, Varro Fighter 6, Hrodvar Vaultguard 5, Marcellus Fighter 6, Aelia Bard 6, Cotta Explorer 3. Saturnin resigned
+(day 425; Characters/former/). All whole or nearly. Coin above 150gp each banked (day 422); payouts since sit in purses:
+bank before the next descent and check `move-rate` for everyone (judge-notes S21). Torches: Aelia 24, Lucilla ~1,
+Hrodvar 2, Marcellus few: buy before descending.
+
+**Magic unidentified, carried:** L502 dark cowled robe (Vettius), L506 gold thurible (Neris), L510 bubbling potion
+(Neris), L517 bone wand (Vestus), L518 obsidian ring (Lucilla), L525 reddish-gold sword (Vettius), L528/L529 shimmering
+cloak and boots (Aelia), L530 dragonbone bow (Cotta), L554 ivory horn (Vestus); L509 iron skull mask in the Grey
+Sisters' vault (do not let anyone don it). Goods and gems of S21 at the Citadel for the selling day (451).
+
+**Where the Nethercity stands:** World State (descents 51-55) and its prep queue. Done in S21: J (all but J8's throne
+and the shadows), I8, I9-I14 graves, K (vault, graves; not K4's golems, K1, K2), F19. Found: the G1a trapdoor to S.
+
+**Scheduled:** 430 Phaedra's wage (Vettius); 431 the Order's roll (1d4 x6); 435 weekly rolls (Brotherhood,
+betrayer, Watch, the city's link, Sand & Bones' hesitant, **the Kalbo inquiry 2-in-6**); 437 Varro, Hrodvar; 443 vault
+fee; 444 Aelia, Marcellus; 450 month 15 ends (the full list in World State); 451 Cotta, selling day.
+

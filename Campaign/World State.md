@@ -169,6 +169,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Dead: Aulus, Marcia (cenotaphs in Türos Tem, paid from their deposits), Thorwell, Quintus (bodies in L2 38). Retired (injury): Zaira ES1 (one leg), in Türos Tem.
 - Former henchman free in Türos Tem, may be rehired: Vestus M1 (employer Marcia dead).
 - Karanos' bank (karanos-bank, 13,732gp): Sabina 2,242, Tarq 2,200, Lucilla 2,030, Vettius 2,244, Hesper 1,773; estates of Gallus 1,119, Thorwell 1,062, Thorcigar 1,062 (no wills; a relative may collect once).
+- Saturnin (Explorer 2, Lucilla's henchman since day 323): resigned day 425 at his level gain (loyalty natural 2); left with his own gear and coin; actor in Characters/former/.
 
 ## Offices
 - Iulia, Captain of the Underwatch (from day 296): **first mission DONE day 306 (shrine found, cleared, reported with the papers): find the Horned Rat cult's shrine (Old District #13u, [[Shrine of the Horned Rat]]) and report it to Arëtar before month 11 ends (day 330)**; monthly report to Arëtar due by day 330 (then each month); month-end 1d6 for a mission (1) and 1-in-6 for Mentenus' notice; Citadel lodging free; oculus for her companions; +2 Watch/Guard reactions with the badge; +1 Lawful temples; -1 Prelate Romus (Rulings S14).
@@ -236,17 +237,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- **The company returns to the Nethercity (the table's intent from day 422).** Sites: F14's serpent door and T (the
-  Great Teacher, 11 HD; Vestus' archive clue: the F17 egg-bulbs' alarm wakes it); F17's sealed cases (the alarm);
-  F19 (2 giant rhagodessae, who prefer troglodyte meat); F18's east finger; J1 (the half-open bronze door off I7, the
-  Doom Temple of Dirgion) and J4's font; I8 (the elven brothers' sepulchre: 2 mummy warlords, resin-sealed slab); I9's
-  secret hatch to J7; I14's hollow pillar to K11; L4 (the platform; the shaman's guide after a month of peace, from
-  ~day 436). Check the unprepped status of J, K and L before entry (unprepped-sites.md).
-- Threads: the Family (month 15 full take: about 12,060 + 7,050 + fronts); the untraced wharf men; Sand & Bones'
-  hesitant (Lutarius' pallor: only a miracle or wish); Tavus Mityario (the pit closed: Judge's watch); the city's
-  link roll weekly; the troglodyte peace.
-- Scheduled: 428 weekly rolls (Brotherhood, betrayer, Watch, the link, Sand & Bones' hesitant); 429 Phaedra; 433
-  Tertulla (paid to 433); 436 Varro, Hrodvar; 442 Saturnin; 443 Aelia, Marcellus, vault fee; 450 month 15
-  ends (fees, investments, Iulia's report and task roll, Vestus' dues, Cotta's wage, the Family's month); 451 selling
-  day.
-- NPCs: Gerra (now the Family's); Tavus Mityario; the troglodyte shaman.
+- **The Nethercity (the table's intent):** S via the G1a trapdoor (found and lifted day 427: S1's 56 + S4's 64 lizardman skeletons wake when S2/S3's slabs are disturbed or S4 entered, 2d10 a round each; two mummy cultists 8+1 HD prepare blast runes, Shimmer, Energy Protection, a hellhound and Fiery Pillar; 23,625gp); G (G2a-G2b's five faewyrd: wash at G4 or circle; the rest of G unentered but G14, G19-G21); R via P13's boulder door or G8; K4's four bone golems (rebuked as vampires) behind the K3 slab; K1/K2 and the L9 door to L (ants, L4 platform, L20 to N and M); the K9 flailing spirit (turned twice, not destroyed); J8's throne (40 garnets; the incarnation of terror: avoid without a plan); F14's serpent door and T; F17's sealed cases (the alarm); L4 via the shaman from ~day 436.
+- Threads: the Family (month 15 full take); the untraced wharf men; Sand & Bones' hesitant; Tavus Mityario; the city's link roll; the troglodyte peace; **the Watch's Kalbo inquiry (2 in 6 weekly; the east-gate subaltern Indifferent, day 428)**.
+- Scheduled: 430 Phaedra (Vettius pays); 431 the Order's roll; 433 Tertulla (paid to 433); 435 weekly rolls; 437 Varro (Lucilla), Hrodvar (Iulia); 443 vault fee; 444 Aelia (800), Marcellus (Lucilla); 450 month 15 ends (fees, investments, Iulia's report, Vestus' dues, the Family's month in full); 451 Cotta's wage (50gp; Explorer 3 now: wage review), selling day (L470-L556 goods and gems at the Citadel; identify the new magic first).
+- NPCs: the east-gate subaltern (Kalbo's friend); Gerra; Tavus Mityario; the troglodyte shaman.

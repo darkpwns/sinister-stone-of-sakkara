@@ -5,13 +5,13 @@ tags:
 session: 21
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A74 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A87 paid out)
 public:
   date:
     year: ''
     season: spring
-    day: 427
-  time: '18:54'
+    day: 428
+  time: 06:54
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -51,8 +51,7 @@ public:
     hp_max: 20
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Slumber
+    spells_used: []
     encumbrance_st: 7.062
   - name: Brennus
     sheet: Characters/brennus.json
@@ -97,7 +96,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 7.362
+    encumbrance_st: 9.36
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -112,8 +111,7 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Slumber
+    spells_used: []
     encumbrance_st: 8.242
   - name: Cotta
     sheet: Characters/cotta.json
@@ -155,7 +153,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 427
+clock_day: 428
 ---
 # Campaign State
 

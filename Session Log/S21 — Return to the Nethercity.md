@@ -112,14 +112,57 @@ sealed cases, the cave beyond the Falling Star, the half-open bronze door off th
   shield, a slab door on either hand and an arch at the far end. They closed it again and went home past a tide of
   rats and three ants that ran from the torches. Out at 18:54.
 
+- Day 428, at the Citadel. A subaltern of the east gate, a friend of Kalbo's, came asking why the Captain had wanted
+  Kalbo's roster two days before his murder. Iulia told him the truth she could: she had been looking into the death of
+  a merchant named Vel at his gate. He went away unsatisfied but without a word against her. Four packs of torches
+  bought. The week ends with the company whole, rich, and one fewer: Saturnin has gone his own way.
+
 ## Who they met
+- The old lizard-women of the sworn tribe, at the black basin and in the tunnels (days 422-424): wary, unspeaking.
+- Brother Oppius, the Order's go-between (days 424, 427).
+- A subaltern of the east gate, Kalbo's friend: heavy-set, slow-spoken, suspicious, polite to the badge (day 428).
 
 ## Treasure and XP
+- Day 422 (A82, descent 51): the martyr's vault (shrine, jewel box, moonstones, amber ring, urn, 750gp), grave goods
+  of five caves, the bone key; the martyr and his worms, an insect cloud: 6,031 XP over 9.5 shares.
+- Day 423 (A83, descent 52): the brothers' sepulchre (silver, bowls, jars, the Bel statuette, the war-horn, two fine
+  axes, both painted sarcophagi); the brothers, a gelatinous mass, skeletons, giant ants: 6,239 XP over 9.5 shares.
+  Marcellus Fighter 6; Saturnin Explorer 1.
+- Day 424 (A84, descent 53): the doom temple's sacristy and reliquary (records, incense, the dark robe, gold relics,
+  the thurible, the iron skull mask, a potion, an ebony chest with electrum, gold and rubies, the bone wand, the
+  obsidian ring); a whispering dead elf, two jackal statues, a ghoul: 17,168 XP over 9.5 shares.
+- Day 425 (A85, descent 54): the Hallowed Hall's graves and vault (the reddish-gold sword, the dragonbone bow, cloak
+  and boots, gems, 30,000 coins, gold trophies, the ivory horn, the dwarf statuette); an ochre ooze and a heap of
+  worms: 39,888 XP over 9.5 shares. Varro Fighter 6, Cotta Explorer 3, Saturnin Explorer 2 (then resigned).
+- Day 427 (A86): the Order's commission for Kalbo, 2,000gp: 2,080 XP over 4.5 shares (Iulia, Vettius, Brennus,
+  Neris, Phaedra).
+- Day 427 (A87, descent 55): the two rhagodessae: 430 XP.
+- Unsold goods and gems at the Citadel for the selling day; the iron skull mask at the Grey Sisters'.
 
 ## Rumours given
 
 ## Changes to the world
+- The doom temple of Dirgion off the lizard-men's tunnel is emptied but for its gem-studded throne; its martyr is
+  ash; its shadows still keep the nave, templon and the stair room.
+- The two elf brothers' sepulchre in the grand cave is bare.
+- The Hallowed Hall's vault is empty; its arena ghost and the four-armed guardians behind the siege gallery's slab
+  remain.
+- The spider-things of the bulbous cave are dead.
+- Kalbo "Baldy" of the east gate is dead; the Watch is asking questions.
+- Saturnin has left the company.
 
 ## Next time
+Day 428, evening, the Solar Citadel. Twelve, whole or nearly. The trapdoor under the great nave's broken tiles opens
+on a gallery of lizard-man graves with two slab doors; the doom temple's throne, the arena ghost and the four-armed
+guardians are still there; the serpent door and the sealed cases wait. Phaedra's wage is due on day 430; the Order
+rolls on day 431.
 
 > [!judge]- Judge rolls
+> Session 21 hidden rolls (summary; every roll is in Campaign/roll-log.jsonl, session 21).
+> Day 422 (A82): approach checks 3, 4, 4, 1, 2, 5, 1 (none); unsettling 09:53 6: event 13 (grain twisted into skulls, J1's cedar door), 11:53 5; Vettius' listening at J2 14 (nothing in earshot). J2 heaves 15 (fail), 24: the martyr out of his sarcophagus; surprise both sides none. Martyr hp 28; worms 4 each; Iulia's Rod rebuke 2d6 6 (six worms; a second run of it, 5, void: judge-notes); Strengthen the Unliving 14, 8, 8, 16 temporary hp; Phaedra's Fan 3 (save 19: 1); Fireball 25 (martyr save 15: 6; worms saves 13, 6, 18, 14: all destroyed); Rod rebuke 2d6 3 (at least one: the martyr destroyed). J3 heaves 17, 24. Water-bearers J1 2, 1, 4, 3; J4 5 (five breeders; reaction 11 Indifferent). J5 shadows: surprise 12 of 13 surprised (barred by the circle). I6 occupancy 4 (empty); insect swarm (I9 13:40, 2 HD, 7 hp): Fan 2, engulf 2 x4, Fan 7: destroyed. Vettius: the I9 hatch 18, J7 pipes 20 (bone key), J7 door 10, sneak 17, the shadows notice 4 (no); I14 panel 10 (found). Return checks none; unsettling 13:53 3, 15:53 4.
+> Day 423 (A83): checks 5, 4, 1, 3; gelatinous mass (F 09:20, 18 hp): surprise with its penalty, both sides partly surprised; Brennus 15, Fan 1, Vettius 7: slain. Unsettling 09:37 6: event 8 (the gust, at the I8 slab). I6 breeders 6 at work, their watch 5+2 7 (watch). I8 heave 22 (first: in their sarcophagi); brothers all surprised; Rod rebukes 2d6 8 (one), 10 (the other). Trogs (I7 12:00, 8 females): reaction 8 Neutral; Vestus' gist 1. Wights (F 14:00, 5: 14, 14, 8, 14, 11 hp): rebukes 6 (R: two), 9 (three; applied by hand: judge-notes); fled. Skeletons (F 15:00, 8): rebuke 8: destroyed. Giant ants (sewer 16:00, 3): reaction 7 Unfriendly; fight 5 rounds; Hrodvar down (Mortal Wounds 26: dazed, scar), Marcellus down (28: dazed); Hrodvar's morale 9; loyalty Hrodvar 10, Marcellus 9. Level loyalty Marcellus 11, Saturnin 10.
+> Day 424: Order rolls Lucilla 1, Vettius 2, Vestus 1, Neris 2, Brennus 1, Iulia 4: contract 2d6 2 (Kalbo). A84: checks 4, 1, 4, 3, 1, 4, 2; unsettling 10:38 4, 12:38 3, 14:38 6: event 17 (the eye under Dirgion's mosaic); water-bearers J1 4, J4 5 (reaction 7 Neutral); Kwame's impulse 6. J5 shadows surprise 12 surprised (Brennus washed: passed; the rest barred). J14 chests 16, 20, 17, 5 (jammed; battered). Lesser faewyrd (J13 14:00, hp 21?): surprise: Iulia surprised (round-1 rebuke void); Brennus' whisper save 2 (maddened), Varro 19; Rod rebuke 2d6 (destroyed). J15 door search 20, trapbreak 19; jackals 20, 18 hp: rebuke 10 (cowering); destroyed. J10 shadows surprise 12 surprised (barred). Grave ghoul (F 16:40, 7 hp): Brennus. Miasma saves of that pass rolled early (judge-notes).
+> Day 425 (A85): checks 2, 4, 3, 2, 3, 4, 2, 4; unsettling 09:38 2, 11:38 1, 13:38 5. Flailing spirit (K9): Rod rebuke 2d6 6 (frightened); again 14:59: 6 (frightened). K3 panel 15 (found); K5 search 5 (not found; nobody on the edges); K6 chests 6, 20, 9; ochre ooze (F 16:50, 22 hp): Fireballs 18 (save 20) and 18 (save 14), Fan 4 (save 10): slain. Worms (17:20, 15): surprise worms all; rebukes 7, 6; bites Varro 2+2, Vettius 2 (rot). Spellcasting: the Temple 2 (refuse), the Citadel 8 (try again). Level loyalty Varro 9, Saturnin 6 (natural 2: Resignation), Cotta 9.
+> Days 426-427: Iulia's inquiry 7+3 (roster given); Kalbo's post 4 (east gate), escort 4 (three), home 6 (Festival District); notice 4 (no); Kalbo's Slumber save 4 (asleep). A87: checks none; F19 rhagodessae 24, 20 hp: Fireball 29 (saves 6, 19): one dead, Varro 8 killed the other; rats (16:40, 3) reaction 13 Overawed; ants (18:30, 3) 9 Intimidated.
+> Day 428 weekly: Brotherhood 2, betrayer 3, the Watch 2, the city's link 5, Sand & Bones' hesitant 2 (none); the Kalbo inquiry 2 (reaches the Captain): who 4 (an east-gate subaltern, Kalbo's friend), reaction 2d6+4 9 (Indifferent; went away unsatisfied).
+> NPCs: the east-gate subaltern, Kalbo's friend: heavy-set, slow-spoken, suspicious, polite to the badge (day 428).
