@@ -222,6 +222,27 @@ Argollëan Family. The Order has not yet named Selene.
   name in front of her knights. Lucilla goes masked, to be party to whatever befalls Selene. Vettius goes first and
   unseen, Neris, Brennus and Vestus with them; Varro, Marcellus, Hrodvar, Cotta, Aelia, Phaedra and Saturnin wait in
   Gambler's Row with the Family's men.
+- Night of day 418, the Pony's pay night. Vestus made Vettius vanish. The stable doors stood unbarred for the
+  quarter hour of the pay, as Thana had promised, and ten went through the dark stable and down the annex stair
+  while the house crowded the bar for its silver: Iulia and her two knights, Lucilla in a black half-mask, Vettius,
+  Neris, Brennus, Vestus. Two men dicing in the long room fell asleep over their dice at Vestus' word and were
+  bound, gagged and hooded in a booth. Vettius turned the iron hook; the wall swung; the dead room; and at its far
+  end, by Gerra's word, the grate that drops on whoever comes through. Vettius took his time with it and it never
+  fell. A long narrow passage; lamplight; a cedar desk, an upholstered chair, three iron-banded chests, a couch, and
+  Selene Nictorian in black silk, a dagger already in her hand. Iulia stepped into the light. "Selene Nictorian, in
+  the Sun's name: come in chains, or die." Selene smiled. "Everything in those chests, Captain, and every Family
+  rat who ever sold to me, and I walk out of this city tonight." "Chains." The dagger came up. Brennus' axe, Iulia's
+  spear and Vettius' blade out of nowhere, and she was down before her dagger moved again; Iulia did the Sun's
+  justice. Her keys opened the chests: nine thousand electrum, nine thousand gold, a flawless black sapphire, a star
+  ruby, a star sapphire, a necklace of finger bones and two copper armbands; on her, twenty small stones, a dagger
+  and a ring, and her leather armour on its stand. At the second hour the house went up the stair for Thana's free
+  wine and the ten went out the way they came, the knights carrying the body wrapped in the couch's coverlet.
+- Day 419. The knights carried Selene to the Patriarch, who looked once and had her taken quietly to the pit of the
+  condemned: no court, no crier. Iulia's charge is done. That evening, in the Pony's long room, Lucilla, unmasked,
+  spoke to Sand & Bones with Thana at her side and a month's silver for every member: Selene was dead, the pit was
+  closed, the trade went on under the Family. Jonus came down the stair for the first time in a fortnight, heard her
+  out and knelt; the old guard and the young toughs cheered her; Lutarius, Gerra and many of the rest said little.
+  Not one walked out. Sand & Bones is the Family's.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).

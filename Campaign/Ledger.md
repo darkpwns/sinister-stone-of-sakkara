@@ -292,6 +292,20 @@ tags:
 | 411 | The barge at first light (day 411) | 40 copper pieces | 0 | vettius |
 | 414 | The empty chair (night of 413) | 10 gold pieces | 10 | vettius |
 | 414 | The empty chair (night of 413) | 112 silver pieces | 11 | vettius |
+| 418 | The office behind the dead room (night of 418) | 9,000 electrum pieces | 4,500 | iulia |
+| 418 | The office behind the dead room (night of 418) | 3,000 gold pieces | 3,000 | brennus |
+| 418 | The office behind the dead room (night of 418) | 3,000 gold pieces | 3,000 | lucilla |
+| 418 | The office behind the dead room (night of 418) | 3,000 gold pieces | 3,000 | vettius |
+| 418 | The office behind the dead room (night of 418) | gem worth 10000.0gp | 10,000 | lucilla |
+| 418 | The office behind the dead room (night of 418) | gem worth 6000.0gp | 6,000 | lucilla |
+| 418 | The office behind the dead room (night of 418) | gem worth 6000.0gp | 6,000 | lucilla |
+| 418 | The office behind the dead room (night of 418) | 20 small gems, 10gp each (200gp) | 200 | vettius |
+| 418 | The office behind the dead room (night of 418) | jewelry worth 23.0gp | 23 | neris |
+| 418 | The office behind the dead room (night of 418) | jewelry worth 140.0gp | 140 | neris |
+| 418 | The office behind the dead room (night of 418) | jewelry worth 140.0gp | 140 | neris |
+| 418 | The office behind the dead room (night of 418) | Dagger +2 | 3 | vettius |
+| 418 | The office behind the dead room (night of 418) | Leather Armor +1 | 10 | brennus |
+| 418 | The office behind the dead room (night of 418) | Ring of Protection | 250 | lucilla |
 
 ## Monster XP
 
@@ -385,6 +399,9 @@ tags:
 | 414 | The empty chair (night of 413) | Sand & Bones hood (Thief 2) | 5 | 20 | 100 |
 | 414 | The empty chair (night of 413) | Sand & Bones thug (Assassin 1) | 2 | 10 | 20 |
 | 414 | The empty chair (night of 413) | Veteran Gladiator (AX3) | 2 | 10 | 20 |
+| 418 | The office behind the dead room (night of 418) | Selene Nictorian (AX3) | 1 | 700 | 700 |
+| 418 | The office behind the dead room (night of 418) | Sand & Bones hood (Thief 2) | 1 | 20 | 20 |
+| 418 | The office behind the dead room (night of 418) | Sand & Bones thug (Assassin 1) | 1 | 10 | 10 |
 
 ## Shares and XP awarded
 
@@ -874,6 +891,12 @@ tags:
 | 414 | The empty chair (night of 413) | Cotta | 0.5 | 2 | 24 | 0 | +0% | 26 |
 | 414 | The empty chair (night of 413) | Phaedra | 0.5 | 2 | 24 | 0 | +0% | 26 |
 | 414 | The empty chair (night of 413) | Aelia | 0.5 | 2 | 24 | 0 | +0% | 26 |
+| 418 | The office behind the dead room (night of 418) | Iulia | 1 | 6,044 | 122 | 0 | +5% | 6,474 |
+| 418 | The office behind the dead room (night of 418) | Lucilla | 1 | 6,044 | 122 | 0 | +10% | 6,783 |
+| 418 | The office behind the dead room (night of 418) | Vettius | 1 | 6,044 | 122 | 0 | +5% | 6,474 |
+| 418 | The office behind the dead room (night of 418) | Neris | 1 | 6,044 | 122 | 0 | +0% | 6,166 |
+| 418 | The office behind the dead room (night of 418) | Brennus | 1 | 6,044 | 122 | 0 | +5% | 6,474 |
+| 418 | The office behind the dead room (night of 418) | Vestus the Unlikely | 1 | 6,044 | 122 | 0 | +5% | 6,474 |
 
 ## Wages
 
@@ -2886,3 +2909,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 414 |  | treasure share |  | 1gp 5sp 1cp |  | cotta |
 | 414 |  | treasure share |  | 1gp 5sp 1cp |  | phaedra |
 | 414 |  | treasure share |  | 1gp 5sp 1cp |  | aelia |
+| 418 |  | treasure share |  | 2,250gp |  | iulia |
+| 418 |  | treasure share |  | 2,250gp |  | lucilla |
+| 418 |  | treasure share |  | 2,250gp |  | vettius |
+| 418 |  | treasure share |  | 2,250gp |  | neris |
+| 418 |  | treasure share |  | 2,250gp |  | brennus |
+| 418 |  | treasure share |  | 2,250gp |  | vestus-the-unlikely |
+| 419 | the members of Sand & Bones | Change in Management bribes, a month's wage each (RR Creating a Criminal Guild; Henchmen Wage table): 135 members, day 419 |  |  | 8,140gp | lucilla |
