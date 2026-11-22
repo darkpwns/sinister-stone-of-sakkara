@@ -33,15 +33,72 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
   water on the hook and the blood in after it; everyone back from the water's edge. When the fish takes the hook,
   Neris tries her charm; if it fails, Vestus' thunderbolt, then the haulers on the chain drag it into the shallows
   where Brennus, Marcellus, Vettius and Lucilla can reach it from the rock.
+- Day 290, later: Military oil turned out to be easier to come by than the first chandler said once Lucilla took
+  the buying to her own merchants (the city is a larger market to her): a full load for everyone, and the rest of
+  the month's stock left for next month's top-up. The table agreed to wait for the new month's flasks (day 301) and
+  for Gnaeus before going after the fish. The quartered sheep went to the Silk Pony kitchen before it turned;
+  fresh bait the night before the hunt. Tertulla's hook waits in the Silk Pony strongbox.
+- Days 291-294, resting: Iulia mending (to 24 of 31), Gnaeus counting the days, Vestus at his copied formula for
+  dispelling magic from the first morning. Vault fee and Aelia's and Marcellus' wages paid.
+- Day 295, the table's downtime (Gideon: "Nobody sits on their hands for a week"):
+  - Lucilla put 3,000gp from her account into a third Guildhouse caravan (salt and dried fish to Türos Orn), and asked
+    after the caravan held at the coast: nothing to be done but wait (it is held through the end of the thirteenth
+    month).
+  - Iulia went to the Solar Citadel. Patriarch Arëtar asked what she had seen before he asked what she wanted; she
+    told him of the river, the carved tree, the dead in the tombs and the thing in the water. He listened to the end
+    and said that if she brought him proof of the death cult the Keepers fear beneath the Lake District, a crusader
+    of Ammonar who had served the city could keep its dark places as Captain of the Underwatch, with the spear and
+    shield the Citadel keeps for that office.
+  - Neris went to Revered Mother Doarë: the Grey Sisters have heard from the Keepers that the vagrant colony under the
+    Lake District has gone silent and frightened; a holy fool called Velus, who built a little shrine to Mityara by the
+    catacombs' iron gate, has not come up the stair since the winter. The Sisters pray for him.
+  - Vettius asked Liber Faunus about the night cargo at the north-west pier: "No dragon. Something very big in the
+    water, and scaled men with it. They dragged my crates into the sewers." He would be grateful.
+  - Hrodvar forged iron stakes for Tertulla's chain; Aelia sang for her supper at the Silk Pony; Phaedra resoaked
+    the masks.
+  - The call for day 296: by daylight, down through the Shrine of the Ancestors and the catacombs' iron gate into the
+    vagrant colony, to find Velus or what happened to him.
+- Day 296, twenty-seventh descent: the vagrant colony. Down through the Shrine of the Ancestors and the catacombs, past
+  the two Knights of the Winged Sun at the iron gate, into the colony: candle-stink, hundreds of beggars, Neris' coppers
+  and bread. In a hovel at the end of the north street, under paintings of a fiery scarab ringed with worms (Neris'
+  dream again), a dead man on a rotting mattress, throat cut (Hrodvar), papers hailing "the Scarab on Two Legs, the
+  Living Death Immortal", and under the mattress Velus' journal: visions of death, "a witch, a warrior and a score of
+  acolytes who summon and bind the dead", and a last plea to the "noble travellers" of his dreams to take his body to
+  the Grey Sisters. The body went back to the knights at the gate.
+- West of the colony, a new black door with a red skull (Dirgion's), locked and barred. Neris blessed the company and
+  Brennus' axe took it down in a turn. In the cult barracks beyond: eight grey-hooded knifemen and acolytes, a woman
+  in black with a wavy silver dagger and a warrior in black plate. The woman's prayer tried to choke Iulia and failed;
+  Varro dropped the first knifeman and Brennus, charging, cut down six of them in one long swing after another;
+  Marcellus killed an acolyte; Vestus' and Phaedra's fans burned the rest; the black knight cut Brennus once before her
+  axe split his helm; Iulia's mace dropped the woman in black, and Neris' prayer kept her alive as a prisoner.
+- The shrine beyond: a bone altar heaped with severed heads, a naked vagrant chained to it (freed). Iulia smashed the
+  altar. Priya counted eleven cots and nine dead; the company waited in the dark, and two acolytes came home through a
+  hidden door in the shrine wall with their lamps and died there. Loot: 5,500sp from the cot chests, 1,000gp and
+  1,800sp from the witch's chest, her purse, two jars of lamp oil, the black plate and the black shield.
+- Up in the Shrine of the Ancestors, Vettius deciphered the cipher on the journal's last page: it names the bearer
+  heir to Velus' estate. Revered Mother Doarë performed the rites for Velus Ionicus and, with the body and the book
+  before her, acknowledged Vettius heir to the Ionicus estate: an abandoned manor beyond the Krysivor, overrun by a
+  beastman tribe; clear it and the Empire will honour the claim.
+- Iulia brought the bound witch, the red skull, the cult's unholy symbols and Velus' journal to the Solar Citadel.
+  Patriarch Arëtar named her Captain of the Underwatch: she bears the spear and shield of the Underwatch while she
+  serves (the Citadel's; they go back when her office ends). The witch went to the Citadel's cells.
+- Brennus now wears the black knight's plate; the black shield waits for the selling day.
 
 ## Who they met
 - Tertulla, an old Lake Laman fisherwoman (Friendly): two fingers gone, chews fennel, gruff.
+- Patriarch Arëtar (Friendly): the Underwatch offered against proof of the death cult.
+- Liber Faunus (Friendly): his pier cargo taken by something big in the water and scaled men.
 
 ## Treasure and XP
+- Day 296 (A32): 1,900 treasure XP (cult coin 1,790gp, lamp oil, the black plate and shield at mundane value) +
+  240 monster XP over 8.5 shares. The black plate +1 kept for Brennus; the black shield +1 to be sold.
 
 ## Rumours given
 
 ## Changes to the world
+- The death cult of Dirgion under the Lake District is destroyed (none escaped); its altar is broken.
+- Vettius is heir to the Ionicus estate beyond the Krysivor (overrun by beastmen).
+- Iulia is Captain of the Underwatch.
 
 ## Next time
 

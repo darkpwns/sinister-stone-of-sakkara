@@ -84,6 +84,15 @@ for rnd in range(a.rounds):
                 if not eng:
                     run("state", "engage", who, t)
                 out = run("attack", who, t, *(["--weapon", c["weapon"]] if c.get("weapon") else []))
+                n = 0
+                while "may cleave" in out and n < 6:
+                    print(out[:230]); n += 1
+                    s2 = st(); fl2 = [f for f in foes(s2) if f != t]
+                    if not fl2:
+                        break
+                    t = min(fl2, key=lambda f: len(engaged_with(s2, f)))
+                    run("state", "engage", who, t)
+                    out = run("attack", who, t, "--cleave", *(["--weapon", c["weapon"]] if c.get("weapon") else []))
             elif who in missile and not eng:
                 free = [f for f in fl if not [x for x in engaged_with(s, f) if s["combatants"][x]["side"] == "party"]]
                 if not free:

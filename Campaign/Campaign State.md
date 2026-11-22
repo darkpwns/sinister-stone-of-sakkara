@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 290
-  time: 07:14
+    day: 296
+  time: '10:35'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.703
+    encumbrance_st: 9.404
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,15 +34,16 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.484
+    encumbrance_st: 9.336
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used: []
-    encumbrance_st: 2.901
+    spells_used:
+    - Fan of Flames
+    encumbrance_st: 4.411
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -51,28 +52,29 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used:
-    - Cure Major Injury
-    - Cure Moderate Injury
-    encumbrance_st: 3.558
+    - Holy Blessing
+    - Halt Humanoids
+    - Cure Light Injury
+    encumbrance_st: 4.738
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 22
+    hp: 14
     hp_max: 22
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 11.057
+    encumbrance_st: 9.901
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 13
+    hp: 26
     hp_max: 31
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.733
+    encumbrance_st: 9.752
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -80,7 +82,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 9.409
+    encumbrance_st: 9.42
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -88,7 +90,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 12.901
+    encumbrance_st: 9.241
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -96,7 +98,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 6.214
+    encumbrance_st: 6.23
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -104,15 +106,16 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 12.889
+    encumbrance_st: 9.396
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used: []
-    encumbrance_st: 7.383
+    spells_used:
+    - Fan of Flames
+    encumbrance_st: 7.89
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -124,7 +127,7 @@ public:
     spells_used: []
     encumbrance_st: 8.548
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 0 d, water 1 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 0.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 0.8 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 0 d, water 1 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -148,7 +151,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 290
+clock_day: 296
 ---
 # Campaign State
 

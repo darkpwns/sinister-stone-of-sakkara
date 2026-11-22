@@ -1556,3 +1556,32 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | aelia |
 | 290 | Cyfaraun | torch | 6 |  | 9cp | aelia |
 | 290 | Cyfaraun | torch | 6 |  | 9cp | phaedra |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | phaedra |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | neris |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | brennus |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | marcellus |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | varro |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | vestus-the-unlikely |
+| 290 | Silk Pony Inn (#25) | beds for twelve, night of day 290 |  |  | 2gp 4sp | vettius |
+| 291 | Silk Pony Inn (#25) | beds for twelve, night of day 291 |  |  | 2gp 4sp | vettius |
+| 292 | Silk Pony Inn (#25) | beds for twelve, night of day 292 |  |  | 2gp 4sp | vettius |
+| 293 | Grey Sisters (Revered Mother Doarë) | vault fee, days 294-323 (10gp a month) |  |  | 10gp | vettius |
+| 293 | Silk Pony Inn (#25) | beds for twelve, night of day 293 |  |  | 2gp 4sp | vettius |
+| 294 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 294 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 294 | Silk Pony Inn (#25) | beds for twelve, night of day 294 |  |  | 2gp 4sp | vettius |
+| 295 | a caravan master of the Merchant Guildhouse (salt and dried fish, Cyfaraun - Türos Orn) | Lucilla's passive investment 3: commercial expedition, balanced (short-distance), 3,000gp, day 295 (RR Passive Investment; her third slot: steady trade route) |  |  | 3,000gp | guildhouse-bank |
+| 295 | Silk Pony Inn (#25) | beds for twelve, night of day 295 |  |  | 2gp 4sp | vettius |
+| 296 | the vagrants of the colony (alms) | alms in coppers and bread, the Keepers' way (day 296) |  |  | 2gp | neris |
+| 296 | Grey Sisters (House of Mourning) | funeral rites for Velus Ionicus (day 296) |  |  | 10gp | neris |
+| 296 |  | treasure share |  | 210gp 5sp 9cp |  | lucilla |
+| 296 |  | treasure share |  | 210gp 5sp 9cp |  | vettius |
+| 296 |  | treasure share |  | 210gp 5sp 9cp |  | iulia |
+| 296 |  | treasure share |  | 210gp 5sp 9cp |  | vestus-the-unlikely |
+| 296 |  | treasure share |  | 210gp 5sp 9cp |  | neris |
+| 296 |  | treasure share |  | 210gp 5sp 9cp |  | brennus |
+| 296 |  | treasure share |  | 105gp 2sp 9cp |  | phaedra |
+| 296 |  | treasure share |  | 105gp 2sp 9cp |  | varro |
+| 296 |  | treasure share |  | 105gp 2sp 9cp |  | hrodvar |
+| 296 |  | treasure share |  | 105gp 2sp 9cp |  | aelia |
+| 296 |  | treasure share |  | 105gp 2sp 9cp |  | marcellus |
