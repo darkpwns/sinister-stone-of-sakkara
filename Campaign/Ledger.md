@@ -275,6 +275,7 @@ tags:
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of the 16 east-gallery graves (F7) | 32 | stored |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | SOTN Flying Disk | 1,000 | stored |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | fragments of a shimmering rainbow-sheened metal prised from the reliquary walls | 5,000 | stored |
+| 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | 37 gold pieces | 37 | brennus |
 
 ## Monster XP
 
@@ -351,6 +352,7 @@ tags:
 | 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Wererat | 1 | 65 | 65 |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Grave Ghoul | 5 | 38 | 190 |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Sepulchral Worm | 9 | 16 | 144 |
+| 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Rufio Calvus (Chthonic cleric 3) | 1 | 50 | 50 |
 
 ## Shares and XP awarded
 
@@ -795,6 +797,10 @@ tags:
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Hrodvar | 0.5 | 400 | 22 | 0 | +0% | 422 |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Aelia | 0.5 | 400 | 22 | 0 | +0% | 422 |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Marcellus | 0.5 | 400 | 22 | 0 | +0% | 422 |
+| 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Brennus | 1 | 11 | 14 | 0 | +5% | 26 |
+| 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Vettius | 1 | 11 | 14 | 0 | +5% | 26 |
+| 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Lucilla | 1 | 11 | 14 | 0 | +10% | 28 |
+| 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Varro | 0.5 | 5 | 7 | 0 | +0% | 12 |
 
 ## Wages
 
@@ -2515,3 +2521,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 354 |  | treasure share |  |  |  |  |
 | 354 |  | treasure share |  |  |  |  |
 | 354 |  | treasure share |  |  |  |  |
+| 356 | Lucilla's old contacts (the Mink) | a day's pay for word of a grey-robed beggar who curses the Sun, day 356 |  |  | 5sp | lucilla |
+| 358 |  | treasure share |  | 10gp 5sp 7cp |  | brennus |
+| 358 |  | treasure share |  | 10gp 5sp 7cp |  | vettius |
+| 358 |  | treasure share |  | 10gp 5sp 7cp |  | lucilla |
+| 358 |  | treasure share |  | 5gp 2sp 9cp |  | varro |

@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 354
-  time: '10:26'
+    day: 358
+  time: '12:26'
   weather: Chilly (51 to 55 F) by day, Chilly (51 to 55 F) at night; mostly cloudy; wind strong
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 11.624
+    encumbrance_st: 11.641
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.183
+    encumbrance_st: 10.205
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -50,20 +50,18 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Circle, Sustained
-    - Cure Disease
+    spells_used: []
     encumbrance_st: 4.713
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 20
+    hp: 23
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.378
+    encumbrance_st: 10.4
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -84,11 +82,11 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 14
+    hp: 21
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.094
+    encumbrance_st: 10.11
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -111,8 +109,7 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.24
   - name: Saturnin
     sheet: Characters/saturnin.json
@@ -134,11 +131,11 @@ public:
   rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - Arëtar's court on the Provost's three (Opiter Vibius, Flavia Rusca, Sertor) at the full moon, day 356
-  - The Provost's body came ashore at the mill weir (day 351); the city blames wharf robbers
-  - The six are deathbringers of the Order of the Eclipse
-  - 'The lower galleries (F): the gallery''s south end and its bronze door, the west slope''s bronze door'
-  - 'Selling day 361: goods in the Grey Sisters'' vault and the Citadel barracks; the jade ring and ash wand unknown'
+  - The court is done (day 356); the Watch is satisfied (day 358)
+  - 'The Order: Vestus'' contract, Una of the Thelesa villa; Brennus'' done (commission to come)'
+  - Vestus finishes learning the fireball on day 360
+  - 'Selling day 361: the flying disc and the jade ring still unnamed'
+  - 'Below: the serpent door in the vestibule; the sealed cases in the reliquary'
   - The black barge at Tertulla's landing, paid to day 363
   trail:
   - '26.18'
@@ -161,7 +158,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 354
+clock_day: 358
 ---
 # Campaign State
 

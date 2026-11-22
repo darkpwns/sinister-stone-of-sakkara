@@ -803,3 +803,23 @@ barracks (L272, L355-L363, L366-L379; L368 shrine, two bearers).
 **Routine (S18 week 3):** after any fight the walk helper can let "rest due" slip: run `rest` by hand after every fight
 before `walk`; relight at once when a turn line says NONE LIT; `inv buy Torch N` buys packs of six; a reward found
 after a payout needs its own adventure record (A53); multi-bearer items: `recover --drop`, then `--store` at the return.
+
+## S19 after the fourth S18 week — start here (supersedes everything above)
+**State on resume:** day 358 ~12:30, winter, Cyfaraun, the Solar Citadel. No adventure open (A58 paid out). Location
+Cyfaraun (settlement). Afternoon and night of day 358 (`wait`, `eat --in-town`, `wait`), then `dawn 359`. Thirteen;
+Varro 14/23, Brennus 20/23 (heal overnight). Vestus is studying all week (days 353-359: Fireball replaces Thunderbolt
+on day 360: `actor item vestus-the-unlikely add spell "Fireball" --level 3` and remove Thunderbolt; he keeps the
+formula); he was out of descents 48 and the cellar.
+
+**Days 352-358:** A56 F18 graves, F11 emptied (all 128 skeletons gone), a Horned Rat cultist taken; A57 F14 serpent
+door found (left), F15 dome lever, flying disk L386 (unidentified, base 78,000), F17 fragments L387, cases left
+shut; ghouls (one fled), worms; Order assignments: Vestus (Una), Brennus (Rufio: done A58); the court day 356; the
+Watch's inquiry closed day 358 (Friendly). Contracts: Adventure/AX3/NPCs/Order Contracts (S18).md.
+
+**Open:** day 360: month end (fees, investments 1 and 3, Iulia's rolls and report, Vestus' dues, Cotta's wage),
+Oppius with Brennus' 1,500gp (book it as its own record, like A53); day 361 selling day (identify L386 and L327 first;
+the disc: Vestus could steer it, energy crystals are in the F17 lance); Order rolls 361; Una's villa (17.06).
+
+**Routine (S18 week 4):** the torch helper relights on any "burns out" even when another torch still burns: check
+the light line; `encounter fight` does not set surprised conditions (set them by hand); grave ghoul fever is the
+monster's own rule, not `disease expose`.

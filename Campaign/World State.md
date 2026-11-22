@@ -110,6 +110,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 351 expedition 46 (A55): **F10** looted (hooks, 44 jars, 30 natron vials, 4 urns with 2 pendants, a brooch, an onyx scarab). Nothing met.
 - Day 352 expedition 47 (A56): **F18** (bronze door forced at once; hammering heard east, toward I7): 110 graves looted (495gp); **F11 cleared: the last 84 skeletons destroyed** by Iulia's rebukes from inside Neris' circle (the gallery now empty: 128 in all); F7's 16 graves looted (32gp). F19 (the stalagmites) not entered. Undercity on the way out: a wandering Horned Rat cultist (wererat) slumbered by Neris and taken to the Citadel bound.
 - Day 354 expedition 48 (A57, ten; Vestus studying): shrieking fungi (8, sewer caves, enc284) avoided by a detour. **F14** (bronze door forced at once): the snake-loop secret door and its blade **found** (Vettius), left shut. **F15**: door forced; **F16** found (Lucilla, Aelia), both levers pulled (no listener); dome raised, the **flying disk** taken (L386, two bearers); **F17** opened by the right lever: wall fragments taken (L387, 5,000gp); **the three glass cases left shut (alarm bulbs untouched)**. 6 grave ghouls (wanderers, F15): 5 destroyed (Rod rebuke 2, Phaedra's Fan 2, rebuke 1), 1 fled (3 hp); Varro's ghoul fever cured by Neris. 9 sepulchral worms (wanderers) destroyed by rebukes. Undercity special: none.
+- Day 358 (A58): Rufio Calvus, last acolyte of Dirgion's death cult, killed asleep in a dyer's cellar on the old colony stair (Lake District) by Brennus (the Order's contract); the door broken; the unholy symbol left on him.
 
 ## Events triggered
 
@@ -145,7 +146,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Provost Mentenus Cavië: DEAD (midnight day 337).** Nobody outside the company and the Order knows; Arëtar guesses (day 344).
 - Arëtar (day 344): told only that Iulia's oath binds her; reaction 8 (Neutral to it). **Day 345: Iulia's vigil, a 1,000gp tithe and her offer of service: reaction 13, Friendly/Helpful: reconciled (the -1 is spent).** He set the task of the Provost's remnant (2 knights lent); **day 347: three delivered alive in chains (Opiter Vibius, Flavia Rusca, Sertor: [[The Provost's Remnant]]); gift 750gp (A53)**. Court pending; the full moon (day 356) will show them.
 - The Tower of Knowledge: **Vestus a member (thaumaturge, College of Divination, blue cassock) from day 339**; dues 10gp a month (paid month 12); basement access. Regent Aurëus opened Basement 2 on day 344 (Judge-only: he keeps what he found close and hunts the Provost's infected associates quietly).
-- **The Order of the Eclipse (day 340): the six PCs are deathbringers.** Weekly assignment rolls from day 347 (1d4 per deathbringer PC in Cyfaraun, a 4; AX3 p. 175). "The house of Vasan is closed: open it again only at my word."
+- **The Order of the Eclipse (day 340): the six PCs are deathbringers.** Day 354 assignments: Vestus (Una of the Thelesa villa, 2,000gp) and Brennus (Rufio Calvus, 1,500gp: **done day 358**, coup de grace; commission by Oppius day 360). [[Order Contracts (S18)]]. Weekly assignment rolls from day 347 (1d4 per deathbringer PC in Cyfaraun, a 4; AX3 p. 175). "The house of Vasan is closed: open it again only at my word."
 - Caeso Lentulus (day 339): up, one eye; Friendly; "ask for me at the Old District post".
 - Cotta (Vettius' henchman, Explorer 2, Outrider; day 331): loyalty +0, morale 0.
 
@@ -166,6 +167,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Mentenus seeks the Brotherhood (day 330; the weekly Judge's call 1-in-6 came up 1, Mentenus 1):** a sealed note for "Vasan Tikala" left at the Emporium's Nicean wine stalls, password "sludge mold": a meeting at the Nicean outlet at midnight on day 333 (Judge's call: the S16 protocol, midnight two nights on); the work: the Captain of the Underwatch. The stall-keepers remember Lucilla asked for Vasan in S16 (Judge's watch: she hears of it if she asks there or at her Rumormongering, day 331+). Destrio's charge: report it. **Day 331: Lucilla took the note from the wine-seller (reaction 12, a day's pay); the company read it ("Sludge mold. For the house of Vasan Tikala: one commission, the price doubled for haste. The usual place, at midnight on the third night from this.") and sent word to the Order by Brother Oppius; Destrio's answer arrives day 334 (1d3: 3), after the meeting.** Mentenus does not know the note was taken.
 - Vestus' application to the Tower of Knowledge (day 325, 10gp): interview with the Provost and the Regent on day 339 (1d4 weeks: 2); admission 2d6 +1 INT +3 (3rd-level spells) +1 Loremastery +1 Magical Engineering, 12+ (AX3 p. 148).
 - Caeso Lentulus: bed rest to day 338.
+- **Day 356: Arëtar's court at moonrise: the four (Opiter, Flavia, Sertor, the day-352 cultist) changed before the Regent, the Prefect's men and the Watch; condemned; the Provost's journals read out.** Day 358: the Watch's inquiry reached the company (1): an optio at the Citadel; the badge, the Patriarch's word and Lucilla's half-truth (wharf wine): reaction 12, Friendly: **closed** (Judge's watch only if the Provost's things surface).
 - **Day 351: the Provost's body came ashore at the mill weir above the Emporium (throat cut, weighted); the city blames wharf robbers.** The Watch's inquiry: each week 1-in-6 that it reaches the company (the Citadel porter's word of day 337); next day 358.
 - **After Mentenus' death (Judge's watch, from day 338):** the Tower misses its Provost from day 338 (Regent Aurëus inquires; the Watch is asked); Vestus' interview day 339: Judge's call whether it goes ahead before the Regent alone. Prelate Romus learns he is missing. The body in the river: each week 1-in-6 (hidden) that it comes ashore (throat cut, weighted with rubble; the Tower's cassock is with the company, not on it); first roll day 344. The new moon (day 342) passes. The Order: told when the company sends word (Destrio's answer by AX3: the acolytes become deathbringers; future assignments 1d4 per deathbringer PC weekly, a 4, AX3 p. 175). Arëtar may guess (Judge's call when Iulia next reports).
 - **Full moon: day 328** (done: the ambush called off; the alley grate watched, nobody came). (Judge's call rolled day 309). Arëtar and Iulia plan to take the Provost at the Shrine at midnight (a sanctioned mission: 1d4 knights). **Mentenus, warned by Terkinos, will not come**: the Shrine stands empty that night (the party does not know until it looks). Where the pack went and what Mentenus does next are open (Judge's watch items: Prelate Romus may tell him who holds the seer and his papers).
@@ -175,13 +177,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: Nethercity F: F11c and F18 (bronze door south; Cave of the Falling Star; F19 rhagodessae), F14 vestibule (from
-  F11b's west slope; secret trapped door S to T1), F15-F17 (reliquary, magic-locked; gas; the T2 alarm), 70 skeletons
-  still in F11 (14 awake ones back in their niches). The Tower basement (Vestus; Basement 2 opened by the Regent).
-- Threads: the court on the Provost's three at the full moon (day 356): Iulia testifies; the Watch's inquiry into the
-  Provost's murder (1-in-6 weekly from 358); the Order's weekly assignments (354, 361); the spellsword's spellbook
-  (Fireball; the Tower's oath and the Necromantic Potence formula); the ring and the wand; selling day 361.
-- Scheduled: 352 Saturnin's wage; 353 Aelia, Marcellus, the vault fee; 354 Order rolls; 356 full moon (the court);
-  358 Watch inquiry, body (done), Brotherhood roll; 360 month 12 ends (fees, investments 1 and 3, Iulia's rolls and
-  report, Vestus' dues; Cotta paid to 360); 361 selling day; 363 Tertulla.
-- NPCs: Opiter Vibius, Flavia Rusca, Sertor (the remnant note); Caeso; the wine-seller; Cotta; Brother Oppius; Destrio.
+- Sites: the Thelesa villa (Judge's call: hex 17.06, half a day SW; Una, Witch 4: [[Una (AX3)]]); Nethercity F: F14's
+  snake-loop door (found, blade; stairs down to T1: the Great Teacher, [[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]),
+  F17's three cases (alarm bulbs wake T2), F19 (2 rhagodessae), F18's east finger to I7 (troglodytes); one grave
+  ghoul fled (3 hp, F area).
+- Threads: Vestus' study ends day 360 (Fireball replaces Thunderbolt: `actor item`); Una (Vestus' contract); the
+  commission for Rufio (360, a reward: its own record as A53); selling day 361 (the disc and the ring unnamed:
+  identify first; Liber 80% for elven relics, the rest open at 5%); the Order's rolls (361).
+- Scheduled: 360 month 12 ends (Guildhouse fees from member balances, investments 1 and 3, Iulia's month-end rolls
+  and report, Vestus' Tower dues, Cotta's wage); 361 selling day, Order rolls; 363 Tertulla; 365 weekly Brotherhood
+  roll; 369 Phaedra's wage; 376 Varro, Hrodvar; 382 Saturnin; 383 Aelia, Marcellus, vault fee.
+- NPCs: Rufio Calvus (dead); the Watch optio (heavy-jawed, stylus behind the ear: "Just the night, Captain"); Una.

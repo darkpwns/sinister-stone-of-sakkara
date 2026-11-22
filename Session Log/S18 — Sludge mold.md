@@ -2,7 +2,7 @@
 type: session
 session: 18
 date_real: 2026-11-22
-date_game: winter day 330-351
+date_game: winter day 330-358
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -241,6 +241,28 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   and two crumbled; Neris raised her moving circle and pushed the rest out of the doorway; Phaedra's fan burned two
   more; the last two broke and ran, and Iulia's prayer caught one. Neris cured Varro's fever on the spot. On the way
   out nine pale grave-worms came at the circle and Iulia broke them all in two breaths. Out by half past ten.
+- Day 355, clear. Brother Oppius at the Citadel gate with two sealed slips under the black wheel: for Vestus, Una of
+  the abandoned Thelesa villa south-west of the city, who frightened a young patrician's horse in a storm so that he
+  fell and died (his mother asks); for Brennus, Rufio Calvus, a grey-robed beggar in the Lake District, who knifed a
+  chandler's apprentice in a burglary on the Grain Steps (the boy's mother asks). "The Order thanks you for Quill
+  Street. It noticed." Vestus' contract waits on his study. That night Vettius watched the Bridge District's west
+  end for a grey robe; nobody came. Caeso had heard nothing of the burglary.
+- Day 356, the full moon, cold and clear. Lucilla's old contacts at the Mink (a day's pay) knew the grey beggar who
+  curses the Sun under his breath, and the stink of indigo on him. At moonrise the Patriarch held his court in the
+  Citadel courtyard before the Regent, the Prefect's men and the Watch: the four prisoners in chains under the
+  open sky, and as the moon cleared the wall they changed, one by one, in front of everyone. Arëtar read from the
+  Provost's own journals. Iulia gave her account of Quill Street and the Undercity. The four were condemned. The
+  Provost's name will not be spoken in the Tower again.
+- Day 357, overcast. Lucilla and Saturnin walked the Lake District's dyers: one rents his cellar on the old colony
+  stair to a grey-robed lodger who pays in old coin and sleeps all day. That night Vettius watched him go out to beg
+  and come home before dawn.
+- Day 358, before dawn. Vettius' pick snapped in the cellar lock and jammed it; Brennus and Varro took the door off
+  its frame. The grey robe on the straw never stirred, sodden with alms wine. Brennus did the Order's work, alone,
+  and left the unholy symbol of Dirgion on the dead man's chest. A purse of thirty-seven gold.
+- That afternoon a Watch optio came to the Citadel asking where the company had been on the night of the 337th.
+  Iulia showed the badge and the Patriarch's porter carried his word that the Captain's nights are the Citadel's
+  business; Lucilla said they had been buying wine at the wharves. The optio closed his tablet: "The Captain's
+  company. That's enough for me." Nobody came asking for the Brotherhood.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before
@@ -269,6 +291,10 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Day 349 (A54, F12-F13): mask, collar, shrine, chair, 3,000sp (3,710gp); 8 giant rats, the rector mummy, 44
   skeletons; 5,602 XP over 8.5 shares.
 - Day 351 (A55, F10): hooks, jars, natron, urns and four charms (1,950gp); 1,950 XP over 8.5 shares.
+- Day 352 (A56, F18, F7): grave goods (527gp); 84 skeletons, a cultist taken; 1,684 XP.
+- Day 354 (A57, F14-F17): the flying disc (unknown), the reliquary's metal (5,000gp); 5 ghouls, 9 worms; 6,334 XP
+  over 7.5 shares.
+- Day 358 (A58): Rufio's purse (37gp); 87 XP over 3.5 shares. The Order's commission (1,500gp) to come.
 
 ## Rumours given
 - Day 331: Lucilla's contacts (the Mink, the Silk Pony and the Noble Charter Inn); the wine-seller (the Patriarch and
@@ -281,11 +307,10 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Cotta has joined Vettius. The barge is moored at Tertulla's to day 349.
 
 ## Next time
-Day 351, evening, the Solar Citadel. Thirteen, all whole. Arëtar is the Captain's friend again; his court on the
-Provost's three waits for the full moon (day 356). The Provost's body is ashore; the city blames wharf robbers.
-Goods for the month-13 selling day (361) are in the Grey Sisters' vault and the Citadel barracks. Below: the
-skeleton gallery's south end, the bronze door down the west slope, the Cave of the Falling Star. Saturnin's wage is
-due tomorrow (352); Aelia's, Marcellus' and the vault fee on 353; month 12 ends on day 360.
+Day 358, evening, the Solar Citadel. Thirteen, all whole (Varro 14, Brennus 20 hp). The court is done; the Watch is
+satisfied. Vestus finishes his week with the spellsword's roll on day 360 (the fireball for the thunderbolt) and owes
+the Order Una of the Thelesa villa. Brennus' commission comes by Oppius on day 360. Month 12 ends on day 360; the
+selling day is 361: the vault and the barracks are full (the disc and the jade ring still unnamed).
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 18). Judge notes: Playtest/judge-notes.txt (S18 entries).
@@ -337,4 +362,16 @@ due tomorrow (352); Aelia's, Marcellus' and the vault fee on 353; month 12 ends 
 > 15, 3 (58); Iulia's rebuke HD 8, 7, 6, 6, 4, 7, 6 (44 destroyed).
 > Day 351: body ashore 1 (the mill weir, 4); Brotherhood 5 (none); Watch inquiry 3 (not reaching the company); the
 > city reads it as wharf robbers (5); Doarë 36 (in).
+> Days 352-358: A56 (day 352): F18 door forced at once; F11 exit: woke 7, 12, 12, 20, 8, 10, 14, 1 (84), rebuke HD 7,
+> 6, 9, 8, 8, 7, 7, 4, 11, 8, 6, 3 (all 84); enc283 a Horned Rat cultist (wererat, 1): surprised 2; Neris' Slumber
+> save 10 (F). A57 (day 354): enc284 shriekers (8) avoided; F14 door 21; snake-loop search 17 (found); F15 door 24;
+> secret-door searches: Vettius 10 F, Lucilla 18, Aelia 18 (found); enc285 grave ghouls 6 (party 7 surprised;
+> ghouls 3: not); Lucilla's oil 6 (miss); Rod rebuke 2d6 4 (ghouls 1, 2); Varro's fever save 6 (fail; cured by
+> Neris); Phaedra's fan 7 (ghouls 3, 4); morale -1 (frightened retreat); rebuke ghoul 6 (D); ghoul 5 fled (3 hp).
+> enc286 worms 9: rebuke HD 6, 3. enc287 Undercity special: none (13u). Unsettling throw 09:05: 4. Order rolls day
+> 354: 1, 1, 4, 2, 4, 2 (Vestus, Brennus): contracts 6 (Una) and 6 (repeat: fresh: reason 4, petitioner 1, level 3,
+> class 6: Rufio Calvus; Adventure/AX3/NPCs/Order Contracts (S18).md). Day 355: Caeso 5 (no); Rufio out 6 (no).
+> Day 356: contacts 15 (Friendly); the court: Flavia's guess 3 (none). Day 357: the dyers 2 (found); Rufio out 4.
+> Day 358: Vettius' sneak 10 (S), lock 2 (jammed); door 27; Rufio wakes 6 (no): coup de grace. Watch inquiry 1
+> (reaches the company): the optio's reaction 12 (Friendly: closed); Brotherhood 2 (none); commission 1d3 2 (day 360).
 
