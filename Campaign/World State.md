@@ -77,6 +77,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Cleared: 7 enforcers, 4 cultists, Rhankur slain; Malthusia captured (shock, 1 hp; to the Citadel's cells). Altar in 12 smashed (no longer a sinkhole). Velus' body taken (rites by the Grey Sisters). 10 and 11 looted. Secret door in 12 to the canal known. No survivor left for the cult's revenge (AX3: none escaped). The vagrants remain; Velus' shrine at 3.
 - Ionicus estate: Vettius heir (deciphered journal, rites day 296); Judge's call: the manor near the Ruined Imperial Fortress (#30, 26.19), beastman tribe in it (not yet built).
 
+### [[Lizardman Sewer Lair]] (Festival District #28u; day 298, A33)
+- The 2 lizardman warriors and the champion captured asleep (Slumber, manacled), delivered alive to Celictor (800gp). Den 2's purse taken. Lair empty. The giant crocodile (#45u, Crocodile Nest, HD 15, 74 hp) is still loose: Celictor pays 2,000gp alive and unharmed.
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |

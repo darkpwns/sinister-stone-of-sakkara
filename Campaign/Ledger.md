@@ -1585,3 +1585,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 296 |  | treasure share |  | 105gp 2sp 9cp |  | hrodvar |
 | 296 |  | treasure share |  | 105gp 2sp 9cp |  | aelia |
 | 296 |  | treasure share |  | 105gp 2sp 9cp |  | marcellus |
+| 296 | Silk Pony Inn (#25) | beds for twelve, night of day 296 |  |  | 2gp 4sp | vettius |
+| 297 | Cyfaraun | Net | 1 |  | 9sp | aelia |
+| 297 | Cyfaraun | Manacles | 4 |  | 7gp 2sp | neris |
+| 297 | Silk Pony Inn (#25) | beds for twelve, night of day 297 |  |  | 2gp 4sp | vettius |
+| 298 |  | treasure share |  | 94gp 1sp 4cp |  | lucilla |
+| 298 |  | treasure share |  | 94gp 1sp 4cp |  | vettius |
+| 298 |  | treasure share |  | 94gp 1sp 4cp |  | iulia |
+| 298 |  | treasure share |  | 94gp 1sp 4cp |  | vestus-the-unlikely |
+| 298 |  | treasure share |  | 94gp 1sp 4cp |  | neris |
+| 298 |  | treasure share |  | 94gp 1sp 4cp |  | brennus |
+| 298 |  | treasure share |  | 47gp 7cp |  | phaedra |
+| 298 |  | treasure share |  | 47gp 7cp |  | varro |
+| 298 |  | treasure share |  | 47gp 7cp |  | hrodvar |
+| 298 |  | treasure share |  | 47gp 7cp |  | aelia |
+| 298 |  | treasure share |  | 47gp 7cp |  | marcellus |

@@ -83,13 +83,28 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
   Patriarch Arëtar named her Captain of the Underwatch: she bears the spear and shield of the Underwatch while she
   serves (the Citadel's; they go back when her office ends). The witch went to the Citadel's cells.
 - Brennus now wears the black knight's plate; the black shield waits for the selling day.
+- Day 297, downtime. Vestus finished his week over the dispelling formula. Liber Faunus brought Lucilla and Vettius to
+  a back room of the Mink to meet his partner Celictor Nuvicus, lanista of House Nuvicus (38, long hair over a thinning
+  crown, flowing tunics over a paunch; pompous flourishes over a whine of panic: "House Nuvicus does not lose; it is
+  merely... inconvenienced"). The night cargo at the north-west pier was his: two lizardman warriors, a lizardman
+  champion and a giant crocodile from Arganos, bought to beat Maximus's beastmen; the lizardmen killed their handlers
+  and swam into the western sewers with the crocodile. Wary of them at first, he warmed when he heard who had broken
+  the death cult: 200gp for each warrior and 400 for the champion, alive and unharmed; 2,000 for the crocodile.
+  Manacles, a net, rope.
+- Day 298, twenty-eighth descent: under the Festival District by the western sewers. Vettius found the trip wire strung
+  over the canal and the company stepped over it; up the ash-covered steps into an old elven temple hall the two
+  lizardman warriors lay asleep on stolen cloth. Phaedra's sleep spell held them, and the champion in the inner
+  sanctum after them; all three manacled with their jaws roped, and carried up to Celictor's school before they woke.
+  Under the champion's pad, a dockworker's purse: coppers, two agates and a bloodstone. Celictor paid 800gp.
 
 ## Who they met
 - Tertulla, an old Lake Laman fisherwoman (Friendly): two fingers gone, chews fennel, gruff.
 - Patriarch Arëtar (Friendly): the Underwatch offered against proof of the death cult.
+- Celictor Nuvicus, lanista of House Nuvicus (Indifferent, paid): wants his giant crocodile back alive (2,000gp).
 - Liber Faunus (Friendly): his pier cargo taken by something big in the water and scaled men.
 
 ## Treasure and XP
+- Day 298 (A33): Celictor's reward 800gp, agates and bloodstone 100gp; 135 XP for three lizardmen captured; over 8.5 shares.
 - Day 296 (A32): 1,900 treasure XP (cult coin 1,790gp, lamp oil, the black plate and shield at mundane value) +
   240 monster XP over 8.5 shares. The black plate +1 kept for Brennus; the black shield +1 to be sold.
 

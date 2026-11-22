@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 296
-  time: '10:35'
+    day: 298
+  time: 08:05
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.404
+    encumbrance_st: 9.503
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,16 +34,15 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.336
+    encumbrance_st: 9.256
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 4.411
+    spells_used: []
+    encumbrance_st: 4.51
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -51,30 +50,27 @@ public:
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Blessing
-    - Halt Humanoids
-    - Cure Light Injury
-    encumbrance_st: 4.738
+    spells_used: []
+    encumbrance_st: 4.995
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 14
+    hp: 16
     hp_max: 22
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 9.901
+    encumbrance_st: 10.0
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 26
+    hp: 28
     hp_max: 31
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.752
+    encumbrance_st: 9.851
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -82,7 +78,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 9.42
+    encumbrance_st: 9.474
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -90,7 +86,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.241
+    encumbrance_st: 9.295
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -98,7 +94,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 6.23
+    encumbrance_st: 7.275
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -106,7 +102,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 9.396
+    encumbrance_st: 9.45
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -114,8 +110,9 @@ public:
     hp_max: 17
     conditions: []
     spells_used:
-    - Fan of Flames
-    encumbrance_st: 7.89
+    - Slumber
+    - Slumber
+    encumbrance_st: 7.944
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -151,7 +148,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 296
+clock_day: 298
 ---
 # Campaign State
 
