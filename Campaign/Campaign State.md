@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: spring
-    day: 394
+    day: 396
   time: 07:43
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 11.816
+    encumbrance_st: 11.806
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 21.507
+    encumbrance_st: 21.506
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -160,7 +160,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 394
+clock_day: 396
 ---
 # Campaign State
 

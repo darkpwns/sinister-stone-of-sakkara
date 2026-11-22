@@ -26,7 +26,21 @@ Argollëan Family. The Order has not yet named Selene.
   In the Citadel yard Vettius worked the lanista's sword (+1), Marcellus his spear (+1), Cotta the humming sling
   bullets (+1); Vestus sipped the three potions: monstrous form, energy invulnerability, comprehension. Vestus began a
   week's study to set Invisibility in his repertoire, Phaedra Beguile Humanoid (to day 400).
-
+- Day 395. Lucilla tried Liber's ledger word on his magic-locked strongbox at the hideout: it stayed shut; she
+  left it to the Family. That evening Vettius took a corner table in the Silk Pony's common room, a cup and a few
+  small bets: eight footpads on the floor, two hoods, a dozen-odd gamblers, one big scarred gladiator drinking with
+  a hood. Vettius heard them: "Not yet. Jonus wants the Captain's lot counted first: where they sleep, where they
+  drink. And the Mink's new lady." "The one with the eye?" The hood laughed. "The boss wants that one for herself."
+  Selene knows who heads the Family. Gideon's call at the Citadel that night: nobody walks alone in the Festival
+  District, Vettius counts the counters, the Order's day is tomorrow.
+- Day 396. The Order named no one this week. Vettius watched the Citadel steps for Jonus' counters and saw none.
+  Iulia took Brennus, Neris, Varro and Lucilla to the Amphitheater cells, where the Prefect's guard holds the
+  lanista's twelve beastmen; the optio hummed over the badge until Lucilla's ten gold settled it. The beastmen
+  only stared at the Captain who had freed them. Lucilla lifted the lid of her third eye on the larger bugbear and
+  saw what it remembered: a sunken pit of black sand under a gambling house, lamplight, a laughing woman with hair
+  to her waist, and the master carrying a dead man through a wall behind the barrels. A blood pit under the Silk
+  Pony; Selene's; and a hidden room where the dead went. Gideon's call: Arëtar wants proof, so the proof is that
+  wall. Vestus' invisibility is ready on day 400; until then the company watches and waits.
 ## Who they met
 
 ## Treasure and XP

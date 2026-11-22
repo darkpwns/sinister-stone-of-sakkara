@@ -2748,3 +2748,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 358gp 8sp 4cp |  | vestus-the-unlikely |
 | 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 179gp 4sp 1cp |  | marcellus |
 | 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 179gp 4sp 1cp |  | aelia |
+| 395 | Silk Pony Inn (#25) | drink and small bets, evening of day 395 |  |  | 1gp | vettius |
+| 396 | the Prefect's guard optio at the Amphitheater cells | a gift for a look at the beastmen, day 396 |  |  | 10gp | lucilla |
