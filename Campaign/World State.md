@@ -106,7 +106,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Karanos' bank (karanos-bank, 13,732gp): Sabina 2,242, Tarq 2,200, Lucilla 2,030, Vettius 2,244, Hesper 1,773; estates of Gallus 1,119, Thorwell 1,062, Thorcigar 1,062 (no wills; a relative may collect once).
 
 ## Offices
-- Iulia, Captain of the Underwatch (from day 296): monthly report to Arëtar due by day 330 (then each month); month-end 1d6 for a mission (1) and 1-in-6 for Mentenus' notice; Citadel lodging free; oculus for her companions; +2 Watch/Guard reactions with the badge; +1 Lawful temples; -1 Prelate Romus (Rulings S14).
+- Iulia, Captain of the Underwatch (from day 296): **first mission (user, day 303): find the Horned Rat cult's shrine (Old District #13u, [[Shrine of the Horned Rat]]) and report it to Arëtar before month 11 ends (day 330)**; monthly report to Arëtar due by day 330 (then each month); month-end 1d6 for a mission (1) and 1-in-6 for Mentenus' notice; Citadel lodging free; oculus for her companions; +2 Watch/Guard reactions with the badge; +1 Lawful temples; -1 Prelate Romus (Rulings S14).
 
 ## Faction standing
 

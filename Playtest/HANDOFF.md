@@ -495,3 +495,24 @@ weekly save. Month 11 ends day 330 (investments 1 and 3). Threads: Celictor's cr
 estate (beastmen, near #30); the arena (Celictor recruits champions against Maximus); rumours 14 (Vasan Tikala, the
 Doppelgänger Den #14u) and 8.
 
+## S15 plan (user, 2026-11-22) — read with the S14 section above
+1. **The charmed catfish:** bewitched by Neris on day 302; its weekly Spells save to break the charm falls on day 309
+   (hidden; Rulings S14). Make the most of days 303-309 on the river by canoe while it is friendly: upstream P9 (G14
+   well), P10 (24 graves, the Lammala inscription: Vestus reads Ancient Argollëan), P11 (the barge cave: the water
+   elemental attacks anyone who sails the barge or enters the P12 tunnel unanointed, and anyone coming back from P12
+   with its treasures; P13-P14 anointing font; P12's treasures carry Lammala's curse); downstream P4 (to Q6) and P3
+   (to Q1). Feed the fish (a sheep) on each visit; Neris can renew Bewitch Beast if it breaks (+5 to its save if
+   threatened). Speak with Beasts gets concrete facts only. Carry the canoes knocked down (Rulings S13).
+2. **Iulia's Underwatch mission:** find the Horned Rat cult's shrine (#13u, `Adventure/AX3/Dungeons/Shrine of the
+   Horned Rat.md`; Provost Mentenus of the Tower; the wererat wall-tappers met in the sewers, Indifferent day 288) and
+   report it to Arëtar **before day 330**, with her monthly report. A sanctioned mission brings 1d4 Knights of the
+   Winged Sun (Rulings S14). Fit it around the river days (the catfish window first, then the shrine, or the shrine
+   on days the river is not worked).
+3. **Saved for later (do not start in S15 unless the table chooses it):** the Ionicus estate at 27.19 beyond the
+   Türos Aster ford (bugbears of the Ruined Imperial Fortress 26.19; barony offer; about a week's march; not built);
+   Celictor's crocodile (#45u, HD 15, 2,000gp alive); the arena; rumours 14 (Vasan Tikala / Doppelgänger Den #14u) and 8.
+4. **Month 11 ends day 330:** investments 1 and 3 vagaries (World State), Iulia's month-end Underwatch rolls (mission
+   1d6, Mentenus 1-in-6), wages (Phaedra due day 310: paid to 309), stalls to 316, vault fee to 323.
+5. Routine: Cyfaraun is Class II (`--market-class 2`); military oil 70 a month for the party; `walk` rests on "rest
+   due"; never `location --site` mid-delve; identify before selling; keep everyone under 10 st (Brennus' plate is 6 st).
+
