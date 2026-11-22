@@ -132,6 +132,24 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Rosa prised the eighteen garnets off the lid; Marcellus took the canopic jars. Ingrid: "Fans spent, the rod spent:
   home." Out by the grate before noon. Ingrid had the garnets kept back: "Twenty-one in a hundred the tax men ask us
   now; five next month."
+- Day 342, cold and grey. Doarë opened the vault: the garnets, the jars and the Provost's dagger, ring, cap, wand and
+  staff went into the company's chest. Vestus spent the day below the Tower as a thaumaturge, mapping the round
+  library and the curved corridor ("Noting that: a grate at the south end"). The new moon came and went.
+- Day 343, a gale above. Forty-third descent, the same eleven, for the slab north of the long gallery the company had
+  seen beyond the arcosolium. Through the painted gallery with the calm elf's statue and up the ramp into the east
+  gallery. Hrodvar rigged the slab and the haulers pulled from the ramp top forty feet off; it gave at the sixth
+  heave. Behind it, a wrapped warrior already on its feet, and three more of it: copies that moved through each
+  other. Five of the eleven quailed at the sight. Iulia lifted the Rod and spoke, and the warrior and all its
+  copies fell apart. In the annex behind it: a floor of silver and gold coins, a lotus bowl, a bronze winged dragon,
+  and a vellum roll on sword-hilt handles full of battle diagrams in the old elven script ("Fire," said Vestus, very
+  quietly, reading the third column).
+- Then the cedar door at the end of the burial gallery: a tomb with a martyr's sarcophagus, amethyst eyes, a heap of
+  black scarabs trembling on the dais. Iulia prayed from the doorway inside Neris' circle; the scarabs boiled up,
+  flasks and two fans of fire burned them away, and the martyr rose from its coffin. Its prayers of dread shook half
+  the company; flask after flask missed. Brennus stepped out to it, Vettius slipped round behind it and drove the
+  king's sword in, Vestus' fan caught it, and Marcellus' holy water finished it. No one was touched. The amethysts,
+  the jars and the ivory fretwork came home; out by ten. Neris and Varro breathed too much of the sludge on the way
+  out and shook it off on the street.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before

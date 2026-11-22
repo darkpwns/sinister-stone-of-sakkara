@@ -241,6 +241,17 @@ tags:
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | four terracotta canopic jars (F5) | 100 | marcellus |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | 2,000 silver pieces | 200 | marcellus |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | 600 gold pieces | 600 | varro |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | a terracotta libation bowl painted with lotuses | 15 | aelia |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | a dark bronze statuette of a winged dragon | 600 | hrodvar |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | SOTN Spellsword's Spellbook | 100 | vestus-the-unlikely |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | 2,000 silver pieces | 200 | hrodvar |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | 2,000 silver pieces | 200 | brennus |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | gem worth 200.0gp | 200 | lucilla |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | gem worth 200.0gp | 200 | lucilla |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | four terracotta canopic jars (F4) | 100 | aelia |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | ivory fretwork cornice tiles from the F4 archway | 100 | varro |
 
 ## Monster XP
 
@@ -305,6 +316,10 @@ tags:
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Skeleton | 12 | 13 | 156 |
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Mummy | 1 | 860 | 860 |
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Sepulchral Worm | 10 | 16 | 160 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Mummy | 1 | 1,060 | 1,060 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Insect Swarm | 1 | 65 | 65 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Mummy | 1 | 860 | 860 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Sepulchral Worm | 14 | 16 | 224 |
 
 ## Shares and XP awarded
 
@@ -673,6 +688,17 @@ tags:
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Hrodvar | 0.5 | 271 | 69 | 0 | +0% | 340 |
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Aelia | 0.5 | 271 | 69 | 0 | +0% | 340 |
 | 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Marcellus | 0.5 | 271 | 69 | 0 | +0% | 340 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Lucilla | 1 | 296 | 260 | 0 | +10% | 612 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Vettius | 1 | 296 | 260 | 0 | +5% | 584 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Vestus the Unlikely | 1 | 296 | 260 | 0 | +5% | 584 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Neris | 1 | 296 | 260 | 0 | +0% | 556 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Brennus | 1 | 296 | 260 | 0 | +5% | 584 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Iulia | 1 | 296 | 260 | 0 | +5% | 584 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Phaedra | 0.5 | 148 | 130 | 0 | +0% | 278 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Varro | 0.5 | 148 | 130 | 0 | +0% | 278 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Hrodvar | 0.5 | 148 | 130 | 0 | +0% | 278 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Aelia | 0.5 | 148 | 130 | 0 | +0% | 278 |
+| 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Marcellus | 0.5 | 148 | 130 | 0 | +0% | 278 |
 
 ## Wages
 
@@ -2299,3 +2325,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 341 |  | treasure share |  |  |  |  |
 | 341 |  | treasure share |  |  |  |  |
 | 341 |  | treasure share |  |  |  |  |
+| 343 |  | treasure share |  | 141gp 1sp 8cp |  | lucilla |
+| 343 |  | treasure share |  | 141gp 1sp 8cp |  | vettius |
+| 343 |  | treasure share |  | 141gp 1sp 8cp |  | vestus-the-unlikely |
+| 343 |  | treasure share |  | 141gp 1sp 8cp |  | neris |
+| 343 |  | treasure share |  | 141gp 1sp 8cp |  | brennus |
+| 343 |  | treasure share |  | 141gp 1sp 8cp |  | iulia |
+| 343 |  | treasure share |  | 70gp 5sp 9cp |  | phaedra |
+| 343 |  | treasure share |  | 70gp 5sp 9cp |  | varro |
+| 343 |  | treasure share |  | 70gp 5sp 9cp |  | hrodvar |
+| 343 |  | treasure share |  | 70gp 5sp 9cp |  | aelia |
+| 343 |  | treasure share |  | 70gp 5sp 9cp |  | marcellus |
