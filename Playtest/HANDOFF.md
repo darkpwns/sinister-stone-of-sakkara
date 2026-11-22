@@ -1028,3 +1028,58 @@ for both syndicates).
 Brennus -6, Vettius -3); a kept magic ring needs `actor mod ID ac.shield|ac.no_shield +N` and `saves.X -N`; armour
 lots are claimed with `inv claim L# ID` (move the old suit off first); `recover --gem VALUE --looks "TEXT"` makes one
 stone: a batch needs its value set by hand; Tertulla's two weeks lapse unnoticed: renew on the due day.
+
+## S21 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: source `Playtest/tools/s10_j.sh`,
+`s11_mend.sh`, `s13_j.sh`, `s12_town.sh`, **`s20_town.sh`** (`tday H`: `eat --in-town`, then wait H hours; one
+rollover per call, to the next morning only). Dungeon turns: a relight helper must fall back to the next torch carrier.
+Session 20 log: `Session Log/S20 — War with Sand and Bones.md` (four weeks, days 393-421; Judge block per week).
+
+**State on resume:** day 421 18:53, spring, Cyfaraun (18.05), the Solar Citadel barracks (free lodging). No adventure
+open (A81 paid out). Location Cyfaraun (settlement, wandering none). Night of day 421 first (`tday 13`), then `dawn 422`.
+Thirteen: Lucilla Venturer 8 (39/42; the wraith's -6 applied; alien right arm: a natural 1 on an attack hits an
+adjacent ally), Vettius Thief 8 (28; Leather Armor +1), Vestus Mage 6 (17; Invisibility in his repertoire), Neris
+Priestess 7 (20; Ring of Protection +1 by actor mods), Brennus Fighter 7 (31), Iulia Crusader 7 (39; Rod of the Dawn,
+Underwatch spear and shield), Phaedra Mage 5 (Beguile Humanoid added), Varro, Hrodvar, Marcellus Fighters/Vaultguard 5,
+Aelia Bard 6, Saturnin 0th (279 XP; 1st level at 600 as an Explorer: `advance-0th --member saturnin --class Explorer
+--apply`, then his wage), Cotta Explorer 2. All whole or nearly. Torches nearly gone: buy packs before descending
+(`inv buy ID "Torches (6)" --market Cyfaraun --market-note "Adventure/Markets/Cyfaraun (Market).md" --market-class 2`).
+Potions kept: L432 Monstrous Form and L433 Energy Invulnerability (Brennus), L436 Comprehension (Marcellus). Not sold or
+shown in Cyfaraun: L419 Liber's medallion (Lucilla), L327 the Provost's jade ring (stored).
+
+**The surface (closed in S20):** Selene slain night of 418 by Iulia under Arëtar's charge (quiet burial, no court);
+Sand & Bones (135 members) annexed by Lucilla's Change in Management day 419 (Jonus with élan; the hesitant loyal
+while no plurality betrays); Thana runs its honest trade; the traitor hunt done (five Watch sellers drowned, ten Pony
+informers known and watched, ten wharf men untraced). Iulia never heard of the hunt or the drownings; her only act
+was the sanctioned charge. Keep it so: Iulia takes no part in the Family's work (Rulings S19).
+
+**The table's direction (user, S20):** the surface threads are wrapped; the company returns to the Nethercity in
+earnest from day 422 and delves steadily. Targets (World State prep queue): F14's serpent door and T (the Great
+Teacher, 11 HD; the F17 egg-bulbs' alarm wakes him: the table will face him only with a way out), F17's sealed cases,
+F19's 2 rhagodessae, F18's east finger, J1 (the half-open bronze door off I7: the Doom Temple of Dirgion) and J4's
+font, I8 (the elven brothers' sepulchre: 2 mummy warlords, resin-sealed slab), I9's secret hatch to J7, I14's pillar to
+K11; L4 (the platform; the troglodyte shaman may guide after a month of peace, a reaction again from ~day 436). The
+troglodyte remnant (females, 40 eggs, the gross breeder, the shaman) is under the company's oath: do not harm it.
+Check the J, K and L notes for prep before entry (`unprepped-sites.md`); delve routine: `adventure start` + `join`
+(`--kind henchman`), `location --kind dungeon --site ... --level N --table ...` once, then only --level/--table/
+--wandering; `location --wandering "1d6 every 3 turns, 6+"` as the SOTN hubs give; rest each 5 turns; relight on NONE
+LIT; after each fight `state end`, hp to the actors, delete Campaign/combat-state.json, `encounter end`.
+
+**Scheduled:** weekly from 421 (428, 435, ...): Brotherhood (1-in-6), an unprompted betrayer (1-in-6), the Watch
+(1-in-6), the city links the Captain's deed and the new guild (1-in-6), Sand & Bones' hesitant (1-in-6 one turns);
+Order rolls weekly (1d4 per deathbringer PC in Cyfaraun; last day 410: next day 417 was not rolled: roll on 424 and
+weekly). Wages: 430 Phaedra (Vettius pays); 437 Varro (Lucilla), Hrodvar (Iulia); 443 Saturnin; 444 Aelia (800) and
+Marcellus (Lucilla); 451 Cotta (Vettius). Tertulla paid to 433; the vault fee to 443. Day 450 month 15 ends:
+Guildhouse fees (`python3 Playtest/tools/gh_balances.py`, 0.25% of each balance), investments 1 (Protector to month
+16), 2 (Monopoly to month 15) and 3, Iulia's report and task roll, Vestus' dues, the Family's month in full (the old
+Family ~12,060 + Sand & Bones ~7,050 syndicate takes, hijink XP above Lucilla's threshold via `actor set lucilla xp`;
+fronts 1,500, venture half 2,750, Lucilla's half of Sand & Bones' business ~1,625, no XP); day 451 selling day
+(through the Family at full value, no tax check; identify first).
+
+**Routine (S20):** `eat --in-town` before every town rollover (the S19 thirst deaths); an ambush from behind is
+`attack --ambush --rear`; monster missiles `--kind missile`; `encounter surprise --members` with only those present;
+check a foe's hp before each scripted attack; one spell-area damage `roll`, then `damage T --dice N [--half]` per
+target; Slumber's 10' sphere holds 3 man-sized; `level-up` ignores permanent enervation losses (subtract them by
+hand); kept rings need `actor mod`; armour lots `inv claim`; `recover --gem VALUE --looks "TEXT"` is one stone (set a
+batch's value by hand); trapbreaking: declare hasty or methodical before the throw; Cyfaraun is Class II for party
+purchases (`--market-class 2`), Class III for hiring.
