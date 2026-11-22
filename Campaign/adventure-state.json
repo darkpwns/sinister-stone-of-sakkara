@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 36,
-  "L": 238,
+  "L": 245,
   "H": 37,
-  "M": 81
+  "M": 82
  },
  "adventure": {
   "id": "A36",
@@ -19,11 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 38630,
     "level_before": 6,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 304,
+    "xp_award": 2638
    },
    "vettius": {
     "id": "vettius",
@@ -33,11 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 36872,
     "level_before": 6,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 304,
+    "xp_award": 2518
    },
    "iulia": {
     "id": "iulia",
@@ -47,11 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 32278,
     "level_before": 6,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 304,
+    "xp_award": 2518
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -61,11 +67,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 29718,
     "level_before": 5,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 304,
+    "xp_award": 2518
    },
    "neris": {
     "id": "neris",
@@ -75,11 +83,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 26819,
     "level_before": 5,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 304,
+    "xp_award": 2398
    },
    "brennus": {
     "id": "brennus",
@@ -89,11 +99,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 30306,
     "level_before": 5,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 304,
+    "xp_award": 2518
    },
    "phaedra": {
     "id": "phaedra",
@@ -103,11 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 14081,
     "level_before": 4,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 304,
+    "xp_award": 1199
    },
    "varro": {
     "id": "varro",
@@ -117,11 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 13299,
     "level_before": 4,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 304,
+    "xp_award": 1199
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -131,11 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 13299,
     "level_before": 4,
-    "class": "Dwarven Vaultguard"
+    "class": "Dwarven Vaultguard",
+    "returned_day": 304,
+    "xp_award": 1199
    },
    "aelia": {
     "id": "aelia",
@@ -145,11 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 14253,
     "level_before": 5,
-    "class": "Bard"
+    "class": "Bard",
+    "returned_day": 304,
+    "xp_award": 1199
    },
    "marcellus": {
     "id": "marcellus",
@@ -159,11 +179,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 13102,
     "level_before": 4,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 304,
+    "xp_award": 1199
    },
    "gnaeus": {
     "id": "gnaeus",
@@ -173,18 +195,185 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 10259,
     "level_before": 4,
-    "class": "Explorer"
+    "class": "Explorer",
+    "returned_day": 304,
+    "xp_award": 1199
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M82",
+    "monster": "Mummy",
+    "source": "Mummy (MM p. 239)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 660
+   }
+  ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 304,
+   "at": "Cyfaraun",
+   "total": 21585.0,
+   "per_share": 2398.3333333333335,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 2398,
+     "pct": 10,
+     "pen": 0,
+     "award": 2638,
+     "xp_before": 38630,
+     "xp_after": 41268,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 2398,
+     "pct": 5,
+     "pen": 0,
+     "award": 2518,
+     "xp_before": 36872,
+     "xp_after": 39390,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 2398,
+     "pct": 5,
+     "pen": 0,
+     "award": 2518,
+     "xp_before": 32278,
+     "xp_after": 34796,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 2398,
+     "pct": 5,
+     "pen": 0,
+     "award": 2518,
+     "xp_before": 29718,
+     "xp_after": 32236,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 2398,
+     "pct": 0,
+     "pen": 0,
+     "award": 2398,
+     "xp_before": 26819,
+     "xp_after": 29217,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 2398,
+     "pct": 5,
+     "pen": 0,
+     "award": 2518,
+     "xp_before": 30306,
+     "xp_after": 32824,
+     "capped": null,
+     "zero": false,
+     "level_up": 6
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 1199,
+     "pct": 0,
+     "pen": 0,
+     "award": 1199,
+     "xp_before": 14081,
+     "xp_after": 15280,
+     "capped": null,
+     "zero": false
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 1199,
+     "pct": 0,
+     "pen": 0,
+     "award": 1199,
+     "xp_before": 13299,
+     "xp_after": 14498,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 1199,
+     "pct": 0,
+     "pen": 0,
+     "award": 1199,
+     "xp_before": 13299,
+     "xp_after": 14498,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 1199,
+     "pct": 0,
+     "pen": 0,
+     "award": 1199,
+     "xp_before": 14253,
+     "xp_after": 15452,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 1199,
+     "pct": 0,
+     "pen": 0,
+     "award": 1199,
+     "xp_before": 13102,
+     "xp_after": 14301,
+     "capped": null,
+     "zero": false
+    },
+    "gnaeus": {
+     "share": 0.5,
+     "why": null,
+     "base": 1199,
+     "pct": 0,
+     "pen": 0,
+     "award": 1199,
+     "xp_before": 10259,
+     "xp_after": 11458,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 304,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -22772,6 +22961,265 @@
    "stored": {
     "place": "Silk Pony strongbox",
     "day": 303
+   }
+  },
+  "L239": {
+   "id": "L239",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.17,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P5"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 25.0,
+    "stone": 0.17,
+    "name": "a gilded linen-and-plaster funerary mask (the beach mummy)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a gilded linen-and-plaster funerary mask (the beach mummy)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
+   }
+  },
+  "L240": {
+   "id": "L240",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 2.45,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P12 basin"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2450.0,
+    "stone": 2.45,
+    "name": "245 white nacreous seashells",
+    "merch": null
+   },
+   "player": {
+    "desc": "245 white nacreous seashells",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
+   }
+  },
+  "L241": {
+   "id": "L241",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.2,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P12 basin"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1200.0,
+    "stone": 1.2,
+    "name": "120 great white shark's teeth",
+    "merch": null
+   },
+   "player": {
+    "desc": "120 great white shark's teeth",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
+   }
+  },
+  "L242": {
+   "id": "L242",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P12 basin"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2500.0,
+    "stone": 1.0,
+    "name": "100 pink nacreous seashells",
+    "merch": null
+   },
+   "player": {
+    "desc": "100 pink nacreous seashells",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
+   }
+  },
+  "L243": {
+   "id": "L243",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.6,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P12 basin"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 3000.0,
+    "stone": 0.6,
+    "name": "60 sardonyx seashells",
+    "merch": null
+   },
+   "player": {
+    "desc": "60 sardonyx seashells",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
+   }
+  },
+  "L244": {
+   "id": "L244",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.5,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P12 basin"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 4750.0,
+    "stone": 0.5,
+    "name": "25 pieces of coral: pink, red, black and gold",
+    "merch": null
+   },
+   "player": {
+    "desc": "25 pieces of coral: pink, red, black and gold",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
+   }
+  },
+  "L245": {
+   "id": "L245",
+   "adventure": "A36",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.1,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 304,
+    "where": "P12 basin"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 7000.0,
+    "stone": 0.1,
+    "name": "21 pearls, black, white and gold, and one great black pearl",
+    "merch": null
+   },
+   "player": {
+    "desc": "21 pearls, black, white and gold, and one great black pearl",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "grey-sisters-vault",
+    "day": 304
    }
   }
  },

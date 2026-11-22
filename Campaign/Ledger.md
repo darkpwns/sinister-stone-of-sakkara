@@ -128,6 +128,13 @@ tags:
 | 272 | Nethercity, expedition 23 (the river banks) | a carved alabaster amphora | 300 | vestus-the-unlikely |
 | 272 | Nethercity, expedition 23 (the river banks) | a carved alabaster amphora | 300 | neris |
 | 303 | Nethercity, expedition 30 (upriver) | grave goods of 24 wall graves (P10): rings, amulets, cups, coins of the old elves | 336 | vestus-the-unlikely |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | a gilded linen-and-plaster funerary mask (the beach mummy) | 25 | aelia |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 245 white nacreous seashells | 2,450 | brennus |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 120 great white shark's teeth | 1,200 | brennus |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 100 pink nacreous seashells | 2,500 | brennus |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 60 sardonyx seashells | 3,000 | lucilla |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 25 pieces of coral: pink, red, black and gold | 4,750 | lucilla |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 21 pearls, black, white and gold, and one great black pearl | 7,000 | lucilla |
 
 ## Monster XP
 
@@ -168,6 +175,7 @@ tags:
 | 303 | Nethercity, expedition 30 (upriver) | Grey Goo | 1 | 95 | 95 |
 | 303 | Nethercity, expedition 30 (upriver) | Shadow | 4 | 71 | 284 |
 | 303 | Nethercity, expedition 30 (upriver) | Wight | 3 | 80 | 240 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Mummy | 1 | 660 | 660 |
 
 ## Shares and XP awarded
 
@@ -360,6 +368,18 @@ tags:
 | 303 | Nethercity, expedition 30 (upriver) | Aelia | 0.5 | 19 | 34 | 0 | +0% | 53 |
 | 303 | Nethercity, expedition 30 (upriver) | Marcellus | 0.5 | 19 | 34 | 0 | +0% | 53 |
 | 303 | Nethercity, expedition 30 (upriver) | Gnaeus | 0.5 | 19 | 34 | 0 | +0% | 53 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Lucilla | 1 | 2,325 | 73 | 0 | +10% | 2,638 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Vettius | 1 | 2,325 | 73 | 0 | +5% | 2,518 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Iulia | 1 | 2,325 | 73 | 0 | +5% | 2,518 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Vestus the Unlikely | 1 | 2,325 | 73 | 0 | +5% | 2,518 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Neris | 1 | 2,325 | 73 | 0 | +0% | 2,398 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Brennus | 1 | 2,325 | 73 | 0 | +5% | 2,518 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Phaedra | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Varro | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Hrodvar | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Aelia | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Marcellus | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
+| 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Gnaeus | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
 
 ## Wages
 
@@ -1678,3 +1698,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 303 | Cyfaraun | torch | 6 |  | 1sp | phaedra |
 | 303 | Cyfaraun livestock market | a sheep, slaughtered and halved for the white fish, evening of day 303 |  |  | 2gp | varro |
 | 303 | Silk Pony Inn (#25) | beds for ten, night of day 303 (Neris and Hrodvar at the Citadel) |  |  | 2gp | vettius |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 |  | treasure share |  |  |  |  |
+| 304 | Silk Pony Inn (#25) | beds for ten, night of day 304 (Neris and Hrodvar at the Citadel) |  |  | 2gp | vettius |

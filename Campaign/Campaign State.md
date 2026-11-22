@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 304
-  time: 04:54
+    day: 305
+  time: 03:46
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -34,7 +34,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.334
+    encumbrance_st: 8.998
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -55,8 +55,8 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 21
-    hp_max: 22
+    hp: 22
+    hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
@@ -77,7 +77,7 @@ public:
     hp: 12
     hp_max: 13
     conditions:
-    - 'enervated (shadow, day 303): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it (passes: day 304)'
+    - 'enervated (shadow, day 303): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it (passes: days 304, 305)'
     spells_used: []
     encumbrance_st: 9.448
   - name: Varro
@@ -103,7 +103,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 13.257
+    encumbrance_st: 9.257
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -146,7 +146,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 304
+clock_day: 305
 ---
 # Campaign State
 

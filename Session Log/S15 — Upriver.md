@@ -62,6 +62,28 @@ of the Underwatch, has the month to find where the Horned Rat cult worships.
   man to me on his first day and I will see to him myself." And, gently: the rat-worshippers' shrine before the
   month is out. Neris and Hrodvar slept under the oculus; Hrodvar woke a little warmer.
 
+- Day 304, thirty-first descent, for the Sea Mother's basin. Rosa's call the night before, with Ingrid's fallback in
+  writing: two carriers anointed, everyone else inside Neris' moving circle on the way out, Vestus' dispelling held
+  back for the guardian if the circle fails, and if all else fails the treasure goes back into the river. Gideon
+  added Iulia's remove curse for anyone it marks, on the first day. Brennus and Gnaeus breathed the sludge again.
+- On the beach a dead thing in linen and a gilded mask came down the burial-cave steps as Hrodvar finished the
+  canoes. Half the company could not look at it and cowered; Iulia's prayer turned it, and it cowered in its turn
+  while Brennus, Gnaeus, Marcellus and Lucilla cut it down and Vestus' fan burned it. Its gilded mask came away.
+  The fish came up for its half sheep.
+- At the great cavern Hrodvar lashed the four canoes side by side into one raft while Lucilla, Brennus and Vestus
+  went to the font and washed in the salt (heavy and cold again). In the basin cave Vestus took a charcoal rubbing of
+  the loops and strokes on its sides; Lucilla and Brennus filled their sacks with everything in it, about 6 st of
+  shells, teeth, coral and pearls. Both felt a chill pass through them and go.
+- Neris began her circle at the tunnel mouth before they stepped out of it. As the carriers came into the cavern the
+  river stood up: a column of black water higher than the cavern's statue, cold rolling off it, with a roar like
+  surf. It came at them and broke against nothing at the circle's edge. Everyone kept inside the ten feet round Neris
+  and Iulia to the raft, and the raft went down the river with the thing towering and crashing beside it the whole
+  way, never reaching in. At the beach Hrodvar unlashed the canoes inside the circle; the grey worm came up again
+  near the shore and fled from the churning water. Up the crone stair, the black water sank back behind them.
+- Out by the grate before three. Neris looked at Lucilla and Brennus with her curse-sight: nothing on them. The
+  basin's treasure and the mask went into the company's chest at the Grey Sisters' for the selling day.
+- Brennus rose to the sixth rank (Myrmidon) and trained to the axe (Weapon Focus).
+
 ## Who they met
 
 ## Treasure and XP
