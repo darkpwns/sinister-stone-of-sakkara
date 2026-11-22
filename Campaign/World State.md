@@ -171,6 +171,19 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **The Argollëan Family under Lucilla (day 383):** Liber Faunus slain night of day 381 (Neris' Order contract, A70);
+  blamed on Sand & Bones (a Silk Pony die on his pillow; the Family's reading 4). Change in Management (Rulings S19):
+  Aranth Faunus accepts; Hesta Faunus and Megaravicos Eight-Fingers hesitant (loyal while the betrayers are no
+  plurality); 25 0th-level members **betray** (pretend loyalty; Judge: each week 1-in-6 one sells word to Sand & Bones
+  or the Watch); 26 accept with élan (+1 loyalty), the rest accept. 224 members. Base: the hideout under The Mink
+  (11u). Lucilla's take: 12,065gp a month (AX3 p. 75), from day 390. The Mink and Liber's businesses: Aranth and
+  Hesta's. The Family wants war on Sand & Bones (Selene); the Order will name Selene at a weekly roll. Lucilla holds
+  Liber's medallion (L419) and sword (L421), unidentified; the strongbox (blackmail files) returned to the Family
+  unopened (it is the Family's again, i.e. Lucilla's to read: +1 on later Change in Management or loyalty rolls of
+  members it compromises).
+- **Day 389:** Oppius with 1,000gp for Virathos (A72's participants: Neris, Vettius, Lucilla, Brennus); Order rolls (Selene to be named to the first deathbringer who rolls a 4).
+- **Selene's notes for Vasan** (weeks of 379 and 386): reported; her target, a rival for her lover's eye, still lives.
+- Vault fee: 20gp paid day 383 (two months: to day 443).
 - **Neris' Order contract: Liber Faunus** (day 376; [[Order Contracts (S18)]]): his nights: The Mink office till after midnight, then a curtained chair with 4 bravos to a tall townhouse on Memorial Street (two bravos at the door all night; Judge: the house is unprepped: build it before anyone enters). The company has not been marked watching (days 376, 378).
 - **Selene seeks the Brotherhood (week of day 379):** a sealed note for "Vasan" with "ruby lips" at the Nicean wine stalls: a rival for her lover's eye. Lucilla hears on a 1 (1d6) each day she passes the Emporium. Destrio's charge applies.
 - **Day 380:** Oppius with 1,000gp for Nerio (A68's participants: Iulia, Vettius, Lucilla, Brennus, Neris).
@@ -207,7 +220,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
   the F17 lance); the jade ring (the Provost's: magic research by Vestus, 10 days and 2,000gp, or a sage outside the
   city); Liber's note for Vasan (above); Iulia's month-13 report by day 390 and the month-end task roll; Vestus'
   Thunderbolt formula kept; the Order's weekly rolls (368).
-- Scheduled: 380 Oppius (Nerio 1,000gp); 381 Hrodvar up; 382 Order rolls; 386 Brotherhood weekly; 391 Tertulla;
+- Scheduled: 389 Oppius (Virathos 1,000gp) and Order rolls (Selene); 390 month 13 ends (and the Family's first take); 391 selling day, Tertulla; 393 Brotherhood weekly;
   376 Varro, Hrodvar; 377 Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends (fees,
   investments 1 and 3, investment 2's first roll after its delay, Iulia's rolls and report, Vestus' dues, Cotta's
   wage to 420); 391 selling day (the villa's gems and jewels L393-L397, L399-L407).

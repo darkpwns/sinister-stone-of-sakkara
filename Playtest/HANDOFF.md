@@ -892,3 +892,21 @@ wage; 383 Aelia (800), Marcellus, vault fee; 386 Brotherhood weekly; 390 month 1
 3, Iulia's report and task roll, Vestus' dues, Cotta's wage); 391 selling day (villa gems) and Tertulla; below: the
 troglodyte hive (chieftain, hoard in I2), F14/T, F17, F19. Vestus' and Phaedra's new formulas need a week's study
 each to enter a repertoire.
+
+## S20 after the fourth S19 week — start here (supersedes everything above)
+**State on resume:** day 386 ~18:45, spring, Cyfaraun, the Solar Citadel. No adventure open (A72 paid out).
+Location Cyfaraun (settlement). Night of day 386 first, then `dawn 387`. Thirteen, all whole; Hrodvar's bed rest per
+the engine (`party show` / exploration state, about day 385).
+
+**Days 380-386:** A69 Nerio's commission; Lucilla's plan; Selene's note (ruby lips) reported; Liber's Townhouse built;
+A70 Liber and his bodyguard slain asleep (Neris' contract, Noiselessness), the Sand & Bones die left; the Family blames
+Selene; Change in Management day 383 (Rulings S19): **Lucilla heads the Argollëan Family** (World State); A71 Liber's
+5,000gp; A72 Virathos (Neris' second contract); Selene's second note.
+
+**Open:** day 389 Oppius (Virathos 1,000gp, its own record) and Order rolls (Selene named to the first 4); 390 month
+13 ends: Guildhouse fees, investments 1, 2 (first roll after its delay) and 3, Iulia's report and task roll, Vestus'
+dues, Cotta's wage, **the Family's first monthly take (12,065gp) to Lucilla** (Rulings S19) and its hijink XP if
+the rules give it (RR Experience from Hijinks: check before paying); 391 selling day through the Family at full value
+(villa gems and jewels; identify L419 medallion and L421 sword first; the jade ring L327 is the Provost's: still not in
+Cyfaraun) and Tertulla; the war with Sand & Bones (the Family expects it); the 25 betrayers (weekly 1-in-6); below:
+the troglodyte hive, F14/T, F17, F19.

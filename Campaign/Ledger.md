@@ -2675,3 +2675,29 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 378 |  | treasure share |  | 2gp |  | lucilla |
 | 378 |  | treasure share |  | 2gp |  | brennus |
 | 378 |  | treasure share |  | 2gp |  | neris |
+| 380 |  | treasure share |  | 200gp |  | iulia |
+| 380 |  | treasure share |  | 200gp |  | vettius |
+| 380 |  | treasure share |  | 200gp |  | lucilla |
+| 380 |  | treasure share |  | 200gp |  | brennus |
+| 380 |  | treasure share |  | 200gp |  | neris |
+| 380 | the Nicean wine-seller (the Emporium stalls) | a day's pay for the third note for Vasan Tikala, day 380 |  |  | 5sp | lucilla |
+| 380 | Cyfaraun | Dice | 1 |  | 5sp | lucilla |
+| 382 |  | treasure share |  | 2gp 4sp |  | neris |
+| 382 |  | treasure share |  | 2gp 4sp |  | vettius |
+| 382 |  | treasure share |  | 2gp 4sp |  | lucilla |
+| 382 |  | treasure share |  | 2gp 4sp |  | vestus-the-unlikely |
+| 382 |  | treasure share |  | 2gp 4sp |  | brennus |
+| 382 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 383 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 383 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 383 | the Grey Sisters (vault fee) | the vault fee for the company's sealed chest, days 384-413 (10gp a month; two months to keep it simple? no: one month) |  |  | 20gp | lucilla |
+| 383 | the Argollëan Family's members (Change in Management bribes) | a month's wage to each of the Family's 224 members by level (RR Henchmen wage table; Change in Management, RR p. 370; Lucilla's Bribery: a month's pay +3, Rulings S10), day 383 |  |  | 11,350gp | lucilla |
+| 384 |  | treasure share |  | 1,000gp |  | neris |
+| 384 |  | treasure share |  | 1,000gp |  | vettius |
+| 384 |  | treasure share |  | 1,000gp |  | lucilla |
+| 384 |  | treasure share |  | 1,000gp |  | vestus-the-unlikely |
+| 384 |  | treasure share |  | 1,000gp |  | brennus |
+| 386 |  | treasure share |  | 4gp |  | neris |
+| 386 |  | treasure share |  | 4gp |  | vettius |
+| 386 |  | treasure share |  | 4gp |  | lucilla |
+| 386 |  | treasure share |  | 4gp |  | brennus |

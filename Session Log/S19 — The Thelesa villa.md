@@ -2,7 +2,7 @@
 type: session
 session: 19
 date_real: 2026-11-22
-date_game: winter-spring day 358-379
+date_game: winter-spring day 358-386
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -134,6 +134,31 @@ given Vestus a name: Una of the Thelesa villa.
   shuttered upper windows; two bravos stayed at the door all night; a lamp burned upstairs for an hour.
 - Day 379, clear. The river gave up the Jutlander below the Bridge Gate; the taverns blame river robbers.
 
+- Day 380. Oppius brought 1,000gp for the cutpurse. At the Citadel that evening Lucilla laid out her plan: when
+  Neris does the Order's work on Liber, the Family will need a head, and the company will give it one. "We keep
+  the fence, and this time we keep all of it." Kwame loved it; Ingrid wanted the Captain and the Lawful kept out of
+  it; Tomasz wanted the blame put somewhere else. Gideon: "Lucilla does it. Iulia is never seen near it." Lucilla
+  took a third note from the wine-seller: "Ruby lips. For the house of Vasan Tikala": the Silk Pony's mistress,
+  Selene, wants a rival killed. The Order was told. Lucilla bought a set of the Silk Pony's own house dice.
+- Day 381. Vettius looked over Memorial Street's roofs by day.
+- Night of day 381. Over the roofs, in through a latched garret window. Neris' silence fell around them on the
+  stair: no creak, no breath. A man slept across the bedchamber door; Vettius ended him without a sound. Liber
+  Faunus slept with a lamp guttering beside him; Neris did the Order's work. They took his silver medallion, his
+  leaf-bladed sword and the cedar strongbox from his study, left a Silk Pony die on his pillow, and went out the way
+  they came. The bravos at the street door never turned their heads.
+- Day 382. By noon the Old District knew: Liber Faunus murdered in his bed, and a Sand & Bones die on the pillow. His
+  brother, his sister and his lieutenant fell to quarrelling over who leads. Oppius' slip for Neris that day: Virathos,
+  a Krysean trader who killed a horse dealer over a stallion's price.
+- Day 383. Lucilla went to The Mink with a purse for every member and Liber's strongbox, still locked: "Bought back
+  this morning from a Sand & Bones fence. It's the Family's." Hesta Faunus looked at her a long time and believed
+  her. Lucilla offered what Liber had kept from them: a war chest against the Silk Pony, a company that has emptied
+  the Nethercity, and her word. Aranth took her hand first; most of the Family followed him. Hesta and
+  Megaravicos said they would see. Lucilla is the Family's head. Oppius said the Order will name Selene in time.
+- Day 384. Oppius brought 5,000gp for Liber.
+- Night of day 385. The Family's men knew where the Krysean trader slept. Vettius' picks would not take the lock, so
+  Brennus broke the door inside Neris' silence, and the man never woke.
+- Day 386. Lucilla's own men at the Emporium brought her Selene's second note for Vasan before the wine-seller could.
+
 ## Who they met
 - An old farmer by the Türos Quell road (day 362): bent, three teeth, chews a straw; "She was a pretty thing once."
 - Four Knights of the Winged Sun (Arëtar's escort, day 362).
@@ -156,6 +181,10 @@ given Vestus a name: Una of the Thelesa villa.
 - Day 375: the flying disk (L386) sold through Liber, 62,400gp, sale XP to the A57 share-holders. Brennus Fighter 7,
   Aelia Bard 6.
 - Night of day 377 (A68): Nerio's purse 10gp; 30 XP over 5 shares. His commission (1,000gp) comes day 380.
+- Day 380 (A69): the Order's 1,000gp for Nerio. Night of day 381 (A70): Liber's purse 12gp, a silver medallion
+  (unknown), a leaf-bladed sword (unknown), his strongbox (returned to the Family day 383); Liber and his bodyguard
+  (930 XP); 1,049 XP over 5 shares. Day 384 (A71): the Order's 5,000gp for Liber. Night of day 385 (A72): Virathos'
+  purse 16gp; 36 XP over 4 shares (his commission, 1,000gp, day 389).
 
 ## Rumours given
 - Day 358: Lucilla's contacts at the Mink (the villa, its madwoman and the grey walker on the wall).
@@ -166,7 +195,12 @@ given Vestus a name: Una of the Thelesa villa.
 - The rainbow disc is at the Tower of Knowledge until day 375.
 
 ## Next time
-Day 379, evening, the Solar Citadel. Hrodvar abed to day 381. Neris holds the Order's contract on Liber Faunus,
+Day 386, evening, the Solar Citadel. Lucilla is the head of the Argollëan Family (The Mink's hideout, 224 members);
+the Family blames Sand & Bones for Liber and wants Selene's blood; the Order will name Selene. Month 13 ends on day
+390; the selling day is 391 (the villa's gems, Liber's medallion and sword once named), now through the company's
+own Family at full value.
+
+(Week 3 close:) Day 379, evening, the Solar Citadel. Hrodvar abed to day 381. Neris holds the Order's contract on Liber Faunus,
 the company's own buyer: he sleeps in a guarded house on Memorial Street. Oppius owes 1,000gp for the cutpurse
 (day 380). Below: the broken lizard-man hive, the serpent door, the sealed cases.
 
@@ -252,4 +286,20 @@ cases and their sleeper, the narrow way east from the Cave of the Falling Star.
 > night watch 1 (two bravos at the door). Day 379: Brotherhood weekly 1: Selene (2; "ruby lips"), target a rival
 > for her lover's eye (2); Lucilla hears 5 (no); Hrad ashore 1 (river robbers blamed, 4); Balkar inquiry 3 (no);
 > Nerio linked 2 (no).
+> Days 380-386: Site build: Liber's Townhouse (Adventure/AX3/Dungeons/Liber's Townhouse/): bodyguard 1 (Corvo,
+> Assassin 4, hp 4d6 6), roof trapdoor barred 4, strongbox magic-locked 5, TT H for the strongbox: nothing (the
+> blackmail files only). Destrio on Selene's note 1d3 3 (day 383): 1 (the Order will name her). Night of 381: Liber
+> home 2; Vettius' Climbing 8 (auto), Lockpicking 19 (the garret window); Neris' Noiselessness; Corvo and Liber
+> slain asleep inside the silence (no wake checks: no sound passes); purse 3d6 12; Medallion of Whispers (L419) and
+> Short Sword +1 (L421, apparent 7gp) unidentified; the die left. Commission 1d3 2 (day 384). Day 382: the Family
+> reads it 4 (Sand & Bones blamed), the succession 2 (no heir agreed). Order rolls 1, 2, 1, 4, 1, 3: Neris (4):
+> contract 4 (Virathos). Day 383: Hesta sees through the strongbox tale 6 (no). Change in Management (RR p. 370; all
+> at +3: Lucilla's CHA +2, Diplomacy +2, levels 7 vs 10 -3, Liber's CHA -2, a month's wage each +3 by her Bribery
+> (Rulings S10, S19), Judge +1 (the box returned, the war chest); Hesta and Aranth a further -2, blood): Hesta 7
+> (hesitate), Aranth 10 (accept), Megaravicos 8 (hesitate), 5th level 14 (bard, élan), 10, 10; 4th level (6) 8
+> (hesitate); 3rd (13) 11; 2nd (16) 8, (15) 8; 1st (25) 10, (25) 13 (élan), (18) 10; 0th (25) 7 (hesitate), (25) 11,
+> (25) 5 (betray), (25) 11. Betrayers 25 (no plurality): the hesitant stay loyal. Bribes 11,350gp. Night of 385:
+> Virathos asleep 3; Vettius' Lockpicking 5 (fail); Brennus' door 12, 16, 20 (burst, inside the silence); purse 16;
+> commission 1d3 3 (day 389). Day 386: Brotherhood weekly 1: Selene again (2); the Watch on Balkar/Nerio 4 (no);
+> the Watch past Sand & Bones on Liber 2 (no); a betrayer acts 4 (no); Sand & Bones moves first 5 (no).
 
