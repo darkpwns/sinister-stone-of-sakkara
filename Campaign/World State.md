@@ -112,6 +112,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 354 expedition 48 (A57, ten; Vestus studying): shrieking fungi (8, sewer caves, enc284) avoided by a detour. **F14** (bronze door forced at once): the snake-loop secret door and its blade **found** (Vettius), left shut. **F15**: door forced; **F16** found (Lucilla, Aelia), both levers pulled (no listener); dome raised, the **flying disk** taken (L386, two bearers); **F17** opened by the right lever: wall fragments taken (L387, 5,000gp); **the three glass cases left shut (alarm bulbs untouched)**. 6 grave ghouls (wanderers, F15): 5 destroyed (Rod rebuke 2, Phaedra's Fan 2, rebuke 1), 1 fled (3 hp); Varro's ghoul fever cured by Neris. 9 sepulchral worms (wanderers) destroyed by rebukes. Undercity special: none.
 - Day 358 (A58): Rufio Calvus, last acolyte of Dirgion's death cult, killed asleep in a dyer's cellar on the old colony stair (Lake District) by Brennus (the Order's contract); the door broken; the unholy symbol left on him.
 
+### [[Thelesa Villa]] (hex 17.06; day 362, A60)
+- Built day 359 (judge-interim). Day 362: Una slain (V5: Vettius' "Freeze", Vestus' coup de grace; the Order's contract and Arëtar's task); the wraith destroyed by Iulia's Rod (V2); 9 giant rats slain (V6); H41 (V4) and H40 (V6b) taken; the V3 altar desecrated and broken. Empty now: the twelve wax masks, the founder's empty tomb (V7).
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |
@@ -150,6 +153,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Caeso Lentulus (day 339): up, one eye; Friendly; "ask for me at the Old District post".
 - Cotta (Vettius' henchman, Explorer 2, Outrider; day 331): loyalty +0, morale 0.
 
+- **Day 362: Arëtar's month-12 task done** (the Thelesa haunt: Lady Lipsus' petition): the witch slain fleeing, the grey walker destroyed, her altar broken, her prayer book and symbol given to him; gift 750gp (A61). Still Friendly. Iulia's month-13 report due by day 390.
+- **The Order:** Vestus' contract (Una) done day 362; the commission (2,000gp) comes by Oppius on day 364. Order rolls day 361: none; next day 368.
+
 ## Former characters (day 161)
 - Gnaeus (Explorer 5): resigned from Lucilla's service at his level gain on day 317 (loyalty roll 2+3 = 5); left with his share and his own gear (Battle Axe +1 L29); in Cyfaraun, may form his own band (actor in Characters/former).
 - Dead: Aulus, Marcia (cenotaphs in Türos Tem, paid from their deposits), Thorwell, Quintus (bodies in L2 38). Retired (injury): Zaira ES1 (one leg), in Türos Tem.
@@ -162,6 +168,11 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Day 364:** Brother Oppius with Vestus' 2,000gp commission for Una (book it as its own record, like A59).
+- **Day 375:** the Tower of Knowledge names the rainbow disc L386 (paid 2,000gp by Lucilla for the A57 share-holders, day 361). L327 (the Provost's jade ring) stays unidentified in the vault: not to be shown at the Tower.
+- **Lucilla enervated** (the wraith, day 362; max hp 23): a Death save each morning; fail: max hp -1 permanently; three passes running end it.
+- The Underwatch spear (w60) restored to Iulia's hand day 362 (its day-324 broken shaft repaired, 1gp; judge-notes).
+- Gems and jewelry from the villa (L393-L397, L399-L407, 3,525gp) stored in the Citadel barracks for month 14's selling day (day 391).
 - The white fish: re-charmed day 309; day-316 save failed; **day-323 save 19: the charm is broken** (hidden; the party does not know). Its attitude rolled 2d6+2 = 12: Friendly (fed on every visit). The river's catfish throw (6+ each turn on the water) applies again (Rulings S15), as a friendly fish: it comes to the canoes for food and does not attack while Friendly; Neris may re-charm it (+0).
 - Day 330 (month 11 end, done): Guildhouse storage fees posted (0.25% of each balance; Gnaeus' 9,397gp balance withdrawn by him, posted day 330); investments (1) 87 and (3) 89: **Protector** both ((1) a ruler, 5 months: ignores Annihilation, Delay, Decimation, Brigandage to month 16; (3) a powerful monster, 1 month); returns 7 + 30gp to Lucilla; Iulia's month-end: no task (2); **Mentenus learned the Underwatch office is filled again (1)**.
 - **Mentenus seeks the Brotherhood (day 330; the weekly Judge's call 1-in-6 came up 1, Mentenus 1):** a sealed note for "Vasan Tikala" left at the Emporium's Nicean wine stalls, password "sludge mold": a meeting at the Nicean outlet at midnight on day 333 (Judge's call: the S16 protocol, midnight two nights on); the work: the Captain of the Underwatch. The stall-keepers remember Lucilla asked for Vasan in S16 (Judge's watch: she hears of it if she asks there or at her Rumormongering, day 331+). Destrio's charge: report it. **Day 331: Lucilla took the note from the wine-seller (reaction 12, a day's pay); the company read it ("Sludge mold. For the house of Vasan Tikala: one commission, the price doubled for haste. The usual place, at midnight on the third night from this.") and sent word to the Order by Brother Oppius; Destrio's answer arrives day 334 (1d3: 3), after the meeting.** Mentenus does not know the note was taken.

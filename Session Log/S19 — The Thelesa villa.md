@@ -34,12 +34,49 @@ given Vestus a name: Una of the Thelesa villa.
   villa in the autumn storms, and the country folk say a grey walker haunts its wall. "Lay the dead man to rest.
   The woman, if she is what they whisper, bring her to me in chains, or end her if she will not come." Four
   Knights of the Winged Sun will ride with the Captain.
+- Day 361, the first of the thirteenth month, warm and clear. Selling day. Revered Mother Doarë opened the vault.
+  Lucilla, Vestus and Aelia turned the rainbow disc over for an hour and could not name it; the company paid the
+  Tower of Knowledge 2,000gp to have it named (two weeks: day 375), and Brennus and Hrodvar carried it to the
+  Tower's counter. The jade vine ring stays in the vault: it was the Provost's, and no one in the company will show
+  it at the Tower. Liber took the elven grave goods at four-fifths (9,442gp): the jars, the bowl and the bronze
+  dragon, the mask and collar, the shrine and the gilded chair, the hooks, natron and urns, the charms, the grave
+  goods of the Falling Star, and the rainbow metal from the reliquary walls. The garnets, the two amethysts and
+  Vasan's wine cask went on the open market (4,940gp); no tax-collector came asking. Everyone banked their coin at
+  the Guildhouse. Brother Oppius had no new names for anyone this week.
+- Day 362, overcast and warm. Thirteen, with the cart, and four Knights of the Winged Sun in yellow cloaks, walked
+  the Türos Quell road to the Thelesa villa. A farm family by the road was glad to see the Citadel: the old man
+  said the madwoman steals their hens, and that the grey one on the wall wears an old toga and has no face. The
+  knights held the gate with the cart and Cotta.
+- Inside, the house was silent. Vettius lifted the bar of the west bedchamber with a blade; the woman inside was
+  already awake, white-faced on her heap of furs. Iulia called on her to yield in the name of the Sun; she looked
+  for the window instead. Brennus caught her and she twisted free; Vettius spoke the sword's word, "Freeze", and
+  she stood rigid, and Vestus finished it. Una of the Thelesa is dead; the Order's work is done.
+- The cold came across the atrium from the shrine door: a grey figure in a mouldering toga, its face a wax mask.
+  It touched Lucilla and the cold went into her bones (she is weaker for it, and may grow weaker yet); her mace
+  answered it. Then Iulia lifted the Rod of the Dawn, and the thing came apart like ash in a wind.
+- Nine big rats came boiling up the cellar stair at the noise; Brennus held the trap and Phaedra's fan of flames
+  burned six of them on the stair; the rest died at the top. Under the cedar chest in the shrine, where the
+  family's twelve wax death masks hang, Brennus knocked through a false floor: jars of electrum, a silver box of
+  stones, and the founder's death mask carved in dark wood and silver. In the cellar Vettius found a newer flag in
+  the floor: an iron-bound box with a thousand electrum and a leather roll of jewels. Marcellus poured holy water
+  on the black altar in the dining hall and Iulia and Neris broke it.
+- Back at the Citadel by half past four. Iulia gave Arëtar her account, the witch's prayer book and her black
+  serpent symbol; the knights bore her out. "The road is clean again. Lady Lipsus will hear it from me." He gave
+  the Captain 750gp for the company. The stones and jewels wait in the barracks for next month's selling day; the
+  coin went to the Guildhouse.
 
 ## Who they met
+- An old farmer by the Türos Quell road (day 362): bent, three teeth, chews a straw; "She was a pretty thing once."
+- Four Knights of the Winged Sun (Arëtar's escort, day 362).
 
 ## Treasure and XP
 - Day 360 (A59): the Order's commission for Rufio, 1,500gp; 1,500 XP over 3.5 shares (Brennus, Vettius, Lucilla,
   Varro).
+- Day 361 (selling day): Liber 9,442gp (elven grave goods, the reliquary metal); open market 4,940gp (garnets,
+  amethysts, the cask); sale XP to each lot's share-holders.
+- Day 362 (A60, the Thelesa villa): 7,000 electrum and Una's purse (3,506gp in coin); gems and jewelry (3,525gp,
+  kept for month 14's selling day); the witch, the grey walker and 9 giant rats (315 XP); 7,346 XP over 9 shares.
+- Day 362 (A61): Arëtar's gift, 750gp.
 
 ## Rumours given
 
@@ -59,3 +96,22 @@ given Vestus a name: Una of the Thelesa villa.
 > silver mask 700: 4,100gp); giant rats 3d6 9, hp 9d4 [4,3,4,3,4,2,2,2,4]; a second per-rat hp roll void.
 > Day 360: investments (1) 50 (Return: 6gp 9sp 3cp), (3) 66 (Return +50%: 45gp); Iulia's month-end 1d6 1 (a
 > task): 1d3 1 (the Thelesa haunt), knights 1d4 4.
+> Day 361: Doarë in 51 (60%); tax check 45 vs 5% (none); L386 identification: Lucilla ME (very rare: not
+> recognized), Vestus and Aelia Loremastery (nothing): to the Tower (2,000gp, ready day 375). L327 not taken to the
+> Tower (the Provost's ring: the Watch's inquiry would reopen). Order rolls 2, 1, 2, 3, 1, 2 (none).
+> Day 362 (A60): road 19 (civilized: farmers; reaction with the knights 12, Friendly); return road 10 (none). Una
+> by day 3 (asleep, V5); the wraith 1 (V4); Vettius' Sneaking 11, Listening 12; Una wakes as five enter (1: woke);
+> the wraith marks them 5 (no); Vettius' Lockpicking -4 13 vs 11+ (bar lifted). enc293: Una not surprised (4);
+> Iulia's intimidating 2d6+4 11 (intimidated: escapes); Una hp 16 (note), save as C4 (+2 WIL); declared a spell
+> (Sanctuary, to flee by the window). Brennus' wrestle hit, Una's Paralysis save 15 (free); Vettius "Freeze": Una's
+> Spells save 8 vs 14+ (paralyzed, spell disrupted); Vestus' coup de grace. Wraith comes in 1d4 2 rounds; hp 20
+> (build); round 2 it hit nothing (5), Lucilla's mace 7 (20 -> 13); morale 11 (advance); round 3 (it chose to act
+> first on the tie) touched Lucilla 13 vs 13+, 6 necrotic: max hp 29 -> 23 (enervated); Iulia's Rod rebuke
+> (11th level vs 4 HD): destroyed. A surprise roll for the rats made on the Una encounter before it was ended:
+> void. Rats enc294: party 5 surprised; rats hp [4,3,4,3,4,2,2,2,4]; one abreast up the cellar stair (Judge's
+> ruling): Brennus 1 (miss), rat 7 vs Brennus 22+ (miss), Iulia's spear (2nd rank) miss; Phaedra's Fan 5: saves
+> rats 1, 3, 4, 6 (half 2); six dead; morale 5 (faltering); Brennus, Iulia, Varro killed the last three. Searches:
+> V4 chest false floor Vettius 10, Lucilla 12 (fail: Brennus knocked the bottom through, a turn); V6b floor Vettius
+> 13 (found), Aelia 8, Lucilla 15. Arëtar's gift 2 (yes), 1d4 3 (750gp). The Order's commission for Una: 1d3 2
+> (day 364).
+> NPC voices: the old farmer (bent, three teeth, straw; "She was a pretty thing once.").

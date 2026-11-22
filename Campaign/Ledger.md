@@ -2547,3 +2547,52 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 360 |  | treasure share |  | 428gp 5sp 7cp |  | vettius |
 | 360 |  | treasure share |  | 428gp 5sp 7cp |  | lucilla |
 | 360 |  | treasure share |  | 214gp 2sp 9cp |  | varro |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 1,173gp 4sp 8cp |  | lucilla |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 1,173gp 4sp 8cp |  | vettius |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 640gp 1sp 5cp |  | vestus-the-unlikely |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 1,173gp 4sp 8cp |  | neris |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 1,173gp 4sp 8cp |  | brennus |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 1,173gp 4sp 8cp |  | iulia |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 586gp 8sp 3cp |  | phaedra |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 586gp 8sp 3cp |  | varro |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 586gp 8sp 3cp |  | hrodvar |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 586gp 8sp 3cp |  | aelia |
+| 361 | Cyfaraun | his share of the sale of L352,L355,L356,L362,L363,L366,L367,L368,L369,L371,L372,L373,L374,L375,L376,L377,L378,L379,L380,L381,L382,L383,L384,L385,L387 (after the payout) |  | 586gp 8sp 3cp |  | marcellus |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 580gp 8sp 8cp |  | lucilla |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 580gp 8sp 8cp |  | vettius |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 580gp 8sp 8cp |  | vestus-the-unlikely |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 580gp 8sp 8cp |  | neris |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 580gp 8sp 8cp |  | brennus |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 580gp 8sp 8cp |  | iulia |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 290gp 5sp 2cp |  | phaedra |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 290gp 5sp 2cp |  | varro |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 290gp 5sp 2cp |  | hrodvar |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 290gp 5sp 2cp |  | aelia |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 290gp 5sp 2cp |  | marcellus |
+| 361 | Cyfaraun | his share of the sale of L334,L335,L336,L337,L338,L339,L340,L341,L342,L343,L344,L345,L346,L347,L348,L349,L350,L351,L360,L361,L272 (after the payout) |  | 2gp 2sp 2cp |  | gnaeus |
+| 361 | Tower of Knowledge (full identification) | full identification of the rainbow disc L386 (2,000gp, two weeks: ready day 375; AX3 p. 152); Lucilla fronts it for the A57 share-holders, to be repaid from its sale |  |  | 2,000gp | lucilla |
+| 362 | the Solar Citadel armoury | reshafting the Underwatch spear (RR Weapons: 1gp), Citadel armoury |  |  | 1gp | iulia |
+| 362 |  | treasure share |  | 389gp 6sp 1cp |  | lucilla |
+| 362 |  | treasure share |  | 389gp 6sp 1cp |  | vettius |
+| 362 |  | treasure share |  | 389gp 6sp 1cp |  | vestus-the-unlikely |
+| 362 |  | treasure share |  | 389gp 6sp 1cp |  | neris |
+| 362 |  | treasure share |  | 389gp 6sp 1cp |  | brennus |
+| 362 |  | treasure share |  | 389gp 6sp 1cp |  | iulia |
+| 362 |  | treasure share |  | 194gp 8sp 1cp |  | phaedra |
+| 362 |  | treasure share |  | 194gp 8sp 1cp |  | varro |
+| 362 |  | treasure share |  | 194gp 8sp 1cp |  | hrodvar |
+| 362 |  | treasure share |  | 194gp 8sp 1cp |  | aelia |
+| 362 |  | treasure share |  | 194gp 8sp 1cp |  | marcellus |
+| 362 |  | treasure share |  | 194gp 8sp 1cp |  | cotta |
+| 362 |  | treasure share |  | 83gp 3sp 3cp |  | lucilla |
+| 362 |  | treasure share |  | 83gp 3sp 3cp |  | vettius |
+| 362 |  | treasure share |  | 83gp 3sp 3cp |  | vestus-the-unlikely |
+| 362 |  | treasure share |  | 83gp 3sp 3cp |  | neris |
+| 362 |  | treasure share |  | 83gp 3sp 3cp |  | brennus |
+| 362 |  | treasure share |  | 83gp 3sp 3cp |  | iulia |
+| 362 |  | treasure share |  | 41gp 6sp 7cp |  | phaedra |
+| 362 |  | treasure share |  | 41gp 6sp 7cp |  | varro |
+| 362 |  | treasure share |  | 41gp 6sp 7cp |  | hrodvar |
+| 362 |  | treasure share |  | 41gp 6sp 7cp |  | aelia |
+| 362 |  | treasure share |  | 41gp 6sp 7cp |  | marcellus |
+| 362 |  | treasure share |  | 41gp 6sp 7cp |  | cotta |
