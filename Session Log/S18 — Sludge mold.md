@@ -31,3 +31,22 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   midnight on the third night from this." Third night: midnight of day 333. Ingrid: "Sludge mold is the Provost's
   word in the ledger." The company sent word to the Order that evening by Brother Oppius at the Temple of Justice:
   who had come looking, and when. No answer by night.
+- Day 332, clear and brisk. Doarë was out again. Iulia gave Arëtar the month's report at the Citadel (the warren,
+  the letter; nothing new below) and said nothing of the note. Vettius and Cotta walked the wharves by daylight and
+  looked at the outlet from above: the old sewer mouth under the Emporium wharves, a slope of rubble and broken
+  stone to the water's edge, the wharf alley sixty feet back, and the outlet tunnel itself running up into the dark.
+- That evening the table settled the night of day 333. Rosa: "Call: Lucilla goes as Vasan's factor again, hood up,
+  eye ready; Brennus and Varro push the barrow with Vasan's own cask, the one we took off him. Vettius and Cotta in
+  the rubble. Everyone else sixty feet back in the alley, Iulia's spear dark. We hear the job, we take his money, we
+  let him walk. The Order decides the rest." Ingrid: "And if it's the Provost himself, and he sees through us?"
+  Gideon: "Then he's a rat-man in a sewer at midnight and the Captain may take him. Neris' circle and Iulia's shield
+  keep his kind off. Nobody chases him into the tunnel." Kwame, grinning: "I always wanted to be a murderer."
+- Day 333, the selling day at last, very cold and a gale off the lake. Doarë opened the vault in the morning.
+  Lucilla turned the king's bronze scale over in the light and named it: chain mail of the old elves, good for a
+  little more than steel (+1). Liber's men came to the Grey Sisters' gate with two carts and took the elven goods at
+  eight parts in ten, clean coin: the scale (4,000gp), the helm (20,000gp), the gold sarcophagus (16,000gp), both
+  crowns (6,400gp each), the four guards' coffins and the gilded coffin (2,800gp each), thrones, chariots, the
+  canopic shrine, the basin's pearls, coral and shells, the spices and the rest (97,762gp in all). The gems from the
+  gold box and the Brotherhood's chests, its armbands and pendants, the silver rat and the mink furs went on the open
+  market at full value (16,310gp); no tax man asked anything. Gnaeus' shares of what was sold after he left are held
+  for him at the Guildhouse. Iulia rose to the seventh rank of her order (Prelate). Everyone banked his coin.

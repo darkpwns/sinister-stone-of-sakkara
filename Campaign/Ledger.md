@@ -606,6 +606,18 @@ tags:
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Aelia | 0.5 | 156 | 41 | 0 | +0% | 196 |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Marcellus | 0.5 | 156 | 41 | 0 | +0% | 196 |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Saturnin | 0.5 | 156 | 41 | 0 | +0% | 196 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Lucilla | 1 | 2666 | 0 | 0 | +10% | 2932 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Vettius | 1 | 2666 | 0 | 0 | +5% | 2799 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Iulia | 1 | 2666 | 0 | 0 | +5% | 2799 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Vestus the Unlikely | 1 | 2666 | 0 | 0 | +5% | 2799 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Neris | 1 | 2666 | 0 | 0 | +0% | 2666 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Brennus | 1 | 2666 | 0 | 0 | +5% | 2799 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Phaedra | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Varro | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Hrodvar | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Aelia | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Marcellus | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
+| 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Gnaeus | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
 
 ## Wages
 
@@ -2152,3 +2164,52 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 11635.4 |  |  | 29gp 9cp | guildhouse-bank |
 | 331 | Nicean wine-seller (Emporium stalls) | a day's pay for the note left for Vasan Tikala (Bribery), day 331 |  |  | 5sp | lucilla |
 | 331 | the retinue | wages paid |  |  | 50gp | vettius |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 2,666gp 6sp 6cp |  | lucilla |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 2,666gp 6sp 6cp |  | vettius |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 2,666gp 6sp 6cp |  | iulia |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 2,666gp 6sp 6cp |  | vestus-the-unlikely |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 2,666gp 6sp 6cp |  | neris |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 2,666gp 6sp 6cp |  | brennus |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 1,333gp 3sp 3cp |  | phaedra |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 1,333gp 3sp 3cp |  | varro |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 1,333gp 3sp 3cp |  | hrodvar |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 1,333gp 3sp 3cp |  | aelia |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 1,333gp 3sp 3cp |  | marcellus |
+| 333 | Cyfaraun | his share of the sale of L295,L296 (after the payout) |  | 1,333gp 3sp 3cp |  | gnaeus |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 3,420gp 9sp 8cp |  | lucilla |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 3,420gp 9sp 8cp |  | vettius |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 3,420gp 9sp 8cp |  | iulia |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 3,420gp 9sp 8cp |  | vestus-the-unlikely |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 3,420gp 9sp 8cp |  | neris |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 3,420gp 9sp 8cp |  | brennus |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 1,710gp 4sp 8cp |  | phaedra |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 1,710gp 4sp 8cp |  | varro |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 1,710gp 4sp 8cp |  | hrodvar |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 1,710gp 4sp 8cp |  | aelia |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 1,710gp 4sp 8cp |  | marcellus |
+| 333 | Cyfaraun | his share of the sale of L238,L239,L240,L241,L242,L243,L244,L245,L254,L259,L260,L268,L269,L270,L271,L142 (after the payout) |  | 1,710gp 4sp 8cp |  | gnaeus |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 4,895gp 7sp 2cp |  | lucilla |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 4,895gp 7sp 2cp |  | vettius |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 4,895gp 7sp 2cp |  | iulia |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 4,895gp 7sp 2cp |  | vestus-the-unlikely |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 4,895gp 7sp 2cp |  | neris |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 4,895gp 7sp 2cp |  | brennus |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 2,447gp 8sp 8cp |  | phaedra |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 2,447gp 8sp 8cp |  | varro |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 2,447gp 8sp 8cp |  | hrodvar |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 2,447gp 8sp 8cp |  | aelia |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 2,447gp 8sp 8cp |  | marcellus |
+| 333 | Cyfaraun | his share of the sale of L298,L299,L300,L301,L305,L306,L307,L308,L309,L310,L311,L313,L314,L315,L316 (after the payout) |  | 1,360gp 1cp |  | gnaeus |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 1,812gp 2sp 3cp |  | lucilla |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 1,812gp 2sp 3cp |  | vettius |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 1,812gp 2sp 3cp |  | iulia |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 1,812gp 2sp 3cp |  | vestus-the-unlikely |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 1,812gp 2sp 3cp |  | neris |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 1,812gp 2sp 3cp |  | brennus |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 906gp 1sp 5cp |  | phaedra |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 906gp 1sp 5cp |  | varro |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 906gp 1sp 5cp |  | hrodvar |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 906gp 1sp 5cp |  | aelia |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 906gp 1sp 5cp |  | marcellus |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 878gp 3sp 7cp |  | gnaeus |
+| 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 27gp 7sp 8cp |  | saturnin |
