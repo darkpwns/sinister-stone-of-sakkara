@@ -1,13 +1,13 @@
 {
  "campaign": "AX1 Playtest",
- "session": 19,
- "generated": 1795372813,
+ "session": 20,
+ "generated": 1795373614,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 393
+  "day": 394
  },
- "time": "19:43",
+ "time": "07:43",
  "weather": "Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle",
  "place": "Cyfaraun",
  "hex": "18.05",
@@ -87,11 +87,9 @@
    "name": "Hrodvar",
    "sheet": "Characters/hrodvar.json",
    "role": "henchman",
-   "hp": 3,
+   "hp": 14,
    "hp_max": 14,
-   "conditions": [
-    "dead (thirst, CON 0)"
-   ],
+   "conditions": [],
    "spells_used": [],
    "encumbrance_st": 15.183
   },
@@ -141,9 +139,7 @@
    "role": "henchman",
    "hp": 4,
    "hp_max": 4,
-   "conditions": [
-    "dead (thirst, CON 0)"
-   ],
+   "conditions": [],
    "spells_used": [],
    "encumbrance_st": 4.531
   },
@@ -159,7 +155,7 @@
   }
  ],
  "light": "lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out",
- "rations": "Lucilla: food 0 d, water 0 d (hungry, dehydrated); Vettius: food 0 d, water 0 d (hungry, dehydrated); Neris: food 0 d, water 0 d (hungry, dehydrated); Iulia: food 0 d, water 0 d (hungry, dehydrated); Varro: food 0 d, water 0 d (hungry, dehydrated); Hrodvar: food 0 d, water 0 d (hungry, underfed, dehydrated, incapacitated); Brennus: food 0 d, water 0 d (hungry, dehydrated); Aelia: food 0 d, water 0 d (hungry, dehydrated); Phaedra: food 0 d, water 0 d (hungry, dehydrated); Marcellus: food 0 d, water 0 d (hungry, dehydrated); Vestus the Unlikely: food 0 d, water 0 d (hungry, dehydrated); Saturnin: food 0 d, water 0 d (hungry, underfed, dehydrated); Cotta: food 0 d, water 0 d (hungry, dehydrated); Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
+ "rations": "Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [
   "The Thelesa villa is clean: Una dead, the grey walker destroyed (day 362); the Order paid Vestus (day 364)",
@@ -777,18 +773,24 @@
     },
     {
      "id": "L432",
-     "looks": "a potion (clear)",
+     "looks": "Potion of Monstrous Form",
      "qty": 1,
      "apparent_value_gp": 25,
      "magical": true,
+     "known": [
+      "identity"
+     ],
      "stone": 0.167
     },
     {
      "id": "L433",
-     "looks": "a potion (blue green, soapy texture)",
+     "looks": "Potion of Energy Invulnerability",
      "qty": 1,
      "apparent_value_gp": 25,
      "magical": true,
+     "known": [
+      "identity"
+     ],
      "stone": 0.167
     }
    ],
@@ -1701,9 +1703,13 @@
     },
     {
      "id": "L438",
-     "looks": "the lanista's silver-chased spear",
+     "looks": "Spear +1",
      "qty": 1,
      "magical": true,
+     "known": [
+      "bonus +1",
+      "identity"
+     ],
      "stone": 0.167
     }
    ],
@@ -2412,17 +2418,24 @@
    "treasure": [
     {
      "id": "L435",
-     "looks": "a 19 sling bullets",
+     "looks": "19 sling bullets +1",
      "qty": 1,
      "magical": true,
+     "known": [
+      "bonus +1",
+      "identity"
+     ],
      "stone": 0.167
     },
     {
      "id": "L436",
-     "looks": "a potion (smells like musty books and burned candles)",
+     "looks": "Potion of Comprehension",
      "qty": 1,
      "apparent_value_gp": 25,
      "magical": true,
+     "known": [
+      "identity"
+     ],
      "stone": 0.167
     }
    ],
@@ -4417,9 +4430,13 @@
     },
     {
      "id": "L437",
-     "looks": "the lanista's silver-chased sword",
+     "looks": "the lanista's silver-chased short sword +1",
      "qty": 1,
      "magical": true,
+     "known": [
+      "bonus +1",
+      "identity"
+     ],
      "stone": 0.167
     }
    ],
@@ -4542,411 +4559,7 @@
    }
   }
  ],
- "open_rolls": [
-  {
-   "label": "marcellus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "vestus-the-unlikely dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "cotta dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "lucilla dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "vettius dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "neris dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "iulia dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "varro dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "brennus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "aelia dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "phaedra dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "marcellus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "vestus-the-unlikely dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "cotta dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Brennus bash Virathos' lodging door",
-   "spec": "1d20+4",
-   "rolls": [
-    8
-   ],
-   "total": 12
-  },
-  {
-   "label": "Brennus bash Virathos' lodging door",
-   "spec": "1d20+4",
-   "rolls": [
-    12
-   ],
-   "total": 16
-  },
-  {
-   "label": "Brennus bash Virathos' lodging door",
-   "spec": "1d20+4",
-   "rolls": [
-    16
-   ],
-   "total": 20
-  },
-  {
-   "label": "weather temperature (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather precipitation (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather wind (R05.02)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "Neris throw",
-   "spec": "1d20",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    18
-   ],
-   "total": 18
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    15
-   ],
-   "total": 15
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "lucilla dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "vettius dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "neris dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "iulia dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "varro dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "brennus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "aelia dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "phaedra dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "marcellus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "vestus-the-unlikely dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "cotta dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "lucilla dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "vettius dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "neris dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "iulia dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "varro dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "brennus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "aelia dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "phaedra dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "marcellus dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "vestus-the-unlikely dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "cotta dehydration CON",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    14
-   ],
-   "total": 14
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    7
-   ],
-   "total": 7
-  },
-  {
-   "label": "Vettius throw",
-   "spec": "1d20",
-   "rolls": [
-    13
-   ],
-   "total": 13
-  }
- ],
+ "open_rolls": [],
  "rumours_heard": [
   "Day 1, Türos Tem: Cassia already knew a tale (Loremastery) that an elven wizard-lord is behind the beastman raiders, bent on revenge against the Empire.",
   "Day 12, Türos Tem: the legate, asked for help, mentioned that elves still live in the forests of Southern Argollë but have gone feral and crave the flesh of men.",

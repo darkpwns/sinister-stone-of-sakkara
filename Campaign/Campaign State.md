@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 19
+session: 20
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A74 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 393
-  time: '19:43'
+    day: 394
+  time: 07:43
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -74,10 +74,9 @@ public:
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 3
+    hp: 14
     hp_max: 14
-    conditions:
-    - dead (thirst, CON 0)
+    conditions: []
     spells_used: []
     encumbrance_st: 15.183
   - name: Varro
@@ -117,8 +116,7 @@ public:
     role: henchman
     hp: 4
     hp_max: 4
-    conditions:
-    - dead (thirst, CON 0)
+    conditions: []
     spells_used: []
     encumbrance_st: 4.531
   - name: Cotta
@@ -130,7 +128,7 @@ public:
     spells_used: []
     encumbrance_st: 5.092
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
-  rations: 'Lucilla: food 0 d, water 0 d (hungry, dehydrated); Vettius: food 0 d, water 0 d (hungry, dehydrated); Neris: food 0 d, water 0 d (hungry, dehydrated); Iulia: food 0 d, water 0 d (hungry, dehydrated); Varro: food 0 d, water 0 d (hungry, dehydrated); Hrodvar: food 0 d, water 0 d (hungry, underfed, dehydrated, incapacitated); Brennus: food 0 d, water 0 d (hungry, dehydrated); Aelia: food 0 d, water 0 d (hungry, dehydrated); Phaedra: food 0 d, water 0 d (hungry, dehydrated); Marcellus: food 0 d, water 0 d (hungry, dehydrated); Vestus the Unlikely: food 0 d, water 0 d (hungry, dehydrated); Saturnin: food 0 d, water 0 d (hungry, underfed, dehydrated); Cotta: food 0 d, water 0 d (hungry, dehydrated); Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Thelesa villa is clean: Una dead, the grey walker destroyed (day 362); the Order paid Vestus (day 364)'
@@ -162,7 +160,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 393
+clock_day: 394
 ---
 # Campaign State
 
