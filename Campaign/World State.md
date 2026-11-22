@@ -75,7 +75,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ### [[Death Cult Hideout]] (Lake District #75u; day 296, A32)
 - Cleared: 7 enforcers, 4 cultists, Rhankur slain; Malthusia captured (shock, 1 hp; to the Citadel's cells). Altar in 12 smashed (no longer a sinkhole). Velus' body taken (rites by the Grey Sisters). 10 and 11 looted. Secret door in 12 to the canal known. No survivor left for the cult's revenge (AX3: none escaped). The vagrants remain; Velus' shrine at 3.
-- Ionicus estate: Vettius heir (deciphered journal, rites day 296); Judge's call: the manor near the Ruined Imperial Fortress (#30, 26.19), beastman tribe in it (not yet built).
+- Ionicus estate: Vettius heir (deciphered journal, rites day 296). Placed at **27.19** (forest edge on the Krysivor's east bank, one hex south-east of the Ruined Imperial Fortress #30 at 26.19, across the ford from Türos Aster 25.19); the beastman tribe that overruns it is the fortress's bugbear tribe (Rulings S14). From Cyfaraun: 20 hexes of Imperial road to Türos Aster, the ford hex, one forest hex (22 hexes, about 132 miles). Not yet built (map, stocking).
 
 ### [[Lizardman Sewer Lair]] (Festival District #28u; day 298, A33)
 - The 2 lizardman warriors and the champion captured asleep (Slumber, manacled), delivered alive to Celictor (800gp). Den 2's purse taken. Lair empty. The giant crocodile (#45u, Crocodile Nest, HD 15, 74 hp) is still loose: Celictor pays 2,000gp alive and unharmed.
