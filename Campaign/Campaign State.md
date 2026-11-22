@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 303
-  time: '12:55'
+    day: 304
+  time: 04:54
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -34,16 +34,14 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.672
+    encumbrance_st: 9.334
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Mage Missile
+    spells_used: []
     encumbrance_st: 4.433
   - name: Neris
     sheet: Characters/neris.json
@@ -52,8 +50,7 @@ public:
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Speak with Beasts
+    spells_used: []
     encumbrance_st: 4.591
   - name: Brennus
     sheet: Characters/brennus.json
@@ -80,7 +77,7 @@ public:
     hp: 12
     hp_max: 13
     conditions:
-    - 'enervated (shadow, day 303): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it'
+    - 'enervated (shadow, day 303): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it (passes: day 304)'
     spells_used: []
     encumbrance_st: 9.448
   - name: Varro
@@ -90,7 +87,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.1
+    encumbrance_st: 13.098
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -98,7 +95,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 6.916
+    encumbrance_st: 6.582
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -113,9 +110,8 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 6.909
+    spells_used: []
+    encumbrance_st: 7.908
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -125,7 +121,7 @@ public:
     - Your brush with death has gifted you with the ability to speak with dead once per week. All negative side effects are removed. (Tampering with Mortality, day 269)
     spells_used: []
     encumbrance_st: 10.539
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) 12 turns 6 rounds left; torch (Vettius) out
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 0.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 0.8 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
@@ -150,7 +146,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 303
+clock_day: 304
 ---
 # Campaign State
 

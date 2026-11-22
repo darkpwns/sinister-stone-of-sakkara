@@ -127,6 +127,7 @@ tags:
 | 272 | Nethercity, expedition 23 (the river banks) | 4 terracotta canopic jars | 100 | aelia |
 | 272 | Nethercity, expedition 23 (the river banks) | a carved alabaster amphora | 300 | vestus-the-unlikely |
 | 272 | Nethercity, expedition 23 (the river banks) | a carved alabaster amphora | 300 | neris |
+| 303 | Nethercity, expedition 30 (upriver) | grave goods of 24 wall graves (P10): rings, amulets, cups, coins of the old elves | 336 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -164,6 +165,9 @@ tags:
 | 272 | Nethercity, expedition 23 (the river banks) | Gelatinous Mass | 1 | 245 | 245 |
 | 272 | Nethercity, expedition 23 (the river banks) | Ochre Ooze | 1 | 500 | 500 |
 | 272 | Nethercity, expedition 23 (the river banks) | Mummy | 1 | 2,600 | 2,600 |
+| 303 | Nethercity, expedition 30 (upriver) | Grey Goo | 1 | 95 | 95 |
+| 303 | Nethercity, expedition 30 (upriver) | Shadow | 4 | 71 | 284 |
+| 303 | Nethercity, expedition 30 (upriver) | Wight | 3 | 80 | 240 |
 
 ## Shares and XP awarded
 
@@ -344,6 +348,18 @@ tags:
 | 272 | Nethercity, expedition 23 (the river banks) | Hrodvar | 0.5 | 347 | 197 | 0 | +0% | 544 |
 | 272 | Nethercity, expedition 23 (the river banks) | Aelia | 0.5 | 347 | 197 | 0 | +0% | 544 |
 | 272 | Nethercity, expedition 23 (the river banks) | Marcellus | 0.5 | 347 | 197 | 0 | +0% | 544 |
+| 303 | Nethercity, expedition 30 (upriver) | Lucilla | 1 | 37 | 69 | 0 | +10% | 117 |
+| 303 | Nethercity, expedition 30 (upriver) | Vettius | 1 | 37 | 69 | 0 | +5% | 111 |
+| 303 | Nethercity, expedition 30 (upriver) | Iulia | 1 | 37 | 69 | 0 | +5% | 111 |
+| 303 | Nethercity, expedition 30 (upriver) | Vestus the Unlikely | 1 | 37 | 69 | 0 | +5% | 111 |
+| 303 | Nethercity, expedition 30 (upriver) | Neris | 1 | 37 | 69 | 0 | +0% | 106 |
+| 303 | Nethercity, expedition 30 (upriver) | Brennus | 1 | 37 | 69 | 0 | +5% | 111 |
+| 303 | Nethercity, expedition 30 (upriver) | Phaedra | 0.5 | 19 | 34 | 0 | +0% | 53 |
+| 303 | Nethercity, expedition 30 (upriver) | Varro | 0.5 | 19 | 34 | 0 | +0% | 53 |
+| 303 | Nethercity, expedition 30 (upriver) | Hrodvar | 0.5 | 19 | 34 | 0 | +0% | 53 |
+| 303 | Nethercity, expedition 30 (upriver) | Aelia | 0.5 | 19 | 34 | 0 | +0% | 53 |
+| 303 | Nethercity, expedition 30 (upriver) | Marcellus | 0.5 | 19 | 34 | 0 | +0% | 53 |
+| 303 | Nethercity, expedition 30 (upriver) | Gnaeus | 0.5 | 19 | 34 | 0 | +0% | 53 |
 
 ## Wages
 
@@ -1646,3 +1662,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 302 |  | treasure share |  |  |  |  |
 | 302 |  | treasure share |  |  |  |  |
 | 302 | Silk Pony Inn (#25) | beds for twelve, night of day 302 |  |  | 2gp 4sp | vettius |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 |  | treasure share |  |  |  |  |
+| 303 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 2sp | vettius |
+| 303 | Cyfaraun | torch | 6 |  | 1sp | phaedra |
+| 303 | Cyfaraun livestock market | a sheep, slaughtered and halved for the white fish, evening of day 303 |  |  | 2gp | varro |
+| 303 | Silk Pony Inn (#25) | beds for ten, night of day 303 (Neris and Hrodvar at the Citadel) |  |  | 2gp | vettius |
