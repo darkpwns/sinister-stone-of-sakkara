@@ -1799,3 +1799,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 308 |  | treasure share |  |  |  |  |
 | 308 |  | treasure share |  |  |  |  |
 | 308 |  | treasure share |  |  |  |  |
+| 308 | Silk Pony Inn (#25) | beds for twelve, night of day 308 |  |  | 2gp 4sp | vettius |

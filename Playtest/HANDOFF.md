@@ -516,3 +516,38 @@ Doppelgänger Den #14u) and 8.
 5. Routine: Cyfaraun is Class II (`--market-class 2`); military oil 70 a month for the party; `walk` rests on "rest
    due"; never `location --site` mid-delve; identify before selling; keep everyone under 10 st (Brennus' plate is 6 st).
 
+
+## S15 (2026-11-22) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers as S13/S14 (`s10_j.sh`, `s11_mend.sh`,
+`s13_j.sh`: `walk`, `go`, `miasma`, `clearmiasma`). **Set `PARTY` after sourcing s10_j.sh** (its default still lists
+Quirinus, retired). Session 15 log: `Session Log/S15 — Upriver.md`.
+
+**State on resume:** day 309 05:11, winter, Cyfaraun (18.05), town, Silk Pony Inn. No adventure open (A39 paid out).
+Start S16. Cyfaraun is Class II for every party purchase (`--market-class 2`).
+
+**Party (12), strength about 55:** Lucilla Ven6, Vettius Thf7 (22/22), Iulia Cru6 (Captain of the Underwatch; spear
++2, shield +1, Rod of the Dawn), Vestus M5, Neris Pr5, Brennus F6 (23 max; Weapon Focus axes; black plate +1).
+Henchmen Phaedra M4, Varro F4 (Lann Dhuille, Sword +1, identified, used), Hrodvar VG4 (max hp 13 after a shadow;
+enervation ended day 306), Aelia B5, Marcellus F4, Gnaeus Exp4. Brennus 19/23 (rat bites).
+
+**What S15 did:** five descents and two town days. Upriver (A35): P9-P14 seen, P10 graves, four shadows and three
+wights destroyed. The P12 basin (A36): 20,900gp carried out past the P11 water elemental inside Neris' Holy Circle,
+Sustained (both carriers saved against Lammala's curse); a mummy at P5. Downriver recon (A37): Q6 panel found, P3
+slab untouched. The Horned Rat shrine (A38): found by Liber's word, Abimbola's pack killed asleep, a seer captured,
+the altar broken, Mentenus's papers to Arëtar: **Iulia's mission done (day 306)**, month-11 report made. The black
+barge (A39): rowed out of P11 by its oar pattern to Lake Laman, moored at Tertulla's landing. **The white fish's save
+on day 309 succeeded (hidden): the charm is broken; it is Neutral (wild); the party does not know.** Rulings S15: 7 rows.
+
+**Money and goods:** banked after day 306; for the month-12 selling day (day 331): L238 grave goods (strongbox),
+L239-L245 the mask and the basin treasure (Grey Sisters' vault), L254 spices and L255 furs (carried by Vestus and
+Neris), L258 the barge (identified, used: no sale XP; 68,000gp base; Liber at 80% or keep).
+
+**Next (by the profiles):** the selling day; Terkinos's pack (8) and Mentenus at the full moon (date to set); what
+Arëtar does with the papers; G14 (mummy warlord, four bronze statues; constructs and undead are barred by Iulia's
+shield: Rulings S14); the Night Captain's tomb under the Citadel; Celictor's crocodile; the Ionicus estate; the arena.
+
+**Engine findings S15 (judge-notes S15):** `adventure join` needs `--kind henchman` for henchmen; no JUDGE line for
+the shadow's "-3 to surprise"; `damage --extraordinary` treated as mundane against shadows (fine against a mummy);
+the rest counter survives a night in town; Rat Swarm needs `--set hd` and `--xp-each`; `recover --item "Sword +1"`
+can draw a dagger (use "Sword +1 (Sword)"); snapshot refuses an unidentified generic "Sword +1" when identified
+ones are on other sheets; `level-up` ignores permanent enervation losses.

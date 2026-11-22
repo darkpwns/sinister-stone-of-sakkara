@@ -135,12 +135,70 @@ of the Underwatch, has the month to find where the Horned Rat cult worships.
   Marcellus inside Neris' moving circle and Iulia's shield on the deck; Vestus at the oar with the rubbing. If the
   cold thing breaks the circle, everyone into the canoes' place in the cabin and Vestus rows the pattern at once.
 
+- Day 308, thirty-third descent, for the black barge. The sludge air caught Lucilla, Brennus, Iulia, Phaedra and
+  Gnaeus going in. Fifteen giant rats in the central caves scattered from the fire. At the beach eight skeletons in
+  bronze with curved swords came down the burial-cave steps; Iulia raised the rod and the spear together, and all
+  eight fell to dust where they stood. Gnaeus left half a sheep in the shallows for the fish, and the canoes went up
+  the river; the white fish caught them up below the hole in the roof.
+- At the stone with marks Brennus lifted a linen-wrapped skeleton out of a grave. At the great cavern the Neutrals
+  washed at the font; Hrodvar and Marcellus knocked the canoes down and stowed them and the bones in the barge's
+  cabin. Neris raised her moving circle on the deck with Iulia, Hrodvar and Marcellus inside it; Vestus took the oar.
+  The barge slid off the stones and the river stood up again, black and roaring, and broke on the circle; it struck
+  the barge's prow once, outside the circle, and the bronze panels split. Vestus rowed the loops and strokes of the
+  rubbing.
+- The dark was gone. The barge rocked on open grey water under a low winter sky, the walls of Cyfaraun and the Lake
+  District's villas half a mile off through the haze, nobody near. The oar moved it as if it were a horse. Lucilla
+  steered for Tertulla's landing; the old woman chewed her fennel, looked at the brass skull a long time, and for a
+  few coins put it under her boathouse awning beneath old sails. "Never saw it."
+
 ## Who they met
+- Patriarch Arëtar (Friendly): told of Lammala's curse and its cure; took the prisoner and the scholar's papers.
+- Liber Faunus (Friendly): pointed the way to the rat-tappers' drain.
+- Tertulla (Friendly): hides the black barge at her landing.
+- Four Knights of the Winged Sun, lent for the Horned Rat search (day 306).
 
 ## Treasure and XP
+- Day 303 (A35, upriver): grave goods 336gp; 619 monster XP (grey slick, four shadows, three gaunt dead); 955 XP over 9 shares.
+- Day 304 (A36, the basin): shells, shark's teeth, coral and pearls (20,900gp) and a gilded mask (25gp); 660 monster
+  XP; 21,585 XP over 9 shares. Brennus Fighter 6 (Myrmidon).
+- Day 305 (A37, downriver): nothing.
+- Day 306 (A38, the Horned Rat): 6,175gp and 4,800sp in old coin, elven spices (two jars), mink furs, the leaf-blade
+  (Sword +1, to Varro: kept, used); 775 monster XP (a pack of wererats, two rat swarms, eleven rats, one seer
+  captured); 9,540 XP over 9 shares. Vettius Thief 7 (Pilferer).
+- Day 308 (A39, the barge): the black funerary barge (named by Aelia; used to bring it out) at a small barge's worth
+  for experience, 2,000gp; 104 monster XP (eight skeletons); 2,104 XP over 9 shares.
+- Held for the month-12 selling day (day 331): the basin treasure, the mask and the grave goods (Grey Sisters' vault,
+  the Silk Pony strongbox), the spices and furs, the barge (Tertulla's landing).
 
 ## Rumours given
+- None new.
 
 ## Changes to the world
+- The Sea Mother's basin is empty; the cold thing still keeps the great cavern's river. The black barge is gone from
+  it, and rides under sails at Tertulla's landing.
+- The Horned Rat's shrine under the old city wall is broken: one pack dead, its altar smashed, a seer in the
+  Citadel's cells. The other pack, eight strong, came home that night to find it. The scholar who wrote the papers
+  is known to Arëtar.
+- Iulia's first Underwatch task is done and her month's report made.
+- The white fish was fed on every visit; Neris' charm on it was a week old on day 309.
 
 ## Next time
+Day 309, dawn, Cyfaraun, the Silk Pony. Twelve, all whole or nearly. Neris' charm on the white fish is a week old and may
+not hold. The selling day is day 331; the black barge waits at Tertulla's landing.
+Threads: the second rat pack and their master; Arëtar and the papers; the Night Captain's tomb under the Citadel;
+men living in the sewers far to the north; the bronze-guarded tomb above the hole with black marble; the panel
+behind the river cave north of the bend; Celictor's crocodile; the Ionicus estate.
+
+> [!judge]- Judge rolls
+> Campaign/roll-log.jsonl (session 15, 328 hidden rolls). Judge notes: Playtest/judge-notes.txt (S15 section).
+> Day 303: grey goo 21 hp; 4 shadows 11/5/12/17 hp (surprise rolled with the shadow's -3 by hand: all surprised);
+> Hrodvar touched (2, max hp 15 -> 13, enervated; saves 10, 20, 13 with Salving Rest +4 and oculus +2: cured day
+> 306); 6 skeletons (P10 bank) surprised, passed; caecilian overawed (12); 3 wights 9/11/16 (Rod 2d6 4: one
+> destroyed); fish arrival 3 turns. Lucilla and Brennus' curse saves day 304: 15 vs 13+, 17 vs 14+ (both pass).
+> Day 304: mummy 29 hp (Iulia's rebuke 13: frightened; destroyed round 4); P11 elemental risen at 12:14, held off
+> (no attacks possible); shadows' repeat ignored (clearing). Day 305: Q6 panel found (21 vs 13+), Vettius heard
+> nothing. Day 306: Abimbola's pack present (58 vs 75%); 3 slumbered (5, 3, 2 vs 12+); swarms 15/15 hp; Brennus'
+> disease 20 (no); Mentenus's notes 3, 5, 8; Arëtar 2 (words only); ants intimidated (11). Day 308: giant rats
+> intimidated (11); 8 skeletons destroyed by the Rod (D); elemental initiative 4 vs Vestus 2, smash 7 (hit), 18 SHP
+> (barge 27/45); Lake Laman within 360' (2: yes); unseen on the lake (4); unsettling 6 at 08:30 (event 7, pending).
+> Day 309: the white fish's weekly save 20 (charm broken); attitude 2d6+2 = 6 (Neutral, wild).

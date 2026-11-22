@@ -248,3 +248,14 @@ The players' shared notebook, written by the Judge from the party agent's sugges
 - The fish says: upstream past the stone with marks, a cave with a black boat and a cold thing in the water it won't
   go near; downstream the roof meets the water and the water goes on to the big river.
 
+- S15 (days 303-308). Upriver: a black-marble well over the river looks into a tomb with four bronze guards (left);
+  the stone with marks is a prayer to Lammala, the Sea Mother ("those who plunder her treasures become creatures of
+  her abyss"); her font says "anoint yourselves": it lets the washed pass the cold thing, and sits heavy on the
+  unfaithful for an hour. The basin's shells and pearls came out inside Neris' moving circle: the cold thing broke
+  on it all the way to the beach. Downriver: a hidden panel at the end of the bend cave (left shut); a slab door in
+  the west grotto (left shut). The rat cult's nest under the old wall (Liber's drain): one pack killed asleep, a seer
+  taken, the altar broken, the scholar's papers to Arëtar: Iulia's task is done. The black barge: rowed out by the
+  basin's pattern to the lake; Tertulla hides it. Lessons: (21) a sleeping pack is the cheapest fight there is: sleep
+  on the corner, steel on the rest, one alive for the priests; (22) a wall of light the dead cannot enter is worth a
+  rank of spears (Iulia's spear and shield, Neris' circle); (23) read the column before touching the treasure it
+  guards.

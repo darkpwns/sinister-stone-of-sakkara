@@ -5,13 +5,13 @@ tags:
 session: 15
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A28 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A39 paid out)
 public:
   date:
     year: ''
     season: winter
-    day: 308
-  time: '13:11'
+    day: 309
+  time: 05:11
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.167
+    encumbrance_st: 9.152
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -50,8 +50,7 @@ public:
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Circle, Sustained
+    spells_used: []
     encumbrance_st: 4.599
   - name: Brennus
     sheet: Characters/brennus.json
@@ -146,7 +145,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 308
+clock_day: 309
 ---
 # Campaign State
 

@@ -73,6 +73,15 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 288 expedition 26 (A31): 13u wererats (8, Undercity special, 07:00) Indifferent, passed by. P8b: the huge black pudding (black blob) slain by fire at the arch and passage (6 rounds); the egg of the earth (L223, 25,000gp) taken, unnamed (Aelia's Loremastery failed); P8b is an edifice of elemental earth, now without its egg (earth creatures may manifest: 10% every 1d12 days while unoccupied). Catfish still about (hurt). Out 15:14. L223 in the party's chest at the Grey Sisters' vault (lot carried by Vettius in the engine).
 - D7 door opened (day 187 09:35): the troglodyte hunters in D8 judged the party strong and slipped away home to warn the tribe (Judge's call, D7 key): the tribe is alerted.
 
+- Day 303 expedition 30 (A35): grey goo (wanderer, P5 10:56) shot to death from 40' (95 XP); P9 seen, G14 looked into from the well by Vettius (not entered: mummy warlord and 4 bronze statues untouched); P10's 24 graves looted (L238, 336gp); the column read (Lammala's prayer); P11 seen (barge, statue); P13 stair-top boulder door found (not opened; R beyond); P14 font read; 4 shadows (wanderers, P14 12:44) destroyed (284 XP; Hrodvar enervated, cured day 306); Brennus anointed and looked into P12 (took nothing). 6 skeletons (wanderers) on the P10 bank passed by canoe (not destroyed). Giant caecilian (wanderer, P5 13:50) overawed. 3 wights (wanderers, H 14:46) destroyed (240 XP; one by the Rod).
+- Day 304 expedition 31 (A36): mummy (wanderer, P5 10:23) destroyed (660 XP; its gilded mask L239). P12 emptied (L240-L245, 20,900gp: shells, teeth, coral, pearls; Lucilla and Brennus saved against Lammala's curse); the P11 water elemental rose at the carriers' return and was held off by Neris' Holy Circle, Sustained all the way to P5 (it remains, in torpor, in P11's river). Repeat shadows (wanderers) ignored by the clearing rule. Caecilian (wanderer, P5 12:53) not resolved before `encounter end`: fled the raging elemental (Judge's call).
+- Day 305 expedition 32 (A37): downstream recon: P4 cave and tunnel, Q6 cave (its north secret panel to Q5 found by Vettius, NOT opened: Marcan and his 8 statues untouched); P1, P2 (excavation marks), P3 (Q1 slab door listened at, not touched: the four mummy warlords asleep).
+- Day 308 expedition 33 (A39): 15 giant rats (wanderers, C 08:06) intimidated; 8 skeletons (wanderers, P5 10:09) destroyed by the Rod (104 XP). A P10 grave's skeleton taken as the barge's corpse. **The funerary barge (L258) rowed out of P11 by its pattern to Lake Laman at 12:11 (unseen), its prow split (27/45 SHP); moored under sails at Tertulla's landing (paid to day 321).** P11 is now empty but for the statue; the elemental remains in the river. The canoes came out in the barge's cabin (back in the Silk Pony stables). Pending: unsettling event 7 (the dead baby rabbit) at the next sewer pass.
+- **The white fish (giant catfish):** charmed days 302-309, fed on days 303, 304, 305 and 308; its weekly save on day 309 succeeded (natural 20): the charm is broken; it is Neutral (Judge's call 2d6+2 = 6): a wild fish again; the river's catfish throw (6+ each turn on the water) applies (Rulings S15).
+
+### [[Shrine of the Horned Rat]] (Old District #13u; day 306, A38)
+- Entered by the dyers' lane drain (Liber's word). Room 1: tripwire and chime disarmed, rubble opened. West room 2 and north-central room 2: rat swarms burned (2, 130 XP). Room 4: Abimbola's pack asleep: Abimbola, a seer and 5 wererats slain by coup de grace; 1 seer captured (to the Citadel's cells); the chest (1,000gp 4,800sp), spices, Abimbola's pouch and Lann Dhuille (to Varro) taken. Room 5: the secret door to 6 found. Room 6: 11 giant rats burned (one fled); **the altar broken (no longer a sinkhole)**. Room 7: Terkinos's chest (2,640gp) and furs taken; the magic-locked door to 8 battered down. Room 8: Mentenus's chest (2,400gp) smashed open; his papers, map and books taken (to Arëtar). Left: the NW and SE rooms 2 (swarms), their secret doors (not found), the bronze urn (the Knight's ashes). **Terkinos's pack (Terkinos, 2 arcanists, 5 wererats) alive**, out searching noon-midnight on day 306: they come home at midnight to find the dead (Judge: they warn Mentenus; he learns at the next full moon, or sooner by Terkinos).
+
 ### [[Death Cult Hideout]] (Lake District #75u; day 296, A32)
 - Cleared: 7 enforcers, 4 cultists, Rhankur slain; Malthusia captured (shock, 1 hp; to the Citadel's cells). Altar in 12 smashed (no longer a sinkhole). Velus' body taken (rites by the Grey Sisters). 10 and 11 looted. Secret door in 12 to the canal known. No survivor left for the cult's revenge (AX3: none escaped). The vagrants remain; Velus' shrine at 3.
 - Ionicus estate: Vettius heir (deciphered journal, rites day 296). Placed at **27.19** (forest edge on the Krysivor's east bank, one hex south-east of the Ruined Imperial Fortress #30 at 26.19, across the ford from Türos Aster 25.19); the beastman tribe that overruns it is the fortress's bugbear tribe (Rulings S14). From Cyfaraun: 20 hexes of Imperial road to Türos Aster, the ford hex, one forest hex (22 hexes, about 132 miles). Not yet built (map, stocking).
@@ -87,12 +96,13 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Vessels (Judge-tracked, not inventory)
 - Four river canoes (RR canoe, 15' x 5', 1 paddler + 60 st; 40gp each, bought day 275), kept in the Silk Pony stables when not in use.
+- The funerary barge of the cults (L258, identified, used: no sale XP), 27/45 SHP (prow split), under old sails at Tertulla's landing on Lake Laman, paid to day 321 (2gp a week); to be sold (68,000gp base) or kept.
 
 ## Trade routes
 - Lucilla (Venturer, Steady Trade Route): Cyfaraun - Türos Tem, textiles and clothing (bought Cyfaraun, sold Türos Tem); established day 195.
 
 ## NPC attitudes
-- Patriarch Arëtar: named Iulia Captain of the Underwatch (day 296): spear +2 (L233) and shield +1 (L232) borne while she serves, never sold (Rulings S14). Tertulla (Lake Laman fisherwoman): Friendly (day 290).
+- Patriarch Arëtar: named Iulia Captain of the Underwatch (day 296): spear +2 (L233) and shield +1 (L232) borne while she serves, never sold (Rulings S14). Tertulla (Lake Laman fisherwoman): Friendly (day 290); keeps the black barge under her awning, asks no questions (day 308).
 - Revered Mother Doarë (Grey Sisters, House of Mourning): Friendly (day 264; reaction 11 Indifferent, influence with Neris' vision 12 Friendly). Keeps the party's sealed chest in her vault (holder grey-sisters-vault: the ancient coin 16,441gp 258sp 235cp and the opals L156-L159), 10gp a month (paid to day 293). Believes the Awakening may be near; she and Ezelus can introduce adventurers to the Order of the Eclipse (Temple District note).
 - Patriarch Arëtar (Solar Citadel): FRIENDLY (day 269: Iulia brought the H21 regalia and the Rod of the Dawn, the inquisitor's tomb and Neris' chart reading; influence 9 Indifferent, 12 Friendly). He lent Iulia the Rod (returned when the work below is done), bought the other temples' relics and the incense at value (4,030gp), and prayed Repair over Gnaeus himself. He dreams of the river. Earlier: Neutral (day 243, Iulia's audience on the vicar's introduction; two influences: Indifferent, then back to Neutral). Wants physical evidence of the Awakening (rubbings, a carved stone, a record scroll). Leaves healing to the Citadel's paid services.
 - Mother Drakima (Keepers' Hospital, priestess 7): cast Repair Disfigurement and Disability on Lucilla day 243 (paid service).
@@ -100,44 +110,42 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Cyfaraun (S08): a sister of the Temple of the Hearth Fire Unfriendly (day 173, read Genelen's letter); a Türos Orn priest healed Vettius at double fee.
 - Legate Valerian: Neutral (paid the reward day 146; will arrest the party if raids resume). Priestess Genelen: Friendly (holds the Fragments for Mityara's order). Annalist Socolo: Friendly (identified common items). Ur-Shet: Indifferent (day 142).
 
+- Arëtar (day 306): has Mentenus's papers (the Provost of the Tower leads the Horned Rat cult) and the captive seer; asked Iulia to say nothing outside the Citadel (Judge's watch item: what he does about the Tower). Iulia's month-11 report made (day 306). Liber Faunus (day 305): told Lucilla where the rat-tappers go; glad to see them cleaned out.
+
 ## Former characters (day 161)
 - Dead: Aulus, Marcia (cenotaphs in Türos Tem, paid from their deposits), Thorwell, Quintus (bodies in L2 38). Retired (injury): Zaira ES1 (one leg), in Türos Tem.
 - Former henchman free in Türos Tem, may be rehired: Vestus M1 (employer Marcia dead).
 - Karanos' bank (karanos-bank, 13,732gp): Sabina 2,242, Tarq 2,200, Lucilla 2,030, Vettius 2,244, Hesper 1,773; estates of Gallus 1,119, Thorwell 1,062, Thorcigar 1,062 (no wills; a relative may collect once).
 
 ## Offices
-- Iulia, Captain of the Underwatch (from day 296): **first mission (user, day 303): find the Horned Rat cult's shrine (Old District #13u, [[Shrine of the Horned Rat]]) and report it to Arëtar before month 11 ends (day 330)**; monthly report to Arëtar due by day 330 (then each month); month-end 1d6 for a mission (1) and 1-in-6 for Mentenus' notice; Citadel lodging free; oculus for her companions; +2 Watch/Guard reactions with the badge; +1 Lawful temples; -1 Prelate Romus (Rulings S14).
+- Iulia, Captain of the Underwatch (from day 296): **first mission DONE day 306 (shrine found, cleared, reported with the papers): find the Horned Rat cult's shrine (Old District #13u, [[Shrine of the Horned Rat]]) and report it to Arëtar before month 11 ends (day 330)**; monthly report to Arëtar due by day 330 (then each month); month-end 1d6 for a mission (1) and 1-in-6 for Mentenus' notice; Citadel lodging free; oculus for her companions; +2 Watch/Guard reactions with the badge; +1 Lawful temples; -1 Prelate Romus (Rulings S14).
 
 ## Faction standing
 
 ## Scheduled events
-- Day 309 (and weekly): the white fish's Spells save against Neris' Bewitch Beast (8 HD: weekly; hidden). Broken: hostile only if maltreated; fed and used kindly it may stay Neutral or Friendly (RR p. 197). It shadows no one while charmed.
+- Day 309: the white fish's save succeeded: the charm is broken; the fish is Neutral (wild). Renewing Bewitch Beast: +5 to its save if threatened.
+- Next full moon (Judge's call: date not yet set; the Calendar gives none): Mentenus comes to the Shrine at midnight; Terkinos's pack stays in.
 - Wages: Phaedra to 309, Varro and Hrodvar to 316, Aelia and Marcellus to 323, Gnaeus to 330; vault fee to 323; stalls to 316. Month 11 ends day 330 (investments 1 and 3 vagaries; Iulia's month-end Underwatch rolls; her first report to Arëtar due by then). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
-- Strength 49 without Gnaeus (Phaedra Mag4 day 274; Iulia Cru6 day 282) (bed rest to about day 298): Sub-Abyssal open at the floor exactly; a death turns them
-  back. With Gnaeus back (Explorer 4): 52. Party rule: keep henchmen, hire only below the floor (Rulings S10).
-- Area H done (H14's chieftains and 480 skeletons, the star mosaic's 28 energy crystals untouched; H12's stacked
-  goods; H13 2,000sp and the antlers; H7 2 ropes; H8 cedar chest and the warlord's gear; H21 bronze sarcophagus).
-- P (Sub-Abyssal river; underground river column level 5; the catfish 1d6 per turn on or in the river, hurt since day
-  282: shadows, does not attack until unhurt, Rulings S13): explored by canoe P5-P7-P8a; P6 empty; P8b cleared (egg
-  taken). The giant catfish bewitched by Neris (day 302): a friend while the charm holds. Not yet: P9 (G14 well), P10 (graves 336gp; the Lammala inscription), P11 (barge, statue, elemental on
-  trespass), P12 (cursed treasures), P13-P14 (anointing; boulder door to R2); downstream P4 (Q6) and P3 (Q1), P1-P2.
-  The four canoes live in the Silk Pony stables (Rulings S13: knocked down for the carry).
-- Elsewhere: C5 secret sepulchre; G (faewyrd; purification at G4), G9-G13, G14 (Abyssal); M caves; I (troglodytes
-  ~100, alerted); J (doom temple); L, R, S (Abyssal); Q (Great King tomb) by P3/P4.
-- Threads: Arëtar FRIENDLY (the Rod lent to Iulia, to be returned when the work below is done; dreams of the river;
-  his second, Prelate Romus, is drifting to Chthonic apostasy under Mentenus Cavië: Judge's watch item); Doarë
-  (Friendly; keeps the chest); Liber Faunus (Friendly; buys elven relics at 80%; wants news of below); the Silk Pony
-  (Sand & Bones); the Horned Rat wererats; Tavus Ionicus; Mother Drakima. L202 swan cloak (very rare; not identified:
-  Vestus' research as a 5th-level mage, or the Tower). L172 star charts and L173 elven map still kept. Vestus' copying
-  of Thunderbolt and Dispel Magic finished on day 271 (days 269-271); a week's study each to add them to his 3rd-level
-  repertoire (RR p. 183): on town days.
-- Scheduled: 280 Phaedra's wage; 284 stalls paid through; 287 Varro, Hrodvar; 293 the vault fee; 294 Aelia,
-  Marcellus; 298 Gnaeus up; 300 month 10 ends (investment 1 vagary; Brigandage ends after month 10); 301 Gnaeus'
-  wage, month 11 selling day, Lucilla's Rumormongering. Month 10 magic-item stock not rolled (month 9's stays).
-- NPCs invented S12: a traveller in the Temple District (took the party for the Imperial Vanguard).
+- Sites: the party works the Nethercity and the Undercity under Cyfaraun (18.05); no overland travel planned. Saved
+  for later: the Ionicus estate (27.19, not built; about a week's march), Celictor's crocodile (#45u), the arena.
+- Strength about 55 (Brennus F6 day 304, Vettius Thf7 day 306). Henchmen: Phaedra M4, Varro F4 (Lann Dhuille), Hrodvar
+  VG4 (max hp 13), Aelia B5, Marcellus F4, Gnaeus Exp4.
+- Nethercity left: G14 (mummy warlord + 4 bronze statues; 22,645gp; the well from P9 or the G13 stair); Q (Marcan
+  13 HD, 4 warlords, 8 statues; by P3 or the Q6 panel); R (288 skeletons in R3; R2 courtiers; the P13 boulder door);
+  C5; G4-G13; M; I (troglodytes); J; L; S; T; H14. The river: the catfish wild again (6+ each turn on the water);
+  the P11 elemental in the river; skeletons (6, wandering) about P10.
+- Undercity: Terkinos's pack (8) at the Shrine; Mentenus at the full moon; the Shrine's NW and SE secret doors (not
+  found); the Doppelgänger Den (#14u, rumour 14: Vasan Tikala); rumour 8.
+- Threads: Arëtar holds Mentenus's papers (what will he do about the Provost and the Tower?); the Night Captain's
+  tomb under the Citadel (#36u, Iulia's columbarium by right); "men living in the sewers far north" and the half-elf
+  hunting the Nethercity (Mentenus's notes); the black barge (sell: Liber, or keep); the basin treasure and grave
+  goods wait for the selling day (month 12, day 331); Vestus' rubbing of the oar pattern.
+- Scheduled: day 310 Phaedra's wage; 316 Varro, Hrodvar, stalls; 321 Tertulla's mooring; 323 Aelia, Marcellus, vault
+  fee; 330 month 11 ends (investments 1 and 3; Iulia's month-end Underwatch rolls: mission 1d6, Mentenus 1-in-6;
+  her month-11 report is made); 331 selling day.
+- NPCs invented S15: none new (Tertulla, Liber, Arëtar as before).

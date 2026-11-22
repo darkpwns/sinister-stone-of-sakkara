@@ -291,3 +291,19 @@ Finding day 299: Gnaeus' bed_rest did not count down on the night of day 298 (re
 Judge slip day 301: L228 (black shield +1, unidentified) was sold through Liber with the selling-day lots as a plain shield (8gp, no sale XP). Corrected: the lot reset to carried (Varro), the shield re-added, Lucilla refunded Liber 8gp (the 8gp already split to the share-holders stays: fractions). Then examined with Magical Engineering.
 Judge note day 302 swarm round 2: resolved in batch (front backed out, stings 1 each halved for moving away; throws by the back rank), not strictly in initiative order; the swarm's own round-2 action (following the front) folded into the stings.
 Judge slip day 302 08:26: the swarm fight's rounds hid the due rest from walk(): winded 08:26-08:28, rested.
+
+## S15 (2026-11-22)
+Finding day 303: `adventure join ID` takes a henchman as a pc unless `--kind henchman` is passed (fixed with `--kind henchman --force`; days 304-308 joined with the flag).
+Judge slip day 303 12:51: the unholy-blessing timer and Brennus' condition were added before the anointing was played (the rest turn's shadow encounter came first): removed at once, not played; anointed at 12:55 after the fight.
+Finding day 303 (P14, shadows): `encounter surprise` gave no JUDGE line for the shadow note's "-3 to surprise rolls vs it", so `--apply-note-penalty` refused; the -3 applied by hand to the same dice (every member surprised).
+Finding day 303 (P14): `damage --extraordinary` against the shadows printed "immune to mundane fire/arcane" and applied 0 (Fan of Flames twice, Mage Missile once); the dice stand and were applied by hand (half 4 -> 2 kills shadow3; 5 on shadow4; 3 and 4 by the missiles). The same flag worked on the mummy (day 304).
+Judge slip days 303-305: unsettling-event checks rolled late (day 303 11:18 at 13:19; day 304 11:14 at 13:16; day 305 11:06 at 13:56), all below 6. Day 308: the 08:30 check rolled at 08:06 (6: event 7, the dead rabbit, still pending since day 219, to be played at the next sewer pass); the 10:30 check not rolled (the party left Area P by the barge at 12:11).
+Judge slip day 304 12:56: `encounter end` closed enc230 (caecilian, P5 12:53) unresolved; Judge's call: it fled the raging elemental (no roll).
+Judge note day 304 (mummy, P5): Phaedra's visage re-saves in rounds 3-4 skipped (she cowered and did not act); immaterial.
+Finding days 305-306: the turns-since-rest counter survives a night's sleep in town ("rest due now" on the first turn of the next descent); a rest was taken at the grate.
+Finding day 306: `encounter fight` with the Rat Swarm needs `--set hd=3 --set ac=0` (statblock HD not a number); `recover --monster "Rat Swarm"` needs `--xp-each 65` (XP '29/65/135').
+Finding day 306: `recover --item "Sword +1"` recorded a Dagger +1 (category Sword, arms type drawn); fixed with `--item "Sword +1 (Sword)"` (L257), L256 dropped and its dagger removed (void).
+Finding day 306: snapshot.py refused L257 (unidentified "Sword +1") because Vettius' and Marcellus' identified "Sword +1"s are in the output (generic true names collide); resolved by Varro's day of training (identify --method train, day 307).
+Judge slip day 306: the banking loop used s10_j.sh's default PARTY (includes Quirinus, retired): 266gp of his banked and reversed at once.
+Finding days 304, 306: `level-up` re-rolls hp without the permanent enervation loss; Judge's reading: re-roll less the loss, at least the previous maximum +1 (Brennus 26 -> 23, wraith 6; Vettius 25 -> 22, shadow 3).
+Judge's calls S15: Liber knows the rat-tappers' drain (1d6 3: yes); Arëtar's thanks (1d6 2: words only); Lake Laman within 360' of P11 (1d6 2: yes); the barge unseen on the lake (1d6 4); the white fish's save day 309 (natural 20: broken) and its attitude (2d6+2 = 6: Neutral).
