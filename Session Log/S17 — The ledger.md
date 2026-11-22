@@ -53,6 +53,13 @@ Silk Pony for the Solar Citadel.
   his axe and went. Vestus named the helm and the sword (a short sword +2 that commands); the scale would not yield
   its secret.
 
+- Day 318, thirty-seventh descent, for the rest of the king's goods. The fish took its sheep. In the tomb the eight
+  bronze warriors stood where they had been left and came at the company again, and again could not touch it. The
+  throne, the chariot in pieces, the eight cedar shields (in the lantern light the grain of the cedar had twisted
+  into skulls and strange signs), the canopic shrine and its jars, the vases and the gold picked from the mosaics
+  went out on the bearers' backs. In the sewer caves four giant flies came buzzing to the lantern, hung there while
+  Brennus roared at them, and drifted off. Out by three. Only the four bronze coffins of the guard remain.
+
 ## Who they met
 
 ## Treasure and XP

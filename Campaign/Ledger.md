@@ -194,6 +194,13 @@ tags:
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | 1,000 gold pieces | 1,000 | phaedra |
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | 1,000 gold pieces | 1,000 | neris |
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | a sarcophagus of pure gold in the likeness of a cold, arrogant king (four bearers) | 20,000 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | an ebony throne inlaid with ivory and gold leaf (two bearers) | 2,000 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | a gilded ebony light chariot with ivory serpents, dismantled (two bearers) | 4,000 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | four gilded cedar shields | 400 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | four gilded cedar shields | 400 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | a canopic shrine of gilded wood with gold lions, four jars inside (two bearers) | 2,100 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | seven canopic jars and six red-figure vases | 217 | stored |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | 200 gold pieces | 200 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -536,6 +543,17 @@ tags:
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Aelia | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Marcellus | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Gnaeus | 0.5 | 1,944 | 536 | 0 | +0% | 2,480 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Lucilla | 1 | 1,096 | 0 | 0 | +10% | 1,206 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Vettius | 1 | 1,096 | 0 | 0 | +5% | 1,151 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Iulia | 1 | 1,096 | 0 | 0 | +5% | 1,151 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Vestus the Unlikely | 1 | 1,096 | 0 | 0 | +5% | 1,151 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Neris | 1 | 1,096 | 0 | 0 | +0% | 1,096 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Brennus | 1 | 1,096 | 0 | 0 | +5% | 1,151 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Phaedra | 0.5 | 548 | 0 | 0 | +0% | 548 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Varro | 0.5 | 548 | 0 | 0 | +0% | 548 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Hrodvar | 0.5 | 548 | 0 | 0 | +0% | 548 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Aelia | 0.5 | 548 | 0 | 0 | +0% | 548 |
+| 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Marcellus | 0.5 | 548 | 0 | 0 | +0% | 548 |
 
 ## Wages
 
@@ -2006,3 +2024,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 317 |  | treasure share |  | 166gp 6sp 7cp |  | aelia |
 | 317 |  | treasure share |  | 166gp 6sp 7cp |  | marcellus |
 | 317 |  | treasure share |  | 166gp 6sp 7cp |  | gnaeus |
+| 318 | a Plaza butcher | a sheep for the white fish's bait, day 318 |  |  | 2gp | marcellus |
+| 318 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 8cp | vettius |
+| 318 |  | treasure share |  | 23gp 5sp 3cp |  | lucilla |
+| 318 |  | treasure share |  | 23gp 5sp 3cp |  | vettius |
+| 318 |  | treasure share |  | 23gp 5sp 3cp |  | iulia |
+| 318 |  | treasure share |  | 23gp 5sp 3cp |  | vestus-the-unlikely |
+| 318 |  | treasure share |  | 23gp 5sp 3cp |  | neris |
+| 318 |  | treasure share |  | 23gp 5sp 3cp |  | brennus |
+| 318 |  | treasure share |  | 11gp 7sp 6cp |  | phaedra |
+| 318 |  | treasure share |  | 11gp 7sp 6cp |  | varro |
+| 318 |  | treasure share |  | 11gp 7sp 6cp |  | hrodvar |
+| 318 |  | treasure share |  | 11gp 7sp 6cp |  | aelia |
+| 318 |  | treasure share |  | 11gp 7sp 6cp |  | marcellus |
