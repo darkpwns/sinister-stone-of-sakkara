@@ -823,3 +823,35 @@ the disc: Vestus could steer it, energy crystals are in the F17 lance); Order ro
 **Routine (S18 week 4):** the torch helper relights on any "burns out" even when another torch still burns: check
 the light line; `encounter fight` does not set surprised conditions (set them by hand); grave ghoul fever is the
 monster's own rule, not `disease expose`.
+
+## S20 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: source `Playtest/tools/s10_j.sh`,
+`s11_mend.sh`, `s13_j.sh`, `s12_town.sh`, then `PARTY="lucilla vettius vestus-the-unlikely neris brennus iulia phaedra
+varro hrodvar aelia marcellus saturnin cotta"`. New: `python3 Playtest/tools/gh_balances.py` (Guildhouse member
+balances from the inventory log; reconciles with the bank). Session 19 log: `Session Log/S19 — The Thelesa villa.md`.
+
+**State on resume:** day 365 17:31, spring (the engine's season turned on day 361), Cyfaraun (18.05), the Solar
+Citadel barracks. No adventure open (A62 paid out). Location Cyfaraun (settlement, wandering none). Night of day 365
+first (`eat --in-town`, `wait --hours 13`), then `dawn 366`. Thirteen, all whole; **Lucilla's max hp is 23** (the
+wraith; enervation ended day 365). Iulia holds the Underwatch spear again (w60, restored day 362: judge-notes).
+Vestus casts Fireball (Thunderbolt laid aside, formula kept).
+
+**Days 358-365:** 358 the Mink on the villa; 359 Vettius scouted it; Thelesa Villa built (Adventure/AX3/Dungeons/
+Thelesa Villa/); 360 month 12 ended (fees, investments 1 Return and 3 Return +50%, Cotta to 390, Vestus' dues,
+A59 Rufio's commission), Arëtar's task (1): the Thelesa haunt with 4 knights; 361 selling day (Liber 9,442gp, open
+4,940gp, tax none; L386 to the Tower for 2,000gp, ready day 375; L327 kept back: the Provost's); Order rolls none;
+362 A60 the villa (Una slain, wraith destroyed, 9 rats, H40 and H41), A61 Arëtar's gift 750gp; 363 Tertulla to 377,
+Vestus' archive clue on the Great Teacher and the F17 alarm; 364 A62 the Order's 2,000gp for Una; Brotherhood roll
+1: Liber Faunus seeks "Vasan" (World State, Scheduled events).
+
+**Open:** Liber's note at the wine stalls (Destrio's charge vs the company's fence); F17's cases and the Great
+Teacher (the table will not open them until it can fight him with a way out); F14's serpent door; F18's east finger
+to I7; F19; the disc (375); the jade ring; Iulia's month-13 report by 390. Scheduled: 368 Order rolls; 369 Phaedra;
+372 Brotherhood; 375 disc; 376 Varro, Hrodvar; 377 Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390
+month 13 ends (investment 2 rolls again); 391 selling day (villa gems and jewels in the barracks).
+
+**Routine (S19 lessons):** `travel` needs a driver for the cart and rebuilds animals from the inventory: take the
+cart along (Hrodvar drives) or plan for it; `state end` does not delete Campaign/combat-state.json (remove it before
+the next `encounter fight`); end an encounter before rolling surprise for the next; a spear's broken shaft is
+repaired for 1gp, not lost (Rulings S19; check an engine `break` line at once); Loremastery has no recorded throw
+in the engine: `throw ID --target N` (18+ less 1 per level after 1st).

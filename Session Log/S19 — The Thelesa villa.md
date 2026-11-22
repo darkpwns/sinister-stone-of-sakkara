@@ -65,6 +65,18 @@ given Vestus a name: Una of the Thelesa villa.
   the Captain 750gp for the company. The stones and jewels wait in the barracks for next month's selling day; the
   coin went to the Guildhouse.
 
+- Day 363, heavy warm rain. Lucilla's enervation held off (she felt the cold ebb a little each morning). She paid
+  Tertulla two more weeks for the barge. Vestus spent the day in the Tower's archive with the Argollëan fragments
+  and found a copied homily, "On the Teacher Below": the elves' Great Teacher, beetle-headed, who "slept in a cold
+  coffin beneath the Falling Star", whose "watching eggs" on the cases of his wonders "called him from his sleep to
+  keep what was his"; his fists broke stone, and he bore "a sword of light" and "a rod that unmakes the mind".
+  Rosa still wants the lance. Gideon: "Not until we can fight whatever that is with the door already open behind
+  us. Not this week."
+- Day 364, misty and still. Brother Oppius at the Citadel gate with a sealed purse for Vestus: 2,000gp for Una.
+  "The mother has been told her son is answered."
+- Day 365, overcast. A day of rest; by evening the cold had gone out of Lucilla's bones for good, though her
+  strength did not come back.
+
 ## Who they met
 - An old farmer by the Türos Quell road (day 362): bent, three teeth, chews a straw; "She was a pretty thing once."
 - Four Knights of the Winged Sun (Arëtar's escort, day 362).
@@ -77,12 +89,20 @@ given Vestus a name: Una of the Thelesa villa.
 - Day 362 (A60, the Thelesa villa): 7,000 electrum and Una's purse (3,506gp in coin); gems and jewelry (3,525gp,
   kept for month 14's selling day); the witch, the grey walker and 9 giant rats (315 XP); 7,346 XP over 9 shares.
 - Day 362 (A61): Arëtar's gift, 750gp.
+- Day 364 (A62): the Order's commission for Una, 2,000gp; 2,000 XP over 9 shares.
 
 ## Rumours given
+- Day 358: Lucilla's contacts at the Mink (the villa, its madwoman and the grey walker on the wall).
 
 ## Changes to the world
+- Una of the Thelesa is dead; the grey walker is gone; the Thelesa villa stands empty, its altar broken.
+- Lucilla is permanently weaker (max hp 23) from the wraith's touch.
+- The rainbow disc is at the Tower of Knowledge until day 375.
 
 ## Next time
+Day 365, evening, the Solar Citadel. Thirteen, all whole (Lucilla 23/23). No adventure open. Month 13 runs to day
+390: Iulia's report to Arëtar is due by then. The disc is named on day 375. Below: the serpent door, the sealed
+cases and their sleeper, the narrow way east from the Cave of the Falling Star.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 19). Judge notes: Playtest/judge-notes.txt (S19 entries).
@@ -115,3 +135,10 @@ given Vestus a name: Una of the Thelesa villa.
 > 13 (found), Aelia 8, Lucilla 15. Arëtar's gift 2 (yes), 1d4 3 (750gp). The Order's commission for Una: 1d3 2
 > (day 364).
 > NPC voices: the old farmer (bent, three teeth, straw; "She was a pretty thing once.").
+> Days 363-365: Lucilla's enervation Death saves 14, 11, 15 (three passes running: ended day 365; max hp stays 23).
+> Vestus' archive throw (Loremastery 13+, +2 the Tower's archive, Judge's ruling) 18 (success: the homily, a clue
+> to T2's sleeper and the F17 alarm). Brotherhood weekly 1 (someone seeks it): Liber Faunus (5; password "morning
+> dew"), target a Nicean merchant who spurned the Family's smuggling (4); a sealed note for "Vasan" at the Nicean
+> wine stalls; Lucilla hears of it unasked 4 (not this week; 1-in-6 a day she passes the Emporium, or at once if
+> she asks there or at her Rumormongering). Destrio's charge: report anyone who seeks the Brotherhood.
+

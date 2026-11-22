@@ -168,9 +168,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **The Brotherhood sought again (week of day 365, 1-in-6 came up 1): Liber Faunus** (ledger password "morning dew") leaves a sealed note for "Vasan Tikala" at the Nicean wine stalls: one commission, a Nicean merchant who spurned the Family's smuggling (Judge to name him when it surfaces). The wine-seller (Friendly to Lucilla) holds it. Lucilla hears of it unasked on a 1 (1d6) each day she passes the Emporium, or at once if she asks there or uses Rumormongering. Destrio's charge: report anyone who seeks the Brotherhood (a dilemma: Liber is the company's fence, Friendly). No reply comes, so Liber asks again at the stalls a week later (day 372) and then gives it up.
 - **Day 364:** Brother Oppius with Vestus' 2,000gp commission for Una (book it as its own record, like A59).
 - **Day 375:** the Tower of Knowledge names the rainbow disc L386 (paid 2,000gp by Lucilla for the A57 share-holders, day 361). L327 (the Provost's jade ring) stays unidentified in the vault: not to be shown at the Tower.
-- **Lucilla enervated** (the wraith, day 362; max hp 23): a Death save each morning; fail: max hp -1 permanently; three passes running end it.
+- Lucilla's enervation (the wraith, day 362) ended day 365 (three Death saves passed running); max hp 23 permanently.
 - The Underwatch spear (w60) restored to Iulia's hand day 362 (its day-324 broken shaft repaired, 1gp; judge-notes).
 - Gems and jewelry from the villa (L393-L397, L399-L407, 3,525gp) stored in the Citadel barracks for month 14's selling day (day 391).
 - The white fish: re-charmed day 309; day-316 save failed; **day-323 save 19: the charm is broken** (hidden; the party does not know). Its attitude rolled 2d6+2 = 12: Friendly (fed on every visit). The river's catfish throw (6+ each turn on the water) applies again (Rulings S15), as a friendly fish: it comes to the canoes for food and does not attack while Friendly; Neris may re-charm it (+0).
@@ -188,14 +189,16 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: the Thelesa villa (Judge's call: hex 17.06, half a day SW; Una, Witch 4: [[Una (AX3)]]); Nethercity F: F14's
-  snake-loop door (found, blade; stairs down to T1: the Great Teacher, [[Nethercity T - Sub-Abyssal Secret Alien Sepulcher]]),
-  F17's three cases (alarm bulbs wake T2), F19 (2 rhagodessae), F18's east finger to I7 (troglodytes); one grave
-  ghoul fled (3 hp, F area).
-- Threads: Vestus' study ends day 360 (Fireball replaces Thunderbolt: `actor item`); Una (Vestus' contract); the
-  commission for Rufio (360, a reward: its own record as A53); selling day 361 (the disc and the ring unnamed:
-  identify first; Liber 80% for elven relics, the rest open at 5%); the Order's rolls (361).
-- Scheduled: 360 month 12 ends (Guildhouse fees from member balances, investments 1 and 3, Iulia's month-end rolls
-  and report, Vestus' Tower dues, Cotta's wage); 361 selling day, Order rolls; 363 Tertulla; 365 weekly Brotherhood
-  roll; 369 Phaedra's wage; 376 Varro, Hrodvar; 382 Saturnin; 383 Aelia, Marcellus, vault fee.
-- NPCs: Rufio Calvus (dead); the Watch optio (heavy-jawed, stylus behind the ear: "Just the night, Captain"); Una.
+- Sites: Nethercity F: F14's snake-loop door (found, blade; T1 down to T2: the Great Teacher, 11 HD, [[Great Teacher (SOTN)]]);
+  F17's three cases (opening any wakes him: Judge decides where he is and what he does; he can pass the F14 blade by
+  the T1 lever); F19 (2 rhagodessae, no treasure); F18's east finger down to I7 (troglodytes; [[Nethercity I - Deep
+  Level Southern Cave Complex]]); one grave ghoul fled (3 hp, F area). The Thelesa villa: done (empty).
+- Threads: the disc named day 375 (Tower; then Liber at 80% or kept: Vestus could steer it; an energy crystal is in
+  the F17 lance); the jade ring (the Provost's: magic research by Vestus, 10 days and 2,000gp, or a sage outside the
+  city); Liber's note for Vasan (above); Iulia's month-13 report by day 390 and the month-end task roll; Vestus'
+  Thunderbolt formula kept; the Order's weekly rolls (368).
+- Scheduled: 368 Order rolls; 369 Phaedra's wage; 372 Brotherhood weekly roll (and Liber asks again); 375 the disc;
+  376 Varro, Hrodvar; 377 Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends (fees,
+  investments 1 and 3, investment 2's first roll after its delay, Iulia's rolls and report, Vestus' dues, Cotta's
+  wage to 420); 391 selling day (the villa's gems and jewels L393-L397, L399-L407).
+- NPCs: the old farmer by the Türos Quell road (bent, three teeth, chews a straw; "She was a pretty thing once.").

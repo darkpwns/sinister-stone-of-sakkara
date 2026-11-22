@@ -2596,3 +2596,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 362 |  | treasure share |  | 41gp 6sp 7cp |  | aelia |
 | 362 |  | treasure share |  | 41gp 6sp 7cp |  | marcellus |
 | 362 |  | treasure share |  | 41gp 6sp 7cp |  | cotta |
+| 363 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 364-377), no questions |  |  | 4gp | lucilla |
+| 364 |  | treasure share |  | 222gp 2sp 2cp |  | lucilla |
+| 364 |  | treasure share |  | 222gp 2sp 2cp |  | vettius |
+| 364 |  | treasure share |  | 222gp 2sp 2cp |  | vestus-the-unlikely |
+| 364 |  | treasure share |  | 222gp 2sp 2cp |  | neris |
+| 364 |  | treasure share |  | 222gp 2sp 2cp |  | brennus |
+| 364 |  | treasure share |  | 222gp 2sp 2cp |  | iulia |
+| 364 |  | treasure share |  | 111gp 1sp 1cp |  | phaedra |
+| 364 |  | treasure share |  | 111gp 1sp 1cp |  | varro |
+| 364 |  | treasure share |  | 111gp 1sp 1cp |  | hrodvar |
+| 364 |  | treasure share |  | 111gp 1sp 1cp |  | aelia |
+| 364 |  | treasure share |  | 111gp 1sp 1cp |  | marcellus |
+| 364 |  | treasure share |  | 111gp 1sp 1cp |  | cotta |
