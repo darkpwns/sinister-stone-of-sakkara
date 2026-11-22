@@ -911,3 +911,20 @@ above her monthly XP threshold, RR Experience from Hijinks), the front 1,500gp a
 (villa gems and jewels; identify L419 medallion and L421 sword first; the jade ring L327 is the Provost's: still not in
 Cyfaraun) and Tertulla; the war with Sand & Bones (the Family expects it); the 25 betrayers (weekly 1-in-6); below:
 the troglodyte hive, F14/T, F17, F19.
+
+## S20 after the fifth S19 week — start here (supersedes everything above)
+**State on resume:** day 393 ~19:45, spring, Cyfaraun, the Solar Citadel. No adventure open (A74 paid out). Night
+of day 393 first, then `dawn 394`. Thirteen, all whole.
+
+**Days 387-393:** the Family agreed to annex Sand & Bones (blood for Selene's circle); Hesta's spies; the Amphitheater
+cellars (the hand); A73 Virathos' commission; month 13 ended (fees, investments, the Family's 16,315gp and Lucilla's
+9,665 hijink XP); Arëtar sanctioned taking Maximus; 391 selling day through the Family; A74 Maximus slain asleep
+(his school built: Adventure/AX3/Dungeons/Maximus' School.md), his strongroom taken; Sand & Bones on war footing
+against the company (8 gladiators), and a betrayer has told Selene who heads the Family.
+
+**Open:** Selene's war (she will strike at the company or the Family: Judge decides the first move each week); the
+Order's roll day 396 (Selene); the freed beastmen; Jonus, Thana and Lutarius as levers for the annexation (Rulings S19
+spoil-of-war row); unidentified: L419 medallion (Liber's; not at the Tower), L432/L433/L436 potions, L435 sling
+bullets, L437 sword and L438 spear (train to learn the bonus); L327 the Provost's ring; wages 399 Phaedra, 406
+Varro/Hrodvar, 412 Saturnin, 413 Aelia/Marcellus, 420 Cotta; month 14 ends day 420 (the Family's take again);
+Tertulla paid to 405; below: the troglodyte hive, F14/T, F17, F19.

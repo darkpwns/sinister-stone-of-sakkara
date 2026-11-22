@@ -171,6 +171,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Maximus Arjentüran slain** night of day 392 (Iulia's sanctioned mission, A74); his storeroom (human flesh) exposed by the knights and the Inspector day 393; his 12 charmed beastmen in the Amphitheater basement are freed (MM) (Judge's watch: what they do; the next games). Pluris' 750gp bounty for proof he cheated (unclaimed). Jonus Krusaro: Maximus gone (his lever +2 for the annexation applies).
+- **Sand & Bones takes it to the mattresses against the company** (day 393, 1): 8 gladiators hired from Nuvicus and Pluris; **a betrayer has told Selene that Lucilla heads the Family** (she does not know who killed Liber; the frame stands for the Family). The party does not yet know.
+- Order rolls day 396 (Selene to the first 4).
 - **The Argollëan Family under Lucilla (day 383):** Liber Faunus slain night of day 381 (Neris' Order contract, A70);
   blamed on Sand & Bones (a Silk Pony die on his pillow; the Family's reading 4). Change in Management (Rulings S19):
   Aranth Faunus accepts; Hesta Faunus and Megaravicos Eight-Fingers hesitant (loyal while the betrayers are no

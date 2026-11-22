@@ -2,7 +2,7 @@
 type: session
 session: 19
 date_real: 2026-11-22
-date_game: winter-spring day 358-386
+date_game: winter-spring day 358-393
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -159,6 +159,35 @@ given Vestus a name: Una of the Thelesa villa.
   Brennus broke the door inside Neris' silence, and the man never woke.
 - Day 386. Lucilla's own men at the Emporium brought her Selene's second note for Vasan before the wine-seller could.
 
+- Day 387. At the hideout under The Mink, Lucilla put it to the Family: Selene and whoever stands at her shoulder pay
+  in blood; the rest of Sand & Bones, its houses, its wharf and its bookmaking, pays the Family rent. "Liber would
+  have counted before he bled." Aranth nodded first; Hesta smiled at the thought of Selene's blood; the Family
+  agreed. Hesta's girls had Selene's nights and her people by evening: her spymaster Jonus Krusaro, her bookkeeper
+  Thana Nyssand, her pit-master Lutarius, and her lover the lanista Maximus, "the Strong Silver Sword", who runs
+  the Amphitheater and its cellars and takes the dead of Selene's Blood Moon pit fights away "to inter".
+- Day 388. Vestus asked the Tower's Inspector of the Games to show the arena's cellars; she hesitated, and the
+  lanista himself came up the stair: six and a half feet of fat and charm, a booming welcome for the Captain. He
+  showed them his beastmen and not his storerooms; the dead, he said, go to the Necropolis. Neris' prayer, said
+  quietly at the door, showed him rank with evil.
+- Day 389. Jonus Krusaro heard the Captain out and said nothing worth hearing. Oppius brought 1,000gp for the
+  trader; the Order named no one this week. That night Vettius climbed into the Amphitheater, went down a floor-lift
+  shaft into the cellars and reached the storeroom gate: the lock beat him, but through the bars he prised a slat
+  from a crate of "smoked pork" and found a smoked human hand. He brought it home.
+- Day 390, the thirteenth month's end. The Guildhouse took its fees; the caravans paid well (one has a monopoly for
+  a season). Vestus paid his dues, Vettius Cotta's wage. The Family's first month came to Lucilla: 16,315 gold. Iulia
+  laid the hand before the Patriarch with the rest of it. "A man who eats men in my city is a beast, whatever face
+  he wears. Bring him to me in chains, Captain, or end him." One knight rides with her.
+- Day 391. Selling day: the villa's stones and jewels went through the Family at their full worth (3,525gp) with no
+  tax-collector the wiser. Vettius spent the day with Liber's leaf-bladed sword: a +1 blade. Lucilla paid Tertulla.
+- Night of day 392. The lanista slept at his school. Over the back wall inside Neris' silence, through a shutter
+  Vettius slipped, up to the great bed. Gideon had said it plainly: "A man-eater asleep is a man-eater who cannot
+  look at you." Iulia did the Sun's justice. His strongroom held copper, electrum, two brilliants, trinkets, three
+  potions, a pouch of sling bullets that hum, and a silver-chased spear and sword. The coin went over the wall
+  quietly; the Captain and her knight carried the body out of the front gate past two gaping guards.
+- Day 393. Before the Patriarch's court the dead man was only a dead man, but the knights opened the arena's
+  storeroom with the Inspector's key and found what Vettius had found. The stones and trinkets went through the
+  Family (2,153gp). In the Festival District that evening, men said Sand & Bones was hiring gladiators.
+
 ## Who they met
 - An old farmer by the Türos Quell road (day 362): bent, three teeth, chews a straw; "She was a pretty thing once."
 - Four Knights of the Winged Sun (Arëtar's escort, day 362).
@@ -185,6 +214,11 @@ given Vestus a name: Una of the Thelesa villa.
   (unknown), a leaf-bladed sword (unknown), his strongbox (returned to the Family day 383); Liber and his bodyguard
   (930 XP); 1,049 XP over 5 shares. Day 384 (A71): the Order's 5,000gp for Liber. Night of day 385 (A72): Virathos'
   purse 16gp; 36 XP over 4 shares (his commission, 1,000gp, day 389).
+- Day 389 (A73): the Order's 1,000gp for Virathos. Day 390: the Family's month (16,315gp; Lucilla 9,665 campaign XP
+  from its hijinks). Day 391: the villa's gems and jewels through the Family, 3,525gp.
+- Night of day 392 (A74): the lanista's strongroom (16,000cp, 9,000ep, two brilliants, four trinkets, three potions,
+  19 sling bullets, a spear and a sword); the lanista (2,000 XP); 8,899 XP over 6 shares. Stones and trinkets sold
+  through the Family day 393 (2,153gp).
 
 ## Rumours given
 - Day 358: Lucilla's contacts at the Mink (the villa, its madwoman and the grey walker on the wall).
@@ -195,7 +229,10 @@ given Vestus a name: Una of the Thelesa villa.
 - The rainbow disc is at the Tower of Knowledge until day 375.
 
 ## Next time
-Day 386, evening, the Solar Citadel. Lucilla is the head of the Argollëan Family (The Mink's hideout, 224 members);
+Day 393, evening, the Solar Citadel. The lanista Maximus is dead and his storeroom exposed; Sand & Bones is hiring
+gladiators. Lucilla heads the Argollëan Family (16,315gp a month). The Order has not yet named Selene.
+
+(Week 4 close:) Day 386, evening, the Solar Citadel. Lucilla is the head of the Argollëan Family (The Mink's hideout, 224 members);
 the Family blames Sand & Bones for Liber and wants Selene's blood; the Order will name Selene. Month 13 ends on day
 390; the selling day is 391 (the villa's gems, Liber's medallion and sword once named), now through the company's
 own Family at full value.
@@ -302,4 +339,17 @@ cases and their sleeper, the narrow way east from the Cave of the Falling Star.
 > Virathos asleep 3; Vettius' Lockpicking 5 (fail); Brennus' door 12, 16, 20 (burst, inside the silence); purse 16;
 > commission 1d3 3 (day 389). Day 386: Brotherhood weekly 1: Selene again (2); the Watch on Balkar/Nerio 4 (no);
 > the Watch past Sand & Bones on Liber 2 (no); a betrayer acts 4 (no); Sand & Bones moves first 5 (no).
+> Days 387-393: the Family council: influence 2d6+5 12 (Friendly: annex, blood for Selene's circle). Hesta's girls:
+> Selene's nights 1 (yes), Jonus' suspicion 5 (no), the dead to Maximus 1 (yes), Selene's strange love 6 (no). Day
+> 388: Mara 8 (Neutral); Maximus present 1; his reaction 8 (Neutral: the cells only); Neris' Discern Evil (evil);
+> her look at the storeroom through the gate 2 vs 14+ (nothing). Day 389: Jonus 11 (Indifferent); Order rolls 3, 1, 2,
+> 3, 3, 1 (none); Vettius' Climbing 18, Sneaking 15, Lockpicking 3 (fail; the hand taken through the bars, Judge's
+> call); the guards' notice roll void (no failed sneak). Day 390: investments (1) 71 (Return +100%: 13gp 8sp 6cp),
+> (2) 86 (Monopoly: 6% of 700 = 42gp; 2 months more), (3) 69 (Return +100%: 60gp); Iulia's task roll 3 (none);
+> Arëtar's lore 5 (no); his influence 11 (Friendly: sanctioned); knights 1. Day 391: L421 trained (+1). Site build:
+> Maximus' School (Adventure/AX3/Dungeons/Maximus' School.md): Maximus at the school 1; gate guards 1d3 2; TT O (H43)
+> and L (H44). Night of 392: Vettius' Sneaking 14, Lockpicking 7 (the back door, fail: the shutter instead), 13 (the
+> strongroom, opened); Iulia's coup de grace inside Noiselessness. Day 393: Selene a thrall 5 (no); the corpse's
+> nature 6 (does not show); Selene's answer 1 (to the mattresses against the company); gladiators 1d6x2 = 8;
+> Brotherhood weekly 6 (none); a betrayer acts 1: sold that Lucilla heads the Family (3); the Watch 4 (no).
 

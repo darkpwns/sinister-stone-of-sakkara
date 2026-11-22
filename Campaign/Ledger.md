@@ -2701,3 +2701,50 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 386 |  | treasure share |  | 4gp |  | vettius |
 | 386 |  | treasure share |  | 4gp |  | lucilla |
 | 386 |  | treasure share |  | 4gp |  | brennus |
+| 389 |  | treasure share |  | 250gp |  | neris |
+| 389 |  | treasure share |  | 250gp |  | vettius |
+| 389 |  | treasure share |  | 250gp |  | lucilla |
+| 389 |  | treasure share |  | 250gp |  | brennus |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 19131.25 |  |  | 47gp 8sp 3cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 37573.72 |  |  | 93gp 9sp 3cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 14951.98 |  |  | 37gp 3sp 8cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 19620.88 |  |  | 49gp 5cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 36126.70 |  |  | 90gp 3sp 2cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 25001.15 |  |  | 62gp 5sp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 19014.43 |  |  | 47gp 5sp 4cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of neris, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 38128.14 |  |  | 95gp 3sp 2cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 19364.17 |  |  | 48gp 4sp 1cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of varro, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 19850.68 |  |  | 49gp 6sp 3cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 35992.05 |  |  | 89gp 9sp 8cp | guildhouse-bank |
+| 390 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 13 (day 390): on 37386.77 |  |  | 93gp 4sp 7cp | guildhouse-bank |
+| 390 | Lucilla's caravans (investments 1, 2 and 3) | month 13 returns: (1) 2% of 693gp = 13gp 8sp 6cp (Return +100%), (2) 6% of 700gp = 42gp (Monopoly: rate doubled this month and the next months rolled), (3) 2% of 3,000gp = 60gp (Return +100%) (RR Passive Investment) |  | 115gp 8sp 6cp |  | lucilla |
+| 390 | Tower of Knowledge (members' dues) | Vestus' Tower dues, month 14 (10gp a month, AX3 p. 148), paid day 390 |  |  | 10gp | vestus-the-unlikely |
+| 390 | the retinue | wages paid |  |  | 50gp | vettius |
+| 390 | the Argollëan Family (Lucilla's first month as its head) | month 13: the syndicate's take 12,065gp (AX3 p. 75), the front's houses and The Mink 1,500gp, Liber's half of the venture company 2,750gp (Rulings S19 correction) |  | 16,315gp |  | lucilla |
+| 391 | Tertulla, Lake Laman fisherwoman | mooring the black barge two more weeks (days 392-405), no questions |  |  | 4gp | lucilla |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 391gp 6sp 7cp |  | lucilla |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 391gp 6sp 7cp |  | vettius |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 391gp 6sp 7cp |  | vestus-the-unlikely |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 391gp 6sp 7cp |  | neris |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 391gp 6sp 7cp |  | brennus |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 391gp 6sp 7cp |  | iulia |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 195gp 8sp 6cp |  | phaedra |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 195gp 8sp 6cp |  | varro |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 195gp 8sp 6cp |  | hrodvar |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 195gp 8sp 6cp |  | aelia |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 195gp 8sp 6cp |  | marcellus |
+| 391 | Cyfaraun | his share of the sale of L393,L394,L395,L396,L397,L399,L400,L401,L402,L403,L404,L405,L406,L407 (after the payout) |  | 195gp 8sp 6cp |  | cotta |
+| 393 |  | treasure share |  | 776gp 6sp 7cp |  | iulia |
+| 393 |  | treasure share |  | 776gp 6sp 7cp |  | vettius |
+| 393 |  | treasure share |  | 776gp 6sp 7cp |  | neris |
+| 393 |  | treasure share |  | 776gp 6sp 7cp |  | brennus |
+| 393 |  | treasure share |  | 776gp 6sp 7cp |  | vestus-the-unlikely |
+| 393 |  | treasure share |  | 388gp 3sp 3cp |  | marcellus |
+| 393 |  | treasure share |  | 388gp 3sp 3cp |  | aelia |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 358gp 8sp 4cp |  | iulia |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 358gp 8sp 4cp |  | vettius |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 358gp 8sp 4cp |  | neris |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 358gp 8sp 4cp |  | brennus |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 358gp 8sp 4cp |  | vestus-the-unlikely |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 179gp 4sp 1cp |  | marcellus |
+| 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 179gp 4sp 1cp |  | aelia |
