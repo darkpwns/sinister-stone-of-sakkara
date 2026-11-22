@@ -225,3 +225,7 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   without touching anyone. Lesson (12): a stone coffin lid is beyond two of us without Vestus' ogre strength; let the
   dead open it into Iulia's rebuke instead. Four alabaster amphorae (heavy, about 300 each) wait in the cave above the
   beach.
+- S13 (day 274), the sloping gallery (Priya's map): crossroads west 30' (inquisitor's door on the north side), then
+  south 20' and a steep slope down about 20' to an oval cave 30' x 20' with prayers carved in the old elven script. A
+  5' hole in its floor: a 10' shaft, then about 20' of air to a wide stretch of the river (about 50' across) with a
+  carved tree-pillar. Upstream of the beach, by the sound and the slope. No bank there either.

@@ -23,6 +23,16 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
   raft would have to be built below and anything in the water is unknown. Instead, look for another way along it by
   land: the sloping gallery west and then south of the crossroads, past the inquisitor's door, has never been walked,
   and it runs downhill toward where the water was heard. Then the amphorae on the way out.
+- Day 274, twenty-fourth descent (eleven), by the far grate. In the sewer caves a rat swarm came at the light and
+  fled from the torches; Marcellus breathed the stink through his mask and shook it off resting in the first tomb. By
+  the temple doors two giant ants backed away from the fire. Rest on the west balcony.
+- The sloping gallery: west from the crossroads past the inquisitor's door, the hallway turns south, runs 20' and
+  drops steeply. Vettius heard water echoing up it. At its foot, an oval cave cut from the rock, 30' wide and 20' deep,
+  its walls etched with Ancient Argollëan (Vestus: prayers to the Chthonic gods); every breath echoes like a shout. A
+  hole 5' across in the middle of the floor; the lantern lowered on a rope showed a 10' shaft opening in the ceiling of
+  a wider stretch of the river, about 50' across, the water some 30' below the cave floor, a great pillar carved as a
+  tree trunk beside the hole, its stone boughs spread across the ceiling. No bank under the hole: it is another way
+  onto the river, not around it.
 
 ## Who they met
 

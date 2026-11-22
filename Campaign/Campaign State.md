@@ -11,7 +11,7 @@ public:
     year: ''
     season: winter
     day: 274
-  time: 05:53
+  time: 09:29
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -34,7 +34,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.488
+    encumbrance_st: 9.322
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -94,7 +94,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 7.54
+    encumbrance_st: 7.531
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -102,7 +102,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 9.864
+    encumbrance_st: 9.855
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -110,7 +110,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 8.696
+    encumbrance_st: 8.196
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -121,8 +121,8 @@ public:
     - Your brush with death has gifted you with the ability to speak with dead once per week. All negative side effects are removed. (Tampering with Mortality, day 269)
     spells_used: []
     encumbrance_st: 8.531
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Phaedra: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 9 turns 4 rounds left; torch (Phaedra) 3 turns 7 rounds left
+  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

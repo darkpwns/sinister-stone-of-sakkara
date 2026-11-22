@@ -1461,3 +1461,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 273 | Cyfaraun | Sack, Small (holds 2 stone) | 1 |  | 3sp | phaedra |
 | 273 | Cyfaraun | torch | 12 |  | 1sp 8cp | phaedra |
 | 273 | Silk Pony Inn (#25) | beds for twelve, night of day 273 |  |  | 2gp 4sp | vettius |
+| 274 | Cyfaraun market | a week of iron rations (6gp, Lucilla's bargaining; RR price range 1-6gp) |  |  | 5gp 4sp | aelia |
+| 274 | Cyfaraun market | a week of iron rations (6gp, Lucilla's bargaining; RR price range 1-6gp) |  |  | 5gp 4sp | marcellus |

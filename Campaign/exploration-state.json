@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 274,
-  "round_of_day": 353,
-  "total_rounds": 392993
+  "round_of_day": 569,
+  "total_rounds": 393209
  },
  "party": {
   "lucilla": {
@@ -1213,54 +1213,75 @@
    "closed": false,
    "rounds_left": 0,
    "tallow": false
+  },
+  {
+   "id": "lantern6",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 94,
+   "tallow": false
+  },
+  {
+   "id": "torch158",
+   "kind": "torch",
+   "carrier": "phaedra",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch159",
+   "kind": "torch",
+   "carrier": "phaedra",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch160",
+   "kind": "torch",
+   "carrier": "phaedra",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 37,
+   "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 20,
+  "rounds_since_rest": 33,
   "rest_rounds": 0,
   "winded": []
  },
- "location": null,
+ "location": {
+  "site": "Nethercity B - Early Chthonic Tomb",
+  "kind": "dungeon",
+  "level": 4,
+  "room": "H24",
+  "wandering": {
+   "none": false,
+   "die": "1d6",
+   "every": 3,
+   "target": 6
+  },
+  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
+  "source": {
+   "wandering": "area setting: '1d6 every 3 turns, 6+'"
+  }
+ },
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 272 12:30",
-   "roll": 1,
+   "at": "day 274 09:20",
+   "roll": 2,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 268 09:20",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 268 09:50",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 268 10:20",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 268 10:50",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 268 11:20",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 268 11:50",
     "roll": 1,
@@ -1350,13 +1371,43 @@
     "roll": 1,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 274 07:43",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 274 07:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 274 08:20",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 274 08:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 274 09:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 390530
+  "turn_start_done": 393200
  },
  "turn_actions": {
-  "turn": 39299,
+  "turn": 39320,
   "listened": [],
   "actions": []
  },
@@ -2483,8 +2534,8 @@
    "rest_rounds": 0
   },
   "274": {
-   "delve_rounds": 0,
-   "rest_rounds": 0
+   "delve_rounds": 126,
+   "rest_rounds": 20
   }
  },
  "events": [
@@ -4738,10 +4789,10 @@
   }
  ],
  "next_ids": {
-  "enc": 201,
-  "torch": 157,
+  "enc": 203,
+  "torch": 160,
   "t": 64,
-  "lantern": 5
+  "lantern": 6
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -7581,7 +7632,14 @@
      "water": 0,
      "cold": 0
     },
-    "food": [],
+    "food": [
+     {
+      "kind": "iron",
+      "days": 7.0,
+      "wild": 0.0,
+      "dungeon": 0.0
+     }
+    ],
     "water": 1.0,
     "firewood": 0.0,
     "hist": {
@@ -7666,7 +7724,14 @@
      "water": 0,
      "cold": 0
     },
-    "food": [],
+    "food": [
+     {
+      "kind": "iron",
+      "days": 7.0,
+      "wild": 0.0,
+      "dungeon": 0.0
+     }
+    ],
     "water": 1.0,
     "firewood": 0.0,
     "hist": {
@@ -60910,6 +60975,184 @@
      "in_settlement": true,
      "slept_restful": 8
     }
+   },
+   "274": {
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "iulia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "varro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "hrodvar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "aelia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "marcellus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    }
    }
   },
   "trail": [
@@ -61357,22 +61600,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc182",
-   "at": "day 263 09:00",
-   "monster_name": "Ochre Ooze",
-   "number": 1,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc183",
-   "at": "day 263 09:21",
-   "monster_name": "Mummy",
-   "number": 1,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
    "id": "enc184",
    "at": "day 264 06:25",
    "monster_name": "Revered Mother Doarë",
@@ -61514,6 +61741,22 @@
    "monster_name": "a traveller in the Temple District",
    "number": 1,
    "reaction": "friendly",
+   "status": "reaction"
+  },
+  {
+   "id": "enc202",
+   "at": "day 274 07:43",
+   "monster_name": "Rat Swarm",
+   "number": 1,
+   "reaction": "overawed",
+   "status": "reaction"
+  },
+  {
+   "id": "enc203",
+   "at": "day 274 08:20",
+   "monster_name": "Giant Ant Worker",
+   "number": 2,
+   "reaction": "overawed",
    "status": "reaction"
   }
  ]
