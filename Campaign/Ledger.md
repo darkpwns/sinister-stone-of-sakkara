@@ -135,6 +135,17 @@ tags:
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 60 sardonyx seashells | 3,000 | lucilla |
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 25 pieces of coral: pink, red, black and gold | 4,750 | lucilla |
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | 21 pearls, black, white and gold, and one great black pearl | 7,000 | lucilla |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 1,000 gold pieces | 1,000 | vestus-the-unlikely |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 2,400 silver pieces | 240 | neris |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 2,400 silver pieces | 240 | aelia |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 135 gold pieces | 135 | lucilla |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 1,320 gold pieces | 1,320 | phaedra |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 1,320 gold pieces | 1,320 | varro |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 1,200 gold pieces | 1,200 | hrodvar |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | 1,200 gold pieces | 1,200 | gnaeus |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | two sealed jars of rare elven spices | 1,600 | vestus-the-unlikely |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | a bundle of mink furs | 500 | neris |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Dagger +1 | 10 | varro |
 
 ## Monster XP
 
@@ -176,6 +187,12 @@ tags:
 | 303 | Nethercity, expedition 30 (upriver) | Shadow | 4 | 71 | 284 |
 | 303 | Nethercity, expedition 30 (upriver) | Wight | 3 | 80 | 240 |
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Mummy | 1 | 660 | 660 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Rat Swarm | 1 | 65 | 65 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Rat Swarm | 1 | 65 | 65 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Abimbola (AX3) | 1 | 135 | 135 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Wererat | 6 | 65 | 390 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Wererat | 1 | 65 | 65 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Giant Rat | 11 | 5 | 55 |
 
 ## Shares and XP awarded
 
@@ -380,6 +397,18 @@ tags:
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Aelia | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Marcellus | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
 | 304 | Nethercity, expedition 31 (the Sea Mother's basin) | Gnaeus | 0.5 | 1,162 | 37 | 0 | +0% | 1,199 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Lucilla | 1 | 974 | 86 | 0 | +10% | 1,166 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Vettius | 1 | 974 | 86 | 0 | +5% | 1,113 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Iulia | 1 | 974 | 86 | 0 | +5% | 1,113 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Vestus the Unlikely | 1 | 974 | 86 | 0 | +5% | 1,113 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Neris | 1 | 974 | 86 | 0 | +0% | 1,060 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Brennus | 1 | 974 | 86 | 0 | +5% | 1,113 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Phaedra | 0.5 | 487 | 43 | 0 | +0% | 530 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Varro | 0.5 | 487 | 43 | 0 | +0% | 530 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Hrodvar | 0.5 | 487 | 43 | 0 | +0% | 530 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Aelia | 0.5 | 487 | 43 | 0 | +0% | 530 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Marcellus | 0.5 | 487 | 43 | 0 | +0% | 530 |
+| 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Gnaeus | 0.5 | 487 | 43 | 0 | +0% | 530 |
 
 ## Wages
 
@@ -1724,3 +1753,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 305 |  | treasure share |  |  |  |  |
 | 305 |  | treasure share |  |  |  |  |
 | 305 | Silk Pony Inn (#25) | beds for ten, night of day 305 (Neris and Hrodvar at the Citadel) |  |  | 2gp | vettius |
+| 306 |  | treasure share |  | 739gp 4sp 4cp |  | lucilla |
+| 306 |  | treasure share |  | 739gp 4sp 4cp |  | vettius |
+| 306 |  | treasure share |  | 739gp 4sp 4cp |  | iulia |
+| 306 |  | treasure share |  | 739gp 4sp 4cp |  | vestus-the-unlikely |
+| 306 |  | treasure share |  | 739gp 4sp 4cp |  | neris |
+| 306 |  | treasure share |  | 739gp 4sp 4cp |  | brennus |
+| 306 |  | treasure share |  | 369gp 7sp 2cp |  | phaedra |
+| 306 |  | treasure share |  | 369gp 7sp 2cp |  | varro |
+| 306 |  | treasure share |  | 369gp 7sp 2cp |  | hrodvar |
+| 306 |  | treasure share |  | 369gp 7sp 2cp |  | aelia |
+| 306 |  | treasure share |  | 369gp 7sp 2cp |  | marcellus |
+| 306 |  | treasure share |  | 369gp 7sp 2cp |  | gnaeus |

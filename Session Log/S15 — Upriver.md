@@ -96,6 +96,34 @@ of the Underwatch, has the month to find where the Horned Rat cult worships.
   Captain cleans them out, I shan't weep." Iulia told Arëtar she had word of the rats' nest; he lent her four Knights
   of the Winged Sun for the search. Hrodvar's cold left him on the third morning (his strength is a little less).
 
+- Day 306, for the Underwatch: the Horned Rat. Four Knights of the Winged Sun with torches walked at the back. The
+  morning went in waiting: Tomasz wanted the hours when one pack sleeps and the other is out, and Liber's word put
+  the day pack asleep after noon. Down the dyers' lane drain at one. A corridor choked with gnawed rubble and dung:
+  Vettius' second search found the tripwire and the little hidden chime, and he cut it clean. Hrodvar opened a way
+  through the rubble in two turns.
+- Beyond, grimy tunnels through the ash and rooms caked with filth over old flower mosaics. In the first, a carpet
+  of rats boiled up at the light; Vestus' fan and Gnaeus' flask burned it, and it fled burning and died. Vettius
+  went ahead alone and found the way east; a second carpet of rats rose in the room on the way and took Brennus off
+  his feet before Gnaeus', Lucilla's flasks and Phaedra's fan finished it.
+- In a cleaned room with a violet floral floor, eight men lay asleep on eight cots: two jars and a chest by the
+  door. Phaedra laid her sleep over the three in the corner; then seven blades fell at once and seven never woke.
+  The eighth, in a black cassock with a rune-cut staff, was manacled and gagged by Neris and Hrodvar while the spell
+  held him. Their leader had slept with an elven bronze sword etched like a leaf; Varro wears it now.
+- In a crematory south of it, round a great bronze urn of ashes, Vettius found (on the third try) the seam in the
+  purple mosaic: behind it a small shrine, an altar heaped with chicken bones, and a dozen big rats that came off it
+  at the light. Vestus' second fan burned eleven; the last ran. Iulia and Brennus broke the altar.
+- North-east, a second room of eight empty cots, a chest and a bundle of mink furs; a new wooden door beyond would not
+  open to any hand, so Brennus' axe took it down. Behind it a scholar's lair: a cot, a table of books and papers, a
+  shelf, an iron-bound chest that would not open either until the axe opened it. The papers are in a spidery hand.
+- Out by the drain at five; six giant ants in the sewer turned and ran from the torches.
+- Evening: Vestus and Vettius read the papers for three turns. The writer boasts he has found what the Night Captain
+  of old never did, the source of the old wererat plague, and that the Captain sleeps with his treasures beneath the
+  Solar Citadel; that his hero has seen men living in the sewers far to the north, too far to be Faunus' smugglers,
+  "is the half-elf hunting the Nethercity too?"; and the two packs' hours. Iulia took the prisoner, his cassock and
+  staff, a bone from the broken altar and the papers to Patriarch Arëtar as her month's report. He read the papers
+  twice and said only: "Say nothing of this to anyone outside these walls." The prisoner went to the cells.
+- Coin banked at the Guildhouse. Vettius rose to the seventh rank (Pilferer).
+
 ## Who they met
 
 ## Treasure and XP
