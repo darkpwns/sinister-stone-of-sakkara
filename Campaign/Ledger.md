@@ -2213,3 +2213,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 906gp 1sp 5cp |  | marcellus |
 | 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 878gp 3sp 7cp |  | gnaeus |
 | 333 | Cyfaraun | his share of the sale of L261,L262,L263,L275,L276,L277,L278,L279,L280,L281,L282,L283,L284,L285,L286,L287,L288,L289,L290,L291,L319,L255 (after the payout) |  | 27gp 7sp 8cp |  | saturnin |
+| 333 | the hooded patron at the Nicean outlet | the advance for the Brotherhood's commission (Lucilla as Vasan's factor), midnight day 333 |  | 2,000gp |  | lucilla |
+| 334 | a street boy (Tower District) | carrying the house of Vasan's sealed note to the Tower of Knowledge's storefront for the Provost, day 334 |  |  | 1sp | lucilla |
+| 335 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 336-349), no questions |  |  | 4gp | lucilla |
+| 335 | Cyfaraun | Spear (silvered) | 1 |  | 30gp | marcellus |
+| 335 | Cyfaraun | Short Sword (silvered) | 1 |  | 70gp | aelia |

@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: winter
-    day: 333
-  time: '18:53'
-  weather: Very Chilly (37 to 40 F) by day, Very Chilly (37 to 40 F) at night; clear; wind very strong (windy)
+    day: 336
+  time: 05:53
+  weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; partly cloudy; wind very strong (windy)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 10.663
+    encumbrance_st: 12.658
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -94,7 +94,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 6.899
+    encumbrance_st: 6.996
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -102,7 +102,7 @@ public:
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 9.583
+    encumbrance_st: 10.553
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -158,7 +158,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 333
+clock_day: 336
 ---
 # Campaign State
 
