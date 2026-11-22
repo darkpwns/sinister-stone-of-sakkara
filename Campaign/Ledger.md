@@ -253,6 +253,11 @@ tags:
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | four terracotta canopic jars (F4) | 100 | aelia |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | ivory fretwork cornice tiles from the F4 archway | 100 | varro |
 | 347 | The Captain's task rewarded: Arëtar's gift (day 347) | reward 750.0gp | 750 | iulia |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | jewelry worth 725.0gp | 725 | lucilla |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | jewelry worth 800.0gp | 800 | lucilla |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | a canopic shrine of gilded cedar with ebony dragons, four jars inside (two bearers) | 1,350 | stored |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | a cedar chair overlaid with gold foil | 535 | varro |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | 3,000 silver pieces | 300 | aelia |
 
 ## Monster XP
 
@@ -322,6 +327,9 @@ tags:
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Mummy | 1 | 860 | 860 |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Sepulchral Worm | 14 | 16 | 224 |
 | 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Wererat | 3 | 65 | 195 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Giant Rat | 8 | 5 | 40 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Mummy | 1 | 1,280 | 1,280 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Skeleton | 44 | 13 | 572 |
 
 ## Shares and XP awarded
 
@@ -723,6 +731,17 @@ tags:
 | 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Hrodvar | 0.5 | 44 | 0 | 0 | +0% | 44 |
 | 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Aelia | 0.5 | 44 | 0 | 0 | +0% | 44 |
 | 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Marcellus | 0.5 | 44 | 0 | 0 | +0% | 44 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Lucilla | 1 | 436 | 223 | 0 | +10% | 725 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Vettius | 1 | 436 | 223 | 0 | +5% | 692 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Vestus the Unlikely | 1 | 436 | 223 | 0 | +5% | 692 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Neris | 1 | 436 | 223 | 0 | +0% | 659 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Brennus | 1 | 436 | 223 | 0 | +5% | 692 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Iulia | 1 | 436 | 223 | 0 | +5% | 692 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Phaedra | 0.5 | 218 | 111 | 0 | +0% | 330 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Varro | 0.5 | 218 | 111 | 0 | +0% | 330 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Hrodvar | 0.5 | 218 | 111 | 0 | +0% | 330 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Aelia | 0.5 | 218 | 111 | 0 | +0% | 330 |
+| 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Marcellus | 0.5 | 218 | 111 | 0 | +0% | 330 |
 
 ## Wages
 
@@ -2386,3 +2405,23 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 347 |  | treasure share |  | 44gp 1sp 2cp |  | marcellus |
 | 347 | the retinue | wages paid |  |  | 400gp | lucilla |
 | 347 | the retinue | wages paid |  |  | 400gp | iulia |
+| 348 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 350-363), no questions |  |  | 4gp | lucilla |
+| 348 | Cyfaraun | Oil, Military (1 pint) | 4 |  | 8gp | lucilla |
+| 348 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 6gp | lucilla |
+| 348 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 6gp | lucilla |
+| 348 | Cyfaraun | Holy Water (1 pint) | 5 |  | 125gp | marcellus |
+| 348 | Cyfaraun | torch | 24 |  | 4sp | lucilla |
+| 348 | Cyfaraun | torch | 24 |  | 4sp | lucilla |
+| 348 | Cyfaraun | torch | 24 |  | 4sp | lucilla |
+| 348 | the chandler (Cyfaraun) | refund: 9 packs of torches returned unused, day 348 |  | 9sp |  | lucilla |
+| 349 |  | treasure share |  | 35gp 2sp 9cp |  | lucilla |
+| 349 |  | treasure share |  | 35gp 2sp 9cp |  | vettius |
+| 349 |  | treasure share |  | 35gp 2sp 9cp |  | vestus-the-unlikely |
+| 349 |  | treasure share |  | 35gp 2sp 9cp |  | neris |
+| 349 |  | treasure share |  | 35gp 2sp 9cp |  | brennus |
+| 349 |  | treasure share |  | 35gp 2sp 9cp |  | iulia |
+| 349 |  | treasure share |  | 17gp 6sp 5cp |  | phaedra |
+| 349 |  | treasure share |  | 17gp 6sp 5cp |  | varro |
+| 349 |  | treasure share |  | 17gp 6sp 5cp |  | hrodvar |
+| 349 |  | treasure share |  | 17gp 6sp 5cp |  | aelia |
+| 349 |  | treasure share |  | 17gp 6sp 5cp |  | marcellus |

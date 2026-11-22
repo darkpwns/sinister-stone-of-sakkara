@@ -178,7 +178,24 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   and mute. Three in manacles: Opiter Vibius, Flavia Rusca and the Provost's manservant Sertor. Iulia delivered them
   to the Citadel's cells with the Watch's report; their purses and Flavia's spellbook went with them as evidence.
   Arëtar: "This is how it is done, Captain. The moon will show the city what they are." He gave her 750 gold for the
-  task. Vettius drew wages for Varro and Iulia paid Hrodvar (to day 376). Nobody from the Order called.
+  task. Lucilla paid Varro and Iulia paid Hrodvar (to day 376). Nobody from the Order called.
+- Day 348, cold and grey. Lucilla paid Tertulla two more weeks for the barge (to day 363). Ingrid's shopping: oil,
+  holy water and torches (the chandler's packs of six; most went back). At the Tower it was said the Regent had been
+  called to the Citadel; Arëtar has the Provost's journals now, for a court.
+- Day 349, a gale above. Forty-fourth descent, the same eleven, for the slab off the long skeleton gallery south of
+  the east gallery. Near the painted gallery eight giant rats came at the torchlight; half the company was caught
+  flat-footed, but Phaedra's fan burned all eight at once. One bit Brennus.
+- The long gallery: every wall niche a skeleton with a sickle-sword. Nobody carried anything from these tombs yet, and
+  nothing stirred. Hrodvar rigged the slab; it gave at the first heave. In the tomb beyond, a sacrificer's sarcophagus
+  under frescoes of human sacrifice in black caves; the wrapped priest rose, and four of the company quailed. Next
+  round Iulia raised the Rod as the priest raised its hands at her; its prayer broke on four good saves and the
+  priest fell apart. A gold mask with moonstone eyes and an ivory collar came off it. The second slab gave at the
+  second heave: a little annex heaped with silver among smashed vases, a gilded cedar canopic shrine with ebony
+  dragons (two bearers), a gold-foil chair.
+- Out through the gallery inside Neris' moving circle, laden, at a crawl: the skeletons climbed out of their niches by
+  the dozen and beat at the ward, and Iulia broke them as they came, six or seven a breath, forty-four in all, until
+  the company was past the gallery's end and the rest stood still in the dark. Out by the grate after six. Vettius
+  looked at Brennus' bite in town: fever coming. Neris cured it on the spot.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before
