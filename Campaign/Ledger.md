@@ -1399,3 +1399,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 271 | gem dealers of the Emporium | four small opals (L156-L159, A22) sold, day 271 |  | 400gp |  | lucilla |
 | 271 | Solar Citadel (Patriarch Arëtar) | the white lotus incense (L209, A27) bought back by the Citadel, day 271 |  | 630gp |  | lucilla |
 | 271 | Liber Faunus | canopic jars and amphora (L210-L211, A27) at 80%, day 271 |  | 96gp |  | lucilla |
+| 271 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 4gp | brennus |
+| 271 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 4gp | vettius |
+| 271 | Cyfaraun | Oil, Military (1 pint) | 1 |  | 2gp | marcellus |
+| 271 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 4gp | lucilla |
+| 271 | Cyfaraun | Oil, Common (1 pint) | 3 |  | 9sp | vettius |
+| 271 | Cyfaraun | torch | 6 |  | 1sp | phaedra |
+| 271 | Silk Pony Inn (#25) | beds for twelve, night of day 271 |  |  | 2gp 4sp | vettius |
