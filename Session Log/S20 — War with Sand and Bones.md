@@ -151,6 +151,29 @@ Argollëan Family. The Order has not yet named Selene.
   on day 411; the caravan hands and the racket's toughs, that the Family would burn the Pony's warehouses on night
   411. Family eyes on each place; Hesta's girls and the Family's quiet men behind the wharf crews; and a note to
   Thana: watch Jonus' informer money this week.
+- Day 409. Hesta's quiet men followed the wharf crews: at dusk Tullo the lighterman went in at the Pony's back door
+  with one of its footpads and came out jingling.
+- Day 410. Subaltern Tavus Mityario of Watchtower IV came to the Citadel asking for the Captain: clipped, formal,
+  tired of being lied to. "Name, business, and why the Silk Pony." Two of Pluris' men and five of Nuvicus' are dead
+  in the Old District. Iulia told him what was true: she had been at the Citadel that evening; her companions,
+  walking a lady home from The Mink, were set on by gladiators hired from the Pony, and defended themselves. Tavus
+  wrote it down. "The Pony runs a blood pit somewhere under its floor. I can't prove it. If the Captain ever can, my
+  door is open." The Family's man at Watchtower III sent word to Aranth by noon: Lartius the net-mender, a wharf
+  man, had come in to sell "a barge of the Family's silver at first light tomorrow". The tower had thanked him and
+  forgotten it. The wharf men's tale, and only theirs, was moving.
+- Day 411, first light. The Family wharf: a barge riding low under old sailcloth, the company in its cargo shed and
+  behind the bales, Iulia nowhere near. Six Pony men came down the wharf steps for the silver: three hooded toughs,
+  two big men with morning stars and a quick man with two hatchets. They never saw the company. Vestus' and
+  Phaedra's sleep took five where they stood; Brennus' axe felled the quick man and Neris kept him breathing. Under
+  Brennus' stare he gave up a name: Pollio the barge-poler, one of Jonus' paid tongues. The six went to the cellars
+  under The Mink. By noon Watchtower III had a second wharf man for Aranth: Glaucus the lamplighter, with the same
+  barge. Brother Oppius came to the Citadel for Iulia: the Order names the woman of the ruby lips. Selene is hers.
+- Night of day 411, the Pony's pay night. Vestus made Vettius vanish; Thana's key; the long room emptied up the stair
+  for its silver; two dicers stayed in a booth. Vettius turned the iron hook and the wall swung; one dicer looked up,
+  saw it stand open on the dark, decided the mistress was about her business and looked away. Behind it: a low room
+  of dried blood and broken bones, three dead men from the last pit night, gnawed to the rib. Beyond, a far wall
+  with a line of lamplight under it and a woman's voice humming. Vettius took a gnawed thighbone wrapped in sacking
+  and went out the way he came, as quiet as he had come in.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).

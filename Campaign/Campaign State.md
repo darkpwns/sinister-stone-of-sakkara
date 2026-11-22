@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 408
-  time: 07:53
+    day: 411
+  time: '21:53'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -35,15 +35,17 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 21.316
+    encumbrance_st: 21.334
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used: []
-    encumbrance_st: 8.043
+    spells_used:
+    - Slumber
+    - Invisibility
+    encumbrance_st: 8.061
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -52,17 +54,17 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 16.203
+    encumbrance_st: 16.221
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 23
+    hp: 29
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 22.462
+    encumbrance_st: 22.48
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -75,23 +77,23 @@ public:
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 11
+    hp: 14
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 14.623
+    encumbrance_st: 14.641
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 16
+    hp: 23
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 14.862
+    encumbrance_st: 14.88
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 17
+    hp: 20
     hp_max: 20
     conditions: []
     spells_used: []
@@ -99,19 +101,20 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 20
+    hp: 21
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 15.834
+    encumbrance_st: 15.852
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used: []
-    encumbrance_st: 11.602
+    spells_used:
+    - Slumber
+    encumbrance_st: 11.62
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -127,7 +130,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.189
+    encumbrance_st: 6.207
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out
   rations: 'Vettius: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Cotta: food 0 d, water 0.2 d; Lucilla: food 0 d, water 1 d (incapacitated); Aelia: food 0 d, water 1 d; Saturnin: food 0 d, water 0.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
@@ -161,7 +164,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 408
+clock_day: 411
 ---
 # Campaign State
 

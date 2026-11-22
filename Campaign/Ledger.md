@@ -287,6 +287,9 @@ tags:
 | 406 | Descent 50: the troglodyte hive (I) | 19 bronze hair-combs and 42 bronze rings | 61 | marcellus |
 | 406 | Descent 50: the troglodyte hive (I) | 33 small copper goblets | 33 | cotta |
 | 406 | Descent 50: the troglodyte hive (I) | 20 copper circlets and 104 copper necklaces | 124 | vettius |
+| 411 | The barge at first light (day 411) | 4 gold pieces | 4 | vettius |
+| 411 | The barge at first light (day 411) | 85 silver pieces | 8 | vettius |
+| 411 | The barge at first light (day 411) | 40 copper pieces | 0 | vettius |
 
 ## Monster XP
 
@@ -373,6 +376,9 @@ tags:
 | 406 | Descent 50: the troglodyte hive (I) | Troglodyte Chieftain (SOTN) | 1 | 320 | 320 |
 | 406 | Descent 50: the troglodyte hive (I) | Troglodyte Champion (SOTN) | 3 | 50 | 150 |
 | 406 | Descent 50: the troglodyte hive (I) | Troglodyte (warrior) | 11 | 20 | 220 |
+| 411 | The barge at first light (day 411) | Sand & Bones burglar (Thief 4) | 1 | 80 | 80 |
+| 411 | The barge at first light (day 411) | Sand & Bones hood (Thief 2) | 3 | 20 | 60 |
+| 411 | The barge at first light (day 411) | Sand & Bones thug (Assassin 1) | 2 | 10 | 20 |
 
 ## Shares and XP awarded
 
@@ -843,6 +849,15 @@ tags:
 | 406 | Descent 50: the troglodyte hive (I) | Varro | 0.5 | 90 | 46 | 0 | +0% | 136 |
 | 406 | Descent 50: the troglodyte hive (I) | Marcellus | 0.5 | 90 | 46 | 0 | +0% | 136 |
 | 406 | Descent 50: the troglodyte hive (I) | Cotta | 0.5 | 90 | 46 | 0 | +0% | 136 |
+| 411 | The barge at first light (day 411) | Vettius | 1 | 2 | 25 | 0 | +5% | 28 |
+| 411 | The barge at first light (day 411) | Brennus | 1 | 2 | 25 | 0 | +5% | 28 |
+| 411 | The barge at first light (day 411) | Neris | 1 | 2 | 25 | 0 | +0% | 27 |
+| 411 | The barge at first light (day 411) | Vestus the Unlikely | 1 | 2 | 25 | 0 | +5% | 28 |
+| 411 | The barge at first light (day 411) | Varro | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 411 | The barge at first light (day 411) | Marcellus | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 411 | The barge at first light (day 411) | Hrodvar | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 411 | The barge at first light (day 411) | Cotta | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 411 | The barge at first light (day 411) | Phaedra | 0.5 | 1 | 12 | 0 | +0% | 13 |
 
 ## Wages
 
@@ -2833,3 +2848,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | varro |
 | 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | marcellus |
 | 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | cotta |
+| 411 |  | treasure share |  | 1gp 9sp 8cp |  | vettius |
+| 411 |  | treasure share |  | 1gp 9sp 8cp |  | brennus |
+| 411 |  | treasure share |  | 1gp 9sp 8cp |  | neris |
+| 411 |  | treasure share |  | 1gp 9sp 8cp |  | vestus-the-unlikely |
+| 411 |  | treasure share |  | 9sp 9cp |  | varro |
+| 411 |  | treasure share |  | 9sp 9cp |  | marcellus |
+| 411 |  | treasure share |  | 9sp 9cp |  | hrodvar |
+| 411 |  | treasure share |  | 9sp 9cp |  | cotta |
+| 411 |  | treasure share |  | 9sp 9cp |  | phaedra |
