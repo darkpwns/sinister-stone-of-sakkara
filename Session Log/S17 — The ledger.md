@@ -81,6 +81,14 @@ Silk Pony for the Solar Citadel.
   for the order's codex. "Nobody knows the Brotherhood is dead. Keep it so. If anyone comes looking to hire it, the
   order wants to know who." Blindfolded again, they were back at the Citadel gate before the third hour.
 
+- Day 320, thirty-eighth descent, late in the morning after the night below the temples. In the temple halls a
+  pack of giant rats boiled out of a side passage at the lantern; the front line took them on the blades and ten
+  died in the first exchange, the rest fled squealing. One bit Brennus; he shrugged it off. The fish took its sheep.
+  Two of the guards' bronze coffins came out of the tomb on eight backs while the bronze warriors hammered at the
+  ward. The lantern oil ran out; torches. Coming back, a crawling yellow-brown slime oozed across the passage;
+  Brennus, Varro and Aelia hit it with burning oil and Vestus fanned fire over it, and it burned to a crust. Out
+  after seven.
+
 ## Who they met
 
 ## Treasure and XP

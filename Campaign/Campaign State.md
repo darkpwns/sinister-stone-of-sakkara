@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 320
-  time: '10:06'
+    day: 321
+  time: 06:26
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.878
+    encumbrance_st: 9.711
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.298
+    encumbrance_st: 9.131
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -55,13 +55,13 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 23
+    hp: 21
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.639
+    encumbrance_st: 10.472
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -86,7 +86,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.022
+    encumbrance_st: 9.856
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -94,7 +94,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 6.811
+    encumbrance_st: 6.145
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -102,7 +102,7 @@ public:
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 9.849
+    encumbrance_st: 9.847
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -110,8 +110,8 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.004
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out
+    encumbrance_st: 7.838
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
   rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 5 d, water 1 d; Marcellus: food 6 d, water 1 d; Phaedra: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
@@ -136,7 +136,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 320
+clock_day: 321
 ---
 # Campaign State
 

@@ -201,6 +201,8 @@ tags:
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | a canopic shrine of gilded wood with gold lions, four jars inside (two bearers) | 2,100 | stored |
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | seven canopic jars and six red-figure vases | 217 | stored |
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | 200 gold pieces | 200 | vestus-the-unlikely |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
 
 ## Monster XP
 
@@ -255,6 +257,8 @@ tags:
 | 313 | Old District riverside: the wine merchant's meeting | Doppelgänger | 3 | 135 | 405 |
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Mummy | 4 | 1,060 | 4,240 |
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Mummy | 1 | 5,400 | 5,400 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Giant Rat | 10 | 5 | 50 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Ochre Ooze | 1 | 500 | 500 |
 
 ## Shares and XP awarded
 
@@ -554,6 +558,17 @@ tags:
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Hrodvar | 0.5 | 548 | 0 | 0 | +0% | 548 |
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Aelia | 0.5 | 548 | 0 | 0 | +0% | 548 |
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | Marcellus | 0.5 | 548 | 0 | 0 | +0% | 548 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Lucilla | 1 | 824 | 65 | 0 | +10% | 977 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Vettius | 1 | 824 | 65 | 0 | +5% | 932 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Iulia | 1 | 824 | 65 | 0 | +5% | 932 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Vestus the Unlikely | 1 | 824 | 65 | 0 | +5% | 932 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Neris | 1 | 824 | 65 | 0 | +0% | 888 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Brennus | 1 | 824 | 65 | 0 | +5% | 932 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Phaedra | 0.5 | 412 | 32 | 0 | +0% | 444 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Varro | 0.5 | 412 | 32 | 0 | +0% | 444 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Hrodvar | 0.5 | 412 | 32 | 0 | +0% | 444 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Aelia | 0.5 | 412 | 32 | 0 | +0% | 444 |
+| 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Marcellus | 0.5 | 412 | 32 | 0 | +0% | 444 |
 
 ## Wages
 
@@ -2037,3 +2052,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 318 |  | treasure share |  | 11gp 7sp 6cp |  | hrodvar |
 | 318 |  | treasure share |  | 11gp 7sp 6cp |  | aelia |
 | 318 |  | treasure share |  | 11gp 7sp 6cp |  | marcellus |
+| 320 | a Plaza butcher | a sheep for the white fish's bait, day 320 |  |  | 2gp | marcellus |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
+| 320 |  | treasure share |  |  |  |  |
