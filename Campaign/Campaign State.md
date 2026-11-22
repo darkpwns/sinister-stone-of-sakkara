@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 372
-  time: '17:43'
+    day: 375
+  time: 06:43
   weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; drizzle; wind moderate (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 10.109
+    encumbrance_st: 20.444
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.13
+    encumbrance_st: 18.465
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -51,26 +51,26 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 4.566
+    encumbrance_st: 12.901
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 22
-    hp_max: 23
+    hp: 31
+    hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.825
+    encumbrance_st: 19.16
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 36
+    hp: 39
     hp_max: 39
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 10.273
+    encumbrance_st: 18.608
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -78,7 +78,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 10.947
+    encumbrance_st: 14.974
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -86,15 +86,15 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.337
+    encumbrance_st: 14.509
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 15
-    hp_max: 15
+    hp: 20
+    hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 7.442
+    encumbrance_st: 11.469
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -102,7 +102,7 @@ public:
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 10.923
+    encumbrance_st: 14.95
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -110,7 +110,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 7.609
+    encumbrance_st: 11.636
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -160,7 +160,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 372
+clock_day: 375
 ---
 # Campaign State
 

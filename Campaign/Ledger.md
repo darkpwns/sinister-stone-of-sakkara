@@ -2644,3 +2644,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 371 |  | treasure share |  | 181gp 8sp 2cp |  | varro |
 | 371 |  | treasure share |  | 181gp 8sp 2cp |  | aelia |
 | 372 | the Nicean wine-seller (the Emporium stalls) | a day's pay for the second note for Vasan Tikala, day 372 |  |  | 5sp | lucilla |
+| 373 |  | treasure share |  | 272gp 7sp 3cp |  | iulia |
+| 373 |  | treasure share |  | 272gp 7sp 3cp |  | vettius |
+| 373 |  | treasure share |  | 272gp 7sp 3cp |  | neris |
+| 373 |  | treasure share |  | 272gp 7sp 3cp |  | lucilla |
+| 373 |  | treasure share |  | 272gp 7sp 3cp |  | brennus |
+| 373 |  | treasure share |  | 136gp 3sp 6cp |  | varro |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 8,320gp |  | lucilla |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 8,320gp |  | vettius |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 8,320gp |  | neris |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 8,320gp |  | brennus |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 8,320gp |  | iulia |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | phaedra |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | varro |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | hrodvar |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | aelia |
+| 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | marcellus |
