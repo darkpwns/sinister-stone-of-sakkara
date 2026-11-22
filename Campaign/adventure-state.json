@@ -4,7 +4,7 @@
   "A": 27,
   "L": 211,
   "H": 37,
-  "M": 60
+  "M": 62
  },
  "adventure": {
   "id": "A27",
@@ -19,11 +19,13 @@
     "player": "rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 24626,
     "level_before": 6,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 268,
+    "xp_award": 1294
    },
    "vettius": {
     "id": "vettius",
@@ -33,11 +35,13 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 23505,
     "level_before": 6,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 268,
+    "xp_award": 1235
    },
    "iulia": {
     "id": "iulia",
@@ -47,11 +51,13 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 18911,
     "level_before": 5,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 268,
+    "xp_award": 1235
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -61,11 +67,13 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 18768,
     "level_before": 4,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 268,
+    "xp_award": 1235
    },
    "neris": {
     "id": "neris",
@@ -75,11 +83,13 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 16390,
     "level_before": 5,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 268,
+    "xp_award": 1176
    },
    "brennus": {
     "id": "brennus",
@@ -89,11 +99,13 @@
     "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 16939,
     "level_before": 5,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 268,
+    "xp_award": 1235
    },
    "phaedra": {
     "id": "phaedra",
@@ -103,11 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 8200,
     "level_before": 3,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 268,
+    "xp_award": 588
    },
    "varro": {
     "id": "varro",
@@ -117,11 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "varro",
     "xp_before": 8085,
     "level_before": 4,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 268,
+    "xp_award": 588
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -131,11 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "hrodvar",
     "xp_before": 8085,
     "level_before": 3,
-    "class": "Dwarven Vaultguard"
+    "class": "Dwarven Vaultguard",
+    "returned_day": 268,
+    "xp_award": 588
    },
    "aelia": {
     "id": "aelia",
@@ -145,11 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "aelia",
     "xp_before": 7888,
     "level_before": 4,
-    "class": "Bard"
+    "class": "Bard",
+    "returned_day": 268,
+    "xp_award": 588
    },
    "marcellus": {
     "id": "marcellus",
@@ -159,11 +179,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "marcellus",
     "xp_before": 7888,
     "level_before": 3,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 268,
+    "xp_award": 588
    },
    "gnaeus": {
     "id": "gnaeus",
@@ -173,11 +195,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "gnaeus",
     "xp_before": 7888,
     "level_before": 3,
-    "class": "Explorer"
+    "class": "Explorer",
+    "returned_day": 268,
+    "xp_award": 588
    }
   },
   "monsters": [
@@ -196,12 +220,186 @@
     "number": 1,
     "how": "killed",
     "xp_each": 1580
+   },
+   {
+    "id": "M61",
+    "monster": "Mummy",
+    "source": "Mummy",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 1580
+   },
+   {
+    "id": "M62",
+    "monster": "Berserker",
+    "source": "Berserker",
+    "number": 4,
+    "how": "killed",
+    "xp_each": 10
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 268,
+   "at": "Cyfaraun",
+   "total": 10585.0,
+   "per_share": 1176.111111111111,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 1176,
+     "pct": 10,
+     "pen": 0,
+     "award": 1294,
+     "xp_before": 24626,
+     "xp_after": 25920,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 1176,
+     "pct": 5,
+     "pen": 0,
+     "award": 1235,
+     "xp_before": 23505,
+     "xp_after": 24740,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 1176,
+     "pct": 5,
+     "pen": 0,
+     "award": 1235,
+     "xp_before": 18911,
+     "xp_after": 20146,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 1176,
+     "pct": 5,
+     "pen": 0,
+     "award": 1235,
+     "xp_before": 18768,
+     "xp_after": 20003,
+     "capped": null,
+     "zero": false,
+     "level_up": 5
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 1176,
+     "pct": 0,
+     "pen": 0,
+     "award": 1176,
+     "xp_before": 16390,
+     "xp_after": 17566,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 1176,
+     "pct": 5,
+     "pen": 0,
+     "award": 1235,
+     "xp_before": 16939,
+     "xp_after": 18174,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 588,
+     "pct": 0,
+     "pen": 0,
+     "award": 588,
+     "xp_before": 8200,
+     "xp_after": 8788,
+     "capped": null,
+     "zero": false
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 588,
+     "pct": 0,
+     "pen": 0,
+     "award": 588,
+     "xp_before": 8085,
+     "xp_after": 8673,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 588,
+     "pct": 0,
+     "pen": 0,
+     "award": 588,
+     "xp_before": 8085,
+     "xp_after": 8673,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 588,
+     "pct": 0,
+     "pen": 0,
+     "award": 588,
+     "xp_before": 7888,
+     "xp_after": 8476,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 588,
+     "pct": 0,
+     "pen": 0,
+     "award": 588,
+     "xp_before": 7888,
+     "xp_after": 8476,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "gnaeus": {
+     "share": 0.5,
+     "why": null,
+     "base": 588,
+     "pct": 0,
+     "pen": 0,
+     "award": 588,
+     "xp_before": 7888,
+     "xp_after": 8476,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 268,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -16075,7 +16273,7 @@
    "qty": 1,
    "stone": 0.001,
    "carrier": null,
-   "status": "left",
+   "status": "sold",
    "found": {
     "day": 242,
     "where": "H25 priest's tomb (linen bundle)"
@@ -16089,15 +16287,23 @@
    },
    "player": {
     "desc": "a small opal",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L157": {
@@ -16107,7 +16313,7 @@
    "qty": 1,
    "stone": 0.001,
    "carrier": null,
-   "status": "left",
+   "status": "sold",
    "found": {
     "day": 242,
     "where": "H25 priest's tomb (linen bundle)"
@@ -16121,15 +16327,23 @@
    },
    "player": {
     "desc": "a small opal",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L158": {
@@ -16139,7 +16353,7 @@
    "qty": 1,
    "stone": 0.001,
    "carrier": null,
-   "status": "left",
+   "status": "sold",
    "found": {
     "day": 242,
     "where": "H25 priest's tomb (linen bundle)"
@@ -16153,15 +16367,23 @@
    },
    "player": {
     "desc": "a small opal",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L159": {
@@ -16171,7 +16393,7 @@
    "qty": 1,
    "stone": 0.001,
    "carrier": null,
-   "status": "left",
+   "status": "sold",
    "found": {
     "day": 242,
     "where": "H25 priest's tomb (linen bundle)"
@@ -16185,15 +16407,23 @@
    },
    "player": {
     "desc": "a small opal",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L160": {
@@ -17899,7 +18129,10 @@
     "value_gp": null,
     "apparent_gp": 1200,
     "magical": true,
-    "known": []
+    "known": [
+     "name: the Rod of the Dawn, Ammonar's scepter",
+     "once a day, spoken over, its Lawful bearer rebukes undead and casts as 4 levels higher for a turn"
+    ]
    },
    "appraised": false,
    "identified": false,
@@ -17916,7 +18149,7 @@
    "qty": 700,
    "stone": 0.7,
    "carrier": "neris",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 268,
     "where": "H21, in a white clay amphora (coins stamped with a winged sun)"
@@ -17940,7 +18173,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 268
   },
   "L205": {
    "id": "L205",
@@ -17948,8 +18182,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -17964,15 +18198,23 @@
    },
    "player": {
     "desc": "seven ivory carvings of heroes and gods",
-    "value_gp": null,
+    "value_gp": 1400.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1400.0,
+    "market": "Cyfaraun",
+    "day": 269,
+    "class": "II",
+    "by": "vestus-the-unlikely",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L206": {
@@ -17981,8 +18223,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1667,
-   "carrier": "neris",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -17997,15 +18239,23 @@
    },
    "player": {
     "desc": "golden scales (a holy symbol)",
-    "value_gp": null,
+    "value_gp": 1000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun",
+    "day": 269,
+    "class": "II",
+    "by": "neris",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L207": {
@@ -18014,8 +18264,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1667,
-   "carrier": "neris",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -18030,15 +18280,23 @@
    },
    "player": {
     "desc": "a chryselephantine torch (a holy symbol)",
-    "value_gp": null,
+    "value_gp": 500.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 500.0,
+    "market": "Cyfaraun",
+    "day": 269,
+    "class": "II",
+    "by": "neris",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L208": {
@@ -18047,8 +18305,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1667,
-   "carrier": "neris",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -18063,15 +18321,23 @@
    },
    "player": {
     "desc": "a gold nine-pointed star (a holy symbol)",
-    "value_gp": null,
+    "value_gp": 500.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 500.0,
+    "market": "Cyfaraun",
+    "day": 269,
+    "class": "II",
+    "by": "neris",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L209": {
@@ -18080,8 +18346,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.3333,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -18096,15 +18362,23 @@
    },
    "player": {
     "desc": "21 sticks of white lotus incense",
-    "value_gp": null,
+    "value_gp": 630.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 630.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "vestus-the-unlikely",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L210": {
@@ -18113,8 +18387,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.6667,
-   "carrier": "aelia",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -18129,15 +18403,23 @@
    },
    "player": {
     "desc": "4 clay canopic jars",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 80.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   },
   "L211": {
@@ -18146,8 +18428,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "phaedra",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 268,
     "where": "H21"
@@ -18162,15 +18444,23 @@
    },
    "player": {
     "desc": "a white clay amphora",
-    "value_gp": null,
+    "value_gp": 20.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 16.0,
+    "market": "Cyfaraun",
+    "day": 271,
+    "class": "II",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
    "judge": []
   }
  },
@@ -20308,7 +20598,9 @@
   "lucilla|L126|magical-engineering|4": true,
   "aelia|L126|magical-engineering|1": true,
   "calpurnia|L127|magical-engineering|2": true,
-  "aelia|L137|magical-engineering|2": true
+  "aelia|L137|magical-engineering|2": true,
+  "lucilla|L202|magical-engineering|6": true,
+  "lucilla|L203|magical-engineering|6": true
  },
  "settings": {
   "setting": "classic",

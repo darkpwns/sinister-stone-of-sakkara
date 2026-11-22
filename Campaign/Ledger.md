@@ -110,6 +110,16 @@ tags:
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 500.0gp | 500 | lucilla |
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 300.0gp | 300 | lucilla |
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | jewelry worth 300.0gp | 300 | lucilla |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Cloak of Skinchanging | 1,200 | lucilla |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Scepter of Sacred Power | 1,200 | iulia |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | 700 gold pieces | 700 | neris |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | seven ivory carvings of heroes and gods | 1,400 | vestus-the-unlikely |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | golden scales (a holy symbol) | 1,000 | neris |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | a chryselephantine torch (a holy symbol) | 500 | neris |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | a gold nine-pointed star (a holy symbol) | 500 | neris |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | 21 sticks of white lotus incense | 630 | vestus-the-unlikely |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | 4 clay canopic jars | 100 | aelia |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | a white clay amphora | 20 | phaedra |
 
 ## Monster XP
 
@@ -140,6 +150,10 @@ tags:
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Mummy | 1 | 1,060 | 1,060 |
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Mummy | 1 | 1,580 | 1,580 |
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Sepulchral Worm | 12 | 16 | 192 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Insect Swarm | 1 | 135 | 135 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Mummy | 1 | 1,580 | 1,580 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Mummy | 1 | 1,580 | 1,580 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Berserker | 4 | 10 | 40 |
 
 ## Shares and XP awarded
 
@@ -297,6 +311,18 @@ tags:
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Aelia | 0.5 | 261 | 160 | 0 | +0% | 421 |
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Marcellus | 0.5 | 261 | 160 | 0 | +0% | 421 |
 | 242 | Nethercity, expedition 17 (the temple's sealed tombs) | Gnaeus | 0.5 | 261 | 160 | 0 | +0% | 421 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Lucilla | 1 | 806 | 371 | 0 | +10% | 1,294 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Vettius | 1 | 806 | 371 | 0 | +5% | 1,235 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Iulia | 1 | 806 | 371 | 0 | +5% | 1,235 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Vestus the Unlikely | 1 | 806 | 371 | 0 | +5% | 1,235 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Neris | 1 | 806 | 371 | 0 | +0% | 1,176 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Brennus | 1 | 806 | 371 | 0 | +5% | 1,235 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Phaedra | 0.5 | 403 | 185 | 0 | +0% | 588 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Varro | 0.5 | 403 | 185 | 0 | +0% | 588 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Hrodvar | 0.5 | 403 | 185 | 0 | +0% | 588 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Aelia | 0.5 | 403 | 185 | 0 | +0% | 588 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Marcellus | 0.5 | 403 | 185 | 0 | +0% | 588 |
+| 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Gnaeus | 0.5 | 403 | 185 | 0 | +0% | 588 |
 
 ## Wages
 
@@ -1350,3 +1376,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 267 | Liber Faunus (The Mink), 80% of full value (Rulings S10) | H8 relics (L198-L200, A26) sold through the Argollëan Family, day 267 |  | 2,628gp |  | lucilla |
 | 267 | Cyfaraun market (apothecary) | vinegar, camphor, charcoal and linen for twelve filter masks |  |  | 12gp | phaedra |
 | 267 | Silk Pony Inn (#25) | beds for twelve, night of day 267 |  |  | 2gp 4sp | vettius |
+| 268 |  | treasure share |  | 77gp 7sp 8cp |  | lucilla |
+| 268 |  | treasure share |  | 77gp 7sp 8cp |  | vettius |
+| 268 |  | treasure share |  | 77gp 7sp 8cp |  | iulia |
+| 268 |  | treasure share |  | 77gp 7sp 8cp |  | vestus-the-unlikely |
+| 268 |  | treasure share |  | 77gp 7sp 8cp |  | neris |
+| 268 |  | treasure share |  | 77gp 7sp 8cp |  | brennus |
+| 268 |  | treasure share |  | 38gp 8sp 9cp |  | phaedra |
+| 268 |  | treasure share |  | 38gp 8sp 9cp |  | varro |
+| 268 |  | treasure share |  | 38gp 8sp 9cp |  | hrodvar |
+| 268 |  | treasure share |  | 38gp 8sp 9cp |  | aelia |
+| 268 |  | treasure share |  | 38gp 8sp 9cp |  | marcellus |
+| 268 |  | treasure share |  | 38gp 8sp 9cp |  | gnaeus |
+| 268 | Silk Pony Inn (#25) | beds for twelve, night of day 268 |  |  | 2gp 4sp | vettius |
+| 269 | Solar Citadel (Patriarch Arëtar) | the Citadel buys back the Empyrean regalia (L205-L208) at value, day 269 |  | 3,400gp |  | iulia |
+| 269 | Solar Citadel | Repair Disfigurement and Disability (his throat), Patriarch Arëtar, day 269 |  |  | 185gp | gnaeus |
+| 269 | Silk Pony Inn (#25) | beds for twelve, night of day 269 |  |  | 2gp 4sp | vettius |
+| 270 | Silk Pony Inn (#25) | beds for twelve, night of day 270 |  |  | 2gp 4sp | vettius |
+| 271 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 271 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 271-284 (2sp a stall a day) |  |  | 11gp 2sp | vettius |
+| 271 | textile caravan (passive investment 1) | month 9 return 1% of 700gp less a third (Brigandage, 2 months), collected day 271 |  | 4gp 7sp |  | lucilla |
+| 271 | gem dealers of the Emporium | four small opals (L156-L159, A22) sold, day 271 |  | 400gp |  | lucilla |
+| 271 | Solar Citadel (Patriarch Arëtar) | the white lotus incense (L209, A27) bought back by the Citadel, day 271 |  | 630gp |  | lucilla |
+| 271 | Liber Faunus | canopic jars and amphora (L210-L211, A27) at 80%, day 271 |  | 96gp |  | lucilla |

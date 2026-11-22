@@ -203,3 +203,18 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   three sludge caves without stopping; (3) first rest in the first tomb (sealed, dry), and on the way out rest there
   before the sludge, so nobody carries the headache into a fight; (4) no fighting in the sludge if we can avoid it.
 - S11 (day 267): Neris can now cure the rot herself (3rd-rank prayers). Strength 51: the very bottom (48) is open.
+
+- S12 (day 268), the princess: Vestus' ogre strength on Varro moved her stone lid at the first heave and she never
+  rose. Her swan cloak is ours (to be named before it is sold).
+- S12 (day 268), the inquisitor's tomb. Lessons: (8) cast Righteous Wrath at the last moment before the pull that
+  will open the slab, not before the first try: it lasts only minutes, and two failed pulls and a turn of silence
+  wasted it; (9) a priest of the dead calls up raging warriors if he is given a moment: they come fast and hit hard;
+  the second rank must be ready (Phaedra's sleep before they reach us, Vestus' webbing) and the light-armoured do not
+  stand in the front; (10) a pool of burning oil where the dead thing must stand to reach us burns it every moment it
+  fights there; (11) only Brennus and those who have stood the stare should hold the front; whoever freezes looks
+  down and steps back at once.
+- S12 (day 269): the Rod of the Dawn (Ammonar's scepter) is lent to Iulia by the Patriarch for the work below: once a
+  day, for a few minutes, she rebukes the dead and prays as one far greater. It goes back to the Citadel when we are
+  done; we never sell it. The astrologer's charts: the Conjunction of the Void comes in about three years.
+- S12 (day 271): Gnaeus abed until about day 298. Strength 48 without him: the very bottom is open, with nothing to
+  spare (one death and we turn back).

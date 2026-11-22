@@ -78,7 +78,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## NPC attitudes
 - Revered Mother Doarë (Grey Sisters, House of Mourning): Friendly (day 264; reaction 11 Indifferent, influence with Neris' vision 12 Friendly). Keeps the party's sealed chest in her vault (holder grey-sisters-vault: the ancient coin 16,441gp 258sp 235cp and the opals L156-L159), 10gp a month (paid to day 293). Believes the Awakening may be near; she and Ezelus can introduce adventurers to the Order of the Eclipse (Temple District note).
-- Patriarch Arëtar (Solar Citadel): Neutral (day 243, Iulia's audience on the vicar's introduction; two influences: Indifferent, then back to Neutral). Wants physical evidence of the Awakening (rubbings, a carved stone, a record scroll). Leaves healing to the Citadel's paid services.
+- Patriarch Arëtar (Solar Citadel): FRIENDLY (day 269: Iulia brought the H21 regalia and the Rod of the Dawn, the inquisitor's tomb and Neris' chart reading; influence 9 Indifferent, 12 Friendly). He lent Iulia the Rod (returned when the work below is done), bought the other temples' relics and the incense at value (4,030gp), and prayed Repair over Gnaeus himself. He dreams of the river. Earlier: Neutral (day 243, Iulia's audience on the vicar's introduction; two influences: Indifferent, then back to Neutral). Wants physical evidence of the Awakening (rubbings, a carved stone, a record scroll). Leaves healing to the Citadel's paid services.
 - Mother Drakima (Keepers' Hospital, priestess 7): cast Repair Disfigurement and Disability on Lucilla day 243 (paid service).
 - Liber Faunus (Argollëan Family): Friendly (day 241, natural 12 at The Mink). Deal: elven relics through the Family at 80%; the party's coin and gems its own; free passage on the Old District grates; news of the Nethercity now and then (Rulings S10). Aranth Faunus met (barman). Note: the party lodges at the Silk Pony (Sand & Bones, the Family's rival): Judge's watch item.
 - Cyfaraun (S08): a sister of the Temple of the Hearth Fire Unfriendly (day 173, read Genelen's letter); a Türos Orn priest healed Vettius at double fee.
@@ -92,7 +92,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
-- Day 264: Aelia, Marcellus wages; day 271: Gnaeus wage and month 10's selling day (opals L156-L159); day 270: month 9 ends (investment 1 vagary).
+- Day 280 Phaedra's wage; 284 stalls paid through; 287 Varro, Hrodvar; 293 the vault fee; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 

@@ -9,9 +9,9 @@ adventure: Secrets of the Nethercity (AX2), between delves (A26 paid out)
 public:
   date:
     year: ''
-    season: fall
-    day: 268
-  time: '10:23'
+    season: winter
+    day: 271
+  time: 05:34
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,26 +26,22 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 8.997
+    encumbrance_st: 9.019
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 10
+    hp: 18
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.326
+    encumbrance_st: 9.163
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 10
-    hp_max: 10
+    hp: 15
+    hp_max: 15
     conditions: []
-    spells_used:
-    - Ogre Strength
-    - Fan of Flames
-    - Ogre Strength
-    - Mage Missile
+    spells_used: []
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,24 +49,18 @@ public:
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Augury
-    - Holy Blessing
-    - Holy Blessing
-    - Cure Light Injury
-    - Cure Disease
-    - Cure Disease
-    encumbrance_st: 3.504
+    spells_used: []
+    encumbrance_st: 3.519
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 15
+    hp: 28
     hp_max: 28
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 8.998
+    encumbrance_st: 9.013
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -78,13 +68,8 @@ public:
     hp_max: 26
     conditions:
     - minor scarring (puncture wound)
-    spells_used:
-    - Righteous Wrath
-    - Righteous Wrath
-    - Striking
-    - Cure Light Injury
-    - Cure Light Injury
-    encumbrance_st: 10.846
+    spells_used: []
+    encumbrance_st: 10.861
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -92,7 +77,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 9.35
+    encumbrance_st: 9.367
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -100,7 +85,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.016
+    encumbrance_st: 10.033
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -108,35 +93,34 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 6.352
+    encumbrance_st: 6.369
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 19
-    hp_max: 19
+    hp: 20
+    hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.671
+    encumbrance_st: 8.688
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 11
     hp_max: 11
     conditions: []
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 6.846
+    spells_used: []
+    encumbrance_st: 6.863
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
     hp: 1
-    hp_max: 10
+    hp_max: 19
     conditions:
-    - 'a puncture wound to the throat: mute, breathing through a hole (cannot speak, cast spells or use magic items involving speech; -4 to reactions) (Mortal Wounds, day 268)'
     - bed rest 1 month (Mortal Wounds, day 268; incapacitated, max 1 hp)
+    - 'speaks with dead once a week (Tampering with Mortality, day 269: a gift of his brush with death)'
     spells_used: []
-    encumbrance_st: 8.512
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 3 turns 1 round left; torch (Phaedra) 3 turns 1 round left
+    encumbrance_st: 8.529
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 6 d, water 1 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
@@ -161,7 +145,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 268
+clock_day: 271
 ---
 # Campaign State
 

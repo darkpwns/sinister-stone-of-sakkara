@@ -23,3 +23,6 @@ type: rumours
 - Day 230, Cyfaraun, Lucilla's old contacts: Lanista Celictor Nuvicus bought a monstrous crocodile and other beasts for the next seasonal festival, though he denies it; maybe a surprise to upstage Maximus.
 - Day 257, Cyfaraun, Lucilla's old contacts (Rumormongering, month 9): beheaded bodies of lepers and vagrants were found floating in the river by the south wall the morning after the last new moon; the Watch is not looking, since nobody cares for outcasts.
 - Day 257, Cyfaraun, Lucilla's old contacts: a few young wizards have taken a great interest in the city's rats: exterminators, or a mad rat cult?
+- Day 271, Cyfaraun, Lucilla's old contacts (Rumormongering, month 10): the city wants new gladiators against Maximus's beastmen; beating one of his ogres alone on the sands wins the city's love, and the few who did are now rich and free.
+- Day 271, Cyfaraun, Lucilla's old contacts: nobody has seen them in years, but the Brotherhood of Knives is still in business as killers for hire.
+- Day 271, Cyfaraun, Lucilla's old contacts: Prefect Basilio has gone mad and hired assassins to kill merchants he suspects of smuggling; the bodies are dumped in the river as a warning.
