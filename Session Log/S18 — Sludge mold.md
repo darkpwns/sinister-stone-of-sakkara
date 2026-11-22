@@ -206,6 +206,18 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - By noon the city had it: a body against the mill weir above the Emporium, throat cut, weighted with rubble that had
   shifted: the Provost of the Tower of Knowledge. The talk in the taverns was of wharf robbers. Iulia said nothing,
   and nobody asked her.
+- Day 352, windy and clear. Forty-seventh descent, for the bronze door at the skeleton gallery's south end, carrying
+  nothing from below so the dead slept as they passed. Aelia's last torch went out on the way and Phaedra's came
+  up. The door gave at the first shove: a half-round cave forty feet high with a basalt column carved as a falling
+  star, a ceiling of carved stars, and a hundred and ten graves in the walls. Vettius, at the door, heard stone
+  hammering on stone far to the east. Every hand looted the graves for a turn (rings, amulets, cups, old coins);
+  the tunnel south past two big stalagmites was left alone ("no gold, no reason," said Rosa; Tomasz agreed).
+- Back through the gallery laden, inside Neris' moving circle: every skeleton left in its walls climbed out, and
+  Iulia broke them as they came, all eighty-four, the last in the twelfth breath. The gallery is empty now. On the
+  way the company looted the sixteen graves of the east gallery too.
+- In the Undercity on the way home, while the company rested, a filthy man tapping the walls with a rod came into
+  the torchlight. Neris' prayer put him to sleep where he stood; under the rags, a rat's skull on a thong. He went
+  to the Citadel bound in Lucilla's rope, a fourth for the Patriarch's court.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before

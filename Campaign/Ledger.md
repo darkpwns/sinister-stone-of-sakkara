@@ -267,6 +267,12 @@ tags:
 | 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 100.0gp | 100 | lucilla |
 | 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 500.0gp | 500 | lucilla |
 | 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 500.0gp | 500 | lucilla |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 100 | stored |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 100 | stored |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 100 | stored |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 100 | stored |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of 22 wall graves (F18): rings, amulets, cups, old elven coins | 95 | stored |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | grave goods of the 16 east-gallery graves (F7) | 32 | stored |
 
 ## Monster XP
 
@@ -339,6 +345,8 @@ tags:
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Giant Rat | 8 | 5 | 40 |
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Mummy | 1 | 1,280 | 1,280 |
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Skeleton | 44 | 13 | 572 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Skeleton | 84 | 13 | 1,092 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Wererat | 1 | 65 | 65 |
 
 ## Shares and XP awarded
 
@@ -762,6 +770,17 @@ tags:
 | 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Hrodvar | 0.5 | 115 | 0 | 0 | +0% | 115 |
 | 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Aelia | 0.5 | 115 | 0 | 0 | +0% | 115 |
 | 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Marcellus | 0.5 | 115 | 0 | 0 | +0% | 115 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Lucilla | 1 | 62 | 136 | 0 | +10% | 218 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Vettius | 1 | 62 | 136 | 0 | +5% | 208 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Vestus the Unlikely | 1 | 62 | 136 | 0 | +5% | 208 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Neris | 1 | 62 | 136 | 0 | +0% | 198 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Brennus | 1 | 62 | 136 | 0 | +5% | 208 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Iulia | 1 | 62 | 136 | 0 | +5% | 208 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Phaedra | 0.5 | 31 | 68 | 0 | +0% | 99 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Varro | 0.5 | 31 | 68 | 0 | +0% | 99 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Hrodvar | 0.5 | 31 | 68 | 0 | +0% | 99 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Aelia | 0.5 | 31 | 68 | 0 | +0% | 99 |
+| 352 | Forty-seventh descent: the Cave of the Falling Star, F18 (day 352) | Marcellus | 0.5 | 31 | 68 | 0 | +0% | 99 |
 
 ## Wages
 
@@ -2456,3 +2475,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 351 |  | treasure share |  |  |  |  |
 | 351 |  | treasure share |  |  |  |  |
 | 351 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 |  | treasure share |  |  |  |  |
+| 352 | Cyfaraun | torch | 6 |  | 1sp | lucilla |

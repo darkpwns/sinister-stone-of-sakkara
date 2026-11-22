@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: winter
-    day: 351
-  time: '18:00'
-  weather: Chilly (51 to 55 F) by day, Chilly (51 to 55 F) at night; partly cloudy; wind very strong (windy)
+    day: 352
+  time: '10:45'
+  weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind very strong (windy)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 12.447
+    encumbrance_st: 12.446
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -50,7 +50,9 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used: []
+    spells_used:
+    - Holy Circle, Sustained
+    - Slumber
     encumbrance_st: 4.713
   - name: Brennus
     sheet: Characters/brennus.json
@@ -94,7 +96,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 6.501
+    encumbrance_st: 7.334
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -110,7 +112,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.573
+    encumbrance_st: 8.073
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -158,7 +160,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 351
+clock_day: 352
 ---
 # Campaign State
 
