@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 400
-  time: '18:43'
+    day: 401
+  time: 07:43
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 10
+    hp: 12
     hp_max: 23
     conditions:
     - minor scarring (fang mark on the hand)
@@ -42,7 +42,8 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used: []
+    spells_used:
+    - Invisibility
     encumbrance_st: 7.846
   - name: Neris
     sheet: Characters/neris.json
@@ -83,7 +84,7 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 20
+    hp: 22
     hp_max: 23
     conditions: []
     spells_used: []
@@ -91,7 +92,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 18
+    hp: 19
     hp_max: 20
     conditions: []
     spells_used: []
@@ -99,7 +100,7 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 19
+    hp: 21
     hp_max: 21
     conditions: []
     spells_used: []
@@ -161,7 +162,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 400
+clock_day: 401
 ---
 # Campaign State
 

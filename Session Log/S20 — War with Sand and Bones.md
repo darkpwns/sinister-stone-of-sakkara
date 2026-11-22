@@ -78,6 +78,14 @@ Argollëan Family. The Order has not yet named Selene.
   compliments and word that the Pony sent their brothers to die. Pluris swore he would rent the Pony nothing more
   until it paid for his dead; Nuvicus said nothing. Vestus and Phaedra closed their books: Invisibility is in
   Vestus' repertoire, Beguile Humanoid in Phaedra's.
+- Day 401. The Citadel's priest again asked the Captain to come back another day for Lucilla's face. That night
+  Vestus made Vettius vanish. Into the Silk Pony with the gamblers, down the cellar stair past the footpad (he
+  heard boots that were not there and shrugged), among the snoring cooks; the cellar door's lock beat him, but a
+  thug came down for wine and Vettius slipped through behind him. Below: a long lamplit room, curtained booths, a
+  five-foot pit of black-stained sand, buckets and barrels in the south-west corner; eleven men at dice past two in
+  the morning, hoods and axemen, a man with a branding iron, a quick-handed rogue and two big arena veterans. No
+  Selene. Vettius ran his fingers over the wall behind the barrels and found no seam before the room grew restless.
+  He let himself out by the door (a hood swore at the draught and shut it) and was back at the Citadel by dawn.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
