@@ -1548,3 +1548,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 288 | Shrine of the Ancestors (Grey Sisters) | a word with Revered Mother Doarë; the white diamond L223 locked in the company's chest in her vault (day 288) |  |  | 1gp | vettius |
 | 288 | Silk Pony Inn (#25) | beds for twelve, night of day 288 |  |  | 2gp 4sp | vettius |
 | 289 | Silk Pony Inn (#25) | beds for twelve, night of day 289 |  |  | 2gp 4sp | vettius |
+| 290 | Tertulla (Lake Laman fisherwoman) | a day's pay for her time and her lore of the white catfish (Lucilla's Bribery) |  |  | 3sp | lucilla |
+| 290 | Tertulla (Lake Laman fisherwoman) | one of her shark hooks on 20' of chain |  |  | 10gp | lucilla |
+| 290 | Cyfaraun livestock market | a sheep, slaughtered and quartered for bait (RR 2gp) |  |  | 2gp | varro |
+| 290 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 8cp | vettius |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | lucilla |
+| 290 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | aelia |
+| 290 | Cyfaraun | torch | 6 |  | 9cp | aelia |
+| 290 | Cyfaraun | torch | 6 |  | 9cp | phaedra |

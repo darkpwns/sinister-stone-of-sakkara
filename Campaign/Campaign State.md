@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 13
+session: 14
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A28 paid out)
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.225
+    encumbrance_st: 9.703
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.827
+    encumbrance_st: 9.484
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -63,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 9.057
+    encumbrance_st: 11.057
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -88,7 +88,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 8.903
+    encumbrance_st: 12.901
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -96,7 +96,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 4.732
+    encumbrance_st: 6.214
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -104,7 +104,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.889
+    encumbrance_st: 12.889
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -112,7 +112,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 6.392
+    encumbrance_st: 7.383
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -124,7 +124,7 @@ public:
     spells_used: []
     encumbrance_st: 8.548
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 0 d, water 1 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
