@@ -760,3 +760,25 @@ surprise), Brennus 15, Vettius "Freeze" (save 3), Lucilla's coup de grace; body 
 class search's market cap is stale (Rulings S18: confirm the month's total, `candidate --level N --class C`, then
 `candidate ID --sheet Campaign/candidates/<id>.json` before `hire --publish-to`); animals as holders with `inv holder
 add ID --kind animal` (not `inv add --as`); find a thief skill's name before throwing it (`Hiding`, `Sneaking`).
+
+## S19 after the second S18 week — start here (supersedes everything above)
+**State on resume:** day 344 18:10, winter, Cyfaraun, the Solar Citadel. No adventure open (A51 paid out). Location
+Cyfaraun (settlement). Night of day 344 first (`eat --in-town`, `wait --hours 11`), then `dawn 345`. Thirteen, all
+whole: as S18 plus Cotta (Vettius', Explorer 2). Iulia Crusader 7 (39 hp). Vestus is a Tower member (thaumaturge).
+The six PCs are deathbringers of the Order (day 340).
+
+**Days 338-344:** Order told (rite day 340); items named (L326 Dagger +1, L328 Helm; L330 potion of giant strength by
+the Tower's alchemist; L327 ring, L329 wand unknown); vault day 342 (garnets L334-L351, jars L352, L326-L329, L333).
+Descent 42 (A50, day 341): F5 cleared. Descent 43 (A51, day 343): F8 spellsword, F9 looted, F4 swarm and martyr.
+Day 344: Arëtar asked Iulia; she kept the oath (his next reaction to her -1). Regent opened Basement 2 (Judge-only:
+quiet hunt).
+
+**Open:** the Order's weekly assignments from day 347; F beyond (F10, F11 gallery skeleton rule, F12-F19, F14's secret
+door to T); the spellsword's spellbook (Fireball; Necromantic Potence vs the Tower's oath); the ring and the wand;
+selling day 361 (month 13: garnets, jars, statuette, bowl, tiles, amethysts at 5% tax); wages 347 (Varro, Hrodvar),
+352 (Saturnin), 353 (Aelia, Marcellus, vault fee); Tertulla 349; month end 360.
+
+**Routine (S18 lessons, cont.):** the engine's `rebuke` leaves sepulchral worms out of its pool: apply the MM rule by
+hand (worms first, lowest HD); never set many distances in one loop (176 calls timed out: set only the pairs a move
+needs); SOTN slabs without the −12 (Rulings S18); holy water on undead = luminous extraordinary 1d8 (no holy type);
+a hidden slab-heave helper: `force-door A B --helpers C` (STR −2 helpers hurt).

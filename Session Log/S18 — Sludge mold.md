@@ -2,7 +2,7 @@
 type: session
 session: 18
 date_real: 2026-11-22
-date_game: winter day 330-338
+date_game: winter day 330-344
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -150,13 +150,22 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   king's sword in, Vestus' fan caught it, and Marcellus' holy water finished it. No one was touched. The amethysts,
   the jars and the ivory fretwork came home; out by ten. Neris and Varro breathed too much of the sludge on the way
   out and shook it off on the street.
+- Day 344, grey and mild. A Citadel novice came for Iulia at breakfast. Arëtar, alone in his study: "The Tower says
+  its Provost walked out on the night of the 337th and never came back. My porter says the Captain and her company
+  were out that night too." Iulia: "Holiness, I swore an oath I cannot break. The Provost will not trouble the
+  Citadel again." A long silence. "Calefa keeps her own accounts, and I do not ask to see them. But I asked you for
+  proof, Captain, and for a court. Not this." She keeps her office; he did not offer his hand.
+- At the Tower the thaumaturges whispered that the Regent and the Treasurer had gone down to the Provost's study
+  with the subaltern and come up grey; the north corridor was closed to members all day. Nobody would say more.
+  Nobody came asking for the Brotherhood. The river kept what it had.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before
   he speaks; reads the skyline, not the ground.
 - The Nicean wine-seller at the Emporium stalls, a stout widow who calls everyone "dove" (day 331, friendly).
 - The hooded patron at the outlet (days 333 and 337): the Provost Mentenus. Dead.
-- Brother Oppius with Destrio's word (day 334). Patriarch Arëtar (day 334).
+- Brother Oppius with Destrio's word (day 334) and the summons (day 340); Destrio (day 340). Patriarch Arëtar (days 334,
+  344). Regent Aurëus Ambador and Treasurer Clitus Omnus (Vestus' interview, day 339). Caeso Lentulus (day 339).
 
 ## Treasure and XP
 - Day 333 (selling day): L295 Chain Mail +1 (identified by Lucilla) and L296 Helm of Comprehension sold unused through
@@ -167,6 +176,10 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Day 338 (A49, the second meeting): 200gp, a black-wired dagger, a jade vine ring, a bronze letter-cap, an ash
   wand, a grey potion, a cassock, a staff and two keys (apparent 2,998gp); the Provost (1,300 XP); 4,298 XP over 9
   shares. Items to divide or sell.
+- Day 341 (A50, F5): 18 garnets (4,500gp) and 4 canopic jars; 12 skeletons, a mummy and its worms; 5,776 XP over 8.5
+  shares.
+- Day 343 (A51, F8, F9, F4): 6,000sp, 600gp, a bowl, a bronze dragon, the spellsword's spellbook, 2 amethysts, 4
+  jars, the ivory tiles; two mummies, a scarab swarm, 14 worms; 4,724 XP over 8.5 shares.
 
 ## Rumours given
 - Day 331: Lucilla's contacts (the Mink, the Silk Pony and the Noble Charter Inn); the wine-seller (the Patriarch and
@@ -179,9 +192,10 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Cotta has joined Vettius. The barge is moored at Tertulla's to day 349.
 
 ## Next time
-Day 338, about 01:00, the Solar Citadel. Twelve whole (Saturnin at the Citadel). Tell the Order the retribution is
-done. The Tower will miss its Provost; Vestus' interview is on day 339, before the Regent. Caeso Lentulus is out of
-bed today. The new moon (day 342) was the patron's deadline.
+Day 344, evening, the Solar Citadel. Thirteen, all whole. The Provost's things, the garnets and the jars are in the
+Grey Sisters' vault; the coins, the bronze dragon, the bowl, the spellbook, the amethysts and the ivory tiles are
+carried. Arëtar is cooler. The long gallery south of the east gallery, the embalming room and the sealed chamber
+beyond the slope wait below. Month 12 ends on day 360.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 18). Judge notes: Playtest/judge-notes.txt (S18 entries).
@@ -203,3 +217,20 @@ bed today. The new moon (day 342) was the patron's deadline.
 > paralyzed); Lucilla's coup de grace. Familiar 1 (fled up the tunnel). Mentenus' gear by AX3 p. 91 and AX3 Magic
 > Items (the 2,000gp he paid was his; he brought no more: he came to bargain).
 > NPC voices: the wine-seller (stout Nicean widow, "dove", ladle); Cotta (laconic, spits, "I watch the skyline").
+> Days 338-344: Caeso's visit 6 (day 339); the Order's answer 1d3 2 (day 340); Arëtar summons 4 (no, days 338-343);
+> interview 2 (goes ahead), admission 2d6+6 12 (admitted); Doarë 79, 90, 52 (in day 342); rumour (irritating) 2
+> (Aghilas); Regent opens Basement 2: 3 (yes), day 344 (1d4 4), keeps it close and hunts the infected quietly (4).
+> L326 Dagger +1, L328 Helm identified by Lucilla (ME); L327, L329 not (ME, Loremastery x2); L330 by the Tower's
+> alchemist (40gp). Vestus' research on L327 (8) void (judge-notes).
+> A50 (day 341, F5): skeletons 5 hp each (fixed), mummy curate 24; Vestus' fans 4 and 1; Iulia's Rod rebuke 2d6 4
+> (four skeletons), second rebuke 3 HD with "at least one": the mummy destroyed; visage saves (-3, +1): 8 of 11
+> cowered; Phaedra's first fan lost (cowered before casting), second 4 (mummy 20 -> 16); Marcellus' oil 8 (4).
+> Inspire Dread void (the mummy had no turn left). Unsettling: entered 09:13, left 11:05 (no throw).
+> A51 (day 343): unsettling throw at 08:55: 3 (none). F8 slab heaves 15, 2 (with the void −12), 7, 5, 4, 16 (opened
+> 6th); spellsword ready (duplicates 1d4 3); visage (+1 blessing, +1 circle): 5 cowered; Rod rebuke 2d6 7: destroyed.
+> F4: Iulia's rebuke 18, 2d6 9 (by the rule: 9 worms destroyed), second rebuke 2d6 10 (5 worms; mummy unreached),
+> third rebuke 1 (fails); swarm 15 hp (oil 3, 5; fans 6, 1); martyr 25 hp: oil 1, 1, Vettius' backstab 10, Vestus'
+> fan 5, Marcellus' holy water 8: destroyed. Inspire Dread (martyr, round 3): 6 shaken a turn.
+> Day 344: body ashore 3 (no); Brotherhood patron 2 (none); Arëtar sends for Iulia 2 (yes): reaction 8 vs Friendly
+> (Neutral to her answer): stays Friendly, his next reaction to her -1 (Judge's call).
+

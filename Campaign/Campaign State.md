@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: winter
-    day: 343
-  time: '10:10'
-  weather: Very Chilly (37 to 40 F) by day, Very Chilly (37 to 40 F) at night; clear; wind very strong (windy)
+    day: 344
+  time: '18:10'
+  weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -41,9 +41,7 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 4.704
   - name: Neris
     sheet: Characters/neris.json
@@ -52,9 +50,7 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Circle, Sustained
-    - Holy Blessing
+    spells_used: []
     encumbrance_st: 4.74
   - name: Brennus
     sheet: Characters/brennus.json
@@ -113,8 +109,7 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.498
   - name: Saturnin
     sheet: Characters/saturnin.json
@@ -136,10 +131,11 @@ public:
   rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - The Provost Mentenus is dead (midnight day 337, the Nicean outlet; the river has him): tell the Order the retribution is done
-  - The Patriarch wanted proof from the Provost's study; the company holds his keys (Basement 10, 4) and his cassock
-  - Vestus' interview at the Tower of Knowledge, day 339 (the Provost will not be there)
-  - Items from the Provost to divide or sell (dagger, jade ring, bronze cap, ash wand, grey potion)
+  - The six are deathbringers of the Order of the Eclipse (day 340); the house of Vasan is closed
+  - The Provost is gone; Arëtar wanted a court, not this (day 344)
+  - Vestus is a thaumaturge of the Tower of Knowledge (day 339); the Regent opened the Provost's study (day 344)
+  - 'The lower galleries (F): the long gallery south, the embalming room, the slope west and its bronze door'
+  - 'Items to name or sell: the jade ring, the ash wand (vault); the spellsword''s spellbook; garnets for month 13'
   - The black barge at Tertulla's landing, paid to day 349
   trail:
   - '26.18'
@@ -162,7 +158,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 343
+clock_day: 344
 ---
 # Campaign State
 

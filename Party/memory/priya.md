@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Debts
 
 ## Lessons learned
+- S18: Vestus is a thaumaturge of the Tower (blue cassock, a key, the basement stair). The spellsword's roll has fire spells; one formula is black magic the Tower's oath says to hand over.
 - S18: the Nicean outlet: the old sewer mouth under the Emporium wharves, a rubble slope to the water, the outlet tunnel running up into the dark (a niche ten feet in), the wharf alley sixty feet back. The Provost's keys: "Basement 10" (the Tower's sewer gate) and "4".
 
 ## Opinions of NPCs

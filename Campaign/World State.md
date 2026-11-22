@@ -138,7 +138,11 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Arëtar (day 306): has Mentenus's papers (the Provost of the Tower leads the Horned Rat cult) and the captive seer; asked Iulia to say nothing outside the Citadel (Judge's watch item: what he does about the Tower). Iulia's month-11 report made (day 306). Liber Faunus (day 305): told Lucilla where the rat-tappers go; glad to see them cleaned out.
 - Arëtar (day 334): asked by Iulia to let the city think her dead (the snare); reaction 11 vs Friendly = Indifferent to it: declined (no lie to the city or his prelates; an unsigned note is not enough against a Provost); still Friendly; told her to sleep inside the walls.
 - The Nicean wine-seller at the Emporium stalls (day 331): Friendly (12); stout widow, "dove"; gave Lucilla the note for Vasan.
-- **Provost Mentenus Cavië: DEAD (midnight day 337).** Nobody outside the company and the Order knows.
+- **Provost Mentenus Cavië: DEAD (midnight day 337).** Nobody outside the company and the Order knows; Arëtar guesses (day 344).
+- Arëtar (day 344): told only that Iulia's oath binds her and the Provost will not trouble the Citadel; reaction 8 (Neutral to it): stays Friendly, **his next reaction to Iulia -1**.
+- The Tower of Knowledge: **Vestus a member (thaumaturge, College of Divination, blue cassock) from day 339**; dues 10gp a month (paid month 12); basement access. Regent Aurëus opened Basement 2 on day 344 (Judge-only: he keeps what he found close and hunts the Provost's infected associates quietly).
+- **The Order of the Eclipse (day 340): the six PCs are deathbringers.** Weekly assignment rolls from day 347 (1d4 per deathbringer PC in Cyfaraun, a 4; AX3 p. 175). "The house of Vasan is closed: open it again only at my word."
+- Caeso Lentulus (day 339): up, one eye; Friendly; "ask for me at the Old District post".
 - Cotta (Vettius' henchman, Explorer 2, Outrider; day 331): loyalty +0, morale 0.
 
 ## Former characters (day 161)
@@ -166,15 +170,18 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: the Nethercity and Undercity under Cyfaraun (18.05); the Tower of Knowledge basement (keyed: Basement 2 the
-  Provost's study, wizard locked 9th; sewer gate 10 wizard locked 10th by Aurëus, so the key alone does not open
-  it; magic mouth 9, passed in a mage's cassock: the company has Mentenus'). Saved for later: the Ionicus estate
-  (27.19), Celictor's crocodile (#45u), the arena.
-- Threads: tell the Order (deathbringers; weekly assignments from then); the Tower's search for its Provost; Vestus'
-  interview (day 339); Arëtar's proof (Basement 2: still wanted? the cult's remnants, the journals); the items to
-  divide or sell (L326-L330: identify first); Caeso Lentulus (out of bed day 338); the body in the river.
-- Scheduled: 338 Caeso up; 339 Vestus' interview; 340 Phaedra's wage; 342 new moon; 344 first body roll and the
-  weekly Brotherhood roll; 347 Varro, Hrodvar; 349 Tertulla; 352 Saturnin; 353 Aelia, Marcellus, the vault fee;
-  360 month 12 ends (Guildhouse fees, investments 1 and 3, Iulia's rolls and report; Cotta's wage paid to 360).
-- NPCs named, not written up: Brother Oppius; Destrio's voice; Saturnin; Cotta (Characters/cotta.json: laconic
-  outrider, spits, "I watch the skyline"); the Nicean wine-seller (stout widow, "dove"); Caeso Lentulus (note written).
+- Sites: the Nethercity F area (F7 graves 32gp, F10 embalming room 1,950gp, F11 gallery: 128 skeletons wake 1d20 a
+  round for anyone carrying F treasure; F12-F13 the sacrificer of Iskara (rector mummy); F14 vestibule (secret
+  trapped door S to T1); F15 flying-disc chamber, F16 levers, F17 reliquary (magic-locked 9th; opened by magic it
+  floods with gas; the alarm wakes T2's khepri hierarch); F18-F19 rhagodessae); the Tower basement (Vestus may go
+  down; Basement 2 opened by the Regent). Saved for later: the Ionicus estate (27.19), Celictor's crocodile (#45u).
+- Threads: the Order's weekly assignments (day 347 on); the Regent's quiet hunt (the Provost's infected associates:
+  wererats among the expelled adjuncts and scholars); Arëtar cooler (-1); the spellsword's spellbook (Fireball,
+  Thunderbolt...; Necromantic Potence is a black-magic formula the Tower's oath says to hand over); the Provost's
+  ring and wand still unknown (research: 10 days for Vestus, 2,000gp); the garnets and jars for the month-13 selling
+  day; Gnaeus' held shares.
+- Scheduled: 347 Varro, Hrodvar wages, the first Order assignment roll; 349 Tertulla (barge paid to 349); 351 body
+  roll and Brotherhood roll; 352 Saturnin; 353 Aelia, Marcellus, the vault fee; 360 month 12 ends (Guildhouse fees,
+  investments 1 and 3, Iulia's rolls and report to Arëtar, Vestus' dues for month 13; Cotta paid to 360).
+- NPCs named, not written up: Brother Oppius; Destrio's voice; Saturnin; Cotta; the Nicean wine-seller (stout widow,
+  "dove"); Caeso Lentulus (note written); Regent Aurëus and Treasurer Clitus (AX3 notes).
