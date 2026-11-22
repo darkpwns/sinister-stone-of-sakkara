@@ -1869,3 +1869,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 310 |  | treasure share |  |  |  |  |
 | 310 |  | treasure share |  |  |  |  |
 | 310 |  | treasure share |  |  |  |  |
+| 310 | Silk Pony Inn (#25) | beds for ten, night of day 310 (Neris and Marcellus at the Citadel) |  |  | 2gp | vettius |
+| 311 | Silk Pony Inn (#25) | beds for ten, night of day 311 (Neris and Marcellus at the Citadel) |  |  | 2gp | vettius |

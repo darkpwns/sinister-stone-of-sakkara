@@ -38,6 +38,22 @@ Tertulla's sails. Above the river, behind a hole lined with black marble, a tomb
 - Neris rose to the sixth circle. Coin banked; the crown, the box and its gems, the jars, the throne and the chariot
   to the Grey Sisters' vault. Oil and holy water bought.
 
+- Day 310, dawn. Marcellus woke a little warmer. Lucilla asked Liber Faunus about a great elven king buried by the
+  river bend: "Marcan the Conqueror, who broke the dwarves in the Bitter War. That white stone you sold me was his
+  plunder. They buried him with four of his guard, a host of bronze and a sword with a crown for a hilt that made
+  men obey. His name opened doors in his day. Bring me his regalia and name your price." The table: the bronze and
+  the dead cannot pass Iulia's shield, but a commanding word can; not this week.
+- Day 310, thirty-fifth descent, for the gilded coffin. A sweet stink of dying flowers in the temple halls. The fish
+  came up for its sheep. On the way upstream a drowned troglodyte came down the river swollen and writhing with
+  grave worms; the white fish rose under it and took it whole. Up the well again inside Iulia's ward: the bronze
+  guards woke when the coffin was moved and battered at nothing while Hrodvar's rig lowered it into a canoe. Out by
+  two with the coffin on four backs; the canoes hidden at the beach again.
+
+- Days 310-311, in town. Lucilla left word at the Emporium's wine stalls that a buyer wanted Vasan Tikala's best
+  Nicean, cash, no questions. Nothing came back the first day; on day 311 a boy brought a reply: midnight of day 312,
+  at the Nicean outlet where the old sewer runs out to the river below the Emporium wharves. Tomasz: "Bodies keep
+  turning up after these meetings." Marcellus' cold left him on the third morning (a little less strength).
+
 ## Who they met
 
 ## Treasure and XP

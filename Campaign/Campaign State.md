@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 310
-  time: '14:00'
+    day: 312
+  time: 04:00
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -30,11 +30,11 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 18
+    hp: 21
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.157
+    encumbrance_st: 9.153
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -55,7 +55,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 22
+    hp: 23
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -100,8 +100,7 @@ public:
     role: henchman
     hp: 16
     hp_max: 16
-    conditions:
-    - 'enervated (shadow, day 309): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it'
+    conditions: []
     spells_used: []
     encumbrance_st: 13.17
   - name: Phaedra
@@ -146,7 +145,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 310
+clock_day: 312
 ---
 # Campaign State
 
