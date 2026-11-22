@@ -54,6 +54,30 @@ Tertulla's sails. Above the river, behind a hole lined with black marble, a tomb
   at the Nicean outlet where the old sewer runs out to the river below the Emporium wharves. Tomasz: "Bodies keep
   turning up after these meetings." Marcellus' cold left him on the third morning (a little less strength).
 
+- Day 312, midnight, the Nicean outlet. Lucilla went down to the water's edge with Brennus and Varro as porters and a
+  heavy purse; Vettius lay hidden in the rubble ten feet off; the rest waited sixty feet back in the dark of the
+  wharf alley. "Vasan" came with two men and a barrow and a cask: a thin Nicean with oiled curls and a merchant's
+  smile. Lucilla lifted the lid of her third eye under her hood while he talked price and heard, under the words,
+  no Nicean at all: cold patience, and the thought of wearing her face next. Her whistle and his teeth came together:
+  his mouth opened far too wide and took a bite out of her arm; one of his men bit Brennus to the bone. Then the
+  company was on them: Vestus' and Phaedra's fans, and Brennus' axe swinging through all three in a single sweep.
+  On the wet stones they were grey, hairless, featureless things. The cask was real Nicean.
+- Gnaeus followed the drag marks up the outlet sewer. At a tunnel mouth Vettius found a tripwire to jars of oil
+  hung over the water and cut it. Beyond, four little stucco buildings dug out of the ash: a barracks with three
+  chests (coin, gems, gold and silver armbands and anklets, an orichalcum circlet, an ivory pendant, a gold necklace,
+  a rune-hafted axe); a room of cots heaped with sorted clothing and a writing table with a ledger; a door that
+  stank of a slaughterhouse (two men and four elves, long dead); and a barred cell where four living prisoners were
+  chained to the walls, starved: Tavis Drakomir, a young paladin and a noble's son; Zeodare Ambador, a bladedancer
+  and his lover; Malethor, an elven spellsword from the north; and Stateira, an herb-seller of the Old District.
+- The ledger: every killing the Brotherhood of Knives took, who died, where, and who paid, and the password each
+  patron used. Among the patrons: Liber Faunus ("morning dew"), the Provost Mentenus ("sludge mold": the Watch
+  officer Gundus and two elves), and Selene, who owns the Silk Pony ("ruby lips"). Rosa: "Liber is our fence and
+  Selene is our landlady." Ingrid: "Then nobody knows we have it." Gideon's call: the book goes sealed into the
+  company's chest at the Grey Sisters'; Iulia gives Arëtar the Provost's entries only.
+- Day 313. The prisoners to the Keepers' hospital; Tavis to Centurion Celle at the Temple Barracks (curt thanks).
+  House Drakomir and House Ambador each sent 600gp. Hrodvar spent the day with the rune-hafted axe: a good axe, and
+  now his. Coin banked; the gems, jewellery and cask to the vault.
+
 ## Who they met
 
 ## Treasure and XP

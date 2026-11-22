@@ -160,6 +160,29 @@ tags:
 | 309 | Nethercity, expedition 34 (the bronze guards) | an ebony throne inlaid with ivory and gold leaf (two bearers) | 2,000 | hrodvar |
 | 309 | Nethercity, expedition 34 (the bronze guards) | the gilded cedar and ivory parts of a dismantled light chariot (two bearers) | 1,500 | marcellus |
 | 310 | Nethercity, expedition 35 (the gilded coffin) | a gilded bronze sarcophagus (four bearers) | 3,500 | brennus |
+| 313 | Old District riverside: the wine merchant's meeting | a small cask of Nicean wine on a barrow | 40 | varro |
+| 313 | Old District riverside: the wine merchant's meeting | 24 gold pieces | 24 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | 3,000 silver pieces | 300 | aelia |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 500.0gp | 500 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 50.0gp | 50 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 1000.0gp | 1,000 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 50.0gp | 50 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 10.0gp | 10 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 1000.0gp | 1,000 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 25.0gp | 25 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | gem worth 75.0gp | 75 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 900.0gp | 900 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 900.0gp | 900 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 700.0gp | 700 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 700.0gp | 700 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 400.0gp | 400 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 400.0gp | 400 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 900.0gp | 900 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 4000.0gp | 4,000 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | jewelry worth 700.0gp | 700 | lucilla |
+| 313 | Old District riverside: the wine merchant's meeting | Battle Axe +1 | 650 | brennus |
+| 313 | Rewards for the den's prisoners (day 313) | reward 600.0gp | 600 | iulia |
+| 313 | Rewards for the den's prisoners (day 313) | reward 600.0gp | 600 | lucilla |
 
 ## Monster XP
 
@@ -211,6 +234,7 @@ tags:
 | 309 | Nethercity, expedition 34 (the bronze guards) | Shadow | 2 | 71 | 142 |
 | 309 | Nethercity, expedition 34 (the bronze guards) | Jackal of Darkness (SOTN) | 4 | 135 | 540 |
 | 309 | Nethercity, expedition 34 (the bronze guards) | Abyssal King (SOTN) | 1 | 2,600 | 2,600 |
+| 313 | Old District riverside: the wine merchant's meeting | Doppelgänger | 3 | 135 | 405 |
 
 ## Shares and XP awarded
 
@@ -463,6 +487,30 @@ tags:
 | 310 | Nethercity, expedition 35 (the gilded coffin) | Aelia | 0.5 | 194 | 0 | 0 | +0% | 194 |
 | 310 | Nethercity, expedition 35 (the gilded coffin) | Marcellus | 0.5 | 194 | 0 | 0 | +0% | 194 |
 | 310 | Nethercity, expedition 35 (the gilded coffin) | Gnaeus | 0.5 | 194 | 0 | 0 | +0% | 194 |
+| 313 | Old District riverside: the wine merchant's meeting | Lucilla | 1 | 1,480 | 45 | 0 | +10% | 1,678 |
+| 313 | Old District riverside: the wine merchant's meeting | Vettius | 1 | 1,480 | 45 | 0 | +5% | 1,601 |
+| 313 | Old District riverside: the wine merchant's meeting | Iulia | 1 | 1,480 | 45 | 0 | +5% | 1,601 |
+| 313 | Old District riverside: the wine merchant's meeting | Vestus the Unlikely | 1 | 1,480 | 45 | 0 | +5% | 1,601 |
+| 313 | Old District riverside: the wine merchant's meeting | Neris | 1 | 1,480 | 45 | 0 | +0% | 1,525 |
+| 313 | Old District riverside: the wine merchant's meeting | Brennus | 1 | 1,480 | 45 | 0 | +5% | 1,601 |
+| 313 | Old District riverside: the wine merchant's meeting | Phaedra | 0.5 | 740 | 22 | 0 | +0% | 763 |
+| 313 | Old District riverside: the wine merchant's meeting | Varro | 0.5 | 740 | 22 | 0 | +0% | 763 |
+| 313 | Old District riverside: the wine merchant's meeting | Hrodvar | 0.5 | 740 | 22 | 0 | +0% | 763 |
+| 313 | Old District riverside: the wine merchant's meeting | Aelia | 0.5 | 740 | 22 | 0 | +0% | 763 |
+| 313 | Old District riverside: the wine merchant's meeting | Marcellus | 0.5 | 740 | 22 | 0 | +0% | 763 |
+| 313 | Old District riverside: the wine merchant's meeting | Gnaeus | 0.5 | 740 | 22 | 0 | +0% | 763 |
+| 313 | Rewards for the den's prisoners (day 313) | Lucilla | 1 | 133 | 0 | 0 | +10% | 146 |
+| 313 | Rewards for the den's prisoners (day 313) | Vettius | 1 | 133 | 0 | 0 | +5% | 140 |
+| 313 | Rewards for the den's prisoners (day 313) | Iulia | 1 | 133 | 0 | 0 | +5% | 140 |
+| 313 | Rewards for the den's prisoners (day 313) | Vestus the Unlikely | 1 | 133 | 0 | 0 | +5% | 140 |
+| 313 | Rewards for the den's prisoners (day 313) | Neris | 1 | 133 | 0 | 0 | +0% | 133 |
+| 313 | Rewards for the den's prisoners (day 313) | Brennus | 1 | 133 | 0 | 0 | +5% | 140 |
+| 313 | Rewards for the den's prisoners (day 313) | Phaedra | 0.5 | 67 | 0 | 0 | +0% | 67 |
+| 313 | Rewards for the den's prisoners (day 313) | Varro | 0.5 | 67 | 0 | 0 | +0% | 67 |
+| 313 | Rewards for the den's prisoners (day 313) | Hrodvar | 0.5 | 67 | 0 | 0 | +0% | 67 |
+| 313 | Rewards for the den's prisoners (day 313) | Aelia | 0.5 | 67 | 0 | 0 | +0% | 67 |
+| 313 | Rewards for the den's prisoners (day 313) | Marcellus | 0.5 | 67 | 0 | 0 | +0% | 67 |
+| 313 | Rewards for the den's prisoners (day 313) | Gnaeus | 0.5 | 67 | 0 | 0 | +0% | 67 |
 
 ## Wages
 
@@ -1871,3 +1919,27 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 310 |  | treasure share |  |  |  |  |
 | 310 | Silk Pony Inn (#25) | beds for ten, night of day 310 (Neris and Marcellus at the Citadel) |  |  | 2gp | vettius |
 | 311 | Silk Pony Inn (#25) | beds for ten, night of day 311 (Neris and Marcellus at the Citadel) |  |  | 2gp | vettius |
+| 313 |  | treasure share |  | 36gp |  | lucilla |
+| 313 |  | treasure share |  | 36gp |  | vettius |
+| 313 |  | treasure share |  | 36gp |  | iulia |
+| 313 |  | treasure share |  | 36gp |  | vestus-the-unlikely |
+| 313 |  | treasure share |  | 36gp |  | neris |
+| 313 |  | treasure share |  | 36gp |  | brennus |
+| 313 |  | treasure share |  | 18gp |  | phaedra |
+| 313 |  | treasure share |  | 18gp |  | varro |
+| 313 |  | treasure share |  | 18gp |  | hrodvar |
+| 313 |  | treasure share |  | 18gp |  | aelia |
+| 313 |  | treasure share |  | 18gp |  | marcellus |
+| 313 |  | treasure share |  | 18gp |  | gnaeus |
+| 313 |  | treasure share |  | 133gp 3sp 3cp |  | lucilla |
+| 313 |  | treasure share |  | 133gp 3sp 3cp |  | vettius |
+| 313 |  | treasure share |  | 133gp 3sp 3cp |  | iulia |
+| 313 |  | treasure share |  | 133gp 3sp 3cp |  | vestus-the-unlikely |
+| 313 |  | treasure share |  | 133gp 3sp 3cp |  | neris |
+| 313 |  | treasure share |  | 133gp 3sp 3cp |  | brennus |
+| 313 |  | treasure share |  | 66gp 6sp 7cp |  | phaedra |
+| 313 |  | treasure share |  | 66gp 6sp 7cp |  | varro |
+| 313 |  | treasure share |  | 66gp 6sp 7cp |  | hrodvar |
+| 313 |  | treasure share |  | 66gp 6sp 7cp |  | aelia |
+| 313 |  | treasure share |  | 66gp 6sp 7cp |  | marcellus |
+| 313 |  | treasure share |  | 66gp 6sp 7cp |  | gnaeus |
