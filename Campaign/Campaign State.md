@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 321
-  time: 06:26
+    day: 322
+  time: 05:26
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.711
+    encumbrance_st: 9.707
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.131
+    encumbrance_st: 10.122
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -55,7 +55,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 21
+    hp: 23
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -94,7 +94,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 6.145
+    encumbrance_st: 7.136
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -136,7 +136,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 321
+clock_day: 322
 ---
 # Campaign State
 

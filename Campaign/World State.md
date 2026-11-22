@@ -109,7 +109,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Vessels (Judge-tracked, not inventory)
 - Four river canoes (RR canoe, 15' x 5', 1 paddler + 60 st; 40gp each, bought day 275), kept in the Silk Pony stables when not in use.
-- The funerary barge of the cults (L258, identified, used: no sale XP), 27/45 SHP (prow split), under old sails at Tertulla's landing on Lake Laman, paid to day 321 (2gp a week); to be sold (68,000gp base) or kept.
+- The funerary barge of the cults (L258, identified, used: no sale XP), 27/45 SHP (prow split), under old sails at Tertulla's landing on Lake Laman, paid to day 335 (2gp a week; paid day 321); to be sold (68,000gp base) or kept.
 
 ## Trade routes
 - Lucilla (Venturer, Steady Trade Route): Cyfaraun - Türos Tem, textiles and clothing (bought Cyfaraun, sold Türos Tem); established day 195.
@@ -125,6 +125,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Prelate Ezelus (day 319): heard Iulia; the six PCs (Lawful clergy Iulia and Neris vouching) sent to the Order of the Eclipse; families may be told the victims' fates, not the patrons (the Value-of-information rewards may be claimed).
 - Order of the Eclipse (day 319): Destrio (traits invented: lean, grey at the temples, soft-spoken, hands never move; voice: "Calefa keeps the accounts. We only collect.") vetted the company (2d6+6 = 16: invited at once). **Lucilla, Vettius, Iulia, Vestus, Neris and Brennus are acolytes** (sworn to secrecy and obedience to the Order's lawful judgments). The ledger is now the Order's. Their sacred initiation, chosen by the table: the righteous retribution on **Provost Mentenus** (Judge's call: any one of the ledger's three serves as the initiation; the other two remain the Order's). Destrio's charge: keep the Brotherhood's death secret; report anyone who seeks to hire it. Acolytes get no assignments (deathbringers only: 1d4 a week each, on a 4).
+- Day 321: the company chose not to claim the Value-of-information rewards (proof would expose the den and the Brotherhood's death, against Destrio's charge). Vettius watched the Chapterhouse (Tower District): saw Mentenus at the gate; not noticed (1d6 6). Tertulla paid to day 335.
 - Temple of Justice (day 316): Ezelus not sitting; a curate (Brother Oppius: thin, ink-stained fingers, repeats every name back as if writing it) took the Captain's request to be heard on a matter of murder.
 - Centurion Celle: Neutral (day 313: his pupil Tavis returned by the company). Houses Drakomir and Ambador: grateful (600gp each). Malethor (elven spellsword, freed): grateful; seeks the Bow of the Great Eagles (AX4).
 - Arëtar (day 306): has Mentenus's papers (the Provost of the Tower leads the Horned Rat cult) and the captive seer; asked Iulia to say nothing outside the Citadel (Judge's watch item: what he does about the Tower). Iulia's month-11 report made (day 306). Liber Faunus (day 305): told Lucilla where the rat-tappers go; glad to see them cleaned out.

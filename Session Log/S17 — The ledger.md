@@ -89,6 +89,14 @@ Silk Pony for the Solar Citadel.
   Brennus, Varro and Aelia hit it with burning oil and Vestus fanned fire over it, and it burned to a crust. Out
   after seven.
 
+- Day 321, in town. Lucilla walked out to Tertulla's landing and paid two more weeks for the black barge under her
+  sails (to day 335, past the selling day). Over breakfast Rosa raised the rewards for the dead merchants (240gp).
+  Ingrid: "Proof of how they died is the den. The den is the Brotherhood. We swore." Gideon: "We swore. Let it go."
+  Rosa let it go, loudly. Oil and torches bought. Vettius spent the day at a wine-shop window across from the
+  wizards' Chapterhouse in the Tower District; late in the afternoon the Provost came down to the gate to see off a
+  carriage: a man in late middle age, neat, silver-grey, smiling at something the coachman said. Nobody looked
+  at the wine-shop.
+
 ## Who they met
 
 ## Treasure and XP

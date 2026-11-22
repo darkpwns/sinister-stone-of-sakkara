@@ -2064,3 +2064,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 320 |  | treasure share |  |  |  |  |
 | 320 |  | treasure share |  |  |  |  |
 | 320 |  | treasure share |  |  |  |  |
+| 321 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 322-335), no questions |  |  | 4gp | lucilla |
+| 321 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 6sp 2cp | vettius |
+| 321 | Cyfaraun | torch | 6 |  | 9cp | aelia |
