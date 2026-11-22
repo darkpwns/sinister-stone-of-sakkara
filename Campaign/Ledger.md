@@ -146,6 +146,7 @@ tags:
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | two sealed jars of rare elven spices | 1,600 | vestus-the-unlikely |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | a bundle of mink furs | 500 | neris |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Dagger +1 | 10 | varro |
+| 308 | Nethercity, expedition 33 (the black barge) | SOTN Funerary Barge of the Cults | 2,000 | stored |
 
 ## Monster XP
 
@@ -193,6 +194,7 @@ tags:
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Wererat | 6 | 65 | 390 |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Wererat | 1 | 65 | 65 |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Giant Rat | 11 | 5 | 55 |
+| 308 | Nethercity, expedition 33 (the black barge) | Skeleton | 8 | 13 | 104 |
 
 ## Shares and XP awarded
 
@@ -409,6 +411,18 @@ tags:
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Aelia | 0.5 | 487 | 43 | 0 | +0% | 530 |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Marcellus | 0.5 | 487 | 43 | 0 | +0% | 530 |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Gnaeus | 0.5 | 487 | 43 | 0 | +0% | 530 |
+| 308 | Nethercity, expedition 33 (the black barge) | Lucilla | 1 | 222 | 12 | 0 | +10% | 257 |
+| 308 | Nethercity, expedition 33 (the black barge) | Vettius | 1 | 222 | 12 | 0 | +5% | 246 |
+| 308 | Nethercity, expedition 33 (the black barge) | Iulia | 1 | 222 | 12 | 0 | +5% | 246 |
+| 308 | Nethercity, expedition 33 (the black barge) | Vestus the Unlikely | 1 | 222 | 12 | 0 | +5% | 246 |
+| 308 | Nethercity, expedition 33 (the black barge) | Neris | 1 | 222 | 12 | 0 | +0% | 234 |
+| 308 | Nethercity, expedition 33 (the black barge) | Brennus | 1 | 222 | 12 | 0 | +5% | 246 |
+| 308 | Nethercity, expedition 33 (the black barge) | Phaedra | 0.5 | 111 | 6 | 0 | +0% | 117 |
+| 308 | Nethercity, expedition 33 (the black barge) | Varro | 0.5 | 111 | 6 | 0 | +0% | 117 |
+| 308 | Nethercity, expedition 33 (the black barge) | Hrodvar | 0.5 | 111 | 6 | 0 | +0% | 117 |
+| 308 | Nethercity, expedition 33 (the black barge) | Aelia | 0.5 | 111 | 6 | 0 | +0% | 117 |
+| 308 | Nethercity, expedition 33 (the black barge) | Marcellus | 0.5 | 111 | 6 | 0 | +0% | 117 |
+| 308 | Nethercity, expedition 33 (the black barge) | Gnaeus | 0.5 | 111 | 6 | 0 | +0% | 117 |
 
 ## Wages
 
@@ -1772,3 +1786,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 307 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 4gp | lucilla |
 | 307 | Cyfaraun livestock market | a sheep, slaughtered and halved for the white fish, evening of day 307 |  |  | 2gp | varro |
 | 307 | Silk Pony Inn (#25) | beds for twelve, night of day 307 |  |  | 2gp 4sp | vettius |
+| 308 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her boathouse awning, covered with old sails, two weeks (days 308-321), no questions |  |  | 4gp | lucilla |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
+| 308 |  | treasure share |  |  |  |  |
