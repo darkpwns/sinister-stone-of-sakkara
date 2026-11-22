@@ -928,3 +928,34 @@ spoil-of-war row); unidentified: L419 medallion (Liber's; not at the Tower), L43
 bullets, L437 sword and L438 spear (train to learn the bonus); L327 the Provost's ring; wages 399 Phaedra, 406
 Varro/Hrodvar, 412 Saturnin, 413 Aelia/Marcellus, 420 Cotta; month 14 ends day 420 (the Family's take again);
 Tertulla paid to 405; below: the troglodyte hive, F14/T, F17, F19.
+
+## S20 after the first S20 week — start here (supersedes everything above)
+**State on resume:** day 400 ~18:45, spring, Cyfaraun, the Solar Citadel. No adventure open (A75 paid out). Night of
+day 400 first (`tday 13`: `eat --in-town`, then wait), then `dawn 401`. Helpers: source `Playtest/tools/s10_j.sh`,
+`s12_town.sh`, **`s20_town.sh`** (`tday H`: eat in town before every rollover). Thirteen: Lucilla 10/23 (gruesome
+scarring: -2 reactions, +1 intimidate), Aelia 18/20, Varro 20/23, Marcellus 19/21 (they heal at the rollovers); the
+rest whole. Vestus' repertoire + Invisibility, Phaedra's + Beguile Humanoid. Session log: `Session Log/S20 — War with
+Sand and Bones.md`.
+
+**Days 394-400:** Iulia's report (Arëtar: Selene is the Captain's on proof she shared Maximus' table); potions sipped
+(L432 Monstrous Form, L433 Energy Invulnerability, L436 Comprehension), L435/L437/L438 trained (+1); the Silk Pony
+overheard (Selene knows Lucilla heads the Family); Order roll 396 none; the beastmen's memory by Lucilla's telepathy
+(the blood pit, the wall: the Abattoir is Arëtar's proof); Orisos marked; the bait walk; **day 399 A75**: Sand &
+Bones' ambush beaten (7 gladiators, 2 enforcers slain; the slayer and 3 gladiators taken), Lucilla felled and scarred;
+day 400: Selene's third Vasan note (target: the Captain) intercepted and reported; Pluris' grudge; Repair: try again.
+
+**Resume fix (S20):** Hrodvar and Saturnin had been marked "dead (thirst, CON 0)" since S19 week 3 (town rollovers
+without `eat --in-town`); corrected (judge-notes S20). Always `eat --in-town` before a rollover in town.
+
+**Open:** 402 Destrio's answer (Selene to the first 4 on 403); 403 Order rolls; 405 beastmen auction (Judge's call),
+Tertulla paid to 405; **406 Selene's move against the company** (rolled; Judge designs it from where the company is),
+Varro and Hrodvar's wages; 407 weekly (Brotherhood, betrayer, Watch, Selene's next move 1d6/1d7); 412 Saturnin; 413
+Aelia (800), Marcellus; ~415 Blood Moon night (Selene wants Lucilla in the pit); 420 month 14 ends (fees, investments,
+Iulia's report and task roll, Vestus' dues, Cotta, the Family's month); 421 selling day. Lucilla's Repair
+Disfigurement (Citadel, divine 4, 185gp, a Tampering roll) to retry. Below: the hive (the mages are free now), F14/T,
+F17, F19. The table's plan: Vettius into the Pony's hideout under Vestus' Invisibility for the Abattoir proof.
+
+**Routine (S20 lessons):** an ambush from behind is `attack --ambush --rear` (without a vulnerable target the engine
+drops the +4 and the backstab dice); `encounter surprise --members` with only those present; a missile shot needs the
+missile weapon in hand (`inv move ID Sword --slot belt`, `inv wield ID "Composite Bow" --two-handed`): the engine
+does not refuse a melee weapon at range; `wages pay ID --payer ID`.

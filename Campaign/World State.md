@@ -171,13 +171,13 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Day 400 (week S20 close):** Selene's third note for Vasan (ruby lips): **the Captain of the Underwatch, before the full moon** (~day 416); intercepted by Lucilla's men; reported to Destrio through Oppius (answer day 402: Selene to the first deathbringer who rolls a 4 on day 403). Iulia knows. **Selene's next move: day 406, against the company** (rolled day 400). Pluris refuses the Pony more gladiators until paid for his dead; Nuvicus will rent for cash. Corvinus (the slayer) given to Hesta and executed; the three gladiators sent home. Lucilla's Repair Disfigurement: the Citadel's caster said try again (day 400); the spell carries a Tampering with Mortality roll. Vestus' repertoire + Invisibility; Phaedra's + Beguile Humanoid (study 394-400).
 - **Day 399: Sand & Bones' first strike** (the dusk walk from The Mink, bait set by Lucilla after the Family marked Orisos, the sausage-cart counter): 7 of Pluris' and Nuvicus' ordinary gladiators and 2 enforcers slain; the slayer Corvinus (Assassin 4, 1 hp, shock, three fingers lost) and 3 gladiators prisoners in the cellars under The Mink. Lucilla felled: shock, gruesome scarring (-2 reactions; Repair at the Citadel possible). The Old District watch wrote it up as a gladiators' brawl. Corvinus: Selene wants Lucilla alive for the pit at the next Blood Moon (night ~415); Selene keeps to the hideout below the Pony since day 393; **Jonus called the strike a fool's errand and would not lead it** (Judge's watch: Jonus cooling on Selene's war). Pluris and Nuvicus lost five gladiators each between them (250gp each to replace): Selene owes them (Judge's watch). Selene's next move: rolled weekly (day 400 for week 400-406).
 - **Arëtar (day 394):** Selene is a sanctioned target for the Captain on proof that she shared Maximus' table (fed him or ate with him). The beastmen's memory (Lucilla's telepathy, day 396): the blood pit under the Silk Pony and a hidden wall where the master carried the dead (the Abattoir, hideout 2): proof lies there.
 - **The lanista's beastmen:** held by the Prefect's guard in the Amphitheater cells; to be auctioned with the school's effects (Judge's call: day 405).
 - Order rolls day 396: none. Next day 403.
 - **Maximus Arjentüran slain** night of day 392 (Iulia's sanctioned mission, A74); his storeroom (human flesh) exposed by the knights and the Inspector day 393; his 12 charmed beastmen in the Amphitheater basement are freed (MM) (Judge's watch: what they do; the next games). Pluris' 750gp bounty for proof he cheated (unclaimed). Jonus Krusaro: Maximus gone (his lever +2 for the annexation applies).
 - **Sand & Bones takes it to the mattresses against the company** (day 393, 1): 8 gladiators hired from Nuvicus and Pluris; **a betrayer has told Selene that Lucilla heads the Family** (she does not know who killed Liber; the frame stands for the Family). The party does not yet know.
-- Order rolls day 396 (Selene to the first 4).
 - **The Argollëan Family under Lucilla (day 383):** Liber Faunus slain night of day 381 (Neris' Order contract, A70);
   blamed on Sand & Bones (a Silk Pony die on his pillow; the Family's reading 4). Change in Management (Rulings S19):
   Aranth Faunus accepts; Hesta Faunus and Megaravicos Eight-Fingers hesitant (loyal while the betrayers are no
@@ -224,16 +224,18 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: Nethercity I (troglodytes broken at I7: the chieftain and survivors in I2, the hoard in an I2 grave, the
-  shaman in I13, the brothers' sepulchre I8 sealed, the J1 bronze door half open); F14's serpent door and T (the
-  Great Teacher, 11 HD); F17's cases (the alarm); F19 (2 rhagodessae).
-- Threads: the disc named day 375 (Tower; then Liber at 80% or kept: Vestus could steer it; an energy crystal is in
-  the F17 lance); the jade ring (the Provost's: magic research by Vestus, 10 days and 2,000gp, or a sage outside the
-  city); Liber's note for Vasan (above); Iulia's month-13 report by day 390 and the month-end task roll; Vestus'
-  Thunderbolt formula kept; the Order's weekly rolls (368).
-- Scheduled: 389 Oppius (Virathos 1,000gp) and Order rolls (Selene); 390 month 13 ends (and the Family's first take); 391 selling day, Tertulla; 393 Brotherhood weekly;
-  376 Varro, Hrodvar; 377 Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends (fees,
-  investments 1 and 3, investment 2's first roll after its delay, Iulia's rolls and report, Vestus' dues, Cotta's
-  wage to 420); 391 selling day (the villa's gems and jewels L393-L397, L399-L407).
-- NPCs: Hrad (dead), Balkar (dead), Zeodan Lausa (Hrad's petitioner, patrician), Oma's father (a travelling merchant).
-- NPCs: the old farmer by the Türos Quell road (bent, three teeth, chews a straw; "She was a pretty thing once.").
+- Sites: the Sand & Bones Hideout (25u, keyed: the Abattoir 2 is Arëtar's proof; Selene keeps to 1 and 3 on war footing);
+  Nethercity I (troglodytes broken at I7: the chieftain and survivors in I2, the hoard in an I2 grave, the shaman in
+  I13, I8 sealed, the J1 bronze door half open); F14's serpent door and T (the Great Teacher, 11 HD); F17's cases (the
+  alarm); F19 (2 rhagodessae).
+- Threads: Selene's war (her next move day 406 against the company; the Blood Moon night ~415 with Lucilla meant for
+  the pit); the Order (Destrio's answer 402, roll 403: Selene to the first 4); Arëtar's proof (the Abattoir) and the
+  Captain as Selene's Vasan target; Jonus (refused to lead the strike: a lever; +2 now Maximus is dead); Thana (Hesta's
+  girls: her dawn walk home with one footpad, when found); Lutarius (only a miracle or wish lifts the pallor);
+  Lucilla's Repair (Citadel: try again; a Tampering roll); the beastmen's auction (day 405); Pluris' grudge against
+  the Pony.
+- Scheduled: 402 Destrio; 403 Order rolls; 405 the beastmen auction; Tertulla paid to 405; 406 Varro and Hrodvar's
+  wages, Selene's move; 407 weekly (Brotherhood, betrayer, Watch, Selene's next); 412 Saturnin; 413 Aelia (800),
+  Marcellus; ~415 the Blood Moon night; ~416 full moon; 420 month 14 ends (fees, investments 1, 2, 3, Iulia's report
+  and task roll, Vestus' dues, Cotta's wage, the Family's month); 421 selling day; 443 vault fee.
+- NPCs: Corvinus Lean (the slayer, dead day 400); Orisos (the sausage-cart counter, marked by the Family).
