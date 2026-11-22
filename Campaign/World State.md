@@ -94,6 +94,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Scheduled events
 - Day 280 Phaedra's wage; 284 stalls paid through; 287 Varro, Hrodvar; 293 the vault fee; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
+- Day 287: the Tower of Knowledge's full identification of L202 (the pink swan-feather cloak) is ready (paid day 273, Lucilla, 2,000gp); then sell through Liber at 80% (sale XP to A27 via `payout --sale L202`).
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 

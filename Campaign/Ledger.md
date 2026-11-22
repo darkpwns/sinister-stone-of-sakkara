@@ -1440,3 +1440,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 272 |  | treasure share |  | 235gp 2sp 9cp |  | marcellus |
 | 272 | Liber Faunus | P6 relics (L214-L218, A28) at 80%, day 272 |  | 1,520gp |  | lucilla |
 | 272 | Silk Pony Inn (#25) | beds for twelve, night of day 272 |  |  | 2gp 4sp | vettius |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 2,302gp 2sp 2cp |  | lucilla |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 2,302gp 2sp 2cp |  | vettius |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 2,302gp 2sp 2cp |  | iulia |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 2,302gp 2sp 2cp |  | vestus-the-unlikely |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 2,302gp 2sp 2cp |  | neris |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 2,302gp 2sp 2cp |  | brennus |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 1,151gp 1sp 1cp |  | phaedra |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 1,151gp 1sp 1cp |  | varro |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 1,151gp 1sp 1cp |  | hrodvar |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 1,151gp 1sp 1cp |  | aelia |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 1,151gp 1sp 1cp |  | marcellus |
+| 273 | Cyfaraun | his share of the sale of L174 (after the payout) |  | 1,151gp 1sp 1cp |  | gnaeus |
+| 273 | Tower of Knowledge (#50), full identification | full identification of the pink swan-feather cloak L202 (2,000gp, two weeks: ready day 287; AX3 p. 152) |  |  | 2,000gp | lucilla |
+| 273 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | vettius |
+| 273 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | brennus |
+| 273 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | marcellus |
+| 273 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | varro |
+| 273 | Cyfaraun | Oil, Military (1 pint) | 1 |  | 1gp 8sp | aelia |
+| 273 | Cyfaraun | Sack, Small (holds 2 stone) | 1 |  | 3sp | phaedra |
+| 273 | Cyfaraun | torch | 12 |  | 1sp 8cp | phaedra |
+| 273 | Silk Pony Inn (#25) | beds for twelve, night of day 273 |  |  | 2gp 4sp | vettius |
