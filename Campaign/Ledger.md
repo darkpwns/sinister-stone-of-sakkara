@@ -307,6 +307,18 @@ tags:
 | 418 | The office behind the dead room (night of 418) | Leather Armor +1 | 10 | brennus |
 | 418 | The office behind the dead room (night of 418) | Ring of Protection | 250 | lucilla |
 | 421 | The Order's commission for Selene (day 421) | reward 4500.0gp | 4,500 | iulia |
+| 422 | Descent 51 (J, the Doom Temple) | a canopic shrine of gilded cedar with gold skulls, four terracotta canopic jars inside | 1,375 | varro |
+| 422 | Descent 51 (J, the Doom Temple) | jewelry worth 125.0gp | 125 | lucilla |
+| 422 | Descent 51 (J, the Doom Temple) | gem worth 50.0gp | 50 | lucilla |
+| 422 | Descent 51 (J, the Doom Temple) | gem worth 50.0gp | 50 | lucilla |
+| 422 | Descent 51 (J, the Doom Temple) | gem worth 50.0gp | 50 | lucilla |
+| 422 | Descent 51 (J, the Doom Temple) | jewelry worth 300.0gp | 300 | lucilla |
+| 422 | Descent 51 (J, the Doom Temple) | a large terracotta funeral urn painted with black vultures | 50 | saturnin |
+| 422 | Descent 51 (J, the Doom Temple) | 750 gold pieces | 750 | brennus |
+| 422 | Descent 51 (J, the Doom Temple) | grave goods from the I9 and I12 wall graves (bronze, copper, small trinkets) | 432 | hrodvar |
+| 422 | Descent 51 (J, the Doom Temple) | a bone key (from the largest bronze pipe in the secret tunnel) | 0 | vettius |
+| 422 | Descent 51 (J, the Doom Temple) | grave goods from the I10 and I11 wall graves | 432 | marcellus |
+| 422 | Descent 51 (J, the Doom Temple) | grave goods from the I14 wall graves | 648 | brennus |
 
 ## Monster XP
 
@@ -403,6 +415,9 @@ tags:
 | 418 | The office behind the dead room (night of 418) | Selene Nictorian (AX3) | 1 | 700 | 700 |
 | 418 | The office behind the dead room (night of 418) | Sand & Bones hood (Thief 2) | 1 | 20 | 20 |
 | 418 | The office behind the dead room (night of 418) | Sand & Bones thug (Assassin 1) | 1 | 10 | 10 |
+| 422 | Descent 51 (J, the Doom Temple) | Sepulchral Worm | 10 | 16 | 160 |
+| 422 | Descent 51 (J, the Doom Temple) | Martyr of the Doom Temple (SOTN) | 1 | 1,580 | 1,580 |
+| 422 | Descent 51 (J, the Doom Temple) | Insect Swarm | 1 | 29 | 29 |
 
 ## Shares and XP awarded
 
@@ -904,6 +919,19 @@ tags:
 | 421 | The Order's commission for Selene (day 421) | Neris | 1 | 750 | 0 | 0 | +0% | 750 |
 | 421 | The Order's commission for Selene (day 421) | Brennus | 1 | 750 | 0 | 0 | +5% | 788 |
 | 421 | The Order's commission for Selene (day 421) | Vestus the Unlikely | 1 | 750 | 0 | 0 | +5% | 788 |
+| 422 | Descent 51 (J, the Doom Temple) | Lucilla | 1 | 449 | 186 | 0 | +10% | 698 |
+| 422 | Descent 51 (J, the Doom Temple) | Vettius | 1 | 449 | 186 | 0 | +5% | 667 |
+| 422 | Descent 51 (J, the Doom Temple) | Vestus the Unlikely | 1 | 449 | 186 | 0 | +5% | 667 |
+| 422 | Descent 51 (J, the Doom Temple) | Brennus | 1 | 449 | 186 | 0 | +5% | 667 |
+| 422 | Descent 51 (J, the Doom Temple) | Iulia | 1 | 449 | 186 | 0 | +5% | 667 |
+| 422 | Descent 51 (J, the Doom Temple) | Neris | 1 | 449 | 186 | 0 | +0% | 635 |
+| 422 | Descent 51 (J, the Doom Temple) | Phaedra | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 422 | Descent 51 (J, the Doom Temple) | Varro | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 422 | Descent 51 (J, the Doom Temple) | Hrodvar | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 422 | Descent 51 (J, the Doom Temple) | Aelia | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 422 | Descent 51 (J, the Doom Temple) | Marcellus | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 422 | Descent 51 (J, the Doom Temple) | Saturnin | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 422 | Descent 51 (J, the Doom Temple) | Cotta | 0.5 | 224 | 93 | 0 | +0% | 317 |
 
 ## Wages
 
@@ -2961,3 +2989,21 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 421 |  | treasure share |  | 750gp |  | brennus |
 | 421 |  | treasure share |  | 750gp |  | vestus-the-unlikely |
 | 421 | Tertulla, Lake Laman fisherwoman | mooring the black barge two more weeks (days 420-433), two days late (day 421) |  |  | 4gp | lucilla |
+| 422 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 422 | Cyfaraun | torch | 6 |  | 1sp | marcellus |
+| 422 | Cyfaraun | torch | 6 |  | 1sp | saturnin |
+| 422 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 422 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp | saturnin |
+| 422 |  | treasure share |  | 78gp 9sp 5cp |  | lucilla |
+| 422 |  | treasure share |  | 78gp 9sp 5cp |  | vettius |
+| 422 |  | treasure share |  | 78gp 9sp 5cp |  | vestus-the-unlikely |
+| 422 |  | treasure share |  | 78gp 9sp 5cp |  | brennus |
+| 422 |  | treasure share |  | 78gp 9sp 5cp |  | iulia |
+| 422 |  | treasure share |  | 78gp 9sp 5cp |  | neris |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | phaedra |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | varro |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | hrodvar |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | aelia |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | marcellus |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | saturnin |
+| 422 |  | treasure share |  | 39gp 4sp 7cp |  | cotta |
