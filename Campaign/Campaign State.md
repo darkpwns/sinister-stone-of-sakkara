@@ -5,13 +5,13 @@ tags:
 session: 22
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A87 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A88 paid out)
 public:
   date:
     year: ''
     season: spring
-    day: 430
-  time: '15:59'
+    day: 435
+  time: 06:59
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -51,9 +51,7 @@ public:
     hp_max: 20
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Blessing
-    - Holy Circle, Sustained
+    spells_used: []
     encumbrance_st: 4.621
   - name: Brennus
     sheet: Characters/brennus.json
@@ -155,7 +153,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 430
+clock_day: 435
 ---
 # Campaign State
 

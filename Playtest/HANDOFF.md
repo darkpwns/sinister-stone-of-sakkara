@@ -1109,3 +1109,16 @@ and the shadows), I8, I9-I14 graves, K (vault, graves; not K4's golems, K1, K2),
 betrayer, Watch, the city's link, Sand & Bones' hesitant, **the Kalbo inquiry 2-in-6**); 437 Varro, Hrodvar; 443 vault
 fee; 444 Aelia, Marcellus; 450 month 15 ends (the full list in World State); 451 Cotta, selling day.
 
+## S23 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers: `Playtest/tools/s10_j.sh`, `s11_mend.sh`,
+`s12_town.sh`, `s20_town.sh`, **`s22_j.sh`** (`w N`, `relight`, `sup`, `bank DAY`; its `lit` test needs fixing: judge-notes
+S22) and `s22_sgrind.py` (a skeleton grind from inside a ward; it plays no other foe: rule the rest). Log: `Session Log/S22
+— Out from Under the Eclipse.md`.
+
+**State:** day 435 07:00, the Solar Citadel; no adventure open (A88 paid). Twelve, whole. Coin above 150gp banked (day 430).
+Iulia is out of the Order (day 429, Rulings S22); the Watch's Kalbo inquiry is closed. Lucilla, Vettius, Vestus, Neris,
+Brennus remain deathbringers: three contracts in hand (World State, day 431), Decimus Rullo's note against the Captain to
+report to Destrio, the plan to make Neris Destrio's heir if the Order keeps calling. Vestus studies a 4th-level spell from
+the spellsword's book (L357) to day 437. The Nasgan priestess in S3 is awake and prepared. Magic unidentified as in S22's
+handoff plus nothing new; S22's goods at the Citadel for the selling day (451).
+
