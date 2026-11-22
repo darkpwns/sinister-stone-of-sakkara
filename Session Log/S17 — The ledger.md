@@ -60,6 +60,27 @@ Silk Pony for the Solar Citadel.
   went out on the bearers' backs. In the sewer caves four giant flies came buzzing to the lantern, hung there while
   Brennus roared at them, and drifted off. Out by three. Only the four bronze coffins of the guard remain.
 
+- Day 319. In the morning Doarë's sister opened the vault and the ledger came out of the company's chest. At
+  the third hour after noon Prelate Ezelus received the Captain in a bare room behind the courts: grave, a face like
+  a marble bust, few words. "State the deed. Then state the proof." Iulia stated it; he read the ledger to the end
+  without a flicker, then looked at Iulia and Neris. "You are of the Lawful gods, both of you. Do you answer for the
+  rest?" They did. "Then there are people you should meet. Tonight. You will not see the way." The families of the
+  dead may be told their dead are dead, he said; who paid, nobody.
+- That night the six were bound and blindfolded by clerics of Türas and led a long way down and around. When the
+  blindfolds came off they knelt in a frescoed elven hall under a black seven-spoked wheel, before a lean,
+  soft-spoken man with grey at his temples and hands that never moved: Destrio. He read the ledger slowly. The
+  Brotherhood, he said, was founded by Zene, a Nicean who left his order and was hunted from then on; the order is
+  glad she and hers met a just end, and that the beasts who took their faces are dead too. He questioned them one by
+  one, then said they were worthy: if they would swear secrecy and obedience to the order's lawful judgments, they
+  could be acolytes of the Order of the Eclipse, servants of Calefa's justice. They swore.
+- To be more than acolytes, a sacred initiation: a righteous retribution the order itself petitions for the
+  forgotten dead in the ledger. He named the three: Liber Faunus, for merchants and a traveller of the Order of
+  Travelers; the Provost Mentenus, for two elven travellers; Selene of the Silk Pony, for one of her servants and a
+  priestess of Mityara. Rosa: "Not Liber. He's our fence." Ingrid: "Mentenus is already the Captain's business."
+  Kwame wanted Selene. Gideon's call: the Provost, when the order says the time is right. Destrio kept the ledger
+  for the order's codex. "Nobody knows the Brotherhood is dead. Keep it so. If anyone comes looking to hire it, the
+  order wants to know who." Blindfolded again, they were back at the Citadel gate before the third hour.
+
 ## Who they met
 
 ## Treasure and XP

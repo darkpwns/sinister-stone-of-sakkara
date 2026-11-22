@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 319
-  time: 04:06
+    day: 320
+  time: '10:06'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -136,7 +136,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 319
+clock_day: 320
 ---
 # Campaign State
 
