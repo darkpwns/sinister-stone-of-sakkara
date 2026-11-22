@@ -218,3 +218,10 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   done; we never sell it. The astrologer's charts: the Conjunction of the Void comes in about three years.
 - S12 (day 271): Gnaeus abed until about day 298. Strength 48 without him: the very bottom is open, with nothing to
   spare (one death and we turn back).
+- S12 (day 272), the river beach. The priest's fresco hid a turning door; the stair below ends in a carved crone that
+  is a second door. The beach lies on a cold black river with no banks to walk: further along needs a raft or a boat
+  (Hrodvar could build one; ropes to haul it). The steps up from the beach are carved with the winged sun; whatever
+  sleeps above wakes as you climb, so climb at once. The thing in the stone coffin cowered under Iulia's rod and died
+  without touching anyone. Lesson (12): a stone coffin lid is beyond two of us without Vestus' ogre strength; let the
+  dead open it into Iulia's rebuke instead. Four alabaster amphorae (heavy, about 300 each) wait in the cave above the
+  beach.

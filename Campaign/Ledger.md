@@ -120,6 +120,13 @@ tags:
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | 21 sticks of white lotus incense | 630 | vestus-the-unlikely |
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | 4 clay canopic jars | 100 | aelia |
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | a white clay amphora | 20 | phaedra |
+| 272 | Nethercity, expedition 23 (the river banks) | 2,000 gold pieces | 2,000 | vestus-the-unlikely |
+| 272 | Nethercity, expedition 23 (the river banks) | 2,000 gold pieces | 2,000 | neris |
+| 272 | Nethercity, expedition 23 (the river banks) | a gold thurible | 400 | aelia |
+| 272 | Nethercity, expedition 23 (the river banks) | 40 sticks of frankincense in an oilskin bundle | 800 | phaedra |
+| 272 | Nethercity, expedition 23 (the river banks) | 4 terracotta canopic jars | 100 | aelia |
+| 272 | Nethercity, expedition 23 (the river banks) | a carved alabaster amphora | 300 | vestus-the-unlikely |
+| 272 | Nethercity, expedition 23 (the river banks) | a carved alabaster amphora | 300 | neris |
 
 ## Monster XP
 
@@ -154,6 +161,9 @@ tags:
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Mummy | 1 | 1,580 | 1,580 |
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Mummy | 1 | 1,580 | 1,580 |
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Berserker | 4 | 10 | 40 |
+| 272 | Nethercity, expedition 23 (the river banks) | Gelatinous Mass | 1 | 245 | 245 |
+| 272 | Nethercity, expedition 23 (the river banks) | Ochre Ooze | 1 | 500 | 500 |
+| 272 | Nethercity, expedition 23 (the river banks) | Mummy | 1 | 2,600 | 2,600 |
 
 ## Shares and XP awarded
 
@@ -323,6 +333,17 @@ tags:
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Aelia | 0.5 | 403 | 185 | 0 | +0% | 588 |
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Marcellus | 0.5 | 403 | 185 | 0 | +0% | 588 |
 | 268 | Nethercity, expedition 22 (the princess and the inquisitor) | Gnaeus | 0.5 | 403 | 185 | 0 | +0% | 588 |
+| 272 | Nethercity, expedition 23 (the river banks) | Lucilla | 1 | 694 | 394 | 0 | +10% | 1,197 |
+| 272 | Nethercity, expedition 23 (the river banks) | Vettius | 1 | 694 | 394 | 0 | +5% | 1,142 |
+| 272 | Nethercity, expedition 23 (the river banks) | Iulia | 1 | 694 | 394 | 0 | +5% | 1,142 |
+| 272 | Nethercity, expedition 23 (the river banks) | Vestus the Unlikely | 1 | 694 | 394 | 0 | +5% | 1,142 |
+| 272 | Nethercity, expedition 23 (the river banks) | Neris | 1 | 694 | 394 | 0 | +0% | 1,088 |
+| 272 | Nethercity, expedition 23 (the river banks) | Brennus | 1 | 694 | 394 | 0 | +5% | 1,142 |
+| 272 | Nethercity, expedition 23 (the river banks) | Phaedra | 0.5 | 347 | 197 | 0 | +0% | 544 |
+| 272 | Nethercity, expedition 23 (the river banks) | Varro | 0.5 | 347 | 197 | 0 | +0% | 544 |
+| 272 | Nethercity, expedition 23 (the river banks) | Hrodvar | 0.5 | 347 | 197 | 0 | +0% | 544 |
+| 272 | Nethercity, expedition 23 (the river banks) | Aelia | 0.5 | 347 | 197 | 0 | +0% | 544 |
+| 272 | Nethercity, expedition 23 (the river banks) | Marcellus | 0.5 | 347 | 197 | 0 | +0% | 544 |
 
 ## Wages
 
@@ -1406,3 +1427,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 271 | Cyfaraun | Oil, Common (1 pint) | 3 |  | 9sp | vettius |
 | 271 | Cyfaraun | torch | 6 |  | 1sp | phaedra |
 | 271 | Silk Pony Inn (#25) | beds for twelve, night of day 271 |  |  | 2gp 4sp | vettius |
+| 272 |  | treasure share |  | 470gp 5sp 9cp |  | lucilla |
+| 272 |  | treasure share |  | 470gp 5sp 9cp |  | vettius |
+| 272 |  | treasure share |  | 470gp 5sp 9cp |  | iulia |
+| 272 |  | treasure share |  | 470gp 5sp 9cp |  | vestus-the-unlikely |
+| 272 |  | treasure share |  | 470gp 5sp 9cp |  | neris |
+| 272 |  | treasure share |  | 470gp 5sp 9cp |  | brennus |
+| 272 |  | treasure share |  | 235gp 2sp 9cp |  | phaedra |
+| 272 |  | treasure share |  | 235gp 2sp 9cp |  | varro |
+| 272 |  | treasure share |  | 235gp 2sp 9cp |  | hrodvar |
+| 272 |  | treasure share |  | 235gp 2sp 9cp |  | aelia |
+| 272 |  | treasure share |  | 235gp 2sp 9cp |  | marcellus |
+| 272 | Liber Faunus | P6 relics (L214-L218, A28) at 80%, day 272 |  | 1,520gp |  | lucilla |
+| 272 | Silk Pony Inn (#25) | beds for twelve, night of day 272 |  |  | 2gp 4sp | vettius |

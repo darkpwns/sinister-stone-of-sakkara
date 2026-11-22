@@ -26,3 +26,4 @@ type: rumours
 - Day 271, Cyfaraun, Lucilla's old contacts (Rumormongering, month 10): the city wants new gladiators against Maximus's beastmen; beating one of his ogres alone on the sands wins the city's love, and the few who did are now rich and free.
 - Day 271, Cyfaraun, Lucilla's old contacts: nobody has seen them in years, but the Brotherhood of Knives is still in business as killers for hire.
 - Day 271, Cyfaraun, Lucilla's old contacts: Prefect Basilio has gone mad and hired assassins to kill merchants he suspects of smuggling; the bodies are dumped in the river as a warning.
+- Day 273, Cyfaraun, a friendly traveller in the Temple District (took the party for the Imperial Vanguard): bargemen unloading a secret night cargo at the north-west river pier were killed by something; a drunk chirurgeon swears the bite marks are a dragon's. The cargo is gone.

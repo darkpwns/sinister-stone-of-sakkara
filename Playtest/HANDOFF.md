@@ -382,3 +382,41 @@ World State prep queue.
 turns (a turn's rest also clears the miasma); rearguard watches the side passages while the haulers pull; Divine
 Blessing +2 is not in the engine's saves (pass `--mod "Divine Blessing:+2"` for Iulia and Neris); keep Vettius under
 10 st; never let a loop run past an encounter or a fallen character; resolve every round in initiative order.
+
+## S12 (2026-11-22) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools unchanged at 7.13.7). Helpers: source `Playtest/tools/s10_j.sh`
+(then `PARTY="lucilla vettius vestus-the-unlikely neris brennus iulia phaedra varro hrodvar aelia marcellus"`: Gnaeus
+is abed and out of the exploration party (`party remove gnaeus` on day 272; `party add gnaeus` when he is up),
+`Playtest/tools/s11_mend.sh` (`miasma6`, `mendask`) and `Playtest/tools/s12_town.sh` (`slept`: clears sleep_due and
+fatigue after an inn night; `dawn DAY`: spells reset; `innnight DAY N COST H1 H2`). Session 12 log:
+`Session Log/S12 — The princess and the inquisitor.md`.
+
+**State on resume:** day 273 06:53, fall, Cyfaraun (18.05), town, Silk Pony Inn. No adventure open (A28 paid out).
+Start S13.
+
+**Party (12), strength 48 delving** (Gnaeus abed; 52 with him): Lucilla Ven6 22/22, Vettius Thf6 19/19, Iulia Cru5
+26/26 (bears the Rod of the Dawn, L203: once a day, a turn of rebuking and casting as 4 levels higher: `rebuke iulia
+--level-mod 4`), Vestus M5 15/15 (Swimming; Thunderbolt and Dispel Magic copied, a week's study each before use),
+Neris Pr5 14/14, Brennus F5 28/28. Henchmen: Phaedra M3 11/11, Varro F4 22/22, Hrodvar VG4 15/15, Aelia B4 11/11,
+Marcellus F4 20/20, Gnaeus Exp4 1/19 (bed rest to about day 298; speaks with dead once a week). No rot, no wounds.
+Holy water: Marcellus 6. Military oil: Aelia 3, Phaedra 5, Vettius 1 (buy more before the next descent). Phaedra has
+no torches left (buy).
+
+**What S12 did:** H6 princess destroyed in her coffin (swan cloak L202, very rare, unidentified); H21 inquisitor,
+his berserkers destroyed (Gnaeus mortally wounded, saved, throat mended by Arëtar); Arëtar FRIENDLY (the Rod lent; the
+regalia bought back); the month-10 selling day; expedition 23 by H25-H26 to the river beach P5 and the P6 burial cave
+(the 8th-level Telith mummy rebuked with the Rod and destroyed). Rulings S12: 7 rows.
+
+**Money:** Guildhouse 104,299gp clean coin; Grey Sisters' vault 23,119gp 258sp 235cp ancient coin (10gp a month paid
+to day 293). Kept items: L172 star charts (read: the Conjunction in about three years), L173 elven map, L174 the
+astrologer's spellbook (copying done: sell through Liber at 80%, sale XP to A23), L202 swan cloak (identify, then
+Liber at 80%), L5/L127/L128 potions of healing with Neris.
+
+**Next (by the profiles):** the river beyond P5 needs a boat or raft (no banks): Hrodvar's Engineering (a raft) and
+rope, or swimming; the catfish attacks on 6 each turn on the water. Or the four amphorae left in P6 (12 st), H14's
+energy crystals (480 skeletons), C5. Gnaeus is up about day 298.
+
+**Routine reminders (S12 slips):** break the turn loop on "rest due" (not only "rest due now"); relight the lantern
+after `light refuel` (`light on lantern5`); `heal`, not `state set hp`, for a cure on a dying character (or clear
+`dying`); `--target-wil` is the WIL modifier; the rollover's natural healing is not written to the actors (apply by
+hand); Righteous Wrath just before the opening heave; armor does not count against a gelatinous cube's engulf.

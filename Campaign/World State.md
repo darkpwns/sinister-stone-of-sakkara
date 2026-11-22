@@ -99,19 +99,26 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Prep queue (Judge only)
 - Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
-- Strength 51 on day 268 (Sub-Abyssal 48 open). Party rule: keep henchmen, hire only below the floor (Rulings S10).
-- H targets left: H6 princess (in her coffin, 8/27 hp, slab open, lid unmoved; on waking roll the SOTN mummy reaction
-  table; she flees as a swan when hard-pressed); H21 inquisitor (Bel; summons berserkers); H26 secret stair (H25
-  north fresco, found, not opened) to P5 (Sub-Abyssal river banks: now within the floor). H13 left 2,000sp and the
-  antlers (3 st); H7 left the amphora and 2 ropes; H8 the cedar chest and the warlord's gear.
+- Strength 48 without Gnaeus (bed rest to about day 298): Sub-Abyssal open at the floor exactly; a death turns them
+  back. With Gnaeus back (Explorer 4): 52. Party rule: keep henchmen, hire only below the floor (Rulings S10).
+- Area H done (H14's chieftains and 480 skeletons, the star mosaic's 28 energy crystals untouched; H12's stacked
+  goods; H13 2,000sp and the antlers; H7 2 ropes; H8 cedar chest and the warlord's gear; H21 bronze sarcophagus).
+- P (Sub-Abyssal river; underground river column level 5; the catfish 1d6 per turn on or in the river): P5 beach
+  reached by H26 (both doors open); P6 cleared (4 alabaster amphorae left, 300gp, 3 st each). The river is 10-20' wall
+  to wall, 20' deep, icy, 20'/round current: P4/P3 (Q tomb entrances) downstream, P7 (column; hole up to H24), P8a-b
+  (the Womb: huge black pudding if the egg is disturbed), P9 (G14 well), P10, P11 (the barge; the supreme water
+  elemental on trespass), P12-P14 (anointing at P14) upstream. The party has no boat: expect a raft (Hrodvar's
+  Engineering) or swimming (Vestus has Swimming now) as the next question.
 - Elsewhere: C5 secret sepulchre; G (faewyrd; purification at G4), G9-G13, G14 (Abyssal); M caves; I (troglodytes
-  ~100, alerted); J (doom temple, via I7 or I9's hatch); L, R, S (Abyssal); P (Sub-Abyssal, the barge P11).
-- Threads: Arëtar (Neutral: wants physical proof; the H16 charts (Neris' Knowledge (astrology) 11+ retry), Vestus'
-  rubbing kit, Neris' vision); Doarë (Friendly; keeps the chest; dreamed of the river; can introduce the Order of the
-  Eclipse); Liber Faunus (Friendly; buys all elven relics at 80%; wants news of below); the Silk Pony (Sand & Bones);
-  the Horned Rat wererats (Mentenus Cavie, Prelate Romus); Tavus Ionicus; Mother Drakima (Keepers).
-- Scheduled: day 270 month 9 ends (investment 1 vagary; Lucilla's monthly Rumormongering resets); day 271 month 10
-  selling day (opals L156-L159, from the vault) and Gnaeus' wage; day 280 Phaedra; day 287 Varro, Hrodvar; day 293
-  the vault fee; day 294 Aelia, Marcellus. Stalls paid to day 270. Month 10 magic-item stock not rolled.
-- NPCs invented S11: Mother Drakima (Keepers' hospital, priestess 7: square-handed, grey braid, smells of lye, prays
-  like giving orders). Met from the notes: Patriarch Arëtar, Revered Mother Doarë.
+  ~100, alerted); J (doom temple); L, R, S (Abyssal); Q (Great King tomb) by P3/P4.
+- Threads: Arëtar FRIENDLY (the Rod lent to Iulia, to be returned when the work below is done; dreams of the river;
+  his second, Prelate Romus, is drifting to Chthonic apostasy under Mentenus Cavië: Judge's watch item); Doarë
+  (Friendly; keeps the chest); Liber Faunus (Friendly; buys elven relics at 80%; wants news of below); the Silk Pony
+  (Sand & Bones); the Horned Rat wererats; Tavus Ionicus; Mother Drakima. L202 swan cloak (very rare; not identified:
+  Vestus' research as a 5th-level mage, or the Tower). L172 star charts and L173 elven map still kept. Vestus' copying
+  of Thunderbolt and Dispel Magic finished on day 271 (days 269-271); a week's study each to add them to his 3rd-level
+  repertoire (RR p. 183): on town days.
+- Scheduled: 280 Phaedra's wage; 284 stalls paid through; 287 Varro, Hrodvar; 293 the vault fee; 294 Aelia,
+  Marcellus; 298 Gnaeus up; 300 month 10 ends (investment 1 vagary; Brigandage ends after month 10); 301 Gnaeus'
+  wage, month 11 selling day, Lucilla's Rumormongering. Month 10 magic-item stock not rolled (month 9's stays).
+- NPCs invented S12: a traveller in the Temple District (took the party for the Imperial Vanguard).
