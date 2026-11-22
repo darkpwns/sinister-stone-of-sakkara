@@ -983,3 +983,24 @@ shaman's secret).
 **Routine (S20 week 2):** monster missiles need `--kind missile`; `encounter end` after every fight (a new surprise
 roll otherwise lands on the old encounter); `tday` only to the next morning (about 9 h from late evening); a spell
 area's damage: one `roll`, then `damage T --dice N [--half]` per target; Slumber's 10' sphere holds 3 man-sized.
+
+## S20 after the third S20 week — start here (supersedes everything above)
+**State on resume:** day 414 ~18:50, spring, Cyfaraun, the Solar Citadel. No adventure open (A79 paid out). Night of
+day 414 first (`tday 13`), then `dawn 415`. Lucilla abed to day 416 (13/23); Vettius 8/22, Aelia 11/20, Marcellus
+14/21. Torches: Hrodvar 2, Marcellus 1.
+
+**Days 408-414 (the user's priority: the traitors, and Iulia never in trouble):** the canary trap (Rulings S20) found
+the leaking division (the wharf and barge men, all 25 betrayers: Judge only); nine Pony informers kept alive as
+double agents, four Watch sellers drowned quietly by the Family (Iulia never told); the barge (A78) and the empty
+chair (A79) turned Selene's strikes into ambushes (Iulia's reserve never drew); Arëtar's charge on Selene (day 412)
+and the Order's contract to Iulia (day 410); Gerra (Selene's bodyguard) and nine Pony men prisoners under The Mink.
+The traitor ledger is in the session log's Judge block (week 3).
+
+**Open:** 415 the Blood Moon night (Selene by the sand); Iulia's charge (one deed for the Citadel and the Order);
+416 Lucilla up, Selene's move (a Family house); 418 Thana's pay night (Cluentius' chit); 420 month 14 ends; 421
+selling day and weekly rolls; the untraced wharf men (#5 sells the caravan tale to Watchtower III day 415: traced).
+Keep Iulia's part to the sanctioned charge; the Family's killings and the annexation stay away from her.
+
+**Routine (S20 week 3):** my fight scripts struck downed foes twice (wasted or void): check hp before each attack;
+the canary procedure in Rulings S20; wages from Lucilla's purse (she is low: about 200gp; her Guildhouse balance or
+the Family's month on 420).

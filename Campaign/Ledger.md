@@ -290,6 +290,8 @@ tags:
 | 411 | The barge at first light (day 411) | 4 gold pieces | 4 | vettius |
 | 411 | The barge at first light (day 411) | 85 silver pieces | 8 | vettius |
 | 411 | The barge at first light (day 411) | 40 copper pieces | 0 | vettius |
+| 414 | The empty chair (night of 413) | 10 gold pieces | 10 | vettius |
+| 414 | The empty chair (night of 413) | 112 silver pieces | 11 | vettius |
 
 ## Monster XP
 
@@ -379,6 +381,10 @@ tags:
 | 411 | The barge at first light (day 411) | Sand & Bones burglar (Thief 4) | 1 | 80 | 80 |
 | 411 | The barge at first light (day 411) | Sand & Bones hood (Thief 2) | 3 | 20 | 60 |
 | 411 | The barge at first light (day 411) | Sand & Bones thug (Assassin 1) | 2 | 10 | 20 |
+| 414 | The empty chair (night of 413) | Sand & Bones destroyer (Assassin 5) | 1 | 200 | 200 |
+| 414 | The empty chair (night of 413) | Sand & Bones hood (Thief 2) | 5 | 20 | 100 |
+| 414 | The empty chair (night of 413) | Sand & Bones thug (Assassin 1) | 2 | 10 | 20 |
+| 414 | The empty chair (night of 413) | Veteran Gladiator (AX3) | 2 | 10 | 20 |
 
 ## Shares and XP awarded
 
@@ -858,6 +864,16 @@ tags:
 | 411 | The barge at first light (day 411) | Hrodvar | 0.5 | 1 | 12 | 0 | +0% | 13 |
 | 411 | The barge at first light (day 411) | Cotta | 0.5 | 1 | 12 | 0 | +0% | 13 |
 | 411 | The barge at first light (day 411) | Phaedra | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 414 | The empty chair (night of 413) | Vettius | 1 | 3 | 49 | 0 | +5% | 55 |
+| 414 | The empty chair (night of 413) | Brennus | 1 | 3 | 49 | 0 | +5% | 55 |
+| 414 | The empty chair (night of 413) | Neris | 1 | 3 | 49 | 0 | +0% | 52 |
+| 414 | The empty chair (night of 413) | Vestus the Unlikely | 1 | 3 | 49 | 0 | +5% | 55 |
+| 414 | The empty chair (night of 413) | Varro | 0.5 | 2 | 24 | 0 | +0% | 26 |
+| 414 | The empty chair (night of 413) | Marcellus | 0.5 | 2 | 24 | 0 | +0% | 26 |
+| 414 | The empty chair (night of 413) | Hrodvar | 0.5 | 2 | 24 | 0 | +0% | 26 |
+| 414 | The empty chair (night of 413) | Cotta | 0.5 | 2 | 24 | 0 | +0% | 26 |
+| 414 | The empty chair (night of 413) | Phaedra | 0.5 | 2 | 24 | 0 | +0% | 26 |
+| 414 | The empty chair (night of 413) | Aelia | 0.5 | 2 | 24 | 0 | +0% | 26 |
 
 ## Wages
 
@@ -2857,3 +2873,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 411 |  | treasure share |  | 9sp 9cp |  | hrodvar |
 | 411 |  | treasure share |  | 9sp 9cp |  | cotta |
 | 411 |  | treasure share |  | 9sp 9cp |  | phaedra |
+| 412 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 413 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 413 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 414 |  | treasure share |  | 3gp 3cp |  | vettius |
+| 414 |  | treasure share |  | 3gp 3cp |  | brennus |
+| 414 |  | treasure share |  | 3gp 3cp |  | neris |
+| 414 |  | treasure share |  | 3gp 3cp |  | vestus-the-unlikely |
+| 414 |  | treasure share |  | 1gp 5sp 1cp |  | varro |
+| 414 |  | treasure share |  | 1gp 5sp 1cp |  | marcellus |
+| 414 |  | treasure share |  | 1gp 5sp 1cp |  | hrodvar |
+| 414 |  | treasure share |  | 1gp 5sp 1cp |  | cotta |
+| 414 |  | treasure share |  | 1gp 5sp 1cp |  | phaedra |
+| 414 |  | treasure share |  | 1gp 5sp 1cp |  | aelia |

@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 411
-  time: '21:53'
+    day: 414
+  time: '18:53'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -27,25 +27,23 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 11.137
+    encumbrance_st: 9.925
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 22
+    hp: 8
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 21.334
+    encumbrance_st: 21.34
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Slumber
-    - Invisibility
-    encumbrance_st: 8.061
+    spells_used: []
+    encumbrance_st: 8.067
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -54,17 +52,17 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 16.221
+    encumbrance_st: 16.227
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 29
+    hp: 31
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 22.48
+    encumbrance_st: 22.486
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -81,7 +79,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 14.641
+    encumbrance_st: 14.648
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -89,32 +87,31 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 14.88
+    encumbrance_st: 14.887
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 20
+    hp: 11
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 12.282
+    encumbrance_st: 12.289
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 21
+    hp: 14
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 15.852
+    encumbrance_st: 15.859
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Slumber
-    encumbrance_st: 11.62
+    spells_used: []
+    encumbrance_st: 11.627
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -130,19 +127,19 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.207
+    encumbrance_st: 6.214
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out
-  rations: 'Vettius: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Cotta: food 0 d, water 0.2 d; Lucilla: food 0 d, water 1 d (incapacitated); Aelia: food 0 d, water 1 d; Saturnin: food 0 d, water 0.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 0 d, water 0 d (hungry); Neris: food 0 d, water 0.2 d (hungry); Iulia: food 0 d, water 0 d (hungry); Varro: food 0 d, water 0 d (hungry); Hrodvar: food 0 d, water 0 d (hungry); Brennus: food 0 d, water 0 d (hungry); Phaedra: food 0 d, water 0 d (hungry); Marcellus: food 0 d, water 0 d (hungry); Vestus the Unlikely: food 0 d, water 0.8 d (hungry); Cotta: food 0 d, water 0 d (hungry); Lucilla: food 0 d, water 0 d (hungry, incapacitated); Aelia: food 0 d, water 0 d (hungry); Saturnin: food 0 d, water 0 d (hungry); Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - 'Sand & Bones is at war with us: Selene wants Lucilla alive for her pit at the next Blood Moon (about day 415), and a note for Vasan named the Captain'
-  - 'Proof for Arëtar: the wall behind the barrels in the Pony''s long room turns on the iron bucket-hook; what lies behind it is still unseen'
-  - Thana Nyssand gave Lucilla the cellar key; she pays the house at the bar once a week (next about day 411)
-  - The Order's next weekly roll is day 410
+  - Arëtar has charged the Captain with Selene, in chains or ended; the Order has named her to Iulia
+  - Selene sleeps behind the wall in her office; her pit opens on the night of day 415
+  - Gerra, Selene's bodyguard, and nine Pony men are in the cellars under The Mink
+  - Nine wharf men carry the Pony whatever the Family tells them; four who went to the Watch are in the river
+  - Thana Nyssand keeps the Pony's books and the Family's secret
   - Lucilla is abed at the Citadel until day 416
-  - A Family oath-taker sold the Family's secret to Watchtower III; Aranth buried it
-  - The lizard-men's old shaman keeps the peace and her secret of the magic rock
-  - 'Below: the serpent door, the sealed cases, the rhagodessae'
+  - Subaltern Tavus Mityario wants proof of the Pony's blood pit
+  - 'Below: the serpent door, the sealed cases, the rhagodessae; the lizard-men''s shaman keeps the peace'
   trail:
   - '27.17'
   - '28.16'
@@ -164,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 411
+clock_day: 414
 ---
 # Campaign State
 

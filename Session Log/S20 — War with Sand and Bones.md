@@ -174,12 +174,48 @@ Argollëan Family. The Order has not yet named Selene.
   of dried blood and broken bones, three dead men from the last pit night, gnawed to the rib. Beyond, a far wall
   with a line of lamplight under it and a woman's voice humming. Vettius took a gnawed thighbone wrapped in sacking
   and went out the way he came, as quiet as he had come in.
+- Day 412. Iulia laid the gnawed bone and Vettius' account before the Patriarch. Arëtar turned the bone in his
+  hands a long while. "She fed him. Bring her to me in chains, Captain, or end her if she will not come." Two
+  knights ride with her. Thana's note reached Lucilla's bed by one of Hesta's girls: Jonus' informer money this
+  week went to Brocchus the bargeman, Mettius the stevedore and Sabinus called Ropey, all for "the barge"; and Jonus
+  has stopped taking Selene's orders and drinks alone. Rosa's council (Iulia not in the room) sorted the wharf men:
+  the two who went to the Watch, Lartius and Glaucus, are a danger to the Captain and of no use; that night the
+  Family's quiet men saw them drunk into the river, and the wharf said the river took two more fools. The five who
+  went to the Pony (Brocchus, Mettius, Sabinus, Tullo, Pollio) live, watched, to carry whatever the Family wants
+  Selene to hear; that morning they heard that Lucilla, healing, would be carried in a closed chair from the
+  Citadel to The Mink after midnight on night 413. The other eighteen wharf men were split into four crews, each
+  with its own tale: an antiquities caravan by the Arganos gate on day 415; Hesta at the Festival baths on day 414
+  with two girls; the Pony's stables to burn on night 414; the Family's silver going down into a strongroom under
+  The Mink's well on day 414. Saturnin's month paid.
+- Day 413. Aelia's and Marcellus' months paid from Lucilla's purse. Hesta's tails followed two more wharf men into
+  the Pony's back door (Fuscus the caulker, Naevius the porter), and Watchtower III sent Aranth a third: Rufinus
+  the sail-mender, selling "Hesta's silver going down under The Mink's well".
+- Night of day 413. The closed chair left the Citadel after midnight with four Family bearers and Varro and
+  Marcellus walking beside it; inside, veiled, sat Aelia with her blade across her knees. Lucilla stayed in her bed.
+  Vettius on the roofs; Brennus, Hrodvar, Cotta, Neris, Vestus and Phaedra in the alleys; Iulia and her two knights
+  a long street back, there only if the woman of the ruby lips came herself. She did not. Out of an alley came
+  her big scarred bodyguard with the morning star, five hooded toughs, two big men with clubs and two of Nuvicus'
+  arena veterans. The bearers dropped the chair and ran; Aelia came out of it with steel. Brennus cut down three in
+  a breath; Vestus' sleep took the clubmen and a veteran; Vettius dropped off the roof onto the scarred woman's
+  back; she broke Vettius' ribs with one blow and would not be frozen or held, and fought on alone until Brennus'
+  axe dropped her. Neris kept her alive. Five hooded toughs and a veteran died in the lane; the scarred woman, the
+  two clubmen and the other veteran were carried to the cellars under The Mink. Iulia's knights never drew.
+- Day 414. Under Brennus' stare the scarred woman, Gerra, told it all: since the lanista died Selene sleeps behind
+  the wall in her office, on a couch beside her chests; the far door of the dead room drops an iron grate on whoever
+  comes through it unless the lever under her desk is set; on pit nights she sits by the sand at Lutarius' side;
+  Jonus drinks upstairs and will not come down. And the pit opens tomorrow night as always, full moon or no war.
+  Hesta's eyes saw Pony hoods loitering at the Festival baths all day (Hesta's tale; two more wharf men, Vibius and
+  little Atta, were followed in at the Pony's back door). The fourth crew's tale had gone to Watchtower II, not the
+  Family's tower; of that crew only Mamercus the tar-boiler had not been seen elsewhere. Rufinus and Mamercus went
+  into the river that night like the others. The Nuvicus veteran walked home to his house with Lucilla's compliments.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
 - Thana Nyssand, the Pony's bookkeeper: tired eyes, ink on her fingers, a merchant's courtesy (day 403).
 - Selene Nictorian in black silk, with a big scarred woman carrying a morning star (seen by Vettius, night of 404).
 - The old troglodyte shaman of the decorated cave (day 406).
+- Subaltern Tavus Mityario of Watchtower IV: clipped, formal, tired of being lied to (day 410).
+- Gerra, Selene's scarred bodyguard (prisoner since the night of 413).
 
 ## Treasure and XP
 - Day 394: the lanista's sword and spear (+1 each) and the humming sling bullets (+1) named by training; his three
@@ -190,6 +226,9 @@ Argollëan Family. The Order has not yet named Selene.
 - Day 406 (A77, descent 50): the lizard-men's hoard (775gp, 640ep, figurines, combs and rings, goblets, circlets and
   necklaces: 1,350gp; the trinkets sold through the Family day 407); the chieftain, three champions and eleven
   warriors; 2,040 XP over 7.5 shares.
+- Day 411 (A78, the barge): six Pony men taken; purses 13gp; 173 XP over 6.5 shares.
+- Night of 413 (A79, the empty chair): five hooded toughs and an arena veteran slain, Gerra, two clubmen and a
+  veteran taken; purses 21gp; 361 XP over 7 shares.
 
 ## Rumours given
 
@@ -201,6 +240,9 @@ Argollëan Family. The Order has not yet named Selene.
 - The lizard-men's chieftain and fighters are dead; the old shaman, the females and the eggs live under the
   company's oath. Pluris bought the lanista's orcs, hobgoblins and gnolls; Nuvicus his bugbears and ogre.
 - Thana Nyssand has given Lucilla a key to the Pony's cellar door.
+- Arëtar has charged the Captain with Selene (in chains or ended); the Order has named her to Iulia.
+- Four wharf men who sold the Family's secrets to the Watch are in the river; nine who sell to the Pony are watched
+  and fed what the Family wants Selene to hear.
 
 ## Next time
 Day 400, evening, the Solar Citadel. Lucilla 10/23 and scarred; Aelia, Varro and Marcellus lightly hurt; the rest
@@ -211,6 +253,10 @@ Selene keeps below the Silk Pony; the proof Arëtar wants is the hidden wall beh
 21/31, Marcellus 18/21, Aelia 14/20. Vettius knows the iron hook that turns the wall; Thana's key opens the cellar
 door; Thana pays the house at the bar on the weekly pay night (next about day 411). The Order rolls on day 410; the
 Blood Moon night is about day 415, when Selene means to put Lucilla in her pit.
+
+(Week 3 close:) Day 414, evening, the Solar Citadel. Lucilla abed to day 416; Vettius 8/22, Aelia 11/20, Marcellus 14/21.
+Arëtar's charge and the Order's name are both on Selene, who sleeps behind the wall in her office and will sit by
+her sand tomorrow night, the night before the full moon. The Family's cellars hold Gerra and nine more Pony men.
 
 > [!judge]- Judge rolls
 > Resume correction (day 393): the actors of Hrodvar and Saturnin carried "dead (thirst, CON 0)" since S19 week 3
@@ -244,3 +290,16 @@ Blood Moon night is about day 415, when Selene means to put Lucilla in her pit.
 > The hoard: Vettius' Searching 5, 8 (fail), 17 (found, turn 3); explore search Vestus 14, 2, Iulia 4, 3, Neris 10, 13, Cotta 12, 8, Brennus 2 (vs 18+). Judge's call: SOTN's printed 5,025gp tally not used: 1,350gp (the listed items). I2 breeders 1 (cower).
 > The shaman (I13): reaction 2d6+1 6; Vestus' gist 1 (yes); after the oath and a week's rations 2d6+2 7 (peace accepted; the magic rock withheld). Wandering 18:10: python snake (volcanic table); surprise Neris 2, Hrodvar 2 surprised; snake 3; reaction 11 (indifferent: it passed). Return 22 turns (checks 4, 1, 3, 4, 5, 2, 3, 1, 3: none). Slip: the relight helper used only Phaedra's torches: 19:53-22:53 run as unlit; corrected (three of Hrodvar's torches burned). A77: 2,040 XP over 7.5 shares.
 > Day 407: weekly: Brotherhood 5 (none); a betrayer acts 1: to the Watch 4 (that the Captain's companion heads the Family), past Watchtower III 3 (no: buried at the Family's tower; Aranth told); the Watch on the company 3 (no). Selene's move for 407-413: 5 (the company), day 6 (day 412). Pluris' and Nuvicus' word of the dead gladiators reaches Subaltern Tavus Mityario (Watchtower IV) 1 (yes: Judge's watch: he asks the company about day 399). Trinkets L446-L449 sold (255gp, divided by the engine to A77's share-holders).
+> Week 3 (days 408-414). Judge's call (day 408): the S19 Change in Management's four 0th-level batches of 25 are the Family's divisions by AX3 member type, in roll order: (1) bards (singers, dancers, courtesans: hesitant, loyal), (2) venturers (the front's clerks and factors), (3) thieves of the wharves and barges: **the 25 betrayers**, (4) the other 17 thieves (caravan hands, racket) and the 8 assassins. The canary tales went one to each division (day 408 evening).
+> The wharf division (25 betrayers), each sells the barge tale (1-2): 4 5 5 1 6 2 1 6 5 1 1 3 5 6 2 4 2 6 2 5 5 6 3 6 6 -> sellers #4, #6, #7, #10, #11, #15, #17, #19. Buyers (1-4 S&B, 5-6 Watch) 2 1 6 4 2 1 2 6; days (408+) 3 1 2 2 2 3 1 3; towers 5 3 2 6 6 4 2 2: #4 S&B 411; #6 S&B 409; #7 Watch (Watchtower III) 410; #10 S&B 410; #11 S&B 410; #15 S&B 411; #17 S&B 409; #19 Watch (Watchtower III) 411. Traced (Thana's chits 1-4 / tails 1-3) for the S&B sellers #4 2/6, #6 6/6, #10 6/5, #11 4/5, #15 3/3, #17 3/3: named #4, #11, #15, #17; untraced #6, #10. Selene acts on the barge tale 3 (hoods raid the Family wharf at first light 411). Thana hears the barge tale herself 6 (no; the chits only). Tavus Mityario at the Citadel day 410 (1d4 2).
+> Names (Judge's call): #4 Brocchus the bargeman, #11 Mettius the stevedore, #15 Sabinus "Ropey", #17 Tullo the lighterman (S&B); #7 Lartius the net-mender, #19 Glaucus the wharf lamplighter (the Watch, Watchtower III).
+> Day 409: sales #6 (untraced), #17 Tullo (tailed). Day 410: Order rolls 2, 2, 1, 1, 1, 4: **Iulia (4): Selene** (Oppius delivers day 411, Judge's call). Tavus Mityario 2d6+2 8 (Neutral: takes Iulia's account; wants proof of the blood pit); Iulia was not at the ambush (day 399). Sales #7 Lartius (Watchtower III: reported to Aranth), #10 (untraced), #11 Mettius (chits).
+> Day 411: the wharf raid (Selene's act on the tale): hoods 1d4+2 3, thugs 1d3 2, leader 2 (the burglar, Thief 4, hp 12). enc313: company not surprised; raiders 1d6-1 1 (all surprised). Vestus' and Phaedra's Slumber: burglar 17 (saved), hoods 12, 6, 12 vs 13+ (asleep), thugs (no save, 1 HD: asleep); Vettius' backstab 9 (miss); Brennus 23 hit (12 -> 0); burglar's Mortal Wounds (Neris' Healing, 1 round) 8+12 = 20: shock, toes. Six prisoners to the cellars under The Mink. A78: 173 XP over 6.5 shares (purses 13gp). The burglar questioned 2d6+3 9 (talks): knows #6 6 (no), #10 3 (yes: Pollio the barge-poler). Sales #4 Brocchus (S&B, chits), #15 Sabinus (S&B), #19 Glaucus (Watchtower III: reported). Oppius delivers Iulia's contract: Selene (Judge's call: the day after the roll).
+> Pay night 411: Vestus' Invisibility on Vettius; Sneaking 18, 18; men below 1d3 2; the wall seen turning 1 (first), 3, 2 (second's roll void: only two men; the third die not used); the first's response 2 (the mistress: keeps away); in the Abattoir: the three corpses (the day-386 pit dead, gnawed); Selene in office 1 1 (yes: humming behind the trapped door); leaving: 3, 6 (unseen); Selene hears 3 (no); Sneaking 19 out. Proof: a gnawed human thighbone.
+> Day 412: Arëtar's reaction to the proof 2d6+3 10 (Friendly: sanctioned, Selene in chains or ended), knights 1d4 2. Selene's day-412 move 6 (a hood watches the Citadel and follows whoever leaves); the Family marks him 5 (no). Thana's chits: Brocchus #4, Mettius #11, Sabinus #15 (as rolled day 408); Jonus 2 (stopped taking orders, drinks alone). Eliminations (the Family's quiet men): Lartius 2, Glaucus 3 (quiet: "the river took two more fools").
+> Double agents (Brocchus, Mettius, Sabinus, Tullo, Pollio) sell the chair tale (1-3) 3 2 2 2 1 (all), days 1 1 2 1 2 (412, 412, 413, 412, 413). Selene on the chair tale 2 (+1 as written, three or more confirming) = 3: a lieutenant leads: 1 (her destroyer, Assassin 5); hoods 1d4+1 5, thugs 1d3 2, Nuvicus' veterans 1 (two), the torturer 4 (no).
+> Second canary (crews: A #1,2,3,5,6 caravan; B #8,9,12,13,14 Hesta at the baths; C #16,18,20,21 the stables; D #22,23,24,25 the strongroom under the well): sell (1-2) 5 4 5 2 4 5 2 5 2 1 4 3 4 5 1 1 2 2; buyers 5 1 5 6 6 6 1 1 4 3 2 5 1 3 1 5 6 1; days (412+) 3 3 1 3 3 3 2 1 2 1 1 1 2 3 2 2 1 1; towers 4 1 4 1 5 4 3 5 3 2 3 4 2 5 5 5 2 3; tails (1-4) 1 2 6 3 4 4 6 5 4 2 5 6 3 2 2 5 3 4; chits (1-4) 5 2 3 5 4 3 1 4 4 1 3 4 4 5 3 4 5 3. Result: #5 Watch III day 415 (traced); #9 S&B 414 (chits); #13 S&B 414 (tail); #14 S&B 413 (tail); #22 S&B 414 (tail); #23 Watch II day 414 (untraced; the strongroom tale reaches a tower not the Family's); #24 Watch III 413 (traced); #25 S&B 413 (tail). Crew C sold nothing.
+> Day 413: wages Aelia 800, Marcellus 400 (Lucilla). Sales #14 Fuscus (S&B, tail), #25 Naevius (S&B, tail), #24 Rufinus (Watchtower III, traced).
+> Night of 413, the chair (enc314): surprise Neris 2 (surprised), the rest attentive; S&B not surprised. Foes: Gerra the destroyer (Assassin 5, hp 25, AC 4, morning star 5+ 1d10+4), 5 hoods, 2 thugs, 2 Nuvicus veterans (hp 6, AC 3, 10+). Inits: h1 6; h3, h4, v2 5; h2 4; t1, v1 3; ds, t2 2; h5 1. R1: h1 vs Varro 10 miss; Brennus' charge on h1 23 (down); Aelia's blow on h1 (already down: wasted, my slip); h3 charge Marcellus 19 hit 7; h4 vs Varro 4 miss; v2 vs Marcellus 10 miss; Hrodvar's charge on h3 10 (down); h2 vs Aelia 19 hit 2; Marcellus on h3 (already down: wasted); Brennus cleaves h4 (nat 20, down), v2 14 (down), h2 9 (down); Cotta vs Gerra 17 hit 3 (25 -> 22); Vestus' Slumber t1, v1, t2 (1 HD, no save); Vettius' backstab (rear) 15 hit 17 (22 -> 5); Gerra vs Vettius 3 miss; Varro vs Gerra 6 miss; Phaedra's Slumber h2 7 (already down), h5 14 (saved); h5 vs Aelia 7 miss. Morale 6 (fight on); Marcellus 8. R2: h5 vs Aelia 14 hit 7; Brennus vs h5 nat 20 (down); Vettius' "Freeze" on Gerra: Spells save 18 (resisted); Gerra vs Vettius 19 hit 14 (22 -> 8); Hrodvar's wrestle 12 hit, her save 19 (free); Marcellus' wrestle -1 miss; morale (cornered) 12: victory or death; Aelia 7. R3: Brennus vs Gerra 17 hit (5 -> -9); Varro's blow on the fallen void (my slip). Gerra's Mortal Wounds (Neris' Healing, 1 round) 4+5 = 9: grievous (2 weeks' bed rest); Neris' Cure Light Injury 7 (alive). state end: h1 -1, h2 0, h3 -5, h4 -6, h5 -3, v2 -3: slain. A79: 361 XP over 7 shares.
+> Day 414: weekly: Brotherhood 6 (none); an unprompted betrayer 5 (no); the Watch 4 (no). Selene's move for 414-420: 4 (a Family house), day 3 (day 416). Selene acts on the baths tale 2 (hoods watch the baths). Watchtower II on the strongroom tale 6 (nothing). Eliminations: Rufinus 4, Mamercus 2 (quiet). Gerra questioned 2d6+3 13 (talks: Selene sleeps in office 1 on a couch; the lever under the desk sets the portcullis; pit nights she sits beside Lutarius; Jonus drinks upstairs). Selene holds the Blood Moon night 2 (yes: night of 415, the night before the full moon of 416). Sales day 414: #9 Cluentius (S&B; Thana's chits, report ~418), #13 Vibius (tail), #22 Atta (tail), #23 Mamercus (Watchtower II; deduced: crew D's only untraced man). Names (Judge's call): #14 Fuscus the caulker, #25 Naevius the porter, #24 Rufinus the sail-mender, #9 Cluentius, #13 Vibius, #22 little Atta, #23 Mamercus the tar-boiler.
+> Traitor ledger (Judge only): all 25 wharf men are betrayers. Known to the party as Pony informers (alive, watched, double agents): Brocchus #4, Pollio #10, Mettius #11, Sabinus #15, Tullo #17, Fuscus #14, Naevius #25, Vibius #13, Atta #22 (Cluentius #9 when Thana reports). Drowned (Watch sellers): Lartius #7, Glaucus #19, Rufinus #24, Mamercus #23. Not yet traced: #1, #2, #3, #5 (sells to Watchtower III day 415), #6 (sold to the Pony day 409, untraced), #8, #12, #16, #18, #20, #21, plus Cluentius #9.

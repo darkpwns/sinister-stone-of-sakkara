@@ -171,6 +171,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Days 408-414 (week S20-3): the traitor hunt.** Canary tales (Rulings S20): the wharf and barge men's division (the 25 betrayers, Judge's call) leaked; traced and handled: **double agents (Pony informers, alive, watched, fed false tales):** Brocchus, Pollio, Mettius, Sabinus, Tullo, Fuscus, Naevius, Vibius, Atta (Cluentius when Thana's chits come ~418); **drowned quietly (sold to the Watch):** Lartius, Glaucus, Rufinus, Mamercus (Watchtower III buried three; Mamercus sold to Watchtower II, which did nothing). Untraced wharf men: 11 (one, #5, sells the caravan tale to Watchtower III day 415: traced then). The bards, the front's clerks and the caravan/racket men told nothing. **Prisoners in the cellars under The Mink:** the burglar, 3 hoods, 2 thugs (day 411), Gerra the destroyer (grievous wound, 2 weeks' bed rest), 2 thugs (night 413); the Nuvicus veteran sent home. **Iulia: Arëtar's charge on Selene (day 412, 2 knights) and the Order's contract (day 410/411)**: one deed serves both (Rulings S19). **Blood Moon night: 415** (Selene holds it, defiant; she sits by the sand with Lutarius); she sleeps in office 1 behind the wall; the portcullis lever under her desk (Gerra). **Selene's next move: day 416, a Family house.** Tavus Mityario (day 410, Neutral): wants proof of the pit; the Captain told him only the truth of day 399.
 - **Days 401-407 (week S20-2):** Thana Nyssand (Helpful, day 403) gave Lucilla a key to the hideout cellar door (4 -> 3); her terms: the Pony's honest trade hers under the Family, Jonus lives; Thana pays the house at the bar on the weekly pay night (room 3 near empty a quarter hour; next ~day 411). Vettius saw the wall's working (night of 404): the iron bucket-hook in room 3's SW corner turns the false wall; Selene came out with her destroyer and went back; the Abattoir not yet entered. Selene's errand strike (day 406) beaten by Aelia and Saturnin (5 Pony men slain, a Family bravo dead). **Selene's next move: day 412, against the company** (rolled day 407). A betrayer sold the Family's secret to Watchtower III (day 407): buried there (the Family's tower), Aranth told Lucilla. **Subaltern Tavus Mityario** (Watchtower IV, honest) has heard from Pluris and Nuvicus about their dead gladiators (Judge's watch: he comes asking about day 399; he wants evidence of the Blood Moon games). Order roll day 410 (Selene to the first 4).
 - **Lucilla:** Repair Disfigurement day 402 (Tampering: 2 weeks' bed rest to day 416, the alien right arm). Abed at the Citadel; she gives orders, no dedicated activity.
 - **Troglodytes of I (day 406, A77):** the chieftain, 3 champions and 11 warriors slain in I3; the hoard taken (I2); **peace sworn with the shaman** (I13): the females (~50), the gross breeder and the 40 eggs spared; she withholds the magic rock (L4) until "the eggs have hatched and the oath is kept" (Judge's watch: a reaction again after a month of peace, +1).
@@ -227,17 +228,17 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: the Sand & Bones Hideout (25u, keyed: the Abattoir 2 is Arëtar's proof, 3 fresh corpses rolled; Selene in 1
-  and 3 on war footing; the portcullis trap on 2's west door); F14's serpent door and T (the Great Teacher, 11 HD);
-  F17's cases (the alarm); F19 (2 rhagodessae); L4 (the platform; the shaman's guide, later).
-- Threads: Selene's move day 412 (against the company); the pay night ~411 (Vettius under Invisibility: the hook, the
-  Abattoir, proof); the Order roll 410 (Selene to the first 4); Tavus Mityario's questions (the dead gladiators; his
-  want: evidence of the Blood Moon games: a lawful raid lever); the Blood Moon night ~415 (Selene wants Lucilla in the
-  pit); the betrayers (one sold to Watchtower III); Jonus (sullen, loyal; +2 lever); Lutarius (only a miracle or
-  wish); the shaman (reaction again after a month of peace).
-- Scheduled: 410 Order rolls; ~411 Thana's pay night; 412 Saturnin's wage, Selene's move; 413 Aelia (800), Marcellus;
-  414 weekly rolls (Brotherhood, betrayer, Watch, Selene's next move); ~415 Blood Moon; 416 Lucilla up; 419 Tertulla;
+- Sites: the Sand & Bones Hideout (25u; Selene sleeps in office 1; the Blood Moon night 415 in room 3: 4d6
+  contestants, 2d6+20 patrons, the bookmaker, Lutarius, security 6 hoods/6 thugs/1 enforcer, leaders 60%; Selene by
+  the sand; Jonus upstairs drinking); F14/T; F17; F19; L4 (the shaman's secret).
+- Threads: Iulia's sanctioned charge and the Order's contract on Selene (the table's choice of night: the Blood Moon
+  415, a pay night ~418, or by the wall with Thana's key and Invisibility); the annexation (claimant party to the
+  killing: Vettius, or Lucilla after 416); Thana (her terms; Cluentius' chit ~418); Jonus (sullen; +2 lever);
+  Lutarius; the double agents (feed Selene's people); the untraced wharf men (a third canary?); the prisoners (ten:
+  the Family's to dispose of; Gerra knows the hideout); Tavus Mityario (wants the pit: a lawful raid); Selene's move
+  day 416 (a Family house).
+- Scheduled: 415 Blood Moon night; 416 Lucilla up, full moon, Selene's move; 418 Thana's pay night; 419 Tertulla;
   420 month 14 ends (fees, investments 1, 2, 3, Iulia's report and task roll, Vestus' dues, Cotta's wage, the
-  Family's month); 421 selling day; 436 Varro, Hrodvar; 429 Phaedra; 443 vault fee.
-- NPCs: Corvinus Lean (dead); Orisos (marked); Selene's destroyer (a big scarred woman, morning star, silent); the
-  troglodyte shaman (old, pale, chiselling her history).
+  Family's month); 421 selling day; 421 weekly rolls; 429 Phaedra; 436 Varro, Hrodvar; 442 Saturnin; 443 Aelia,
+  Marcellus, vault fee.
+- NPCs: Gerra (Selene's bodyguard, prisoner); Tavus Mityario; the wharf men named in the Judge block.
