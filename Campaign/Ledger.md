@@ -319,6 +319,23 @@ tags:
 | 422 | Descent 51 (J, the Doom Temple) | a bone key (from the largest bronze pipe in the secret tunnel) | 0 | vettius |
 | 422 | Descent 51 (J, the Doom Temple) | grave goods from the I10 and I11 wall graves | 432 | marcellus |
 | 422 | Descent 51 (J, the Doom Temple) | grave goods from the I14 wall graves | 648 | brennus |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | 2,000 silver pieces | 200 | lucilla |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | 1,000 silver pieces | 100 | neris |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | 1,000 silver pieces | 100 | vestus-the-unlikely |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | two terracotta libation bowls painted with griffins | 30 | phaedra |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | eight terracotta canopic jars of embalmed organs | 200 | aelia |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a dark metal statuette of a six-armed demon warrior | 900 | vettius |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | an ivory war-horn engraved with battle hymns | 500 | vettius |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a fine bronze battle axe (the elder brother's) | 650 | varro |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a fine bronze battle axe (the younger brother's) | 650 | marcellus |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the elder brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | lucilla |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the elder brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | iulia |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the elder brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | brennus |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the elder brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | hrodvar |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | varro |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | vettius |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | cotta |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | saturnin |
 
 ## Monster XP
 
@@ -418,6 +435,10 @@ tags:
 | 422 | Descent 51 (J, the Doom Temple) | Sepulchral Worm | 10 | 16 | 160 |
 | 422 | Descent 51 (J, the Doom Temple) | Martyr of the Doom Temple (SOTN) | 1 | 1,580 | 1,580 |
 | 422 | Descent 51 (J, the Doom Temple) | Insect Swarm | 1 | 29 | 29 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Gelatinous Mass | 1 | 245 | 245 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Mummy Warlord Brothers (SOTN) | 2 | 660 | 1,320 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Skeleton | 8 | 13 | 104 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Giant Ant Worker | 3 | 80 | 240 |
 
 ## Shares and XP awarded
 
@@ -932,6 +953,19 @@ tags:
 | 422 | Descent 51 (J, the Doom Temple) | Marcellus | 0.5 | 224 | 93 | 0 | +0% | 317 |
 | 422 | Descent 51 (J, the Doom Temple) | Saturnin | 0.5 | 224 | 93 | 0 | +0% | 317 |
 | 422 | Descent 51 (J, the Doom Temple) | Cotta | 0.5 | 224 | 93 | 0 | +0% | 317 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Lucilla | 1 | 456 | 201 | 0 | +10% | 723 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Vettius | 1 | 456 | 201 | 0 | +5% | 690 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Vestus the Unlikely | 1 | 456 | 201 | 0 | +5% | 690 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Brennus | 1 | 456 | 201 | 0 | +5% | 690 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Iulia | 1 | 456 | 201 | 0 | +5% | 690 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Neris | 1 | 456 | 201 | 0 | +0% | 657 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Phaedra | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Varro | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Hrodvar | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Aelia | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Marcellus | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Saturnin | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 423 | Descent 52 (I8, the brothers' sepulchre) | Cotta | 0.5 | 228 | 100 | 0 | +0% | 328 |
 
 ## Wages
 
@@ -3007,3 +3041,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 422 |  | treasure share |  | 39gp 4sp 7cp |  | marcellus |
 | 422 |  | treasure share |  | 39gp 4sp 7cp |  | saturnin |
 | 422 |  | treasure share |  | 39gp 4sp 7cp |  | cotta |
+| 423 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 423 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 423 |  | treasure share |  | 42gp 1sp 1cp |  | lucilla |
+| 423 |  | treasure share |  | 42gp 1sp 1cp |  | vettius |
+| 423 |  | treasure share |  | 42gp 1sp 1cp |  | vestus-the-unlikely |
+| 423 |  | treasure share |  | 42gp 1sp 1cp |  | brennus |
+| 423 |  | treasure share |  | 42gp 1sp 1cp |  | iulia |
+| 423 |  | treasure share |  | 42gp 1sp 1cp |  | neris |
+| 423 |  | treasure share |  | 21gp 5cp |  | phaedra |
+| 423 |  | treasure share |  | 21gp 5cp |  | varro |
+| 423 |  | treasure share |  | 21gp 5cp |  | hrodvar |
+| 423 |  | treasure share |  | 21gp 5cp |  | aelia |
+| 423 |  | treasure share |  | 21gp 5cp |  | marcellus |
+| 423 |  | treasure share |  | 21gp 5cp |  | saturnin |
+| 423 |  | treasure share |  | 21gp 5cp |  | cotta |

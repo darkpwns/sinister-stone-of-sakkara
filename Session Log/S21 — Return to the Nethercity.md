@@ -41,6 +41,22 @@ sealed cases, the cave beyond the Falling Star, the half-open bronze door off th
   alone). In the memorial, a panel in the rune-pillar opens on a ladder down to a gallery of duelling warriors and a
   six-armed demon. Out at dusk with their loads.
 
+- Day 423, the fifty-second descent. A faint quivering in a gallery on the way down: a gelatinous mass, cut apart by
+  Brennus and Vettius before it moved. In the lizard-men's grand cave six lizard-women chipping stone watched the
+  company cut the stinking resin from the sealed slab in the north-west wall; they did nothing. Hrodvar's rig, one
+  heave, and the slab rolled; a gust of dead air from the tomb blew out the torch. In the dark Iulia raised the Rod
+  of the Dawn; when Aelia's torch caught, there were two painted bronze sarcophagi on bronze daises, and the second
+  lid was rising when the thing beneath it went to ash with its brother. Mosaics of two elf brothers in a last stand
+  against bronze-armed dwarves; their tomb gave up spilled silver, griffin bowls, canopic jars, a dark metal
+  six-armed demon (Iulia: Bel, the Slaughterprince), an ivory war-horn, two fine bronze battle axes, and the two
+  sarcophagi themselves, carried out on spear poles by eight.
+- Going home laden: eight lizard-women with bone darts met in the tunnel, hissed, and let them by. In the galleries
+  five gaunt figures with burning eyes came out of the dark; Neris' circle held them off and Iulia's rebukes sent all
+  five fleeing. Eight bronze-armed skeletons after them, ash at Iulia's word. Then in the sewer caves three giant ants
+  that would not be frightened off: Hrodvar and Marcellus went down under their mandibles, and Neris brought both back
+  to their feet; the ants died. Out at 16:38. Marcellus has risen to the sixth rank of his calling; Saturnin, the old
+  cantinakeeper, has become a scout.
+
 ## Who they met
 
 ## Treasure and XP
