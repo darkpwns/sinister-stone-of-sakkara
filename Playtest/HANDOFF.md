@@ -380,15 +380,16 @@ World State prep queue.
 
 **Routine reminders (S11 slips):** two failed heaves (or lid tries) = stop and wait a turn in silence; rest every 5
 turns (a turn's rest also clears the miasma); rearguard watches the side passages while the haulers pull; Divine
-Blessing +2 is not in the engine's saves (pass `--mod "Divine Blessing:+2"` for Iulia and Neris); keep Vettius under
+Blessing +2 is in the engine's saves from 7.14.0 (before it: `--mod "Divine Blessing:+2"`); keep Vettius under
 10 st; never let a loop run past an encounter or a fallen character; resolve every round in initiative order.
 
 ## S12 (2026-11-22) — start here (supersedes everything above)
-**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools unchanged at 7.13.7). Helpers: source `Playtest/tools/s10_j.sh`
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0 since the S12 engine pass: setup must print
+`engine: ready: acks 7.14.0`). Helpers: source `Playtest/tools/s10_j.sh`
 (then `PARTY="lucilla vettius vestus-the-unlikely neris brennus iulia phaedra varro hrodvar aelia marcellus"`: Gnaeus
 is abed and out of the exploration party (`party remove gnaeus` on day 272; `party add gnaeus` when he is up),
-`Playtest/tools/s11_mend.sh` (`miasma6`, `mendask`) and `Playtest/tools/s12_town.sh` (`slept`: clears sleep_due and
-fatigue after an inn night; `dawn DAY`: spells reset; `innnight DAY N COST H1 H2`). Session 12 log:
+`Playtest/tools/s11_mend.sh` (`miasma6`, `mendask`) and `Playtest/tools/s12_town.sh` (`innnight DAY N COST H1 H2`;
+its `slept` and `dawn DAY` are not needed on 7.14.0: a `wait` over an inn night records the sleep and the spells). Session 12 log:
 `Session Log/S12 — The princess and the inquisitor.md`.
 
 **State on resume:** day 273 06:53, fall, Cyfaraun (18.05), town, Silk Pony Inn. No adventure open (A28 paid out).
@@ -417,6 +418,16 @@ rope, or swimming; the catfish attacks on 6 each turn on the water. Or the four 
 energy crystals (480 skeletons), C5. Gnaeus is up about day 298.
 
 **Routine reminders (S12 slips):** break the turn loop on "rest due" (not only "rest due now"); relight the lantern
-after `light refuel` (`light on lantern5`); `heal`, not `state set hp`, for a cure on a dying character (or clear
-`dying`); `--target-wil` is the WIL modifier; the rollover's natural healing is not written to the actors (apply by
-hand); Righteous Wrath just before the opening heave; armor does not count against a gelatinous cube's engulf.
+after `light refuel` (`light on lantern5`); `--target-wil` is the WIL modifier (`--target-wil-score 16` for a score); Righteous Wrath just before the opening
+heave; armor does not count against a gelatinous cube's engulf.
+
+**Engine 7.14.0 (the S12 engine pass; HISTORY "fifth pass"):** `turn`/`rest`/`wait` write the rollover's hp,
+deaths and spells to the actors (no hand healing); a `wait` over 8 night hours in town records restful sleep and
+spells regained; `save` adds Divine Blessing +2 itself (no `--mod` for Iulia and Neris); `state set hp=N` (N >= 1)
+ends a dying timer; `sell` of a lot whose adventure is paid out pays its share-holders (no `inv receive`/`inv pay`
+pairs); `restore --apply` writes Tampering with Mortality's result; `inv holder kind`, `retinue employer` for a
+successor (Vestus); `explore` refuses while an arrived encounter is unresolved; `explore force-door A B --helpers C`;
+`attack --damage-mod`, typed `--extra-dice` (protected separately); a mummy's slam puts mummy rot on the combatant;
+`state cond ID enraged` is berserk; actor `defenses` (Lucilla's ring) reach the combatant at `state add`;
+`encounter surprise --apply-note-penalty` (a note's penalty on the dice already rolled); `recover --store`;
+`item --market-stock`; market class 1-6, `--market-class` wins over the note.

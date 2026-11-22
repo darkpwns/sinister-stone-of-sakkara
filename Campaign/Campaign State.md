@@ -42,6 +42,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
+    encumbrance_st: 2.867
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -118,7 +119,7 @@ public:
     hp_max: 19
     conditions:
     - bed rest 1 month (Mortal Wounds, day 268; incapacitated, max 1 hp)
-    - 'speaks with dead once a week (Tampering with Mortality, day 269: a gift of his brush with death)'
+    - Your brush with death has gifted you with the ability to speak with dead once per week. All negative side effects are removed. (Tampering with Mortality, day 269)
     spells_used: []
     encumbrance_st: 8.529
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out

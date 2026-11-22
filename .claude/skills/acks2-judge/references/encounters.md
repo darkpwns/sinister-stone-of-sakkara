@@ -28,7 +28,9 @@ Decide each side's foreknowledge and line of sight, then
 monster entry), `--monster-cond blinded`, `--slumbering <ids>` / `--monsters-asleep`, `--members <ids>` (only those
 present), `--group-surprise` (party by group, average bonus), `--each` (each monster rolls). Party rolls are open
 (actor `avoid_surprise`, `surprise` penalties, deafened/blinded applied); monster rolls hidden. Both sides none: no
-encounter.
+encounter. A monster note's penalty to others' surprise (a gelatinous mass's "Translucent: others -2", an orc band's
+"Hunters"; engine 7.14.0) comes back as a JUDGE line with the verdicts the same dice give under it: if it applies
+here, `encounter surprise --apply-note-penalty` records them. Never roll surprise again for it.
 
 ## 3. Evasion
 `acks.sh evade`: refused in a dungeon (the party can still flee in combat: `round-start --declare <id>:retreat`). In

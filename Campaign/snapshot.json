@@ -1,7 +1,7 @@
 {
  "campaign": "AX1 Playtest",
  "session": 12,
- "generated": 1795308641,
+ "generated": 1795313221,
  "date": {
   "year": "",
   "season": "winter",
@@ -43,7 +43,8 @@
    "hp": 15,
    "hp_max": 15,
    "conditions": [],
-   "spells_used": []
+   "spells_used": [],
+   "encumbrance_st": 2.867
   },
   {
    "name": "Neris",
@@ -142,7 +143,7 @@
    "hp_max": 19,
    "conditions": [
     "bed rest 1 month (Mortal Wounds, day 268; incapacitated, max 1 hp)",
-    "speaks with dead once a week (Tampering with Mortality, day 269: a gift of his brush with death)"
+    "Your brush with death has gifted you with the ability to speak with dead once per week. All negative side effects are removed. (Tampering with Mortality, day 269)"
    ],
    "spells_used": [],
    "encumbrance_st": 8.529
@@ -3468,11 +3469,6 @@
    "level": 5,
    "xp": 21145,
    "hp_max": 15,
-   "ac": {
-    "shield": 1,
-    "no_shield": 1,
-    "dex_only": 1
-   },
    "attributes": {
     "STR": {
      "score": 8,
@@ -3572,11 +3568,92 @@
      0
     ]
    },
-   "coins": {
-    "gp": 3160,
-    "sp": 48,
-    "cp": 51
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "",
+     "stone": 0
+    },
+    "right_hand": {
+     "item": "Dagger",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [
+      "Alchemist's filter mask (vinegar, camphor, charcoal pad)",
+      "Rations, Iron (one week)",
+      "Rubbing kit (10 parchment sheets, charcoal sticks)",
+      "Spell book, blank (100 pages)",
+      "Waterskin ×5"
+     ],
+     "items": 7,
+     "stone": 1.1667
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
    },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 150,
+    "sp": 20,
+    "cp": 30
+   },
+   "encumbrance_st": 2.867,
+   "weapons": [
+    {
+     "name": "Dagger",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d4-1",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "right hand"
+    }
+   ],
    "treasure": [
     {
      "id": "L131",
@@ -3626,6 +3703,11 @@
     "listening": 18,
     "searching": 18,
     "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 1,
+    "no_shield": 1,
+    "dex_only": 1
    },
    "sheet": {
     "profile": "mage",

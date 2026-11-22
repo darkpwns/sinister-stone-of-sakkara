@@ -62,6 +62,7 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    - **Sweep:** `acks.sh sweep <a> <t1> <t2> …`.
    - **Other damage** (spells, traps, falls, oil): `acks.sh damage <t> --dice XdY --type T [--extraordinary|--mundane]
      [--half]` (spells: `--extraordinary`; refused without a tier when the target's protection differs by tier).
+   - **Cures in a fight:** `acks.sh state set <id> hp=N` (a cure that brings a dying combatant to 1 hp or more ends the dying timer; engine 7.14.0). A rebuked or frightened foe that is engaged (`state engage`) cowers. Berserkergang: `state cond <id> berserk` (`enraged` is accepted). A power's dice of its own type: `attack … --extra-dice "Striking:1d6:luminous"`; a damage bonus (Vigor, Ogre Strength): `--damage-mod "Vigor:+2"`. A mummy's slam puts mummy rot on the combatant: copy it to the actor after the fight. A character's worn protections (a ring) are the actor's `defenses` (`actor set <id> defenses '{"resist": "fire:both", "source": "…"}' --cause …`): `state add` applies them.
    - **Saves:** `acks.sh save <id> paralysis|death|blast|implements|spells [--vs-size <id>] [--cover …] [--vs-type T
      [--extraordinary|--mundane]] [--vs-effect enchantment|fear|"death effects"|disease|…] [--vs-fear] [--vs-enemy]`
      (a maneuver's save, a spell's save, the perils of cowardice; immunity to the type or effect succeeds by itself).

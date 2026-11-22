@@ -15,6 +15,8 @@
 "inventory_holder": true,
 "items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Magical Engineering","list":"class"},{"type":"proficiency","name":"Knowledge (history)","list":"general"},{"type":"proficiency","name":"Driving","list":"class"},{"type":"proficiency","name":"Bargaining","list":"general"},{"type":"proficiency","name":"Leadership","list":"class"},{"type":"proficiency","name":"Diplomacy","list":"general"}],
 "modifiers": [{"target":"ac.shield","value":1,"source":"lot L28 (Chain Mail +1)","cause":"divided by agreement: Lucilla wears the chain"},{"target":"ac.no_shield","value":1,"source":"lot L28 (Chain Mail +1)","cause":"divided by agreement: Lucilla wears the chain"}],
+"defenses": {"resist":"fire:both","source":"L63 Ring of Fire Protection (worn; found day 142, identified; Energy Protection effect, TT p. 79)"},
 "state": {"conditions":["minor scarring (fang mark on the hand)","wears a Ring of Fire Protection (L63, identified day 195)","third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it"],"spells_used":[],"hp":22},
-"judge": {}
+"judge": {},
+"changes": [{"field":"defenses","from":null,"to":{"resist":"fire:both","source":"L63 Ring of Fire Protection (worn, identified day 195)"},"cause":"S12 engine pass: the worn ring's resistance as actor defenses (engine 7.14.0)"},{"field":"defenses","from":{"resist":"fire:both","source":"L63 Ring of Fire Protection (worn, identified day 195)"},"to":{"resist":"fire:both","source":"L63 Ring of Fire Protection (worn; found day 142, identified; Energy Protection effect, TT p. 79)"},"cause":"S12 engine pass: source corrected (the identification day is not in the record)"}]
 }
