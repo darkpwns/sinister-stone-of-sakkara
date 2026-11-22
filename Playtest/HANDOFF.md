@@ -656,3 +656,12 @@ L295 unidentified); the Mentenus contract; F -> T. Rulings S17: 3 rows. Engine f
 (10 rounds); pass `--target` to `rebuke` for undead not yet rebuked; rest at "rest due in N rounds"; relight a
 burnt-out lantern with `light on lanternN` after a refuel.
 
+**S17 addendum (user, day 323):** (1) A tracker for the wererat search: Saturnin (0th-level cantinakeeper with
+Tracking 1, Lucilla's henchman, 12gp a month paid to 352, leather, shield, spear) hired day 323, the best the month
+offered; search again for an Explorer (levels 4 down, `recruit --class Explorer --level N`) from day 331, when month 12
+opens. The tracking job: the pack's trail from the Shrine's NW room-2 secret door into the unkeyed tunnels north (fled
+the night of day 306: an old trail), then Mentenus. (2) **Vettius plays the thief:** hide, work to the rear, backstab
+every vulnerable target with `attack vettius T --ambush` (add `--rear` when he attacks from behind); cowering,
+surprised, helpless, prone, slumbering and paralyzed foes are vulnerable to all. Player-facing note in
+`Party/memory/tomasz.md`.
+

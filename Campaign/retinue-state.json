@@ -275,6 +275,24 @@
    "level": 1,
    "wage": "25gp/month",
    "race": "human"
+  },
+  "Cyfaraun|henchman|4th level": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "4th level",
+   "table": "henchmen-availability",
+   "row": 4,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 4,
+   "wage": "200gp/month"
   }
  },
  "candidates": {
@@ -2805,6 +2823,116 @@
    "accepted_by": "iulia",
    "elan": false,
    "offer_wage": 25.0
+  },
+  "C33": {
+   "id": "C33",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Saturnin",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 7,
+     "result": "Try Again",
+     "day": 323,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 12,
+     "result": "Accept with élan",
+     "day": 323,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge",
+    "has Tracking 1 (the specification sought)"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 14,
+     "mod": 1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 6,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 10,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "occupation": "Cantinakeeper",
+   "occupation_group": "Hosteller",
+   "proficiencies": [
+    {
+     "name": "Profession (cantinakeeper)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Labor (cooking)",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    },
+    {
+     "name": "Streetwise",
+     "ranks": 1
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 4,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 1,
+   "wage_table": "12gp/month",
+   "search": "Cyfaraun|rarity|henchman with Tracking 1|0",
+   "wanted": "henchman with Tracking 1",
+   "market": "Cyfaraun",
+   "actor": "saturnin",
+   "try_again": false,
+   "accepted_by": "lucilla",
+   "elan": true,
+   "offer_wage": 12.0
   }
  },
  "members": {
@@ -4345,13 +4473,55 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "saturnin": {
+   "id": "saturnin",
+   "name": "Saturnin",
+   "candidate": "C33",
+   "employer": "lucilla",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Cantinakeeper",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 3,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 323,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 323,
+     "event": "hired",
+     "loyalty": 3
+    },
+    {
+     "day": 323,
+     "event": "wages paid: 1 month(s), 12 gp"
+    }
+   ],
+   "actor": "saturnin",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 32,
+ "seq": 33,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",

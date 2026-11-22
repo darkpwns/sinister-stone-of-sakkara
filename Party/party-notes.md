@@ -39,6 +39,8 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   Known targets: the masked dead lord behind the last slab of the first tomb (fire hurts it, it walks slowly, it can't
   cross Neris' holy circle); the troglodytes who use the galleries; the hunters of the sewer tunnel.
 
+- S17 (day 323): before the Provost: find where the rat-men went from their shrine (they fled north by the secret door in the north-west room, the night we raided it). Saturnin tracks; Vettius scouts ahead and takes every backstab a fight offers; a proper tracker sought from day 331.
+
 ## Map notes
 
 <!-- One ### subsection per dungeon or site, named as the party knows it; the mapper's description of rooms, exits and distances as the Judge described them. -->

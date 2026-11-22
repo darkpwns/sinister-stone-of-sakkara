@@ -105,6 +105,11 @@ Silk Pony for the Solar Citadel.
 - Day 323, in town. Lucilla drew coin from the Guildhouse and paid Aelia's and Marcellus' wages for the coming
   month, and the Grey Sisters' fee for the vault. Everyone's spare coin went into the Guildhouse. Nobody came looking
   for the Brotherhood.
+- Day 323, evening. Tomasz: "Gnaeus read trails. Nobody else here does, and the rat-men's trail is cold." Lucilla
+  asked in the hiring halls for a woodsman; there was none to be had this month. The best they found was Saturnin,
+  a young cantina-keeper from the lakeside who grew up following his uncle's traps in the hills; he hesitated, then
+  took a month's wage in hand and signed on with a grin. Tomasz, to the table: "And I stop standing in the line.
+  Vettius goes round the back."
 
 ## Who they met
 - Brother Oppius, curate of Türas (Temple of Justice): took the Captain's request. Prelate Ezelus: heard the deed

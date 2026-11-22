@@ -2096,3 +2096,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 323 | the retinue | wages paid |  |  | 400gp | lucilla |
 | 323 | the retinue | wages paid |  |  | 400gp | lucilla |
 | 323 | the Grey Sisters (vault fee) | the company's chest in the Grey Sisters' vault, one month (days 324-353) |  |  | 10gp | lucilla |
+| 323 | the retinue | wages paid |  |  | 12gp | lucilla |
+| 323 | Cyfaraun | Leather Armor | 1 |  | 18gp | lucilla |
+| 323 | Cyfaraun | Spear | 1 |  | 2gp 7sp | lucilla |
+| 323 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
+| 323 | Cyfaraun | Waterskin | 1 |  | 5sp 4cp | lucilla |
+| 323 | Cyfaraun | Shield | 1 |  | 9gp | lucilla |
