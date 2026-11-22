@@ -2,7 +2,7 @@
 type: session
 session: 19
 date_real: 2026-11-22
-date_game: winter day 358-365
+date_game: winter-spring day 358-372
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -77,6 +77,40 @@ given Vestus a name: Una of the Thelesa villa.
 - Day 365, overcast. A day of rest; by evening the cold had gone out of Lucilla's bones for good, though her
   strength did not come back.
 
+- Day 366, cloudy. Lucilla sounded Liber at the Mink about the disc: "Bring it when the Tower names it. The Family
+  has buyers past the mountains." Neris counted torches and oil; Gideon set the next descent for the narrow way
+  east of the Cave of the Falling Star, where the hammering is.
+- Day 367, drizzle. Forty-ninth descent, eleven strong (Cotta and Saturnin at the Citadel). Down the steep cut
+  stair from the Falling Star cave into a 20-foot tunnel walled with resin-skinned niches like a hive, a bronze
+  door with a death's-head handle half open in its south wall, and beyond, a great cave full of grey lizard-men:
+  a dozen tearing two white-furred apes apart, a dozen chipping stone, more asleep in the niches. Vettius slipped
+  on the stair (nobody heard over the hammering). Vestus called out to them in the old elves' tongue; they hissed
+  back and reached for their bone darts.
+- Vestus' fireball burst among them as they rose: eleven burned. The women and young fled shrieking east. A
+  second wave came out of the dark behind a big lizard-man in leather and a scarred one with a painted axe;
+  Vestus' second fireball took fourteen more and Phaedra's fan the rest of their nerve; Neris' prayer put the
+  scarred one to sleep and Vettius cut his throat; the big one fled. A third band came from the east; two fans of
+  flame broke it. Darts found Hrodvar twice and he went down with a dart through the lung; Neris' prayer held him
+  in this world. Forty-two lizard-men dead in the tunnel. The company went home with nothing but their lives:
+  Gideon would not take a hurt company into the hive. Hrodvar's lung was mended at the Citadel that afternoon
+  (Neris paid), but he lies abed two weeks.
+- Day 368. Brother Oppius' word came to two of them: for Vestus, Hrad the Blood Axe, a Jutland barbarian who
+  killed young Umic in an illicit duel at the Mink (his father asks); for Iulia, Balkar the Krysean, a dealer in
+  charms who bewitched a merchant's daughter until she killed herself (her father asks).
+- Day 369. Neris healed Brennus and Iulia. Lucilla's contacts at the Mink knew the Jutlander: he drinks there till
+  midnight and staggers home along the river stair. Vestus asked at the Tower: they know the Krysean for a
+  charlatan who sells fortunes at the baths and lives two streets from the Chapterhouse.
+- Night of day 369. On the river stair the Jutlander saw Vettius in the shadows and came at him with his axe; he
+  missed, and Phaedra's whispered spell dropped him asleep on the steps. Vestus finished it. The river took him.
+- Night of day 370. Vettius opened the Krysean's door and the man never woke; Iulia did the Order's work.
+- Day 371. Oppius brought 2,000gp for the Jutlander.
+- Day 372. The Nicean wine-seller had a second sealed note for "Vasan": "Morning dew. For the house of Vasan
+  Tikala: one commission." Lucilla knows that password from the ledger: it is Liber Faunus. The table argued (Rosa:
+  "He's our buyer!"); Gideon called it: the oath stands, the Order is told. Word went to the Temple of Justice. The
+  same Watch optio came to the Citadel about the Krysean found dead in his house: Vestus had asked after him at
+  the Tower. Iulia told him the man was a charlatan the Tower despised; the optio wrote it down and went away
+  uninterested.
+
 ## Who they met
 - An old farmer by the Türos Quell road (day 362): bent, three teeth, chews a straw; "She was a pretty thing once."
 - Four Knights of the Winged Sun (Arëtar's escort, day 362).
@@ -90,6 +124,10 @@ given Vestus a name: Una of the Thelesa villa.
   kept for month 14's selling day); the witch, the grey walker and 9 giant rats (315 XP); 7,346 XP over 9 shares.
 - Day 362 (A61): Arëtar's gift, 750gp.
 - Day 364 (A62): the Order's commission for Una, 2,000gp; 2,000 XP over 9 shares.
+- Day 367 (A63, I7): 42 troglodytes (920 XP over 8.5 shares); no treasure.
+- Night of day 369 (A64): Hrad's purse 18gp; 98 XP over 5.5 shares. Night of day 370 (A65): Balkar's strongbox 85gp;
+  135 XP over 5.5 shares. Day 371 (A66): the Order's 2,000gp for Hrad over 5.5 shares. The commission for Balkar
+  (1,500gp) comes day 373.
 
 ## Rumours given
 - Day 358: Lucilla's contacts at the Mink (the villa, its madwoman and the grey walker on the wall).
@@ -100,7 +138,12 @@ given Vestus a name: Una of the Thelesa villa.
 - The rainbow disc is at the Tower of Knowledge until day 375.
 
 ## Next time
-Day 365, evening, the Solar Citadel. Thirteen, all whole (Lucilla 23/23). No adventure open. Month 13 runs to day
+Day 372, evening, the Solar Citadel. Hrodvar abed to day 381; the rest whole or nearly. The Order has been told of
+Liber's note (its answer comes day 373); Oppius brings 1,500gp for the Krysean on day 373. The disc is named on day
+375. Below: the broken lizard-man hive past I7 (their chieftain alive, their hoard somewhere east), the serpent door,
+the sealed cases.
+
+(Week 1 close:) Day 365, evening, the Solar Citadel. Thirteen, all whole (Lucilla 23/23). No adventure open. Month 13 runs to day
 390: Iulia's report to Arëtar is due by then. The disc is named on day 375. Below: the serpent door, the sealed
 cases and their sleeper, the narrow way east from the Cave of the Falling Star.
 
@@ -141,4 +184,25 @@ cases and their sleeper, the narrow way east from the Cave of the Falling Star.
 > dew"), target a Nicean merchant who spurned the Family's smuggling (4); a sealed note for "Vasan" at the Nicean
 > wine stalls; Lucilla hears of it unasked 4 (not this week; 1-in-6 a day she passes the Emporium, or at once if
 > she asks there or at her Rumormongering). Destrio's charge: report anyone who seeks the Brotherhood.
+> Days 366-372: Emporium hearing 5 (366), 2 (368), 4 (369), 1 (372: heard). Descent 49 (A63): Vettius' Sneaking 1
+> (fail; earshot: Walking at 50' in a loud place: not audible); water-bearers 3, 4, 2 (none); enc295: troglodytes 37
+> (I6: 2 champions, 11 warriors, 24 breeders), surprised 2; Vestus' diplomatic 2d6-4 3 (Unfriendly); breeders fled
+> (MM: fight only for eggs). Fireball 1: 21, sphere caught 12 of 13 (6+1d6 6); 11 slain (champion 1 and 10
+> warriors), survivors champion (6 hp) and one warrior fled (morale 4). I2 band in 2+1d4 3 rounds, I1 band 4+1d6 2
+> rounds. enc296 (chieftain hp 28 AC 9, sub-chieftain 20, 4 champions, 15 warriors): caught 10+1d6 5 (15 of 19;
+> chieftain 5 and sub 4 outside); Fireball 2: 30 (14 slain); Phaedra's Fan 7; Neris' Slumber: sub 7 (asleep),
+> champion 18 (saved), warrior 2 (asleep); morale -2 (frightened retreat: the chieftain, 13 hp, fled); coups de
+> grace on the sleepers. I1 band morale on arrival 7 (fight on). enc297: Fans 6 and 6; 9 slain; morale 4
+> (faltering). Darts: Iulia 8 and 6, Hrodvar 4, 8, 7 (-5), Brennus 7 and 7, Marcellus 4. Hrodvar's Mortal Wounds
+> 9 (d20 5 +4) / d6 2: grievous (punctured lung); Neris' cure 3; loyalty 10 (+4 -> +3). Repair Disfigurement and
+> Disability at the Citadel (accepted). Stench saves Varro, Hrodvar (passed).
+> Day 368 Order rolls 3, 1, 4, 3, 3, 4: Vestus (contract 5: Hrad) and Iulia (contract 1: Balkar). Hrad hp 21;
+> Balkar hp 8; Hrad lodges 1 (the Jutland hostel); Balkar 5 (Tower District house). Day 369: the Mink contacts 16
+> (Friendly). Hrad home alone 3; Vettius' Hiding 5 (fail); Hrad's surprise 1d6-2 4 (not surprised); stand-in
+> statline Berserker (hp 21, AC 5); his charge 5 (miss); Phaedra's Slumber: his save 5 vs 13+ (asleep); Vestus'
+> coup de grace; purse 3d6 18. Balkar asleep 3; Vettius' Lockpicking 19, Sneaking 14; wakes 6 (no); Iulia's coup de
+> grace; strongbox 4d6 17 x5 = 85gp ("4d6x5" rolled five times by the engine's repeat syntax: the first stands,
+> the other four void). Commissions: Hrad 1d3 1 (day 371), Balkar 1d3 2 (day 373). Day 372: Brotherhood weekly 2
+> (none new); Liber's second note heard (1); Hrad ashore 5 (no); the Watch reaches the company about Balkar 1: the
+> optio's reaction 11 (Indifferent: no further steps); Destrio's answer 1d3 1 (day 373).
 

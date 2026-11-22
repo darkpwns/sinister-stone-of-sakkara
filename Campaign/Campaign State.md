@@ -5,13 +5,13 @@ tags:
 session: 19
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A62 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A66 paid out)
 public:
   date:
     year: ''
     season: spring
-    day: 367
-  time: '10:41'
+    day: 372
+  time: 05:43
   weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; drizzle; wind moderate (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.71
+    encumbrance_st: 10.109
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.121
+    encumbrance_st: 10.13
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -42,7 +42,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 4.902
+    encumbrance_st: 5.287
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -51,26 +51,26 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 4.542
+    encumbrance_st: 4.566
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 9
+    hp: 22
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.416
+    encumbrance_st: 10.825
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 25
+    hp: 36
     hp_max: 39
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 10.249
+    encumbrance_st: 10.273
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -86,7 +86,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.118
+    encumbrance_st: 10.337
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -94,11 +94,11 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 7.24
+    encumbrance_st: 7.442
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 17
+    hp: 21
     hp_max: 21
     conditions: []
     spells_used: []
@@ -110,7 +110,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 7.407
+    encumbrance_st: 7.609
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -128,13 +128,14 @@ public:
     spells_used: []
     encumbrance_st: 4.883
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
-  rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d (incapacitated); Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Saturnin: food 0 d, water 0.2 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d (incapacitated); Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Thelesa villa is clean: Una dead, the grey walker destroyed (day 362); the Order paid Vestus (day 364)'
   - The rainbow disc is with the Tower of Knowledge, to be named on day 375
   - The jade vine ring stays unnamed in the vault (it was the Provost's)
   - 'Vestus read of the Great Teacher: the reliquary''s egg-bulbs call him awake'
+  - 'The Order''s work: the Jutlander and the Krysean are dead; Oppius owes Iulia''s commission'
   - 'Below: the serpent door in the vestibule; the sealed cases in the reliquary; the narrow way east from the Cave of the Falling Star'
   - Gems and jewels from the villa wait in the barracks for month 14's selling day
   - The black barge at Tertulla's landing, paid to day 377
@@ -159,7 +160,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 367
+clock_day: 372
 ---
 # Campaign State
 

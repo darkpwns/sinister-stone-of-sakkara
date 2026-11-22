@@ -855,3 +855,22 @@ cart along (Hrodvar drives) or plan for it; `state end` does not delete Campaign
 the next `encounter fight`); end an encounter before rolling surprise for the next; a spear's broken shaft is
 repaired for 1gp, not lost (Rulings S19; check an engine `break` line at once); Loremastery has no recorded throw
 in the engine: `throw ID --target N` (18+ less 1 per level after 1st).
+
+## S20 after the second S19 week — start here (supersedes everything above)
+**State on resume:** day 372 ~06:00 (the clock reads the morning of 372; the narration ran to its evening: `wait`
+to evening first), spring, Cyfaraun, the Solar Citadel. No adventure open (A66 paid out). Location Cyfaraun
+(settlement). Thirteen; **Hrodvar on bed rest to day 381** (3/14 hp, lung mended); Brennus, Iulia, Marcellus
+healing. Lucilla max hp 23.
+
+**Days 366-372:** 367 descent 49 (A63): I7, 42 troglodytes slain, no treasure; 368 Order rolls: Vestus (Hrad the
+Blood Axe) and Iulia (Balkar), both done (A64 night of 369, A65 night of 370); A66 Hrad's commission (day 371);
+372 Liber's second note heard and reported; the Watch optio Indifferent about Balkar.
+
+**Open:** 373 Oppius with Balkar's 1,500gp (book as its own record, A65's participants) and Destrio's answer about
+Liber (Judge decides: a contract on Liber, or the Order's own work); 375 the disc named and Order rolls; the
+troglodyte hive (chieftain in I2 with the hoard; shaman I13); F14/T; F17; F19; 376 Varro, Hrodvar wages; 377
+Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends; 391 selling day.
+
+**Routine (S19 week 2):** after every `state end`, write the party's hp to the actors by hand (the engine does not);
+never rename combatant groups; `roll` "xK" repeats, it does not multiply; night errands: the rollover passes while
+awake, reset spells after the morning sleep.

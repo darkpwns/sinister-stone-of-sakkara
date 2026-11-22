@@ -82,6 +82,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 309 expedition 34 (A40): 2 shadows (wanderers, temple halls) destroyed (Marcellus enervated, cured day 312); tunnel prawns and 4 giant toads turned; **the white fish re-charmed by Neris (second casting); next weekly save day 323 (day 316's failed)**; 4 jackals of darkness (wanderers, G14 11:13) destroyed at the well; **G14: the abyssal king destroyed (Rod; 2,600 XP); crown, gold box and rubies, 4,000gp, jars, throne and chariot taken; the four bronze statues remain, active only when the tomb is disturbed (never touched anyone: barred by the Underwatch shield)**. 2 giant crabs turned. The four canoes left hidden against the cliff at P5 (assembled).
 - Day 310 expedition 35 (A41): G14's gilded bronze sarcophagus taken (G14 now holds only the four statues, the pots' shards and the dais). Repeat wanderers ignored (clearing: mummy twice, insect swarm). 8 sepulchral worms on a drowned troglodyte taken by the white fish.
 
+- Day 367 expedition 49 (A63): **I7** reached by the F18 east stair; the troglodytes of I6 and the I2 and I1 bands broken in the I7 tunnel: **42 slain** (4 champions, the sub-chieftain, 37 warriors) by two Fireballs, three Fans and Slumber; fled: the **chieftain (13/28 hp)**, 3 champions (two 7 hp, one 13 hp, the I6 one 6 hp: one of them is the I6 survivor), 5 warriors (9, 3, 3, 2, 2 hp), all breeders (to I4/I5), the D8 hunting gang (6) still out. I6's carcasses and graves untouched; I8's resin seal untouched; I2's hoard untaken. Tribe morale: the chieftain lives (ML +2). Judge's watch: the survivors hold I2 and the egg ledges; the shaman (I13) may seek terms.
+
 ### [[Shrine of the Horned Rat]] (Old District #13u; day 306, A38)
 - Entered by the dyers' lane drain (Liber's word). Room 1: tripwire and chime disarmed, rubble opened. West room 2 and north-central room 2: rat swarms burned (2, 130 XP). Room 4: Abimbola's pack asleep: Abimbola, a seer and 5 wererats slain by coup de grace; 1 seer captured (to the Citadel's cells); the chest (1,000gp 4,800sp), spices, Abimbola's pouch and Lann Dhuille (to Varro) taken. Room 5: the secret door to 6 found. Room 6: 11 giant rats burned (one fled); **the altar broken (no longer a sinkhole)**. Room 7: Terkinos's chest (2,640gp) and furs taken; the magic-locked door to 8 battered down. Room 8: Mentenus's chest (2,400gp) smashed open; his papers, map and books taken (to Arëtar). Left: the NW and SE rooms 2 (swarms), their secret doors (not found), the bronze urn (the Knight's ashes). **Terkinos's pack (Terkinos, 2 arcanists, 5 wererats) alive**, out searching noon-midnight on day 306. Home at midnight to its dead, the broken altar and Mentenus's smashed room, it **abandoned the Shrine** that night through the NW room 2's secret door into the unkeyed tunnels north, and sent word to Mentenus at once (user's ruling, day 316, replacing the day-309 roll of 5). **The Shrine is empty** but for the NW and SE rooms' rat swarms.
 
@@ -154,6 +156,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Cotta (Vettius' henchman, Explorer 2, Outrider; day 331): loyalty +0, morale 0.
 
 - **Day 362: Arëtar's month-12 task done** (the Thelesa haunt: Lady Lipsus' petition): the witch slain fleeing, the grey walker destroyed, her altar broken, her prayer book and symbol given to him; gift 750gp (A61). Still Friendly. Iulia's month-13 report due by day 390.
+- **The Order (day 368):** Vestus' contract Hrad the Blood Axe done night of 369 (commission 2,000gp paid day 371, A66); Iulia's contract Balkar done night of 370 (1,500gp due day 373). Liber's note for Vasan reported day 372 (Destrio's answer day 373). [[Order Contracts (S18)]].
 - **The Order:** Vestus' contract (Una) done day 362; the commission (2,000gp) comes by Oppius on day 364. Order rolls day 361: none; next day 368.
 
 ## Former characters (day 161)
@@ -168,6 +171,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Day 373:** Oppius with 1,500gp for Balkar (Iulia's; its own record, participants of A65); Destrio's answer to the report of Liber's note (Judge: the Order may set Liber as a contract; the Family's attitude if the company is seen in it).
+- **Hrodvar** on bed rest to day 381 (grievous wound, day 367); his punctured lung mended (Repair, Neris paid 185gp).
+- **Watch:** the optio's questions about Balkar (day 372, Indifferent); weekly 1-in-6 that Hrad's body comes ashore (from day 379).
 - **The Brotherhood sought again (week of day 365, 1-in-6 came up 1): Liber Faunus** (ledger password "morning dew") leaves a sealed note for "Vasan Tikala" at the Nicean wine stalls: one commission, a Nicean merchant who spurned the Family's smuggling (Judge to name him when it surfaces). The wine-seller (Friendly to Lucilla) holds it. Lucilla hears of it unasked on a 1 (1d6) each day she passes the Emporium, or at once if she asks there or uses Rumormongering. Destrio's charge: report anyone who seeks the Brotherhood (a dilemma: Liber is the company's fence, Friendly). No reply comes, so Liber asks again at the stalls a week later (day 372) and then gives it up.
 - **Day 364:** Brother Oppius with Vestus' 2,000gp commission for Una (book it as its own record, like A59).
 - **Day 375:** the Tower of Knowledge names the rainbow disc L386 (paid 2,000gp by Lucilla for the A57 share-holders, day 361). L327 (the Provost's jade ring) stays unidentified in the vault: not to be shown at the Tower.
@@ -189,16 +195,16 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: Nethercity F: F14's snake-loop door (found, blade; T1 down to T2: the Great Teacher, 11 HD, [[Great Teacher (SOTN)]]);
-  F17's three cases (opening any wakes him: Judge decides where he is and what he does; he can pass the F14 blade by
-  the T1 lever); F19 (2 rhagodessae, no treasure); F18's east finger down to I7 (troglodytes; [[Nethercity I - Deep
-  Level Southern Cave Complex]]); one grave ghoul fled (3 hp, F area). The Thelesa villa: done (empty).
+- Sites: Nethercity I (troglodytes broken at I7: the chieftain and survivors in I2, the hoard in an I2 grave, the
+  shaman in I13, the brothers' sepulchre I8 sealed, the J1 bronze door half open); F14's serpent door and T (the
+  Great Teacher, 11 HD); F17's cases (the alarm); F19 (2 rhagodessae).
 - Threads: the disc named day 375 (Tower; then Liber at 80% or kept: Vestus could steer it; an energy crystal is in
   the F17 lance); the jade ring (the Provost's: magic research by Vestus, 10 days and 2,000gp, or a sage outside the
   city); Liber's note for Vasan (above); Iulia's month-13 report by day 390 and the month-end task roll; Vestus'
   Thunderbolt formula kept; the Order's weekly rolls (368).
-- Scheduled: 368 Order rolls; 369 Phaedra's wage; 372 Brotherhood weekly roll (and Liber asks again); 375 the disc;
+- Scheduled: 373 Oppius (Balkar 1,500gp) and Destrio's answer; 375 the disc; 375 Order rolls; 379 Brotherhood weekly;
   376 Varro, Hrodvar; 377 Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends (fees,
   investments 1 and 3, investment 2's first roll after its delay, Iulia's rolls and report, Vestus' dues, Cotta's
   wage to 420); 391 selling day (the villa's gems and jewels L393-L397, L399-L407).
+- NPCs: Hrad (dead), Balkar (dead), Zeodan Lausa (Hrad's petitioner, patrician), Oma's father (a travelling merchant).
 - NPCs: the old farmer by the Türos Quell road (bent, three teeth, chews a straw; "She was a pretty thing once.").

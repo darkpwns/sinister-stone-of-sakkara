@@ -28,3 +28,25 @@ on day 355.
   Saturnin can track from the shop's back door.
 - **Tactics:** alone; flees by the cellar's drain into the Undercity if pressed; carries an unholy symbol of Dirgion
   and a purse of 37gp from the burglary.
+
+## Day 368 assignments (S19): Vestus (4) and Iulia (4)
+Delivered by Brother Oppius on day 369 (Judge's call). Una's contract (6) done day 362; Rufio's done day 358.
+
+### Vestus' contract (5): Hrad the Blood Axe (AX3 table 5)
+- **Hrad the Blood Axe**, Jutland barbarian (Barbarian 4, Chaotic; Judge's call: hp 21, AC 5 (leather and shield,
+  barbarian's agility), battle axe 1d8+1 (STR), morale +1; berserk when wounded below half: +2 to hit, -2 AC).
+  Killed young noble Umic in an illicit duel in The Mink; Umic's father, patrician **Zeodan Lausa**, petitioned
+  (avoiding scandal). Commission **2,000gp**.
+- **Where:** lodges at the Jutland mercenaries' hostel by the Bridge Gate (Bridge District); drinks at The Mink
+  (Old District, the Argollëan Family's) every night until about midnight and walks home alone along the river
+  stair, drunk (Judge's call: a -2 to his surprise rolls after midnight). Killing him inside The Mink would be the
+  Family's business (Liber's attitude falls a step).
+
+### Iulia's contract (1): Balkar the Krysean theurgist (AX3 table 1)
+- **Balkar**, Krysean theurgist (Mage 3, Chaotic; Judge's call: hp 8, AC 9, dagger; spells 2 1st, 1 2nd:
+  Beguile Humanoid, Mage Missile, Invisibility (Judge's call from the arcane list; RR)). Bewitched young **Oma**
+  into acts against her will until she killed herself; her father, a travelling merchant, petitioned with her
+  journal. Commission **1,500gp**.
+- **Where:** a small rented house in the Tower District, two streets from the Chapterhouse; he sells charms and
+  "fortunes" to young people at the Public Baths' portico by day; home after dark. A Tower member (Vestus) can learn
+  of him (Loremastery or asking the thaumaturges: the Tower knows him for a charlatan, not a member).

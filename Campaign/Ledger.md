@@ -2621,3 +2621,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 367 |  | treasure share |  |  |  |  |
 | 367 |  | treasure share |  |  |  |  |
 | 367 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | neris |
+| 369 | the retinue | wages paid |  |  | 400gp | vettius |
+| 369 | Lucilla's old contacts (the Mink) | a day's pay for word of a Jutland barbarian who killed a young noble in a duel, day 369 |  |  | 5sp | lucilla |
+| 370 |  | treasure share |  | 3gp 2sp 7cp |  | vestus-the-unlikely |
+| 370 |  | treasure share |  | 3gp 2sp 7cp |  | vettius |
+| 370 |  | treasure share |  | 3gp 2sp 7cp |  | lucilla |
+| 370 |  | treasure share |  | 3gp 2sp 7cp |  | brennus |
+| 370 |  | treasure share |  | 1gp 6sp 4cp |  | phaedra |
+| 370 |  | treasure share |  | 1gp 6sp 4cp |  | varro |
+| 370 |  | treasure share |  | 1gp 6sp 4cp |  | aelia |
+| 371 |  | treasure share |  | 15gp 4sp 5cp |  | iulia |
+| 371 |  | treasure share |  | 15gp 4sp 5cp |  | vettius |
+| 371 |  | treasure share |  | 15gp 4sp 5cp |  | neris |
+| 371 |  | treasure share |  | 15gp 4sp 5cp |  | lucilla |
+| 371 |  | treasure share |  | 15gp 4sp 5cp |  | brennus |
+| 371 |  | treasure share |  | 7gp 7sp 3cp |  | varro |
+| 371 |  | treasure share |  | 363gp 6sp 4cp |  | vestus-the-unlikely |
+| 371 |  | treasure share |  | 363gp 6sp 4cp |  | vettius |
+| 371 |  | treasure share |  | 363gp 6sp 4cp |  | lucilla |
+| 371 |  | treasure share |  | 363gp 6sp 4cp |  | brennus |
+| 371 |  | treasure share |  | 181gp 8sp 2cp |  | phaedra |
+| 371 |  | treasure share |  | 181gp 8sp 2cp |  | varro |
+| 371 |  | treasure share |  | 181gp 8sp 2cp |  | aelia |
+| 372 | the Nicean wine-seller (the Emporium stalls) | a day's pay for the second note for Vasan Tikala, day 372 |  |  | 5sp | lucilla |
