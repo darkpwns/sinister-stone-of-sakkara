@@ -2,7 +2,7 @@
 type: session
 session: 20
 date_real: 2026-11-22
-date_game: spring day 393-407
+date_game: spring day 393-414
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -141,6 +141,16 @@ Argollëan Family. The Order has not yet named Selene.
   the Family at their worth (255gp). Aranth sent word to Lucilla's bedside: a Family man had sold the Watch at
   Watchtower III the news that the Captain's companion heads the Family; the tower is the Family's, and the word
   went no further than Aranth's desk. One of the oath-takers is a traitor; nobody yet knows which.
+- Day 408. Rosa's council at her bedside, Iulia not in the room ("what the Captain doesn't hear, the Captain can't
+  be asked"; Gideon and Ingrid insisted). A Family oath-taker had sold the Family to the Watch; there would be
+  others. Hesta's plan: four tales, one to each of the Family's four kinds of small folk, each tale pointing at a
+  different place where Sand & Bones or the Watch would have to show its hand. The singers, dancers and courtesans
+  heard that Lucilla would be carried by night from the Citadel to The Mink on night 410; the clerks and factors of
+  the front, that the Family had bought a Watch subaltern to raid the Pony's cellar on the Blood Moon night; the
+  wharf and barge men, that a barge with the month's silver for Arganos would leave the Family wharf at first light
+  on day 411; the caravan hands and the racket's toughs, that the Family would burn the Pony's warehouses on night
+  411. Family eyes on each place; Hesta's girls and the Family's quiet men behind the wharf crews; and a note to
+  Thana: watch Jonus' informer money this week.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).

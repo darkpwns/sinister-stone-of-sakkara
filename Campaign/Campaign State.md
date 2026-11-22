@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 407
-  time: '18:53'
+    day: 408
+  time: 07:53
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -56,7 +56,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 21
+    hp: 23
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -75,7 +75,7 @@ public:
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 8
+    hp: 11
     hp_max: 14
     conditions: []
     spells_used: []
@@ -83,7 +83,7 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 15
+    hp: 16
     hp_max: 23
     conditions: []
     spells_used: []
@@ -91,7 +91,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 14
+    hp: 17
     hp_max: 20
     conditions: []
     spells_used: []
@@ -99,7 +99,7 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 18
+    hp: 20
     hp_max: 21
     conditions: []
     spells_used: []
@@ -161,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 407
+clock_day: 408
 ---
 # Campaign State
 
