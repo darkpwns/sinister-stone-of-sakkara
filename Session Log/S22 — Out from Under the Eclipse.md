@@ -27,6 +27,20 @@ Order of the Eclipse's errands: Iulia must be got out from under it.
   was struck from the rolls. The Order will see to the Watch's questions: the Temple of Justice has a word for the
   Prefect when the old justice has been done.
 
+- Day 430. Phaedra's month paid. The fifty-sixth descent, twelve strong, to the trapdoor under the great nave's
+  broken tiles. Neris raised her ward at the foot of the ladder; Hrodvar rigged the west slab, and it rolled at the
+  first heave. A gaunt robed corpse sat up in a gilded bronze sarcophagus, and all down the gallery and in the tomb
+  beyond the arch the reptilian skeletons began to climb out of their graves, a score a round, until a hundred and
+  twenty stood around the ward with curved bronze swords and could not pass it. The corpse-priest came to the edge of
+  the circle and three times commanded Iulia to stop, and three times she stood silent; between his words she raised
+  the sun, and Vestus and Phaedra burned the crowd with fireballs and fans. Half a turn of it and three more, until
+  the last skeleton fell and only the priest stood outside the ward, wrapped in a shimmer of light. Iulia's sun would
+  no longer move him. Neris let the circle fall and seven blessed and magic blades cut him apart in a single round.
+  His tomb: mosaics of a mighty elf priest before a cheering crowd, a partly gilded bronze sarcophagus, four statuettes
+  of ivory and gold, an alabaster tablet of prayers, a gold candelabrum set with ivory and white topaz, and thousands
+  of gold and silver coins among broken pottery. The east slab they did not touch. Out at 15:59. Vestus has risen to
+  the seventh rank of his art.
+
 ## Who they met
 
 ## Treasure and XP

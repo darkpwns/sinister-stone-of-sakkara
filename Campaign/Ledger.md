@@ -395,7 +395,17 @@ tags:
 | 425 | Descent 54 (K, the Hallowed Hall) | a gold trumpet | 1,200 | vestus-the-unlikely |
 | 425 | Descent 54 (K, the Hallowed Hall) | a chryselephantine statuette of a dwarf warrior with a hammer | 900 | vestus-the-unlikely |
 | 427 | The Order's contract: Kalbo (night of 426-427) | reward 2000.0gp | 2,000 | iulia |
-
+| 430 | Descent 56 (S, the hidden tombs) | a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles) | 375 | brennus |
+| 430 | Descent 56 (S, the hidden tombs) | a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles) | 375 | varro |
+| 430 | Descent 56 (S, the hidden tombs) | a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles) | 375 | hrodvar |
+| 430 | Descent 56 (S, the hidden tombs) | a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles) | 375 | marcellus |
+| 430 | Descent 56 (S, the hidden tombs) | four chryselephantine statuettes of elven kings and priests | 2,800 | lucilla |
+| 430 | Descent 56 (S, the hidden tombs) | an alabaster tablet of prayers in Ancient Argollean | 1,000 | vestus-the-unlikely |
+| 430 | Descent 56 (S, the hidden tombs) | a gold candelabrum inset with ivory and white topaz, twenty sticks of myrrh in it | 4,750 | iulia |
+| 430 | Descent 56 (S, the hidden tombs) | 2,000 gold pieces | 2,000 | vettius |
+| 430 | Descent 56 (S, the hidden tombs) | 4,000 silver pieces | 400 | phaedra |
+| 430 | Descent 56 (S, the hidden tombs) | 3,000 silver pieces | 300 | neris |
+| 430 | Descent 56 (S, the hidden tombs) | 3,000 silver pieces | 300 | aelia |
 
 ## Monster XP
 
@@ -506,6 +516,8 @@ tags:
 | 425 | Descent 54 (K, the Hallowed Hall) | Sepulchral Worm | 15 | 16 | 240 |
 | 427 | The Order's contract: Kalbo (night of 426-427) | Kalbo (AX3) | 1 | 80 | 80 |
 | 427 | Descent 55 (F19, G1a) | Rhagodessa (AX3) | 2 | 215 | 430 |
+| 430 | Descent 56 (S, the hidden tombs) | Skeleton | 120 | 47 | 5,640 |
+| 430 | Descent 56 (S, the hidden tombs) | Mummy Cultist of Iskara (SOTN) | 1 | 2,600 | 2,600 |
 
 ## Shares and XP awarded
 
@@ -1076,6 +1088,18 @@ tags:
 | 427 | Descent 55 (F19, G1a) | Aelia | 0.5 | 0 | 24 | 0 | +0% | 24 |
 | 427 | Descent 55 (F19, G1a) | Marcellus | 0.5 | 0 | 24 | 0 | +0% | 24 |
 | 427 | Descent 55 (F19, G1a) | Cotta | 0.5 | 0 | 24 | 0 | +0% | 24 |
+| 430 | Descent 56 (S, the hidden tombs) | Lucilla | 1 | 1,450 | 916 | 0 | +10% | 2,603 |
+| 430 | Descent 56 (S, the hidden tombs) | Vettius | 1 | 1,450 | 916 | 0 | +5% | 2,484 |
+| 430 | Descent 56 (S, the hidden tombs) | Vestus the Unlikely | 1 | 1,450 | 916 | 0 | +5% | 2,484 |
+| 430 | Descent 56 (S, the hidden tombs) | Brennus | 1 | 1,450 | 916 | 0 | +5% | 2,484 |
+| 430 | Descent 56 (S, the hidden tombs) | Iulia | 1 | 1,450 | 916 | 0 | +5% | 2,484 |
+| 430 | Descent 56 (S, the hidden tombs) | Neris | 1 | 1,450 | 916 | 0 | +0% | 2,366 |
+| 430 | Descent 56 (S, the hidden tombs) | Phaedra | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
+| 430 | Descent 56 (S, the hidden tombs) | Varro | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
+| 430 | Descent 56 (S, the hidden tombs) | Hrodvar | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
+| 430 | Descent 56 (S, the hidden tombs) | Aelia | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
+| 430 | Descent 56 (S, the hidden tombs) | Marcellus | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
+| 430 | Descent 56 (S, the hidden tombs) | Cotta | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
 
 ## Wages
 
@@ -3222,3 +3246,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 428 | Cyfaraun | torch | 6 |  | 1sp | aelia |
 | 428 | Cyfaraun | torch | 6 |  | 1sp | aelia |
 | 430 | the retinue | wages paid |  |  | 400gp | vettius |
+| 430 |  | treasure share |  | 333gp 3sp 3cp |  | lucilla |
+| 430 |  | treasure share |  | 333gp 3sp 3cp |  | vettius |
+| 430 |  | treasure share |  | 333gp 3sp 3cp |  | vestus-the-unlikely |
+| 430 |  | treasure share |  | 333gp 3sp 3cp |  | brennus |
+| 430 |  | treasure share |  | 333gp 3sp 3cp |  | iulia |
+| 430 |  | treasure share |  | 333gp 3sp 3cp |  | neris |
+| 430 |  | treasure share |  | 166gp 6sp 7cp |  | phaedra |
+| 430 |  | treasure share |  | 166gp 6sp 7cp |  | varro |
+| 430 |  | treasure share |  | 166gp 6sp 7cp |  | hrodvar |
+| 430 |  | treasure share |  | 166gp 6sp 7cp |  | aelia |
+| 430 |  | treasure share |  | 166gp 6sp 7cp |  | marcellus |
+| 430 |  | treasure share |  | 166gp 6sp 7cp |  | cotta |

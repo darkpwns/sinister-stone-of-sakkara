@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 88,
-  "L": 557,
+  "L": 568,
   "H": 44,
-  "M": 168
+  "M": 170
  },
  "adventure": {
   "id": "A88",
@@ -19,11 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 118712,
     "level_before": 8,
-    "class": "Venturer"
+    "class": "Venturer",
+    "returned_day": 430,
+    "xp_award": 2603
    },
    "vettius": {
     "id": "vettius",
@@ -33,11 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 96530,
     "level_before": 8,
-    "class": "Thief"
+    "class": "Thief",
+    "returned_day": 430,
+    "xp_award": 2484
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -47,11 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 77890,
     "level_before": 6,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 430,
+    "xp_award": 2484
    },
    "brennus": {
     "id": "brennus",
@@ -61,11 +67,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 89964,
     "level_before": 7,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 430,
+    "xp_award": 2484
    },
    "iulia": {
     "id": "iulia",
@@ -75,11 +83,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 89408,
     "level_before": 7,
-    "class": "Crusader"
+    "class": "Crusader",
+    "returned_day": 430,
+    "xp_award": 2484
    },
    "neris": {
     "id": "neris",
@@ -89,11 +99,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 82803,
     "level_before": 7,
-    "class": "Priestess"
+    "class": "Priestess",
+    "returned_day": 430,
+    "xp_award": 2366
    },
    "phaedra": {
     "id": "phaedra",
@@ -103,11 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 34528,
     "level_before": 5,
-    "class": "Mage"
+    "class": "Mage",
+    "returned_day": 430,
+    "xp_award": 1183
    },
    "varro": {
     "id": "varro",
@@ -117,11 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 33939,
     "level_before": 6,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 430,
+    "xp_award": 1183
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -131,11 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 33337,
     "level_before": 5,
-    "class": "Dwarven Vaultguard"
+    "class": "Dwarven Vaultguard",
+    "returned_day": 430,
+    "xp_award": 1183
    },
    "aelia": {
     "id": "aelia",
@@ -145,11 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 36396,
     "level_before": 6,
-    "class": "Bard"
+    "class": "Bard",
+    "returned_day": 430,
+    "xp_award": 1183
    },
    "marcellus": {
     "id": "marcellus",
@@ -159,11 +179,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 35133,
     "level_before": 6,
-    "class": "Fighter"
+    "class": "Fighter",
+    "returned_day": 430,
+    "xp_award": 1183
    },
    "cotta": {
     "id": "cotta",
@@ -173,18 +195,193 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 4660,
     "level_before": 3,
-    "class": "Explorer"
+    "class": "Explorer",
+    "returned_day": 430,
+    "xp_award": 1183
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M169",
+    "monster": "Skeleton",
+    "source": "Skeleton",
+    "number": 120,
+    "how": "killed",
+    "xp_each": 47
+   },
+   {
+    "id": "M170",
+    "monster": "Mummy Cultist of Iskara (SOTN)",
+    "source": "Mummy Cultist of Iskara (SOTN)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 2600
+   }
+  ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 430,
+   "at": "Cyfaraun",
+   "total": 21290.0,
+   "per_share": 2365.5555555555557,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 2366,
+     "pct": 10,
+     "pen": 0,
+     "award": 2603,
+     "xp_before": 118712,
+     "xp_after": 121315,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 2366,
+     "pct": 5,
+     "pen": 0,
+     "award": 2484,
+     "xp_before": 96530,
+     "xp_after": 99014,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 2366,
+     "pct": 5,
+     "pen": 0,
+     "award": 2484,
+     "xp_before": 77890,
+     "xp_after": 80374,
+     "capped": null,
+     "zero": false,
+     "level_up": 7
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 2366,
+     "pct": 5,
+     "pen": 0,
+     "award": 2484,
+     "xp_before": 89964,
+     "xp_after": 92448,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 2366,
+     "pct": 5,
+     "pen": 0,
+     "award": 2484,
+     "xp_before": 89408,
+     "xp_after": 91892,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 2366,
+     "pct": 0,
+     "pen": 0,
+     "award": 2366,
+     "xp_before": 82803,
+     "xp_after": 85169,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 1183,
+     "pct": 0,
+     "pen": 0,
+     "award": 1183,
+     "xp_before": 34528,
+     "xp_after": 35711,
+     "capped": null,
+     "zero": false
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 1183,
+     "pct": 0,
+     "pen": 0,
+     "award": 1183,
+     "xp_before": 33939,
+     "xp_after": 35122,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 1183,
+     "pct": 0,
+     "pen": 0,
+     "award": 1183,
+     "xp_before": 33337,
+     "xp_after": 34520,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 1183,
+     "pct": 0,
+     "pen": 0,
+     "award": 1183,
+     "xp_before": 36396,
+     "xp_after": 37579,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 1183,
+     "pct": 0,
+     "pen": 0,
+     "award": 1183,
+     "xp_before": 35133,
+     "xp_after": 36316,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 0.5,
+     "why": null,
+     "base": 1183,
+     "pct": 0,
+     "pen": 0,
+     "award": 1183,
+     "xp_before": 4660,
+     "xp_after": 5843,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 430,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -53279,6 +53476,401 @@
    "sold": null,
    "judge": [],
    "divided_day": 427
+  },
+  "L558": {
+   "id": "L558",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 375.0,
+    "stone": 5.0,
+    "name": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L559": {
+   "id": "L559",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 375.0,
+    "stone": 5.0,
+    "name": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L560": {
+   "id": "L560",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 375.0,
+    "stone": 5.0,
+    "name": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L561": {
+   "id": "L561",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 375.0,
+    "stone": 5.0,
+    "name": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L562": {
+   "id": "L562",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.34,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2800.0,
+    "stone": 1.34,
+    "name": "four chryselephantine statuettes of elven kings and priests",
+    "merch": null
+   },
+   "player": {
+    "desc": "four chryselephantine statuettes of elven kings and priests",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L563": {
+   "id": "L563",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1000.0,
+    "stone": 1.0,
+    "name": "an alabaster tablet of prayers in Ancient Argollean",
+    "merch": null
+   },
+   "player": {
+    "desc": "an alabaster tablet of prayers in Ancient Argollean",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L564": {
+   "id": "L564",
+   "adventure": "A88",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.2,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 4750.0,
+    "stone": 1.2,
+    "name": "a gold candelabrum inset with ivory and white topaz, twenty sticks of myrrh in it",
+    "merch": null
+   },
+   "player": {
+    "desc": "a gold candelabrum inset with ivory and white topaz, twenty sticks of myrrh in it",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "solar-citadel-barracks",
+    "day": 430
+   }
+  },
+  "L565": {
+   "id": "L565",
+   "adventure": "A88",
+   "kind": "coins",
+   "qty": 2000,
+   "stone": 2.0,
+   "carrier": "vettius",
+   "status": "divided",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 2000,
+    "value_gp": 2000.0,
+    "stone": 2.0,
+    "name": "2,000 gold pieces"
+   },
+   "player": {
+    "desc": "2,000 gold pieces",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 430
+  },
+  "L566": {
+   "id": "L566",
+   "adventure": "A88",
+   "kind": "coins",
+   "qty": 4000,
+   "stone": 4.0,
+   "carrier": "phaedra",
+   "status": "divided",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 4000,
+    "value_gp": 400.0,
+    "stone": 4.0,
+    "name": "4,000 silver pieces"
+   },
+   "player": {
+    "desc": "4,000 silver pieces",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 430
+  },
+  "L567": {
+   "id": "L567",
+   "adventure": "A88",
+   "kind": "coins",
+   "qty": 3000,
+   "stone": 3.0,
+   "carrier": "neris",
+   "status": "divided",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 3000,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "3,000 silver pieces"
+   },
+   "player": {
+    "desc": "3,000 silver pieces",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 430
+  },
+  "L568": {
+   "id": "L568",
+   "adventure": "A88",
+   "kind": "coins",
+   "qty": 3000,
+   "stone": 3.0,
+   "carrier": "aelia",
+   "status": "divided",
+   "found": {
+    "day": 430,
+    "where": "S2"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 3000,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "3,000 silver pieces"
+   },
+   "player": {
+    "desc": "3,000 silver pieces",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 430
   }
  },
  "hoards": {
