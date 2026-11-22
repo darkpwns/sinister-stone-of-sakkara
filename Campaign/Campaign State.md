@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 402
-  time: 07:43
+    day: 403
+  time: 05:43
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -161,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 402
+clock_day: 403
 ---
 # Campaign State
 

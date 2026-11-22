@@ -92,6 +92,16 @@ Argollëan Family. The Order has not yet named Selene.
   the woman of the ruby lips. Hesta's girls found Thana's hour (she walks home from the Pony at dawn with one
   footpad); Lucilla dictated a letter from her bed: when the Pony's mistress falls, its honest trade is Thana's to
   run under the Family's roof, no pit, no flesh. Thana sent back one line: "Tomorrow, at dawn. Alone, or not at all."
+- Day 403, before dawn. Lucilla went in a curtained chair to the portico of the old baths on Silk Street, Vettius
+  in the shadows across the street, the bearers sent off. Thana Nyssand came alone: tired eyes, ink on her fingers,
+  a merchant's courtesy. "Profit is profit. The rest is just risk with blood on it, and I am tired of the blood."
+  Her terms: the Pony's honest trade (the stalls, the cantinas, the houses) hers to run under the Family; Jonus
+  lives. What she gave: Selene sleeps below behind the wall since the lanista died and comes into the long room in
+  the evenings; Jonus is sullen but still at her side; on the night before the full moon the pit opens as always,
+  and Selene has promised the crowd "the Mink's lady". Only Selene and the dead lanista worked the wall behind the
+  barrels. And a key: the cellar door's, pressed into Lucilla's hand. "Tomorrow night I pay the house at the bar.
+  Every man below comes up for his silver; for a quarter of an hour the long room is near empty." The Order named no
+  one this week.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
