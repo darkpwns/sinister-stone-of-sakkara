@@ -41,6 +41,12 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
   axe, Lucilla's flask and Marcellus' sword finished it. The other did not come back.
 - Out by the far grate at half past two, rats scattering from the torches in the tunnel. The amphorae went to Liber
   (960gp, shared). Phaedra rose to the fourth rank (Magician).
+- Days 274-281, in town. Brennus slept two nights on the floor under the Solar Citadel's oculus with Neris' prayer
+  of rest on her, and the cold of the touch left her (she keeps the loss). The company bought four hide-and-frame
+  river canoes with paddles from the Lake Laman fishermen (144gp) and spent the week learning to handle them on the
+  lake shallows while Vestus studied the thunderbolt formula and Phaedra the levitation formula she bought at the
+  Tower. Wages paid ahead for Phaedra, Varro and Hrodvar.
+- The call for the next descent: carry the canoes down to the beach and follow the river.
 
 ## Who they met
 

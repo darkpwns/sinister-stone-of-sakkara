@@ -1485,3 +1485,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | hrodvar |
 | 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | aelia |
 | 274 | Cyfaraun | his share of the sale of L219,L220,L221,L222 (after the payout) |  | 56gp 4sp 8cp |  | marcellus |
+| 274 | Solar Citadel (alms) | a pallet under the oculus (hallowed, enervation), night of day 274 (Rulings S10) |  |  | 1gp | brennus |
+| 274 | Silk Pony Inn (#25) | beds for twelve, night of day 274 |  |  | 2gp 4sp | vettius |
+| 275 | Lake Laman fishermen (north-west piers) | four hide-and-frame river canoes with paddles (RR Vessels 40gp each, less Lucilla's bargaining); kept in the Silk Pony stables; vessels are not inventory items (Judge-tracked, World State) |  |  | 144gp | lucilla |
+| 275 | Tower of Knowledge storefront | formula for Levitation (2nd level, 200gp, AX3 p. 152), for her new 2nd-level repertoire place (a week's study, days 275-281) |  |  | 200gp | phaedra |
+| 275 | the retinue | wages paid |  |  | 40gp | vettius |
+| 275 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 275 | the retinue | wages paid |  |  | 25gp | iulia |
+| 275 | Solar Citadel (alms) | a pallet under the oculus (enervation), night of day 275 |  |  | 1gp | brennus |
+| 275 | Silk Pony Inn (#25) | beds for twelve, night of day 275 |  |  | 2gp 4sp | vettius |
+| 276 | Silk Pony Inn (#25) | beds for twelve, night of day 276 |  |  | 2gp 4sp | vettius |
+| 277 | Silk Pony Inn (#25) | beds for twelve, night of day 277 |  |  | 2gp 4sp | vettius |
+| 278 | Silk Pony Inn (#25) | beds for twelve, night of day 278 |  |  | 2gp 4sp | vettius |
+| 279 | Silk Pony Inn (#25) | beds for twelve, night of day 279 |  |  | 2gp 4sp | vettius |
+| 280 | Silk Pony Inn (#25) | beds for twelve, night of day 280 |  |  | 2gp 4sp | vettius |
+| 281 | Silk Pony Inn (#25) | beds for twelve, night of day 281 |  |  | 2gp 4sp | vettius |

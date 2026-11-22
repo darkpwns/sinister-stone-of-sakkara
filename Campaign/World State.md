@@ -76,6 +76,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
 
+## Vessels (Judge-tracked, not inventory)
+- Four river canoes (RR canoe, 15' x 5', 1 paddler + 60 st; 40gp each, bought day 275), kept in the Silk Pony stables when not in use.
+
 ## Trade routes
 - Lucilla (Venturer, Steady Trade Route): Cyfaraun - Türos Tem, textiles and clothing (bought Cyfaraun, sold Türos Tem); established day 195.
 

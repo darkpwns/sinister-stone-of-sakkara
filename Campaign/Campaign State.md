@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 274
-  time: '14:30'
+    day: 282
+  time: 05:30
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.164
+    encumbrance_st: 8.995
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,16 +34,14 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.282
+    encumbrance_st: 9.212
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 3.498
   - name: Neris
     sheet: Characters/neris.json
@@ -62,9 +60,8 @@ public:
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
-    - 'enervated (wraith''s touch, day 274): Death save each morning on waking; fail = -1 max hp permanently; three passes in a row end it'
     spells_used: []
-    encumbrance_st: 9.654
+    encumbrance_st: 9.652
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -73,7 +70,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.839
+    encumbrance_st: 9.814
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -113,7 +110,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 7.597
+    encumbrance_st: 7.497
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -149,7 +146,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 274
+clock_day: 282
 ---
 # Campaign State
 
