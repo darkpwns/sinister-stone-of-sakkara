@@ -78,6 +78,24 @@ sealed cases, the cave beyond the Falling Star, the half-open bronze door off th
   terrible eye weigh them and find them wanting. A hunched grey ghoul in the galleries; Brennus' axe. Out at 18:38.
 - Evening of 424: Brother Oppius at the Citadel with a sealed word for Iulia: the Order asks retribution on a man.
 
+- Day 425, the fifty-fourth descent. Neris' prayer lifted the whispers out of Brennus' head at dawn. Down through the
+  memorial pillar and the ladder into a gallery of duelling warriors, a room of fallen racks and green bronze, and a
+  sand arena stained dark brown, where a ghostly lizard-man in bronze with a double axe, torn open, rose from the sand
+  and came at the circle; Iulia's Rod drove it off. Beyond: graves in an L-shaped gallery and a long grave gallery
+  (emptied of their goods), a hall of thousands of carved names, and a gallery of mosaics of a dwarven stronghold
+  besieged and destroyed, with a slab door in its west wall (left shut). Vettius found the last mosaic slid aside onto
+  a corridor of black marble slabs, each carved with a winged sun; they walked down the middle. At its end, a vault: a
+  rune-etched curved sword of reddish-gold metal in an ebony scabbard, a bone-white bow and an ebony quiver, a cloak and
+  boots of shimmering many-coloured cloth, two bronze chests of gems and silver, and a heap of silver, electrum and
+  gold coins crowned with trophies: a garnet goblet, a gold collar and earrings, a carved ivory horn, a gold trumpet,
+  and an ivory-and-gold dwarf with a hammer. Tens of thousands of coins went into every pack.
+- Going home: the ghost of the arena came again and fled again from Iulia's sun. In the galleries an ochre mass oozing
+  across the floor, burned with two of Vestus' fireballs and Phaedra's fan; then a writhing heap of pale worms, ash
+  under Iulia's rebukes and the magic blades, but Varro and Vettius were bitten and the rot is in them (Neris cured
+  Varro). Out at 18:52.
+- Saturnin, made a scout in the Nethercity, came out of it richer than he ever was behind a cantina bar, and that
+  night told Lucilla he was done: he means to go his own road. He left with his kit and his pay.
+
 ## Who they met
 
 ## Treasure and XP

@@ -356,6 +356,44 @@ tags:
 | 424 | Descent 53 (J, the upper temple) | gem worth 1000.0gp | 1,000 | lucilla |
 | 424 | Descent 53 (J, the upper temple) | Wand of Fear | 40 | vestus-the-unlikely |
 | 424 | Descent 53 (J, the upper temple) | Ring of Life Protection | 300 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | grave goods from the K8 wall graves | 672 | hrodvar |
+| 425 | Descent 54 (K, the Hallowed Hall) | grave goods from the K12a wall graves | 0 (left (not brought back)) | left |
+| 425 | Descent 54 (K, the Hallowed Hall) | a quarter of the grave goods from the K12a wall graves | 504 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | a quarter of the grave goods from the K12a wall graves | 504 | brennus |
+| 425 | Descent 54 (K, the Hallowed Hall) | a quarter of the grave goods from the K12a wall graves | 504 | iulia |
+| 425 | Descent 54 (K, the Hallowed Hall) | a quarter of the grave goods from the K12a wall graves | 504 | saturnin |
+| 425 | Descent 54 (K, the Hallowed Hall) | Sword +2, Valor | 660 | vettius |
+| 425 | Descent 54 (K, the Hallowed Hall) | an ebony scabbard inlaid with electrum | 550 | vettius |
+| 425 | Descent 54 (K, the Hallowed Hall) | a polished ebony quiver inlaid with electrum | 550 | cotta |
+| 425 | Descent 54 (K, the Hallowed Hall) | Cloak of the Elven Ranger | 3,780 | aelia |
+| 425 | Descent 54 (K, the Hallowed Hall) | Boots of the Elven Ranger | 20 | aelia |
+| 425 | Descent 54 (K, the Hallowed Hall) | Long Bow +1 | 650 | cotta |
+| 425 | Descent 54 (K, the Hallowed Hall) | an empty bronze chest | 125 | phaedra |
+| 425 | Descent 54 (K, the Hallowed Hall) | an empty bronze chest (second) | 125 | neris |
+| 425 | Descent 54 (K, the Hallowed Hall) | 4,000 silver pieces | 400 | vestus-the-unlikely |
+| 425 | Descent 54 (K, the Hallowed Hall) | a hundred small quartzes and forty small crystals | 1,400 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | fifteen bloodstones | 750 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | eight amethysts | 800 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | gem worth 1000.0gp | 1,000 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | gem worth 1000.0gp | 1,000 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | gem worth 1000.0gp | 1,000 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | gem worth 1000.0gp | 1,000 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | gem worth 1000.0gp | 1,000 | lucilla |
+| 425 | Descent 54 (K, the Hallowed Hall) | 4,000 gold pieces | 4,000 | vettius |
+| 425 | Descent 54 (K, the Hallowed Hall) | 4,000 gold pieces | 4,000 | varro |
+| 425 | Descent 54 (K, the Hallowed Hall) | 2,000 gold pieces | 2,000 | marcellus |
+| 425 | Descent 54 (K, the Hallowed Hall) | 5,000 electrum pieces | 2,500 | cotta |
+| 425 | Descent 54 (K, the Hallowed Hall) | 3,000 electrum pieces | 1,500 | aelia |
+| 425 | Descent 54 (K, the Hallowed Hall) | 2,000 electrum pieces | 1,000 | saturnin |
+| 425 | Descent 54 (K, the Hallowed Hall) | 4,000 silver pieces | 400 | phaedra |
+| 425 | Descent 54 (K, the Hallowed Hall) | 3,000 silver pieces | 300 | neris |
+| 425 | Descent 54 (K, the Hallowed Hall) | 3,000 silver pieces | 300 | marcellus |
+| 425 | Descent 54 (K, the Hallowed Hall) | a gold goblet set with four red garnets | 1,000 | vestus-the-unlikely |
+| 425 | Descent 54 (K, the Hallowed Hall) | a collar cut from one sheet of gold | 800 | vestus-the-unlikely |
+| 425 | Descent 54 (K, the Hallowed Hall) | a pair of gold earrings | 1,000 | vestus-the-unlikely |
+| 425 | Descent 54 (K, the Hallowed Hall) | SOTN Horn of the Eagles | 750 | vestus-the-unlikely |
+| 425 | Descent 54 (K, the Hallowed Hall) | a gold trumpet | 1,200 | vestus-the-unlikely |
+| 425 | Descent 54 (K, the Hallowed Hall) | a chryselephantine statuette of a dwarf warrior with a hammer | 900 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -462,6 +500,8 @@ tags:
 | 424 | Descent 53 (J, the upper temple) | Lesser Faewyrd (SOTN) | 1 | 245 | 245 |
 | 424 | Descent 53 (J, the upper temple) | Jackal of Darkness (SOTN) | 2 | 135 | 270 |
 | 424 | Descent 53 (J, the upper temple) | Grave Ghoul | 1 | 38 | 38 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Ochre Ooze | 1 | 500 | 500 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Sepulchral Worm | 15 | 16 | 240 |
 
 ## Shares and XP awarded
 
@@ -1002,6 +1042,19 @@ tags:
 | 424 | Descent 53 (J, the upper temple) | Marcellus | 0.5 | 874 | 29 | 0 | +0% | 904 |
 | 424 | Descent 53 (J, the upper temple) | Saturnin | 0.5 | 874 | 29 | 0 | +0% | 904 |
 | 424 | Descent 53 (J, the upper temple) | Cotta | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Lucilla | 1 | 4,121 | 78 | 0 | +10% | 4,619 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Vettius | 1 | 4,121 | 78 | 0 | +5% | 4,409 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Vestus the Unlikely | 1 | 4,121 | 78 | 0 | +5% | 4,409 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Brennus | 1 | 4,121 | 78 | 0 | +5% | 4,409 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Iulia | 1 | 4,121 | 78 | 0 | +5% | 4,409 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Neris | 1 | 4,121 | 78 | 0 | +0% | 4,199 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Phaedra | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Varro | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Hrodvar | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Aelia | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Marcellus | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Saturnin | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 425 | Descent 54 (K, the Hallowed Hall) | Cotta | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
 
 ## Wages
 
@@ -3106,3 +3159,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 424 |  | treasure share |  | 78gp 9sp 5cp |  | marcellus |
 | 424 |  | treasure share |  | 78gp 9sp 5cp |  | saturnin |
 | 424 |  | treasure share |  | 78gp 9sp 5cp |  | cotta |
+| 425 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 425 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 425 |  | treasure share |  | 1,726gp 3sp 2cp |  | lucilla |
+| 425 |  | treasure share |  | 1,726gp 3sp 2cp |  | vettius |
+| 425 |  | treasure share |  | 1,726gp 3sp 2cp |  | vestus-the-unlikely |
+| 425 |  | treasure share |  | 1,726gp 3sp 2cp |  | brennus |
+| 425 |  | treasure share |  | 1,726gp 3sp 2cp |  | iulia |
+| 425 |  | treasure share |  | 1,726gp 3sp 2cp |  | neris |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | phaedra |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | varro |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | hrodvar |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | aelia |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | marcellus |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | saturnin |
+| 425 |  | treasure share |  | 863gp 1sp 6cp |  | cotta |
