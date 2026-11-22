@@ -175,9 +175,13 @@ monsters slain or fled, survivors of `state end`, traps sprung).
   blamed on Sand & Bones (a Silk Pony die on his pillow; the Family's reading 4). Change in Management (Rulings S19):
   Aranth Faunus accepts; Hesta Faunus and Megaravicos Eight-Fingers hesitant (loyal while the betrayers are no
   plurality); 25 0th-level members **betray** (pretend loyalty; Judge: each week 1-in-6 one sells word to Sand & Bones
-  or the Watch); 26 accept with élan (+1 loyalty), the rest accept. 224 members. Base: the hideout under The Mink
-  (11u). Lucilla's take: 12,065gp a month (AX3 p. 75), from day 390. The Mink and Liber's businesses: Aranth and
-  Hesta's. The Family wants war on Sand & Bones (Selene); the Order will name Selene at a weekly roll. Lucilla holds
+  or the Watch); 26 accept with élan (+1 loyalty), the rest accept. 224 members. Base (Rulings S19 correction): Liber's guildhouse, i.e. The
+  Mink and the hideout under it (11u, its treasury in room 3: 15,000ep, 10,000gp, orichalcum armband 3,000, wreath
+  4,000, torque 9,000, the eyes of the eagle, an elven spear +1; magic-locked door, blast rune, poisoned locks: the
+  password is the Family's), and the front's houses. Lucilla's monthly income from day 390: syndicate 12,065gp
+  (hijinks: XP above her threshold), front 1,500gp and half the venture company 2,750gp (no XP). Aranth manages The
+  Mink and keeps his half of the venture company; Hesta runs the entertainment; the deeds are theirs, held for the
+  Family. The Family wants war on Sand & Bones (Selene); the Order will name Selene at a weekly roll. Lucilla holds
   Liber's medallion (L419) and sword (L421), unidentified; the strongbox (blackmail files) returned to the Family
   unopened (it is the Family's again, i.e. Lucilla's to read: +1 on later Change in Management or loyalty rolls of
   members it compromises).

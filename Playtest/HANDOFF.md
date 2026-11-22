@@ -905,8 +905,9 @@ Selene; Change in Management day 383 (Rulings S19): **Lucilla heads the Argollë
 
 **Open:** day 389 Oppius (Virathos 1,000gp, its own record) and Order rolls (Selene named to the first 4); 390 month
 13 ends: Guildhouse fees, investments 1, 2 (first roll after its delay) and 3, Iulia's report and task roll, Vestus'
-dues, Cotta's wage, **the Family's first monthly take (12,065gp) to Lucilla** (Rulings S19) and its hijink XP if
-the rules give it (RR Experience from Hijinks: check before paying); 391 selling day through the Family at full value
+dues, Cotta's wage, **the Family's first month to Lucilla** (Rulings S19 correction): syndicate 12,065gp (XP only
+above her monthly XP threshold, RR Experience from Hijinks), the front 1,500gp and half the venture company 2,750gp
+(no XP); she holds Liber's guildhouse (The Mink, the hideout 11u and its treasury); 391 selling day through the Family at full value
 (villa gems and jewels; identify L419 medallion and L421 sword first; the jade ring L327 is the Provost's: still not in
 Cyfaraun) and Tertulla; the war with Sand & Bones (the Family expects it); the 25 betrayers (weekly 1-in-6); below:
 the troglodyte hive, F14/T, F17, F19.
