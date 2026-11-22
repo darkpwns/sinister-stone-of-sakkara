@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 309
-  time: '14:57'
+    day: 310
+  time: '14:00'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -34,16 +34,14 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.659
+    encumbrance_st: 9.157
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Mage Missile
+    spells_used: []
     encumbrance_st: 4.449
   - name: Neris
     sheet: Characters/neris.json
@@ -52,9 +50,7 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Bewitch Beast
-    - Bewitch Beast
+    spells_used: []
     encumbrance_st: 4.607
   - name: Brennus
     sheet: Characters/brennus.json
@@ -90,7 +86,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 13.282
+    encumbrance_st: 9.282
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -114,8 +110,7 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.922
   - name: Gnaeus
     sheet: Characters/gnaeus.json
@@ -151,7 +146,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 309
+clock_day: 310
 ---
 # Campaign State
 

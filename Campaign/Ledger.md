@@ -159,6 +159,7 @@ tags:
 | 309 | Nethercity, expedition 34 (the bronze guards) | 4 terracotta canopic jars | 100 | neris |
 | 309 | Nethercity, expedition 34 (the bronze guards) | an ebony throne inlaid with ivory and gold leaf (two bearers) | 2,000 | hrodvar |
 | 309 | Nethercity, expedition 34 (the bronze guards) | the gilded cedar and ivory parts of a dismantled light chariot (two bearers) | 1,500 | marcellus |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | a gilded bronze sarcophagus (four bearers) | 3,500 | brennus |
 
 ## Monster XP
 
@@ -450,6 +451,18 @@ tags:
 | 309 | Nethercity, expedition 34 (the bronze guards) | Aelia | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
 | 309 | Nethercity, expedition 34 (the bronze guards) | Marcellus | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
 | 309 | Nethercity, expedition 34 (the bronze guards) | Gnaeus | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Lucilla | 1 | 389 | 0 | 0 | +10% | 428 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Vettius | 1 | 389 | 0 | 0 | +5% | 408 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Iulia | 1 | 389 | 0 | 0 | +5% | 408 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Vestus the Unlikely | 1 | 389 | 0 | 0 | +5% | 408 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Neris | 1 | 389 | 0 | 0 | +0% | 389 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Brennus | 1 | 389 | 0 | 0 | +5% | 408 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Phaedra | 0.5 | 194 | 0 | 0 | +0% | 194 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Varro | 0.5 | 194 | 0 | 0 | +0% | 194 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Hrodvar | 0.5 | 194 | 0 | 0 | +0% | 194 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Aelia | 0.5 | 194 | 0 | 0 | +0% | 194 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Marcellus | 0.5 | 194 | 0 | 0 | +0% | 194 |
+| 310 | Nethercity, expedition 35 (the gilded coffin) | Gnaeus | 0.5 | 194 | 0 | 0 | +0% | 194 |
 
 ## Wages
 
@@ -1843,3 +1856,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 309 |  | treasure share |  | 222gp 2sp 2cp |  | gnaeus |
 | 309 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 8sp | vettius |
 | 309 | Cyfaraun | Holy Water (1 pint) | 4 |  | 100gp | marcellus |
+| 309 | Silk Pony Inn (#25) | beds for ten, night of day 309 (Neris and Marcellus at the Citadel) |  |  | 2gp | vettius |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
+| 310 |  | treasure share |  |  |  |  |
