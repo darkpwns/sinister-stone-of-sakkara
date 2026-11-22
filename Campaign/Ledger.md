@@ -306,6 +306,7 @@ tags:
 | 418 | The office behind the dead room (night of 418) | Dagger +2 | 3 | vettius |
 | 418 | The office behind the dead room (night of 418) | Leather Armor +1 | 10 | brennus |
 | 418 | The office behind the dead room (night of 418) | Ring of Protection | 250 | lucilla |
+| 421 | The Order's commission for Selene (day 421) | reward 4500.0gp | 4,500 | iulia |
 
 ## Monster XP
 
@@ -897,6 +898,12 @@ tags:
 | 418 | The office behind the dead room (night of 418) | Neris | 1 | 6,044 | 122 | 0 | +0% | 6,166 |
 | 418 | The office behind the dead room (night of 418) | Brennus | 1 | 6,044 | 122 | 0 | +5% | 6,474 |
 | 418 | The office behind the dead room (night of 418) | Vestus the Unlikely | 1 | 6,044 | 122 | 0 | +5% | 6,474 |
+| 421 | The Order's commission for Selene (day 421) | Iulia | 1 | 750 | 0 | 0 | +5% | 788 |
+| 421 | The Order's commission for Selene (day 421) | Lucilla | 1 | 750 | 0 | 0 | +10% | 825 |
+| 421 | The Order's commission for Selene (day 421) | Vettius | 1 | 750 | 0 | 0 | +5% | 788 |
+| 421 | The Order's commission for Selene (day 421) | Neris | 1 | 750 | 0 | 0 | +0% | 750 |
+| 421 | The Order's commission for Selene (day 421) | Brennus | 1 | 750 | 0 | 0 | +5% | 788 |
+| 421 | The Order's commission for Selene (day 421) | Vestus the Unlikely | 1 | 750 | 0 | 0 | +5% | 788 |
 
 ## Wages
 
@@ -2933,3 +2940,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 420 | Tower of Knowledge (members' dues) | Vestus' Tower dues, month 15 (10gp a month, AX3 p. 148), paid day 420 |  |  | 10gp | vestus-the-unlikely |
 | 420 | the retinue | wages paid |  |  | 50gp | vettius |
 | 420 | the Argollëan Family | month 14: the Family's syndicate 12,060gp (AX3 p. 75, less the five drowned betrayers), Sand & Bones' syndicate 3,525gp (7,050gp after the war's dead, halved: claimed day 419, Rulings S20), the front's houses and The Mink 1,450gp (a wrecked bawdyhouse -50), Liber's half of the venture company 2,750gp, Lucilla's half of Sand & Bones' business half-month 812gp |  | 20,597gp |  | lucilla |
+| 421 | market | his share of the sale of L459,L460,L461,L462,L463,L464,L465 (after the payout) |  | 3,750gp 4sp 9cp |  | iulia |
+| 421 | market | his share of the sale of L459,L460,L461,L462,L463,L464,L465 (after the payout) |  | 3,750gp 4sp 9cp |  | lucilla |
+| 421 | market | his share of the sale of L459,L460,L461,L462,L463,L464,L465 (after the payout) |  | 3,750gp 4sp 9cp |  | vettius |
+| 421 | market | his share of the sale of L459,L460,L461,L462,L463,L464,L465 (after the payout) |  | 3,750gp 4sp 9cp |  | neris |
+| 421 | market | his share of the sale of L459,L460,L461,L462,L463,L464,L465 (after the payout) |  | 3,750gp 4sp 9cp |  | brennus |
+| 421 | market | his share of the sale of L459,L460,L461,L462,L463,L464,L465 (after the payout) |  | 3,750gp 4sp 9cp |  | vestus-the-unlikely |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 4,999gp 9sp 9cp |  | iulia |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 2,500gp |  | lucilla |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 4,999gp 9sp 9cp |  | vettius |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 4,999gp 9sp 9cp |  | neris |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 4,999gp 9sp 9cp |  | brennus |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 4,999gp 9sp 9cp |  | vestus-the-unlikely |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 1,250gp 1cp |  | marcellus |
+| 421 | market | his share of the sale of L466,L437,L438,L435 (after the payout) |  | 1,250gp 1cp |  | aelia |
+| 421 |  | treasure share |  | 750gp |  | iulia |
+| 421 |  | treasure share |  | 750gp |  | lucilla |
+| 421 |  | treasure share |  | 750gp |  | vettius |
+| 421 |  | treasure share |  | 750gp |  | neris |
+| 421 |  | treasure share |  | 750gp |  | brennus |
+| 421 |  | treasure share |  | 750gp |  | vestus-the-unlikely |
+| 421 | Tertulla, Lake Laman fisherwoman | mooring the black barge two more weeks (days 420-433), two days late (day 421) |  |  | 4gp | lucilla |

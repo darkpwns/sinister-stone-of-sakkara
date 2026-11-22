@@ -250,6 +250,17 @@ Argollëan Family. The Order has not yet named Selene.
   The Family's month came to Lucilla: 20,597 gold, the old Family's take, half a month of Sand & Bones', the houses,
   the barges and caravans, half the Pony's honest trade; she banked twenty thousand. Lucilla has risen to the eighth
   rank of her calling (a merchant venturer: the guilds will lend to her now) and has learned to make men afraid.
+- Day 421, selling day. Selene's black sapphire, star ruby and star sapphire, her small stones, the finger-bone
+  necklace and the copper armbands went through the Family at their full worth (22,503gp); her dagger, the lanista's
+  sword and spear and the humming sling bullets were sold too (30,000gp). Brother Oppius brought the Order's 4,500gp
+  for the woman of the ruby lips. An optio of Watchtower II called at the Citadel: a wharf informer of his had gone
+  into the river; did the Captain know anything of drowned wharf men? The Captain knew nothing, which was the truth,
+  and the optio went away content ("the river's full of fools"). Lucilla paid Tertulla two days late for two more weeks at her landing. Gerra, the burglar and the other Pony men in the
+  cellars under The Mink came up into the light as members of the Family.
+
+The surface is quiet. Gideon, at the evening meal: "Selene's dead, the Pony's ours, the rats are in the river.
+We've been playing at cutthroats for a month. The Nethercity hasn't gone anywhere." Rosa counted the empty rooms
+below; Priya unrolled the map at the serpent door. They go down again.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
@@ -271,6 +282,13 @@ Argollëan Family. The Order has not yet named Selene.
 - Day 411 (A78, the barge): six Pony men taken; purses 13gp; 173 XP over 6.5 shares.
 - Night of 413 (A79, the empty chair): five hooded toughs and an arena veteran slain, Gerra, two clubmen and a
   veteran taken; purses 21gp; 361 XP over 7 shares.
+- Night of 418 (A80, Selene's office): Selene slain; her hoard (9,000ep, 9,000gp, three great stones, small stones,
+  a necklace, armbands; a dagger +2, leather armour +1, a ring of protection +1); 36,996 XP over 6 shares. Sold day
+  421 through the Family (gems and jewels 22,503gp; the dagger 15,000gp, sale XP); Vettius wears the armour, Neris the
+  ring. Vettius Thief 8, Neris Priestess 7.
+- Day 420: Lucilla's hijink XP from the Family's month (13,185): Venturer 8.
+- Day 421: the lanista's sword and spear and the sling bullets sold (15,000gp, sale XP to the A74 share-holders);
+  the Order's commission for Selene (A81, 4,500gp over 6 shares).
 
 ## Rumours given
 
@@ -283,8 +301,10 @@ Argollëan Family. The Order has not yet named Selene.
   company's oath. Pluris bought the lanista's orcs, hobgoblins and gnolls; Nuvicus his bugbears and ogre.
 - Thana Nyssand has given Lucilla a key to the Pony's cellar door.
 - Arëtar has charged the Captain with Selene (in chains or ended); the Order has named her to Iulia.
-- Four wharf men who sold the Family's secrets to the Watch are in the river; nine who sell to the Pony are watched
-  and fed what the Family wants Selene to hear.
+- Four wharf men who sold the Family's secrets to the Watch are in the river (a fifth, Spurius, day 415); nine who
+  sold to the Pony are watched.
+- Selene Nictorian is dead (night of 418); Sand & Bones belongs to the Argollëan Family under Lucilla (day 419),
+  Thana running its honest trade; the blood pit is closed.
 
 ## Next time
 Day 400, evening, the Solar Citadel. Lucilla 10/23 and scarred; Aelia, Varro and Marcellus lightly hurt; the rest
@@ -299,6 +319,10 @@ Blood Moon night is about day 415, when Selene means to put Lucilla in her pit.
 (Week 3 close:) Day 414, evening, the Solar Citadel. Lucilla abed to day 416; Vettius 8/22, Aelia 11/20, Marcellus 14/21.
 Arëtar's charge and the Order's name are both on Selene, who sleeps behind the wall in her office and will sit by
 her sand tomorrow night, the night before the full moon. The Family's cellars hold Gerra and nine more Pony men.
+
+(Week 4 close:) Day 421, evening, the Solar Citadel. Thirteen, whole or nearly. Selene is dead and Sand & Bones is the
+Family's; Iulia's charges are done and she is clean. Lucilla Venturer 8, Vettius Thief 8, Neris Priestess 7. The
+company turns back to the Nethercity: the serpent door, the sealed cases, the rhagodessae, the shaman's magic rock.
 
 > [!judge]- Judge rolls
 > Resume correction (day 393): the actors of Hrodvar and Saturnin carried "dead (thirst, CON 0)" since S19 week 3
@@ -345,3 +369,10 @@ her sand tomorrow night, the night before the full moon. The Family's cellars ho
 > Night of 413, the chair (enc314): surprise Neris 2 (surprised), the rest attentive; S&B not surprised. Foes: Gerra the destroyer (Assassin 5, hp 25, AC 4, morning star 5+ 1d10+4), 5 hoods, 2 thugs, 2 Nuvicus veterans (hp 6, AC 3, 10+). Inits: h1 6; h3, h4, v2 5; h2 4; t1, v1 3; ds, t2 2; h5 1. R1: h1 vs Varro 10 miss; Brennus' charge on h1 23 (down); Aelia's blow on h1 (already down: wasted, my slip); h3 charge Marcellus 19 hit 7; h4 vs Varro 4 miss; v2 vs Marcellus 10 miss; Hrodvar's charge on h3 10 (down); h2 vs Aelia 19 hit 2; Marcellus on h3 (already down: wasted); Brennus cleaves h4 (nat 20, down), v2 14 (down), h2 9 (down); Cotta vs Gerra 17 hit 3 (25 -> 22); Vestus' Slumber t1, v1, t2 (1 HD, no save); Vettius' backstab (rear) 15 hit 17 (22 -> 5); Gerra vs Vettius 3 miss; Varro vs Gerra 6 miss; Phaedra's Slumber h2 7 (already down), h5 14 (saved); h5 vs Aelia 7 miss. Morale 6 (fight on); Marcellus 8. R2: h5 vs Aelia 14 hit 7; Brennus vs h5 nat 20 (down); Vettius' "Freeze" on Gerra: Spells save 18 (resisted); Gerra vs Vettius 19 hit 14 (22 -> 8); Hrodvar's wrestle 12 hit, her save 19 (free); Marcellus' wrestle -1 miss; morale (cornered) 12: victory or death; Aelia 7. R3: Brennus vs Gerra 17 hit (5 -> -9); Varro's blow on the fallen void (my slip). Gerra's Mortal Wounds (Neris' Healing, 1 round) 4+5 = 9: grievous (2 weeks' bed rest); Neris' Cure Light Injury 7 (alive). state end: h1 -1, h2 0, h3 -5, h4 -6, h5 -3, v2 -3: slain. A79: 361 XP over 7 shares.
 > Day 414: weekly: Brotherhood 6 (none); an unprompted betrayer 5 (no); the Watch 4 (no). Selene's move for 414-420: 4 (a Family house), day 3 (day 416). Selene acts on the baths tale 2 (hoods watch the baths). Watchtower II on the strongroom tale 6 (nothing). Eliminations: Rufinus 4, Mamercus 2 (quiet). Gerra questioned 2d6+3 13 (talks: Selene sleeps in office 1 on a couch; the lever under the desk sets the portcullis; pit nights she sits beside Lutarius; Jonus drinks upstairs). Selene holds the Blood Moon night 2 (yes: night of 415, the night before the full moon of 416). Sales day 414: #9 Cluentius (S&B; Thana's chits, report ~418), #13 Vibius (tail), #22 Atta (tail), #23 Mamercus (Watchtower II; deduced: crew D's only untraced man). Names (Judge's call): #14 Fuscus the caulker, #25 Naevius the porter, #24 Rufinus the sail-mender, #9 Cluentius, #13 Vibius, #22 little Atta, #23 Mamercus the tar-boiler.
 > Traitor ledger (Judge only): all 25 wharf men are betrayers. Known to the party as Pony informers (alive, watched, double agents): Brocchus #4, Pollio #10, Mettius #11, Sabinus #15, Tullo #17, Fuscus #14, Naevius #25, Vibius #13, Atta #22 (Cluentius #9 when Thana reports). Drowned (Watch sellers): Lartius #7, Glaucus #19, Rufinus #24, Mamercus #23. Not yet traced: #1, #2, #3, #5 (sells to Watchtower III day 415), #6 (sold to the Pony day 409, untraced), #8, #12, #16, #18, #20, #21, plus Cluentius #9.
+> Week 4 (days 415-421). Day 415: #5 Spurius (Watchtower III, the caravan tale) drowned 3 (quiet); the Blood Moon crowd 5 (full); Thana agrees to a second call of the house at the second hour of the pay night 2 (yes); Selene keeps to her office on pay night 418: 1 (in the office).
+> Day 416: Selene's move (a Family house) 5: a bawdyhouse by the Emporium wrecked, its girls beaten (the front -50gp this month, 1d4 1 x 50: Judge's call). Lucilla's bed rest ended (14/23).
+> Day 417: Lucilla draws 3,000gp from her Guildhouse balance.
+> Night of 418: Vestus' Invisibility (Vettius) and Slumber (the two dicers: a thug 5, no save; a hood 2, save 1 vs 13+: asleep); the ten unnoticed 6; men left below 1d3 2; Selene hears 6 (no); Vettius' Sneaking 14; Trapbreaking 8 (taken as the methodical attempt, +4 = 12 vs 11+: disarmed; the table had two hours and Tomasz works methodically: my slip in not declaring it before the throw). enc315: Selene not surprised (6-1 = 5). Her answer to "come in chains" 2d6+1 6 (bargains: the chests and the names for her freedom); refused: 1d6 6 (the dagger). Inits Brennus 8, Iulia 6, Vettius 5, Vestus 5, Neris 4, knight 4, Selene 4, knight 3, Lucilla 2. Brennus 18 hit (27 -> 12); Iulia 22 hit (12 -> 3); Vettius invisible backstab (rear) 22 hit (3 -> -6); Iulia's coup de grace. Hoard (Hideout 1): 9,000ep, 9,000gp, black sapphire 10,000, star ruby 6,000, star sapphire 6,000, finger-bone necklace 23, copper armbands 140 x2; on her: 20 small gems (200gp; L462 fixed by hand), Dagger +2 (L466, apparent 3gp), Ring of Protection (L468, apparent 250gp; the +1 from her AC line), Leather Armor +1 on its stand (L467, apparent 10gp). Leaving at the second hour 2 (unnoticed). A80: 36,996 XP over 6 shares (the knights unpaid, no share). Vettius Thief 8 (hp 8d4 28; class proficiency Alertness, Tomasz's choice); Neris Priestess 7 (hp 7d4 20). Arëtar's gift 3 (none); the Order's commission (500gp x 9 = 4,500gp) 1d3 3 (day 421).
+> Day 419: Arëtar's disposal 5 (quietly to the pit of the condemned: no public court). The city links the Captain's deed and the Mink's lady's new guild 3 (no; checked at each weekly roll). Change in Management (RR, Creating a Criminal Guild): Lucilla CHA +2, Diplomacy +2 (she speaks), bribes a month's wage each +3 (Bribery; 8,140gp for 135 members), levels 7 vs 9 -2, Selene's CHA 18 -3, Judge +1 (Selene's ruin, the Abattoir, the pay through Thana) = +3. Jonus +5 15 (élan); Lutarius 8 (hesitate); the 6th-level assassin 9 (accept); the 5th-level thief 12 (élan); Gerra +1 8 (hesitate); the 4th-level bard 8 (hesitate); the burglar 8 (hesitate); 3rd (6) 12 (élan); 2nd (8) 12 (élan); 1st (25) 8, (19) 8 (hesitate); 0th (25) 6 (hesitate), (25) 13 (élan), (20) 12 (élan). Thana accepts (her deal). No betrayers: the hesitant stay loyal. Sand & Bones' members after the war: 149 - 14 dead = 135 (dead: Selene, the slayer Corvinus, 2 enforcers, the robber, 9 hoods; the losses charged to the 2nd- and 1st-level thieves).
+> Day 420: L466 Dagger +2 trained (Vettius), L467 Leather Armor +1 claimed and worn (Vettius; his old leather sold 20gp), L468 Ring of Protection +1 worn (Neris: AC +1, saves -1 each by actor mods); identified set by hand. Guildhouse fees 0.25% of each balance (13 rows; reconciled 325,381.06). Investments: (1) 26 (Return -100%: nothing; Protector), (2) 47 (Return: 6% of 700 = 42gp, Monopoly to month 15), (3) 79 (Return +150%: 75gp). Iulia's task roll 6 (none). Vestus' dues 10gp; Cotta's wage 50gp. The Family's month 20,597gp (Rulings S20 half-month for Sand & Bones); hijink XP 13,185 (15,585 above the 2,400 threshold): Lucilla Venturer 8 (re-roll 48, less the wraith's 6: 42; class proficiency Intimidation, Rosa's choice). Banked 20,000gp.
+> Day 421: selling day through the Family (Rulings S19): L459-L465 22,503gp (no tax check); L466 Dagger +2 15,000gp (trained, unused: sale XP 15,000 to A80); L437, L438, L435 5,000gp each (sale XP to A74). A81: the Order's commission 4,500gp over A80's 6 shares. Weekly: Brotherhood 3 (none); an unprompted betrayer 3 (no); the Watch 1: who 5 (Watchtower II's optio, about his drowned informer Mamercus), reaction 2d6+3 10 (Friendly: Iulia knew nothing, truly; satisfied); the city links the Captain and the new guild 3 (no); Sand & Bones' hesitant members 6 (none turns). The prisoners (the burglar, 3 hoods, 4 thugs, Gerra) are Sand & Bones members: under the Change in Management (Gerra and the burglar hesitant) they join the Family (Judge's call).

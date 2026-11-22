@@ -1004,3 +1004,27 @@ Keep Iulia's part to the sanctioned charge; the Family's killings and the annexa
 **Routine (S20 week 3):** my fight scripts struck downed foes twice (wasted or void): check hp before each attack;
 the canary procedure in Rulings S20; wages from Lucilla's purse (she is low: about 200gp; her Guildhouse balance or
 the Family's month on 420).
+
+## S20 after the fourth S20 week — start here (supersedes everything above)
+**State on resume:** day 421 ~18:50, spring, Cyfaraun, the Solar Citadel. No adventure open (A81 paid out). Night of
+day 421 first (`tday 13`), then `dawn 422`. Thirteen, whole or nearly. Lucilla Venturer 8 (42 hp max: the wraith's -6
+applied by hand after `level-up`), Vettius Thief 8 (Leather Armor +1, L467), Neris Priestess 7 (Ring of Protection +1,
+L468: AC and save modifiers on her actor). Torches low (Hrodvar 2, Marcellus 1): buy before descending.
+
+**Days 415-421 (the surface threads closed):** Selene slain in her office on Thana's pay night by Iulia under Arëtar's
+charge (A80; her hoard ~36,000gp); Arëtar buried her quietly; Change in Management (day 419): Sand & Bones (135) is
+the Family's (Rulings S20 for the half month); month 14 ended (fees, investments, the Family's 20,597gp, Lucilla's
+hijink XP: Venturer 8); selling day (gems 22,503, magic items 30,000 with sale XP); the Order's 4,500gp (A81); the
+Watchtower II optio satisfied (Iulia knew nothing). Iulia is clean: she never heard of the traitor hunt, and her only
+act was the sanctioned charge.
+
+**Next (the user's direction): the company returns to the Nethercity in earnest from day 422.** Prep queue in World
+State: F14/T, F17, F19, J1 (the bronze door off I7), I8, I9's hatch, I14's pillar; L4 later. Check the J, K and L notes
+for prep status before entry. Weekly surface rolls on 428, 435, ... (Brotherhood, unprompted betrayer, Watch, the
+city linking the Captain and the new guild, Sand & Bones' hesitant); month 15 ends day 450 (the Family's take in full
+for both syndicates).
+
+**Routine (S20 week 4):** `level-up` re-rolls hp without permanent enervation losses (subtract them: Lucilla -6,
+Brennus -6, Vettius -3); a kept magic ring needs `actor mod ID ac.shield|ac.no_shield +N` and `saves.X -N`; armour
+lots are claimed with `inv claim L# ID` (move the old suit off first); `recover --gem VALUE --looks "TEXT"` makes one
+stone: a batch needs its value set by hand; Tertulla's two weeks lapse unnoticed: renew on the due day.
