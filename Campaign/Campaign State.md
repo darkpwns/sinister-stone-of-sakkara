@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 18
+session: 19
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A49 paid out)
@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: winter
-    day: 358
-  time: '12:26'
-  weather: Chilly (51 to 55 F) by day, Chilly (51 to 55 F) at night; mostly cloudy; wind strong
+    day: 360
+  time: 06:26
+  weather: Balmy (69 to 72 F) by day, Balmy (69 to 72 F) at night; drizzle; wind moderate (drizzly)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 11.641
+    encumbrance_st: 12.139
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.205
+    encumbrance_st: 10.595
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -42,7 +42,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 4.844
+    encumbrance_st: 4.834
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -61,7 +61,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.4
+    encumbrance_st: 10.84
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -82,11 +82,11 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 21
+    hp: 23
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.11
+    encumbrance_st: 10.335
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -110,7 +110,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 7.24
+    encumbrance_st: 8.239
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -158,7 +158,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 358
+clock_day: 360
 ---
 # Campaign State
 

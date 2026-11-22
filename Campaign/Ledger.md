@@ -2526,3 +2526,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 358 |  | treasure share |  | 10gp 5sp 7cp |  | vettius |
 | 358 |  | treasure share |  | 10gp 5sp 7cp |  | lucilla |
 | 358 |  | treasure share |  | 5gp 2sp 9cp |  | varro |
+| 358 | Lucilla's old contacts (the Mink) | a day's pay for word of the Thelesa villa, day 358 |  |  | 5sp | lucilla |
+| 359 | Cyfaraun | torch | 6 |  | 1sp | phaedra |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 17984.21 |  |  | 44gp 9sp 6cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 34744.58 |  |  | 86gp 8sp 6cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 14989.45 |  |  | 37gp 4sp 7cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 18404.89 |  |  | 46gp 1cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 34139.05 |  |  | 85gp 3sp 5cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 24144.51 |  |  | 60gp 3sp 6cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 17952.31 |  |  | 44gp 8sp 8cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of neris, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 35739.49 |  |  | 89gp 3sp 5cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 18147.54 |  |  | 45gp 3sp 7cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of varro, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 18415.72 |  |  | 46gp 4cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 34192.53 |  |  | 85gp 4sp 8cp | guildhouse-bank |
+| 360 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 12 (day 360): on 34507.04 |  |  | 86gp 2sp 7cp | guildhouse-bank |
+| 360 | Lucilla's caravans (investments 1 and 3) | month 12 returns: (1) 1% of 693gp = 6gp 9sp 3cp (Return), (3) 1.5% of 3,000gp = 45gp (Return +50%) (RR Passive Investment) |  | 51gp 9sp 3cp |  | lucilla |
+| 360 | the retinue | wages paid |  |  | 50gp | vettius |
+| 360 | Tower of Knowledge (members' dues) | Vestus' Tower dues, month 13 (10gp a month, AX3 p. 148), paid day 360 |  |  | 10gp | vestus-the-unlikely |
+| 360 |  | treasure share |  | 428gp 5sp 7cp |  | brennus |
+| 360 |  | treasure share |  | 428gp 5sp 7cp |  | vettius |
+| 360 |  | treasure share |  | 428gp 5sp 7cp |  | lucilla |
+| 360 |  | treasure share |  | 214gp 2sp 9cp |  | varro |
