@@ -394,6 +394,8 @@ tags:
 | 425 | Descent 54 (K, the Hallowed Hall) | SOTN Horn of the Eagles | 750 | vestus-the-unlikely |
 | 425 | Descent 54 (K, the Hallowed Hall) | a gold trumpet | 1,200 | vestus-the-unlikely |
 | 425 | Descent 54 (K, the Hallowed Hall) | a chryselephantine statuette of a dwarf warrior with a hammer | 900 | vestus-the-unlikely |
+| 427 | The Order's contract: Kalbo (night of 426-427) | reward 2000.0gp | 2,000 | iulia |
+
 
 ## Monster XP
 
@@ -502,6 +504,8 @@ tags:
 | 424 | Descent 53 (J, the upper temple) | Grave Ghoul | 1 | 38 | 38 |
 | 425 | Descent 54 (K, the Hallowed Hall) | Ochre Ooze | 1 | 500 | 500 |
 | 425 | Descent 54 (K, the Hallowed Hall) | Sepulchral Worm | 15 | 16 | 240 |
+| 427 | The Order's contract: Kalbo (night of 426-427) | Kalbo (AX3) | 1 | 80 | 80 |
+| 427 | Descent 55 (F19, G1a) | Rhagodessa (AX3) | 2 | 215 | 430 |
 
 ## Shares and XP awarded
 
@@ -1055,6 +1059,23 @@ tags:
 | 425 | Descent 54 (K, the Hallowed Hall) | Marcellus | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
 | 425 | Descent 54 (K, the Hallowed Hall) | Saturnin | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
 | 425 | Descent 54 (K, the Hallowed Hall) | Cotta | 0.5 | 2,060 | 39 | 0 | +0% | 2,099 |
+| 427 | The Order's contract: Kalbo (night of 426-427) | Iulia | 1 | 444 | 18 | 0 | +5% | 485 |
+| 427 | The Order's contract: Kalbo (night of 426-427) | Vettius | 1 | 444 | 18 | 0 | +5% | 485 |
+| 427 | The Order's contract: Kalbo (night of 426-427) | Brennus | 1 | 444 | 18 | 0 | +5% | 485 |
+| 427 | The Order's contract: Kalbo (night of 426-427) | Neris | 1 | 444 | 18 | 0 | +0% | 462 |
+| 427 | The Order's contract: Kalbo (night of 426-427) | Phaedra | 0.5 | 222 | 9 | 0 | +0% | 231 |
+| 427 | Descent 55 (F19, G1a) | Lucilla | 1 | 0 | 48 | 0 | +10% | 53 |
+| 427 | Descent 55 (F19, G1a) | Vettius | 1 | 0 | 48 | 0 | +5% | 50 |
+| 427 | Descent 55 (F19, G1a) | Vestus the Unlikely | 1 | 0 | 48 | 0 | +5% | 50 |
+| 427 | Descent 55 (F19, G1a) | Brennus | 1 | 0 | 48 | 0 | +5% | 50 |
+| 427 | Descent 55 (F19, G1a) | Iulia | 1 | 0 | 48 | 0 | +5% | 50 |
+| 427 | Descent 55 (F19, G1a) | Neris | 1 | 0 | 48 | 0 | +0% | 48 |
+| 427 | Descent 55 (F19, G1a) | Phaedra | 0.5 | 0 | 24 | 0 | +0% | 24 |
+| 427 | Descent 55 (F19, G1a) | Varro | 0.5 | 0 | 24 | 0 | +0% | 24 |
+| 427 | Descent 55 (F19, G1a) | Hrodvar | 0.5 | 0 | 24 | 0 | +0% | 24 |
+| 427 | Descent 55 (F19, G1a) | Aelia | 0.5 | 0 | 24 | 0 | +0% | 24 |
+| 427 | Descent 55 (F19, G1a) | Marcellus | 0.5 | 0 | 24 | 0 | +0% | 24 |
+| 427 | Descent 55 (F19, G1a) | Cotta | 0.5 | 0 | 24 | 0 | +0% | 24 |
 
 ## Wages
 
@@ -3174,3 +3195,27 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 425 |  | treasure share |  | 863gp 1sp 6cp |  | marcellus |
 | 425 |  | treasure share |  | 863gp 1sp 6cp |  | saturnin |
 | 425 |  | treasure share |  | 863gp 1sp 6cp |  | cotta |
+| 427 |  | treasure share |  | 222gp 2sp 2cp |  | iulia |
+| 427 |  | treasure share |  | 222gp 2sp 2cp |  | vettius |
+| 427 |  | treasure share |  | 222gp 2sp 2cp |  | brennus |
+| 427 |  | treasure share |  | 222gp 2sp 2cp |  | neris |
+| 427 |  | treasure share |  | 111gp 1sp 1cp |  | phaedra |
+| 427 |  | treasure share |  | 222gp 2sp 2cp |  | lucilla |
+| 427 |  | treasure share |  | 222gp 2sp 2cp |  | vestus-the-unlikely |
+| 427 |  | treasure share |  | 111gp 1sp 1cp |  | varro |
+| 427 |  | treasure share |  | 111gp 1sp 1cp |  | hrodvar |
+| 427 |  | treasure share |  | 111gp 1sp 1cp |  | aelia |
+| 427 |  | treasure share |  | 111gp 1sp 1cp |  | marcellus |
+| 427 |  | treasure share |  | 111gp 1sp 1cp |  | cotta |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |
+| 427 |  | treasure share |  |  |  |  |

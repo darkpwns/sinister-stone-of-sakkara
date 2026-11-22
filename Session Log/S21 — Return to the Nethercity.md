@@ -96,6 +96,22 @@ sealed cases, the cave beyond the Falling Star, the half-open bronze door off th
 - Saturnin, made a scout in the Nethercity, came out of it richer than he ever was behind a cantina bar, and that
   night told Lucilla he was done: he means to go his own road. He left with his kit and his pay.
 
+- Day 426, at the Citadel. Brother Oppius' word for Iulia: the Order asks retribution on Kalbo "Baldy", a veteran
+  subaltern of the City Watch, who killed a merchant at the gate by night for refusing his bribe. The Captain asked at
+  a watchtower for his duty roster and was given it freely: the east gate by night, home at dawn to the Festival
+  District with three of his men.
+- Dawn of day 427, a lane in the Festival District. Phaedra and Neris spoke from a doorway; Kalbo and his three men
+  lay down in the street and slept. Iulia did the Order's justice; the watchmen were left sleeping, unharmed. Oppius
+  brought the Order's 2,000 gold before noon.
+- Day 427, the fifty-fifth descent, twelve strong. Beyond the Falling Star cave, the bulbous cave of the basalt
+  stalagmites: Vettius climbed one and saw two huge long-legged spider-things waiting behind them; Vestus' fireball
+  burned one to death and Varro killed the other in the gap. Their den is a cave of gnawed lizard-man bones. Then the
+  vestibule of the serpent loop and its west bronze door, forced at once: a great nave of white-flecked black marble,
+  its floor heaved and cracked in one corner. Under the broken tiles Vettius found a trapdoor; below it a ladder into a
+  gallery whose walls are full of graves, each with a reptilian skeleton holding a curved bronze sword and a round
+  shield, a slab door on either hand and an arch at the far end. They closed it again and went home past a tide of
+  rats and three ants that ran from the torches. Out at 18:54.
+
 ## Who they met
 
 ## Treasure and XP
