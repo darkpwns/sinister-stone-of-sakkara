@@ -857,8 +857,8 @@ repaired for 1gp, not lost (Rulings S19; check an engine `break` line at once); 
 in the engine: `throw ID --target N` (18+ less 1 per level after 1st).
 
 ## S20 after the second S19 week — start here (supersedes everything above)
-**State on resume:** day 372 ~06:00 (the clock reads the morning of 372; the narration ran to its evening: `wait`
-to evening first), spring, Cyfaraun, the Solar Citadel. No adventure open (A66 paid out). Location Cyfaraun
+**State on resume:** day 372 evening (clock advanced to the evening of 372): night of 372 first (`eat --in-town`,
+`wait --hours 13`), then `dawn 373`; spring, Cyfaraun, the Solar Citadel. No adventure open (A66 paid out). Location Cyfaraun
 (settlement). Thirteen; **Hrodvar on bed rest to day 381** (3/14 hp, lung mended); Brennus, Iulia, Marcellus
 healing. Lucilla max hp 23.
 

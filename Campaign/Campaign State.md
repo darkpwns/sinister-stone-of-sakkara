@@ -11,7 +11,7 @@ public:
     year: ''
     season: spring
     day: 372
-  time: 05:43
+  time: '17:43'
   weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; drizzle; wind moderate (drizzly)
   place: Cyfaraun
   hex: '18.05'
