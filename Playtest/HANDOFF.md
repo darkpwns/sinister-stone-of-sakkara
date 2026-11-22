@@ -551,3 +551,20 @@ the shadow's "-3 to surprise"; `damage --extraordinary` treated as mundane again
 the rest counter survives a night in town; Rat Swarm needs `--set hd` and `--xp-each`; `recover --item "Sword +1"`
 can draw a dagger (use "Sword +1 (Sword)"); snapshot refuses an unidentified generic "Sword +1" when identified
 ones are on other sheets; `level-up` ignores permanent enervation losses.
+
+## S16 (2026-11-22) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` (tools 7.14.0). Helpers as S15 (set `PARTY` after sourcing `s10_j.sh`). Session 16
+log: `Session Log/S16 — The bronze guards.md`. Scratch helpers this chat: `ledger.py` (copies payout rows to the
+Ledger) lived in the chat scratchpad; rewrite if needed.
+
+**State on resume:** day 316 04:32, winter, Cyfaraun, Silk Pony. No adventure open (A43 paid out). Start S17.
+**Party (12):** all whole or nearly; Neris Pr6 (15 hp); Marcellus max hp 16 (shadow, day 309); Hrodvar wields
+the rune-hafted Battle Axe +1 (L292), Varro Lann Dhuille. The four canoes are hidden at P5 (assembled).
+**The white fish:** charmed (day 309); day-316 save failed (hidden); next save day 323.
+
+**What S16 did (days 309-316):** G14 cleared of its king and treasure (A40, A41); the doppelgangers of rumour 14 and
+their den (A42; prisoners freed, rewards A43; the Brotherhood's ledger: Liber, Mentenus, Selene as patrons, kept
+secret but for Arëtar's copy of the Mentenus entries). Arëtar plans the full-moon ambush on Mentenus (day 328).
+
+**Next (by the profiles):** Q (Marcan) with Ingrid's conditions; the full moon (day 328); the selling day (331).
+Rulings S16: 4 rows. Engine findings: judge-notes S16.

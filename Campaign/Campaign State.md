@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 313
-  time: 08:32
+    day: 316
+  time: 04:32
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,14 +19,14 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 15
+    hp: 22
     hp_max: 22
     conditions:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.608
+    encumbrance_st: 9.583
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,15 +34,14 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 8.999
+    encumbrance_st: 8.979
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 4.455
   - name: Neris
     sheet: Characters/neris.json
@@ -51,13 +50,12 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Cure Moderate Injury
+    spells_used: []
     encumbrance_st: 4.613
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 18
+    hp: 23
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -72,7 +70,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.796
+    encumbrance_st: 9.771
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -104,15 +102,14 @@ public:
     hp_max: 16
     conditions: []
     spells_used: []
-    encumbrance_st: 13.267
+    encumbrance_st: 13.409
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.935
   - name: Gnaeus
     sheet: Characters/gnaeus.json
@@ -148,7 +145,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 313
+clock_day: 316
 ---
 # Campaign State
 

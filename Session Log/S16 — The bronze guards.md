@@ -78,12 +78,54 @@ Tertulla's sails. Above the river, behind a hole lined with black marble, a tomb
   House Drakomir and House Ambador each sent 600gp. Hrodvar spent the day with the rune-hafted axe: a good axe, and
   now his. Coin banked; the gems, jewellery and cask to the vault.
 
+- Days 314-315, in town. Neris healed Lucilla. Stateira, the freed herb-seller, came to the Silk Pony to thank
+  them, and passed on a warning about the chapterhouse regent. Holy water bought up to the month's last vial. The
+  table talked over the king's tomb at the bend: Rosa for it; Ingrid's conditions (Iulia's spellward against the
+  king's commanding word, Neris' moving circle as a second wall, nobody strikes anything the rod has not turned,
+  out by the slab door if a ward fails); Gideon: after a rest, with the fish still friendly.
+- Day 316, dawn. Wages for Varro and Hrodvar and the stalls paid.
+
 ## Who they met
+- Liber Faunus (Friendly): Marcan's tale. Patriarch Arëtar (Friendly): the Provost's entries from the ledger.
+- Centurion Celle (Neutral, curt): his pupil Tavis Drakomir returned. Houses Drakomir and Ambador (rewards).
+- Freed prisoners: Tavis Drakomir (paladin, noble son), Zeodare Ambador (bladedancer), Malethor (elven spellsword
+  from the north, seeking a lost bow), Stateira (Old District herb-seller).
+- "Vasan Tikala" and his two men (doppelgangers, dead).
 
 ## Treasure and XP
+- Day 309 (A40): the dead king's crown, the gold box and three red gems, 4,000gp from the pots, four canopic jars,
+  the ebony throne, the chariot (19,025gp); 3,282 monster XP (shadows, jackals, the king); 22,307 XP over 9 shares.
+  Neris Priestess 6.
+- Day 310 (A41): the gilded bronze coffin (3,500gp); 3,500 XP over 9 shares.
+- Days 312-313 (A42, A43): the den's coin, gems, jewellery, the cask, the purse and the rune-hafted axe (13,324gp;
+  the axe Battle Axe +1, Hrodvar's, used); 405 monster XP; rewards 1,200gp; 14,929 XP over 9 shares.
+- Held for the month-12 selling day (day 331) in the Grey Sisters' vault and the strongbox: the basin treasure, the
+  mask, the grave goods, the spices and furs, the crown, box and gems, jars, throne, chariot and coffin, the den's
+  gems and jewellery and the cask; the barge at Tertulla's landing.
 
 ## Rumours given
+- Day 314, Stateira: don't trust the chapterhouse regent: he sends naive adventurers into the Waste to die, and hexes
+  those who refuse.
 
 ## Changes to the world
+- The black-marble tomb's king is destroyed; his bronze guards still stand in the emptied tomb.
+- The Brotherhood of Knives is dead; its den is emptied; its ledger is in the company's hands.
+- Tavis Drakomir is home.
 
 ## Next time
+Day 316, dawn, Cyfaraun, the Silk Pony. Twelve, all whole or nearly. The canoes are hidden at the beach. The king's
+tomb at the river bend (Marcan) is the table's next target. The full moon is on day 328: Arëtar wants the Provost
+taken at the rat shrine at midnight. The selling day is day 331.
+
+> [!judge]- Judge rolls
+> Campaign/roll-log.jsonl (session 16). Judge notes: Playtest/judge-notes.txt (S16 entries).
+> Day 309: full moon in 19 days (day 328); Terkinos's pack 5 (stays, alert, word to Mentenus); Arëtar 4 (plans the
+> full-moon ambush with Iulia). Shadows 2 (one touch on Marcellus: max hp 20 -> 16; saves 15, 15, 13: ended day
+> 312). Fish: saves 15 (resisted) and 9 (charmed again); repeat XP voided. Jackals 16/16/18/13; Iulia's rebuke 3 HD
+> (one frightened). The king 34 hp, AC 11 (set by hand); Rod 11 HD: frightened; destroyed round 8; four statues
+> 25/23/21/20 never touched anyone. Unsettling 6 (event 8, the gust) and 6 (event 18, the flowers); event 7 played
+> day 309. Day 310: mummy, swarm, mummy repeats ignored (clearing); worms (8) taken by the fish (2 vs 1-4).
+> Day 311-312: "Vasan" answers on the second day (6, then 1). Doppelgangers 21/16/12; all slain (Mortal Wounds -1,
+> 6, 4); Gnaeus' tracking 14 vs 10+; den: cell 2 humans, 2 elves (Zeodare, Tavis by her story, Malethor,
+> Stateira); abattoir 2 humans, 4 elves. Rewards 3 x 200 each; Celle 6. Day 316: the white fish's weekly save 6
+> (fails: still charmed; next save day 323).

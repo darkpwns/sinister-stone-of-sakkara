@@ -1943,3 +1943,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 313 |  | treasure share |  | 66gp 6sp 7cp |  | aelia |
 | 313 |  | treasure share |  | 66gp 6sp 7cp |  | marcellus |
 | 313 |  | treasure share |  | 66gp 6sp 7cp |  | gnaeus |
+| 313 | Silk Pony Inn (#25) | beds for twelve, night of day 313 |  |  | 2gp 4sp | vettius |
+| 314 | Cyfaraun | Holy Water (1 pint) | 1 |  | 25gp | marcellus |
+| 314 | Silk Pony Inn (#25) | beds for twelve, night of day 314 |  |  | 2gp 4sp | vettius |
+| 315 | Silk Pony Inn (#25) | beds for twelve, night of day 315 |  |  | 2gp 4sp | vettius |
+| 316 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 316 | the retinue | wages paid |  |  | 25gp | iulia |
+| 316 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 317-332 (2sp a stall a day) |  |  | 12gp 8sp | vettius |
