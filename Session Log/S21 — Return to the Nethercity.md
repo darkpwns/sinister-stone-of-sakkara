@@ -57,6 +57,27 @@ sealed cases, the cave beyond the Falling Star, the half-open bronze door off th
   to their feet; the ants died. Out at 16:38. Marcellus has risen to the sixth rank of his calling; Saturnin, the old
   cantinakeeper, has become a scout.
 
+- Day 424. Neris and Iulia spent the morning's prayers on the wounded; by midmorning everyone was whole, and Rosa
+  had them down again for the doom temple's upper rooms. The fifty-third descent. At the black basin the lizard-women
+  came for water again. Brennus, remembering Lammala's font, washed in it: the water was cold as grave-earth and
+  something settled on those shoulders like ill luck. In the nave the flat shadows poured out once more, slid past
+  Brennus as if nothing were there, and pressed at Neris' circle around the rest. Through the templon and into the
+  south side room, up a marble stair: a sacrarium with a white font ("The purified body does not putrefy with death",
+  Vestus read), a vestry of rotted grey robes, a gallery with two locked cedar doors. The bone key fitted both. The
+  sacristy: scroll jars and old temple records (Vestus: a list of the hierophants of the secret mysteries, the last
+  of them Orthanach), four cedar chests (one jammed and smashed open): mouldy linens, hangings with a skull in a
+  grey cowl (Iulia: Dirgion's sign), seventeen rotten robes and one sound one, dark, deep-cowled, and frankincense
+  and myrrh. A gaunt rotting elf with red eyes drifted through the wall murmuring things no one should hear; Iulia's
+  Rod unmade it, but Brennus had heard too much and has not been right since. Vettius found six thumb-holes in the
+  far door's threshold and plugged them; inside, two black jackal statues came to life and cowered before Iulia's
+  sun until the swords finished them. The reliquary: a gold bowl, basin and incense dishes, a gold thurible covered in
+  holy figures, four gold goblets set with obsidian and garnets, a gold skull mask, a grinning iron skull mask, a vial
+  of clear bubbling liquid, and an ebony chest with electrum, gold, three polished rubies, a bone wand carved with a
+  black skull and an obsidian ring set with bloodstone. Going down the stair Neris raised her circle again, and six
+  more shadows came at it out of the side room and could not pass. Under the great mosaic of Dirgion they all felt a
+  terrible eye weigh them and find them wanting. A hunched grey ghoul in the galleries; Brennus' axe. Out at 18:38.
+- Evening of 424: Brother Oppius at the Citadel with a sealed word for Iulia: the Order asks retribution on a man.
+
 ## Who they met
 
 ## Treasure and XP

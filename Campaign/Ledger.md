@@ -336,6 +336,26 @@ tags:
 | 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | vettius |
 | 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | cotta |
 | 423 | Descent 52 (I8, the brothers' sepulchre) | a corner of the younger brother's painted bronze sarcophagus (carried on spear poles by four) | 125 | saturnin |
+| 424 | Descent 53 (J, the upper temple) | five terracotta scroll jars | 25 | saturnin |
+| 424 | Descent 53 (J, the upper temple) | old record scrolls in Ancient Argollean (a temple's lists) | 675 | vestus-the-unlikely |
+| 424 | Descent 53 (J, the upper temple) | twenty sticks of frankincense and two scented wooden boxes of myrrh | 450 | phaedra |
+| 424 | Descent 53 (J, the upper temple) | Shadowcowl Robe | 100 | vettius |
+| 424 | Descent 53 (J, the upper temple) | a gold libation bowl | 400 | lucilla |
+| 424 | Descent 53 (J, the upper temple) | a gold basin | 2,500 | iulia |
+| 424 | Descent 53 (J, the upper temple) | two gold incense dishes | 200 | lucilla |
+| 424 | Descent 53 (J, the upper temple) | Censer of Prophetic Dreams | 600 | neris |
+| 424 | Descent 53 (J, the upper temple) | four gold goblets set with obsidian and red garnets | 1,200 | brennus |
+| 424 | Descent 53 (J, the upper temple) | a sculpted gold skull mask | 1,000 | varro |
+| 424 | Descent 53 (J, the upper temple) | Iron Mask of Cyfaraun | 4,000 | hrodvar |
+| 424 | Descent 53 (J, the upper temple) | Potion of Freedom | 25 | neris |
+| 424 | Descent 53 (J, the upper temple) | an ebony and redwood chest | 600 | marcellus |
+| 424 | Descent 53 (J, the upper temple) | 2,000 electrum pieces | 1,000 | aelia |
+| 424 | Descent 53 (J, the upper temple) | 500 gold pieces | 500 | aelia |
+| 424 | Descent 53 (J, the upper temple) | gem worth 1000.0gp | 1,000 | lucilla |
+| 424 | Descent 53 (J, the upper temple) | gem worth 1000.0gp | 1,000 | lucilla |
+| 424 | Descent 53 (J, the upper temple) | gem worth 1000.0gp | 1,000 | lucilla |
+| 424 | Descent 53 (J, the upper temple) | Wand of Fear | 40 | vestus-the-unlikely |
+| 424 | Descent 53 (J, the upper temple) | Ring of Life Protection | 300 | lucilla |
 
 ## Monster XP
 
@@ -439,6 +459,9 @@ tags:
 | 423 | Descent 52 (I8, the brothers' sepulchre) | Mummy Warlord Brothers (SOTN) | 2 | 660 | 1,320 |
 | 423 | Descent 52 (I8, the brothers' sepulchre) | Skeleton | 8 | 13 | 104 |
 | 423 | Descent 52 (I8, the brothers' sepulchre) | Giant Ant Worker | 3 | 80 | 240 |
+| 424 | Descent 53 (J, the upper temple) | Lesser Faewyrd (SOTN) | 1 | 245 | 245 |
+| 424 | Descent 53 (J, the upper temple) | Jackal of Darkness (SOTN) | 2 | 135 | 270 |
+| 424 | Descent 53 (J, the upper temple) | Grave Ghoul | 1 | 38 | 38 |
 
 ## Shares and XP awarded
 
@@ -966,6 +989,19 @@ tags:
 | 423 | Descent 52 (I8, the brothers' sepulchre) | Marcellus | 0.5 | 228 | 100 | 0 | +0% | 328 |
 | 423 | Descent 52 (I8, the brothers' sepulchre) | Saturnin | 0.5 | 228 | 100 | 0 | +0% | 328 |
 | 423 | Descent 52 (I8, the brothers' sepulchre) | Cotta | 0.5 | 228 | 100 | 0 | +0% | 328 |
+| 424 | Descent 53 (J, the upper temple) | Lucilla | 1 | 1,749 | 58 | 0 | +10% | 1,988 |
+| 424 | Descent 53 (J, the upper temple) | Vettius | 1 | 1,749 | 58 | 0 | +5% | 1,897 |
+| 424 | Descent 53 (J, the upper temple) | Vestus the Unlikely | 1 | 1,749 | 58 | 0 | +5% | 1,897 |
+| 424 | Descent 53 (J, the upper temple) | Brennus | 1 | 1,749 | 58 | 0 | +5% | 1,897 |
+| 424 | Descent 53 (J, the upper temple) | Iulia | 1 | 1,749 | 58 | 0 | +5% | 1,897 |
+| 424 | Descent 53 (J, the upper temple) | Neris | 1 | 1,749 | 58 | 0 | +0% | 1,807 |
+| 424 | Descent 53 (J, the upper temple) | Phaedra | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 424 | Descent 53 (J, the upper temple) | Varro | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 424 | Descent 53 (J, the upper temple) | Hrodvar | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 424 | Descent 53 (J, the upper temple) | Aelia | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 424 | Descent 53 (J, the upper temple) | Marcellus | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 424 | Descent 53 (J, the upper temple) | Saturnin | 0.5 | 874 | 29 | 0 | +0% | 904 |
+| 424 | Descent 53 (J, the upper temple) | Cotta | 0.5 | 874 | 29 | 0 | +0% | 904 |
 
 ## Wages
 
@@ -3056,3 +3092,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 423 |  | treasure share |  | 21gp 5cp |  | marcellus |
 | 423 |  | treasure share |  | 21gp 5cp |  | saturnin |
 | 423 |  | treasure share |  | 21gp 5cp |  | cotta |
+| 424 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 424 |  | treasure share |  | 157gp 8sp 9cp |  | lucilla |
+| 424 |  | treasure share |  | 157gp 8sp 9cp |  | vettius |
+| 424 |  | treasure share |  | 157gp 8sp 9cp |  | vestus-the-unlikely |
+| 424 |  | treasure share |  | 157gp 8sp 9cp |  | brennus |
+| 424 |  | treasure share |  | 157gp 8sp 9cp |  | iulia |
+| 424 |  | treasure share |  | 157gp 8sp 9cp |  | neris |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | phaedra |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | varro |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | hrodvar |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | aelia |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | marcellus |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | saturnin |
+| 424 |  | treasure share |  | 78gp 9sp 5cp |  | cotta |
