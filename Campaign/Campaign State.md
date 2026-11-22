@@ -11,7 +11,7 @@ public:
     year: ''
     season: winter
     day: 272
-  time: 09:06
+  time: '10:00'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -43,6 +43,7 @@ public:
     conditions: []
     spells_used:
     - Fan of Flames
+    - Ogre Strength
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -50,7 +51,9 @@ public:
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used: []
+    spells_used:
+    - Augury
+    - Holy Blessing
     encumbrance_st: 3.519
   - name: Brennus
     sheet: Characters/brennus.json
@@ -69,8 +72,10 @@ public:
     hp_max: 26
     conditions:
     - minor scarring (puncture wound)
-    spells_used: []
-    encumbrance_st: 10.861
+    spells_used:
+    - Striking
+    - Righteous Wrath
+    encumbrance_st: 9.694
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -86,7 +91,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.033
+    encumbrance_st: 8.867
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -94,7 +99,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 6.035
+    encumbrance_st: 7.202
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -102,7 +107,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.519
+    encumbrance_st: 9.519
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -111,7 +116,7 @@ public:
     conditions: []
     spells_used:
     - Fan of Flames
-    encumbrance_st: 7.362
+    encumbrance_st: 7.028
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -122,7 +127,7 @@ public:
     - 'speaks with dead once a week (Tampering with Mortality, day 269: a gift of his brush with death)'
     spells_used: []
     encumbrance_st: 8.529
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 22 turns 8 rounds left
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 17 turns 4 rounds left; torch (Phaedra) 6 rounds left; torch (Phaedra) 4 turns 8 rounds left
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Phaedra: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
