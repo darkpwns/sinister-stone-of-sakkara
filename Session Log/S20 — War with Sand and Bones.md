@@ -2,7 +2,7 @@
 type: session
 session: 20
 date_real: 2026-11-22
-date_game: spring day 393-400
+date_game: spring day 393-407
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -137,15 +137,26 @@ Argollëan Family. The Order has not yet named Selene.
   told them nothing more; "when the eggs have hatched and the oath is kept", perhaps. A great python slid past in
   the dark on the way back and did not care for them. Phaedra's torches ran out on the long climb and Hrodvar's
   carried them home. The Citadel's gate near midnight.
+- Day 407. The company rested at the Citadel and Neris saw to the hurt. The lizard-men's trinkets went through
+  the Family at their worth (255gp). Aranth sent word to Lucilla's bedside: a Family man had sold the Watch at
+  Watchtower III the news that the Captain's companion heads the Family; the tower is the Family's, and the word
+  went no further than Aranth's desk. One of the oath-takers is a traitor; nobody yet knows which.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
+- Thana Nyssand, the Pony's bookkeeper: tired eyes, ink on her fingers, a merchant's courtesy (day 403).
+- Selene Nictorian in black silk, with a big scarred woman carrying a morning star (seen by Vettius, night of 404).
+- The old troglodyte shaman of the decorated cave (day 406).
 
 ## Treasure and XP
 - Day 394: the lanista's sword and spear (+1 each) and the humming sling bullets (+1) named by training; his three
   potions named by sipping (monstrous form, energy invulnerability, comprehension).
 - Day 399 (A75, the ambush): purses 10gp; seven gladiators and two axemen slain, the man in black and three
   gladiators taken; 180 XP over 7 shares.
+- Day 406 (A76, the errand): Aelia and Saturnin, five Pony men slain; purses 9gp; 139 XP over their two half shares.
+- Day 406 (A77, descent 50): the lizard-men's hoard (775gp, 640ep, figurines, combs and rings, goblets, circlets and
+  necklaces: 1,350gp; the trinkets sold through the Family day 407); the chieftain, three champions and eleven
+  warriors; 2,040 XP over 7.5 shares.
 
 ## Rumours given
 
@@ -153,11 +164,20 @@ Argollëan Family. The Order has not yet named Selene.
 - Lucilla's face is broken (gruesome scarring); she heads the Family still.
 - Sand & Bones lost seven hired gladiators, two axemen and its slayer; House Pluris will not rent to the Pony.
 - Selene wants the Captain dead and Lucilla alive.
+- Lucilla's face is mended, at a price: two weeks abed (to day 416) and a right arm that is not always her own.
+- The lizard-men's chieftain and fighters are dead; the old shaman, the females and the eggs live under the
+  company's oath. Pluris bought the lanista's orcs, hobgoblins and gnolls; Nuvicus his bugbears and ogre.
+- Thana Nyssand has given Lucilla a key to the Pony's cellar door.
 
 ## Next time
 Day 400, evening, the Solar Citadel. Lucilla 10/23 and scarred; Aelia, Varro and Marcellus lightly hurt; the rest
 whole. Vestus has Invisibility, Phaedra Beguile Humanoid. Destrio answers on day 402; the Order rolls on day 403.
 Selene keeps below the Silk Pony; the proof Arëtar wants is the hidden wall behind the barrels in her blood pit.
+
+(Week 2 close:) Day 407, evening, the Solar Citadel. Lucilla abed to day 416 (13/23); Hrodvar 8/14, Varro 15/23, Brennus
+21/31, Marcellus 18/21, Aelia 14/20. Vettius knows the iron hook that turns the wall; Thana's key opens the cellar
+door; Thana pays the house at the bar on the weekly pay night (next about day 411). The Order rolls on day 410; the
+Blood Moon night is about day 415, when Selene means to put Lucilla in her pit.
 
 > [!judge]- Judge rolls
 > Resume correction (day 393): the actors of Hrodvar and Saturnin carried "dead (thirst, CON 0)" since S19 week 3
@@ -178,3 +198,16 @@ Selene keeps below the Silk Pony; the proof Arëtar wants is the hidden wall beh
 > After: the slayer questioned 2d6+1 8, +2 Brennus' Intimidation = 10 (talks); the gladiators 9 (tell what they were told); street talk names the Mink's lady as the Family's 6 (no); the Old District watch covers it 4 (yes: a gladiators' brawl). A75: 180 XP over 7 shares (treasure 10gp purses).
 > NPC: the slayer (Judge's call: "Corvinus Lean", Assassin 4; thin, black-clad, a voice like a shrug: "She'll have you anyway, you know.").
 > Night of 399: Lucilla heals 3 (bed rest; shock ended: magical healing and the night). Day 400: weekly: Brotherhood 1 (someone seeks Vasan): patron 4 (Selene), target 4 (the Captain); Lucilla's men bring it at once (Rulings S19 watch); a betrayer acts 6 (no); the Watch 6 (no). Selene's move for week 400-406: 5 (the company), day 7 (day 406). Destrio's answer 1d3 2 (day 402): 4 (Selene to the first 4 at the day-403 roll). Pluris 2d6 9 (takes his men back; refuses the Pony until paid for his dead: Judge's call), Nuvicus 7 (silent; will rent for cash). The Citadel's Repair Disfigurement for Lucilla (payer Iulia, Class II, divine 4): caster's answer 8, Try Again. The slayer Corvinus given to Hesta (the Family's justice; executed: Judge's call, Iulia not present).
+> Week 2 (days 401-407). Day 401: Lucilla heals 2 (12); the Citadel's Repair (payer Iulia): caster 8, Try Again (again). Vestus' Invisibility on Vettius (evening). The Pony by night: Vettius' Sneaking 6 (fail: the stair footpad hears, 3: shrugs); cellar sleepers (cook, scullion, 2 tavernworkers); Lockpicking -4 2 vs 11+ (fail: no retry); Sneaking 17, Listening 15; someone comes through (turn 1: 2, yes: a thug for wine); Sneaking 18 (into 3); room 3 at 02:00: 3 hoods, 2 thugs, the enforcer, the robber, torturer 26 (yes), burglar 50 (no), rogue 14 (yes), two of Nuvicus' veterans rented for cash (2); Searching 7 vs 11+ (the seam not found); Selene comes up 2 (no); Sneaking 3 (fail: the latch heard), door seen moving 5 (no), the hood 2 (shuts it, curses the thug); Sneaking 19 out.
+> Day 402: Lucilla heals 1 (13). Repair (payer Iulia, +1 a better offer: half again the fee, 93gp from Lucilla): accepted, 185gp (Lucilla repaid Iulia). Tampering with Mortality (Neutral; caster 9 under the oculus: a Class II caster of 7th level +2 for the pinnacle, Rulings S11; temple +2; side effects already suffered -1; alive +5) 14: 2 weeks' bed rest (to day 416), side effect d6 1: the alien right arm (a natural 1 on an attack throw hits an adjacent ally). Destrio's answer: Selene to the first 4 on day 403. Hesta's girls on Thana 3 (found: habit 1, the dawn walk). Thana reads Lucilla's letter 2d6+2 13 (meets and helps).
+> Day 403: Order rolls 2, 1, 3, 2, 2, 3 (none; next day 410). Jonus since the strike 4 (still at Selene's side). Thana (Helpful): a copy of the cellar-door key (hideout 4 -> 3); the pay night (Judge's call: weekly at the bar; room 3 near empty for a quarter hour, 1d3 men stay below); Lucilla carried in a chair (a short outing: her day of rest stands, Judge's call).
+> Day 404: Selene's people mark the chair at the baths 5 (no). Night of 404: Vestus' Invisibility on Vettius; Sneaking 16, 1 (fail: a cellar sleeper 2, wakes and looks, nothing); men left below during the pay 1d3 2; Searching +2 (told where) 9 vs 11+ (fail); Selene comes out 3 (yes), with her destroyer only (4); the two dicers notice 3, 3 (no); the mechanism (Judge's call): the iron bucket-hook in the SW corner turns the false wall on its pivot; Sneaking 16, 20 out. Fresh corpses in the Abattoir 1d4-1 3 (unseen yet). NPC: Selene's destroyer (Judge's call: a big scarred woman, morning star, says nothing).
+> Day 405 (slip: a 24-hour wait from 404 22:43 ran the whole of day 405; the day's business written into it): Tertulla 4gp to day 419; the beastmen auction: bugbears and ogre 5 (Nuvicus), orcs, hobgoblins and gnolls 3 (Pluris). Rations bought (5gp 4sp, the S18 price), torches.
+> Day 406: wages Varro (Lucilla) and Hrodvar (Iulia). Selene's move 5 (Lucilla's errand-runners waylaid): Family bravos with them 3 (yes, two), hoods 1d3+1 4, Nuvicus' veterans 5 (none), leader 1 (a robber, Thief 3). enc310: surprise (rolled first against the unclosed enc309, applied here) Aelia 4, Saturnin 3 attentive; bravos 4, 4. Three rounds (melee2.py): the five slain (untreated: 10, 3, -5, 2, -2); bravo b2 down, treated late (an hour) 1: dies (the Family's mutual aid). A76: 139 XP over 1 share.
+> Descent 50 (A77, from 11:43): approach 20 turns (wandering 1, 1, 3, 2, 5, 4, 4, 2, 5: none); I: water-bearers 2; I6 2 (empty); breeders in I6 n/a; D8 gang home 4 (yes); the warband 1 (all in I2); Vettius' Sneaking 9 (fail, none in earshot), 12; Hiding 4 (fail); the I4 gross breeder 2 (watches); I2 breeders 15; alert 2 (no); a breeder sees him 3 (yes).
+> enc311: surprise Varro 2 (surprised), the rest attentive; troglodytes 5. Chieftain hp 28 (healed since 367), champions 16, warriors 9. R1: Neris' Holy Blessing; Cotta 9 (miss); darts w1 Marcellus 20 hit 3, w2 Varro 6, w5 Hrodvar 4, w11 Marcellus 13 miss, w4 Hrodvar 19 hit 5, w8 Varro 7 (the first six darts resolved as melee: --kind missile omitted, long-range -4 missing; no outcome changes); chief 10 (miss), c3 6, w7 8, c2 9 (miss); Fireball 6+1d6 7 caught (w5, w9, w3, chief, w2, c1, w4), 6d6 23; saves w5 20, w9 16, w3 16 (half 11), chief 2, w2 9, c1 4, w4 9 (full): chief 28 -> 5, the rest down; w6 -1 miss, w10 nat 20 hit 3 (Brennus). Morale: chief 8, warriors 9, champions 7; Hrodvar 9.
+> R2: Neris' Slumber (w1 2, w7 16, w10 2: w1, w10 asleep); Iulia set vs w7's charge 13 hit (down); Cotta 5 miss; c2 charge Varro 19 hit 7; c3 charge Brennus 19 hit 7; Brennus vs c3 20 hit (16 -> 10); Varro vs c2 8 miss; chief charge Hrodvar 20 hit 8 (Hrodvar 9 -> 1); Vettius vs c3 1 miss; Hrodvar vs chief nat 20 (5 -> 3); Marcellus vs c2 13 hit (16 -> 9); w6 charge Marcellus 13 miss; w8 charge Hrodvar 8 miss; Vestus' Slumber (c2 12 saved, c3 11 asleep, w6 19 saved; w8's save 10 void: the sphere holds 3); Phaedra's Fan 1d8 1 (c2 2 fail, w6 19, w8 14 saved, chief 10 fail): c2 8, chief 2; w11 charge Varro 16 hit 4. Morale: chief 9, warriors 0 (frightened: cowering). Stench saves (-2): Vettius 16 pass, Marcellus 5, Brennus -1, Varro 8 (queasy), Hrodvar 8 pass. Hrodvar 9, Varro 14 (henchman morale).
+> R3: Iulia vs chief 21 hit (down); Varro vs c2 10 hit (8 -> 2); Vettius' coup de grace on c3; Brennus vs w11 4 miss; c2 vs Varro 17 hit 4 (12 -> 8); Marcellus vs w6 9 hit (9 -> 5); Hrodvar vs w8 20 hit (9 -> 6). R4: Iulia vs c2 18 hit (down); Varro vs w11 19 (-> 3); Brennus 4 miss; Marcellus 6 miss; Hrodvar 4 miss; Vettius (rear) vs w6 10 hit (-> 1); Varro morale 13. R5: Varro vs w11 10 hit (-> 2); Vettius vs w6 11 (down); Hrodvar vs w8 18 (down); Brennus vs w11 8 hit (down); warriors' morale 2. Coups de grace on w1, w10. state end: all slain (untreated). (Slip: R4's order taken loosely, Brennus at 8 acted after Iulia; no change.) Neris' cures: Hrodvar 7, Varro 7.
+> The hoard: Vettius' Searching 5, 8 (fail), 17 (found, turn 3); explore search Vestus 14, 2, Iulia 4, 3, Neris 10, 13, Cotta 12, 8, Brennus 2 (vs 18+). Judge's call: SOTN's printed 5,025gp tally not used: 1,350gp (the listed items). I2 breeders 1 (cower).
+> The shaman (I13): reaction 2d6+1 6; Vestus' gist 1 (yes); after the oath and a week's rations 2d6+2 7 (peace accepted; the magic rock withheld). Wandering 18:10: python snake (volcanic table); surprise Neris 2, Hrodvar 2 surprised; snake 3; reaction 11 (indifferent: it passed). Return 22 turns (checks 4, 1, 3, 4, 5, 2, 3, 1, 3: none). Slip: the relight helper used only Phaedra's torches: 19:53-22:53 run as unlit; corrected (three of Hrodvar's torches burned). A77: 2,040 XP over 7.5 shares.
+> Day 407: weekly: Brotherhood 5 (none); a betrayer acts 1: to the Watch 4 (that the Captain's companion heads the Family), past Watchtower III 3 (no: buried at the Family's tower; Aranth told); the Watch on the company 3 (no). Selene's move for 407-413: 5 (the company), day 6 (day 412). Pluris' and Nuvicus' word of the dead gladiators reaches Subaltern Tavus Mityario (Watchtower IV) 1 (yes: Judge's watch: he asks the company about day 399). Trinkets L446-L449 sold (255gp, divided by the engine to A77's share-holders).

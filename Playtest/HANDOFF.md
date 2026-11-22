@@ -959,3 +959,27 @@ F17, F19. The table's plan: Vettius into the Pony's hideout under Vestus' Invisi
 drops the +4 and the backstab dice); `encounter surprise --members` with only those present; a missile shot needs the
 missile weapon in hand (`inv move ID Sword --slot belt`, `inv wield ID "Composite Bow" --two-handed`): the engine
 does not refuse a melee weapon at range; `wages pay ID --payer ID`.
+
+## S20 after the second S20 week — start here (supersedes everything above)
+**State on resume:** day 407 ~18:50, spring, Cyfaraun, the Solar Citadel. No adventure open (A77 paid out). Night of
+day 407 first (`tday 13`), then `dawn 408`. Helpers: `s10_j.sh`, `s12_town.sh`, `s20_town.sh`. **Lucilla abed to day
+416** (13/23; the alien right arm: a natural 1 on an attack hits an adjacent ally); hurt: Hrodvar 8/14, Varro 15/23,
+Brennus 21/31, Marcellus 18/21, Aelia 14/20 (they heal at the rollovers). Torches: Hrodvar 2, Marcellus 1; Phaedra
+none (buy before a descent; a relight helper must fall back to another carrier).
+
+**Days 401-407:** Repair refused twice, then done (day 402: Tampering, two weeks abed); Vettius under the Pony twice
+(night 401: room 3 seen; night 404 with Thana's key: the hook that turns the wall, Selene seen); Thana Helpful (day
+403: the key, the pay night); Order roll 403 none; day 405 Tertulla to 419, the beastmen sold (Pluris, Nuvicus); day
+406 the errand ambush (A76) and descent 50 (A77: the troglodyte warband destroyed, the hoard, peace with the shaman);
+day 407 the betrayer's word buried at Watchtower III; trinkets sold through the Family.
+
+**Open:** 410 Order rolls (Selene to the first 4); ~411 Thana's pay night (the table's plan: Vettius invisible through
+the wall into the Abattoir for Arëtar's proof; the portcullis trap is on its far door); **412 Selene's move against the
+company** (rolled); 412 Saturnin's wage; 413 Aelia (800), Marcellus; 414 weekly rolls (Brotherhood, betrayer, Watch,
+Selene's next move 1d6/1d7); Subaltern Tavus Mityario has heard of the dead gladiators (Judge's watch); ~415 the Blood
+Moon night; 416 Lucilla up; 419 Tertulla; 420 month 14 ends; 421 selling day. Below: F14/T, F17, F19; L4 (the
+shaman's secret).
+
+**Routine (S20 week 2):** monster missiles need `--kind missile`; `encounter end` after every fight (a new surprise
+roll otherwise lands on the old encounter); `tday` only to the next morning (about 9 h from late evening); a spell
+area's damage: one `roll`, then `damage T --dice N [--half]` per target; Slumber's 10' sphere holds 3 man-sized.

@@ -171,6 +171,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Days 401-407 (week S20-2):** Thana Nyssand (Helpful, day 403) gave Lucilla a key to the hideout cellar door (4 -> 3); her terms: the Pony's honest trade hers under the Family, Jonus lives; Thana pays the house at the bar on the weekly pay night (room 3 near empty a quarter hour; next ~day 411). Vettius saw the wall's working (night of 404): the iron bucket-hook in room 3's SW corner turns the false wall; Selene came out with her destroyer and went back; the Abattoir not yet entered. Selene's errand strike (day 406) beaten by Aelia and Saturnin (5 Pony men slain, a Family bravo dead). **Selene's next move: day 412, against the company** (rolled day 407). A betrayer sold the Family's secret to Watchtower III (day 407): buried there (the Family's tower), Aranth told Lucilla. **Subaltern Tavus Mityario** (Watchtower IV, honest) has heard from Pluris and Nuvicus about their dead gladiators (Judge's watch: he comes asking about day 399; he wants evidence of the Blood Moon games). Order roll day 410 (Selene to the first 4).
+- **Lucilla:** Repair Disfigurement day 402 (Tampering: 2 weeks' bed rest to day 416, the alien right arm). Abed at the Citadel; she gives orders, no dedicated activity.
+- **Troglodytes of I (day 406, A77):** the chieftain, 3 champions and 11 warriors slain in I3; the hoard taken (I2); **peace sworn with the shaman** (I13): the females (~50), the gross breeder and the 40 eggs spared; she withholds the magic rock (L4) until "the eggs have hatched and the oath is kept" (Judge's watch: a reaction again after a month of peace, +1).
 - **Day 400 (week S20 close):** Selene's third note for Vasan (ruby lips): **the Captain of the Underwatch, before the full moon** (~day 416); intercepted by Lucilla's men; reported to Destrio through Oppius (answer day 402: Selene to the first deathbringer who rolls a 4 on day 403). Iulia knows. **Selene's next move: day 406, against the company** (rolled day 400). Pluris refuses the Pony more gladiators until paid for his dead; Nuvicus will rent for cash. Corvinus (the slayer) given to Hesta and executed; the three gladiators sent home. Lucilla's Repair Disfigurement: the Citadel's caster said try again (day 400); the spell carries a Tampering with Mortality roll. Vestus' repertoire + Invisibility; Phaedra's + Beguile Humanoid (study 394-400).
 - **Day 399: Sand & Bones' first strike** (the dusk walk from The Mink, bait set by Lucilla after the Family marked Orisos, the sausage-cart counter): 7 of Pluris' and Nuvicus' ordinary gladiators and 2 enforcers slain; the slayer Corvinus (Assassin 4, 1 hp, shock, three fingers lost) and 3 gladiators prisoners in the cellars under The Mink. Lucilla felled: shock, gruesome scarring (-2 reactions; Repair at the Citadel possible). The Old District watch wrote it up as a gladiators' brawl. Corvinus: Selene wants Lucilla alive for the pit at the next Blood Moon (night ~415); Selene keeps to the hideout below the Pony since day 393; **Jonus called the strike a fool's errand and would not lead it** (Judge's watch: Jonus cooling on Selene's war). Pluris and Nuvicus lost five gladiators each between them (250gp each to replace): Selene owes them (Judge's watch). Selene's next move: rolled weekly (day 400 for week 400-406).
 - **Arëtar (day 394):** Selene is a sanctioned target for the Captain on proof that she shared Maximus' table (fed him or ate with him). The beastmen's memory (Lucilla's telepathy, day 396): the blood pit under the Silk Pony and a hidden wall where the master carried the dead (the Abattoir, hideout 2): proof lies there.
@@ -224,18 +227,17 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
-- Sites: the Sand & Bones Hideout (25u, keyed: the Abattoir 2 is Arëtar's proof; Selene keeps to 1 and 3 on war footing);
-  Nethercity I (troglodytes broken at I7: the chieftain and survivors in I2, the hoard in an I2 grave, the shaman in
-  I13, I8 sealed, the J1 bronze door half open); F14's serpent door and T (the Great Teacher, 11 HD); F17's cases (the
-  alarm); F19 (2 rhagodessae).
-- Threads: Selene's war (her next move day 406 against the company; the Blood Moon night ~415 with Lucilla meant for
-  the pit); the Order (Destrio's answer 402, roll 403: Selene to the first 4); Arëtar's proof (the Abattoir) and the
-  Captain as Selene's Vasan target; Jonus (refused to lead the strike: a lever; +2 now Maximus is dead); Thana (Hesta's
-  girls: her dawn walk home with one footpad, when found); Lutarius (only a miracle or wish lifts the pallor);
-  Lucilla's Repair (Citadel: try again; a Tampering roll); the beastmen's auction (day 405); Pluris' grudge against
-  the Pony.
-- Scheduled: 402 Destrio; 403 Order rolls; 405 the beastmen auction; Tertulla paid to 405; 406 Varro and Hrodvar's
-  wages, Selene's move; 407 weekly (Brotherhood, betrayer, Watch, Selene's next); 412 Saturnin; 413 Aelia (800),
-  Marcellus; ~415 the Blood Moon night; ~416 full moon; 420 month 14 ends (fees, investments 1, 2, 3, Iulia's report
-  and task roll, Vestus' dues, Cotta's wage, the Family's month); 421 selling day; 443 vault fee.
-- NPCs: Corvinus Lean (the slayer, dead day 400); Orisos (the sausage-cart counter, marked by the Family).
+- Sites: the Sand & Bones Hideout (25u, keyed: the Abattoir 2 is Arëtar's proof, 3 fresh corpses rolled; Selene in 1
+  and 3 on war footing; the portcullis trap on 2's west door); F14's serpent door and T (the Great Teacher, 11 HD);
+  F17's cases (the alarm); F19 (2 rhagodessae); L4 (the platform; the shaman's guide, later).
+- Threads: Selene's move day 412 (against the company); the pay night ~411 (Vettius under Invisibility: the hook, the
+  Abattoir, proof); the Order roll 410 (Selene to the first 4); Tavus Mityario's questions (the dead gladiators; his
+  want: evidence of the Blood Moon games: a lawful raid lever); the Blood Moon night ~415 (Selene wants Lucilla in the
+  pit); the betrayers (one sold to Watchtower III); Jonus (sullen, loyal; +2 lever); Lutarius (only a miracle or
+  wish); the shaman (reaction again after a month of peace).
+- Scheduled: 410 Order rolls; ~411 Thana's pay night; 412 Saturnin's wage, Selene's move; 413 Aelia (800), Marcellus;
+  414 weekly rolls (Brotherhood, betrayer, Watch, Selene's next move); ~415 Blood Moon; 416 Lucilla up; 419 Tertulla;
+  420 month 14 ends (fees, investments 1, 2, 3, Iulia's report and task roll, Vestus' dues, Cotta's wage, the
+  Family's month); 421 selling day; 436 Varro, Hrodvar; 429 Phaedra; 443 vault fee.
+- NPCs: Corvinus Lean (dead); Orisos (marked); Selene's destroyer (a big scarred woman, morning star, silent); the
+  troglodyte shaman (old, pale, chiselling her history).

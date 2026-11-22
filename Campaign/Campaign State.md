@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 406
-  time: '22:53'
+    day: 407
+  time: '18:53'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -35,17 +35,15 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 21.265
+    encumbrance_st: 21.316
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Fireball
-    - Slumber
-    encumbrance_st: 7.992
+    spells_used: []
+    encumbrance_st: 8.043
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,12 +51,8 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Blessing
-    - Slumber
-    - Cure Light Injury
-    - Cure Light Injury
-    encumbrance_st: 16.152
+    spells_used: []
+    encumbrance_st: 16.203
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -68,7 +62,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 22.411
+    encumbrance_st: 22.462
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -77,7 +71,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 19.786
+    encumbrance_st: 19.837
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -85,7 +79,7 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 14.605
+    encumbrance_st: 14.623
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -93,7 +87,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 14.844
+    encumbrance_st: 14.862
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -109,16 +103,15 @@ public:
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 15.816
+    encumbrance_st: 15.834
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 11.584
+    spells_used: []
+    encumbrance_st: 11.602
   - name: Saturnin
     sheet: Characters/saturnin.json
     role: henchman
@@ -134,19 +127,19 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.171
+    encumbrance_st: 6.189
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out
   rations: 'Vettius: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Cotta: food 0 d, water 0.2 d; Lucilla: food 0 d, water 1 d (incapacitated); Aelia: food 0 d, water 1 d; Saturnin: food 0 d, water 0.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - 'Sand & Bones is at war with us: Selene wants Lucilla alive for her pit at the next Blood Moon, and a note for Vasan named the Captain'
-  - 'Proof for Arëtar: the blood pit under the Silk Pony and the hidden wall where the lanista carried the dead'
-  - 'Thana Nyssand, the Pony''s bookkeeper: Hesta''s girls are still looking for her quiet hour'
-  - Jonus would not lead the attack on Lucilla
-  - The Order's next weekly roll is day 403; Destrio answers about the third note on day 402
-  - 'Lucilla''s broken face: the Citadel''s priest said come back'
-  - 'The lanista''s beastmen in the arena cells: the Prefect will sell them with his school''s goods'
-  - 'Below: the broken lizard-man hive past I7, the serpent door, the sealed cases, the rhagodessae'
+  - 'Sand & Bones is at war with us: Selene wants Lucilla alive for her pit at the next Blood Moon (about day 415), and a note for Vasan named the Captain'
+  - 'Proof for Arëtar: the wall behind the barrels in the Pony''s long room turns on the iron bucket-hook; what lies behind it is still unseen'
+  - Thana Nyssand gave Lucilla the cellar key; she pays the house at the bar once a week (next about day 411)
+  - The Order's next weekly roll is day 410
+  - Lucilla is abed at the Citadel until day 416
+  - A Family oath-taker sold the Family's secret to Watchtower III; Aranth buried it
+  - The lizard-men's old shaman keeps the peace and her secret of the magic rock
+  - 'Below: the serpent door, the sealed cases, the rhagodessae'
   trail:
   - '27.17'
   - '28.16'
@@ -168,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 406
+clock_day: 407
 ---
 # Campaign State
 

@@ -2823,3 +2823,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 406 |  | treasure share |  | 73gp |  | varro |
 | 406 |  | treasure share |  | 73gp |  | marcellus |
 | 406 |  | treasure share |  | 73gp |  | cotta |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 33gp 9sp 9cp |  | iulia |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 33gp 9sp 9cp |  | vestus-the-unlikely |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 33gp 9sp 9cp |  | neris |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 33gp 9sp 9cp |  | brennus |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 33gp 9sp 9cp |  | vettius |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | phaedra |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | hrodvar |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | varro |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | marcellus |
+| 407 | market | his share of the sale of L446,L447,L448,L449 (after the payout) |  | 17gp 1cp |  | cotta |
