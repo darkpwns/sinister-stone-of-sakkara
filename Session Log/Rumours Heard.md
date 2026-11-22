@@ -27,3 +27,5 @@ type: rumours
 - Day 271, Cyfaraun, Lucilla's old contacts: nobody has seen them in years, but the Brotherhood of Knives is still in business as killers for hire.
 - Day 271, Cyfaraun, Lucilla's old contacts: Prefect Basilio has gone mad and hired assassins to kill merchants he suspects of smuggling; the bodies are dumped in the river as a warning.
 - Day 273, Cyfaraun, a friendly traveller in the Temple District (took the party for the Imperial Vanguard): bargemen unloading a secret night cargo at the north-west river pier were killed by something; a drunk chirurgeon swears the bite marks are a dragon's. The cargo is gone.
+- Day 301, Cyfaraun, Lucilla's old contacts (Rumormongering, month 11): Nicean wine merchant Vasan Tikala refuses to sell his best wine at the Emporium; he sells only at night by the river to dodge thieves and tax men, but with the bodies turning up no one will meet him.
+- Day 301, Cyfaraun, Lucilla's old contacts: everyone loves Maximus, the Strong Silver Sword, for fielding beastmen; everyone except the rival lanistae Celictor Nuvicus and Omnus Pluris. His beastmen made the festivals more exciting and lucrative.

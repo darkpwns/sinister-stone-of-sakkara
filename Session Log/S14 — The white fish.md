@@ -96,6 +96,16 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
   lizardman warriors lay asleep on stolen cloth. Phaedra's sleep spell held them, and the champion in the inner
   sanctum after them; all three manacled with their jaws roped, and carried up to Celictor's school before they woke.
   Under the champion's pad, a dockworker's purse: coppers, two agates and a bloodstone. Celictor paid 800gp.
+- Day 299: Gnaeus up after his month abed; Neris' prayers brought him back to his feet and nearly whole. The
+  company is twelve again.
+- Day 300, the month's end: Lucilla's textile caravan to Türos Tem came back short (a loss of 7gp, taken from the
+  stake); the coast caravan is still held, and stays held through the thirteenth month.
+- Day 301, the new month and the company's selling day. Everything went through Liber Faunus at eight parts in ten,
+  clean coin, no tax men: the white diamond (20,000gp) and the agates and bloodstone. The black shield first went
+  with them unlooked-at; Lucilla had it back before Liber's man had it out of the room, and Varro spent the day
+  training with it: a +1, and Liber took it for 4,000gp. Coin banked. Aelia rose to the fifth rank (Chronicler) and
+  took up the study of beasts (Naturalism). Gnaeus' wage, the stalls, a top-up of oil; Lucilla's contacts had two
+  new tales. In the evening a fresh sheep for bait; Gnaeus has Tertulla's hook and chain.
 
 ## Who they met
 - Tertulla, an old Lake Laman fisherwoman (Friendly): two fingers gone, chews fennel, gruff.
@@ -104,11 +114,15 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
 - Liber Faunus (Friendly): his pier cargo taken by something big in the water and scaled men.
 
 ## Treasure and XP
+- Day 301: L223 (diamond) 20,000gp and L235-L236 through Liber (no sale XP: gems); L228 Shield +1 identified by training
+  (Varro) and sold through Liber, 4,000gp, sale XP to expedition 27's share-holders. Aelia Bard 5.
 - Day 298 (A33): Celictor's reward 800gp, agates and bloodstone 100gp; 135 XP for three lizardmen captured; over 8.5 shares.
 - Day 296 (A32): 1,900 treasure XP (cult coin 1,790gp, lamp oil, the black plate and shield at mundane value) +
   240 monster XP over 8.5 shares. The black plate +1 kept for Brennus; the black shield +1 to be sold.
 
 ## Rumours given
+- Day 301 (Lucilla's contacts): Vasan Tikala, the Nicean wine merchant who sells only at night by the river; everyone
+  loves Maximus except the rival lanistae Celictor Nuvicus and Omnus Pluris.
 
 ## Changes to the world
 - The death cult of Dirgion under the Lake District is destroyed (none escaped); its altar is broken.

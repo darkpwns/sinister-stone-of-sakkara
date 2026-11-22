@@ -1600,3 +1600,35 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 298 |  | treasure share |  | 47gp 7cp |  | hrodvar |
 | 298 |  | treasure share |  | 47gp 7cp |  | aelia |
 | 298 |  | treasure share |  | 47gp 7cp |  | marcellus |
+| 298 | Silk Pony Inn (#25) | beds for twelve, night of day 298 |  |  | 2gp 4sp | vettius |
+| 299 | Silk Pony Inn (#25) | beds for twelve, night of day 299 |  |  | 2gp 4sp | vettius |
+| 300 | Silk Pony Inn (#25) | beds for twelve, night of day 300 |  |  | 2gp 4sp | vettius |
+| 301 | the retinue | wages paid |  |  | 50gp | lucilla |
+| 301 | Silk Pony Inn (#25) | stalls for mule1, donkey1, donkey2 and the cart, days 301-316 (2sp a stall a day) |  |  | 12gp 8sp | vettius |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 2,363gp 3sp |  | lucilla |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 2,363gp 3sp |  | vettius |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 2,363gp 3sp |  | iulia |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 2,363gp 3sp |  | vestus-the-unlikely |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 2,363gp 3sp |  | neris |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 2,363gp 3sp |  | brennus |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 1,181gp 6sp 4cp |  | phaedra |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 1,181gp 6sp 4cp |  | varro |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 1,181gp 6sp 4cp |  | hrodvar |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 1,181gp 6sp 4cp |  | aelia |
+| 301 | Cyfaraun | his share of the sale of L223,L228,L235,L236 (after the payout) |  | 1,181gp 6sp 4cp |  | marcellus |
+| 301 | Liber Faunus | Judge's correction: the black shield (L228) bought back unexamined, its 8gp sale reversed (day 301) |  |  | 8gp | lucilla |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 470gp 5sp 9cp |  | lucilla |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 470gp 5sp 9cp |  | vettius |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 470gp 5sp 9cp |  | iulia |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 470gp 5sp 9cp |  | vestus-the-unlikely |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 470gp 5sp 9cp |  | neris |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 470gp 5sp 9cp |  | brennus |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 235gp 2sp 9cp |  | phaedra |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 235gp 2sp 9cp |  | varro |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 235gp 2sp 9cp |  | hrodvar |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 235gp 2sp 9cp |  | aelia |
+| 301 | Cyfaraun | his share of the sale of L228 (after the payout) |  | 235gp 2sp 9cp |  | marcellus |
+| 301 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | gnaeus |
+| 301 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
+| 301 | Cyfaraun | Oil, Military (1 pint) | 1 |  | 1gp 8sp | phaedra |
+| 301 | Cyfaraun livestock market | a sheep, slaughtered and quartered for bait, evening of day 301 |  |  | 2gp | varro |
