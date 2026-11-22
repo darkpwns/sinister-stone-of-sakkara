@@ -203,6 +203,8 @@ tags:
 | 318 | Thirty-seventh descent: the king's tomb, second haul (day 318) | 200 gold pieces | 200 | vestus-the-unlikely |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
 
 ## Monster XP
 
@@ -259,6 +261,7 @@ tags:
 | 317 | Thirty-sixth descent: Marcan's tomb (day 317) | Mummy | 1 | 5,400 | 5,400 |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Giant Rat | 10 | 5 | 50 |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Ochre Ooze | 1 | 500 | 500 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Sage Slime | 1 | 56 | 56 |
 
 ## Shares and XP awarded
 
@@ -569,6 +572,17 @@ tags:
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Hrodvar | 0.5 | 412 | 32 | 0 | +0% | 444 |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Aelia | 0.5 | 412 | 32 | 0 | +0% | 444 |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Marcellus | 0.5 | 412 | 32 | 0 | +0% | 444 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Lucilla | 1 | 824 | 7 | 0 | +10% | 913 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Vettius | 1 | 824 | 7 | 0 | +5% | 872 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Iulia | 1 | 824 | 7 | 0 | +5% | 872 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Vestus the Unlikely | 1 | 824 | 7 | 0 | +5% | 872 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Neris | 1 | 824 | 7 | 0 | +0% | 830 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Brennus | 1 | 824 | 7 | 0 | +5% | 872 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Phaedra | 0.5 | 412 | 3 | 0 | +0% | 415 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Varro | 0.5 | 412 | 3 | 0 | +0% | 415 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Hrodvar | 0.5 | 412 | 3 | 0 | +0% | 415 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Aelia | 0.5 | 412 | 3 | 0 | +0% | 415 |
+| 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Marcellus | 0.5 | 412 | 3 | 0 | +0% | 415 |
 
 ## Wages
 
@@ -2067,3 +2081,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 321 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 322-335), no questions |  |  | 4gp | lucilla |
 | 321 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 6sp 2cp | vettius |
 | 321 | Cyfaraun | torch | 6 |  | 9cp | aelia |
+| 322 | a Plaza butcher | a sheep for the white fish's bait, day 322 |  |  | 2gp | marcellus |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |
+| 322 |  | treasure share |  |  |  |  |

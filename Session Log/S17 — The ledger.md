@@ -97,6 +97,11 @@ Silk Pony for the Solar Citadel.
   carriage: a man in late middle age, neat, silver-grey, smiling at something the coachman said. Nobody looked
   at the wine-shop.
 
+- Day 322, thirty-ninth descent, for the last two bronze coffins. In the sewer caves Iulia, looking up, saw a green
+  sheen sagging from the ceiling just ahead of Vettius; he stepped back and Neris and Aelia burned it down with oil.
+  The fish took its sheep; the bronze warriors came at the ward a last time; the two coffins went out on eight backs.
+  Out before two in the afternoon. The king's tomb is empty.
+
 ## Who they met
 
 ## Treasure and XP
