@@ -782,3 +782,24 @@ selling day 361 (month 13: garnets, jars, statuette, bowl, tiles, amethysts at 5
 hand (worms first, lowest HD); never set many distances in one loop (176 calls timed out: set only the pairs a move
 needs); SOTN slabs without the −12 (Rulings S18); holy water on undead = luminous extraordinary 1d8 (no holy type);
 a hidden slab-heave helper: `force-door A B --helpers C` (STR −2 helpers hurt).
+
+## S19 after the third S18 week — start here (supersedes everything above)
+**State on resume:** day 351 18:00, winter, Cyfaraun, the Solar Citadel. No adventure open (A55 paid out). Location
+Cyfaraun (settlement). Night of day 351 first (`eat --in-town`, `wait --hours 12`), then `dawn 352`. Thirteen, all
+whole. The clock runs about 3 hours early against the narration (town waits of 12+12 from 06:xx): align with a short
+`wait` before the next dawn if it matters.
+
+**Days 345-351:** Iulia reconciled with Arëtar (vigil, 1,000gp tithe, service: reaction 13); his task: the Provost's
+remnant (Adventure/AX3/NPCs/The Provost's Remnant.md), three taken alive day 347 (A52), gift 750gp (A53); the court
+waits for the full moon (356); the Regent gave Arëtar the journals. Descent 45 (A54, day 349): F12 rector, F13, 44 F11
+skeletons; Brennus' Ague cured. Descent 46 (A55, day 351): F10. The Provost's body ashore day 351 (wharf robbers).
+Goods for day 361 in the Grey Sisters' vault (garnets, jars L352, the Provost's items, keys, cassock) and the Citadel
+barracks (L272, L355-L363, L366-L379; L368 shrine, two bearers).
+
+**Open:** the court (356: Iulia testifies; the three change at the moon); the Watch inquiry weekly (358); Order rolls
+354; F11c/F18/F19, F14 (secret door to T1: the Great Teacher), F15-F17; the spellbook; selling day 361 (5% tax: month
+13); wages 352 Saturnin (Lucilla), 353 Aelia, Marcellus (Lucilla), vault fee.
+
+**Routine (S18 week 3):** after any fight the walk helper can let "rest due" slip: run `rest` by hand after every fight
+before `walk`; relight at once when a turn line says NONE LIT; `inv buy Torch N` buys packs of six; a reward found
+after a payout needs its own adventure record (A53); multi-bearer items: `recover --drop`, then `--store` at the return.

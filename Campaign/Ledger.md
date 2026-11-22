@@ -258,6 +258,15 @@ tags:
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | a canopic shrine of gilded cedar with ebony dragons, four jars inside (two bearers) | 1,350 | stored |
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | a cedar chair overlaid with gold foil | 535 | varro |
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | 3,000 silver pieces | 300 | aelia |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | eight bronze hooks | 40 | brennus |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | 22 canopic jars from the cedar armoire | 110 | vettius |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | 22 canopic jars from the cedar armoire | 110 | vestus-the-unlikely |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | 30 vials of blue natron | 450 | iulia |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | four black-figure terracotta urns | 40 | neris |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 100.0gp | 100 | lucilla |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 100.0gp | 100 | lucilla |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 500.0gp | 500 | lucilla |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | jewelry worth 500.0gp | 500 | lucilla |
 
 ## Monster XP
 
@@ -742,6 +751,17 @@ tags:
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Hrodvar | 0.5 | 218 | 111 | 0 | +0% | 330 |
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Aelia | 0.5 | 218 | 111 | 0 | +0% | 330 |
 | 349 | Forty-fifth descent: the sacrificer's tomb, F12-F13 (day 349) | Marcellus | 0.5 | 218 | 111 | 0 | +0% | 330 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Lucilla | 1 | 229 | 0 | 0 | +10% | 252 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Vettius | 1 | 229 | 0 | 0 | +5% | 240 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Vestus the Unlikely | 1 | 229 | 0 | 0 | +5% | 240 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Neris | 1 | 229 | 0 | 0 | +0% | 229 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Brennus | 1 | 229 | 0 | 0 | +5% | 240 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Iulia | 1 | 229 | 0 | 0 | +5% | 240 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Phaedra | 0.5 | 115 | 0 | 0 | +0% | 115 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Varro | 0.5 | 115 | 0 | 0 | +0% | 115 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Hrodvar | 0.5 | 115 | 0 | 0 | +0% | 115 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Aelia | 0.5 | 115 | 0 | 0 | +0% | 115 |
+| 351 | Forty-sixth descent: the embalming room, F10 (day 351) | Marcellus | 0.5 | 115 | 0 | 0 | +0% | 115 |
 
 ## Wages
 
@@ -2425,3 +2445,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 349 |  | treasure share |  | 17gp 6sp 5cp |  | hrodvar |
 | 349 |  | treasure share |  | 17gp 6sp 5cp |  | aelia |
 | 349 |  | treasure share |  | 17gp 6sp 5cp |  | marcellus |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |
+| 351 |  | treasure share |  |  |  |  |

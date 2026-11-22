@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: winter
-    day: 349
-  time: 06:20
-  weather: Very Chilly (33 to 36 F) by day, Very Chilly (33 to 36 F) at night; drizzle; wind gale (drizzly, stormy)
+    day: 351
+  time: '18:00'
+  weather: Chilly (51 to 55 F) by day, Chilly (51 to 55 F) at night; partly cloudy; wind very strong (windy)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -50,15 +50,12 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Holy Circle, Sustained
-    - Holy Blessing
-    - Cure Disease
+    spells_used: []
     encumbrance_st: 4.713
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 22
+    hp: 23
     hp_max: 23
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -97,7 +94,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 7.001
+    encumbrance_st: 6.501
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -112,8 +109,7 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 8.573
   - name: Saturnin
     sheet: Characters/saturnin.json
@@ -131,16 +127,16 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.513
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out
   rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - The six are deathbringers of the Order of the Eclipse (day 340); the house of Vasan is closed
-  - The Provost is gone; Arëtar wanted a court, not this (day 344)
-  - Vestus is a thaumaturge of the Tower of Knowledge (day 339); the Regent opened the Provost's study (day 344)
-  - 'The lower galleries (F): the long gallery south, the embalming room, the slope west and its bronze door'
-  - 'Items to name or sell: the jade ring, the ash wand (vault); the spellsword''s spellbook; garnets for month 13'
-  - The black barge at Tertulla's landing, paid to day 349
+  - Arëtar's court on the Provost's three (Opiter Vibius, Flavia Rusca, Sertor) at the full moon, day 356
+  - The Provost's body came ashore at the mill weir (day 351); the city blames wharf robbers
+  - The six are deathbringers of the Order of the Eclipse
+  - 'The lower galleries (F): the gallery''s south end and its bronze door, the west slope''s bronze door'
+  - 'Selling day 361: goods in the Grey Sisters'' vault and the Citadel barracks; the jade ring and ash wand unknown'
+  - The black barge at Tertulla's landing, paid to day 363
   trail:
   - '26.18'
   - '26.17'
@@ -162,7 +158,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 349
+clock_day: 351
 ---
 # Campaign State
 

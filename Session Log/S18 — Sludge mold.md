@@ -182,7 +182,7 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Day 348, cold and grey. Lucilla paid Tertulla two more weeks for the barge (to day 363). Ingrid's shopping: oil,
   holy water and torches (the chandler's packs of six; most went back). At the Tower it was said the Regent had been
   called to the Citadel; Arëtar has the Provost's journals now, for a court.
-- Day 349, a gale above. Forty-fourth descent, the same eleven, for the slab off the long skeleton gallery south of
+- Day 349, a gale above. Forty-fifth descent, the same eleven, for the slab off the long skeleton gallery south of
   the east gallery. Near the painted gallery eight giant rats came at the torchlight; half the company was caught
   flat-footed, but Phaedra's fan burned all eight at once. One bit Brennus.
 - The long gallery: every wall niche a skeleton with a sickle-sword. Nobody carried anything from these tombs yet, and
@@ -196,12 +196,24 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   the dozen and beat at the ward, and Iulia broke them as they came, six or seven a breath, forty-four in all, until
   the company was past the gallery's end and the rest stood still in the dark. Out by the grate after six. Vettius
   looked at Brennus' bite in town: fever coming. Neris cured it on the spot.
+- Day 350, windy and clear. A rest day. The Citadel holds the three for the Patriarch's court, which waits on the
+  full moon (day 356) to show the city what they are.
+- Day 351, windy. Doarë opened the vault and the Provost's cassock and keys went into the company's chest (Tomasz:
+  "Nothing of his on any of us"). Forty-sixth descent, a quick one, for the embalming room at the far end of the east
+  gallery: marble tables black with old blood, a cedar armoire full of linen, bronze hooks, forty-four canopic jars
+  and vials of blue natron, and four painted urns holding sacred charms (two bronze pendants, an ivory brooch, an onyx
+  serpent scarab). Nothing stirred. Out by ten, the jars clinking on every back.
+- By noon the city had it: a body against the mill weir above the Emporium, throat cut, weighted with rubble that had
+  shifted: the Provost of the Tower of Knowledge. The talk in the taverns was of wharf robbers. Iulia said nothing,
+  and nobody asked her.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before
   he speaks; reads the skyline, not the ground.
 - The Nicean wine-seller at the Emporium stalls, a stout widow who calls everyone "dove" (day 331, friendly).
 - The hooded patron at the outlet (days 333 and 337): the Provost Mentenus. Dead.
+- Opiter Vibius (the Provost's copyist), Flavia Rusca (an expelled adjunct) and Sertor (his manservant): taken
+  alive day 347, in the Citadel's cells.
 - Brother Oppius with Destrio's word (day 334) and the summons (day 340); Destrio (day 340). Patriarch Arëtar (days 334,
   344). Regent Aurëus Ambador and Treasurer Clitus Omnus (Vestus' interview, day 339). Caeso Lentulus (day 339).
 
@@ -218,6 +230,10 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   shares.
 - Day 343 (A51, F8, F9, F4): 6,000sp, 600gp, a bowl, a bronze dragon, the spellsword's spellbook, 2 amethysts, 4
   jars, the ivory tiles; two mummies, a scarab swarm, 14 worms; 4,724 XP over 8.5 shares.
+- Day 347 (A52, A53): the Provost's three taken alive (195 XP); Arëtar's gift 750gp.
+- Day 349 (A54, F12-F13): mask, collar, shrine, chair, 3,000sp (3,710gp); 8 giant rats, the rector mummy, 44
+  skeletons; 5,602 XP over 8.5 shares.
+- Day 351 (A55, F10): hooks, jars, natron, urns and four charms (1,950gp); 1,950 XP over 8.5 shares.
 
 ## Rumours given
 - Day 331: Lucilla's contacts (the Mink, the Silk Pony and the Noble Charter Inn); the wine-seller (the Patriarch and
@@ -230,10 +246,11 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Cotta has joined Vettius. The barge is moored at Tertulla's to day 349.
 
 ## Next time
-Day 344, evening, the Solar Citadel. Thirteen, all whole. The Provost's things, the garnets and the jars are in the
-Grey Sisters' vault; the coins, the bronze dragon, the bowl, the spellbook, the amethysts and the ivory tiles are
-carried. Arëtar is cooler. The long gallery south of the east gallery, the embalming room and the sealed chamber
-beyond the slope wait below. Month 12 ends on day 360.
+Day 351, evening, the Solar Citadel. Thirteen, all whole. Arëtar is the Captain's friend again; his court on the
+Provost's three waits for the full moon (day 356). The Provost's body is ashore; the city blames wharf robbers.
+Goods for the month-13 selling day (361) are in the Grey Sisters' vault and the Citadel barracks. Below: the
+skeleton gallery's south end, the bronze door down the west slope, the Cave of the Falling Star. Saturnin's wage is
+due tomorrow (352); Aelia's, Marcellus' and the vault fee on 353; month 12 ends on day 360.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 18). Judge notes: Playtest/judge-notes.txt (S18 entries).
@@ -271,4 +288,18 @@ beyond the slope wait below. Month 12 ends on day 360.
 > fan 5, Marcellus' holy water 8: destroyed. Inspire Dread (martyr, round 3): 6 shaken a turn.
 > Day 344: body ashore 3 (no); Brotherhood patron 2 (none); Arëtar sends for Iulia 2 (yes): reaction 8 vs Friendly
 > (Neutral to her answer): stays Friendly, his next reaction to her -1 (Judge's call).
+> Days 345-351: Arëtar (day 345) reaction 2d6+5 13 (Friendly/Helpful; -1 spent; +1 Captain, +1 tithe and vigil, +1
+> service offered); the remnant: 1d4-1 = 3 (Adventure/AX3/NPCs/The Provost's Remnant.md); knights 2; Regent decrypts
+> 1 day, expels Opiter (1); thaumaturge 9 (Indifferent); Caeso knows (2); night 346: Sertor to the grate (1, 3);
+> Opiter at the garret (2); Vettius' Hiding 4 (fail), Sertor notices 6 / 5 (no); watchmen 3; asleep (4); in one
+> sphere (2); Vettius' sneak 6 (fail): wake 1/6/1 (Opiter, Sertor awake); their surprise 2 (surprised); Slumber
+> saves Opiter 11 F, Flavia 9 F, Sertor 20 S; Neris' Halt: Sertor 20 S; Brennus' wrestle 20 then 16-2 (saves 17, 16);
+> Vettius' nonlethal backstab 10 (16 -> 6); Iulia's Halt: Sertor 9 F. Gift (1), 3 x 250. Order rolls day 347: 3, 1,
+> 3, 1, 3, 1 (none). Regent hands over the journals (1); court held for the full moon (5).
+> Day 349 (A54): rats enc282 (8; party half surprised); Brennus' bite: Ague (save 8 vs 11+), diagnosed (Vettius),
+> cured (Neris). F12 slab heave 1 (24); rector 28 hp; visage: 4 cowered; Rod rebuke 2d6 6 (destroyed); its
+> simultaneous Halt Monsters on 4 (1d4 4): all saved. F13 heaves 10, 23. F11 exit 7 rounds: woke 11, 10, 2, 15, 2,
+> 15, 3 (58); Iulia's rebuke HD 8, 7, 6, 6, 4, 7, 6 (44 destroyed).
+> Day 351: body ashore 1 (the mill weir, 4); Brotherhood 5 (none); Watch inquiry 3 (not reaching the company); the
+> city reads it as wharf robbers (5); Doarë 36 (in).
 
