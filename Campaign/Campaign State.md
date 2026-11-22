@@ -5,14 +5,14 @@ tags:
 session: 19
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A66 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A68 paid out)
 public:
   date:
     year: ''
     season: spring
-    day: 375
-  time: 06:43
-  weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; drizzle; wind moderate (drizzly)
+    day: 379
+  time: '16:43'
+  weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 20.444
+    encumbrance_st: 20.104
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 18.465
+    encumbrance_st: 18.534
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -51,7 +51,7 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 12.901
+    encumbrance_st: 12.97
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -61,7 +61,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 19.16
+    encumbrance_st: 19.229
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -70,13 +70,14 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 18.608
+    encumbrance_st: 18.277
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
     hp: 3
     hp_max: 14
-    conditions: []
+    conditions:
+    - dead (thirst, CON 0)
     spells_used: []
     encumbrance_st: 14.974
   - name: Varro
@@ -86,7 +87,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 14.509
+    encumbrance_st: 14.547
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -116,7 +117,8 @@ public:
     role: henchman
     hp: 4
     hp_max: 4
-    conditions: []
+    conditions:
+    - dead (thirst, CON 0)
     spells_used: []
     encumbrance_st: 4.531
   - name: Cotta
@@ -128,7 +130,7 @@ public:
     spells_used: []
     encumbrance_st: 4.883
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
-  rations: 'Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d (incapacitated); Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d (hungry, underfed, dehydrated, incapacitated); Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d (hungry, underfed, dehydrated); Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Thelesa villa is clean: Una dead, the grey walker destroyed (day 362); the Order paid Vestus (day 364)'
@@ -160,7 +162,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 375
+clock_day: 379
 ---
 # Campaign State
 

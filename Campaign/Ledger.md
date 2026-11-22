@@ -2660,3 +2660,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | hrodvar |
 | 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | aelia |
 | 375 | Cyfaraun | his share of the sale of L386 (after the payout) |  | 4,160gp |  | marcellus |
+| 376 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 376 | the retinue | wages paid |  |  | 400gp | iulia |
+| 376 | dock folk on the Grain Steps | a day's pay for word of Nerio Scaurus, day 376 |  |  | 5sp | lucilla |
+| 377 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 378-391), no questions |  |  | 4gp | lucilla |
+| 377 | Cyfaraun | his share of the sale of L415 (after the payout) |  | 58gp 1sp 8cp |  | iulia |
+| 377 | Cyfaraun | his share of the sale of L415 (after the payout) |  | 58gp 1sp 8cp |  | vettius |
+| 377 | Cyfaraun | his share of the sale of L415 (after the payout) |  | 58gp 1sp 8cp |  | neris |
+| 377 | Cyfaraun | his share of the sale of L415 (after the payout) |  | 58gp 1sp 8cp |  | lucilla |
+| 377 | Cyfaraun | his share of the sale of L415 (after the payout) |  | 58gp 1sp 8cp |  | brennus |
+| 377 | Cyfaraun | his share of the sale of L415 (after the payout) |  | 29gp 9cp |  | varro |
+| 378 |  | treasure share |  | 2gp |  | iulia |
+| 378 |  | treasure share |  | 2gp |  | vettius |
+| 378 |  | treasure share |  | 2gp |  | lucilla |
+| 378 |  | treasure share |  | 2gp |  | brennus |
+| 378 |  | treasure share |  | 2gp |  | neris |

@@ -50,3 +50,26 @@ Delivered by Brother Oppius on day 369 (Judge's call). Una's contract (6) done d
 - **Where:** a small rented house in the Tower District, two streets from the Chapterhouse; he sells charms and
   "fortunes" to young people at the Public Baths' portico by day; home after dark. A Tower member (Vestus) can learn
   of him (Loremastery or asking the thaumaturges: the Tower knows him for a charlatan, not a member).
+
+## Day 375 assignments (S19): Neris (4) and Iulia (4)
+Destrio's answer to the report of Liber's note (day 373, 1d6 6): Liber Faunus becomes a contract at the next weekly
+roll for a deathbringer who knows him; on day 375 Neris and Iulia rolled 4: 1d2 1, **Neris**. Iulia's contract 1d6
+1 (used): a fresh contract (reason 3, petitioner 4, level 1d4+1 2, class 2). Delivered by Oppius day 376.
+
+### Neris' contract: Liber Faunus (ledger patron, password "morning dew")
+- [[Liber Faunus (AX3)]]: Venturer 10, hp 43, AC 0 (2 in leather), elven short sword +1, ESP medallion (reads those
+  he suspects of treachery, 90'); the Argollëan Family's secret head, owner of The Mink. Paid the Brotherhood for
+  four killings (Huranos, Ashera, Vason, Bodilkas). Petition: the ledger itself (the Order's own judgment, Destrio).
+  Commission **5,000gp** (500gp x level 10).
+- **Where:** The Mink office 30% late afternoon and evening, the hideout under it (11u) and its HQ 33% late
+  afternoon to late evening, asleep in The Mink's backroom 30% of nights (AX3). War footing: 80 mercenaries.
+- **Consequences (Judge's watch):** if the company is known or suspected, the Family's attitude falls to Hostile
+  and an attention roll is made each week; Iulia's Captaincy: Rulings S14 (acting against the Family). The Family
+  orders murders of adventurers who cross it.
+
+### Iulia's contract (fresh): Nerio Scaurus
+- **Nerio Scaurus**, Bridge District cutpurse (Thief 2, Neutral; Judge's call: hp 5, AC 7 leather, dagger 1d4,
+  morale 0; Hiding, Sneaking). Strangled his lover **Lavinia**, a laundress, and her lover **Gaius**, a boatman, in
+  jealous rage (reason 3); petitioner **Fausta**, Gaius' widow (petitioner 4). Commission **1,000gp**.
+- **Where:** a loft over a cooper's yard on the Grain Steps (Bridge District); works the Emporium crowds by day;
+  drinks at a dockside wine-shop until late.

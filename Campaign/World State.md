@@ -171,6 +171,11 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Neris' Order contract: Liber Faunus** (day 376; [[Order Contracts (S18)]]): his nights: The Mink office till after midnight, then a curtained chair with 4 bravos to a tall townhouse on Memorial Street (two bravos at the door all night; Judge: the house is unprepped: build it before anyone enters). The company has not been marked watching (days 376, 378).
+- **Selene seeks the Brotherhood (week of day 379):** a sealed note for "Vasan" with "ruby lips" at the Nicean wine stalls: a rival for her lover's eye. Lucilla hears on a 1 (1d6) each day she passes the Emporium. Destrio's charge applies.
+- **Day 380:** Oppius with 1,000gp for Nerio (A68's participants: Iulia, Vettius, Lucilla, Brennus, Neris).
+- Hrad's body ashore day 379 (river robbers blamed). The Watch's Balkar inquiry: weekly 1-in-6 (Indifferent optio).
+- Vestus' and Phaedra's books now hold Beguile Humanoid and Invisibility (both) and Mage Missile (Phaedra): formulas only; adding them to a repertoire takes a week's study each (RR Spell Repertoires).
 - **Day 373:** Oppius with 1,500gp for Balkar (Iulia's; its own record, participants of A65); Destrio's answer to the report of Liber's note (Judge: the Order may set Liber as a contract; the Family's attitude if the company is seen in it).
 - **Hrodvar** on bed rest to day 381 (grievous wound, day 367); his punctured lung mended (Repair, Neris paid 185gp).
 - **Watch:** the optio's questions about Balkar (day 372, Indifferent); weekly 1-in-6 that Hrad's body comes ashore (from day 379).
@@ -202,7 +207,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
   the F17 lance); the jade ring (the Provost's: magic research by Vestus, 10 days and 2,000gp, or a sage outside the
   city); Liber's note for Vasan (above); Iulia's month-13 report by day 390 and the month-end task roll; Vestus'
   Thunderbolt formula kept; the Order's weekly rolls (368).
-- Scheduled: 373 Oppius (Balkar 1,500gp) and Destrio's answer; 375 the disc; 375 Order rolls; 379 Brotherhood weekly;
+- Scheduled: 380 Oppius (Nerio 1,000gp); 381 Hrodvar up; 382 Order rolls; 386 Brotherhood weekly; 391 Tertulla;
   376 Varro, Hrodvar; 377 Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends (fees,
   investments 1 and 3, investment 2's first roll after its delay, Iulia's rolls and report, Vestus' dues, Cotta's
   wage to 420); 391 selling day (the villa's gems and jewels L393-L397, L399-L407).

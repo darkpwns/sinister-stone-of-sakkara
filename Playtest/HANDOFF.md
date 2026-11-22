@@ -874,3 +874,21 @@ Tertulla; 382 Saturnin; 383 Aelia, Marcellus, vault fee; 390 month 13 ends; 391 
 **Routine (S19 week 2):** after every `state end`, write the party's hp to the actors by hand (the engine does not);
 never rename combatant groups; `roll` "xK" repeats, it does not multiply; night errands: the rollover passes while
 awake, reset spells after the morning sleep.
+
+## S20 after the third S19 week — start here (supersedes everything above)
+**State on resume:** day 379 ~16:45 (clock), the evening of day 379 in the narration, spring, Cyfaraun, the Solar
+Citadel. No adventure open (A68 paid out). Location Cyfaraun (settlement). Night of day 379 first (`eat --in-town`,
+`wait --hours 13`), then `dawn 380`. Thirteen: Hrodvar on bed rest to day 381 (3/14); Brennus Fighter 7 (31 hp);
+Aelia Bard 6 (wage 800, paid to 383).
+
+**Days 373-379:** A67 Balkar's commission and spellbook (retcon); copying (Vestus, Phaedra); Liber a contract (Neris,
+day 376); the disc sold through Liber 62,400gp; A68 Nerio (Iulia's contract, done night of 377); Liber watched:
+The Mink, then a chair with 4 bravos to a Memorial Street townhouse (unprepped: build it before entry); Selene's
+note for Vasan at the wine stalls (week of 379); Hrad ashore, river robbers blamed.
+
+**Open:** Liber (the table's plan: learn the house, strike when sure, never be seen; consequences in the contracts
+note); Selene's note; 380 Oppius (Nerio 1,000gp, its own record); 381 Hrodvar up; 382 Order rolls and Saturnin's
+wage; 383 Aelia (800), Marcellus, vault fee; 386 Brotherhood weekly; 390 month 13 ends (fees, investments 1, 2 and
+3, Iulia's report and task roll, Vestus' dues, Cotta's wage); 391 selling day (villa gems) and Tertulla; below: the
+troglodyte hive (chieftain, hoard in I2), F14/T, F17, F19. Vestus' and Phaedra's new formulas need a week's study
+each to enter a repertoire.

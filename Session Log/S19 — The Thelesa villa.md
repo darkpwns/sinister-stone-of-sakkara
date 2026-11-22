@@ -2,7 +2,7 @@
 type: session
 session: 19
 date_real: 2026-11-22
-date_game: winter-spring day 358-372
+date_game: winter-spring day 358-379
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -111,6 +111,29 @@ given Vestus a name: Una of the Thelesa villa.
   the Tower. Iulia told him the man was a charlatan the Tower despised; the optio wrote it down and went away
   uninterested.
 
+- (Night of day 370, told now.) In the Krysean's house Vestus found his travelling codex in a calfskin wrapper:
+  his formulas for beguiling, the mage's darts and invisibility. The company took it.
+- Day 373, partly cloudy. Brother Oppius brought 1,500gp for the Krysean, and Destrio's answer on the note: "Calefa
+  keeps long accounts. The Order will name one of you." Vestus and Phaedra sat down with the Krysean's book and
+  began copying it into their own, a page a day.
+- Day 375. The Tower sent word: the disc is named, a flying disk of the elder days, which a mage stands on and steers
+  with his mind, given a crystal to drive it. Lucilla sold it to Liber that afternoon at four-fifths: 62,400 gold.
+  Everyone who had carried it out paid back their part of the Tower's fee. Brennus feels his arm grown surer (he is
+  a fighter of the seventh rank) and Aelia her voice (sixth); Lucilla raised Aelia's pay to 800 a month. Vestus
+  finished his copies.
+- Day 376. Oppius at the gate, two slips: for Iulia, Nerio Scaurus, a cutpurse of the Grain Steps who strangled his
+  lover and her lover in a jealous rage (the boatman's widow asks); for Neris, Liber Faunus. Nobody spoke for a
+  while. Rosa: "He just paid us sixty thousand." Ingrid: "And four people are dead because he paid for it. We do it
+  right or not at all." Gideon: "Iulia's first. Liber we watch." Phaedra finished her copies. Vettius watched The
+  Mink that night from a doorway: Liber left after midnight in a curtained chair with four bravos, toward Memorial
+  Street.
+- Day 377. Lucilla paid Tertulla to day 391 and sold the Krysean's book to Liber at four-fifths (320gp), smiling.
+  The Nicean wine-seller knew the cutpurse: a loft over a cooper's yard on the Grain Steps. That night Vettius
+  opened the loft and Nerio never woke. Iulia did the Order's work.
+- Night of day 378. Vettius watched Memorial Street: the chair came after midnight, a tall narrow house with
+  shuttered upper windows; two bravos stayed at the door all night; a lamp burned upstairs for an hour.
+- Day 379, clear. The river gave up the Jutlander below the Bridge Gate; the taverns blame river robbers.
+
 ## Who they met
 - An old farmer by the Türos Quell road (day 362): bent, three teeth, chews a straw; "She was a pretty thing once."
 - Four Knights of the Winged Sun (Arëtar's escort, day 362).
@@ -128,6 +151,11 @@ given Vestus a name: Una of the Thelesa villa.
 - Night of day 369 (A64): Hrad's purse 18gp; 98 XP over 5.5 shares. Night of day 370 (A65): Balkar's strongbox 85gp;
   135 XP over 5.5 shares. Day 371 (A66): the Order's 2,000gp for Hrad over 5.5 shares. The commission for Balkar
   (1,500gp) comes day 373.
+- Day 373 (A67): the Order's 1,500gp for Balkar and his spellbook (400gp; sold through Liber day 377, 320gp);
+  1,900 XP over 5.5 shares.
+- Day 375: the flying disk (L386) sold through Liber, 62,400gp, sale XP to the A57 share-holders. Brennus Fighter 7,
+  Aelia Bard 6.
+- Night of day 377 (A68): Nerio's purse 10gp; 30 XP over 5 shares. His commission (1,000gp) comes day 380.
 
 ## Rumours given
 - Day 358: Lucilla's contacts at the Mink (the villa, its madwoman and the grey walker on the wall).
@@ -138,7 +166,11 @@ given Vestus a name: Una of the Thelesa villa.
 - The rainbow disc is at the Tower of Knowledge until day 375.
 
 ## Next time
-Day 372, evening, the Solar Citadel. Hrodvar abed to day 381; the rest whole or nearly. The Order has been told of
+Day 379, evening, the Solar Citadel. Hrodvar abed to day 381. Neris holds the Order's contract on Liber Faunus,
+the company's own buyer: he sleeps in a guarded house on Memorial Street. Oppius owes 1,000gp for the cutpurse
+(day 380). Below: the broken lizard-man hive, the serpent door, the sealed cases.
+
+(Week 2 close:) Day 372, evening, the Solar Citadel. Hrodvar abed to day 381; the rest whole or nearly. The Order has been told of
 Liber's note (its answer comes day 373); Oppius brings 1,500gp for the Krysean on day 373. The disc is named on day
 375. Below: the broken lizard-man hive past I7 (their chieftain alive, their hoard somewhere east), the serpent door,
 the sealed cases.
@@ -205,4 +237,19 @@ cases and their sleeper, the narrow way east from the Cave of the Falling Star.
 > the other four void). Commissions: Hrad 1d3 1 (day 371), Balkar 1d3 2 (day 373). Day 372: Brotherhood weekly 2
 > (none new); Liber's second note heard (1); Hrad ashore 5 (no); the Watch reaches the company about Balkar 1: the
 > optio's reaction 11 (Indifferent: no further steps); Destrio's answer 1d3 1 (day 373).
+> Days 373-379: retcon (user, after week 2): Balkar's spellbook taken night of 370 (formulas Beguile Humanoid, Mage
+> Missile, Invisibility; 4 pages; valued 400gp by the Tower's formula prices, AX3 p. 152), booked with the commission
+> as A67; copying (RR Spell Repertoires: 1 page a day): Vestus Beguile Humanoid and Invisibility, days 373-375;
+> Phaedra Beguile Humanoid, Mage Missile and Invisibility, days 373-376 (Judge's ruling: both copy from the one book
+> at once, different pages). Sold through Liber at 80% (no heat: the Family never talks to the Watch; at the Tower
+> it would have tied Vestus' questions to the dead man: Judge's call). Destrio's answer 1d6 6 (Liber a contract at
+> the next roll). Day 375 Order rolls 2, 3, 2, 4, 3, 4: Neris and Iulia; 1d2 1 (Neris: Liber); Iulia 1d6 1 (used):
+> reason 3, petitioner 4, level 2, class 2 (Nerio Scaurus, hp 5). L386 identified (the Tower), sold 62,400gp.
+> Brennus level 7 (hp 7d8 31); Aelia level 6 (loyalty 10; hp 20; Bargaining). Day 376: dock folk 9 (Indifferent);
+> Liber 2 (The Mink office), backroom 87 (no), home by chair with 4 bravos (1); Vettius' Hiding 4 (fail), marked 6
+> (no). Day 377: the wine-seller knows 1 (yes). Nerio home 3; Vettius' Sneaking 16, Lockpicking 16; wakes 6 (no);
+> purse 2d6 10; commission 1d3 2 (day 380). Night 378: Vettius' Hiding 11 (fail), marked 4 (no); Liber home 2;
+> night watch 1 (two bravos at the door). Day 379: Brotherhood weekly 1: Selene (2; "ruby lips"), target a rival
+> for her lover's eye (2); Lucilla hears 5 (no); Hrad ashore 1 (river robbers blamed, 4); Balkar inquiry 3 (no);
+> Nerio linked 2 (no).
 
