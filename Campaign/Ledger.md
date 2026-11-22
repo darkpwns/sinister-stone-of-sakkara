@@ -2093,3 +2093,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 322 |  | treasure share |  |  |  |  |
 | 322 |  | treasure share |  |  |  |  |
 | 322 |  | treasure share |  |  |  |  |
+| 323 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 323 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 323 | the Grey Sisters (vault fee) | the company's chest in the Grey Sisters' vault, one month (days 324-353) |  |  | 10gp | lucilla |

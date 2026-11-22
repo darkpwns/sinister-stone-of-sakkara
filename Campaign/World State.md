@@ -143,9 +143,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
-- The white fish: re-charmed day 309; its day-316 save failed; next weekly save day 323 (hidden).
+- The white fish: re-charmed day 309; day-316 save failed; **day-323 save 19: the charm is broken** (hidden; the party does not know). Its attitude rolled 2d6+2 = 12: Friendly (fed on every visit). The river's catfish throw (6+ each turn on the water) applies again (Rulings S15), as a friendly fish: it comes to the canoes for food and does not attack while Friendly; Neris may re-charm it (+0).
 - **Full moon: day 328** (Judge's call rolled day 309). Arëtar and Iulia plan to take the Provost at the Shrine at midnight (a sanctioned mission: 1d4 knights). **Mentenus, warned by Terkinos, will not come**: the Shrine stands empty that night (the party does not know until it looks). Where the pack went and what Mentenus does next are open (Judge's watch items: Prelate Romus may tell him who holds the seer and his papers).
-- Wages: Phaedra to 339, Varro and Hrodvar to 346 (retinue periods paid), Aelia and Marcellus to 323, Gnaeus to 330; vault fee to 323. Lodging (day 316 on): the Solar Citadel barracks, free (Captain's privilege, Rulings S14); the mule, two donkeys and the cart in the Citadel stables (Judge's call rolled day 316: 3, taken as the Captain's beasts, free); the Silk Pony stalls paid to 332 left unused; the Silk Pony strongbox emptied into the Grey Sisters' vault with L238. Month 11 ends day 330 (investments 1 and 3 vagaries; Iulia's month-end Underwatch rolls; her first report to Arëtar due by then). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
+- Wages (400gp a month each from day 317, the RR table at 5th level): Phaedra to 339, Varro and Hrodvar to 346, Aelia and Marcellus to 353 (paid day 323); 2,000gp a month in all. Gnaeus resigned day 317. Vault fee paid to 353 (day 323). Lodging (day 316 on): the Solar Citadel barracks, free (Captain's privilege, Rulings S14); the mule, two donkeys and the cart in the Citadel stables (Judge's call rolled day 316: 3, taken as the Captain's beasts, free); the Silk Pony stalls paid to 332 left unused; the Silk Pony strongbox emptied into the Grey Sisters' vault with L238. Month 11 ends day 330 (investments 1 and 3 vagaries; Iulia's month-end Underwatch rolls; her first report to Arëtar due by then). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
@@ -153,13 +153,21 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Prep queue (Judge only)
 - Sites: the Nethercity and Undercity under Cyfaraun (18.05); no overland travel planned. Saved for later: the Ionicus
   estate (27.19), Celictor's crocodile (#45u), the arena (rumour 8: Maximus).
-- Next target (table): Q, Marcan's tomb (P3 slab, or the Q6 panel); the party knows Marcan's name (Liber) and that
-  his sword commands; Ingrid's conditions (Spellward on Iulia, Neris' Holy Circle, Sustained, one turned target at
-  a time). Q's foes: 4 mummy warlords (Q1), 8 bronze statues and Marcan (Q5): all barred by the Underwatch shield;
-  Marcan's sword of command (Word of Command 3/day, 15', the target must understand the word) passes the ward.
-- Full moon day 328: the planned Shrine ambush finds it empty (Terkinos's pack fled north through the NW secret door the night of day 306 and warned Mentenus). To find them: the NW room 2's secret door and the unkeyed tunnels beyond; Mentenus at the Tower (Mage 9 wererat; Arëtar holds his papers).
-- Threads: the Brotherhood's ledger (Liber, Selene, Mentenus as patrons); Arëtar and the Tower; men in the northern
-  sewers and the half-elf; the Doppelganger Den's room 5; Malethor's bow (AX4); rumour 19 (false).
-- Wages from day 316 at the RR table (Rulings S16): Phaedra 200 (paid to 339), Varro 200 and Hrodvar 200 (to 346), Aelia 400 and Marcellus 200 (to 323), Gnaeus 200 (to 330); 1,400gp a month in all. Over-limit henchmen (Hrodvar, Varro, Marcellus, Gnaeus, Aelia) stay until SOTN is done (Rulings S16).
-- Scheduled: 321 Tertulla's mooring; 323 the fish's save, Aelia (400) and Marcellus (200) wages, vault fee; 328 full moon;
-  330 month 11 ends (the Guildhouse storage fee, 0.25% of each balance; investments 1 and 3; Iulia's month-end rolls); 331 selling day; 332 stalls.
+- Q (Marcan's tomb) is emptied (S17); its eight bronze statues remain, active, barred by the Underwatch ward. Open
+  Nethercity targets: F -> T (the Great Teacher; F14's hidden stair), R (beyond the P13 boulder door), O, the Night
+  Captain's tomb under the Citadel, the egg of the earth at P8b (pudding).
+- The Order of the Eclipse: the six PCs are acolytes (day 319); their initiation is the retribution on Provost
+  Mentenus (Mage 9, wererat; Chapterhouse, Tower District: quarters 25% by day / 75% asleep by night, study 50% /
+  25%). Destrio (traits: lean, grey at the temples, hands never move; "Calefa keeps the accounts. We only collect.")
+  wants word of anyone who seeks the Brotherhood (Judge's call each week, 1-in-6; day 323: 3, nobody). Liber and Selene
+  remain the Order's petitions.
+- Full moon day 328: Arëtar's ambush finds the Shrine empty (Terkinos's pack fled north the night of day 306 and
+  warned Mentenus). Arëtar's papers on Mentenus; Prelate Romus is his friend (Judge's watch item).
+- L295 (Marcan's scale, chain mail +1) unidentified: Vestus' Magical Engineering failed (no retry until his level 7);
+  Arëtar or the Tower can name it. L296 Helm of Comprehension and L297 Short Sword +2, Command identified, unused:
+  sale XP if sold unused.
+- Scheduled: 328 full moon; 330 month 11 ends (Guildhouse storage fee 0.25% of each balance; investments 1 and 3;
+  Iulia's month-end Underwatch rolls, her report due by 330); 331 selling day (month 12: the vault's goods; Liber
+  80% for elven relics); 335 Tertulla's mooring; 339-353 wages.
+- NPCs named in play, not written up: Brother Oppius (curate of Türas, Temple of Justice; thin, ink-stained fingers,
+  repeats names back as if writing them), Destrio's voice (above). Gnaeus (former henchman, Explorer 5, in Cyfaraun).

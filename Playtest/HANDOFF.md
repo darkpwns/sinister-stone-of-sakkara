@@ -627,3 +627,32 @@ henchman's wage at once on a level-up (`retinue set ID wage_gp=N`).
 (rest at the first turn below if it says rest due); identify a generic magic weapon before saving if an identified one
 of the same name is on a sheet (snapshot collision); unsettling checks every 2 hours below; `adventure join` with
 `--kind henchman` for henchmen; never `location --site` mid-delve; `Playtest/tools/s15_ledger.py` for payout rows.
+
+## S17 (2026-11-22) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: `s10_j.sh`, `s11_mend.sh`, `s13_j.sh`,
+`s12_town.sh` (set `PARTY` after sourcing; Gnaeus is gone). Session 17 log: `Session Log/S17 — The ledger.md`.
+
+**State on resume:** day 323 16:57, winter, Cyfaraun (18.05), the Solar Citadel barracks (free: Captain's privilege).
+No adventure open (A47 paid out). Location: Cyfaraun (settlement, no wandering). Start S18 with the night of day 323
+(`eat --in-town`, `wait`; `dawn 324` for spells).
+
+**Party (11):** Lucilla Ven7, Vettius Thf7, Iulia Cru6 (Captain; spear, shield, the Rod), Vestus M6 (Magical
+Engineering), Neris Pr6, Brennus F6; henchmen Phaedra M5, Varro F5, Hrodvar VG5, Marcellus F5, Aelia B5 (all at
+400gp a month). All whole. Gnaeus resigned day 317 (Characters/former). The six PCs are acolytes of the Order of the
+Eclipse (initiation: Provost Mentenus); the ledger is the Order's.
+
+**What S17 did (days 316-323):** left the Silk Pony (strongbox and L238 to the Grey Sisters' vault; beasts to the
+Citadel stables); Rulings S14 Order of the Eclipse corrected; Marcan's tomb Q cleared and emptied in four descents
+(A44-A47: Marcan and his four guards destroyed inside the ward; 56,917gp of goods plus the three magic items, all
+in the vault for day 331); Ezelus (day 319) and Destrio (vetting 16: acolytes); the victims' rewards left unclaimed
+(the Order's secrecy); Tertulla paid to 335. **The white fish's charm broke on day 323 (hidden), Friendly (12).**
+
+**Next (by the profiles):** the full moon (328: Arëtar's ambush finds the Shrine empty); month 11's end (330:
+storage fee, investments, Iulia's rolls); the selling day (331: the tomb's goods; L296, L297 identified and unused,
+L295 unidentified); the Mentenus contract; F -> T. Rulings S17: 3 rows. Engine findings and slips: judge-notes S17.
+
+**Routine (S17 slips):** after every return `location --clear` and set the settlement before any `wait`;
+`encounter surprise` always with `--party`/`--monsters` (fore,los / los / none); the Rod's +4 lasts one turn
+(10 rounds); pass `--target` to `rebuke` for undead not yet rebuked; rest at "rest due in N rounds"; relight a
+burnt-out lantern with `light on lanternN` after a refuel.
+

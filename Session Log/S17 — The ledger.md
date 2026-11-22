@@ -102,12 +102,48 @@ Silk Pony for the Solar Citadel.
   The fish took its sheep; the bronze warriors came at the ward a last time; the two coffins went out on eight backs.
   Out before two in the afternoon. The king's tomb is empty.
 
+- Day 323, in town. Lucilla drew coin from the Guildhouse and paid Aelia's and Marcellus' wages for the coming
+  month, and the Grey Sisters' fee for the vault. Everyone's spare coin went into the Guildhouse. Nobody came looking
+  for the Brotherhood.
+
 ## Who they met
+- Brother Oppius, curate of Türas (Temple of Justice): took the Captain's request. Prelate Ezelus: heard the deed
+  and the proof; sent the six to the Order.
+- Destrio of the Order of the Eclipse: vetted the six and took their oaths as acolytes; kept the ledger.
+- Marcan, the great king (destroyed), his four guards (destroyed), his eight bronze warriors (still in the tomb).
+- Tertulla (Lake Laman): two more weeks for the barge. Gnaeus left the company (day 317).
 
 ## Treasure and XP
+- Day 317 (A44): Marcan's scale (unknown), helm (Helm of Comprehension) and sword (Short Sword +2, Command), the
+  crown, the collar, the fan, the sandals, 3,000gp, the gold sarcophagus; the king and four guards destroyed
+  (9,640 XP); 44,640 XP over 9 shares. Lucilla Venturer 7; Vestus Mage 6; Phaedra, Varro, Hrodvar, Marcellus,
+  Gnaeus 5th level.
+- Day 318 (A45): throne, chariot, eight cedar shields, the canopic shrine, jars and vases, mosaic gold (9,317gp).
+- Day 320 (A46): two bronze coffins (7,000gp); giant rats and an ochre ooze (550 XP).
+- Day 322 (A47): two bronze coffins (7,000gp); a green slime (56 XP).
+- In the Grey Sisters' vault for the selling day (331): all the tomb's goods and the three magic items.
 
 ## Rumours given
+- None.
 
 ## Changes to the world
+- Marcan's tomb is emptied; the king and his guard are destroyed; his bronze warriors still stand in it.
+- The six are acolytes of the Order of the Eclipse; the Brotherhood's ledger is the Order's; their initiation is
+  the Provost Mentenus. The company lodges at the Solar Citadel and has left the Silk Pony.
+- Gnaeus has left the company.
 
 ## Next time
+Day 323, late afternoon, Cyfaraun, the Solar Citadel. Eleven, all whole. The full moon falls on day 328 (Arëtar's
+ambush at the rat shrine); month 11 ends on day 330; the selling day is day 331. The Order waits on the Provost.
+
+> [!judge]- Judge rolls
+> Campaign/roll-log.jsonl (session 17). Judge notes: Playtest/judge-notes.txt (S17 entries).
+> Day 316: Citadel stables 3 (yes); Ezelus 90 (absent). Day 317: Ezelus 99 (absent), audience day 319 (1d4 3).
+> Q1 day 317: warlords 28/26/25/22 hp, Marcan 65; Rod rebuke 2d6 6 (warlord1), then warlords 2-4 (round 4-5 rolls
+> reassigned; rounds 14-16 re-thrown at level 6: 17, 11, 14) and Marcan (round 7, automatic, cowering); Marcan
+> destroyed round 11, warlords rounds 6, 20, 22, 25; morale 14 and 12 (victory or death); Marcan's word of command
+> 2 of 3 used, on Iulia and Brennus (not understood). Statues 30/25/24/23/22/21/20/18 never touched anyone.
+> Unsettling events: 14 (footprints, day 317), 13 (twisted grain, day 318), 1 (songbird, day 320, extra check 5),
+> 15 (blood symbol, day 322, not yet played). Day 320: giant rats' disease 24 (Bloody Flux; Brennus saved).
+> Day 321: Vettius' watch 4 (the Provost at the gate), noticed 6 (no). Day 319: Destrio's vetting 2d6+6 = 16.
+> Day 323: the white fish's save 19 (charm broken), attitude 2d6+2 = 12 (Friendly); Brotherhood patron 3 (none).
