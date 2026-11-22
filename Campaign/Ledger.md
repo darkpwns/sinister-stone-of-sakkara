@@ -276,6 +276,8 @@ tags:
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | SOTN Flying Disk | 1,000 | stored |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | fragments of a shimmering rainbow-sheened metal prised from the reliquary walls | 5,000 | stored |
 | 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | 37 gold pieces | 37 | brennus |
+| 399 | The ambush in the Old District (day 399) | 4 gold pieces | 4 | vettius |
+| 399 | The ambush in the Old District (day 399) | 57 silver pieces | 6 | vettius |
 
 ## Monster XP
 
@@ -353,6 +355,10 @@ tags:
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Grave Ghoul | 5 | 38 | 190 |
 | 354 | Forty-eighth descent: the vestibule and the flying disc, F14-F17 (day 354) | Sepulchral Worm | 9 | 16 | 144 |
 | 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Rufio Calvus (Chthonic cleric 3) | 1 | 50 | 50 |
+| 399 | The ambush in the Old District (day 399) | Ordinary Gladiator (AX3) | 7 | 5 | 35 |
+| 399 | The ambush in the Old District (day 399) | Ordinary Gladiator (AX3) | 3 | 5 | 15 |
+| 399 | The ambush in the Old District (day 399) | Sand & Bones enforcer (Assassin 2) | 2 | 20 | 40 |
+| 399 | The ambush in the Old District (day 399) | Sand & Bones slayer (Assassin 4) | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -801,6 +807,16 @@ tags:
 | 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Vettius | 1 | 11 | 14 | 0 | +5% | 26 |
 | 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Lucilla | 1 | 11 | 14 | 0 | +10% | 28 |
 | 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | Varro | 0.5 | 5 | 7 | 0 | +0% | 12 |
+| 399 | The ambush in the Old District (day 399) | Lucilla | 1 | 1 | 24 | 0 | +10% | 29 |
+| 399 | The ambush in the Old District (day 399) | Vettius | 1 | 1 | 24 | 0 | +5% | 27 |
+| 399 | The ambush in the Old District (day 399) | Brennus | 1 | 1 | 24 | 0 | +5% | 27 |
+| 399 | The ambush in the Old District (day 399) | Neris | 1 | 1 | 24 | 0 | +0% | 26 |
+| 399 | The ambush in the Old District (day 399) | Aelia | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 399 | The ambush in the Old District (day 399) | Saturnin | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 399 | The ambush in the Old District (day 399) | Varro | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 399 | The ambush in the Old District (day 399) | Marcellus | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 399 | The ambush in the Old District (day 399) | Hrodvar | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 399 | The ambush in the Old District (day 399) | Cotta | 0.5 | 1 | 12 | 0 | +0% | 13 |
 
 ## Wages
 
@@ -2750,3 +2766,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 393 | Cyfaraun | his share of the sale of L426,L427,L428,L429,L430,L431 (after the payout) |  | 179gp 4sp 1cp |  | aelia |
 | 395 | Silk Pony Inn (#25) | drink and small bets, evening of day 395 |  |  | 1gp | vettius |
 | 396 | the Prefect's guard optio at the Amphitheater cells | a gift for a look at the beastmen, day 396 |  |  | 10gp | lucilla |
+| 399 | the retinue | wages paid |  |  | 400gp | vettius |
+| 399 |  | treasure share |  | 1gp 3sp 9cp |  | lucilla |
+| 399 |  | treasure share |  | 1gp 3sp 9cp |  | vettius |
+| 399 |  | treasure share |  | 1gp 3sp 9cp |  | brennus |
+| 399 |  | treasure share |  | 1gp 3sp 9cp |  | neris |
+| 399 |  | treasure share |  | 6sp 9cp |  | aelia |
+| 399 |  | treasure share |  | 6sp 9cp |  | saturnin |
+| 399 |  | treasure share |  | 6sp 9cp |  | varro |
+| 399 |  | treasure share |  | 6sp 9cp |  | marcellus |
+| 399 |  | treasure share |  | 6sp 9cp |  | hrodvar |
+| 399 |  | treasure share |  | 6sp 9cp |  | cotta |

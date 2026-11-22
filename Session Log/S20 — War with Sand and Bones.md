@@ -41,6 +41,33 @@ Argollëan Family. The Order has not yet named Selene.
   to her waist, and the master carrying a dead man through a wall behind the barrels. A blood pit under the Silk
   Pony; Selene's; and a hidden room where the dead went. Gideon's call: Arëtar wants proof, so the proof is that
   wall. Vestus' invisibility is ready on day 400; until then the company watches and waits.
+- Day 397. Ingrid would not take the hive without the mages' fire, and the mages are bound to their books until
+  day 400: the hive waits. Lucilla set Hesta's girls on Thana Nyssand, the Pony's bookkeeper (the soft one, Gideon
+  says); they found no quiet hour yet. The Family's men at the Emporium found something else: the cheerful Krysean
+  with the sausage cart by The Mink's corner, who watches who comes and goes and walks to the Festival District
+  each night. Kwame wanted him asked; Tomasz wanted him used. Rosa's call: leave him be and let him count what we
+  want counted. From tomorrow Lucilla leaves The Mink at dusk with only Aelia and Saturnin beside her, the same
+  street each night, and the company walks the rooftops and the alleys behind her.
+- Day 398. Hesta's girls still had no quiet hour for Thana. At dusk Lucilla walked home from The Mink with Aelia
+  and Saturnin; the sausage cart was packed up before she reached the corner. Vettius on the roofs, Brennus,
+  Varro, Marcellus, Hrodvar, Neris and Cotta in the alleys behind. Nothing came.
+- Day 399. Vettius paid Phaedra's month. Hesta's girls still had no hour for Thana. At dusk Lucilla left The Mink
+  again with Aelia and Saturnin. Halfway down the lane eight gladiators in arena harness burst from an alley mouth
+  ahead, and from a doorway behind came a lean man in black with two maces and two burly axemen. Lucilla never saw
+  the first blow: an axe across her back, then the maces, and she went down in the gutter. Aelia turned on the man
+  in black; Saturnin met a two-bladed gladiator with his spear. Neris, thirty feet back, said her prayer of sleep
+  over the alley mouth and three gladiators dropped where they stood. Vettius came down off the roof onto the man
+  in black's back; Cotta's arrow took a heavy-armoured gladiator. Then Varro reached them: the netman stooping to
+  lift Lucilla, an axeman, the spearman, the shieldman and the man in black fell to one sword in one breath, and
+  Vettius finished the last two. Neris got to Lucilla within the minute: alive, in shock, her face broken (nose,
+  cheek and ear). Her prayer brought her round.
+- The Old District watch came running and went away again: Watchtower III is the Family's. Seven gladiators and the
+  two axemen were dead; the man in black lived, three fingers gone; three gladiators still slept. Under Brennus'
+  stare the man in black talked: Selene sent him; she wants "the woman with the eye" alive, for the pit at the next
+  Blood Moon; she has not come up into the Pony since the lanista died, she keeps to the rooms below; Jonus called
+  the job a fool's errand and would not lead it. The gladiators knew only that a man from the Pony paid them 150
+  each to fetch "a debtor". The prisoners went to the cellars under The Mink; Lucilla was carried to the Citadel
+  and put to bed.
 ## Who they met
 
 ## Treasure and XP

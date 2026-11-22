@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 396
-  time: 07:43
+    day: 399
+  time: '17:43'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -19,14 +19,16 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 23
+    hp: 7
     hp_max: 23
     conditions:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
+    - 'nose flattened, cheek crushed, ear cauliflowered (gruesome scarring, Mortal Wounds day 399): +1 to intimidate, -2 to all other reaction rolls, cannot impersonate (RR p. 517)'
+    - 'shock (Mortal Wounds day 399): magical healing given; one night of bed rest owed (night of day 399)'
     spells_used: []
-    encumbrance_st: 11.806
+    encumbrance_st: 11.819
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +36,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 21.506
+    encumbrance_st: 21.119
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -50,8 +52,10 @@ public:
     hp_max: 15
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used: []
-    encumbrance_st: 15.993
+    spells_used:
+    - Slumber
+    - Cure Light Injury
+    encumbrance_st: 16.006
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -61,7 +65,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 22.252
+    encumbrance_st: 22.265
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -78,31 +82,31 @@ public:
     hp_max: 14
     conditions: []
     spells_used: []
-    encumbrance_st: 15.183
+    encumbrance_st: 15.198
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 23
+    hp: 17
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 14.756
+    encumbrance_st: 14.771
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 20
+    hp: 16
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 12.256
+    encumbrance_st: 12.271
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 21
+    hp: 16
     hp_max: 21
     conditions: []
     spells_used: []
-    encumbrance_st: 15.737
+    encumbrance_st: 15.752
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -118,7 +122,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 4.531
+    encumbrance_st: 4.546
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -126,7 +130,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.092
+    encumbrance_st: 5.107
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
   rations: 'Lucilla: food 0 d, water 0 d; Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Cotta: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
@@ -160,7 +164,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 396
+clock_day: 399
 ---
 # Campaign State
 
