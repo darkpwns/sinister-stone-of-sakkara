@@ -554,8 +554,8 @@ ones are on other sheets; `level-up` ignores permanent enervation losses.
 
 ## S16 (2026-11-22) — start here (supersedes everything above)
 **Branch:** `ccr-6e7c0096-7nmfvu` (tools 7.14.0). Helpers as S15 (set `PARTY` after sourcing `s10_j.sh`). Session 16
-log: `Session Log/S16 — The bronze guards.md`. Scratch helpers this chat: `ledger.py` (copies payout rows to the
-Ledger) lived in the chat scratchpad; rewrite if needed.
+log: `Session Log/S16 — The bronze guards.md`. `Playtest/tools/s15_ledger.py PAYOUT.txt` copies a saved
+`payout --ledger --apply` output's rows into Campaign/Ledger.md.
 
 **State on resume:** day 316 04:32, winter, Cyfaraun, Silk Pony. No adventure open (A43 paid out). Start S17.
 **Party (12):** all whole or nearly; Neris Pr6 (15 hp); Marcellus max hp 16 (shadow, day 309); Hrodvar wields
