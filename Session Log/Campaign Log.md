@@ -30,3 +30,4 @@ tags:
 - [[S19 — The Thelesa villa]]
 - [[S20 — War with Sand and Bones]]
 - [[S21 — Return to the Nethercity]]
+- [[S22 — Out from Under the Eclipse]]

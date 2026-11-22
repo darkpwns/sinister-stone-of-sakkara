@@ -3221,3 +3221,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 427 |  | treasure share |  |  |  |  |
 | 428 | Cyfaraun | torch | 6 |  | 1sp | aelia |
 | 428 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 430 | the retinue | wages paid |  |  | 400gp | vettius |
