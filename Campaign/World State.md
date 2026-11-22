@@ -103,6 +103,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 320 expedition 38 (A46): 13 giant rats (wanderers, H 13:06) cut down at the line (10 slain, 3 fled; the pack carried disease: Brennus bitten, saved); two of the guards' gilded bronze sarcophagi taken from Q1 (L313-L314, to the vault); an ochre ooze (wanderer, H 18:00) burned with thrown oil (500 XP). **Left in Q:** 2 gilded bronze sarcophagi (Q1) and the eight statues.
 - Day 322 expedition 39 (A47): a green (sage) slime on the sewer-cave ceiling spotted and burned with thrown oil (56 XP); the last two gilded bronze sarcophagi taken from Q1 (L315-L316, to the vault). **Q is emptied** of everything but its mosaics' bare panels and the eight bronze statues (active, barred by the ward; tomb guardians, they stay in Q). Q5's secret panel to Q6 never opened from inside.
 - Day 324 expedition 40 (A48): the abandoned Shrine of the Horned Rat: 4 grave ghouls (wanderers) destroyed (Iulia's rebukes), the City Watch subaltern Caeso Lentulus saved (one eye lost, 2 weeks' bed rest, ghoul fever: carried to the Old District watchpost by Marcellus and Saturnin). The NW room 2 secret door found (Vettius); **the Rat Warren** (Adventure/AX3/Dungeons/Rat Warren/, 800' north): the tripwire seen, packs left at the crawl; Terkinos and four wererats slain asleep, three woke and were cut down, the 12-rat nest burned (W5); H39 taken (L317-L319); Terkinos's report book and Mentenus's letter taken; W6's altar broken; the W6 shaft to the Tower District alley seen, its grate left untouched. On the way out 8 mad wererat cultists (wanderers, not of Terkinos's pack) met at 20': intimidated to Neutral; they shuffled off. **The Rat Warren is empty.**
+- Days 333 and 337, the Nicean outlet (below the Emporium wharves): the two Vasan meetings. Midnight day 337 (A49): Provost Mentenus Cavië slain (Brennus 15, Vettius' sword "Freeze", Lucilla's coup de grace); body weighted and sunk in the river; his rat familiar fled up the outlet tunnel. His gear taken (L325-L333: 200gp, Dagger +1, Ring of Plant Control, Helm of Comprehension, Wand of Magic Discernment (12 charges), AX3 Potion of Giant Strength, cassock, staff, keys Basement 10 and Ground Story 4).
 
 ## Events triggered
 
@@ -133,6 +134,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Temple of Justice (day 316): Ezelus not sitting; a curate (Brother Oppius: thin, ink-stained fingers, repeats every name back as if writing it) took the Captain's request to be heard on a matter of murder.
 - Centurion Celle: Neutral (day 313: his pupil Tavis returned by the company). Houses Drakomir and Ambador: grateful (600gp each). Malethor (elven spellsword, freed): grateful; seeks the Bow of the Great Eagles (AX4).
 - Arëtar (day 306): has Mentenus's papers (the Provost of the Tower leads the Horned Rat cult) and the captive seer; asked Iulia to say nothing outside the Citadel (Judge's watch item: what he does about the Tower). Iulia's month-11 report made (day 306). Liber Faunus (day 305): told Lucilla where the rat-tappers go; glad to see them cleaned out.
+- Arëtar (day 334): asked by Iulia to let the city think her dead (the snare); reaction 11 vs Friendly = Indifferent to it: declined (no lie to the city or his prelates; an unsigned note is not enough against a Provost); still Friendly; told her to sleep inside the walls.
+- The Nicean wine-seller at the Emporium stalls (day 331): Friendly (12); stout widow, "dove"; gave Lucilla the note for Vasan.
+- **Provost Mentenus Cavië: DEAD (midnight day 337).** Nobody outside the company and the Order knows.
+- Cotta (Vettius' henchman, Explorer 2, Outrider; day 331): loyalty +0, morale 0.
 
 ## Former characters (day 161)
 - Gnaeus (Explorer 5): resigned from Lucilla's service at his level gain on day 317 (loyalty roll 2+3 = 5); left with his share and his own gear (Battle Axe +1 L29); in Cyfaraun, may form his own band (actor in Characters/former).
@@ -151,6 +156,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Mentenus seeks the Brotherhood (day 330; the weekly Judge's call 1-in-6 came up 1, Mentenus 1):** a sealed note for "Vasan Tikala" left at the Emporium's Nicean wine stalls, password "sludge mold": a meeting at the Nicean outlet at midnight on day 333 (Judge's call: the S16 protocol, midnight two nights on); the work: the Captain of the Underwatch. The stall-keepers remember Lucilla asked for Vasan in S16 (Judge's watch: she hears of it if she asks there or at her Rumormongering, day 331+). Destrio's charge: report it. **Day 331: Lucilla took the note from the wine-seller (reaction 12, a day's pay); the company read it ("Sludge mold. For the house of Vasan Tikala: one commission, the price doubled for haste. The usual place, at midnight on the third night from this.") and sent word to the Order by Brother Oppius; Destrio's answer arrives day 334 (1d3: 3), after the meeting.** Mentenus does not know the note was taken.
 - Vestus' application to the Tower of Knowledge (day 325, 10gp): interview with the Provost and the Regent on day 339 (1d4 weeks: 2); admission 2d6 +1 INT +3 (3rd-level spells) +1 Loremastery +1 Magical Engineering, 12+ (AX3 p. 148).
 - Caeso Lentulus: bed rest to day 338.
+- **After Mentenus' death (Judge's watch, from day 338):** the Tower misses its Provost from day 338 (Regent Aurëus inquires; the Watch is asked); Vestus' interview day 339: Judge's call whether it goes ahead before the Regent alone. Prelate Romus learns he is missing. The body in the river: each week 1-in-6 (hidden) that it comes ashore (throat cut, weighted with rubble; the Tower's cassock is with the company, not on it); first roll day 344. The new moon (day 342) passes. The Order: told when the company sends word (Destrio's answer by AX3: the acolytes become deathbringers; future assignments 1d4 per deathbringer PC weekly, a 4, AX3 p. 175). Arëtar may guess (Judge's call when Iulia next reports).
 - **Full moon: day 328** (done: the ambush called off; the alley grate watched, nobody came). (Judge's call rolled day 309). Arëtar and Iulia plan to take the Provost at the Shrine at midnight (a sanctioned mission: 1d4 knights). **Mentenus, warned by Terkinos, will not come**: the Shrine stands empty that night (the party does not know until it looks). Where the pack went and what Mentenus does next are open (Judge's watch items: Prelate Romus may tell him who holds the seer and his papers).
 - Wages (400gp a month each from day 317, the RR table at 5th level): Phaedra to 339, Varro and Hrodvar to 346, Aelia and Marcellus to 353 (paid day 323); 2,000gp a month in all; Cotta (Explorer 2, Vettius', hired day 331) 50gp, paid to 360. Gnaeus resigned day 317. Vault fee paid to 353 (day 323). Lodging (day 316 on): the Solar Citadel barracks, free (Captain's privilege, Rulings S14); the mule, two donkeys and the cart in the Citadel stables (Judge's call rolled day 316: 3, taken as the Captain's beasts, free); the Silk Pony stalls paid to 332 left unused; the Silk Pony strongbox emptied into the Grey Sisters' vault with L238. Month 11 ends day 330 (investments 1 and 3 vagaries; Iulia's month-end Underwatch rolls; her first report to Arëtar due by then). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
@@ -159,16 +165,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Prep queue (Judge only)
 - Sites: the Nethercity and Undercity under Cyfaraun (18.05); the Tower of Knowledge basement (keyed: Basement 2 the
-  Provost's study, wizard locked 9th; sewer gate 10 wizard locked 10th; magic mouth 9). Saved for later: the Ionicus
-  estate (27.19), Celictor's crocodile (#45u), the arena.
-- Threads: Arëtar wants proof from Basement 2 (journals, vials: a sanctioned mission); the Order's initiation
-  (Mentenus; a court's verdict would settle it and another would be given); **Mentenus's note to "Vasan Tikala"
-  (meeting day 333 midnight at the Nicean outlet; target: Iulia)**; Vestus' Tower interview (day 339, before the
-  Provost himself); Caeso Lentulus (Friendly; trailed a Family man into the sewers); the explorer search (day 331).
-- Selling day 331 (month 12): the vault's goods; L296 Helm of Comprehension (25,000) identified and unused (sale XP if sold
-  unused); L297 Short Sword +2, Command claimed and used by Vettius (day 330); L295 unidentified; Liber 80% for elven relics; the barge (Tertulla to 335).
-- Scheduled: 331 selling day and the month-12 searches; 333 Mentenus's meeting; 335 Tertulla; 338 Caeso up; 339
-  Vestus' interview; 340-353 wages; 360 month 12 ends (fees, investments, Iulia's rolls; investment 1 Protector to
-  month 16).
-- NPCs named, not written up: Brother Oppius; Destrio's voice; Saturnin (Characters/saturnin.json: lakeside
-  cantina-keeper, trap-setter uncle in the hills, grins too much); Caeso Lentulus (note written).
+  Provost's study, wizard locked 9th; sewer gate 10 wizard locked 10th by Aurëus, so the key alone does not open
+  it; magic mouth 9, passed in a mage's cassock: the company has Mentenus'). Saved for later: the Ionicus estate
+  (27.19), Celictor's crocodile (#45u), the arena.
+- Threads: tell the Order (deathbringers; weekly assignments from then); the Tower's search for its Provost; Vestus'
+  interview (day 339); Arëtar's proof (Basement 2: still wanted? the cult's remnants, the journals); the items to
+  divide or sell (L326-L330: identify first); Caeso Lentulus (out of bed day 338); the body in the river.
+- Scheduled: 338 Caeso up; 339 Vestus' interview; 340 Phaedra's wage; 342 new moon; 344 first body roll and the
+  weekly Brotherhood roll; 347 Varro, Hrodvar; 349 Tertulla; 352 Saturnin; 353 Aelia, Marcellus, the vault fee;
+  360 month 12 ends (Guildhouse fees, investments 1 and 3, Iulia's rolls and report; Cotta's wage paid to 360).
+- NPCs named, not written up: Brother Oppius; Destrio's voice; Saturnin; Cotta (Characters/cotta.json: laconic
+  outrider, spits, "I watch the skyline"); the Nicean wine-seller (stout widow, "dove"); Caeso Lentulus (note written).

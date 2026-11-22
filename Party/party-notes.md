@@ -264,3 +264,13 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   on the corner, steel on the rest, one alive for the priests; (22) a wall of light the dead cannot enter is worth a
   rank of spears (Iulia's spear and shield, Neris' circle); (23) read the column before touching the treasure it
   guards.
+
+- S18 (days 330-337). Cotta (outrider, Vettius') joined. The selling day (333): the elven goods through Liber, gems and
+  trinkets on the open market. A note for "Vasan Tikala" at the wine stalls ("sludge mold", the Provost's word): at
+  the outlet the hooded patron paid the house of Vasan two thousand to kill Iulia before the new moon. The Order
+  sanctioned the retribution; Arëtar would not stage her death. A second note brought him back on day 337; he read
+  Varro's mind, but Brennus' axe, Vettius' "Freeze" and Lucilla's knife ended it in a breath. The Provost Mentenus
+  is in the river. His keys (Basement 10, 4), cassock, ring, cap, wand, dagger and potion are ours. Lessons: (24) a
+  mind-reader at a meeting reads the plan: refuse the touch, keep the plan out of the heads of those who stand close;
+  (25) wait behind the target; (26) a king's word of command is a kill-shot like sleep.
+

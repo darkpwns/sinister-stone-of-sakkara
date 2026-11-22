@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Debts
 
 ## Lessons learned
+- S18: selling day: Liber takes the elven goods at eight in ten, clean; gems and the Brotherhood's trinkets go on the open market at full price (one tax roll, five in a hundred). The Provost's things: name them before selling (Lucilla's eye).
 - S17: lost the vote on Marcan's sword (keep it for Vettius, no sale experience). Sell the helm well on day 331.
 
 ## Opinions of NPCs

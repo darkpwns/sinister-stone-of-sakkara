@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Debts
 
 ## Lessons learned
+- S18: being the Brotherhood works: the house of Vasan wrote back and the patron came. A good mask needs a prop (Vasan's own cask on the barrow).
 
 ## Opinions of NPCs
 

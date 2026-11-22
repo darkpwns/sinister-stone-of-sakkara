@@ -722,3 +722,41 @@ vulnerable target (cowering, surprised, helpless, prone, slumbering, paralyzed, 
 --target` for undead not yet rebuked; rest when a turn says "rest due in N rounds"; relight a burnt-out lantern
 with `light on lanternN`; thrown oil and holy water by an open roll and `damage` (no engine path).
 
+
+## S19 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: source `Playtest/tools/s10_j.sh`,
+`s11_mend.sh`, `s13_j.sh`, `s12_town.sh`, then `PARTY="lucilla vettius vestus-the-unlikely neris brennus iulia phaedra
+varro hrodvar aelia marcellus saturnin cotta"`. Session 18 log: `Session Log/S18 — Sludge mold.md` (days 330-337).
+
+**State on resume:** day 338 00:53, winter, Cyfaraun (18.05), back at the Solar Citadel from the Nicean outlet. No
+adventure open (A49 paid out). Location Cyfaraun (settlement, wandering none). First `wait --hours 8` (the night's
+sleep: restful in town), then `dawn 338`. Thirteen: as S18 plus **Cotta** (Vettius' Explorer 2, Outrider: Mounted
+Combat, Riding; composite bow, sword, scale; horse holder `cotta-horse`; 50gp, paid to 360). All whole. **Iulia is
+Crusader 7** (39 hp; a 4th-level divine spell). Vettius' sword: one of its three words used on day 337.
+
+**What S18 did:** day 331 Cotta hired; Lucilla took Mentenus' note for "Vasan" from the wine-seller; word to the
+Order. 333 selling day: L295 identified (Chain Mail +1), Liber 97,762gp (incl. L295, L296), open market 16,310gp
+(tax 75 vs 5%: none); everything banked; Gnaeus' later shares held in his name at the Guildhouse. Midnight 333: the
+first meeting (Mentenus himself; target Iulia, 6,000gp, 2,000 paid; "the rest the third night after she is found").
+334: Destrio sanctioned the retribution; Arëtar declined to stage Iulia's death; a second note to the Tower. 335:
+Tertulla to 349; silvered spear (Marcellus) and short sword (Aelia). Midnight 337: Mentenus read Varro's mind (no
+surprise), Brennus 15, Vettius "Freeze" (save 3), Lucilla's coup de grace; body sunk; A49 paid out (4,298 XP).
+
+**Open (by the profiles):**
+1. Tell the Order (Oppius/Ezelus): the initiation is done; Destrio's answer (AX3 pp. 173-175): deathbringers; then
+   weekly assignments (1d4 per deathbringer PC in Cyfaraun, a 4; `Tables/ax3-eclipse-contracts.yaml`).
+2. The Tower misses its Provost (from 338). Vestus' interview day 339 (admission 12+ on 2d6 +6, AX3 p. 148): Judge's
+   call whether it goes ahead before the Regent alone. Prelate Romus learns he is missing.
+3. The Provost's items to name and divide or sell: L326 Dagger +1, L327 Ring of Plant Control (very rare), L328 Helm
+   of Comprehension, L329 Wand of Magic Discernment (12 charges), L330 AX3 Potion of Giant Strength (item note
+   `Adventure/Items/`); L331 keys (Basement 10: the sewer gate is also wizard locked 10th by Aurëus; Ground Story 4),
+   L332 cassock (passes the magic mouth at Basement 9), L333 staff.
+4. Arëtar's proof from Basement 2 (journals, vials) now explains the Provost's vanishing; a sanctioned mission.
+5. The body in the river: weekly 1-in-6 hidden that it comes ashore (first day 344). The new moon is day 342.
+6. Scheduled: 338 Caeso up; 339 interview; 340 Phaedra's wage; 344 Brotherhood roll; 347 Varro, Hrodvar; 349
+   Tertulla; 352 Saturnin; 353 Aelia, Marcellus, vault fee; 360 month 12 ends.
+
+**Routine (S18 lessons):** never run `location` without arguments (it resets the site; read it with `clock`); a
+class search's market cap is stale (Rulings S18: confirm the month's total, `candidate --level N --class C`, then
+`candidate ID --sheet Campaign/candidates/<id>.json` before `hire --publish-to`); animals as holders with `inv holder
+add ID --kind animal` (not `inv add --as`); find a thief skill's name before throwing it (`Hiding`, `Sneaking`).

@@ -213,6 +213,15 @@ tags:
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | 2,000 silver pieces | 200 | phaedra |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | 1,500 electrum pieces | 750 | iulia |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | 21 silver pieces | 2 | lucilla |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | 200 gold pieces | 200 | lucilla |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Dagger +1 | 653 | vettius |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Ring of Plant Control | 900 | lucilla |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Helm of Comprehension | 150 | vestus-the-unlikely |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Wand of Magic Discernment | 70 | phaedra |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | AX3 Potion of Giant Strength | 1,000 | neris |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | two iron keys on a ring, one tagged in a mage's hand 'Basement 10', the other '4' | 0 (worth less than 1sp per stone) | vettius |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | a black mage's cassock with the Tower of Knowledge's embroidered collar | 15 | aelia |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | a rune-etched staff of black wood | 10 | marcellus |
 
 ## Monster XP
 
@@ -273,6 +282,7 @@ tags:
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Grave Ghoul | 4 | 38 | 152 |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Wererat | 8 | 65 | 520 |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Giant Rat | 12 | 5 | 60 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Mentenus Cavie (AX3) | 1 | 1,300 | 1,300 |
 
 ## Shares and XP awarded
 
@@ -618,6 +628,18 @@ tags:
 | 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Aelia | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
 | 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Marcellus | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
 | 333 | Sale XP: L295 Chain Mail +1 and L296 Helm of Comprehension (Thirty-sixth descent, A44; sold identified, unused) | Gnaeus | 0.5 | 1333 | 0 | 0 | +0% | 1333 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Lucilla | 1 | 333 | 144 | 0 | +10% | 526 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Vettius | 1 | 333 | 144 | 0 | +5% | 502 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Vestus the Unlikely | 1 | 333 | 144 | 0 | +5% | 502 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Neris | 1 | 333 | 144 | 0 | +0% | 478 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Brennus | 1 | 333 | 144 | 0 | +5% | 502 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Iulia | 1 | 333 | 144 | 0 | +5% | 502 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Phaedra | 0.5 | 167 | 72 | 0 | +0% | 239 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Varro | 0.5 | 167 | 72 | 0 | +0% | 239 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Hrodvar | 0.5 | 167 | 72 | 0 | +0% | 239 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Aelia | 0.5 | 167 | 72 | 0 | +0% | 239 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Marcellus | 0.5 | 167 | 72 | 0 | +0% | 239 |
+| 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Cotta | 0.5 | 167 | 72 | 0 | +0% | 239 |
 
 ## Wages
 
@@ -2218,3 +2240,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 335 | Tertulla, Lake Laman fisherwoman | mooring the black barge under her awning two more weeks (days 336-349), no questions |  |  | 4gp | lucilla |
 | 335 | Cyfaraun | Spear (silvered) | 1 |  | 30gp | marcellus |
 | 335 | Cyfaraun | Short Sword (silvered) | 1 |  | 70gp | aelia |
+| 338 |  | treasure share |  | 22gp 2sp 2cp |  | lucilla |
+| 338 |  | treasure share |  | 22gp 2sp 2cp |  | vettius |
+| 338 |  | treasure share |  | 22gp 2sp 2cp |  | vestus-the-unlikely |
+| 338 |  | treasure share |  | 22gp 2sp 2cp |  | neris |
+| 338 |  | treasure share |  | 22gp 2sp 2cp |  | brennus |
+| 338 |  | treasure share |  | 22gp 2sp 2cp |  | iulia |
+| 338 |  | treasure share |  | 11gp 1sp 1cp |  | phaedra |
+| 338 |  | treasure share |  | 11gp 1sp 1cp |  | varro |
+| 338 |  | treasure share |  | 11gp 1sp 1cp |  | hrodvar |
+| 338 |  | treasure share |  | 11gp 1sp 1cp |  | aelia |
+| 338 |  | treasure share |  | 11gp 1sp 1cp |  | marcellus |
+| 338 |  | treasure share |  | 11gp 1sp 1cp |  | cotta |

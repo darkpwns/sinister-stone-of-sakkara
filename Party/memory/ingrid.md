@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Debts
 
 ## Lessons learned
+- S18: a mage who touches your mind reads the plan you are holding. Refuse the touch every time (a hard save; Varro failed it and the Provost read the whole ambush). Next time: those who must stand close keep the plan out of their heads, or carry a ward.
 - S09: wrapped dead with gold masks freeze you with a look and their blow rots you (cure disease in town); fire only half hurts them, holy water and the magic weapons do. Neris' holy circle keeps them off.
 - S09: a missed flask at a foe in melee splashes our own; a fumbled flask burned Septima to death.
 

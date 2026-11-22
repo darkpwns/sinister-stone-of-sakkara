@@ -2,7 +2,7 @@
 type: session
 session: 18
 date_real: 2026-11-22
-date_game: winter day 330-
+date_game: winter day 330-338
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -73,3 +73,76 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - Day 335, warm and grey. Lucilla walked out to Tertulla's and paid two more weeks for the black barge (to day 349).
   Ingrid had silver bought for those whose weapons are plain: a silvered spear for Marcellus, a silvered short sword
   for Aelia (the smiths would not silver arrows).
+- Day 336, windy. The table planned the night. Tomasz: "Last time I lay in the open. This time I wait in the
+  tunnel, in the black, and when he stops at the mouth I'm behind him." Ingrid: "If anyone feels that touch in his
+  head, shut it out. Everyone." Gideon: "Neris and I hold him with the prayer from the alley. Vettius has the king's
+  word. Whoever is nearest finishes it." Rosa: "And nobody takes anything off him until he's dead."
+- Day 337, drizzle. Nobody new came asking for the Brotherhood. At eleven Vettius slipped into the outlet tunnel,
+  scraping a boot on the stones (nobody was there to hear) and folded himself into a black niche ten feet up it. The
+  others took the same places as before.
+- Midnight. The tall hooded man came down the tunnel past Vettius without seeing him and stopped in the mouth. Before
+  he had said a word Varro felt something open his head like a book, tried to shut it and could not. He roared
+  "He's in me!" and the night broke. Brennus was across the ten feet in a stride and his axe bit deep into the hooded
+  man's side; whatever the man had begun to say died in his mouth. From behind him Vettius spoke the old king's
+  word, "Freeze", and he froze, half turned. Lucilla stepped in and cut his throat. It was over before Neris and
+  Iulia had finished their prayers in the alley.
+- Under the hood, a long clever face with a grey-shot beard: Vettius had seen it at the Chapterhouse gate on day
+  321. The Provost Mentenus. A rat bolted from his sleeve up the tunnel and was gone. Under the travelling cloak he
+  wore a mage's black cassock with the Tower's collar; on him a belt pouch of gold, a fine black-wired dagger, a
+  jade ring carved as a vine, a bronze cap worked with letters, a slim ash wand, a vial of grey liquid, a rune-cut
+  black staff, and two keys on a ring tagged "Basement 10" and "4". The company weighted the body with rubble and
+  gave it to the river, as the Order asked: no claim, known only to Calefa. Back at the Citadel before the first
+  hour of day 338.
+
+## Who they met
+- Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before
+  he speaks; reads the skyline, not the ground.
+- The Nicean wine-seller at the Emporium stalls, a stout widow who calls everyone "dove" (day 331, friendly).
+- The hooded patron at the outlet (days 333 and 337): the Provost Mentenus. Dead.
+- Brother Oppius with Destrio's word (day 334). Patriarch Arëtar (day 334).
+
+## Treasure and XP
+- Day 333 (selling day): L295 Chain Mail +1 (identified by Lucilla) and L296 Helm of Comprehension sold unused through
+  Liber: 24,000gp, sale XP to the king's-tomb share-holders (Iulia Crusader 7). The rest of the vault's elven goods
+  through Liber at 80% (73,762gp); gems, the Brotherhood's jewellery, the silver rat and the furs on the open market
+  (16,310gp). Shares paid out at once to each errand's share-holders; Gnaeus' held for him at the Guildhouse.
+- Day 333: the patron's advance, 2,000gp (Lucilla; no experience: not treasure won below).
+- Day 338 (A49, the second meeting): 200gp, a black-wired dagger, a jade vine ring, a bronze letter-cap, an ash
+  wand, a grey potion, a cassock, a staff and two keys (apparent 2,998gp); the Provost (1,300 XP); 4,298 XP over 9
+  shares. Items to divide or sell.
+
+## Rumours given
+- Day 331: Lucilla's contacts (the Mink, the Silk Pony and the Noble Charter Inn); the wine-seller (the Patriarch and
+  the Night Captain's tomb).
+
+## Changes to the world
+- The Provost Mentenus is dead, his body in the river; nobody outside the company and the Order knows. His keys
+  (Basement 10 and 4) and his cassock are in the company's hands.
+- The company's sacred initiation (the retribution on Mentenus) is done; the Order has not yet been told.
+- Cotta has joined Vettius. The barge is moored at Tertulla's to day 349.
+
+## Next time
+Day 338, about 01:00, the Solar Citadel. Twelve whole (Saturnin at the Citadel). Tell the Order the retribution is
+done. The Tower will miss its Provost; Vestus' interview is on day 339, before the Regent. Caeso Lentulus is out of
+bed today. The new moon (day 342) was the patron's deadline.
+
+> [!judge]- Judge rolls
+> Campaign/roll-log.jsonl (session 18). Judge notes: Playtest/judge-notes.txt (S18 entries).
+> Day 331: Doarë 92 (out); Explorer searches: 4th 17 vs 15% (none), 3rd 24 vs 25% but the 3rd-level total rolled
+> fresh 90 vs 85% (none), 2nd 2 vs 50% (found; the stale cap overridden, judge-notes), 1st automatic (not taken);
+> Cotta (C34): STR 11 INT 7 WIL 13 DEX 14 CON 12 CHA 12, hp 6, template 18 (Outrider), alignment 1 (Lawful), offer 9
+> (accept); morale 0 (light cavalry). Rumormongering 1 rumour (rerolls 17, 13, 17, 8, 17, 9: row 9). Wine-seller
+> reaction 12 (Friendly: the note and rumour 11). Destrio's answer 1d3 3 (day 334). Day 332: Doarë 70 (out).
+> Mentenus at the first meeting: himself (3). Day 333: Doarë 17 (in); L295 identify 11 (Magical Engineering,
+> success); tax check 75 vs 5% (none). The first meeting: Cotta not seen (6), the alley not seen (4); Vettius seen in
+> the rubble (failed Hiding); his ESP (as Telepathy) on Lucilla, refused, save 18; reaction 10 (Indifferent: business
+> only, curt). His terms: the Captain, before the new moon (day 342, Judge's call: half a 28-day cycle after day 328),
+> 6,000gp, 2,000 now, "the rest here, at midnight on the third night after she is found".
+> Day 334: Destrio 3 (the retribution sanctioned now); Arëtar reaction 11 vs current Friendly (Indifferent to the
+> deception: declines, keeps Friendly); Mentenus reads the second note 1 (comes to the usual place, midnight day 337).
+> Day 337: Brotherhood patron 6 (none); Mentenus early 4 (no); his mind-touch on Varro (5): Varro's save 7 (fail):
+> Mentenus read the trap; no surprise either side. Fight (round 1): Mentenus hp 48, init 6, declared Webbing
+> (disrupted by Brennus' 15); Vettius' sword "Freeze" (use 1 of 3 on day 337): save 1d20+1 = 3 vs 10+ (fail,
+> paralyzed); Lucilla's coup de grace. Familiar 1 (fled up the tunnel). Mentenus' gear by AX3 p. 91 and AX3 Magic
+> Items (the 2,000gp he paid was his; he brought no more: he came to bargain).
+> NPC voices: the wine-seller (stout Nicean widow, "dove", ladle); Cotta (laconic, spits, "I watch the skyline").
