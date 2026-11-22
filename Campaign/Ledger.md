@@ -205,6 +205,14 @@ tags:
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
 | 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
 | 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | a gilded bronze sarcophagus of the king's guard (four bearers) | 3,500 | stored |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 2,000 silver pieces | 200 | aelia |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 1,500 electrum pieces | 750 | aelia |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | trinket worth 500gp (Fine wood, porcelain, or wrought silver) | 500 | aelia |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 2,000 silver pieces | 200 | vestus-the-unlikely |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 2,000 silver pieces | 200 | neris |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 2,000 silver pieces | 200 | phaedra |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 1,500 electrum pieces | 750 | iulia |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | 21 silver pieces | 2 | lucilla |
 
 ## Monster XP
 
@@ -262,6 +270,9 @@ tags:
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Giant Rat | 10 | 5 | 50 |
 | 320 | Thirty-eighth descent: the guards' bronze coffins (day 320) | Ochre Ooze | 1 | 500 | 500 |
 | 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Sage Slime | 1 | 56 | 56 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Grave Ghoul | 4 | 38 | 152 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Wererat | 8 | 65 | 520 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Giant Rat | 12 | 5 | 60 |
 
 ## Shares and XP awarded
 
@@ -583,6 +594,18 @@ tags:
 | 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Hrodvar | 0.5 | 412 | 3 | 0 | +0% | 415 |
 | 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Aelia | 0.5 | 412 | 3 | 0 | +0% | 415 |
 | 322 | Thirty-ninth descent: the last of the guards' coffins (day 322) | Marcellus | 0.5 | 412 | 3 | 0 | +0% | 415 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Lucilla | 1 | 311 | 81 | 0 | +10% | 432 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Vettius | 1 | 311 | 81 | 0 | +5% | 413 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Iulia | 1 | 311 | 81 | 0 | +5% | 413 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Vestus the Unlikely | 1 | 311 | 81 | 0 | +5% | 413 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Neris | 1 | 311 | 81 | 0 | +0% | 393 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Brennus | 1 | 311 | 81 | 0 | +5% | 413 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Phaedra | 0.5 | 156 | 41 | 0 | +0% | 196 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Varro | 0.5 | 156 | 41 | 0 | +0% | 196 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Hrodvar | 0.5 | 156 | 41 | 0 | +0% | 196 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Aelia | 0.5 | 156 | 41 | 0 | +0% | 196 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Marcellus | 0.5 | 156 | 41 | 0 | +0% | 196 |
+| 324 | Fortieth descent: the rat-men's new lair (day 324) | Saturnin | 0.5 | 156 | 41 | 0 | +0% | 196 |
 
 ## Wages
 
@@ -2102,3 +2125,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 323 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | lucilla |
 | 323 | Cyfaraun | Waterskin | 1 |  | 5sp 4cp | lucilla |
 | 323 | Cyfaraun | Shield | 1 |  | 9gp | lucilla |
+| 324 |  | treasure share |  | 255gp 7sp 9cp |  | lucilla |
+| 324 |  | treasure share |  | 255gp 7sp 9cp |  | vettius |
+| 324 |  | treasure share |  | 255gp 7sp 9cp |  | iulia |
+| 324 |  | treasure share |  | 255gp 7sp 9cp |  | vestus-the-unlikely |
+| 324 |  | treasure share |  | 255gp 7sp 9cp |  | neris |
+| 324 |  | treasure share |  | 255gp 7sp 9cp |  | brennus |
+| 324 |  | treasure share |  | 127gp 8sp 9cp |  | phaedra |
+| 324 |  | treasure share |  | 127gp 8sp 9cp |  | varro |
+| 324 |  | treasure share |  | 127gp 8sp 9cp |  | hrodvar |
+| 324 |  | treasure share |  | 127gp 8sp 9cp |  | aelia |
+| 324 |  | treasure share |  | 127gp 8sp 9cp |  | marcellus |
+| 324 |  | treasure share |  | 127gp 8sp 9cp |  | saturnin |

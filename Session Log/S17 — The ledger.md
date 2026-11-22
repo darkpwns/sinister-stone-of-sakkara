@@ -111,6 +111,27 @@ Silk Pony for the Solar Citadel.
   took a month's wage in hand and signed on with a grin. Tomasz, to the table: "And I stop standing in the line.
   Vettius goes round the back."
 
+## Second week (days 324-330)
+- Day 324, fortieth descent, for the rat-men. In the tunnels by the old rat shrine a crunching in the dark: four grey,
+  long-armed things squatting over a man in a Watch tunic, eating him alive while he stared. Iulia's prayer turned
+  them one by one and the company cut them down. The man, Caeso Lentulus, a Watch subaltern, was at the edge of
+  death; Neris' prayer held him there and he lived, one eye gone. Marcellus and Saturnin carried him up the dyers'
+  drain to the watchpost. ("I'll need your names. For the report. And for my thanks.")
+- Vettius found the mosaic seam in the north-west room on the second try: a low tunnel north, eight hundred feet,
+  ending in a rubble crawl. He saw the bone-rattle tripwire across its mouth and heard many sleepers beyond. Packs
+  off, over the wire one by one, into a buried house. Seven sleepers on straw in an old wine cellar, one behind a
+  curtain. Seven blades at once: Iulia, Lucilla, Aelia and Vestus killed theirs in their sleep, Vettius the one
+  behind the curtain; then three woke shrieking and turned half-rat, and Brennus, Varro and the others cut them
+  down while a flood of rats from the next room went up in Vestus' fan of flame. Nobody was bitten. In the curtained
+  room, a chest of silver and electrum, a silver rat figurine, a report book, and a letter in a silky hand: "Keep from
+  the old shrine. The Citadel holds the girl and my papers; our friend in the Bridge District tells me the Patriarch
+  keeps his own counsel for now. Do not come to me at the moon; I will send. Search the north." Iulia smashed the
+  rat-skull altar. A shaft with iron rungs climbs from it toward the Tower District; they left it alone. On the way
+  out, eight more filthy men knocking on the walls; Iulia told them what she was; they stared, muttered, and
+  shuffled off into the dark.
+- Iulia took the letter to the Patriarch. Arëtar read it twice. "He knows. Then he will be careful, and I must be
+  surer than he is. Bring me what he keeps in his own study, and the Tower cannot call it a skinchange."
+
 ## Who they met
 - Brother Oppius, curate of Türas (Temple of Justice): took the Captain's request. Prelate Ezelus: heard the deed
   and the proof; sent the six to the Order.
