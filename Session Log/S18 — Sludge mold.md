@@ -2,7 +2,7 @@
 type: session
 session: 18
 date_real: 2026-11-22
-date_game: winter day 330-344
+date_game: winter day 330-351
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -158,6 +158,27 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
 - At the Tower the thaumaturges whispered that the Regent and the Treasurer had gone down to the Provost's study
   with the subaltern and come up grey; the north corridor was closed to members all day. Nobody would say more.
   Nobody came asking for the Brotherhood. The river kept what it had.
+- Day 345, heavy rain. Gideon at breakfast: "I owe the Patriarch more than silence." Iulia kept vigil under the
+  oculus through the night, gave a thousand gold of her own to the Citadel's poor (Rosa looked away), and asked
+  Arëtar for an audience. "Holiness, I cannot undo an oath. I can give you my spear for whatever you name." He
+  looked at her a long while, then took her hands. "Then there is work, Captain. The Provost did not make his
+  rat-men alone, and he did not keep house alone. If any of his sickness still walks the Tower District, find it
+  and bring it to me in chains, alive, to be judged before the city. Two of my knights are yours for it."
+- Day 346, drizzle. Vestus heard in the Tower's lounge that the Regent had turned the Provost's copyist, Opiter
+  Vibius, out of the Chapterhouse at dawn without a word. Iulia found Caeso Lentulus at the Old District post: the
+  Watch had a complaint from a bookbinder on Quill Street about rats in his walls, "big ones", above which lodges
+  Flavia Rusca, an adjunct the Tower expelled last year. That night Vettius watched the bookbinder's from a doorway
+  across the street and Cotta and Saturnin watched the blind-alley grate. At midnight a broad man came out of the
+  side door, walked to the grate, lifted its greased bar and went down; he came up an hour later empty-handed and
+  went back. Saturnin: "Same boots as the warren."
+- Day 347, before dawn, heavy rain. Iulia, the company, the Patriarch's two knights, and Caeso with three watchmen
+  "to inspect the rat complaint". Vettius scraped a boot on the outside stair, picked the garret lock, and Phaedra
+  breathed sleep into the room: the thin man and a red-haired woman slept on; the broad man shook it off, shook off
+  Neris' prayer too and twice broke Brennus' grip, until Vettius' blade (flat-first) and Iulia's prayer held him rigid
+  and mute. Three in manacles: Opiter Vibius, Flavia Rusca and the Provost's manservant Sertor. Iulia delivered them
+  to the Citadel's cells with the Watch's report; their purses and Flavia's spellbook went with them as evidence.
+  Arëtar: "This is how it is done, Captain. The moon will show the city what they are." He gave her 750 gold for the
+  task. Vettius drew wages for Varro and Iulia paid Hrodvar (to day 376). Nobody from the Order called.
 
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before

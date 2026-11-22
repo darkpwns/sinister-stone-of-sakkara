@@ -252,6 +252,7 @@ tags:
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | gem worth 200.0gp | 200 | lucilla |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | four terracotta canopic jars (F4) | 100 | aelia |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | ivory fretwork cornice tiles from the F4 archway | 100 | varro |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | reward 750.0gp | 750 | iulia |
 
 ## Monster XP
 
@@ -320,6 +321,7 @@ tags:
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Insect Swarm | 1 | 65 | 65 |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Mummy | 1 | 860 | 860 |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Sepulchral Worm | 14 | 16 | 224 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Wererat | 3 | 65 | 195 |
 
 ## Shares and XP awarded
 
@@ -699,6 +701,28 @@ tags:
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Hrodvar | 0.5 | 148 | 130 | 0 | +0% | 278 |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Aelia | 0.5 | 148 | 130 | 0 | +0% | 278 |
 | 343 | Forty-third descent: the warrior's tomb, F8 (day 343) | Marcellus | 0.5 | 148 | 130 | 0 | +0% | 278 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Lucilla | 1 | 0 | 23 | 0 | +10% | 25 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Vettius | 1 | 0 | 23 | 0 | +5% | 24 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Vestus the Unlikely | 1 | 0 | 23 | 0 | +5% | 24 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Neris | 1 | 0 | 23 | 0 | +0% | 23 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Brennus | 1 | 0 | 23 | 0 | +5% | 24 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Iulia | 1 | 0 | 23 | 0 | +5% | 24 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Phaedra | 0.5 | 0 | 11 | 0 | +0% | 11 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Varro | 0.5 | 0 | 11 | 0 | +0% | 11 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Hrodvar | 0.5 | 0 | 11 | 0 | +0% | 11 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Aelia | 0.5 | 0 | 11 | 0 | +0% | 11 |
+| 347 | Forty-fourth errand: the Quill Street garret (the Captain's task, day 347) | Marcellus | 0.5 | 0 | 11 | 0 | +0% | 11 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Lucilla | 1 | 88 | 0 | 0 | +10% | 97 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Vettius | 1 | 88 | 0 | 0 | +5% | 92 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Vestus the Unlikely | 1 | 88 | 0 | 0 | +5% | 92 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Neris | 1 | 88 | 0 | 0 | +0% | 88 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Brennus | 1 | 88 | 0 | 0 | +5% | 92 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Iulia | 1 | 88 | 0 | 0 | +5% | 92 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Phaedra | 0.5 | 44 | 0 | 0 | +0% | 44 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Varro | 0.5 | 44 | 0 | 0 | +0% | 44 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Hrodvar | 0.5 | 44 | 0 | 0 | +0% | 44 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Aelia | 0.5 | 44 | 0 | 0 | +0% | 44 |
+| 347 | The Captain's task rewarded: Arëtar's gift (day 347) | Marcellus | 0.5 | 44 | 0 | 0 | +0% | 44 |
 
 ## Wages
 
@@ -2336,3 +2360,29 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 343 |  | treasure share |  | 70gp 5sp 9cp |  | hrodvar |
 | 343 |  | treasure share |  | 70gp 5sp 9cp |  | aelia |
 | 343 |  | treasure share |  | 70gp 5sp 9cp |  | marcellus |
+| 345 | Solar Citadel (alms for the poor) | Iulia's tithe of contrition after a night's vigil under the oculus, day 345 |  |  | 1,000gp | iulia |
+| 346 | Cyfaraun | Manacles | 2 |  | 4gp | iulia |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  |  |  |  |
+| 347 |  | treasure share |  | 88gp 2sp 4cp |  | lucilla |
+| 347 |  | treasure share |  | 88gp 2sp 4cp |  | vettius |
+| 347 |  | treasure share |  | 88gp 2sp 4cp |  | vestus-the-unlikely |
+| 347 |  | treasure share |  | 88gp 2sp 4cp |  | neris |
+| 347 |  | treasure share |  | 88gp 2sp 4cp |  | brennus |
+| 347 |  | treasure share |  | 88gp 2sp 4cp |  | iulia |
+| 347 |  | treasure share |  | 44gp 1sp 2cp |  | phaedra |
+| 347 |  | treasure share |  | 44gp 1sp 2cp |  | varro |
+| 347 |  | treasure share |  | 44gp 1sp 2cp |  | hrodvar |
+| 347 |  | treasure share |  | 44gp 1sp 2cp |  | aelia |
+| 347 |  | treasure share |  | 44gp 1sp 2cp |  | marcellus |
+| 347 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 347 | the retinue | wages paid |  |  | 400gp | iulia |
