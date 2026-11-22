@@ -278,6 +278,15 @@ tags:
 | 358 | Brennus' contract: Rufio Calvus (the dyer's cellar, day 358) | 37 gold pieces | 37 | brennus |
 | 399 | The ambush in the Old District (day 399) | 4 gold pieces | 4 | vettius |
 | 399 | The ambush in the Old District (day 399) | 57 silver pieces | 6 | vettius |
+| 406 | Waylaid on Lucilla's errand (day 406) | 64 silver pieces | 6 | aelia |
+| 406 | Waylaid on Lucilla's errand (day 406) | 1 gold pieces | 1 | aelia |
+| 406 | Waylaid on Lucilla's errand (day 406) | 20 silver pieces | 2 | aelia |
+| 406 | Descent 50: the troglodyte hive (I) | 775 gold pieces | 775 | brennus |
+| 406 | Descent 50: the troglodyte hive (I) | 640 electrum pieces | 320 | iulia |
+| 406 | Descent 50: the troglodyte hive (I) | 37 bone figurines | 37 | marcellus |
+| 406 | Descent 50: the troglodyte hive (I) | 19 bronze hair-combs and 42 bronze rings | 61 | marcellus |
+| 406 | Descent 50: the troglodyte hive (I) | 33 small copper goblets | 33 | cotta |
+| 406 | Descent 50: the troglodyte hive (I) | 20 copper circlets and 104 copper necklaces | 124 | vettius |
 
 ## Monster XP
 
@@ -359,6 +368,11 @@ tags:
 | 399 | The ambush in the Old District (day 399) | Ordinary Gladiator (AX3) | 3 | 5 | 15 |
 | 399 | The ambush in the Old District (day 399) | Sand & Bones enforcer (Assassin 2) | 2 | 20 | 40 |
 | 399 | The ambush in the Old District (day 399) | Sand & Bones slayer (Assassin 4) | 1 | 80 | 80 |
+| 406 | Waylaid on Lucilla's errand (day 406) | Sand & Bones robber (Thief 3) | 1 | 50 | 50 |
+| 406 | Waylaid on Lucilla's errand (day 406) | Sand & Bones hood (Thief 2) | 4 | 20 | 80 |
+| 406 | Descent 50: the troglodyte hive (I) | Troglodyte Chieftain (SOTN) | 1 | 320 | 320 |
+| 406 | Descent 50: the troglodyte hive (I) | Troglodyte Champion (SOTN) | 3 | 50 | 150 |
+| 406 | Descent 50: the troglodyte hive (I) | Troglodyte (warrior) | 11 | 20 | 220 |
 
 ## Shares and XP awarded
 
@@ -817,6 +831,18 @@ tags:
 | 399 | The ambush in the Old District (day 399) | Marcellus | 0.5 | 1 | 12 | 0 | +0% | 13 |
 | 399 | The ambush in the Old District (day 399) | Hrodvar | 0.5 | 1 | 12 | 0 | +0% | 13 |
 | 399 | The ambush in the Old District (day 399) | Cotta | 0.5 | 1 | 12 | 0 | +0% | 13 |
+| 406 | Waylaid on Lucilla's errand (day 406) | Aelia | 0.5 | 5 | 65 | 0 | +0% | 70 |
+| 406 | Waylaid on Lucilla's errand (day 406) | Saturnin | 0.5 | 5 | 65 | 0 | +0% | 70 |
+| 406 | Descent 50: the troglodyte hive (I) | Iulia | 1 | 180 | 92 | 0 | +5% | 286 |
+| 406 | Descent 50: the troglodyte hive (I) | Vestus the Unlikely | 1 | 180 | 92 | 0 | +5% | 286 |
+| 406 | Descent 50: the troglodyte hive (I) | Neris | 1 | 180 | 92 | 0 | +0% | 272 |
+| 406 | Descent 50: the troglodyte hive (I) | Brennus | 1 | 180 | 92 | 0 | +5% | 286 |
+| 406 | Descent 50: the troglodyte hive (I) | Vettius | 1 | 180 | 92 | 0 | +5% | 286 |
+| 406 | Descent 50: the troglodyte hive (I) | Phaedra | 0.5 | 90 | 46 | 0 | +0% | 136 |
+| 406 | Descent 50: the troglodyte hive (I) | Hrodvar | 0.5 | 90 | 46 | 0 | +0% | 136 |
+| 406 | Descent 50: the troglodyte hive (I) | Varro | 0.5 | 90 | 46 | 0 | +0% | 136 |
+| 406 | Descent 50: the troglodyte hive (I) | Marcellus | 0.5 | 90 | 46 | 0 | +0% | 136 |
+| 406 | Descent 50: the troglodyte hive (I) | Cotta | 0.5 | 90 | 46 | 0 | +0% | 136 |
 
 ## Wages
 
@@ -2779,3 +2805,21 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 399 |  | treasure share |  | 6sp 9cp |  | cotta |
 | 402 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | iulia |
 | 402 | the Solar Citadel | the better offer: half again the fee for Repair Disfigurement (day 402) |  |  | 93gp | lucilla |
+| 405 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | marcellus |
+| 405 | Cyfaraun | torch | 6 |  | 1sp | phaedra |
+| 405 | Tertulla, Lake Laman fisherwoman | mooring the black barge two more weeks (days 406-419), no questions |  |  | 4gp | lucilla |
+| 405 | Cyfaraun | Rations, Iron (one week) | 1 |  | 5gp 4sp | cotta |
+| 406 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 406 | the retinue | wages paid |  |  | 400gp | iulia |
+| 406 |  | treasure share |  | 4gp 7sp |  | aelia |
+| 406 |  | treasure share |  | 4gp 7sp |  | saturnin |
+| 406 |  | treasure share |  | 146gp |  | iulia |
+| 406 |  | treasure share |  | 146gp |  | vestus-the-unlikely |
+| 406 |  | treasure share |  | 146gp |  | neris |
+| 406 |  | treasure share |  | 146gp |  | brennus |
+| 406 |  | treasure share |  | 146gp |  | vettius |
+| 406 |  | treasure share |  | 73gp |  | phaedra |
+| 406 |  | treasure share |  | 73gp |  | hrodvar |
+| 406 |  | treasure share |  | 73gp |  | varro |
+| 406 |  | treasure share |  | 73gp |  | marcellus |
+| 406 |  | treasure share |  | 73gp |  | cotta |

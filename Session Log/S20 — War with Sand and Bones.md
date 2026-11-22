@@ -102,6 +102,41 @@ Argollëan Family. The Order has not yet named Selene.
   barrels. And a key: the cellar door's, pressed into Lucilla's hand. "Tomorrow night I pay the house at the bar.
   Every man below comes up for his silver; for a quarter of an hour the long room is near empty." The Order named no
   one this week.
+- Night of day 404. Vestus made Vettius vanish again; Thana's key turned in the cellar lock (a cook on a cot sat up
+  at a scuff, saw nothing, lay down). Behind the door Vettius waited while the house went up for its silver; two
+  men stayed below, dicing in a booth. He felt along the wall behind the barrels for a quarter of an hour and found
+  nothing. Then the wall found him: the iron bucket-hook in the corner turned, the wall behind the barrels swung
+  inward on a pivot, a breath of old rot came out of the dark, and Selene Nictorian walked into the lamplight in
+  black silk with a big scarred woman behind her carrying a morning star. "Seven of Pluris' boys in the gutter and
+  Corvinus not home. Jonus was right, and I do hate it when Jonus is right." She drank, counted the house's silver,
+  and an hour after midnight went back the way she came: the hook, the wall, the dark. Vettius went out with the
+  dice-players at dawn.
+- Day 405. The company slept off the night's work, then made ready for the hive: iron rations for Marcellus and
+  Cotta, a pack of torches, waterskins filled at the Citadel well. Lucilla paid Tertulla for two more weeks at her
+  landing (to day 419). At the Prefect's sale of the lanista's goods, House Pluris bought the orcs, hobgoblins and
+  gnolls and House Nuvicus the bugbears and the ogre.
+- Day 406. Varro's and Hrodvar's month paid. While the company was below, Aelia and Saturnin, carrying Lucilla's
+  word to The Mink with two of the Family's bravos, were jumped in a lane by a wiry man with two hatchets and four
+  hooded toughs. One bravo fell; Saturnin's spear and Aelia's blade and the other bravo's morning star left all
+  five Pony men in the mud. The Family carried its dead man home.
+- Day 406, the fiftieth descent, ten strong (Lucilla abed; Aelia and Saturnin with her). Down by the Citadel's
+  catacombs and the old ways to the Falling Star stair, into the lizard-men's tunnel, quiet now, and through the
+  great cave where the dead white apes have dried to leather. Vettius went ahead down the tunnel toward the hammering
+  and looked into the chieftain's cave: a female at her knapping saw him and shrieked. He ran; the company held the
+  tunnel. The big chieftain came on with three scarred champions and a dozen warriors throwing barbed darts. Neris'
+  blessing; Vestus' fireball took seven of them, the chieftain scorched; Neris put two to sleep; Iulia's spear met
+  the first charger; the champions' axes found Varro and Brennus and the chieftain's found Hrodvar (down to his last
+  breath); the reek of them turned Brennus', Varro's and Marcellus' stomachs. Vestus' sleep took a champion and
+  Vettius cut his throat; Iulia's spear finished the chieftain; the warriors broke and cowered and were cut down,
+  the sleepers slain where they lay. In the chieftain's cave the females hissed from their niches and did not
+  come out. Vettius found the hoard in a sealed grave after two turns of breaking resin: gold, electrum, bone
+  figurines, bronze combs and rings, copper goblets, circlets and necklaces.
+- In the decorated cave an old, pale lizard-woman put down her chisel and pointed at her carvings, the newest of
+  them ten thin figures heavy with weapons. Vestus followed her old elvish well enough: peace for what is left of
+  her people. The company swore to leave the females and the eggs be and left her a week's meat. She took both and
+  told them nothing more; "when the eggs have hatched and the oath is kept", perhaps. A great python slid past in
+  the dark on the way back and did not care for them. Phaedra's torches ran out on the long climb and Hrodvar's
+  carried them home. The Citadel's gate near midnight.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).
