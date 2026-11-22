@@ -1500,3 +1500,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 279 | Silk Pony Inn (#25) | beds for twelve, night of day 279 |  |  | 2gp 4sp | vettius |
 | 280 | Silk Pony Inn (#25) | beds for twelve, night of day 280 |  |  | 2gp 4sp | vettius |
 | 281 | Silk Pony Inn (#25) | beds for twelve, night of day 281 |  |  | 2gp 4sp | vettius |
+| 282 | Cyfaraun | Oil, Common (1 pint) | 3 |  | 8sp 1cp | vettius |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |
+| 282 |  | treasure share |  |  |  |  |

@@ -11,7 +11,7 @@ public:
     year: ''
     season: winter
     day: 282
-  time: 05:30
+  time: '15:25'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -30,23 +30,26 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 19
+    hp: 18
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.212
+    encumbrance_st: 9.388
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used: []
+    spells_used:
+    - Thunderbolt
+    - Fan of Flames
+    - Fan of Flames
     encumbrance_st: 3.498
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 14
+    hp: 8
     hp_max: 14
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
@@ -55,7 +58,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 22
+    hp: 18
     hp_max: 22
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -65,8 +68,8 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 26
-    hp_max: 26
+    hp: 28
+    hp_max: 31
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
@@ -74,7 +77,7 @@ public:
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 15
+    hp: 14
     hp_max: 15
     conditions: []
     spells_used: []
@@ -94,11 +97,11 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 7.433
+    encumbrance_st: 6.599
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 20
+    hp: 18
     hp_max: 20
     conditions: []
     spells_used: []
@@ -109,8 +112,10 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used: []
-    encumbrance_st: 7.497
+    spells_used:
+    - Fan of Flames
+    - Fan of Flames
+    encumbrance_st: 6.997
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
@@ -121,7 +126,7 @@ public:
     - Your brush with death has gifted you with the ability to speak with dead once per week. All negative side effects are removed. (Tampering with Mortality, day 269)
     spells_used: []
     encumbrance_st: 8.531
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []

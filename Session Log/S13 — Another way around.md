@@ -47,10 +47,25 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
   lake shallows while Vestus studied the thunderbolt formula and Phaedra the levitation formula she bought at the
   Tower. Wages paid ahead for Phaedra, Varro and Hrodvar.
 - The call for the next descent: carry the canoes down to the beach and follow the river.
+- Day 282, twenty-fifth descent, the canoes carried down in bundles. In the cesspool tunnel two giant toads gave way
+  to the torches. Resting in the priest's tomb before the stair, a streaming, tattered ghost came through the stone;
+  Brennus' charge cut it and Vestus' new thunderbolt tore it apart before it touched anyone. The thunder brought a
+  bandaged dead thing down the gallery within minutes: Iulia's Rod sent it cowering, Varro and Marcellus pinned it,
+  and Vestus' and Phaedra's fans with Marcellus' sword burned and cut it down. No one hurt.
+- On the beach Hrodvar lashed the canoes together and the company paddled upstream past the carved tree under the
+  well. Between the pillar and a cave mouth on the west bank a huge chalk-white fish came up under the second canoe:
+  bite and whipping feelers. Three canoes closed on it; Vettius, Varro, Marcellus and Hrodvar's lucky blow drove it
+  down into the dark, hurt (Neris badly bruised). It followed below for a while and did not come back.
+- Ashore at the cave mouth, Vettius crept up the north-west tunnel alone: a stone arch carved like a woman's sex,
+  steps up into a warm oval cavern, its walls wet and glistening, and on a shelf at the far tip a white diamond of
+  extraordinary size. The table decided to come back with every spell and flask ready and the walls in mind.
+  Downstream to the beach, two giant crabs backing off from the fire; out by the far grate at twenty past three.
+- Iulia rose to the sixth rank (Rector).
 
 ## Who they met
 
 ## Treasure and XP
+- Day 282 (A30): 3,260 monster XP (a flailing spirit, a mummy) over 8.5 shares; no treasure.
 - Day 274 (A29): 1,200 treasure XP + 190 monster XP (one wraith destroyed) over 8.5 shares; amphorae L219-L222 sold through Liber (960gp).
 - Day 273: L174 sold, 20,720gp; sale XP to expedition 18's share-holders (one-level cap applied).
 
