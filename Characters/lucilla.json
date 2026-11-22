@@ -1,22 +1,162 @@
 {
-"schema": "acks-actor/2",
-"id": "lucilla",
-"type": "character",
-"role": "pc",
-"name": "Lucilla",
-"class": "Venturer",
-"level": 7,
-"xp": 93871,
-"alignment": "Neutral",
-"age": 21,
-"gender": "female",
-"hp_max": 23,
-"attributes": {"STR":11,"INT":13,"WIL":12,"DEX":14,"CON":13,"CHA":17},
-"inventory_holder": true,
-"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Magical Engineering","list":"class"},{"type":"proficiency","name":"Knowledge (history)","list":"general"},{"type":"proficiency","name":"Driving","list":"class"},{"type":"proficiency","name":"Bargaining","list":"general"},{"type":"proficiency","name":"Leadership","list":"class"},{"type":"proficiency","name":"Diplomacy","list":"general"}],
-"modifiers": [{"target":"ac.shield","value":1,"source":"lot L28 (Chain Mail +1)","cause":"divided by agreement: Lucilla wears the chain"},{"target":"ac.no_shield","value":1,"source":"lot L28 (Chain Mail +1)","cause":"divided by agreement: Lucilla wears the chain"}],
-"defenses": {"resist":"fire:both","source":"L63 Ring of Fire Protection (worn; found day 142, identified; Energy Protection effect, TT p. 79)"},
-"state": {"conditions":["minor scarring (fang mark on the hand)","wears a Ring of Fire Protection (L63, identified day 195)","third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it","It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)"],"spells_used":[],"hp":18},
-"judge": {},
-"changes": [{"field":"state.hp","from":13,"to":14,"cause":"wait: travel state (healing or harm, engine stage 4)"},{"field":"state.hp","from":14,"to":16,"cause":"wait: travel state (healing or harm, engine stage 4)"},{"field":"xp","from":87088,"to":93871,"cause":"payout of The office behind the dead room (night of 418) (day 418)"},{"field":"state.hp","from":16,"to":18,"cause":"wait: travel state (healing or harm, engine stage 4)"}]
+  "schema": "acks-actor/2",
+  "id": "lucilla",
+  "type": "character",
+  "role": "pc",
+  "name": "Lucilla",
+  "class": "Venturer",
+  "level": 8,
+  "xp": 107056,
+  "alignment": "Neutral",
+  "age": 21,
+  "gender": "female",
+  "hp_max": 42,
+  "attributes": {
+    "STR": 11,
+    "INT": 13,
+    "WIL": 12,
+    "DEX": 14,
+    "CON": 13,
+    "CHA": 17
+  },
+  "inventory_holder": true,
+  "items": [
+    {
+      "type": "proficiency",
+      "name": "Adventuring",
+      "list": "general"
+    },
+    {
+      "type": "proficiency",
+      "name": "Magical Engineering",
+      "list": "class"
+    },
+    {
+      "type": "proficiency",
+      "name": "Knowledge (history)",
+      "list": "general"
+    },
+    {
+      "type": "proficiency",
+      "name": "Driving",
+      "list": "class"
+    },
+    {
+      "type": "proficiency",
+      "name": "Bargaining",
+      "list": "general"
+    },
+    {
+      "type": "proficiency",
+      "name": "Leadership",
+      "list": "class"
+    },
+    {
+      "type": "proficiency",
+      "name": "Diplomacy",
+      "list": "general"
+    },
+    {
+      "type": "proficiency",
+      "name": "Intimidation",
+      "list": "class"
+    }
+  ],
+  "modifiers": [
+    {
+      "target": "ac.shield",
+      "value": 1,
+      "source": "lot L28 (Chain Mail +1)",
+      "cause": "divided by agreement: Lucilla wears the chain"
+    },
+    {
+      "target": "ac.no_shield",
+      "value": 1,
+      "source": "lot L28 (Chain Mail +1)",
+      "cause": "divided by agreement: Lucilla wears the chain"
+    }
+  ],
+  "defenses": {
+    "resist": "fire:both",
+    "source": "L63 Ring of Fire Protection (worn; found day 142, identified; Energy Protection effect, TT p. 79)"
+  },
+  "state": {
+    "conditions": [
+      "minor scarring (fang mark on the hand)",
+      "wears a Ring of Fire Protection (L63, identified day 195)",
+      "third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it",
+      "It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)"
+    ],
+    "spells_used": [],
+    "hp": 38
+  },
+  "judge": {},
+  "changes": [
+    {
+      "field": "state.hp",
+      "from": 13,
+      "to": 14,
+      "cause": "wait: travel state (healing or harm, engine stage 4)"
+    },
+    {
+      "field": "state.hp",
+      "from": 14,
+      "to": 16,
+      "cause": "wait: travel state (healing or harm, engine stage 4)"
+    },
+    {
+      "field": "xp",
+      "from": 87088,
+      "to": 93871,
+      "cause": "payout of The office behind the dead room (night of 418) (day 418)"
+    },
+    {
+      "field": "state.hp",
+      "from": 16,
+      "to": 18,
+      "cause": "wait: travel state (healing or harm, engine stage 4)"
+    },
+    {
+      "field": "state.hp",
+      "from": 18,
+      "to": 19,
+      "cause": "wait: travel state (healing or harm, engine stage 4)"
+    },
+    {
+      "field": "xp",
+      "from": 93871,
+      "to": 107056,
+      "cause": "hijink XP month 14 (RR Experience from Hijinks): syndicate income 15,585gp above her 2,400gp threshold = 13,185 XP"
+    },
+    {
+      "field": "level",
+      "from": 7,
+      "to": 8,
+      "cause": "level-up: Venturer level 8"
+    },
+    {
+      "field": "hp_max",
+      "from": 23,
+      "to": 48,
+      "cause": "level-up: Venturer level 8"
+    },
+    {
+      "field": "state.hp",
+      "from": 19,
+      "to": 44,
+      "cause": "level-up: Venturer level 8: hp maximum 23 -> 48"
+    },
+    {
+      "field": "hp_max",
+      "from": 48,
+      "to": 42,
+      "cause": "level 8 re-roll 48 less the wraith's permanent 6 (judge-notes day 304 reading: re-roll less the enervation loss)"
+    },
+    {
+      "field": "state.hp",
+      "from": 44,
+      "to": 38,
+      "cause": "level 8: hp gained less the wraith's loss"
+    }
+  ]
 }

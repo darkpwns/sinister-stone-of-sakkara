@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: spring
-    day: 419
+    day: 420
   time: 07:53
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
@@ -19,15 +19,15 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 18
-    hp_max: 23
+    hp: 38
+    hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 15.175
+    encumbrance_st: 15.889
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 23.59
+    encumbrance_st: 23.56
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 10.317
+    encumbrance_st: 10.307
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -161,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 419
+clock_day: 420
 ---
 # Campaign State
 

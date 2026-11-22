@@ -243,6 +243,13 @@ Argollëan Family. The Order has not yet named Selene.
   closed, the trade went on under the Family. Jonus came down the stair for the first time in a fortnight, heard her
   out and knelt; the old guard and the young toughs cheered her; Lutarius, Gerra and many of the rest said little.
   Not one walked out. Sand & Bones is the Family's.
+- Day 420, the fourteenth month's end. Vettius pulled on Selene's leather armour (it fits him like his own skin:
+  +1), Neris put on her ring (a ward against blows and ill luck: +1), and Vettius spent the day with her dagger: a +2
+  blade. The Guildhouse took its fees; the caravans paid little (one nothing, one by its monopoly, one well); Vestus
+  paid his dues and Vettius Cotta's wage; Iulia's month was already reported and the Patriarch asked nothing more.
+  The Family's month came to Lucilla: 20,597 gold, the old Family's take, half a month of Sand & Bones', the houses,
+  the barges and caravans, half the Pony's honest trade; she banked twenty thousand. Lucilla has risen to the eighth
+  rank of her calling (a merchant venturer: the guilds will lend to her now) and has learned to make men afraid.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).

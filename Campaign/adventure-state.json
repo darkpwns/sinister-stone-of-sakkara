@@ -46931,14 +46931,17 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a dagger",
+    "desc": "Dagger +2",
     "value_gp": null,
     "apparent_gp": null,
     "magical": true,
-    "known": []
+    "known": [
+     "bonus +2",
+     "identity"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
    "judge": [
@@ -46952,7 +46955,7 @@
    "qty": 1,
    "stone": 2.0,
    "carrier": "brennus",
-   "status": "carried",
+   "status": "instance",
    "found": {
     "day": 418,
     "where": ""
@@ -46974,18 +46977,31 @@
     "stone": 2.0
    },
    "player": {
-    "desc": "a leather armor",
+    "desc": "Leather Armor +1",
     "value_gp": null,
     "apparent_gp": null,
     "magical": true,
-    "known": []
+    "known": [
+     "bonus +1",
+     "identity"
+    ]
    },
    "appraised": false,
-   "identified": false,
-   "used": false,
+   "identified": true,
+   "used": true,
    "sold": null,
    "judge": [
     "Leather Armor +1: the vault gives no apparent value for a plain +1 item (RR p. 310: about a non-magical masterwork's value): the Judge sets it (recover --apparent N)"
+   ],
+   "instance": "worn:vettius:Leather Armor",
+   "instance_holder": "vettius",
+   "history": [
+    {
+     "worn": "Leather Armor",
+     "holder": "vettius",
+     "cause": "divided by agreement: Vettius wears Selene's Leather Armor +1 (day 420)",
+     "day": 420
+    }
    ]
   },
   "L468": {
@@ -46994,7 +47010,7 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "lucilla",
+   "carrier": "neris",
    "status": "carried",
    "found": {
     "day": 418,
@@ -47016,15 +47032,18 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a ring",
+    "desc": "Ring of Protection +1",
     "value_gp": null,
     "apparent_gp": 250,
     "magical": true,
-    "known": []
+    "known": [
+     "bonus +1",
+     "identity"
+    ]
    },
    "appraised": false,
-   "identified": false,
-   "used": false,
+   "identified": true,
+   "used": true,
    "sold": null,
    "judge": []
   }
