@@ -2,7 +2,7 @@
 type: session
 session: 20
 date_real: 2026-11-22
-date_game: spring day 393-414
+date_game: spring day 393-421
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -208,6 +208,20 @@ Argollëan Family. The Order has not yet named Selene.
   little Atta, were followed in at the Pony's back door). The fourth crew's tale had gone to Watchtower II, not the
   Family's tower; of that crew only Mamercus the tar-boiler had not been seen elsewhere. Rufinus and Mamercus went
   into the river that night like the others. The Nuvicus veteran walked home to his house with Lucilla's compliments.
+- Day 415. Watchtower III gave Aranth another wharf man, Spurius the rope-maker, selling the caravan tale; the river
+  had him that night. Hesta's girls watched the Silk Pony fill for the pit night: the crowd as thick as ever, the
+  Pony's losses or no. The company stayed at the Citadel. Hesta's girl carried Lucilla's word to Thana: the next pay
+  night, and a second call of the whole house up to the bar two hours later. Thana sent back: "Free wine at the
+  second hour. Jonus drinks upstairs that night; keep him out of it."
+- Day 416, the full moon. Lucilla rose from her bed, her own face in the glass and her right hand twitching. In the
+  night Pony men wrecked one of Hesta's bawdyhouses by the Emporium and beat the girls; Hesta came to the Citadel
+  white with rage.
+- Day 417. Aelia carried Lucilla's draft to the Guildhouse (3,000gp). Rosa's council, Iulia in it this time, for the
+  Captain's part only. Gideon's terms, and nobody argued: Iulia goes as the Captain with her two knights, she does
+  the Sun's justice and nothing else, she gives the woman the chance to come in chains, and nobody says the Family's
+  name in front of her knights. Lucilla goes masked, to be party to whatever befalls Selene. Vettius goes first and
+  unseen, Neris, Brennus and Vestus with them; Varro, Marcellus, Hrodvar, Cotta, Aelia, Phaedra and Saturnin wait in
+  Gambler's Row with the Family's men.
 ## Who they met
 - Orisos, a cheerful Krysean sausage-seller by The Mink's corner, who counts who comes and goes (day 397).
 - A lean man in black with two maces, a voice like a shrug: "She'll have you anyway, you know." (day 399).

@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 414
-  time: '18:53'
+    day: 417
+  time: 07:53
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 13
+    hp: 14
     hp_max: 23
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,11 +27,11 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.925
+    encumbrance_st: 12.925
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 8
+    hp: 16
     hp_max: 22
     conditions: []
     spells_used: []
@@ -91,7 +91,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 11
+    hp: 18
     hp_max: 20
     conditions: []
     spells_used: []
@@ -99,7 +99,7 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 14
+    hp: 21
     hp_max: 21
     conditions: []
     spells_used: []
@@ -129,7 +129,7 @@ public:
     spells_used: []
     encumbrance_st: 6.214
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out
-  rations: 'Vettius: food 0 d, water 0 d (hungry); Neris: food 0 d, water 0.2 d (hungry); Iulia: food 0 d, water 0 d (hungry); Varro: food 0 d, water 0 d (hungry); Hrodvar: food 0 d, water 0 d (hungry); Brennus: food 0 d, water 0 d (hungry); Phaedra: food 0 d, water 0 d (hungry); Marcellus: food 0 d, water 0 d (hungry); Vestus the Unlikely: food 0 d, water 0.8 d (hungry); Cotta: food 0 d, water 0 d (hungry); Lucilla: food 0 d, water 0 d (hungry, incapacitated); Aelia: food 0 d, water 0 d (hungry); Saturnin: food 0 d, water 0 d (hungry); Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0.2 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Cotta: food 0 d, water 0 d; Lucilla: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Saturnin: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Arëtar has charged the Captain with Selene, in chains or ended; the Order has named her to Iulia
@@ -161,7 +161,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 414
+clock_day: 417
 ---
 # Campaign State
 
