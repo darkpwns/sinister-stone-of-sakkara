@@ -84,6 +84,18 @@ of the Underwatch, has the month to find where the Horned Rat cult worships.
   basin's treasure and the mask went into the company's chest at the Grey Sisters' for the selling day.
 - Brennus rose to the sixth rank (Myrmidon) and trained to the axe (Weapon Focus).
 
+- Day 305, thirty-second descent, downriver. The fish came at once for Varro's half sheep; Neris spoke with it
+  again. Below the beach the river bends: a 30' cave mouth on the north-west bank, and a winding tunnel 60' to a
+  bare volcanic cave about 25' across. Vettius heard nothing there and found a panel in its north wall cut to look
+  like rock, which turns. Nobody turned it (Tomasz: hidden doors here open on tombs, and tombs wake). Further down the
+  river opens to 50' between two grottoes and the roof comes down into the water beyond. The east grotto's side
+  tunnels end blind; Hrodvar read old pick marks there, a building begun and given up. In the west grotto a stone slab
+  door stands against the wall; Vettius listened at it and heard nothing; it was left alone. Home by three. No fights.
+- Evening: Lucilla at the Mink. Liber Faunus, amused: "The rat-tappers? My people leave them be and they leave us
+  be. They go in and out under the old city wall, by the drain off the dyers' lane west of the Emporium. If the
+  Captain cleans them out, I shan't weep." Iulia told Arëtar she had word of the rats' nest; he lent her four Knights
+  of the Winged Sun for the search. Hrodvar's cold left him on the third morning (his strength is a little less).
+
 ## Who they met
 
 ## Treasure and XP

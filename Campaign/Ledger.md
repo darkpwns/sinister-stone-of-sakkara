@@ -1711,3 +1711,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 304 |  | treasure share |  |  |  |  |
 | 304 |  | treasure share |  |  |  |  |
 | 304 | Silk Pony Inn (#25) | beds for ten, night of day 304 (Neris and Hrodvar at the Citadel) |  |  | 2gp | vettius |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 |  | treasure share |  |  |  |  |
+| 305 | Silk Pony Inn (#25) | beds for ten, night of day 305 (Neris and Hrodvar at the Citadel) |  |  | 2gp | vettius |
