@@ -466,3 +466,32 @@ its HD on a monster already rebuked.
 Azen Khador descent for more, if the party learns its story); upriver P9-P11 by canoe with the catfish hurt; Gnaeus
 back about day 298; Vestus' week of study for Dispel Magic on town days.
 
+## S14 (2026-11-22) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers as S13 (`s13_j.sh`: `walk`, `go`;
+`s13_pudding.py`; `fight.py` now resolves fighters' cleaves). Session 14 log: `Session Log/S14 — The white fish.md`.
+
+**State on resume:** day 303 05:48, winter, Cyfaraun, town, Silk Pony Inn. No adventure open (A34 paid out). Start S15.
+**Cyfaraun is Class II for every party purchase (Lucilla's Mercantile Network): always `--market-class 2`.**
+
+**Party (12), strength 53:** Lucilla Ven6, Vettius Thf6, Iulia Cru6 (Captain of the Underwatch: spear +2 L233 and
+shield +1 L232, the Citadel's, never sold; the Rod of the Dawn L203), Vestus M5 (Thunderbolt, Dispel Magic), Neris Pr5,
+Brennus F5 (wears Rhankur's black plate +1, L231). Henchmen Phaedra M4 (Levitation), Varro F4, Hrodvar VG4, Aelia B5
+(Naturalism), Marcellus F4, Gnaeus Exp4 (up day 299). Old gear in the Silk Pony strongbox (Iulia's mace and shield,
+Brennus' chain and spare axe, the hook and chain is with Gnaeus).
+
+**What S14 did:** downtime (Lucilla's investment 3; Arëtar, Doarë, Liber); the Death Cult Hideout (#75u) cleared
+(A32: Malthusia captured to the Citadel; Velus' estate to Vettius; Iulia's office); Celictor's lizardmen captured
+alive (A33, 800gp); Gnaeus up; selling day 301 through Liber (diamond 20,000, Shield +1 4,000); Aelia Bard 5; the
+giant catfish bewitched by Neris at the P5 beach (A34). Rulings S14: 4 rows (Underwatch regalia, black plate apparent
+value, hook and haul, office regalia no XP).
+
+**Engine findings S14:** `party remove` stops a member's bed rest counting (fixed by hand twice); proficiency throws
+without recorded targets need `--target` (Healing, Deciphering); `recover --item` needs the "Armor +1 (Plate Armor)"
+form; lot claims are `inv claim LOT HOLDER`; selling an unidentified magic item prices it as mundane (identify first).
+
+**Next (by the profiles):** the river by canoe with the fish friendly: upstream P9 (G14 well), P10 (graves, the
+inscription), P11 (barge; the elemental on trespass; P14 anointing); downstream P4 (Q6), P3 (Q1). Day 309: the fish's
+weekly save. Month 11 ends day 330 (investments 1 and 3). Threads: Celictor's crocodile (#45u, HD 15); the Ionicus
+estate (beastmen, near #30); the arena (Celictor recruits champions against Maximus); rumours 14 (Vasan Tikala, the
+Doppelgänger Den #14u) and 8.
+

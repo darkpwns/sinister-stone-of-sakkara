@@ -1632,3 +1632,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 301 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | lucilla |
 | 301 | Cyfaraun | Oil, Military (1 pint) | 1 |  | 1gp 8sp | phaedra |
 | 301 | Cyfaraun livestock market | a sheep, slaughtered and quartered for bait, evening of day 301 |  |  | 2gp | varro |
+| 301 | Silk Pony Inn (#25) | beds for twelve, night of day 301 |  |  | 2gp 4sp | vettius |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 |  | treasure share |  |  |  |  |
+| 302 | Silk Pony Inn (#25) | beds for twelve, night of day 302 |  |  | 2gp 4sp | vettius |

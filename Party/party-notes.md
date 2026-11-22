@@ -237,4 +237,14 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   from the doorway and give ground down the passage, the heaviest armour holding the front; (15) torches thrown
   burn too when the flasks run out; (16) a thunderbolt is loud: it brought a mummy within minutes. The white diamond
   is in our chest in the Grey Sisters' vault until a selling day.
+- S14 (days 290-302). While Gnaeus mended: Lucilla's third caravan (salt and fish to Türos Orn); the vagrant colony
+  under the Lake District: Velus' body to the Grey Sisters (Vettius is heir to the Ionicus estate beyond the Krysivor,
+  overrun by beastmen), the death cult of Dirgion behind the red-skull door destroyed, its witch to the Citadel; Iulia
+  is Captain of the Underwatch (spear and shield of the office, the Citadel's). Celictor's three lizardmen taken
+  asleep and sold back to him (he still wants his giant crocodile, 2,000gp alive). The diamond and the black shield
+  sold through Liber. Lessons: (17) the sleep spell on sleepers takes beasts alive; (18) count the cots: two came home
+  late; (19) ask the people who catch a thing how they catch it (Tertulla); (20) Neris' charm on a beast that has not
+  been touched yet: the white fish is our friend now. Feed it when we pass; it may shake the charm off in time.
+- The fish says: upstream past the stone with marks, a cave with a black boat and a cold thing in the water it won't
+  go near; downstream the roof meets the water and the water goes on to the big river.
 

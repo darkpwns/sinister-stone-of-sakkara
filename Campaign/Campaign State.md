@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 301
-  time: 05:05
+    day: 303
+  time: 05:48
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.75
+    encumbrance_st: 9.417
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.184
+    encumbrance_st: 8.839
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -51,11 +51,11 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 4.925
+    encumbrance_st: 4.591
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 22
+    hp: 21
     hp_max: 22
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -65,7 +65,7 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 31
+    hp: 30
     hp_max: 31
     conditions:
     - minor scarring (puncture wound)
@@ -74,7 +74,7 @@ public:
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 15
+    hp: 14
     hp_max: 15
     conditions: []
     spells_used: []
@@ -82,11 +82,11 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 22
+    hp: 21
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 13.267
+    encumbrance_st: 9.1
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -94,15 +94,15 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 7.249
+    encumbrance_st: 6.916
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 20
+    hp: 19
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 13.424
+    encumbrance_st: 13.257
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -110,16 +110,16 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 8.075
+    encumbrance_st: 6.909
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
-    hp: 19
+    hp: 18
     hp_max: 19
     conditions:
     - Your brush with death has gifted you with the ability to speak with dead once per week. All negative side effects are removed. (Tampering with Mortality, day 269)
     spells_used: []
-    encumbrance_st: 11.039
+    encumbrance_st: 10.873
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out
   rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 0.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 0.8 d; Aelia: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
@@ -145,7 +145,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 301
+clock_day: 303
 ---
 # Campaign State
 

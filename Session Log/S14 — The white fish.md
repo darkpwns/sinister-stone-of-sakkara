@@ -106,6 +106,16 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
   training with it: a +1, and Liber took it for 4,000gp. Coin banked. Aelia rose to the fifth rank (Chronicler) and
   took up the study of beasts (Naturalism). Gnaeus' wage, the stalls, a top-up of oil; Lucilla's contacts had two
   new tales. In the evening a fresh sheep for bait; Gnaeus has Tertulla's hook and chain.
+- Day 302, twenty-ninth descent (twelve again), for the white fish. A buzzing insect swarm followed the column through
+  the temple and was burned out of the air; the front rank took a few stings backing out of it. Down the hidden stair
+  to the beach: Hrodvar staked Tertulla's chain to the rock, the sheep went in on the hook, the blood after it, and the
+  company drew back against the cliff by the crone with the lights low. Four turns later the pale shape came up to
+  the bait, intent on it, and before it could take the hook Neris knelt at the water's edge and spoke her charm. It
+  took her for a friend. With her beast-speech she told it the meat was its own and that the people with the lights
+  were not food; Hrodvar worked the hook out of its lip. It knows the river: hairy ones come down to drink past the
+  carved tree; upstream past the stone with marks there is a cave with a black boat, and a cold thing lives in the
+  water there that it will not go near; downstream the roof goes down into the water and the water goes on to the big
+  river. Out by the far grate before two, two giant flies giving way to the torches.
 
 ## Who they met
 - Tertulla, an old Lake Laman fisherwoman (Friendly): two fingers gone, chews fennel, gruff.
@@ -114,6 +124,7 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
 - Liber Faunus (Friendly): his pier cargo taken by something big in the water and scaled men.
 
 ## Treasure and XP
+- Day 302 (A34): 735 monster XP (the white fish charmed: outsmarted; the swarm burned) over 9 shares.
 - Day 301: L223 (diamond) 20,000gp and L235-L236 through Liber (no sale XP: gems); L228 Shield +1 identified by training
   (Varro) and sold through Liber, 4,000gp, sale XP to expedition 27's share-holders. Aelia Bard 5.
 - Day 298 (A33): Celictor's reward 800gp, agates and bloodstone 100gp; 135 XP for three lizardmen captured; over 8.5 shares.
@@ -125,14 +136,28 @@ nearly sold out. Between the beach and the west-bank cave a huge chalk-white fis
   loves Maximus except the rival lanistae Celictor Nuvicus and Omnus Pluris.
 
 ## Changes to the world
+- The white fish of the river is Neris' friend (her charm; it may shake it off in time). Fed and treated kindly, it may
+  stay friendly.
 - The death cult of Dirgion under the Lake District is destroyed (none escaped); its altar is broken.
 - Vettius is heir to the Ionicus estate beyond the Krysivor (overrun by beastmen).
 - Iulia is Captain of the Underwatch.
 
 ## Next time
+Day 303, dawn, Cyfaraun, the Silk Pony. Twelve, all whole or nearly (strength 53). The river is open: the white fish
+is a friend, the canoes in the stables. Upstream past the west-bank cave: the stone with marks and the cave with the
+black boat and the cold thing in the water. Downstream: unexplored. Celictor still wants his crocodile. Vettius is heir
+to an estate beyond the Krysivor overrun by beastmen. Iulia is Captain of the Underwatch.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 14). Judge notes: Playtest/judge-notes.txt (S14 section).
 > Tertulla: reaction 9 Indifferent (+1 Judge: returning customer); influence with a day's-pay bribe 11 Friendly. Her
 > lore is the MM giant catfish (acute olfaction, blood up to 2 miles; mechanoreception in water only) and AX3's plaza
 > special 3 (gills and feelers 300gp each fresh). Gnaeus' bed rest corrected (see judge-notes S14).
+> Day 298-302: lizardmen Slumber saves 5, 10 (warriors), 5 (champion), all failed; Celictor reaction 7 Neutral +
+> influence 9 Indifferent; premium Judge-set (200/200/400, croc 2,000). Gnaeus' bed rest counter corrected (judge-notes
+> S14). Month-10 vagary investment 1: 16 (Return -200%: -7gp). Rumours rows 14 and 8 (extra rows rolled beyond the
+> count: unused). Day 302: swarm 22 hp (follow 2 on 1d6); disease 10% rolls 4,5,10,8,8,10 (1 = diseased): none. Fish
+> arrival 4 turns; surprised (1); healed to 37 (20d3); Bewitch Beast save 5 vs 15+: bewitched (weekly save, 8 HD; next
+> day 309). Fish lore by Speak with Beasts: P7-P8a apes/troglodytes drink, P11 the elemental, downstream to the
+> Mirmen (Judge's reading of the P note).
+

@@ -108,6 +108,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- Day 309 (and weekly): the white fish's Spells save against Neris' Bewitch Beast (8 HD: weekly; hidden). Broken: hostile only if maltreated; fed and used kindly it may stay Neutral or Friendly (RR p. 197). It shadows no one while charmed.
 - Wages: Phaedra to 309, Varro and Hrodvar to 316, Aelia and Marcellus to 323, Gnaeus to 330; vault fee to 323; stalls to 316. Month 11 ends day 330 (investments 1 and 3 vagaries). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
@@ -121,7 +122,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
   goods; H13 2,000sp and the antlers; H7 2 ropes; H8 cedar chest and the warlord's gear; H21 bronze sarcophagus).
 - P (Sub-Abyssal river; underground river column level 5; the catfish 1d6 per turn on or in the river, hurt since day
   282: shadows, does not attack until unhurt, Rulings S13): explored by canoe P5-P7-P8a; P6 empty; P8b cleared (egg
-  taken). Not yet: P9 (G14 well), P10 (graves 336gp; the Lammala inscription), P11 (barge, statue, elemental on
+  taken). The giant catfish bewitched by Neris (day 302): a friend while the charm holds. Not yet: P9 (G14 well), P10 (graves 336gp; the Lammala inscription), P11 (barge, statue, elemental on
   trespass), P12 (cursed treasures), P13-P14 (anointing; boulder door to R2); downstream P4 (Q6) and P3 (Q1), P1-P2.
   The four canoes live in the Silk Pony stables (Rulings S13: knocked down for the carry).
 - Elsewhere: C5 secret sepulchre; G (faewyrd; purification at G4), G9-G13, G14 (Abyssal); M caves; I (troglodytes
