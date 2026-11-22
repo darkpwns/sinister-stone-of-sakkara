@@ -566,5 +566,5 @@ the rune-hafted Battle Axe +1 (L292), Varro Lann Dhuille. The four canoes are hi
 their den (A42; prisoners freed, rewards A43; the Brotherhood's ledger: Liber, Mentenus, Selene as patrons, kept
 secret but for Arëtar's copy of the Mentenus entries). Arëtar plans the full-moon ambush on Mentenus (day 328).
 
-**Next (by the profiles):** Q (Marcan) with Ingrid's conditions; the full moon (day 328); the selling day (331).
+**Next (by the profiles):** Q (Marcan) with Ingrid's conditions; the full moon (day 328: the Shrine is empty: Terkinos's pack abandoned it the night of day 306 and warned Mentenus, user's ruling); the selling day (331).
 Rulings S16: 4 rows. Engine findings: judge-notes S16.

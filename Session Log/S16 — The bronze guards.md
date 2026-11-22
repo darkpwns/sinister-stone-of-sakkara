@@ -119,7 +119,7 @@ taken at the rat shrine at midnight. The selling day is day 331.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 16). Judge notes: Playtest/judge-notes.txt (S16 entries).
-> Day 309: full moon in 19 days (day 328); Terkinos's pack 5 (stays, alert, word to Mentenus); Arëtar 4 (plans the
+> Day 309: full moon in 19 days (day 328); Terkinos's pack 5 (stays, alert, word to Mentenus; overruled by the user on day 316: the pack abandoned the Shrine the night of day 306 through the NW secret door and warned Mentenus, who will not come at the full moon); Arëtar 4 (plans the
 > full-moon ambush with Iulia). Shadows 2 (one touch on Marcellus: max hp 20 -> 16; saves 15, 15, 13: ended day
 > 312). Fish: saves 15 (resisted) and 9 (charmed again); repeat XP voided. Jackals 16/16/18/13; Iulia's rebuke 3 HD
 > (one frightened). The king 34 hp, AC 11 (set by hand); Rod 11 HD: frightened; destroyed round 8; four statues
