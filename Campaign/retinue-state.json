@@ -293,6 +293,24 @@
    "candidates": [],
    "level": 4,
    "wage": "200gp/month"
+  },
+  "Cyfaraun|henchman|3rd level": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "3rd level",
+   "table": "henchmen-availability",
+   "row": 3,
+   "total": 0,
+   "by_week": [
+    0,
+    0,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 3,
+   "wage": "100gp/month"
   }
  },
  "candidates": {
@@ -2933,6 +2951,81 @@
    "accepted_by": "lucilla",
    "elan": true,
    "offer_wage": 12.0
+  },
+  "C34": {
+   "id": "C34",
+   "kind": "henchman",
+   "level": 2,
+   "race": "human",
+   "name": "Cotta",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 9,
+     "result": "Accept",
+     "day": 331,
+     "wage": null,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge",
+    "found by the day-331 Explorer-2 search (availability 2 vs 50%); the engine's stale market cap overridden: Class III 2nd-level total is 1d3, at least 1, none found in month 12 (judge-notes S18)"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 11,
+     "mod": 0
+    },
+    "INT": {
+     "score": 7,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 14,
+     "mod": 1
+    },
+    "CON": {
+     "score": 12,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 12,
+     "mod": 0
+    }
+   },
+   "class": "Explorer",
+   "hit_die": "1d6",
+   "hp_max": 6,
+   "attack_throw": 9,
+   "saves": {
+    "paralysis": 12,
+    "death": 13,
+    "blast": 14,
+    "implements": 15,
+    "spells": 16
+   },
+   "caster": false,
+   "morale": null,
+   "ac": 1,
+   "wage_table": "50gp/month",
+   "search": "Cyfaraun|rarity|Explorer of level 2|0",
+   "wanted": "Explorer of level 2",
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "try_again": false,
+   "accepted_by": "vettius",
+   "elan": false,
+   "offer_wage": null,
+   "actor": "cotta"
   }
  },
  "members": {
@@ -4515,13 +4608,55 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "cotta": {
+   "id": "cotta",
+   "name": "Cotta",
+   "candidate": "C34",
+   "employer": "vettius",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 2,
+   "class": "Explorer",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 0,
+   "morale": 0,
+   "morale_src": "as light cavalry with similar gear (RR p. 167 mercenary morale; Judge's reading: composite bow, sword, scale, riding horse)",
+   "wage_gp": 50.0,
+   "wage_per": "month",
+   "hired_day": 331,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 331,
+     "event": "hired",
+     "loyalty": 0
+    },
+    {
+     "day": 331,
+     "event": "wages paid: 1 month(s), 50 gp"
+    }
+   ],
+   "actor": "cotta",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 33,
+ "seq": 34,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",

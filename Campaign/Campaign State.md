@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 17
+session: 18
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A43 paid out)
@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: winter
-    day: 330
-  time: '16:53'
-  weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; drizzle; wind moderate (drizzly)
+    day: 332
+  time: 05:53
+  weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; clear; wind moderate
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -26,7 +26,7 @@ public:
     - wears a Ring of Fire Protection (L63, identified day 195)
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     spells_used: []
-    encumbrance_st: 9.812
+    encumbrance_st: 9.807
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.507
+    encumbrance_st: 9.457
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -119,15 +119,23 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.489
+  - name: Cotta
+    sheet: Characters/cotta.json
+    role: henchman
+    hp: 6
+    hp_max: 6
+    conditions: []
+    spells_used: []
+    encumbrance_st: 4.5
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Saturnin: food 0 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Saturnin: food 0 d, water 0.2 d; Cotta: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - Selling day, day 331 (month 12): the king's tomb goods and the helm in the Grey Sisters' vault
+  - 'Selling day (month 12): the king''s tomb goods, the helm and the scale in the Grey Sisters'' vault (Doarë out days 331, 332)'
   - The Patriarch wants proof from the Provost's own study at the Tower of Knowledge
   - Vestus' interview at the Tower of Knowledge, day 339
   - The Order of the Eclipse waits on the company's initiation (the Provost)
-  - A woodsman to hire when the new month opens (day 331)
+  - 'A sealed note for Vasan Tikala ("sludge mold"): the usual place, midnight of day 333; word sent to the Order day 331'
   - The black barge at Tertulla's landing, paid to day 335
   trail:
   - '26.18'
@@ -150,7 +158,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 330
+clock_day: 332
 ---
 # Campaign State
 

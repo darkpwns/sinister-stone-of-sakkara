@@ -26,3 +26,4 @@ tags:
 - [[S15 — Upriver]]
 - [[S16 — The bronze guards]]
 - [[S17 — The ledger]]
+- [[S18 — Sludge mold]]

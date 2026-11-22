@@ -2150,3 +2150,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 12089.11 |  |  | 30gp 2sp 2cp | guildhouse-bank |
 | 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 11667.38 |  |  | 29gp 1sp 7cp | guildhouse-bank |
 | 330 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 11 (day 330): on 11635.4 |  |  | 29gp 9cp | guildhouse-bank |
+| 331 | Nicean wine-seller (Emporium stalls) | a day's pay for the note left for Vasan Tikala (Bribery), day 331 |  |  | 5sp | lucilla |
+| 331 | the retinue | wages paid |  |  | 50gp | vettius |

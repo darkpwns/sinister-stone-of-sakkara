@@ -414,6 +414,21 @@
    "name": "Saturnin",
    "actor": "saturnin",
    "status": "active"
+  },
+  "cotta": {
+   "kind": "henchman",
+   "name": "Cotta",
+   "actor": "cotta",
+   "status": "active"
+  },
+  "cotta-horse": {
+   "kind": "animal",
+   "name": "Horse, Light Riding",
+   "actor": null,
+   "status": "active",
+   "animal": "Horse, Light Riding",
+   "owner": "cotta",
+   "note": "Cotta's own (Outrider template), day 331"
   }
  },
  "custom": {
@@ -67425,6 +67440,399 @@
    "coins": [],
    "cmd": "inv move",
    "n": 3220
+  },
+  {
+   "op": "pay",
+   "cause": "a day's pay for the note left for Vasan Tikala (Bribery), day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -5
+    }
+   ],
+   "to": "Nicean wine-seller (Emporium stalls)",
+   "price_cp": 50,
+   "cmd": "inv pay",
+   "n": 3221
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w67",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w67",
+     "key": "composite bow",
+     "row": "Composite Bow",
+     "table": "weapons-bows-crossbows",
+     "table_row": 3,
+     "type": "Missile",
+     "size": null,
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Cleave 3 + STR mod"
+     ],
+     "range": {
+      "short": 120,
+      "medium": 240,
+      "long": 360
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "his own kit (Outrider template), hired day 331",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 3
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 3
+       }
+      }
+     }
+    }
+   ],
+   "n": 3222
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w68",
+     "key": "sword",
+     "row": "Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 4,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "his own kit (Outrider template), hired day 331",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 3223
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3224
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3225
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "boots, leather, high",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3226
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3227
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "waterskin",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3228
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "horse, light riding",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3229
+  },
+  {
+   "op": "remove",
+   "cause": "void: entered as an item instead of an animal holder (the horse is made a holder next)",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "horse, light riding",
+     "slot": "worn",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "other",
+   "cmd": "inv remove",
+   "n": 3230
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta-horse",
+     "item": "saddle and tack, riding",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3231
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta-horse",
+     "item": "saddlebag (holds 3 stone)",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3232
+  },
+  {
+   "op": "add",
+   "cause": "his own kit (Outrider template), hired day 331",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta-horse",
+     "item": "rations, iron (one week)",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 3233
+  },
+  {
+   "op": "wield",
+   "cause": "sword in hand",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w68",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 3234
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 331,
+   "time": "day 331 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -50
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 5000,
+   "cmd": "inv wages",
+   "n": 3235
   }
  ],
  "holdings": {
@@ -68127,19 +68535,43 @@
    "right_hand": {
     "#w65": 1
    }
+  },
+  "cotta": {
+   "belt": {
+    "#w67": 1,
+    "arrow": 20,
+    "waterskin": 1
+   },
+   "armor": {
+    "scale armor": 1
+   },
+   "worn": {
+    "tunic and pants, crafter/freeholder": 1,
+    "boots, leather, high": 1
+   },
+   "right_hand": {
+    "#w68": 1
+   }
+  },
+  "cotta-horse": {
+   "pack": {
+    "saddle and tack, riding": 1,
+    "saddlebag (holds 3 stone)": 1,
+    "rations, iron (one week)": 1
+   }
   }
  },
  "coins": {
   "lucilla": {
    "gp": 187,
-   "sp": 45,
+   "sp": 40,
    "cp": 80
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 150,
+   "gp": 100,
    "sp": 11,
    "cp": 13
   },
@@ -72358,6 +72790,127 @@
      "general method of use"
     ],
     "identified": true
+   }
+  },
+  "w67": {
+   "id": "w67",
+   "key": "composite bow",
+   "row": "Composite Bow",
+   "table": "weapons-bows-crossbows",
+   "table_row": 3,
+   "type": "Missile",
+   "size": null,
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Cleave 3 + STR mod"
+   ],
+   "range": {
+    "short": 120,
+    "medium": 240,
+    "long": 360
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "his own kit (Outrider template), hired day 331",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 3
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 3
+     }
+    }
+   }
+  },
+  "w68": {
+   "id": "w68",
+   "key": "sword",
+   "row": "Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 4,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "his own kit (Outrider template), hired day 331",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
    }
   }
  },
