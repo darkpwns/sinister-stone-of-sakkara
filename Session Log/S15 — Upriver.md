@@ -124,6 +124,17 @@ of the Underwatch, has the month to find where the Horned Rat cult worships.
   twice and said only: "Say nothing of this to anyone outside these walls." The prisoner went to the cells.
 - Coin banked at the Guildhouse. Vettius rose to the seventh rank (Pilferer).
 
+- Day 307, in town. Varro spent the day at the Silk Pony's yard working with the leaf-blade until he knew it: a
+  good sword, better than his own. Aelia sat with Vestus' charcoal rubbing of the basin's loops and strokes and knew
+  it from an old song of the Argollëan rivermen: the pattern of oar strokes that makes a funerary barge of the cults
+  "go where the dead would go": rowed so, with a dead body in its cabin, such a barge passes in an instant to any
+  water within a long bowshot (about 360'), once a day, crew and all. Rosa asked how far the river's drowned south
+  end is from the lake; Priya laid her map over the city's and said: close. Oil, a fresh sheep.
+- The plan for day 308, Rosa's call with Ingrid's conditions: bones from a grave at the stone with marks for the
+  cabin; the canoes knocked down and stowed in the cabin; the Neutrals washed at the font; Iulia, Neris, Hrodvar and
+  Marcellus inside Neris' moving circle and Iulia's shield on the deck; Vestus at the oar with the rubbing. If the
+  cold thing breaks the circle, everyone into the canoes' place in the cabin and Vestus rows the pattern at once.
+
 ## Who they met
 
 ## Treasure and XP

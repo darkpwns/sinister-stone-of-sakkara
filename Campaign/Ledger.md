@@ -1765,3 +1765,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 306 |  | treasure share |  | 369gp 7sp 2cp |  | aelia |
 | 306 |  | treasure share |  | 369gp 7sp 2cp |  | marcellus |
 | 306 |  | treasure share |  | 369gp 7sp 2cp |  | gnaeus |
+| 306 | Silk Pony Inn (#25) | beds for twelve, night of day 306 |  |  | 2gp 4sp | vettius |
+| 307 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 2sp | vettius |
+| 307 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 6gp | aelia |
+| 307 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 4gp | gnaeus |
+| 307 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 4gp | lucilla |
+| 307 | Cyfaraun livestock market | a sheep, slaughtered and halved for the white fish, evening of day 307 |  |  | 2gp | varro |
+| 307 | Silk Pony Inn (#25) | beds for twelve, night of day 307 |  |  | 2gp 4sp | vettius |
