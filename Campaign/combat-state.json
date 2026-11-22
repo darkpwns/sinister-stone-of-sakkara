@@ -1,97 +1,56 @@
 {
  "schema": "acks-combat/3",
- "round": 5,
+ "round": 16,
  "order": [
-  "brennus",
-  "vettius",
-  "aelia",
   "cotta",
-  "lucilla",
-  "neris",
-  "sk32",
-  "sk33",
-  "sk47",
-  "sk56",
-  "sk72",
-  "sk73",
   "sk77",
-  "sk79",
-  "sk80",
-  "sk81",
-  "sk83",
-  "sk102",
-  "sk40",
-  "sk42",
-  "sk43",
-  "sk44",
-  "sk46",
-  "sk51",
-  "sk52",
-  "sk62",
-  "sk70",
-  "sk84",
-  "sk92",
-  "sk96",
-  "sk103",
-  "marcellus",
-  "sk35",
-  "sk37",
-  "sk39",
-  "sk55",
-  "sk58",
-  "sk60",
-  "sk68",
-  "sk74",
-  "sk76",
-  "sk82",
-  "sk93",
+  "sk91",
   "sk94",
-  "sk104",
-  "sk105",
-  "sk107",
-  "vestus-the-unlikely",
-  "sk36",
-  "sk41",
-  "sk49",
-  "sk54",
-  "sk63",
-  "sk66",
-  "sk75",
-  "sk78",
-  "sk85",
-  "sk86",
-  "sk88",
-  "sk95",
-  "sk97",
-  "sk99",
-  "sk108",
-  "iulia",
-  "phaedra",
+  "vettius",
+  "brennus",
   "iskaran",
-  "sk20",
-  "sk48",
-  "sk50",
-  "sk53",
-  "sk61",
   "sk65",
-  "sk67",
-  "sk71",
-  "sk100",
-  "varro",
-  "sk34",
-  "sk38",
-  "sk45",
-  "sk57",
-  "sk59",
-  "sk64",
-  "sk69",
-  "sk87",
+  "sk80",
+  "sk88",
   "sk89",
   "sk90",
-  "sk91",
+  "lucilla",
+  "vestus-the-unlikely",
+  "aelia",
+  "sk67",
+  "sk69",
+  "sk70",
+  "sk79",
+  "sk81",
+  "sk84",
+  "sk86",
+  "sk95",
+  "neris",
+  "sk74",
+  "sk78",
+  "sk92",
+  "iulia",
+  "phaedra",
+  "varro",
+  "sk63",
+  "sk64",
+  "sk66",
+  "sk68",
+  "sk71",
+  "sk72",
+  "sk73",
+  "sk82",
+  "sk85",
+  "sk93",
+  "sk97",
   "sk98",
-  "sk101",
-  "sk106",
+  "marcellus",
+  "sk75",
+  "sk76",
+  "sk83",
+  "sk87",
+  "sk96",
+  "sk99",
   "hrodvar"
  ],
  "count_index": null,
@@ -116,7 +75,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -326,7 +285,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -536,7 +495,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -728,7 +687,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -985,7 +944,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 9,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1597,7 +1556,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2031,7 +1990,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2261,7 +2220,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2692,12 +2651,15 @@
    "hp_lost_rounds": [
     3,
     4,
-    4
+    4,
+    6,
+    7,
+    7
    ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -2856,7 +2818,7 @@
     }
    },
    "hp_max": 37,
-   "hp": 20,
+   "hp": 4,
    "hp_start": 37
   },
   "sk1": {
@@ -3630,7 +3592,7 @@
   "sk20": {
    "id": "sk20",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -3642,12 +3604,22 @@
    },
    "hp_lost_rounds": [
     4,
-    4
+    4,
+    6
    ],
-   "felled": null,
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -3658,7 +3630,7 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 2,
+   "hp": -19,
    "hp_start": 2
   },
   "sk21": {
@@ -4137,7 +4109,7 @@
   "sk32": {
    "id": "sk32",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4147,11 +4119,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4162,13 +4145,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 2
   },
   "sk33": {
    "id": "sk33",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4178,11 +4161,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4193,13 +4187,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 8
   },
   "sk34": {
    "id": "sk34",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4209,11 +4203,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4224,13 +4229,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 1
   },
   "sk35": {
    "id": "sk35",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4240,11 +4245,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4255,13 +4271,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 3
   },
   "sk36": {
    "id": "sk36",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4271,11 +4287,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4286,13 +4313,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 4
   },
   "sk37": {
    "id": "sk37",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4302,8 +4329,19 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
    "init": 4,
@@ -4317,13 +4355,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -1,
    "hp_start": 4
   },
   "sk38": {
    "id": "sk38",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4333,11 +4371,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4348,13 +4397,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 4
   },
   "sk39": {
    "id": "sk39",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4364,11 +4413,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4379,13 +4439,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 4
   },
   "sk40": {
    "id": "sk40",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4395,11 +4455,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4410,13 +4481,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 2
   },
   "sk41": {
    "id": "sk41",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4426,11 +4497,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4441,13 +4523,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 4
   },
   "sk42": {
    "id": "sk42",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4457,11 +4539,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4472,13 +4565,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 2
   },
   "sk43": {
    "id": "sk43",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4488,11 +4581,22 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    6
+   ],
+   "felled": {
+    "round": 6,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4503,13 +4607,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -12,
    "hp_start": 7
   },
   "sk44": {
    "id": "sk44",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4519,8 +4623,20 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
    "init": 5,
@@ -4534,13 +4650,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 3
   },
   "sk45": {
    "id": "sk45",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4550,11 +4666,14 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4565,13 +4684,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 3
   },
   "sk46": {
    "id": "sk46",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4581,7 +4700,10 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
@@ -4596,13 +4718,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 1
   },
   "sk47": {
    "id": "sk47",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4612,11 +4734,23 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4627,13 +4761,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 7
   },
   "sk48": {
    "id": "sk48",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4643,11 +4777,23 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4658,13 +4804,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -4,
    "hp_start": 1
   },
   "sk49": {
    "id": "sk49",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4674,11 +4820,23 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -4689,13 +4847,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": -1,
    "hp_start": 7
   },
   "sk50": {
    "id": "sk50",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4705,132 +4863,20 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
    },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 2
-  },
-  "sk51": {
-   "id": "sk51",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 6
-  },
-  "sk52": {
-   "id": "sk52",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 5
-  },
-  "sk53": {
-   "id": "sk53",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 3
-  },
-  "sk54": {
-   "id": "sk54",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
    "cleaves_used": 0,
    "declared": {},
    "init": 3,
@@ -4844,13 +4890,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
-   "hp_start": 5
+   "hp": -4,
+   "hp_start": 2
   },
-  "sk55": {
-   "id": "sk55",
+  "sk51": {
+   "id": "sk51",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4860,8 +4906,63 @@
     "rebuke_as": "skeleton",
     "attack_throw": "8"
    },
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": -1,
+   "hp_start": 6
+  },
+  "sk52": {
+   "id": "sk52",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
    "init": 4,
@@ -4875,13 +4976,271 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
+   "hp_start": 5
+  },
+  "sk53": {
+   "id": "sk53",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": -4,
+   "hp_start": 3
+  },
+  "sk54": {
+   "id": "sk54",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": -4,
+   "hp_start": 5
+  },
+  "sk55": {
+   "id": "sk55",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
    "hp_start": 7
   },
   "sk56": {
    "id": "sk56",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 3
+  },
+  "sk57": {
+   "id": "sk57",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": -4,
+   "hp_start": 7
+  },
+  "sk58": {
+   "id": "sk58",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [
+    7,
+    7
+   ],
+   "felled": {
+    "round": 7,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": null,
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": -4,
+   "hp_start": 5
+  },
+  "sk59": {
+   "id": "sk59",
+   "side": "foe",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -4906,137 +5265,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
-   "hp_start": 3
-  },
-  "sk57": {
-   "id": "sk57",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 7
-  },
-  "sk58": {
-   "id": "sk58",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 5
-  },
-  "sk59": {
-   "id": "sk59",
-   "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 4
   },
   "sk60": {
    "id": "sk60",
    "side": "foe",
-   "status": "active",
-   "conditions": [],
-   "group": "skel",
-   "perceived": "a lizard-man skeleton with a curved bronze sword",
-   "judge_set": {
-    "hd": "2",
-    "ac": "3",
-    "rebuke_as": "skeleton",
-    "attack_throw": "8"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Skeleton",
-   "stats": {},
-   "monster": {
-    "base": "skeleton",
-    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 8
-  },
-  "sk61": {
-   "id": "sk61",
-   "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -5061,13 +5296,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
-   "hp_start": 7
+   "hp": 0,
+   "hp_start": 8
   },
-  "sk62": {
-   "id": "sk62",
+  "sk61": {
+   "id": "sk61",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -5081,7 +5316,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5092,7 +5327,38 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
+   "hp_start": 7
+  },
+  "sk62": {
+   "id": "sk62",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
    "hp_start": 1
   },
   "sk63": {
@@ -5112,7 +5378,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5143,7 +5409,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5174,7 +5440,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5205,7 +5471,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5236,7 +5502,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5267,7 +5533,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5298,7 +5564,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5329,7 +5595,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5391,7 +5657,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5422,7 +5688,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5453,7 +5719,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5484,7 +5750,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5515,7 +5781,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5608,7 +5874,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5639,7 +5905,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5670,7 +5936,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5701,7 +5967,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5732,7 +5998,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5763,7 +6029,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5794,7 +6060,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5825,7 +6091,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5887,7 +6153,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5918,7 +6184,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5949,7 +6215,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -5980,7 +6246,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6011,7 +6277,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6042,7 +6308,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6073,7 +6339,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6104,7 +6370,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6135,7 +6401,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6166,7 +6432,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6197,7 +6463,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6228,7 +6494,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6338,7 +6604,7 @@
   "sk103": {
    "id": "sk103",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6363,13 +6629,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 5
   },
   "sk104": {
    "id": "sk104",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6383,7 +6649,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6394,13 +6660,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 6
   },
   "sk105": {
    "id": "sk105",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6414,7 +6680,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6425,13 +6691,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 4
   },
   "sk106": {
    "id": "sk106",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6445,7 +6711,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6456,13 +6722,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 1
   },
   "sk107": {
    "id": "sk107",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6476,7 +6742,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6487,13 +6753,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 8
   },
   "sk108": {
    "id": "sk108",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6518,13 +6784,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 3
   },
   "sk109": {
    "id": "sk109",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6538,7 +6804,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6549,13 +6815,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 8
   },
   "sk110": {
    "id": "sk110",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6569,7 +6835,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6580,13 +6846,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 1
   },
   "sk111": {
    "id": "sk111",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6600,7 +6866,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6611,13 +6877,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 7
   },
   "sk112": {
    "id": "sk112",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6631,7 +6897,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6642,13 +6908,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 3
   },
   "sk113": {
    "id": "sk113",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6662,7 +6928,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6673,13 +6939,13 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 5
   },
   "sk114": {
    "id": "sk114",
    "side": "foe",
-   "status": "active",
+   "status": "destroyed",
    "conditions": [],
    "group": "skel",
    "perceived": "a lizard-man skeleton with a curved bronze sword",
@@ -6693,7 +6959,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -6704,8 +6970,194 @@
     "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
    "hp_max": 9,
-   "hp": 9,
+   "hp": 0,
    "hp_start": 1
+  },
+  "sk115": {
+   "id": "sk115",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 4
+  },
+  "sk116": {
+   "id": "sk116",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 5
+  },
+  "sk117": {
+   "id": "sk117",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 5
+  },
+  "sk118": {
+   "id": "sk118",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 7
+  },
+  "sk119": {
+   "id": "sk119",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 4
+  },
+  "sk120": {
+   "id": "sk120",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a lizard-man skeleton with a curved bronze sword",
+   "judge_set": {
+    "hd": "2",
+    "ac": "3",
+    "rebuke_as": "skeleton",
+    "attack_throw": "8"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 9,
+   "hp": 0,
+   "hp_start": 6
   }
  },
  "groups": {
@@ -6990,14 +7442,20 @@
     "sk111",
     "sk112",
     "sk113",
-    "sk114"
+    "sk114",
+    "sk115",
+    "sk116",
+    "sk117",
+    "sk118",
+    "sk119",
+    "sk120"
    ],
    "morale": {
     "state": "steady",
     "rolls": [],
     "triggered": false
    },
-   "start_count": 114,
+   "start_count": 120,
    "felled_rounds": [
     3,
     3,
@@ -7025,7 +7483,33 @@
     4,
     4,
     4,
-    4
+    4,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
    ]
   }
  },
