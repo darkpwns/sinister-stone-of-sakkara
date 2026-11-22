@@ -165,8 +165,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
   (Mentenus; a court's verdict would settle it and another would be given); **Mentenus's note to "Vasan Tikala"
   (meeting day 333 midnight at the Nicean outlet; target: Iulia)**; Vestus' Tower interview (day 339, before the
   Provost himself); Caeso Lentulus (Friendly; trailed a Family man into the sewers); the explorer search (day 331).
-- Selling day 331 (month 12): the vault's goods; L296 Helm of Comprehension (25,000) and L297 Short Sword +2, Command
-  (21,000) identified and unused; L295 unidentified; Liber 80% for elven relics; the barge (Tertulla to 335).
+- Selling day 331 (month 12): the vault's goods; L296 Helm of Comprehension (25,000) identified and unused (sale XP if sold
+  unused); L297 Short Sword +2, Command claimed and used by Vettius (day 330); L295 unidentified; Liber 80% for elven relics; the barge (Tertulla to 335).
 - Scheduled: 331 selling day and the month-12 searches; 333 Mentenus's meeting; 335 Tertulla; 338 Caeso up; 339
   Vestus' interview; 340-353 wages; 360 month 12 ends (fees, investments, Iulia's rolls; investment 1 Protector to
   month 16).

@@ -40,6 +40,9 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   cross Neris' holy circle); the troglodytes who use the galleries; the hunters of the sewer tunnel.
 
 - S17 (day 323): before the Provost: find where the rat-men went from their shrine (they fled north by the secret door in the north-west room, the night we raided it). Saturnin tracks; Vettius scouts ahead and takes every backstab a fight offers; a proper tracker sought from day 331.
+- S17 (day 330): Marcan's sword stays with us: Vettius carries it (+2; three times a day a word that a living man
+  who understands it must obey: "Freeze" and he is helpless for the knife). The helm and the tomb's goods go to the
+  selling day (331).
 
 ## Map notes
 

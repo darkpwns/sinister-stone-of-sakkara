@@ -144,7 +144,10 @@ Silk Pony for the Solar Citadel.
   from a doorway two streets from the Chapterhouse. Nobody came. The Patriarch's ambush at the old shrine was called
   off; there was nothing left there to ambush.
 - Day 330, the month's end. Lucilla's two caravans came in under the eye of powerful friends on the road; the
-  Guildhouse took its storage fee from everyone's balance.
+  Guildhouse took its storage fee from everyone's balance. That afternoon the table settled the king's sword: Rosa
+  wanted it sold ("two thousand apiece in experience!"); Tomasz wanted it in Vettius' hand; Ingrid: "Every enemy
+  we have left is a man who would understand it." Gideon: "Vettius carries it." Doarë opened the vault and Vettius
+  hung the old sword at his belt.
 
 ## Who they met
 - Brother Oppius, curate of Türas (Temple of Justice): took the Captain's request. Prelate Ezelus: heard the deed

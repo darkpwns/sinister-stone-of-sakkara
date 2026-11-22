@@ -11,7 +11,7 @@ public:
     year: ''
     season: winter
     day: 330
-  time: '15:53'
+  time: '16:53'
   weather: Brisk (61 to 65 F) by day, Brisk (61 to 65 F) at night; drizzle; wind moderate (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -34,7 +34,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.341
+    encumbrance_st: 9.507
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -122,7 +122,13 @@ public:
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
   rations: 'Lucilla: food 0 d, water 1 d; Vettius: food 0 d, water 1 d; Vestus the Unlikely: food 0 d, water 1.8 d; Neris: food 0 d, water 1.2 d; Iulia: food 0 d, water 0.4 d; Varro: food 0 d, water 1 d; Hrodvar: food 0 d, water 1 d; Brennus: food 0 d, water 0.8 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Saturnin: food 0 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
-  threads: []
+  threads:
+  - Selling day, day 331 (month 12): the king's tomb goods and the helm in the Grey Sisters' vault
+  - The Patriarch wants proof from the Provost's own study at the Tower of Knowledge
+  - Vestus' interview at the Tower of Knowledge, day 339
+  - The Order of the Eclipse waits on the company's initiation (the Provost)
+  - A woodsman to hire when the new month opens (day 331)
+  - The black barge at Tertulla's landing, paid to day 335
   trail:
   - '26.18'
   - '26.17'

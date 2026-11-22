@@ -67290,6 +67290,141 @@
    ],
    "cmd": "inv give",
    "n": 3217
+  },
+  {
+   "op": "claim",
+   "cause": "divided by agreement: Marcan's sword of command to Vettius, day 330",
+   "day": 330,
+   "time": "day 330 16:53",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "#w66",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "lot": "L297",
+   "cmd": "inv claim",
+   "new_instances": [
+    {
+     "id": "w66",
+     "key": "short sword",
+     "row": "Short Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 3,
+     "type": "Small Melee",
+     "size": "Small",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": "L297",
+     "cause": "divided by agreement: Marcan's sword of command to Vettius, day 330",
+     "magic": {
+      "value": 2,
+      "source": {
+       "lot": true,
+       "note": "ACKS II Rules/Magic Items/Swords/Short Sword +2, Command.md",
+       "name": "Short Sword +2, Command"
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": true,
+      "source": {
+       "rule": "weapon.magic_extraordinary",
+       "from": "magic"
+      }
+     },
+     "player": {
+      "desc": "Short Sword +2, Command",
+      "known": [
+       "identity",
+       "general method of use"
+      ],
+      "identified": true
+     }
+    }
+   ],
+   "n": 3218
+  },
+  {
+   "op": "wield",
+   "cause": "Short Sword +2 taken in hand",
+   "day": 330,
+   "time": "day 330 16:53",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "#w66",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "vettius",
+     "item": "#w66",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w66",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 3219
+  },
+  {
+   "op": "move",
+   "cause": "the old Sword +1 to the belt, day 330",
+   "day": 330,
+   "time": "day 330 16:53",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "#w52",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "vettius",
+     "item": "#w52",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 3220
   }
  ],
  "holdings": {
@@ -67352,12 +67487,15 @@
     "holy symbol": 1,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    },
+   "belt": {
+    "#w52": 1
+   },
    "back": {
     "pole, wooden": 1,
     "rations, iron (one week)": 1
    },
    "right_hand": {
-    "#w52": 1
+    "#w66": 1
    }
   },
   "turos-tem-inn": {
@@ -72157,6 +72295,69 @@
       "row": 4
      }
     }
+   }
+  },
+  "w66": {
+   "id": "w66",
+   "key": "short sword",
+   "row": "Short Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 3,
+   "type": "Small Melee",
+   "size": "Small",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": "L297",
+   "cause": "divided by agreement: Marcan's sword of command to Vettius, day 330",
+   "magic": {
+    "value": 2,
+    "source": {
+     "lot": true,
+     "note": "ACKS II Rules/Magic Items/Swords/Short Sword +2, Command.md",
+     "name": "Short Sword +2, Command"
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": true,
+    "source": {
+     "rule": "weapon.magic_extraordinary",
+     "from": "magic"
+    }
+   },
+   "player": {
+    "desc": "Short Sword +2, Command",
+    "known": [
+     "identity",
+     "general method of use"
+    ],
+    "identified": true
    }
   }
  },

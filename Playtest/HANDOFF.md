@@ -678,3 +678,47 @@ left a note for "Vasan Tikala" (sludge mold): meeting at the Nicean outlet, midn
 company can learn of it at the Emporium wine stalls (Lucilla asked there in S16) or by Rumormongering (day 331).
 **Next:** the selling day (331), the explorer search (331), the Vasan note, Basement 2, Vestus' interview (339).
 
+## S18 plan — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: source `Playtest/tools/s10_j.sh`,
+`s11_mend.sh`, `s13_j.sh`, `s12_town.sh`, then set `PARTY="lucilla vettius vestus-the-unlikely neris brennus iulia
+phaedra varro hrodvar aelia marcellus saturnin"` (Gnaeus is gone). Session 17 log: `Session Log/S17 — The ledger.md`
+(days 316-330).
+
+**State on resume:** day 330 ~17:00, winter, Cyfaraun (18.05), the Solar Citadel barracks (free). No adventure open
+(A48 paid out). Location Cyfaraun (settlement, wandering none). Night of day 330 first (`eat --in-town`, `wait`),
+then `dawn 331`. Twelve: Lucilla Ven7, Vettius Thf7 (now wields Marcan's Short Sword +2, Command, L297, used),
+Iulia Cru6 (Captain; spear, shield, the Rod), Vestus M6, Neris Pr6, Brennus F6; henchmen Phaedra M5, Varro F5,
+Hrodvar VG5, Marcellus F5, Aelia B5 (400gp a month each), Saturnin 0th (Tracking 1, 12gp). All whole. The six PCs
+are acolytes of the Order of the Eclipse.
+
+**Days 331 on (the table's open business, by the profiles):**
+1. **Selling day (331, month 12):** the vault's goods (Marcan's tomb: crown, collar, fan, sandals, gold sarcophagus,
+   throne, chariot, shields, canopic shrine, jars, the guards' four bronze sarcophagi; earlier: the basin treasure,
+   the mask, the grave goods, G14's crown, box, gems, jars, throne, chariot and coffin; the den's gems, jewellery and
+   cask; the silver rat figurine L319), L296 Helm of Comprehension (identified, unused: sale XP), L295 Marcan's scale
+   (unidentified: identify first, Arëtar or the Tower). Elven relics through Liber at 80% (`sell --discount 20`);
+   Cyfaraun is Class II for party purchases (`--market-class 2`); hiring uses the market note's Class III.
+2. **A woodsman:** month 12 reopens the hiring searches: `recruit --class Explorer --level 4` (down to 1) for
+   Lucilla or Vettius (both may hire 4th level); use `hire --publish-to Characters/<id>.json`.
+3. **The "Vasan Tikala" note (Judge-only):** Mentenus left it on day 330 at the Emporium's Nicean wine stalls
+   ("sludge mold"; meeting at the Nicean outlet, midnight day 333; the work: the Captain of the Underwatch). The
+   company learns of it only by asking at the stalls (Lucilla asked for Vasan there in S16) or through Lucilla's
+   month-12 Rumormongering. Destrio wants to know of anyone seeking the Brotherhood. Kwame's masquerade (the den's
+   disguises, the passwords) fits here.
+4. **Arëtar's proof:** the Provost's ciphered journals or the "rat lycanthropy" vials in Tower Basement 2 (wizard
+   locked 9th; the sewer gate 10 wizard locked 10th; magic mouth at 9). A sanctioned mission (1d4 knights). Vestus'
+   Tower interview is day 339 (before the Provost and the Regent; admission 12+ on 2d6 +6). A court's verdict on
+   Mentenus settles the Order's initiation (another would be given).
+5. **Scheduled:** 335 Tertulla's mooring; 338 Caeso Lentulus out of bed (Friendly Watch subaltern); 339 Vestus'
+   interview; 340 Phaedra's wage, 347 Varro and Hrodvar, 352 Saturnin, 353 Aelia and Marcellus and the vault fee;
+   each week the Brotherhood roll (1-in-6); 360 month 12 ends (Guildhouse fees from member balances, investments 1
+   and 3, Iulia's month-end rolls and her monthly report to Arëtar).
+
+**Routine (S17 lessons):** after every return `location --clear` and `location --kind settlement --site Cyfaraun
+--wandering none` before any `wait`; spells reset with `dawn N`; `encounter surprise` always with `--party` and
+`--monsters`; Vettius plays the thief: hide, rear, `attack vettius T --ambush --extra-dice "backstab:2d6"` on every
+vulnerable target (cowering, surprised, helpless, prone, slumbering, paralyzed, or from the rear); his command word
+("Freeze") makes a living target helpless for a coup de grace; the Rod's +4 lasts one turn (10 rounds); `rebuke
+--target` for undead not yet rebuked; rest when a turn says "rest due in N rounds"; relight a burnt-out lantern
+with `light on lanternN`; thrown oil and holy water by an open roll and `damage` (no engine path).
+
