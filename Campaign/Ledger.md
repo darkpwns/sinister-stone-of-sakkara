@@ -2609,3 +2609,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 364 |  | treasure share |  | 111gp 1sp 1cp |  | aelia |
 | 364 |  | treasure share |  | 111gp 1sp 1cp |  | marcellus |
 | 364 |  | treasure share |  | 111gp 1sp 1cp |  | cotta |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 |  | treasure share |  |  |  |  |
+| 367 | a caster in Cyfaraun | spellcasting: Repair Disfigurement and Disability |  |  | 185gp | neris |
