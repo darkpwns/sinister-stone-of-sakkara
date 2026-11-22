@@ -105,11 +105,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Former henchman free in Türos Tem, may be rehired: Vestus M1 (employer Marcia dead).
 - Karanos' bank (karanos-bank, 13,732gp): Sabina 2,242, Tarq 2,200, Lucilla 2,030, Vettius 2,244, Hesper 1,773; estates of Gallus 1,119, Thorwell 1,062, Thorcigar 1,062 (no wills; a relative may collect once).
 
+## Offices
+- Iulia, Captain of the Underwatch (from day 296): monthly report to Arëtar due by day 330 (then each month); month-end 1d6 for a mission (1) and 1-in-6 for Mentenus' notice; Citadel lodging free; oculus for her companions; +2 Watch/Guard reactions with the badge; +1 Lawful temples; -1 Prelate Romus (Rulings S14).
+
 ## Faction standing
 
 ## Scheduled events
 - Day 309 (and weekly): the white fish's Spells save against Neris' Bewitch Beast (8 HD: weekly; hidden). Broken: hostile only if maltreated; fed and used kindly it may stay Neutral or Friendly (RR p. 197). It shadows no one while charmed.
-- Wages: Phaedra to 309, Varro and Hrodvar to 316, Aelia and Marcellus to 323, Gnaeus to 330; vault fee to 323; stalls to 316. Month 11 ends day 330 (investments 1 and 3 vagaries). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
+- Wages: Phaedra to 309, Varro and Hrodvar to 316, Aelia and Marcellus to 323, Gnaeus to 330; vault fee to 323; stalls to 316. Month 11 ends day 330 (investments 1 and 3 vagaries; Iulia's month-end Underwatch rolls; her first report to Arëtar due by then). Earlier: Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
