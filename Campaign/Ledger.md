@@ -147,6 +147,18 @@ tags:
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | a bundle of mink furs | 500 | neris |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Dagger +1 | 10 | varro |
 | 308 | Nethercity, expedition 33 (the black barge) | SOTN Funerary Barge of the Cults | 2,000 | stored |
+| 309 | Nethercity, expedition 34 (the bronze guards) | jewelry worth 8000.0gp | 8,000 | lucilla |
+| 309 | Nethercity, expedition 34 (the bronze guards) | a gold jewel box | 425 | lucilla |
+| 309 | Nethercity, expedition 34 (the bronze guards) | gem worth 1000.0gp | 1,000 | lucilla |
+| 309 | Nethercity, expedition 34 (the bronze guards) | gem worth 1000.0gp | 1,000 | lucilla |
+| 309 | Nethercity, expedition 34 (the bronze guards) | gem worth 1000.0gp | 1,000 | lucilla |
+| 309 | Nethercity, expedition 34 (the bronze guards) | 1,000 gold pieces | 1,000 | vettius |
+| 309 | Nethercity, expedition 34 (the bronze guards) | 1,000 gold pieces | 1,000 | brennus |
+| 309 | Nethercity, expedition 34 (the bronze guards) | 1,000 gold pieces | 1,000 | varro |
+| 309 | Nethercity, expedition 34 (the bronze guards) | 1,000 gold pieces | 1,000 | gnaeus |
+| 309 | Nethercity, expedition 34 (the bronze guards) | 4 terracotta canopic jars | 100 | neris |
+| 309 | Nethercity, expedition 34 (the bronze guards) | an ebony throne inlaid with ivory and gold leaf (two bearers) | 2,000 | hrodvar |
+| 309 | Nethercity, expedition 34 (the bronze guards) | the gilded cedar and ivory parts of a dismantled light chariot (two bearers) | 1,500 | marcellus |
 
 ## Monster XP
 
@@ -195,6 +207,9 @@ tags:
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Wererat | 1 | 65 | 65 |
 | 306 | Old District Undercity: the Horned Rat (Underwatch mission) | Giant Rat | 11 | 5 | 55 |
 | 308 | Nethercity, expedition 33 (the black barge) | Skeleton | 8 | 13 | 104 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Shadow | 2 | 71 | 142 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Jackal of Darkness (SOTN) | 4 | 135 | 540 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Abyssal King (SOTN) | 1 | 2,600 | 2,600 |
 
 ## Shares and XP awarded
 
@@ -423,6 +438,18 @@ tags:
 | 308 | Nethercity, expedition 33 (the black barge) | Aelia | 0.5 | 111 | 6 | 0 | +0% | 117 |
 | 308 | Nethercity, expedition 33 (the black barge) | Marcellus | 0.5 | 111 | 6 | 0 | +0% | 117 |
 | 308 | Nethercity, expedition 33 (the black barge) | Gnaeus | 0.5 | 111 | 6 | 0 | +0% | 117 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Lucilla | 1 | 2,114 | 365 | 0 | +10% | 2,727 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Vettius | 1 | 2,114 | 365 | 0 | +5% | 2,603 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Iulia | 1 | 2,114 | 365 | 0 | +5% | 2,603 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Vestus the Unlikely | 1 | 2,114 | 365 | 0 | +5% | 2,603 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Neris | 1 | 2,114 | 365 | 0 | +0% | 2,479 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Brennus | 1 | 2,114 | 365 | 0 | +5% | 2,603 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Phaedra | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Varro | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Hrodvar | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Aelia | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Marcellus | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
+| 309 | Nethercity, expedition 34 (the bronze guards) | Gnaeus | 0.5 | 1,057 | 182 | 0 | +0% | 1,239 |
 
 ## Wages
 
@@ -1800,3 +1827,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 308 |  | treasure share |  |  |  |  |
 | 308 |  | treasure share |  |  |  |  |
 | 308 | Silk Pony Inn (#25) | beds for twelve, night of day 308 |  |  | 2gp 4sp | vettius |
+| 309 | the retinue | wages paid |  |  | 40gp | vettius |
+| 309 | Cyfaraun livestock market | a sheep, slaughtered and halved for the white fish, dawn of day 309 |  |  | 2gp | varro |
+| 309 |  | treasure share |  | 444gp 4sp 4cp |  | lucilla |
+| 309 |  | treasure share |  | 444gp 4sp 4cp |  | vettius |
+| 309 |  | treasure share |  | 444gp 4sp 4cp |  | iulia |
+| 309 |  | treasure share |  | 444gp 4sp 4cp |  | vestus-the-unlikely |
+| 309 |  | treasure share |  | 444gp 4sp 4cp |  | neris |
+| 309 |  | treasure share |  | 444gp 4sp 4cp |  | brennus |
+| 309 |  | treasure share |  | 222gp 2sp 2cp |  | phaedra |
+| 309 |  | treasure share |  | 222gp 2sp 2cp |  | varro |
+| 309 |  | treasure share |  | 222gp 2sp 2cp |  | hrodvar |
+| 309 |  | treasure share |  | 222gp 2sp 2cp |  | aelia |
+| 309 |  | treasure share |  | 222gp 2sp 2cp |  | marcellus |
+| 309 |  | treasure share |  | 222gp 2sp 2cp |  | gnaeus |
+| 309 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 8sp | vettius |
+| 309 | Cyfaraun | Holy Water (1 pint) | 4 |  | 100gp | marcellus |

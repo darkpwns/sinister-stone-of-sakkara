@@ -6,7 +6,7 @@
 "name": "Marcellus",
 "class": "Fighter",
 "level": 4,
-"xp": 14948,
+"xp": 16187,
 "occupation": "",
 "alignment": "Lawful",
 "birthplace": "",
@@ -14,7 +14,7 @@
 "gender": "",
 "size": "man-sized",
 "xp_bonus": "",
-"hp_max": 20,
+"hp_max": 16,
 "attributes": {"STR":9,"INT":11,"WIL":9,"DEX":12,"CON":14,"CHA":15},
 "initiative": 0,
 "surprise": 0,
@@ -32,6 +32,7 @@
 "items": [{"type":"proficiency","name":"Fighting Style Specialization","list":"class"},{"type":"proficiency","name":"Endurance","list":"general"},{"type":"proficiency","name":"Blind Fighting","list":"class"}],
 "modifiers": [],
 "possessions": {"gems":""},
-"state": {"hp":20,"conditions":[],"spells_used":[]},
-"judge": {"loyalty":2,"morale":null,"notes":"class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note); morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known; equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge","retinue_id":"marcellus"}
+"state": {"hp":16,"conditions":["enervated (shadow, day 309): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it"],"spells_used":[]},
+"judge": {"loyalty":2,"morale":null,"notes":"class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note); morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known; equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge","retinue_id":"marcellus"},
+"changes": [{"field":"state.conditions","from":[],"to":["sludge miasma (-1 to attack throws and damage)"],"cause":"failed the sludge miasma save (SOTN, Nethercity Features)"},{"field":"state.conditions","from":["sludge miasma (-1 to attack throws and damage)"],"to":[],"cause":"a turn's rest away from the sludge"},{"field":"hp_max","from":20,"to":16,"cause":"a shadow's enervating touch (4), day 309"},{"field":"state.conditions","from":[],"to":["enervated (shadow, day 309): Death save each day on waking; a failure lowers max hp by 1; three passes in a row end it"],"cause":"a shadow's touch in the temple halls"},{"field":"state.hp","from":20,"to":16,"cause":"shadow's touch"},{"field":"xp","from":14948,"to":16187,"cause":"payout of Nethercity, expedition 34 (the bronze guards) (day 309)"}]
 }
