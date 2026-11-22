@@ -11,7 +11,7 @@ public:
     year: ''
     season: fall
     day: 268
-  time: 08:59
+  time: '10:23'
   weather: Brisk (56 to 60 F) by day, Brisk (56 to 60 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -30,11 +30,11 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 19
+    hp: 10
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 9.492
+    encumbrance_st: 9.326
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -44,6 +44,8 @@ public:
     spells_used:
     - Ogre Strength
     - Fan of Flames
+    - Ogre Strength
+    - Mage Missile
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -54,11 +56,15 @@ public:
     spells_used:
     - Augury
     - Holy Blessing
+    - Holy Blessing
+    - Cure Light Injury
+    - Cure Disease
+    - Cure Disease
     encumbrance_st: 3.504
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 28
+    hp: 15
     hp_max: 28
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -74,7 +80,11 @@ public:
     - minor scarring (puncture wound)
     spells_used:
     - Righteous Wrath
-    encumbrance_st: 9.679
+    - Righteous Wrath
+    - Striking
+    - Cure Light Injury
+    - Cure Light Injury
+    encumbrance_st: 10.846
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -86,7 +96,7 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 22
+    hp: 21
     hp_max: 22
     conditions: []
     spells_used: []
@@ -113,18 +123,21 @@ public:
     hp: 11
     hp_max: 11
     conditions: []
-    spells_used: []
-    encumbrance_st: 7.012
+    spells_used:
+    - Fan of Flames
+    encumbrance_st: 6.846
   - name: Gnaeus
     sheet: Characters/gnaeus.json
     role: henchman
-    hp: 10
+    hp: 1
     hp_max: 10
-    conditions: []
+    conditions:
+    - 'a puncture wound to the throat: mute, breathing through a hole (cannot speak, cast spells or use magic items involving speech; -4 to reactions) (Mortal Wounds, day 268)'
+    - bed rest 1 month (Mortal Wounds, day 268; incapacitated, max 1 hp)
     spells_used: []
     encumbrance_st: 8.512
-  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 11 turns 5 rounds left
-  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 6 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 3 turns 1 round left; torch (Phaedra) 3 turns 1 round left
+  rations: 'Lucilla: food 7 d, water 1 d; Vettius: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1 d; Neris: food 7 d, water 1 d; Iulia: food 7 d, water 1.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 1 d; Aelia: food 0 d, water 1 d; Marcellus: food 0 d, water 1 d; Phaedra: food 7 d, water 1 d; Gnaeus: food 6 d, water 1 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:

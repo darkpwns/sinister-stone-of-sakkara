@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 268,
-  "round_of_day": 539,
-  "total_rounds": 384539
+  "round_of_day": 623,
+  "total_rounds": 384623
  },
  "party": {
   "lucilla": {
@@ -31,7 +31,7 @@
    "perceived": "Vestus the Unlikely",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 5.003333333333333
+   "treasure_stone": 2.8366666666666664
   },
   "neris": {
    "id": "neris",
@@ -40,7 +40,7 @@
    "perceived": "Neris",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 2.5
+   "treasure_stone": 2.2
   },
   "iulia": {
    "id": "iulia",
@@ -49,7 +49,7 @@
    "perceived": "Iulia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.0
+   "treasure_stone": 0.16666666666666666
   },
   "varro": {
    "id": "varro",
@@ -85,7 +85,7 @@
    "perceived": "Aelia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 2.0
+   "treasure_stone": 0.6666666666666666
   },
   "marcellus": {
    "id": "marcellus",
@@ -103,7 +103,7 @@
    "perceived": "Phaedra",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 1.6666666666666667
+   "treasure_stone": 1.1666666666666667
   },
   "gnaeus": {
    "id": "gnaeus",
@@ -1148,7 +1148,7 @@
    "carrier": "vettius",
    "lit": true,
    "closed": false,
-   "rounds_left": 115,
+   "rounds_left": 31,
    "tallow": false
   },
   {
@@ -1159,36 +1159,45 @@
    "closed": false,
    "rounds_left": 0,
    "tallow": false
+  },
+  {
+   "id": "torch151",
+   "kind": "torch",
+   "carrier": "phaedra",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 31,
+   "tallow": false
   }
  ],
  "timers": [
   {
-   "id": "t51",
-   "label": "Holy Blessing (Neris), H6",
-   "rounds_left": 55,
+   "id": "t54",
+   "label": "Holy Blessing (Neris), H11",
+   "rounds_left": 31,
    "hidden": false,
    "source": null,
-   "started": "day 268 08:54"
+   "started": "day 268 09:54"
   },
   {
-   "id": "t52",
-   "label": "Righteous Wrath on Varro (Iulia)",
-   "rounds_left": 5,
+   "id": "t56",
+   "label": "Striking on Brennus' great axe (Iulia)",
+   "rounds_left": 1,
    "hidden": false,
    "source": null,
-   "started": "day 268 08:54"
+   "started": "day 268 09:54"
   },
   {
-   "id": "t53",
-   "label": "Ogre Strength on Varro (Vestus)",
-   "rounds_left": 25,
+   "id": "t57",
+   "label": "Ogre Strength on Varro (Vestus), H21",
+   "rounds_left": 1,
    "hidden": false,
    "source": null,
-   "started": "day 268 08:54"
+   "started": "day 268 09:54"
   }
  ],
  "rest": {
-  "rounds_since_rest": 5,
+  "rounds_since_rest": 15,
   "rest_rounds": 0,
   "winded": []
  },
@@ -1196,7 +1205,7 @@
   "site": "Nethercity (sewer caves)",
   "kind": "dungeon",
   "level": 4,
-  "room": "H3b",
+  "room": "H11",
   "wandering": {
    "none": false,
    "die": "1d6",
@@ -1212,30 +1221,12 @@
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 268 08:50",
-   "roll": 1,
+   "at": "day 268 10:20",
+   "roll": 4,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 263 10:30",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 263 11:00",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 265 06:50",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 265 07:20",
     "roll": 6,
@@ -1337,13 +1328,31 @@
     "roll": 1,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 268 09:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 268 09:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 268 10:20",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 384530
+  "turn_start_done": 384620
  },
  "turn_actions": {
-  "turn": 38453,
+  "turn": 38462,
   "listened": [],
   "actions": []
  },
@@ -2446,8 +2455,8 @@
    "rest_rounds": 40
   },
   "268": {
-   "delve_rounds": 105,
-   "rest_rounds": 20
+   "delve_rounds": 169,
+   "rest_rounds": 40
   }
  },
  "events": [
@@ -4653,9 +4662,9 @@
   }
  ],
  "next_ids": {
-  "enc": 195,
-  "torch": 150,
-  "t": 53,
+  "enc": 196,
+  "torch": 151,
+  "t": 58,
   "lantern": 5
  },
  "travel": {
@@ -5528,7 +5537,7 @@
     "rest_pending": true
    },
    "vettius": {
-    "hp": 19,
+    "hp": 10,
     "hp_max": 19,
     "con": 15,
     "con_mod": 1,
@@ -6835,7 +6844,7 @@
     }
    },
    "brennus": {
-    "hp": 28,
+    "hp": 15,
     "hp_max": 28,
     "con": 12,
     "con_mod": 0,
@@ -7207,7 +7216,7 @@
     "rest_pending": true
    },
    "varro": {
-    "hp": 22,
+    "hp": 21,
     "hp_max": 22,
     "con": 10,
     "con_mod": 0,
@@ -7657,7 +7666,7 @@
     "passenger": false
    },
    "gnaeus": {
-    "hp": 10,
+    "hp": 1,
     "hp_max": 10,
     "con": 11,
     "con_mod": 0,
@@ -7718,7 +7727,7 @@
     "strenuous_run": 1,
     "forced_run": 0,
     "sleep_due": null,
-    "bed_rest": 0,
+    "bed_rest": 30,
     "protective": null,
     "wet": false,
     "native": null,
@@ -59994,14 +60003,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc176",
-   "at": "day 242 08:02",
-   "monster_name": "Mummy",
-   "number": 1,
-   "reaction": null,
-   "status": "begun"
-  },
-  {
    "id": "enc177",
    "at": "day 242 08:30",
    "monster_name": "Insect Swarm",
@@ -60148,6 +60149,14 @@
   {
    "id": "enc195",
    "at": "day 268 08:58",
+   "monster_name": "Mummy",
+   "number": 1,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc196",
+   "at": "day 268 10:12",
    "monster_name": "Mummy",
    "number": 1,
    "reaction": null,
