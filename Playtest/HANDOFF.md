@@ -573,3 +573,57 @@ Rulings S16: 4 rows. Engine findings: judge-notes S16.
 0.25% a month posted for months 8-10 (next day 330); henchmen's wages raised to the RR table with 2,100gp back pay
 (raise the wage at every henchman level-up: `retinue set ID wage_gp=N`); over-limit henchmen stay until SOTN is
 done. All in Rulings S16.
+
+## S17 plan (user, 2026-11-22) — read with the S16 section and the S16 after-play rulings above
+**State on resume:** day 316 04:32, winter, Cyfaraun (18.05), town. No adventure open (A43 paid out). Start S17 (new
+log in `Session Log/`). Play one week: days 316-323. Party decisions by `Party/profiles` and `Party/heuristics.md`, no
+party-agent calls; small checkpoint updates to the user at each milestone (descent, key fight, return, town day).
+
+**1. Lodging: leave the Silk Pony.** Iulia, as Captain of the Underwatch, may lodge and feed herself and up to eleven
+companions at the Solar Citadel (Citadel Guard barracks) free on any night in Cyfaraun (Rulings S14). Move the company
+there on day 316: no more inn payments (the `innnight` helper and the 2gp4sp a night stop; keep `eat --in-town` and
+`wait` over the night). Also: Selene, who owns the Silk Pony, is a Brotherhood patron in the ledger ("ruby lips").
+Loose ends: the Silk Pony strongbox (spare gear: chain mail, great axe, mace, shield, lanterns, grappling hook...;
+move it to the Citadel or the Grey Sisters' vault, `inv give silk-pony-strongbox <holder> ...`); the mule, two donkeys
+and the cart in the Silk Pony stalls (paid to day 332; move them or leave them to then: Judge's call whether the
+Citadel stables take them); L238 (grave goods) stored in the strongbox (`recover --give L238 --store
+grey-sisters-vault`). Neris and the enervated still sleep under the oculus (free for the Captain's companions).
+
+**2. Use what they learned from the doppelgangers.** The party holds the Assassins' Ledger (sealed in the Grey
+Sisters' vault; Arëtar has the Mentenus entries only). It names patrons and passwords: Liber Faunus ("morning dew":
+Huranos, Ashera, Vason, Bodilkas), Provost Mentenus ("sludge mold": Gundus, Fionntan, Tomman), Selene of the Silk Pony
+("ruby lips": Olyma, Riara). Nobody outside the company knows the Brotherhood is dead. The table decides; options the
+module gives or allows (AX3 Old District "Value of information" and Hooks; `Adventure/AX3/City/Organizations of
+Cyfaraun.md`):
+- Rewards for evidence of the victims' fates: City Watch HQ (Gundus 40gp), Merchant Guildhouse (Huranos, Ashera,
+  Vason 120gp), Temple of the Hearth Fire (Riara 40gp), Hall of Travelers (Bodilkas 40gp). The noble survivors went
+  home on day 313 (rewards paid by the houses).
+- The ledger to Prelate Ezelus of the Temple of Justice (#61): with Iulia and Neris vouching, he puts them in touch
+  with the Order of the Eclipse (Destrio, Eclipse Hideout #69u; Calefa's sanctioned deathbringers, who hunt the
+  Brotherhood); otherwise 1,500gp and an oath of secrecy.
+- Leverage: Liber and Selene ordered murders; each would pay or kill to keep it hidden (Liber is the company's fence;
+  Iulia's office: Liber stays Friendly while she does not act against the Family's smuggling, Rulings S14; murder is
+  not smuggling). Posing as the Brotherhood (the passwords; the den; doppelgangers' disguise kit in room 2) to learn
+  new contracts or draw a patron out. Mentenus's entries strengthen Arëtar's case against the Provost.
+- **Check first:** Rulings S14 ("standing with factions") lists the Order of the Eclipse among the Chaotic cults
+  hostile to the Captain; AX3 makes it Calefa's sect of sanctioned killers (Empyrean, hunts the Brotherhood). Correct
+  that row (a ruling for the user if it matters) before the ledger reaches Ezelus.
+- Den leftovers: room 5 (the founders' bodies under a beetle swarm, behind a secret door off the NW sewer tunnel),
+  the SW oil trap (armed), the disguise clothing in room 2.
+
+**3. Other threads (table's choice; the week is open):** Marcan's tomb (Q) under Ingrid's conditions; F -> T (the
+Great Teacher, the module's centre; F14's hidden stair); Terkinos's pack and Mentenus (gone from the Shrine; the
+full moon day 328); the black barge at Tertulla's landing (mooring paid to day 321: pay on or before 321, or move or
+sell it); the selling day (day 331, outside this week).
+
+**4. The white fish:** charmed; its weekly save falls on **day 323** (hidden; F4 15+). The canoes are hidden at P5.
+On any beach visit bring a sheep and Neris' Bewitch Beast (the party knows it may break).
+
+**5. Scheduled this week:** day 321 Tertulla's mooring; day 323 the fish's save, Aelia (400gp) and Marcellus
+(200gp) wages, the Grey Sisters' vault fee (10gp a month). Wages are now the RR table (Rulings S16): raise a
+henchman's wage at once on a level-up (`retinue set ID wage_gp=N`).
+
+**Routine (S15-S16 slips):** set `PARTY` after sourcing `s10_j.sh`; a rest counter carries over nights in town
+(rest at the first turn below if it says rest due); identify a generic magic weapon before saving if an identified one
+of the same name is on a sheet (snapshot collision); unsettling checks every 2 hours below; `adventure join` with
+`--kind henchman` for henchmen; never `location --site` mid-delve; `Playtest/tools/s15_ledger.py` for payout rows.
