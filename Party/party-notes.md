@@ -229,3 +229,12 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   south 20' and a steep slope down about 20' to an oval cave 30' x 20' with prayers carved in the old elven script. A
   5' hole in its floor: a 10' shaft, then about 20' of air to a wide stretch of the river (about 50' across) with a
   carved tree-pillar. Upstream of the beach, by the sound and the slope. No bank there either.
+- S13 (days 274-290). The canoes: four hide-and-frame canoes, carried down in bundles and lashed up on the beach by
+  Hrodvar; three to a canoe. Upriver from the beach: the carved tree under the meditation well, then a 20' cave mouth
+  on the west bank with a tunnel to a warm cavern (now empty). A huge chalk-white fish lives in the river: it came up
+  under a canoe once and we drove it off; it follows below. Lessons: (13) keep the canoes close together so three can
+  close on anything that rises; (14) a wall that sweats in a warm cave is alive: the first flask showed it; burn it
+  from the doorway and give ground down the passage, the heaviest armour holding the front; (15) torches thrown
+  burn too when the flasks run out; (16) a thunderbolt is loud: it brought a mummy within minutes. The white diamond
+  is in our chest in the Grey Sisters' vault until a selling day.
+

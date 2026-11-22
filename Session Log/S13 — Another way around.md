@@ -64,10 +64,26 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
 - Days 283-287, in town, healing. On day 287 the Tower returned the pink cloak, named: a cloak of skinchanging that turns
   its wearer into a swan. Sold unused through Liber (30,400gp, eight parts in ten), shared among those who brought it
   out of the princess's tomb. More military oil bought; everyone's loads checked.
+- Day 288, twenty-sixth descent, for the white diamond, with twenty-six flasks. Eight Horned Rat tappers in the
+  avenue tunnel were indifferent and went on tapping; the company waited until they had gone before the hole. The
+  canoes down again; on the river nothing rose. Hrodvar held the canoes at the cave mouth.
+- Neris blessed the company in the tunnel. From the steps below the arch Brennus threw the first flask at the
+  glistening wall, and the wall came off the stone: a black, flowing mass that filled the cavern and came down the
+  steps after them. The line gave ground down the passage, throwing as it went; Iulia in her plate held the front,
+  shield up, while the acid ate at her; Brennus took one blow and Neris' cure. When the flasks ran out they threw
+  lit torches, Vestus made the burning oil on it spit sparks, and Phaedra's last flask finished it. Iulia was down to
+  her last breath (Neris brought her back up). Aelia could not put a name to the diamond. Vettius took it from the
+  shelf.
+- Back down the river (the pale shape followed below and did not strike), out through the temple, a tremor shaking
+  dust from the ceilings of the central caves, and out by the far grate at a quarter past three. The diamond went
+  into the company's chest in the Grey Sisters' vault.
+- Days 289-290 in town, healing.
 
 ## Who they met
+- Eight Horned Rat wall-tappers in the avenue tunnel (day 288), indifferent.
 
 ## Treasure and XP
+- Day 288 (A31): 25,000 treasure XP (the white diamond, not yet sold) + 2,250 monster XP over 8.5 shares.
 - Day 287: L202 (Cloak of Skinchanging) identified by the Tower, sold through Liber, 30,400gp; sale XP to expedition 22's share-holders.
 - Day 282 (A30): 3,260 monster XP (a flailing spirit, a mummy) over 8.5 shares; no treasure.
 - Day 274 (A29): 1,200 treasure XP + 190 monster XP (one wraith destroyed) over 8.5 shares; amphorae L219-L222 sold through Liber (960gp).
@@ -76,10 +92,30 @@ banks to walk. Four alabaster amphorae wait in the burial cave above the beach.
 ## Rumours given
 
 ## Changes to the world
+- The burial cave above the beach is empty. A black mass that lined the warm cavern up the west-bank tunnel is burned
+  to nothing and its diamond taken. A huge white fish haunts the river between the beach and that cave.
+- The way up the river is known as far as the west-bank cave: the beach, the carved tree under the meditation well,
+  the cave mouth.
 
 ## Next time
+Day 290, 07:14, Cyfaraun, the Silk Pony. Iulia 13/31, everyone else whole. Fire is spent: buy oil before going
+down again. The diamond waits in the vault for month 11's selling day (day 301). Gnaeus is up about day 298.
+Upriver beyond the west-bank cave is unexplored; so is downstream past the beach. Wages: Aelia and Marcellus day 294.
 
 > [!judge]- Judge rolls
 > Campaign/roll-log.jsonl (session 13). Slips, voids, findings and corrections: Playtest/judge-notes.txt (S13 section).
 > Day 273: L202 identification by Lucilla (Magical Engineering) refused (failed earlier at level 6); Aelia's Magical
 > Engineering cannot name a very rare item. Tower deposit 2,000gp (Lucilla), ready day 287.
+> Day 274: rat swarm (A3, late wandering check), 2 giant ant workers (C9), insect swarm (H10a), 2 rat swarms (tunnel):
+> all overawed or intimidated by fire. 2 wraiths (H3c, surprised): wraith1 23 hp rebuked (Rod, 2d6 7) and fled at 12;
+> wraith2 21 hp destroyed (Fans, oil, Brennus 11, Marcellus 5); Brennus enervated 6 (two passes days 275-276). Canoes
+> available 1 on 1d6.
+> Day 282: 2 giant toads overawed; flailing spirit 8 HD 28 hp (H25 sealed-tomb entry) destroyed round 1 (Brennus 10,
+> Thunderbolt 24); thunder's extra check: mummy 22 hp, rebuked (2d6 8), destroyed round 3. Catfish 37 hp to 12 (morale
+> 1, frightened retreat); catfish throw 6 on day 282 11:24 read as circling (Rulings S13). 2 giant crabs overawed.
+> Day 288: Undercity special (13u wererats, 8): reaction 9 Indifferent. Black blob (P8b) 90 hp, AC 5, 1+, 3d8 acid:
+> six rounds by oil, torches, Fans and Burning Sparks; it hit Brennus 13, Iulia 7, 8 and 15 (natural 20); slain at -5.
+> Unsettling event 3 (tremor) day 288 13:06. Catfish throw 6 at 11:14, still hurt: shadowed. Aelia's Loremastery on
+> the egg of the earth 13 vs 15+: not named.
+> NPC: none new (the wererats are the AX3 13u cult).
+

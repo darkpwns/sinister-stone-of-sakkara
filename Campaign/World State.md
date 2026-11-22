@@ -70,6 +70,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Day 274 expedition 24 (A29, eleven): rat swarm (wanderer, A3 07:43, rolled late: see judge-notes) and 2 giant ant workers (wanderers, C9 08:22) overawed by fire. H23 walked, H24 entered (09:26): the well looks down on P7 (no bank under the hole; ~30' to the water). Not yet entered: P7.
 - Day 274 (A29, cont.): P6 amphorae taken (P6 now empty of loot but the sarcophagus). Insect swarm (wanderer, H10a 10:56) intimidated, fled. 2 wraiths (wanderers, H3c 11:56; surprised): wraith2 destroyed (Fan, oil, Brennus, Marcellus); wraith1 (12/23 hp, rebuked by the Rod, fled into the H3 corridor, not destroyed: may return). Brennus enervated (max hp 28 -> 22). 2 rat swarms (wanderers, Undercity tunnel 13:59) overawed. Out 14:30.
 - Day 282 expedition 25 (A30, canoes): 2 giant toads (Undercity 07:00) overawed; flailing spirit 8 HD (wanderer, enters a sealed tomb, H25 09:30) destroyed by Brennus and Vestus' Thunderbolt; the thunder's extra check: a mummy (H25 09:38) rebuked (Rod) and destroyed. River P5-P7-P8a by canoe: the giant catfish (P7-P8a 11:01) driven off at 12/37 hp (frightened retreat; heals); 2 giant crabs (P8a-P5 11:35) overawed. P8a landed; Vettius saw P8b (the egg on its shelf; the pudding not disturbed). P9-P14 not reached.
+- Day 288 expedition 26 (A31): 13u wererats (8, Undercity special, 07:00) Indifferent, passed by. P8b: the huge black pudding (black blob) slain by fire at the arch and passage (6 rounds); the egg of the earth (L223, 25,000gp) taken, unnamed (Aelia's Loremastery failed); P8b is an edifice of elemental earth, now without its egg (earth creatures may manifest: 10% every 1d12 days while unoccupied). Catfish still about (hurt). Out 15:14. L223 in the party's chest at the Grey Sisters' vault (lot carried by Vettius in the engine).
 - D7 door opened (day 187 09:35): the troglodyte hunters in D8 judged the party strong and slipped away home to warn the tribe (Judge's call, D7 key): the tribe is alerted.
 
 ## Events triggered
@@ -99,23 +100,22 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
-- Day 280 Phaedra's wage; 284 stalls paid through; 287 Varro, Hrodvar; 293 the vault fee; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
+- Day 293 the vault fee; wages paid ahead: Phaedra to 309, Varro and Hrodvar to 316; stalls paid through day 300; 294 Aelia, Marcellus; 298 Gnaeus' bed rest ends (month from day 268; the Repair's week runs concurrently); 300 month 10 ends (investment 1 vagary; Brigandage: two months at two-thirds return, months 9-10); 301 Gnaeus' wage; month 11 selling day 301.
 - Day 287 (done): L202 named by the Tower (Cloak of Skinchanging, swan) and sold through Liber (30,400gp); sale XP applied to A27.
 - Day 247: the Tower of Knowledge's full identification of L126 (the bone-handled encrypted scroll) is ready (paid day 233).
 - Every month's end: Lucilla's investments (investment 2 delayed until month 13's end), 1d100 on Vagaries of Investment (Balanced, Risky columns, Commercial Expedition); returns at day 241+ in Cyfaraun.
 
 ## Prep queue (Judge only)
 - Sites: the party works the Nethercity under Cyfaraun (18.05); no overland travel planned.
-- Strength 48 without Gnaeus (bed rest to about day 298): Sub-Abyssal open at the floor exactly; a death turns them
+- Strength 49 without Gnaeus (Phaedra Mag4 day 274; Iulia Cru6 day 282) (bed rest to about day 298): Sub-Abyssal open at the floor exactly; a death turns them
   back. With Gnaeus back (Explorer 4): 52. Party rule: keep henchmen, hire only below the floor (Rulings S10).
 - Area H done (H14's chieftains and 480 skeletons, the star mosaic's 28 energy crystals untouched; H12's stacked
   goods; H13 2,000sp and the antlers; H7 2 ropes; H8 cedar chest and the warlord's gear; H21 bronze sarcophagus).
-- P (Sub-Abyssal river; underground river column level 5; the catfish 1d6 per turn on or in the river): P5 beach
-  reached by H26 (both doors open); P6 cleared (4 alabaster amphorae left, 300gp, 3 st each). The river is 10-20' wall
-  to wall, 20' deep, icy, 20'/round current: P4/P3 (Q tomb entrances) downstream, P7 (column; hole up to H24), P8a-b
-  (the Womb: huge black pudding if the egg is disturbed), P9 (G14 well), P10, P11 (the barge; the supreme water
-  elemental on trespass), P12-P14 (anointing at P14) upstream. The party has no boat: expect a raft (Hrodvar's
-  Engineering) or swimming (Vestus has Swimming now) as the next question.
+- P (Sub-Abyssal river; underground river column level 5; the catfish 1d6 per turn on or in the river, hurt since day
+  282: shadows, does not attack until unhurt, Rulings S13): explored by canoe P5-P7-P8a; P6 empty; P8b cleared (egg
+  taken). Not yet: P9 (G14 well), P10 (graves 336gp; the Lammala inscription), P11 (barge, statue, elemental on
+  trespass), P12 (cursed treasures), P13-P14 (anointing; boulder door to R2); downstream P4 (Q6) and P3 (Q1), P1-P2.
+  The four canoes live in the Silk Pony stables (Rulings S13: knocked down for the carry).
 - Elsewhere: C5 secret sepulchre; G (faewyrd; purification at G4), G9-G13, G14 (Abyssal); M caves; I (troglodytes
   ~100, alerted); J (doom temple); L, R, S (Abyssal); Q (Great King tomb) by P3/P4.
 - Threads: Arëtar FRIENDLY (the Rod lent to Iulia, to be returned when the work below is done; dreams of the river;

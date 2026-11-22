@@ -431,3 +431,38 @@ successor (Vestus); `explore` refuses while an arrived encounter is unresolved; 
 `state cond ID enraged` is berserk; actor `defenses` (Lucilla's ring) reach the combatant at `state add`;
 `encounter surprise --apply-note-penalty` (a note's penalty on the dice already rolled); `recover --store`;
 `item --market-stock`; market class 1-6, `--market-class` wins over the note.
+
+## S13 (2026-11-22) — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Helpers: source `Playtest/tools/s10_j.sh`,
+`Playtest/tools/s11_mend.sh` and `Playtest/tools/s13_j.sh` (`go N`, `walk N`: a turn loop that rests whenever a
+line says "rest due" and stops on encounters, lights out and the like); `Playtest/tools/s13_pudding.py` (a fire-only
+foe fought by thrown oil and torches while the line gives ground: RR p. 298 hit/splash/scatter/second burn; env
+HOLD, PREF, FANS, SPARKS, CURE, DECL, BLESSED). Session 13 log: `Session Log/S13 — Another way around.md`.
+
+**State on resume:** day 290 07:14, winter, Cyfaraun (18.05), town, Silk Pony Inn. No adventure open (A31 paid
+out). Session 13 ended; start S14.
+
+**Party (12), strength 49 delving** (Gnaeus abed to about day 298): Lucilla Ven6 22/22, Vettius Thf6 19/19, Iulia
+Cru6 13/31 (Rod of the Dawn), Vestus M5 15/15 (Thunderbolt learned; Dispel Magic copied, not studied), Neris Pr5
+14/14, Brennus F5 22/22 (max lowered by a wraith, day 274). Henchmen: Phaedra M4 17/17 (Levitation learned), Varro
+F4, Hrodvar VG4, Aelia B4, Marcellus F4, Gnaeus Exp4 abed. Oil: Phaedra 1 (buy a full load before the next descent);
+torches low; Vettius has no lamp oil. Holy water: Marcellus 5.
+
+**What S13 did:** L174 sold through Liber (20,720gp, sale XP); expedition 24 (the sloping gallery H23-H24: the well
+over P7; the P6 amphorae; two wraiths, one destroyed); four canoes bought (Rulings S13: knocked down for the carry,
+no proficiency to paddle); expedition 25 by canoe (a flailing spirit and a mummy destroyed in H25; the catfish driven
+off at 12/37; P8b seen); L202 named by the Tower (Cloak of Skinchanging) and sold through Liber (30,400gp, sale XP);
+expedition 26 (the black pudding of P8b burned to death; the egg of the earth L223 taken, 25,000gp, unnamed and
+unsold: it waits in the vault for the month-11 selling day, day 301; gems are the party's own business: open sale,
+tax check). Levels: Phaedra Mag4, Iulia Cru6. Rulings S13: 2 rows (canoes, catfish while hurt).
+
+**Engine findings S13 (judge-notes S13):** `location --site` resets the wandering counter (change only --level/--table
+inside a delve); `treasure_stone` from `recover` is not reduced when a lot is sold (reset by hand day 287); a
+monster with more attacks than damage entries (the catfish: 5 attacks, 2 damage rows) refuses a hit with index 2-4;
+vessels are not catalog items; spells learned are `actor item ID add spell NAME --level N`; a second rebuke spends
+its HD on a monster already rebuked.
+
+**Next (by the profiles):** buy oil, torches and lamp oil; sell the diamond on day 301 (or carry it to a dwarf of
+Azen Khador descent for more, if the party learns its story); upriver P9-P11 by canoe with the catfish hurt; Gnaeus
+back about day 298; Vestus' week of study for Dispel Magic on town days.
+

@@ -1534,3 +1534,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 287 | Cyfaraun | Oil, Military (1 pint) | 3 |  | 5gp 4sp | iulia |
 | 287 | Cyfaraun | Oil, Military (1 pint) | 2 |  | 3gp 6sp | neris |
 | 287 | Silk Pony Inn (#25) | beds for twelve, night of day 287 |  |  | 2gp 4sp | vettius |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 |  | treasure share |  |  |  |  |
+| 288 | Shrine of the Ancestors (Grey Sisters) | a word with Revered Mother Doarë; the white diamond L223 locked in the company's chest in her vault (day 288) |  |  | 1gp | vettius |
+| 288 | Silk Pony Inn (#25) | beds for twelve, night of day 288 |  |  | 2gp 4sp | vettius |
+| 289 | Silk Pony Inn (#25) | beds for twelve, night of day 289 |  |  | 2gp 4sp | vettius |
