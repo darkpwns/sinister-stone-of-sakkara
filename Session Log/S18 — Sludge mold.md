@@ -94,6 +94,45 @@ the Provost's own study; Vestus waits for his interview at the Tower (day 339); 
   gave it to the river, as the Order asked: no claim, known only to Calefa. Back at the Citadel before the first
   hour of day 338.
 
+- Day 338, clear and brisk. Word went to the Order by Brother Oppius: done. Lucilla turned the Provost's things over
+  in the light: the dagger is a good +1 blade, the bronze cap the same kind of helm of tongues they sold to Liber; the
+  jade ring, the ash wand and the grey vial told her nothing, nor Vestus and Aelia. The Grey Sisters' door stayed
+  shut (Doarë out). The table, in low voices: Ingrid, "Nothing of his leaves our hands in this city this season."
+  Rosa, "Twenty thousand in experience sitting in a sack!" Then, quieter: "Fine. Türos Tem, or next year."
+- Day 339, very cold. Vestus went to his interview. Not the Provost but the Regent, Aurëus Ambador, square and
+  sunburnt and short with everyone, and the Treasurer, Clitus Omnus, with his ledgers; the Provost's chair was empty
+  and nobody mentioned it. They read his spellbook, asked about the old elven script and his work on the canoes'
+  frames, and admitted him (12). Vestus the Unlikely is a thaumaturge of the Tower of Knowledge: oaths to Istreus, a
+  diviner's blue cassock, a key to the Chapterhouse, the libraries of his rank and the basement stair; dues 10gp a
+  month. For forty gold the storefront's alchemist named the grey vial: a draught of giant strength. In the lounge
+  the thaumaturges talked of nothing but the Provost: not seen since the night before last, the Watch asked to look.
+  Caeso Lentulus came to the Citadel gate on his own feet, a patch over the empty eye: "Your names are in my report.
+  The Watch owes you, and so do I. Ask for me at the Old District post." He had news: the Tower reported its Provost
+  missing yesterday; the Watch has been told to look along the river. He had a lead of his own, a Family man who went
+  into the sewers by the dyers' lane; Rosa said, very pleasantly, that the company had business enough. He also had
+  a tale about the Imperial Vanguard's Aghilas, suckled by a lioness.
+- Day 340, cold, snow flurries. Vettius drew Phaedra's wage from the Guildhouse and paid her to day 369. Brother
+  Oppius came at dusk: "Tonight. You will not see the way." Bound and blindfolded, down and around, the six knelt again
+  under the black wheel. Destrio did not ask how it was done. "The scale is level. You are deathbringers of the Order
+  of the Eclipse, servants of Calefa's justice. The house of Vasan is closed: open it again only at my word." Back at
+  the Citadel gate before midnight.
+- Day 341, warm and bright above. Forty-second descent, eleven strong (Cotta and Saturnin at the Citadel), for the
+  gallery beyond the bronze door the company forced in the autumn. Through the Old District grate, the cesspool and
+  the sludge caves (masks on), into the tomb halls, and west through the old fresco hall into the burial gallery.
+  Vettius scuffed his way down the steep curving passage south of the cedar door but heard nothing at the bottom:
+  a domed tomb, twelve skeletons reclining in niches under a cracked painted sky, each with a bronze sickle-sword and
+  shield; in a west alcove a sarcophagus carved as a grim elf, crusted with red garnets. Gideon: "Circle, rod,
+  flame. Let them come to us." Neris raised her moving circle at the arch; Marcellus touched a niche with the pole.
+- The skeletons came out of the wall and Vestus' fan of fire caught all twelve; Iulia lifted the Rod of the Dawn and
+  four fell to dust. The sarcophagus lid slid and the grim elf stood up, wrapped and gilded, and eight of the eleven
+  cowered at the sight of it; three kept their heads. Against the circle's edge the dead could do nothing. Brennus and
+  Vettius cut down the skeletons that crowded it, Vestus burned the last, Marcellus' flask set the mummy alight and
+  Phaedra's flame caught it in the alcove; Iulia's second prayer broke it apart. Pale worms spilled from its belly and
+  writhed at the edge of the circle until they crumbled. Nobody was touched.
+- Rosa prised the eighteen garnets off the lid; Marcellus took the canopic jars. Ingrid: "Fans spent, the rod spent:
+  home." Out by the grate before noon. Ingrid had the garnets kept back: "Twenty-one in a hundred the tax men ask us
+  now; five next month."
+
 ## Who they met
 - Cotta, a border-fort outrider (Explorer, 2nd rank), Vettius' man from day 331: weathered, laconic, spits before
   he speaks; reads the skyline, not the ground.

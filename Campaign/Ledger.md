@@ -222,6 +222,25 @@ tags:
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | two iron keys on a ring, one tagged in a mage's hand 'Basement 10', the other '4' | 0 (worth less than 1sp per stone) | vettius |
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | a black mage's cassock with the Tower of Knowledge's embroidered collar | 15 | aelia |
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | a rune-etched staff of black wood | 10 | marcellus |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | gem worth 250.0gp | 250 | lucilla |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | four terracotta canopic jars (F5) | 100 | marcellus |
 
 ## Monster XP
 
@@ -283,6 +302,9 @@ tags:
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Wererat | 8 | 65 | 520 |
 | 324 | Fortieth descent: the rat-men's new lair (day 324) | Giant Rat | 12 | 5 | 60 |
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Mentenus Cavie (AX3) | 1 | 1,300 | 1,300 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Skeleton | 12 | 13 | 156 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Mummy | 1 | 860 | 860 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Sepulchral Worm | 10 | 16 | 160 |
 
 ## Shares and XP awarded
 
@@ -640,6 +662,17 @@ tags:
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Aelia | 0.5 | 167 | 72 | 0 | +0% | 239 |
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Marcellus | 0.5 | 167 | 72 | 0 | +0% | 239 |
 | 338 | Forty-first errand: the house of Vasan's second meeting (the Nicean outlet, midnight day 337) | Cotta | 0.5 | 167 | 72 | 0 | +0% | 239 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Lucilla | 1 | 541 | 138 | 0 | +10% | 748 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Vettius | 1 | 541 | 138 | 0 | +5% | 714 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Vestus the Unlikely | 1 | 541 | 138 | 0 | +5% | 714 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Neris | 1 | 541 | 138 | 0 | +0% | 680 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Brennus | 1 | 541 | 138 | 0 | +5% | 714 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Iulia | 1 | 541 | 138 | 0 | +5% | 714 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Phaedra | 0.5 | 271 | 69 | 0 | +0% | 340 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Varro | 0.5 | 271 | 69 | 0 | +0% | 340 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Hrodvar | 0.5 | 271 | 69 | 0 | +0% | 340 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Aelia | 0.5 | 271 | 69 | 0 | +0% | 340 |
+| 341 | Forty-second descent: the Lower Level galleries, F (day 341) | Marcellus | 0.5 | 271 | 69 | 0 | +0% | 340 |
 
 ## Wages
 
@@ -2252,3 +2285,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 338 |  | treasure share |  | 11gp 1sp 1cp |  | aelia |
 | 338 |  | treasure share |  | 11gp 1sp 1cp |  | marcellus |
 | 338 |  | treasure share |  | 11gp 1sp 1cp |  | cotta |
+| 339 | Tower of Knowledge (Chapterhouse) | member's dues, month 12 (admitted day 339) |  |  | 10gp | vestus-the-unlikely |
+| 339 | Tower of Knowledge storefront (alchemist) | identify a potion (AX3 p. 152), day 339 |  |  | 40gp | vestus-the-unlikely |
+| 340 | the retinue | wages paid |  |  | 400gp | vettius |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
+| 341 |  | treasure share |  |  |  |  |
