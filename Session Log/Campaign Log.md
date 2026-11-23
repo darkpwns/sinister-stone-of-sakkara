@@ -36,3 +36,4 @@ tags:
 - [[S25 — Accounts Paid]]
 - [[S26 — The Serpent's Sanctum]]
 - [[S27 — Rivals Below]]
+- [[S28 — The Mummy King's Hall]]

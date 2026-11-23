@@ -3676,3 +3676,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 467 |  | treasure share |  | 55gp 5sp 6cp |  | aelia |
 | 467 |  | treasure share |  | 55gp 5sp 6cp |  | marcellus |
 | 467 |  | treasure share |  | 55gp 5sp 6cp |  | cotta |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 375gp 1cp |  | lucilla |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 375gp 1cp |  | vettius |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 375gp 1cp |  | vestus-the-unlikely |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 375gp 1cp |  | neris |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 375gp 1cp |  | brennus |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 375gp 1cp |  | iulia |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | phaedra |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | varro |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | hrodvar |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | aelia |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | marcellus |
+| 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | cotta |
