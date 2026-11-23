@@ -83,6 +83,29 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    counts down durations and kills a combatant dying "within 1 round" who was not healed. Narrate the behaviour.
    Morale modifiers from the monster entry (leader alive, war drums) go in `--mod`.
 
+## Missiles, flasks, routines, leaving a fight (engine 7.17.5)
+- **Distances first.** Record `state distance A B FT` (or `state engage A B`) for every foe when the fight starts. In
+  a fight that records distances, a melee attack on a target with no distance recorded is noted ("taken as in reach")
+  or refused when the attacker's recorded distances to that group are all beyond reach. `--range` belongs to missile
+  attacks only; a sword cannot be made a missile with `--kind missile`.
+- **Monsters with weapons**: `attack g1 vettius --weapon javelin` (or `state set g1 weapon=javelin`) reads the weapon's
+  row: thrown or shot at range with the band from the recorded distance (medium −2, long −5, beyond long refused), no
+  engagement from a missile. `--weapon` on a monster whose damage is not "by weapon" is refused.
+- **A multi-attack routine**: `--attack N` picks the Nth attack and its own damage entry (a catfish's fourth feeler);
+  a statblock whose entries do not line up is refused before the roll: `--damage-entry N`, or `--no-damage` and
+  `damage --dice`.
+- **Thrown flasks and torches** (RR p. 298): `attack A T --throw oil|"holy water"|torch [--range short|medium|long]`
+  (`--chaotic-enchanted yes|no` for holy water, which harms only chaotic enchanted creatures; `--unlit` for unlit oil).
+  The flask comes from wherever A carries it and is used up; −4 at an engaged target; a direct hit burns now and
+  again at A's count next round (`round-next` applies it); splash, scatter (direction and distance rolled) and who
+  stands within 5' are printed for you to apply; no STR, class or backstab bonus; a natural 1 burns the thrower.
+- **Ammunition**: `--ammo "silver arrow"` counts as silver against a creature with that flaw; a magic arrow or bolt:
+  `--ammo-magic N` (higher bonus to hit, both to damage, extraordinary; TT p. 251) and take one from its lot by hand.
+  A NOTE names a magic bow carried but not in hand: `inv wield` it before the fight.
+- **Leaving a fight**: `state remove ID --why left|absent|fled` (a party member who walks out or was never there is
+  `left`/`absent`: no casualty for anyone's morale); `state return ID` brings him back. `state set ID status=` takes
+  only the known statuses.
+
 ## Wounds
 - A PC or henchman at 0 hp or less is unconscious (the line says so; a henchman at 0 hp also needs a loyalty roll
   for a calamity — henchmen-hirelings.md).

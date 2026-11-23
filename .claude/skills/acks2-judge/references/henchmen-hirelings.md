@@ -14,6 +14,7 @@ the tools repo's `engine/COVERAGE.md` (Stage 3).
 
 ## Recruiting (a week of searching per type)
 - Market class from the settlement's market note (`market_class:` in its front matter, config `paths.wiki_folders.markets`); never guess it.
+- One search a month for each specification at a market (engine 7.17.4, JJ p. 118): a second `recruit` of the same kind, class and level there in the same month is refused before any fee (`--again` on the Judge's word); a market's totals renew each month. `candidate --level N --class C` writes its draft actor to `Campaign/candidates/` by itself.
 - `acks.sh recruit --employer <PC> --market-class V --market "<Place>" --region "<Place>" --kind henchman --level 0 --week 1`
   - mercenaries: `--kind mercenary --type "Light Infantry"`; specialists: `--kind specialist --type "Laborer – Unskilled"`
     (porters for roads and civilized areas are laborers; the rules name no torchbearer: in a dungeon that is a 0th-level

@@ -53,6 +53,17 @@ come from the print-checked equipment tables (`acks.sh inv catalog WORDS` finds 
 - Selling a magic, masterwork or silvered weapon needs `--price`; a treasure lot's weapon is refused (sold off the books,
   `xp-treasure.md`).
 
+## Broken shafts, stabling, animals (engine 7.17.4)
+- A spear, polearm or lance whose shaft breaks on a natural 1 stays in hand as a broken weapon (its magic kept): it
+  fights as a dagger or a staff at −1 (`inv use ID ITEM dagger|staff` picks the end) until `inv repair ID ITEM
+  [--payer ID]` (1gp, RR p. 127; where a repair can be had is yours).
+- Animals and vehicles left behind: `inv stable ID… --at "<place>" --cause "…"` (they no longer march, eat from the
+  party's fodder, or can be ridden, loaded or harnessed), `inv unstable ID…` (it counts the nights; the fee per night
+  is on the JUDGE line, RR p. 131: pay it with `inv pay`). An animal or vehicle gained without buying:
+  `inv add ID "<row>" 1 --as NEWID --cause "…"`.
+- A purchase refused for want of room or stock says how many packs and units were asked (`inv buy ID torch 2` buys two
+  packs of six); a refused purchase keeps the month's availability roll: asking again does not roll again.
+
 ## What the other commands take on their own
 - `light on --kind torch|candle|lantern --carrier <id>`: a torch or candle burns, a lantern needs the lantern and burns a
   flask of common oil; `light refuel`: a flask. Refused if the carrier has none.
