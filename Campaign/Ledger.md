@@ -551,6 +551,17 @@ tags:
 | 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | lucilla |
 | 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | iulia |
 | 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | cotta |
+| 506 | Descent 70 (R: the prince and princess) | jewelry worth 4000.0gp | 4,000 | lucilla |
+| 506 | Descent 70 (R: the prince and princess) | jewelry worth 4000.0gp | 4,000 | lucilla |
+| 506 | Descent 70 (R: the prince and princess) | Spear +1 | 653 | brennus |
+| 506 | Descent 70 (R: the prince and princess) | Bow, Composite +1 | 690 | aelia |
+| 506 | Descent 70 (R: the prince and princess) | an ebony quiver inlaid with gold | 400 | aelia |
+| 506 | Descent 70 (R: the prince and princess) | ten black-fletched arrows with hepatizon heads | 32 | aelia |
+| 506 | Descent 70 (R: the prince and princess) | a rhinoceros horn | 300 | iulia |
+| 506 | Descent 70 (R: the prince and princess) | 3,000 electrum pieces | 1,500 | cotta |
+| 506 | Descent 70 (R: the prince and princess) | eight terracotta canopic jars of embalmed organs | 200 | vestus-the-unlikely |
+| 506 | Descent 70 (R: the prince and princess) | SOTN Prince's Spellbook | 100 | vestus-the-unlikely |
+| 506 | Descent 70 (R: the prince and princess) | SOTN Princess's Spellbook | 100 | phaedra |
 
 ## Monster XP
 
@@ -720,6 +731,11 @@ tags:
 | 497 | Descent 68 (L13: the panel) | Hydropion (SOTN) | 1 | 2,500 | 2,500 |
 | 499 | Descent 69 (K: the hero tomb) | Greater Undead Bone Golem (SOTN) | 4 | 1,600 | 6,400 |
 | 499 | Descent 69 (K: the hero tomb) | Bombardier Beetle | 4 | 20 | 80 |
+| 506 | Descent 70 (R: the prince and princess) | Gelatinous Mass | 1 | 245 | 245 |
+| 506 | Descent 70 (R: the prince and princess) | Mummy Prince (SOTN) | 1 | 2,600 | 2,600 |
+| 506 | Descent 70 (R: the prince and princess) | Mummy | 1 | 2,600 | 2,600 |
+| 506 | Descent 70 (R: the prince and princess) | Bronze Animated Statue | 4 | 350 | 1,400 |
+| 506 | Descent 70 (R: the prince and princess) | Giant Fly | 4 | 29 | 116 |
 
 ## Shares and XP awarded
 
@@ -1488,6 +1504,15 @@ tags:
 | 499 | Descent 69 (K: the hero tomb) | Hrodvar | 0.5 | 650 | 405 | 0 | +0% | 1,055 |
 | 499 | Descent 69 (K: the hero tomb) | Aelia | 0.5 | 650 | 405 | 0 | +0% | 1,055 |
 | 499 | Descent 69 (K: the hero tomb) | Cotta | 0.5 | 650 | 405 | 0 | +0% | 1,055 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 506 | Descent 70 (R: the prince and princess) | Lucilla | 1 | 1,597 | 928 | 0 | +10% | 2,778 |
+| 506 | Descent 70 (R: the prince and princess) | Vettius | 1 | 1,597 | 928 | 0 | +5% | 2,651 |
+| 506 | Descent 70 (R: the prince and princess) | Vestus the Unlikely | 1 | 1,597 | 928 | 0 | +5% | 2,651 |
+| 506 | Descent 70 (R: the prince and princess) | Neris | 1 | 1,597 | 928 | 0 | +0% | 2,525 |
+| 506 | Descent 70 (R: the prince and princess) | Brennus | 1 | 1,597 | 928 | 0 | +5% | 2,651 |
+| 506 | Descent 70 (R: the prince and princess) | Iulia | 1 | 1,597 | 928 | 0 | +5% | 2,651 |
+| 506 | Descent 70 (R: the prince and princess) | Phaedra | 0.5 | 798 | 464 | 0 | +0% | 1,262 |
+| 506 | Descent 70 (R: the prince and princess) | Aelia | 0.5 | 798 | 464 | 0 | +0% | 1,262 |
+| 506 | Descent 70 (R: the prince and princess) | Cotta | 0.5 | 798 | 464 | 0 | +0% | 1,262 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4049,3 +4074,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 503 | the Keepers' scriptorium (market stock H75) | a divine scroll of Neutralize Poison (4 levels; 225% of 2,000gp base, Rulings S11) |  |  | 4,500gp | neris |
 | 503 | the Keepers' scriptorium (market stock H74) | a divine scroll of Delay Poison (2 levels; 225% of 1,000gp base, Rulings S11) |  |  | 2,250gp | neris |
 | 503 | the Solar Citadel's scriptorium (market stock H76) | a divine scroll of Neutralize Poison x2 and Cure Light Injury (9 levels; 225% of 4,500gp base, Rulings S11) |  |  | 10,125gp | iulia |
+| 506 | Cyfaraun | torch | 12 |  | 2sp | lucilla |
+| 506 | Cyfaraun | Oil, Common (1 pint) | 4 |  | 1gp 2sp | vettius |
+| 506 | the craftsman (refund) | repair fee refunded: the break was void (Judge's correction S32) |  | 1gp |  | iulia |
+| 506 |  | treasure share |  | 200gp |  | lucilla |
+| 506 |  | treasure share |  | 200gp |  | vettius |
+| 506 |  | treasure share |  | 200gp |  | vestus-the-unlikely |
+| 506 |  | treasure share |  | 200gp |  | neris |
+| 506 |  | treasure share |  | 200gp |  | brennus |
+| 506 |  | treasure share |  | 200gp |  | iulia |
+| 506 |  | treasure share |  | 100gp |  | phaedra |
+| 506 |  | treasure share |  | 100gp |  | aelia |
+| 506 |  | treasure share |  | 100gp |  | cotta |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 1,186gp 6sp 6cp |  | lucilla |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 1,186gp 6sp 6cp |  | vettius |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 1,186gp 6sp 6cp |  | vestus-the-unlikely |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 1,186gp 6sp 6cp |  | neris |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 1,186gp 6sp 6cp |  | brennus |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 1,186gp 6sp 6cp |  | iulia |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 593gp 3sp 4cp |  | phaedra |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 593gp 3sp 4cp |  | aelia |
+| 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 593gp 3sp 4cp |  | cotta |

@@ -10,16 +10,16 @@ public:
   date:
     year: ''
     season: summer
-    day: 505
-  time: 05:50
-  weather: Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; clear; wind still
+    day: 506
+  time: 09:50
+  weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; drizzle; wind gentle (drizzly)
   place: Cyfaraun
   hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 42
+    hp: 27
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 8.628
+    encumbrance_st: 9.658
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.318
+    encumbrance_st: 9.994
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 3.873
+    encumbrance_st: 3.885
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,7 +53,7 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used: []
-    encumbrance_st: 4.407
+    encumbrance_st: 4.419
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -63,16 +63,16 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 9.448
+    encumbrance_st: 9.46
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 40
+    hp: 35
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.474
+    encumbrance_st: 9.611
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -80,7 +80,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 7.489
+    encumbrance_st: 7.496
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -88,7 +88,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 6.175
+    encumbrance_st: 6.182
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -96,9 +96,9 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 6.894
+    encumbrance_st: 6.901
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Lucilla) 6 turns left
   rations: 'Iulia: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 1 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -130,7 +130,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 505
+clock_day: 506
 ---
 # Campaign State
 
