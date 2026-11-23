@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 472,
-  "round_of_day": 652,
-  "total_rounds": 678412
+  "round_of_day": 883,
+  "total_rounds": 678643
  },
  "party": {
   "vettius": {
@@ -3009,101 +3009,76 @@
    "id": "torch349",
    "kind": "torch",
    "carrier": "lucilla",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 28,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch350",
+   "kind": "torch",
+   "carrier": "lucilla",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch351",
+   "kind": "torch",
+   "carrier": "varro",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch352",
+   "kind": "torch",
+   "carrier": "varro",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch353",
+   "kind": "torch",
+   "carrier": "varro",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 40,
    "tallow": false
   }
  ],
- "timers": [
-  {
-   "id": "t106",
-   "label": "Holy Blessing (Neris)",
-   "rounds_left": 38,
-   "hidden": false,
-   "source": null,
-   "started": "day 472 10:30"
-  }
- ],
+ "timers": [],
  "rest": {
-  "rounds_since_rest": 6,
+  "rounds_since_rest": 50,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Nethercity",
-  "kind": "dungeon",
-  "level": 4,
-  "room": "G14",
+  "site": "Cyfaraun",
+  "kind": "settlement",
+  "level": null,
+  "room": null,
   "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
+   "none": true
   },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
+  "table": null,
   "source": {
-   "hub": "Adventure/SOTN/SOTN Hub.md",
-   "wandering": "site setting: '1d6 every 3 turns, 6+' (Adventure/SOTN/SOTN Hub.md)"
+   "wandering": "site setting: 'none'"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 472 10:40",
-   "roll": 2,
+   "at": "day 472 14:40",
+   "roll": 1,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 467 10:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 467 11:20",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 467 11:50",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 467 12:20",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 467 12:50",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 467 13:20",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 467 13:50",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 467 14:20",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 467 14:50",
     "roll": 2,
@@ -3175,13 +3150,61 @@
     "roll": 2,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 472 11:10",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 472 11:40",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 472 12:10",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 472 12:40",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 472 13:10",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 472 13:40",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 472 14:10",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 472 14:40",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 678410
+  "turn_start_done": 678640
  },
  "turn_actions": {
-  "turn": 67841,
+  "turn": 67864,
   "listened": [],
   "actions": []
  },
@@ -5146,8 +5169,8 @@
    "rest_rounds": 0
   },
   "472": {
-   "delve_rounds": 217,
-   "rest_rounds": 57
+   "delve_rounds": 408,
+   "rest_rounds": 97
   }
  },
  "events": [
@@ -8985,8 +9008,8 @@
   }
  ],
  "next_ids": {
-  "enc": 380,
-  "torch": 349,
+  "enc": 381,
+  "torch": 353,
   "t": 106,
   "lantern": 12
  },
@@ -111830,14 +111853,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc361",
-   "at": "day 455 13:30",
-   "monster_name": "Ochre Ooze",
-   "number": 1,
-   "reaction": null,
-   "status": "surprise rolled"
-  },
-  {
    "id": "enc362",
    "at": "day 457 09:40",
    "monster_name": "Tunnel Prawn (SOTN)",
@@ -111988,6 +112003,14 @@
    "number": 4,
    "reaction": null,
    "status": "fighting"
+  },
+  {
+   "id": "enc381",
+   "at": "day 472 13:40",
+   "monster_name": "Rat Swarm",
+   "number": 2,
+   "reaction": "overawed",
+   "status": "reaction"
   }
  ],
  "diseases": {

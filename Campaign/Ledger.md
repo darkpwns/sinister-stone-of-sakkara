@@ -513,6 +513,18 @@ tags:
 | 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | marcellus |
 | 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | iulia |
 | 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | aelia |
+| 472 | Descent 63 (G8 west graves, G13, G14) | grave goods of the G8 west corridor, south wall (92 graves) | 459 | aelia |
+| 472 | Descent 63 (G8 west graves, G13, G14) | grave goods of the G8 west corridor, north wall (84 graves) | 350 | cotta |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the first G14 statue (half) | 600 | lucilla |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the first G14 statue (other half) | 600 | cotta |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the second G14 statue (half) | 600 | vestus-the-unlikely |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the second G14 statue (other half) | 600 | neris |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the third G14 statue (half) | 600 | phaedra |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the third G14 statue (a quarter) | 300 | aelia |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the third G14 statue (last quarter) | 300 | marcellus |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (a third) | 400 | varro |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (a third) | 400 | hrodvar |
+| 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (last third) | 400 | iulia |
 
 ## Monster XP
 
@@ -655,6 +667,9 @@ tags:
 | 467 | Descent 62 (G10-G12, the consul) | Berserker | 8 | 10 | 80 |
 | 467 | Descent 62 (G10-G12, the consul) | Grand Chthonic Consul (SOTN) | 1 | 1,580 | 1,580 |
 | 467 | Descent 62 (G10-G12, the consul) | Sepulchral Worm | 14 | 16 | 224 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Sepulchral Worm | 6 | 16 | 96 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Skeleton | 24 | 47 | 1,128 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Bronze Animated Statue | 4 | 350 | 1,400 |
 
 ## Shares and XP awarded
 
@@ -1333,6 +1348,18 @@ tags:
 | 467 | Descent 62 (G10-G12, the consul) | Aelia | 0.5 | 250 | 287 | 0 | +0% | 537 |
 | 467 | Descent 62 (G10-G12, the consul) | Marcellus | 0.5 | 250 | 287 | 0 | +0% | 537 |
 | 467 | Descent 62 (G10-G12, the consul) | Cotta | 0.5 | 250 | 287 | 0 | +0% | 537 | (src: RR p. 310 xp.magic_item_basis; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 472 | Descent 63 (G8 west graves, G13, G14) | Lucilla | 1 | 623 | 292 | 0 | +10% | 1,006 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Vettius | 1 | 623 | 292 | 0 | +5% | 961 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Vestus the Unlikely | 1 | 623 | 292 | 0 | +5% | 961 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Neris | 1 | 623 | 292 | 0 | +0% | 915 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Brennus | 1 | 623 | 292 | 0 | +5% | 961 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Iulia | 1 | 623 | 292 | 0 | +5% | 961 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Phaedra | 0.5 | 312 | 146 | 0 | +0% | 457 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Varro | 0.5 | 312 | 146 | 0 | +0% | 457 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Hrodvar | 0.5 | 312 | 146 | 0 | +0% | 457 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Aelia | 0.5 | 312 | 146 | 0 | +0% | 457 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Marcellus | 0.5 | 312 | 146 | 0 | +0% | 457 |
+| 472 | Descent 63 (G8 west graves, G13, G14) | Cotta | 0.5 | 312 | 146 | 0 | +0% | 457 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3691,3 +3718,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 471 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
 | 471 | Cyfaraun | torch | 6 |  | 1sp | aelia |
 | 471 | Cyfaraun | Rations, Iron (one week) | 1 |  | 4gp | aelia |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |
+| 472 |  | treasure share |  |  |  |  |

@@ -18,11 +18,20 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
   dragon-winged statuette, the canopic jars and the four corners of the painted sarcophagus: 3,375 gold, shared as the
   descent's shares. Kept: the two spellbooks, the crystal-tipped rod, the black candles, the charcoals and the waybread.
   Iulia now wears the obsidian ring; Aelia the many-coloured cloak and boots.
+- Day 472, the sixty-third descent. Vettius woke warmer again. Through the sewer caves and the temples without a meeting;
+  at the junction of the galleries six pale worms came at the company as it rested and died against Iulia's ward. The
+  west corridor's 176 graves gave up their goods. The slab of the western tomb gave at the first pull of the rope; two
+  dozen snouted skeletons with swords and shields came out and were burned and broken by fire and Iulia's light. Down the
+  winding stair, the king's empty tomb: the four bronze elf-warriors stirred and came on; Vestus' fire felled three, and
+  the last was hacked down. The company carried the four statues' bronze out on spear poles. Two swarms of rats near the
+  way out fled from Lucilla's torch. Out at 14:43.
 
 ## Who they met
 
 ## Treasure and XP
 - Day 471: A101's goods sold through the Family (3,375gp to the descent's share-holders).
+- Day 472 (A102, descent 63): the west corridor's grave goods, the bronze of four statues, worms, skeletons, the statues:
+  8,233 XP over 9 shares.
 
 ## Rumours given
 
@@ -33,3 +42,4 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
 > [!judge]- Judge rolls
 > S28 hidden rolls (summary; all in Campaign/roll-log.jsonl, session 28):
 > Day 471: Vettius' Death save 16 (pass 1 of 3). Sales: L660 640, L661 635, L662 100, L663 600, L664 900, L672-L675 125 each (Rulings S19, full value; goods: no sale XP).
+> Day 472 (A102): Vettius' Death save 19 (pass 2). 09:40 6 (6 sepulchral worms, hp 3/2/7/6/8/7; surprise: Iulia, Varro, Hrodvar; slain in 4 rounds at the ward, bites missed). G8 graves 92d8 459, 84d8 350. G13 slab: heave 1 natural 18 (re-read +4: 22, opened; 2-6 void); skeletons all surprised; Fireball 31 on 12 (all destroyed), rebukes D automatic; Phaedra's Fan on 7; destroyed by round 6. G14 statues (hp 25/23/21/20) attentive; Fireball 25 (saves FFFS): three destroyed; the fourth (8 left) destroyed round 3 (Varro 4, Brennus 4); its swing at Marcellus missed. 13:40 6 (2 rat swarms, 30'): Lucilla intimidating 18, overawed.
