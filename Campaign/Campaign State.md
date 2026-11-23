@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 449
-  time: '18:47'
+    day: 450
+  time: 06:47
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 11.097
+    encumbrance_st: 10.551
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 12.21
+    encumbrance_st: 10.068
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 4.781
+    encumbrance_st: 4.771
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,7 +53,7 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used: []
-    encumbrance_st: 6.797
+    encumbrance_st: 4.655
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -63,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.927
+    encumbrance_st: 10.356
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -113,7 +113,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 7.638
+    encumbrance_st: 7.068
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -155,7 +155,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 449
+clock_day: 450
 ---
 # Campaign State
 

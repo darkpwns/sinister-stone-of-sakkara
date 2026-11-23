@@ -3385,3 +3385,21 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 448 |  | treasure share |  | 285gp 7sp 1cp |  | phaedra |
 | 448 |  | treasure share |  | 1,000gp |  | neris |
 | 448 |  | treasure share |  | 1,000gp |  | vettius |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 26746.71 |  |  | 66gp 8sp 7cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 65626.09 |  |  | 164gp 7cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 1821.00 |  |  | 4gp 5sp 5cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 14877.31 |  |  | 37gp 1sp 9cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 25320.90 |  |  | 63gp 3sp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 60217.29 |  |  | 150gp 5sp 4cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 64204.15 |  |  | 160gp 5sp 1cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 26529.47 |  |  | 66gp 3sp 2cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of neris, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 66426.74 |  |  | 166gp 7cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 26440.47 |  |  | 66gp 1sp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 17.00 |  |  | 4cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of varro, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 25903.55 |  |  | 64gp 7sp 6cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 53591.31 |  |  | 133gp 9sp 8cp | guildhouse-bank |
+| 450 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 15 (day 450): on 43739.07 |  |  | 109gp 3sp 5cp | guildhouse-bank |
+| 450 | the Tower of Knowledge | Vestus' dues, month 15 |  |  | 10gp | vestus-the-unlikely |
+| 450 | the Argollëan Family and the venture company | month 15: the syndicate (the Family 11,424gp: AX3 p. 75 less this month's dead, Sextus 4th -425, Iunia 3rd -200, eleven 0th -11; Sand & Bones 7,050gp; 18,474gp merged) for days 421-434: 14/30 = 8,621gp (Rulings S22); the Pony's honest half 758gp (14/30 of 1,624); the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp |  | 13,629gp |  | lucilla |
+| 450 | the Argollëan Family | month 15: the syndicate (18,474gp merged) for days 435-450: 16/30 = 9,853gp; the Pony's honest half 866gp (16/30 of 1,624) |  | 10,719gp |  | vettius |
+| 450 | the caravan investments | month 15 investments: (1) 84 Return +150% 17gp 5sp; (2) 3 Delay 6 months (months 16-21), nothing; (3) 98 Discovery +8%: 30 + 240 = 270gp |  | 287gp 5sp |  | lucilla |
