@@ -245,3 +245,10 @@ lessons:
   where: ["argv ~ --site", "argv !~ --level"]
   text: "`location --site NAME` without --level/--wandering/--table resets the site to the JJ default (every 2 turns, no level, no table): pass the hub column's settings with it (Adventure/SOTN/SOTN Hub.md)"
   source: "judge-notes day 514 (S33)"
+
+- id: driver-loop-stop
+  category: fight-procedure
+  status: judge
+  since: S34
+  text: "a bash loop around a fight driver must break on the driver's non-zero exit (3 a fallen member, 4 a choice left to the Judge): `python3 driver.py … || break`; never let the loop start the next round"
+  source: "judge-notes day 517 (S34: the insect plague placed two rounds late)"
