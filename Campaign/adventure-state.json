@@ -1,32 +1,16 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 122,
-  "L": 802,
+  "A": 124,
+  "L": 803,
   "H": 137,
-  "M": 242
+  "M": 244
  },
  "adventure": {
-  "id": "A122",
-  "name": "Order contract: Marius Corvo (Vestus)",
-  "start_day": 525,
+  "id": "A124",
+  "name": "Order contract: Ammia Thrax (Vettius)",
+  "start_day": 531,
   "participants": {
-   "vestus-the-unlikely": {
-    "id": "vestus-the-unlikely",
-    "name": "Vestus the Unlikely",
-    "actor": "vestus-the-unlikely",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 130292,
-    "level_before": 7,
-    "class": "Mage",
-    "joined_day": 525,
-    "xp_award": 134
-   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -35,121 +19,63 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 186131,
+    "xp_before": 186479,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 525,
-    "xp_award": 134
+    "joined_day": 531
    },
-   "cotta": {
-    "id": "cotta",
-    "name": "Cotta",
-    "actor": "cotta",
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 32835,
-    "level_before": 6,
-    "class": "Explorer",
-    "joined_day": 525,
-    "xp_award": 128
-   },
-   "lucilla": {
-    "id": "lucilla",
-    "name": "Lucilla",
-    "actor": "lucilla",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 178119,
+    "xp_before": 145079,
     "level_before": 8,
-    "class": "Venturer",
-    "joined_day": 525,
-    "xp_award": 141
+    "class": "Fighter",
+    "joined_day": 531
+   },
+   "phaedra": {
+    "id": "phaedra",
+    "name": "Phaedra",
+    "actor": "phaedra",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": "phaedra",
+    "xp_before": 56813,
+    "level_before": 6,
+    "class": "Mage",
+    "joined_day": 531
    }
   },
   "monsters": [
    {
-    "id": "M242",
-    "monster": "Marius Corvo",
-    "source": "Marius Corvo",
+    "id": "M244",
+    "monster": "Ammia Thrax",
+    "source": "Ammia Thrax",
     "number": 1,
     "how": "killed",
-    "xp_each": 10,
+    "xp_each": 80,
     "fight": {
      "ids": [
-      "marius-corvo"
+      "ammia-thrax"
      ],
-     "text": "the fight with Marius Corvo, round 2"
+     "text": "the fight with Ammia Thrax, round 2"
     }
    }
   ],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 526,
-   "at": null,
-   "total": 510.0,
-   "per_share": 127.5,
-   "awards": {
-    "vestus-the-unlikely": {
-     "share": 1.0,
-     "why": null,
-     "base": 128,
-     "pct": 5,
-     "pen": 0,
-     "award": 134,
-     "xp_before": 130292,
-     "xp_after": 130426,
-     "capped": null,
-     "zero": false
-    },
-    "vettius": {
-     "share": 1.0,
-     "why": null,
-     "base": 128,
-     "pct": 5,
-     "pen": 0,
-     "award": 134,
-     "xp_before": 186131,
-     "xp_after": 186265,
-     "capped": null,
-     "zero": false
-    },
-    "cotta": {
-     "share": 1.0,
-     "why": null,
-     "base": 128,
-     "pct": 0,
-     "pen": 0,
-     "award": 128,
-     "xp_before": 32835,
-     "xp_after": 32963,
-     "capped": null,
-     "zero": false
-    },
-    "lucilla": {
-     "share": 1.0,
-     "why": null,
-     "base": 128,
-     "pct": 10,
-     "pen": 0,
-     "award": 141,
-     "xp_before": 178119,
-     "xp_after": 178260,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
+  "status": "open",
+  "payout": null,
   "events": []
  },
  "closed": [
@@ -38125,6 +38051,270 @@
     "day": 521,
     "where": "Cyfaraun"
    }
+  },
+  {
+   "id": "A122",
+   "name": "Order contract: Marius Corvo (Vestus)",
+   "start_day": 525,
+   "participants": {
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 130292,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 525,
+     "xp_award": 134
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 186131,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 525,
+     "xp_award": 134
+    },
+    "cotta": {
+     "id": "cotta",
+     "name": "Cotta",
+     "actor": "cotta",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 32835,
+     "level_before": 6,
+     "class": "Explorer",
+     "joined_day": 525,
+     "xp_award": 128
+    },
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 178119,
+     "level_before": 8,
+     "class": "Venturer",
+     "joined_day": 525,
+     "xp_award": 141
+    }
+   },
+   "monsters": [
+    {
+     "id": "M242",
+     "monster": "Marius Corvo",
+     "source": "Marius Corvo",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 10,
+     "fight": {
+      "ids": [
+       "marius-corvo"
+      ],
+      "text": "the fight with Marius Corvo, round 2"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 526,
+    "at": null,
+    "total": 510.0,
+    "per_share": 127.5,
+    "awards": {
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 128,
+      "pct": 5,
+      "pen": 0,
+      "award": 134,
+      "xp_before": 130292,
+      "xp_after": 130426,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 128,
+      "pct": 5,
+      "pen": 0,
+      "award": 134,
+      "xp_before": 186131,
+      "xp_after": 186265,
+      "capped": null,
+      "zero": false
+     },
+     "cotta": {
+      "share": 1.0,
+      "why": null,
+      "base": 128,
+      "pct": 0,
+      "pen": 0,
+      "award": 128,
+      "xp_before": 32835,
+      "xp_after": 32963,
+      "capped": null,
+      "zero": false
+     },
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 128,
+      "pct": 10,
+      "pen": 0,
+      "award": 141,
+      "xp_before": 178119,
+      "xp_after": 178260,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
+  },
+  {
+   "id": "A123",
+   "name": "Order contract: Decimus Ruga (Brennus)",
+   "start_day": 530,
+   "participants": {
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 144865,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 530,
+     "xp_award": 214
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 186265,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 530,
+     "xp_award": 214
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "phaedra",
+     "xp_before": 56711,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 530,
+     "xp_award": 102
+    }
+   },
+   "monsters": [
+    {
+     "id": "M243",
+     "monster": "Decimus Ruga",
+     "source": "Decimus Ruga",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 10,
+     "fight": {
+      "ids": [
+       "decimus-ruga"
+      ],
+      "text": "the fight with Decimus Ruga, round 2"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 531,
+    "at": null,
+    "total": 510.0,
+    "per_share": 204.0,
+    "awards": {
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 204,
+      "pct": 5,
+      "pen": 0,
+      "award": 214,
+      "xp_before": 144865,
+      "xp_after": 145079,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 204,
+      "pct": 5,
+      "pen": 0,
+      "award": 214,
+      "xp_before": 186265,
+      "xp_after": 186479,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 102,
+      "pct": 0,
+      "pen": 0,
+      "award": 102,
+      "xp_before": 56711,
+      "xp_after": 56813,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
   }
  ],
  "lots": {
@@ -74026,6 +74216,39 @@
    "sold": null,
    "judge": [],
    "divided_day": 526
+  },
+  "L803": {
+   "id": "L803",
+   "adventure": "A123",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "brennus",
+   "status": "divided",
+   "found": {
+    "day": 531,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 0,
+    "name": "reward 500.0gp"
+   },
+   "player": {
+    "desc": "reward of 500.0gp",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 531
   }
  },
  "hoards": {

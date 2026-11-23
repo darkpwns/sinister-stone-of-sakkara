@@ -2,12 +2,12 @@
  "schema": "acks-combat/3",
  "round": 2,
  "order": [
+  "brennus",
   "vettius",
-  "cotta",
-  "vestus-the-unlikely",
-  "lucilla"
+  "ammia-thrax",
+  "phaedra"
  ],
- "count_index": 2,
+ "count_index": 1,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -19,7 +19,15 @@
    "id": "vettius",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "sneaking",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 0,
+     "note": null
+    }
+   ],
    "group": "vettius",
    "perceived": "vettius",
    "judge_set": {},
@@ -27,7 +35,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -191,7 +199,7 @@
      "dex_only": 1
     },
     "hp_max": 32,
-    "movement_running": 60,
+    "movement_running": 30,
     "weapons": [
      {
       "name": "Short Sword +2",
@@ -260,35 +268,35 @@
    "hp_max": 32,
    "hp": 32,
    "hp_start": 32,
-   "acted_round": 2
+   "attacked_round": 1
   },
-  "vestus-the-unlikely": {
-   "id": "vestus-the-unlikely",
+  "brennus": {
+   "id": "brennus",
    "side": "party",
    "status": "active",
    "conditions": [],
-   "group": "vestus-the-unlikely",
-   "perceived": "vestus-the-unlikely",
+   "group": "brennus",
+   "perceived": "brennus",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 8,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
-   "name": "Vestus the Unlikely",
+   "name": "Brennus",
    "stats": {
-    "name": "Vestus the Unlikely",
-    "actor": "vestus-the-unlikely",
+    "name": "Brennus",
+    "actor": "brennus",
     "kind": "pc",
-    "level": 7,
-    "class": "Mage",
+    "level": 8,
+    "class": "Fighter",
     "size": "man-sized",
     "mods": {
      "STR": [
-      -1,
+      1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -296,7 +304,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 2
+       "row": 4
       }
      ],
      "INT": [
@@ -324,7 +332,7 @@
       }
      ],
      "DEX": [
-      1,
+      3,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -332,7 +340,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 6
       }
      ],
      "CON": [
@@ -361,7 +369,228 @@
      ]
     },
     "attack_throw": [
+     5,
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 5
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 8,
+      "death": 9,
+      "blast": 10,
+      "implements": 11,
+      "spells": 12
+     },
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 5
+     }
+    ],
+    "hit_die": [
+     "1d8",
+     {
+      "rule": "class.fighter.hit_die",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
      8,
+     {
+      "rule": "class.fighter.cleave",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 10,
+     "no_shield": 10,
+     "dex_only": 3
+    },
+    "hp_max": 35,
+    "movement_running": 30,
+    "weapons": [
+     {
+      "name": "Great Axe +1",
+      "init_bonus": "",
+      "attack_throw": 3,
+      "damage": "1d10+5",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Spear +1",
+      "init_bonus": "",
+      "attack_throw": 3,
+      "damage": "1d6/1d8+5",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "backpack"
+     },
+     {
+      "name": "Hand Axe",
+      "init_bonus": "",
+      "attack_throw": 4,
+      "damage": "1d6+4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "sack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Berserkergang",
+     "Fighting Style Specialization (two-handed weapon)",
+     "Weapon Focus (axes)",
+     "Adventuring",
+     "Endurance",
+     "Healing",
+     "Intimidation"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "berserkergang": "",
+     "fighting style specialization (two-handed weapon)": "",
+     "weapon focus (axes)": "",
+     "adventuring": "",
+     "endurance": "",
+     "healing": "",
+     "intimidation": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "brennus",
+   "hp_max": 35,
+   "hp": 35,
+   "hp_start": 35,
+   "acted_round": 2
+  },
+  "phaedra": {
+   "id": "phaedra",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "phaedra",
+   "perceived": "phaedra",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Phaedra",
+   "stats": {
+    "name": "Phaedra",
+    "actor": "phaedra",
+    "kind": "henchman",
+    "level": 6,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     9,
      {
       "table": "mage-attack-and-saving-throws",
       "title": "Mage Attack and Saving Throws",
@@ -369,16 +598,16 @@
       "block": "^tbl-mage-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 35",
-      "row": 2
+      "row": 1
      }
     ],
     "saves": [
      {
-      "paralysis": 11,
-      "death": 11,
-      "blast": 13,
-      "implements": 9,
-      "spells": 10
+      "paralysis": 12,
+      "death": 12,
+      "blast": 14,
+      "implements": 10,
+      "spells": 11
      },
      {
       "table": "mage-attack-and-saving-throws",
@@ -387,7 +616,7 @@
       "block": "^tbl-mage-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 35",
-      "row": 2
+      "row": 1
      }
     ],
     "hit_die": [
@@ -410,74 +639,128 @@
      }
     ],
     "ac_options": {
-     "shield": 1,
-     "no_shield": 1,
-     "dex_only": 1
+     "shield": -1,
+     "no_shield": -1,
+     "dex_only": -1
     },
-    "hp_max": 18,
-    "movement_running": 120,
+    "hp_max": 20,
+    "movement_running": 60,
     "weapons": [
      {
       "name": "Dagger",
       "init_bonus": "",
       "attack_throw": 9,
-      "damage": "1d4-1",
+      "damage": "1d4",
       "range": {
        "short": 15,
        "medium": 30,
        "long": 45
       },
       "held": "right hand"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "back"
+     },
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "back"
      }
     ],
     "save_mods_text": {},
-    "initiative_sheet": null,
+    "initiative_sheet": -1,
     "proficiencies": [
-     "Loremastery",
+     "Alchemy",
      "Magical Engineering",
-     "Mapping",
-     "Language (Ancient Argollëan)",
-     "Swimming"
+     "Caving",
+     "Language (Ancient Argollëan)"
     ],
     "proficiency_throws": {},
     "prof_throw_list": {
-     "loremastery": "",
+     "alchemy": "",
      "magical engineering": "",
-     "mapping": "",
-     "language (ancient argollëan)": "",
-     "swimming": ""
+     "caving": "",
+     "language (ancient argollëan)": ""
     },
     "ac_mode": "shield"
    },
-   "actor": "vestus-the-unlikely",
-   "hp_max": 18,
-   "hp": 18,
-   "hp_start": 18,
-   "attacked_round": 2
+   "actor": "phaedra",
+   "hp_max": 20,
+   "hp": 20,
+   "hp_start": 20
   },
-  "cotta": {
-   "id": "cotta",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "cotta",
-   "perceived": "cotta",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
+  "ammia-thrax": {
+   "id": "ammia-thrax",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "slumbering",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    },
+    {
+     "name": "dead",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "ammia",
+   "perceived": "the woman with the crow",
+   "judge_set": {
+    "morale": "0"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 2,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
-   "kind": "pc",
-   "name": "Cotta",
+   "kind": "npc",
+   "name": "Ammia Thrax",
    "stats": {
-    "name": "Cotta",
-    "actor": "cotta",
-    "kind": "pc",
-    "level": 6,
-    "class": "Explorer",
+    "name": "Ammia Thrax",
+    "actor": "ammia-thrax",
+    "kind": "npc",
+    "level": 4,
+    "class": "Witch",
     "size": "man-sized",
     "mods": {
      "STR": [
@@ -505,7 +788,7 @@
       }
      ],
      "WIL": [
-      1,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -513,7 +796,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 2
       }
      ],
      "DEX": [
@@ -529,7 +812,7 @@
       }
      ],
      "CON": [
-      0,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -537,11 +820,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 2
       }
      ],
      "CHA": [
-      0,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -549,538 +832,67 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 2
       }
      ]
     },
     "attack_throw": [
-     7,
+     9,
      {
-      "table": "explorer-attack-and-saving-throws",
-      "title": "Explorer (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "block": "^tbl-explorer-attack-and-saving-throws",
+      "table": "witch-attack-throws",
+      "title": "Witch (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Witch.md",
+      "block": "^tbl-witch-attack-throws",
       "book": "RR",
-      "page": "p. 25",
-      "row": 3
+      "page": "p. 77",
+      "row": 1
      }
     ],
     "saves": [
      {
-      "paralysis": 10,
-      "death": 11,
-      "blast": 12,
-      "implements": 13,
+      "paralysis": 12,
+      "death": 9,
+      "blast": 15,
+      "implements": 12,
       "spells": 14
      },
      {
-      "table": "explorer-attack-and-saving-throws",
-      "title": "Explorer (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "block": "^tbl-explorer-attack-and-saving-throws",
+      "table": "witch-saving-throws",
+      "title": "Witch (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Witch.md",
+      "block": "^tbl-witch-saving-throws",
       "book": "RR",
-      "page": "p. 25",
-      "row": 3
+      "page": "p. 77",
+      "row": 1
      }
     ],
     "hit_die": [
-     "1d6",
+     "1d4",
      {
-      "rule": "class.explorer.hit_die",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "rule": "class.witch.hit_die",
+      "note": "ACKS II Rules/03 Classes/Witch.md",
       "book": "RR",
-      "page": "p. 26"
+      "page": "p. 76"
      }
     ],
-    "progression": "fighter",
+    "progression": "mage",
     "cleaves": [
-     6,
+     0,
      {
-      "rule": "class.explorer.cleave",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "rule": "class.witch.cleave",
+      "note": "ACKS II Rules/03 Classes/Witch.md",
       "book": "RR",
-      "page": "p. 24"
+      "page": "p. 76"
      }
     ],
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
+     "shield": 1,
+     "no_shield": 1,
      "dex_only": 1
     },
-    "hp_max": 19,
-    "movement_running": 60,
-    "weapons": [
-     {
-      "name": "Long Bow +1",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "right hand, two-handed"
-     },
-     {
-      "name": "Composite Bow",
-      "init_bonus": "",
-      "attack_throw": 6,
-      "damage": "1d6+3",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "belt"
-     },
-     {
-      "name": "Sword",
-      "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d6/1d8+3",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "belt"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": 1,
-    "proficiencies": [
-     "Adventuring",
-     "Mounted Combat",
-     "Precise Shooting",
-     "Combat Reflexes",
-     "Riding",
-     "Mapping"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "adventuring": "",
-     "mounted combat": "",
-     "precise shooting": "",
-     "combat reflexes": "",
-     "riding": "",
-     "mapping": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "cotta",
-   "hp_max": 19,
-   "hp": 19,
-   "hp_start": 19,
-   "acted_round": 2
-  },
-  "lucilla": {
-   "id": "lucilla",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "lucilla",
-   "perceived": "lucilla",
-   "judge_set": {
-    "resist": "fire:both"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "pc",
-   "name": "Lucilla",
-   "stats": {
-    "name": "Lucilla",
-    "actor": "lucilla",
-    "kind": "pc",
-    "level": 8,
-    "class": "Venturer",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "INT": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CON": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CHA": [
-      2,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 5
-      }
-     ]
-    },
-    "attack_throw": [
-     7,
-     {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 41",
-      "row": 3
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 10,
-      "death": 10,
-      "blast": 10,
-      "implements": 11,
-      "spells": 12
-     },
-     {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 41",
-      "row": 3
-     }
-    ],
-    "hit_die": [
-     "1d6",
-     {
-      "rule": "class.venturer.hit_die",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "book": "RR",
-      "page": "p. 40"
-     }
-    ],
-    "progression": "crusader/thief",
-    "cleaves": [
-     4,
-     {
-      "rule": "class.venturer.cleave",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "book": "RR",
-      "page": "p. 40"
-     }
-    ],
-    "ac_options": {
-     "shield": 6,
-     "no_shield": 6,
-     "dex_only": 1
-    },
-    "hp_max": 42,
-    "movement_running": 60,
-    "weapons": [
-     {
-      "name": "Mace +1",
-      "init_bonus": "",
-      "attack_throw": 6,
-      "damage": "1d6+1",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "left hand"
-     },
-     {
-      "name": "Dagger",
-      "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d4",
-      "range": {
-       "short": 15,
-       "medium": 30,
-       "long": 45
-      },
-      "held": "belt"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": null,
-    "proficiencies": [
-     "Magical Engineering",
-     "Driving",
-     "Leadership",
-     "Intimidation",
-     "Adventuring",
-     "Knowledge (history)",
-     "Bargaining",
-     "Diplomacy"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "magical engineering": "",
-     "driving": "",
-     "leadership": "",
-     "intimidation": "",
-     "adventuring": "",
-     "knowledge (history)": "",
-     "bargaining": "",
-     "diplomacy": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "lucilla",
-   "hp_max": 42,
-   "hp": 42,
-   "hp_start": 42
-  },
-  "marius-corvo": {
-   "id": "marius-corvo",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "dead",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "corvo",
-   "perceived": "the hunter",
-   "judge_set": {
-    "morale": "0"
-   },
-   "hp_lost_rounds": [
-    1,
-    2
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "arcane"
-    ],
-    "natural": false,
-    "by": "vestus-the-unlikely",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "npc",
-   "name": "Marius Corvo",
-   "stats": {
-    "name": "Marius Corvo",
-    "actor": "marius-corvo",
-    "kind": "npc",
-    "level": 1,
-    "class": "Explorer",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "INT": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CON": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CHA": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ]
-    },
-    "attack_throw": [
-     10,
-     {
-      "table": "explorer-attack-and-saving-throws",
-      "title": "Explorer (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "block": "^tbl-explorer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 0
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 13,
-      "death": 14,
-      "blast": 15,
-      "implements": 16,
-      "spells": 17
-     },
-     {
-      "table": "explorer-attack-and-saving-throws",
-      "title": "Explorer (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "block": "^tbl-explorer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 0
-     }
-    ],
-    "hit_die": [
-     "1d6",
-     {
-      "rule": "class.explorer.hit_die",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "book": "RR",
-      "page": "p. 26"
-     }
-    ],
-    "progression": "fighter",
-    "cleaves": [
-     1,
-     {
-      "rule": "class.explorer.cleave",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
-     "dex_only": 0
-    },
-    "hp_max": 4,
+    "hp_max": 8,
     "movement_running": 120,
-    "weapons": [
-     {
-      "name": "Spear",
-      "init_bonus": "",
-      "damage": "1d6"
-     },
-     {
-      "name": "Dagger",
-      "init_bonus": "",
-      "damage": "1d4"
-     }
-    ],
+    "weapons": [],
     "save_mods_text": {},
     "initiative_sheet": 1,
     "proficiencies": [],
@@ -1088,23 +900,23 @@
     "prof_throw_list": {},
     "ac_mode": "shield"
    },
-   "actor": "marius-corvo",
-   "hp_max": 4,
+   "actor": "ammia-thrax",
+   "hp_max": 8,
    "hp": -10,
-   "hp_start": 1,
+   "hp_start": 8,
    "mortal_wounds": {
-    "total": -22,
-    "d20": 6,
+    "total": -3,
+    "d20": 18,
     "d6": 4,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "table": "mortal-wounds-slashing",
     "condition": "You were instantly killed.",
-    "wound": "Your rib cage's collapse leads to an agonizing death gasping for air from ruptured lungs.",
-    "band": "-6 or less"
+    "wound": "Entrails spill from your sliced belly like noodles in an overflowing bowl, betraying a grisly end.",
+    "band": "-5 to 0"
    },
    "xp_recorded": {
-    "record": "M242",
+    "record": "M244",
     "how": "killed",
-    "xp": 10
+    "xp": 80
    }
   }
  },
@@ -1121,10 +933,10 @@
    },
    "start_count": 1
   },
-  "vestus-the-unlikely": {
+  "brennus": {
    "side": "party",
    "members": [
-    "vestus-the-unlikely"
+    "brennus"
    ],
    "morale": {
     "state": "steady",
@@ -1133,10 +945,10 @@
    },
    "start_count": 1
   },
-  "cotta": {
+  "phaedra": {
    "side": "party",
    "members": [
-    "cotta"
+    "phaedra"
    ],
    "morale": {
     "state": "steady",
@@ -1145,64 +957,72 @@
    },
    "start_count": 1
   },
-  "lucilla": {
-   "side": "party",
-   "members": [
-    "lucilla"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
-  "corvo": {
+  "ammia": {
    "side": "foe",
    "members": [
-    "marius-corvo"
+    "ammia-thrax"
    ],
    "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
+    "state": "advance and pursue",
+    "rolls": [
+     {
+      "round": 1,
+      "total": 9,
+      "result": "Advance and Pursue",
+      "reason": "lost 1/3 of its hp (5/8)"
+     }
+    ],
+    "triggered": true,
+    "last_trigger_round": 1,
+    "first_round": 1
    },
    "start_count": 1,
    "felled_rounds": [
-    1
+    2
    ]
   }
  },
  "engaged": [],
- "engaged_at_round_start": [],
+ "engaged_at_round_start": [
+  [
+   "ammia-thrax",
+   "vettius"
+  ]
+ ],
  "distances": {
-  "marius-corvo|vettius": 5,
-  "marius-corvo|vestus-the-unlikely": 0,
-  "cotta|marius-corvo": 10,
-  "lucilla|marius-corvo": 10
+  "ammia-thrax|vettius": 5,
+  "ammia-thrax|brennus": 20,
+  "ammia-thrax|phaedra": 60
  },
  "log": [],
- "notes_shown": [],
+ "notes_shown": [
+  "morale.modifier_tiers"
+ ],
  "round_ended": 1,
- "retinue": {},
+ "retinue": {
+  "phaedra": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  }
+ },
  "party_hp_written": [
   "vettius",
-  "vestus-the-unlikely",
-  "cotta",
-  "lucilla"
+  "brennus",
+  "phaedra"
  ],
  "ended": {
   "round": 2,
   "felled_foes": [
    {
-    "id": "marius-corvo",
-    "name": "Marius Corvo",
-    "perceived": "the hunter",
+    "id": "ammia-thrax",
+    "name": "Ammia Thrax",
+    "perceived": "the woman with the crow",
     "outcome": "slain",
     "hp": -10,
     "condition": "You were instantly killed.",
-    "wound": "Your rib cage's collapse leads to an agonizing death gasping for air from ruptured lungs.",
-    "total": -22
+    "wound": "Entrails spill from your sliced belly like noodles in an overflowing bowl, betraying a grisly end.",
+    "total": -3
    }
   ]
  }

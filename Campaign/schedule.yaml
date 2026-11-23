@@ -96,6 +96,7 @@ items:
     - {label: "which live matter (three, two faces each: World State)", dice: 1d6}
     - {label: "the officer's reaction (the Captain's badge +2 when Tiberius Maro, Captain from day 528, stands with the company; none between day 517 and 528, Rulings S14, S35)", dice: 2d6+2}
   steps:
+  - "day 533 only: one extra 1-in-6 for Ammia Thrax's found body (A124, day 531)"
   - "extra 1-in-6 rolls: one per found body (Rulings S23) and one per untraced sale to the Watch; 2-in-6 for an open asker (Rulings S21)"
   - "from day 526: an extra 2-in-6 roll for Marius Corvo's complaint (day 523: a scarred big woman and a mage of light-darts in the North Gate lanes; Brennus and Vestus); it names that matter if it falls; ends when Corvo is dead or the complaint is withdrawn (Rulings S35)"
   source: "Rulings S14 (row 98), S21 (row 147), S23 (row 154)"
@@ -258,16 +259,3 @@ items:
   day: 507
   source: "SOTN p. 94; World State day 503"
 
-- id: weekly-corvo-leaves
-  title: "Weekly: Marius Corvo leaves the city (warned, day 523)"
-  every: 7
-  anchor: 523
-  from: 530
-  rolls:
-  - label: "Corvo leaves the city"
-    dice: 1d6
-    on: "1"
-    outcomes: {"1": "he goes (north into the woods, a hunter's trail; the contract cannot be done in the city)", "2-6": "he stays, keeping company"}
-  steps:
-  - "end this item when Corvo is dead or the contract's day (540) passes"
-  source: "Rulings S35"

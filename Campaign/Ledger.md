@@ -640,6 +640,7 @@ tags:
 | 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus lid inlaid with lapis (Cassair's) | 3,000 | sold |
 | 521 | Descent 76 (O: the coffins) | Lamellar +1 | 700 | brennus |
 | 526 | Order contract: Marius Corvo (Vestus) | reward 500.0gp | 500 | vestus-the-unlikely |
+| 531 | Order contract: Decimus Ruga (Brennus) | reward 500.0gp | 500 | brennus |
 
 ## Monster XP
 
@@ -824,6 +825,7 @@ tags:
 | 517 | Descent 74 (N: the south-west passage) | Cassair (SOTN) | 1 | 3,100 | 3,100 |
 | 521 | Descent 76 (O: the coffins) | Tunnel Prawn (SOTN) | 8 | 10 | 80 |
 | 526 | Order contract: Marius Corvo (Vestus) | Marius Corvo | 1 | 10 | 10 |
+| 531 | Order contract: Decimus Ruga (Brennus) | Decimus Ruga | 1 | 10 | 10 |
 
 ## Shares and XP awarded
 
@@ -1658,6 +1660,9 @@ tags:
 | 526 | Order contract: Marius Corvo (Vestus) | Vettius | 1 | 125 | 2 | 0 | +5% | 134 |
 | 526 | Order contract: Marius Corvo (Vestus) | Cotta | 1 | 125 | 2 | 0 | +0% | 128 |
 | 526 | Order contract: Marius Corvo (Vestus) | Lucilla | 1 | 125 | 2 | 0 | +10% | 141 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 531 | Order contract: Decimus Ruga (Brennus) | Brennus | 1 | 200 | 4 | 0 | +5% | 214 |
+| 531 | Order contract: Decimus Ruga (Brennus) | Vettius | 1 | 200 | 4 | 0 | +5% | 214 |
+| 531 | Order contract: Decimus Ruga (Brennus) | Phaedra | 0.5 | 100 | 2 | 0 | +0% | 102 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4356,3 +4361,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 528 | Cyfaraun | Banded Plate Armor | 1 |  | 45gp | vettius |
 | 528 | Cyfaraun | Shield | 1 |  | 9gp | vettius |
 | 528 | Cyfaraun | Mace | 1 |  | 4gp 5sp | vettius |
+| 531 |  | treasure share |  | 200gp |  | brennus |
+| 531 |  | treasure share |  | 200gp |  | vettius |
+| 531 |  | treasure share |  | 100gp |  | phaedra |
