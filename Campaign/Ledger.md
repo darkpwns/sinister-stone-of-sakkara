@@ -553,6 +553,8 @@ tags:
 | 446 | The Order's contract: Sextus Calvo (night of 444) | Sextus Calvo | 1 | 80 | 80 |
 | 448 | The Order's contract: Galla Ursina (night of 445) | Galla Ursina | 1 | 80 | 80 |
 | 448 | The Order's contract: Marcus Vedius (night of 446-447) | Marcus Vedius | 1 | 80 | 80 |
+| 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Varinia Sorex | 1 | 200 | 200 |
+| 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Cultist of Dirgion (AX3) | 3 | 10 | 30 |
 
 ## Shares and XP awarded
 
@@ -1176,6 +1178,10 @@ tags:
 | 448 | The Order's contract: Galla Ursina (night of 445) | Phaedra | 0.5 | 286 | 11 | 0 | +0% | 297 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen)
 | 448 | The Order's contract: Marcus Vedius (night of 446-447) | Neris | 1 | 1,000 | 40 | 0 | +0% | 1,040 |
 | 448 | The Order's contract: Marcus Vedius (night of 446-447) | Vettius | 1 | 1,000 | 40 | 0 | +5% | 1,092 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 14 Key Attribute; RR p. 168 Henchmen)
+| 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Iulia | 1 | 0 | 77 | 0 | +5% | 81 |
+| 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Brennus | 1 | 0 | 77 | 0 | +5% | 81 |
+| 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Hrodvar | 0.5 | 0 | 38 | 0 | +0% | 38 |
+| 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Marcellus | 0.5 | 0 | 38 | 0 | +0% | 38 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3403,3 +3409,34 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 450 | the Argollëan Family and the venture company | month 15: the syndicate (the Family 11,424gp: AX3 p. 75 less this month's dead, Sextus 4th -425, Iunia 3rd -200, eleven 0th -11; Sand & Bones 7,050gp; 18,474gp merged) for days 421-434: 14/30 = 8,621gp (Rulings S22); the Pony's honest half 758gp (14/30 of 1,624); the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp |  | 13,629gp |  | lucilla |
 | 450 | the Argollëan Family | month 15: the syndicate (18,474gp merged) for days 435-450: 16/30 = 9,853gp; the Pony's honest half 866gp (16/30 of 1,624) |  | 10,719gp |  | vettius |
 | 450 | the caravan investments | month 15 investments: (1) 84 Return +150% 17gp 5sp; (2) 3 Delay 6 months (months 16-21), nothing; (3) 98 Discovery +8%: 30 + 240 = 270gp |  | 287gp 5sp |  | lucilla |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 1,116gp 6sp 8cp |  | lucilla |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 1,116gp 6sp 8cp |  | vettius |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 1,116gp 6sp 8cp |  | vestus-the-unlikely |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 1,116gp 6sp 8cp |  | brennus |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 1,116gp 6sp 8cp |  | iulia |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 1,116gp 6sp 8cp |  | neris |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 558gp 3sp 3cp |  | phaedra |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 558gp 3sp 3cp |  | varro |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 558gp 3sp 3cp |  | hrodvar |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 558gp 3sp 3cp |  | aelia |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 558gp 3sp 3cp |  | marcellus |
+| 451 | market | his share of the sale of L558,L559,L560,L561,L562,L563,L564 (after the payout) |  | 558gp 3sp 3cp |  | cotta |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 841gp 6sp 7cp |  | lucilla |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 841gp 6sp 7cp |  | vettius |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 841gp 6sp 7cp |  | vestus-the-unlikely |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 841gp 6sp 7cp |  | neris |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 841gp 6sp 7cp |  | brennus |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 841gp 6sp 7cp |  | iulia |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 420gp 8sp 4cp |  | phaedra |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 420gp 8sp 4cp |  | varro |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 420gp 8sp 4cp |  | hrodvar |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 420gp 8sp 4cp |  | aelia |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 420gp 8sp 4cp |  | marcellus |
+| 451 | market | his share of the sale of L572,L573,L574,L575,L576,L579,L580,L581,L585,L586,L587 (after the payout) |  | 420gp 8sp 4cp |  | cotta |
+| 451 | the Tower of Knowledge (alchemist) | identify a potion (L510), 40gp, one turn (AX3 p. 152), day 451 |  |  | 40gp | lucilla |
+| 451 | the Tower of Knowledge (a mage's identification) | identify nine items, 2,000gp each, ready in two weeks (day 465; AX3 p. 152): L502, L506, L517, L518, L525, L528, L529, L530, L554, day 451 |  |  | 18,000gp | lucilla |
+| 451 | the retinue | wages paid |  |  | 100gp | vettius |
+| 452 |  | treasure share |  |  |  |  |
+| 452 |  | treasure share |  |  |  |  |
+| 452 |  | treasure share |  |  |  |  |
+| 452 |  | treasure share |  |  |  |  |

@@ -1,88 +1,152 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 95,
+  "A": 96,
   "L": 590,
   "H": 44,
-  "M": 183
+  "M": 185
  },
  "adventure": {
-  "id": "A95",
-  "name": "The Order's contract: Marcus Vedius (night of 446-447)",
-  "start_day": 448,
+  "id": "A96",
+  "name": "Iulia's sanctioned mission: the Nasgan priestess (night of 452)",
+  "start_day": 452,
   "participants": {
-   "neris": {
-    "id": "neris",
-    "name": "Neris",
-    "actor": "neris",
+   "iulia": {
+    "id": "iulia",
+    "name": "Iulia",
+    "actor": "iulia",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 89940,
+    "xp_before": 93506,
     "level_before": 7,
-    "class": "Priestess",
-    "returned_day": 448,
-    "xp_award": 1040
+    "class": "Crusader",
+    "returned_day": 452,
+    "xp_award": 81
    },
-   "vettius": {
-    "id": "vettius",
-    "name": "Vettius",
-    "actor": "vettius",
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 104025,
-    "level_before": 8,
-    "class": "Thief",
-    "returned_day": 448,
-    "xp_award": 1092
+    "xp_before": 95961,
+    "level_before": 7,
+    "class": "Fighter",
+    "returned_day": 452,
+    "xp_award": 81
+   },
+   "hrodvar": {
+    "id": "hrodvar",
+    "name": "Hrodvar",
+    "actor": "hrodvar",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 35288,
+    "level_before": 6,
+    "class": "Dwarven Vaultguard",
+    "returned_day": 452,
+    "xp_award": 38
+   },
+   "marcellus": {
+    "id": "marcellus",
+    "name": "Marcellus",
+    "actor": "marcellus",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 37084,
+    "level_before": 6,
+    "class": "Fighter",
+    "returned_day": 452,
+    "xp_award": 38
    }
   },
   "monsters": [
    {
-    "id": "M183",
-    "monster": "Marcus Vedius",
-    "source": "Marcus Vedius",
+    "id": "M184",
+    "monster": "Varinia Sorex",
+    "source": "Varinia Sorex",
     "number": 1,
+    "how": "captured",
+    "xp_each": 200
+   },
+   {
+    "id": "M185",
+    "monster": "Cultist of Dirgion (AX3)",
+    "source": "Cultist of Dirgion (AX3) (MM p. 185)",
+    "number": 3,
     "how": "killed",
-    "xp_each": 80
+    "xp_each": 10
    }
   ],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 448,
+   "day": 452,
    "at": "Cyfaraun",
-   "total": 2080.0,
-   "per_share": 1040.0,
+   "total": 230.0,
+   "per_share": 76.66666666666667,
    "awards": {
-    "neris": {
+    "iulia": {
      "share": 1.0,
      "why": null,
-     "base": 1040,
-     "pct": 0,
+     "base": 77,
+     "pct": 5,
      "pen": 0,
-     "award": 1040,
-     "xp_before": 89940,
-     "xp_after": 90980,
+     "award": 81,
+     "xp_before": 93506,
+     "xp_after": 93587,
      "capped": null,
      "zero": false
     },
-    "vettius": {
+    "brennus": {
      "share": 1.0,
      "why": null,
-     "base": 1040,
+     "base": 77,
      "pct": 5,
      "pen": 0,
-     "award": 1092,
-     "xp_before": 104025,
-     "xp_after": 105117,
+     "award": 81,
+     "xp_before": 95961,
+     "xp_after": 96042,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 38,
+     "pct": 0,
+     "pen": 0,
+     "award": 38,
+     "xp_before": 35288,
+     "xp_after": 35326,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 38,
+     "pct": 0,
+     "pen": 0,
+     "award": 38,
+     "xp_before": 37084,
+     "xp_after": 37122,
      "capped": null,
      "zero": false
     }
@@ -90,7 +154,7 @@
   },
   "events": [],
   "returned": {
-   "day": 448,
+   "day": 452,
    "where": "Cyfaraun"
   }
  },
@@ -30710,6 +30774,94 @@
     "day": 448,
     "where": "Cyfaraun"
    }
+  },
+  {
+   "id": "A95",
+   "name": "The Order's contract: Marcus Vedius (night of 446-447)",
+   "start_day": 448,
+   "participants": {
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 89940,
+     "level_before": 7,
+     "class": "Priestess",
+     "returned_day": 448,
+     "xp_award": 1040
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 104025,
+     "level_before": 8,
+     "class": "Thief",
+     "returned_day": 448,
+     "xp_award": 1092
+    }
+   },
+   "monsters": [
+    {
+     "id": "M183",
+     "monster": "Marcus Vedius",
+     "source": "Marcus Vedius",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 80
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 448,
+    "at": "Cyfaraun",
+    "total": 2080.0,
+    "per_share": 1040.0,
+    "awards": {
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 1040,
+      "pct": 0,
+      "pen": 0,
+      "award": 1040,
+      "xp_before": 89940,
+      "xp_after": 90980,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 1040,
+      "pct": 5,
+      "pen": 0,
+      "award": 1092,
+      "xp_before": 104025,
+      "xp_after": 105117,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 448,
+    "where": "Cyfaraun"
+   }
   }
  ],
  "lots": {
@@ -53175,10 +53327,14 @@
     "value_gp": null,
     "apparent_gp": 25,
     "magical": true,
-    "known": []
+    "known": [
+     "name",
+     "the Tower's alchemist, 40gp, one turn (AX3 p. 152)"
+    ],
+    "name": "Potion of Freedom"
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
    "judge": []
@@ -54905,7 +55061,7 @@
    "qty": 1,
    "stone": 5.0,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -54920,15 +55076,37 @@
    },
    "player": {
     "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "neris": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -54942,7 +55120,7 @@
    "qty": 1,
    "stone": 5.0,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -54957,15 +55135,37 @@
    },
    "player": {
     "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "neris": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -54979,7 +55179,7 @@
    "qty": 1,
    "stone": 5.0,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -54994,15 +55194,37 @@
    },
    "player": {
     "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "neris": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -55016,7 +55238,7 @@
    "qty": 1,
    "stone": 5.0,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -55031,15 +55253,37 @@
    },
    "player": {
     "desc": "a corner of the Iskaran's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "neris": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -55053,7 +55297,7 @@
    "qty": 1,
    "stone": 1.34,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -55068,15 +55312,37 @@
    },
    "player": {
     "desc": "four chryselephantine statuettes of elven kings and priests",
-    "value_gp": null,
+    "value_gp": 2800.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 2800.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 311.11,
+     "vettius": 311.11,
+     "vestus-the-unlikely": 311.11,
+     "brennus": 311.11,
+     "iulia": 311.11,
+     "neris": 311.11,
+     "phaedra": 155.56,
+     "varro": 155.56,
+     "hrodvar": 155.56,
+     "aelia": 155.56,
+     "marcellus": 155.56,
+     "cotta": 155.56
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -55090,7 +55356,7 @@
    "qty": 1,
    "stone": 1.0,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -55105,15 +55371,37 @@
    },
    "player": {
     "desc": "an alabaster tablet of prayers in Ancient Argollean",
-    "value_gp": null,
+    "value_gp": 1000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 111.11,
+     "vettius": 111.11,
+     "vestus-the-unlikely": 111.11,
+     "brennus": 111.11,
+     "iulia": 111.11,
+     "neris": 111.11,
+     "phaedra": 55.56,
+     "varro": 55.56,
+     "hrodvar": 55.56,
+     "aelia": 55.56,
+     "marcellus": 55.56,
+     "cotta": 55.56
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -55127,7 +55415,7 @@
    "qty": 1,
    "stone": 1.2,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 430,
     "where": "S2"
@@ -55142,15 +55430,37 @@
    },
    "player": {
     "desc": "a gold candelabrum inset with ivory and white topaz, twenty sticks of myrrh in it",
-    "value_gp": null,
+    "value_gp": 4750.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 4750.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 527.78,
+     "vettius": 527.78,
+     "vestus-the-unlikely": 527.78,
+     "brennus": 527.78,
+     "iulia": 527.78,
+     "neris": 527.78,
+     "phaedra": 263.89,
+     "varro": 263.89,
+     "hrodvar": 263.89,
+     "aelia": 263.89,
+     "marcellus": 263.89,
+     "cotta": 263.89
+    }
+   },
    "judge": [],
    "stored": {
     "place": "solar-citadel-barracks",
@@ -55398,8 +55708,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55413,15 +55723,37 @@
    },
    "player": {
     "desc": "a gold death's-head funeral mask with jet eyes (from the mummy's face)",
-    "value_gp": null,
+    "value_gp": 1000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 111.11,
+     "vettius": 111.11,
+     "vestus-the-unlikely": 111.11,
+     "neris": 111.11,
+     "brennus": 111.11,
+     "iulia": 111.11,
+     "phaedra": 55.56,
+     "varro": 55.56,
+     "hrodvar": 55.56,
+     "aelia": 55.56,
+     "marcellus": 55.56,
+     "cotta": 55.56
+    }
+   },
    "judge": []
   },
   "L573": {
@@ -55430,8 +55762,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 5.0,
-   "carrier": "varro",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55446,15 +55778,37 @@
    },
    "player": {
     "desc": "a corner of the priestess's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "neris": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": []
   },
   "L574": {
@@ -55463,8 +55817,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 5.0,
-   "carrier": "hrodvar",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55479,15 +55833,37 @@
    },
    "player": {
     "desc": "a corner of the priestess's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "neris": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": []
   },
   "L575": {
@@ -55496,8 +55872,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 5.0,
-   "carrier": "iulia",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55512,15 +55888,37 @@
    },
    "player": {
     "desc": "a corner of the priestess's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "neris": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": []
   },
   "L576": {
@@ -55529,8 +55927,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 5.0,
-   "carrier": "cotta",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55545,15 +55943,37 @@
    },
    "player": {
     "desc": "a corner of the priestess's partly gilded bronze sarcophagus (four bearers on spear poles)",
-    "value_gp": null,
+    "value_gp": 375.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 375.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 41.67,
+     "vettius": 41.67,
+     "vestus-the-unlikely": 41.67,
+     "neris": 41.67,
+     "brennus": 41.67,
+     "iulia": 41.67,
+     "phaedra": 20.83,
+     "varro": 20.83,
+     "hrodvar": 20.83,
+     "aelia": 20.83,
+     "marcellus": 20.83,
+     "cotta": 20.83
+    }
+   },
    "judge": []
   },
   "L577": {
@@ -55630,8 +56050,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55645,15 +56065,37 @@
    },
    "player": {
     "desc": "a black opal (the cedar chest)",
-    "value_gp": null,
+    "value_gp": 750.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 750.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 83.33,
+     "vettius": 83.33,
+     "vestus-the-unlikely": 83.33,
+     "neris": 83.33,
+     "brennus": 83.33,
+     "iulia": 83.33,
+     "phaedra": 41.67,
+     "varro": 41.67,
+     "hrodvar": 41.67,
+     "aelia": 41.67,
+     "marcellus": 41.67,
+     "cotta": 41.67
+    }
+   },
    "judge": []
   },
   "L580": {
@@ -55662,8 +56104,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55677,15 +56119,37 @@
    },
    "player": {
     "desc": "a black opal (the cedar chest)",
-    "value_gp": null,
+    "value_gp": 750.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 750.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 83.33,
+     "vettius": 83.33,
+     "vestus-the-unlikely": 83.33,
+     "neris": 83.33,
+     "brennus": 83.33,
+     "iulia": 83.33,
+     "phaedra": 41.67,
+     "varro": 41.67,
+     "hrodvar": 41.67,
+     "aelia": 41.67,
+     "marcellus": 41.67,
+     "cotta": 41.67
+    }
+   },
    "judge": []
   },
   "L581": {
@@ -55694,8 +56158,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55709,15 +56173,37 @@
    },
    "player": {
     "desc": "a black opal (the cedar chest)",
-    "value_gp": null,
+    "value_gp": 750.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 750.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 83.33,
+     "vettius": 83.33,
+     "vestus-the-unlikely": 83.33,
+     "neris": 83.33,
+     "brennus": 83.33,
+     "iulia": 83.33,
+     "phaedra": 41.67,
+     "varro": 41.67,
+     "hrodvar": 41.67,
+     "aelia": 41.67,
+     "marcellus": 41.67,
+     "cotta": 41.67
+    }
+   },
    "judge": []
   },
   "L582": {
@@ -55828,8 +56314,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 5.0,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55844,15 +56330,37 @@
    },
    "player": {
     "desc": "ten red-figure terracotta urns (Vestus' sack and arms)",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 11.11,
+     "vettius": 11.11,
+     "vestus-the-unlikely": 11.11,
+     "neris": 11.11,
+     "brennus": 11.11,
+     "iulia": 11.11,
+     "phaedra": 5.56,
+     "varro": 5.56,
+     "hrodvar": 5.56,
+     "aelia": 5.56,
+     "marcellus": 5.56,
+     "cotta": 5.56
+    }
+   },
    "judge": []
   },
   "L586": {
@@ -55861,8 +56369,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "vettius",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55877,15 +56385,37 @@
    },
    "player": {
     "desc": "a large bronze scroll jar",
-    "value_gp": null,
+    "value_gp": 25.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 25.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 2.78,
+     "vettius": 2.78,
+     "vestus-the-unlikely": 2.78,
+     "neris": 2.78,
+     "brennus": 2.78,
+     "iulia": 2.78,
+     "phaedra": 1.39,
+     "varro": 1.39,
+     "hrodvar": 1.39,
+     "aelia": 1.39,
+     "marcellus": 1.39,
+     "cotta": 1.39
+    }
+   },
    "judge": []
   },
   "L587": {
@@ -55894,8 +56424,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.67,
-   "carrier": "vettius",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 440,
     "where": ""
@@ -55910,15 +56440,37 @@
    },
    "player": {
     "desc": "four illuminated books in Ancient Argollean: the Twelve Erotic Arts of Nasga (in the scroll jar)",
-    "value_gp": null,
+    "value_gp": 2700.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 2700.0,
+    "market": "Cyfaraun (Market)",
+    "day": 451,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 300.0,
+     "vettius": 300.0,
+     "vestus-the-unlikely": 300.0,
+     "neris": 300.0,
+     "brennus": 300.0,
+     "iulia": 300.0,
+     "phaedra": 150.0,
+     "varro": 150.0,
+     "hrodvar": 150.0,
+     "aelia": 150.0,
+     "marcellus": 150.0,
+     "cotta": 150.0
+    }
+   },
    "judge": []
   },
   "L588": {
