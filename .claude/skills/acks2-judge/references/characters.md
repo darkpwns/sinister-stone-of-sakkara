@@ -42,6 +42,15 @@ Commands (`bash $S/acks.sh actor …`):
   of protection on `saves.spells`). It applies in every roll (engine 7.6.2), named in the roll's source. The value is
   added to the number: a bonus to an attack throw or save is negative (`saves.spells -2`), to an attribute modifier or
   cleaves positive. A magic or masterwork weapon in the inventory applies its own bonus: no modifier for it.
+  Engine 7.17.2: **every worn item or standing power goes on the actor once, with its rule**, never as a prose
+  condition: targets `throws.<name>` (any proficiency, class skill or adventuring throw; `--flat N` = "a throw of N+
+  if he has none of his own, otherwise the value": the Cloak of the Elven Ranger is `throws.hiding -8 --flat 12`),
+  `saves.all`, `damage[.melee|.missile]`, `initiative`, and `note.<command>[.<arg>] --text "…"` for an effect the
+  engine cannot apply as a number (printed on every such command with the actor: `note.save.death` for a Ring of Life
+  Protection); `--rule "TT p. 151"`, `--item L528` (the lot it comes from). `actor mod ID --list`; `actor unmod ID
+  --item L#|--source S` when it is taken off or given away (`inv give|drop|sell` of the item says so). Typed
+  protections (a Ring of Fire Protection) are the actor's `defenses`; `damage ID --dice 3d6 --type fire` works outside
+  a fight too. A modifier added during a fight applies from the next `state add`.
 - A character built by hand (an AI player's PC): its numbers as a sheet-shaped YAML file, then `python3 $S/charsheet.py
   import <file> <id> [--role pc|henchman]` (the engine's importer, as for the PDF).
 - `check ID…` (`save.sh` checks every actor and refuses to save on an error); `render ID --md --player` only when the

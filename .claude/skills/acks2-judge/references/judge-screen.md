@@ -65,6 +65,18 @@ Spells and scrolls cast in a fight: check the target count, HD limit and save **
   reads "N% penalty on earned XP"); bed rest is incapacitated (max 1 hp).
 - Undead and mindless guards attack helpless characters in reach (automatic hits): drag the fallen out or cover them.
 
+### Enervation (engine 7.17.1; RR p. 509, MM pp. 17-18)
+An enervating hit: `acks.sh enervate ID --loss N --source "<what>"` once (maximum hp lowered by the damage, the
+condition set, a henchman's calamity roll queued). Where and how he sleeps, when he beds down: `acks.sh enervation set
+ID --pinnacle illuminated|hallowed|sacrosanct|none [--salving-rest] [--source "<ruling or place>"]` (standing until
+changed; `--sleep bed` for a patient left in a bed while the party delves). From then on the engine makes his Death
+save each dawn with everything that applies (his sheet's modifiers, the pinnacle, Salving Rest; no 8 hours of restful
+sleep: it fails by itself), lowers the maximum on a failure, ends the condition after three passes in a row (two under
+Salving Rest) and says so on the `wait`/`turn`/`camp` line. Never roll these saves by hand. `enervation show`;
+`enervation cure ID --ritual`; `enervation end ID --cause "…"` (a Judge's correction). Salving Rest ends when he
+stops resting completely or takes damage: `enervation set ID --no-salving-rest`. A level gained while enervated
+re-rolls maximum hp with full Hit Dice and takes the roll if higher (nothing is subtracted afterwards).
+
 ## 5. Thief skills (RR Thief; the engine has them as `throw ID --prof <skill>`)
 | Lvl | Climb | Hide | Listen | Locks | Pickpocket | Search | Sneak | Traps |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
