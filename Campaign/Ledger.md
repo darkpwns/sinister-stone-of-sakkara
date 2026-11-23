@@ -3920,3 +3920,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 484 |  | treasure share |  |  |  |  |
 | 485 | the Solar Citadel | Repair Disfigurement and Disability prayed by Patriarch Arëtar for Iulia's hand (185gp, Rulings S12; day 485) |  |  | 176gp 3sp 2cp | iulia |
 | 485 | the Solar Citadel | the rest of the 185gp for Iulia's Repair Disfigurement and Disability (day 485) |  |  | 8gp 7sp | neris |
+| 488 | Cyfaraun | arrow | 20 |  | 1gp | cotta |
+| 488 | Cyfaraun | arrow | 20 |  | 1gp | aelia |
+| 488 | Cyfaraun | bolt | 20 |  | 2gp | lucilla |
+| 488 | Cyfaraun | Holy Water (1 pint) | 2 |  | 50gp | neris |
+| 488 | Cyfaraun | Lantern | 1 |  | 10gp | hrodvar |
+| 488 | Cyfaraun | Oil, Common (1 pint) | 3 |  | 9sp | hrodvar |
+| 488 | Cyfaraun | Oil, Common (1 pint) | 3 |  | 9sp | vettius |
+| 488 | Cyfaraun | iron spike | 12 |  | 2gp | vettius |
+| 490 | the retinue | wages paid |  |  | 800gp | vettius |
