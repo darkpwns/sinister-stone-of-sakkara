@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 528
-  time: 08:50
+    day: 529
+  time: 06:50
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -141,7 +141,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 528
+clock_day: 529
 ---
 # Campaign State
 
