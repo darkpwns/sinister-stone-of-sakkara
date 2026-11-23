@@ -3259,3 +3259,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 430 |  | treasure share |  | 166gp 6sp 7cp |  | marcellus |
 | 430 |  | treasure share |  | 166gp 6sp 7cp |  | cotta |
 | 435 | Sand & Bones' members (a month's wage each: Change in Management bribes) | Vettius claims Sand & Bones from Lucilla's hand, day 435 |  |  | 8,140gp | vettius |
+| 435 | the Family's syndicate members (a month's wage each: Change in Management bribes) | Vettius claims the Family's syndicate from Lucilla's hand, day 435 |  |  | 13,080gp | vettius |
