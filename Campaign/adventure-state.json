@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 104,
-  "L": 692,
+  "L": 698,
   "H": 44,
-  "M": 211
+  "M": 213
  },
  "adventure": {
   "id": "A104",
@@ -19,12 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 137514,
     "level_before": 8,
     "class": "Venturer",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 1350
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 120169,
     "level_before": 8,
     "class": "Thief",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 1288
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -49,12 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 92187,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 1288
    },
    "neris": {
     "id": "neris",
@@ -64,12 +67,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 100285,
     "level_before": 7,
     "class": "Priestess",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 1227
    },
    "brennus": {
     "id": "brennus",
@@ -79,12 +83,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 105813,
     "level_before": 7,
     "class": "Fighter",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 1288
    },
    "iulia": {
     "id": "iulia",
@@ -94,12 +99,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 103358,
     "level_before": 8,
     "class": "Crusader",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 1288
    },
    "phaedra": {
     "id": "phaedra",
@@ -109,12 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 42952,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 614
    },
    "varro": {
     "id": "varro",
@@ -124,12 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 40542,
     "level_before": 6,
     "class": "Fighter",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 614
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -139,12 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 39978,
     "level_before": 6,
     "class": "Dwarven Vaultguard",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 614
    },
    "aelia": {
     "id": "aelia",
@@ -154,12 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 42999,
     "level_before": 6,
     "class": "Bard",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 614
    },
    "marcellus": {
     "id": "marcellus",
@@ -169,12 +179,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 41774,
     "level_before": 6,
     "class": "Fighter",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 614
    },
    "cotta": {
     "id": "cotta",
@@ -184,12 +195,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 9684,
     "level_before": 4,
     "class": "Explorer",
-    "joined_day": 478
+    "joined_day": 478,
+    "xp_award": 614
    }
   },
   "monsters": [
@@ -304,11 +316,190 @@
      ],
      "text": "the fight with Gelatinous Mass, encounter enc399, round 2"
     }
+   },
+   {
+    "id": "M212",
+    "monster": "Grand Chthonic High Priest (SOTN)",
+    "source": "Grand Chthonic High Priest (SOTN) (MM p. 54)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 2100,
+    "fight": {
+     "ids": [
+      "grand-chthonic-high-priest-sotn1"
+     ],
+     "text": "the fight with Grand Chthonic High Priest (SOTN), encounter enc400, round 1"
+    }
+   },
+   {
+    "id": "M213",
+    "monster": "Grey Goo",
+    "source": "Grey Goo (MM p. 166)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 95,
+    "fight": {
+     "ids": [
+      "grey-goo1"
+     ],
+     "text": "the fight with Grey Goo, encounter enc401, round 3"
+    }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 479,
+   "at": null,
+   "total": 11045.0,
+   "per_share": 1227.2222222222222,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 1227,
+     "pct": 10,
+     "pen": 0,
+     "award": 1350,
+     "xp_before": 137514,
+     "xp_after": 138864,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 1227,
+     "pct": 5,
+     "pen": 0,
+     "award": 1288,
+     "xp_before": 120169,
+     "xp_after": 121457,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 1227,
+     "pct": 5,
+     "pen": 0,
+     "award": 1288,
+     "xp_before": 92187,
+     "xp_after": 93475,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 1227,
+     "pct": 0,
+     "pen": 0,
+     "award": 1227,
+     "xp_before": 100285,
+     "xp_after": 101512,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 1227,
+     "pct": 5,
+     "pen": 0,
+     "award": 1288,
+     "xp_before": 105813,
+     "xp_after": 107101,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 1227,
+     "pct": 5,
+     "pen": 0,
+     "award": 1288,
+     "xp_before": 103358,
+     "xp_after": 104646,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 614,
+     "pct": 0,
+     "pen": 0,
+     "award": 614,
+     "xp_before": 42952,
+     "xp_after": 43566,
+     "capped": null,
+     "zero": false
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 614,
+     "pct": 0,
+     "pen": 0,
+     "award": 614,
+     "xp_before": 40542,
+     "xp_after": 41156,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 614,
+     "pct": 0,
+     "pen": 0,
+     "award": 614,
+     "xp_before": 39978,
+     "xp_after": 40592,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 614,
+     "pct": 0,
+     "pen": 0,
+     "award": 614,
+     "xp_before": 42999,
+     "xp_after": 43613,
+     "capped": null,
+     "zero": false
+    },
+    "marcellus": {
+     "share": 0.5,
+     "why": null,
+     "base": 614,
+     "pct": 0,
+     "pen": 0,
+     "award": 614,
+     "xp_before": 41774,
+     "xp_after": 42388,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 0.5,
+     "why": null,
+     "base": 614,
+     "pct": 0,
+     "pen": 0,
+     "award": 614,
+     "xp_before": 9684,
+     "xp_after": 10298,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -64513,8 +64704,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 478,
     "where": "G5"
@@ -64529,15 +64720,37 @@
    },
    "player": {
     "desc": "a bundle of old record scrolls in Ancient Argollean",
-    "value_gp": null,
+    "value_gp": 675.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 675.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 75.0,
+     "vettius": 75.0,
+     "vestus-the-unlikely": 75.0,
+     "neris": 75.0,
+     "brennus": 75.0,
+     "iulia": 75.0,
+     "phaedra": 37.5,
+     "varro": 37.5,
+     "hrodvar": 37.5,
+     "aelia": 37.5,
+     "marcellus": 37.5,
+     "cotta": 37.5
+    }
+   },
    "judge": []
   },
   "L691": {
@@ -64546,8 +64759,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.667,
-   "carrier": "neris",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 478,
     "where": "G5"
@@ -64562,15 +64775,37 @@
    },
    "player": {
     "desc": "4 stoppered vials of precious scent",
-    "value_gp": null,
+    "value_gp": 300.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 300.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 33.33,
+     "vettius": 33.33,
+     "vestus-the-unlikely": 33.33,
+     "neris": 33.33,
+     "brennus": 33.33,
+     "iulia": 33.33,
+     "phaedra": 16.67,
+     "varro": 16.67,
+     "hrodvar": 16.67,
+     "aelia": 16.67,
+     "marcellus": 16.67,
+     "cotta": 16.67
+    }
+   },
    "judge": []
   },
   "L692": {
@@ -64579,8 +64814,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1,
-   "carrier": "neris",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 478,
     "where": "G5"
@@ -64595,6 +64830,334 @@
    },
    "player": {
     "desc": "7 sticks of frankincense",
+    "value_gp": 140.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 140.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 15.56,
+     "vettius": 15.56,
+     "vestus-the-unlikely": 15.56,
+     "neris": 15.56,
+     "brennus": 15.56,
+     "iulia": 15.56,
+     "phaedra": 7.78,
+     "varro": 7.78,
+     "hrodvar": 7.78,
+     "aelia": 7.78,
+     "marcellus": 7.78,
+     "cotta": 7.78
+    }
+   },
+   "judge": []
+  },
+  "L693": {
+   "id": "L693",
+   "adventure": "A104",
+   "kind": "gem",
+   "qty": 1,
+   "stone": 0.001,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 479,
+    "where": "G6a"
+   },
+   "true": {
+    "kind": "gem",
+    "qty": 1,
+    "value_gp": 1000.0,
+    "stone": 0.001,
+    "name": "gem worth 1000.0gp"
+   },
+   "player": {
+    "desc": "a large onyx (the statue's left eye)",
+    "value_gp": 1000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 111.11,
+     "vettius": 111.11,
+     "vestus-the-unlikely": 111.11,
+     "neris": 111.11,
+     "brennus": 111.11,
+     "iulia": 111.11,
+     "phaedra": 55.56,
+     "varro": 55.56,
+     "hrodvar": 55.56,
+     "aelia": 55.56,
+     "marcellus": 55.56,
+     "cotta": 55.56
+    }
+   },
+   "judge": []
+  },
+  "L694": {
+   "id": "L694",
+   "adventure": "A104",
+   "kind": "gem",
+   "qty": 1,
+   "stone": 0.001,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 479,
+    "where": "G6a"
+   },
+   "true": {
+    "kind": "gem",
+    "qty": 1,
+    "value_gp": 1000.0,
+    "stone": 0.001,
+    "name": "gem worth 1000.0gp"
+   },
+   "player": {
+    "desc": "a large onyx (the statue's right eye)",
+    "value_gp": 1000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 111.11,
+     "vettius": 111.11,
+     "vestus-the-unlikely": 111.11,
+     "neris": 111.11,
+     "brennus": 111.11,
+     "iulia": 111.11,
+     "phaedra": 55.56,
+     "varro": 55.56,
+     "hrodvar": 55.56,
+     "aelia": 55.56,
+     "marcellus": 55.56,
+     "cotta": 55.56
+    }
+   },
+   "judge": []
+  },
+  "L695": {
+   "id": "L695",
+   "adventure": "A104",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 2.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 479,
+    "where": "G6a"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 2.0,
+    "name": "gold stripped from the statue of Iskara",
+    "merch": null
+   },
+   "player": {
+    "desc": "gold fittings and leaf stripped from the chancel statue",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 2000.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 222.22,
+     "vettius": 222.22,
+     "vestus-the-unlikely": 222.22,
+     "neris": 222.22,
+     "brennus": 222.22,
+     "iulia": 222.22,
+     "phaedra": 111.11,
+     "varro": 111.11,
+     "hrodvar": 111.11,
+     "aelia": 111.11,
+     "marcellus": 111.11,
+     "cotta": 111.11
+    }
+   },
+   "judge": []
+  },
+  "L696": {
+   "id": "L696",
+   "adventure": "A104",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 479,
+    "where": "G6a"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 5.0,
+    "name": "ivory from the statue of Iskara (half)",
+    "merch": null
+   },
+   "player": {
+    "desc": "carved ivory plates from the chancel statue",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 500.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 55.56,
+     "vettius": 55.56,
+     "vestus-the-unlikely": 55.56,
+     "neris": 55.56,
+     "brennus": 55.56,
+     "iulia": 55.56,
+     "phaedra": 27.78,
+     "varro": 27.78,
+     "hrodvar": 27.78,
+     "aelia": 27.78,
+     "marcellus": 27.78,
+     "cotta": 27.78
+    }
+   },
+   "judge": []
+  },
+  "L697": {
+   "id": "L697",
+   "adventure": "A104",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 479,
+    "where": "G6a"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 5.0,
+    "name": "ivory from the statue of Iskara (half)",
+    "merch": null
+   },
+   "player": {
+    "desc": "carved ivory plates from the chancel statue",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 500.0,
+    "market": "Cyfaraun (Market)",
+    "day": 479,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 55.56,
+     "vettius": 55.56,
+     "vestus-the-unlikely": 55.56,
+     "neris": 55.56,
+     "brennus": 55.56,
+     "iulia": 55.56,
+     "phaedra": 27.78,
+     "varro": 27.78,
+     "hrodvar": 27.78,
+     "aelia": 27.78,
+     "marcellus": 27.78,
+     "cotta": 27.78
+    }
+   },
+   "judge": []
+  },
+  "L698": {
+   "id": "L698",
+   "adventure": "A104",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.0,
+   "carrier": "vettius",
+   "status": "carried",
+   "found": {
+    "day": 479,
+    "where": "G6e"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 0.0,
+    "stone": 0.0,
+    "name": "the last high priest's silver key (opens the G20-G21 door without its rune, and the G21 chests)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a silver key from the dead priest's robe",
     "value_gp": null,
     "apparent_gp": null,
     "magical": false,

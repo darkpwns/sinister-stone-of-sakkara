@@ -1,20 +1,20 @@
 {
  "schema": "acks-combat/3",
- "round": 2,
+ "round": 3,
  "order": [
   "brennus",
-  "cotta",
-  "lucilla",
-  "gelatinous-mass1",
-  "neris",
   "iulia",
+  "phaedra",
+  "vettius",
   "marcellus",
+  "lucilla",
+  "aelia",
+  "neris",
   "hrodvar",
   "vestus-the-unlikely",
-  "aelia",
-  "vettius",
-  "varro",
-  "phaedra"
+  "cotta",
+  "grey-goo1",
+  "varro"
  ],
  "count_index": 13,
  "options": {
@@ -31,14 +31,12 @@
    "conditions": [],
    "group": "vettius",
    "perceived": "Vettius",
-   "judge_set": {
-    "ac": "2"
-   },
+   "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -125,15 +123,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "thief-attack-and-saving-throws",
-      "title": "Thief Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "block": "^tbl-thief-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 31",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "thief-attack-and-saving-throws",
+       "title": "Thief Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Thief.md",
+       "block": "^tbl-thief-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 31",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -197,8 +199,8 @@
      ]
     },
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
+     "shield": 5,
+     "no_shield": 5,
      "dex_only": 1
     },
     "hp_max": 22,
@@ -207,7 +209,7 @@
      {
       "name": "Short Sword +2",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -219,7 +221,7 @@
      {
       "name": "Sword +2",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -231,7 +233,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 4,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -270,7 +272,7 @@
    "hp_max": 22,
    "hp": 22,
    "hp_start": 22,
-   "acted_round": 2
+   "acted_round": 3
   },
   "neris": {
    "id": "neris",
@@ -284,7 +286,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -371,24 +373,28 @@
      ]
     },
     "attack_throw": [
-     8,
+     7,
      {
-      "table": "priestess-attack-throws",
-      "title": "Priestess (Mage) Attack Throws",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "block": "^tbl-priestess-attack-throws",
-      "book": "RR",
-      "page": "p. 65",
-      "row": 2
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "priestess-attack-throws",
+       "title": "Priestess (Mage) Attack Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-attack-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 2
+      }
      }
     ],
     "saves": [
      {
-      "paralysis": 9,
-      "death": 6,
-      "blast": 12,
-      "implements": 9,
-      "spells": 11
+      "paralysis": 7,
+      "death": 4,
+      "blast": 10,
+      "implements": 7,
+      "spells": 9
      },
      {
       "table": "priestess-saving-throws",
@@ -421,8 +427,8 @@
     ],
     "save_refs": {
      "paralysis": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "modifier": "lot L468 (Ring of Protection +1) -1; Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83); spell, 12 turns from day 479 10:17",
       "rules": {
        "table": "priestess-saving-throws",
        "title": "Priestess (Crusader) Saving Throws",
@@ -434,8 +440,8 @@
       }
      },
      "death": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "modifier": "lot L468 (Ring of Protection +1) -1; Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83); spell, 12 turns from day 479 10:17",
       "rules": {
        "table": "priestess-saving-throws",
        "title": "Priestess (Crusader) Saving Throws",
@@ -447,8 +453,8 @@
       }
      },
      "blast": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "modifier": "lot L468 (Ring of Protection +1) -1; Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83); spell, 12 turns from day 479 10:17",
       "rules": {
        "table": "priestess-saving-throws",
        "title": "Priestess (Crusader) Saving Throws",
@@ -460,8 +466,8 @@
       }
      },
      "implements": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "modifier": "lot L468 (Ring of Protection +1) -1; Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83); spell, 12 turns from day 479 10:17",
       "rules": {
        "table": "priestess-saving-throws",
        "title": "Priestess (Crusader) Saving Throws",
@@ -473,8 +479,8 @@
       }
      },
      "spells": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "modifier": "lot L468 (Ring of Protection +1) -1; Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83); spell, 12 turns from day 479 10:17",
       "rules": {
        "table": "priestess-saving-throws",
        "title": "Priestess (Crusader) Saving Throws",
@@ -487,8 +493,8 @@
      }
     },
     "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
+     "shield": 3,
+     "no_shield": 3,
      "dex_only": 1
     },
     "hp_max": 20,
@@ -497,7 +503,7 @@
      {
       "name": "Staff",
       "init_bonus": "",
-      "attack_throw": 10,
+      "attack_throw": 9,
       "damage": "1d4/1d6-2",
       "range": {
        "short": 0,
@@ -528,7 +534,7 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "acted_round": 2
+   "acted_round": 3
   },
   "iulia": {
    "id": "iulia",
@@ -537,14 +543,12 @@
    "conditions": [],
    "group": "iulia",
    "perceived": "Iulia",
-   "judge_set": {
-    "ac": "3"
-   },
+   "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 1,
+   "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -631,24 +635,28 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "crusader-attack-and-saving-throws",
-      "title": "Crusader Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Crusader.md",
-      "block": "^tbl-crusader-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 37",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
      }
     ],
     "saves": [
      {
-      "paralysis": 10,
-      "death": 7,
-      "blast": 13,
-      "implements": 10,
-      "spells": 12
+      "paralysis": 8,
+      "death": 5,
+      "blast": 11,
+      "implements": 8,
+      "spells": 10
      },
      {
       "table": "crusader-attack-and-saving-throws",
@@ -679,9 +687,76 @@
       "page": "p. 36"
      }
     ],
+    "save_refs": {
+     "paralysis": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
+     },
+     "death": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
+     },
+     "blast": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
+     },
+     "implements": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
+     },
+     "spells": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
+     }
+    },
     "ac_options": {
-     "shield": 9,
-     "no_shield": 6,
+     "shield": 10,
+     "no_shield": 7,
      "dex_only": 1
     },
     "hp_max": 40,
@@ -690,7 +765,7 @@
      {
       "name": "Spear +2 (broken shaft: as dagger)",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 4,
       "damage": "1d4+3",
       "range": {
        "short": 15,
@@ -725,8 +800,7 @@
    "hp_max": 40,
    "hp": 40,
    "hp_start": 40,
-   "attacked_round": 2,
-   "acted_round": 2
+   "acted_round": 3
   },
   "varro": {
    "id": "varro",
@@ -735,14 +809,12 @@
    "conditions": [],
    "group": "varro",
    "perceived": "Varro",
-   "judge_set": {
-    "ac": "0"
-   },
+   "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -829,15 +901,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "fighter-attack-and-saving-throws",
+       "title": "Fighter Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Fighter.md",
+       "block": "^tbl-fighter-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -878,8 +954,8 @@
      }
     ],
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
+     "shield": 5,
+     "no_shield": 5,
      "dex_only": 0
     },
     "hp_max": 25,
@@ -888,7 +964,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -900,7 +976,7 @@
      {
       "name": "Spear",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6/1d8+3",
       "range": {
        "short": 30,
@@ -912,7 +988,7 @@
      {
       "name": "Sword",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6/1d8+3",
       "range": {
        "short": 0,
@@ -947,7 +1023,7 @@
    "hp_max": 25,
    "hp": 25,
    "hp_start": 25,
-   "acted_round": 2
+   "acted_round": 3
   },
   "hrodvar": {
    "id": "hrodvar",
@@ -956,9 +1032,7 @@
    "conditions": [],
    "group": "hrodvar",
    "perceived": "Hrodvar",
-   "judge_set": {
-    "ac": "0"
-   },
+   "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
@@ -1050,15 +1124,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "dwarven-vaultguard-attack-and-saving-throws",
-      "title": "Dwarven Vaultguard Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
-      "block": "^tbl-dwarven-vaultguard-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 85",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "dwarven-vaultguard-attack-and-saving-throws",
+       "title": "Dwarven Vaultguard Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
+       "block": "^tbl-dwarven-vaultguard-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 85",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -1099,8 +1177,8 @@
      }
     ],
     "ac_options": {
-     "shield": 4,
-     "no_shield": 3,
+     "shield": 5,
+     "no_shield": 4,
      "dex_only": -1
     },
     "hp_max": 19,
@@ -1109,7 +1187,7 @@
      {
       "name": "Battle Axe +1",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 7,
       "damage": "1d6+2",
       "range": {
        "short": 0,
@@ -1121,7 +1199,7 @@
      {
       "name": "Hand Axe",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d6+1",
       "range": {
        "short": 15,
@@ -1133,7 +1211,7 @@
      {
       "name": "Mace",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d6/1d8+1",
       "range": {
        "short": 0,
@@ -1168,7 +1246,7 @@
    "hp_max": 19,
    "hp": 19,
    "hp_start": 19,
-   "acted_round": 2
+   "acted_round": 3
   },
   "brennus": {
    "id": "brennus",
@@ -1177,16 +1255,12 @@
    "conditions": [],
    "group": "brennus",
    "perceived": "Brennus",
-   "judge_set": {
-    "ac": "4"
-   },
-   "hp_lost_rounds": [
-    1
-   ],
+   "judge_set": {},
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 9,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1273,15 +1347,19 @@
      ]
     },
     "attack_throw": [
-     6,
+     5,
      {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 4
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "fighter-attack-and-saving-throws",
+       "title": "Fighter Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Fighter.md",
+       "block": "^tbl-fighter-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 4
+      }
      }
     ],
     "saves": [
@@ -1322,8 +1400,8 @@
      }
     ],
     "ac_options": {
-     "shield": 10,
-     "no_shield": 10,
+     "shield": 11,
+     "no_shield": 11,
      "dex_only": 3
     },
     "hp_max": 31,
@@ -1332,7 +1410,7 @@
      {
       "name": "Great Axe +1",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d10+5",
       "range": {
        "short": 0,
@@ -1344,7 +1422,7 @@
      {
       "name": "Hand Axe",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 4,
       "damage": "1d6+4",
       "range": {
        "short": 15,
@@ -1380,9 +1458,8 @@
    "actor": "brennus",
    "hp_max": 31,
    "hp": 29,
-   "hp_start": 31,
-   "attacked_round": 2,
-   "acted_round": 2
+   "hp_start": 29,
+   "acted_round": 3
   },
   "phaedra": {
    "id": "phaedra",
@@ -1395,10 +1472,8 @@
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {
-    "spell": true
-   },
-   "init": 2,
+   "declared": {},
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1485,15 +1560,19 @@
      ]
     },
     "attack_throw": [
-     9,
+     8,
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 35",
-      "row": 1
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 1
+      }
      }
     ],
     "saves": [
@@ -1534,8 +1613,8 @@
      }
     ],
     "ac_options": {
-     "shield": -1,
-     "no_shield": -1,
+     "shield": 0,
+     "no_shield": 0,
      "dex_only": -1
     },
     "hp_max": 20,
@@ -1544,7 +1623,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -1556,7 +1635,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 10,
+      "attack_throw": 9,
       "damage": "1d6",
       "range": {
        "short": 75,
@@ -1568,7 +1647,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d6",
       "range": {
        "short": 0,
@@ -1599,7 +1678,7 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "acted_round": 2
+   "acted_round": 3
   },
   "marcellus": {
    "id": "marcellus",
@@ -1608,14 +1687,12 @@
    "conditions": [],
    "group": "marcellus",
    "perceived": "Marcellus",
-   "judge_set": {
-    "ac": "0"
-   },
+   "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1702,15 +1779,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "fighter-attack-and-saving-throws",
+       "title": "Fighter Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Fighter.md",
+       "block": "^tbl-fighter-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -1751,8 +1832,8 @@
      }
     ],
     "ac_options": {
-     "shield": 5,
-     "no_shield": 4,
+     "shield": 6,
+     "no_shield": 5,
      "dex_only": 0
     },
     "hp_max": 40,
@@ -1761,7 +1842,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -1773,7 +1854,7 @@
      {
       "name": "Sword",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6/1d8+3",
       "range": {
        "short": 0,
@@ -1785,7 +1866,7 @@
      {
       "name": "Spear",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6/1d8+3",
       "range": {
        "short": 30,
@@ -1797,7 +1878,7 @@
      {
       "name": "Spear (silvered)",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6/1d8+3",
       "range": {
        "short": 30,
@@ -1830,7 +1911,7 @@
    "hp_max": 40,
    "hp": 40,
    "hp_start": 40,
-   "acted_round": 2
+   "acted_round": 3
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -1843,9 +1924,7 @@
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {
-    "spell": true
-   },
+   "declared": {},
    "init": 3,
    "nonlethal": 0,
    "notes": [],
@@ -1933,24 +2012,28 @@
      ]
     },
     "attack_throw": [
-     8,
+     7,
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 35",
-      "row": 2
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
      }
     ],
     "saves": [
      {
-      "paralysis": 11,
-      "death": 11,
-      "blast": 13,
-      "implements": 9,
-      "spells": 10
+      "paralysis": 9,
+      "death": 9,
+      "blast": 11,
+      "implements": 7,
+      "spells": 8
      },
      {
       "table": "mage-attack-and-saving-throws",
@@ -1981,9 +2064,76 @@
       "page": "p. 34"
      }
     ],
+    "save_refs": {
+     "paralysis": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     },
+     "death": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     },
+     "blast": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     },
+     "implements": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     },
+     "spells": {
+      "modifier": "Divine Grace (Neris) (RR p. 216, DG479) -2",
+      "cause": "spell, 12 turns from day 479 10:17",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     }
+    },
     "ac_options": {
-     "shield": 1,
-     "no_shield": 1,
+     "shield": 2,
+     "no_shield": 2,
      "dex_only": 1
     },
     "hp_max": 18,
@@ -1992,7 +2142,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d4-1",
       "range": {
        "short": 15,
@@ -2025,7 +2175,7 @@
    "hp_max": 18,
    "hp": 18,
    "hp_start": 18,
-   "acted_round": 2
+   "acted_round": 3
   },
   "cotta": {
    "id": "cotta",
@@ -2039,7 +2189,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2126,15 +2276,19 @@
      ]
     },
     "attack_throw": [
-     8,
+     7,
      {
-      "table": "explorer-attack-and-saving-throws",
-      "title": "Explorer (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Explorer.md",
-      "block": "^tbl-explorer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 2
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "explorer-attack-and-saving-throws",
+       "title": "Explorer (Fighter) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Explorer.md",
+       "block": "^tbl-explorer-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 2
+      }
      }
     ],
     "saves": [
@@ -2175,8 +2329,8 @@
      }
     ],
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
+     "shield": 5,
+     "no_shield": 5,
      "dex_only": 1
     },
     "hp_max": 13,
@@ -2185,7 +2339,7 @@
      {
       "name": "Long Bow +1",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+3",
       "range": {
        "short": 120,
@@ -2197,7 +2351,7 @@
      {
       "name": "Composite Bow",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6+2",
       "range": {
        "short": 120,
@@ -2209,7 +2363,7 @@
      {
       "name": "Sword",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 7,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -2240,7 +2394,8 @@
    "hp_max": 13,
    "hp": 13,
    "hp_start": 13,
-   "acted_round": 2
+   "attacked_round": 2,
+   "acted_round": 3
   },
   "lucilla": {
    "id": "lucilla",
@@ -2250,14 +2405,13 @@
    "group": "lucilla",
    "perceived": "Lucilla",
    "judge_set": {
-    "resist": "fire:both",
-    "ac": "2"
+    "resist": "fire:both"
    },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -2344,15 +2498,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 41",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "venturer-attack-and-saving-throws",
+       "title": "Venturer (Thief) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Venturer.md",
+       "block": "^tbl-venturer-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 41",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -2393,8 +2551,8 @@
      }
     ],
     "ac_options": {
-     "shield": 6,
-     "no_shield": 6,
+     "shield": 7,
+     "no_shield": 7,
      "dex_only": 1
     },
     "hp_max": 42,
@@ -2403,7 +2561,7 @@
      {
       "name": "Mace +1",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+1",
       "range": {
        "short": 0,
@@ -2415,7 +2573,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -2454,8 +2612,7 @@
    "hp_max": 42,
    "hp": 42,
    "hp_start": 42,
-   "attacked_round": 2,
-   "acted_round": 2
+   "acted_round": 3
   },
   "aelia": {
    "id": "aelia",
@@ -2464,14 +2621,12 @@
    "conditions": [],
    "group": "aelia",
    "perceived": "Aelia",
-   "judge_set": {
-    "ac": "0"
-   },
+   "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2558,15 +2713,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "bard-attack-and-saving-throws",
-      "title": "Bard (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Bard.md",
-      "block": "^tbl-bard-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 53",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB479) -1",
+      "cause": "spell, 6 turns from day 479 10:17",
+      "rules": {
+       "table": "bard-attack-and-saving-throws",
+       "title": "Bard (Fighter) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Bard.md",
+       "block": "^tbl-bard-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 53",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -2607,8 +2766,8 @@
      }
     ],
     "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
+     "shield": 3,
+     "no_shield": 3,
      "dex_only": 0
     },
     "hp_max": 20,
@@ -2617,7 +2776,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -2629,7 +2788,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6+3",
       "range": {
        "short": 75,
@@ -2641,7 +2800,7 @@
      {
       "name": "Net",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "",
       "range": {
        "short": 10,
@@ -2653,7 +2812,7 @@
      {
       "name": "Short Sword (silvered)",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -2688,51 +2847,51 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "acted_round": 2
+   "attacked_round": 3,
+   "acted_round": 3
   },
-  "gelatinous-mass1": {
-   "id": "gelatinous-mass1",
+  "grey-goo1": {
+   "id": "grey-goo1",
    "side": "foe",
    "status": "slain",
    "conditions": [],
-   "group": "gelatinous-mass",
-   "perceived": "a clear quivering block filling the corridor 1",
+   "group": "grey-goo",
+   "perceived": "a patch of damp grey stone that moves 1",
    "judge_set": {},
    "hp_lost_rounds": [
+    1,
     2,
-    2
+    3
    ],
    "felled": {
-    "round": 2,
+    "round": 3,
     "types": [
      "piercing"
     ],
     "natural": false,
-    "by": "iulia",
-    "tier": "extraordinary",
+    "by": "aelia",
+    "tier": "mundane",
     "nonlethal": false
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Gelatinous Mass",
+   "name": "Grey Goo",
    "stats": {},
    "monster": {
-    "base": "gelatinous-mass",
-    "sha256": "4fa244ecfe6828bd11f1cdf37321506fd38a14fa4a2bbf4dfe3e4112d6b9cc1b"
+    "base": "grey-goo",
+    "sha256": "96b53cdd63190e63c895667123523cbed5fa37af08aa946140af321ccc1c967c"
    },
-   "hp_max": 13,
-   "hp": -5,
-   "hp_start": 13,
-   "attacked_round": 1,
-   "acted_round": 2,
+   "hp_max": 18,
+   "hp": -3,
+   "hp_start": 18,
    "xp_recorded": {
-    "record": "M211",
+    "record": "M213",
     "how": "killed",
-    "xp": 245
+    "xp": 95
    }
   }
  },
@@ -2881,10 +3040,10 @@
    },
    "start_count": 1
   },
-  "gelatinous-mass": {
+  "grey-goo": {
    "side": "foe",
    "members": [
-    "gelatinous-mass1"
+    "grey-goo1"
    ],
    "morale": {
     "state": "steady",
@@ -2893,39 +3052,30 @@
    },
    "start_count": 1,
    "felled_rounds": [
-    2
+    3
    ]
   }
  },
  "engaged": [],
- "engaged_at_round_start": [
-  [
-   "brennus",
-   "gelatinous-mass1"
-  ],
-  [
-   "gelatinous-mass1",
-   "lucilla"
-  ]
- ],
+ "engaged_at_round_start": [],
  "distances": {
-  "gelatinous-mass1|vettius": 30,
-  "gelatinous-mass1|neris": 5,
-  "gelatinous-mass1|iulia": 5,
-  "gelatinous-mass1|varro": 25,
-  "gelatinous-mass1|hrodvar": 25,
-  "brennus|gelatinous-mass1": 5,
-  "gelatinous-mass1|phaedra": 30,
-  "gelatinous-mass1|marcellus": 25,
-  "gelatinous-mass1|vestus-the-unlikely": 30,
-  "cotta|gelatinous-mass1": 30,
-  "gelatinous-mass1|lucilla": 5,
-  "aelia|gelatinous-mass1": 30
+  "grey-goo1|vettius": 30,
+  "grey-goo1|neris": 30,
+  "grey-goo1|iulia": 30,
+  "grey-goo1|varro": 30,
+  "grey-goo1|hrodvar": 30,
+  "brennus|grey-goo1": 30,
+  "grey-goo1|phaedra": 30,
+  "grey-goo1|marcellus": 30,
+  "grey-goo1|vestus-the-unlikely": 30,
+  "cotta|grey-goo1": 30,
+  "grey-goo1|lucilla": 30,
+  "aelia|grey-goo1": 30
  },
  "log": [],
- "encounter_id": "enc399",
+ "encounter_id": "enc401",
  "notes_shown": [],
- "round_ended": 2,
+ "round_ended": 3,
  "retinue": {
   "varro": {
    "hp_triggered": false,
@@ -2973,7 +3123,7 @@
   "aelia"
  ],
  "ended": {
-  "round": 2,
+  "round": 3,
   "felled_foes": []
  }
 }

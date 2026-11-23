@@ -527,6 +527,15 @@ tags:
 | 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (last third) | 400 | iulia |
 | 474 | Descent 64 (G25, G26-G27) | six battered bronze weapons from the G27 prayer alcove (3 axes, 2 hammers, a sword) | 650 | hrodvar |
 | 474 | Descent 64 (G25, G26-G27) | eight holy symbols from the G25 dormitory trunks (a snake in a figure-eight swallowing its tail) | 200 | cotta |
+| 479 | Descent 65 (G2b, G6) | a bundle of temple record scrolls in Ancient Argollean (sacrificial victims, 2500-1700 BE) | 675 | vestus-the-unlikely |
+| 479 | Descent 65 (G2b, G6) | 4 vials of cassia, cinnamon and myrrh scent | 300 | neris |
+| 479 | Descent 65 (G2b, G6) | 7 sticks of frankincense | 140 | neris |
+| 479 | Descent 65 (G2b, G6) | gem worth 1000.0gp | 1,000 | vettius |
+| 479 | Descent 65 (G2b, G6) | gem worth 1000.0gp | 1,000 | vettius |
+| 479 | Descent 65 (G2b, G6) | gold stripped from the statue of Iskara | 2,000 | lucilla |
+| 479 | Descent 65 (G2b, G6) | ivory from the statue of Iskara (half) | 500 | marcellus |
+| 479 | Descent 65 (G2b, G6) | ivory from the statue of Iskara (half) | 500 | varro |
+| 479 | Descent 65 (G2b, G6) | the last high priest's silver key (opens the G20-G21 door without its rune, and the G21 chests) | 0 | vettius |
 
 ## Monster XP
 
@@ -673,6 +682,15 @@ tags:
 | 472 | Descent 63 (G8 west graves, G13, G14) | Skeleton | 24 | 47 | 1,128 |
 | 472 | Descent 63 (G8 west graves, G13, G14) | Bronze Animated Statue | 4 | 350 | 1,400 |
 | 474 | Descent 64 (G25, G26-G27) | Lesser Faewyrd (SOTN) | 4 | 245 | 980 |
+| 479 | Descent 65 (G2b, G6) | Lesser Faewyrd (SOTN) | 5 | 245 | 1,225 |
+| 479 | Descent 65 (G2b, G6) | Jackal of Darkness (SOTN) | 1 | 135 | 135 |
+| 479 | Descent 65 (G2b, G6) | Wraith | 1 | 190 | 190 |
+| 479 | Descent 65 (G2b, G6) | Tunnel Prawn (SOTN) | 10 | 10 | 100 |
+| 479 | Descent 65 (G2b, G6) | Python Snake | 1 | 350 | 350 |
+| 479 | Descent 65 (G2b, G6) | Lesser Faewyrd (SOTN) | 2 | 245 | 490 |
+| 479 | Descent 65 (G2b, G6) | Gelatinous Mass | 1 | 245 | 245 |
+| 479 | Descent 65 (G2b, G6) | Grand Chthonic High Priest (SOTN) | 1 | 2,100 | 2,100 |
+| 479 | Descent 65 (G2b, G6) | Grey Goo | 1 | 95 | 95 |
 
 ## Shares and XP awarded
 
@@ -1375,6 +1393,18 @@ tags:
 | 474 | Descent 64 (G25, G26-G27) | Aelia | 0.5 | 47 | 54 | 0 | +0% | 102 |
 | 474 | Descent 64 (G25, G26-G27) | Marcellus | 0.5 | 47 | 54 | 0 | +0% | 102 |
 | 474 | Descent 64 (G25, G26-G27) | Cotta | 0.5 | 47 | 54 | 0 | +0% | 102 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 479 | Descent 65 (G2b, G6) | Lucilla | 1 | 679 | 548 | 0 | +10% | 1,350 |
+| 479 | Descent 65 (G2b, G6) | Vettius | 1 | 679 | 548 | 0 | +5% | 1,288 |
+| 479 | Descent 65 (G2b, G6) | Vestus the Unlikely | 1 | 679 | 548 | 0 | +5% | 1,288 |
+| 479 | Descent 65 (G2b, G6) | Neris | 1 | 679 | 548 | 0 | +0% | 1,227 |
+| 479 | Descent 65 (G2b, G6) | Brennus | 1 | 679 | 548 | 0 | +5% | 1,288 |
+| 479 | Descent 65 (G2b, G6) | Iulia | 1 | 679 | 548 | 0 | +5% | 1,288 |
+| 479 | Descent 65 (G2b, G6) | Phaedra | 0.5 | 340 | 274 | 0 | +0% | 614 |
+| 479 | Descent 65 (G2b, G6) | Varro | 0.5 | 340 | 274 | 0 | +0% | 614 |
+| 479 | Descent 65 (G2b, G6) | Hrodvar | 0.5 | 340 | 274 | 0 | +0% | 614 |
+| 479 | Descent 65 (G2b, G6) | Aelia | 0.5 | 340 | 274 | 0 | +0% | 614 |
+| 479 | Descent 65 (G2b, G6) | Marcellus | 0.5 | 340 | 274 | 0 | +0% | 614 |
+| 479 | Descent 65 (G2b, G6) | Cotta | 0.5 | 340 | 274 | 0 | +0% | 614 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -3786,3 +3816,27 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | marcellus |
 | 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | cotta |
 | 478 | Cyfaraun | Rations, Iron (one week) | 1 |  | 4gp | marcellus |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 |  | treasure share |  |  |  |  |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 679gp 4sp 5cp |  | lucilla |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 679gp 4sp 5cp |  | vettius |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 679gp 4sp 5cp |  | vestus-the-unlikely |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 679gp 4sp 5cp |  | neris |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 679gp 4sp 5cp |  | brennus |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 679gp 4sp 5cp |  | iulia |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | phaedra |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | varro |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | hrodvar |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | aelia |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | marcellus |
+| 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | cotta |
