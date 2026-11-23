@@ -428,6 +428,28 @@ tags:
 | 446 | The Order's contract: Sextus Calvo (night of 444) | reward 2000.0gp | 2,000 | lucilla |
 | 448 | The Order's contract: Galla Ursina (night of 445) | reward 2000.0gp | 2,000 | neris |
 | 448 | The Order's contract: Marcus Vedius (night of 446-447) | reward 2000.0gp | 2,000 | neris |
+| 455 | The Order's contract: Titus Varenus (night of 453) | reward 1000.0gp | 1,000 | vestus-the-unlikely |
+| 455 | Descent 59 (G9, the enchantress) | Wand of Illusion | 100 | vestus-the-unlikely |
+| 455 | Descent 59 (G9, the enchantress) | the Enchantress's Spellbook (gilded copper plates) | 0 (left (not brought back)) | left |
+| 455 | Descent 59 (G9, the enchantress) | a corner of the enchantress' painted bronze sarcophagus | 125 | varro |
+| 455 | Descent 59 (G9, the enchantress) | a corner of the enchantress' painted bronze sarcophagus | 125 | hrodvar |
+| 455 | Descent 59 (G9, the enchantress) | a corner of the enchantress' painted bronze sarcophagus | 125 | iulia |
+| 455 | Descent 59 (G9, the enchantress) | a corner of the enchantress' painted bronze sarcophagus | 125 | cotta |
+| 455 | Descent 59 (G9, the enchantress) | a small gold ceremonial boat | 400 | lucilla |
+| 455 | Descent 59 (G9, the enchantress) | an ivory-and-ebony jewel box | 50 | lucilla |
+| 455 | Descent 59 (G9, the enchantress) | jewelry worth 800.0gp | 800 | lucilla |
+| 455 | Descent 59 (G9, the enchantress) | jewelry worth 400.0gp | 400 | lucilla |
+| 455 | Descent 59 (G9, the enchantress) | a gold brazier | 2,500 | aelia |
+| 455 | Descent 59 (G9, the enchantress) | six old lumps of charcoal | 0 (left (not brought back)) | left |
+| 455 | Descent 59 (G9, the enchantress) | 2,000 silver pieces | 200 | neris |
+| 455 | Descent 59 (G9, the enchantress) | 2,000 silver pieces | 200 | phaedra |
+| 455 | Descent 59 (G9, the enchantress) | SOTN Enchantress's Spellbook | 100 | vestus-the-unlikely |
+| 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
+| 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
+| 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
+| 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
+| 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
+| 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
 
 ## Monster XP
 
@@ -555,6 +577,9 @@ tags:
 | 448 | The Order's contract: Marcus Vedius (night of 446-447) | Marcus Vedius | 1 | 80 | 80 |
 | 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Varinia Sorex | 1 | 200 | 200 |
 | 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Cultist of Dirgion (AX3) | 3 | 10 | 30 |
+| 455 | The Order's contract: Titus Varenus (night of 453) | Titus Varenus | 1 | 20 | 20 |
+| 455 | Descent 59 (G9, the enchantress) | Mummy | 1 | 660 | 660 |
+| 455 | Descent 59 (G9, the enchantress) | Grand Chthonic Enchantress (SOTN) | 1 | 1,580 | 1,580 |
 
 ## Shares and XP awarded
 
@@ -1182,6 +1207,21 @@ tags:
 | 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Brennus | 1 | 0 | 77 | 0 | +5% | 81 |
 | 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Hrodvar | 0.5 | 0 | 38 | 0 | +0% | 38 |
 | 452 | Iulia's sanctioned mission: the Nasgan priestess (night of 452) | Marcellus | 0.5 | 0 | 38 | 0 | +0% | 38 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 168 Henchmen)
+| 455 | The Order's contract: Titus Varenus (night of 453) | Vestus the Unlikely | 1 | 400 | 8 | 0 | +5% | 428 |
+| 455 | The Order's contract: Titus Varenus (night of 453) | Vettius | 1 | 400 | 8 | 0 | +5% | 428 |
+| 455 | The Order's contract: Titus Varenus (night of 453) | Phaedra | 0.5 | 200 | 4 | 0 | +0% | 204 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen)
+| 455 | Descent 59 (G9, the enchantress) | Lucilla | 1 | 584 | 249 | 0 | +10% | 916 |
+| 455 | Descent 59 (G9, the enchantress) | Vettius | 1 | 584 | 249 | 0 | +5% | 875 |
+| 455 | Descent 59 (G9, the enchantress) | Vestus the Unlikely | 1 | 584 | 249 | 0 | +5% | 875 |
+| 455 | Descent 59 (G9, the enchantress) | Neris | 1 | 584 | 249 | 0 | +0% | 833 |
+| 455 | Descent 59 (G9, the enchantress) | Brennus | 1 | 584 | 249 | 0 | +5% | 875 |
+| 455 | Descent 59 (G9, the enchantress) | Iulia | 1 | 584 | 249 | 0 | +5% | 875 |
+| 455 | Descent 59 (G9, the enchantress) | Phaedra | 0.5 | 292 | 124 | 0 | +0% | 416 |
+| 455 | Descent 59 (G9, the enchantress) | Varro | 0.5 | 292 | 124 | 0 | +0% | 416 |
+| 455 | Descent 59 (G9, the enchantress) | Hrodvar | 0.5 | 292 | 124 | 0 | +0% | 416 |
+| 455 | Descent 59 (G9, the enchantress) | Aelia | 0.5 | 292 | 124 | 0 | +0% | 416 |
+| 455 | Descent 59 (G9, the enchantress) | Marcellus | 0.5 | 292 | 124 | 0 | +0% | 416 |
+| 455 | Descent 59 (G9, the enchantress) | Cotta | 0.5 | 292 | 124 | 0 | +0% | 416 | (src: RR p. 310 xp.magic_item_basis; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3440,3 +3480,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 452 |  | treasure share |  |  |  |  |
 | 452 |  | treasure share |  |  |  |  |
 | 452 |  | treasure share |  |  |  |  |
+| 455 |  | treasure share |  | 400gp |  | vestus-the-unlikely |
+| 455 |  | treasure share |  | 400gp |  | vettius |
+| 455 |  | treasure share |  | 200gp |  | phaedra |
+| 455 | Cyfaraun | torch | 6 |  | 1sp | marcellus |
+| 455 |  | treasure share |  | 44gp 4sp 4cp |  | lucilla |
+| 455 |  | treasure share |  | 44gp 4sp 4cp |  | vettius |
+| 455 |  | treasure share |  | 44gp 4sp 4cp |  | vestus-the-unlikely |
+| 455 |  | treasure share |  | 44gp 4sp 4cp |  | neris |
+| 455 |  | treasure share |  | 44gp 4sp 4cp |  | brennus |
+| 455 |  | treasure share |  | 44gp 4sp 4cp |  | iulia |
+| 455 |  | treasure share |  | 22gp 2sp 2cp |  | phaedra |
+| 455 |  | treasure share |  | 22gp 2sp 2cp |  | varro |
+| 455 |  | treasure share |  | 22gp 2sp 2cp |  | hrodvar |
+| 455 |  | treasure share |  | 22gp 2sp 2cp |  | aelia |
+| 455 |  | treasure share |  | 22gp 2sp 2cp |  | marcellus |
+| 455 |  | treasure share |  | 22gp 2sp 2cp |  | cotta |

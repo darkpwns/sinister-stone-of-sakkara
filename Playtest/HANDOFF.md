@@ -1200,3 +1200,17 @@ a patrician's steward's note for "Vasan" to Destrio (answer day 451). No descent
 **Next:** day 450 month 15 ends (the full list in World State); 451 selling day (identify first), Cotta's wage review
 (and Hrodvar, Varro, Marcellus at 6th), Destrio's answer; 452 the Order's roll; 455 the troglodyte eggs; 456 weekly
 rolls. Delves as time allows (prep queue). Keep Iulia out of the Family's work. The estate waits.
+
+## S26 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers as S24/S25 (`s23_j.sh` with `TC="lucilla
+varro marcellus hrodvar"`; `s23_ledger.py`; the payout-to-Ledger loop in the S25 log's commands). Log: `Session
+Log/S25 — Accounts Paid.md`.
+
+**State on resume:** day 456 18:52, the Solar Citadel. No adventure open (A98 paid). Twelve; Brennus 23/31, Marcellus
+28/40. Nine magic items at the Tower until day 465 (paid). **The Family under Vettius trades in information, spying
+and fencing** (Rulings S25); **Destrio granted his petition (14)**: no Family member on the Order's list; the Family
+answers its own deaths. Destrio Friendly to Neris (a sister of Calefa). No Order contract in hand; roll day 459.
+
+**Next (World State prep queue):** 459 the Order's roll (and Destrio's answer on the merchant's note); 463 weekly rolls;
+465 the identifications, then a selling day with G9's goods; wages 467, 473; month 16 ends 480. Delves: G's galleries and
+the remaining G tombs (G16's statue, G11/G12), then the rest. Keep Iulia out of the Family's work. The estate waits.
