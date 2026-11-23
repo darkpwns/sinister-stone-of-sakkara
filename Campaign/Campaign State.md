@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 28
+session: 29
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A103 paid out)
@@ -33,9 +33,7 @@ public:
     role: pc
     hp: 22
     hp_max: 22
-    conditions:
-    - 'wears the Cloak of the Elven Ranger (L528, identified day 465; from Aelia day 477): +8 to Hiding throws, hiding in cover, dim light or darkness as a combat action (TT p. 151, chameleon): throw --prof hiding --mod 8'
-    - 'wears the Boots of the Elven Ranger (L529, identified day 465; from Aelia day 477): +8 to Sneaking throws; moves totally silently (TT p. 140, silent step): throw --prof sneaking --mod 8'
+    conditions: []
     spells_used: []
     encumbrance_st: 10.4
   - name: Vestus the Unlikely
@@ -73,7 +71,6 @@ public:
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
-    - 'wears a Ring of Life Protection (L518, identified day 465): any enervation of the wearer is cancelled, 3 times a day, not more than once an hour, uses back each dawn; any further enervation prevented carries 1-in-3 that the ring is destroyed (TT p. 82)'
     spells_used: []
     encumbrance_st: 10.278
   - name: Hrodvar
