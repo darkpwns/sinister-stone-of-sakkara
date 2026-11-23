@@ -258,6 +258,6 @@ lessons:
   status: remind
   since: S35
   on: ["wait"]
-  where: ["party.conditions ~ Mortal Wounds[^\\]]*(lost|ruined|mangled|crippled|destroyed|blind|deaf|shattered|reduced)", "location.site ~ Cyfaraun"]
+  where: ['party.conditions ~ (lost|ruined|mangled|crippled|destroyed|shattered|blinded)[^;\"\]]{0,60}\(Mortal Wounds|Mortal Wounds, day [0-9]+\): [^;\"\]]{0,60}(lost|ruined|mangled|crippled|destroyed|shattered|blinded)', "location.site ~ Cyfaraun"]
   text: "a party member carries a disabling lasting wound (Mortal Wounds) while in Cyfaraun: offer Repair Disfigurement and Disability (Arëtar, 185gp, Rulings S12) or record why not; a henchman with his own coin seeks it himself (Judge plays his wishes)"
   source: "S35 slip: Hrodvar's (day 499) and Phaedra's (day 517) wounds left untreated until the user asked, day 540"
