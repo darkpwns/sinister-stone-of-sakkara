@@ -41,7 +41,8 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
 - Days 475-477, the Citadel. Vettius' cold comes and goes: it took a little more on the 476th day and eased on the
   477th. A centurion of the Watch came to the Captain about the courtesans' circle, eager to move; she told him what she
   could, and he went away content. The Family's ears named another of the river men who had sold the Family's business;
-  given the choice, he took a purse and left the city.
+  given the choice, he took a purse and left the city. That evening Vettius bought the many-coloured cloak and boots from
+  Aelia for 3,800 gold: in a thief's hands they hide and hush him almost perfectly.
 
 ## Who they met
 - A centurion of the Watch (day 477): brisk, eager to raid the Festival District circle; satisfied.

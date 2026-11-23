@@ -33,7 +33,9 @@ public:
     role: pc
     hp: 22
     hp_max: 22
-    conditions: []
+    conditions:
+    - 'wears the Cloak of the Elven Ranger (L528, identified day 465; from Aelia day 477): +8 to Hiding throws, hiding in cover, dim light or darkness as a combat action (TT p. 151, chameleon): throw --prof hiding --mod 8'
+    - 'wears the Boots of the Elven Ranger (L529, identified day 465; from Aelia day 477): +8 to Sneaking throws; moves totally silently (TT p. 140, silent step): throw --prof sneaking --mod 8'
     spells_used: []
     encumbrance_st: 10.4
   - name: Vestus the Unlikely
@@ -96,9 +98,7 @@ public:
     role: henchman
     hp: 20
     hp_max: 20
-    conditions:
-    - 'wears the Cloak of the Elven Ranger (L528, identified day 465): hides in cover, dim light or darkness as a combat action on a Hiding throw of 12+ (not proficient; +8 if ever proficient) (TT p. 151, chameleon)'
-    - 'wears the Boots of the Elven Ranger (L529, identified day 465): moves totally silently on a Sneaking throw of 12+ (not proficient; +8 if ever proficient) (TT p. 140, silent step)'
+    conditions: []
     spells_used: []
     encumbrance_st: 8.521
   - name: Marcellus

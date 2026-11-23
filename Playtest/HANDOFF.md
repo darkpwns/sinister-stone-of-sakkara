@@ -1248,7 +1248,8 @@ Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (
 Set Campaign State `session:` to 29 first.
 
 **State on resume:** day 477 17:42, the Solar Citadel. No adventure open (A103 paid). Twelve, whole; Vettius' enervation ended
-day 470 (Judge's correction S28: oculus +2 and Salving Rest +4, Rulings S10/S14); **max hp 22**. No goods unsold; coin above 150gp banked day 474.
+day 470 (Judge's correction S28: oculus +2 and Salving Rest +4, Rulings S10/S14); **max hp 22**. Vettius wears the elven ranger's cloak and
+boots (bought from Aelia, day 477): `throw vettius --prof hiding|sneaking --mod 8`. No goods unsold; coin above 150gp banked day 474.
 
 **Done in S28:** worn items on actors (conditions: the engine allows no Hiding/Sneaking modifier without the throw);
 selling days 471 (A101) and 473 (A102); descent 63 (G8 west graves, G13's 24 skeletons, G14's 4 bronze statues and
