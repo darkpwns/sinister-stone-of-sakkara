@@ -40,3 +40,4 @@ tags:
 - [[S29 — The High Priest's Shade]]
 - [[S30 — The Vanguard's Sign]]
 - [[S31 — Beyond the Queen's Panel]]
+- [[S32 — Proof Against Poison]]

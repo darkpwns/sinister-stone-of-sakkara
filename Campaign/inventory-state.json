@@ -569,6 +569,33 @@
    "base": null,
    "note": null,
    "judge": true
+  },
+  "scroll of neutralize poison (divine, auran)": {
+   "name": "scroll of Neutralize Poison (divine, Auran)",
+   "items_each": 1,
+   "stone_each": "0",
+   "value_cp": 450000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "scroll of delay poison (divine, auran)": {
+   "name": "scroll of Delay Poison (divine, Auran)",
+   "items_each": 1,
+   "stone_each": "0",
+   "value_cp": 225000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "scroll of neutralize poison x2 and cure light injury (divine, auran)": {
+   "name": "scroll of Neutralize Poison x2 and Cure Light Injury (divine, Auran)",
+   "items_each": 1,
+   "stone_each": "0",
+   "value_cp": 1012500,
+   "base": null,
+   "note": null,
+   "judge": true
   }
  },
  "log": [
@@ -94921,6 +94948,165 @@
    "price_cp": 80000,
    "cmd": "inv wages",
    "n": 4782
+  },
+  {
+   "op": "give",
+   "cause": "neris withdraws for scrolls against poison (day 503)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -7000
+    },
+    {
+     "who": "neris",
+     "gp": 7000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4783
+  },
+  {
+   "op": "give",
+   "cause": "iulia withdraws for scrolls against poison (day 503)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -10000
+    },
+    {
+     "who": "iulia",
+     "gp": 10000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4784
+  },
+  {
+   "op": "pay",
+   "cause": "a divine scroll of Neutralize Poison (4 levels; 225% of 2,000gp base, Rulings S11)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -4500
+    }
+   ],
+   "to": "the Keepers' scriptorium (market stock H75)",
+   "price_cp": 450000,
+   "cmd": "inv pay",
+   "n": 4785
+  },
+  {
+   "op": "pay",
+   "cause": "a divine scroll of Delay Poison (2 levels; 225% of 1,000gp base, Rulings S11)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -2250
+    }
+   ],
+   "to": "the Keepers' scriptorium (market stock H74)",
+   "price_cp": 225000,
+   "cmd": "inv pay",
+   "n": 4786
+  },
+  {
+   "op": "pay",
+   "cause": "a divine scroll of Neutralize Poison x2 and Cure Light Injury (9 levels; 225% of 4,500gp base, Rulings S11)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "iulia",
+     "gp": -10125
+    }
+   ],
+   "to": "the Solar Citadel's scriptorium (market stock H76)",
+   "price_cp": 1012500,
+   "cmd": "inv pay",
+   "n": 4787
+  },
+  {
+   "op": "add",
+   "cause": "bought day 503 (H75)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of neutralize poison (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4788
+  },
+  {
+   "op": "add",
+   "cause": "bought day 503 (H74)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of delay poison (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4789
+  },
+  {
+   "op": "add",
+   "cause": "bought day 503 (H76)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [
+    {
+     "who": "iulia",
+     "item": "scroll of neutralize poison x2 and cure light injury (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4790
+  },
+  {
+   "op": "give",
+   "cause": "neris banks coin above 150gp (day 503)",
+   "day": 503,
+   "time": "day 503 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -250
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 250
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4791
   }
  ],
  "holdings": {
@@ -95184,7 +95370,9 @@
     "waterskin": 6,
     "oil, military (1 pint)": 3,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
-    "holy water (1 pint)": 2
+    "holy water (1 pint)": 2,
+    "scroll of neutralize poison (divine, auran)": 1,
+    "scroll of delay poison (divine, auran)": 1
    },
    "right_hand": {
     "holy symbol": 1
@@ -95288,7 +95476,8 @@
    },
    "backpack": {
     "waterskin": 4,
-    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
+    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
+    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1
    },
    "right_hand": {
     "#w60": 1
@@ -95761,7 +95950,7 @@
    "cp": 316
   },
   "iulia": {
-   "gp": 150,
+   "gp": 25,
    "cp": 282
   },
   "brennus": {
@@ -95815,7 +96004,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 639025,
+   "gp": 622275,
    "sp": 8
   },
   "calpurnia": {

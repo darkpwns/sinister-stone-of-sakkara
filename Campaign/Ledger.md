@@ -4046,3 +4046,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | cotta |
 | 503 | the Grey Sisters | vault fee, two months ahead (days 503-563; Rulings S11) |  |  | 20gp | lucilla |
 | 503 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 503 | the Keepers' scriptorium (market stock H75) | a divine scroll of Neutralize Poison (4 levels; 225% of 2,000gp base, Rulings S11) |  |  | 4,500gp | neris |
+| 503 | the Keepers' scriptorium (market stock H74) | a divine scroll of Delay Poison (2 levels; 225% of 1,000gp base, Rulings S11) |  |  | 2,250gp | neris |
+| 503 | the Solar Citadel's scriptorium (market stock H76) | a divine scroll of Neutralize Poison x2 and Cure Light Injury (9 levels; 225% of 4,500gp base, Rulings S11) |  |  | 10,125gp | iulia |
