@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: summer
-    day: 514
-  time: '13:41'
-  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)
+    day: 515
+  time: '10:23'
+  weather: Balmy (68 to 71 F) by day, Chilly (57 to 62 F) at night; drizzle; wind gentle (drizzly)
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -35,15 +35,14 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.464
+    encumbrance_st: 10.298
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fireball
+    spells_used: []
     encumbrance_st: 4.708
   - name: Neris
     sheet: Characters/neris.json
@@ -77,7 +76,6 @@ public:
     - minor scarring (puncture wound)
     spells_used:
     - Delay Poison
-    - Smite Undead
     encumbrance_st: 10.398
   - name: Aelia
     sheet: Characters/aelia.json
@@ -86,7 +84,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.82
+    encumbrance_st: 8.486
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -94,7 +92,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used:
-    - Thunderbolt
+    - Fan of Flames
     encumbrance_st: 7.005
   - name: Cotta
     sheet: Characters/cotta.json
@@ -105,7 +103,7 @@ public:
     spells_used: []
     encumbrance_st: 7.724
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) 2 turns 8 rounds left
   rations: 'Iulia: food 6 d, water 2 d; Brennus: food 6 d, water 1.8 d; Vettius: food 6 d, water 2 d; Neris: food 6 d, water 2.2 d; Phaedra: food 6 d, water 2 d; Vestus the Unlikely: food 6 d, water 2.8 d; Cotta: food 6 d, water 2 d; Lucilla: food 6 d, water 2 d; Aelia: food 6 d, water 2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -137,7 +135,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 514
+clock_day: 515
 ---
 # Campaign State
 

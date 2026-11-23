@@ -465,6 +465,12 @@
    "name": "ground:nethercity-r---abyssal-level-southern-cave",
    "actor": null,
    "status": "active"
+  },
+  "ground:nethercity-n---sub-abyssal-alchemic-laboratory": {
+   "kind": "cache",
+   "name": "ground:nethercity-n---sub-abyssal-alchemic-laboratory",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -97905,6 +97911,86 @@
    ],
    "cmd": "inv give",
    "n": 4924
+  },
+  {
+   "op": "light",
+   "cause": "torch391 lit (torch)",
+   "day": 515,
+   "time": "day 515 05:41",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "torch",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch391",
+   "cmd": "light on",
+   "n": 4925
+  },
+  {
+   "op": "light",
+   "cause": "torch392 lit (torch, light auto)",
+   "day": 515,
+   "time": "day 515 06:41",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "torch",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch392",
+   "cmd": "rest (light auto)",
+   "n": 4926
+  },
+  {
+   "op": "light",
+   "cause": "lantern20 lit (lantern)",
+   "day": 515,
+   "time": "day 515 06:51",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern20",
+   "cmd": "light on",
+   "n": 4927
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:nethercity-n---sub-abyssal-alchemic-laboratory",
+   "day": 515,
+   "time": "day 515 09:42",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "ground:nethercity-n---sub-abyssal-alchemic-laboratory",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 4928
   }
  ],
  "holdings": {
@@ -97955,7 +98041,7 @@
     "rope, 50'": 1,
     "tinderbox (flint & steel)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 3,
+    "oil, common (1 pint)": 2,
     "hammer (small)": 1,
     "iron spike": 10,
     "waterskin": 10,
@@ -98430,14 +98516,13 @@
     "#w46": 1,
     "#w47": 1,
     "#w61": 1,
-    "oil, military (1 pint)": 4,
-    "torch": 2
+    "oil, military (1 pint)": 4
    },
    "worn": {
     "backpack (holds 4 stone)": 1
    },
    "backpack": {
-    "arrow": 34,
+    "arrow": 33,
     "waterskin": 10,
     "tinderbox (flint & steel)": 1,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
@@ -98677,6 +98762,11 @@
   "ground:nethercity-r---abyssal-level-southern-cave": {
    "here": {
     "arrow": 3
+   }
+  },
+  "ground:nethercity-n---sub-abyssal-alchemic-laboratory": {
+   "here": {
+    "arrow": 1
    }
   }
  },
