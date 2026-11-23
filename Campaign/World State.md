@@ -133,7 +133,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ## Vessels (Judge-tracked, not inventory)
 - Four river canoes (RR canoe, 15' x 5', 1 paddler + 60 st; 40gp each, bought day 275), kept in the Silk Pony stables when not in use.
-- The funerary barge of the cults (L258, identified, used: no sale XP), 27/45 SHP (prow split), under old sails at Tertulla's landing on Lake Laman, paid to day 335 (2gp a week; paid day 321); to be sold (68,000gp base) or kept.
+- The funerary barge of the cults (L258, identified, used: no sale XP), 27/45 SHP (prow split), under old sails at Tertulla's landing on Lake Laman, 2gp a week paid a fortnight ahead by Lucilla, **paid to day 517** (the schedule's `barge-mooring` item from day 518; the fortnights of days 434-517 were paid on time in play, entered day 516 by the user's correction); to be sold (68,000gp base) or kept.
 
 ## Trade routes
 - Lucilla (Venturer, Steady Trade Route): Cyfaraun - Türos Tem, textiles and clothing (bought Cyfaraun, sold Türos Tem); established day 195.

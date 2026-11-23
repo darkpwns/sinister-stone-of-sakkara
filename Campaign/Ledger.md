@@ -4258,3 +4258,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 516 |  | treasure share |  | 1,549gp |  | phaedra |
 | 516 |  | treasure share |  | 1,549gp |  | aelia |
 | 516 |  | treasure share |  | 1,549gp |  | cotta |
+| 516 | Tertulla, Lake Laman fisherwoman | mooring the black barge, six fortnights (days 434-517), paid on time each fortnight in play; entered day 516 (user's correction: the company never forgot) |  |  | 24gp | lucilla |

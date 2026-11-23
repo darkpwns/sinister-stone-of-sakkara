@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.476
+    encumbrance_st: 9.452
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -111,7 +111,7 @@ public:
   - The troglodyte shaman will guide us to the magic rock in the cavern of the ants
   - 'The Order: no errand in hand (Brennus'' sellsword done, day 510)'
   - 'The sealed laboratory: its doors open for Vettius; 80 scroll jars still in the library; the black-green orb opens the arches of the pentagram room (west a jungle, south a dark land, south-west a passage); the electrum orb burns the room'
-  - The black barge at Tertulla's landing, paid to day 433
+  - The black barge at Tertulla's landing, paid to day 517
   trail:
   - '27.17'
   - '28.16'
