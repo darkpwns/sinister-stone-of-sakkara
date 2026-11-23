@@ -1162,3 +1162,25 @@ Class VI).
 Vestus' dues, the month's takes as above); 451 Cotta (50gp; Explorer 3: wage review), selling day (identify the new magic
 first: L502, L506, L510, L517, L518, L525, L528-L530, L554; L509 the iron mask stays in the vault).
 
+
+## S24 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0); `setup.sh` must print `engine: ready: acks 7.14.0`.
+Helpers: `Playtest/tools/s10_j.sh`, `s20_town.sh` (`tday`), **`s23_j.sh`** (`w N`, `relight`, `sup`, `bank DAY`; its `lit`
+reads `light show --json`; set `TC="aelia marcellus lucilla varro hrodvar"`), `s23_ledger.py` (Ledger rows into a section),
+`s23_ghoul.sh` (a grave ghoul's routine with the fever save), `s23_crawl.py` (the day-440 fight; it misreads surprise:
+judge-notes S23). Log: `Session Log/S23 — A Wagging Tongue.md`.
+
+**State on resume:** day 442 18:47, spring, Cyfaraun, the Solar Citadel barracks. No adventure open (A92 paid). Twelve:
+Lucilla Venturer 8 (123,006), Vettius Thief 8 (102,777; **Thief 9 at 180,000**, not 100,000), Vestus Mage 7 (Arcane
+Shift added day 437), Neris Priestess 7, Brennus Fighter 7, Iulia Crusader 7, henchmen Phaedra M5, Varro F6 (20/25),
+Hrodvar VG6 (day 440; Alertness), Marcellus F6, Aelia B6, Cotta Ex3. Coin above 150gp banked day 441.
+
+**Done in S23:** contracts A (Lucan Ferrox), B (Tarsus the Bull), C (Iunia Vex), paid (A89, A90); Rullo's note to
+Destrio (the Codex; ruinous misfortune, no contract); the purge's first week (ten informers killed, three bodies ashore,
+not common talk); Neris' plea to be heir refused; descent 57 (S3 emptied; area S empty), descent 58 (the shaman Helpful:
+the way to L4 and a guide).
+
+**Order of play next (World State prep queue):** contracts D (Sextus Calvo, Lucilla) and E (Galla Ursina, Neris):
+build each first; the Order's roll day 445; the purge's week 2 (3 spies; the turncoat's sale to the Watch: the Iunia
+inquiry day 449); delves as time allows (L4 with the shaman's guide; G; K4; F14/T); month 15's end day 450; the selling
+day 451 (identify first). Keep Iulia out of the Family's work. The estate waits.

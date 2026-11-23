@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 441
-  time: '13:47'
+    day: 442
+  time: '18:47'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -42,9 +42,7 @@ public:
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 4.781
   - name: Neris
     sheet: Characters/neris.json
@@ -113,8 +111,7 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.052
   - name: Cotta
     sheet: Characters/cotta.json
@@ -129,11 +126,12 @@ public:
   rations: 'Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0.2 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Cotta: food 0 d, water 0 d; Lucilla: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - Selene is dead and Sand & Bones belongs to the Family under Lucilla; Thana runs the Pony's honest trade
+  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
   - Iulia's charge from the Patriarch is done
-  - 'The Family''s traitors on the wharves: five in the river, ten known and watched, some still unknown'
-  - 'Below: the serpent door in the vestibule and the Great Teacher; the sealed cases; the rhagodessae; the bronze door off the lizard-men''s tunnel'
-  - The lizard-men's old shaman keeps the peace and her secret of the magic rock
+  - 'The Family''s traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head'
+  - 'Below: the serpent door in the vestibule and the Great Teacher; the sealed cases; the bronze door off the lizard-men''s tunnel'
+  - The troglodyte shaman will guide us to the magic rock in the cavern of the ants
+  - 'The Order: two errands in hand (a housebreaker for Lucilla, a hired swordswoman for Neris)'
   - The black barge at Tertulla's landing, paid to day 433
   trail:
   - '27.17'
@@ -156,7 +154,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 441
+clock_day: 442
 ---
 # Campaign State
 
