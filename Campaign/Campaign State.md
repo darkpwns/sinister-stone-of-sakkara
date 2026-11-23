@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 478
-  time: '10:27'
+    day: 479
+  time: '10:17'
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -42,8 +42,7 @@ public:
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fireball
+    spells_used: []
     encumbrance_st: 3.946
   - name: Neris
     sheet: Characters/neris.json
@@ -53,18 +52,12 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Divine Grace
-    - Divine Grace
-    - Divine Grace
-    - Smite Undead
-    - Cure Light Injury
-    - Cure Light Injury
+    spells_used: []
     encumbrance_st: 3.82
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 18
+    hp: 29
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -78,9 +71,7 @@ public:
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
-    spells_used:
-    - Holy Blessing
-    - Smite Undead
+    spells_used: []
     encumbrance_st: 9.278
   - name: Hrodvar
     sheet: Characters/hrodvar.json
@@ -106,7 +97,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 6.688
+    encumbrance_st: 6.521
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -132,8 +123,8 @@ public:
     spells_used: []
     encumbrance_st: 5.928
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (Marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (Marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (Varro) out; torch (Marcellus) out; torch (Varro) out; torch (Marcellus) out; torch (Varro) out; torch (Lucilla) out; torch (Aelia)
-    4 turns 5 rounds left
-  rations: 'Vettius: food 7 d, water 1 d; Neris: food 7 d, water 1.2 d; Iulia: food 7 d, water 0.4 d; Varro: food 7 d, water 1 d; Hrodvar: food 7 d, water 1 d; Brennus: food 7 d, water 0.8 d; Phaedra: food 7 d, water 1 d; Marcellus: food 7 d, water 1 d; Vestus the Unlikely: food 7 d, water 1.8 d; Cotta: food 7 d, water 0.2 d; Lucilla: food 7 d, water 1 d; Aelia: food 7 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+    out; torch (Aelia) 4 turns 6 rounds left
+  rations: 'Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Iulia: food 6 d, water 0.4 d; Varro: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Phaedra: food 6 d, water 1 d; Marcellus: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
@@ -164,7 +155,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 478
+clock_day: 479
 ---
 # Campaign State
 

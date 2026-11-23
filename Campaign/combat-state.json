@@ -2,21 +2,21 @@
  "schema": "acks-combat/3",
  "round": 2,
  "order": [
-  "lucilla",
-  "iulia",
   "brennus",
+  "cotta",
+  "lucilla",
+  "gelatinous-mass1",
   "neris",
-  "phaedra",
+  "iulia",
+  "marcellus",
+  "hrodvar",
+  "vestus-the-unlikely",
   "aelia",
   "vettius",
-  "vestus-the-unlikely",
-  "marcellus",
   "varro",
-  "cotta",
-  "python-snake1",
-  "hrodvar"
+  "phaedra"
  ],
- "count_index": 1,
+ "count_index": 13,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -31,12 +31,14 @@
    "conditions": [],
    "group": "vettius",
    "perceived": "Vettius",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "2"
+   },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -268,7 +270,7 @@
    "hp_max": 22,
    "hp": 22,
    "hp_start": 22,
-   "attacked_round": 1
+   "acted_round": 2
   },
   "neris": {
    "id": "neris",
@@ -525,7 +527,8 @@
    "actor": "neris",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20
+   "hp_start": 20,
+   "acted_round": 2
   },
   "iulia": {
    "id": "iulia",
@@ -534,12 +537,14 @@
    "conditions": [],
    "group": "iulia",
    "perceived": "Iulia",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "3"
+   },
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 6,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -720,7 +725,8 @@
    "hp_max": 40,
    "hp": 40,
    "hp_start": 40,
-   "attacked_round": 1
+   "attacked_round": 2,
+   "acted_round": 2
   },
   "varro": {
    "id": "varro",
@@ -729,7 +735,9 @@
    "conditions": [],
    "group": "varro",
    "perceived": "Varro",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "0"
+   },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
@@ -939,7 +947,7 @@
    "hp_max": 25,
    "hp": 25,
    "hp_start": 25,
-   "attacked_round": 1
+   "acted_round": 2
   },
   "hrodvar": {
    "id": "hrodvar",
@@ -948,12 +956,14 @@
    "conditions": [],
    "group": "hrodvar",
    "perceived": "Hrodvar",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "0"
+   },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 0,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1158,7 +1168,7 @@
    "hp_max": 19,
    "hp": 19,
    "hp_start": 19,
-   "attacked_round": 1
+   "acted_round": 2
   },
   "brennus": {
    "id": "brennus",
@@ -1167,15 +1177,16 @@
    "conditions": [],
    "group": "brennus",
    "perceived": "Brennus",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "4"
+   },
    "hp_lost_rounds": [
-    1,
     1
    ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1368,9 +1379,10 @@
    },
    "actor": "brennus",
    "hp_max": 31,
-   "hp": 11,
+   "hp": 29,
    "hp_start": 31,
-   "attacked_round": 1
+   "attacked_round": 2,
+   "acted_round": 2
   },
   "phaedra": {
    "id": "phaedra",
@@ -1383,8 +1395,10 @@
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
+   "declared": {
+    "spell": true
+   },
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1584,7 +1598,8 @@
    "actor": "phaedra",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20
+   "hp_start": 20,
+   "acted_round": 2
   },
   "marcellus": {
    "id": "marcellus",
@@ -1593,12 +1608,14 @@
    "conditions": [],
    "group": "marcellus",
    "perceived": "Marcellus",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "0"
+   },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1813,7 +1830,7 @@
    "hp_max": 40,
    "hp": 40,
    "hp_start": 40,
-   "attacked_round": 1
+   "acted_round": 2
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -1826,8 +1843,10 @@
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
+   "declared": {
+    "spell": true
+   },
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -2005,7 +2024,8 @@
    "actor": "vestus-the-unlikely",
    "hp_max": 18,
    "hp": 18,
-   "hp_start": 18
+   "hp_start": 18,
+   "acted_round": 2
   },
   "cotta": {
    "id": "cotta",
@@ -2019,7 +2039,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2219,7 +2239,8 @@
    "actor": "cotta",
    "hp_max": 13,
    "hp": 13,
-   "hp_start": 13
+   "hp_start": 13,
+   "acted_round": 2
   },
   "lucilla": {
    "id": "lucilla",
@@ -2229,13 +2250,14 @@
    "group": "lucilla",
    "perceived": "Lucilla",
    "judge_set": {
-    "resist": "fire:both"
+    "resist": "fire:both",
+    "ac": "2"
    },
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 1,
+   "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -2442,12 +2464,14 @@
    "conditions": [],
    "group": "aelia",
    "perceived": "Aelia",
-   "judge_set": {},
+   "judge_set": {
+    "ac": "0"
+   },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2664,79 +2688,51 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "attacked_round": 1
+   "acted_round": 2
   },
-  "python-snake1": {
-   "id": "python-snake1",
+  "gelatinous-mass1": {
+   "id": "gelatinous-mass1",
    "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "python-snake",
-   "perceived": "a huge snake among the boulders 1",
+   "status": "slain",
+   "conditions": [],
+   "group": "gelatinous-mass",
+   "perceived": "a clear quivering block filling the corridor 1",
    "judge_set": {},
    "hp_lost_rounds": [
-    1,
-    1,
+    2,
     2
    ],
    "felled": {
     "round": 2,
     "types": [
-     "bludgeoning"
+     "piercing"
     ],
     "natural": false,
-    "by": "lucilla",
+    "by": "iulia",
     "tier": "extraordinary",
     "nonlethal": false
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Python Snake",
+   "name": "Gelatinous Mass",
    "stats": {},
    "monster": {
-    "base": "python-snake",
-    "sha256": "cf21e0fe7a5652710c8ec3b56fbce107d8666c39490be6522d151cb3d4a11228"
+    "base": "gelatinous-mass",
+    "sha256": "4fa244ecfe6828bd11f1cdf37321506fd38a14fa4a2bbf4dfe3e4112d6b9cc1b"
    },
-   "hp_max": 19,
-   "hp": -2,
-   "hp_start": 19,
+   "hp_max": 13,
+   "hp": -5,
+   "hp_start": 13,
    "attacked_round": 1,
-   "dying": {
-    "within": "turn",
-    "since_round": 2
-   },
-   "mortal_wounds": {
-    "total": 6,
-    "d20": 12,
-    "d6": 6,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "3d6 teeth are broken inward by a forceful blow, leaving you slurring and gap-toothed (-2 to all reaction rolls, -1 to initiative when spellcasting).",
-    "band": "6-10"
-   },
+   "acted_round": 2,
    "xp_recorded": {
-    "record": "M209",
+    "record": "M211",
     "how": "killed",
-    "xp": 350
+    "xp": 245
    }
   }
  },
@@ -2885,24 +2881,15 @@
    },
    "start_count": 1
   },
-  "python-snake": {
+  "gelatinous-mass": {
    "side": "foe",
    "members": [
-    "python-snake1"
+    "gelatinous-mass1"
    ],
    "morale": {
-    "state": "faltering",
-    "rolls": [
-     {
-      "round": 1,
-      "total": 5,
-      "result": "Morale Faltering",
-      "reason": "lost 1/3 of its hp (18/19)"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 1,
-    "first_round": 1
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
    },
    "start_count": 1,
    "felled_rounds": [
@@ -2913,53 +2900,31 @@
  "engaged": [],
  "engaged_at_round_start": [
   [
-   "iulia",
-   "python-snake1"
-  ],
-  [
    "brennus",
-   "python-snake1"
+   "gelatinous-mass1"
   ],
   [
-   "marcellus",
-   "python-snake1"
-  ],
-  [
-   "hrodvar",
-   "python-snake1"
-  ],
-  [
-   "aelia",
-   "python-snake1"
-  ],
-  [
-   "python-snake1",
-   "vettius"
-  ],
-  [
-   "python-snake1",
-   "varro"
+   "gelatinous-mass1",
+   "lucilla"
   ]
  ],
  "distances": {
-  "python-snake1|vettius": 5,
-  "neris|python-snake1": 20,
-  "iulia|python-snake1": 5,
-  "python-snake1|varro": 5,
-  "hrodvar|python-snake1": 5,
-  "brennus|python-snake1": 5,
-  "phaedra|python-snake1": 20,
-  "marcellus|python-snake1": 5,
-  "python-snake1|vestus-the-unlikely": 20,
-  "cotta|python-snake1": 20,
-  "lucilla|python-snake1": 5,
-  "aelia|python-snake1": 5
+  "gelatinous-mass1|vettius": 30,
+  "gelatinous-mass1|neris": 5,
+  "gelatinous-mass1|iulia": 5,
+  "gelatinous-mass1|varro": 25,
+  "gelatinous-mass1|hrodvar": 25,
+  "brennus|gelatinous-mass1": 5,
+  "gelatinous-mass1|phaedra": 30,
+  "gelatinous-mass1|marcellus": 25,
+  "gelatinous-mass1|vestus-the-unlikely": 30,
+  "cotta|gelatinous-mass1": 30,
+  "gelatinous-mass1|lucilla": 5,
+  "aelia|gelatinous-mass1": 30
  },
  "log": [],
- "encounter_id": "enc389",
- "notes_shown": [
-  "morale.modifier_tiers"
- ],
+ "encounter_id": "enc399",
+ "notes_shown": [],
  "round_ended": 2,
  "retinue": {
   "varro": {
@@ -3009,17 +2974,6 @@
  ],
  "ended": {
   "round": 2,
-  "felled_foes": [
-   {
-    "id": "python-snake1",
-    "name": "Python Snake",
-    "perceived": "a huge snake among the boulders 1",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "3d6 teeth are broken inward by a forceful blow, leaving you slurring and gap-toothed (-2 to all reaction rolls, -1 to initiative when spellcasting).",
-    "total": 6
-   }
-  ]
+  "felled_foes": []
  }
 }

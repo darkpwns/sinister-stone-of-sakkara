@@ -103,14 +103,16 @@ while True:
                     break
                 code, out = run("attack", who, nxt[0], "--cleave")
         continue
+    if me["side"] == "party":
+        continue
     # a foe
     tgt = [f for f in engaged(c, who) if active(cb[f])]
     if not tgt:
         cands = [p for p in FIGHT if p in cb and active(cb[p])]
         p = random.choice(cands)
         run("state", "engage", who, p); tgt = [p]
-    nat = len(me["stats"]["monster"]["attacks"]) if isinstance(me["stats"]["monster"].get("attacks"), list) else 1
-    raw = me["stats"]["monster"]["attacks"][0].get("raw", "1") if nat else "1"
+    atk = ((me.get("stats") or {}).get("monster") or {}).get("attacks") or [{"raw": "1"}]
+    raw = (atk[0] or {}).get("raw", "1") if isinstance(atk, list) else "1"
     n = int(re.match(r"(\d+)", raw).group(1)) if re.match(r"(\d+)", raw) else 1
     for i in range(n):
         run("attack", who, tgt[0], "--attack", str(i))
