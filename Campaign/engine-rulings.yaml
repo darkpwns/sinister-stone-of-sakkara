@@ -7,3 +7,11 @@
 #     ruling: "Rulings.md 2026-12-01: morale modifier lines stack"
 schema: acks-rulings/1
 rulings: []
+# Door kinds (engine 7.17.2): a row here wins over the module's doors table (Adventure/SOTN/Tables/doors.yaml) for
+# `explore force-door --door-kind NAME` and is printed as "Judge's ruling (date)".
+doors:
+  - door: stone slab
+    mod: 0
+    max_helpers: 2
+    date: 2026-11-22
+    ruling: "Rulings S18: no -12 on ACKS II's 18+ base; the pair and up to 2 more helpers (unmodified STR bonus each)"

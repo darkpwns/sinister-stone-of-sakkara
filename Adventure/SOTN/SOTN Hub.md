@@ -110,7 +110,7 @@ Every **12 turns (2 hours)** in the Nethercity: event throw 1d6, **6+** → `Tab
 played at the next fitting moment; re-roll a repeat. Event 1 (songbird) forces an encounter throw.
 
 ### Standing rules ([[Nethercity Features]])
-Doors (stone slab −12 with up to 3 helpers adding STR bonuses, bronze −4, cedar), how long it takes to open a tomb and
+Doors (stone slab: **Rulings S18, no −12**, the pair and up to 2 more helpers, `--door-kind "stone slab"`; bronze −4; cedar), how long it takes to open a tomb and
 what the undead inside are doing; inscriptions (Ancient Argollëan; 11+ / 16+ with fumbles); sarcophagi and lids; **sewer
 sludge** (half-rate charges, −2 Acrobatics/Sneaking, fungal infection, miasma save every turn, **fireballs over the sludge
 in area L**); **sinkholes of evil** (the whole place shadowed; blighted spots; the dead rise); teleport wards; **wall

@@ -42,7 +42,7 @@ feed a food chain:
   carved in relief.
 
 ## Doors (SOTN p. 11)
-Forcing a door is the ACKS II door-forcing throw (Dungeonbashing Expertise improves it); SOTN's penalties apply to it.
+Forcing a door is the ACKS II door-forcing throw (Dungeonbashing Expertise improves it); SOTN's penalties apply to it, **except the stone slab's, which Rulings S18 replaced: no −12, the pair and up to 2 more helpers.** Always heave with `explore force-door A B --helpers C,D --door-kind "stone slab"` (the engine reads `Tables/doors.yaml` and the ruling in `Campaign/engine-rulings.yaml`); never pass a penalty by hand.
 | Door | Size | Penalty | Helpers | Found open |
 | --- | --- | --- | --- | --- |
 | **Stone slab** (rolling cylinder sealing a tomb, 1½-2 tons) | — | **−12** | up to 3 | no chance given (closed) |
