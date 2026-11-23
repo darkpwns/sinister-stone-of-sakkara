@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 436
-  time: '10:59'
+    day: 439
+  time: '20:59'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -35,7 +35,7 @@ public:
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 10.834
+    encumbrance_st: 11.99
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -52,7 +52,7 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 5.421
+    encumbrance_st: 6.577
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -62,7 +62,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.329
+    encumbrance_st: 11.485
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -112,7 +112,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 7.432
+    encumbrance_st: 8.01
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -153,7 +153,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 436
+clock_day: 439
 ---
 # Campaign State
 

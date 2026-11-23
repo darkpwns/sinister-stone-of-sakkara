@@ -407,6 +407,8 @@ tags:
 | 430 | Descent 56 (S, the hidden tombs) | 3,000 silver pieces | 300 | neris |
 | 430 | Descent 56 (S, the hidden tombs) | 3,000 silver pieces | 300 | aelia |
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | the Order's commission (L569) | 2,000 | vettius |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | the Order's commission for Tarsus (L570) | 2,500 | neris |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | the Order's commission for Iunia (L571) | 1,500 | brennus |
 
 ## Monster XP
 
@@ -520,6 +522,8 @@ tags:
 | 430 | Descent 56 (S, the hidden tombs) | Skeleton | 120 | 47 | 5,640 |
 | 430 | Descent 56 (S, the hidden tombs) | Mummy Cultist of Iskara (SOTN) | 1 | 2,600 | 2,600 |
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | Lucan Ferrox | 1 | 80 | 80 |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Tarsus the Bull | 1 | 200 | 200 |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Iunia Vex | 1 | 50 | 50 |
 
 ## Shares and XP awarded
 
@@ -1105,6 +1109,10 @@ tags:
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | Vettius | 1 | 800 | 32 | 0 | +5% | 874 |
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | Neris | 1 | 800 | 32 | 0 | +0% | 832 |
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Neris | 1 | 1,143 | 71 | 0 | +0% | 1,214 |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Brennus | 1 | 1,143 | 71 | 0 | +5% | 1,275 |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Vettius | 1 | 1,143 | 71 | 0 | +5% | 1,275 |
+| 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Phaedra | 0.5 | 571 | 36 | 0 | +0% | 607 |
 
 ## Wages
 
@@ -3268,3 +3276,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 436 |  | treasure share |  | 800gp |  | vettius |
 | 436 |  | treasure share |  | 800gp |  | neris |
 | 436 |  | treasure share |  | 400gp |  | phaedra |
+| 437 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 437 | the retinue | wages paid |  |  | 400gp | iulia |
+| 439 |  | treasure share |  | 1,142gp 8sp 6cp |  | neris |
+| 439 |  | treasure share |  | 1,142gp 8sp 6cp |  | brennus |
+| 439 |  | treasure share |  | 1,142gp 8sp 6cp |  | vettius |
+| 439 |  | treasure share |  | 571gp 4sp 3cp |  | phaedra |
