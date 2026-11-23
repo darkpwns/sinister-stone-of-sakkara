@@ -4116,3 +4116,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 510 | investment 3 | month 17 investments: (3) 79 Return +150%: 75gp (3,000gp x 1% x 2.5); (2) Delay (months 16-21), nothing |  | 75gp |  | lucilla |
 | 510 | investment 1 (loss) | month 17 investments: (1) 21 Return -150%: a loss of 3gp 4sp 7cp (693gp x 1% x -0.5) |  |  | 3gp 4sp 7cp | lucilla |
 | 510 | the Tower of Knowledge | Vestus' dues, month 17 |  |  | 10gp | vestus-the-unlikely |
+| 510 | the retinue | wages paid |  |  | 200gp | vettius |
