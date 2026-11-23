@@ -1226,3 +1226,16 @@ bargain) quiet: three double agents. No Order contract in hand.
 **Next (World State prep queue):** 465 the Tower's identifications, then a selling day (the S25-S26 goods); 466 the
 Order's roll; 467 and 473 wages; 470 weekly rolls; the Imperial Vanguard below within the month; Varinia's circle
 (Arëtar). Delves: G10-G14 next (skeletons, the consul, the mummy king).
+
+## S28 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers as before (`s23_j.sh`, `s23_ledger.py`,
+`s27_g10.py` for a circle grind). Log: `Session Log/S27 — Rivals Below.md`. Set Campaign State `session:` to 28 first.
+
+**State on resume:** day 470 18:18, the Solar Citadel. No adventure open (A101 paid). Twelve; Iulia Crusader 8;
+Vettius enervated (max hp 21; a Death save each morning, three straight passes end it). The Family: talk of the killings
+(morale -1 to day 491); three double agents hold. No Order contract. Owed: actor mods for Iulia's ring and Aelia's cloak
+and boots (item notes); a selling day for A101's goods.
+
+**Next (World State prep queue):** 473 the Order's roll, wages; 477 weekly; 480 month 16 ends (and Arëtar's mission on
+Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (AX3 reactions at the grate); delves: G13/G14
+(the mummy king, bronze statues), the faewyrd, G18, G26/G27; then K, L4, R.
