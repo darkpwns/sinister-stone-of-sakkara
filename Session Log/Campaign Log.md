@@ -31,3 +31,4 @@ tags:
 - [[S20 — War with Sand and Bones]]
 - [[S21 — Return to the Nethercity]]
 - [[S22 — Out from Under the Eclipse]]
+- [[S23 — A Wagging Tongue]]

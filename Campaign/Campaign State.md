@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 22
+session: 23
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A88 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 435
-  time: 06:59
+    day: 436
+  time: '10:59'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -35,7 +35,7 @@ public:
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 10.034
+    encumbrance_st: 10.834
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -52,7 +52,7 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     spells_used: []
-    encumbrance_st: 4.621
+    encumbrance_st: 5.421
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -112,7 +112,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 7.032
+    encumbrance_st: 7.432
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -153,7 +153,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 435
+clock_day: 436
 ---
 # Campaign State
 

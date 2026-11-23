@@ -406,6 +406,7 @@ tags:
 | 430 | Descent 56 (S, the hidden tombs) | 4,000 silver pieces | 400 | phaedra |
 | 430 | Descent 56 (S, the hidden tombs) | 3,000 silver pieces | 300 | neris |
 | 430 | Descent 56 (S, the hidden tombs) | 3,000 silver pieces | 300 | aelia |
+| 436 | The Order's contract: Lucan Ferrox (night of 435) | the Order's commission (L569) | 2,000 | vettius |
 
 ## Monster XP
 
@@ -518,6 +519,7 @@ tags:
 | 427 | Descent 55 (F19, G1a) | Rhagodessa (AX3) | 2 | 215 | 430 |
 | 430 | Descent 56 (S, the hidden tombs) | Skeleton | 120 | 47 | 5,640 |
 | 430 | Descent 56 (S, the hidden tombs) | Mummy Cultist of Iskara (SOTN) | 1 | 2,600 | 2,600 |
+| 436 | The Order's contract: Lucan Ferrox (night of 435) | Lucan Ferrox | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -1100,6 +1102,9 @@ tags:
 | 430 | Descent 56 (S, the hidden tombs) | Aelia | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
 | 430 | Descent 56 (S, the hidden tombs) | Marcellus | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
 | 430 | Descent 56 (S, the hidden tombs) | Cotta | 0.5 | 725 | 458 | 0 | +0% | 1,183 |
+| 436 | The Order's contract: Lucan Ferrox (night of 435) | Vettius | 1 | 800 | 32 | 0 | +5% | 874 |
+| 436 | The Order's contract: Lucan Ferrox (night of 435) | Neris | 1 | 800 | 32 | 0 | +0% | 832 |
+| 436 | The Order's contract: Lucan Ferrox (night of 435) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 |
 
 ## Wages
 
@@ -3260,3 +3265,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 430 |  | treasure share |  | 166gp 6sp 7cp |  | cotta |
 | 435 | Sand & Bones' members (a month's wage each: Change in Management bribes) | Vettius claims Sand & Bones from Lucilla's hand, day 435 |  |  | 8,140gp | vettius |
 | 435 | the Family's syndicate members (a month's wage each: Change in Management bribes) | Vettius claims the Family's syndicate from Lucilla's hand, day 435 |  |  | 13,080gp | vettius |
+| 436 |  | treasure share |  | 800gp |  | vettius |
+| 436 |  | treasure share |  | 800gp |  | neris |
+| 436 |  | treasure share |  | 400gp |  | phaedra |
