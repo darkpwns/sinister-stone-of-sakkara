@@ -112,14 +112,16 @@ public:
   rations: 'Vettius: food 0 d, water 1.6 d; Vestus the Unlikely: food 0 d, water 2.8 d; Lucilla: food 0 d, water 2 d; Cotta: food 0 d, water 2.8 d; Brennus: food 0 d, water 1 d; Neris: food 0 d, water 2.2 d; Aelia: food 0 d, water 2 d; Phaedra: food 0 d, water 2 d; Hrodvar: food 6 d, water 1 d; Tiberius Maro: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
-  - Iulia's charge from the Patriarch is done
-  - 'The Family''s traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head'
-  - 'Below: the serpent door in the vestibule and the Great Teacher; the sealed cases; the bronze door off the lizard-men''s tunnel'
-  - The troglodyte shaman will guide us to the magic rock in the cavern of the ants
-  - 'The Order: no errand in hand (Brennus'' sellsword done, day 510)'
-  - 'The sealed laboratory: its doors open for Vettius; 80 scroll jars still in the library; the black-green orb opens the arches of the pentagram room (west a jungle, south a dark land, south-west a passage); the electrum orb burns the room'
-  - The black barge at Tertulla's landing, paid to day 517
+  - "Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink"
+  - "Tiberius Maro, Vettius' crusader, is Captain of the Underwatch (day 528): spear, shield and the Rod of the Dawn; the company lodges at the Citadel again"
+  - "A wine-factor, Gaius Sertorius Macro, asked the Brotherhood for the Captain's death (day 534); Destrio entered his name in the Codex"
+  - "The Family's traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head"
+  - "Below: N and O are empty; the sealed cases (F17: the egg-bulbs wake the Great Teacher); J8's throne; L4's platform; the serpent door and the bronze door off the lizard-men's tunnel"
+  - "The troglodyte shaman will guide us to the magic rock in the cavern of the ants"
+  - "The Order: the month-18 contracts are done (Corvo, Ruga, Ammia Thrax, Faustus Cerco)"
+  - "The dark crystal from the golden-skull shrine is at the Tower for identification (ready day 547)"
+  - "The Watch: an officer came about the herb-wife found in the Eastgate meadows (day 533) and left unsatisfied"
+  - "The black barge at Tertulla's landing, paid to day 545"
   trail:
   - '27.17'
   - '28.16'
