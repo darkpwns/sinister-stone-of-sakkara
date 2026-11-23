@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 521
-  time: '10:45'
+    day: 523
+  time: 05:45
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 37
+    hp: 39
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -31,7 +31,7 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 31
+    hp: 32
     hp_max: 32
     conditions: []
     spells_used: []
@@ -42,8 +42,7 @@ public:
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 4.736
   - name: Neris
     sheet: Characters/neris.json
@@ -58,7 +57,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 34
+    hp: 35
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -68,7 +67,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 21
+    hp: 22
     hp_max: 23
     conditions: []
     spells_used: []
@@ -76,7 +75,7 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 7
+    hp: 11
     hp_max: 20
     conditions:
     - 'critically wounded (Mortal Wounds, day 517): one foot lost to frostbite (peg required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes); 1 week of bed rest'
@@ -85,7 +84,7 @@ public:
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 18
+    hp: 19
     hp_max: 19
     conditions: []
     spells_used: []
@@ -124,7 +123,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 521
+clock_day: 523
 ---
 # Campaign State
 
