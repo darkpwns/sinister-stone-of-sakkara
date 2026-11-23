@@ -19,6 +19,11 @@
   play.py bank-balances --bank HOLDER [--day N]
       Each member's balance with a bank holder, from the inventory log (who gave, or who the cause names).
 
+  play.py cond add ID "TEXT" [--cause WHY]   |   play.py cond remove ID "TEXT" [--cause WHY]   |   play.py cond list ID
+      One condition added to or taken off an actor's `state.conditions` (the engine's `actor set` takes the whole
+      list: this reads it, changes one entry and writes it back with the cause). `remove` matches the exact text or,
+      when no entry equals it, the one entry that contains it.
+
 Nothing here decides a rule: every number comes from the engine's own commands, run through jacks.py exactly as
 `acks.sh` runs them (same log, same states, same refusals).
 """
@@ -255,6 +260,35 @@ def bank_balances(a):
     return 0
 
 
+def cond(a):
+    E = Engine()
+    from jlib import actor_dirs, load_actor
+    path = next((os.path.join(d, a.id + ".json") for d in actor_dirs(E.ctx["cfg"])
+                 if os.path.exists(os.path.join(d, a.id + ".json"))), None)
+    if not path:
+        print(f"no actor {a.id}")
+        return 1
+    cur = list((load_actor(path).get("state") or {}).get("conditions") or [])
+    if a.action == "list":
+        print(json.dumps(cur, ensure_ascii=False))
+        return 0
+    if a.action == "add":
+        if a.text in cur:
+            print(f"{a.id} already has: {a.text}")
+            return 0
+        new = cur + [a.text]
+    else:
+        hit = [c for c in cur if c == a.text] or [c for c in cur if a.text.lower() in str(c).lower()]
+        if len(hit) != 1:
+            print(f"{a.id}: {len(hit)} conditions match {a.text!r}: {json.dumps(cur, ensure_ascii=False)[:400]}")
+            return 1
+        new = [c for c in cur if c != hit[0]]
+    code, out = E.run("actor", "set", a.id, "state.conditions", json.dumps(new, ensure_ascii=False), "--cause",
+                      a.cause or ("condition" if a.action == "add" else "condition ends"))
+    print(short(out, 200))
+    return code
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -275,12 +309,17 @@ def main(argv=None):
     p = sub.add_parser("bank-balances")
     p.add_argument("--bank", required=True)
     p.add_argument("--day", type=int)
+    p = sub.add_parser("cond")
+    p.add_argument("action", choices=["add", "remove", "list"])
+    p.add_argument("id")
+    p.add_argument("text", nargs="?")
+    p.add_argument("--cause")
     a, rest = ap.parse_known_args(argv)
     if a.cmd == "payout":
         return payout(a, rest)
     if rest:
         ap.error("unrecognized arguments: " + " ".join(rest))
-    return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances}[a.cmd](a)
+    return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond}[a.cmd](a)
 
 
 if __name__ == "__main__":
