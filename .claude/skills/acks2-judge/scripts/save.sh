@@ -27,7 +27,7 @@ fi
 if [ -f "$R/Campaign/lessons.yaml" ]; then LC=$(bash "$D/acks.sh" lesson check 2>&1) || { echo "NOT SAVED: Campaign/lessons.yaml: $LC"; exit 2; }; echo "$LC" | grep -o "ESCALATE[^/|]*" | head -5; fi
 if [ -f "$R/Campaign/schedule.yaml" ]; then SC=$(bash "$D/acks.sh" schedule check 2>&1) || { echo "NOT SAVED: Campaign/schedule.yaml: $SC"; exit 2; }; fi
 if [[ "$1" =~ ^S[0-9]+\ end ]]; then   # session end: old day ledgers, events and burnt-out lights to the archive; the handoff rewritten
-  bash "$D/acks.sh" compact 2>&1 | cut -c1-200
+  python3 -c "import acks.compact" 2>/dev/null && bash "$D/acks.sh" compact 2>&1 | cut -c1-200   # engine 7.16.0+
   python3 "$D/handoff.py" || echo "handoff not written"
 fi
 python3 "$D/check_overlay.py" || { echo "NOT SAVED: class-overlays.yaml refused (overlay check)"; exit 2; }   # S5

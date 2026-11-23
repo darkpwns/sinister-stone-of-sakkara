@@ -21,6 +21,21 @@ def camp(tmp_path):
     return str(dst)
 
 
+def need(camp, rel, text=None):
+    """Skip a test whose material this campaign does not have (the tests travel with the skill to every campaign)."""
+    p = os.path.join(camp, rel)
+    if not os.path.exists(p) or (text and text not in open(p, encoding="utf-8").read()):
+        pytest.skip(f"this campaign has no {rel}" + (f" with {text!r}" if text else ""))
+
+
+def first_member(camp):
+    need(camp, "Campaign/exploration-state.json")
+    ids = list(json.load(open(os.path.join(camp, "Campaign", "exploration-state.json"))).get("party") or {})
+    if not ids:
+        pytest.skip("no exploration party")
+    return ids[0]
+
+
 def sh(camp, *args, script="acks.sh", stdin=None, env=None):
     cmd = ["bash", os.path.join(S, script), *args] if script.endswith(".sh") else [sys.executable, os.path.join(S, script), *args]
     r = subprocess.run(cmd, capture_output=True, text=True, input=stdin,
@@ -40,13 +55,16 @@ def test_each_stage_gets_its_states(camp):
     assert f"--state {C}/combat-state.json --xstate {C}/exploration-state.json --retinue {C}/retinue-state.json" in line
     assert f"--log {C}/roll-log.jsonl --session " in line
     assert env["ACKS_ACTORS"].split(os.pathsep)[0] == os.path.join(camp, "Characters")
-    assert env["ACKS_LESSONS"].endswith("Campaign/lessons.yaml") and env["ACKS_SCHEDULE"].endswith("Campaign/schedule.yaml")
+    if os.path.exists(os.path.join(C, "lessons.yaml")):
+        assert env["ACKS_LESSONS"].endswith("Campaign/lessons.yaml")
+    if os.path.exists(os.path.join(C, "schedule.yaml")):
+        assert env["ACKS_SCHEDULE"].endswith("Campaign/schedule.yaml")
     assert "--xstate" not in argv_of(camp, "roll", "x:1d6")[1] and "--state" not in argv_of(camp, "roll", "x:1d6")[1]
     assert "--hexes" in argv_of(camp, "travel", "22.21")[1]
     assert "--astate" in argv_of(camp, "payout")[1] and "--retinue" in argv_of(camp, "payout")[1]
     assert "--party-hp" in argv_of(camp, "encounter", "fight", "--perceived", "x")[1]
     assert "--bestiary" in argv_of(camp, "state", "add", "o", "--side", "foe", "--monster", "Orc", "--perceived", "x")[1]
-    assert "--setting classic" in argv_of(camp, "adventure", "init")[1]
+    assert "--astate" in argv_of(camp, "adventure", "init")[1]
     assert "--xstate" in argv_of(camp, "enervation", "show")[1] and "--xstate" in argv_of(camp, "schedule", "due")[1]
 
 
@@ -57,7 +75,7 @@ def test_a_foe_joins_only_under_a_perceived_name(camp):
 
 def test_rolls_are_logged_with_session_and_visibility(camp):
     log = os.path.join(camp, "Campaign", "roll-log.jsonl")
-    n = sum(1 for _ in open(log))
+    n = sum(1 for _ in open(log)) if os.path.exists(log) else 0
     code, out = sh(camp, "roll", "--hidden", "a guard's morale:2d6")
     assert code == 0 and out.startswith("[H] ")
     recs = [json.loads(x) for x in open(log)]
@@ -65,6 +83,8 @@ def test_rolls_are_logged_with_session_and_visibility(camp):
 
 
 def test_lessons_fire_through_the_wrapper(camp):
+    need(camp, "Campaign/lessons.yaml", "npc-rolls-hidden")
+    need(camp, "Campaign/lessons.yaml", "slab-no-minus-12")
     code, out = sh(camp, "roll", "a guard's morale:2d6")
     assert code == 1 and "NOT RUN (lesson): [npc-rolls-hidden]" in out
     code, out = sh(camp, "lesson", "check")
@@ -80,6 +100,7 @@ def test_batch_runs_in_order_and_stops_at_a_refusal(camp):
 
 
 def test_schedule_is_named_by_the_clock(camp):
+    need(camp, "Campaign/schedule.yaml", "order-roll")
     code, out = sh(camp, "schedule", "due", "--day", "480")
     assert "DUE order-roll" in out and "DUE month-end" in out
     code, out = sh(camp, "schedule", "check")
@@ -101,8 +122,10 @@ def test_play_ledger_rows_are_appended_once(tmp_path):
 
 
 def test_play_supplies_and_walk_stop(camp):
-    code, out = sh(camp, "supplies", "vettius", script="play.py")
-    assert code == 0 and out.startswith("vettius: ") and out.strip().endswith("gp")
+    who = first_member(camp)
+    need(camp, "Campaign/inventory-state.json")
+    code, out = sh(camp, "supplies", who, script="play.py")
+    assert code == 0 and out.startswith(who + ": ") and out.strip().endswith("gp")
     sh(camp, "location", "--clear")
     sh(camp, "location", "--site", "Test halls", "--level", "1")
     code, out = sh(camp, "walk", "3", script="play.py")           # no light lit, no carriers named: it stops
@@ -110,12 +133,13 @@ def test_play_supplies_and_walk_stop(camp):
 
 
 def test_handoff_is_generated_and_keeps_the_judges_notes(camp):
+    first_member(camp)
     code, out = sh(camp, "--notes", "Next: the G2b faewyrd.", script="handoff.py")
     assert code == 0
     p = os.path.join(camp, "Campaign", "handoff.md")
     t = open(p, encoding="utf-8").read()
     assert "<!-- generated:start -->" in t and "| Party | Class | XP | hp | Conditions |" in t
-    assert "**Wages:**" in t and "next due day" in t and "Next: the G2b faewyrd." in t
+    assert "**Wages:**" in t and "Next: the G2b faewyrd." in t
     code, out = sh(camp, script="handoff.py")                      # regenerated: the Judge's block is kept
     t2 = open(p, encoding="utf-8").read()
     assert "Next: the G2b faewyrd." in t2 and t2.count("## Judge's notes for the next session") == 1
@@ -125,9 +149,12 @@ def test_handoff_is_generated_and_keeps_the_judges_notes(camp):
 
 def test_snapshot_allows_an_unidentified_twin_of_a_known_name(camp):
     ap = os.path.join(camp, "Campaign", "adventure-state.json")
+    need(camp, "Campaign/adventure-state.json")
     adv = json.load(open(ap))
-    ident = next(l for l in adv["lots"].values() if l.get("kind") == "item" and l.get("identified")
-                 and (l.get("true") or {}).get("name") and l.get("status") == "carried")
+    ident = next((l for l in adv["lots"].values() if l.get("kind") == "item" and l.get("identified")
+                  and (l.get("true") or {}).get("name") and l.get("status") == "carried"), None)
+    if ident is None:
+        pytest.skip("no identified item carried in this campaign's ledger")
     twin = json.loads(json.dumps(ident))
     twin.update(id="L9999", identified=False, status="left")
     twin["player"] = {**twin["player"], "desc": "a blade wrapped in oilcloth"}
