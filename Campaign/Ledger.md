@@ -537,6 +537,8 @@ tags:
 | 479 | Descent 65 (G2b, G6) | ivory from the statue of Iskara (half) | 500 | varro |
 | 479 | Descent 65 (G2b, G6) | the last high priest's silver key (opens the G20-G21 door without its rune, and the G21 chests) | 0 | vettius |
 | 481 | Iulia's task: the House of Green Silk (Nasga's circle) | reward 750.0gp | 750 | iulia |
+| 484 | Order commission H (Tullus Varga) | reward 1500.0gp | 1,500 | lucilla |
+| 484 | Order commission I (Pinnius the Cat) | reward 500.0gp | 500 | vettius |
 
 ## Monster XP
 
@@ -1418,6 +1420,10 @@ tags:
 | 483 | Order contract H: Tullus Varga (Lucilla) | Lucilla | 1 | 0 | 20 | 0 | +10% | 22 |
 | 483 | Order contract H: Tullus Varga (Lucilla) | Vettius | 1 | 0 | 20 | 0 | +5% | 21 |
 | 483 | Order contract H: Tullus Varga (Lucilla) | Phaedra | 0.5 | 0 | 10 | 0 | +0% | 10 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 484 | Order commission H (Tullus Varga) | Lucilla | 1 | 600 | 0 | 0 | +10% | 660 |
+| 484 | Order commission H (Tullus Varga) | Vettius | 1 | 600 | 0 | 0 | +5% | 630 |
+| 484 | Order commission H (Tullus Varga) | Phaedra | 0.5 | 300 | 0 | 0 | +0% | 300 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 484 | Order commission I (Pinnius the Cat) | Vettius | 1 | 500 | 0 | 0 | +5% | 525 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -3880,3 +3886,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 483 |  | treasure share |  |  |  |  |
 | 483 |  | treasure share |  |  |  |  |
 | 483 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  | 600gp |  | lucilla |
+| 484 |  | treasure share |  | 600gp |  | vettius |
+| 484 |  | treasure share |  | 300gp |  | phaedra |
+| 484 |  | treasure share |  | 500gp |  | vettius |
+| 484 | Cyfaraun | torch | 12 |  | 2sp | aelia |
+| 484 | Cyfaraun | torch | 6 |  | 1sp | marcellus |

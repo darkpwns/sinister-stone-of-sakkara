@@ -1,32 +1,16 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 107,
-  "L": 699,
+  "A": 109,
+  "L": 701,
   "H": 44,
   "M": 217
  },
  "adventure": {
-  "id": "A107",
-  "name": "Order contract H: Tullus Varga (Lucilla)",
-  "start_day": 483,
+  "id": "A109",
+  "name": "Order commission I (Pinnius the Cat)",
+  "start_day": 484,
   "participants": {
-   "lucilla": {
-    "id": "lucilla",
-    "name": "Lucilla",
-    "actor": "lucilla",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 138864,
-    "level_before": 8,
-    "class": "Venturer",
-    "joined_day": 483,
-    "xp_award": 22
-   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -37,86 +21,31 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 134740,
+    "xp_before": 135391,
     "level_before": 8,
     "class": "Thief",
-    "joined_day": 483,
-    "xp_award": 21
-   },
-   "phaedra": {
-    "id": "phaedra",
-    "name": "Phaedra",
-    "actor": "phaedra",
-    "kind": "henchman",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 43566,
-    "level_before": 6,
-    "class": "Mage",
-    "joined_day": 483,
-    "xp_award": 10
+    "joined_day": 484,
+    "xp_award": 525
    }
   },
-  "monsters": [
-   {
-    "id": "M217",
-    "monster": "Tullus Varga",
-    "source": "Tullus Varga",
-    "number": 1,
-    "how": "killed",
-    "xp_each": 50,
-    "fight": {
-     "ids": [
-      "tullus-varga"
-     ],
-     "text": "the fight with Tullus Varga, round 1"
-    }
-   }
-  ],
+  "monsters": [],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 483,
+   "day": 484,
    "at": null,
-   "total": 50.0,
-   "per_share": 20.0,
+   "total": 500.0,
+   "per_share": 500.0,
    "awards": {
-    "lucilla": {
-     "share": 1.0,
-     "why": null,
-     "base": 20,
-     "pct": 10,
-     "pen": 0,
-     "award": 22,
-     "xp_before": 138864,
-     "xp_after": 138886,
-     "capped": null,
-     "zero": false
-    },
     "vettius": {
      "share": 1.0,
      "why": null,
-     "base": 20,
+     "base": 500,
      "pct": 5,
      "pen": 0,
-     "award": 21,
-     "xp_before": 134740,
-     "xp_after": 134761,
-     "capped": null,
-     "zero": false
-    },
-    "phaedra": {
-     "share": 0.5,
-     "why": null,
-     "base": 10,
-     "pct": 0,
-     "pen": 0,
-     "award": 10,
-     "xp_before": 43566,
-     "xp_after": 43576,
+     "award": 525,
+     "xp_before": 135391,
+     "xp_after": 135916,
      "capped": null,
      "zero": false
     }
@@ -34130,6 +34059,227 @@
     }
    },
    "events": []
+  },
+  {
+   "id": "A107",
+   "name": "Order contract H: Tullus Varga (Lucilla)",
+   "start_day": 483,
+   "participants": {
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 138864,
+     "level_before": 8,
+     "class": "Venturer",
+     "joined_day": 483,
+     "xp_award": 22
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 134740,
+     "level_before": 8,
+     "class": "Thief",
+     "joined_day": 483,
+     "xp_award": 21
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 43566,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 483,
+     "xp_award": 10
+    }
+   },
+   "monsters": [
+    {
+     "id": "M217",
+     "monster": "Tullus Varga",
+     "source": "Tullus Varga",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 50,
+     "fight": {
+      "ids": [
+       "tullus-varga"
+      ],
+      "text": "the fight with Tullus Varga, round 1"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 483,
+    "at": null,
+    "total": 50.0,
+    "per_share": 20.0,
+    "awards": {
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 20,
+      "pct": 10,
+      "pen": 0,
+      "award": 22,
+      "xp_before": 138864,
+      "xp_after": 138886,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 20,
+      "pct": 5,
+      "pen": 0,
+      "award": 21,
+      "xp_before": 134740,
+      "xp_after": 134761,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 10,
+      "pct": 0,
+      "pen": 0,
+      "award": 10,
+      "xp_before": 43566,
+      "xp_after": 43576,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
+  },
+  {
+   "id": "A108",
+   "name": "Order commission H (Tullus Varga)",
+   "start_day": 484,
+   "participants": {
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 138886,
+     "level_before": 8,
+     "class": "Venturer",
+     "joined_day": 484,
+     "xp_award": 660
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 134761,
+     "level_before": 8,
+     "class": "Thief",
+     "joined_day": 484,
+     "xp_award": 630
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 43576,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 484,
+     "xp_award": 300
+    }
+   },
+   "monsters": [],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 484,
+    "at": null,
+    "total": 1500.0,
+    "per_share": 600.0,
+    "awards": {
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 600,
+      "pct": 10,
+      "pen": 0,
+      "award": 660,
+      "xp_before": 138886,
+      "xp_after": 139546,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 600,
+      "pct": 5,
+      "pen": 0,
+      "award": 630,
+      "xp_before": 134761,
+      "xp_after": 135391,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 300,
+      "pct": 0,
+      "pen": 0,
+      "award": 300,
+      "xp_before": 43576,
+      "xp_after": 43876,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
   }
  ],
  "lots": {
@@ -65537,6 +65687,72 @@
    "sold": null,
    "judge": [],
    "divided_day": 481
+  },
+  "L700": {
+   "id": "L700",
+   "adventure": "A108",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "lucilla",
+   "status": "divided",
+   "found": {
+    "day": 484,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0,
+    "name": "reward 1500.0gp"
+   },
+   "player": {
+    "desc": "reward of 1500.0gp",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 484
+  },
+  "L701": {
+   "id": "L701",
+   "adventure": "A109",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "vettius",
+   "status": "divided",
+   "found": {
+    "day": 484,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 0,
+    "name": "reward 500.0gp"
+   },
+   "player": {
+    "desc": "reward of 500.0gp",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 484
   }
  },
  "hoards": {

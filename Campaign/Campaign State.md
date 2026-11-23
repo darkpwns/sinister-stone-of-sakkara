@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 483
-  time: 02:36
+    day: 484
+  time: 05:36
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -63,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 9.686
+    encumbrance_st: 9.436
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -72,7 +72,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.443
+    encumbrance_st: 9.193
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -81,7 +81,7 @@ public:
     conditions:
     - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
     spells_used: []
-    encumbrance_st: 9.474
+    encumbrance_st: 9.349
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -97,7 +97,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 6.485
+    encumbrance_st: 8.483
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -105,15 +105,14 @@ public:
     hp_max: 40
     conditions: []
     spells_used: []
-    encumbrance_st: 11.12
+    encumbrance_st: 11.994
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used:
-    - Slumber
+    spells_used: []
     encumbrance_st: 6.169
   - name: Cotta
     sheet: Characters/cotta.json
@@ -156,7 +155,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 483
+clock_day: 484
 ---
 # Campaign State
 
