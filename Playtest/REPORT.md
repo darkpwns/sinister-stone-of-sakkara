@@ -85,3 +85,18 @@ AX1 complete. Aulus and Marcia got cenotaphs paid from their estates (funeral XP
   the slam; no mummy rot is recorded from a slam or a worm bite; spell scrolls are priced at the 1st level;
   `identify --method judge` does not set identified; force-door does not refuse while an encounter is pending;
   caches cannot hold treasure lots; identification writes the item note's file name to the player record.
+
+## S29 (2026-11-23): days 477-480
+- Repairs first: worn items as `actor mod` (Vettius' cloak and boots, Iulia's ring), Cotta's +1 bow in hand, the wage
+  day 504; the user's decisions: the enervated level-up re-roll by the book (present maxima unchanged), the book's
+  apparent value for unidentified magic arms (Rulings S14 superseded).
+- Descent 65 (A104, two days, a sealed night in G4): G2b's five faewyrd (two Smite Undead and a Fireball, round 1), the
+  G5 chests, four wanderers (jackal, wraith, prawns, gelatinous mass) and two faewyrd through the walls of the sealed
+  room, the G18 python, the G6 greater faewyrd (Smite Undead, natural 1 on its save, round 1), the statue stripped, a
+  grey goo. 11,045 XP over 9 shares; 6,115gp sold through the Family. No deaths; Brennus to 11 hp (the python).
+- Month 16's end by the schedule (fees, investments, the Family's take, hijink XP 13,273 to Vettius); the Order's
+  roll: fresh contracts for Lucilla and Vettius; Iulia's task: Nasga's circle (Livilla Corax, built; nightly rite check
+  in the schedule).
+- Engine findings (judge-notes S29): `note.save.*` printed on any save at the actor's initiative; no way to make a
+  monster's attack ignore armor AC (`state set ac=` per target); camp's 4-hour watches (10-hour camp with four watches
+  leaves watchers 6 h). Driver slips in s29_melee.py (fixed).

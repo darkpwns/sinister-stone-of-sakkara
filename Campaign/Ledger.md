@@ -3840,3 +3840,22 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | aelia |
 | 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | marcellus |
 | 479 | market | his share of the sale of L690,L691,L692,L693,L694,L695,L696,L697 (after the payout) |  | 339gp 7sp 4cp |  | cotta |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 35700.84 |  |  | 89gp 2sp 5cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 76489.02 |  |  | 191gp 2sp 2cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 7041.45 |  |  | 17gp 6sp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 14840.12 |  |  | 37gp 1sp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 30482.60 |  |  | 76gp 2sp 1cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 69721.75 |  |  | 174gp 3sp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 67726.64 |  |  | 169gp 3sp 2cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 32084.15 |  |  | 80gp 2sp 1cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of neris, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 78858.67 |  |  | 197gp 1sp 5cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 32369.37 |  |  | 80gp 9sp 2cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 16.96 |  |  | 4cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of varro, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 31463.79 |  |  | 78gp 6sp 6cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 66303.33 |  |  | 165gp 7sp 6cp | guildhouse-bank |
+| 480 | Merchant Guildhouse (storage fees) | Merchant Guildhouse storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 16 (day 480): on 61146.72 |  |  | 152gp 8sp 7cp | guildhouse-bank |
+| 480 | the Argollëan Family | month 16: the syndicate (the Family 11,223gp: month 15's 11,424 less this month's gone, Gallus Pinarius 3rd -200, a wharf man 0th -1; Sand & Bones 7,050gp; 18,273gp merged) for the whole month; the Pony's honest half 1,624gp (Rulings S19, S22, S25) |  | 19,897gp |  | vettius |
+| 480 | the Argollëan Family and the venture company | month 16: the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp (Rulings S19) |  | 4,250gp |  | lucilla |
+| 480 | the caravan investments | month 16 investments: (1) 34 Return -50% 3gp 4sp 7cp (Protector ends); (2) Delay (months 16-21), nothing; (3) 97 Discovery +10% (2d10 10): 30 + 300 = 330gp |  | 333gp 4sp 7cp |  | lucilla |
+| 480 | the Tower of Knowledge | Vestus' dues, month 16 |  |  | 10gp | vestus-the-unlikely |
+| 480 | the retinue | wages paid |  |  | 200gp | vettius |

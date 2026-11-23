@@ -274,3 +274,16 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   mind-reader at a meeting reads the plan: refuse the touch, keep the plan out of the heads of those who stand close;
   (25) wait behind the target; (26) a king's word of command is a kill-shot like sleep.
 
+
+- S29 (days 478-480). The north colonnade's five shades never rose from prayer: Iulia's and Neris' prayer against the
+  dead (it unmakes the lesser dead outright, at range) and Vestus' fire, from the colonnade's south end, out of whisper
+  range. Lessons: (27) against shades, open with the prayers that unmake the dead from range, before they come near
+  enough to whisper; (28) the font room off the narthex is a good sealed camp (one door, spiked; water that never runs
+  dry; nobody washes in it); shades still come through walls: keep Iulia's spear lit and her ward up; (29) a clear
+  block in a passage ignores armour: keep it off the light-armoured; a grey ooze is shot, never fought hand to hand;
+  (30) the python seizes and crushes: no one walks first into a boulder cave. The high priest's shade in the chancel
+  walls is destroyed (Neris' death ward on Vettius kept its whispers off him while he worked the statue); the statue's
+  onyx eyes, gold and ivory are sold. His silver key is ours (we think it opens the treasury behind his chamber, which we
+  emptied long ago). Iulia's charge this month: the courtesans' circle of the Serpent at the House of Green Silk (Street
+  of Lamps); the Watch will tell her the night they gather. Next below: the shaman's platform (L4), the sealed cases
+  (F17: their glass eggs may wake something below; Neris' vision), the K galleries, the throne (J8), the stair at the Y (R).

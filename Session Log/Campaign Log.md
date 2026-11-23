@@ -37,4 +37,4 @@ tags:
 - [[S26 — The Serpent's Sanctum]]
 - [[S27 — Rivals Below]]
 - [[S28 — The Mummy King's Hall]]
-- [[S29 — The Faewyrd of the Dormitory]]
+- [[S29 — The High Priest's Shade]]

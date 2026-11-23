@@ -180,3 +180,14 @@ items:
   day: 503
   steps: ["pay 10gp a month ahead from Lucilla or Vettius (Rulings S11); then move this item's day on"]
   source: "Rulings S11 (row 81); Ledger day 443"
+
+- id: circle-rite
+  title: Nasga's circle gathers at the House of Green Silk (Iulia's month-16 task; until the circle is ended)
+  every: 1
+  anchor: 481
+  from: 481
+  rolls:
+  - {label: "the circle's rite tonight", dice: 1d6, on: "1-4", outcomes: {"1-4": "the rite: Livilla and her initiates in the steam room below the baths; the Watch sends word at dusk", "5-6": "no rite"}}
+  steps:
+  - "on a rite night Iulia raids with Brennus, Marcellus, Hrodvar and 4 watchmen (Adventure/AX3/NPCs/Livilla Corax.md); her own task, not the Family's; remove this item once the circle is ended (World State day 480)"
+  source: "Iulia's month-16 task (Arëtar, the task roll 3 on day 470); Judge's call day 480 (S29)"

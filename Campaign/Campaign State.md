@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 479
-  time: '13:56'
+    day: 480
+  time: '21:56'
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.292
+    encumbrance_st: 9.303
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 3.861
+    encumbrance_st: 3.851
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -52,13 +52,7 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Cure Light Injury
-    - Cure Light Injury
-    - Divine Grace
-    - Divine Grace
-    - Divine Grace
-    - Death Ward
+    spells_used: []
     encumbrance_st: 3.735
   - name: Brennus
     sheet: Characters/brennus.json
@@ -77,9 +71,7 @@ public:
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
-    spells_used:
-    - Holy Blessing
-    - Smite Undead
+    spells_used: []
     encumbrance_st: 9.193
   - name: Hrodvar
     sheet: Characters/hrodvar.json
@@ -163,7 +155,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 479
+clock_day: 480
 ---
 # Campaign State
 
