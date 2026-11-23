@@ -698,6 +698,8 @@ tags:
 | 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Livilla Corax | 1 | 65 | 65 |
 | 483 | Order contract I: Pinnius the Cat (Vettius) | Pinnius the Cat | 1 | 10 | 10 |
 | 483 | Order contract H: Tullus Varga (Lucilla) | Tullus Varga | 1 | 50 | 50 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Giant Ant Worker | 24 | 80 | 1,920 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Gelatinous Mass | 1 | 245 | 245 |
 
 ## Shares and XP awarded
 
@@ -1424,6 +1426,18 @@ tags:
 | 484 | Order commission H (Tullus Varga) | Vettius | 1 | 600 | 0 | 0 | +5% | 630 |
 | 484 | Order commission H (Tullus Varga) | Phaedra | 0.5 | 300 | 0 | 0 | +0% | 300 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 | 484 | Order commission I (Pinnius the Cat) | Vettius | 1 | 500 | 0 | 0 | +5% | 525 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Lucilla | 1 | 0 | 241 | 0 | +10% | 265 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Vettius | 1 | 0 | 241 | 0 | +5% | 253 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Vestus the Unlikely | 1 | 0 | 241 | 0 | +5% | 253 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Neris | 1 | 0 | 241 | 0 | +0% | 241 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Brennus | 1 | 0 | 241 | 0 | +5% | 253 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Iulia | 1 | 0 | 241 | 0 | +5% | 253 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Phaedra | 0.5 | 0 | 120 | 0 | +0% | 120 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Varro | 0.5 | 0 | 120 | 0 | +0% | 120 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Hrodvar | 0.5 | 0 | 120 | 0 | +0% | 120 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Aelia | 0.5 | 0 | 120 | 0 | +0% | 120 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Marcellus | 0.5 | 0 | 120 | 0 | +0% | 120 |
+| 484 | Descent 66 (L: the ant nest, the magic rock) | Cotta | 0.5 | 0 | 120 | 0 | +0% | 120 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -3892,3 +3906,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 484 |  | treasure share |  | 500gp |  | vettius |
 | 484 | Cyfaraun | torch | 12 |  | 2sp | aelia |
 | 484 | Cyfaraun | torch | 6 |  | 1sp | marcellus |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |
+| 484 |  | treasure share |  |  |  |  |

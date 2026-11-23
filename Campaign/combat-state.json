@@ -2,12 +2,18 @@
  "schema": "acks-combat/3",
  "round": 1,
  "order": [
-  "tullus-varga",
+  "vettius",
+  "aelia",
+  "gelatinous-mass1",
   "lucilla",
-  "phaedra",
-  "vettius"
+  "vestus-the-unlikely",
+  "neris",
+  "brennus",
+  "cotta",
+  "hrodvar",
+  "phaedra"
  ],
- "count_index": 3,
+ "count_index": null,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -116,15 +122,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 41",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "venturer-attack-and-saving-throws",
+       "title": "Venturer (Thief) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Venturer.md",
+       "block": "^tbl-venturer-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 41",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -165,8 +175,8 @@
      }
     ],
     "ac_options": {
-     "shield": 6,
-     "no_shield": 6,
+     "shield": 7,
+     "no_shield": 7,
      "dex_only": 1
     },
     "hp_max": 42,
@@ -175,7 +185,7 @@
      {
       "name": "Mace +1",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+1",
       "range": {
        "short": 0,
@@ -187,7 +197,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -224,9 +234,8 @@
    },
    "actor": "lucilla",
    "hp_max": 42,
-   "hp": 42,
-   "hp_start": 42,
-   "acted_round": 1
+   "hp": 33,
+   "hp_start": 33
   },
   "vettius": {
    "id": "vettius",
@@ -240,7 +249,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -327,15 +336,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "thief-attack-and-saving-throws",
-      "title": "Thief Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "block": "^tbl-thief-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 31",
-      "row": 3
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "thief-attack-and-saving-throws",
+       "title": "Thief Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Thief.md",
+       "block": "^tbl-thief-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 31",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -399,8 +412,8 @@
      ]
     },
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
+     "shield": 5,
+     "no_shield": 5,
      "dex_only": 1
     },
     "hp_max": 22,
@@ -409,7 +422,7 @@
      {
       "name": "Short Sword +2",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -421,7 +434,7 @@
      {
       "name": "Sword +2",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -433,7 +446,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 4,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -471,7 +484,679 @@
    "actor": "vettius",
    "hp_max": 22,
    "hp": 22,
-   "hp_start": 22
+   "hp_start": 22,
+   "attacked_round": 1
+  },
+  "vestus-the-unlikely": {
+   "id": "vestus-the-unlikely",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "vestus-the-unlikely",
+   "perceived": "vestus-the-unlikely",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {
+    "spell": true
+   },
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Vestus the Unlikely",
+   "stats": {
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "level": 7,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 11,
+      "death": 11,
+      "blast": 13,
+      "implements": 9,
+      "spells": 10
+     },
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 1
+    },
+    "hp_max": 18,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 8,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Loremastery",
+     "Magical Engineering",
+     "Mapping",
+     "Language (Ancient Argollëan)",
+     "Swimming"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "loremastery": "",
+     "magical engineering": "",
+     "mapping": "",
+     "language (ancient argollëan)": "",
+     "swimming": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "vestus-the-unlikely",
+   "hp_max": 18,
+   "hp": 18,
+   "hp_start": 18
+  },
+  "neris": {
+   "id": "neris",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "neris",
+   "perceived": "neris",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Neris",
+   "stats": {
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "level": 7,
+    "class": "Priestess",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 1
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "priestess-attack-throws",
+       "title": "Priestess (Mage) Attack Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-attack-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 2
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 9,
+      "death": 6,
+      "blast": 12,
+      "implements": 9,
+      "spells": 11
+     },
+     {
+      "table": "priestess-saving-throws",
+      "title": "Priestess (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-saving-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.priestess.hit_die",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.priestess.cleave",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "save_refs": {
+     "paralysis": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "death": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "blast": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "implements": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "spells": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     }
+    },
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 1
+    },
+    "hp_max": 20,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d4/1d6-2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Laying on Hands",
+     "Divine Blessing",
+     "Healing",
+     "Knowledge (astrology)"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "laying on hands": "",
+     "divine blessing": "",
+     "healing": "",
+     "knowledge (astrology)": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "neris",
+   "hp_max": 20,
+   "hp": 20,
+   "hp_start": 20
+  },
+  "brennus": {
+   "id": "brennus",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "brennus",
+   "perceived": "brennus",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Brennus",
+   "stats": {
+    "name": "Brennus",
+    "actor": "brennus",
+    "kind": "pc",
+    "level": 7,
+    "class": "Fighter",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      3,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 6
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     5,
+     {
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "fighter-attack-and-saving-throws",
+       "title": "Fighter Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Fighter.md",
+       "block": "^tbl-fighter-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 4
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 9,
+      "death": 10,
+      "blast": 11,
+      "implements": 12,
+      "spells": 13
+     },
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 4
+     }
+    ],
+    "hit_die": [
+     "1d8",
+     {
+      "rule": "class.fighter.hit_die",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     7,
+     {
+      "rule": "class.fighter.cleave",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 11,
+     "no_shield": 11,
+     "dex_only": 3
+    },
+    "hp_max": 31,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Great Axe +1",
+      "init_bonus": "",
+      "attack_throw": 3,
+      "damage": "1d10+5",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Hand Axe",
+      "init_bonus": "",
+      "attack_throw": 4,
+      "damage": "1d6+4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "sack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Berserkergang",
+     "Fighting Style Specialization (two-handed weapon)",
+     "Weapon Focus (axes)",
+     "Adventuring",
+     "Endurance",
+     "Healing",
+     "Intimidation"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "berserkergang": "",
+     "fighting style specialization (two-handed weapon)": "",
+     "weapon focus (axes)": "",
+     "adventuring": "",
+     "endurance": "",
+     "healing": "",
+     "intimidation": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "brennus",
+   "hp_max": 31,
+   "hp": 10,
+   "hp_start": 10
   },
   "phaedra": {
    "id": "phaedra",
@@ -487,7 +1172,7 @@
    "declared": {
     "spell": true
    },
-   "init": 3,
+   "init": 0,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -574,15 +1259,19 @@
      ]
     },
     "attack_throw": [
-     9,
+     8,
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 35",
-      "row": 1
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 1
+      }
      }
     ],
     "saves": [
@@ -623,8 +1312,8 @@
      }
     ],
     "ac_options": {
-     "shield": -1,
-     "no_shield": -1,
+     "shield": 0,
+     "no_shield": 0,
      "dex_only": -1
     },
     "hp_max": 20,
@@ -633,7 +1322,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -645,7 +1334,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 10,
+      "attack_throw": 9,
       "damage": "1d6",
       "range": {
        "short": 75,
@@ -657,7 +1346,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d6",
       "range": {
        "short": 0,
@@ -687,50 +1376,58 @@
    "actor": "phaedra",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20,
-   "acted_round": 1
+   "hp_start": 20
   },
-  "tullus-varga": {
-   "id": "tullus-varga",
-   "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "surprised",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 0,
-     "note": null
-    },
-    {
-     "name": "slumbering",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "target",
-   "perceived": "a broad drunk with an earring",
+  "hrodvar": {
+   "id": "hrodvar",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "hrodvar",
+   "perceived": "hrodvar",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
-   "kind": "npc",
-   "name": "Tullus Varga",
+   "kind": "henchman",
+   "name": "Hrodvar",
    "stats": {
-    "name": "Tullus Varga",
-    "actor": "tullus-varga",
-    "kind": "npc",
-    "level": 3,
-    "class": "Fighter",
+    "name": "Hrodvar",
+    "actor": "hrodvar",
+    "kind": "henchman",
+    "level": 6,
+    "class": "Dwarven Vaultguard",
     "size": "man-sized",
     "mods": {
      "STR": [
+      -2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 1
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
       0,
       {
        "table": "attribute-modifiers",
@@ -740,6 +1437,204 @@
        "book": "RR",
        "page": "p. 14",
        "row": 3
+      }
+     ],
+     "DEX": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "CON": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     6,
+     {
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "dwarven-vaultguard-attack-and-saving-throws",
+       "title": "Dwarven Vaultguard Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
+       "block": "^tbl-dwarven-vaultguard-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 85",
+       "row": 3
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 6,
+      "death": 7,
+      "blast": 9,
+      "implements": 9,
+      "spells": 10
+     },
+     {
+      "table": "dwarven-vaultguard-attack-and-saving-throws",
+      "title": "Dwarven Vaultguard Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
+      "block": "^tbl-dwarven-vaultguard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 85",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d8",
+     {
+      "rule": "class.dwarven_vaultguard.hit_die",
+      "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
+      "book": "RR",
+      "page": "p. 84"
+     }
+    ],
+    "progression": null,
+    "cleaves": [
+     6,
+     {
+      "rule": "class.dwarven_vaultguard.cleave",
+      "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
+      "book": "RR",
+      "page": "p. 84"
+     }
+    ],
+    "ac_options": {
+     "shield": 5,
+     "no_shield": 4,
+     "dex_only": -1
+    },
+    "hp_max": 19,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Battle Axe +1",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Hand Axe",
+      "init_bonus": "",
+      "attack_throw": 8,
+      "damage": "1d6+1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Mace",
+      "init_bonus": "",
+      "attack_throw": 8,
+      "damage": "1d6/1d8+1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "back"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": -1,
+    "proficiencies": [
+     "Vermin-Slaying",
+     "Blind Fighting",
+     "Alertness",
+     "Healing",
+     "Engineering",
+     "Endurance"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "vermin-slaying": "",
+     "blind fighting": "",
+     "alertness": "",
+     "healing": "",
+     "engineering": "",
+     "endurance": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "hrodvar",
+   "hp_max": 19,
+   "hp": 19,
+   "hp_start": 19
+  },
+  "aelia": {
+   "id": "aelia",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "aelia",
+   "perceived": "aelia",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 7,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Aelia",
+   "stats": {
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "level": 6,
+    "class": "Bard",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
       }
      ],
      "INT": [
@@ -755,6 +1650,18 @@
       }
      ],
      "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
       0,
       {
        "table": "attribute-modifiers",
@@ -764,6 +1671,228 @@
        "book": "RR",
        "page": "p. 14",
        "row": 3
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     6,
+     {
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "bard-attack-and-saving-throws",
+       "title": "Bard (Fighter) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Bard.md",
+       "block": "^tbl-bard-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 53",
+       "row": 3
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 10,
+      "death": 11,
+      "blast": 12,
+      "implements": 13,
+      "spells": 14
+     },
+     {
+      "table": "bard-attack-and-saving-throws",
+      "title": "Bard (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "block": "^tbl-bard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 53",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.bard.hit_die",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "book": "RR",
+      "page": "p. 52"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     6,
+     {
+      "rule": "class.bard.cleave",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "book": "RR",
+      "page": "p. 52"
+     }
+    ],
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 0
+    },
+    "hp_max": 20,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+3",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Net",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "",
+      "range": {
+       "short": 10,
+       "medium": 15,
+       "long": 20
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Short Sword (silvered)",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "backpack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Magical Engineering",
+     "Combat Reflexes",
+     "Performance",
+     "Bargaining",
+     "Healing",
+     "Naturalism"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "magical engineering": "",
+     "combat reflexes": "",
+     "performance": "",
+     "bargaining": "",
+     "healing": "",
+     "naturalism": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "aelia",
+   "hp_max": 20,
+   "hp": 20,
+   "hp_start": 20
+  },
+  "cotta": {
+   "id": "cotta",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "cotta",
+   "perceived": "cotta",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Cotta",
+   "stats": {
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "henchman",
+    "level": 4,
+    "class": "Explorer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
       }
      ],
      "DEX": [
@@ -804,78 +1933,170 @@
      ]
     },
     "attack_throw": [
-     9,
+     7,
      {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 1
+      "modifier": "Holy Blessing (Iulia) (RR p. 225, HB484) -1",
+      "cause": "spell, 6 turns from day 484 07:26",
+      "rules": {
+       "table": "explorer-attack-and-saving-throws",
+       "title": "Explorer (Fighter) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Explorer.md",
+       "block": "^tbl-explorer-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 2
+      }
      }
     ],
     "saves": [
      {
-      "paralysis": 12,
-      "death": 13,
-      "blast": 14,
-      "implements": 15,
-      "spells": 16
+      "paralysis": 11,
+      "death": 12,
+      "blast": 13,
+      "implements": 14,
+      "spells": 15
      },
      {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 25",
-      "row": 1
+      "row": 2
      }
     ],
     "hit_die": [
-     "1d8",
+     "1d6",
      {
-      "rule": "class.fighter.hit_die",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "rule": "class.explorer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
       "book": "RR",
-      "page": "p. 24"
+      "page": "p. 26"
      }
     ],
     "progression": "fighter",
     "cleaves": [
-     3,
+     4,
      {
-      "rule": "class.fighter.cleave",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "rule": "class.explorer.cleave",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
       "book": "RR",
       "page": "p. 24"
      }
     ],
     "ac_options": {
-     "shield": 1,
-     "no_shield": 1,
+     "shield": 5,
+     "no_shield": 5,
      "dex_only": 1
     },
-    "hp_max": 19,
-    "movement_running": 120,
-    "weapons": [],
+    "hp_max": 13,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Long Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+3",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Composite Bow",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+2",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6/1d8+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
     "save_mods_text": {},
     "initiative_sheet": 1,
-    "proficiencies": [],
+    "proficiencies": [
+     "Adventuring",
+     "Mounted Combat",
+     "Precise Shooting",
+     "Riding"
+    ],
     "proficiency_throws": {},
-    "prof_throw_list": {},
+    "prof_throw_list": {
+     "adventuring": "",
+     "mounted combat": "",
+     "precise shooting": "",
+     "riding": ""
+    },
     "ac_mode": "shield"
    },
-   "actor": "tullus-varga",
-   "hp_max": 19,
-   "hp": -19,
-   "hp_start": 19,
-   "acted_round": 1,
+   "actor": "cotta",
+   "hp_max": 13,
+   "hp": 13,
+   "hp_start": 13,
+   "attacked_round": 1
+  },
+  "gelatinous-mass1": {
+   "id": "gelatinous-mass1",
+   "side": "foe",
+   "status": "slain",
+   "conditions": [],
+   "group": "mass",
+   "perceived": "a clear quivering block",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vettius",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gelatinous Mass",
+   "stats": {},
+   "monster": {
+    "base": "gelatinous-mass",
+    "sha256": "4fa244ecfe6828bd11f1cdf37321506fd38a14fa4a2bbf4dfe3e4112d6b9cc1b"
+   },
+   "hp_max": 27,
+   "hp": -1,
+   "hp_start": 27,
    "xp_recorded": {
-    "record": "M217",
+    "record": "M219",
     "how": "killed",
-    "xp": 50
+    "xp": 245
    }
   }
  },
@@ -904,6 +2125,42 @@
    },
    "start_count": 1
   },
+  "vestus-the-unlikely": {
+   "side": "party",
+   "members": [
+    "vestus-the-unlikely"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "neris": {
+   "side": "party",
+   "members": [
+    "neris"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "brennus": {
+   "side": "party",
+   "members": [
+    "brennus"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
   "phaedra": {
    "side": "party",
    "members": [
@@ -916,10 +2173,10 @@
    },
    "start_count": 1
   },
-  "target": {
-   "side": "foe",
+  "hrodvar": {
+   "side": "party",
    "members": [
-    "tullus-varga"
+    "hrodvar"
    ],
    "morale": {
     "state": "steady",
@@ -927,29 +2184,72 @@
     "triggered": false
    },
    "start_count": 1
+  },
+  "aelia": {
+   "side": "party",
+   "members": [
+    "aelia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "cotta": {
+   "side": "party",
+   "members": [
+    "cotta"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "mass": {
+   "side": "foe",
+   "members": [
+    "gelatinous-mass1"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    1
+   ]
   }
  },
  "engaged": [],
  "engaged_at_round_start": [],
  "distances": {
-  "lucilla|tullus-varga": 20,
-  "tullus-varga|vettius": 5,
-  "phaedra|tullus-varga": 20
+  "gelatinous-mass1|lucilla": 30,
+  "gelatinous-mass1|vettius": 30,
+  "gelatinous-mass1|vestus-the-unlikely": 30,
+  "gelatinous-mass1|neris": 30,
+  "brennus|gelatinous-mass1": 30,
+  "gelatinous-mass1|phaedra": 30,
+  "gelatinous-mass1|hrodvar": 30,
+  "aelia|gelatinous-mass1": 30,
+  "cotta|gelatinous-mass1": 30
  },
  "log": [],
  "notes_shown": [],
- "round_ended": 1,
- "retinue": {
-  "phaedra": {
-   "hp_triggered": false,
-   "party_triggered": false,
-   "calamity_queued": false
-  }
- },
  "party_hp_written": [
   "lucilla",
   "vettius",
-  "phaedra"
+  "vestus-the-unlikely",
+  "neris",
+  "brennus",
+  "phaedra",
+  "hrodvar",
+  "aelia",
+  "cotta"
  ],
  "ended": {
   "round": 1,

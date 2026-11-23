@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 484,
-  "round_of_day": 336,
-  "total_rounds": 695376
+  "round_of_day": 618,
+  "total_rounds": 695658
  },
  "party": {
   "iulia": {
@@ -33,15 +33,6 @@
    "endurance": true,
    "treasure_stone": 2.3333333333333335
   },
-  "marcellus": {
-   "id": "marcellus",
-   "actor": "marcellus",
-   "name": "Marcellus",
-   "perceived": "Marcellus",
-   "conditions": [],
-   "endurance": true,
-   "treasure_stone": 0.16666666666666666
-  },
   "vettius": {
    "id": "vettius",
    "actor": "vettius",
@@ -59,14 +50,6 @@
    "conditions": [],
    "endurance": false,
    "treasure_stone": 1.6666666666666667
-  },
-  "varro": {
-   "id": "varro",
-   "actor": "varro",
-   "name": "Varro",
-   "perceived": "Varro",
-   "conditions": [],
-   "endurance": true
   },
   "phaedra": {
    "id": "phaedra",
@@ -573,9 +556,45 @@
    "closed": false,
    "rounds_left": 50,
    "tallow": false
+  },
+  {
+   "id": "torch370",
+   "kind": "torch",
+   "carrier": "aelia",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch371",
+   "kind": "torch",
+   "carrier": "aelia",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 50,
+   "tallow": false
+  },
+  {
+   "id": "lantern14",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 88,
+   "tallow": false
   }
  ],
- "timers": [],
+ "timers": [
+  {
+   "id": "t119",
+   "label": "Webbing (Vestus) at the L5 tunnel mouth",
+   "rounds_left": 308,
+   "hidden": false,
+   "source": null,
+   "started": "day 484 07:26"
+  }
+ ],
  "rest": {
   "rounds_since_rest": 0,
   "rest_rounds": 0,
@@ -597,54 +616,12 @@
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 479 13:10",
-   "roll": 1,
+   "at": "day 484 09:30",
+   "roll": 2,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 479 03:40",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 479 04:10",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 479 04:40",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 479 05:10",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 479 05:40",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 479 06:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 479 06:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 479 07:10",
     "roll": 2,
@@ -722,13 +699,55 @@
     "roll": 1,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 484 06:30",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 484 07:00",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 484 07:30",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 484 08:00",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 484 08:30",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 484 09:00",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 484 09:30",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 688640
+  "turn_start_done": 695620
  },
  "turn_actions": {
-  "turn": 69537,
+  "turn": 69565,
   "listened": [],
   "actions": []
  },
@@ -871,8 +890,8 @@
    "rest_rounds": 0
   },
   "484": {
-   "delve_rounds": 0,
-   "rest_rounds": 0
+   "delve_rounds": 192,
+   "rest_rounds": 30
   }
  },
  "events": [
@@ -1717,10 +1736,10 @@
   }
  ],
  "next_ids": {
-  "enc": 404,
-  "torch": 369,
-  "t": 117,
-  "lantern": 13
+  "enc": 406,
+  "torch": 371,
+  "t": 119,
+  "lantern": 14
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -2498,7 +2517,7 @@
     "passenger": false
    },
    "lucilla": {
-    "hp": 42,
+    "hp": 33,
     "hp_max": 42,
     "con": 13,
     "con_mod": 1,
@@ -3899,7 +3918,7 @@
     }
    },
    "brennus": {
-    "hp": 31,
+    "hp": 10,
     "hp_max": 31,
     "con": 12,
     "con_mod": 0,
@@ -3992,7 +4011,7 @@
     "rest_pending": true
    },
    "iulia": {
-    "hp": 40,
+    "hp": 5,
     "hp_max": 40,
     "con": 16,
     "con_mod": 2,
@@ -4053,7 +4072,7 @@
     "strenuous_run": 0,
     "forced_run": 0,
     "sleep_due": null,
-    "bed_rest": 0,
+    "bed_rest": 7,
     "protective": null,
     "wet": false,
     "native": null,
@@ -4271,7 +4290,7 @@
     "rest_pending": true
    },
    "varro": {
-    "hp": 25,
+    "hp": 3,
     "hp_max": 25,
     "con": 10,
     "con_mod": 0,
@@ -4332,7 +4351,7 @@
     "strenuous_run": 0,
     "forced_run": 0,
     "sleep_due": null,
-    "bed_rest": 0,
+    "bed_rest": 14,
     "protective": null,
     "wet": false,
     "native": null,
@@ -4648,7 +4667,7 @@
     "passenger": false
    },
    "marcellus": {
-    "hp": 40,
+    "hp": 3,
     "hp_max": 40,
     "con": 14,
     "con_mod": 1,
@@ -4709,7 +4728,7 @@
     "strenuous_run": 0,
     "forced_run": 0,
     "sleep_due": null,
-    "bed_rest": 0,
+    "bed_rest": 7,
     "protective": null,
     "wet": false,
     "native": null,
@@ -13382,22 +13401,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc385",
-   "at": "day 478 08:22",
-   "monster_name": "Lesser Faewyrd (SOTN)",
-   "number": 5,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc386",
-   "at": "day 478 08:40",
-   "monster_name": "Jackal of Darkness (SOTN)",
-   "number": 1,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
    "id": "enc387",
    "at": "day 478 09:10",
    "monster_name": "Wraith",
@@ -13540,6 +13543,22 @@
    "number": 1,
    "reaction": null,
    "status": "met"
+  },
+  {
+   "id": "enc405",
+   "at": "day 484 07:26",
+   "monster_name": "Giant Ant Worker",
+   "number": 6,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc406",
+   "at": "day 484 09:00",
+   "monster_name": "Gelatinous Mass",
+   "number": 1,
+   "reaction": null,
+   "status": "surprise rolled"
   }
  ],
  "diseases": {

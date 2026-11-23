@@ -11,7 +11,7 @@ public:
     year: ''
     season: summer
     day: 484
-  time: 05:36
+  time: '10:18'
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 42
+    hp: 33
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -35,14 +35,16 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.148
+    encumbrance_st: 8.815
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used: []
+    spells_used:
+    - Webbing
+    - Fan of Flames
     encumbrance_st: 3.851
   - name: Neris
     sheet: Characters/neris.json
@@ -52,12 +54,16 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
+    - Cure Light Injury
+    - Cure Light Injury
+    - Cure Light Injury
     encumbrance_st: 3.735
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 31
+    hp: 10
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -67,11 +73,13 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 40
+    hp: 5
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
-    spells_used: []
+    - 'one hand bitten off by a giant ant (Mortal Wounds, day 484): cannot dual-wield or use two-handed weapons; bears the Underwatch shield strapped to the maimed arm (Rulings S29)'
+    spells_used:
+    - Holy Blessing
     encumbrance_st: 9.193
   - name: Hrodvar
     sheet: Characters/hrodvar.json
@@ -82,14 +90,6 @@ public:
     - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
     spells_used: []
     encumbrance_st: 9.349
-  - name: Varro
-    sheet: Characters/varro.json
-    role: henchman
-    hp: 25
-    hp_max: 25
-    conditions: []
-    spells_used: []
-    encumbrance_st: 9.565
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -97,22 +97,16 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.483
-  - name: Marcellus
-    sheet: Characters/marcellus.json
-    role: henchman
-    hp: 40
-    hp_max: 40
-    conditions: []
-    spells_used: []
-    encumbrance_st: 11.994
+    encumbrance_st: 8.15
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used: []
+    spells_used:
+    - Slumber
+    - Fan of Flames
     encumbrance_st: 6.169
   - name: Cotta
     sheet: Characters/cotta.json
@@ -122,9 +116,9 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5.892
-  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (Marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (Marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (Varro) out; torch (Marcellus) out; torch (Varro) out; torch (Marcellus) out; torch (Varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (Marcellus) out
-  rations: 'Iulia: food 6 d, water 0.4 d; Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Marcellus: food 6 d, water 1 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Varro: food 6 d, water 1 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out
+  rations: 'Iulia: food 6 d, water 0.4 d (incapacitated); Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink

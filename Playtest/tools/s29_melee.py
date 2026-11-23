@@ -5,14 +5,20 @@ foes in reach); Cotta shoots the nearest unengaged foe; casters named in FAN cas
 every foe within 40' (one 1d8, Blast save each; declared at round-start by the caller); everyone else holds.
 Foes: close on a random fighter (charge when the distance allows: running speed), engage, attack with every attack of
 their routine. Stops (exit 3) when a party member falls; the caller runs round-end and the next round-start.
-Usage: s29_melee.py "fan:phaedra,vestus-the-unlikely" (empty for none)"""
+Usage: s29_melee.py ["fan:ID,…"] ["fight:ID,…"] ["shoot:ID,…"] ["front:ID,…"]"""
 import json, os, random, re, sys
 sys.path.insert(0, ".claude/skills/acks2-judge/scripts")
 import jacks
 ST = "Campaign/combat-state.json"
 FIGHT = ["brennus", "varro", "hrodvar", "marcellus", "iulia", "lucilla", "vettius", "aelia"]
 SHOOT = ["cotta"]
-FAN = [x for x in (sys.argv[1].split(":", 1)[1].split(",") if len(sys.argv) > 1 and ":" in sys.argv[1] else []) if x]
+ARGS = {a.split(":", 1)[0]: [x for x in a.split(":", 1)[1].split(",") if x] for a in sys.argv[1:] if ":" in a}
+FAN = ARGS.get("fan", [])
+if "fight" in ARGS:
+    FIGHT = ARGS["fight"]
+if "shoot" in ARGS:
+    SHOOT = ARGS["shoot"]
+FRONT = ARGS.get("front")          # foes may engage only these (a corridor); default: any fighter
 
 
 def run(*a):
@@ -51,6 +57,8 @@ def foes(cb):
     return [k for k, v in cb.items() if v["side"] != "party" and active(v)]
 
 
+_c0, _cb0 = cs()
+DOWN0 = {k for k, v in _cb0.items() if v["side"] == "party" and v["hp"] <= 0}
 while True:
     c, cb = cs()
     rn = jacks.run(["round-next"])[1].strip()
@@ -108,7 +116,9 @@ while True:
     # a foe
     tgt = [f for f in engaged(c, who) if active(cb[f])]
     if not tgt:
-        cands = [p for p in FIGHT if p in cb and active(cb[p])]
+        cands = [p for p in (FRONT or FIGHT) if p in cb and active(cb[p])]
+        if not cands:
+            cands = [p for p in cb if cb[p]["side"] == "party" and active(cb[p])]
         p = random.choice(cands)
         run("state", "engage", who, p); tgt = [p]
     atk = ((me.get("stats") or {}).get("monster") or {}).get("attacks") or [{"raw": "1"}]
@@ -117,7 +127,7 @@ while True:
     for i in range(n):
         run("attack", who, tgt[0], "--attack", str(i))
     c, cb = cs()
-    down = [k for k, v in cb.items() if v["side"] == "party" and v["hp"] <= 0]
+    down = [k for k, v in cb.items() if v["side"] == "party" and v["hp"] <= 0 and k not in DOWN0]
     if down:
         print("PARTY DOWN:", down); sys.exit(3)
 c, cb = cs()
