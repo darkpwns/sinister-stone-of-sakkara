@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 506
-  time: 09:50
+    day: 510
+  time: 05:50
   weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; drizzle; wind gentle (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 27
+    hp: 42
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.658
+    encumbrance_st: 9.647
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -41,9 +41,10 @@ public:
     role: pc
     hp: 18
     hp_max: 18
-    conditions: []
+    conditions:
+    - studying Flight from the princess's book (L724), a week's dedicated study, days 507-513 (JJ Spell Repertoire)
     spells_used: []
-    encumbrance_st: 3.885
+    encumbrance_st: 3.875
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -63,11 +64,11 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 9.46
+    encumbrance_st: 10.46
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 35
+    hp: 40
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
@@ -80,7 +81,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 7.496
+    encumbrance_st: 8.496
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -98,7 +99,7 @@ public:
     spells_used: []
     encumbrance_st: 6.901
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Lucilla) 6 turns left
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out
   rations: 'Iulia: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 1 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -130,7 +131,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 506
+clock_day: 510
 ---
 # Campaign State
 

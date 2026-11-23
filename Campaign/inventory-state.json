@@ -95844,6 +95844,672 @@
    ],
    "cmd": "inv give",
    "n": 4831
+  },
+  {
+   "op": "claim",
+   "cause": "lot L717 used",
+   "day": 507,
+   "time": "day 507 05:50",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "#w73",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "lot": "L717",
+   "cmd": "inv claim",
+   "new_instances": [
+    {
+     "id": "w73",
+     "key": "composite bow",
+     "row": "Composite Bow",
+     "table": "weapons-bows-crossbows",
+     "table_row": 3,
+     "type": "Missile",
+     "size": null,
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Cleave 3 + STR mod"
+     ],
+     "range": {
+      "short": 120,
+      "medium": 240,
+      "long": 360
+     },
+     "grip": 1,
+     "lot": "L717",
+     "cause": "lot L717 used",
+     "magic": {
+      "value": 1,
+      "source": {
+       "lot": true,
+       "note": "ACKS II Rules/Treasure/Magic Arms and Armor Types.md",
+       "name": "Bow, Composite +1"
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": true,
+      "source": {
+       "rule": "weapon.magic_extraordinary",
+       "from": "magic"
+      }
+     },
+     "player": {
+      "desc": "a composite bow with dragon-shaped arms",
+      "known": [
+       "bonus +1"
+      ],
+      "identified": false
+     }
+    }
+   ],
+   "n": 4832
+  },
+  {
+   "op": "claim",
+   "cause": "lot L716 used",
+   "day": 507,
+   "time": "day 507 05:50",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "#w74",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "lot": "L716",
+   "cmd": "inv claim",
+   "new_instances": [
+    {
+     "id": "w74",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": "L716",
+     "cause": "lot L716 used",
+     "magic": {
+      "value": 1,
+      "source": {
+       "lot": true,
+       "note": "ACKS II Rules/Treasure/Magic Arms and Armor Types.md",
+       "name": "Spear +1"
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": true,
+      "source": {
+       "rule": "weapon.magic_extraordinary",
+       "from": "magic"
+      }
+     },
+     "player": {
+      "desc": "Spear +1",
+      "known": [
+       "bonus +1",
+       "identity"
+      ],
+      "identified": true
+     }
+    }
+   ],
+   "n": 4833
+  },
+  {
+   "op": "move",
+   "cause": "the bow in hand",
+   "day": 507,
+   "time": "day 507 05:50",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "#w46",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "aelia",
+     "item": "#w46",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 4834
+  },
+  {
+   "op": "wield",
+   "cause": "Composite Bow +1 taken in hand",
+   "day": 507,
+   "time": "day 507 05:50",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "#w73",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "aelia",
+     "item": "#w73",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w73",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 4835
+  },
+  {
+   "op": "give",
+   "cause": "vettius withdraws two blood-prices (day 508; Rulings S25, S28)",
+   "day": 508,
+   "time": "day 508 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -3000
+    },
+    {
+     "who": "vettius",
+     "gp": 3000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4836
+  },
+  {
+   "op": "pay",
+   "cause": "blood-price for a Family member named by the Order (4th level; Rulings S25, S28)",
+   "day": 508,
+   "time": "day 508 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -2000
+    }
+   ],
+   "to": "the mother of the drayman killed by Decimus Rufo",
+   "price_cp": 200000,
+   "cmd": "inv pay",
+   "n": 4837
+  },
+  {
+   "op": "pay",
+   "cause": "blood-price for a Family member named by the Order (2nd level; Rulings S25, S28)",
+   "day": 508,
+   "time": "day 508 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -1000
+    }
+   ],
+   "to": "the father of the dockhand killed by Tertius Mus",
+   "price_cp": 100000,
+   "cmd": "inv pay",
+   "n": 4838
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 37213.59",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": 7,
+     "sp": -1,
+     "gp": -93
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 9303,
+   "cmd": "inv pay",
+   "n": 4839
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 79753.80",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": 2,
+     "sp": -4,
+     "gp": -199
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 19938,
+   "cmd": "inv pay",
+   "n": 4840
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 8621.85",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -5,
+     "sp": 5,
+     "gp": -22
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 2155,
+   "cmd": "inv pay",
+   "n": 4841
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 14803.02",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -1,
+     "gp": -37
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 3701,
+   "cmd": "inv pay",
+   "n": 4842
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 30781.39",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": 5,
+     "gp": -77
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 7695,
+   "cmd": "inv pay",
+   "n": 4843
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 61927.45",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -2,
+     "sp": -8,
+     "gp": -154
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 15482,
+   "cmd": "inv pay",
+   "n": 4844
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 75124.32",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -1,
+     "sp": 2,
+     "gp": -188
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 18781,
+   "cmd": "inv pay",
+   "n": 4845
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 32128.94",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -2,
+     "sp": 7,
+     "gp": -81
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 8032,
+   "cmd": "inv pay",
+   "n": 4846
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of neris, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 75059.52",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": 5,
+     "sp": -7,
+     "gp": -187
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 18765,
+   "cmd": "inv pay",
+   "n": 4847
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 34181.45",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -5,
+     "sp": 6,
+     "gp": -86
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 8545,
+   "cmd": "inv pay",
+   "n": 4848
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 16.92",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": 6,
+     "sp": -1
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 4,
+   "cmd": "inv pay",
+   "n": 4849
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of varro, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 31385.13",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -6,
+     "sp": -4,
+     "gp": -78
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 7846,
+   "cmd": "inv pay",
+   "n": 4850
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 69333.57",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": -3,
+     "sp": -3,
+     "gp": -173
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 17333,
+   "cmd": "inv pay",
+   "n": 4851
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 81193.85",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "cp": 2,
+     "gp": -203
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 20298,
+   "cmd": "inv pay",
+   "n": 4852
+  },
+  {
+   "op": "receive",
+   "cause": "month 17: the syndicate (the Family 10,697gp: month 16's 11,223 less this month's gone, #2 0th -1, Decimus Rufo 4th -425, Tertius Mus 2nd -100 (Judge's call between 0th -1 and 3rd -200); Sand & Bones 7,050) + the Pony's half 1,624 (AX3 p. 75; Rulings S19, S22)",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 19371
+    }
+   ],
+   "frm": "the syndicate",
+   "cmd": "inv receive",
+   "n": 4853
+  },
+  {
+   "op": "receive",
+   "cause": "month 17: the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp (Rulings S19)",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 4250
+    }
+   ],
+   "frm": "the front and the venture",
+   "cmd": "inv receive",
+   "n": 4854
+  },
+  {
+   "op": "receive",
+   "cause": "month 17 investments: (3) 79 Return +150%: 75gp (3,000gp x 1% x 2.5); (2) Delay (months 16-21), nothing",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 75
+    }
+   ],
+   "frm": "investment 3",
+   "cmd": "inv receive",
+   "n": 4855
+  },
+  {
+   "op": "pay",
+   "cause": "month 17 investments: (1) 21 Return -150%: a loss of 3gp 4sp 7cp (693gp x 1% x -0.5)",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": -7,
+     "sp": -4,
+     "gp": -3
+    }
+   ],
+   "to": "investment 1 (loss)",
+   "price_cp": 347,
+   "cmd": "inv pay",
+   "n": 4856
+  },
+  {
+   "op": "pay",
+   "cause": "Vestus' dues, month 17",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -10
+    }
+   ],
+   "to": "the Tower of Knowledge",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 4857
+  },
+  {
+   "op": "give",
+   "cause": "vettius banks coin above 150gp (day 510)",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -19371
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 19371
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4858
+  },
+  {
+   "op": "give",
+   "cause": "lucilla banks coin above 150gp (day 510)",
+   "day": 510,
+   "time": "day 510 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -4322
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 4322
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4859
   }
  ],
  "holdings": {
@@ -96190,7 +96856,8 @@
    "backpack": {
     "crowbar": 1,
     "waterskin": 3,
-    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
+    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
+    "#w74": 1
    },
    "right_hand": {
     "#w53": 1
@@ -96362,6 +97029,7 @@
     "leather armor": 1
    },
    "belt": {
+    "#w46": 1,
     "#w47": 1,
     "#w61": 1,
     "oil, military (1 pint)": 4,
@@ -96379,7 +97047,7 @@
     "#w70": 1
    },
    "right_hand": {
-    "#w46": 1
+    "#w73": 1
    }
   },
   "gnaeus": {
@@ -96612,8 +97280,8 @@
  "coins": {
   "lucilla": {
    "gp": 150,
-   "sp": 208,
-   "cp": 300
+   "sp": 204,
+   "cp": 293
   },
   "body:cassia": {
    "cp": 3
@@ -96634,7 +97302,7 @@
   "vestus-the-unlikely": {
    "cp": 293,
    "sp": 275,
-   "gp": 150
+   "gp": 140
   },
   "zaira-the-beautiful": {
    "cp": 5,
@@ -96743,8 +97411,8 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 632524,
-   "sp": 8
+   "gp": 651639,
+   "cp": 2
   },
   "calpurnia": {
    "gp": 125
@@ -101213,6 +101881,143 @@
      "the Tower of Knowledge, a mage's identification, 2,000gp, two weeks (AX3 p. 152), day 465",
      "name",
      "properties"
+    ],
+    "identified": true
+   }
+  },
+  "w73": {
+   "id": "w73",
+   "key": "composite bow",
+   "row": "Composite Bow",
+   "table": "weapons-bows-crossbows",
+   "table_row": 3,
+   "type": "Missile",
+   "size": null,
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Cleave 3 + STR mod"
+   ],
+   "range": {
+    "short": 120,
+    "medium": 240,
+    "long": 360
+   },
+   "grip": 2,
+   "lot": "L717",
+   "cause": "lot L717 used",
+   "magic": {
+    "value": 1,
+    "source": {
+     "lot": true,
+     "note": "ACKS II Rules/Treasure/Magic Arms and Armor Types.md",
+     "name": "Bow, Composite +1"
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": true,
+    "source": {
+     "rule": "weapon.magic_extraordinary",
+     "from": "magic"
+    }
+   },
+   "player": {
+    "desc": "a composite bow with dragon-shaped arms",
+    "known": [
+     "bonus +1"
+    ],
+    "identified": false
+   }
+  },
+  "w74": {
+   "id": "w74",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": "L716",
+   "cause": "lot L716 used",
+   "magic": {
+    "value": 1,
+    "source": {
+     "lot": true,
+     "note": "ACKS II Rules/Treasure/Magic Arms and Armor Types.md",
+     "name": "Spear +1"
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": true,
+    "source": {
+     "rule": "weapon.magic_extraordinary",
+     "from": "magic"
+    }
+   },
+   "player": {
+    "desc": "Spear +1",
+    "known": [
+     "bonus +1",
+     "identity"
     ],
     "identified": true
    }

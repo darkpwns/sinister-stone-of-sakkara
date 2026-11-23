@@ -4095,3 +4095,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 593gp 3sp 4cp |  | phaedra |
 | 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 593gp 3sp 4cp |  | aelia |
 | 506 | Cyfaraun | his share of the sale of L714,L715,L718,L720,L722 (after the payout) |  | 593gp 3sp 4cp |  | cotta |
+| 508 | the mother of the drayman killed by Decimus Rufo | blood-price for a Family member named by the Order (4th level; Rulings S25, S28) |  |  | 2,000gp | vettius |
+| 508 | the father of the dockhand killed by Tertius Mus | blood-price for a Family member named by the Order (2nd level; Rulings S25, S28) |  |  | 1,000gp | vettius |
+| 510 | the Merchant Guildhouse | storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 37213.59 |  |  | 93gp 3cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 79753.80 |  |  | 199gp 3sp 8cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 8621.85 |  |  | 21gp 5sp 5cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 14803.02 |  |  | 37gp 1cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 30781.39 |  |  | 76gp 9sp 5cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 61927.45 |  |  | 154gp 8sp 2cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 75124.32 |  |  | 187gp 8sp 1cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 32128.94 |  |  | 80gp 3sp 2cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of neris, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 75059.52 |  |  | 187gp 6sp 5cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 34181.45 |  |  | 85gp 4sp 5cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 16.92 |  |  | 4cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of varro, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 31385.13 |  |  | 78gp 4sp 6cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 69333.57 |  |  | 173gp 3sp 3cp | guildhouse-bank |
+| 510 | the Merchant Guildhouse | storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 17 (day 510): on 81193.85 |  |  | 202gp 9sp 8cp | guildhouse-bank |
+| 510 | the syndicate | month 17: the syndicate (the Family 10,697gp: month 16's 11,223 less this month's gone, #2 0th -1, Decimus Rufo 4th -425, Tertius Mus 2nd -100 (Judge's call between 0th -1 and 3rd -200); Sand & Bones 7,050) + the Pony's half 1,624 (AX3 p. 75; Rulings S19, S22) |  | 19,371gp |  | vettius |
+| 510 | the front and the venture | month 17: the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp (Rulings S19) |  | 4,250gp |  | lucilla |
+| 510 | investment 3 | month 17 investments: (3) 79 Return +150%: 75gp (3,000gp x 1% x 2.5); (2) Delay (months 16-21), nothing |  | 75gp |  | lucilla |
+| 510 | investment 1 (loss) | month 17 investments: (1) 21 Return -150%: a loss of 3gp 4sp 7cp (693gp x 1% x -0.5) |  |  | 3gp 4sp 7cp | lucilla |
+| 510 | the Tower of Knowledge | Vestus' dues, month 17 |  |  | 10gp | vestus-the-unlikely |
