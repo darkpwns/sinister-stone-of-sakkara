@@ -28,6 +28,21 @@ the weekly block; day 522 the Order.
 - Days 517-518. Four prayers to restore Iulia failed (Neris read both scrolls, one in the House of Mourning; Patriarch
   Arëtar prayed twice at the Citadel). The Rod and the Underwatch regalia went back to the Citadel. **Gideon now plays
   Cotta.** Neris cured Brennus' mummy rot and the company's wounds.
+- Day 518, evening: **Iulia's funeral at the Solar Citadel**, Patriarch Arëtar presiding. Gideon saw her body home and her
+  regalia returned; **Brennus spoke for the company** (the eulogy is below). Hrodvar heard of it there.
+
+> **Brennus, at the Citadel altar:**
+> "She came to us on the road to Cyfaraun, a priest of the Winged Sun with a pack and a borrowed spear, and she told
+> us the dark under this city was a debt somebody had to pay. We laughed. We stopped laughing.
+> Every time the dead came for us, she stood in front. She held the circle when the shades came through the walls.
+> She took the Provost's secrets to this altar when it would have been easier to keep them. She brought Livilla Corax
+> here in chains instead of leaving her in the steam. She unmade the princess in her tomb before the thing could
+> open its eyes. Four days ago she turned two of that mummy-king's court to ash with one word and the sun in her
+> hand, and the third spoke one word back.
+> I am not a pious woman. The gods made sure of that. But I know what she was: the one who went first. Every one
+> of us in this hall is alive because Iulia went first.
+> Captain: you carried the light down there. We'll carry it the rest of the way. And whatever is left of the thing
+> that killed you, in whatever jar or crack it crawled into, I will find it, and I will finish it."
 - Day 519: the ring, bracers and rod went to the Tower for identification (ready day 533).
 - Day 520, descent 75: the shrine of golden skulls (a deadly rune: Brennus carried it under Neris' Death Ward; sealed in
   the Grey Sisters' vault), the two other shrines; the treasury behind the glyphed door (Vestus broke the rune on the
