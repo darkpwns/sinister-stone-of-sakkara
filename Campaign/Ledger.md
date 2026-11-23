@@ -615,6 +615,14 @@ tags:
 | 516 | Descent 73 (N: the library) | 14 cedar scroll jars of research notes (N3 library) | 2,059 | sold |
 | 516 | Descent 73 (N: the library) | 17 cedar scroll jars of research notes (N3 library) | 2,500 | sold |
 | 516 | Descent 73 (N: the library) | 24 cedar scroll jars of research notes (N3 library) | 3,529 | sold |
+| 517 | Descent 74 (N: the south-west passage) | jewelry worth 2675.0gp | 2,675 | sold |
+| 517 | Descent 74 (N: the south-west passage) | Ring of Fire Protection | 40 | brennus |
+| 517 | Descent 74 (N: the south-west passage) | Bracers of Armor | 225 | brennus |
+| 517 | Descent 74 (N: the south-west passage) | Rod of Elemental Spheres | 700 | vettius |
+| 517 | Descent 74 (N: the south-west passage) | jewelry worth 3000.0gp | 3,000 | sold |
+| 517 | Descent 74 (N: the south-west passage) | ebony staff topped by a bronze cobra | 100 | sold |
+| 517 | Descent 74 (N: the south-west passage) | jewelry worth 325.0gp | 325 | sold |
+| 517 | Descent 74 (N: the south-west passage) | Sword +1, Deathless | 660 | vettius |
 
 ## Monster XP
 
@@ -793,6 +801,10 @@ tags:
 | 514 | Descent 71 (R: the bronze door) | Skeleton | 48 | 13 | 624 |
 | 515 | Descent 72 (N: the sealed doors) | Giant Rat | 9 | 5 | 45 |
 | 516 | Descent 73 (N: the library) | Giant Rat | 10 | 5 | 50 |
+| 517 | Descent 74 (N: the south-west passage) | Bronze Animated Statue | 4 | 350 | 1,400 |
+| 517 | Descent 74 (N: the south-west passage) | Orthanach (SOTN) | 1 | 6,600 | 6,600 |
+| 517 | Descent 74 (N: the south-west passage) | Saorya (SOTN) | 1 | 3,100 | 3,100 |
+| 517 | Descent 74 (N: the south-west passage) | Cassair (SOTN) | 1 | 3,100 | 3,100 |
 
 ## Shares and XP awarded
 
@@ -1600,6 +1612,15 @@ tags:
 | 516 | Descent 73 (N: the library) | Phaedra | 0.5 | 1,549 | 3 | 0 | +0% | 1,552 |
 | 516 | Descent 73 (N: the library) | Aelia | 0.5 | 1,549 | 3 | 0 | +0% | 1,552 |
 | 516 | Descent 73 (N: the library) | Cotta | 0.5 | 1,549 | 3 | 0 | +0% | 1,552 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 517 | Descent 74 (N: the south-west passage) | Lucilla | 1 | 1,030 | 1,893 | 0 | +10% | 3,215 |
+| 517 | Descent 74 (N: the south-west passage) | Vettius | 1 | 1,030 | 1,893 | 0 | +5% | 3,069 |
+| 517 | Descent 74 (N: the south-west passage) | Vestus the Unlikely | 1 | 1,030 | 1,893 | 0 | +5% | 3,069 |
+| 517 | Descent 74 (N: the south-west passage) | Neris | 1 | 1,030 | 1,893 | 0 | +0% | 2,923 |
+| 517 | Descent 74 (N: the south-west passage) | Brennus | 1 | 1,030 | 1,893 | 0 | +5% | 3,069 |
+| 517 | Descent 74 (N: the south-west passage) | Iulia | 1 | 1,030 | 1,893 | 0 | +5% | 3,069 |
+| 517 | Descent 74 (N: the south-west passage) | Phaedra | 0.5 | 515 | 947 | 0 | +0% | 1,462 |
+| 517 | Descent 74 (N: the south-west passage) | Aelia | 0.5 | 515 | 947 | 0 | +0% | 1,462 |
+| 517 | Descent 74 (N: the south-west passage) | Cotta | 0.5 | 515 | 947 | 0 | +0% | 1,462 | | JUDGE: Iulia's share goes to his heir or new possessors (death --heir) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4259,3 +4280,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 516 |  | treasure share |  | 1,549gp |  | aelia |
 | 516 |  | treasure share |  | 1,549gp |  | cotta |
 | 516 | Tertulla, Lake Laman fisherwoman | mooring the black barge, six fortnights (days 434-517), paid on time each fortnight in play; entered day 516 (user's correction: the company never forgot) |  |  | 24gp | lucilla |
+| 517 | a caster in Cyfaraun | spellcasting: Restore Life and Limb |  |  | 900gp | lucilla |
+| 517 |  | treasure share |  | 813gp 3sp 3cp |  | lucilla |
+| 517 |  | treasure share |  | 813gp 3sp 3cp |  | vettius |
+| 517 |  | treasure share |  | 813gp 3sp 3cp |  | vestus-the-unlikely |
+| 517 |  | treasure share |  | 813gp 3sp 3cp |  | neris |
+| 517 |  | treasure share |  | 813gp 3sp 3cp |  | brennus |
+| 517 |  | treasure share |  | 406gp 6sp 7cp |  | phaedra |
+| 517 |  | treasure share |  | 406gp 6sp 7cp |  | aelia |
+| 517 |  | treasure share |  | 406gp 6sp 7cp |  | cotta |

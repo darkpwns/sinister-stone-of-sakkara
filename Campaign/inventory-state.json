@@ -287,7 +287,7 @@
    "kind": "pc",
    "name": "iulia",
    "actor": "iulia",
-   "status": "active"
+   "status": "dead"
   },
   "quirinus": {
    "kind": "henchman",
@@ -471,6 +471,12 @@
    "name": "ground:nethercity-n---sub-abyssal-alchemic-laboratory",
    "actor": null,
    "status": "active"
+  },
+  "body:iulia": {
+   "kind": "body",
+   "name": "body of iulia",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -634,6 +640,24 @@
    "value_cp": 225000,
    "base": null,
    "note": "bought from market stock H110 (TT p. 32)",
+   "judge": true
+  },
+  "scroll of cure major injury (divine, auran)": {
+   "name": "scroll of Cure Major Injury (divine, Auran)",
+   "items_each": 0,
+   "stone_each": "0",
+   "value_cp": 337500,
+   "base": null,
+   "note": "what remains of H120 after its Restore Life and Limb was read (day 517)",
+   "judge": true
+  },
+  "scroll of holy blessing (divine, auran)": {
+   "name": "scroll of Holy Blessing (divine, Auran)",
+   "items_each": 0,
+   "stone_each": "0",
+   "value_cp": 225000,
+   "base": null,
+   "note": "what remains of H117 after its Restore Life and Limb was read (day 517)",
    "judge": true
   }
  },
@@ -98827,6 +98851,551 @@
    "price_cp": 2400,
    "cmd": "inv pay",
    "n": 4974
+  },
+  {
+   "op": "light",
+   "cause": "torch397 lit (torch)",
+   "day": 517,
+   "time": "day 517 04:16",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch397",
+   "cmd": "light on",
+   "n": 4975
+  },
+  {
+   "op": "light",
+   "cause": "torch398 lit (torch, light auto)",
+   "day": 517,
+   "time": "day 517 05:16",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch398",
+   "cmd": "rest (light auto)",
+   "n": 4976
+  },
+  {
+   "op": "light",
+   "cause": "lantern23 lit (lantern)",
+   "day": 517,
+   "time": "day 517 05:26",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern23",
+   "cmd": "light on",
+   "n": 4977
+  },
+  {
+   "op": "remove",
+   "cause": "read on Iulia in O3 (Restore Life and Limb failed); the Cure Major Injury on it is spent with it? no: kept",
+   "day": 517,
+   "time": "day 517 08:42",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of restore life and limb and cure major injury (divine, auran)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "cmd": "inv remove",
+   "n": 4978
+  },
+  {
+   "op": "add",
+   "cause": "the same scroll: its Restore Life and Limb read on Iulia (day 517), Cure Major Injury still on it",
+   "day": 517,
+   "time": "day 517 08:42",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of cure major injury (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4979
+  },
+  {
+   "op": "death",
+   "cause": "iulia died; body carried",
+   "day": 517,
+   "time": "day 517 08:42",
+   "deltas": [
+    {
+     "who": "iulia",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "cassock, linen or wool",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "cassock, linen or wool",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "belt/sash, embossed leather",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "belt/sash, embossed leather",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "boots, leather, high",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "boots, leather, high",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "holy symbol",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "holy book",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "holy book",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -9
+    },
+    {
+     "who": "body:iulia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 9
+    },
+    {
+     "who": "iulia",
+     "item": "alchemist's filter mask (vinegar, camphor, charcoal pad)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "alchemist's filter mask (vinegar, camphor, charcoal pad)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "scroll of neutralize poison x2 and cure light injury (divine, auran)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "scroll of neutralize poison x2 and cure light injury (divine, auran)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "scroll of restore life and limb and holy blessing (divine, auran)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "scroll of restore life and limb and holy blessing (divine, auran)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "#w60",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "#w60",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "iulia",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:iulia",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "iulia",
+     "cp": -251,
+     "sp": -3,
+     "gp": -150
+    },
+    {
+     "who": "body:iulia",
+     "cp": 251,
+     "sp": 3,
+     "gp": 150
+    }
+   ],
+   "cmd": "death",
+   "n": 4980
+  },
+  {
+   "op": "light",
+   "cause": "lantern24 lit (lantern)",
+   "day": 517,
+   "time": "day 517 09:30",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern24",
+   "cmd": "light on",
+   "n": 4981
+  },
+  {
+   "op": "give",
+   "cause": "Neris takes Iulia's scroll to read it over her (day 517)",
+   "day": 517,
+   "time": "day 517 12:14",
+   "deltas": [
+    {
+     "who": "body:iulia",
+     "item": "scroll of restore life and limb and holy blessing (divine, auran)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "neris",
+     "item": "scroll of restore life and limb and holy blessing (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 4982
+  },
+  {
+   "op": "remove",
+   "cause": "read on Iulia at the House of Mourning (failed), day 517; its Holy Blessing kept on a new scroll entry",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of restore life and limb and holy blessing (divine, auran)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "cmd": "inv remove",
+   "n": 4983
+  },
+  {
+   "op": "add",
+   "cause": "the same scroll: Restore Life and Limb read on Iulia (day 517), Holy Blessing still on it",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of holy blessing (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4984
+  },
+  {
+   "op": "give",
+   "cause": "lucilla withdraws for a casting of Restore Life and Limb for Iulia (day 517)",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "lucilla",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4985
+  },
+  {
+   "op": "pay",
+   "cause": "spellcasting: Restore Life and Limb",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -900
+    }
+   ],
+   "to": "a caster in Cyfaraun",
+   "price_cp": 90000,
+   "cmd": "inv pay",
+   "n": 4986
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 813
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4987
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 813
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4988
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 813
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4989
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 813
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4990
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 813
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4991
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 406
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4992
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 406
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4993
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 517,
+   "time": "day 517 13:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 7,
+     "sp": 6,
+     "gp": 406
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4994
   }
  ],
  "holdings": {
@@ -98877,7 +99446,7 @@
     "rope, 50'": 1,
     "tinderbox (flint & steel)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 6,
+    "oil, common (1 pint)": 4,
     "hammer (small)": 1,
     "iron spike": 10,
     "waterskin": 10,
@@ -99094,7 +99663,8 @@
     "holy water (1 pint)": 2,
     "scroll of neutralize poison (divine, auran)": 1,
     "scroll of delay poison (divine, auran)": 1,
-    "scroll of restore life and limb and cure major injury (divine, auran)": 1
+    "scroll of cure major injury (divine, auran)": 1,
+    "scroll of holy blessing (divine, auran)": 1
    },
    "right_hand": {
     "holy symbol": 1
@@ -99180,35 +99750,6 @@
    },
    "right_hand": {
     "#w53": 1
-   }
-  },
-  "iulia": {
-   "worn": {
-    "sack, small (holds 2 stone)": 1,
-    "cassock, linen or wool": 1,
-    "belt/sash, embossed leather": 1,
-    "boots, leather, high": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "sack": {
-    "holy symbol": 1,
-    "holy book": 1,
-    "waterskin": 1
-   },
-   "armor": {
-    "banded plate armor": 1
-   },
-   "backpack": {
-    "waterskin": 9,
-    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
-    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1,
-    "scroll of restore life and limb and holy blessing (divine, auran)": 1
-   },
-   "right_hand": {
-    "#w60": 1
-   },
-   "left_hand": {
-    "shield": 1
    }
   },
   "quirinus": {
@@ -99360,7 +99901,7 @@
    "backpack": {
     "arrow": 33,
     "waterskin": 10,
-    "torch": 3,
+    "torch": 1,
     "tinderbox (flint & steel)": 1,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
     "iron spike": 6,
@@ -99605,21 +100146,38 @@
    "here": {
     "arrow": 1
    }
+  },
+  "body:iulia": {
+   "here": {
+    "sack, small (holds 2 stone)": 1,
+    "cassock, linen or wool": 1,
+    "belt/sash, embossed leather": 1,
+    "boots, leather, high": 1,
+    "backpack (holds 4 stone)": 1,
+    "holy symbol": 1,
+    "holy book": 1,
+    "waterskin": 10,
+    "banded plate armor": 1,
+    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
+    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1,
+    "#w60": 1,
+    "shield": 1
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 126,
-   "sp": 197,
-   "cp": 296
+   "gp": 1039,
+   "sp": 200,
+   "cp": 299
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 150,
-   "sp": 210,
-   "cp": 269
+   "gp": 963,
+   "sp": 213,
+   "cp": 272
   },
   "durio": {
    "gp": 514,
@@ -99630,9 +100188,9 @@
    "gp": 13732
   },
   "vestus-the-unlikely": {
-   "cp": 296,
-   "sp": 268,
-   "gp": 150
+   "cp": 299,
+   "sp": 271,
+   "gp": 963
   },
   "zaira-the-beautiful": {
    "cp": 5,
@@ -99681,19 +100239,14 @@
    "sp": 7
   },
   "neris": {
-   "gp": 150,
-   "sp": 273,
-   "cp": 325
-  },
-  "iulia": {
-   "sp": 3,
-   "gp": 150,
-   "cp": 251
+   "gp": 963,
+   "sp": 276,
+   "cp": 328
   },
   "brennus": {
-   "sp": 292,
-   "gp": 150,
-   "cp": 347
+   "sp": 295,
+   "gp": 963,
+   "cp": 350
   },
   "quirinus": {
    "sp": 27,
@@ -99701,9 +100254,9 @@
    "cp": 9
   },
   "phaedra": {
-   "sp": 250,
-   "gp": 150,
-   "cp": 285
+   "sp": 256,
+   "gp": 556,
+   "cp": 292
   },
   "varro": {
    "sp": 253,
@@ -99716,9 +100269,9 @@
    "cp": 289
   },
   "aelia": {
-   "cp": 283,
-   "sp": 232,
-   "gp": 150
+   "cp": 290,
+   "sp": 238,
+   "gp": 556
   },
   "marcellus": {
    "cp": 292,
@@ -99741,7 +100294,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 752138,
+   "gp": 751138,
    "cp": 2
   },
   "calpurnia": {
@@ -99761,8 +100314,13 @@
    "sp": 50
   },
   "cotta": {
-   "cp": 140,
-   "sp": 114,
+   "cp": 147,
+   "sp": 120,
+   "gp": 556
+  },
+  "body:iulia": {
+   "cp": 251,
+   "sp": 3,
    "gp": 150
   }
  },

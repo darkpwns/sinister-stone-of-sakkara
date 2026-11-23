@@ -6,11 +6,12 @@
 "name": "Vestus the Unlikely",
 "class": "Mage",
 "level": 7,
-"xp": 116711,
+"xp": 119780,
 "hp_max": 18,
 "attributes": {"STR":8,"INT":13,"WIL":12,"DEX":13,"CON":10,"CHA":7},
 "inventory_holder": true,
 "items": [{"type":"spell","name":"Mage Missile","level":1},{"type":"spell","name":"Protection from Evil","level":1},{"type":"proficiency","name":"Loremastery","list":"class"},{"type":"proficiency","name":"Mapping","list":"general"},{"type":"proficiency","name":"Language (Ancient Argollëan)","list":"general"},{"type":"spell","name":"Fan of Flames","level":1},{"type":"spell","name":"Webbing","level":2},{"type":"spell","name":"Burning Sparks","level":2},{"type":"spell","name":"Ogre Strength","level":2},{"type":"proficiency","name":"Swimming","list":"general"},{"type":"spell","name":"Dispel Magic","level":3},{"type":"proficiency","name":"Magical Engineering","list":"class"},{"type":"spell","name":"Fireball","level":3},{"type":"spell","name":"Arcane Shift","level":4},{"type":"spell","name":"Bewitch Monster","level":4},{"type":"spell","name":"Flight","level":3}],
 "modifiers": [],
-"state": {"hp":18,"conditions":[],"spells_used":[]}
+"state": {"hp":2,"conditions":[],"spells_used":["Fireball","Fireball","Mage Missile"]},
+"changes": [{"field":"state.conditions","from":[],"to":["miasma: headaches and short breath, -1 to attack throws and damage until rested a turn away from the sludge"],"cause":"condition"},{"field":"state.conditions","from":["miasma: headaches and short breath, -1 to attack throws and damage until rested a turn away from the sludge"],"to":[],"cause":"condition ends"},{"field":"state.spells_used","from":[],"to":["Fireball"],"cause":"the bronze warriors in O1, day 517"},{"field":"state.spells_used","from":["Fireball"],"to":["Fireball","Fireball"],"cause":"into O3, day 517"},{"field":"state.spells_used","from":["Fireball","Fireball"],"to":["Fireball","Fireball","Mage Missile"],"cause":"Mage Missile at the masked mummy (concentration), O3, day 517"},{"field":"state.hp","from":18,"to":2,"cause":"fight ended: the fight with Orthanach (SOTN), Saorya (SOTN), Cassair (SOTN), round 12"},{"field":"modifiers","from":"lot HB517","to":null,"cause":"Holy Blessing ended day 517 09:19"},{"field":"xp","from":116711,"to":119780,"cause":"payout of Descent 74 (N: the south-west passage) (day 517)"}]
 }
