@@ -3057,8 +3057,36 @@
    "level": 3,
    "race": "human",
    "name": "Tiberius Maro",
-   "status": "available",
-   "attempts": [],
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 528,
+     "wage": 100.0,
+     "signing": "month"
+    },
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 528,
+     "wage": 150.0,
+     "signing": "month"
+    },
+    {
+     "employer": "vettius",
+     "party": "party",
+     "total": 9,
+     "result": "Accept",
+     "day": 528,
+     "wage": 150.0,
+     "signing": "year"
+    }
+   ],
    "judge_items": [
     "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
     "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
@@ -3108,7 +3136,11 @@
    "search": "Cyfaraun|rarity|Crusader of level 3|18",
    "wanted": "Crusader of level 3",
    "market": "Cyfaraun",
-   "actor": "c35"
+   "actor": "tiberius-maro",
+   "try_again": false,
+   "accepted_by": "vettius",
+   "elan": false,
+   "offer_wage": 150.0
   }
  },
  "members": {
@@ -4929,6 +4961,52 @@
    ],
    "actor": "hrodvar",
    "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "tiberius-maro": {
+   "id": "tiberius-maro",
+   "name": "Tiberius Maro",
+   "candidate": "C35",
+   "employer": "vettius",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 3,
+   "class": "Crusader",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 0,
+   "morale": 0,
+   "morale_src": null,
+   "wage_gp": 150.0,
+   "wage_per": "month",
+   "hired_day": 528,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 528,
+     "event": "hired",
+     "loyalty": 0
+    },
+    {
+     "day": 528,
+     "event": "wages paid: 1 month(s), 150 gp"
+    },
+    {
+     "day": null,
+     "event": "set morale: None -> 0 (Judge)"
+    }
+   ],
+   "actor": "tiberius-maro",
+   "market": "Cyfaraun",
    "terms": "",
    "adventure_penalty": null,
    "temp": [],

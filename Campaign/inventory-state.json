@@ -477,6 +477,12 @@
    "name": "body of iulia",
    "actor": null,
    "status": "active"
+  },
+  "tiberius-maro": {
+   "kind": "henchman",
+   "name": "Tiberius Maro",
+   "actor": "tiberius-maro",
+   "status": "active"
   }
  },
  "custom": {
@@ -100442,6 +100448,458 @@
    ],
    "cmd": "payout --apply",
    "n": 5051
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -150
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 15000,
+   "cmd": "inv wages",
+   "n": 5052
+  },
+  {
+   "op": "give",
+   "cause": "vettius withdraws for Tiberius Maro's signing bonus and arms (day 528)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -3000
+    },
+    {
+     "who": "vettius",
+     "gp": 3000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5053
+  },
+  {
+   "op": "give",
+   "cause": "signing bonus, a year's pay (hiring offer, day 528)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -1800
+    },
+    {
+     "who": "tiberius-maro",
+     "gp": 1800
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5054
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "sack, small (holds 2 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5055
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template: sandals)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "sandals/shoes, leather, low",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5056
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "hide and fur armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5057
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "#w75",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w75",
+     "key": "staff",
+     "row": "Staff",
+     "table": "weapons-other-weapons",
+     "table_row": 9,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d4",
+      "2h": "1d6"
+     },
+     "types": [
+      "bludgeoning"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Hermit template)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     }
+    }
+   ],
+   "n": 5058
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template: hand-carved wood winged sun)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "holy symbol",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5059
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5060
+  },
+  {
+   "op": "buy",
+   "cause": "Vettius arms his crusader",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -8,
+     "gp": -1
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 18,
+   "row": "Backpack (holds 4 stone)",
+   "packs": 1,
+   "price_cp": 180,
+   "cmd": "inv buy",
+   "n": 5061
+  },
+  {
+   "op": "give",
+   "cause": "stored: banded plate bought",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "hide and fur armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "hide and fur armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5062
+  },
+  {
+   "op": "give",
+   "cause": "stored: mace and shield bought",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "#w75",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "#w75",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5063
+  },
+  {
+   "op": "buy",
+   "cause": "Vettius arms his crusader",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -45
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 18,
+   "row": "Banded Plate Armor",
+   "packs": 1,
+   "price_cp": 4500,
+   "cmd": "inv buy",
+   "n": 5064
+  },
+  {
+   "op": "buy",
+   "cause": "Vettius arms his crusader",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -9
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 18,
+   "row": "Shield",
+   "packs": 1,
+   "price_cp": 900,
+   "cmd": "inv buy",
+   "n": 5065
+  },
+  {
+   "op": "buy",
+   "cause": "Vettius arms his crusader",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "#w76",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -5,
+     "gp": -4
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 18,
+   "row": "Mace",
+   "packs": 1,
+   "price_cp": 450,
+   "cmd": "inv buy",
+   "new_instances": [
+    {
+     "id": "w76",
+     "key": "mace",
+     "row": "Mace",
+     "table": "weapons-bludgeons",
+     "table_row": 2,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "bludgeoning"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "Vettius arms his crusader",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bludgeons",
+        "row": 2
+       }
+      }
+     }
+    }
+   ],
+   "n": 5066
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Hermit template: 2 weeks)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5067
   }
  ],
  "holdings": {
@@ -101107,6 +101565,12 @@
     "waterskin": 4
    }
   },
+  "silk-pony-strongbox": {
+   "here": {
+    "hide and fur armor": 1,
+    "#w75": 1
+   }
+  },
   "saturnin": {
    "armor": {
     "leather armor": 1
@@ -101205,6 +101669,31 @@
     "banded plate armor": 1,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    }
+  },
+  "tiberius-maro": {
+   "worn": {
+    "sack, small (holds 2 stone)": 1,
+    "sandals/shoes, leather, low": 1
+   },
+   "armor": {
+    "banded plate armor": 1
+   },
+   "right_hand": {
+    "#w76": 1
+   },
+   "sack": {
+    "holy symbol": 1,
+    "waterskin": 1
+   },
+   "back": {
+    "backpack (holds 4 stone)": 1
+   },
+   "left_hand": {
+    "shield": 1
+   },
+   "backpack": {
+    "rations, iron (one week)": 2
+   }
   }
  },
  "coins": {
@@ -101217,8 +101706,8 @@
    "cp": 3
   },
   "vettius": {
-   "gp": 275,
-   "sp": 228,
+   "gp": 1266,
+   "sp": 215,
    "cp": 283
   },
   "durio": {
@@ -101336,7 +101825,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 784683,
+   "gp": 781683,
    "cp": 2
   },
   "calpurnia": {
@@ -101364,6 +101853,9 @@
    "cp": 251,
    "sp": 3,
    "gp": 150
+  },
+  "tiberius-maro": {
+   "gp": 1800
   }
  },
  "rolls": {
@@ -105950,6 +106442,120 @@
      "identity"
     ],
     "identified": true
+   }
+  },
+  "w75": {
+   "id": "w75",
+   "key": "staff",
+   "row": "Staff",
+   "table": "weapons-other-weapons",
+   "table_row": 9,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d4",
+    "2h": "1d6"
+   },
+   "types": [
+    "bludgeoning"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Hermit template)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   }
+  },
+  "w76": {
+   "id": "w76",
+   "key": "mace",
+   "row": "Mace",
+   "table": "weapons-bludgeons",
+   "table_row": 2,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "bludgeoning"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "Vettius arms his crusader",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bludgeons",
+      "row": 2
+     }
+    }
    }
   }
  },

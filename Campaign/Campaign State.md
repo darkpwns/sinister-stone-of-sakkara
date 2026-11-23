@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 526
-  time: '13:50'
+    day: 528
+  time: 08:50
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 9.786
+    encumbrance_st: 10.764
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -75,7 +75,7 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 16
+    hp: 20
     hp_max: 20
     conditions:
     - 'critically wounded (Mortal Wounds, day 517): one foot lost to frostbite (peg required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes); 1 week of bed rest'
@@ -99,9 +99,17 @@ public:
     - 'intestines mangled and ruined (Mortal Wounds, day 499): must rest 2 turns in 6; CON reduced by 1/3; -4 to saves vs poison; chronic indigestion'
     spells_used: []
     encumbrance_st: 11.329
+  - name: Tiberius Maro
+    sheet: Characters/tiberius-maro.json
+    role: henchman
+    hp: 12
+    hp_max: 12
+    conditions: []
+    spells_used: []
+    encumbrance_st: 10.633
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out
-  rations: 'Vettius: food 6 d, water 1.6 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 2 d; Cotta: food 6 d, water 2.8 d; Brennus: food 6 d, water 1 d; Neris: food 6 d, water 2.2 d; Aelia: food 6 d, water 2 d; Phaedra: food 6 d, water 2 d; Hrodvar: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 6 d, water 1.6 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 2 d; Cotta: food 6 d, water 2.8 d; Brennus: food 6 d, water 1 d; Neris: food 6 d, water 2.2 d; Aelia: food 6 d, water 2 d; Phaedra: food 6 d, water 2 d; Hrodvar: food 6 d, water 1 d; Tiberius Maro: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
@@ -133,7 +141,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 526
+clock_day: 528
 ---
 # Campaign State
 

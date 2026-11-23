@@ -1664,6 +1664,7 @@ tags:
 | Date (game) | Henchman | Months | gp | Paid by |
 | --- | --- | --- | --- | --- |
 | spring 8 | Brannoc | 1 (+3gp signing) | 12 | Lucilla |
+| day 528 | Tiberius Maro (Crusader 3, 150gp/month) | 1 (+1,800gp signing, a year's pay) | 150 | Vettius |
 
 ## Purchases and sales
 
@@ -4350,3 +4351,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 526 |  | treasure share |  | 125gp |  | vettius |
 | 526 |  | treasure share |  | 125gp |  | cotta |
 | 526 |  | treasure share |  | 125gp |  | lucilla |
+| 528 | the retinue | wages paid |  |  | 150gp | vettius |
+| 528 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | vettius |
+| 528 | Cyfaraun | Banded Plate Armor | 1 |  | 45gp | vettius |
+| 528 | Cyfaraun | Shield | 1 |  | 9gp | vettius |
+| 528 | Cyfaraun | Mace | 1 |  | 4gp 5sp | vettius |
