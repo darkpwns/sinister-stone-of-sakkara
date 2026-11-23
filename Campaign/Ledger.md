@@ -544,6 +544,9 @@ tags:
 | 440 | Descent 57 (S3, the priestess's tomb) | Grave Ghoul | 1 | 38 | 38 |
 | 440 | Descent 57 (S3, the priestess's tomb) | Mummy Cultist of Nasga (SOTN S3) | 1 | 2,600 | 2,600 |
 | 440 | Descent 57 (S3, the priestess's tomb) | Grave Ghoul | 3 | 38 | 114 |
+| 441 | Descent 58 (I13, the shaman) | Tunnel Prawn (SOTN) | 8 | 10 | 80 |
+| 441 | Descent 58 (I13, the shaman) | Insect Swarm | 1 | 29 | 29 |
+| 441 | Descent 58 (I13, the shaman) | Sage Slime | 1 | 56 | 56 |
 
 ## Shares and XP awarded
 
@@ -1145,6 +1148,18 @@ tags:
 | 440 | Descent 57 (S3, the priestess's tomb) | Aelia | 0.5 | 588 | 172 | 0 | +0% | 759 |
 | 440 | Descent 57 (S3, the priestess's tomb) | Marcellus | 0.5 | 588 | 172 | 0 | +0% | 759 |
 | 440 | Descent 57 (S3, the priestess's tomb) | Cotta | 0.5 | 588 | 172 | 0 | +0% | 759 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 441 | Descent 58 (I13, the shaman) | Lucilla | 1 | 0 | 18 | 0 | +10% | 20 |
+| 441 | Descent 58 (I13, the shaman) | Vettius | 1 | 0 | 18 | 0 | +5% | 19 |
+| 441 | Descent 58 (I13, the shaman) | Vestus the Unlikely | 1 | 0 | 18 | 0 | +5% | 19 |
+| 441 | Descent 58 (I13, the shaman) | Neris | 1 | 0 | 18 | 0 | +0% | 18 |
+| 441 | Descent 58 (I13, the shaman) | Brennus | 1 | 0 | 18 | 0 | +5% | 19 |
+| 441 | Descent 58 (I13, the shaman) | Iulia | 1 | 0 | 18 | 0 | +5% | 19 |
+| 441 | Descent 58 (I13, the shaman) | Phaedra | 0.5 | 0 | 9 | 0 | +0% | 9 |
+| 441 | Descent 58 (I13, the shaman) | Varro | 0.5 | 0 | 9 | 0 | +0% | 9 |
+| 441 | Descent 58 (I13, the shaman) | Hrodvar | 0.5 | 0 | 9 | 0 | +0% | 9 |
+| 441 | Descent 58 (I13, the shaman) | Aelia | 0.5 | 0 | 9 | 0 | +0% | 9 |
+| 441 | Descent 58 (I13, the shaman) | Marcellus | 0.5 | 0 | 9 | 0 | +0% | 9 |
+| 441 | Descent 58 (I13, the shaman) | Cotta | 0.5 | 0 | 9 | 0 | +0% | 9 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3329,3 +3344,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 440 |  | treasure share |  | 166gp 6sp 7cp |  | aelia |
 | 440 |  | treasure share |  | 166gp 6sp 7cp |  | marcellus |
 | 440 |  | treasure share |  | 166gp 6sp 7cp |  | cotta |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
+| 441 |  | treasure share |  |  |  |  |
