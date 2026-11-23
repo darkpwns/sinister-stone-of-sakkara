@@ -1241,7 +1241,7 @@ Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (
 (the mummy king, bronze statues), the faewyrd, G18, G26/G27; then K, L4, R.
 
 ## S29 — start here (supersedes everything above)
-**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers: `s10_j.sh`, `s20_town.sh` (`tday`), `s23_j.sh`
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.15.0). Helpers: `s10_j.sh`, `s20_town.sh` (`tday`), `s23_j.sh`
 (`w N`, `relight`, `sup`, `bank DAY`; `TC="lucilla varro marcellus hrodvar aelia"`), `s23_ledger.py`; new in S28:
 `s28_ward.py`, `s28_g13.py` (ward fights: rebuke, Fireball/Fan rounds, struck foes fight, felled undead destroyed; set
 `state distance` for melee first), `s28_faewyrd.py` (whispers). Log: `Session Log/S28 — The Mummy King's Hall.md`.
@@ -1259,5 +1259,7 @@ descent 64 (G27's weapons, G25's 4 faewyrd; maddening cured by Remove Curse); we
 **Next (World State prep queue):** 480 the Order's roll and month 16's end (Arëtar's mission on Varinia's circle); 481
 Cotta's wage and **the Imperial Vanguard at the 12U cesspool** (AX3 reactions at the grate if the company descends);
 484 weekly; delves: G2b's faewyrd, G6a/G6e (the greater faewyrd's 20' whispers), then L4, F17, K, J8, R.
-**Vettius backstabs** every vulnerable foe (surprised, cowering, helpless, paralyzed, slumbering, prone, or engaged by others so he takes the rear): `attack vettius T --ambush --extra-dice "backstab:2d6"` (Thief 8; a third die at 9th).
+**Backstab is the engine's (7.15.0):** every `attack` by Vettius on a vulnerable foe backstabs by itself (+4, two extra
+dice); a foe engaged by two of his allies is taken from the rear unless `--front`. Order him after the front line; never
+add `--ambush`/`--extra-dice backstab`. setup.sh must print `engine: ready: acks 7.15.0`.
 **Slab heaves:** never pass `--mod -12` (Rulings S18 dropped SOTN's −12); helpers by `--helpers`.

@@ -30,6 +30,9 @@ Rebuke Undead (RR Crusader): `rebuke ID [--level-mod N] [--mod "righteous rebuke
 undead type present, 2d6 HD lowest first; frightened 10 rounds (cowering while engaged), broken by that crusader's
 melee attack; a complete failure bars him for the fight. Undead type: the note's "rebuked as X", else
 `state set ID rebuke_as=TYPE`. A place that makes Lawful casters "turn as if 4 levels lower": `--level-mod -4`.
+Backstab (engine 7.15.0): automatic in `attack` for any class with a Backstab column, on any target vulnerable to
+the attacker (and on a foe engaged by two or more of his allies, from the rear, unless `--front`). In fight scripts,
+order the thief after the front line so the rear is open; never add backstab flags by hand.
 Spells and scrolls cast in a fight: check the target count, HD limit and save **before** rolling.
 
 ## 2. Scrolls (TT pp. 94-99, Magic Items - Scrolls)

@@ -58,6 +58,12 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
      A monster's multiple attacks: one call per attack (`--attack 0`, `--attack 1`, …).
    - **Cleave:** when the line says "may cleave", attack another foe in reach with `--cleave` (and the same
      `--charge`/`--ambush` flags if the bonus continues).
+   - **Backstab (engine 7.15.0, automatic):** a thief (any class with a Backstab column) attacking a vulnerable target
+     (surprised, cowering, helpless, paralyzed, slumbering, prone, ... or `--rear`) backstabs by himself: +4 and the
+     extra dice of his level, in melee or with a missile at short range. A foe already engaged by two or more of his
+     allies is taken from the rear unless `--front` (corridor two abreast, thief pinned). Never pass `--ambush` or
+     `--extra-dice backstab` for him; `--no-backstab` only when he chooses not to. Put the thief where the rear is: let
+     the front line engage first, then send him in (the line says "takes the rear").
    - **Coup de grace:** a helpless foe (slumbering, unconscious, paralyzed) and an attacker not engaged: `acks.sh attack <a> <t> --coup-de-grace` slays it outright (RR p. 511). A sneaking thief against a sleeping monster is the classic case.
    - **Sweep:** `acks.sh sweep <a> <t1> <t2> …`.
    - **Other damage** (spells, traps, falls, oil): `acks.sh damage <t> --dice XdY --type T [--extraordinary|--mundane]

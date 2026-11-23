@@ -58,8 +58,8 @@ while True:
             tg=[k for k in sk if k in struck]
             if tg:
                 # Vettius takes the rear of a foe already engaged by others: vulnerable to him, backstab (RR Thief: +4, +2 dice at 8th; S17 routine)
-                bs=who=="vettius" and len(struck_by.get(tg[0],[]))>=2 and os.environ.get("NOBACKSTAB")!="1"
-                o=run("attack",who,tg[0],*(["--ambush","--extra-dice","backstab:2d6"] if bs else [])); struck_by.setdefault(tg[0],[]).append(who); f=fell(); out.append(("BACKSTAB " if bs else "")+o[:200]+(f" -> destroyed" if f else ""))
+                # backstab is the engine's (7.15.0): automatic on a vulnerable target or one engaged by two allies (rear)
+                o=run("attack",who,tg[0]); f=fell(); out.append(o[:240]+(f" -> destroyed" if f else ""))
     else:
         if who in struck and not any(x.get("name") in ("frightened","cowering") for x in c.get("conditions",[])):
             al=[p for p in fighters if cs()[p]["hp"]>0]
