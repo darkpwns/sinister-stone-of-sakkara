@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 32
+session: 33
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A103 paid out)
@@ -11,7 +11,7 @@ public:
     year: ''
     season: summer
     day: 510
-  time: 05:50
+  time: '23:30'
   weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; drizzle; wind gentle (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -88,7 +88,9 @@ public:
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used: []
+    spells_used:
+    - Slumber
+    - Slumber
     encumbrance_st: 6.182
   - name: Cotta
     sheet: Characters/cotta.json

@@ -166,7 +166,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - **Day 362: Arëtar's month-12 task done** (the Thelesa haunt: Lady Lipsus' petition): the witch slain fleeing, the grey walker destroyed, her altar broken, her prayer book and symbol given to him; gift 750gp (A61). Still Friendly. Iulia's month-13 report due by day 390.
 - **The Order (day 368):** Vestus' contract Hrad the Blood Axe done night of 369 (commission 2,000gp paid day 371, A66); Iulia's contract Balkar done night of 370 (1,500gp due day 373). Liber's note for Vasan reported day 372 (Destrio's answer day 373). [[Order Contracts (S18)]].
-- **The Order:** Brennus' contract H18: [[Cnaeus Lento]] (Fighter 3, a sellsword; due by day 540; commission 1,500gp; build him before the deed); next roll day 515.
+- **The Order:** Brennus' contract on [[Cnaeus Lento]] done night of day 510 (A115); commission 1,500gp due day 511; next roll day 515.
 
 ## Former characters (day 161)
 - Varro (Fighter 6, Lucilla's henchman since S09) and Marcellus (Fighter 6, Lucilla's): resigned day 484 after the ants (calamity loyalty 5 each); abed at their own charge in Cyfaraun; actors in Characters/former.
@@ -182,6 +182,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Night of day 510: Brennus' contract done** (A115): [[Cnaeus Lento]] found by the Family's ears the same day (lodges at the Jutland hostel by the Bridge Gate; drinks late at The Split Amphora, walks home by the river stair). Ambushed on the stair at 23:20 (surprised; Vettius hidden): Brennus' axe hit; he withdrew shouting; Phaedra's second Slumber took him (the first was resisted); Brennus' coup de grace. Nobody came (6); body to the river, not found (6). Commission 1,500gp by Oppius on day 511.
 - **Days 485-487, the Citadel:** **Iulia's hand restored** by Patriarch Arëtar's Repair Disfigurement and Disability (day 485; Tampering 22, no side effect; 185gp; her bed rest reset to a week, to day 492). Lucilla's Rumormongering (month 17): two rumours (Valerian's cairn; the Thrassian king). Rest days: Brennus 13/31, Iulia 5/40 abed. **Day 487 Order roll: no assignments** (3, 2, 1, 1, 2). Next: weekly block day 491; Phaedra's wage day 490; Order roll day 494.
 - **Day 498:** Neris' and Iulia's cures: the company whole again.
 - **Day 509:** Oppius brought Brennus' contract ([[Cnaeus Lento]], Fighter 3; due by day 540; 1,500gp). **Iulia's report to Arëtar** (her day at the Citadel, month 17; Rulings S14).
