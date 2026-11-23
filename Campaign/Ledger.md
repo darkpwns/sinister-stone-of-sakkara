@@ -3730,3 +3730,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 472 |  | treasure share |  |  |  |  |
 | 472 |  | treasure share |  |  |  |  |
 | 472 |  | treasure share |  |  |  |  |
+| 473 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 473 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 473 | the kin of the Family member's victim | blood-price: the Family's own answer to an Order petition on a member (Rulings S25, S28) |  |  | 1,500gp | vettius |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 623gp 2sp 2cp |  | lucilla |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 623gp 2sp 2cp |  | vettius |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 623gp 2sp 2cp |  | vestus-the-unlikely |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 623gp 2sp 2cp |  | neris |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 623gp 2sp 2cp |  | brennus |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 623gp 2sp 2cp |  | iulia |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | phaedra |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | varro |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | hrodvar |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | aelia |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | marcellus |
+| 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | cotta |

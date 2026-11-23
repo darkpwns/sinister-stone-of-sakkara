@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 472
-  time: '14:43'
+    day: 473
+  time: 05:43
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -27,26 +27,24 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.439
+    encumbrance_st: 10.066
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 21
-    hp_max: 21
+    hp: 20
+    hp_max: 20
     conditions:
     - 'enervated (a specter''s touch, day 467): a Death save each day on waking; a failure lowers max hp by 1 permanently (0: dead); three straight passes cure (MM Specter)'
     spells_used: []
-    encumbrance_st: 10.294
+    encumbrance_st: 10.921
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fireball
-    - Fireball
-    encumbrance_st: 4.84
+    spells_used: []
+    encumbrance_st: 5.467
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -55,9 +53,8 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Holy Blessing
-    encumbrance_st: 4.714
+    spells_used: []
+    encumbrance_st: 5.341
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -67,7 +64,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.415
+    encumbrance_st: 11.042
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -77,7 +74,7 @@ public:
     - minor scarring (puncture wound)
     - 'wears a Ring of Life Protection (L518, identified day 465): any enervation of the wearer is cancelled, 3 times a day, not more than once an hour, uses back each dawn; any further enervation prevented carries 1-in-3 that the ring is destroyed (TT p. 82)'
     spells_used: []
-    encumbrance_st: 10.172
+    encumbrance_st: 10.799
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -86,7 +83,7 @@ public:
     conditions:
     - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
     spells_used: []
-    encumbrance_st: 10.32
+    encumbrance_st: 10.645
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -94,7 +91,7 @@ public:
     hp_max: 25
     conditions: []
     spells_used: []
-    encumbrance_st: 10.536
+    encumbrance_st: 10.861
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -104,7 +101,7 @@ public:
     - 'wears the Cloak of the Elven Ranger (L528, identified day 465): hides in cover, dim light or darkness as a combat action on a Hiding throw of 12+ (not proficient; +8 if ever proficient) (TT p. 151, chameleon)'
     - 'wears the Boots of the Elven Ranger (L529, identified day 465): moves totally silently on a Sneaking throw of 12+ (not proficient; +8 if ever proficient) (TT p. 140, silent step)'
     spells_used: []
-    encumbrance_st: 8.456
+    encumbrance_st: 8.781
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
@@ -112,16 +109,15 @@ public:
     hp_max: 40
     conditions: []
     spells_used: []
-    encumbrance_st: 11.466
+    encumbrance_st: 11.791
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 7.14
+    spells_used: []
+    encumbrance_st: 7.465
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -129,7 +125,7 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 6.863
+    encumbrance_st: 7.188
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (Marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (Marcellus) out; torch (Lucilla) out; torch (Aelia)
     out; torch (Lucilla) out; torch (Varro) out; torch (Marcellus) out; torch (Varro) out; torch (Marcellus) out; torch (Varro) out
   rations: 'Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0.2 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Cotta: food 0 d, water 0 d; Lucilla: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
@@ -163,7 +159,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 472
+clock_day: 473
 ---
 # Campaign State
 
