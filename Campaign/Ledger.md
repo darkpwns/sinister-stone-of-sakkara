@@ -4289,3 +4289,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 517 |  | treasure share |  | 406gp 6sp 7cp |  | phaedra |
 | 517 |  | treasure share |  | 406gp 6sp 7cp |  | aelia |
 | 517 |  | treasure share |  | 406gp 6sp 7cp |  | cotta |
+| 518 | a caster in Cyfaraun | spellcasting: Restore Life and Limb |  |  | 900gp | lucilla |

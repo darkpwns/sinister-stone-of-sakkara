@@ -99396,6 +99396,101 @@
    ],
    "cmd": "payout --apply",
    "n": 4994
+  },
+  {
+   "op": "give",
+   "cause": "lucilla withdraws for a second casting of Restore Life and Limb for Iulia (day 518)",
+   "day": 518,
+   "time": "day 518 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -900
+    },
+    {
+     "who": "lucilla",
+     "gp": 900
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4995
+  },
+  {
+   "op": "pay",
+   "cause": "spellcasting: Restore Life and Limb",
+   "day": 518,
+   "time": "day 518 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -900
+    }
+   ],
+   "to": "a caster in Cyfaraun",
+   "price_cp": 90000,
+   "cmd": "inv pay",
+   "n": 4996
+  },
+  {
+   "op": "remove",
+   "cause": "the Underwatch spear (L233) returned to the Citadel at Iulia's death (Rulings S14)",
+   "day": 518,
+   "time": "day 518 06:14",
+   "deltas": [
+    {
+     "who": "body:iulia",
+     "item": "#w60",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "given away",
+   "cmd": "inv remove",
+   "n": 4997
+  },
+  {
+   "op": "remove",
+   "cause": "the Underwatch shield (L232) returned to the Citadel at Iulia's death (Rulings S14)",
+   "day": 518,
+   "time": "day 518 06:14",
+   "deltas": [
+    {
+     "who": "body:iulia",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "given away",
+   "cmd": "inv remove",
+   "n": 4998
+  },
+  {
+   "op": "give",
+   "cause": "Iulia's scroll against poison kept for the company's use (the table's agreement, day 518)",
+   "day": 518,
+   "time": "day 518 06:14",
+   "deltas": [
+    {
+     "who": "body:iulia",
+     "item": "scroll of neutralize poison x2 and cure light injury (divine, auran)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "neris",
+     "item": "scroll of neutralize poison x2 and cure light injury (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 4999
   }
  ],
  "holdings": {
@@ -99664,7 +99759,8 @@
     "scroll of neutralize poison (divine, auran)": 1,
     "scroll of delay poison (divine, auran)": 1,
     "scroll of cure major injury (divine, auran)": 1,
-    "scroll of holy blessing (divine, auran)": 1
+    "scroll of holy blessing (divine, auran)": 1,
+    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1
    },
    "right_hand": {
     "holy symbol": 1
@@ -100158,10 +100254,7 @@
     "holy book": 1,
     "waterskin": 10,
     "banded plate armor": 1,
-    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
-    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1,
-    "#w60": 1,
-    "shield": 1
+    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    }
   }
  },
@@ -100294,7 +100387,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 751138,
+   "gp": 750238,
    "cp": 2
   },
   "calpurnia": {

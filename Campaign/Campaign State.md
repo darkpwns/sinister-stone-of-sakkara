@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 517
-  time: '13:14'
+    day: 518
+  time: 06:14
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; partly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -42,10 +42,7 @@ public:
     hp: 2
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fireball
-    - Fireball
-    - Mage Missile
+    spells_used: []
     encumbrance_st: 5.533
   - name: Neris
     sheet: Characters/neris.json
@@ -55,15 +52,8 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Delay Poison
-    - Holy Circle, Sustained
-    - Holy Blessing
-    - Smite Undead
-    - Noiselessness
-    - Cure Light Injury
-    - Cure Disease
-    encumbrance_st: 6.067
+    spells_used: []
+    encumbrance_st: 6.234
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -74,19 +64,6 @@ public:
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
     encumbrance_st: 12.941
-  - name: Iulia
-    sheet: Characters/iulia.json
-    role: pc
-    hp: 0
-    hp_max: 40
-    conditions:
-    - minor scarring (puncture wound)
-    spells_used:
-    - Delay Poison
-    - Delay Poison
-    - Delay Poison
-    - Striking
-    encumbrance_st: 0
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -102,15 +79,11 @@ public:
     hp_max: 20
     conditions:
     - 'critically wounded (Mortal Wounds, day 517): one foot lost to frostbite (peg required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes); 1 week of bed rest'
-    spells_used:
-    - Thunderbolt
-    - Thunderbolt
-    - Illusory Duplicates
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.437
   - name: Cotta
     sheet: Characters/cotta.json
-    role: henchman
+    role: pc
     hp: 18
     hp_max: 18
     conditions: []
@@ -150,7 +123,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 517
+clock_day: 518
 ---
 # Campaign State
 
