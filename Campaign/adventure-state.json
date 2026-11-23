@@ -1,15 +1,15 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 94,
-  "L": 588,
+  "A": 95,
+  "L": 590,
   "H": 44,
-  "M": 182
+  "M": 183
  },
  "adventure": {
-  "id": "A94",
-  "name": "The Order's contract: Galla Ursina (night of 445)",
-  "start_day": 446,
+  "id": "A95",
+  "name": "The Order's contract: Marcus Vedius (night of 446-447)",
+  "start_day": 448,
   "participants": {
    "neris": {
     "id": "neris",
@@ -19,25 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 89346,
+    "xp_before": 89940,
     "level_before": 7,
-    "class": "Priestess"
-   },
-   "brennus": {
-    "id": "brennus",
-    "name": "Brennus",
-    "actor": "brennus",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": false,
-    "retinue_id": null,
-    "xp_before": 95337,
-    "level_before": 7,
-    "class": "Fighter"
+    "class": "Priestess",
+    "returned_day": 448,
+    "xp_award": 1040
    },
    "vettius": {
     "id": "vettius",
@@ -47,41 +35,64 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 103401,
+    "xp_before": 104025,
     "level_before": 8,
-    "class": "Thief"
-   },
-   "phaedra": {
-    "id": "phaedra",
-    "name": "Phaedra",
-    "actor": "phaedra",
-    "kind": "henchman",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": false,
-    "retinue_id": null,
-    "xp_before": 37799,
-    "level_before": 5,
-    "class": "Mage"
+    "class": "Thief",
+    "returned_day": 448,
+    "xp_award": 1092
    }
   },
   "monsters": [
    {
-    "id": "M182",
-    "monster": "Galla Ursina",
-    "source": "Galla Ursina",
+    "id": "M183",
+    "monster": "Marcus Vedius",
+    "source": "Marcus Vedius",
     "number": 1,
     "how": "killed",
     "xp_each": 80
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 448,
+   "at": "Cyfaraun",
+   "total": 2080.0,
+   "per_share": 1040.0,
+   "awards": {
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 1040,
+     "pct": 0,
+     "pen": 0,
+     "award": 1040,
+     "xp_before": 89940,
+     "xp_after": 90980,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 1040,
+     "pct": 5,
+     "pen": 0,
+     "award": 1092,
+     "xp_before": 104025,
+     "xp_after": 105117,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 448,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -30555,6 +30566,150 @@
     "day": 446,
     "where": "Cyfaraun"
    }
+  },
+  {
+   "id": "A94",
+   "name": "The Order's contract: Galla Ursina (night of 445)",
+   "start_day": 446,
+   "participants": {
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 89346,
+     "level_before": 7,
+     "class": "Priestess",
+     "returned_day": 448,
+     "xp_award": 594
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 95337,
+     "level_before": 7,
+     "class": "Fighter",
+     "returned_day": 448,
+     "xp_award": 624
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 103401,
+     "level_before": 8,
+     "class": "Thief",
+     "returned_day": 448,
+     "xp_award": 624
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 37799,
+     "level_before": 5,
+     "class": "Mage",
+     "returned_day": 448,
+     "xp_award": 297
+    }
+   },
+   "monsters": [
+    {
+     "id": "M182",
+     "monster": "Galla Ursina",
+     "source": "Galla Ursina",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 80
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 448,
+    "at": "Cyfaraun",
+    "total": 2080.0,
+    "per_share": 594.2857142857143,
+    "awards": {
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 594,
+      "pct": 0,
+      "pen": 0,
+      "award": 594,
+      "xp_before": 89346,
+      "xp_after": 89940,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 594,
+      "pct": 5,
+      "pen": 0,
+      "award": 624,
+      "xp_before": 95337,
+      "xp_after": 95961,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 594,
+      "pct": 5,
+      "pen": 0,
+      "award": 624,
+      "xp_before": 103401,
+      "xp_after": 104025,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 297,
+      "pct": 0,
+      "pen": 0,
+      "award": 297,
+      "xp_before": 37799,
+      "xp_after": 38096,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 448,
+    "where": "Cyfaraun"
+   }
   }
  ],
  "lots": {
@@ -55798,6 +55953,72 @@
    "sold": null,
    "judge": [],
    "divided_day": 446
+  },
+  "L589": {
+   "id": "L589",
+   "adventure": "A94",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "neris",
+   "status": "divided",
+   "found": {
+    "day": 448,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0,
+    "name": "reward 2000.0gp"
+   },
+   "player": {
+    "desc": "reward of 2000.0gp",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 448
+  },
+  "L590": {
+   "id": "L590",
+   "adventure": "A95",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "neris",
+   "status": "divided",
+   "found": {
+    "day": 448,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0,
+    "name": "reward 2000.0gp"
+   },
+   "player": {
+    "desc": "reward of 2000.0gp",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 448
   }
  },
  "hoards": {

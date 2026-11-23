@@ -426,6 +426,8 @@ tags:
 | 440 | Descent 57 (S3, the priestess's tomb) | a large bronze scroll jar | 25 | vettius |
 | 440 | Descent 57 (S3, the priestess's tomb) | four illuminated religious texts in Ancient Argollean | 2,700 | vettius |
 | 446 | The Order's contract: Sextus Calvo (night of 444) | reward 2000.0gp | 2,000 | lucilla |
+| 448 | The Order's contract: Galla Ursina (night of 445) | reward 2000.0gp | 2,000 | neris |
+| 448 | The Order's contract: Marcus Vedius (night of 446-447) | reward 2000.0gp | 2,000 | neris |
 
 ## Monster XP
 
@@ -549,6 +551,8 @@ tags:
 | 441 | Descent 58 (I13, the shaman) | Insect Swarm | 1 | 29 | 29 |
 | 441 | Descent 58 (I13, the shaman) | Sage Slime | 1 | 56 | 56 |
 | 446 | The Order's contract: Sextus Calvo (night of 444) | Sextus Calvo | 1 | 80 | 80 |
+| 448 | The Order's contract: Galla Ursina (night of 445) | Galla Ursina | 1 | 80 | 80 |
+| 448 | The Order's contract: Marcus Vedius (night of 446-447) | Marcus Vedius | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -1166,6 +1170,12 @@ tags:
 | 446 | The Order's contract: Sextus Calvo (night of 444) | Vettius | 1 | 571 | 23 | 0 | +5% | 624 |
 | 446 | The Order's contract: Sextus Calvo (night of 444) | Neris | 1 | 571 | 23 | 0 | +0% | 594 |
 | 446 | The Order's contract: Sextus Calvo (night of 444) | Phaedra | 0.5 | 286 | 11 | 0 | +0% | 297 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen)
+| 448 | The Order's contract: Galla Ursina (night of 445) | Neris | 1 | 571 | 23 | 0 | +0% | 594 |
+| 448 | The Order's contract: Galla Ursina (night of 445) | Brennus | 1 | 571 | 23 | 0 | +5% | 624 |
+| 448 | The Order's contract: Galla Ursina (night of 445) | Vettius | 1 | 571 | 23 | 0 | +5% | 624 |
+| 448 | The Order's contract: Galla Ursina (night of 445) | Phaedra | 0.5 | 286 | 11 | 0 | +0% | 297 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen)
+| 448 | The Order's contract: Marcus Vedius (night of 446-447) | Neris | 1 | 1,000 | 40 | 0 | +0% | 1,040 |
+| 448 | The Order's contract: Marcus Vedius (night of 446-447) | Vettius | 1 | 1,000 | 40 | 0 | +5% | 1,092 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 14 Key Attribute; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3369,3 +3379,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 446 |  | treasure share |  | 571gp 4sp 3cp |  | vettius |
 | 446 |  | treasure share |  | 571gp 4sp 3cp |  | neris |
 | 446 |  | treasure share |  | 285gp 7sp 1cp |  | phaedra |
+| 448 |  | treasure share |  | 571gp 4sp 3cp |  | neris |
+| 448 |  | treasure share |  | 571gp 4sp 3cp |  | brennus |
+| 448 |  | treasure share |  | 571gp 4sp 3cp |  | vettius |
+| 448 |  | treasure share |  | 285gp 7sp 1cp |  | phaedra |
+| 448 |  | treasure share |  | 1,000gp |  | neris |
+| 448 |  | treasure share |  | 1,000gp |  | vettius |

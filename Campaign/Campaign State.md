@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 446
-  time: '10:47'
+    day: 449
+  time: '18:47'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -35,7 +35,7 @@ public:
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 10.632
+    encumbrance_st: 12.21
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -51,10 +51,9 @@ public:
     hp_max: 20
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used:
-    - Halt Humanoids
-    - Halt Humanoids
-    encumbrance_st: 5.219
+    - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
+    spells_used: []
+    encumbrance_st: 6.797
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -64,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.349
+    encumbrance_st: 10.927
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -113,9 +112,8 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Slumber
-    encumbrance_st: 7.345
+    spells_used: []
+    encumbrance_st: 7.638
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -157,7 +155,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 446
+clock_day: 449
 ---
 # Campaign State
 
