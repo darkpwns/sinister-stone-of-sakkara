@@ -78,7 +78,8 @@ public:
     hp: 20
     hp_max: 20
     conditions:
-    - 'critically wounded (Mortal Wounds, day 517): one foot lost to frostbite (peg required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes); 1 week of bed rest'
+    - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
+    - 'bed rest after Repair Disfigurement and Disability (Tampering 12): 2 weeks, to day 554'
     spells_used: []
     encumbrance_st: 7.041
   - name: Cotta
@@ -96,7 +97,7 @@ public:
     hp_max: 19
     conditions:
     - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
-    - 'intestines mangled and ruined (Mortal Wounds, day 499): must rest 2 turns in 6; CON reduced by 1/3; -4 to saves vs poison; chronic indigestion'
+    - 'Your brush with death has shattered your former confidence: 10% penalty on earned XP until your next level (Tampering with Mortality, Repair day 540)'
     spells_used: []
     encumbrance_st: 10.689
   - name: Tiberius Maro
@@ -107,21 +108,21 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 10.16
-  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
+  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (phaedra) out; torch (phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out
-  rations: 'Vettius: food 0 d, water 1.6 d; Vestus the Unlikely: food 0 d, water 2.8 d; Lucilla: food 0 d, water 2 d; Cotta: food 0 d, water 2.8 d; Brennus: food 0 d, water 1 d; Neris: food 0 d, water 2.2 d; Aelia: food 0 d, water 2 d; Phaedra: food 0 d, water 2 d; Hrodvar: food 6 d, water 1 d; Tiberius Maro: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 0 d, water 1.6 d; Vestus the Unlikely: food 0 d, water 2.8 d; Lucilla: food 0 d, water 2 d; Cotta: food 0 d, water 2.8 d; Brennus: food 0 d, water 1 d; Neris: food 0 d, water 2.2 d; Aelia: food 0 d, water 2 d; Hrodvar: food 6 d, water 1 d; Tiberius Maro: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - "Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink"
-  - "Tiberius Maro, Vettius' crusader, is Captain of the Underwatch (day 528): spear, shield and the Rod of the Dawn; the company lodges at the Citadel again"
-  - "A wine-factor, Gaius Sertorius Macro, asked the Brotherhood for the Captain's death (day 534); Destrio entered his name in the Codex"
-  - "The Family's traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head"
-  - "Below: N and O are empty; the sealed cases (F17: the egg-bulbs wake the Great Teacher); J8's throne; L4's platform; the serpent door and the bronze door off the lizard-men's tunnel"
-  - "The troglodyte shaman will guide us to the magic rock in the cavern of the ants"
-  - "The Order: the month-18 contracts are done (Corvo, Ruga, Ammia Thrax, Faustus Cerco)"
-  - "The dark crystal from the golden-skull shrine is at the Tower for identification (ready day 547)"
-  - "The Watch: an officer came about the herb-wife found in the Eastgate meadows (day 533) and left unsatisfied"
-  - "The black barge at Tertulla's landing, paid to day 545"
+  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
+  - 'Tiberius Maro, Vettius'' crusader, is Captain of the Underwatch (day 528): spear, shield and the Rod of the Dawn; the company lodges at the Citadel again'
+  - A wine-factor, Gaius Sertorius Macro, asked the Brotherhood for the Captain's death (day 534); Destrio entered his name in the Codex
+  - 'The Family''s traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head'
+  - 'Below: N and O are empty; the sealed cases (F17: the egg-bulbs wake the Great Teacher); J8''s throne; L4''s platform; the serpent door and the bronze door off the lizard-men''s tunnel'
+  - The troglodyte shaman will guide us to the magic rock in the cavern of the ants
+  - 'The Order: the month-18 contracts are done (Corvo, Ruga, Ammia Thrax, Faustus Cerco)'
+  - The dark crystal from the golden-skull shrine is at the Tower for identification (ready day 547)
+  - 'The Watch: an officer came about the herb-wife found in the Eastgate meadows (day 533) and left unsatisfied'
+  - The black barge at Tertulla's landing, paid to day 545
   trail:
   - '27.17'
   - '28.16'

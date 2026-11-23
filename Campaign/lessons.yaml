@@ -252,3 +252,12 @@ lessons:
   since: S34
   text: "a bash loop around a fight driver must break on the driver's non-zero exit (3 a fallen member, 4 a choice left to the Judge): `python3 driver.py … || break`; never let the loop start the next round"
   source: "judge-notes day 517 (S34: the insect plague placed two rounds late)"
+
+- id: lasting-wounds-in-town
+  category: town-procedure
+  status: remind
+  since: S35
+  on: ["wait"]
+  where: ["party.conditions ~ Mortal Wounds[^\\]]*(lost|ruined|mangled|crippled|destroyed|blind|deaf|shattered|reduced)", "location.site ~ Cyfaraun"]
+  text: "a party member carries a disabling lasting wound (Mortal Wounds) while in Cyfaraun: offer Repair Disfigurement and Disability (Arëtar, 185gp, Rulings S12) or record why not; a henchman with his own coin seeks it himself (Judge plays his wishes)"
+  source: "S35 slip: Hrodvar's (day 499) and Phaedra's (day 517) wounds left untreated until the user asked, day 540"

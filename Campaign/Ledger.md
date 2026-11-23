@@ -4436,3 +4436,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 540 | the syndicate (the Family and Sand & Bones) and the Pony's honest trade | month 18 take: syndicate 17,747 + the Pony's half 1,624 (AX3 p. 75; Rulings S19, S22, S25) |  | 19,371gp |  | vettius |
 | 540 | the Tower | month 18 dues (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
 | 540 |  | treasure share |  | 500gp |  | vettius |
+| 540 | the Solar Citadel | Repair Disfigurement and Disability by Patriarch Arëtar (Rulings S12), day 540 |  |  | 185gp | hrodvar |
+| 540 | the Solar Citadel | Repair Disfigurement and Disability by Patriarch Arëtar (Rulings S12), day 540 |  |  | 185gp | phaedra |
