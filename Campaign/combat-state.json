@@ -1,13 +1,7 @@
 {
  "schema": "acks-combat/3",
- "round": 12,
- "order": [
-  "brennus",
-  "lucilla",
-  "vettius",
-  "vestus-the-unlikely",
-  "neris"
- ],
+ "round": 0,
+ "order": [],
  "count_index": null,
  "options": {
   "group_initiative": false,
@@ -16,464 +10,6 @@
   ]
  },
  "combatants": {
-  "brennus": {
-   "id": "brennus",
-   "side": "party",
-   "status": "active",
-   "conditions": [
-    {
-     "name": "mummy rot",
-     "source": "orthanach",
-     "rounds_left": null,
-     "since_round": 7,
-     "note": "1 extraordinary necrotic each dusk; no magical healing; cure disease cures (MM Mummy)"
-    }
-   ],
-   "group": "brennus",
-   "perceived": "brennus",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    7,
-    11,
-    11,
-    12,
-    12
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 7,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "pc",
-   "name": "Brennus",
-   "stats": {
-    "name": "Brennus",
-    "actor": "brennus",
-    "kind": "pc",
-    "level": 8,
-    "class": "Fighter",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "INT": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      3,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 6
-      }
-     ],
-     "CON": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CHA": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ]
-    },
-    "attack_throw": [
-     4,
-     {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "fighter-attack-and-saving-throws",
-       "title": "Fighter Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Fighter.md",
-       "block": "^tbl-fighter-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 25",
-       "row": 5
-      }
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 8,
-      "death": 9,
-      "blast": 10,
-      "implements": 11,
-      "spells": 12
-     },
-     {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 5
-     }
-    ],
-    "hit_die": [
-     "1d8",
-     {
-      "rule": "class.fighter.hit_die",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "progression": "fighter",
-    "cleaves": [
-     8,
-     {
-      "rule": "class.fighter.cleave",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "ac_options": {
-     "shield": 11,
-     "no_shield": 11,
-     "dex_only": 3
-    },
-    "hp_max": 35,
-    "movement_running": 30,
-    "weapons": [
-     {
-      "name": "Great Axe +1",
-      "init_bonus": "",
-      "attack_throw": 2,
-      "damage": "1d10+5",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "right hand, two-handed"
-     },
-     {
-      "name": "Spear +1",
-      "init_bonus": "",
-      "attack_throw": 2,
-      "damage": "1d6/1d8+5",
-      "range": {
-       "short": 30,
-       "medium": 60,
-       "long": 120
-      },
-      "held": "backpack"
-     },
-     {
-      "name": "Hand Axe",
-      "init_bonus": "",
-      "attack_throw": 3,
-      "damage": "1d6+4",
-      "range": {
-       "short": 15,
-       "medium": 30,
-       "long": 45
-      },
-      "held": "sack"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": null,
-    "proficiencies": [
-     "Berserkergang",
-     "Fighting Style Specialization (two-handed weapon)",
-     "Weapon Focus (axes)",
-     "Adventuring",
-     "Endurance",
-     "Healing",
-     "Intimidation"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "berserkergang": "",
-     "fighting style specialization (two-handed weapon)": "",
-     "weapon focus (axes)": "",
-     "adventuring": "",
-     "endurance": "",
-     "healing": "",
-     "intimidation": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "brennus",
-   "hp_max": 35,
-   "hp": 14,
-   "hp_start": 28,
-   "attacked_round": 10,
-   "aura_counts": {
-    "horrific visage": 0
-   }
-  },
-  "iulia": {
-   "id": "iulia",
-   "side": "party",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "iulia",
-   "perceived": "iulia",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": {
-    "round": 2,
-    "types": [],
-    "natural": false,
-    "by": null,
-    "tier": null,
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "pc",
-   "name": "Iulia",
-   "stats": {
-    "name": "Iulia",
-    "actor": "iulia",
-    "kind": "pc",
-    "level": 8,
-    "class": "Crusader",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "INT": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ],
-     "WIL": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "DEX": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CON": [
-      2,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 5
-      }
-     ],
-     "CHA": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ]
-    },
-    "attack_throw": [
-     6,
-     {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "crusader-attack-and-saving-throws",
-       "title": "Crusader Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Crusader.md",
-       "block": "^tbl-crusader-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 37",
-       "row": 3
-      }
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 10,
-      "death": 7,
-      "blast": 13,
-      "implements": 10,
-      "spells": 12
-     },
-     {
-      "table": "crusader-attack-and-saving-throws",
-      "title": "Crusader Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Crusader.md",
-      "block": "^tbl-crusader-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 37",
-      "row": 3
-     }
-    ],
-    "hit_die": [
-     "1d6",
-     {
-      "rule": "class.crusader.hit_die",
-      "note": "ACKS II Rules/03 Classes/Crusader.md",
-      "book": "RR",
-      "page": "p. 36"
-     }
-    ],
-    "progression": "crusader/thief",
-    "cleaves": [
-     4,
-     {
-      "rule": "class.crusader.cleave",
-      "note": "ACKS II Rules/03 Classes/Crusader.md",
-      "book": "RR",
-      "page": "p. 36"
-     }
-    ],
-    "ac_options": {
-     "shield": 10,
-     "no_shield": 7,
-     "dex_only": 1
-    },
-    "hp_max": 40,
-    "movement_running": 30,
-    "weapons": [
-     {
-      "name": "Spear +2",
-      "init_bonus": "",
-      "attack_throw": 3,
-      "damage": "1d6+3",
-      "range": {
-       "short": 30,
-       "medium": 60,
-       "long": 120
-      },
-      "held": "right hand"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": null,
-    "proficiencies": [
-     "Divine Blessing",
-     "Fighting Style Specialization (weapon and shield)",
-     "Righteous Rebuke",
-     "Adventuring",
-     "Theology 2",
-     "Leadership"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "divine blessing": "",
-     "fighting style specialization (weapon and shield)": "",
-     "righteous rebuke": "",
-     "adventuring": "",
-     "theology 2": "",
-     "leadership": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "iulia",
-   "hp_max": 40,
-   "hp": 0,
-   "hp_start": 39,
-   "aura_counts": {
-    "horrific visage": 0
-   }
-  },
   "lucilla": {
    "id": "lucilla",
    "side": "party",
@@ -484,18 +20,11 @@
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [
-    2,
-    5,
-    11,
-    11,
-    12,
-    12
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -582,19 +111,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "venturer-attack-and-saving-throws",
-       "title": "Venturer (Thief) Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Venturer.md",
-       "block": "^tbl-venturer-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 41",
-       "row": 3
-      }
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 3
      }
     ],
     "saves": [
@@ -635,8 +160,8 @@
      }
     ],
     "ac_options": {
-     "shield": 7,
-     "no_shield": 7,
+     "shield": 6,
+     "no_shield": 6,
      "dex_only": 1
     },
     "hp_max": 42,
@@ -645,7 +170,7 @@
      {
       "name": "Mace +1",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 6,
       "damage": "1d6+1",
       "range": {
        "short": 0,
@@ -657,7 +182,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 7,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -694,11 +219,8 @@
    },
    "actor": "lucilla",
    "hp_max": 42,
-   "hp": 10,
-   "hp_start": 38,
-   "aura_counts": {
-    "horrific visage": 4
-   }
+   "hp": 42,
+   "hp_start": 42
   },
   "vettius": {
    "id": "vettius",
@@ -708,16 +230,11 @@
    "group": "vettius",
    "perceived": "vettius",
    "judge_set": {},
-   "hp_lost_rounds": [
-    11,
-    11,
-    12,
-    12
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -804,19 +321,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "thief-attack-and-saving-throws",
-       "title": "Thief Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Thief.md",
-       "block": "^tbl-thief-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 31",
-       "row": 3
-      }
+      "table": "thief-attack-and-saving-throws",
+      "title": "Thief Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "block": "^tbl-thief-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 31",
+      "row": 3
      }
     ],
     "saves": [
@@ -880,8 +393,8 @@
      ]
     },
     "ac_options": {
-     "shield": 5,
-     "no_shield": 5,
+     "shield": 4,
+     "no_shield": 4,
      "dex_only": 1
     },
     "hp_max": 22,
@@ -890,7 +403,7 @@
      {
       "name": "Short Sword +2",
       "init_bonus": "",
-      "attack_throw": 3,
+      "attack_throw": 4,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -902,7 +415,7 @@
      {
       "name": "Sword +2",
       "init_bonus": "",
-      "attack_throw": 3,
+      "attack_throw": 4,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -914,7 +427,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 5,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -951,12 +464,200 @@
    },
    "actor": "vettius",
    "hp_max": 22,
-   "hp": 16,
-   "hp_start": 22,
-   "aura_counts": {
-    "horrific visage": 0
+   "hp": 22,
+   "hp_start": 22
+  },
+  "vestus-the-unlikely": {
+   "id": "vestus-the-unlikely",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "vestus-the-unlikely",
+   "perceived": "vestus-the-unlikely",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": null,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Vestus the Unlikely",
+   "stats": {
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "level": 7,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     8,
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 11,
+      "death": 11,
+      "blast": 13,
+      "implements": 9,
+      "spells": 10
+     },
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "ac_options": {
+     "shield": 1,
+     "no_shield": 1,
+     "dex_only": 1
+    },
+    "hp_max": 18,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Loremastery",
+     "Magical Engineering",
+     "Mapping",
+     "Language (Ancient Argollëan)",
+     "Swimming"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "loremastery": "",
+     "magical engineering": "",
+     "mapping": "",
+     "language (ancient argollëan)": "",
+     "swimming": ""
+    },
+    "ac_mode": "shield"
    },
-   "attacked_round": 11
+   "actor": "vestus-the-unlikely",
+   "hp_max": 18,
+   "hp": 18,
+   "hp_start": 18
   },
   "neris": {
    "id": "neris",
@@ -966,15 +667,11 @@
    "group": "neris",
    "perceived": "neris",
    "judge_set": {},
-   "hp_lost_rounds": [
-    5
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {
-    "spell": true
-   },
-   "init": 2,
+   "declared": {},
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1061,19 +758,15 @@
      ]
     },
     "attack_throw": [
-     7,
+     8,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "priestess-attack-throws",
-       "title": "Priestess (Mage) Attack Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-attack-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 2
-      }
+      "table": "priestess-attack-throws",
+      "title": "Priestess (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-attack-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 2
      }
     ],
     "saves": [
@@ -1181,8 +874,8 @@
      }
     },
     "ac_options": {
-     "shield": 3,
-     "no_shield": 3,
+     "shield": 2,
+     "no_shield": 2,
      "dex_only": 1
     },
     "hp_max": 20,
@@ -1191,7 +884,7 @@
      {
       "name": "Staff",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 10,
       "damage": "1d4/1d6-2",
       "range": {
        "short": 0,
@@ -1220,42 +913,36 @@
    },
    "actor": "neris",
    "hp_max": 20,
-   "hp": 6,
-   "hp_start": 20,
-   "aura_counts": {
-    "horrific visage": 0
-   }
+   "hp": 20,
+   "hp_start": 20
   },
-  "vestus-the-unlikely": {
-   "id": "vestus-the-unlikely",
+  "brennus": {
+   "id": "brennus",
    "side": "party",
    "status": "active",
    "conditions": [],
-   "group": "vestus-the-unlikely",
-   "perceived": "vestus-the-unlikely",
+   "group": "brennus",
+   "perceived": "brennus",
    "judge_set": {},
-   "hp_lost_rounds": [
-    5,
-    11
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
-   "name": "Vestus the Unlikely",
+   "name": "Brennus",
    "stats": {
-    "name": "Vestus the Unlikely",
-    "actor": "vestus-the-unlikely",
+    "name": "Brennus",
+    "actor": "brennus",
     "kind": "pc",
-    "level": 7,
-    "class": "Mage",
+    "level": 8,
+    "class": "Fighter",
     "size": "man-sized",
     "mods": {
      "STR": [
-      -1,
+      1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1263,7 +950,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 2
+       "row": 4
       }
      ],
      "INT": [
@@ -1291,7 +978,7 @@
       }
      ],
      "DEX": [
-      1,
+      3,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1299,7 +986,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 6
       }
      ],
      "CON": [
@@ -1328,746 +1015,126 @@
      ]
     },
     "attack_throw": [
-     7,
+     5,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "mage-attack-and-saving-throws",
-       "title": "Mage Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Mage.md",
-       "block": "^tbl-mage-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 35",
-       "row": 2
-      }
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 5
      }
     ],
     "saves": [
      {
-      "paralysis": 11,
-      "death": 11,
-      "blast": 13,
-      "implements": 9,
-      "spells": 10
+      "paralysis": 8,
+      "death": 9,
+      "blast": 10,
+      "implements": 11,
+      "spells": 12
      },
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 35",
-      "row": 2
+      "page": "p. 25",
+      "row": 5
      }
     ],
     "hit_die": [
-     "1d4",
+     "1d8",
      {
-      "rule": "class.mage.hit_die",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "rule": "class.fighter.hit_die",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
       "book": "RR",
-      "page": "p. 34"
+      "page": "p. 24"
      }
     ],
-    "progression": "mage",
+    "progression": "fighter",
     "cleaves": [
-     0,
-     {
-      "rule": "class.mage.cleave",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "book": "RR",
-      "page": "p. 34"
-     }
-    ],
-    "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
-     "dex_only": 1
-    },
-    "hp_max": 18,
-    "movement_running": 120,
-    "weapons": [
-     {
-      "name": "Dagger",
-      "init_bonus": "",
-      "attack_throw": 8,
-      "damage": "1d4-1",
-      "range": {
-       "short": 15,
-       "medium": 30,
-       "long": 45
-      },
-      "held": "right hand"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": null,
-    "proficiencies": [
-     "Loremastery",
-     "Magical Engineering",
-     "Mapping",
-     "Language (Ancient Argollëan)",
-     "Swimming"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "loremastery": "",
-     "magical engineering": "",
-     "mapping": "",
-     "language (ancient argollëan)": "",
-     "swimming": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "vestus-the-unlikely",
-   "hp_max": 18,
-   "hp": 2,
-   "hp_start": 18,
-   "aura_counts": {
-    "horrific visage": 0
-   }
-  },
-  "phaedra": {
-   "id": "phaedra",
-   "side": "party",
-   "status": "unconscious",
-   "conditions": [],
-   "group": "phaedra",
-   "perceived": "phaedra",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    5,
-    11
-   ],
-   "felled": {
-    "round": 5,
-    "types": [
-     "cold"
-    ],
-    "natural": false,
-    "by": "orthanach",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 0,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "henchman",
-   "name": "Phaedra",
-   "stats": {
-    "name": "Phaedra",
-    "actor": "phaedra",
-    "kind": "henchman",
-    "level": 6,
-    "class": "Mage",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "INT": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ],
-     "CON": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CHA": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ]
-    },
-    "attack_throw": [
      8,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB517) -1",
-      "cause": "Neris' Holy Blessing, day 517 08:19, 6 turns",
-      "rules": {
-       "table": "mage-attack-and-saving-throws",
-       "title": "Mage Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Mage.md",
-       "block": "^tbl-mage-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 35",
-       "row": 1
-      }
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 12,
-      "death": 12,
-      "blast": 14,
-      "implements": 10,
-      "spells": 11
-     },
-     {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
+      "rule": "class.fighter.cleave",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
       "book": "RR",
-      "page": "p. 35",
-      "row": 1
-     }
-    ],
-    "hit_die": [
-     "1d4",
-     {
-      "rule": "class.mage.hit_die",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "book": "RR",
-      "page": "p. 34"
-     }
-    ],
-    "progression": "mage",
-    "cleaves": [
-     0,
-     {
-      "rule": "class.mage.cleave",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "book": "RR",
-      "page": "p. 34"
+      "page": "p. 24"
      }
     ],
     "ac_options": {
-     "shield": 0,
-     "no_shield": 0,
-     "dex_only": -1
+     "shield": 10,
+     "no_shield": 10,
+     "dex_only": 3
     },
-    "hp_max": 20,
-    "movement_running": 60,
+    "hp_max": 35,
+    "movement_running": 30,
     "weapons": [
      {
-      "name": "Dagger",
+      "name": "Great Axe +1",
       "init_bonus": "",
-      "attack_throw": 8,
-      "damage": "1d4",
-      "range": {
-       "short": 15,
-       "medium": 30,
-       "long": 45
-      },
-      "held": "right hand"
-     },
-     {
-      "name": "Short Bow",
-      "init_bonus": "",
-      "attack_throw": 9,
-      "damage": "1d6",
-      "range": {
-       "short": 75,
-       "medium": 150,
-       "long": 300
-      },
-      "held": "back"
-     },
-     {
-      "name": "Short Sword",
-      "init_bonus": "",
-      "attack_throw": 8,
-      "damage": "1d6",
+      "attack_throw": 3,
+      "damage": "1d10+5",
       "range": {
        "short": 0,
        "medium": 0,
        "long": 0
       },
-      "held": "back"
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Spear +1",
+      "init_bonus": "",
+      "attack_throw": 3,
+      "damage": "1d6/1d8+5",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "backpack"
+     },
+     {
+      "name": "Hand Axe",
+      "init_bonus": "",
+      "attack_throw": 4,
+      "damage": "1d6+4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "sack"
      }
     ],
     "save_mods_text": {},
-    "initiative_sheet": -1,
+    "initiative_sheet": null,
     "proficiencies": [
-     "Alchemy",
-     "Magical Engineering",
-     "Caving",
-     "Language (Ancient Argollëan)"
+     "Berserkergang",
+     "Fighting Style Specialization (two-handed weapon)",
+     "Weapon Focus (axes)",
+     "Adventuring",
+     "Endurance",
+     "Healing",
+     "Intimidation"
     ],
     "proficiency_throws": {},
     "prof_throw_list": {
-     "alchemy": "",
-     "magical engineering": "",
-     "caving": "",
-     "language (ancient argollëan)": ""
+     "berserkergang": "",
+     "fighting style specialization (two-handed weapon)": "",
+     "weapon focus (axes)": "",
+     "adventuring": "",
+     "endurance": "",
+     "healing": "",
+     "intimidation": ""
     },
     "ac_mode": "shield"
    },
-   "actor": "phaedra",
-   "hp_max": 20,
-   "hp": 1,
-   "hp_start": 20,
-   "aura_counts": {
-    "horrific visage": 0
-   },
-   "mortal_wounds": {
-    "total": 12,
-    "d20": 15,
-    "d6": 3,
-    "table": "mortal-wounds-cold",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One foot is lost to frostbite (peg required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
-    "band": "11-15"
-   }
-  },
-  "orthanach": {
-   "id": "orthanach",
-   "side": "foe",
-   "status": "destroyed",
-   "conditions": [],
-   "group": "orthanach",
-   "perceived": "the masked mummy with the rod",
-   "judge_set": {
-    "immune": "necrotic,poisonous,acidic:mundane,cold:mundane,electrical:mundane,bludgeoning:mundane,piercing:mundane,slashing:mundane,seismic:mundane",
-    "resist": "acidic:extraordinary,cold:extraordinary,electrical:extraordinary,bludgeoning:extraordinary,piercing:extraordinary,slashing:extraordinary,seismic:extraordinary,fire:both",
-    "immune_effects": "enchantment",
-    "rebuke_as": "vampire",
-    "ac": "9"
-   },
-   "hp_lost_rounds": [
-    1,
-    3,
-    3,
-    4,
-    4,
-    7,
-    7,
-    10,
-    11
-   ],
-   "felled": {
-    "round": 11,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Orthanach (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Orthanach (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Orthanach (SOTN).md",
-     "page": 113,
-     "needs_judge": [
-      [
-       "attacks[1]",
-       "not 'N (attacks T+)': 'spell'"
-      ]
-     ],
-     "checks": [
-      [
-       "ac",
-       "read as 9; the statblock adds: mummy lord 8, bracers +1"
-      ]
-     ],
-     "type": "undead",
-     "type_text": "Undead, mummy lord with the class abilities of a 12th-level Elven Hierophant",
-     "size_index": 1,
-     "size": "man-sized",
-     "ac": 9,
-     "hd": {
-      "text": "12****** (55 hp)",
-      "dice": 12,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 12,
-      "fixed_hp": 55
-     },
-     "attacks": [
-      {
-       "raw": "1 (touch -1+)",
-       "count": 1,
-       "names": [
-        "touch"
-       ],
-       "throw": -1
-      },
-      {
-       "raw": "spell",
-       "error": "not 'N (attacks T+)'"
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d12 extraordinary bludgeoning and extraordinary necrotic + mummy rot,",
-       "pieces": [
-        {
-         "raw": "1d12 extraordinary bludgeoning and extraordinary necrotic + mummy rot,",
-         "dice": "1d12",
-         "extraordinary": true,
-         "types": [
-          "bludgeoning",
-          "necrotic"
-         ]
-        }
-       ]
-      },
-      {
-       "raw": "by weapon +4",
-       "pieces": [
-        {
-         "raw": "by weapon +4",
-         "by_weapon": true,
-         "bonus": 4,
-         "extraordinary": false,
-         "types": []
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      12
-     ],
-     "morale": 4,
-     "attack_throw_by_hd": -1,
-     "speed": "40’ / 120’ (SOTN 120’)",
-     "xp": "6,600",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Orthanach (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 55,
-   "hp": -2,
-   "hp_start": 55,
-   "attacked_round": 9,
-   "xp_recorded": {
-    "record": "M238",
-    "how": "killed",
-    "xp": 6600
-   }
-  },
-  "saorya": {
-   "id": "saorya",
-   "side": "foe",
-   "status": "destroyed",
-   "conditions": [],
-   "group": "saorya",
-   "perceived": "the serpent-crowned mummy",
-   "judge_set": {
-    "immune": "necrotic,poisonous,acidic:mundane,cold:mundane,electrical:mundane,bludgeoning:mundane,piercing:mundane,slashing:mundane,seismic:mundane",
-    "resist": "acidic:extraordinary,cold:extraordinary,electrical:extraordinary,bludgeoning:extraordinary,piercing:extraordinary,slashing:extraordinary,seismic:extraordinary,fire:both",
-    "immune_effects": "enchantment",
-    "rebuke_as": "mummy",
-    "ac": "6"
-   },
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Saorya (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Saorya (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Saorya (SOTN).md",
-     "page": 113,
-     "needs_judge": [
-      [
-       "attacks[1]",
-       "not 'N (attacks T+)': 'spell'"
-      ],
-      [
-       "defenses",
-       "condition (mummy): Mummy (Mummy): horrific visage, mummy rot (touch), immunities by damage type as the MM mummy; rebuked as a mummy"
-      ]
-     ],
-     "checks": [],
-     "type": "undead",
-     "type_text": "Undead, mummy with the class abilities of a 9th-level Elven Cultist of Nasga",
-     "size_index": 1,
-     "size": "man-sized",
-     "ac": 6,
-     "hd": {
-      "text": "9+1**** (41 hp)",
-      "dice": 9,
-      "half": false,
-      "bonus": 1,
-      "stars": 0,
-      "attack_hd": 10,
-      "fixed_hp": 41
-     },
-     "attacks": [
-      {
-       "raw": "1 (touch 1+)",
-       "count": 1,
-       "names": [
-        "touch"
-       ],
-       "throw": 1
-      },
-      {
-       "raw": "spell",
-       "error": "not 'N (attacks T+)'"
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d12 extraordinary bludgeoning and extraordinary necrotic + mummy rot",
-       "pieces": [
-        {
-         "raw": "1d12 extraordinary bludgeoning and extraordinary necrotic + mummy rot",
-         "dice": "1d12",
-         "extraordinary": true,
-         "types": [
-          "bludgeoning",
-          "necrotic"
-         ],
-         "rider": "mummy rot"
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      9
-     ],
-     "morale": 4,
-     "attack_throw_by_hd": 1,
-     "speed": "20’ / 60’ (SOTN 60’)",
-     "xp": "3,100 (SOTN 9+1***, XP 2,500; coordinator's ruling: class abilities as two more asterisks)",
-     "tier": null,
-     "defenses": {
-      "status": "judge",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [
-       {
-        "field": "defenses",
-        "reason": "condition (mummy): Mummy (Mummy): horrific visage, mummy rot (touch), immunities by damage type as the MM mummy; rebuked as a mummy",
-        "quote": "Mummy (Mummy): horrific visage, mummy rot (touch), immunities by damage type as the MM mummy; rebuked as a mummy"
-       }
-      ],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Saorya (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 41,
-   "hp": 0,
-   "hp_start": 41,
-   "xp_recorded": {
-    "record": "M239",
-    "how": "killed",
-    "xp": 3100
-   }
-  },
-  "cassair": {
-   "id": "cassair",
-   "side": "foe",
-   "status": "destroyed",
-   "conditions": [],
-   "group": "cassair",
-   "perceived": "the armoured mummy with the black sword",
-   "judge_set": {
-    "immune": "necrotic,poisonous,acidic:mundane,cold:mundane,electrical:mundane,bludgeoning:mundane,piercing:mundane,slashing:mundane,seismic:mundane",
-    "resist": "acidic:extraordinary,cold:extraordinary,electrical:extraordinary,bludgeoning:extraordinary,piercing:extraordinary,slashing:extraordinary,seismic:extraordinary,fire:both",
-    "immune_effects": "enchantment",
-    "rebuke_as": "mummy",
-    "ac": "12"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Cassair (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Cassair (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Cassair (SOTN).md",
-     "page": 114,
-     "needs_judge": [
-      [
-       "attacks[0]",
-       "several attack throws: '1 (touch -1+ or sword +1 -2+)'"
-      ],
-      [
-       "damage[0][0]",
-       "no damage dice: 'touch 1d12+6 extraordinary bludgeoning and extraordinary necrotic + mummy rot; sword 1d8+10 (two-handed, no rot)'"
-      ],
-      [
-       "defenses",
-       "condition (mummy): Mummy (Mummy): horrific visage, mummy rot (touch only; sword blows carry none), immunities by damage type as the MM mummy; rebuked as a mummy"
-      ]
-     ],
-     "checks": [
-      [
-       "ac",
-       "read as 12; the statblock adds: mummy 6, lamellar armour +1"
-      ]
-     ],
-     "type": "undead",
-     "type_text": "Undead, mummy with the class abilities of a 9th-level Elven Warlord",
-     "size_index": 1,
-     "size": "man-sized",
-     "ac": 12,
-     "hd": {
-      "text": "9+1**** (44 hp)",
-      "dice": 9,
-      "half": false,
-      "bonus": 1,
-      "stars": 0,
-      "attack_hd": 10,
-      "fixed_hp": 44
-     },
-     "attacks": [
-      {
-       "raw": "1 (touch -1+ or sword +1 -2+)",
-       "count": 1,
-       "names": [
-        "touch"
-       ],
-       "throw": null,
-       "error": "several attack throws",
-       "throws": [
-        -1,
-        -2
-       ]
-      }
-     ],
-     "damage": [
-      {
-       "raw": "touch 1d12+6 extraordinary bludgeoning and extraordinary necrotic + mummy rot; sword 1d8+10 (two-handed, no rot)",
-       "pieces": [
-        {
-         "raw": "touch 1d12+6 extraordinary bludgeoning and extraordinary necrotic + mummy rot; sword 1d8+10 (two-handed, no rot)",
-         "error": "no damage dice"
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      9
-     ],
-     "morale": 4,
-     "attack_throw_by_hd": 1,
-     "speed": "20’ / 60’ (SOTN 60’)",
-     "xp": "3,100 (SOTN 9+1**, XP 1,900; coordinator's ruling: class abilities as two more asterisks)",
-     "tier": null,
-     "defenses": {
-      "status": "judge",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [
-       {
-        "field": "defenses",
-        "reason": "condition (mummy): Mummy (Mummy): horrific visage, mummy rot (touch only; sword blows carry none), immunities by damage type as the MM mummy; rebuked as a mummy",
-        "quote": "Mummy (Mummy): horrific visage, mummy rot (touch only; sword blows carry none), immunities by damage type as the MM mummy; rebuked as a mummy"
-       }
-      ],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Cassair (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 44,
-   "hp": 0,
-   "hp_start": 44,
-   "xp_recorded": {
-    "record": "M240",
-    "how": "killed",
-    "xp": 3100
-   }
+   "actor": "brennus",
+   "hp_max": 35,
+   "hp": 35,
+   "hp_start": 35
   },
   "aelia": {
    "id": "aelia",
@@ -2090,7 +1157,7 @@
     "name": "Aelia",
     "actor": "aelia",
     "kind": "henchman",
-    "level": 6,
+    "level": 7,
     "class": "Bard",
     "size": "man-sized",
     "mods": {
@@ -2168,7 +1235,7 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
       "table": "bard-attack-and-saving-throws",
       "title": "Bard (Fighter) Attack and Saving Throws",
@@ -2176,16 +1243,16 @@
       "block": "^tbl-bard-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 53",
-      "row": 3
+      "row": 4
      }
     ],
     "saves": [
      {
-      "paralysis": 10,
-      "death": 11,
-      "blast": 12,
-      "implements": 13,
-      "spells": 14
+      "paralysis": 9,
+      "death": 10,
+      "blast": 11,
+      "implements": 12,
+      "spells": 13
      },
      {
       "table": "bard-attack-and-saving-throws",
@@ -2194,7 +1261,7 @@
       "block": "^tbl-bard-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 53",
-      "row": 3
+      "row": 4
      }
     ],
     "hit_die": [
@@ -2208,7 +1275,7 @@
     ],
     "progression": "fighter",
     "cleaves": [
-     6,
+     7,
      {
       "rule": "class.bard.cleave",
       "note": "ACKS II Rules/03 Classes/Bard.md",
@@ -2221,13 +1288,13 @@
      "no_shield": 2,
      "dex_only": 0
     },
-    "hp_max": 20,
+    "hp_max": 23,
     "movement_running": 60,
     "weapons": [
      {
       "name": "Composite Bow +1",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 120,
@@ -2239,7 +1306,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -2251,7 +1318,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 6,
       "damage": "1d6+3",
       "range": {
        "short": 75,
@@ -2263,7 +1330,7 @@
      {
       "name": "Net",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "",
       "range": {
        "short": 10,
@@ -2275,7 +1342,7 @@
      {
       "name": "Short Sword (silvered)",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -2307,9 +1374,9 @@
     "ac_mode": "shield"
    },
    "actor": "aelia",
-   "hp_max": 20,
-   "hp": 20,
-   "hp_start": 20
+   "hp_max": 23,
+   "hp": 23,
+   "hp_start": 23
   },
   "cotta": {
    "id": "cotta",
@@ -2326,12 +1393,12 @@
    "init": null,
    "nonlethal": 0,
    "notes": [],
-   "kind": "henchman",
+   "kind": "pc",
    "name": "Cotta",
    "stats": {
     "name": "Cotta",
     "actor": "cotta",
-    "kind": "henchman",
+    "kind": "pc",
     "level": 5,
     "class": "Explorer",
     "size": "man-sized",
@@ -2529,33 +1596,6 @@
   }
  },
  "groups": {
-  "brennus": {
-   "side": "party",
-   "members": [
-    "brennus"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
-  "iulia": {
-   "side": "party",
-   "members": [
-    "iulia"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1,
-   "felled_rounds": [
-    2
-   ]
-  },
   "lucilla": {
    "side": "party",
    "members": [
@@ -2580,18 +1620,6 @@
    },
    "start_count": 1
   },
-  "neris": {
-   "side": "party",
-   "members": [
-    "neris"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
   "vestus-the-unlikely": {
    "side": "party",
    "members": [
@@ -2604,61 +1632,10 @@
    },
    "start_count": 1
   },
-  "phaedra": {
+  "neris": {
    "side": "party",
    "members": [
-    "phaedra"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1,
-   "felled_rounds": [
-    5
-   ]
-  },
-  "orthanach": {
-   "side": "foe",
-   "members": [
-    "orthanach"
-   ],
-   "morale": {
-    "state": "advance and pursue",
-    "rolls": [
-     {
-      "round": 4,
-      "total": 10,
-      "result": "Advance and Pursue",
-      "reason": "lost 1/3 of its hp (26/55)"
-     },
-     {
-      "round": 7,
-      "total": 6,
-      "result": "Fight On",
-      "reason": "damaged again this round"
-     },
-     {
-      "round": 10,
-      "total": 9,
-      "result": "Advance and Pursue",
-      "reason": "damaged again this round"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 10,
-    "first_round": 4
-   },
-   "start_count": 1,
-   "felled_rounds": [
-    11
-   ]
-  },
-  "saorya": {
-   "side": "foe",
-   "members": [
-    "saorya"
+    "neris"
    ],
    "morale": {
     "state": "steady",
@@ -2667,10 +1644,10 @@
    },
    "start_count": 1
   },
-  "cassair": {
-   "side": "foe",
+  "brennus": {
+   "side": "party",
    "members": [
-    "cassair"
+    "brennus"
    ],
    "morale": {
     "state": "steady",
@@ -2706,78 +1683,7 @@
  },
  "engaged": [],
  "engaged_at_round_start": [],
- "distances": {
-  "brennus|orthanach": 5,
-  "iulia|orthanach": 15,
-  "lucilla|orthanach": 5,
-  "orthanach|vettius": 5,
-  "neris|orthanach": 25,
-  "orthanach|vestus-the-unlikely": 25,
-  "orthanach|phaedra": 30,
-  "brennus|saorya": 15,
-  "iulia|saorya": 15,
-  "lucilla|saorya": 20,
-  "saorya|vettius": 20,
-  "neris|saorya": 25,
-  "saorya|vestus-the-unlikely": 25,
-  "phaedra|saorya": 25,
-  "brennus|cassair": 15,
-  "cassair|iulia": 15,
-  "cassair|lucilla": 20,
-  "cassair|vettius": 20,
-  "cassair|neris": 25,
-  "cassair|vestus-the-unlikely": 25,
-  "cassair|phaedra": 25
- },
+ "distances": {},
  "log": [],
- "notes_shown": [
-  "morale.modifier_tiers",
-  "mw.d6_unmodified"
- ],
- "wards": [
-  {
-   "bearer": "neris",
-   "name": "Holy Circle, Sustained",
-   "radius": 10,
-   "bars": [
-    "enchanted"
-   ],
-   "within": "party",
-   "out": [
-    "brennus",
-    "vettius",
-    "lucilla"
-   ],
-   "fall": "creature",
-   "evil": "foes",
-   "source": "RR p. 225; Rulings S14, S16",
-   "fallen": {
-    "orthanach": 1,
-    "saorya": 1
-   }
-  }
- ],
- "auras": [],
- "rebuke_failed": {},
- "round_ended": 12,
- "retinue": {
-  "phaedra": {
-   "hp_triggered": false,
-   "party_triggered": false,
-   "calamity_queued": true
-  }
- },
- "party_hp_written": [
-  "brennus",
-  "iulia",
-  "lucilla",
-  "vettius",
-  "neris",
-  "vestus-the-unlikely",
-  "phaedra"
- ],
- "ended": {
-  "round": 12,
-  "felled_foes": []
- }
+ "notes_shown": []
 }

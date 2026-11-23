@@ -623,6 +623,16 @@ tags:
 | 517 | Descent 74 (N: the south-west passage) | ebony staff topped by a bronze cobra | 100 | sold |
 | 517 | Descent 74 (N: the south-west passage) | jewelry worth 325.0gp | 325 | sold |
 | 517 | Descent 74 (N: the south-west passage) | Sword +1, Deathless | 660 | vettius |
+| 520 | Descent 75 (O: the tomb again) | gilded canopic shrine with golden skulls (and its 4 jars) | 2,100 | stored |
+| 520 | Descent 75 (O: the tomb again) | gilded canopic shrine with golden serpents (and its 4 jars) | 2,100 | sold |
+| 520 | Descent 75 (O: the tomb again) | gilded canopic shrine with golden swords (and its 4 jars) | 2,100 | sold |
+| 520 | Descent 75 (O: the tomb again) | 2 locked cedar chests (O4) | 4,000 | sold |
+| 520 | Descent 75 (O: the tomb again) | 2 locked cedar chests (O4) | 4,000 | sold |
+| 520 | Descent 75 (O: the tomb again) | jewelry worth 5075.0gp | 5,075 | sold |
+| 520 | Descent 75 (O: the tomb again) | ebony altar inlaid with gold | 700 | sold |
+| 520 | Descent 75 (O: the tomb again) | gold libation bowl, 3 gold cups, gold incense dish and gold basin | 3,325 | sold |
+| 520 | Descent 75 (O: the tomb again) | long black scroll on golden handles tipped with black sapphires (gold script) | 25,900 | vestus-the-unlikely |
+| 520 | Descent 75 (O: the tomb again) | ebony cobra statuette, ivory skull statuette with ebony tentacles, alabaster lamp with gold fittings | 3,000 | sold |
 
 ## Monster XP
 
@@ -1621,6 +1631,13 @@ tags:
 | 517 | Descent 74 (N: the south-west passage) | Phaedra | 0.5 | 515 | 947 | 0 | +0% | 1,462 |
 | 517 | Descent 74 (N: the south-west passage) | Aelia | 0.5 | 515 | 947 | 0 | +0% | 1,462 |
 | 517 | Descent 74 (N: the south-west passage) | Cotta | 0.5 | 515 | 947 | 0 | +0% | 1,462 | | JUDGE: Iulia's share goes to his heir or new possessors (death --heir) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 520 | Descent 75 (O: the tomb again) | Lucilla | 1 | 8,046 | 0 | 0 | +10% | 8,851 |
+| 520 | Descent 75 (O: the tomb again) | Vettius | 1 | 8,046 | 0 | 0 | +5% | 8,448 |
+| 520 | Descent 75 (O: the tomb again) | Vestus the Unlikely | 1 | 8,046 | 0 | 0 | +5% | 8,448 |
+| 520 | Descent 75 (O: the tomb again) | Neris | 1 | 8,046 | 0 | 0 | +0% | 8,046 |
+| 520 | Descent 75 (O: the tomb again) | Brennus | 1 | 8,046 | 0 | 0 | +5% | 8,448 |
+| 520 | Descent 75 (O: the tomb again) | Aelia | 0.5 | 4,023 | 0 | 0 | +0% | 4,023 |
+| 520 | Descent 75 (O: the tomb again) | Cotta | 1 | 8,046 | 0 | 0 | +0% | 8,046 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4291,3 +4308,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 517 |  | treasure share |  | 406gp 6sp 7cp |  | cotta |
 | 518 | a caster in Cyfaraun | spellcasting: Restore Life and Limb |  |  | 900gp | lucilla |
 | 518 | Tertulla, Lake Laman fisherwoman | mooring the black barge, days 518-531 |  |  | 4gp | lucilla |
+| 519 | the Tower of the Thaumaturges (a mage's identification, three items) | identification of the obsidian ring (L779), the bronze bracers (L780) and the rod of twined materials (L781): 2,000gp each, ready day 533 (precedent day 451) |  |  | 6,000gp | lucilla |
+| 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | lucilla |
+| 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | vettius |
+| 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | vestus-the-unlikely |
+| 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | neris |
+| 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | brennus |
+| 520 |  | treasure share |  | 1,869gp 2sp 3cp |  | aelia |
+| 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | cotta |
