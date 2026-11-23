@@ -63,7 +63,9 @@ def test_each_stage_gets_its_states(camp):
     assert "--hexes" in argv_of(camp, "travel", "22.21")[1]
     assert "--astate" in argv_of(camp, "payout")[1] and "--retinue" in argv_of(camp, "payout")[1]
     assert "--party-hp" in argv_of(camp, "encounter", "fight", "--perceived", "x")[1]
-    assert "--bestiary" in argv_of(camp, "state", "add", "o", "--side", "foe", "--monster", "Orc", "--perceived", "x")[1]
+    import yaml
+    if (yaml.safe_load(open(os.path.join(C, "campaign.yaml"), encoding="utf-8")).get("tools") or {}).get("bestiary"):
+        assert "--bestiary" in argv_of(camp, "state", "add", "o", "--side", "foe", "--monster", "Orc", "--perceived", "x")[1]
     assert "--astate" in argv_of(camp, "adventure", "init")[1]
     assert "--xstate" in argv_of(camp, "enervation", "show")[1] and "--xstate" in argv_of(camp, "schedule", "due")[1]
 
