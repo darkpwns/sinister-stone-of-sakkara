@@ -112,7 +112,19 @@ Foes at 0 hp are unconscious and possibly slain (RR p. 302). While the fight las
 untouched rolls Mortal Wounds at once, hidden, as untreated for 24 hours (Rulings 2026-11-19). Slain, or **recovering**
 at 1 hp with its wound and bed rest: note each survivor in World State `## Dungeons and lairs` (where it lies, the
 wound, the bed rest; the party believes it dead) and play it from there. Then:
-Monsters slain or fled → World State; monster XP and treasure → Ledger; each PC's and henchman's hp and conditions
-from `state show` → his actor (`acks.sh actor set <id> state.hp N --cause "fight, S##"`, likewise `state.conditions`;
-`public.party` follows at the save); clear `public.tracker`; delete the combat state file (`git rm` if committed);
-`save.sh`.
+`state end` also does the bookkeeping (engine 7.17.0): the foes destroyed, slain or dead are recorded in the open
+adventure's ledger with their XP (hidden; by the Hit Dice the monster actually had), and each party combatant's hp is
+written to his actor with the fight as its cause. Never type `recover --monster` or copy hp by hand after it. What
+stays yours is on its JUDGE line: foes that fled, surrendered or were captured (the exact `recover --monster …
+--how outsmarted|captured` command is printed: outsmarted and captured monsters grant XP, RR pp. 310-311), and the
+conditions the fight put on a character that outlast it (mummy rot, a wound): `actor set <id> state.conditions`.
+`--no-xp` when no XP is due. Then: monsters slain or fled → World State; clear `public.tracker`; delete the combat
+state file (`git rm` if committed); `save.sh`.
+
+**Surprise** lasts through round 1 (engine 7.17.0): the surprised keep the condition until round 2's `round-start`,
+`round-next` says they cannot act, and `attack`, `sweep`, `rebuke` refuse them. **Rebuke** (7.17.0): its line states the
+2d6 Hit Dice and who was affected; Hit Dice go to undead not yet rebuked first; an undead with no rebuking row
+refuses the rebuke before any roll (`state set ID rebuke_as=TYPE`, or `rebuke_as=none` to leave it out);
+`rebuke ID --cornered ID,…` for undead that cannot flee (they cower). Undead at 0 hp are destroyed, also when hp is
+set by `state set ID hp=N`. **Step the round with `round-next`** and act for the combatant it names: the lessons index
+reminds when an action is taken out of its count.

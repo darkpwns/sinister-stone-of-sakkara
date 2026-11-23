@@ -17,7 +17,7 @@ Load when the party is in a settlement or stronghold and buys, sells, lodges, as
 8. Talking to a townsman (reaction, bribes, influence) without a monster stand-in: `acks.sh encounter start --npc "<name>" [--npc-actor ID]`, then `reaction` as in encounters.md §4 (diplomatic and seductive approaches use the NPC actor's WIL); `encounter end` when done.
 9. NPCs: the settlement note names its ruler and notable people; for anyone else give two or three traits and a voice, and add the name to the prep queue.
 
-10. Nights in town (engine 7.14.0): `eat --in-town` before the night, then `wait` over it: a wait covering 8 night hours in a settlement records restful sleep (sleep owed cleared, spells regained) and writes the rollover's natural healing to the actors. Nothing to clear by hand after an inn night.
+10. Nights in town: set the settlement once on arrival (`acks.sh location --settlement <Name>`), then `wait` over the night: a day that ends in a settlement counts as eaten and drunk in town by itself (engine 7.17.2: "meals in town assumed (settlement): pay the inn"; `--carried-food` when they eat from their packs), and a wait covering 8 night hours records restful sleep (sleep owed cleared, spells regained) and writes natural healing to the actors. `eat --in-town` is no longer needed. Pay the inn (`inv pay`). A member who stays in town while the others delve: `party remove ID --stays "<place>"` (he keeps eating, sleeping, healing and counting down bed rest; `party add ID` when he rejoins). The schedule's due items are named on the `wait` line (`schedule run --due`).
 11. Reactions with a known WIL: `reaction --target-wil-score 16` (or `--target-wil` with the modifier, -3 to +3).
 
 ## State

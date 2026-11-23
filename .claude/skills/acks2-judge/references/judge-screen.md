@@ -125,10 +125,16 @@ choice or when injuries make adventuring unlikely.
 ## 11. Routine (the slips of the Sakkara playtest)
 - Before a delve: `adventure start` + `join`; light lit, spares counted; rations and water per member; wages due
   during the trip paid in advance.
-- Each turn: relight torches as they burn out; rest 1 turn after every 5 turns of exploring; wandering checks at the site's rate.
+- Each turn: `play.py walk N --relight A,B` (or `light auto on --carriers A,B` once per delve, then `turn`) walks,
+  rests after 5 turns, relights and stops at anything that needs you; wandering checks at the site's rate.
 - Each fight: every foe's turn resolved, cleaves included; no attack on a target out of reach; spells' target counts
-  rolled before saves; after the fight copy hp and conditions to the actors **before** deleting the combat state;
-  `turn --rounds N`; `encounter end` closes the right encounter (a wandering one may have arrived meanwhile).
+  rolled before saves; `state end` records the defeated and writes hp to the actors (copy only the lasting
+  conditions it names); `turn --rounds N`; `encounter end` closes the right encounter.
+- **This list is no longer the memory.** What the campaign has learned is `Campaign/lessons.yaml`, checked by the
+  engine on every command: a `REMINDER: [id] …` at the end of a line is a lesson that applies right now (act on it);
+  `NOT RUN (lesson): …` means the command was refused (fix it, or `ACKS_ACK=id` when you mean it). A slip you notice:
+  `acks.sh lesson slip ID --day N --note "…"` (and the judge-notes line as before); a new kind of slip: add a lesson
+  with a trigger (`R/memory.md`). What recurs on a calendar is `Campaign/schedule.yaml` (`schedule due`, `run --due`).
 - Each night: watches that leave everyone 8 hours (four 3-hour watches over a 12-hour camp).
 - Each march: daylight hours only unless the party chooses otherwise; `water` where the party passes water;
   `water --source "the camp well"` at a well, spring or cistern the place gives (no throw).

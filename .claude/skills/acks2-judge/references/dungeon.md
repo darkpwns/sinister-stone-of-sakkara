@@ -47,6 +47,10 @@ triggers): Judge block only. `| JUDGE:` lists what is left to you; `| NOTE:` act
    start of every 2nd turn by default), burns light and timers, counts turns since rest, and reports everything that
    ran out, expired or became due. **If a check finds an encounter, the advance stops at its minute** and the line
    shows who, how many and the maximum distance (all `[H]`): go to `encounters.md`.
+   `turn N` also stops in the turn the last light burns out. Many turns in one call: `python3 $S/play.py walk N
+   --relight A,B` (rests after 5 turns, relights, stops with the reason at an encounter, a character down, no light
+   left or anything left to the Judge); or set the standing order `acks.sh light auto on --carriers A,B` once per
+   delve and the engine lights the next torch itself.
 3. Rest: `acks.sh rest` (1 turn) after 5 turns; the `turn` line says "rest due"; a 6th turn without rest makes the
    party winded (no running or charging) until it rests 1 turn (Endurance exempt).
 4. Spells and effects with a duration: `acks.sh timer add "<spell> (<caster>)" --for 6t [--hidden]` with the duration
@@ -65,7 +69,12 @@ succeeds lets you narrate what is there; a failure says nothing either way.
   timers never leave the exploration state. Rations: `public.rations` from the engine's travel block (stage 4).
 - World State: one subsection per site, headed with its wiki link: each room entered and its state (opened, looted,
   monsters slain or fled, traps sprung, locks jammed). Campaign State `public`: party hp and conditions.
-- Write after each room resolved and each fight; `save.sh`. Leaving the site: `acks.sh location --clear`.
+- Write after each room resolved and each fight; `save.sh`. Leaving the site for a settlement:
+  `acks.sh location --settlement <Name>` (one command: no wandering checks, the rest count cleared; a town night then
+  counts). Leaving it for the wilderness: `acks.sh location --clear`. `location` alone shows where the party is.
+  Moving on inside a delve (`location --site … --level N`) keeps the wandering count. A door kind the module gives
+  (a slab, a bronze door): `explore force-door A B --helpers C,D --door-kind "<kind>"`: the engine reads the campaign's
+  doors table and rulings; never pass a door's penalty by hand.
 - `acks.sh clock [--player]` shows the time, light, timers, rest and location (`--player`: open values only).
 - A day passing (`turn` line "day N begins"): with a travel block (`travel-init` before the expedition), the engine's
   rollover runs rations (iron rations keep one week in a dungeon), water, sleep owed, fatigue (each hour of delving is
