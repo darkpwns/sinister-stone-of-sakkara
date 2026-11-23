@@ -497,6 +497,22 @@ tags:
 | 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7a gallery (the other half) | 293 | phaedra |
 | 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7b gallery (half of 136 graves) | 300 | lucilla |
 | 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7b gallery (the other half) | 305 | vettius |
+| 467 | Descent 62 (G10-G12, the consul) | a canopic shrine of gilded cedar with silver serpents (half) | 640 | varro |
+| 467 | Descent 62 (G10-G12, the consul) | a canopic shrine of gilded cedar with silver serpents (other half) | 635 | hrodvar |
+| 467 | Descent 62 (G10-G12, the consul) | four terracotta canopic jars | 100 | cotta |
+| 467 | Descent 62 (G10-G12, the consul) | an ornate alabaster lamp | 600 | lucilla |
+| 467 | Descent 62 (G10-G12, the consul) | a hepatizon statuette of a dragon-winged woman | 900 | lucilla |
+| 467 | Descent 62 (G10-G12, the consul) | 2,000 electrum pieces | 1,000 | neris |
+| 467 | Descent 62 (G10-G12, the consul) | Candle of Comfort | 5 | aelia |
+| 467 | Descent 62 (G10-G12, the consul) | Candle of Comfort | 5 | aelia |
+| 467 | Descent 62 (G10-G12, the consul) | Candle of Comfort | 5 | aelia |
+| 467 | Descent 62 (G10-G12, the consul) | Candle of Comfort | 5 | aelia |
+| 467 | Descent 62 (G10-G12, the consul) | seven slices of waybread in leaf wrappings | 7 | cotta |
+| 467 | Descent 62 (G10-G12, the consul) | SOTN Consul's Spellbook | 100 | vestus-the-unlikely |
+| 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | brennus |
+| 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | marcellus |
+| 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | iulia |
+| 467 | Descent 62 (G10-G12, the consul) | a corner of the consul's painted bronze sarcophagus | 125 | aelia |
 
 ## Monster XP
 
@@ -632,6 +648,13 @@ tags:
 | 460 | Descent 61 (the galleries' graves, G) | Rat Swarm | 1 | 29 | 29 |
 | 460 | Descent 61 (the galleries' graves, G) | Mummy | 1 | 660 | 660 |
 | 460 | Descent 61 (the galleries' graves, G) | Grave Ghoul | 5 | 38 | 190 |
+| 467 | Descent 62 (G10-G12, the consul) | Giant Fly | 1 | 29 | 29 |
+| 467 | Descent 62 (G10-G12, the consul) | Specter | 1 | 1,070 | 1,070 |
+| 467 | Descent 62 (G10-G12, the consul) | Skeleton | 12 | 47 | 564 |
+| 467 | Descent 62 (G10-G12, the consul) | Skeleton | 12 | 135 | 1,620 |
+| 467 | Descent 62 (G10-G12, the consul) | Berserker | 8 | 10 | 80 |
+| 467 | Descent 62 (G10-G12, the consul) | Grand Chthonic Consul (SOTN) | 1 | 1,580 | 1,580 |
+| 467 | Descent 62 (G10-G12, the consul) | Sepulchral Worm | 14 | 16 | 224 |
 
 ## Shares and XP awarded
 
@@ -1298,6 +1321,18 @@ tags:
 | 460 | Descent 61 (the galleries' graves, G) | Aelia | 0.5 | 90 | 49 | 0 | +0% | 139 |
 | 460 | Descent 61 (the galleries' graves, G) | Marcellus | 0.5 | 90 | 49 | 0 | +0% | 139 |
 | 460 | Descent 61 (the galleries' graves, G) | Cotta | 0.5 | 90 | 49 | 0 | +0% | 139 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 467 | Descent 62 (G10-G12, the consul) | Lucilla | 1 | 500 | 574 | 0 | +10% | 1,181 |
+| 467 | Descent 62 (G10-G12, the consul) | Vettius | 1 | 500 | 574 | 0 | +5% | 1,128 |
+| 467 | Descent 62 (G10-G12, the consul) | Vestus the Unlikely | 1 | 500 | 574 | 0 | +5% | 1,128 |
+| 467 | Descent 62 (G10-G12, the consul) | Neris | 1 | 500 | 574 | 0 | +0% | 1,074 |
+| 467 | Descent 62 (G10-G12, the consul) | Brennus | 1 | 500 | 574 | 0 | +5% | 1,128 |
+| 467 | Descent 62 (G10-G12, the consul) | Iulia | 1 | 500 | 574 | 0 | +5% | 1,128 |
+| 467 | Descent 62 (G10-G12, the consul) | Phaedra | 0.5 | 250 | 287 | 0 | +0% | 537 |
+| 467 | Descent 62 (G10-G12, the consul) | Varro | 0.5 | 250 | 287 | 0 | +0% | 537 |
+| 467 | Descent 62 (G10-G12, the consul) | Hrodvar | 0.5 | 250 | 287 | 0 | +0% | 537 |
+| 467 | Descent 62 (G10-G12, the consul) | Aelia | 0.5 | 250 | 287 | 0 | +0% | 537 |
+| 467 | Descent 62 (G10-G12, the consul) | Marcellus | 0.5 | 250 | 287 | 0 | +0% | 537 |
+| 467 | Descent 62 (G10-G12, the consul) | Cotta | 0.5 | 250 | 287 | 0 | +0% | 537 | (src: RR p. 310 xp.magic_item_basis; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3626,3 +3661,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 465 | market | his share of the sale of L502,L554 (after the payout) |  | 1,578gp 9sp 5cp |  | marcellus |
 | 465 | market | his share of the sale of L502,L554 (after the payout) |  | 1,578gp 9sp 5cp |  | saturnin |
 | 465 | market | his share of the sale of L502,L554 (after the payout) |  | 1,578gp 9sp 5cp |  | cotta |
+| 467 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 467 | the retinue | wages paid |  |  | 800gp | iulia |
+| 467 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 467 |  | treasure share |  | 111gp 1sp 1cp |  | lucilla |
+| 467 |  | treasure share |  | 111gp 1sp 1cp |  | vettius |
+| 467 |  | treasure share |  | 111gp 1sp 1cp |  | vestus-the-unlikely |
+| 467 |  | treasure share |  | 111gp 1sp 1cp |  | neris |
+| 467 |  | treasure share |  | 111gp 1sp 1cp |  | brennus |
+| 467 |  | treasure share |  | 111gp 1sp 1cp |  | iulia |
+| 467 |  | treasure share |  | 55gp 5sp 6cp |  | phaedra |
+| 467 |  | treasure share |  | 55gp 5sp 6cp |  | varro |
+| 467 |  | treasure share |  | 55gp 5sp 6cp |  | hrodvar |
+| 467 |  | treasure share |  | 55gp 5sp 6cp |  | aelia |
+| 467 |  | treasure share |  | 55gp 5sp 6cp |  | marcellus |
+| 467 |  | treasure share |  | 55gp 5sp 6cp |  | cotta |
