@@ -491,6 +491,12 @@ tags:
 | 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | hrodvar |
 | 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | aelia |
 | 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | marcellus |
+| 460 | Descent 61 (the galleries' graves, G) | grave goods of the G15b gallery (52 graves: rings, pins, cups, coins) | 230 | vestus-the-unlikely |
+| 460 | Descent 61 (the galleries' graves, G) | grave goods of the G15a gallery (44 graves) | 197 | neris |
+| 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7a gallery (half of 128 graves) | 300 | cotta |
+| 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7a gallery (the other half) | 293 | phaedra |
+| 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7b gallery (half of 136 graves) | 300 | lucilla |
+| 460 | Descent 61 (the galleries' graves, G) | grave goods of the G7b gallery (the other half) | 305 | vettius |
 
 ## Monster XP
 
@@ -623,6 +629,9 @@ tags:
 | 455 | Descent 59 (G9, the enchantress) | Grand Chthonic Enchantress (SOTN) | 1 | 1,580 | 1,580 |
 | 457 | Descent 60 (G16, the sanctum) | Tunnel Prawn (SOTN) | 2 | 10 | 20 |
 | 457 | Descent 60 (G16, the sanctum) | Anim. Chryselephantine Statue | 1 | 1,100 | 1,100 |
+| 460 | Descent 61 (the galleries' graves, G) | Rat Swarm | 1 | 29 | 29 |
+| 460 | Descent 61 (the galleries' graves, G) | Mummy | 1 | 660 | 660 |
+| 460 | Descent 61 (the galleries' graves, G) | Grave Ghoul | 5 | 38 | 190 |
 
 ## Shares and XP awarded
 
@@ -1277,6 +1286,18 @@ tags:
 | 457 | Descent 60 (G16, the sanctum) | Aelia | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
 | 457 | Descent 60 (G16, the sanctum) | Marcellus | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
 | 457 | Descent 60 (G16, the sanctum) | Cotta | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 | (src: RR p. 310 xp.treasure_min_sp_per_stone; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 460 | Descent 61 (the galleries' graves, G) | Lucilla | 1 | 181 | 98 | 0 | +10% | 306 |
+| 460 | Descent 61 (the galleries' graves, G) | Vettius | 1 | 181 | 98 | 0 | +5% | 292 |
+| 460 | Descent 61 (the galleries' graves, G) | Vestus the Unlikely | 1 | 181 | 98 | 0 | +5% | 292 |
+| 460 | Descent 61 (the galleries' graves, G) | Neris | 1 | 181 | 98 | 0 | +0% | 278 |
+| 460 | Descent 61 (the galleries' graves, G) | Brennus | 1 | 181 | 98 | 0 | +5% | 292 |
+| 460 | Descent 61 (the galleries' graves, G) | Iulia | 1 | 181 | 98 | 0 | +5% | 292 |
+| 460 | Descent 61 (the galleries' graves, G) | Phaedra | 0.5 | 90 | 49 | 0 | +0% | 139 |
+| 460 | Descent 61 (the galleries' graves, G) | Varro | 0.5 | 90 | 49 | 0 | +0% | 139 |
+| 460 | Descent 61 (the galleries' graves, G) | Hrodvar | 0.5 | 90 | 49 | 0 | +0% | 139 |
+| 460 | Descent 61 (the galleries' graves, G) | Aelia | 0.5 | 90 | 49 | 0 | +0% | 139 |
+| 460 | Descent 61 (the galleries' graves, G) | Marcellus | 0.5 | 90 | 49 | 0 | +0% | 139 |
+| 460 | Descent 61 (the galleries' graves, G) | Cotta | 0.5 | 90 | 49 | 0 | +0% | 139 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3565,3 +3586,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 457 |  | treasure share |  |  |  |  |
 | 457 |  | treasure share |  |  |  |  |
 | 457 |  | treasure share |  |  |  |  |
+| 460 | the retinue | wages paid |  |  | 800gp | vettius |
+| 460 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 460 | Cyfaraun | torch | 6 |  | 1sp | marcellus |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
+| 460 |  | treasure share |  |  |  |  |
