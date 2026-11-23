@@ -3688,3 +3688,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | aelia |
 | 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | marcellus |
 | 471 | market | his share of the sale of L660,L661,L662,L663,L664,L672,L673,L674,L675 (after the payout) |  | 187gp 4sp 9cp |  | cotta |
+| 471 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 471 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 471 | Cyfaraun | Rations, Iron (one week) | 1 |  | 4gp | aelia |
