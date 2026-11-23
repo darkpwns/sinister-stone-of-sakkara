@@ -653,6 +653,7 @@ tags:
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 14 cedar scroll jars of the library (N3) | 2,059 | sold |
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 8 cedar scroll jars of the library (N3) | 1,176 | sold |
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | N3's fallen bronze chandelier | 30 | sold |
+| 540 | Order contract: Faustus Cerco (Vettius) | reward 500.0gp | 500 | vettius |
 
 ## Monster XP
 
@@ -839,6 +840,7 @@ tags:
 | 526 | Order contract: Marius Corvo (Vestus) | Marius Corvo | 1 | 10 | 10 |
 | 531 | Order contract: Decimus Ruga (Brennus) | Decimus Ruga | 1 | 10 | 10 |
 | 533 | Order contract: Ammia Thrax (Vettius) | Ammia Thrax | 1 | 80 | 80 |
+| 540 | Order contract: Faustus Cerco (Vettius) | Faustus Cerco | 1 | 10 | 10 |
 
 ## Shares and XP awarded
 
@@ -1691,6 +1693,7 @@ tags:
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Phaedra | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 |
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Hrodvar | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 |
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Tiberius Maro | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 540 | Order contract: Faustus Cerco (Vettius) | Vettius | 1 | 500 | 10 | 0 | +5% | 536 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4411,3 +4414,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | phaedra |
 | 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | hrodvar |
 | 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | tiberius-maro |
+| 540 | the Merchant Guildhouse | storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 48259.56 |  |  | 120gp 6sp 5cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 102504.42 |  |  | 256gp 2sp 6cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 22652.3 |  |  | 56gp 6sp 3cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 14766.01 |  |  | 36gp 9sp 2cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 31354.44 |  |  | 78gp 3sp 9cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 69782.63 |  |  | 174gp 4sp 6cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 91373.51 |  |  | 228gp 4sp 3cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 32048.62 |  |  | 80gp 1sp 2cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of neris, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 86153.87 |  |  | 215gp 3sp 8cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 43243.0 |  |  | 108gp 1sp 1cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 16.88 |  |  | 4cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of tiberius-maro, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 1650.0 |  |  | 4gp 1sp 2cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of varro, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 31306.67 |  |  | 78gp 2sp 7cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 91557.24 |  |  | 228gp 8sp 9cp | guildhouse-bank |
+| 540 | the Merchant Guildhouse | storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 18 (day 540): on 120042.87 |  |  | 300gp 1sp 1cp | guildhouse-bank |
+| 540 | investment 1 (Balanced, 693gp) | month 18: Vagaries 67, Return +50% (1.5%) |  | 10gp 3sp 9cp |  | lucilla |
+| 540 | investment 3 (Balanced, 3,000gp) | month 18: Vagaries 20, Return -200% (a loss of 1%) |  |  | 30gp | lucilla |
+| 540 | the front's houses and The Mink | month 18 income (Rulings S19) |  | 1,500gp |  | lucilla |
+| 540 | the venture company (her half) | month 18 income (Rulings S19) |  | 2,750gp |  | lucilla |
+| 540 | the syndicate (the Family and Sand & Bones) and the Pony's honest trade | month 18 take: syndicate 17,747 + the Pony's half 1,624 (AX3 p. 75; Rulings S19, S22, S25) |  | 19,371gp |  | vettius |
+| 540 | the Tower | month 18 dues (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
+| 540 |  | treasure share |  | 500gp |  | vettius |

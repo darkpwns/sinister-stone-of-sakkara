@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 127,
-  "L": 815,
+  "L": 816,
   "H": 137,
   "M": 245
  },
@@ -19,12 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 189688,
+    "xp_before": 197435,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 538
+    "joined_day": 538,
+    "xp_award": 536
    }
   },
   "monsters": [
@@ -44,8 +45,27 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 540,
+   "at": null,
+   "total": 510.0,
+   "per_share": 510.0,
+   "awards": {
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 510,
+     "pct": 5,
+     "pen": 0,
+     "award": 536,
+     "xp_before": 197435,
+     "xp_after": 197971,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -75213,6 +75233,39 @@
    },
    "judge": [],
    "divided_day": 535
+  },
+  "L816": {
+   "id": "L816",
+   "adventure": "A127",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "vettius",
+   "status": "divided",
+   "found": {
+    "day": 540,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 0,
+    "name": "reward 500.0gp"
+   },
+   "player": {
+    "desc": "reward of 500.0gp",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 540
   }
  },
  "hoards": {
