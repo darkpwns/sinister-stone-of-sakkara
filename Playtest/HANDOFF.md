@@ -1122,3 +1122,43 @@ report to Destrio, the plan to make Neris Destrio's heir if the Order keeps call
 the spellsword's book (L357) to day 437. The Nasgan priestess in S3 is awake and prepared. Magic unidentified as in S22's
 handoff plus nothing new; S22's goods at the Citadel for the selling day (451).
 
+## S23 — start here, revised after the S22 questions (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu` in all four repos (tools 7.14.0). Run `setup.sh`; it must print `engine: ready: acks
+7.14.0`. Helpers: `Playtest/tools/s10_j.sh`, `s11_mend.sh`, `s12_town.sh`, `s20_town.sh`, `s22_j.sh` (`w N`, `relight`,
+`sup`, `bank DAY`; fix its `lit` test first: it must match the clock's "NONE LIT"), `s22_sgrind.py` (a skeleton grind from
+inside a ward; it plays no other foe). Logs: `Session Log/S22 — Out from Under the Eclipse.md`. Rulings S22 rows: the Order
+release, its succession, the handover of a syndicate to another PC, two syndicates merged under one boss.
+
+**State on resume:** day 435 07:00, spring, Cyfaraun, the Solar Citadel barracks. No adventure open (A88 paid). Twelve, all
+whole: Lucilla Venturer 8, Vettius Thief 8 (99,014 XP; 9th at 100,000: his hideout's 2d6 followers come only if he
+establishes one at 9th), Vestus Mage 7 (studying a 4th-level spell from L357 to day 437), Neris Priestess 7, Brennus
+Fighter 7, Iulia Crusader 7, henchmen Phaedra M5, Varro F6, Hrodvar VG5, Marcellus F6, Aelia B6, Cotta Ex3. Coin above
+150gp banked (day 430); Vettius' bribes (21,220gp) paid from his balance. Torches: Aelia 12.
+
+**The Family (day 435):** Vettius is boss of the whole syndicate: the old Family's members and Sand & Bones merged at the
+Silk Pony hideout (25u), about 353 members (cap 375); 66 hesitant, 21 betrayers (World State). Thana runs the honest
+trade (Vettius' owner's half). Lucilla keeps only her guildhouse: The Mink (Aranth manages it), the front's houses
+(1,500gp a month), her half of the venture company (2,750gp), the 11u treasury. **Vettius rules hard**: his own spies, every
+betrayer found eliminated, "a wagging tongue means a rolling head" (play it from day 436: World State). Month 15 ends day
+450: the syndicate take by days (Lucilla 421-434, Vettius 435-450; hijink XP above each one's threshold).
+
+**Iulia:** released from the Order (day 429); the Kalbo inquiry closed (day 432). Keep her out of the Family's work and the
+purge. Decimus Rullo (grain factor, east gate) has sought the Brotherhood for her death (note in Lucilla's hands: report
+to Destrio). Prelate Romus recoiled after Mentenus (Judge's call S22; the company holds Mentenus' letter naming him).
+
+**The Order:** Lucilla, Vettius, Vestus, Neris, Brennus are deathbringers. Contracts in hand: A Lucan Ferrox (Vettius,
+2,000gp), B Tarsus the Bull (Neris, 2,500gp), C Iunia Vex (Brennus, 1,500gp): build each before the hit. Next Order roll
+day 438. Plan B if the Order keeps calling: Neris as Destrio's heir (Arganos names heads on the outgoing head's word; the
+elites are jealous).
+
+**Nethercity:** S3 (the Nasgan priestess, awake and prepared) next; G, R, K4, K1/K2/L, J8, F14/T, F17 open (prep queue).
+**The estate later:** mercenaries, Türos Aster, the Ruined Imperial Fortress 26.19 and the Ionicus estate 27.19 (neither
+built), the deed from Vettius to Brennus, Brennus' barony; a hideout needs an urban settlement (a new domain's town starts
+Class VI).
+
+**Scheduled:** 437 Varro (Lucilla), Hrodvar (Iulia), Vestus' study ends; 438 the Order's roll (5 PCs); 442 weekly rolls
+(Brotherhood, an unprompted betrayer, the Watch, the city's link, the hesitant) and the purge's progress; 443 vault fee;
+444 Aelia (800), Marcellus (Lucilla); 450 month 15 ends (Guildhouse fees, investments, Iulia's report and task roll,
+Vestus' dues, the month's takes as above); 451 Cotta (50gp; Explorer 3: wage review), selling day (identify the new magic
+first: L502, L506, L510, L517, L518, L525, L528-L530, L554; L509 the iron mask stays in the vault).
+
