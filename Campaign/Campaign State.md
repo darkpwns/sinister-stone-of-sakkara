@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 23
+session: 24
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A88 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 442
-  time: '18:47'
+    day: 446
+  time: '10:47'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 41
+    hp: 42
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,15 +27,15 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 10.539
+    encumbrance_st: 11.097
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 26
+    hp: 28
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 10.054
+    encumbrance_st: 10.632
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -51,8 +51,10 @@ public:
     hp_max: 20
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
-    spells_used: []
-    encumbrance_st: 4.641
+    spells_used:
+    - Halt Humanoids
+    - Halt Humanoids
+    encumbrance_st: 5.219
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -66,7 +68,7 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 37
+    hp: 39
     hp_max: 39
     conditions:
     - minor scarring (puncture wound)
@@ -84,7 +86,7 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 20
+    hp: 25
     hp_max: 25
     conditions: []
     spells_used: []
@@ -100,7 +102,7 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 39
+    hp: 40
     hp_max: 40
     conditions: []
     spells_used: []
@@ -111,8 +113,9 @@ public:
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used: []
-    encumbrance_st: 7.052
+    spells_used:
+    - Slumber
+    encumbrance_st: 7.345
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -154,7 +157,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 442
+clock_day: 446
 ---
 # Campaign State
 

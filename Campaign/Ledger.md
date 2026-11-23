@@ -425,6 +425,7 @@ tags:
 | 440 | Descent 57 (S3, the priestess's tomb) | ten red-figure terracotta urns | 100 | vestus-the-unlikely |
 | 440 | Descent 57 (S3, the priestess's tomb) | a large bronze scroll jar | 25 | vettius |
 | 440 | Descent 57 (S3, the priestess's tomb) | four illuminated religious texts in Ancient Argollean | 2,700 | vettius |
+| 446 | The Order's contract: Sextus Calvo (night of 444) | reward 2000.0gp | 2,000 | lucilla |
 
 ## Monster XP
 
@@ -547,6 +548,7 @@ tags:
 | 441 | Descent 58 (I13, the shaman) | Tunnel Prawn (SOTN) | 8 | 10 | 80 |
 | 441 | Descent 58 (I13, the shaman) | Insect Swarm | 1 | 29 | 29 |
 | 441 | Descent 58 (I13, the shaman) | Sage Slime | 1 | 56 | 56 |
+| 446 | The Order's contract: Sextus Calvo (night of 444) | Sextus Calvo | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -1160,6 +1162,10 @@ tags:
 | 441 | Descent 58 (I13, the shaman) | Aelia | 0.5 | 0 | 9 | 0 | +0% | 9 |
 | 441 | Descent 58 (I13, the shaman) | Marcellus | 0.5 | 0 | 9 | 0 | +0% | 9 |
 | 441 | Descent 58 (I13, the shaman) | Cotta | 0.5 | 0 | 9 | 0 | +0% | 9 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 446 | The Order's contract: Sextus Calvo (night of 444) | Lucilla | 1 | 571 | 23 | 0 | +10% | 653 |
+| 446 | The Order's contract: Sextus Calvo (night of 444) | Vettius | 1 | 571 | 23 | 0 | +5% | 624 |
+| 446 | The Order's contract: Sextus Calvo (night of 444) | Neris | 1 | 571 | 23 | 0 | +0% | 594 |
+| 446 | The Order's contract: Sextus Calvo (night of 444) | Phaedra | 0.5 | 286 | 11 | 0 | +0% | 297 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3356,3 +3362,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 441 |  | treasure share |  |  |  |  |
 | 441 |  | treasure share |  |  |  |  |
 | 441 |  | treasure share |  |  |  |  |
+| 443 | the Grey Sisters' vault | vault fee, two months (to day 503), day 443 |  |  | 20gp | lucilla |
+| 444 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 444 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 446 |  | treasure share |  | 571gp 4sp 3cp |  | lucilla |
+| 446 |  | treasure share |  | 571gp 4sp 3cp |  | vettius |
+| 446 |  | treasure share |  | 571gp 4sp 3cp |  | neris |
+| 446 |  | treasure share |  | 285gp 7sp 1cp |  | phaedra |
