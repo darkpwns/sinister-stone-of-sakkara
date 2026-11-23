@@ -34,3 +34,4 @@ tags:
 - [[S23 — A Wagging Tongue]]
 - [[S24 — The Seven-Spoked Wheel]]
 - [[S25 — Accounts Paid]]
+- [[S26 — The Serpent's Sanctum]]

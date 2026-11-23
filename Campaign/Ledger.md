@@ -450,6 +450,47 @@ tags:
 | 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
 | 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
 | 455 | Descent 59 (G9, the enchantress) | Charcoal of Phantasms | 1 | aelia |
+| 457 | Descent 60 (G16, the sanctum) | a gold tripod with an ivory censer | 2,500 | vettius |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | gem worth 250.0gp | 250 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | an ivory-and-ebony casket | 0 (worth less than 1sp per stone) | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | a giant roc plume in dried lotus leaves | 100 | cotta |
+| 457 | Descent 60 (G16, the sanctum) | a giant roc plume in dried lotus leaves | 100 | cotta |
+| 457 | Descent 60 (G16, the sanctum) | a giant roc plume in dried lotus leaves | 100 | cotta |
+| 457 | Descent 60 (G16, the sanctum) | a giant roc plume in dried lotus leaves | 100 | cotta |
+| 457 | Descent 60 (G16, the sanctum) | a giant roc plume in dried lotus leaves | 100 | cotta |
+| 457 | Descent 60 (G16, the sanctum) | jewelry worth 2500.0gp | 2,500 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | jewelry worth 5000.0gp | 5,000 | lucilla |
+| 457 | Descent 60 (G16, the sanctum) | six bars of pure gold | 996 | neris |
+| 457 | Descent 60 (G16, the sanctum) | six bars of pure gold | 996 | neris |
+| 457 | Descent 60 (G16, the sanctum) | six bars of pure gold | 996 | vestus-the-unlikely |
+| 457 | Descent 60 (G16, the sanctum) | six bars of pure gold | 996 | vestus-the-unlikely |
+| 457 | Descent 60 (G16, the sanctum) | six bars of pure gold | 996 | vettius |
+| 457 | Descent 60 (G16, the sanctum) | six bars of pure gold | 996 | brennus |
+| 457 | Descent 60 (G16, the sanctum) | gold from the shattered statue | 2,000 | iulia |
+| 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | phaedra |
+| 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | varro |
+| 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | hrodvar |
+| 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | aelia |
+| 457 | Descent 60 (G16, the sanctum) | ivory from the shattered statue | 200 | marcellus |
 
 ## Monster XP
 
@@ -580,6 +621,8 @@ tags:
 | 455 | The Order's contract: Titus Varenus (night of 453) | Titus Varenus | 1 | 20 | 20 |
 | 455 | Descent 59 (G9, the enchantress) | Mummy | 1 | 660 | 660 |
 | 455 | Descent 59 (G9, the enchantress) | Grand Chthonic Enchantress (SOTN) | 1 | 1,580 | 1,580 |
+| 457 | Descent 60 (G16, the sanctum) | Tunnel Prawn (SOTN) | 2 | 10 | 20 |
+| 457 | Descent 60 (G16, the sanctum) | Anim. Chryselephantine Statue | 1 | 1,100 | 1,100 |
 
 ## Shares and XP awarded
 
@@ -1222,6 +1265,18 @@ tags:
 | 455 | Descent 59 (G9, the enchantress) | Aelia | 0.5 | 292 | 124 | 0 | +0% | 416 |
 | 455 | Descent 59 (G9, the enchantress) | Marcellus | 0.5 | 292 | 124 | 0 | +0% | 416 |
 | 455 | Descent 59 (G9, the enchantress) | Cotta | 0.5 | 292 | 124 | 0 | +0% | 416 | (src: RR p. 310 xp.magic_item_basis; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 457 | Descent 60 (G16, the sanctum) | Lucilla | 1 | 2,720 | 124 | 0 | +10% | 3,128 |
+| 457 | Descent 60 (G16, the sanctum) | Vettius | 1 | 2,720 | 124 | 0 | +5% | 2,986 |
+| 457 | Descent 60 (G16, the sanctum) | Vestus the Unlikely | 1 | 2,720 | 124 | 0 | +5% | 2,986 |
+| 457 | Descent 60 (G16, the sanctum) | Neris | 1 | 2,720 | 124 | 0 | +0% | 2,844 |
+| 457 | Descent 60 (G16, the sanctum) | Brennus | 1 | 2,720 | 124 | 0 | +5% | 2,986 |
+| 457 | Descent 60 (G16, the sanctum) | Iulia | 1 | 2,720 | 124 | 0 | +5% | 2,986 |
+| 457 | Descent 60 (G16, the sanctum) | Phaedra | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
+| 457 | Descent 60 (G16, the sanctum) | Varro | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
+| 457 | Descent 60 (G16, the sanctum) | Hrodvar | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
+| 457 | Descent 60 (G16, the sanctum) | Aelia | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
+| 457 | Descent 60 (G16, the sanctum) | Marcellus | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 |
+| 457 | Descent 60 (G16, the sanctum) | Cotta | 0.5 | 1,360 | 62 | 0 | +0% | 1,422 | (src: RR p. 310 xp.treasure_min_sp_per_stone; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3496,3 +3551,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 455 |  | treasure share |  | 22gp 2sp 2cp |  | aelia |
 | 455 |  | treasure share |  | 22gp 2sp 2cp |  | marcellus |
 | 455 |  | treasure share |  | 22gp 2sp 2cp |  | cotta |
+| 457 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 457 | Cyfaraun | torch | 6 |  | 1sp | varro |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |
+| 457 |  | treasure share |  |  |  |  |

@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 25
+session: 26
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A88 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 456
-  time: '18:52'
+    day: 457
+  time: '16:42'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.463
+    encumbrance_st: 9.418
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,15 +35,16 @@ public:
     hp_max: 28
     conditions: []
     spells_used: []
-    encumbrance_st: 10.147
+    encumbrance_st: 10.103
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used: []
-    encumbrance_st: 4.86
+    spells_used:
+    - Fireball
+    encumbrance_st: 4.816
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -52,18 +53,20 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used: []
-    encumbrance_st: 4.734
+    spells_used:
+    - Discern Magic
+    - Holy Blessing
+    encumbrance_st: 4.69
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 23
+    hp: 26
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.435
+    encumbrance_st: 10.391
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -72,7 +75,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 10.192
+    encumbrance_st: 10.148
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -81,7 +84,7 @@ public:
     conditions:
     - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
     spells_used: []
-    encumbrance_st: 10.292
+    encumbrance_st: 10.27
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -89,7 +92,7 @@ public:
     hp_max: 25
     conditions: []
     spells_used: []
-    encumbrance_st: 10.676
+    encumbrance_st: 11.653
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -97,33 +100,34 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 6.429
+    encumbrance_st: 6.407
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 28
+    hp: 31
     hp_max: 40
     conditions: []
     spells_used: []
-    encumbrance_st: 11.773
+    encumbrance_st: 11.084
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 19
-    hp_max: 19
+    hp: 20
+    hp_max: 20
     conditions: []
-    spells_used: []
-    encumbrance_st: 7.112
+    spells_used:
+    - Fan of Flames
+    encumbrance_st: 7.09
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
-    hp: 10
-    hp_max: 10
+    hp: 13
+    hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 5.835
+    encumbrance_st: 5.813
   light: lantern (Vettius) out; torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (Marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (Marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (Marcellus) out; torch (Lucilla) out; torch (Aelia)
-    out; torch (Lucilla) out; torch (Varro) out
+    out; torch (Lucilla) out; torch (Varro) out; torch (Marcellus) out
   rations: 'Vettius: food 0 d, water 0 d; Neris: food 0 d, water 0.2 d; Iulia: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodvar: food 0 d, water 0 d; Brennus: food 0 d, water 0 d; Phaedra: food 0 d, water 0 d; Marcellus: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Cotta: food 0 d, water 0 d; Lucilla: food 0 d, water 0 d; Aelia: food 0 d, water 0 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -155,7 +159,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 456
+clock_day: 457
 ---
 # Campaign State
 
