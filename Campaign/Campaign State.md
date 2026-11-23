@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 510
-  time: '23:30'
+    day: 511
+  time: 07:30
   weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; drizzle; wind gentle (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -35,7 +35,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.994
+    encumbrance_st: 9.844
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -64,7 +64,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 10.46
+    encumbrance_st: 11.06
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -73,7 +73,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 9.611
+    encumbrance_st: 9.736
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -88,10 +88,8 @@ public:
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used:
-    - Slumber
-    - Slumber
-    encumbrance_st: 6.182
+    spells_used: []
+    encumbrance_st: 6.482
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -133,7 +131,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 510
+clock_day: 511
 ---
 # Campaign State
 

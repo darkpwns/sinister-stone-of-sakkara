@@ -596,6 +596,33 @@
    "base": null,
    "note": null,
    "judge": true
+  },
+  "scroll of restore life and limb and cure major injury (divine, auran)": {
+   "name": "scroll of Restore Life and Limb and Cure Major Injury (divine, Auran)",
+   "items_each": 0,
+   "stone_each": "0",
+   "value_cp": 900000,
+   "base": null,
+   "note": "written to order from market stock H120 (Spell Scroll, 8 levels), Rulings S32",
+   "judge": true
+  },
+  "scroll of restore life and limb and holy blessing (divine, auran)": {
+   "name": "scroll of Restore Life and Limb and Holy Blessing (divine, Auran)",
+   "items_each": 0,
+   "stone_each": "0",
+   "value_cp": 787500,
+   "base": null,
+   "note": "written to order from market stock H117 (Spell Scroll, 7 levels), Rulings S32",
+   "judge": true
+  },
+  "potion of delay poison": {
+   "name": "potion of Delay Poison",
+   "items_each": 0,
+   "stone_each": "0",
+   "value_cp": 225000,
+   "base": null,
+   "note": "bought from market stock H110 (TT p. 32)",
+   "judge": true
   }
  },
  "log": [
@@ -96546,6 +96573,210 @@
    "price_cp": 20000,
    "cmd": "inv wages",
    "n": 4861
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 600
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4862
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 600
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4863
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 300
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 4864
+  },
+  {
+   "op": "give",
+   "cause": "neris withdraws for a scroll of Restore Life and Limb (day 511)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -9000
+    },
+    {
+     "who": "neris",
+     "gp": 9000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4865
+  },
+  {
+   "op": "give",
+   "cause": "iulia withdraws for a scroll of Restore Life and Limb (day 511)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -8000
+    },
+    {
+     "who": "iulia",
+     "gp": 8000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4866
+  },
+  {
+   "op": "give",
+   "cause": "vettius withdraws for a potion of Delay Poison (day 511)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1500
+    },
+    {
+     "who": "vettius",
+     "gp": 1500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 4867
+  },
+  {
+   "op": "pay",
+   "cause": "a divine scroll of Restore Life and Limb and Cure Major Injury (8 levels; 225% of 4,000gp base, Rulings S11, S32)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -9000
+    }
+   ],
+   "to": "the Keepers' scriptorium (market stock H120)",
+   "price_cp": 900000,
+   "cmd": "inv pay",
+   "n": 4868
+  },
+  {
+   "op": "pay",
+   "cause": "a divine scroll of Restore Life and Limb and Holy Blessing (7 levels; 225% of 3,500gp base, Rulings S11, S32)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "iulia",
+     "gp": -7875
+    }
+   ],
+   "to": "the Solar Citadel's scriptorium (market stock H117)",
+   "price_cp": 787500,
+   "cmd": "inv pay",
+   "n": 4869
+  },
+  {
+   "op": "pay",
+   "cause": "a Potion of Delay Poison (225% of 1,000gp base, TT p. 27)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -2250
+    }
+   ],
+   "to": "the Tower's alchemist (market stock H110)",
+   "price_cp": 225000,
+   "cmd": "inv pay",
+   "n": 4870
+  },
+  {
+   "op": "add",
+   "cause": "bought day 511 (H120)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "scroll of restore life and limb and cure major injury (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4871
+  },
+  {
+   "op": "add",
+   "cause": "bought day 511 (H117)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [
+    {
+     "who": "iulia",
+     "item": "scroll of restore life and limb and holy blessing (divine, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4872
+  },
+  {
+   "op": "add",
+   "cause": "bought day 511 (H110)",
+   "day": 511,
+   "time": "day 511 07:30",
+   "deltas": [
+    {
+     "who": "vettius",
+     "item": "potion of delay poison",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 4873
   }
  ],
  "holdings": {
@@ -96604,7 +96835,8 @@
     "copper-painted key": 1,
     "gold-painted key": 1,
     "holy symbol": 1,
-    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
+    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
+    "potion of delay poison": 1
    },
    "belt": {
     "#w52": 1,
@@ -96812,7 +97044,8 @@
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
     "holy water (1 pint)": 2,
     "scroll of neutralize poison (divine, auran)": 1,
-    "scroll of delay poison (divine, auran)": 1
+    "scroll of delay poison (divine, auran)": 1,
+    "scroll of restore life and limb and cure major injury (divine, auran)": 1
    },
    "right_hand": {
     "holy symbol": 1
@@ -96918,7 +97151,8 @@
    "backpack": {
     "waterskin": 4,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
-    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1
+    "scroll of neutralize poison x2 and cure light injury (divine, auran)": 1,
+    "scroll of restore life and limb and holy blessing (divine, auran)": 1
    },
    "right_hand": {
     "#w60": 1
@@ -97323,7 +97557,6 @@
    "cp": 3
   },
   "vettius": {
-   "gp": 150,
    "sp": 245,
    "cp": 266
   },
@@ -97393,12 +97626,12 @@
   },
   "iulia": {
    "sp": 6,
-   "gp": 150,
+   "gp": 275,
    "cp": 288
   },
   "brennus": {
    "sp": 299,
-   "gp": 150,
+   "gp": 750,
    "cp": 344
   },
   "quirinus": {
@@ -97408,7 +97641,7 @@
   },
   "phaedra": {
    "sp": 254,
-   "gp": 150,
+   "gp": 450,
    "cp": 278
   },
   "varro": {
@@ -97447,7 +97680,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 651439,
+   "gp": 632939,
    "cp": 2
   },
   "calpurnia": {

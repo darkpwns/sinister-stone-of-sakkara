@@ -562,6 +562,7 @@ tags:
 | 506 | Descent 70 (R: the prince and princess) | eight terracotta canopic jars of embalmed organs | 200 | vestus-the-unlikely |
 | 506 | Descent 70 (R: the prince and princess) | SOTN Prince's Spellbook | 100 | vestus-the-unlikely |
 | 506 | Descent 70 (R: the prince and princess) | SOTN Princess's Spellbook | 100 | phaedra |
+| 511 | Order contract: Cnaeus Lento (Brennus) | reward 1500.0gp | 1,500 | brennus |
 
 ## Monster XP
 
@@ -736,6 +737,7 @@ tags:
 | 506 | Descent 70 (R: the prince and princess) | Mummy | 1 | 2,600 | 2,600 |
 | 506 | Descent 70 (R: the prince and princess) | Bronze Animated Statue | 4 | 350 | 1,400 |
 | 506 | Descent 70 (R: the prince and princess) | Giant Fly | 4 | 29 | 116 |
+| 511 | Order contract: Cnaeus Lento (Brennus) | Cnaeus Lento | 1 | 50 | 50 |
 
 ## Shares and XP awarded
 
@@ -1513,6 +1515,9 @@ tags:
 | 506 | Descent 70 (R: the prince and princess) | Phaedra | 0.5 | 798 | 464 | 0 | +0% | 1,262 |
 | 506 | Descent 70 (R: the prince and princess) | Aelia | 0.5 | 798 | 464 | 0 | +0% | 1,262 |
 | 506 | Descent 70 (R: the prince and princess) | Cotta | 0.5 | 798 | 464 | 0 | +0% | 1,262 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 511 | Order contract: Cnaeus Lento (Brennus) | Brennus | 1 | 600 | 20 | 0 | +5% | 651 |
+| 511 | Order contract: Cnaeus Lento (Brennus) | Vettius | 1 | 600 | 20 | 0 | +5% | 651 |
+| 511 | Order contract: Cnaeus Lento (Brennus) | Phaedra | 0.5 | 300 | 10 | 0 | +0% | 310 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4117,3 +4122,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 510 | investment 1 (loss) | month 17 investments: (1) 21 Return -150%: a loss of 3gp 4sp 7cp (693gp x 1% x -0.5) |  |  | 3gp 4sp 7cp | lucilla |
 | 510 | the Tower of Knowledge | Vestus' dues, month 17 |  |  | 10gp | vestus-the-unlikely |
 | 510 | the retinue | wages paid |  |  | 200gp | vettius |
+| 511 |  | treasure share |  | 600gp |  | brennus |
+| 511 |  | treasure share |  | 600gp |  | vettius |
+| 511 |  | treasure share |  | 300gp |  | phaedra |
+| 511 | the Keepers' scriptorium (market stock H120) | a divine scroll of Restore Life and Limb and Cure Major Injury (8 levels; 225% of 4,000gp base, Rulings S11, S32) |  |  | 9,000gp | neris |
+| 511 | the Solar Citadel's scriptorium (market stock H117) | a divine scroll of Restore Life and Limb and Holy Blessing (7 levels; 225% of 3,500gp base, Rulings S11, S32) |  |  | 7,875gp | iulia |
+| 511 | the Tower's alchemist (market stock H110) | a Potion of Delay Poison (225% of 1,000gp base, TT p. 27) |  |  | 2,250gp | vettius |

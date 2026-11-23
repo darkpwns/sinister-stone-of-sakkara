@@ -2,8 +2,8 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 115,
-  "L": 724,
-  "H": 100,
+  "L": 725,
+  "H": 137,
   "M": 233
  },
  "adventure": {
@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 113553,
     "level_before": 7,
     "class": "Fighter",
-    "joined_day": 510
+    "joined_day": 510,
+    "returned_day": 511,
+    "xp_award": 651
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 154819,
     "level_before": 8,
     "class": "Thief",
-    "joined_day": 510
+    "joined_day": 510,
+    "returned_day": 511,
+    "xp_award": 651
    },
    "phaedra": {
     "id": "phaedra",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 46806,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 510
+    "joined_day": 510,
+    "returned_day": 511,
+    "xp_award": 310
    }
   },
   "monsters": [
@@ -74,9 +80,56 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 511,
+   "at": "Cyfaraun",
+   "total": 1550.0,
+   "per_share": 620.0,
+   "awards": {
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 620,
+     "pct": 5,
+     "pen": 0,
+     "award": 651,
+     "xp_before": 113553,
+     "xp_after": 114204,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 620,
+     "pct": 5,
+     "pen": 0,
+     "award": 651,
+     "xp_before": 154819,
+     "xp_after": 155470,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 310,
+     "pct": 0,
+     "pen": 0,
+     "award": 310,
+     "xp_before": 46806,
+     "xp_after": 47116,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 511,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -68808,6 +68861,39 @@
    "used": false,
    "sold": null,
    "judge": []
+  },
+  "L725": {
+   "id": "L725",
+   "adventure": "A115",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "brennus",
+   "status": "divided",
+   "found": {
+    "day": 511,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0,
+    "name": "reward 1500.0gp"
+   },
+   "player": {
+    "desc": "reward of 1500.0gp",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 511
   }
  },
  "hoards": {
@@ -73956,6 +74042,2082 @@
     "setting": null
    },
    "found": false
+  },
+  "H101": {
+   "id": "H101",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-potions-1",
+      "refs": [
+       {
+        "table": "uncommon-potions-1",
+        "title": "Uncommon Potions 1",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-uncommon-potions-1",
+        "book": "TT",
+        "page": "pp. 33-34",
+        "row": 25
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "momentary ringing in ears when tasted",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Clairaudiency",
+      "note": null,
+      "spell": "Clairaudiency",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Arcane 3, Divine 3",
+      "base_gp": 1500,
+      "base_cost_text": "500gp x level 3 (Arcane 3, Divine 3; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (momentary ringing in ears when tasted)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H102": {
+   "id": "H102",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-3",
+      "refs": [
+       {
+        "table": "common-potions-3",
+        "title": "Common Potions 3",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-3",
+        "book": "TT",
+        "page": "p. 33",
+        "row": 3
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "pale violet",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Homicidal Homage",
+      "note": "ACKS II Rules/Magic Items/Potions/Potion of Homicidal Homage.md",
+      "category": "Potion",
+      "base_cost_text": "500gp: Single charge 1st level effect",
+      "apparent_text": "25gp",
+      "base_gp": 500,
+      "apparent_gp": 25,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a potion (pale violet)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H103": {
+   "id": "H103",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-potions-2",
+      "refs": [
+       {
+        "table": "uncommon-potions-2",
+        "title": "Uncommon Potions 2",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-uncommon-potions-2",
+        "book": "TT",
+        "page": "p. 34",
+        "row": 2
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "dark green, incredibly strong musk",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Dire Skinchanging",
+      "note": "ACKS II Rules/Magic Items/Potions/Potion of Dire Skinchanging.md",
+      "category": "Potion",
+      "base_cost_text": "3,000gp: Single charge 6th level effect",
+      "apparent_text": "25gp",
+      "base_gp": 3000,
+      "apparent_gp": 25,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a potion (dark green, incredibly strong musk)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H104": {
+   "id": "H104",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-1",
+      "refs": [
+       {
+        "table": "common-potions-1",
+        "title": "Common Potions 1",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-1",
+        "book": "TT",
+        "page": "p. 32",
+        "row": 6
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "mustard-yellow oil, highly viscous",
+      "magical": true,
+      "judge": [],
+      "name": "Oil of Sealing",
+      "note": "ACKS II Rules/Magic Items/Potions/Oil of Sealing.md",
+      "category": "Potion",
+      "base_cost_text": "500gp: Single charge Seal Portal 1st level esoteric effect",
+      "apparent_text": "25gp",
+      "base_gp": 500,
+      "apparent_gp": 25,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a potion (mustard-yellow oil, highly viscous)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H105": {
+   "id": "H105",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-2",
+      "refs": [
+       {
+        "table": "common-potions-2",
+        "title": "Common Potions 2",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-2",
+        "book": "TT",
+        "page": "p. 32",
+        "row": 10
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "bright purple, smell of mint",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Discern Magic",
+      "note": null,
+      "spell": "Discern Magic",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Arcane 1, Divine 1",
+      "base_gp": 500,
+      "base_cost_text": "500gp x level 1 (Arcane 1, Divine 1; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (bright purple, smell of mint)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H106": {
+   "id": "H106",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-potions-1",
+      "refs": [
+       {
+        "table": "uncommon-potions-1",
+        "title": "Uncommon Potions 1",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-uncommon-potions-1",
+        "book": "TT",
+        "page": "pp. 33-34",
+        "row": 31
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "vivid red, strong taste of onion",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Cure Disease",
+      "note": null,
+      "spell": "Cure Disease",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Divine 3",
+      "base_gp": 1500,
+      "base_cost_text": "500gp x level 3 (Divine 3; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (vivid red, strong taste of onion)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H107": {
+   "id": "H107",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-2",
+      "refs": [
+       {
+        "table": "common-potions-2",
+        "title": "Common Potions 2",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-2",
+        "book": "TT",
+        "page": "p. 32",
+        "row": 10
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "bright purple, smell of mint",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Discern Magic",
+      "note": null,
+      "spell": "Discern Magic",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Arcane 1, Divine 1",
+      "base_gp": 500,
+      "base_cost_text": "500gp x level 1 (Arcane 1, Divine 1; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (bright purple, smell of mint)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H108": {
+   "id": "H108",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-2",
+      "refs": [
+       {
+        "table": "common-potions-2",
+        "title": "Common Potions 2",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-2",
+        "book": "TT",
+        "page": "p. 32",
+        "row": 15
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "clear, light blue at center",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Freezing",
+      "note": "ACKS II Rules/Magic Items/Potions/Potion of Freezing.md",
+      "category": "Potion",
+      "base_cost_text": "500gp: Single charge Ice Floe 1st level effect",
+      "apparent_text": "25gp",
+      "base_gp": 500,
+      "apparent_gp": 25,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a potion (clear, light blue at center)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H109": {
+   "id": "H109",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-potions-3",
+      "refs": [
+       {
+        "table": "uncommon-potions-3",
+        "title": "Uncommon Potions 3",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-uncommon-potions-3",
+        "book": "TT",
+        "page": "p. 35",
+        "row": 15
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "silver-gold iridescence",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Swift Sword, Sustained",
+      "note": null,
+      "spell": "Swift Sword, Sustained",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Divine 3",
+      "base_gp": 1500,
+      "base_cost_text": "500gp x level 3 (Divine 3; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (silver-gold iridescence)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H110": {
+   "id": "H110",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-2",
+      "refs": [
+       {
+        "table": "common-potions-2",
+        "title": "Common Potions 2",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-2",
+        "book": "TT",
+        "page": "p. 32",
+        "row": 7
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "green and violet emulsion",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Delay Poison",
+      "note": null,
+      "spell": "Delay Poison",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Divine 2",
+      "base_gp": 1000,
+      "base_cost_text": "500gp x level 2 (Divine 2; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (green and violet emulsion)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false,
+   "status": "bought",
+   "bought": "day 511 by Vettius (S33): the potion, 2,250gp"
+  },
+  "H111": {
+   "id": "H111",
+   "label": "Cyfaraun market stock month 18: Potion",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-potions-3",
+      "refs": [
+       {
+        "table": "common-potions-3",
+        "title": "Common Potions 3",
+        "note": "ACKS II Rules/Treasure/Potion Subtables.md",
+        "block": "^tbl-common-potions-3",
+        "book": "TT",
+        "page": "p. 33",
+        "row": 4
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": "orange tint, smell of burning fat",
+      "magical": true,
+      "judge": [],
+      "name": "Potion of Leaping",
+      "note": null,
+      "spell": "Leaping",
+      "category": "Potion",
+      "apparent_gp": 25,
+      "apparent_text": "25gp (unidentified potions)",
+      "obviously_magical": false,
+      "spell_level_text": "Arcane 1",
+      "base_gp": 500,
+      "base_cost_text": "500gp x level 1 (Arcane 1; spell note)",
+      "stone": 0.16666666666666666,
+      "looks": "a potion (orange tint, smell of burning fat)",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H112": {
+   "id": "H112",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 0
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Creature Warding",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Scroll of Creature Warding.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp: Single charge 1st level effect",
+      "apparent_text": "150gp",
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H113": {
+   "id": "H113",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 1
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (1 level)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 1,
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H114": {
+   "id": "H114",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-scrolls",
+      "refs": [
+       {
+        "table": "uncommon-scrolls",
+        "title": "Uncommon Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-uncommon-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 3
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Scroll of Mapping",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Scroll of Mapping.md",
+      "category": "Scroll",
+      "base_cost_text": "2,000gp: Single charge 4th level effect",
+      "apparent_text": "150gp",
+      "base_gp": 2000,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H115": {
+   "id": "H115",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-scrolls",
+      "refs": [
+       {
+        "table": "uncommon-scrolls",
+        "title": "Uncommon Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-uncommon-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 6
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (4 levels)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 4,
+      "base_gp": 2000,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H116": {
+   "id": "H116",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 1
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (1 level)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 1,
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H117": {
+   "id": "H117",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-scrolls",
+      "refs": [
+       {
+        "table": "uncommon-scrolls",
+        "title": "Uncommon Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-uncommon-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 9
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (7 levels)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 7,
+      "base_gp": 3500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false,
+   "status": "bought",
+   "bought": "day 511 by Iulia (S33): Restore Life and Limb + Holy Blessing written to order, Rulings S32"
+  },
+  "H118": {
+   "id": "H118",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-scrolls",
+      "refs": [
+       {
+        "table": "uncommon-scrolls",
+        "title": "Uncommon Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-uncommon-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 5
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (3 levels)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 3,
+      "base_gp": 1500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H119": {
+   "id": "H119",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "very rare",
+      "subtable": "very-rare-scrolls",
+      "refs": [
+       {
+        "table": "very-rare-scrolls",
+        "title": "Very Rare Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-very-rare-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 3
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type Q,N: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type Q,N)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "Q,N",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H120": {
+   "id": "H120",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-scrolls",
+      "refs": [
+       {
+        "table": "uncommon-scrolls",
+        "title": "Uncommon Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-uncommon-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 10
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (8 levels)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 8,
+      "base_gp": 4000,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false,
+   "status": "bought",
+   "bought": "day 511 by Neris (S33): Restore Life and Limb + Cure Major Injury written to order, Rulings S32"
+  },
+  "H121": {
+   "id": "H121",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 3
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type B: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type B)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "B",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H122": {
+   "id": "H122",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 1
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (1 level)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 1,
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H123": {
+   "id": "H123",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "rare",
+      "subtable": "rare-scrolls",
+      "refs": [
+       {
+        "table": "rare-scrolls",
+        "title": "Rare Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-rare-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 10
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type Q: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type Q)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "Q",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H124": {
+   "id": "H124",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 0
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Creature Warding",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Scroll of Creature Warding.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp: Single charge 1st level effect",
+      "apparent_text": "150gp",
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H125": {
+   "id": "H125",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-scrolls",
+      "refs": [
+       {
+        "table": "uncommon-scrolls",
+        "title": "Uncommon Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-uncommon-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 0
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": true,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Cursed Scroll",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Cursed Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "1,500gp: Single charge Bestow Curse 3rd level effect",
+      "apparent_text": "150gp",
+      "base_gp": 1500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H126": {
+   "id": "H126",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 1
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (1 level)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 1,
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H127": {
+   "id": "H127",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "rare",
+      "subtable": "rare-scrolls",
+      "refs": [
+       {
+        "table": "rare-scrolls",
+        "title": "Rare Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-rare-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 8
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type H: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type H)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "H",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H128": {
+   "id": "H128",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "very rare",
+      "subtable": "very-rare-scrolls",
+      "refs": [
+       {
+        "table": "very-rare-scrolls",
+        "title": "Very Rare Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-very-rare-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 3
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type Q,N: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type Q,N)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "Q,N",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H129": {
+   "id": "H129",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 0
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Creature Warding",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Scroll of Creature Warding.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp: Single charge 1st level effect",
+      "apparent_text": "150gp",
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H130": {
+   "id": "H130",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "rare",
+      "subtable": "rare-scrolls",
+      "refs": [
+       {
+        "table": "rare-scrolls",
+        "title": "Rare Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-rare-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 9
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type N: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type N)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "N",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H131": {
+   "id": "H131",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "rare",
+      "subtable": "rare-scrolls",
+      "refs": [
+       {
+        "table": "rare-scrolls",
+        "title": "Rare Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-rare-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 10
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "treasure map to Treasure Type Q: where it leads and the hoard are the Judge's (Treasure Map note)",
+       "base cost has variants or qualifiers: n/a"
+      ],
+      "name": "Treasure Map (Treasure Type Q)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Treasure Map.md",
+      "category": "Scroll",
+      "base_cost_text": "n/a",
+      "apparent_text": "150gp",
+      "map_to": "Q",
+      "base_gp": null,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H132": {
+   "id": "H132",
+   "label": "Cyfaraun market stock month 18: Scroll",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "common",
+      "subtable": "common-scrolls",
+      "refs": [
+       {
+        "table": "common-scrolls",
+        "title": "Common Scrolls",
+        "note": "ACKS II Rules/Treasure/Scroll Subtables.md",
+        "block": "^tbl-common-scrolls",
+        "book": "TT",
+        "page": "p. 37",
+        "row": 1
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "spell scroll: which spells (arcane or divine list) - the Judge rolls them per the Spell Scroll note"
+      ],
+      "name": "Spell Scroll (1 level)",
+      "note": "ACKS II Rules/Magic Items/Scrolls/Spell Scroll.md",
+      "category": "Scroll",
+      "base_cost_text": "500gp per spell level",
+      "apparent_text": "150gp",
+      "spell_levels": 1,
+      "base_gp": 500,
+      "apparent_gp": 150,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a scroll",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H133": {
+   "id": "H133",
+   "label": "Cyfaraun market stock month 18: Implement",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "very rare",
+      "subtable": "very-rare-implements-2",
+      "refs": [
+       {
+        "table": "very-rare-implements-2",
+        "title": "Very Rare Implements 2",
+        "note": "ACKS II Rules/Treasure/Implement Subtables.md",
+        "block": "^tbl-very-rare-implements-2",
+        "book": "TT",
+        "page": "p. 38",
+        "row": 36
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Wand of Fireballs",
+      "note": "ACKS II Rules/Magic Items/Implements/Wand of Fireballs.md",
+      "category": "Implement",
+      "base_cost_text": "30,000gp: 20 charges Fireball 3rd level effect",
+      "apparent_text": "24gp",
+      "base_gp": 30000,
+      "apparent_gp": 24,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a wand",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H134": {
+   "id": "H134",
+   "label": "Cyfaraun market stock month 18: Implement",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "very rare",
+      "subtable": "very-rare-implements-2",
+      "refs": [
+       {
+        "table": "very-rare-implements-2",
+        "title": "Very Rare Implements 2",
+        "note": "ACKS II Rules/Treasure/Implement Subtables.md",
+        "block": "^tbl-very-rare-implements-2",
+        "book": "TT",
+        "page": "p. 38",
+        "row": 11
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": "D",
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Staff of the Wandering Goblin",
+      "note": "ACKS II Rules/Magic Items/Implements/Staff of the Wandering Goblin.md",
+      "category": "Implement",
+      "base_cost_text": "82,125gp: Staff +1 5,000gp; Permanent (turn/level) 1st level effect 19,000gp; 30 charges choice of Delay Poison 2nd level esoteric effect, recharge 2nd level effect, (6/4 =) 1.5th level esoteric effect, Cause Fear 1st level esoteric effect, Cure Light Injury 1st level effect, Delay Disease 1st level esoteric effect, or 1st level attack effect (smiting) = effective 3.875th level esoteric effect 58,125gp)",
+      "apparent_text": "651gp but obviously magical",
+      "base_gp": 82125,
+      "apparent_gp": 651,
+      "obviously_magical": true,
+      "stone": 0.16666666666666666,
+      "looks": "a staff",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H135": {
+   "id": "H135",
+   "label": "Cyfaraun market stock month 18: Miscellaneous Weapon",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 3,
+      "rarity": "uncommon",
+      "subtable": "uncommon-miscellaneous-weapons",
+      "refs": [
+       {
+        "table": "uncommon-miscellaneous-weapons",
+        "title": "Uncommon Miscellaneous Weapons",
+        "note": "ACKS II Rules/Treasure/Miscellaneous Weapon Tables.md",
+        "block": "^tbl-uncommon-miscellaneous-weapons",
+        "book": "TT",
+        "page": "p. 48",
+        "row": 21
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "base_gp": 250,
+      "category": "Miscellaneous Weapon",
+      "arms_type": "Sling Bullet",
+      "name": "Sling Bullet +1",
+      "note": null,
+      "apparent_gp": 32.5,
+      "apparent_text": "32.5gp each (a magic projectile, TT p. 251)",
+      "generic": true,
+      "ammunition": true,
+      "stone": 0.5,
+      "looks": "3 sling bullets",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H136": {
+   "id": "H136",
+   "label": "Cyfaraun market stock month 18: Sword",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "uncommon",
+      "subtable": "uncommon-swords",
+      "refs": [
+       {
+        "table": "uncommon-swords",
+        "title": "Uncommon Swords",
+        "note": "ACKS II Rules/Treasure/Sword Subtables.md",
+        "block": "^tbl-uncommon-swords",
+        "book": "TT",
+        "page": "p. 46",
+        "row": 7
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [],
+      "name": "Two-Handed Sword +1, Impetuous",
+      "note": "ACKS II Rules/Magic Items/Swords/Two-Handed Sword +1, Impetuous.md",
+      "category": "Sword",
+      "base_cost_text": "2,500gp: Two-handed sword +1 5,000gp; Permanent (1/turn) drawback 1st level effect -25,000gp to max half cost = -2,500gp",
+      "apparent_text": "665gp",
+      "base_gp": 2500,
+      "apparent_gp": 665,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "a two-handed sword",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
+  },
+  "H137": {
+   "id": "H137",
+   "label": "Cyfaraun market stock month 18: Miscellaneous Item",
+   "hoard": {
+    "type": "item",
+    "lots": [
+     {
+      "kind": "item",
+      "qty": 1,
+      "rarity": "very rare",
+      "subtable": "very-rare-miscellaneous-items-1",
+      "refs": [
+       {
+        "table": "very-rare-miscellaneous-items-1",
+        "title": "Very Rare Miscellaneous Items 1",
+        "note": "ACKS II Rules/Treasure/Miscellaneous Item Subtables.md",
+        "block": "^tbl-very-rare-miscellaneous-items-1",
+        "book": "TT",
+        "page": "p. 43",
+        "row": 59
+       },
+       {
+        "table": "encumbrance",
+        "title": "Encumbrance",
+        "note": "ACKS II Rules/05 Equipment/Encumbrance and Equipment.md",
+        "block": "^tbl-encumbrance",
+        "book": "RR",
+        "page": "p. 161",
+        "row": 3
+       }
+      ],
+      "cursed": false,
+      "variants": false,
+      "usable": null,
+      "cue": null,
+      "magical": true,
+      "judge": [
+       "Crystal Ball, Form Falsifying: describe its form to the players (the item's note); the engine shows 'an object' until then (recover --looks)"
+      ],
+      "name": "Crystal Ball, Form Falsifying",
+      "note": "ACKS II Rules/Magic Items/Miscellaneous Items/Crystal Ball, Form Falsifying.md",
+      "category": "Miscellaneous Item",
+      "base_cost_text": "49,000gp: 3/day not more than 1/hour (periodic with cooldown) Scry 4th level esoteric effect 24,000gp; 1/day Guise Self 4th level effect 20,000gp; 1/day 1st level effect 5,000gp",
+      "apparent_text": "600gp",
+      "base_gp": 49000,
+      "apparent_gp": 600,
+      "obviously_magical": false,
+      "stone": 0.16666666666666666,
+      "looks": "an object",
+      "value_known": false
+     }
+    ],
+    "setting": null
+   },
+   "found": false
   }
  },
  "markets": {
@@ -74236,6 +76398,9 @@
  "bought_market": [
   "H74",
   "H75",
-  "H76"
+  "H76",
+  "H120",
+  "H117",
+  "H110"
  ]
 }
