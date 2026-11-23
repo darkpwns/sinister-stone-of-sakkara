@@ -547,6 +547,10 @@ tags:
 | 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | phaedra |
 | 496 | Descent 67 (L: the queen's caves) | grave goods of the queen's cave (eighteen niches) | 97 | aelia |
 | 497 | Descent 68 (L13: the panel) | eight anatomical drawings on old vellum (chameleon, chimera, gorilla, griffin, hippogriff, hydra, lizardman, scorpion) | 2,000 | neris |
+| 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | brennus |
+| 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | lucilla |
+| 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | iulia |
+| 499 | Descent 69 (K: the hero tomb) | four curved bronze short swords of fine elven make | 2,600 | cotta |
 
 ## Monster XP
 
@@ -714,6 +718,8 @@ tags:
 | 496 | Descent 67 (L: the queen's caves) | Giant Fly | 2 | 29 | 58 |
 | 497 | Descent 68 (L13: the panel) | Giant Rat | 10 | 5 | 50 |
 | 497 | Descent 68 (L13: the panel) | Hydropion (SOTN) | 1 | 2,500 | 2,500 |
+| 499 | Descent 69 (K: the hero tomb) | Greater Undead Bone Golem (SOTN) | 4 | 1,600 | 6,400 |
+| 499 | Descent 69 (K: the hero tomb) | Bombardier Beetle | 4 | 20 | 80 |
 
 ## Shares and XP awarded
 
@@ -1472,6 +1478,16 @@ tags:
 | 497 | Descent 68 (L13: the panel) | Hrodvar | 0.5 | 125 | 159 | 0 | +0% | 284 |
 | 497 | Descent 68 (L13: the panel) | Aelia | 0.5 | 125 | 159 | 0 | +0% | 284 |
 | 497 | Descent 68 (L13: the panel) | Cotta | 0.5 | 125 | 159 | 0 | +0% | 284 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 499 | Descent 69 (K: the hero tomb) | Lucilla | 1 | 1,300 | 810 | 0 | +10% | 2,321 |
+| 499 | Descent 69 (K: the hero tomb) | Vettius | 1 | 1,300 | 810 | 0 | +5% | 2,216 |
+| 499 | Descent 69 (K: the hero tomb) | Vestus the Unlikely | 1 | 1,300 | 810 | 0 | +5% | 2,216 |
+| 499 | Descent 69 (K: the hero tomb) | Neris | 1 | 1,300 | 810 | 0 | +0% | 2,110 |
+| 499 | Descent 69 (K: the hero tomb) | Brennus | 1 | 1,300 | 810 | 0 | +5% | 2,216 |
+| 499 | Descent 69 (K: the hero tomb) | Iulia | 1 | 1,300 | 810 | 0 | +5% | 2,216 |
+| 499 | Descent 69 (K: the hero tomb) | Phaedra | 0.5 | 650 | 405 | 0 | +0% | 1,055 |
+| 499 | Descent 69 (K: the hero tomb) | Hrodvar | 0.5 | 650 | 405 | 0 | +0% | 1,055 |
+| 499 | Descent 69 (K: the hero tomb) | Aelia | 0.5 | 650 | 405 | 0 | +0% | 1,055 |
+| 499 | Descent 69 (K: the hero tomb) | Cotta | 0.5 | 650 | 405 | 0 | +0% | 1,055 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4008,3 +4024,23 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | hrodvar |
 | 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | aelia |
 | 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | cotta |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 |  | treasure share |  |  |  |  |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 1,300gp |  | lucilla |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 1,300gp |  | vettius |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 1,300gp |  | vestus-the-unlikely |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 1,300gp |  | neris |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 1,300gp |  | brennus |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 1,300gp |  | iulia |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | phaedra |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | hrodvar |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | aelia |
+| 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | cotta |

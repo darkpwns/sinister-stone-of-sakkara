@@ -1,8 +1,20 @@
 {
  "schema": "acks-combat/3",
- "round": 0,
- "order": [],
- "count_index": null,
+ "round": 4,
+ "order": [
+  "brennus",
+  "neris",
+  "vestus-the-unlikely",
+  "iulia",
+  "cotta",
+  "aelia",
+  "vettius",
+  "lucilla",
+  "bombardier-beetle3",
+  "bombardier-beetle4",
+  "phaedra"
+ ],
+ "count_index": 11,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -16,13 +28,15 @@
    "status": "active",
    "conditions": [],
    "group": "iulia",
-   "perceived": "iulia",
+   "perceived": "Iulia",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    1
+   ],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": null,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -201,16 +215,18 @@
    },
    "actor": "iulia",
    "hp_max": 40,
-   "hp": 14,
-   "hp_start": 14
+   "hp": 39,
+   "hp_start": 40,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "hrodvar": {
    "id": "hrodvar",
    "side": "party",
-   "status": "active",
+   "status": "absent",
    "conditions": [],
    "group": "hrodvar",
-   "perceived": "hrodvar",
+   "perceived": "Hrodvar",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
@@ -278,7 +294,7 @@
       }
      ],
      "CON": [
-      -1,
+      -2,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -286,7 +302,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 2
+       "row": 1
       }
      ],
      "CHA": [
@@ -419,8 +435,8 @@
    },
    "actor": "hrodvar",
    "hp_max": 19,
-   "hp": 11,
-   "hp_start": 11
+   "hp": 13,
+   "hp_start": 13
   },
   "brennus": {
    "id": "brennus",
@@ -428,13 +444,13 @@
    "status": "active",
    "conditions": [],
    "group": "brennus",
-   "perceived": "brennus",
+   "perceived": "Brennus",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -627,8 +643,10 @@
    },
    "actor": "brennus",
    "hp_max": 31,
-   "hp": 13,
-   "hp_start": 13
+   "hp": 24,
+   "hp_start": 24,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "vettius": {
    "id": "vettius",
@@ -636,13 +654,13 @@
    "status": "active",
    "conditions": [],
    "group": "vettius",
-   "perceived": "vettius",
+   "perceived": "Vettius",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": null,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -872,8 +890,10 @@
    },
    "actor": "vettius",
    "hp_max": 22,
-   "hp": 12,
-   "hp_start": 12
+   "hp": 22,
+   "hp_start": 22,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "neris": {
    "id": "neris",
@@ -881,13 +901,13 @@
    "status": "active",
    "conditions": [],
    "group": "neris",
-   "perceived": "neris",
+   "perceived": "Neris",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1130,7 +1150,8 @@
    "actor": "neris",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20
+   "hp_start": 20,
+   "acted_round": 4
   },
   "phaedra": {
    "id": "phaedra",
@@ -1138,13 +1159,13 @@
    "status": "active",
    "conditions": [],
    "group": "phaedra",
-   "perceived": "phaedra",
+   "perceived": "Phaedra",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1344,7 +1365,8 @@
    "actor": "phaedra",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20
+   "hp_start": 20,
+   "acted_round": 4
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -1352,13 +1374,13 @@
    "status": "active",
    "conditions": [],
    "group": "vestus-the-unlikely",
-   "perceived": "vestus-the-unlikely",
+   "perceived": "Vestus the Unlikely",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1536,7 +1558,8 @@
    "actor": "vestus-the-unlikely",
    "hp_max": 18,
    "hp": 18,
-   "hp_start": 18
+   "hp_start": 18,
+   "acted_round": 4
   },
   "cotta": {
    "id": "cotta",
@@ -1544,13 +1567,13 @@
    "status": "active",
    "conditions": [],
    "group": "cotta",
-   "perceived": "cotta",
+   "perceived": "Cotta",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1750,7 +1773,9 @@
    "actor": "cotta",
    "hp_max": 13,
    "hp": 13,
-   "hp_start": 13
+   "hp_start": 13,
+   "attacked_round": 1,
+   "acted_round": 4
   },
   "lucilla": {
    "id": "lucilla",
@@ -1758,15 +1783,17 @@
    "status": "active",
    "conditions": [],
    "group": "lucilla",
-   "perceived": "lucilla",
+   "perceived": "Lucilla",
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    2
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1961,8 +1988,10 @@
    },
    "actor": "lucilla",
    "hp_max": 42,
-   "hp": 11,
-   "hp_start": 11
+   "hp": 33,
+   "hp_start": 37,
+   "attacked_round": 3,
+   "acted_round": 4
   },
   "aelia": {
    "id": "aelia",
@@ -1970,13 +1999,13 @@
    "status": "active",
    "conditions": [],
    "group": "aelia",
-   "perceived": "aelia",
+   "perceived": "Aelia",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2192,7 +2221,267 @@
    "actor": "aelia",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20
+   "hp_start": 20,
+   "acted_round": 4
+  },
+  "bombardier-beetle1": {
+   "id": "bombardier-beetle1",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "bombardier-beetle",
+   "perceived": "a giant beetle with dripping mandibles 1",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2,
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Bombardier Beetle",
+   "stats": {},
+   "monster": {
+    "base": "bombardier-beetle",
+    "sha256": "8b42bc7ce785646d2d2ced215534a89dc3e4e74d083ab9eeb938c3769704c823"
+   },
+   "hp_max": 13,
+   "hp": -3,
+   "hp_start": 13,
+   "attacked_round": 1,
+   "dying": {
+    "within": "turn",
+    "since_round": 4
+   },
+   "mortal_wounds": {
+    "total": 7,
+    "d20": 13,
+    "d6": 5,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "One eye is ruined by a downward slash through the brow ridge (-2 to missile attack throws).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M227",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "bombardier-beetle2": {
+   "id": "bombardier-beetle2",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "bombardier-beetle",
+   "perceived": "a giant beetle with dripping mandibles 2",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2,
+    3,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "vettius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Bombardier Beetle",
+   "stats": {},
+   "monster": {
+    "base": "bombardier-beetle",
+    "sha256": "8b42bc7ce785646d2d2ced215534a89dc3e4e74d083ab9eeb938c3769704c823"
+   },
+   "hp_max": 14,
+   "hp": -2,
+   "hp_start": 14,
+   "attacked_round": 2,
+   "dying": {
+    "within": "day",
+    "since_round": 4
+   },
+   "mortal_wounds": {
+    "total": 14,
+    "d20": 20,
+    "d6": 5,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M227",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "bombardier-beetle3": {
+   "id": "bombardier-beetle3",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 4,
+     "note": null
+    }
+   ],
+   "group": "bombardier-beetle",
+   "perceived": "a giant beetle with dripping mandibles 3",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    4
+   ],
+   "felled": {
+    "round": 4,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "iulia",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Bombardier Beetle",
+   "stats": {},
+   "monster": {
+    "base": "bombardier-beetle",
+    "sha256": "8b42bc7ce785646d2d2ced215534a89dc3e4e74d083ab9eeb938c3769704c823"
+   },
+   "hp_max": 5,
+   "hp": -3,
+   "hp_start": 5,
+   "attacked_round": 3,
+   "mortal_wounds": {
+    "total": -10,
+    "d20": 1,
+    "d6": 3,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "Blood leaking everywhere around your hips reveals the terrible wound in your groin.",
+    "band": "-6 or less"
+   },
+   "xp_recorded": {
+    "record": "M227",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "bombardier-beetle4": {
+   "id": "bombardier-beetle4",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 4,
+     "note": null
+    }
+   ],
+   "group": "bombardier-beetle",
+   "perceived": "a giant beetle with dripping mandibles 4",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    3,
+    4
+   ],
+   "felled": {
+    "round": 4,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "vettius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Bombardier Beetle",
+   "stats": {},
+   "monster": {
+    "base": "bombardier-beetle",
+    "sha256": "8b42bc7ce785646d2d2ced215534a89dc3e4e74d083ab9eeb938c3769704c823"
+   },
+   "hp_max": 12,
+   "hp": -4,
+   "hp_start": 12,
+   "attacked_round": 3,
+   "dying": {
+    "within": "day",
+    "since_round": 4
+   },
+   "mortal_wounds": {
+    "total": 12,
+    "d20": 20,
+    "d6": 5,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M227",
+    "how": "killed",
+    "xp": 20
+   }
   }
  },
  "groups": {
@@ -2315,11 +2604,173 @@
     "triggered": false
    },
    "start_count": 1
+  },
+  "bombardier-beetle": {
+   "side": "foe",
+   "members": [
+    "bombardier-beetle1",
+    "bombardier-beetle2",
+    "bombardier-beetle3",
+    "bombardier-beetle4"
+   ],
+   "morale": {
+    "state": "fight on",
+    "rolls": [
+     {
+      "round": 3,
+      "total": 8,
+      "result": "Fight On",
+      "reason": "1/3 of the group felled (2/4)"
+     }
+    ],
+    "triggered": true,
+    "last_trigger_round": 3,
+    "first_round": 3
+   },
+   "start_count": 4,
+   "felled_rounds": [
+    2,
+    3,
+    4,
+    4
+   ]
   }
  },
  "engaged": [],
- "engaged_at_round_start": [],
- "distances": {},
+ "engaged_at_round_start": [
+  [
+   "bombardier-beetle4",
+   "lucilla"
+  ],
+  [
+   "bombardier-beetle3",
+   "iulia"
+  ],
+  [
+   "bombardier-beetle3",
+   "brennus"
+  ]
+ ],
+ "distances": {
+  "bombardier-beetle1|iulia": 5,
+  "bombardier-beetle2|iulia": 5,
+  "bombardier-beetle3|iulia": 5,
+  "bombardier-beetle4|iulia": 25,
+  "bombardier-beetle1|hrodvar": 25,
+  "bombardier-beetle2|hrodvar": 25,
+  "bombardier-beetle3|hrodvar": 25,
+  "bombardier-beetle4|hrodvar": 25,
+  "bombardier-beetle1|brennus": 5,
+  "bombardier-beetle2|brennus": 25,
+  "bombardier-beetle3|brennus": 5,
+  "bombardier-beetle4|brennus": 25,
+  "bombardier-beetle1|vettius": 5,
+  "bombardier-beetle2|vettius": 5,
+  "bombardier-beetle3|vettius": 25,
+  "bombardier-beetle4|vettius": 5,
+  "bombardier-beetle1|neris": 25,
+  "bombardier-beetle2|neris": 25,
+  "bombardier-beetle3|neris": 25,
+  "bombardier-beetle4|neris": 25,
+  "bombardier-beetle1|phaedra": 25,
+  "bombardier-beetle2|phaedra": 25,
+  "bombardier-beetle3|phaedra": 25,
+  "bombardier-beetle4|phaedra": 25,
+  "bombardier-beetle1|vestus-the-unlikely": 25,
+  "bombardier-beetle2|vestus-the-unlikely": 25,
+  "bombardier-beetle3|vestus-the-unlikely": 25,
+  "bombardier-beetle4|vestus-the-unlikely": 25,
+  "bombardier-beetle1|cotta": 25,
+  "bombardier-beetle2|cotta": 25,
+  "bombardier-beetle3|cotta": 25,
+  "bombardier-beetle4|cotta": 25,
+  "bombardier-beetle1|lucilla": 25,
+  "bombardier-beetle2|lucilla": 25,
+  "bombardier-beetle3|lucilla": 25,
+  "bombardier-beetle4|lucilla": 5,
+  "aelia|bombardier-beetle1": 25,
+  "aelia|bombardier-beetle2": 25,
+  "aelia|bombardier-beetle3": 25,
+  "aelia|bombardier-beetle4": 25
+ },
  "log": [],
- "notes_shown": []
+ "encounter_id": "enc415",
+ "notes_shown": [
+  "morale.modifier_tiers"
+ ],
+ "round_ended": 4,
+ "retinue": {
+  "phaedra": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
+  "cotta": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
+  "aelia": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  }
+ },
+ "party_hp_written": [
+  "iulia",
+  "hrodvar",
+  "brennus",
+  "vettius",
+  "neris",
+  "phaedra",
+  "vestus-the-unlikely",
+  "cotta",
+  "lucilla",
+  "aelia"
+ ],
+ "ended": {
+  "round": 4,
+  "felled_foes": [
+   {
+    "id": "bombardier-beetle1",
+    "name": "Bombardier Beetle",
+    "perceived": "a giant beetle with dripping mandibles 1",
+    "outcome": "slain",
+    "hp": -3,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "One eye is ruined by a downward slash through the brow ridge (-2 to missile attack throws).",
+    "total": 7
+   },
+   {
+    "id": "bombardier-beetle2",
+    "name": "Bombardier Beetle",
+    "perceived": "a giant beetle with dripping mandibles 2",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "total": 14
+   },
+   {
+    "id": "bombardier-beetle3",
+    "name": "Bombardier Beetle",
+    "perceived": "a giant beetle with dripping mandibles 3",
+    "outcome": "slain",
+    "hp": -3,
+    "condition": "You were instantly killed.",
+    "wound": "Blood leaking everywhere around your hips reveals the terrible wound in your groin.",
+    "total": -10
+   },
+   {
+    "id": "bombardier-beetle4",
+    "name": "Bombardier Beetle",
+    "perceived": "a giant beetle with dripping mandibles 4",
+    "outcome": "slain",
+    "hp": -4,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "total": 12
+   }
+  ]
+ }
 }
