@@ -35,3 +35,4 @@ tags:
 - [[S24 — The Seven-Spoked Wheel]]
 - [[S25 — Accounts Paid]]
 - [[S26 — The Serpent's Sanctum]]
+- [[S27 — Rivals Below]]
