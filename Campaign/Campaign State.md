@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: summer
-    day: 518
+    day: 519
   time: 06:14
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; partly cloudy; wind moderate
   place: Cyfaraun
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 10
+    hp: 40
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,11 +27,11 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 10.371
+    encumbrance_st: 10.367
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 16
+    hp: 22
     hp_max: 22
     conditions: []
     spells_used: []
@@ -39,7 +39,7 @@ public:
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 2
+    hp: 18
     hp_max: 18
     conditions: []
     spells_used: []
@@ -47,17 +47,21 @@ public:
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 6
+    hp: 20
     hp_max: 20
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used: []
+    spells_used:
+    - Cure Major Injury
+    - Cure Moderate Injury
+    - Cure Moderate Injury
+    - Cure Light Injury
     encumbrance_st: 6.234
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 14
+    hp: 35
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -75,7 +79,7 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 1
+    hp: 3
     hp_max: 20
     conditions:
     - 'critically wounded (Mortal Wounds, day 517): one foot lost to frostbite (peg required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes); 1 week of bed rest'
@@ -123,7 +127,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 518
+clock_day: 519
 ---
 # Campaign State
 
