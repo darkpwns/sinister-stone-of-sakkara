@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 111,
-  "L": 701,
+  "L": 708,
   "H": 44,
-  "M": 220
+  "M": 223
  },
  "adventure": {
   "id": "A111",
@@ -19,12 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 139811,
     "level_before": 8,
     "class": "Venturer",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 460
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 136169,
     "level_before": 8,
     "class": "Thief",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 439
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -49,12 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 93728,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 439
    },
    "neris": {
     "id": "neris",
@@ -64,12 +67,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 101753,
     "level_before": 7,
     "class": "Priestess",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 418
    },
    "brennus": {
     "id": "brennus",
@@ -79,12 +83,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 107650,
     "level_before": 7,
     "class": "Fighter",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 439
    },
    "iulia": {
     "id": "iulia",
@@ -94,12 +99,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 105195,
     "level_before": 8,
     "class": "Crusader",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 439
    },
    "phaedra": {
     "id": "phaedra",
@@ -109,12 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 43996,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 209
    },
    "hrodvar": {
     "id": "hrodvar",
@@ -124,12 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "hrodvar",
     "xp_before": 40853,
     "level_before": 6,
     "class": "Dwarven Vaultguard",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 209
    },
    "aelia": {
     "id": "aelia",
@@ -139,12 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "aelia",
     "xp_before": 43733,
     "level_before": 6,
     "class": "Bard",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 209
    },
    "cotta": {
     "id": "cotta",
@@ -154,12 +163,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "cotta",
     "xp_before": 10418,
     "level_before": 4,
     "class": "Explorer",
-    "joined_day": 496
+    "joined_day": 496,
+    "xp_award": 209
    }
   },
   "monsters": [
@@ -178,11 +188,181 @@
      ],
      "text": "the fight with 4 Giant Ant Soldier, encounter enc408, round 3"
     }
+   },
+   {
+    "id": "M221",
+    "monster": "Giant Ant Queen",
+    "source": "Giant Ant Queen (MM p. 26)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 320,
+    "fight": {
+     "ids": [
+      "giant-ant-queen1"
+     ],
+     "text": "the fight with Giant Ant Queen, Giant Ant Soldier, encounter enc409, round 5"
+    }
+   },
+   {
+    "id": "M222",
+    "monster": "Giant Ant Soldier",
+    "source": "Giant Ant Soldier (MM p. 26)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 200,
+    "fight": {
+     "ids": [
+      "giant-ant-soldier1"
+     ],
+     "text": "the fight with Giant Ant Queen, Giant Ant Soldier, encounter enc409, round 5"
+    }
+   },
+   {
+    "id": "M223",
+    "monster": "Giant Fly",
+    "source": "Giant Fly (MM p. 142)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 29,
+    "fight": {
+     "ids": [
+      "giant-fly1",
+      "giant-fly2"
+     ],
+     "text": "the fight with 2 Giant Fly, encounter enc410, round 1"
+    }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 496,
+   "at": null,
+   "total": 3345.0,
+   "per_share": 418.125,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 418,
+     "pct": 10,
+     "pen": 0,
+     "award": 460,
+     "xp_before": 139811,
+     "xp_after": 140271,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 418,
+     "pct": 5,
+     "pen": 0,
+     "award": 439,
+     "xp_before": 136169,
+     "xp_after": 136608,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 418,
+     "pct": 5,
+     "pen": 0,
+     "award": 439,
+     "xp_before": 93728,
+     "xp_after": 94167,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 418,
+     "pct": 0,
+     "pen": 0,
+     "award": 418,
+     "xp_before": 101753,
+     "xp_after": 102171,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 418,
+     "pct": 5,
+     "pen": 0,
+     "award": 439,
+     "xp_before": 107650,
+     "xp_after": 108089,
+     "capped": null,
+     "zero": false
+    },
+    "iulia": {
+     "share": 1.0,
+     "why": null,
+     "base": 418,
+     "pct": 5,
+     "pen": 0,
+     "award": 439,
+     "xp_before": 105195,
+     "xp_after": 105634,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 209,
+     "pct": 0,
+     "pen": 0,
+     "award": 209,
+     "xp_before": 43996,
+     "xp_after": 44205,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 209,
+     "pct": 0,
+     "pen": 0,
+     "award": 209,
+     "xp_before": 40853,
+     "xp_after": 41062,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 209,
+     "pct": 0,
+     "pen": 0,
+     "award": 209,
+     "xp_before": 43733,
+     "xp_after": 43942,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 0.5,
+     "why": null,
+     "base": 209,
+     "pct": 0,
+     "pen": 0,
+     "award": 209,
+     "xp_before": 10418,
+     "xp_after": 10627,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -66364,6 +66544,377 @@
    "sold": null,
    "judge": [],
    "divided_day": 484
+  },
+  "L702": {
+   "id": "L702",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 345.0,
+    "stone": 3.0,
+    "name": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "value_gp": 345.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 345.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 43.12,
+     "vettius": 43.12,
+     "vestus-the-unlikely": 43.12,
+     "neris": 43.12,
+     "brennus": 43.12,
+     "iulia": 43.12,
+     "phaedra": 21.56,
+     "hrodvar": 21.56,
+     "aelia": 21.56,
+     "cotta": 21.56
+    }
+   },
+   "judge": []
+  },
+  "L703": {
+   "id": "L703",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 345.0,
+    "stone": 3.0,
+    "name": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "value_gp": 345.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 345.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 43.12,
+     "vettius": 43.12,
+     "vestus-the-unlikely": 43.12,
+     "neris": 43.12,
+     "brennus": 43.12,
+     "iulia": 43.12,
+     "phaedra": 21.56,
+     "hrodvar": 21.56,
+     "aelia": 21.56,
+     "cotta": 21.56
+    }
+   },
+   "judge": []
+  },
+  "L704": {
+   "id": "L704",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 345.0,
+    "stone": 3.0,
+    "name": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "value_gp": 345.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 345.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 43.12,
+     "vettius": 43.12,
+     "vestus-the-unlikely": 43.12,
+     "neris": 43.12,
+     "brennus": 43.12,
+     "iulia": 43.12,
+     "phaedra": 21.56,
+     "hrodvar": 21.56,
+     "aelia": 21.56,
+     "cotta": 21.56
+    }
+   },
+   "judge": []
+  },
+  "L705": {
+   "id": "L705",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 345.0,
+    "stone": 3.0,
+    "name": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "value_gp": 345.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 345.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 43.12,
+     "vettius": 43.12,
+     "vestus-the-unlikely": 43.12,
+     "neris": 43.12,
+     "brennus": 43.12,
+     "iulia": 43.12,
+     "phaedra": 21.56,
+     "hrodvar": 21.56,
+     "aelia": 21.56,
+     "cotta": 21.56
+    }
+   },
+   "judge": []
+  },
+  "L706": {
+   "id": "L706",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 345.0,
+    "stone": 3.0,
+    "name": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "value_gp": 345.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 345.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 43.12,
+     "vettius": 43.12,
+     "vestus-the-unlikely": 43.12,
+     "neris": 43.12,
+     "brennus": 43.12,
+     "iulia": 43.12,
+     "phaedra": 21.56,
+     "hrodvar": 21.56,
+     "aelia": 21.56,
+     "cotta": 21.56
+    }
+   },
+   "judge": []
+  },
+  "L707": {
+   "id": "L707",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 345.0,
+    "stone": 3.0,
+    "name": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 giant ant eggs (glistening yellow, a hand and a half tall)",
+    "value_gp": 345.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 345.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 43.12,
+     "vettius": 43.12,
+     "vestus-the-unlikely": 43.12,
+     "neris": 43.12,
+     "brennus": 43.12,
+     "iulia": 43.12,
+     "phaedra": 21.56,
+     "hrodvar": 21.56,
+     "aelia": 21.56,
+     "cotta": 21.56
+    }
+   },
+   "judge": []
+  },
+  "L708": {
+   "id": "L708",
+   "adventure": "A111",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.5,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 496,
+    "where": "L13"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 97.0,
+    "stone": 0.5,
+    "name": "grave goods of the queen's cave (eighteen niches)",
+    "merch": null
+   },
+   "player": {
+    "desc": "grave goods of the queen's cave (eighteen niches)",
+    "value_gp": 97.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 97.0,
+    "market": "Cyfaraun",
+    "day": 496,
+    "class": "III",
+    "by": "vettius",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 12.12,
+     "vettius": 12.12,
+     "vestus-the-unlikely": 12.12,
+     "neris": 12.12,
+     "brennus": 12.12,
+     "iulia": 12.12,
+     "phaedra": 6.06,
+     "hrodvar": 6.06,
+     "aelia": 6.06,
+     "cotta": 6.06
+    }
+   },
+   "judge": []
   }
  },
  "hoards": {

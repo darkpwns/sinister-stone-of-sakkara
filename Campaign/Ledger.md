@@ -539,6 +539,13 @@ tags:
 | 481 | Iulia's task: the House of Green Silk (Nasga's circle) | reward 750.0gp | 750 | iulia |
 | 484 | Order commission H (Tullus Varga) | reward 1500.0gp | 1,500 | lucilla |
 | 484 | Order commission I (Pinnius the Cat) | reward 500.0gp | 500 | vettius |
+| 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | neris |
+| 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | neris |
+| 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | vestus-the-unlikely |
+| 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | vestus-the-unlikely |
+| 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | cotta |
+| 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | phaedra |
+| 496 | Descent 67 (L: the queen's caves) | grave goods of the queen's cave (eighteen niches) | 97 | aelia |
 
 ## Monster XP
 
@@ -700,6 +707,10 @@ tags:
 | 483 | Order contract H: Tullus Varga (Lucilla) | Tullus Varga | 1 | 50 | 50 |
 | 484 | Descent 66 (L: the ant nest, the magic rock) | Giant Ant Worker | 24 | 80 | 1,920 |
 | 484 | Descent 66 (L: the ant nest, the magic rock) | Gelatinous Mass | 1 | 245 | 245 |
+| 496 | Descent 67 (L: the queen's caves) | Giant Ant Soldier | 3 | 200 | 600 |
+| 496 | Descent 67 (L: the queen's caves) | Giant Ant Queen | 1 | 320 | 320 |
+| 496 | Descent 67 (L: the queen's caves) | Giant Ant Soldier | 1 | 200 | 200 |
+| 496 | Descent 67 (L: the queen's caves) | Giant Fly | 2 | 29 | 58 |
 
 ## Shares and XP awarded
 
@@ -1438,6 +1449,16 @@ tags:
 | 484 | Descent 66 (L: the ant nest, the magic rock) | Aelia | 0.5 | 0 | 120 | 0 | +0% | 120 |
 | 484 | Descent 66 (L: the ant nest, the magic rock) | Marcellus | 0.5 | 0 | 120 | 0 | +0% | 120 |
 | 484 | Descent 66 (L: the ant nest, the magic rock) | Cotta | 0.5 | 0 | 120 | 0 | +0% | 120 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 496 | Descent 67 (L: the queen's caves) | Lucilla | 1 | 271 | 147 | 0 | +10% | 460 |
+| 496 | Descent 67 (L: the queen's caves) | Vettius | 1 | 271 | 147 | 0 | +5% | 439 |
+| 496 | Descent 67 (L: the queen's caves) | Vestus the Unlikely | 1 | 271 | 147 | 0 | +5% | 439 |
+| 496 | Descent 67 (L: the queen's caves) | Neris | 1 | 271 | 147 | 0 | +0% | 418 |
+| 496 | Descent 67 (L: the queen's caves) | Brennus | 1 | 271 | 147 | 0 | +5% | 439 |
+| 496 | Descent 67 (L: the queen's caves) | Iulia | 1 | 271 | 147 | 0 | +5% | 439 |
+| 496 | Descent 67 (L: the queen's caves) | Phaedra | 0.5 | 135 | 74 | 0 | +0% | 209 |
+| 496 | Descent 67 (L: the queen's caves) | Hrodvar | 0.5 | 135 | 74 | 0 | +0% | 209 |
+| 496 | Descent 67 (L: the queen's caves) | Aelia | 0.5 | 135 | 74 | 0 | +0% | 209 |
+| 496 | Descent 67 (L: the queen's caves) | Cotta | 0.5 | 135 | 74 | 0 | +0% | 209 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -3930,3 +3951,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 488 | Cyfaraun | iron spike | 12 |  | 2gp | vettius |
 | 490 | the retinue | wages paid |  |  | 800gp | vettius |
 | 495 | Cyfaraun market (apothecary) | vinegar, camphor, charcoal and linen: the company's nine masks resoaked and a tenth made (day 495) |  |  | 10gp | phaedra |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 |  | treasure share |  |  |  |  |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 270gp 8sp 4cp |  | lucilla |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 270gp 8sp 4cp |  | vettius |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 270gp 8sp 4cp |  | vestus-the-unlikely |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 270gp 8sp 4cp |  | neris |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 270gp 8sp 4cp |  | brennus |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 270gp 8sp 4cp |  | iulia |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 135gp 4sp 2cp |  | phaedra |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 135gp 4sp 2cp |  | hrodvar |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 135gp 4sp 2cp |  | aelia |
+| 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 135gp 4sp 2cp |  | cotta |
+| 496 | the retinue | wages paid |  |  | 800gp | iulia |

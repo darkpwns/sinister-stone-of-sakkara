@@ -1,20 +1,21 @@
 {
  "schema": "acks-combat/3",
- "round": 3,
+ "round": 1,
  "order": [
   "brennus",
-  "vestus-the-unlikely",
-  "iulia",
-  "lucilla",
-  "neris",
-  "phaedra",
-  "cotta",
   "aelia",
-  "giant-ant-soldier1",
+  "hrodvar",
+  "giant-fly2",
   "vettius",
-  "hrodvar"
+  "lucilla",
+  "iulia",
+  "neris",
+  "vestus-the-unlikely",
+  "cotta",
+  "phaedra",
+  "giant-fly1"
  ],
- "count_index": 11,
+ "count_index": 12,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -30,13 +31,11 @@
    "group": "iulia",
    "perceived": "Iulia",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -123,19 +122,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "crusader-attack-and-saving-throws",
-       "title": "Crusader Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Crusader.md",
-       "block": "^tbl-crusader-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 37",
-       "row": 3
-      }
+      "table": "crusader-attack-and-saving-throws",
+      "title": "Crusader Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "block": "^tbl-crusader-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 37",
+      "row": 3
      }
     ],
     "saves": [
@@ -176,8 +171,8 @@
      }
     ],
     "ac_options": {
-     "shield": 10,
-     "no_shield": 7,
+     "shield": 9,
+     "no_shield": 6,
      "dex_only": 1
     },
     "hp_max": 40,
@@ -186,7 +181,7 @@
      {
       "name": "Spear +2",
       "init_bonus": "",
-      "attack_throw": 3,
+      "attack_throw": 4,
       "damage": "1d6+3",
       "range": {
        "short": 30,
@@ -219,10 +214,9 @@
    },
    "actor": "iulia",
    "hp_max": 40,
-   "hp": 29,
-   "hp_start": 40,
-   "attacked_round": 1,
-   "acted_round": 3
+   "hp": 20,
+   "hp_start": 20,
+   "acted_round": 1
   },
   "hrodvar": {
    "id": "hrodvar",
@@ -232,11 +226,13 @@
    "group": "hrodvar",
    "perceived": "Hrodvar",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    1
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -323,19 +319,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "dwarven-vaultguard-attack-and-saving-throws",
-       "title": "Dwarven Vaultguard Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
-       "block": "^tbl-dwarven-vaultguard-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 85",
-       "row": 3
-      }
+      "table": "dwarven-vaultguard-attack-and-saving-throws",
+      "title": "Dwarven Vaultguard Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Dwarven Vaultguard.md",
+      "block": "^tbl-dwarven-vaultguard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 85",
+      "row": 3
      }
     ],
     "saves": [
@@ -376,8 +368,8 @@
      }
     ],
     "ac_options": {
-     "shield": 5,
-     "no_shield": 4,
+     "shield": 4,
+     "no_shield": 3,
      "dex_only": -1
     },
     "hp_max": 19,
@@ -386,7 +378,7 @@
      {
       "name": "Battle Axe +1",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 8,
       "damage": "1d6+2",
       "range": {
        "short": 0,
@@ -398,7 +390,7 @@
      {
       "name": "Hand Axe",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 9,
       "damage": "1d6+1",
       "range": {
        "short": 15,
@@ -410,7 +402,7 @@
      {
       "name": "Mace",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 9,
       "damage": "1d6/1d8+1",
       "range": {
        "short": 0,
@@ -443,10 +435,10 @@
    },
    "actor": "hrodvar",
    "hp_max": 19,
-   "hp": 19,
+   "hp": 17,
    "hp_start": 19,
    "attacked_round": 1,
-   "acted_round": 3
+   "acted_round": 1
   },
   "brennus": {
    "id": "brennus",
@@ -458,9 +450,9 @@
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 9,
+   "init": 8,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -547,19 +539,15 @@
      ]
     },
     "attack_throw": [
-     5,
+     6,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "fighter-attack-and-saving-throws",
-       "title": "Fighter Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Fighter.md",
-       "block": "^tbl-fighter-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 25",
-       "row": 4
-      }
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 4
      }
     ],
     "saves": [
@@ -600,8 +588,8 @@
      }
     ],
     "ac_options": {
-     "shield": 11,
-     "no_shield": 11,
+     "shield": 10,
+     "no_shield": 10,
      "dex_only": 3
     },
     "hp_max": 31,
@@ -610,7 +598,7 @@
      {
       "name": "Great Axe +1",
       "init_bonus": "",
-      "attack_throw": 3,
+      "attack_throw": 4,
       "damage": "1d10+5",
       "range": {
        "short": 0,
@@ -622,7 +610,7 @@
      {
       "name": "Hand Axe",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 5,
       "damage": "1d6+4",
       "range": {
        "short": 15,
@@ -659,8 +647,8 @@
    "hp_max": 31,
    "hp": 31,
    "hp_start": 31,
-   "attacked_round": 2,
-   "acted_round": 3
+   "attacked_round": 1,
+   "acted_round": 1
   },
   "vettius": {
    "id": "vettius",
@@ -672,9 +660,9 @@
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 2,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -761,19 +749,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "thief-attack-and-saving-throws",
-       "title": "Thief Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Thief.md",
-       "block": "^tbl-thief-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 31",
-       "row": 3
-      }
+      "table": "thief-attack-and-saving-throws",
+      "title": "Thief Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "block": "^tbl-thief-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 31",
+      "row": 3
      }
     ],
     "saves": [
@@ -837,8 +821,8 @@
      ]
     },
     "ac_options": {
-     "shield": 5,
-     "no_shield": 5,
+     "shield": 4,
+     "no_shield": 4,
      "dex_only": 1
     },
     "hp_max": 22,
@@ -847,7 +831,7 @@
      {
       "name": "Short Sword +2",
       "init_bonus": "",
-      "attack_throw": 3,
+      "attack_throw": 4,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -859,7 +843,7 @@
      {
       "name": "Sword +2",
       "init_bonus": "",
-      "attack_throw": 3,
+      "attack_throw": 4,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -871,7 +855,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 5,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -910,13 +894,22 @@
    "hp_max": 22,
    "hp": 22,
    "hp_start": 22,
-   "acted_round": 3
+   "attacked_round": 1,
+   "acted_round": 1
   },
   "neris": {
    "id": "neris",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "surprised",
+     "source": "surprise roll",
+     "rounds_left": null,
+     "since_round": 0,
+     "note": null
+    }
+   ],
    "group": "neris",
    "perceived": "Neris",
    "judge_set": {},
@@ -924,7 +917,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1011,19 +1004,15 @@
      ]
     },
     "attack_throw": [
-     7,
+     8,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "priestess-attack-throws",
-       "title": "Priestess (Mage) Attack Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-attack-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 2
-      }
+      "table": "priestess-attack-throws",
+      "title": "Priestess (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-attack-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 2
      }
     ],
     "saves": [
@@ -1131,8 +1120,8 @@
      }
     },
     "ac_options": {
-     "shield": 3,
-     "no_shield": 3,
+     "shield": 2,
+     "no_shield": 2,
      "dex_only": 1
     },
     "hp_max": 20,
@@ -1141,7 +1130,7 @@
      {
       "name": "Staff",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 10,
       "damage": "1d4/1d6-2",
       "range": {
        "short": 0,
@@ -1172,7 +1161,7 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "acted_round": 3
+   "acted_round": 1
   },
   "phaedra": {
    "id": "phaedra",
@@ -1186,7 +1175,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1273,19 +1262,15 @@
      ]
     },
     "attack_throw": [
-     8,
+     9,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "mage-attack-and-saving-throws",
-       "title": "Mage Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Mage.md",
-       "block": "^tbl-mage-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 35",
-       "row": 1
-      }
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 1
      }
     ],
     "saves": [
@@ -1326,8 +1311,8 @@
      }
     ],
     "ac_options": {
-     "shield": 0,
-     "no_shield": 0,
+     "shield": -1,
+     "no_shield": -1,
      "dex_only": -1
     },
     "hp_max": 20,
@@ -1336,7 +1321,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 9,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -1348,7 +1333,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 10,
       "damage": "1d6",
       "range": {
        "short": 75,
@@ -1360,7 +1345,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 9,
       "damage": "1d6",
       "range": {
        "short": 0,
@@ -1391,7 +1376,7 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "acted_round": 3
+   "acted_round": 1
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -1404,10 +1389,8 @@
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {
-    "spell": true
-   },
-   "init": 6,
+   "declared": {},
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1494,19 +1477,15 @@
      ]
     },
     "attack_throw": [
-     7,
+     8,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "mage-attack-and-saving-throws",
-       "title": "Mage Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Mage.md",
-       "block": "^tbl-mage-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 35",
-       "row": 2
-      }
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
      }
     ],
     "saves": [
@@ -1547,8 +1526,8 @@
      }
     ],
     "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
+     "shield": 1,
+     "no_shield": 1,
      "dex_only": 1
     },
     "hp_max": 18,
@@ -1557,7 +1536,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 8,
+      "attack_throw": 9,
       "damage": "1d4-1",
       "range": {
        "short": 15,
@@ -1590,7 +1569,7 @@
    "hp_max": 18,
    "hp": 18,
    "hp_start": 18,
-   "acted_round": 3
+   "acted_round": 1
   },
   "cotta": {
    "id": "cotta",
@@ -1604,7 +1583,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1691,19 +1670,15 @@
      ]
     },
     "attack_throw": [
-     7,
+     8,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "explorer-attack-and-saving-throws",
-       "title": "Explorer (Fighter) Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Explorer.md",
-       "block": "^tbl-explorer-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 25",
-       "row": 2
-      }
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 2
      }
     ],
     "saves": [
@@ -1744,8 +1719,8 @@
      }
     ],
     "ac_options": {
-     "shield": 5,
-     "no_shield": 5,
+     "shield": 4,
+     "no_shield": 4,
      "dex_only": 1
     },
     "hp_max": 13,
@@ -1754,7 +1729,7 @@
      {
       "name": "Long Bow +1",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 6,
       "damage": "1d6+3",
       "range": {
        "short": 120,
@@ -1766,7 +1741,7 @@
      {
       "name": "Composite Bow",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 7,
       "damage": "1d6+2",
       "range": {
        "short": 120,
@@ -1778,7 +1753,7 @@
      {
       "name": "Sword",
       "init_bonus": "",
-      "attack_throw": 7,
+      "attack_throw": 8,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -1809,14 +1784,21 @@
    "hp_max": 13,
    "hp": 13,
    "hp_start": 13,
-   "attacked_round": 2,
-   "acted_round": 3
+   "acted_round": 1
   },
   "lucilla": {
    "id": "lucilla",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "surprised",
+     "source": "surprise roll",
+     "rounds_left": null,
+     "since_round": 0,
+     "note": null
+    }
+   ],
    "group": "lucilla",
    "perceived": "Lucilla",
    "judge_set": {
@@ -1913,19 +1895,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "venturer-attack-and-saving-throws",
-       "title": "Venturer (Thief) Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Venturer.md",
-       "block": "^tbl-venturer-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 41",
-       "row": 3
-      }
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 3
      }
     ],
     "saves": [
@@ -1966,8 +1944,8 @@
      }
     ],
     "ac_options": {
-     "shield": 7,
-     "no_shield": 7,
+     "shield": 6,
+     "no_shield": 6,
      "dex_only": 1
     },
     "hp_max": 42,
@@ -1976,7 +1954,7 @@
      {
       "name": "Mace +1",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 6,
       "damage": "1d6+1",
       "range": {
        "short": 0,
@@ -1988,7 +1966,7 @@
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 7,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -2027,13 +2005,21 @@
    "hp_max": 42,
    "hp": 42,
    "hp_start": 42,
-   "acted_round": 3
+   "acted_round": 1
   },
   "aelia": {
    "id": "aelia",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "surprised",
+     "source": "surprise roll",
+     "rounds_left": null,
+     "since_round": 0,
+     "note": null
+    }
+   ],
    "group": "aelia",
    "perceived": "Aelia",
    "judge_set": {},
@@ -2041,7 +2027,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2128,19 +2114,15 @@
      ]
     },
     "attack_throw": [
-     6,
+     7,
      {
-      "modifier": "Holy Blessing (Neris) (RR p. 225, HB496) -1",
-      "cause": "spell, 6 turns from day 496 06:50",
-      "rules": {
-       "table": "bard-attack-and-saving-throws",
-       "title": "Bard (Fighter) Attack and Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Bard.md",
-       "block": "^tbl-bard-attack-and-saving-throws",
-       "book": "RR",
-       "page": "p. 53",
-       "row": 3
-      }
+      "table": "bard-attack-and-saving-throws",
+      "title": "Bard (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "block": "^tbl-bard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 53",
+      "row": 3
      }
     ],
     "saves": [
@@ -2181,8 +2163,8 @@
      }
     ],
     "ac_options": {
-     "shield": 3,
-     "no_shield": 3,
+     "shield": 2,
+     "no_shield": 2,
      "dex_only": 0
     },
     "hp_max": 20,
@@ -2191,7 +2173,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 6,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -2203,7 +2185,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 6,
+      "attack_throw": 7,
       "damage": "1d6+3",
       "range": {
        "short": 75,
@@ -2215,7 +2197,7 @@
      {
       "name": "Net",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 6,
       "damage": "",
       "range": {
        "short": 10,
@@ -2227,7 +2209,7 @@
      {
       "name": "Short Sword (silvered)",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 6,
       "damage": "1d6+4",
       "range": {
        "short": 0,
@@ -2262,45 +2244,10 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "acted_round": 3
+   "acted_round": 1
   },
-  "giant-ant-soldier1": {
-   "id": "giant-ant-soldier1",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [],
-   "group": "giant-ant-soldier",
-   "perceived": "a huge soldier ant 1",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    2,
-    3
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Giant Ant Soldier",
-   "stats": {},
-   "monster": {
-    "base": "giant-ant-soldier",
-    "sha256": "e87d007892217a9a264225a2addbeb7a4f253dd65420fce6d6e2cd8e0e1d3929"
-   },
-   "hp_max": 24,
-   "hp": 2,
-   "hp_start": 31,
-   "attacked_round": 1,
-   "acted_round": 3,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "giant-ant-soldier2": {
-   "id": "giant-ant-soldier2",
+  "giant-fly1": {
+   "id": "giant-fly1",
    "side": "foe",
    "status": "dead",
    "conditions": [
@@ -2312,8 +2259,8 @@
      "note": null
     }
    ],
-   "group": "giant-ant-soldier",
-   "perceived": "a huge soldier ant 2",
+   "group": "giant-fly",
+   "perceived": "a giant buzzing fly 1",
    "judge_set": {},
    "hp_lost_rounds": [
     1
@@ -2321,180 +2268,109 @@
    "felled": {
     "round": 1,
     "types": [
-     "fire"
+     "slashing"
     ],
     "natural": false,
-    "by": "vestus-the-unlikely",
+    "by": "brennus",
     "tier": "extraordinary",
     "nonlethal": false
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Giant Ant Soldier",
+   "name": "Giant Fly",
    "stats": {},
    "monster": {
-    "base": "giant-ant-soldier",
-    "sha256": "e87d007892217a9a264225a2addbeb7a4f253dd65420fce6d6e2cd8e0e1d3929"
+    "base": "giant-fly",
+    "sha256": "e305ea4e96fda9234ce50bcbf72781e5d092499aa9b32c55482a531be060fd75"
    },
-   "hp_max": 24,
-   "hp": -2,
-   "hp_start": 20,
-   "dying": {
-    "within": "day",
-    "since_round": 3
-   },
-   "mortal_wounds": {
-    "total": 12,
-    "d20": 18,
-    "d6": 5,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "The flesh of one of your cheeks is pink and lumpy with a large burn scar (notable scarring).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M220",
-    "how": "killed",
-    "xp": 200
-   }
-  },
-  "giant-ant-soldier3": {
-   "id": "giant-ant-soldier3",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "giant-ant-soldier",
-   "perceived": "a huge soldier ant 3",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "fire"
-    ],
-    "natural": false,
-    "by": "vestus-the-unlikely",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Giant Ant Soldier",
-   "stats": {},
-   "monster": {
-    "base": "giant-ant-soldier",
-    "sha256": "e87d007892217a9a264225a2addbeb7a4f253dd65420fce6d6e2cd8e0e1d3929"
-   },
-   "hp_max": 24,
-   "hp": -2,
-   "hp_start": 25,
-   "dying": {
-    "within": "round",
-    "since_round": 3,
-    "deadline_round": 4
-   },
-   "mortal_wounds": {
-    "total": 5,
-    "d20": 11,
-    "d6": 2,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your eyes, ears, nose, and lips sloughed off under the terrible heat (as per both eyes lost, both ears lost, lips and tongue lost, and gruesome scarring).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M220",
-    "how": "killed",
-    "xp": 200
-   }
-  },
-  "giant-ant-soldier4": {
-   "id": "giant-ant-soldier4",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "deafened",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "giant-ant-soldier",
-   "perceived": "a huge soldier ant 4",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "electric"
-    ],
-    "natural": false,
-    "by": "phaedra",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Giant Ant Soldier",
-   "stats": {},
-   "monster": {
-    "base": "giant-ant-soldier",
-    "sha256": "e87d007892217a9a264225a2addbeb7a4f253dd65420fce6d6e2cd8e0e1d3929"
-   },
-   "hp_max": 24,
+   "hp_max": 8,
    "hp": -4,
-   "hp_start": 27,
+   "hp_start": 8,
    "dying": {
     "within": "round",
-    "since_round": 3,
-    "deadline_round": 4
+    "since_round": 1,
+    "deadline_round": 2
    },
    "mortal_wounds": {
     "total": 4,
-    "d20": 10,
-    "d6": 3,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
+    "d20": 12,
+    "d6": 6,
+    "table": "mortal-wounds-slashing",
     "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Both legs are burned off (DEX reduced to 3 for AC purposes, two crutches required, movement reduced by 60', cannot force march).",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
     "band": "1-5"
    },
    "xp_recorded": {
-    "record": "M220",
+    "record": "M223",
     "how": "killed",
-    "xp": 200
+    "xp": 29
+   }
+  },
+  "giant-fly2": {
+   "id": "giant-fly2",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "giant-fly",
+   "perceived": "a giant buzzing fly 2",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "vettius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Fly",
+   "stats": {},
+   "monster": {
+    "base": "giant-fly",
+    "sha256": "e305ea4e96fda9234ce50bcbf72781e5d092499aa9b32c55482a531be060fd75"
+   },
+   "hp_max": 12,
+   "hp": -5,
+   "hp_start": 12,
+   "attacked_round": 1,
+   "acted_round": 1,
+   "mortal_wounds": {
+    "total": -3,
+    "d20": 5,
+    "d6": 3,
+    "table": "mortal-wounds-slashing",
+    "condition": "You were instantly killed.",
+    "wound": "Cruel fate has left your jowls sliced open as if you died smiling at your own demise.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M223",
+    "how": "killed",
+    "xp": 29
    }
   }
  },
@@ -2619,31 +2495,19 @@
    },
    "start_count": 1
   },
-  "giant-ant-soldier": {
+  "giant-fly": {
    "side": "foe",
    "members": [
-    "giant-ant-soldier1",
-    "giant-ant-soldier2",
-    "giant-ant-soldier3",
-    "giant-ant-soldier4"
+    "giant-fly1",
+    "giant-fly2"
    ],
    "morale": {
-    "state": "faltering",
-    "rolls": [
-     {
-      "round": 1,
-      "total": 4,
-      "result": "Morale Faltering",
-      "reason": "1/3 of the group felled (3/4)"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 1,
-    "first_round": 1
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
    },
-   "start_count": 4,
+   "start_count": 2,
    "felled_rounds": [
-    1,
     1,
     1
    ]
@@ -2652,69 +2516,31 @@
  "engaged": [],
  "engaged_at_round_start": [],
  "distances": {
-  "giant-ant-soldier1|iulia": 85,
-  "giant-ant-soldier2|iulia": 35,
-  "giant-ant-soldier3|iulia": 35,
-  "giant-ant-soldier4|iulia": 35,
-  "giant-ant-soldier1|hrodvar": 85,
-  "giant-ant-soldier2|hrodvar": 35,
-  "giant-ant-soldier3|hrodvar": 35,
-  "giant-ant-soldier4|hrodvar": 35,
-  "brennus|giant-ant-soldier1": 85,
-  "brennus|giant-ant-soldier2": 35,
-  "brennus|giant-ant-soldier3": 35,
-  "brennus|giant-ant-soldier4": 35,
-  "giant-ant-soldier1|vettius": 85,
-  "giant-ant-soldier2|vettius": 35,
-  "giant-ant-soldier3|vettius": 35,
-  "giant-ant-soldier4|vettius": 35,
-  "giant-ant-soldier1|neris": 85,
-  "giant-ant-soldier2|neris": 35,
-  "giant-ant-soldier3|neris": 35,
-  "giant-ant-soldier4|neris": 35,
-  "giant-ant-soldier1|phaedra": 85,
-  "giant-ant-soldier2|phaedra": 35,
-  "giant-ant-soldier3|phaedra": 35,
-  "giant-ant-soldier4|phaedra": 35,
-  "giant-ant-soldier1|vestus-the-unlikely": 85,
-  "giant-ant-soldier2|vestus-the-unlikely": 35,
-  "giant-ant-soldier3|vestus-the-unlikely": 35,
-  "giant-ant-soldier4|vestus-the-unlikely": 35,
-  "cotta|giant-ant-soldier1": 85,
-  "cotta|giant-ant-soldier2": 35,
-  "cotta|giant-ant-soldier3": 35,
-  "cotta|giant-ant-soldier4": 35,
-  "giant-ant-soldier1|lucilla": 85,
-  "giant-ant-soldier2|lucilla": 35,
-  "giant-ant-soldier3|lucilla": 35,
-  "giant-ant-soldier4|lucilla": 35,
-  "aelia|giant-ant-soldier1": 85,
-  "aelia|giant-ant-soldier2": 35,
-  "aelia|giant-ant-soldier3": 35,
-  "aelia|giant-ant-soldier4": 35
+  "giant-fly1|iulia": 30,
+  "giant-fly2|iulia": 30,
+  "giant-fly1|hrodvar": 30,
+  "giant-fly2|hrodvar": 5,
+  "brennus|giant-fly1": 5,
+  "brennus|giant-fly2": 30,
+  "giant-fly1|vettius": 30,
+  "giant-fly2|vettius": 5,
+  "giant-fly1|neris": 30,
+  "giant-fly2|neris": 30,
+  "giant-fly1|phaedra": 30,
+  "giant-fly2|phaedra": 30,
+  "giant-fly1|vestus-the-unlikely": 30,
+  "giant-fly2|vestus-the-unlikely": 30,
+  "cotta|giant-fly1": 30,
+  "cotta|giant-fly2": 30,
+  "giant-fly1|lucilla": 30,
+  "giant-fly2|lucilla": 30,
+  "aelia|giant-fly1": 30,
+  "aelia|giant-fly2": 30
  },
  "log": [],
- "encounter_id": "enc408",
- "notes_shown": [
-  "morale.modifier_tiers"
- ],
- "wards": [
-  {
-   "bearer": "iulia",
-   "name": "the Underwatch shield",
-   "radius": 10,
-   "bars": [
-    "enchanted"
-   ],
-   "within": "party",
-   "out": [],
-   "fall": "creature",
-   "evil": "foes",
-   "source": "Rulings S14",
-   "fallen": {}
-  }
- ],
- "round_ended": 3,
+ "encounter_id": "enc410",
+ "notes_shown": [],
+ "round_ended": 1,
  "retinue": {
   "hrodvar": {
    "hp_triggered": false,
@@ -2750,37 +2576,27 @@
   "aelia"
  ],
  "ended": {
-  "round": 3,
+  "round": 1,
   "felled_foes": [
    {
-    "id": "giant-ant-soldier2",
-    "name": "Giant Ant Soldier",
-    "perceived": "a huge soldier ant 2",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "The flesh of one of your cheeks is pink and lumpy with a large burn scar (notable scarring).",
-    "total": 12
-   },
-   {
-    "id": "giant-ant-soldier3",
-    "name": "Giant Ant Soldier",
-    "perceived": "a huge soldier ant 3",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your eyes, ears, nose, and lips sloughed off under the terrible heat (as per both eyes lost, both ears lost, lips and tongue lost, and gruesome scarring).",
-    "total": 5
-   },
-   {
-    "id": "giant-ant-soldier4",
-    "name": "Giant Ant Soldier",
-    "perceived": "a huge soldier ant 4",
+    "id": "giant-fly1",
+    "name": "Giant Fly",
+    "perceived": "a giant buzzing fly 1",
     "outcome": "slain",
     "hp": -4,
     "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Both legs are burned off (DEX reduced to 3 for AC purposes, two crutches required, movement reduced by 60', cannot force march).",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
     "total": 4
+   },
+   {
+    "id": "giant-fly2",
+    "name": "Giant Fly",
+    "perceived": "a giant buzzing fly 2",
+    "outcome": "slain",
+    "hp": -5,
+    "condition": "You were instantly killed.",
+    "wound": "Cruel fate has left your jowls sliced open as if you died smiling at your own demise.",
+    "total": -3
    }
   ]
  }
