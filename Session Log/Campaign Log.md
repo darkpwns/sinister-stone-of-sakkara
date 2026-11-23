@@ -38,3 +38,4 @@ tags:
 - [[S27 — Rivals Below]]
 - [[S28 — The Mummy King's Hall]]
 - [[S29 — The High Priest's Shade]]
+- [[S30 — The Vanguard's Sign]]
