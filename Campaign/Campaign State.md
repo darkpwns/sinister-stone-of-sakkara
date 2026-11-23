@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: summer
-    day: 495
-  time: 06:18
-  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
+    day: 496
+  time: 06:55
+  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
   party:
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.467
+    encumbrance_st: 8.967
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.637
+    encumbrance_st: 9.47
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -67,7 +67,7 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 40
+    hp: 33
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
@@ -89,7 +89,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.316
+    encumbrance_st: 8.149
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -107,7 +107,7 @@ public:
     spells_used: []
     encumbrance_st: 6.224
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) 20 turns 5 rounds left; torch (set down) 5 turns 5 rounds left; torch (set down) 5 turns 5 rounds left
   rations: 'Iulia: food 6 d, water 0.4 d; Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -139,7 +139,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 495
+clock_day: 496
 ---
 # Campaign State
 
