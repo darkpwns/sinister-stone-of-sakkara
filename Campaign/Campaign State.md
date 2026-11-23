@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 511
-  time: 07:30
+    day: 512
+  time: 05:30
   weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; drizzle; wind gentle (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -131,7 +131,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 511
+clock_day: 512
 ---
 # Campaign State
 
