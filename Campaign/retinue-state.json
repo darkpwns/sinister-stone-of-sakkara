@@ -317,6 +317,24 @@
    "candidates": [],
    "level": 3,
    "wage": "100gp/month"
+  },
+  "Cyfaraun|henchman|3rd level|month 18": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "3rd level",
+   "table": "henchmen-availability",
+   "row": 3,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 3,
+   "wage": "100gp/month"
   }
  },
  "candidates": {
@@ -3032,6 +3050,65 @@
    "elan": false,
    "offer_wage": null,
    "actor": "cotta"
+  },
+  "C35": {
+   "id": "C35",
+   "kind": "henchman",
+   "level": 3,
+   "race": "human",
+   "name": "Tiberius Maro",
+   "status": "available",
+   "attempts": [],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 16,
+     "mod": 2
+    },
+    "INT": {
+     "score": 12,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 12,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 9,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 13,
+     "mod": 1
+    }
+   },
+   "class": "Crusader",
+   "hit_die": "1d6",
+   "hp_max": 12,
+   "attack_throw": 9,
+   "saves": {
+    "paralysis": 12,
+    "death": 9,
+    "blast": 15,
+    "implements": 12,
+    "spells": 14
+   },
+   "caster": true,
+   "morale": null,
+   "ac": 0,
+   "wage_table": "100gp/month",
+   "search": "Cyfaraun|rarity|Crusader of level 3|18",
+   "wanted": "Crusader of level 3",
+   "market": "Cyfaraun",
+   "actor": "c35"
   }
  },
  "members": {
@@ -4862,7 +4939,7 @@
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 34,
+ "seq": 35,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
@@ -5474,5 +5551,37 @@
    "temp": [],
    "secret": null
   }
- ]
+ ],
+ "rarity_rolls": {
+  "Cyfaraun|rarity|Crusader of level 6|18": {
+   "market": "Cyfaraun",
+   "what": "Crusader of level 6",
+   "month": 18,
+   "day": 523,
+   "found": []
+  },
+  "Cyfaraun|rarity|Crusader of level 5|18": {
+   "market": "Cyfaraun",
+   "what": "Crusader of level 5",
+   "month": 18,
+   "day": 523,
+   "found": []
+  },
+  "Cyfaraun|rarity|Crusader of level 4|18": {
+   "market": "Cyfaraun",
+   "what": "Crusader of level 4",
+   "month": 18,
+   "day": 523,
+   "found": []
+  },
+  "Cyfaraun|rarity|Crusader of level 3|18": {
+   "market": "Cyfaraun",
+   "what": "Crusader of level 3",
+   "month": 18,
+   "day": 523,
+   "found": [
+    "C35"
+   ]
+  }
+ }
 }

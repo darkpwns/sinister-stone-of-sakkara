@@ -1,18 +1,13 @@
 {
  "schema": "acks-combat/3",
- "round": 4,
+ "round": 3,
  "order": [
-  "aelia",
   "brennus",
   "vettius",
-  "tunnel-prawn-sotn4",
-  "tunnel-prawn-sotn8",
-  "vestus-the-unlikely",
-  "neris",
-  "cotta",
-  "lucilla"
+  "marius-corvo",
+  "vestus-the-unlikely"
  ],
- "count_index": 9,
+ "count_index": 4,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -20,243 +15,19 @@
   ]
  },
  "combatants": {
-  "brennus": {
-   "id": "brennus",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "brennus",
-   "perceived": "Brennus",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 1,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "pc",
-   "name": "Brennus",
-   "stats": {
-    "name": "Brennus",
-    "actor": "brennus",
-    "kind": "pc",
-    "level": 8,
-    "class": "Fighter",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "INT": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      3,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 6
-      }
-     ],
-     "CON": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CHA": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ]
-    },
-    "attack_throw": [
-     5,
-     {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 5
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 8,
-      "death": 9,
-      "blast": 10,
-      "implements": 11,
-      "spells": 12
-     },
-     {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 5
-     }
-    ],
-    "hit_die": [
-     "1d8",
-     {
-      "rule": "class.fighter.hit_die",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "progression": "fighter",
-    "cleaves": [
-     8,
-     {
-      "rule": "class.fighter.cleave",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "ac_options": {
-     "shield": 10,
-     "no_shield": 10,
-     "dex_only": 3
-    },
-    "hp_max": 35,
-    "movement_running": 30,
-    "weapons": [
-     {
-      "name": "Great Axe +1",
-      "init_bonus": "",
-      "attack_throw": 3,
-      "damage": "1d10+5",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "right hand, two-handed"
-     },
-     {
-      "name": "Spear +1",
-      "init_bonus": "",
-      "attack_throw": 3,
-      "damage": "1d6/1d8+5",
-      "range": {
-       "short": 30,
-       "medium": 60,
-       "long": 120
-      },
-      "held": "backpack"
-     },
-     {
-      "name": "Hand Axe",
-      "init_bonus": "",
-      "attack_throw": 4,
-      "damage": "1d6+4",
-      "range": {
-       "short": 15,
-       "medium": 30,
-       "long": 45
-      },
-      "held": "sack"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": null,
-    "proficiencies": [
-     "Berserkergang",
-     "Fighting Style Specialization (two-handed weapon)",
-     "Weapon Focus (axes)",
-     "Adventuring",
-     "Endurance",
-     "Healing",
-     "Intimidation"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "berserkergang": "",
-     "fighting style specialization (two-handed weapon)": "",
-     "weapon focus (axes)": "",
-     "adventuring": "",
-     "endurance": "",
-     "healing": "",
-     "intimidation": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "brennus",
-   "hp_max": 35,
-   "hp": 34,
-   "hp_start": 34,
-   "attacked_round": 4,
-   "acted_round": 4
-  },
   "vettius": {
    "id": "vettius",
    "side": "party",
    "status": "active",
    "conditions": [],
    "group": "vettius",
-   "perceived": "Vettius",
+   "perceived": "vettius",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 1,
+   "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 7,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -487,270 +258,9 @@
    },
    "actor": "vettius",
    "hp_max": 32,
-   "hp": 31,
+   "hp": 32,
    "hp_start": 32,
-   "attacked_round": 4,
-   "acted_round": 4
-  },
-  "neris": {
-   "id": "neris",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "neris",
-   "perceived": "Neris",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "pc",
-   "name": "Neris",
-   "stats": {
-    "name": "Neris",
-    "actor": "neris",
-    "kind": "pc",
-    "level": 8,
-    "class": "Priestess",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      -2,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 1
-      }
-     ],
-     "INT": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CON": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CHA": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ]
-    },
-    "attack_throw": [
-     8,
-     {
-      "table": "priestess-attack-throws",
-      "title": "Priestess (Mage) Attack Throws",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "block": "^tbl-priestess-attack-throws",
-      "book": "RR",
-      "page": "p. 65",
-      "row": 2
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 9,
-      "death": 6,
-      "blast": 12,
-      "implements": 9,
-      "spells": 11
-     },
-     {
-      "table": "priestess-saving-throws",
-      "title": "Priestess (Crusader) Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "block": "^tbl-priestess-saving-throws",
-      "book": "RR",
-      "page": "p. 65",
-      "row": 3
-     }
-    ],
-    "hit_die": [
-     "1d4",
-     {
-      "rule": "class.priestess.hit_die",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "book": "RR",
-      "page": "p. 64"
-     }
-    ],
-    "progression": "mage",
-    "cleaves": [
-     0,
-     {
-      "rule": "class.priestess.cleave",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "book": "RR",
-      "page": "p. 64"
-     }
-    ],
-    "save_refs": {
-     "paralysis": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "death": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "blast": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "implements": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "spells": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     }
-    },
-    "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
-     "dex_only": 1
-    },
-    "hp_max": 21,
-    "movement_running": 90,
-    "weapons": [
-     {
-      "name": "Staff",
-      "init_bonus": "",
-      "attack_throw": 10,
-      "damage": "1d4/1d6-2",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "belt"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": 1,
-    "proficiencies": [
-     "Laying on Hands",
-     "Divine Blessing",
-     "Healing 2",
-     "Healing",
-     "Knowledge (astrology)"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "laying on hands": "",
-     "divine blessing": "",
-     "healing 2": "",
-     "healing": "",
-     "knowledge (astrology)": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "neris",
-   "hp_max": 21,
-   "hp": 21,
-   "hp_start": 21,
-   "acted_round": 4
+   "acted_round": 3
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -758,13 +268,15 @@
    "status": "active",
    "conditions": [],
    "group": "vestus-the-unlikely",
-   "perceived": "Vestus the Unlikely",
+   "perceived": "vestus-the-unlikely",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
+   "declared": {
+    "spell": true
+   },
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -943,41 +455,35 @@
    "hp_max": 18,
    "hp": 18,
    "hp_start": 18,
-   "acted_round": 4
+   "acted_round": 3
   },
-  "lucilla": {
-   "id": "lucilla",
+  "brennus": {
+   "id": "brennus",
    "side": "party",
    "status": "active",
    "conditions": [],
-   "group": "lucilla",
-   "perceived": "Lucilla",
-   "judge_set": {
-    "resist": "fire:both"
-   },
-   "hp_lost_rounds": [
-    1,
-    1,
-    3
-   ],
+   "group": "brennus",
+   "perceived": "brennus",
+   "judge_set": {},
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 9,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
-   "name": "Lucilla",
+   "name": "Brennus",
    "stats": {
-    "name": "Lucilla",
-    "actor": "lucilla",
+    "name": "Brennus",
+    "actor": "brennus",
     "kind": "pc",
     "level": 8,
-    "class": "Venturer",
+    "class": "Fighter",
     "size": "man-sized",
     "mods": {
      "STR": [
-      0,
+      1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -985,7 +491,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 4
       }
      ],
      "INT": [
@@ -1013,7 +519,7 @@
       }
      ],
      "DEX": [
-      1,
+      3,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1021,11 +527,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 6
       }
      ],
      "CON": [
-      1,
+      0,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1033,11 +539,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 3
       }
      ],
      "CHA": [
-      2,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1045,148 +551,175 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 5
+       "row": 2
       }
      ]
     },
     "attack_throw": [
-     7,
+     5,
      {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 41",
-      "row": 3
+      "page": "p. 25",
+      "row": 5
      }
     ],
     "saves": [
      {
-      "paralysis": 10,
-      "death": 10,
+      "paralysis": 8,
+      "death": 9,
       "blast": 10,
       "implements": 11,
       "spells": 12
      },
      {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 41",
-      "row": 3
+      "page": "p. 25",
+      "row": 5
      }
     ],
     "hit_die": [
-     "1d6",
+     "1d8",
      {
-      "rule": "class.venturer.hit_die",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "rule": "class.fighter.hit_die",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
       "book": "RR",
-      "page": "p. 40"
+      "page": "p. 24"
      }
     ],
-    "progression": "crusader/thief",
+    "progression": "fighter",
     "cleaves": [
-     4,
+     8,
      {
-      "rule": "class.venturer.cleave",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "rule": "class.fighter.cleave",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
       "book": "RR",
-      "page": "p. 40"
+      "page": "p. 24"
      }
     ],
     "ac_options": {
-     "shield": 6,
-     "no_shield": 6,
-     "dex_only": 1
+     "shield": 10,
+     "no_shield": 10,
+     "dex_only": 3
     },
-    "hp_max": 42,
-    "movement_running": 60,
+    "hp_max": 35,
+    "movement_running": 30,
     "weapons": [
      {
-      "name": "Mace +1",
+      "name": "Great Axe +1",
       "init_bonus": "",
-      "attack_throw": 6,
-      "damage": "1d6+1",
+      "attack_throw": 3,
+      "damage": "1d10+5",
       "range": {
        "short": 0,
        "medium": 0,
        "long": 0
       },
-      "held": "left hand"
+      "held": "right hand, two-handed"
      },
      {
-      "name": "Dagger",
+      "name": "Spear +1",
       "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d4",
+      "attack_throw": 3,
+      "damage": "1d6/1d8+5",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "backpack"
+     },
+     {
+      "name": "Hand Axe",
+      "init_bonus": "",
+      "attack_throw": 4,
+      "damage": "1d6+4",
       "range": {
        "short": 15,
        "medium": 30,
        "long": 45
       },
-      "held": "belt"
+      "held": "sack"
      }
     ],
     "save_mods_text": {},
     "initiative_sheet": null,
     "proficiencies": [
-     "Magical Engineering",
-     "Driving",
-     "Leadership",
-     "Intimidation",
+     "Berserkergang",
+     "Fighting Style Specialization (two-handed weapon)",
+     "Weapon Focus (axes)",
      "Adventuring",
-     "Knowledge (history)",
-     "Bargaining",
-     "Diplomacy"
+     "Endurance",
+     "Healing",
+     "Intimidation"
     ],
     "proficiency_throws": {},
     "prof_throw_list": {
-     "magical engineering": "",
-     "driving": "",
-     "leadership": "",
-     "intimidation": "",
+     "berserkergang": "",
+     "fighting style specialization (two-handed weapon)": "",
+     "weapon focus (axes)": "",
      "adventuring": "",
-     "knowledge (history)": "",
-     "bargaining": "",
-     "diplomacy": ""
+     "endurance": "",
+     "healing": "",
+     "intimidation": ""
     },
     "ac_mode": "shield"
    },
-   "actor": "lucilla",
-   "hp_max": 42,
-   "hp": 37,
-   "hp_start": 41,
-   "attacked_round": 3,
-   "acted_round": 4
+   "actor": "brennus",
+   "hp_max": 35,
+   "hp": 35,
+   "hp_start": 35,
+   "acted_round": 3
   },
-  "cotta": {
-   "id": "cotta",
-   "side": "party",
+  "marius-corvo": {
+   "id": "marius-corvo",
+   "side": "foe",
    "status": "active",
-   "conditions": [],
-   "group": "cotta",
-   "perceived": "Cotta",
-   "judge_set": {},
+   "conditions": [
+    {
+     "name": "frightened",
+     "source": "morale",
+     "rounds_left": 2,
+     "since_round": 2,
+     "note": null
+    },
+    {
+     "name": "fled",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "corvo",
+   "perceived": "the hunter",
+   "judge_set": {
+    "morale": "0"
+   },
    "hp_lost_rounds": [
-    1
+    1,
+    2
    ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
-   "kind": "pc",
-   "name": "Cotta",
+   "kind": "npc",
+   "name": "Marius Corvo",
    "stats": {
-    "name": "Cotta",
-    "actor": "cotta",
-    "kind": "pc",
-    "level": 5,
+    "name": "Marius Corvo",
+    "actor": "marius-corvo",
+    "kind": "npc",
+    "level": 1,
     "class": "Explorer",
     "size": "man-sized",
     "mods": {
@@ -1203,7 +736,7 @@
       }
      ],
      "INT": [
-      -1,
+      0,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1211,11 +744,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 2
+       "row": 3
       }
      ],
      "WIL": [
-      1,
+      0,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1223,7 +756,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 3
       }
      ],
      "DEX": [
@@ -1251,7 +784,7 @@
       }
      ],
      "CHA": [
-      0,
+      1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1259,12 +792,12 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 4
       }
      ]
     },
     "attack_throw": [
-     7,
+     10,
      {
       "table": "explorer-attack-and-saving-throws",
       "title": "Explorer (Fighter) Attack and Saving Throws",
@@ -1272,16 +805,16 @@
       "block": "^tbl-explorer-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 25",
-      "row": 3
+      "row": 0
      }
     ],
     "saves": [
      {
-      "paralysis": 10,
-      "death": 11,
-      "blast": 12,
-      "implements": 13,
-      "spells": 14
+      "paralysis": 13,
+      "death": 14,
+      "blast": 15,
+      "implements": 16,
+      "spells": 17
      },
      {
       "table": "explorer-attack-and-saving-throws",
@@ -1290,7 +823,7 @@
       "block": "^tbl-explorer-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 25",
-      "row": 3
+      "row": 0
      }
     ],
     "hit_die": [
@@ -1304,7 +837,7 @@
     ],
     "progression": "fighter",
     "cleaves": [
-     5,
+     1,
      {
       "rule": "class.explorer.cleave",
       "note": "ACKS II Rules/03 Classes/Explorer.md",
@@ -1313,1587 +846,43 @@
      }
     ],
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
-     "dex_only": 1
-    },
-    "hp_max": 18,
-    "movement_running": 60,
-    "weapons": [
-     {
-      "name": "Long Bow +1",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+3",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "right hand, two-handed"
-     },
-     {
-      "name": "Composite Bow",
-      "init_bonus": "",
-      "attack_throw": 6,
-      "damage": "1d6+2",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "belt"
-     },
-     {
-      "name": "Sword",
-      "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d6/1d8+2",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "belt"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": 1,
-    "proficiencies": [
-     "Adventuring",
-     "Mounted Combat",
-     "Precise Shooting",
-     "Riding",
-     "Mapping"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "adventuring": "",
-     "mounted combat": "",
-     "precise shooting": "",
-     "riding": "",
-     "mapping": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "cotta",
-   "hp_max": 18,
-   "hp": 17,
-   "hp_start": 18,
-   "acted_round": 4
-  },
-  "aelia": {
-   "id": "aelia",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "aelia",
-   "perceived": "Aelia",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    2
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 7,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "henchman",
-   "name": "Aelia",
-   "stats": {
-    "name": "Aelia",
-    "actor": "aelia",
-    "kind": "henchman",
-    "level": 7,
-    "class": "Bard",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "INT": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "WIL": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "DEX": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CON": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CHA": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ]
-    },
-    "attack_throw": [
-     6,
-     {
-      "table": "bard-attack-and-saving-throws",
-      "title": "Bard (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Bard.md",
-      "block": "^tbl-bard-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 53",
-      "row": 4
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 9,
-      "death": 10,
-      "blast": 11,
-      "implements": 12,
-      "spells": 13
-     },
-     {
-      "table": "bard-attack-and-saving-throws",
-      "title": "Bard (Fighter) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Bard.md",
-      "block": "^tbl-bard-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 53",
-      "row": 4
-     }
-    ],
-    "hit_die": [
-     "1d4",
-     {
-      "rule": "class.bard.hit_die",
-      "note": "ACKS II Rules/03 Classes/Bard.md",
-      "book": "RR",
-      "page": "p. 52"
-     }
-    ],
-    "progression": "fighter",
-    "cleaves": [
-     7,
-     {
-      "rule": "class.bard.cleave",
-      "note": "ACKS II Rules/03 Classes/Bard.md",
-      "book": "RR",
-      "page": "p. 52"
-     }
-    ],
-    "ac_options": {
      "shield": 2,
      "no_shield": 2,
      "dex_only": 0
     },
-    "hp_max": 23,
-    "movement_running": 60,
+    "hp_max": 4,
+    "movement_running": 120,
     "weapons": [
      {
-      "name": "Composite Bow +1",
+      "name": "Spear",
       "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "right hand, two-handed"
+      "damage": "1d6"
      },
      {
-      "name": "Short Sword",
+      "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "belt"
-     },
-     {
-      "name": "Short Bow",
-      "init_bonus": "",
-      "attack_throw": 6,
-      "damage": "1d6+3",
-      "range": {
-       "short": 75,
-       "medium": 150,
-       "long": 300
-      },
-      "held": "belt"
-     },
-     {
-      "name": "Net",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "",
-      "range": {
-       "short": 10,
-       "medium": 15,
-       "long": 20
-      },
-      "held": "belt"
-     },
-     {
-      "name": "Short Sword (silvered)",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "backpack"
+      "damage": "1d4"
      }
     ],
     "save_mods_text": {},
-    "initiative_sheet": 0,
-    "proficiencies": [
-     "Magical Engineering",
-     "Combat Reflexes",
-     "Performance",
-     "Bargaining",
-     "Healing",
-     "Naturalism"
-    ],
+    "initiative_sheet": 1,
+    "proficiencies": [],
     "proficiency_throws": {},
-    "prof_throw_list": {
-     "magical engineering": "",
-     "combat reflexes": "",
-     "performance": "",
-     "bargaining": "",
-     "healing": "",
-     "naturalism": ""
-    },
+    "prof_throw_list": {},
     "ac_mode": "shield"
    },
-   "actor": "aelia",
-   "hp_max": 23,
-   "hp": 21,
-   "hp_start": 23,
-   "acted_round": 4
-  },
-  "tunnel-prawn-sotn1": {
-   "id": "tunnel-prawn-sotn1",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 1",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "brennus",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
+   "actor": "marius-corvo",
    "hp_max": 4,
-   "hp": -6,
-   "hp_start": 4,
-   "attacked_round": 1,
-   "mortal_wounds": {
-    "total": -4,
-    "d20": 12,
-    "d6": 1,
-    "table": "mortal-wounds-slashing",
-    "condition": "You were instantly killed.",
-    "wound": "Your body lies cleaved in two, and the halves lay entangled like conjoined twins in bloody embrace.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn2": {
-   "id": "tunnel-prawn-sotn2",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 2",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "fire"
-    ],
-    "natural": false,
-    "by": null,
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 1,
-   "hp": -2,
-   "hp_start": 1,
-   "dying": {
-    "within": "round",
-    "since_round": 4,
-    "deadline_round": 5
-   },
-   "mortal_wounds": {
-    "total": 3,
-    "d20": 19,
-    "d6": 5,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Both your eyes were melted in the heat (blinded, -4 attack throws, no LOS, movement reduced to 1/3 normal, -2 to surprise rolls).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn3": {
-   "id": "tunnel-prawn-sotn3",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 3",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "brennus",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 7,
-   "hp": -7,
-   "hp_start": 7,
-   "attacked_round": 2,
-   "mortal_wounds": {
-    "total": 0,
-    "d20": 11,
-    "d6": 5,
-    "table": "mortal-wounds-slashing",
-    "condition": "You were instantly killed.",
-    "wound": "A ghastly cut across the belly reveals your harsh demise.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn4": {
-   "id": "tunnel-prawn-sotn4",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 4,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 4",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    4
-   ],
-   "felled": {
-    "round": 4,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "brennus",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 5,
-   "hp": -8,
-   "hp_start": 5,
-   "attacked_round": 3,
-   "mortal_wounds": {
-    "total": -7,
-    "d20": 9,
-    "d6": 1,
-    "table": "mortal-wounds-slashing",
-    "condition": "You were instantly killed.",
-    "wound": "Your body lies cleaved into so many pieces that a butcher would find his work done for him.",
-    "band": "-6 or less"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn5": {
-   "id": "tunnel-prawn-sotn5",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 5",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "fire"
-    ],
-    "natural": false,
-    "by": null,
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 2,
-   "hp": -1,
-   "hp_start": 2,
-   "dying": {
-    "within": "day",
-    "since_round": 4
-   },
-   "mortal_wounds": {
-    "total": 12,
-    "d20": 20,
-    "d6": 1,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "You struggle to draw breath through scorched and blackened lungs (must rest for 2 turns every 6, expedition speed reduced by 1/3, cannot force march, CON reduced by 1/3).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn6": {
-   "id": "tunnel-prawn-sotn6",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 6",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 5,
-   "hp": -2,
-   "hp_start": 5,
-   "attacked_round": 1,
-   "dying": {
-    "within": "day",
-    "since_round": 4
-   },
-   "mortal_wounds": {
-    "total": 11,
-    "d20": 19,
-    "d6": 2,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "The deep wound has destroyed your manhood/womanhood (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn7": {
-   "id": "tunnel-prawn-sotn7",
-   "side": "foe",
-   "status": "recovering",
-   "conditions": [],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 7",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "fire"
-    ],
-    "natural": false,
-    "by": null,
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 1,
    "hp": 1,
-   "hp_start": 1,
-   "mortal_wounds": {
-    "total": 19,
-    "d20": 20,
-    "d6": 4,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
-    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of rest.",
-    "wound": "1d3 fingers on one hand are burned off (3 lost fingers on one hand make it useless).",
-    "band": "16-20"
-   },
-   "xp_recorded": {
-    "judge": "captured"
-   }
-  },
-  "tunnel-prawn-sotn8": {
-   "id": "tunnel-prawn-sotn8",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 4,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 8",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    4
-   ],
-   "felled": {
-    "round": 4,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 5,
-   "hp": -3,
-   "hp_start": 5,
-   "attacked_round": 3,
-   "dying": {
-    "within": "turn",
-    "since_round": 4
-   },
-   "mortal_wounds": {
-    "total": 6,
-    "d20": 17,
-    "d6": 3,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One leg is hacked off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
-  },
-  "tunnel-prawn-sotn9": {
-   "id": "tunnel-prawn-sotn9",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "tunnel-prawn-sotn",
-   "perceived": "pale tunnel prawns 9",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "lucilla",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Tunnel Prawn (SOTN)",
-   "stats": {
-    "monster": {
-     "name": "Tunnel Prawn (SOTN)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-     "page": 151,
-     "needs_judge": [],
-     "checks": [],
-     "type": "vermin",
-     "type_text": "Vermin",
-     "size_index": 0,
-     "size": "small",
-     "ac": 5,
-     "hd": {
-      "text": "1",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "2 (pincers 10+)",
-       "count": 2,
-       "names": [
-        "pincers"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d2 piercing / 1d2 piercing",
-       "pieces": [
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        },
-        {
-         "raw": "1d2 piercing",
-         "dice": "1d2",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ]
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      1
-     ],
-     "morale": 2,
-     "attack_throw_by_hd": 10,
-     "speed": "20’ / 60’",
-     "xp": "10",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Tunnel Prawn (SOTN).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 8,
-   "hp": 0,
-   "hp_start": 8,
-   "attacked_round": 2,
-   "dying": {
-    "within": "turn",
-    "since_round": 4
-   },
-   "mortal_wounds": {
-    "total": 8,
-    "d20": 9,
-    "d6": 6,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "3d6 teeth are broken inward by a forceful blow, leaving you slurring and gap-toothed (-2 to all reaction rolls, -1 to initiative when spellcasting).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M241",
-    "how": "killed",
-    "xp": 10
-   }
+   "hp_start": 4,
+   "acted_round": 3
   }
  },
  "groups": {
-  "brennus": {
-   "side": "party",
-   "members": [
-    "brennus"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
   "vettius": {
    "side": "party",
    "members": [
     "vettius"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
-  "neris": {
-   "side": "party",
-   "members": [
-    "neris"
    ],
    "morale": {
     "state": "steady",
@@ -2914,10 +903,10 @@
    },
    "start_count": 1
   },
-  "lucilla": {
+  "brennus": {
    "side": "party",
    "members": [
-    "lucilla"
+    "brennus"
    ],
    "morale": {
     "state": "steady",
@@ -2926,282 +915,48 @@
    },
    "start_count": 1
   },
-  "cotta": {
-   "side": "party",
-   "members": [
-    "cotta"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
-  "aelia": {
-   "side": "party",
-   "members": [
-    "aelia"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
-  },
-  "tunnel-prawn-sotn": {
+  "corvo": {
    "side": "foe",
    "members": [
-    "tunnel-prawn-sotn1",
-    "tunnel-prawn-sotn2",
-    "tunnel-prawn-sotn3",
-    "tunnel-prawn-sotn4",
-    "tunnel-prawn-sotn5",
-    "tunnel-prawn-sotn6",
-    "tunnel-prawn-sotn7",
-    "tunnel-prawn-sotn8",
-    "tunnel-prawn-sotn9"
+    "marius-corvo"
    ],
    "morale": {
-    "state": "faltering",
+    "state": "frightened",
     "rolls": [
      {
-      "round": 1,
-      "total": 4,
-      "result": "Morale Faltering",
-      "reason": "1/3 of the group felled (3/9)"
-     },
-     {
       "round": 2,
-      "total": 11,
-      "result": "Advance and Pursue",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 3,
-      "total": 4,
-      "result": "Morale Faltering",
-      "reason": "another member felled this round"
+      "total": 0,
+      "result": "Frightened Retreat",
+      "reason": "lost 1/3 of its hp (3/4)"
      }
     ],
     "triggered": true,
-    "last_trigger_round": 3,
-    "first_round": 1
+    "last_trigger_round": 2,
+    "first_round": 2
    },
-   "start_count": 9,
-   "felled_rounds": [
-    1,
-    1,
-    1,
-    2,
-    2,
-    3,
-    3,
-    4,
-    4
-   ]
+   "start_count": 1
   }
  },
  "engaged": [],
- "engaged_at_round_start": [
-  [
-   "cotta",
-   "tunnel-prawn-sotn4"
-  ],
-  [
-   "lucilla",
-   "tunnel-prawn-sotn8"
-  ],
-  [
-   "tunnel-prawn-sotn4",
-   "vettius"
-  ],
-  [
-   "aelia",
-   "tunnel-prawn-sotn4"
-  ]
- ],
+ "engaged_at_round_start": [],
  "distances": {
-  "brennus|tunnel-prawn-sotn1": 5,
-  "brennus|tunnel-prawn-sotn2": 30,
-  "brennus|tunnel-prawn-sotn3": 5,
-  "brennus|tunnel-prawn-sotn4": 5,
-  "brennus|tunnel-prawn-sotn5": 30,
-  "brennus|tunnel-prawn-sotn6": 30,
-  "brennus|tunnel-prawn-sotn7": 30,
-  "brennus|tunnel-prawn-sotn8": 30,
-  "brennus|tunnel-prawn-sotn9": 30,
-  "tunnel-prawn-sotn1|vettius": 5,
-  "tunnel-prawn-sotn2|vettius": 30,
-  "tunnel-prawn-sotn3|vettius": 30,
-  "tunnel-prawn-sotn4|vettius": 5,
-  "tunnel-prawn-sotn5|vettius": 30,
-  "tunnel-prawn-sotn6|vettius": 5,
-  "tunnel-prawn-sotn7|vettius": 30,
-  "tunnel-prawn-sotn8|vettius": 5,
-  "tunnel-prawn-sotn9|vettius": 30,
-  "neris|tunnel-prawn-sotn1": 30,
-  "neris|tunnel-prawn-sotn2": 30,
-  "neris|tunnel-prawn-sotn3": 30,
-  "neris|tunnel-prawn-sotn4": 30,
-  "neris|tunnel-prawn-sotn5": 30,
-  "neris|tunnel-prawn-sotn6": 30,
-  "neris|tunnel-prawn-sotn7": 30,
-  "neris|tunnel-prawn-sotn8": 30,
-  "neris|tunnel-prawn-sotn9": 30,
-  "tunnel-prawn-sotn1|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn2|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn3|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn4|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn5|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn6|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn7|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn8|vestus-the-unlikely": 30,
-  "tunnel-prawn-sotn9|vestus-the-unlikely": 30,
-  "lucilla|tunnel-prawn-sotn1": 5,
-  "lucilla|tunnel-prawn-sotn2": 30,
-  "lucilla|tunnel-prawn-sotn3": 30,
-  "lucilla|tunnel-prawn-sotn4": 30,
-  "lucilla|tunnel-prawn-sotn5": 30,
-  "lucilla|tunnel-prawn-sotn6": 30,
-  "lucilla|tunnel-prawn-sotn7": 30,
-  "lucilla|tunnel-prawn-sotn8": 5,
-  "lucilla|tunnel-prawn-sotn9": 5,
-  "cotta|tunnel-prawn-sotn1": 30,
-  "cotta|tunnel-prawn-sotn2": 30,
-  "cotta|tunnel-prawn-sotn3": 30,
-  "cotta|tunnel-prawn-sotn4": 5,
-  "cotta|tunnel-prawn-sotn5": 30,
-  "cotta|tunnel-prawn-sotn6": 30,
-  "cotta|tunnel-prawn-sotn7": 30,
-  "cotta|tunnel-prawn-sotn8": 30,
-  "cotta|tunnel-prawn-sotn9": 30,
-  "aelia|tunnel-prawn-sotn1": 30,
-  "aelia|tunnel-prawn-sotn2": 30,
-  "aelia|tunnel-prawn-sotn3": 5,
-  "aelia|tunnel-prawn-sotn4": 5,
-  "aelia|tunnel-prawn-sotn5": 30,
-  "aelia|tunnel-prawn-sotn6": 30,
-  "aelia|tunnel-prawn-sotn7": 30,
-  "aelia|tunnel-prawn-sotn8": 30,
-  "aelia|tunnel-prawn-sotn9": 30
+  "marius-corvo|vettius": 265,
+  "brennus|marius-corvo": 290,
+  "marius-corvo|vestus-the-unlikely": 400
  },
  "log": [],
- "encounter_id": "enc435",
  "notes_shown": [
   "morale.modifier_tiers"
  ],
- "round_ended": 4,
- "retinue": {
-  "aelia": {
-   "hp_triggered": false,
-   "party_triggered": false,
-   "calamity_queued": false
-  }
- },
+ "round_ended": 3,
+ "retinue": {},
  "party_hp_written": [
-  "brennus",
   "vettius",
-  "neris",
   "vestus-the-unlikely",
-  "lucilla",
-  "cotta",
-  "aelia"
+  "brennus"
  ],
  "ended": {
-  "round": 4,
-  "felled_foes": [
-   {
-    "id": "tunnel-prawn-sotn1",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 1",
-    "outcome": "slain",
-    "hp": -6,
-    "condition": "You were instantly killed.",
-    "wound": "Your body lies cleaved in two, and the halves lay entangled like conjoined twins in bloody embrace.",
-    "total": -4
-   },
-   {
-    "id": "tunnel-prawn-sotn2",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 2",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Both your eyes were melted in the heat (blinded, -4 attack throws, no LOS, movement reduced to 1/3 normal, -2 to surprise rolls).",
-    "total": 3
-   },
-   {
-    "id": "tunnel-prawn-sotn3",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 3",
-    "outcome": "slain",
-    "hp": -7,
-    "condition": "You were instantly killed.",
-    "wound": "A ghastly cut across the belly reveals your harsh demise.",
-    "total": 0
-   },
-   {
-    "id": "tunnel-prawn-sotn4",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 4",
-    "outcome": "slain",
-    "hp": -8,
-    "condition": "You were instantly killed.",
-    "wound": "Your body lies cleaved into so many pieces that a butcher would find his work done for him.",
-    "total": -7
-   },
-   {
-    "id": "tunnel-prawn-sotn5",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 5",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "You struggle to draw breath through scorched and blackened lungs (must rest for 2 turns every 6, expedition speed reduced by 1/3, cannot force march, CON reduced by 1/3).",
-    "total": 12
-   },
-   {
-    "id": "tunnel-prawn-sotn6",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 6",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "The deep wound has destroyed your manhood/womanhood (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
-    "total": 11
-   },
-   {
-    "id": "tunnel-prawn-sotn7",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 7",
-    "outcome": "recovering",
-    "hp": 1,
-    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of rest.",
-    "wound": "1d3 fingers on one hand are burned off (3 lost fingers on one hand make it useless).",
-    "total": 19
-   },
-   {
-    "id": "tunnel-prawn-sotn8",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 8",
-    "outcome": "slain",
-    "hp": -3,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One leg is hacked off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
-    "total": 6
-   },
-   {
-    "id": "tunnel-prawn-sotn9",
-    "name": "Tunnel Prawn (SOTN)",
-    "perceived": "pale tunnel prawns 9",
-    "outcome": "slain",
-    "hp": 0,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "3d6 teeth are broken inward by a forceful blow, leaving you slurring and gap-toothed (-2 to all reaction rolls, -1 to initiative when spellcasting).",
-    "total": 8
-   }
-  ]
+  "round": 3,
+  "felled_foes": []
  }
 }
