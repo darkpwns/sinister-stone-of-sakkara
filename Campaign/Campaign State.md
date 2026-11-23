@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 30
+session: 31
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A103 paid out)
@@ -10,16 +10,16 @@ public:
   date:
     year: ''
     season: summer
-    day: 496
-  time: '18:04'
-  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind still
+    day: 497
+  time: '10:08'
+  weather: Warm (80 to 82 F) by day, Balmy (72 to 74 F) at night; overcast; wind still
   place: Cyfaraun
   hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 42
+    hp: 11
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,15 +27,15 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 8.981
+    encumbrance_st: 8.648
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 22
+    hp: 12
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 9.484
+    encumbrance_st: 9.318
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -57,7 +57,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 31
+    hp: 13
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -67,16 +67,16 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 20
+    hp: 14
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
     spells_used: []
-    encumbrance_st: 8.94
+    encumbrance_st: 9.432
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
-    hp: 17
+    hp: 11
     hp_max: 19
     conditions:
     - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
@@ -89,7 +89,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.156
+    encumbrance_st: 7.989
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -105,10 +105,10 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 6.231
+    encumbrance_st: 6.894
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out
-  rations: 'Iulia: food 6 d, water 0.4 d; Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out
+  rations: 'Iulia: food 6 d, water 1 d; Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 1 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
@@ -139,7 +139,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 496
+clock_day: 497
 ---
 # Campaign State
 

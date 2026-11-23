@@ -546,6 +546,7 @@ tags:
 | 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | cotta |
 | 496 | Descent 67 (L: the queen's caves) | 3 giant ant eggs (glistening yellow, a hand and a half tall) | 345 | phaedra |
 | 496 | Descent 67 (L: the queen's caves) | grave goods of the queen's cave (eighteen niches) | 97 | aelia |
+| 497 | Descent 68 (L13: the panel) | eight anatomical drawings on old vellum (chameleon, chimera, gorilla, griffin, hippogriff, hydra, lizardman, scorpion) | 2,000 | neris |
 
 ## Monster XP
 
@@ -711,6 +712,8 @@ tags:
 | 496 | Descent 67 (L: the queen's caves) | Giant Ant Queen | 1 | 320 | 320 |
 | 496 | Descent 67 (L: the queen's caves) | Giant Ant Soldier | 1 | 200 | 200 |
 | 496 | Descent 67 (L: the queen's caves) | Giant Fly | 2 | 29 | 58 |
+| 497 | Descent 68 (L13: the panel) | Giant Rat | 10 | 5 | 50 |
+| 497 | Descent 68 (L13: the panel) | Hydropion (SOTN) | 1 | 2,500 | 2,500 |
 
 ## Shares and XP awarded
 
@@ -1459,6 +1462,16 @@ tags:
 | 496 | Descent 67 (L: the queen's caves) | Hrodvar | 0.5 | 135 | 74 | 0 | +0% | 209 |
 | 496 | Descent 67 (L: the queen's caves) | Aelia | 0.5 | 135 | 74 | 0 | +0% | 209 |
 | 496 | Descent 67 (L: the queen's caves) | Cotta | 0.5 | 135 | 74 | 0 | +0% | 209 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 497 | Descent 68 (L13: the panel) | Lucilla | 1 | 250 | 319 | 0 | +10% | 626 |
+| 497 | Descent 68 (L13: the panel) | Vettius | 1 | 250 | 319 | 0 | +5% | 597 |
+| 497 | Descent 68 (L13: the panel) | Vestus the Unlikely | 1 | 250 | 319 | 0 | +5% | 597 |
+| 497 | Descent 68 (L13: the panel) | Neris | 1 | 250 | 319 | 0 | +0% | 569 |
+| 497 | Descent 68 (L13: the panel) | Brennus | 1 | 250 | 319 | 0 | +5% | 597 |
+| 497 | Descent 68 (L13: the panel) | Iulia | 1 | 250 | 319 | 0 | +5% | 597 |
+| 497 | Descent 68 (L13: the panel) | Phaedra | 0.5 | 125 | 159 | 0 | +0% | 284 |
+| 497 | Descent 68 (L13: the panel) | Hrodvar | 0.5 | 125 | 159 | 0 | +0% | 284 |
+| 497 | Descent 68 (L13: the panel) | Aelia | 0.5 | 125 | 159 | 0 | +0% | 284 |
+| 497 | Descent 68 (L13: the panel) | Cotta | 0.5 | 125 | 159 | 0 | +0% | 284 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -3972,3 +3985,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 135gp 4sp 2cp |  | aelia |
 | 496 | Cyfaraun | his share of the sale of L702,L703,L704,L705,L706,L707,L708 (after the payout) |  | 135gp 4sp 2cp |  | cotta |
 | 496 | the retinue | wages paid |  |  | 800gp | iulia |
+| 497 | Cyfaraun | Backpack (holds 4 stone) | 1 |  | 2gp | cotta |
+| 497 | Cyfaraun | Waterskin | 4 |  | 2gp 4sp | cotta |
+| 497 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | iulia |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 |  | treasure share |  |  |  |  |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 250gp |  | lucilla |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 250gp |  | vettius |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 250gp |  | vestus-the-unlikely |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 250gp |  | neris |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 250gp |  | brennus |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 250gp |  | iulia |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | phaedra |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | hrodvar |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | aelia |
+| 497 | Cyfaraun | his share of the sale of L709 (after the payout) |  | 125gp |  | cotta |
