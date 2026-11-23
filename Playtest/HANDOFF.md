@@ -1247,8 +1247,8 @@ Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (
 `state distance` for melee first), `s28_faewyrd.py` (whispers). Log: `Session Log/S28 — The Mummy King's Hall.md`.
 Set Campaign State `session:` to 29 first.
 
-**State on resume:** day 477 17:42, the Solar Citadel. No adventure open (A103 paid). Twelve, whole; Vettius enervated,
-**max hp 18**, one pass (day 477) toward three straight. No goods unsold; coin above 150gp banked day 474.
+**State on resume:** day 477 17:42, the Solar Citadel. No adventure open (A103 paid). Twelve, whole; Vettius' enervation ended
+day 470 (Judge's correction S28: oculus +2 and Salving Rest +4, Rulings S10/S14); **max hp 22**. No goods unsold; coin above 150gp banked day 474.
 
 **Done in S28:** worn items on actors (conditions: the engine allows no Hiding/Sneaking modifier without the throw);
 selling days 471 (A101) and 473 (A102); descent 63 (G8 west graves, G13's 24 skeletons, G14's 4 bronze statues and

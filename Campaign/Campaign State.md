@@ -31,10 +31,9 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 18
-    hp_max: 18
-    conditions:
-    - 'enervated (a specter''s touch, day 467): a Death save each day on waking; a failure lowers max hp by 1 permanently (0: dead); three straight passes cure (MM Specter)'
+    hp: 22
+    hp_max: 22
+    conditions: []
     spells_used: []
     encumbrance_st: 10.4
   - name: Vestus the Unlikely

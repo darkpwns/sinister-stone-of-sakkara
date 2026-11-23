@@ -14,6 +14,8 @@ Day 470, evening, the Solar Citadel. Twelve; Vettius carries a specter's cold. T
 The Imperial Vanguard means to go down by the Old District cesspool on the 481st day.
 
 ## Where they went
+- Correction: since day 468 Vettius has slept under the Citadel's oculus with Neris' prayer of salving rest over him; the
+  cold in him let go on the morning of day 470 and took nothing more after the specter's touch.
 - Day 471. Vettius woke warmer (first pass). The Family's dealers took the consul's shrine, the alabaster lamp, the
   dragon-winged statuette, the canopic jars and the four corners of the painted sarcophagus: 3,375 gold, shared as the
   descent's shares. Kept: the two spellbooks, the crystal-tipped rod, the black candles, the charcoals and the waybread.
@@ -59,7 +61,7 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
 - Two of the Family's men have left the city.
 
 ## Next time
-Day 477, evening, the Solar Citadel. Twelve, whole; Vettius' cold has eased once. The month ends on day 480 (the Order's
+Day 477, evening, the Solar Citadel. Twelve, whole; Vettius' cold is gone. The month ends on day 480 (the Order's
 week, the Family's take, Iulia's report: the courtesans' circle); on day 481 the Imperial Vanguard goes down the Old District
 cesspool. Below: the shades of the north colonnade, the high priest in the chancel's walls, the python, and the deeper ways.
 
@@ -72,3 +74,4 @@ cesspool. Below: the shades of the north colonnade, the high priest in the chanc
 > Days 475-477: Vettius' Death saves 18 (pass), 5 (fail: max hp 18), 11 (pass 1). Day 477 weekly: Brotherhood 5, wharf 2, #2 4, #3 2, turncoat 5, the Watch 1 (topic 2: the Nasgan circle; reaction 8), the city's link 3, the hesitant 3, spies 3, the week's secret 4 (another wharf betrayer; choice 5: left the city).
 > NPC voices: the Watch centurion (day 477): brisk, eager; "Say the word, Captain, and my men are at the courtesans' door by dusk." Gallus Pinarius (NPC note).
 > Engine/driver notes: Playtest/tools/s28_ward.py (ward fight), s28_g13.py (ward + Fireball/Fan/rebuke rounds, felled undead set destroyed), s28_faewyrd.py (whispers); judge-notes S28.
+> **Judge's correction S28 (the enervation saves):** Vettius' saves of days 468-477 were rolled bare; by Rulings S10 and S14 he lay under the Solar Citadel's oculus (hallowed pinnacle, +2, free to the Captain's companions) with Neris' Salving Rest each night from day 468 (+4; two passes in a row end it). Re-read: 468 18 (24), 469 20 (26), 470 6 (12): **the specter's cold ended day 470**; the failures of 470, 473, 474 and 476 are void; **Vettius max hp 22** (the touch's 6 stands). His later daily saves (S28) were not owed.
