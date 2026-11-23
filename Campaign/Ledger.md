@@ -633,6 +633,12 @@ tags:
 | 520 | Descent 75 (O: the tomb again) | gold libation bowl, 3 gold cups, gold incense dish and gold basin | 3,325 | sold |
 | 520 | Descent 75 (O: the tomb again) | long black scroll on golden handles tipped with black sapphires (gold script) | 25,900 | vestus-the-unlikely |
 | 520 | Descent 75 (O: the tomb again) | ebony cobra statuette, ivory skull statuette with ebony tentacles, alabaster lamp with gold fittings | 3,000 | sold |
+| 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus lid inlaid with lapis (Orthanach's) | 0 (left (not brought back)) | left |
+| 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus casket inlaid with lapis (Orthanach's) | 3,000 | sold |
+| 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus lid inlaid with lapis (Saorya's) | 3,000 | sold |
+| 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus casket inlaid with lapis (Saorya's) | 3,000 | sold |
+| 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus lid inlaid with lapis (Cassair's) | 3,000 | sold |
+| 521 | Descent 76 (O: the coffins) | Lamellar +1 | 700 | brennus |
 
 ## Monster XP
 
@@ -815,6 +821,7 @@ tags:
 | 517 | Descent 74 (N: the south-west passage) | Orthanach (SOTN) | 1 | 6,600 | 6,600 |
 | 517 | Descent 74 (N: the south-west passage) | Saorya (SOTN) | 1 | 3,100 | 3,100 |
 | 517 | Descent 74 (N: the south-west passage) | Cassair (SOTN) | 1 | 3,100 | 3,100 |
+| 521 | Descent 76 (O: the coffins) | Tunnel Prawn (SOTN) | 8 | 10 | 80 |
 
 ## Shares and XP awarded
 
@@ -1638,6 +1645,13 @@ tags:
 | 520 | Descent 75 (O: the tomb again) | Brennus | 1 | 8,046 | 0 | 0 | +5% | 8,448 |
 | 520 | Descent 75 (O: the tomb again) | Aelia | 0.5 | 4,023 | 0 | 0 | +0% | 4,023 |
 | 520 | Descent 75 (O: the tomb again) | Cotta | 1 | 8,046 | 0 | 0 | +0% | 8,046 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 521 | Descent 76 (O: the coffins) | Lucilla | 1 | 1,954 | 12 | 0 | +10% | 2,163 |
+| 521 | Descent 76 (O: the coffins) | Vettius | 1 | 1,954 | 12 | 0 | +5% | 2,064 |
+| 521 | Descent 76 (O: the coffins) | Vestus the Unlikely | 1 | 1,954 | 12 | 0 | +5% | 2,064 |
+| 521 | Descent 76 (O: the coffins) | Neris | 1 | 1,954 | 12 | 0 | +0% | 1,966 |
+| 521 | Descent 76 (O: the coffins) | Brennus | 1 | 1,954 | 12 | 0 | +5% | 2,064 |
+| 521 | Descent 76 (O: the coffins) | Aelia | 0.5 | 977 | 6 | 0 | +0% | 983 |
+| 521 | Descent 76 (O: the coffins) | Cotta | 1 | 1,954 | 12 | 0 | +0% | 1,966 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4316,3 +4330,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | brennus |
 | 520 |  | treasure share |  | 1,869gp 2sp 3cp |  | aelia |
 | 520 |  | treasure share |  | 3,738gp 4sp 6cp |  | cotta |
+| 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | lucilla |
+| 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | vettius |
+| 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | vestus-the-unlikely |
+| 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | neris |
+| 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | brennus |
+| 521 |  | treasure share |  | 923gp 8cp |  | aelia |
+| 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | cotta |
