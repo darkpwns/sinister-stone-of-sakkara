@@ -15,7 +15,7 @@ run in play: the files are kept as the record of how sessions S06-S28 were drive
 | `s15_ledger.py`, `s23_ledger.py` (payout rows into the Ledger) | `play.py payout [options]` |
 | `miasma`, `clearmiasma` (hourly sludge saves) | a module procedure: `acks.sh batch` with one `save ID death --mod 4` per member, `play.py cond add` for those who fail; worth a schedule-like item if the sludge is revisited |
 | `melee.py`, `melee2.py`, `fight.py`, `brawl.py`, `choke.py`, `undead_driver.py`, `s13_pudding.py`, `s22_sgrind.py`, `s23_crawl.py`, `s23_ghoul.sh` (fight drivers) | retired without replacement: they resolved actions out of initiative order and without distances. Step fights with `round-start` / `round-next` and act for the combatant it names (the lessons index reminds on an action out of its count); a moment's independent rolls go in one `acks.sh batch` |
-| `s27_g10.py`, `s28_ward.py`, `s28_g13.py`, `s28_faewyrd.py` (ward and whisper drivers) | the engine's `state ward` and `state aura` (per-creature barrier, saves at each initiative), once the wards package is merged; until then run those fights by hand with `round-next` |
+| `s27_g10.py`, `s28_ward.py`, `s28_g13.py`, `s28_faewyrd.py` (ward and whisper drivers) | the engine's `state ward` and `state aura` (engine 7.17.6: per-creature barrier, saves at each creature's own initiative); the lessons `underwatch-ward` and `faewyrd-whispers` print the commands |
 | `day.sh` (AX1 overland: march, night) | the engine's `travel`, `camp --watches` in one `acks.sh batch` |
 | `s11_mend.sh`, `s13_j.sh`, `s09_j.sh`, `j.sh` | one-off session scripts |
 

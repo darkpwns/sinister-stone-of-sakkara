@@ -213,3 +213,25 @@ lessons:
   since: S29
   text: "a level gained while enervated re-rolls maximum hp with full Hit Dice and takes the roll if higher than the reduced maximum; nothing is subtracted afterwards (MM pp. 17-18; RR p. 509). Brennus (23, by the book 26) and Vettius (22, by the book 25) were lowered by hand: a Judge's correction to decide"
   source: "OPEN-ITEMS 24 (triage S29)"
+
+- id: underwatch-ward
+  category: module-ruling
+  status: remind
+  since: S14
+  triggered_since: S29
+  on: ["encounter fight"]
+  where: ["party.ids ~ iulia"]
+  text: "Iulia bears the Underwatch shield (a Holy Circle that moves with her): once the fight is set up, `state ward add iulia --name \"the Underwatch shield\" --radius 10 --within party --evil foes --fall creature --source \"Rulings S14\"` (`state ward out iulia ID` for anyone beyond 10'); the engine then bars enchanted creatures and drops the barrier per creature; `state ward close iulia` at the next turn"
+  source: "Rulings S14 (row 103), S15, S16, S19; RR p. 225"
+  enforced_by: "engine 7.17.6 `state ward`"
+
+- id: faewyrd-whispers
+  category: module-ruling
+  status: remind
+  since: S28
+  triggered_since: S29
+  on: ["encounter fight", "state add"]
+  where: ["argv ~ (?i)faewyrd"]
+  text: "faewyrd whisper: `state aura add whispers --sources ID,… --radius 5 --save death --per-extra -1 --fail maddened --while-failed \"loses 1 WIS at the start of this initiative while it hears a faewyrd (returns 8 turns after the whispers stop, Rulings S28)\" --source \"SOTN pp. 142-143\"` (greater faewyrd: radius 20); set `state distance` for everyone so the engine knows who hears; the saves are then `round-next`'s"
+  source: "SOTN pp. 142-143; Rulings S28 (row 161); judge-notes S28"
+  enforced_by: "engine 7.17.6 `state aura`"

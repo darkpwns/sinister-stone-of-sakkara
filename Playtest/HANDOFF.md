@@ -1241,25 +1241,59 @@ Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (
 (the mummy king, bronze statues), the faewyrd, G18, G26/G27; then K, L4, R.
 
 ## S29 — start here (supersedes everything above)
-**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.15.0). Helpers: `s10_j.sh`, `s20_town.sh` (`tday`), `s23_j.sh`
-(`w N`, `relight`, `sup`, `bank DAY`; `TC="lucilla varro marcellus hrodvar aelia"`), `s23_ledger.py`; new in S28:
-`s28_ward.py`, `s28_g13.py` (ward fights: rebuke, Fireball/Fan rounds, struck foes fight, felled undead destroyed; set
-`state distance` for melee first), `s28_faewyrd.py` (whispers). Log: `Session Log/S28 — The Mummy King's Hall.md`.
-Set Campaign State `session:` to 29 first.
+
+**This file is now the archive of S01-S28. From S29 the handoff is `Campaign/handoff.md`** (one file, rewritten each
+session by `handoff.py`, printed by `brief.py` at session start: a block generated from the state files, then the
+Judge's notes). Do not append sections here any more. What follows is the last hand-written handoff, corrected for the
+engineering session of 2026-11-23 (no play, no state change; tools 7.15.0 → 7.17.6).
+
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos. `setup.sh` must print `engine: ready: acks 7.17.6` (or later).
+Log: `Session Log/S28 — The Mummy King's Hall.md`. Set Campaign State `session:` to 29 first.
 
 **State on resume:** day 477 17:42, the Solar Citadel. No adventure open (A103 paid). Twelve, whole; Vettius' enervation ended
-day 470 (Judge's correction S28: oculus +2 and Salving Rest +4, Rulings S10/S14); **max hp 22**. Vettius wears the elven ranger's cloak and
-boots (bought from Aelia, day 477): `throw vettius --prof hiding|sneaking --mod 8`. No goods unsold; coin above 150gp banked day 474.
+day 470 (Judge's correction S28); **max hp 22**. No goods unsold; coin above 150gp banked day 474.
 
-**Done in S28:** worn items on actors (conditions: the engine allows no Hiding/Sneaking modifier without the throw);
-selling days 471 (A101) and 473 (A102); descent 63 (G8 west graves, G13's 24 skeletons, G14's 4 bronze statues and
-their bronze); the Order's word on a Family member (Gallus Pinarius: blood-price 1,500gp and exile, Rulings S28);
-descent 64 (G27's weapons, G25's 4 faewyrd; maddening cured by Remove Curse); weekly rolls 477.
+**How play runs now (read `R/memory.md` once; the references carry the rest):**
+- **Helpers are gone** (`Playtest/tools/retired/`). Use `python3 $S/play.py walk N --relight aelia,marcellus,lucilla,hrodvar`
+  (or `acks.sh light auto on --carriers …` once per delve), `play.py supplies`, `play.py bank --to guildhouse-bank`,
+  `play.py payout`, `play.py cond add|remove ID "…"`; many independent commands in one `acks.sh batch`.
+- **Lessons fire by themselves**: a `REMINDER: [id] …` at the end of a line applies now; `NOT RUN (lesson)` is a refusal
+  (`ACKS_ACK=id` when meant). A slip: `acks.sh lesson slip ID --day N --note "…"`. `Campaign/lessons.yaml`.
+- **The schedule**: `Campaign/schedule.yaml` holds the Order's roll (days 480, 487 …), the weekly block (484, 491 …),
+  month's end (480), the Vanguard (481), the talk fading (491), the vault fee (503). Every `wait`/`turn`/`clock` names
+  what is due; `acks.sh schedule run --due` rolls it hidden and prints the steps. No more ad hoc weekly `roll` lines.
+  The schedule file flags what was never defined (the turncoat's weekly roll, a 1 on the city's link, the spy count,
+  Arëtar's gift range): rule each when it comes up and write it into Rulings and the schedule.
+- **Town**: `acks.sh location --settlement Cyfaraun` once on return, then `wait`: meals in town are assumed, the night
+  is restful sleep. No `eat --in-town`, no `tday`. A member staying behind: `party remove ID --stays "the Citadel"`.
+- **Fights**: set distances first; step with `round-next`; the surprised cannot act in round 1; `state end` records
+  the killed in the adventure and writes hp to the actors (copy only the lasting conditions it names; fled or
+  captured foes: its JUDGE line). `rebuke` states its 2d6 and who was affected; undead with no rebuking row refuse the
+  rebuke (`state set ID rebuke_as=TYPE`: the SOTN notes of Eolande, the Martyr and the Jackal of Darkness have none).
+  Thrown oil and holy water: `attack A T --throw oil`. Ward and whisper fights: `state ward add iulia … --fall creature
+  --source "Rulings S14"` and `state aura add whispers …` (engine 7.17.6; the lessons index prints the full commands when
+  such a fight is set up; the old drivers are retired).
+- **Slabs**: `explore force-door A B --helpers C,D --door-kind "stone slab"` (Rulings S18 is in `engine-rulings.yaml`:
+  no −12, two helpers beside the pair). A hand `--mod …-12` is refused.
+- **Enervation**: `enervate ID --loss N --source "…"`, then `enervation set ID --pinnacle hallowed --salving-rest
+  --source "Rulings S10, S14"` when he beds down under the oculus; the dawn save is the engine's.
+- **Backstab** stays the engine's (7.15.0): never add `--ambush`/`--extra-dice backstab`.
 
-**Next (World State prep queue):** 480 the Order's roll and month 16's end (Arëtar's mission on Varinia's circle); 481
-Cotta's wage and **the Imperial Vanguard at the 12U cesspool** (AX3 reactions at the grate if the company descends);
-484 weekly; delves: G2b's faewyrd, G6a/G6e (the greater faewyrd's 20' whispers), then L4, F17, K, J8, R.
-**Backstab is the engine's (7.15.0):** every `attack` by Vettius on a vulnerable foe backstabs by itself (+4, two extra
-dice); a foe engaged by two of his allies is taken from the rear unless `--front`. Order him after the front line; never
-add `--ambush`/`--extra-dice backstab`. setup.sh must print `engine: ready: acks 7.15.0`.
-**Slab heaves:** never pass `--mod -12` (Rulings S18 dropped SOTN's −12); helpers by `--helpers`.
+**Owed by the Judge at the start of S29 (state repairs this engineering session did not make):**
+1. Worn items as modifiers, in place of the prose conditions: `acks.sh actor mod vettius throws.hiding -8 --flat 12
+   --source "Cloak of the Elven Ranger" --rule "TT p. 151" --item L528 --cause "worn"`, the Boots likewise on
+   `throws.sneaking` (TT p. 140, L529); Iulia's Ring of Life Protection as `note.enervate`/`note.save.death` text
+   (L518); Lucilla's Ring of Fire Protection is already her `defenses`. Then `play.py cond remove` the prose lines.
+2. A Judge's correction to decide (OPEN-ITEMS 24): by MM pp. 17-18 a level gained while enervated takes the full
+   re-roll if higher and nothing is subtracted afterwards: Brennus' maximum is 26 (not 23), Vettius' 25 (not 22).
+3. Rulings S14's mundane-equivalent apparent value for unidentified magic arms is lower than the book's (650gp plus
+   the item's cost, engine 7.17.3): keep it as a campaign ruling in `engine-rulings.yaml` (`item.sword_apparent`,
+   `item.weapon_apparent`, `item.armor_apparent` → 0) or drop it.
+4. World State prep queue: "503 Aelia, Marcellus" should read 504 (the engine's due day).
+5. `acks.sh light auto on --carriers …` and `acks.sh location --settlement Cyfaraun` (the state still holds the
+   settlement set by hand: fine) at the first delve; the first `save.sh "S29 end …"` compacts the exploration state
+   (2.3 MB → about 170 kB, the rest to `Campaign/archive/`).
+
+**Next (now in the schedule):** 480 the Order's roll and month 16's end (Arëtar's mission on Varinia's circle); 481
+Cotta's wage and the Imperial Vanguard at the 12U cesspool; 484 weekly; delves: G2b's faewyrd, G6a/G6e (the greater
+faewyrd's 20' whispers), then L4, F17, K, J8, R.

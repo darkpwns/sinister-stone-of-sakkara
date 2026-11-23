@@ -106,6 +106,22 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
   `left`/`absent`: no casualty for anyone's morale); `state return ID` brings him back. `state set ID status=` takes
   only the known statuses.
 
+## Wards and auras (engine 7.17.6)
+- **A ward** (Holy Circle, RR p. 225; an item or power that works like it): once the combat state exists, `acks.sh
+  state ward add <bearer> --name "<what>" --within party --evil foes [--fall creature] --source "<rule or ruling>"`.
+  From then on the engine does it: an enchanted creature (undead, construct, incarnation; a summoned one: `state set
+  ID enchanted=1`) cannot make a melee attack on anyone within (refused before any roll); an attack from within on a
+  blocked creature drops the barrier (the whole barrier by the RR; only against that creature with `--fall
+  creature`, a campaign's ruling named in `--source`); evil foes meet +1 AC and `save ID CAT --by <foe>` gets +1.
+  A spell from within resolved with `damage T --dice`: `state ward fall <bearer> T` (the JUDGE line says so).
+  `state ward close <bearer> [T]` when the barrier closes again (next turn); `round-start` lists what has fallen;
+  `state ward out <bearer> ID` for someone who steps outside. Rebuking does not drop the barrier.
+- **An aura** with a save at each initiative (whispers, a stench, a gaze): `acks.sh state aura add <name> --sources
+  ID,ID --radius FT --save death --per-extra -1 --fail <condition> [--while-failed "<what happens each initiative>"]
+  --source "<module page>"`. `round-next` then rolls the save at the start of each creature's own initiative when it
+  is within the radius of a source by the recorded distances (or on the list: `state aura hears <name> ID,…`): never
+  roll these by hand, and record distances so the engine knows who is in range.
+
 ## Wounds
 - A PC or henchman at 0 hp or less is unconscious (the line says so; a henchman at 0 hp also needs a loyalty roll
   for a calamity — henchmen-hirelings.md).
