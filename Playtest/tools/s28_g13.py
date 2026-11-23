@@ -5,7 +5,8 @@ anyone inside attacks or casts on it); struck ones then fight. Each round in ini
 Fireball on FB rounds (one 7d6, Blast save each, up to 12 standing); FAN casters (round:id) fan up to 16 (1d8 each);
 fighters attack a struck skeleton; a struck standing skeleton attacks a random fighter (hidden). Felled undead are set
 destroyed at once (judge-notes S27). Usage: s28_g13.py ROUND FB_ROUNDS FAN_SPEC FIGHTERS"""
-import json, subprocess, sys
+import json, subprocess, sys, os
+struck_by={}
 A=["bash",".claude/skills/acks2-judge/scripts/acks.sh"]; ST="Campaign/combat-state.json"
 def run(*a):
     r=subprocess.run(A+list(a),capture_output=True,text=True); o=(r.stdout+r.stderr).strip(); return (o.splitlines()[-1] if o else "").split(" (src")[0]
@@ -55,7 +56,10 @@ while True:
             f=fell(); out.append(f"{who} Fan of Flames on {len(hit)} -> {f} destroyed")
         elif who in fighters:
             tg=[k for k in sk if k in struck]
-            if tg: o=run("attack",who,tg[0]); f=fell(); out.append(o[:200]+(f" -> destroyed" if f else ""))
+            if tg:
+                # Vettius takes the rear of a foe already engaged by others: vulnerable to him, backstab (RR Thief: +4, +2 dice at 8th; S17 routine)
+                bs=who=="vettius" and len(struck_by.get(tg[0],[]))>=2 and os.environ.get("NOBACKSTAB")!="1"
+                o=run("attack",who,tg[0],*(["--ambush","--extra-dice","backstab:2d6"] if bs else [])); struck_by.setdefault(tg[0],[]).append(who); f=fell(); out.append(("BACKSTAB " if bs else "")+o[:200]+(f" -> destroyed" if f else ""))
     else:
         if who in struck and not any(x.get("name") in ("frightened","cowering") for x in c.get("conditions",[])):
             al=[p for p in fighters if cs()[p]["hp"]>0]

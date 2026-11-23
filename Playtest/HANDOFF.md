@@ -1259,4 +1259,5 @@ descent 64 (G27's weapons, G25's 4 faewyrd; maddening cured by Remove Curse); we
 **Next (World State prep queue):** 480 the Order's roll and month 16's end (Arëtar's mission on Varinia's circle); 481
 Cotta's wage and **the Imperial Vanguard at the 12U cesspool** (AX3 reactions at the grate if the company descends);
 484 weekly; delves: G2b's faewyrd, G6a/G6e (the greater faewyrd's 20' whispers), then L4, F17, K, J8, R.
+**Vettius backstabs** every vulnerable foe (surprised, cowering, helpless, paralyzed, slumbering, prone, or engaged by others so he takes the rear): `attack vettius T --ambush --extra-dice "backstab:2d6"` (Thief 8; a third die at 9th).
 **Slab heaves:** never pass `--mod -12` (Rulings S18 dropped SOTN's −12); helpers by `--helpers`.
