@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 499
-  time: '10:50'
+    day: 503
+  time: 05:50
   weather: Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; clear; wind still
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 33
+    hp: 40
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 8.648
+    encumbrance_st: 8.628
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -57,7 +57,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 24
+    hp: 31
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -67,7 +67,7 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 39
+    hp: 40
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
@@ -130,7 +130,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 499
+clock_day: 503
 ---
 # Campaign State
 

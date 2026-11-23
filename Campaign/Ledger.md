@@ -4044,3 +4044,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | hrodvar |
 | 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | aelia |
 | 499 | Cyfaraun | his share of the sale of L710,L711,L712,L713 (after the payout) |  | 650gp |  | cotta |
+| 503 | the Grey Sisters | vault fee, two months ahead (days 503-563; Rulings S11) |  |  | 20gp | lucilla |
+| 503 | the retinue | wages paid |  |  | 800gp | lucilla |
