@@ -5,7 +5,7 @@ tags:
 session: 28
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A88 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A103 paid out)
 public:
   date:
     year: ''

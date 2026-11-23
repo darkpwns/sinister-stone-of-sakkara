@@ -1239,3 +1239,23 @@ and boots (item notes); a selling day for A101's goods.
 **Next (World State prep queue):** 473 the Order's roll, wages; 477 weekly; 480 month 16 ends (and Arëtar's mission on
 Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (AX3 reactions at the grate); delves: G13/G14
 (the mummy king, bronze statues), the faewyrd, G18, G26/G27; then K, L4, R.
+
+## S29 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers: `s10_j.sh`, `s20_town.sh` (`tday`), `s23_j.sh`
+(`w N`, `relight`, `sup`, `bank DAY`; `TC="lucilla varro marcellus hrodvar aelia"`), `s23_ledger.py`; new in S28:
+`s28_ward.py`, `s28_g13.py` (ward fights: rebuke, Fireball/Fan rounds, struck foes fight, felled undead destroyed; set
+`state distance` for melee first), `s28_faewyrd.py` (whispers). Log: `Session Log/S28 — The Mummy King's Hall.md`.
+Set Campaign State `session:` to 29 first.
+
+**State on resume:** day 477 17:42, the Solar Citadel. No adventure open (A103 paid). Twelve, whole; Vettius enervated,
+**max hp 18**, one pass (day 477) toward three straight. No goods unsold; coin above 150gp banked day 474.
+
+**Done in S28:** worn items on actors (conditions: the engine allows no Hiding/Sneaking modifier without the throw);
+selling days 471 (A101) and 473 (A102); descent 63 (G8 west graves, G13's 24 skeletons, G14's 4 bronze statues and
+their bronze); the Order's word on a Family member (Gallus Pinarius: blood-price 1,500gp and exile, Rulings S28);
+descent 64 (G27's weapons, G25's 4 faewyrd; maddening cured by Remove Curse); weekly rolls 477.
+
+**Next (World State prep queue):** 480 the Order's roll and month 16's end (Arëtar's mission on Varinia's circle); 481
+Cotta's wage and **the Imperial Vanguard at the 12U cesspool** (AX3 reactions at the grate if the company descends);
+484 weekly; delves: G2b's faewyrd, G6a/G6e (the greater faewyrd's 20' whispers), then L4, F17, K, J8, R.
+**Slab heaves:** never pass `--mod -12` (Rulings S18 dropped SOTN's −12); helpers by `--helpers`.
