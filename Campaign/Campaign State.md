@@ -5,21 +5,21 @@ tags:
 session: 33
 mode: town
 location: '[[Cyfaraun]]'
-adventure: Secrets of the Nethercity (AX2), between delves (A103 paid out)
+adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
 public:
   date:
     year: ''
     season: summer
-    day: 515
-  time: '12:53'
-  weather: Balmy (68 to 71 F) by day, Chilly (57 to 62 F) at night; drizzle; wind gentle (drizzly)
+    day: 516
+  time: '10:16'
+  weather: Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; mostly cloudy; wind moderate
   place: Cyfaraun
   hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 42
+    hp: 31
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -35,7 +35,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.137
+    encumbrance_st: 10.962
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -53,15 +53,13 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used:
-    - Delay Poison
-    - Holy Circle, Sustained
-    - Holy Blessing
+    - Cure Moderate Injury
     encumbrance_st: 5.248
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 31
-    hp_max: 31
+    hp: 35
+    hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
@@ -74,8 +72,7 @@ public:
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
-    spells_used:
-    - Delay Poison
+    spells_used: []
     encumbrance_st: 10.404
   - name: Aelia
     sheet: Characters/aelia.json
@@ -84,7 +81,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.499
+    encumbrance_st: 8.998
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -103,7 +100,7 @@ public:
     spells_used: []
     encumbrance_st: 7.737
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out
   rations: 'Iulia: food 6 d, water 2 d; Brennus: food 6 d, water 1.8 d; Vettius: food 6 d, water 2 d; Neris: food 6 d, water 2.2 d; Phaedra: food 6 d, water 2 d; Vestus the Unlikely: food 6 d, water 2.8 d; Cotta: food 6 d, water 2 d; Lucilla: food 6 d, water 2 d; Aelia: food 6 d, water 2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -112,7 +109,8 @@ public:
   - 'The Family''s traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head'
   - 'Below: the serpent door in the vestibule and the Great Teacher; the sealed cases; the bronze door off the lizard-men''s tunnel'
   - The troglodyte shaman will guide us to the magic rock in the cavern of the ants
-  - 'The Order: two errands in hand (a housebreaker for Lucilla, a hired swordswoman for Neris)'
+  - 'The Order: no errand in hand (Brennus'' sellsword done, day 510)'
+  - 'The sealed laboratory: its doors open for Vettius; 80 scroll jars still in the library; the black-green orb opens the arches of the pentagram room (west a jungle, south a dark land, south-west a passage); the electrum orb burns the room'
   - The black barge at Tertulla's landing, paid to day 433
   trail:
   - '27.17'
@@ -135,7 +133,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 515
+clock_day: 516
 ---
 # Campaign State
 

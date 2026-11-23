@@ -606,6 +606,15 @@ tags:
 | 515 | Descent 72 (N: the sealed doors) | 18 cedar scroll jars of research notes (N3 library) | 2,647 | sold |
 | 515 | Descent 72 (N: the sealed doors) | 12 cedar scroll jars of research notes (N3 library) | 1,765 | sold |
 | 515 | Descent 72 (N: the sealed doors) | 14 cedar scroll jars of research notes (N3 library) | 2,059 | sold |
+| 516 | Descent 73 (N: the library) | 20 cedar scroll jars of research notes (N3 library) | 2,941 | sold |
+| 516 | Descent 73 (N: the library) | 18 cedar scroll jars of research notes (N3 library) | 2,647 | sold |
+| 516 | Descent 73 (N: the library) | 10 cedar scroll jars of research notes (N3 library) | 1,471 | sold |
+| 516 | Descent 73 (N: the library) | 22 cedar scroll jars of research notes (N3 library) | 3,235 | sold |
+| 516 | Descent 73 (N: the library) | 13 cedar scroll jars of research notes (N3 library) | 1,912 | sold |
+| 516 | Descent 73 (N: the library) | 20 cedar scroll jars of research notes (N3 library) | 2,941 | sold |
+| 516 | Descent 73 (N: the library) | 14 cedar scroll jars of research notes (N3 library) | 2,059 | sold |
+| 516 | Descent 73 (N: the library) | 17 cedar scroll jars of research notes (N3 library) | 2,500 | sold |
+| 516 | Descent 73 (N: the library) | 24 cedar scroll jars of research notes (N3 library) | 3,529 | sold |
 
 ## Monster XP
 
@@ -783,6 +792,7 @@ tags:
 | 511 | Order contract: Cnaeus Lento (Brennus) | Cnaeus Lento | 1 | 50 | 50 |
 | 514 | Descent 71 (R: the bronze door) | Skeleton | 48 | 13 | 624 |
 | 515 | Descent 72 (N: the sealed doors) | Giant Rat | 9 | 5 | 45 |
+| 516 | Descent 73 (N: the library) | Giant Rat | 10 | 5 | 50 |
 
 ## Shares and XP awarded
 
@@ -1581,6 +1591,15 @@ tags:
 | 515 | Descent 72 (N: the sealed doors) | Phaedra | 0.5 | 6,196 | 3 | 0 | +0% | 6,199 |
 | 515 | Descent 72 (N: the sealed doors) | Aelia | 0.5 | 6,196 | 3 | 0 | +0% | 6,199 |
 | 515 | Descent 72 (N: the sealed doors) | Cotta | 0.5 | 6,196 | 3 | 0 | +0% | 6,199 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 516 | Descent 73 (N: the library) | Lucilla | 1 | 3,098 | 7 | 0 | +10% | 3,416 |
+| 516 | Descent 73 (N: the library) | Vettius | 1 | 3,098 | 7 | 0 | +5% | 3,260 |
+| 516 | Descent 73 (N: the library) | Vestus the Unlikely | 1 | 3,098 | 7 | 0 | +5% | 3,260 |
+| 516 | Descent 73 (N: the library) | Neris | 1 | 3,098 | 7 | 0 | +0% | 3,105 |
+| 516 | Descent 73 (N: the library) | Brennus | 1 | 3,098 | 7 | 0 | +5% | 3,260 |
+| 516 | Descent 73 (N: the library) | Iulia | 1 | 3,098 | 7 | 0 | +5% | 3,260 |
+| 516 | Descent 73 (N: the library) | Phaedra | 0.5 | 1,549 | 3 | 0 | +0% | 1,552 |
+| 516 | Descent 73 (N: the library) | Aelia | 0.5 | 1,549 | 3 | 0 | +0% | 1,552 |
+| 516 | Descent 73 (N: the library) | Cotta | 0.5 | 1,549 | 3 | 0 | +0% | 1,552 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4228,3 +4247,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 515 |  | treasure share |  | 6,054gp 6sp 7cp |  | phaedra |
 | 515 |  | treasure share |  | 6,054gp 6sp 7cp |  | aelia |
 | 515 |  | treasure share |  | 6,054gp 6sp 7cp |  | cotta |
+| 516 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 8sp | vettius |
+| 516 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 516 |  | treasure share |  | 3,098gp |  | lucilla |
+| 516 |  | treasure share |  | 3,098gp |  | vettius |
+| 516 |  | treasure share |  | 3,098gp |  | vestus-the-unlikely |
+| 516 |  | treasure share |  | 3,098gp |  | neris |
+| 516 |  | treasure share |  | 3,098gp |  | brennus |
+| 516 |  | treasure share |  | 3,098gp |  | iulia |
+| 516 |  | treasure share |  | 1,549gp |  | phaedra |
+| 516 |  | treasure share |  | 1,549gp |  | aelia |
+| 516 |  | treasure share |  | 1,549gp |  | cotta |
