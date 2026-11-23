@@ -36,8 +36,13 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
   light drove one back and Vestus' fire burned all four away. Neris and Iulia lifted the madness with their prayers on
   the spot. Eight holy symbols of a serpent swallowing its tail from the trunks. Out at 12:42; the weapons and symbols
   sold the same afternoon.
+- Days 475-477, the Citadel. Vettius' cold comes and goes: it took a little more on the 476th day and eased on the
+  477th. A centurion of the Watch came to the Captain about the courtesans' circle, eager to move; she told him what she
+  could, and he went away content. The Family's ears named another of the river men who had sold the Family's business;
+  given the choice, he took a purse and left the city.
 
 ## Who they met
+- A centurion of the Watch (day 477): brisk, eager to raid the Festival District circle; satisfied.
 
 ## Treasure and XP
 - Day 471: A101's goods sold through the Family (3,375gp to the descent's share-holders).
@@ -49,8 +54,14 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
 ## Rumours given
 
 ## Changes to the world
+- The west corridor of the galleries, the lizard tomb and the king's tomb are empty; the king's bronze guards are gone.
+- The warriors' galleries and the old dormitory are empty; its shades are destroyed.
+- Two of the Family's men have left the city.
 
 ## Next time
+Day 477, evening, the Solar Citadel. Twelve, whole; Vettius' cold has eased once. The month ends on day 480 (the Order's
+week, the Family's take, Iulia's report: the courtesans' circle); on day 481 the Imperial Vanguard goes down the Old District
+cesspool. Below: the shades of the north colonnade, the high priest in the chancel's walls, the python, and the deeper ways.
 
 > [!judge]- Judge rolls
 > S28 hidden rolls (summary; all in Campaign/roll-log.jsonl, session 28):
@@ -58,3 +69,6 @@ The Imperial Vanguard means to go down by the Old District cesspool on the 481st
 > Day 472 (A102): Vettius' Death save 19 (pass 2). 09:40 6 (6 sepulchral worms, hp 3/2/7/6/8/7; surprise: Iulia, Varro, Hrodvar; slain in 4 rounds at the ward, bites missed). G8 graves 92d8 459, 84d8 350. G13 slab: heave 1 natural 18 (re-read +4: 22, opened; 2-6 void); skeletons all surprised; Fireball 31 on 12 (all destroyed), rebukes D automatic; Phaedra's Fan on 7; destroyed by round 6. G14 statues (hp 25/23/21/20) attentive; Fireball 25 (saves FFFS): three destroyed; the fourth (8 left) destroyed round 3 (Varro 4, Brennus 4); its swing at Marcellus missed. 13:40 6 (2 rat swarms, 30'): Lucilla intimidating 18, overawed.
 > Day 473: Vettius' Death save 6 (fail: max hp 20). Order rolls Lucilla 4, Vettius 2, Vestus 3, Neris 3, Brennus 3; contract 1d6 2 (struck), reason 5, petitioner 1, Family member 1d3 1, level 1d4 3: Gallus Pinarius (NPC note), blood-price 1,500gp, exiled. Sales L676-L687 at full value (5,609gp).
 > Day 474 (A103): Vettius' Death save 2 (fail: max hp 19). 07:40 6 (1 rat swarm, 120'; all surprised; Lucilla intimidating 19, overawed). G26 listen 2 (nothing). G25: 4 lesser faewyrd (21/20/19/17), party surprise: Varro, Brennus, Cotta; round 2: rebuke R (one frightened); whispers: Varro 16 S, Vettius 10 S, Vettius 1 F, Aelia 10 F, Cotta 21 S, Iulia 4 F; round 3: rebuke R; Fireball 23 (SSFF: 3 and 4 destroyed); faewyrd 2 touched Varro (3, 1 WIS); whispers Brennus 4 F, Marcellus 12 S; round 4: Fireball 34 (FF): all destroyed. Remove Curse x4. Sales L688 650, L689 200.
+> Days 475-477: Vettius' Death saves 18 (pass), 5 (fail: max hp 18), 11 (pass 1). Day 477 weekly: Brotherhood 5, wharf 2, #2 4, #3 2, turncoat 5, the Watch 1 (topic 2: the Nasgan circle; reaction 8), the city's link 3, the hesitant 3, spies 3, the week's secret 4 (another wharf betrayer; choice 5: left the city).
+> NPC voices: the Watch centurion (day 477): brisk, eager; "Say the word, Captain, and my men are at the courtesans' door by dusk." Gallus Pinarius (NPC note).
+> Engine/driver notes: Playtest/tools/s28_ward.py (ward fight), s28_g13.py (ward + Fireball/Fan/rebuke rounds, felled undead set destroyed), s28_faewyrd.py (whispers); judge-notes S28.

@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 474
-  time: '12:42'
+    day: 477
+  time: '17:42'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -31,8 +31,8 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 19
-    hp_max: 19
+    hp: 18
+    hp_max: 18
     conditions:
     - 'enervated (a specter''s touch, day 467): a Death save each day on waking; a failure lowers max hp by 1 permanently (0: dead); three straight passes cure (MM Specter)'
     spells_used: []
@@ -43,9 +43,7 @@ public:
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fireball
-    - Fireball
+    spells_used: []
     encumbrance_st: 4.946
   - name: Neris
     sheet: Characters/neris.json
@@ -55,11 +53,7 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Holy Blessing
-    - Remove Curse
-    - Remove Curse
-    - Remove Curse
+    spells_used: []
     encumbrance_st: 4.82
   - name: Brennus
     sheet: Characters/brennus.json
@@ -79,8 +73,7 @@ public:
     conditions:
     - minor scarring (puncture wound)
     - 'wears a Ring of Life Protection (L518, identified day 465): any enervation of the wearer is cancelled, 3 times a day, not more than once an hour, uses back each dawn; any further enervation prevented carries 1-in-3 that the ring is destroyed (TT p. 82)'
-    spells_used:
-    - Remove Curse
+    spells_used: []
     encumbrance_st: 10.278
   - name: Hrodvar
     sheet: Characters/hrodvar.json
@@ -94,7 +87,7 @@ public:
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 22
+    hp: 25
     hp_max: 25
     conditions: []
     spells_used: []
@@ -166,7 +159,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 474
+clock_day: 477
 ---
 # Campaign State
 
