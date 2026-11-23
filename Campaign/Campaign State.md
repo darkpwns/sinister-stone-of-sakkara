@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: summer
-    day: 503
+    day: 505
   time: 05:50
   weather: Hot (87 to 90 F) by day, Warm (80 to 82 F) at night; clear; wind still
   place: Cyfaraun
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 40
+    hp: 42
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -130,7 +130,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 503
+clock_day: 505
 ---
 # Campaign State
 
