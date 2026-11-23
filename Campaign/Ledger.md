@@ -642,6 +642,7 @@ tags:
 | 526 | Order contract: Marius Corvo (Vestus) | reward 500.0gp | 500 | vestus-the-unlikely |
 | 531 | Order contract: Decimus Ruga (Brennus) | reward 500.0gp | 500 | brennus |
 | 533 | Order contract: Ammia Thrax (Vettius) | reward 2000.0gp | 2,000 | vettius |
+| 533 | The golden-skull shrine opened (a find of A120, kept; no XP) | dark crystal octahedron with a screaming face inside (SOTN large soul gem, 5,000 divine power, Caogan's residue; magical) | 0 (a purchase or gift (--no-xp)) | stored |
 
 ## Monster XP
 
@@ -1668,6 +1669,8 @@ tags:
 | 533 | Order contract: Ammia Thrax (Vettius) | Vettius | 1 | 800 | 32 | 0 | +5% | 874 |
 | 533 | Order contract: Ammia Thrax (Vettius) | Brennus | 1 | 800 | 32 | 0 | +5% | 874 |
 | 533 | Order contract: Ammia Thrax (Vettius) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 533 | The golden-skull shrine opened (a find of A120, kept; no XP) | Neris | 1 | 0 | 0 | 0 | +0% | 0 |
+| 533 | The golden-skull shrine opened (a find of A120, kept; no XP) | Vestus the Unlikely | 1 | 0 | 0 | 0 | +5% | 0 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4373,3 +4376,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 533 |  | treasure share |  | 800gp |  | vettius |
 | 533 |  | treasure share |  | 800gp |  | brennus |
 | 533 |  | treasure share |  | 400gp |  | phaedra |
+| 533 | the Tower (identification) | identification of L805 by the Tower's magic research (1,000gp + 1,000gp, as day 519), ready day 547 |  |  | 2,000gp | neris |
+| 533 |  | treasure share |  |  |  |  |
+| 533 |  | treasure share |  |  |  |  |
+| 534 | the retinue | wages paid |  |  | 1,600gp | lucilla |
