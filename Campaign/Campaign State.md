@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: summer
-    day: 490
+    day: 495
   time: 06:18
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
   place: Cyfaraun
@@ -41,8 +41,7 @@ public:
     role: pc
     hp: 18
     hp_max: 18
-    conditions:
-    - studying Bewitch Monster from the enchantress' book (L606), a week's dedicated study, days 488-494 (JJ Spell Repertoire)
+    conditions: []
     spells_used: []
     encumbrance_st: 3.851
   - name: Neris
@@ -68,7 +67,7 @@ public:
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
-    hp: 5
+    hp: 40
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
@@ -96,10 +95,9 @@ public:
     role: henchman
     hp: 20
     hp_max: 20
-    conditions:
-    - studying Thunderbolt from the consul's roll (L671), a week's dedicated study, days 488-494 (JJ Spell Repertoire)
+    conditions: []
     spells_used: []
-    encumbrance_st: 6.169
+    encumbrance_st: 6.159
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -107,10 +105,10 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 6.058
+    encumbrance_st: 6.224
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out
-  rations: 'Iulia: food 6 d, water 0.4 d (incapacitated); Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Iulia: food 6 d, water 0.4 d; Hrodvar: food 6 d, water 1 d; Brennus: food 6 d, water 0.8 d; Vettius: food 6 d, water 1 d; Neris: food 6 d, water 1.2 d; Phaedra: food 6 d, water 1 d; Vestus the Unlikely: food 6 d, water 1.8 d; Cotta: food 6 d, water 0.2 d; Lucilla: food 6 d, water 1 d; Aelia: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
@@ -141,7 +139,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 490
+clock_day: 495
 ---
 # Campaign State
 

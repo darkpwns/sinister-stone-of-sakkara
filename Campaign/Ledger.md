@@ -3929,3 +3929,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 488 | Cyfaraun | Oil, Common (1 pint) | 3 |  | 9sp | vettius |
 | 488 | Cyfaraun | iron spike | 12 |  | 2gp | vettius |
 | 490 | the retinue | wages paid |  |  | 800gp | vettius |
+| 495 | Cyfaraun market (apothecary) | vinegar, camphor, charcoal and linen: the company's nine masks resoaked and a tenth made (day 495) |  |  | 10gp | phaedra |
