@@ -643,6 +643,16 @@ tags:
 | 531 | Order contract: Decimus Ruga (Brennus) | reward 500.0gp | 500 | brennus |
 | 533 | Order contract: Ammia Thrax (Vettius) | reward 2000.0gp | 2,000 | vettius |
 | 533 | The golden-skull shrine opened (a find of A120, kept; no XP) | dark crystal octahedron with a screaming face inside (SOTN large soul gem, 5,000 divine power, Caogan's residue; magical) | 0 (a purchase or gift (--no-xp)) | stored |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | gold-plated sarcophagus lid inlaid with lapis (Orthanach's; left in O3 on day 521, L796) | 3,000 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | gold-plated sarcophagus casket (Cassair's; left in O3 on day 521) | 3,000 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 12 cedar scroll jars of the library (N3) | 1,765 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 12 cedar scroll jars of the library (N3) | 1,765 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 8 cedar scroll jars of the library (N3) | 1,176 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 16 cedar scroll jars of the library (N3) | 2,353 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 10 cedar scroll jars of the library (N3) | 1,471 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 14 cedar scroll jars of the library (N3) | 2,059 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 8 cedar scroll jars of the library (N3) | 1,176 | sold |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | N3's fallen bronze chandelier | 30 | sold |
 
 ## Monster XP
 
@@ -1671,6 +1681,16 @@ tags:
 | 533 | Order contract: Ammia Thrax (Vettius) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 | 533 | The golden-skull shrine opened (a find of A120, kept; no XP) | Neris | 1 | 0 | 0 | 0 | +0% | 0 |
 | 533 | The golden-skull shrine opened (a find of A120, kept; no XP) | Vestus the Unlikely | 1 | 0 | 0 | 0 | +5% | 0 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Lucilla | 1 | 2,224 | 0 | 0 | +10% | 2,446 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Vettius | 1 | 2,224 | 0 | 0 | +5% | 2,335 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Brennus | 1 | 2,224 | 0 | 0 | +5% | 2,335 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Vestus the Unlikely | 1 | 2,224 | 0 | 0 | +5% | 2,335 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Neris | 1 | 2,224 | 0 | 0 | +0% | 2,224 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Cotta | 1 | 2,224 | 0 | 0 | +0% | 2,224 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Aelia | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Phaedra | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Hrodvar | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 |
+| 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Tiberius Maro | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4380,3 +4400,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 533 |  | treasure share |  |  |  |  |
 | 533 |  | treasure share |  |  |  |  |
 | 534 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 535 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 6sp 2cp | vettius |
+| 535 |  | treasure share |  | 2,224gp 3sp 8cp |  | lucilla |
+| 535 |  | treasure share |  | 2,224gp 3sp 8cp |  | vettius |
+| 535 |  | treasure share |  | 2,224gp 3sp 8cp |  | brennus |
+| 535 |  | treasure share |  | 2,224gp 3sp 8cp |  | vestus-the-unlikely |
+| 535 |  | treasure share |  | 2,224gp 3sp 8cp |  | neris |
+| 535 |  | treasure share |  | 2,224gp 3sp 8cp |  | cotta |
+| 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | aelia |
+| 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | phaedra |
+| 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | hrodvar |
+| 535 |  | treasure share |  | 1,112gp 1sp 9cp |  | tiberius-maro |

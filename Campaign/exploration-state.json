@@ -1,9 +1,9 @@
 {
  "schema": "acks-exploration/3",
  "clock": {
-  "day": 534,
-  "round_of_day": 354,
-  "total_rounds": 767394
+  "day": 535,
+  "round_of_day": 724,
+  "total_rounds": 769204
  },
  "party": {
   "vettius": {
@@ -84,7 +84,8 @@
    "name": "Hrodvar",
    "perceived": "Hrodvar",
    "conditions": [],
-   "endurance": true
+   "endurance": true,
+   "treasure_stone": 0.0
   },
   "tiberius-maro": {
    "id": "tiberius-maro",
@@ -92,7 +93,8 @@
    "name": "Tiberius Maro",
    "perceived": "Tiberius Maro",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 0.0
   }
  },
  "lights": [
@@ -734,12 +736,30 @@
    "closed": false,
    "rounds_left": 180,
    "tallow": false
+  },
+  {
+   "id": "lantern29",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "lantern30",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
   }
  ],
  "timers": [],
  "rest": {
   "rounds_since_rest": 0,
-  "rest_rounds": 4,
+  "rest_rounds": 0,
   "winded": []
  },
  "location": {
@@ -758,108 +778,12 @@
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 521 10:30",
+   "at": "day 535 11:50",
    "roll": 5,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 520 07:40",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 520 08:10",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 520 08:40",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 520 09:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 520 09:40",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 520 10:10",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 520 10:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 520 11:10",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 05:00",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 05:30",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 06:00",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 06:30",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 07:00",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 07:30",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 08:00",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 521 08:30",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
    {
     "at": "day 521 09:00",
     "roll": 5,
@@ -883,13 +807,109 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 535 04:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 04:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 05:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 05:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 06:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 06:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 07:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 07:50",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 08:20",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 08:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 09:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 09:50",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 535 10:20",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 10:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 11:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 535 11:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 748960
+  "turn_start_done": 769200
  },
  "turn_actions": {
-  "turn": 76739,
+  "turn": 76920,
   "listened": [],
   "actions": []
  },
@@ -1065,6 +1085,10 @@
   "534": {
    "delve_rounds": 0,
    "rest_rounds": 0
+  },
+  "535": {
+   "delve_rounds": 360,
+   "rest_rounds": 130
   }
  },
  "events": [
@@ -2012,13 +2036,22 @@
     "rest_rounds": 0
    },
    "carried_food": false
+  },
+  {
+   "event": "day_rollover",
+   "day": 535,
+   "previous": {
+    "delve_rounds": 0,
+    "rest_rounds": 0
+   },
+   "carried_food": false
   }
  ],
  "next_ids": {
-  "enc": 443,
+  "enc": 444,
   "torch": 402,
   "t": 160,
-  "lantern": 28
+  "lantern": 30
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -4458,7 +4491,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 49.0,
+      "wild": 50.0,
       "dungeon": 1.0
      }
     ],
@@ -4643,7 +4676,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 30.0,
+      "wild": 31.0,
       "dungeon": 1.0
      }
     ],
@@ -5566,9 +5599,11 @@
       1.0,
       1.0,
       1.0,
+      1.0,
       1.0
      ],
      "water": [
+      1.0,
       1.0,
       1.0,
       1.0,
@@ -6222,6 +6257,10 @@
      ],
      [
       0,
+      1
+     ],
+     [
+      1,
       1
      ],
      [
@@ -8497,6 +8536,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ],
     "supplies_st": 0.0,
@@ -10193,6 +10236,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ]
    },
@@ -11439,6 +11486,10 @@
      ],
      [
       0,
+      1
+     ],
+     [
+      1,
       1
      ],
      [
@@ -14806,6 +14857,188 @@
      "slept_restful": 8,
      "in_settlement": true
     }
+   },
+   "534": {
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "cotta": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "aelia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "hrodvar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "tiberius-maro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    }
    }
   },
   "trail": [
@@ -15255,14 +15488,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc424",
-   "at": "day 514 06:50",
-   "monster_name": "Mummy",
-   "number": 1,
-   "reaction": null,
-   "status": "begun"
-  },
-  {
    "id": "enc425",
    "at": "day 514 10:20",
    "monster_name": "Shadow",
@@ -15413,6 +15638,14 @@
    "number": 1,
    "reaction": null,
    "status": "surprise rolled"
+  },
+  {
+   "id": "enc444",
+   "at": "day 535 09:50",
+   "monster_name": "Grave Ghoul",
+   "number": 2,
+   "reaction": null,
+   "status": "fighting"
   }
  ],
  "diseases": {
@@ -15434,10 +15667,9 @@
   }
  },
  "light_auto": {
-  "on": false,
+  "on": true,
   "carriers": [
-   "vettius",
-   "brennus"
+   "vettius"
   ],
   "kind": "torch"
  },

@@ -1,31 +1,63 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 125,
-  "L": 805,
+  "A": 126,
+  "L": 815,
   "H": 137,
   "M": 244
  },
  "adventure": {
-  "id": "A125",
-  "name": "The golden-skull shrine opened (a find of A120, kept; no XP)",
-  "start_day": 533,
+  "id": "A126",
+  "name": "Descent 77 (N3's last jars; O3's last coffin pieces)",
+  "start_day": 535,
   "participants": {
-   "neris": {
-    "id": "neris",
-    "name": "Neris",
-    "actor": "neris",
+   "lucilla": {
+    "id": "lucilla",
+    "name": "Lucilla",
+    "actor": "lucilla",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 136577,
+    "xp_before": 178260,
     "level_before": 8,
-    "class": "Priestess",
-    "joined_day": 533,
-    "xp_award": 0
+    "class": "Venturer",
+    "joined_day": 535,
+    "xp_award": 2446
+   },
+   "vettius": {
+    "id": "vettius",
+    "name": "Vettius",
+    "actor": "vettius",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 187353,
+    "level_before": 9,
+    "class": "Thief",
+    "joined_day": 535,
+    "xp_award": 2335
+   },
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 145953,
+    "level_before": 8,
+    "class": "Fighter",
+    "joined_day": 535,
+    "xp_award": 2335
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -40,40 +72,232 @@
     "xp_before": 130426,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 533,
-    "xp_award": 0
+    "joined_day": 535,
+    "xp_award": 2335
+   },
+   "neris": {
+    "id": "neris",
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 136577,
+    "level_before": 8,
+    "class": "Priestess",
+    "joined_day": 535,
+    "xp_award": 2224
+   },
+   "cotta": {
+    "id": "cotta",
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 32963,
+    "level_before": 6,
+    "class": "Explorer",
+    "joined_day": 535,
+    "xp_award": 2224
+   },
+   "aelia": {
+    "id": "aelia",
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "aelia",
+    "xp_before": 61144,
+    "level_before": 7,
+    "class": "Bard",
+    "joined_day": 535,
+    "xp_award": 1112
+   },
+   "phaedra": {
+    "id": "phaedra",
+    "name": "Phaedra",
+    "actor": "phaedra",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "phaedra",
+    "xp_before": 57229,
+    "level_before": 6,
+    "class": "Mage",
+    "joined_day": 535,
+    "xp_award": 1112
+   },
+   "hrodvar": {
+    "id": "hrodvar",
+    "name": "Hrodvar",
+    "actor": "hrodvar",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "hrodvar",
+    "xp_before": 42401,
+    "level_before": 6,
+    "class": "Dwarven Vaultguard",
+    "joined_day": 535,
+    "xp_award": 1112
+   },
+   "tiberius-maro": {
+    "id": "tiberius-maro",
+    "name": "Tiberius Maro",
+    "actor": "tiberius-maro",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "tiberius-maro",
+    "xp_before": 3000,
+    "level_before": 3,
+    "class": "Crusader",
+    "joined_day": 535,
+    "xp_award": 1112
    }
   },
   "monsters": [],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 533,
+   "day": 535,
    "at": null,
-   "total": 0.0,
-   "per_share": 0.0,
+   "total": 17795.0,
+   "per_share": 2224.375,
    "awards": {
-    "neris": {
+    "lucilla": {
      "share": 1.0,
      "why": null,
-     "base": 0,
-     "pct": 0,
+     "base": 2224,
+     "pct": 10,
      "pen": 0,
-     "award": 0,
-     "xp_before": 136577,
-     "xp_after": 136577,
+     "award": 2446,
+     "xp_before": 178260,
+     "xp_after": 180706,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 5,
+     "pen": 0,
+     "award": 2335,
+     "xp_before": 187353,
+     "xp_after": 189688,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 5,
+     "pen": 0,
+     "award": 2335,
+     "xp_before": 145953,
+     "xp_after": 148288,
      "capped": null,
      "zero": false
     },
     "vestus-the-unlikely": {
      "share": 1.0,
      "why": null,
-     "base": 0,
+     "base": 2224,
      "pct": 5,
      "pen": 0,
-     "award": 0,
+     "award": 2335,
      "xp_before": 130426,
-     "xp_after": 130426,
+     "xp_after": 132761,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 0,
+     "pen": 0,
+     "award": 2224,
+     "xp_before": 136577,
+     "xp_after": 138801,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 0,
+     "pen": 0,
+     "award": 2224,
+     "xp_before": 32963,
+     "xp_after": 35187,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 61144,
+     "xp_after": 62256,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 57229,
+     "xp_after": 58341,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 42401,
+     "xp_after": 43513,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 3000,
+     "xp_after": 4112,
      "capped": null,
      "zero": false
     }
@@ -38436,6 +38660,81 @@
     }
    },
    "events": []
+  },
+  {
+   "id": "A125",
+   "name": "The golden-skull shrine opened (a find of A120, kept; no XP)",
+   "start_day": 533,
+   "participants": {
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 136577,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 533,
+     "xp_award": 0
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 130426,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 533,
+     "xp_award": 0
+    }
+   },
+   "monsters": [],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 533,
+    "at": null,
+    "total": 0.0,
+    "per_share": 0.0,
+    "awards": {
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 136577,
+      "xp_after": 136577,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 130426,
+      "xp_after": 130426,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
   }
  ],
  "lots": {
@@ -74084,7 +74383,7 @@
    "qty": 1,
    "stone": 10.0,
    "carrier": null,
-   "status": "left",
+   "status": "lost",
    "found": {
     "day": 521,
     "where": "O3"
@@ -74108,7 +74407,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "note": " carried out on day 535 as L806 (A126)"
   },
   "L797": {
    "id": "L797",
@@ -74451,6 +74751,426 @@
    "sold": null,
    "judge": [],
    "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure"
+  },
+  "L806": {
+   "id": "L806",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 10.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 3000.0,
+    "stone": 10.0,
+    "name": "gold-plated sarcophagus lid inlaid with lapis (Orthanach's; left in O3 on day 521, L796)",
+    "merch": null
+   },
+   "player": {
+    "desc": "gold-plated sarcophagus lid inlaid with lapis (Orthanach's; left in O3 on day 521, L796)",
+    "value_gp": 3000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 3000.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L807": {
+   "id": "L807",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 10.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 3000.0,
+    "stone": 10.0,
+    "name": "gold-plated sarcophagus casket (Cassair's; left in O3 on day 521)",
+    "merch": null
+   },
+   "player": {
+    "desc": "gold-plated sarcophagus casket (Cassair's; left in O3 on day 521)",
+    "value_gp": 3000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 3000.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L808": {
+   "id": "L808",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 6.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1765.0,
+    "stone": 6.0,
+    "name": "12 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "12 cedar scroll jars of the library (N3)",
+    "value_gp": 1765.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1765.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L809": {
+   "id": "L809",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 6.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1765.0,
+    "stone": 6.0,
+    "name": "12 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "12 cedar scroll jars of the library (N3)",
+    "value_gp": 1765.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1765.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L810": {
+   "id": "L810",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1176.0,
+    "stone": 4.0,
+    "name": "8 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "8 cedar scroll jars of the library (N3)",
+    "value_gp": 1176.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1176.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L811": {
+   "id": "L811",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 8.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2353.0,
+    "stone": 8.0,
+    "name": "16 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "16 cedar scroll jars of the library (N3)",
+    "value_gp": 2353.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 2353.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L812": {
+   "id": "L812",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1471.0,
+    "stone": 5.0,
+    "name": "10 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "10 cedar scroll jars of the library (N3)",
+    "value_gp": 1471.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1471.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L813": {
+   "id": "L813",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 7.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2059.0,
+    "stone": 7.0,
+    "name": "14 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "14 cedar scroll jars of the library (N3)",
+    "value_gp": 2059.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 2059.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L814": {
+   "id": "L814",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1176.0,
+    "stone": 4.0,
+    "name": "8 cedar scroll jars of the library (N3)",
+    "merch": null
+   },
+   "player": {
+    "desc": "8 cedar scroll jars of the library (N3)",
+    "value_gp": 1176.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 1176.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
+  },
+  "L815": {
+   "id": "L815",
+   "adventure": "A126",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 535,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 30.0,
+    "stone": 1.0,
+    "name": "N3's fallen bronze chandelier",
+    "merch": null
+   },
+   "player": {
+    "desc": "N3's fallen bronze chandelier",
+    "value_gp": 30.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 30.0,
+    "market": "Cyfaraun",
+    "day": 535,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 535
   }
  },
  "hoards": {
@@ -81960,6 +82680,10 @@
   "cotta": {
    "id": "cotta",
    "actor": "cotta"
+  },
+  "tiberius-maro": {
+   "id": "tiberius-maro",
+   "actor": "tiberius-maro"
   }
  },
  "bought_market": [
