@@ -172,7 +172,7 @@ items:
   - "Lucilla's income: the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp; no XP (Rulings S19)"
   - "Iulia's report to Arëtar: one day of dedicated activity this month, or his next reaction is -1 (Rulings S14). Month 16 (day 480): the mission on Varinia's circle is already fixed by the day-470 roll: skip the task roll's result"
   - "tax collectors' check on open sales (5% +1% per 1,000gp sold or banked this month, 1d100; AX3 Doing Business): only if goods were sold openly, not through the Family (Rulings S19)"
-  - "Arëtar's gift after a mission he set was rolled on two ranges (1-3 in S19, 1-2 in S20): settle one and record it"
+  - "Arëtar's gift after a mission he set: 750gp when done as charged, none when he wants it unspoken (Rulings S29)"
   source: "Rulings S10, S14, S16, S19, S22, S25; AX3 pp. 75, 148; RR Passive Investment"
 
 - id: grey-sisters-vault
@@ -181,13 +181,17 @@ items:
   steps: ["pay 10gp a month ahead from Lucilla or Vettius (Rulings S11); then move this item's day on"]
   source: "Rulings S11 (row 81); Ledger day 443"
 
-- id: circle-rite
-  title: Nasga's circle gathers at the House of Green Silk (Iulia's month-16 task; until the circle is ended)
-  every: 1
-  anchor: 481
-  from: 481
-  rolls:
-  - {label: "the circle's rite tonight", dice: 1d6, on: "1-4", outcomes: {"1-4": "the rite: Livilla and her initiates in the steam room below the baths; the Watch sends word at dusk", "5-6": "no rite"}}
+
+- id: commissions-hi
+  title: Oppius brings the commissions for contracts H (Lucilla, 1,500gp) and I (Vettius, 500gp)
+  day: 484
   steps:
-  - "on a rite night Iulia raids with Brennus, Marcellus, Hrodvar and 4 watchmen (Adventure/AX3/NPCs/Livilla Corax.md); her own task, not the Family's; remove this item once the circle is ended (World State day 480)"
-  source: "Iulia's month-16 task (Arëtar, the task roll 3 on day 470); Judge's call day 480 (S29)"
+  - "each as its own adventure record: `adventure start --name \"Order commission H\"`, join the deathbringer(s), `recover --reward N --carrier ID`, payout (Rulings S17; judge-notes day 347)"
+  source: "contracts H and I done night of 482-483 (S29)"
+
+- id: tullus-body
+  title: "Tullus Varga's body found by the Watch (night of 482-483), one more 1-in-6 Watch inquiry roll this week"
+  day: 484
+  rolls:
+  - {label: "the Watch's inquiry for Tullus' body", dice: 1d6, on: "1", outcomes: {"1": "an inquiry reaches the company (the caller's reaction by the usual roll)", "2-6": "nothing"}}
+  source: "Rulings S23 (a body found adds one 1-in-6 Watch inquiry roll at the next weekly roll)"

@@ -536,6 +536,7 @@ tags:
 | 479 | Descent 65 (G2b, G6) | ivory from the statue of Iskara (half) | 500 | marcellus |
 | 479 | Descent 65 (G2b, G6) | ivory from the statue of Iskara (half) | 500 | varro |
 | 479 | Descent 65 (G2b, G6) | the last high priest's silver key (opens the G20-G21 door without its rune, and the G21 chests) | 0 | vettius |
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | reward 750.0gp | 750 | iulia |
 
 ## Monster XP
 
@@ -691,6 +692,10 @@ tags:
 | 479 | Descent 65 (G2b, G6) | Gelatinous Mass | 1 | 245 | 245 |
 | 479 | Descent 65 (G2b, G6) | Grand Chthonic High Priest (SOTN) | 1 | 2,100 | 2,100 |
 | 479 | Descent 65 (G2b, G6) | Grey Goo | 1 | 95 | 95 |
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Cultist of Dirgion (AX3) | 3 | 10 | 30 |
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Livilla Corax | 1 | 65 | 65 |
+| 483 | Order contract I: Pinnius the Cat (Vettius) | Pinnius the Cat | 1 | 10 | 10 |
+| 483 | Order contract H: Tullus Varga (Lucilla) | Tullus Varga | 1 | 50 | 50 |
 
 ## Shares and XP awarded
 
@@ -1405,6 +1410,14 @@ tags:
 | 479 | Descent 65 (G2b, G6) | Aelia | 0.5 | 340 | 274 | 0 | +0% | 614 |
 | 479 | Descent 65 (G2b, G6) | Marcellus | 0.5 | 340 | 274 | 0 | +0% | 614 |
 | 479 | Descent 65 (G2b, G6) | Cotta | 0.5 | 340 | 274 | 0 | +0% | 614 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Iulia | 1 | 250 | 32 | 0 | +5% | 296 |
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Brennus | 1 | 250 | 32 | 0 | +5% | 296 |
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Marcellus | 0.5 | 125 | 16 | 0 | +0% | 141 |
+| 481 | Iulia's task: the House of Green Silk (Nasga's circle) | Hrodvar | 0.5 | 125 | 16 | 0 | +0% | 141 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 483 | Order contract I: Pinnius the Cat (Vettius) | Vettius | 1 | 0 | 10 | 0 | +5% | 10 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 483 | Order contract H: Tullus Varga (Lucilla) | Lucilla | 1 | 0 | 20 | 0 | +10% | 22 |
+| 483 | Order contract H: Tullus Varga (Lucilla) | Vettius | 1 | 0 | 20 | 0 | +5% | 21 |
+| 483 | Order contract H: Tullus Varga (Lucilla) | Phaedra | 0.5 | 0 | 10 | 0 | +0% | 10 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -3859,3 +3872,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 480 | the caravan investments | month 16 investments: (1) 34 Return -50% 3gp 4sp 7cp (Protector ends); (2) Delay (months 16-21), nothing; (3) 97 Discovery +10% (2d10 10): 30 + 300 = 330gp |  | 333gp 4sp 7cp |  | lucilla |
 | 480 | the Tower of Knowledge | Vestus' dues, month 16 |  |  | 10gp | vestus-the-unlikely |
 | 480 | the retinue | wages paid |  |  | 200gp | vettius |
+| 481 |  | treasure share |  | 250gp |  | iulia |
+| 481 |  | treasure share |  | 250gp |  | brennus |
+| 481 |  | treasure share |  | 125gp |  | marcellus |
+| 481 |  | treasure share |  | 125gp |  | hrodvar |
+| 483 |  | treasure share |  |  |  |  |
+| 483 |  | treasure share |  |  |  |  |
+| 483 |  | treasure share |  |  |  |  |
+| 483 |  | treasure share |  |  |  |  |
