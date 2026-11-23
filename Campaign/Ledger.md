@@ -3785,3 +3785,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | aelia |
 | 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | marcellus |
 | 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | cotta |
+| 478 | Cyfaraun | Rations, Iron (one week) | 1 |  | 4gp | marcellus |
