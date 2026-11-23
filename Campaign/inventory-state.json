@@ -100900,6 +100900,136 @@
    "coins": [],
    "cmd": "inv add",
    "n": 5067
+  },
+  {
+   "op": "give",
+   "cause": "stored: the Underwatch shield borne instead",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "silk-pony-strongbox",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5068
+  },
+  {
+   "op": "give",
+   "cause": "stand-in record for the shield of the Underwatch (L232): the engine refuses to re-claim a lot whose instance was removed (S35 finding)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "silk-pony-strongbox",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5069
+  },
+  {
+   "op": "add",
+   "cause": "stand-in record for the spear of the Underwatch (L233, Spear +2, lights on 'audar'): the engine refuses to re-add the removed instance w60 (S35 finding)",
+   "day": 528,
+   "time": "day 528 08:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "#w77",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w77",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "stand-in record for the spear of the Underwatch (L233, Spear +2, lights on 'audar'): the engine refuses to re-add the removed instance w60 (S35 finding)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 5070
   }
  ],
  "holdings": {
@@ -101692,7 +101822,8 @@
     "shield": 1
    },
    "backpack": {
-    "rations, iron (one week)": 2
+    "rations, iron (one week)": 2,
+    "#w77": 1
    }
   }
  },
@@ -106554,6 +106685,71 @@
      "catalog": {
       "table": "weapons-bludgeons",
       "row": 2
+     }
+    }
+   }
+  },
+  "w77": {
+   "id": "w77",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "stand-in record for the spear of the Underwatch (L233, Spear +2, lights on 'audar'): the engine refuses to re-add the removed instance w60 (S35 finding)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
      }
     }
    }
