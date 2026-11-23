@@ -11,7 +11,7 @@ public:
     year: ''
     season: summer
     day: 514
-  time: 09:00
+  time: '13:41'
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.468
+    encumbrance_st: 9.47
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 22
     conditions: []
     spells_used: []
-    encumbrance_st: 10.314
+    encumbrance_st: 10.464
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -44,7 +44,7 @@ public:
     conditions: []
     spells_used:
     - Fireball
-    encumbrance_st: 4.696
+    encumbrance_st: 4.708
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -57,7 +57,7 @@ public:
     - Delay Poison
     - Holy Circle, Sustained
     - Holy Blessing
-    encumbrance_st: 5.24
+    encumbrance_st: 5.242
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -67,7 +67,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 12.881
+    encumbrance_st: 12.283
   - name: Iulia
     sheet: Characters/iulia.json
     role: pc
@@ -78,7 +78,7 @@ public:
     spells_used:
     - Delay Poison
     - Smite Undead
-    encumbrance_st: 10.521
+    encumbrance_st: 10.398
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -86,7 +86,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 9.151
+    encumbrance_st: 8.82
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -95,7 +95,7 @@ public:
     conditions: []
     spells_used:
     - Thunderbolt
-    encumbrance_st: 7.303
+    encumbrance_st: 7.005
   - name: Cotta
     sheet: Characters/cotta.json
     role: henchman
@@ -103,9 +103,9 @@ public:
     hp_max: 13
     conditions: []
     spells_used: []
-    encumbrance_st: 7.722
+    encumbrance_st: 7.724
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) 19 turns 8 rounds left
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out
   rations: 'Iulia: food 6 d, water 2 d; Brennus: food 6 d, water 1.8 d; Vettius: food 6 d, water 2 d; Neris: food 6 d, water 2.2 d; Phaedra: food 6 d, water 2 d; Vestus the Unlikely: food 6 d, water 2.8 d; Cotta: food 6 d, water 2 d; Lucilla: food 6 d, water 2 d; Aelia: food 6 d, water 2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:

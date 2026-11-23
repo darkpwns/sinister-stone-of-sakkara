@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 514,
-  "round_of_day": 540,
-  "total_rounds": 738780
+  "round_of_day": 821,
+  "total_rounds": 739061
  },
  "party": {
   "iulia": {
@@ -13,7 +13,7 @@
    "perceived": "Iulia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 10.333333333333334
+   "treasure_stone": 0.3333333333333333
   },
   "brennus": {
    "id": "brennus",
@@ -22,7 +22,7 @@
    "perceived": "Brennus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 5.673333333333333
+   "treasure_stone": 2.3333333333333335
   },
   "vettius": {
    "id": "vettius",
@@ -40,7 +40,7 @@
    "perceived": "Neris",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 11.666666666666666
+   "treasure_stone": 1.6666666666666667
   },
   "phaedra": {
    "id": "phaedra",
@@ -49,7 +49,7 @@
    "perceived": "Phaedra",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 10.333333333333334
+   "treasure_stone": 0.3333333333333333
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -58,7 +58,7 @@
    "perceived": "Vestus the Unlikely",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 12.336666666666666
+   "treasure_stone": 2.3366666666666664
   },
   "cotta": {
    "id": "cotta",
@@ -67,7 +67,7 @@
    "perceived": "Cotta",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 10.17
+   "treasure_stone": 0.17
   },
   "lucilla": {
    "id": "lucilla",
@@ -76,7 +76,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 10.5
+   "treasure_stone": 0.5
   },
   "aelia": {
    "id": "aelia",
@@ -85,7 +85,7 @@
    "perceived": "Aelia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 6.336666666666667
+   "treasure_stone": 3.8366666666666664
   }
  },
  "lights": [
@@ -642,52 +642,38 @@
    "id": "lantern19",
    "kind": "lantern",
    "carrier": "vettius",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 198,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch389",
+   "kind": "torch",
+   "carrier": "aelia",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch390",
+   "kind": "torch",
+   "carrier": "aelia",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 37,
    "tallow": false
   }
  ],
  "timers": [
   {
-   "id": "t129",
-   "label": "Delay Poison on Iulia (Iulia)",
-   "rounds_left": 38,
-   "hidden": false,
-   "source": null,
-   "started": "day 514 08:18"
-  },
-  {
-   "id": "t130",
-   "label": "Delay Poison on Brennus (Neris)",
-   "rounds_left": 28,
-   "hidden": false,
-   "source": null,
-   "started": "day 514 08:18"
-  },
-  {
-   "id": "t131",
-   "label": "Holy Circle, Sustained (Neris)",
-   "rounds_left": 78,
-   "hidden": false,
-   "source": null,
-   "started": "day 514 08:18"
-  },
-  {
-   "id": "t132",
-   "label": "Holy Blessing (Neris) HB514",
-   "rounds_left": 18,
-   "hidden": false,
-   "source": null,
-   "started": "day 514 08:18"
-  },
-  {
-   "id": "t133",
+   "id": "t135",
    "label": "unsettling event throw (SOTN pp. 19-20)",
-   "rounds_left": 110,
+   "rounds_left": 100,
    "hidden": true,
    "source": null,
-   "started": "day 514 08:50"
+   "started": "day 514 13:21"
   }
  ],
  "rest": {
@@ -696,84 +682,27 @@
   "winded": []
  },
  "location": {
-  "site": "Nethercity R - Abyssal Level Southern Cave",
-  "kind": "dungeon",
-  "level": 4,
-  "room": "R2",
+  "site": "Cyfaraun",
+  "kind": "settlement",
+  "level": null,
+  "room": null,
   "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
+   "none": true
   },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
+  "table": null,
   "source": {
-   "wandering": "site setting: '1d6 every 3 turns, 6+'"
+   "wandering": "a settlement: no wandering monster checks"
   }
  },
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 514 08:50",
-   "roll": 2,
+   "at": "day 514 13:20",
+   "roll": 6,
    "target": 6,
-   "encounter": false
+   "encounter": true
   },
   "history": [
-   {
-    "at": "day 506 05:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 506 06:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 506 06:40",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 506 07:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 506 07:40",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 506 08:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 506 08:40",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 506 09:10",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 506 09:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 514 04:40",
     "roll": 3,
@@ -839,13 +768,67 @@
     "roll": 2,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 514 09:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 09:50",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 10:20",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 514 10:50",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 11:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 11:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 12:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 12:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 514 13:20",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
    }
   ],
   "pending_at": null,
-  "turn_start_done": 738770
+  "turn_start_done": 739060
  },
  "turn_actions": {
-  "turn": 73878,
+  "turn": 73906,
   "listened": [],
   "actions": []
  },
@@ -991,8 +974,8 @@
    "rest_rounds": 0
   },
   "514": {
-   "delve_rounds": 220,
-   "rest_rounds": 50
+   "delve_rounds": 461,
+   "rest_rounds": 90
   }
  },
  "events": [
@@ -1867,9 +1850,9 @@
   }
  ],
  "next_ids": {
-  "enc": 424,
-  "torch": 388,
-  "t": 133,
+  "enc": 426,
+  "torch": 390,
+  "t": 135,
   "lantern": 19
  },
  "travel": {
@@ -13795,22 +13778,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc405",
-   "at": "day 484 07:26",
-   "monster_name": "Giant Ant Worker",
-   "number": 6,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc406",
-   "at": "day 484 09:00",
-   "monster_name": "Gelatinous Mass",
-   "number": 1,
-   "reaction": null,
-   "status": "surprise rolled"
-  },
-  {
    "id": "enc407",
    "at": "day 496 05:40",
    "monster_name": "Insect Swarm",
@@ -13953,6 +13920,22 @@
    "number": 1,
    "reaction": null,
    "status": "begun"
+  },
+  {
+   "id": "enc425",
+   "at": "day 514 10:20",
+   "monster_name": "Shadow",
+   "number": 8,
+   "reaction": null,
+   "status": "begun"
+  },
+  {
+   "id": "enc426",
+   "at": "day 514 13:20",
+   "monster_name": "Giant Black Widow",
+   "number": 3,
+   "reaction": "overawed",
+   "status": "reaction"
   }
  ],
  "diseases": {

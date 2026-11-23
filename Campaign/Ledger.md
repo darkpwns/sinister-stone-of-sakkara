@@ -563,6 +563,14 @@ tags:
 | 506 | Descent 70 (R: the prince and princess) | SOTN Prince's Spellbook | 100 | vestus-the-unlikely |
 | 506 | Descent 70 (R: the prince and princess) | SOTN Princess's Spellbook | 100 | phaedra |
 | 511 | Order contract: Cnaeus Lento (Brennus) | reward 1500.0gp | 1,500 | brennus |
+| 514 | Descent 71 (R: the bronze door) | gilded bronze sarcophagus lid (the prince's) | 750 | sold |
+| 514 | Descent 71 (R: the bronze door) | gilded bronze sarcophagus casket (the prince's) | 750 | sold |
+| 514 | Descent 71 (R: the bronze door) | gilded bronze sarcophagus lid (the princess's) | 750 | sold |
+| 514 | Descent 71 (R: the bronze door) | gilded bronze sarcophagus casket (the princess's) | 750 | sold |
+| 514 | Descent 71 (R: the bronze door) | great ivory tusk | 1,000 | sold |
+| 514 | Descent 71 (R: the bronze door) | great ivory tusk | 1,000 | sold |
+| 514 | Descent 71 (R: the bronze door) | 20 pairs of giant boar tusks | 40 | sold |
+| 514 | Descent 71 (R: the bronze door) | 15 pairs of sabre-tooth tiger tusks | 60 | sold |
 
 ## Monster XP
 
@@ -738,6 +746,7 @@ tags:
 | 506 | Descent 70 (R: the prince and princess) | Bronze Animated Statue | 4 | 350 | 1,400 |
 | 506 | Descent 70 (R: the prince and princess) | Giant Fly | 4 | 29 | 116 |
 | 511 | Order contract: Cnaeus Lento (Brennus) | Cnaeus Lento | 1 | 50 | 50 |
+| 514 | Descent 71 (R: the bronze door) | Skeleton | 48 | 13 | 624 |
 
 ## Shares and XP awarded
 
@@ -1518,6 +1527,15 @@ tags:
 | 511 | Order contract: Cnaeus Lento (Brennus) | Brennus | 1 | 600 | 20 | 0 | +5% | 651 |
 | 511 | Order contract: Cnaeus Lento (Brennus) | Vettius | 1 | 600 | 20 | 0 | +5% | 651 |
 | 511 | Order contract: Cnaeus Lento (Brennus) | Phaedra | 0.5 | 300 | 10 | 0 | +0% | 310 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 514 | Descent 71 (R: the bronze door) | Lucilla | 1 | 680 | 83 | 0 | +10% | 839 |
+| 514 | Descent 71 (R: the bronze door) | Vettius | 1 | 680 | 83 | 0 | +5% | 801 |
+| 514 | Descent 71 (R: the bronze door) | Vestus the Unlikely | 1 | 680 | 83 | 0 | +5% | 801 |
+| 514 | Descent 71 (R: the bronze door) | Neris | 1 | 680 | 83 | 0 | +0% | 763 |
+| 514 | Descent 71 (R: the bronze door) | Brennus | 1 | 680 | 83 | 0 | +5% | 801 |
+| 514 | Descent 71 (R: the bronze door) | Iulia | 1 | 680 | 83 | 0 | +5% | 801 |
+| 514 | Descent 71 (R: the bronze door) | Phaedra | 0.5 | 340 | 42 | 0 | +0% | 382 |
+| 514 | Descent 71 (R: the bronze door) | Aelia | 0.5 | 340 | 42 | 0 | +0% | 382 |
+| 514 | Descent 71 (R: the bronze door) | Cotta | 0.5 | 340 | 42 | 0 | +0% | 382 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4147,3 +4165,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | aelia |
 | 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | phaedra |
 | 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | cotta |
+| 514 |  | treasure share |  | 680gp |  | lucilla |
+| 514 |  | treasure share |  | 680gp |  | vettius |
+| 514 |  | treasure share |  | 680gp |  | vestus-the-unlikely |
+| 514 |  | treasure share |  | 680gp |  | neris |
+| 514 |  | treasure share |  | 680gp |  | brennus |
+| 514 |  | treasure share |  | 680gp |  | iulia |
+| 514 |  | treasure share |  | 340gp |  | phaedra |
+| 514 |  | treasure share |  | 340gp |  | aelia |
+| 514 |  | treasure share |  | 340gp |  | cotta |
