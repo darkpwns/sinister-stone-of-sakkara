@@ -1245,9 +1245,9 @@ Varinia's circle); **481 the Imperial Vanguard goes down by the 12U cesspool** (
 **This file is now the archive of S01-S28. From S29 the handoff is `Campaign/handoff.md`** (one file, rewritten each
 session by `handoff.py`, printed by `brief.py` at session start: a block generated from the state files, then the
 Judge's notes). Do not append sections here any more. What follows is the last hand-written handoff, corrected for the
-engineering session of 2026-11-23 (no play, no state change; tools 7.15.0 → 7.17.6).
+engineering session of 2026-11-23 (no play, no state change; tools 7.15.0 → 7.17.7).
 
-**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos. `setup.sh` must print `engine: ready: acks 7.17.6` (or later).
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos. `setup.sh` must print `engine: ready: acks 7.17.7` (or later).
 Log: `Session Log/S28 — The Mummy King's Hall.md`. Set Campaign State `session:` to 29 first.
 
 **State on resume:** day 477 17:42, the Solar Citadel. No adventure open (A103 paid). Twelve, whole; Vettius' enervation ended
