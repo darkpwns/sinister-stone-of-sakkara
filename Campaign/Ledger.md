@@ -641,6 +641,7 @@ tags:
 | 521 | Descent 76 (O: the coffins) | Lamellar +1 | 700 | brennus |
 | 526 | Order contract: Marius Corvo (Vestus) | reward 500.0gp | 500 | vestus-the-unlikely |
 | 531 | Order contract: Decimus Ruga (Brennus) | reward 500.0gp | 500 | brennus |
+| 533 | Order contract: Ammia Thrax (Vettius) | reward 2000.0gp | 2,000 | vettius |
 
 ## Monster XP
 
@@ -826,6 +827,7 @@ tags:
 | 521 | Descent 76 (O: the coffins) | Tunnel Prawn (SOTN) | 8 | 10 | 80 |
 | 526 | Order contract: Marius Corvo (Vestus) | Marius Corvo | 1 | 10 | 10 |
 | 531 | Order contract: Decimus Ruga (Brennus) | Decimus Ruga | 1 | 10 | 10 |
+| 533 | Order contract: Ammia Thrax (Vettius) | Ammia Thrax | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -1663,6 +1665,9 @@ tags:
 | 531 | Order contract: Decimus Ruga (Brennus) | Brennus | 1 | 200 | 4 | 0 | +5% | 214 |
 | 531 | Order contract: Decimus Ruga (Brennus) | Vettius | 1 | 200 | 4 | 0 | +5% | 214 |
 | 531 | Order contract: Decimus Ruga (Brennus) | Phaedra | 0.5 | 100 | 2 | 0 | +0% | 102 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 533 | Order contract: Ammia Thrax (Vettius) | Vettius | 1 | 800 | 32 | 0 | +5% | 874 |
+| 533 | Order contract: Ammia Thrax (Vettius) | Brennus | 1 | 800 | 32 | 0 | +5% | 874 |
+| 533 | Order contract: Ammia Thrax (Vettius) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4364,3 +4369,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 531 |  | treasure share |  | 200gp |  | brennus |
 | 531 |  | treasure share |  | 200gp |  | vettius |
 | 531 |  | treasure share |  | 100gp |  | phaedra |
+| 532 | Tertulla | the black barge's mooring, a fortnight ahead (days 532-545) |  |  | 4gp | lucilla |
+| 533 |  | treasure share |  | 800gp |  | vettius |
+| 533 |  | treasure share |  | 800gp |  | brennus |
+| 533 |  | treasure share |  | 400gp |  | phaedra |

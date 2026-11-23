@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 124,
-  "L": 803,
+  "L": 804,
   "H": 137,
   "M": 244
  },
@@ -19,12 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 186479,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 531
+    "joined_day": 531,
+    "xp_award": 874
    },
    "brennus": {
     "id": "brennus",
@@ -34,12 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 145079,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 531
+    "joined_day": 531,
+    "xp_award": 874
    },
    "phaedra": {
     "id": "phaedra",
@@ -49,12 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 56813,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 531
+    "joined_day": 531,
+    "xp_award": 416
    }
   },
   "monsters": [
@@ -74,8 +77,51 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 533,
+   "at": null,
+   "total": 2080.0,
+   "per_share": 832.0,
+   "awards": {
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 832,
+     "pct": 5,
+     "pen": 0,
+     "award": 874,
+     "xp_before": 186479,
+     "xp_after": 187353,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 832,
+     "pct": 5,
+     "pen": 0,
+     "award": 874,
+     "xp_before": 145079,
+     "xp_after": 145953,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 416,
+     "pct": 0,
+     "pen": 0,
+     "award": 416,
+     "xp_before": 56813,
+     "xp_after": 57229,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -73245,8 +73291,8 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": null,
-   "status": "stored",
+   "carrier": "brennus",
+   "status": "carried",
    "found": {
     "day": 517,
     "where": "O3"
@@ -73267,21 +73313,24 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "an obsidian ring etched with runes",
+    "desc": "Ring of Fire Protection",
     "value_gp": null,
     "apparent_gp": 40,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "charges",
+     "command words",
+     "curse",
+     "all properties",
+     "the Tower's identification (paid day 519): a ring of fire protection, like Lucilla's (TT Ring of Fire Protection)"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
-   "judge": [],
-   "stored": {
-    "place": "the Tower (identification, ready day 533)",
-    "day": 519
-   }
+   "judge": []
   },
   "L780": {
    "id": "L780",
@@ -73289,8 +73338,8 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": null,
-   "status": "stored",
+   "carrier": "phaedra",
+   "status": "carried",
    "found": {
     "day": 517,
     "where": "O3"
@@ -73311,23 +73360,26 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "bronze bracers inlaid with lapis lazuli",
+    "desc": "Bracers of Armor",
     "value_gp": null,
     "apparent_gp": 225.0,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "charges",
+     "command words",
+     "curse",
+     "all properties",
+     "the Tower's identification (paid day 519): bracers of armour +1 (TT Bracers of Armor)"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
    "judge": [
     "Bracers of Armor: describe its form to the players (the item's note); the engine shows 'an object' until then (recover --looks)"
-   ],
-   "stored": {
-    "place": "the Tower (identification, ready day 533)",
-    "day": 519
-   }
+   ]
   },
   "L781": {
    "id": "L781",
@@ -73335,8 +73387,8 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": null,
-   "status": "stored",
+   "carrier": "vestus-the-unlikely",
+   "status": "carried",
    "found": {
     "day": 517,
     "where": "O3"
@@ -73357,14 +73409,22 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a rod of narwhal horn, sandstone, sky-iron and obsidian twined, a glass sphere of swirling motes on top",
+    "desc": "Rod of Elemental Spheres",
     "value_gp": null,
     "apparent_gp": 700,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "charges",
+     "command words",
+     "curse",
+     "all properties",
+     "the Tower's identification (paid day 519): a rod of elemental spheres (TT Rod of Elemental Spheres): four powers, each once a day, each by its spoken command word (the Tower gives the four words): a sphere of water within 120' that drowns, a rolling boulder from the wielder's side, a sphere of howling wind around him, a sphere of fire within 30' moved by his will",
+     "an arcane caster's rod"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
    "judge": [],
@@ -74249,6 +74309,39 @@
    "sold": null,
    "judge": [],
    "divided_day": 531
+  },
+  "L804": {
+   "id": "L804",
+   "adventure": "A124",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "vettius",
+   "status": "divided",
+   "found": {
+    "day": 533,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0,
+    "name": "reward 2000.0gp"
+   },
+   "player": {
+    "desc": "reward of 2000.0gp",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 533
   }
  },
  "hoards": {
