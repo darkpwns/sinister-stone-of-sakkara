@@ -4128,3 +4128,22 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 511 | the Keepers' scriptorium (market stock H120) | a divine scroll of Restore Life and Limb and Cure Major Injury (8 levels; 225% of 4,000gp base, Rulings S11, S32) |  |  | 9,000gp | neris |
 | 511 | the Solar Citadel's scriptorium (market stock H117) | a divine scroll of Restore Life and Limb and Holy Blessing (7 levels; 225% of 3,500gp base, Rulings S11, S32) |  |  | 7,875gp | iulia |
 | 511 | the Tower's alchemist (market stock H110) | a Potion of Delay Poison (225% of 1,000gp base, TT p. 27) |  |  | 2,250gp | vettius |
+| 513 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | lucilla |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | vettius |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | vestus-the-unlikely |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | neris |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | brennus |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | iulia |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | aelia |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | phaedra |
+| 514 | Cyfaraun | Waterskin | 2 |  | 1gp 2sp | cotta |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | lucilla |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | vettius |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | vestus-the-unlikely |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | neris |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | brennus |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | iulia |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | aelia |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | phaedra |
+| 514 | Cyfaraun | Waterskin | 3 |  | 1gp 8sp | cotta |

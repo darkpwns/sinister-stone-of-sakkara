@@ -1,13 +1,19 @@
 {
  "schema": "acks-combat/3",
- "round": 3,
+ "round": 4,
  "order": [
+  "lucilla",
   "brennus",
-  "phaedra",
   "vettius",
-  "cnaeus-lento"
+  "cotta",
+  "skel48",
+  "aelia",
+  "neris",
+  "iulia",
+  "vestus-the-unlikely",
+  "phaedra"
  ],
- "count_index": 0,
+ "count_index": 10,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -114,15 +120,19 @@
      ]
     },
     "attack_throw": [
-     6,
+     5,
      {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 4
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "fighter-attack-and-saving-throws",
+       "title": "Fighter Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Fighter.md",
+       "block": "^tbl-fighter-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 4
+      }
      }
     ],
     "saves": [
@@ -163,8 +173,8 @@
      }
     ],
     "ac_options": {
-     "shield": 10,
-     "no_shield": 10,
+     "shield": 11,
+     "no_shield": 11,
      "dex_only": 3
     },
     "hp_max": 31,
@@ -173,7 +183,7 @@
      {
       "name": "Great Axe +1",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d10+5",
       "range": {
        "short": 0,
@@ -185,7 +195,7 @@
      {
       "name": "Spear +1",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6/1d8+5",
       "range": {
        "short": 30,
@@ -197,7 +207,7 @@
      {
       "name": "Hand Axe",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 4,
       "damage": "1d6+4",
       "range": {
        "short": 15,
@@ -234,7 +244,426 @@
    "hp_max": 31,
    "hp": 31,
    "hp_start": 31,
-   "attacked_round": 2
+   "attacked_round": 4,
+   "acted_round": 4
+  },
+  "iulia": {
+   "id": "iulia",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "iulia",
+   "perceived": "iulia",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 1,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Iulia",
+   "stats": {
+    "name": "Iulia",
+    "actor": "iulia",
+    "kind": "pc",
+    "level": 8,
+    "class": "Crusader",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     6,
+     {
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "crusader-attack-and-saving-throws",
+       "title": "Crusader Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Crusader.md",
+       "block": "^tbl-crusader-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 37",
+       "row": 3
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 10,
+      "death": 7,
+      "blast": 13,
+      "implements": 10,
+      "spells": 12
+     },
+     {
+      "table": "crusader-attack-and-saving-throws",
+      "title": "Crusader Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "block": "^tbl-crusader-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 37",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.crusader.hit_die",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "book": "RR",
+      "page": "p. 36"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     4,
+     {
+      "rule": "class.crusader.cleave",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "book": "RR",
+      "page": "p. 36"
+     }
+    ],
+    "ac_options": {
+     "shield": 10,
+     "no_shield": 7,
+     "dex_only": 1
+    },
+    "hp_max": 40,
+    "movement_running": 30,
+    "weapons": [
+     {
+      "name": "Spear +2",
+      "init_bonus": "",
+      "attack_throw": 3,
+      "damage": "1d6+3",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Divine Blessing",
+     "Fighting Style Specialization (weapon and shield)",
+     "Righteous Rebuke",
+     "Adventuring",
+     "Theology 2",
+     "Leadership"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "divine blessing": "",
+     "fighting style specialization (weapon and shield)": "",
+     "righteous rebuke": "",
+     "adventuring": "",
+     "theology 2": "",
+     "leadership": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "iulia",
+   "hp_max": 40,
+   "hp": 40,
+   "hp_start": 40,
+   "attacked_round": 4,
+   "acted_round": 4
+  },
+  "lucilla": {
+   "id": "lucilla",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "lucilla",
+   "perceived": "lucilla",
+   "judge_set": {
+    "resist": "fire:both"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 7,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Lucilla",
+   "stats": {
+    "name": "Lucilla",
+    "actor": "lucilla",
+    "kind": "pc",
+    "level": 8,
+    "class": "Venturer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ]
+    },
+    "attack_throw": [
+     6,
+     {
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "venturer-attack-and-saving-throws",
+       "title": "Venturer (Thief) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Venturer.md",
+       "block": "^tbl-venturer-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 41",
+       "row": 3
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 10,
+      "death": 10,
+      "blast": 10,
+      "implements": 11,
+      "spells": 12
+     },
+     {
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.venturer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "book": "RR",
+      "page": "p. 40"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     4,
+     {
+      "rule": "class.venturer.cleave",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "book": "RR",
+      "page": "p. 40"
+     }
+    ],
+    "ac_options": {
+     "shield": 7,
+     "no_shield": 7,
+     "dex_only": 1
+    },
+    "hp_max": 42,
+    "movement_running": 30,
+    "weapons": [
+     {
+      "name": "Mace +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "left hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Magical Engineering",
+     "Driving",
+     "Leadership",
+     "Intimidation",
+     "Adventuring",
+     "Knowledge (history)",
+     "Bargaining",
+     "Diplomacy"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "magical engineering": "",
+     "driving": "",
+     "leadership": "",
+     "intimidation": "",
+     "adventuring": "",
+     "knowledge (history)": "",
+     "bargaining": "",
+     "diplomacy": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "lucilla",
+   "hp_max": 42,
+   "hp": 42,
+   "hp_start": 42,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "vettius": {
    "id": "vettius",
@@ -248,7 +677,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -335,15 +764,19 @@
      ]
     },
     "attack_throw": [
-     7,
+     6,
      {
-      "table": "thief-attack-and-saving-throws",
-      "title": "Thief Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "block": "^tbl-thief-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 31",
-      "row": 3
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "thief-attack-and-saving-throws",
+       "title": "Thief Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Thief.md",
+       "block": "^tbl-thief-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 31",
+       "row": 3
+      }
      }
     ],
     "saves": [
@@ -407,17 +840,17 @@
      ]
     },
     "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
+     "shield": 5,
+     "no_shield": 5,
      "dex_only": 1
     },
     "hp_max": 22,
-    "movement_running": 60,
+    "movement_running": 30,
     "weapons": [
      {
       "name": "Short Sword +2",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -429,7 +862,7 @@
      {
       "name": "Sword +2",
       "init_bonus": "",
-      "attack_throw": 4,
+      "attack_throw": 3,
       "damage": "1d6+3",
       "range": {
        "short": 0,
@@ -441,7 +874,7 @@
      {
       "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 5,
+      "attack_throw": 4,
       "damage": "1d6/1d8+2",
       "range": {
        "short": 0,
@@ -480,7 +913,934 @@
    "hp_max": 22,
    "hp": 22,
    "hp_start": 22,
-   "attacked_round": 1
+   "acted_round": 4
+  },
+  "cotta": {
+   "id": "cotta",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "cotta",
+   "perceived": "cotta",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Cotta",
+   "stats": {
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "henchman",
+    "level": 4,
+    "class": "Explorer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "explorer-attack-and-saving-throws",
+       "title": "Explorer (Fighter) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Explorer.md",
+       "block": "^tbl-explorer-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 25",
+       "row": 2
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 11,
+      "death": 12,
+      "blast": 13,
+      "implements": 14,
+      "spells": 15
+     },
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 2
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.explorer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 26"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     4,
+     {
+      "rule": "class.explorer.cleave",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 5,
+     "no_shield": 5,
+     "dex_only": 1
+    },
+    "hp_max": 13,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Long Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+3",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Composite Bow",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+2",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6/1d8+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Adventuring",
+     "Mounted Combat",
+     "Precise Shooting",
+     "Riding"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "adventuring": "",
+     "mounted combat": "",
+     "precise shooting": "",
+     "riding": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "cotta",
+   "hp_max": 13,
+   "hp": 13,
+   "hp_start": 13,
+   "attacked_round": 3,
+   "acted_round": 4
+  },
+  "aelia": {
+   "id": "aelia",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "aelia",
+   "perceived": "aelia",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Aelia",
+   "stats": {
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "level": 6,
+    "class": "Bard",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     6,
+     {
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "bard-attack-and-saving-throws",
+       "title": "Bard (Fighter) Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Bard.md",
+       "block": "^tbl-bard-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 53",
+       "row": 3
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 10,
+      "death": 11,
+      "blast": 12,
+      "implements": 13,
+      "spells": 14
+     },
+     {
+      "table": "bard-attack-and-saving-throws",
+      "title": "Bard (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "block": "^tbl-bard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 53",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.bard.hit_die",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "book": "RR",
+      "page": "p. 52"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     6,
+     {
+      "rule": "class.bard.cleave",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "book": "RR",
+      "page": "p. 52"
+     }
+    ],
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 0
+    },
+    "hp_max": 20,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Composite Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+3",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Net",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "",
+      "range": {
+       "short": 10,
+       "medium": 15,
+       "long": 20
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Short Sword (silvered)",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "backpack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Magical Engineering",
+     "Combat Reflexes",
+     "Performance",
+     "Bargaining",
+     "Healing",
+     "Naturalism"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "magical engineering": "",
+     "combat reflexes": "",
+     "performance": "",
+     "bargaining": "",
+     "healing": "",
+     "naturalism": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "aelia",
+   "hp_max": 20,
+   "hp": 20,
+   "hp_start": 20,
+   "attacked_round": 3,
+   "acted_round": 4
+  },
+  "neris": {
+   "id": "neris",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "neris",
+   "perceived": "neris",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Neris",
+   "stats": {
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "level": 7,
+    "class": "Priestess",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 1
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "priestess-attack-throws",
+       "title": "Priestess (Mage) Attack Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-attack-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 2
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 9,
+      "death": 6,
+      "blast": 12,
+      "implements": 9,
+      "spells": 11
+     },
+     {
+      "table": "priestess-saving-throws",
+      "title": "Priestess (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-saving-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.priestess.hit_die",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.priestess.cleave",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "save_refs": {
+     "paralysis": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "death": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "blast": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "implements": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "spells": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     }
+    },
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 1
+    },
+    "hp_max": 20,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d4/1d6-2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Laying on Hands",
+     "Divine Blessing",
+     "Healing",
+     "Knowledge (astrology)"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "laying on hands": "",
+     "divine blessing": "",
+     "healing": "",
+     "knowledge (astrology)": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "neris",
+   "hp_max": 20,
+   "hp": 20,
+   "hp_start": 20,
+   "acted_round": 4
+  },
+  "vestus-the-unlikely": {
+   "id": "vestus-the-unlikely",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "vestus-the-unlikely",
+   "perceived": "vestus-the-unlikely",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Vestus the Unlikely",
+   "stats": {
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "level": 7,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 2
+      }
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 11,
+      "death": 11,
+      "blast": 13,
+      "implements": 9,
+      "spells": 10
+     },
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 1
+    },
+    "hp_max": 18,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 8,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Loremastery",
+     "Magical Engineering",
+     "Mapping",
+     "Language (Ancient Argollëan)",
+     "Swimming"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "loremastery": "",
+     "magical engineering": "",
+     "mapping": "",
+     "language (ancient argollëan)": "",
+     "swimming": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "vestus-the-unlikely",
+   "hp_max": 18,
+   "hp": 18,
+   "hp_start": 18,
+   "acted_round": 4
   },
   "phaedra": {
    "id": "phaedra",
@@ -494,7 +1854,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -581,15 +1941,19 @@
      ]
     },
     "attack_throw": [
-     9,
+     8,
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 35",
-      "row": 1
+      "modifier": "Holy Blessing (Neris) (RR p. 225, HB514) -1",
+      "cause": "Neris' Holy Blessing, day 514 08:18, 6 turns",
+      "rules": {
+       "table": "mage-attack-and-saving-throws",
+       "title": "Mage Attack and Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Mage.md",
+       "block": "^tbl-mage-attack-and-saving-throws",
+       "book": "RR",
+       "page": "p. 35",
+       "row": 1
+      }
      }
     ],
     "saves": [
@@ -630,17 +1994,17 @@
      }
     ],
     "ac_options": {
-     "shield": -1,
-     "no_shield": -1,
+     "shield": 0,
+     "no_shield": 0,
      "dex_only": -1
     },
     "hp_max": 20,
-    "movement_running": 90,
+    "movement_running": 60,
     "weapons": [
      {
       "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d4",
       "range": {
        "short": 15,
@@ -652,7 +2016,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 10,
+      "attack_throw": 9,
       "damage": "1d6",
       "range": {
        "short": 75,
@@ -664,7 +2028,7 @@
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 9,
+      "attack_throw": 8,
       "damage": "1d6",
       "range": {
        "short": 0,
@@ -694,201 +2058,2111 @@
    "actor": "phaedra",
    "hp_max": 20,
    "hp": 20,
-   "hp_start": 20
+   "hp_start": 20,
+   "acted_round": 4
   },
-  "cnaeus-lento": {
-   "id": "cnaeus-lento",
+  "skel1": {
+   "id": "skel1",
    "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "slumbering",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "lento",
-   "perceived": "the sellsword in a grey cloak",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
    "judge_set": {
-    "morale": "0"
+    "ac": "3",
+    "weapon": "shortsword"
    },
    "hp_lost_rounds": [
-    2
+    1
    ],
-   "felled": null,
+   "felled": {
+    "round": 1,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -3,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel2": {
+   "id": "skel2",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -6,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel3": {
+   "id": "skel3",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -4,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel4": {
+   "id": "skel4",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel5": {
+   "id": "skel5",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 2,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel6": {
+   "id": "skel6",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "cotta",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -2,
+   "hp_start": 5,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel7": {
+   "id": "skel7",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -9,
+   "hp_start": 1,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel8": {
+   "id": "skel8",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -9,
+   "hp_start": 2,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel9": {
+   "id": "skel9",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -22,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel10": {
+   "id": "skel10",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -22,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel11": {
+   "id": "skel11",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -22,
+   "hp_start": 2,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel12": {
+   "id": "skel12",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -22,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel13": {
+   "id": "skel13",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -22,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel14": {
+   "id": "skel14",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -22,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel15": {
+   "id": "skel15",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel16": {
+   "id": "skel16",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel17": {
+   "id": "skel17",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -5,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel18": {
+   "id": "skel18",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -5,
+   "hp_start": 8,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel19": {
+   "id": "skel19",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 4,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel20": {
+   "id": "skel20",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel21": {
+   "id": "skel21",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel22": {
+   "id": "skel22",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -5,
+   "hp_start": 5,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel23": {
+   "id": "skel23",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 4,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel24": {
+   "id": "skel24",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "electric"
+    ],
+    "natural": false,
+    "by": "phaedra",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -15,
+   "hp_start": 2,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel25": {
+   "id": "skel25",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel26": {
+   "id": "skel26",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 8,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel27": {
+   "id": "skel27",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
    "init": 3,
    "nonlethal": 0,
    "notes": [],
-   "kind": "npc",
-   "name": "Cnaeus Lento",
-   "stats": {
-    "name": "Cnaeus Lento",
-    "actor": "cnaeus-lento",
-    "kind": "npc",
-    "level": 3,
-    "class": "Fighter",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ],
-     "INT": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "WIL": [
-      -1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 2
-      }
-     ],
-     "DEX": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CON": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CHA": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ]
-    },
-    "attack_throw": [
-     9,
-     {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 1
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 12,
-      "death": 13,
-      "blast": 14,
-      "implements": 15,
-      "spells": 16
-     },
-     {
-      "table": "fighter-attack-and-saving-throws",
-      "title": "Fighter Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "block": "^tbl-fighter-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 25",
-      "row": 1
-     }
-    ],
-    "hit_die": [
-     "1d8",
-     {
-      "rule": "class.fighter.hit_die",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "progression": "fighter",
-    "cleaves": [
-     3,
-     {
-      "rule": "class.fighter.cleave",
-      "note": "ACKS II Rules/03 Classes/Fighter.md",
-      "book": "RR",
-      "page": "p. 24"
-     }
-    ],
-    "ac_options": {
-     "shield": 5,
-     "no_shield": 5,
-     "dex_only": 1
-    },
-    "hp_max": 12,
-    "movement_running": 120,
-    "weapons": [
-     {
-      "name": "Sword",
-      "init_bonus": "",
-      "damage": "1d6+1"
-     },
-     {
-      "name": "Dagger",
-      "init_bonus": "",
-      "damage": "1d4+1"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": 1,
-    "proficiencies": [],
-    "proficiency_throws": {},
-    "prof_throw_list": {},
-    "ac_mode": "shield"
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
    },
-   "actor": "cnaeus-lento",
-   "hp_max": 12,
-   "hp": -12,
-   "hp_start": 12,
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
    "xp_recorded": {
-    "record": "M233",
+    "record": "M234",
     "how": "killed",
-    "xp": 50
+    "xp": 13
+   }
+  },
+  "skel28": {
+   "id": "skel28",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 1,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel29": {
+   "id": "skel29",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel30": {
+   "id": "skel30",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel31": {
+   "id": "skel31",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel32": {
+   "id": "skel32",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel33": {
+   "id": "skel33",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel34": {
+   "id": "skel34",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel35": {
+   "id": "skel35",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel36": {
+   "id": "skel36",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 1,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel37": {
+   "id": "skel37",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 3,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel38": {
+   "id": "skel38",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel39": {
+   "id": "skel39",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 1,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel40": {
+   "id": "skel40",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [],
+   "felled": {
+    "round": 1,
+    "types": [],
+    "natural": false,
+    "by": null,
+    "tier": null,
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 8,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel41": {
+   "id": "skel41",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    1,
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "iulia",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -8,
+   "hp_start": 6,
+   "attacked_round": 1,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel42": {
+   "id": "skel42",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -6,
+   "hp_start": 1,
+   "attacked_round": 2,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel43": {
+   "id": "skel43",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "cotta",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -4,
+   "hp_start": 5,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel44": {
+   "id": "skel44",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "aelia",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -4,
+   "hp_start": 8,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel45": {
+   "id": "skel45",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 6,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel46": {
+   "id": "skel46",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    3,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "iulia",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -7,
+   "hp_start": 4,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel47": {
+   "id": "skel47",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "iulia",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -2,
+   "hp_start": 5,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "skel48": {
+   "id": "skel48",
+   "side": "foe",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "skel",
+   "perceived": "a risen skeleton",
+   "judge_set": {
+    "ac": "3",
+    "weapon": "shortsword"
+   },
+   "hp_lost_rounds": [
+    4,
+    4
+   ],
+   "felled": {
+    "round": 4,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "iulia",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Skeleton",
+   "stats": {},
+   "monster": {
+    "base": "skeleton",
+    "sha256": "a5fbe4df29f5f84a0b877e52866159cf7ea814d410e418284215dc3b7bb0ba9b"
+   },
+   "hp_max": 5,
+   "hp": -7,
+   "hp_start": 1,
+   "attacked_round": 4,
+   "acted_round": 4,
+   "xp_recorded": {
+    "record": "M234",
+    "how": "killed",
+    "xp": 13
    }
   }
  },
@@ -897,6 +4171,30 @@
    "side": "party",
    "members": [
     "brennus"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "iulia": {
+   "side": "party",
+   "members": [
+    "iulia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "lucilla": {
+   "side": "party",
+   "members": [
+    "lucilla"
    ],
    "morale": {
     "state": "steady",
@@ -917,6 +4215,54 @@
    },
    "start_count": 1
   },
+  "cotta": {
+   "side": "party",
+   "members": [
+    "cotta"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "aelia": {
+   "side": "party",
+   "members": [
+    "aelia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "neris": {
+   "side": "party",
+   "members": [
+    "neris"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "vestus-the-unlikely": {
+   "side": "party",
+   "members": [
+    "vestus-the-unlikely"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
   "phaedra": {
    "side": "party",
    "members": [
@@ -929,30 +4275,667 @@
    },
    "start_count": 1
   },
-  "lento": {
+  "skel": {
    "side": "foe",
    "members": [
-    "cnaeus-lento"
+    "skel1",
+    "skel2",
+    "skel3",
+    "skel4",
+    "skel5",
+    "skel6",
+    "skel7",
+    "skel8",
+    "skel9",
+    "skel10",
+    "skel11",
+    "skel12",
+    "skel13",
+    "skel14",
+    "skel15",
+    "skel16",
+    "skel17",
+    "skel18",
+    "skel19",
+    "skel20",
+    "skel21",
+    "skel22",
+    "skel23",
+    "skel24",
+    "skel25",
+    "skel26",
+    "skel27",
+    "skel28",
+    "skel29",
+    "skel30",
+    "skel31",
+    "skel32",
+    "skel33",
+    "skel34",
+    "skel35",
+    "skel36",
+    "skel37",
+    "skel38",
+    "skel39",
+    "skel40",
+    "skel41",
+    "skel42",
+    "skel43",
+    "skel44",
+    "skel45",
+    "skel46",
+    "skel47",
+    "skel48"
    ],
    "morale": {
     "state": "steady",
     "rolls": [],
-    "triggered": true
+    "triggered": false
    },
-   "start_count": 1
+   "start_count": 48,
+   "felled_rounds": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    4
+   ]
   }
  },
  "engaged": [],
- "engaged_at_round_start": [],
+ "engaged_at_round_start": [
+  [
+   "iulia",
+   "skel48"
+  ]
+ ],
  "distances": {
-  "cnaeus-lento|phaedra": 40,
-  "brennus|cnaeus-lento": 0,
-  "cnaeus-lento|vettius": 20
+  "brennus|skel1": 5,
+  "lucilla|skel1": 5,
+  "iulia|skel1": 10,
+  "skel1|vettius": 10,
+  "cotta|skel1": 10,
+  "aelia|skel1": 10,
+  "neris|skel1": 15,
+  "skel1|vestus-the-unlikely": 15,
+  "phaedra|skel1": 15,
+  "brennus|skel2": 5,
+  "lucilla|skel2": 5,
+  "iulia|skel2": 10,
+  "skel2|vettius": 10,
+  "cotta|skel2": 10,
+  "aelia|skel2": 10,
+  "neris|skel2": 15,
+  "skel2|vestus-the-unlikely": 15,
+  "phaedra|skel2": 15,
+  "brennus|skel3": 5,
+  "lucilla|skel3": 10,
+  "iulia|skel3": 15,
+  "skel3|vettius": 15,
+  "cotta|skel3": 15,
+  "aelia|skel3": 15,
+  "neris|skel3": 20,
+  "skel3|vestus-the-unlikely": 20,
+  "phaedra|skel3": 20,
+  "brennus|skel4": 5,
+  "lucilla|skel4": 10,
+  "iulia|skel4": 15,
+  "skel4|vettius": 15,
+  "cotta|skel4": 15,
+  "aelia|skel4": 15,
+  "neris|skel4": 20,
+  "skel4|vestus-the-unlikely": 20,
+  "phaedra|skel4": 20,
+  "brennus|skel5": 15,
+  "lucilla|skel5": 15,
+  "iulia|skel5": 20,
+  "skel5|vettius": 20,
+  "cotta|skel5": 20,
+  "aelia|skel5": 20,
+  "neris|skel5": 25,
+  "skel5|vestus-the-unlikely": 25,
+  "phaedra|skel5": 25,
+  "brennus|skel6": 15,
+  "lucilla|skel6": 15,
+  "iulia|skel6": 20,
+  "skel6|vettius": 20,
+  "cotta|skel6": 20,
+  "aelia|skel6": 20,
+  "neris|skel6": 25,
+  "skel6|vestus-the-unlikely": 25,
+  "phaedra|skel6": 25,
+  "brennus|skel7": 20,
+  "lucilla|skel7": 20,
+  "iulia|skel7": 25,
+  "skel7|vettius": 25,
+  "cotta|skel7": 25,
+  "aelia|skel7": 25,
+  "neris|skel7": 30,
+  "skel7|vestus-the-unlikely": 30,
+  "phaedra|skel7": 30,
+  "brennus|skel8": 20,
+  "lucilla|skel8": 20,
+  "iulia|skel8": 25,
+  "skel8|vettius": 25,
+  "cotta|skel8": 25,
+  "aelia|skel8": 25,
+  "neris|skel8": 30,
+  "skel8|vestus-the-unlikely": 30,
+  "phaedra|skel8": 30,
+  "brennus|skel9": 25,
+  "lucilla|skel9": 25,
+  "iulia|skel9": 30,
+  "skel9|vettius": 30,
+  "cotta|skel9": 30,
+  "aelia|skel9": 30,
+  "neris|skel9": 35,
+  "skel9|vestus-the-unlikely": 35,
+  "phaedra|skel9": 35,
+  "brennus|skel10": 25,
+  "lucilla|skel10": 25,
+  "iulia|skel10": 30,
+  "skel10|vettius": 30,
+  "cotta|skel10": 30,
+  "aelia|skel10": 30,
+  "neris|skel10": 35,
+  "skel10|vestus-the-unlikely": 35,
+  "phaedra|skel10": 35,
+  "brennus|skel11": 30,
+  "lucilla|skel11": 30,
+  "iulia|skel11": 35,
+  "skel11|vettius": 35,
+  "cotta|skel11": 35,
+  "aelia|skel11": 35,
+  "neris|skel11": 40,
+  "skel11|vestus-the-unlikely": 40,
+  "phaedra|skel11": 40,
+  "brennus|skel12": 30,
+  "lucilla|skel12": 30,
+  "iulia|skel12": 35,
+  "skel12|vettius": 35,
+  "cotta|skel12": 35,
+  "aelia|skel12": 35,
+  "neris|skel12": 40,
+  "skel12|vestus-the-unlikely": 40,
+  "phaedra|skel12": 40,
+  "brennus|skel13": 35,
+  "lucilla|skel13": 35,
+  "iulia|skel13": 40,
+  "skel13|vettius": 40,
+  "cotta|skel13": 40,
+  "aelia|skel13": 40,
+  "neris|skel13": 45,
+  "skel13|vestus-the-unlikely": 45,
+  "phaedra|skel13": 45,
+  "brennus|skel14": 35,
+  "lucilla|skel14": 35,
+  "iulia|skel14": 40,
+  "skel14|vettius": 40,
+  "cotta|skel14": 40,
+  "aelia|skel14": 40,
+  "neris|skel14": 45,
+  "skel14|vestus-the-unlikely": 45,
+  "phaedra|skel14": 45,
+  "brennus|skel15": 40,
+  "lucilla|skel15": 40,
+  "iulia|skel15": 45,
+  "skel15|vettius": 45,
+  "cotta|skel15": 45,
+  "aelia|skel15": 45,
+  "neris|skel15": 50,
+  "skel15|vestus-the-unlikely": 50,
+  "phaedra|skel15": 50,
+  "brennus|skel16": 40,
+  "lucilla|skel16": 40,
+  "iulia|skel16": 45,
+  "skel16|vettius": 45,
+  "cotta|skel16": 45,
+  "aelia|skel16": 45,
+  "neris|skel16": 50,
+  "skel16|vestus-the-unlikely": 50,
+  "phaedra|skel16": 50,
+  "brennus|skel17": 45,
+  "lucilla|skel17": 45,
+  "iulia|skel17": 50,
+  "skel17|vettius": 50,
+  "cotta|skel17": 50,
+  "aelia|skel17": 50,
+  "neris|skel17": 55,
+  "skel17|vestus-the-unlikely": 55,
+  "phaedra|skel17": 55,
+  "brennus|skel18": 45,
+  "lucilla|skel18": 45,
+  "iulia|skel18": 50,
+  "skel18|vettius": 50,
+  "cotta|skel18": 50,
+  "aelia|skel18": 50,
+  "neris|skel18": 55,
+  "skel18|vestus-the-unlikely": 55,
+  "phaedra|skel18": 55,
+  "brennus|skel19": 50,
+  "lucilla|skel19": 50,
+  "iulia|skel19": 55,
+  "skel19|vettius": 55,
+  "cotta|skel19": 55,
+  "aelia|skel19": 55,
+  "neris|skel19": 60,
+  "skel19|vestus-the-unlikely": 60,
+  "phaedra|skel19": 60,
+  "brennus|skel20": 50,
+  "lucilla|skel20": 50,
+  "iulia|skel20": 55,
+  "skel20|vettius": 55,
+  "cotta|skel20": 55,
+  "aelia|skel20": 55,
+  "neris|skel20": 60,
+  "skel20|vestus-the-unlikely": 60,
+  "phaedra|skel20": 60,
+  "brennus|skel21": 55,
+  "lucilla|skel21": 55,
+  "iulia|skel21": 60,
+  "skel21|vettius": 60,
+  "cotta|skel21": 60,
+  "aelia|skel21": 60,
+  "neris|skel21": 65,
+  "skel21|vestus-the-unlikely": 65,
+  "phaedra|skel21": 65,
+  "brennus|skel22": 55,
+  "lucilla|skel22": 55,
+  "iulia|skel22": 60,
+  "skel22|vettius": 60,
+  "cotta|skel22": 60,
+  "aelia|skel22": 60,
+  "neris|skel22": 65,
+  "skel22|vestus-the-unlikely": 65,
+  "phaedra|skel22": 65,
+  "brennus|skel23": 60,
+  "lucilla|skel23": 60,
+  "iulia|skel23": 65,
+  "skel23|vettius": 65,
+  "cotta|skel23": 65,
+  "aelia|skel23": 65,
+  "neris|skel23": 70,
+  "skel23|vestus-the-unlikely": 70,
+  "phaedra|skel23": 70,
+  "brennus|skel24": 60,
+  "lucilla|skel24": 60,
+  "iulia|skel24": 65,
+  "skel24|vettius": 65,
+  "cotta|skel24": 65,
+  "aelia|skel24": 65,
+  "neris|skel24": 70,
+  "skel24|vestus-the-unlikely": 70,
+  "phaedra|skel24": 70,
+  "brennus|skel25": 65,
+  "lucilla|skel25": 65,
+  "iulia|skel25": 70,
+  "skel25|vettius": 70,
+  "cotta|skel25": 70,
+  "aelia|skel25": 70,
+  "neris|skel25": 75,
+  "skel25|vestus-the-unlikely": 75,
+  "phaedra|skel25": 75,
+  "brennus|skel26": 65,
+  "lucilla|skel26": 65,
+  "iulia|skel26": 70,
+  "skel26|vettius": 70,
+  "cotta|skel26": 70,
+  "aelia|skel26": 70,
+  "neris|skel26": 75,
+  "skel26|vestus-the-unlikely": 75,
+  "phaedra|skel26": 75,
+  "brennus|skel27": 70,
+  "lucilla|skel27": 70,
+  "iulia|skel27": 75,
+  "skel27|vettius": 75,
+  "cotta|skel27": 75,
+  "aelia|skel27": 75,
+  "neris|skel27": 80,
+  "skel27|vestus-the-unlikely": 80,
+  "phaedra|skel27": 80,
+  "brennus|skel28": 70,
+  "lucilla|skel28": 70,
+  "iulia|skel28": 75,
+  "skel28|vettius": 75,
+  "cotta|skel28": 75,
+  "aelia|skel28": 75,
+  "neris|skel28": 80,
+  "skel28|vestus-the-unlikely": 80,
+  "phaedra|skel28": 80,
+  "brennus|skel29": 75,
+  "lucilla|skel29": 75,
+  "iulia|skel29": 80,
+  "skel29|vettius": 80,
+  "cotta|skel29": 80,
+  "aelia|skel29": 80,
+  "neris|skel29": 85,
+  "skel29|vestus-the-unlikely": 85,
+  "phaedra|skel29": 85,
+  "brennus|skel30": 75,
+  "lucilla|skel30": 75,
+  "iulia|skel30": 80,
+  "skel30|vettius": 80,
+  "cotta|skel30": 80,
+  "aelia|skel30": 80,
+  "neris|skel30": 85,
+  "skel30|vestus-the-unlikely": 85,
+  "phaedra|skel30": 85,
+  "brennus|skel31": 80,
+  "lucilla|skel31": 80,
+  "iulia|skel31": 85,
+  "skel31|vettius": 85,
+  "cotta|skel31": 85,
+  "aelia|skel31": 85,
+  "neris|skel31": 90,
+  "skel31|vestus-the-unlikely": 90,
+  "phaedra|skel31": 90,
+  "brennus|skel32": 80,
+  "lucilla|skel32": 80,
+  "iulia|skel32": 85,
+  "skel32|vettius": 85,
+  "cotta|skel32": 85,
+  "aelia|skel32": 85,
+  "neris|skel32": 90,
+  "skel32|vestus-the-unlikely": 90,
+  "phaedra|skel32": 90,
+  "brennus|skel33": 85,
+  "lucilla|skel33": 85,
+  "iulia|skel33": 90,
+  "skel33|vettius": 90,
+  "cotta|skel33": 90,
+  "aelia|skel33": 90,
+  "neris|skel33": 95,
+  "skel33|vestus-the-unlikely": 95,
+  "phaedra|skel33": 95,
+  "brennus|skel34": 85,
+  "lucilla|skel34": 85,
+  "iulia|skel34": 90,
+  "skel34|vettius": 90,
+  "cotta|skel34": 90,
+  "aelia|skel34": 90,
+  "neris|skel34": 95,
+  "skel34|vestus-the-unlikely": 95,
+  "phaedra|skel34": 95,
+  "brennus|skel35": 90,
+  "lucilla|skel35": 90,
+  "iulia|skel35": 95,
+  "skel35|vettius": 95,
+  "cotta|skel35": 95,
+  "aelia|skel35": 95,
+  "neris|skel35": 100,
+  "skel35|vestus-the-unlikely": 100,
+  "phaedra|skel35": 100,
+  "brennus|skel36": 90,
+  "lucilla|skel36": 90,
+  "iulia|skel36": 95,
+  "skel36|vettius": 95,
+  "cotta|skel36": 95,
+  "aelia|skel36": 95,
+  "neris|skel36": 100,
+  "skel36|vestus-the-unlikely": 100,
+  "phaedra|skel36": 100,
+  "brennus|skel37": 95,
+  "lucilla|skel37": 95,
+  "iulia|skel37": 100,
+  "skel37|vettius": 100,
+  "cotta|skel37": 100,
+  "aelia|skel37": 100,
+  "neris|skel37": 105,
+  "skel37|vestus-the-unlikely": 105,
+  "phaedra|skel37": 105,
+  "brennus|skel38": 95,
+  "lucilla|skel38": 95,
+  "iulia|skel38": 100,
+  "skel38|vettius": 100,
+  "cotta|skel38": 100,
+  "aelia|skel38": 100,
+  "neris|skel38": 105,
+  "skel38|vestus-the-unlikely": 105,
+  "phaedra|skel38": 105,
+  "brennus|skel39": 100,
+  "lucilla|skel39": 100,
+  "iulia|skel39": 105,
+  "skel39|vettius": 105,
+  "cotta|skel39": 105,
+  "aelia|skel39": 105,
+  "neris|skel39": 110,
+  "skel39|vestus-the-unlikely": 110,
+  "phaedra|skel39": 110,
+  "brennus|skel40": 100,
+  "lucilla|skel40": 100,
+  "iulia|skel40": 105,
+  "skel40|vettius": 105,
+  "cotta|skel40": 105,
+  "aelia|skel40": 105,
+  "neris|skel40": 110,
+  "skel40|vestus-the-unlikely": 110,
+  "phaedra|skel40": 110,
+  "brennus|skel41": 5,
+  "lucilla|skel41": 5,
+  "iulia|skel41": 5,
+  "skel41|vettius": 110,
+  "cotta|skel41": 110,
+  "aelia|skel41": 110,
+  "neris|skel41": 115,
+  "skel41|vestus-the-unlikely": 115,
+  "phaedra|skel41": 115,
+  "brennus|skel42": 5,
+  "lucilla|skel42": 5,
+  "iulia|skel42": 5,
+  "skel42|vettius": 110,
+  "cotta|skel42": 110,
+  "aelia|skel42": 110,
+  "neris|skel42": 115,
+  "skel42|vestus-the-unlikely": 115,
+  "phaedra|skel42": 115,
+  "brennus|skel43": 110,
+  "lucilla|skel43": 110,
+  "iulia|skel43": 115,
+  "skel43|vettius": 115,
+  "cotta|skel43": 115,
+  "aelia|skel43": 115,
+  "neris|skel43": 120,
+  "skel43|vestus-the-unlikely": 120,
+  "phaedra|skel43": 120,
+  "brennus|skel44": 110,
+  "lucilla|skel44": 110,
+  "iulia|skel44": 115,
+  "skel44|vettius": 115,
+  "cotta|skel44": 115,
+  "aelia|skel44": 115,
+  "neris|skel44": 120,
+  "skel44|vestus-the-unlikely": 120,
+  "phaedra|skel44": 120,
+  "brennus|skel45": 5,
+  "lucilla|skel45": 5,
+  "iulia|skel45": 120,
+  "skel45|vettius": 120,
+  "cotta|skel45": 120,
+  "aelia|skel45": 120,
+  "neris|skel45": 125,
+  "skel45|vestus-the-unlikely": 125,
+  "phaedra|skel45": 125,
+  "brennus|skel46": 115,
+  "lucilla|skel46": 5,
+  "iulia|skel46": 5,
+  "skel46|vettius": 120,
+  "cotta|skel46": 120,
+  "aelia|skel46": 120,
+  "neris|skel46": 125,
+  "skel46|vestus-the-unlikely": 125,
+  "phaedra|skel46": 125,
+  "brennus|skel47": 120,
+  "lucilla|skel47": 120,
+  "iulia|skel47": 5,
+  "skel47|vettius": 125,
+  "cotta|skel47": 125,
+  "aelia|skel47": 125,
+  "neris|skel47": 130,
+  "skel47|vestus-the-unlikely": 130,
+  "phaedra|skel47": 130,
+  "brennus|skel48": 5,
+  "lucilla|skel48": 5,
+  "iulia|skel48": 5,
+  "skel48|vettius": 125,
+  "cotta|skel48": 125,
+  "aelia|skel48": 125,
+  "neris|skel48": 130,
+  "skel48|vestus-the-unlikely": 130,
+  "phaedra|skel48": 130
  },
  "log": [],
  "notes_shown": [],
- "round_ended": 3,
+ "wards": [
+  {
+   "bearer": "iulia",
+   "name": "the Underwatch shield",
+   "radius": 10,
+   "bars": [
+    "enchanted"
+   ],
+   "within": "party",
+   "out": [],
+   "fall": "creature",
+   "evil": "foes",
+   "source": "Rulings S14",
+   "fallen": {
+    "skel1": 1,
+    "skel2": 1,
+    "skel3": 1,
+    "skel4": 1,
+    "skel6": 1,
+    "skel7": 1,
+    "skel8": 1,
+    "skel9": 1,
+    "skel10": 1,
+    "skel11": 1,
+    "skel12": 1,
+    "skel13": 1,
+    "skel14": 1,
+    "skel5": 1,
+    "skel15": 1,
+    "skel16": 1,
+    "skel17": 1,
+    "skel18": 1,
+    "skel19": 1,
+    "skel20": 1,
+    "skel21": 1,
+    "skel22": 1,
+    "skel23": 1,
+    "skel24": 1,
+    "skel43": 1,
+    "skel41": 1,
+    "skel44": 2,
+    "skel42": 2,
+    "skel46": 3,
+    "skel45": 3,
+    "skel48": 3,
+    "skel47": 3
+   }
+  },
+  {
+   "bearer": "neris",
+   "name": "Holy Circle, Sustained",
+   "radius": 10,
+   "bars": [
+    "enchanted"
+   ],
+   "within": "party",
+   "out": [],
+   "fall": "creature",
+   "evil": "foes",
+   "source": "RR p. 225; Rulings S14, S16",
+   "fallen": {
+    "skel1": 1,
+    "skel2": 1,
+    "skel3": 1,
+    "skel4": 1,
+    "skel6": 1,
+    "skel7": 1,
+    "skel8": 1,
+    "skel9": 1,
+    "skel10": 1,
+    "skel11": 1,
+    "skel12": 1,
+    "skel13": 1,
+    "skel14": 1,
+    "skel5": 1,
+    "skel15": 1,
+    "skel16": 1,
+    "skel17": 1,
+    "skel18": 1,
+    "skel19": 1,
+    "skel20": 1,
+    "skel21": 1,
+    "skel22": 1,
+    "skel23": 1,
+    "skel24": 1,
+    "skel43": 1,
+    "skel41": 1,
+    "skel44": 2,
+    "skel42": 2,
+    "skel46": 3,
+    "skel45": 3,
+    "skel48": 3,
+    "skel47": 3
+   }
+  }
+ ],
+ "round_ended": 4,
  "retinue": {
+  "cotta": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
+  "aelia": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
   "phaedra": {
    "hp_triggered": false,
    "party_triggered": false,
@@ -961,11 +4944,17 @@
  },
  "party_hp_written": [
   "brennus",
+  "iulia",
+  "lucilla",
   "vettius",
+  "cotta",
+  "aelia",
+  "neris",
+  "vestus-the-unlikely",
   "phaedra"
  ],
  "ended": {
-  "round": 3,
+  "round": 4,
   "felled_foes": []
  }
 }
