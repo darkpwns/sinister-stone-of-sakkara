@@ -1,0 +1,182 @@
+# The campaign's recurring procedures (acks-schedule/1): what falls due on which day, the rolls it takes and what the
+# Judge then does. Read by `acks.sh schedule due|run|done|skip` and named on every clock command (ACKS_SCHEDULE).
+# Compiled 2026-11-23 (S29) from World State (Scheduled events, prep queue), the S23-S28 logs and Rulings.md, as the
+# procedures were actually played. Every roll is hidden (the world's). What was done is logged in
+# Campaign/schedule-log.jsonl. A line whose consequence the campaign never defined says so: rule it once, record the
+# ruling in Rulings.md and write it here. Judge only.
+schema: acks-schedule/1
+month_days: 30
+items:
+
+- id: order-roll
+  title: The Order of the Eclipse's weekly assignment roll
+  every: 7
+  anchor: 473
+  from: 480
+  who: [Lucilla, Vettius, Vestus, Neris, Brennus]     # the deathbringer PCs in Cyfaraun (Iulia released day 429)
+  rolls:
+  - label: "assignment for {who}"
+    dice: 1d4
+    on: "4"
+    outcomes: {"1-3": "no assignment", "4": "an assignment"}
+    then:
+    - {label: "the contract", table: ax3-eclipse-contracts}
+    - {label: "the reason", table: ax3-retribution-reason}
+    - {label: "the petitioner", table: ax3-retribution-petitioner}
+    - {label: "is the target a Family member", dice: 1d3, outcomes: {"1": "a Family member (Rulings S25, S28: word to Vettius; blood-price 500gp per level and exile within the week, no kill)", "2-3": "not of the Family"}}
+    - {label: "the target's level", dice: 1d4}
+  steps:
+  - "only PCs in Cyfaraun that day roll; all six printed contracts are struck: a result on the table is a fresh contract of that kind"
+  - "not of the Family: Oppius brings the contract the next day; the PC accepts; build the target; Destrio expects it within the month; commission 500gp per target level 1-2 days after the deed, as its own adventure record"
+  - "write the result to World State Scheduled events"
+  source: "AX3 pp. 175-176 (Tables ax3-eclipse-contracts, ax3-retribution-*); Rulings S25, S28; target level: Judge's call S28"
+
+- id: weekly-brotherhood
+  title: "Weekly: someone seeks the Brotherhood"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - label: "someone seeks the Brotherhood"
+    dice: 1d6
+    on: "1"
+    outcomes: {"1": "a seeker", "2-6": "nobody"}
+    then:
+    - {label: "the seeker", dice: 1d6, outcomes: {"1-2": "a merchant", "3-4": "a patrician's steward", "5": "a jilted lover", "6": "a Watch officer"}}
+    - {label: "the target", dice: 1d6, outcomes: {"1-2": "a rival merchant", "3-4": "a spouse", "5": "a moneylender", "6": "the Captain"}}
+    - {label: "days until Destrio's answer", dice: 1d3}
+    - {label: "Destrio's answer", dice: 1d6, outcomes: {"1-2": "watched, let be", "3-4": "the target warned, the seeker left to the Watch", "5-6": "the name entered in the Codex: ruinous misfortune"}}
+  steps: ["the note is left for 'Vasan' at the Nicean stalls; Lucilla's men bring it; reported to Destrio through Oppius"]
+  source: "Judge's call (World State days 330, 365); Rulings S25 (no Rulings row defines the 1-in-6)"
+
+- id: weekly-wharf-betrayer
+  title: "Weekly: an untraced wharf betrayer sells word"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - label: "an untraced wharf betrayer sells word (one roll for the pool)"
+    dice: 1d6
+    on: "1"
+    outcomes: {"1": "one sells word", "2-6": "none"}
+    then:
+    - {label: "the buyer", dice: 1d6, outcomes: {"1-3": "the Watch", "4-6": "Nuvicus' men"}}
+    - {label: "what he sells", dice: 1d6, outcomes: {"1-3": "the Family's new trade", "4-5": "the Pony hideout's ways", "6": "varies (the hoard; the boss and the Order)"}}
+  steps:
+  - "on a sale: each of Vettius' spies traces him on 1-3 on 1d6 (`roll --hidden` per spy; the spy count is in World State)"
+  - "traced: his choice 2d6+2 (Rulings S25): 9+ turned and holds; 6-8 turned, hesitant (a weekly 1-in-6 that he runs); 5- takes the purse and leaves (no longer a member)"
+  - "untraced and sold to the Watch: an extra 1-in-6 Watch inquiry next week (Rulings S23)"
+  - "untraced betrayers left: World State (6 on day 477)"
+  source: "World State day 383; Rulings S20, S23, S25"
+
+- id: weekly-double-agents
+  title: "Weekly: the turned-hesitant double agents (#2, #3) and the turncoat"
+  every: 7
+  anchor: 477
+  from: 484
+  who: ["double agent #2", "double agent #3", "the turncoat (day 463)"]
+  rolls:
+  - {label: "{who} runs", dice: 1d6, outcomes: {"1": "runs", "2-6": "holds"}}
+  steps:
+  - "Rulings S25 gives the weekly 1-in-6 only to a hesitant (6-8) result; the turncoat rolled 9 (holds) yet was rolled on days 470 and 477: decide and record whether he keeps rolling"
+  - "the consequence of a 1 was never played: S25 says he is the Family's to cast out; rule it when it comes up"
+  source: "Rulings S25 (row 159); World State"
+
+- id: weekly-watch
+  title: "Weekly: the Watch on the company"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - label: "the Watch asks about the company"
+    dice: 1d6
+    on: "1"
+    outcomes: {"1": "an officer calls", "2-6": "nothing"}
+    then:
+    - {label: "which live matter (three, two faces each: World State)", dice: 1d6}
+    - {label: "the officer's reaction (the Captain's badge +2, Rulings S14)", dice: 2d6+2}
+  steps:
+  - "extra 1-in-6 rolls: one per found body (Rulings S23) and one per untraced sale to the Watch; 2-in-6 for an open asker (Rulings S21)"
+  source: "Rulings S14 (row 98), S21 (row 147), S23 (row 154)"
+
+- id: weekly-city-link
+  title: "Weekly: the city links the Captain's deed and the new guild"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - {label: "the city makes the link", dice: 1d6, outcomes: {"1": "the link is made", "2-6": "not yet"}}
+  steps: ["the consequence of a 1 was never defined (rolled since day 421, never a 1): rule it when it comes up and record it"]
+  source: "World State day 421"
+
+- id: weekly-hesitant
+  title: "Weekly: one of the hesitant members turns"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - {label: "a hesitant member turns betrayer", dice: 1d6, outcomes: {"1": "one turns: he gets his own weekly 1-in-6 'sells word' line", "2-6": "none"}}
+  source: "World State days 419-421"
+
+- id: weekly-spies
+  title: "Weekly: Vettius' spies planted"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - {label: "spies planted this week", dice: 1d3}
+  steps: ["the running count is unclear in the record (prep queue '3+3+3' against tracing rolls of 3, 1, 2): fix the count in World State"]
+  source: "World State days 435-436 (Vettius' rule)"
+
+- id: weekly-secret
+  title: "Weekly: the Family's secret of the week"
+  every: 7
+  anchor: 477
+  from: 484
+  rolls:
+  - {label: "the secret (the week's six-entry table in World State)", dice: 1d6}
+  steps:
+  - "rewrite the six entries each week (Rulings S25: one rumour roll a week at the boss's table)"
+  - "an entry naming an untraced wharf betrayer leads to his 2d6+2 choice (see weekly-wharf-betrayer)"
+  source: "Rulings S25 (row 157)"
+
+- id: talk-fades
+  title: The talk of the purge fades (members' morale -1 ends; the hesitant regain their +1 loyalty)
+  day: 491
+  source: "Rulings S23 (row 154); resolved day 470, fades after 1d4 weeks (3)"
+
+- id: vanguard
+  title: The Imperial Vanguard goes down by the 12U cesspool (AX3 reactions at the grate if the company descends)
+  day: 481
+  source: "World State prep queue"
+
+- id: month-end
+  title: Month's end
+  month_end: true
+  from: 480
+  rolls:
+  - {label: "Lucilla's investment 1 (Balanced, 693gp, 1%): Vagaries of Investment", dice: 1d100}
+  - {label: "Lucilla's investment 3 (Balanced, 3,000gp, 1%): Vagaries of Investment", dice: 1d100}
+  - label: "Arëtar asks a task of the Captain"
+    dice: 1d6
+    on: "1"
+    outcomes: {"1": "a task", "2-6": "none"}
+    then:
+    - {label: "the task", dice: 1d6, outcomes: {"1-2": "below (the Nethercity)", "3-4": "the city", "5-6": "a sanctioned mission (1d4 Knights of the Winged Sun)"}}
+  steps:
+  - "Guildhouse storage fee: 0.25% of each member's balance that day (`play.py bank-balances --bank guildhouse-bank --day N`), posted from holder guildhouse-bank as an `inv pay` naming the member (Rulings S16; JJ pp. 218-219)"
+  - "investments: look each d100 up on the RR Vagaries of Investment table (RR Passive Investment; Rulings S10); sub-rolls as the result demands (Delay months 1d6, Discovery 2d10%, Monopoly months 1d6); returns to Lucilla as `inv receive`; no XP. Investment 2 (Risky, 700gp, 3%) is under Delay over months 16-21: no roll, no return; investment 1's Protector lasts to month 16"
+  - "Vestus' Tower dues 10gp (AX3 p. 148)"
+  - "the Family's take to the boss (Vettius): the AX3 p. 75 table for the Family plus Sand & Bones, less the per-level shares of members dead or gone (4th -425, 3rd -200, 0th -1; gone in month 16: Gallus Pinarius 3rd, one wharf man 0th), plus the Pony's honest-trade owner's half 1,624gp (Rulings S19, S22, S25)"
+  - "hijink XP: the take above the boss's monthly threshold (5,000 at 8th level); none on the front or the venture"
+  - "Lucilla's income: the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp; no XP (Rulings S19)"
+  - "Iulia's report to Arëtar: one day of dedicated activity this month, or his next reaction is -1 (Rulings S14). Month 16 (day 480): the mission on Varinia's circle is already fixed by the day-470 roll: skip the task roll's result"
+  - "tax collectors' check on open sales (5% +1% per 1,000gp sold or banked this month, 1d100; AX3 Doing Business): only if goods were sold openly, not through the Family (Rulings S19)"
+  - "Arëtar's gift after a mission he set was rolled on two ranges (1-3 in S19, 1-2 in S20): settle one and record it"
+  source: "Rulings S10, S14, S16, S19, S22, S25; AX3 pp. 75, 148; RR Passive Investment"
+
+- id: grey-sisters-vault
+  title: The Grey Sisters' vault fee (10gp a month, paid ahead; last paid day 443 to day 503)
+  day: 503
+  steps: ["pay 10gp a month ahead from Lucilla or Vettius (Rulings S11); then move this item's day on"]
+  source: "Rulings S11 (row 81); Ledger day 443"

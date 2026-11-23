@@ -137,12 +137,29 @@ def wall(cfg, text):
     ap = jlib.path(cfg.get("tools", {}).get("adventure_state", "Campaign/adventure-state.json"))
     if os.path.exists(ap):
         adv = json.load(open(ap, encoding="utf-8")) or {}
-        for l in (adv.get("lots") or {}).values():
+        lots = list((adv.get("lots") or {}).values())
+        # Names the players already know are no leak: the true name of an identified lot (a second "Sword +1" still
+        # unidentified shares it), every lot's player description, and the note names of identified lots. They are
+        # taken out of the text before it is searched, longest first ("Short Sword +1" holds "Sword +1") (S15, S18, S19).
+        known = set()
+        for l in lots:
+            t, p = l.get("true") or {}, l.get("player") or {}
+            if p.get("desc"):
+                known.add(str(p["desc"]).lower())
+            if l.get("identified"):
+                if t.get("name"):
+                    known.add(str(t["name"]).lower())
+                if t.get("note"):
+                    known.add(os.path.basename(t["note"])[:-3].lower())
+        low = text.lower()
+        for k in sorted(known, key=len, reverse=True):
+            low = low.replace(k, " ")
+        for l in lots:
             t, p = l.get("true") or {}, l.get("player") or {}
             nm = t.get("name") or ""
-            if l.get("kind") == "item" and not l.get("identified") and nm and nm != p.get("desc") and nm.lower() in text.lower():
+            if l.get("kind") == "item" and not l.get("identified") and nm and nm != p.get("desc") and nm.lower() in low:
                 raise Refuse(f"unidentified item {l['id']}'s true name is in the output")
-            if t.get("note") and not l.get("identified") and os.path.basename(t["note"])[:-3].lower() in text.lower():
+            if t.get("note") and not l.get("identified") and os.path.basename(t["note"])[:-3].lower() in low:
                 raise Refuse(f"unidentified item {l['id']}'s vault note name is in the output")
         for k in ('"rarity"', '"base_gp"', '"base_cost_text"', '"subtable"', '"true"'):
             if k in text:

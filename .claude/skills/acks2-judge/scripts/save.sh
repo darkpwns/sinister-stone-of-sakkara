@@ -1,7 +1,8 @@
 #!/bin/bash
 # save.sh "S## what changed" : snapshot, commit everything, push. Run after every state write.
 # Refuses to commit if snapshot.py refuses. Push: pull --rebase then push; on failure retry once,
-# then print PUSH FAILED (tell the user). Never force-pushes.
+# then print PUSH FAILED (tell the user). Never force-pushes. "S## end ..." also archives the actors' change logs,
+# compacts the exploration state (acks compact) and rewrites the handoff (handoff.py).
 D="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"; R="${JUDGE_REPO:-$(cd "$D/../../../.." && pwd)}"
 [ -n "$1" ] || { echo "usage: save.sh \"S## message\""; exit 1; }
 for ES in "$R/Campaign/exploration-state.json" "$R/Campaign/retinue-state.json" "$R/Campaign/adventure-state.json" "$R/Campaign/inventory-state.json"; do   # engine state (Judge only): must be readable before it is committed
@@ -21,6 +22,13 @@ fi
 if [ -f "$R/Campaign/inventory-state.json" ]; then   # engine stage 6: nothing is saved while the inventory and the actors disagree
   IC=$(bash "$D/acks.sh" inv check 2>&1) || { echo "NOT SAVED: $IC"; echo "fix: record the missing event (acks.sh inv add/remove/give/...)"; exit 2; }
   python3 "$D/ledger_sync.py" || { echo "NOT SAVED: Ledger purchases and sales could not be written"; exit 2; }
+fi
+# Judge memory (engine 7.16.0): the lessons index and the schedule must be readable; lessons to escalate are printed.
+if [ -f "$R/Campaign/lessons.yaml" ]; then LC=$(bash "$D/acks.sh" lesson check 2>&1) || { echo "NOT SAVED: Campaign/lessons.yaml: $LC"; exit 2; }; echo "$LC" | grep -o "ESCALATE[^/|]*" | head -5; fi
+if [ -f "$R/Campaign/schedule.yaml" ]; then SC=$(bash "$D/acks.sh" schedule check 2>&1) || { echo "NOT SAVED: Campaign/schedule.yaml: $SC"; exit 2; }; fi
+if [[ "$1" =~ ^S[0-9]+\ end ]]; then   # session end: old day ledgers, events and burnt-out lights to the archive; the handoff rewritten
+  bash "$D/acks.sh" compact 2>&1 | cut -c1-200
+  python3 "$D/handoff.py" || echo "handoff not written"
 fi
 python3 "$D/check_overlay.py" || { echo "NOT SAVED: class-overlays.yaml refused (overlay check)"; exit 2; }   # S5
 python3 "$D/xsync.py"   # actors' state -> public.party (D7); engine exploration state -> public.time, light, weather, believed hex, trail, rations (open values only)

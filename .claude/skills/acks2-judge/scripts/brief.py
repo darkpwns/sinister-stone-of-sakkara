@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """brief.py : everything the resume step reads, in one print — Campaign State, World State, Rulings,
-the tail of the latest session log, uncommitted changes, and whether bootstrap is needed."""
+the tail of the latest session log, the handoff (its generated block made fresh from the state files: date, party,
+adventure, wages, what the schedule holds due, the standing reminders of the lessons index, lessons to escalate, then
+the Judge's notes), uncommitted changes, and whether bootstrap is needed."""
 import glob, os, subprocess, sys
 sys.path.insert(0, os.path.dirname(__file__))
 import jlib
@@ -17,6 +19,12 @@ if logs:
     print(os.path.relpath(latest, jlib.ROOT)); print("\n".join(lines[-40:]))
 else:
     print("(none yet)")
+print("===== handoff (generated now from the state files; the Judge's notes below it)")
+try:
+    import handoff
+    print(handoff.compose(cfg).strip())
+except Exception as e:                           # a brief never fails for want of the handoff
+    print(f"(handoff unavailable: {e})")
 fm, _ = jlib.read_note(st["campaign_state"])
 print("===== status")
 print("bootstrap needed" if not (fm.get("public") or {}).get("party") else f"session {fm.get('session')}, party of {len(fm['public']['party'])}")
