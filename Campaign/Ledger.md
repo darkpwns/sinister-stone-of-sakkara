@@ -525,6 +525,8 @@ tags:
 | 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (a third) | 400 | varro |
 | 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (a third) | 400 | hrodvar |
 | 472 | Descent 63 (G8 west graves, G13, G14) | bronze of the fourth G14 statue (last third) | 400 | iulia |
+| 474 | Descent 64 (G25, G26-G27) | six battered bronze weapons from the G27 prayer alcove (3 axes, 2 hammers, a sword) | 650 | hrodvar |
+| 474 | Descent 64 (G25, G26-G27) | eight holy symbols from the G25 dormitory trunks (a snake in a figure-eight swallowing its tail) | 200 | cotta |
 
 ## Monster XP
 
@@ -670,6 +672,7 @@ tags:
 | 472 | Descent 63 (G8 west graves, G13, G14) | Sepulchral Worm | 6 | 16 | 96 |
 | 472 | Descent 63 (G8 west graves, G13, G14) | Skeleton | 24 | 47 | 1,128 |
 | 472 | Descent 63 (G8 west graves, G13, G14) | Bronze Animated Statue | 4 | 350 | 1,400 |
+| 474 | Descent 64 (G25, G26-G27) | Lesser Faewyrd (SOTN) | 4 | 245 | 980 |
 
 ## Shares and XP awarded
 
@@ -1360,6 +1363,18 @@ tags:
 | 472 | Descent 63 (G8 west graves, G13, G14) | Aelia | 0.5 | 312 | 146 | 0 | +0% | 457 |
 | 472 | Descent 63 (G8 west graves, G13, G14) | Marcellus | 0.5 | 312 | 146 | 0 | +0% | 457 |
 | 472 | Descent 63 (G8 west graves, G13, G14) | Cotta | 0.5 | 312 | 146 | 0 | +0% | 457 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
+| 474 | Descent 64 (G25, G26-G27) | Lucilla | 1 | 94 | 109 | 0 | +10% | 223 |
+| 474 | Descent 64 (G25, G26-G27) | Vettius | 1 | 94 | 109 | 0 | +5% | 213 |
+| 474 | Descent 64 (G25, G26-G27) | Vestus the Unlikely | 1 | 94 | 109 | 0 | +5% | 213 |
+| 474 | Descent 64 (G25, G26-G27) | Neris | 1 | 94 | 109 | 0 | +0% | 203 |
+| 474 | Descent 64 (G25, G26-G27) | Brennus | 1 | 94 | 109 | 0 | +5% | 213 |
+| 474 | Descent 64 (G25, G26-G27) | Iulia | 1 | 94 | 109 | 0 | +5% | 213 |
+| 474 | Descent 64 (G25, G26-G27) | Phaedra | 0.5 | 47 | 54 | 0 | +0% | 102 |
+| 474 | Descent 64 (G25, G26-G27) | Varro | 0.5 | 47 | 54 | 0 | +0% | 102 |
+| 474 | Descent 64 (G25, G26-G27) | Hrodvar | 0.5 | 47 | 54 | 0 | +0% | 102 |
+| 474 | Descent 64 (G25, G26-G27) | Aelia | 0.5 | 47 | 54 | 0 | +0% | 102 |
+| 474 | Descent 64 (G25, G26-G27) | Marcellus | 0.5 | 47 | 54 | 0 | +0% | 102 |
+| 474 | Descent 64 (G25, G26-G27) | Cotta | 0.5 | 47 | 54 | 0 | +0% | 102 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3745,3 +3760,28 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | aelia |
 | 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | marcellus |
 | 473 | market | his share of the sale of L676,L677,L678,L679,L680,L681,L682,L683,L684,L685,L686,L687 (after the payout) |  | 311gp 5sp 9cp |  | cotta |
+| 474 | Cyfaraun | torch | 12 |  | 2sp | lucilla |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 |  | treasure share |  |  |  |  |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 94gp 4sp 4cp |  | lucilla |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 94gp 4sp 4cp |  | vettius |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 94gp 4sp 4cp |  | vestus-the-unlikely |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 94gp 4sp 4cp |  | neris |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 94gp 4sp 4cp |  | brennus |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 94gp 4sp 4cp |  | iulia |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | phaedra |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | varro |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | hrodvar |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | aelia |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | marcellus |
+| 474 | market | his share of the sale of L688,L689 (after the payout) |  | 47gp 2sp 2cp |  | cotta |
