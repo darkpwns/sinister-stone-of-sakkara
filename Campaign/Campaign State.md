@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 524
-  time: 06:48
+    day: 526
+  time: '13:50'
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 41
+    hp: 42
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.498
+    encumbrance_st: 9.563
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 9.661
+    encumbrance_st: 9.786
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 4.736
+    encumbrance_st: 4.861
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -75,7 +75,7 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 14
+    hp: 16
     hp_max: 20
     conditions:
     - 'critically wounded (Mortal Wounds, day 517): one foot lost to frostbite (peg required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes); 1 week of bed rest'
@@ -88,7 +88,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.433
+    encumbrance_st: 8.554
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -101,7 +101,7 @@ public:
     encumbrance_st: 11.329
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out
-  rations: 'Brennus: food 6 d, water 1 d; Vettius: food 6 d, water 1.6 d; Neris: food 6 d, water 2.2 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 2 d; Cotta: food 6 d, water 2.8 d; Aelia: food 6 d, water 2 d; Hrodvar: food 6 d, water 1 d; Phaedra: food 6 d, water 2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 6 d, water 1.6 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 2 d; Cotta: food 6 d, water 2.8 d; Brennus: food 6 d, water 1 d; Neris: food 6 d, water 2.2 d; Aelia: food 6 d, water 2 d; Phaedra: food 6 d, water 2 d; Hrodvar: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
@@ -133,7 +133,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 524
+clock_day: 526
 ---
 # Campaign State
 

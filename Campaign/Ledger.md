@@ -639,6 +639,7 @@ tags:
 | 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus casket inlaid with lapis (Saorya's) | 3,000 | sold |
 | 521 | Descent 76 (O: the coffins) | gold-plated sarcophagus lid inlaid with lapis (Cassair's) | 3,000 | sold |
 | 521 | Descent 76 (O: the coffins) | Lamellar +1 | 700 | brennus |
+| 526 | Order contract: Marius Corvo (Vestus) | reward 500.0gp | 500 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -822,6 +823,7 @@ tags:
 | 517 | Descent 74 (N: the south-west passage) | Saorya (SOTN) | 1 | 3,100 | 3,100 |
 | 517 | Descent 74 (N: the south-west passage) | Cassair (SOTN) | 1 | 3,100 | 3,100 |
 | 521 | Descent 76 (O: the coffins) | Tunnel Prawn (SOTN) | 8 | 10 | 80 |
+| 526 | Order contract: Marius Corvo (Vestus) | Marius Corvo | 1 | 10 | 10 |
 
 ## Shares and XP awarded
 
@@ -1652,6 +1654,10 @@ tags:
 | 521 | Descent 76 (O: the coffins) | Brennus | 1 | 1,954 | 12 | 0 | +5% | 2,064 |
 | 521 | Descent 76 (O: the coffins) | Aelia | 0.5 | 977 | 6 | 0 | +0% | 983 |
 | 521 | Descent 76 (O: the coffins) | Cotta | 1 | 1,954 | 12 | 0 | +0% | 1,966 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 526 | Order contract: Marius Corvo (Vestus) | Vestus the Unlikely | 1 | 125 | 2 | 0 | +5% | 134 |
+| 526 | Order contract: Marius Corvo (Vestus) | Vettius | 1 | 125 | 2 | 0 | +5% | 134 |
+| 526 | Order contract: Marius Corvo (Vestus) | Cotta | 1 | 125 | 2 | 0 | +0% | 128 |
+| 526 | Order contract: Marius Corvo (Vestus) | Lucilla | 1 | 125 | 2 | 0 | +10% | 141 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4338,3 +4344,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 521 |  | treasure share |  | 923gp 8cp |  | aelia |
 | 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | cotta |
 | 523 | the retinue | wages paid |  |  | 800gp | vettius |
+| 524 | Marius Corvo | guide's hire, two days' fowling on the Mirmen marshes, paid ahead (double rate) |  |  | 4gp | cotta |
+| 525 | brigand band on the Mirmen | toll: a week's pay for thirty (RR p. 287, Bribery), night of day 525 |  |  | 60gp | lucilla |
+| 526 |  | treasure share |  | 125gp |  | vestus-the-unlikely |
+| 526 |  | treasure share |  | 125gp |  | vettius |
+| 526 |  | treasure share |  | 125gp |  | cotta |
+| 526 |  | treasure share |  | 125gp |  | lucilla |
