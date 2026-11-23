@@ -1184,3 +1184,19 @@ the way to L4 and a guide).
 build each first; the Order's roll day 445; the purge's week 2 (3 spies; the turncoat's sale to the Watch: the Iunia
 inquiry day 449); delves as time allows (L4 with the shaman's guide; G; K4; F14/T); month 15's end day 450; the selling
 day 451 (identify first). Keep Iulia out of the Family's work. The estate waits.
+
+## S25 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers as S24 (`s23_j.sh` with `TC="aelia marcellus
+lucilla varro hrodvar"`, `s23_ledger.py`, `s23_ghoul.sh`). Log: `Session Log/S24 — The Seven-Spoked Wheel.md`.
+
+**State on resume:** day 449 18:47, the Solar Citadel. No adventure open (A95 paid). Twelve, nearly whole; payouts of
+A93-A95 in purses (bank above 150gp before a descent). **Neris is a priestess of Calefa** (Rulings S24: the strictures;
+spells and powers unchanged; Destrio hears of it from Doare this week). No Order contract in hand; next roll day 452.
+
+**Done in S24:** contracts D (Sextus Calvo), E (Galla Ursina), F (Marcus Vedius); the purge's week 2 (wharf man #1
+traced and killed: body ashore, a Watch inquiry roll day 456); the Watch asked Iulia about Iunia (she knew nothing);
+a patrician's steward's note for "Vasan" to Destrio (answer day 451). No descent (Neris' crisis).
+
+**Next:** day 450 month 15 ends (the full list in World State); 451 selling day (identify first), Cotta's wage review
+(and Hrodvar, Varro, Marcellus at 6th), Destrio's answer; 452 the Order's roll; 455 the troglodyte eggs; 456 weekly
+rolls. Delves as time allows (prep queue). Keep Iulia out of the Family's work. The estate waits.

@@ -21,3 +21,8 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Henchmen and hirelings
 
 - S08 (day 196): Neris' laying on of hands (once a day, more with practice) ends paralysis, heals, or helps the badly wounded; her prayers of consolation double a patient's rest healing.
+- S24 (days 443-448): Neris dreamed three nights of a cold hearth, a seven-spoked wheel and a grey-veiled woman who
+  said she had answered Neris since the new moon after the Provost's death: the Hearth turned her face when Neris took
+  part in taking life. Revered Mother Doare tested it at Calefa's wheel and received Neris as a sister of Calefa.
+  Neris keeps Calefa's ways now: dusk prayer, grey in public, rites for the dead, life taken only in justice, defence or
+  war, every account paid. Her prayers and powers are as they were.
