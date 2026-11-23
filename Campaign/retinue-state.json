@@ -67,6 +67,12 @@
    "actor": "vestus-the-unlikely",
    "domain_ruler": false,
    "powers": []
+  },
+  "cotta": {
+   "id": "cotta",
+   "actor": "cotta",
+   "domain_ruler": false,
+   "powers": []
   }
  },
  "searches": {
@@ -4058,159 +4064,6 @@
    "temp": [],
    "secret": null
   },
-  "hrodvar": {
-   "id": "hrodvar",
-   "name": "Hrodvar",
-   "candidate": "C17",
-   "employer": "iulia",
-   "kind": "henchman",
-   "type": null,
-   "count": 1,
-   "level": 6,
-   "class": "Dwarven Vaultguard",
-   "occupation": null,
-   "race": "human",
-   "monster": null,
-   "animal": false,
-   "caster": false,
-   "loyalty": -1,
-   "morale": 1,
-   "morale_src": null,
-   "wage_gp": 800,
-   "wage_per": "month",
-   "hired_day": 197,
-   "periods_paid": 11,
-   "missed": [],
-   "status": "left (resigned)",
-   "history": [
-    {
-     "day": 197,
-     "event": "hired",
-     "loyalty": 1
-    },
-    {
-     "day": 197,
-     "event": "wages paid: 1 month(s), 25 gp"
-    },
-    {
-     "day": 219,
-     "event": "wages paid: 1 month(s), 25 gp"
-    },
-    {
-     "day": 233,
-     "event": "loyalty roll (level)",
-     "total": 13,
-     "result": "Fanatic Loyalty",
-     "loyalty": 3
-    },
-    {
-     "day": 255,
-     "event": "loyalty roll (level)",
-     "total": 12,
-     "result": "Fanatic Loyalty",
-     "loyalty": 4
-    },
-    {
-     "day": 257,
-     "event": "wages paid: 1 month(s), 25 gp"
-    },
-    {
-     "day": 272,
-     "event": "loyalty roll (level)",
-     "total": 16,
-     "result": "Fanatic Loyalty",
-     "loyalty": 4
-    },
-    {
-     "day": 275,
-     "event": "wages paid: 1 month(s), 25 gp"
-    },
-    {
-     "day": 316,
-     "event": "wages paid: 1 month(s), 25 gp"
-    },
-    {
-     "day": 317,
-     "event": "loyalty roll (level)",
-     "total": 14,
-     "result": "Fanatic Loyalty",
-     "loyalty": 4
-    },
-    {
-     "day": 347,
-     "event": "wages paid: 1 month(s), 400 gp"
-    },
-    {
-     "day": 367,
-     "event": "loyalty roll (calamity: reduced to -5 hp (round 1))",
-     "total": 10,
-     "result": "Loyalty",
-     "loyalty": 3
-    },
-    {
-     "day": 376,
-     "event": "wages paid: 1 month(s), 400 gp"
-    },
-    {
-     "day": 406,
-     "event": "wages paid: 1 month(s), 400 gp"
-    },
-    {
-     "day": 423,
-     "event": "loyalty roll (calamity: reduced to 0 hp (round 2))",
-     "total": 10,
-     "result": "Loyalty",
-     "loyalty": 2
-    },
-    {
-     "day": 437,
-     "event": "wages paid: 1 month(s), 400 gp"
-    },
-    {
-     "day": 440,
-     "event": "loyalty roll (level)",
-     "total": 7,
-     "result": "Grudging Loyalty",
-     "loyalty": 2
-    },
-    {
-     "day": 467,
-     "event": "wages paid: 1 month(s), 800 gp"
-    },
-    {
-     "day": 496,
-     "event": "wages paid: 1 month(s), 800 gp"
-    },
-    {
-     "day": null,
-     "event": "set morale: None -> 2 (Judge)"
-    },
-    {
-     "day": null,
-     "event": "set morale: 2 -> 1 (Judge)"
-    },
-    {
-     "day": 497,
-     "event": "loyalty roll (calamity: reduced to -5 hp (round 9))",
-     "total": 8,
-     "result": "Grudging Loyalty",
-     "loyalty": 0
-    },
-    {
-     "day": 499,
-     "event": "loyalty roll (calamity: reduced to -2 hp (round 4))",
-     "total": 4,
-     "result": "Resignation",
-     "loyalty": -1
-    }
-   ],
-   "actor": "hrodvar",
-   "market": "Cyfaraun",
-   "terms": "",
-   "adventure_penalty": null,
-   "temp": [],
-   "secret": null
-  },
   "septima": {
    "id": "septima",
    "name": "Septima",
@@ -4961,6 +4814,48 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "hrodvar": {
+   "id": "hrodvar",
+   "name": "Hrodvar",
+   "candidate": null,
+   "employer": "vettius",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 6,
+   "class": "Dwarven Vaultguard",
+   "occupation": "",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 1,
+   "morale": 1,
+   "morale_src": "carried over (Judge)",
+   "wage_gp": 800.0,
+   "wage_per": "month",
+   "hired_day": 523,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 523,
+     "event": "adopted: hired before the engine",
+     "loyalty": 1
+    },
+    {
+     "day": 523,
+     "event": "wages paid: 1 month(s), 800 gp"
+    }
+   ],
+   "actor": "hrodvar",
+   "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
@@ -5424,5 +5319,160 @@
     }
    ]
   }
- }
+ },
+ "former": [
+  {
+   "id": "hrodvar",
+   "name": "Hrodvar",
+   "candidate": "C17",
+   "employer": "iulia",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 6,
+   "class": "Dwarven Vaultguard",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": -1,
+   "morale": 1,
+   "morale_src": null,
+   "wage_gp": 800,
+   "wage_per": "month",
+   "hired_day": 197,
+   "periods_paid": 11,
+   "missed": [],
+   "status": "left (resigned)",
+   "history": [
+    {
+     "day": 197,
+     "event": "hired",
+     "loyalty": 1
+    },
+    {
+     "day": 197,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 219,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 233,
+     "event": "loyalty roll (level)",
+     "total": 13,
+     "result": "Fanatic Loyalty",
+     "loyalty": 3
+    },
+    {
+     "day": 255,
+     "event": "loyalty roll (level)",
+     "total": 12,
+     "result": "Fanatic Loyalty",
+     "loyalty": 4
+    },
+    {
+     "day": 257,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 272,
+     "event": "loyalty roll (level)",
+     "total": 16,
+     "result": "Fanatic Loyalty",
+     "loyalty": 4
+    },
+    {
+     "day": 275,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 316,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 317,
+     "event": "loyalty roll (level)",
+     "total": 14,
+     "result": "Fanatic Loyalty",
+     "loyalty": 4
+    },
+    {
+     "day": 347,
+     "event": "wages paid: 1 month(s), 400 gp"
+    },
+    {
+     "day": 367,
+     "event": "loyalty roll (calamity: reduced to -5 hp (round 1))",
+     "total": 10,
+     "result": "Loyalty",
+     "loyalty": 3
+    },
+    {
+     "day": 376,
+     "event": "wages paid: 1 month(s), 400 gp"
+    },
+    {
+     "day": 406,
+     "event": "wages paid: 1 month(s), 400 gp"
+    },
+    {
+     "day": 423,
+     "event": "loyalty roll (calamity: reduced to 0 hp (round 2))",
+     "total": 10,
+     "result": "Loyalty",
+     "loyalty": 2
+    },
+    {
+     "day": 437,
+     "event": "wages paid: 1 month(s), 400 gp"
+    },
+    {
+     "day": 440,
+     "event": "loyalty roll (level)",
+     "total": 7,
+     "result": "Grudging Loyalty",
+     "loyalty": 2
+    },
+    {
+     "day": 467,
+     "event": "wages paid: 1 month(s), 800 gp"
+    },
+    {
+     "day": 496,
+     "event": "wages paid: 1 month(s), 800 gp"
+    },
+    {
+     "day": null,
+     "event": "set morale: None -> 2 (Judge)"
+    },
+    {
+     "day": null,
+     "event": "set morale: 2 -> 1 (Judge)"
+    },
+    {
+     "day": 497,
+     "event": "loyalty roll (calamity: reduced to -5 hp (round 9))",
+     "total": 8,
+     "result": "Grudging Loyalty",
+     "loyalty": 0
+    },
+    {
+     "day": 499,
+     "event": "loyalty roll (calamity: reduced to -2 hp (round 4))",
+     "total": 4,
+     "result": "Resignation",
+     "loyalty": -1
+    }
+   ],
+   "actor": "hrodvar",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  }
+ ]
 }

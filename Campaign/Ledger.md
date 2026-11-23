@@ -4337,3 +4337,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | brennus |
 | 521 |  | treasure share |  | 923gp 8cp |  | aelia |
 | 521 |  | treasure share |  | 1,846gp 1sp 5cp |  | cotta |
+| 523 | the retinue | wages paid |  |  | 800gp | vettius |

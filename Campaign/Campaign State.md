@@ -89,9 +89,19 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 8.433
-  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (phaedra) out; torch (phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
+  - name: Hrodvar
+    sheet: Characters/hrodvar.json
+    role: henchman
+    hp: 19
+    hp_max: 19
+    conditions:
+    - 'notable scarring: his cheek marred by the scars of great claws and fangs (Mortal Wounds, day 423)'
+    - 'intestines mangled and ruined (Mortal Wounds, day 499): must rest 2 turns in 6; CON reduced by 1/3; -4 to saves vs poison; chronic indigestion'
+    spells_used: []
+    encumbrance_st: 11.329
+  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (phaedra) out; torch (phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; torch (phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; torch (Hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out
-  rations: 'Brennus: food 6 d, water 1 d; Vettius: food 6 d, water 1.6 d; Neris: food 6 d, water 2.2 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 2 d; Cotta: food 6 d, water 2.8 d; Aelia: food 6 d, water 2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Brennus: food 6 d, water 1 d; Vettius: food 6 d, water 1.6 d; Neris: food 6 d, water 2.2 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 2 d; Cotta: food 6 d, water 2.8 d; Aelia: food 6 d, water 2 d; Hrodvar: food 6 d, water 1 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink

@@ -34,8 +34,10 @@ the weekly block; day 522 the Order.
   second try): chests, jewels, gold vessels, statuettes, and the hierophant's black scroll (Vestus keeps it).
 - Day 521, descent 76: four coffin pieces and the armoured mummy's lamellar; prawns killed on the way out.
 - Day 522: the Order gave Vestus a contract; Oppius brought it on day 523.
+- Day 523: **Hrodvar came back.** Out of his sickbed, he heard of Iulia's death at the Citadel and asked to stand where she had stood; Vettius took him into his service.
 
 ## Who they met
+- Hrodvar (day 523), Iulia's old shield-dwarf, back from his sickbed.
 - Patriarch Arëtar (the Citadel): prayed for Iulia twice; took back the Rod and the regalia.
 
 ## Treasure and XP
@@ -53,7 +55,7 @@ the weekly block; day 522 the Order.
 - Phaedra is crippled (a peg foot); abed to day 524.
 
 ## Next time
-Day 523, the Citadel. Eight in the company (Gideon's Cotta a PC; Phaedra abed). Vestus' contract (a hunter) due by
+Day 523, the Citadel. Nine in the company (Gideon's Cotta a PC; Hrodvar back in Vettius' service; Phaedra abed). Vestus' contract (a hunter) due by
 day 540. The Tower's identifications day 533. Below: the last coffin pieces and 80 library jars; the shrine of golden
 skulls to be dispelled and opened.
 
