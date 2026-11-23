@@ -3918,3 +3918,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 484 |  | treasure share |  |  |  |  |
 | 484 |  | treasure share |  |  |  |  |
 | 484 |  | treasure share |  |  |  |  |
+| 485 | the Solar Citadel | Repair Disfigurement and Disability prayed by Patriarch Arëtar for Iulia's hand (185gp, Rulings S12; day 485) |  |  | 176gp 3sp 2cp | iulia |
+| 485 | the Solar Citadel | the rest of the 185gp for Iulia's Repair Disfigurement and Disability (day 485) |  |  | 8gp 7sp | neris |

@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 484
-  time: '10:18'
+    day: 487
+  time: '21:18'
   weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; clear; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 33
+    hp: 36
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -42,9 +42,7 @@ public:
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Webbing
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 3.851
   - name: Neris
     sheet: Characters/neris.json
@@ -54,16 +52,12 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Cure Light Injury
-    - Cure Light Injury
-    - Cure Light Injury
-    - Cure Light Injury
-    encumbrance_st: 3.735
+    spells_used: []
+    encumbrance_st: 3.72
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 10
+    hp: 13
     hp_max: 31
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -77,10 +71,8 @@ public:
     hp_max: 40
     conditions:
     - minor scarring (puncture wound)
-    - 'one hand bitten off by a giant ant (Mortal Wounds, day 484): cannot dual-wield or use two-handed weapons; bears the Underwatch shield strapped to the maimed arm (Rulings S29)'
-    spells_used:
-    - Holy Blessing
-    encumbrance_st: 9.193
+    spells_used: []
+    encumbrance_st: 8.778
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -104,9 +96,7 @@ public:
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used:
-    - Slumber
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 6.169
   - name: Cotta
     sheet: Characters/cotta.json
@@ -149,7 +139,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 484
+clock_day: 487
 ---
 # Campaign State
 

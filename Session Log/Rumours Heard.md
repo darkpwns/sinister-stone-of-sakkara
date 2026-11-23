@@ -32,3 +32,5 @@ type: rumours
 - Day 314, Cyfaraun, Stateira the herb-seller (freed from the den, grateful): don't trust the chapterhouse regent: he sends naive adventurers into the Waste to die, and hexes those who refuse.
 - Day 331, Cyfaraun, Lucilla's old contacts (Rumormongering, month 12): for business go to the Mink; for gambling and whoring without end, the Silk Pony; for blue blood with coin, the Noble Charter Inn, with visits from Ianna's sacred courtesans.
 - Day 331, Cyfaraun, the Nicean wine-seller at the Emporium stalls (friendly): the Patriarch bars visits to the Night Captain's tomb because tomb raiders desecrated it on his watch; if people saw, he would be shamed out of the city.
+- Day 485 (Lucilla's rumormongering, Cyfaraun, month 17): Valerian Bellësareus, Master of the Sword of Fire, fell in the Empyrean War's last battle and was buried with his sword in a sacred cairn.
+- Day 485 (Lucilla's rumormongering, Cyfaraun, month 17): the Thrassians once ruled here; their immortal king sleeps until his race rises again.

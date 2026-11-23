@@ -287,3 +287,11 @@ The players' shared notebook, written by the Judge from the party agent's sugges
   emptied long ago). Iulia's charge this month: the courtesans' circle of the Serpent at the House of Green Silk (Street
   of Lamps); the Watch will tell her the night they gather. Next below: the shaman's platform (L4), the sealed cases
   (F17: their glass eggs may wake something below; Neris' vision), the K galleries, the throne (J8), the stair at the Y (R).
+- S29 (days 481-487). The courtesans' circle broken at its rite (Iulia's charge; its mistress to the Citadel). Lucilla's
+  and Vettius' contracts done quietly; the caravan guard's body came ashore: the Watch may come asking. The ants: (31)
+  the sludge caves' air is mine-damp (Hrodvar): no torch, no fire spell anywhere near the sludge; Iulia's spear and a
+  shut lantern only; (32) a web across a tunnel mouth makes a wall the ants must come through three at a time: it
+  worked, but the light-armoured front (Marcellus, Varro) took the bites: plate and shields in front, change the line
+  before anyone is below half; (33) the queen, four big soldiers and the eggs are still in the inner caves (north of
+  the four-way). Marcellus and Varro have left us. Iulia's hand is back (the Patriarch's own prayer); she is abed to
+  day 492. Strength without her: 59; with her 67.
