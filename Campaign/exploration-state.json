@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 515,
-  "round_of_day": 623,
-  "total_rounds": 740303
+  "round_of_day": 773,
+  "total_rounds": 740453
  },
  "party": {
   "iulia": {
@@ -13,7 +13,7 @@
    "perceived": "Iulia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 10.333333333333334
+   "treasure_stone": 0.3333333333333333
   },
   "brennus": {
    "id": "brennus",
@@ -22,7 +22,7 @@
    "perceived": "Brennus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 8.333333333333334
+   "treasure_stone": 2.3333333333333335
   },
   "vettius": {
    "id": "vettius",
@@ -31,7 +31,7 @@
    "perceived": "Vettius",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 7.833333333333333
+   "treasure_stone": 0.8333333333333334
   },
   "neris": {
    "id": "neris",
@@ -40,7 +40,7 @@
    "perceived": "Neris",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 12.336666666666666
+   "treasure_stone": 1.6666666666666667
   },
   "phaedra": {
    "id": "phaedra",
@@ -49,7 +49,7 @@
    "perceived": "Phaedra",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 12.333333333333334
+   "treasure_stone": 4.333333333333333
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -58,7 +58,7 @@
    "perceived": "Vestus the Unlikely",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 11.176666666666666
+   "treasure_stone": 9.176666666666666
   },
   "cotta": {
    "id": "cotta",
@@ -67,7 +67,7 @@
    "perceived": "Cotta",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 11.67
+   "treasure_stone": 0.17
   },
   "lucilla": {
    "id": "lucilla",
@@ -76,7 +76,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 10.5
+   "treasure_stone": 0.5
   },
   "aelia": {
    "id": "aelia",
@@ -85,7 +85,7 @@
    "perceived": "Aelia",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 12.36
+   "treasure_stone": 4.503333333333333
   }
  },
  "lights": [
@@ -687,82 +687,58 @@
    "id": "lantern20",
    "kind": "lantern",
    "carrier": "vettius",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 28,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch393",
+   "kind": "torch",
+   "carrier": "brennus",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 38,
+   "tallow": false
+  },
+  {
+   "id": "lantern21",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 140,
    "tallow": false
   }
  ],
- "timers": [
-  {
-   "id": "t142",
-   "label": "unsettling event throw (SOTN pp. 19-20)",
-   "rounds_left": 120,
-   "hidden": true,
-   "source": null,
-   "started": "day 515 10:23"
-  }
- ],
+ "timers": [],
  "rest": {
   "rounds_since_rest": 0,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Nethercity N - Sub-Abyssal Alchemic Laboratory",
-  "kind": "dungeon",
-  "level": 4,
-  "room": "N3",
+  "site": "Cyfaraun",
+  "kind": "settlement",
+  "level": null,
+  "room": null,
   "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
+   "none": true
   },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
+  "table": null,
   "source": {
-   "wandering": "site setting: '1d6 every 3 turns, 6+'"
+   "wandering": "a settlement: no wandering monster checks"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 515 10:10",
+   "at": "day 515 12:40",
    "roll": 4,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 514 08:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 514 08:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 514 09:20",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 514 09:50",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 514 10:20",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
    {
     "at": "day 514 10:50",
     "roll": 4,
@@ -852,13 +828,43 @@
     "roll": 4,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 515 10:40",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 515 11:10",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 515 11:40",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 515 12:10",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 515 12:40",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 740300
+  "turn_start_done": 740450
  },
  "turn_actions": {
-  "turn": 74030,
+  "turn": 74045,
   "listened": [],
   "actions": []
  },
@@ -1008,8 +1014,8 @@
    "rest_rounds": 90
   },
   "515": {
-   "delve_rounds": 232,
-   "rest_rounds": 50
+   "delve_rounds": 362,
+   "rest_rounds": 70
   }
  },
  "events": [
@@ -1894,9 +1900,9 @@
  ],
  "next_ids": {
   "enc": 428,
-  "torch": 392,
+  "torch": 393,
   "t": 142,
-  "lantern": 20
+  "lantern": 21
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -14217,7 +14223,7 @@
   }
  },
  "light_auto": {
-  "on": true,
+  "on": false,
   "carriers": [
    "aelia",
    "brennus"

@@ -4857,7 +4857,7 @@
    "kind": "henchman",
    "type": null,
    "count": 1,
-   "level": 4,
+   "level": 5,
    "class": "Explorer",
    "occupation": null,
    "race": "human",
@@ -4865,9 +4865,9 @@
    "animal": false,
    "caster": false,
    "loyalty": 1,
-   "morale": 0,
+   "morale": 1,
    "morale_src": "as light cavalry with similar gear (RR p. 167 mercenary morale; Judge's reading: composite bow, sword, scale, riding horse)",
-   "wage_gp": 200,
+   "wage_gp": 400.0,
    "wage_per": "month",
    "hired_day": 331,
    "periods_paid": 7,
@@ -4920,6 +4920,17 @@
     {
      "day": 510,
      "event": "wages paid: 1 month(s), 200 gp"
+    },
+    {
+     "day": 515,
+     "event": "wage 200 -> 400 gp/month (level 5; RR p. 168)"
+    },
+    {
+     "day": 515,
+     "event": "loyalty roll (level)",
+     "total": 8,
+     "result": "Grudging Loyalty",
+     "loyalty": 1
     }
    ],
    "actor": "cotta",

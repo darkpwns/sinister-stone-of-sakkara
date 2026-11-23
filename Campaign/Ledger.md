@@ -571,6 +571,41 @@ tags:
 | 514 | Descent 71 (R: the bronze door) | great ivory tusk | 1,000 | sold |
 | 514 | Descent 71 (R: the bronze door) | 20 pairs of giant boar tusks | 40 | sold |
 | 514 | Descent 71 (R: the bronze door) | 15 pairs of sabre-tooth tiger tusks | 60 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 12 bronze embalming hooks | 60 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 40 terracotta canopic jars | 200 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 30 vials of blue natron | 450 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 3 red-figure terracotta urns | 30 | sold |
+| 515 | Descent 72 (N: the sealed doors) | engraved finger bones (a charm) | 50 | sold |
+| 515 | Descent 72 (N: the sealed doors) | amber pendant (a charm) | 300 | sold |
+| 515 | Descent 72 (N: the sealed doors) | bronze brooch (a charm) | 100 | sold |
+| 515 | Descent 72 (N: the sealed doors) | silver and obsidian amulet (a charm) | 100 | sold |
+| 515 | Descent 72 (N: the sealed doors) | hepatizon orb inscribed with glyphs | 1,000 | vestus-the-unlikely |
+| 515 | Descent 72 (N: the sealed doors) | electrum orb inscribed with glyphs | 1,000 | vestus-the-unlikely |
+| 515 | Descent 72 (N: the sealed doors) | anatomical drawing of the ogre-spider | 250 | sold |
+| 515 | Descent 72 (N: the sealed doors) | Potion of Growth | 25 | aelia |
+| 515 | Descent 72 (N: the sealed doors) | Potion of Cure Light Injury | 25 | aelia |
+| 515 | Descent 72 (N: the sealed doors) | Potion of Necromantic Invulnerability | 25 | aelia |
+| 515 | Descent 72 (N: the sealed doors) | Potion of Youth | 50,025 | sold |
+| 515 | Descent 72 (N: the sealed doors) | Oil of Sharpness | 25 | aelia |
+| 515 | Descent 72 (N: the sealed doors) | 2 copper flasks of thick black blood | 1,500 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 2 copper flasks of sticky brown tarry syrup | 1,500 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 5 copper flasks of syrupy tangy fluid | 1,250 | sold |
+| 515 | Descent 72 (N: the sealed doors) | iridescent alloy hemisphere (lower, west) | 5,000 | sold |
+| 515 | Descent 72 (N: the sealed doors) | iridescent alloy hemisphere (lower, east) | 5,000 | sold |
+| 515 | Descent 72 (N: the sealed doors) | iridescent alloy hemisphere (upper, west) | 5,000 | sold |
+| 515 | Descent 72 (N: the sealed doors) | iridescent alloy hemisphere (upper, east) | 5,000 | sold |
+| 515 | Descent 72 (N: the sealed doors) | bronze chandelier (magic-lit, no candle cups) | 30 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 13 cedar jars of arcane scrolls (Ancient Argollëan; N3 east wall, bottom shelf) | 0 (worth less than 1sp per stone) | vestus-the-unlikely |
+| 515 | Descent 72 (N: the sealed doors) | 8 cedar jars of alchemical formulae (Ancient Argollëan; N3 west wall, top shelf) | 0 (worth less than 1sp per stone) | phaedra |
+| 515 | Descent 72 (N: the sealed doors) | 4 cedar scroll jars of research notes (N3 library) | 588 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 6 cedar scroll jars of research notes (N3 library) | 882 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 18 cedar scroll jars of research notes (N3 library) | 2,647 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 12 cedar scroll jars of research notes (N3 library) | 1,765 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 8 cedar scroll jars of research notes (N3 library) | 1,176 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 10 cedar scroll jars of research notes (N3 library) | 1,471 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 18 cedar scroll jars of research notes (N3 library) | 2,647 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 12 cedar scroll jars of research notes (N3 library) | 1,765 | sold |
+| 515 | Descent 72 (N: the sealed doors) | 14 cedar scroll jars of research notes (N3 library) | 2,059 | sold |
 
 ## Monster XP
 
@@ -747,6 +782,7 @@ tags:
 | 506 | Descent 70 (R: the prince and princess) | Giant Fly | 4 | 29 | 116 |
 | 511 | Order contract: Cnaeus Lento (Brennus) | Cnaeus Lento | 1 | 50 | 50 |
 | 514 | Descent 71 (R: the bronze door) | Skeleton | 48 | 13 | 624 |
+| 515 | Descent 72 (N: the sealed doors) | Giant Rat | 9 | 5 | 45 |
 
 ## Shares and XP awarded
 
@@ -1536,6 +1572,15 @@ tags:
 | 514 | Descent 71 (R: the bronze door) | Phaedra | 0.5 | 340 | 42 | 0 | +0% | 382 |
 | 514 | Descent 71 (R: the bronze door) | Aelia | 0.5 | 340 | 42 | 0 | +0% | 382 |
 | 514 | Descent 71 (R: the bronze door) | Cotta | 0.5 | 340 | 42 | 0 | +0% | 382 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 515 | Descent 72 (N: the sealed doors) | Lucilla | 1 | 12,393 | 6 | 0 | +10% | 13,639 |
+| 515 | Descent 72 (N: the sealed doors) | Vettius | 1 | 12,393 | 6 | 0 | +5% | 13,019 |
+| 515 | Descent 72 (N: the sealed doors) | Vestus the Unlikely | 1 | 12,393 | 6 | 0 | +5% | 13,019 |
+| 515 | Descent 72 (N: the sealed doors) | Neris | 1 | 12,393 | 6 | 0 | +0% | 12,399 |
+| 515 | Descent 72 (N: the sealed doors) | Brennus | 1 | 12,393 | 6 | 0 | +5% | 13,019 |
+| 515 | Descent 72 (N: the sealed doors) | Iulia | 1 | 12,393 | 6 | 0 | +5% | 13,019 |
+| 515 | Descent 72 (N: the sealed doors) | Phaedra | 0.5 | 6,196 | 3 | 0 | +0% | 6,199 |
+| 515 | Descent 72 (N: the sealed doors) | Aelia | 0.5 | 6,196 | 3 | 0 | +0% | 6,199 |
+| 515 | Descent 72 (N: the sealed doors) | Cotta | 0.5 | 6,196 | 3 | 0 | +0% | 6,199 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4174,3 +4219,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 514 |  | treasure share |  | 340gp |  | phaedra |
 | 514 |  | treasure share |  | 340gp |  | aelia |
 | 514 |  | treasure share |  | 340gp |  | cotta |
+| 515 |  | treasure share |  | 12,109gp 3sp 3cp |  | lucilla |
+| 515 |  | treasure share |  | 12,109gp 3sp 3cp |  | vettius |
+| 515 |  | treasure share |  | 12,109gp 3sp 3cp |  | vestus-the-unlikely |
+| 515 |  | treasure share |  | 12,109gp 3sp 3cp |  | neris |
+| 515 |  | treasure share |  | 12,109gp 3sp 3cp |  | brennus |
+| 515 |  | treasure share |  | 12,109gp 3sp 3cp |  | iulia |
+| 515 |  | treasure share |  | 6,054gp 6sp 7cp |  | phaedra |
+| 515 |  | treasure share |  | 6,054gp 6sp 7cp |  | aelia |
+| 515 |  | treasure share |  | 6,054gp 6sp 7cp |  | cotta |
