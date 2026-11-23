@@ -1,0 +1,3 @@
+# ghoul G T: a grave ghoul's routine (claw, claw, bite) on T; fever save if it hurt T (MM Grave Ghoul)
+ghoul(){ local g=$1 t=$2 hurt=0 o; for k in 0 1 2; do o=$($A attack $g $t --attack $k 2>&1|tail -1|sed 's/ *(src[^)]*)//g'|cut -c1-170); echo "  $o"; echo "$o"|grep -q HIT && hurt=1; echo "$o"|grep -qi "unconscious\|dies" && break; done
+ if [ $hurt = 1 ]; then s=$($A save $t paralysis 2>&1|tail -1|cut -c1-90); echo "    fever: $s"; if echo "$s"|grep -q FAIL; then r=$($A roll --hidden "fever spasm turns:2d4" 2>&1|tail -1); n=${r##*= }; $A state cond $t paralyzed --rounds $((n*10)) >/dev/null 2>&1; echo "    $t spasming $n turns, INFECTED"; echo "$t" >> Campaign/.infected; fi; fi; }

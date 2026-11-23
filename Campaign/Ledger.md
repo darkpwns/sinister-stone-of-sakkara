@@ -409,6 +409,22 @@ tags:
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | the Order's commission (L569) | 2,000 | vettius |
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | the Order's commission for Tarsus (L570) | 2,500 | neris |
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | the Order's commission for Iunia (L571) | 1,500 | brennus |
+| 440 | Descent 57 (S3, the priestess's tomb) | jewelry worth 1000.0gp | 1,000 | lucilla |
+| 440 | Descent 57 (S3, the priestess's tomb) | a corner of the priestess's partly gilded bronze sarcophagus | 375 | varro |
+| 440 | Descent 57 (S3, the priestess's tomb) | a corner of the priestess's partly gilded bronze sarcophagus | 375 | hrodvar |
+| 440 | Descent 57 (S3, the priestess's tomb) | a corner of the priestess's partly gilded bronze sarcophagus | 375 | iulia |
+| 440 | Descent 57 (S3, the priestess's tomb) | a corner of the priestess's partly gilded bronze sarcophagus | 375 | cotta |
+| 440 | Descent 57 (S3, the priestess's tomb) | 2,000 electrum pieces | 1,000 | neris |
+| 440 | Descent 57 (S3, the priestess's tomb) | 1,000 gold pieces | 1,000 | neris |
+| 440 | Descent 57 (S3, the priestess's tomb) | gem worth 750.0gp | 750 | lucilla |
+| 440 | Descent 57 (S3, the priestess's tomb) | gem worth 750.0gp | 750 | lucilla |
+| 440 | Descent 57 (S3, the priestess's tomb) | gem worth 750.0gp | 750 | lucilla |
+| 440 | Descent 57 (S3, the priestess's tomb) | 4,000 silver pieces | 400 | vestus-the-unlikely |
+| 440 | Descent 57 (S3, the priestess's tomb) | 4,000 silver pieces | 400 | neris |
+| 440 | Descent 57 (S3, the priestess's tomb) | 2,000 silver pieces | 200 | phaedra |
+| 440 | Descent 57 (S3, the priestess's tomb) | ten red-figure terracotta urns | 100 | vestus-the-unlikely |
+| 440 | Descent 57 (S3, the priestess's tomb) | a large bronze scroll jar | 25 | vettius |
+| 440 | Descent 57 (S3, the priestess's tomb) | four illuminated religious texts in Ancient Argollean | 2,700 | vettius |
 
 ## Monster XP
 
@@ -524,6 +540,10 @@ tags:
 | 436 | The Order's contract: Lucan Ferrox (night of 435) | Lucan Ferrox | 1 | 80 | 80 |
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Tarsus the Bull | 1 | 200 | 200 |
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Iunia Vex | 1 | 50 | 50 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Carrion Horror | 2 | 170 | 340 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Grave Ghoul | 1 | 38 | 38 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Mummy Cultist of Nasga (SOTN S3) | 1 | 2,600 | 2,600 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Grave Ghoul | 3 | 38 | 114 |
 
 ## Shares and XP awarded
 
@@ -1113,6 +1133,18 @@ tags:
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Brennus | 1 | 1,143 | 71 | 0 | +5% | 1,275 |
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Vettius | 1 | 1,143 | 71 | 0 | +5% | 1,275 |
 | 439 | The Order's contracts: Tarsus the Bull and Iunia Vex (nights of 437-438 and 438) | Phaedra | 0.5 | 571 | 36 | 0 | +0% | 607 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Lucilla | 1 | 1,175 | 344 | 0 | +10% | 1,671 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Vettius | 1 | 1,175 | 344 | 0 | +5% | 1,595 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Vestus the Unlikely | 1 | 1,175 | 344 | 0 | +5% | 1,595 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Neris | 1 | 1,175 | 344 | 0 | +0% | 1,519 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Brennus | 1 | 1,175 | 344 | 0 | +5% | 1,595 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Iulia | 1 | 1,175 | 344 | 0 | +5% | 1,595 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Phaedra | 0.5 | 588 | 172 | 0 | +0% | 759 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Varro | 0.5 | 588 | 172 | 0 | +0% | 759 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Hrodvar | 0.5 | 588 | 172 | 0 | +0% | 759 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Aelia | 0.5 | 588 | 172 | 0 | +0% | 759 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Marcellus | 0.5 | 588 | 172 | 0 | +0% | 759 |
+| 440 | Descent 57 (S3, the priestess's tomb) | Cotta | 0.5 | 588 | 172 | 0 | +0% | 759 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 34 class.mage.key_attributes; RR p. 84 class.dwarven_vaultguard.key_attributes; RR p. 52 class.bard.key_attributes; RR p. 168 Henchmen)
 
 ## Wages
 
@@ -3282,3 +3314,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 439 |  | treasure share |  | 1,142gp 8sp 6cp |  | brennus |
 | 439 |  | treasure share |  | 1,142gp 8sp 6cp |  | vettius |
 | 439 |  | treasure share |  | 571gp 4sp 3cp |  | phaedra |
+| 440 | Cyfaraun | torch | 6 |  | 1sp | marcellus |
+| 440 | Cyfaraun | torch | 6 |  | 1sp | lucilla |
+| 440 | Cyfaraun | torch | 6 |  | 1sp | varro |
+| 440 |  | treasure share |  | 333gp 3sp 3cp |  | lucilla |
+| 440 |  | treasure share |  | 333gp 3sp 3cp |  | vettius |
+| 440 |  | treasure share |  | 333gp 3sp 3cp |  | vestus-the-unlikely |
+| 440 |  | treasure share |  | 333gp 3sp 3cp |  | neris |
+| 440 |  | treasure share |  | 333gp 3sp 3cp |  | brennus |
+| 440 |  | treasure share |  | 333gp 3sp 3cp |  | iulia |
+| 440 |  | treasure share |  | 166gp 6sp 7cp |  | phaedra |
+| 440 |  | treasure share |  | 166gp 6sp 7cp |  | varro |
+| 440 |  | treasure share |  | 166gp 6sp 7cp |  | hrodvar |
+| 440 |  | treasure share |  | 166gp 6sp 7cp |  | aelia |
+| 440 |  | treasure share |  | 166gp 6sp 7cp |  | marcellus |
+| 440 |  | treasure share |  | 166gp 6sp 7cp |  | cotta |
