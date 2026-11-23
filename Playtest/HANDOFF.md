@@ -1214,3 +1214,15 @@ answers its own deaths. Destrio Friendly to Neris (a sister of Calefa). No Order
 **Next (World State prep queue):** 459 the Order's roll (and Destrio's answer on the merchant's note); 463 weekly rolls;
 465 the identifications, then a selling day with G9's goods; wages 467, 473; month 16 ends 480. Delves: G's galleries and
 the remaining G tombs (G16's statue, G11/G12), then the rest. Keep Iulia out of the Family's work. The estate waits.
+
+## S27 — start here (supersedes everything above)
+**Branch:** `ccr-6e7c0096-7nmfvu`, all four repos (tools 7.14.0). Helpers as S25/S26. Log: `Session Log/S26 — The
+Serpent's Sanctum.md`. Set Campaign State `session:` to 27 before the first roll.
+
+**State on resume:** day 463 18:16, the Solar Citadel. No adventure open (A100 paid). Twelve, whole or nearly; Phaedra
+Mage 6, Cotta Explorer 4. Coin above 150gp banked day 461. The Family (Vettius: information, spying, fencing; Destrio's
+bargain) quiet: three double agents. No Order contract in hand.
+
+**Next (World State prep queue):** 465 the Tower's identifications, then a selling day (the S25-S26 goods); 466 the
+Order's roll; 467 and 473 wages; 470 weekly rolls; the Imperial Vanguard below within the month; Varinia's circle
+(Arëtar). Delves: G10-G14 next (skeletons, the consul, the mummy king).

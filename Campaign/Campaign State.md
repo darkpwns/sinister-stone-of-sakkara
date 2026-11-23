@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 460
-  time: '16:16'
+    day: 463
+  time: '18:16'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; clear; wind gentle
   place: Cyfaraun
   hex: '18.05'
@@ -42,8 +42,7 @@ public:
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 4.816
   - name: Neris
     sheet: Characters/neris.json
@@ -102,7 +101,7 @@ public:
   - name: Marcellus
     sheet: Characters/marcellus.json
     role: henchman
-    hp: 37
+    hp: 39
     hp_max: 40
     conditions: []
     spells_used: []
@@ -113,8 +112,7 @@ public:
     hp: 20
     hp_max: 20
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 7.09
   - name: Cotta
     sheet: Characters/cotta.json
@@ -157,7 +155,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 460
+clock_day: 463
 ---
 # Campaign State
 
