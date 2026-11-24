@@ -735,6 +735,10 @@ tags:
 | 620 | A149 descent 90: the library carried out (N3) | the two magic-lit chandeliers of N2 and N3 | 60 | cotta |
 | 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | three painted bronze sarcophagi in the likeness of the elven brothers | 1,500 | brennus |
 | 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | two ancient dragon horns | 1,600 | lucilla |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold) | 800 | cotta |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 2,000 | cotta |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 900gp (Alabaster, chryselephantine, ivory, or wrought gold) | 900 | cotta |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze) | 90 | cotta |
 
 ## Monster XP
 
@@ -957,6 +961,7 @@ tags:
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Kleon Pharsalos | 1 | 50 | 50 |
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Bandit | 2 | 10 | 20 |
 | 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Mother Corvina | 1 | 50 | 50 |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Devil Boar | 1 | 2,000 | 2,000 |
 
 ## Shares and XP awarded
 
@@ -1985,6 +1990,9 @@ tags:
 | 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Phaedra | 0.5 | 207 | 0 | 0 | +0% | 207 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 | 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Vettius | 1 | 0 | 25 | 0 | +5% | 26 |
 | 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Neris | 1 | 0 | 25 | 0 | +0% | 25 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Cotta | 1 | 1,516 | 800 | 0 | +0% | 2,316 |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Brennus | 1 | 1,516 | 800 | 0 | +5% | 2,432 |
+| 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Ennia Ursa | 0.5 | 758 | 400 | 0 | +0% | 1,158 |
 
 ## Wages
 
@@ -5281,6 +5289,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 667 | the retinue | wages paid |  |  | 25gp | brennus |
 | 670 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 1 (Rulings S47) |  |  | 500gp | vettius |
 | 670 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 2 (days 671-675) |  |  | 500gp | vettius |
+| 673 | a camp-followers' inn, Türos Aster | beds for three and fodder and stalls for three horses, night of day 673 (Ledger day 316 prices) |  |  | 2gp | brennus |
+| 675 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 2 (Rulings S47) |  |  | 500gp | vettius |
+| 675 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 3 (days 676-680) |  |  | 500gp | vettius |
+| 678 | the Silk Pony (Thana) | stalls for donkey1, donkey2 and mule1, days 666-678 (2sp a stall a day) |  |  | 7gp 2sp | vettius |
+| 678 |  | treasure share |  |  |  |  |
+| 678 |  | treasure share |  |  |  |  |
+| 678 |  | treasure share |  |  |  |  |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

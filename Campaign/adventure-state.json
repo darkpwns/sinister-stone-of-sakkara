@@ -2,8 +2,8 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 154,
-  "L": 901,
-  "H": 214,
+  "L": 905,
+  "H": 215,
   "M": 281
  },
  "adventure": {
@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 53639,
     "level_before": 6,
     "class": "Explorer",
-    "joined_day": 672
+    "joined_day": 672,
+    "returned_day": 678,
+    "xp_award": 2316
    },
    "brennus": {
     "id": "brennus",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 171057,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 672
+    "joined_day": 672,
+    "returned_day": 678,
+    "xp_award": 2432
    },
    "ennia-ursa": {
     "id": "ennia-ursa",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "ennia-ursa",
     "xp_before": 0,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 672
+    "joined_day": 672,
+    "returned_day": 678,
+    "xp_award": 1158
    }
   },
   "monsters": [
@@ -74,9 +80,56 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 678,
+   "at": null,
+   "total": 5790.0,
+   "per_share": 2316.0,
+   "awards": {
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 2316,
+     "pct": 0,
+     "pen": 0,
+     "award": 2316,
+     "xp_before": 53639,
+     "xp_after": 55955,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 2316,
+     "pct": 5,
+     "pen": 0,
+     "award": 2432,
+     "xp_before": 171057,
+     "xp_after": 173489,
+     "capped": null,
+     "zero": false
+    },
+    "ennia-ursa": {
+     "share": 0.5,
+     "why": null,
+     "base": 1158,
+     "pct": 0,
+     "pen": 0,
+     "award": 1158,
+     "xp_before": 0,
+     "xp_after": 1158,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 678,
+   "where": null
+  }
  },
  "closed": [
   {
@@ -85146,6 +85199,146 @@
     "neris": 750.0
    },
    "divided_day": 628
+  },
+  "L902": {
+   "id": "L902",
+   "adventure": "A154",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "cotta",
+   "status": "carried",
+   "found": {
+    "day": 675,
+    "where": "24.12: a cache in a broken Imperial milestone by the road (JJ terrain encounter, TT K)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 800,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+    "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (alabaster)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L903": {
+   "id": "L903",
+   "adventure": "A154",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "cotta",
+   "status": "carried",
+   "found": {
+    "day": 675,
+    "where": "24.12: a cache in a broken Imperial milestone by the road (JJ terrain encounter, TT K)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 2000,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal)",
+    "material": "Wrought orichalcum, silver studded with turquoise, moonstone, or opal",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (wrought orichalcum)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L904": {
+   "id": "L904",
+   "adventure": "A154",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "cotta",
+   "status": "carried",
+   "found": {
+    "day": 675,
+    "where": "24.12: a cache in a broken Imperial milestone by the road (JJ terrain encounter, TT K)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 900,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 900gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+    "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (alabaster)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L905": {
+   "id": "L905",
+   "adventure": "A154",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "cotta",
+   "status": "carried",
+   "found": {
+    "day": 675,
+    "where": "24.12: a cache in a broken Imperial milestone by the road (JJ terrain encounter, TT K)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 90,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze)",
+    "material": "Glass, shells, or wrought copper, brass, or bronze",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (glass)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
   }
  },
  "hoards": {
@@ -95630,6 +95823,112 @@
     "fraction": null
    },
    "found": false
+  },
+  "H215": {
+   "id": "H215",
+   "label": "24.12: a cache in a broken Imperial milestone by the road (JJ terrain encounter, TT K)",
+   "hoard": {
+    "type": "K",
+    "setting": "classic",
+    "category": "incidental",
+    "average_gp": 5000,
+    "lots": [
+     {
+      "kind": "jewelry",
+      "grade": "jewelry",
+      "value_gp": 800,
+      "stone": 0.16666666666666666,
+      "qty": 1,
+      "name": "jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+      "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+      "looks": "a piece of jewelry (alabaster)",
+      "value_known": false,
+      "refs": [
+       {
+        "table": "special-treasure-per-jewelry",
+        "title": "Special Treasure per Jewelry (1,000gp)",
+        "note": "ACKS II Rules/Treasure/Special Treasures.md",
+        "block": "^tbl-special-treasure-per-jewelry",
+        "book": "TT",
+        "page": "p. 25",
+        "row": 5
+       }
+      ],
+      "taken": true
+     },
+     {
+      "kind": "jewelry",
+      "grade": "jewelry",
+      "value_gp": 2000,
+      "stone": 0.16666666666666666,
+      "qty": 1,
+      "name": "jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal)",
+      "material": "Wrought orichalcum, silver studded with turquoise, moonstone, or opal",
+      "looks": "a piece of jewelry (wrought orichalcum)",
+      "value_known": false,
+      "refs": [
+       {
+        "table": "special-treasure-per-jewelry",
+        "title": "Special Treasure per Jewelry (1,000gp)",
+        "note": "ACKS II Rules/Treasure/Special Treasures.md",
+        "block": "^tbl-special-treasure-per-jewelry",
+        "book": "TT",
+        "page": "p. 25",
+        "row": 5
+       }
+      ],
+      "taken": true
+     },
+     {
+      "kind": "jewelry",
+      "grade": "jewelry",
+      "value_gp": 900,
+      "stone": 0.16666666666666666,
+      "qty": 1,
+      "name": "jewelry worth 900gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+      "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+      "looks": "a piece of jewelry (alabaster)",
+      "value_known": false,
+      "refs": [
+       {
+        "table": "special-treasure-per-jewelry",
+        "title": "Special Treasure per Jewelry (1,000gp)",
+        "note": "ACKS II Rules/Treasure/Special Treasures.md",
+        "block": "^tbl-special-treasure-per-jewelry",
+        "book": "TT",
+        "page": "p. 25",
+        "row": 5
+       }
+      ],
+      "taken": true
+     },
+     {
+      "kind": "jewelry",
+      "grade": "jewelry",
+      "value_gp": 90,
+      "stone": 0.16666666666666666,
+      "qty": 1,
+      "name": "jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze)",
+      "material": "Glass, shells, or wrought copper, brass, or bronze",
+      "looks": "a piece of jewelry (glass)",
+      "value_known": false,
+      "refs": [
+       {
+        "table": "special-treasure-per-jewelry",
+        "title": "Special Treasure per Jewelry (1,000gp)",
+        "note": "ACKS II Rules/Treasure/Special Treasures.md",
+        "block": "^tbl-special-treasure-per-jewelry",
+        "book": "TT",
+        "page": "p. 25",
+        "row": 5
+       }
+      ],
+      "taken": true
+     }
+    ],
+    "fraction": null
+   },
+   "found": true
   }
  },
  "markets": {

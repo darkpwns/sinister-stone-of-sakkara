@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: winter
-    day: 672
-  time: 06:00
+    day: 678
+  time: 05:53
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
-  hex: '26.14'
+  hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 9.478
+    encumbrance_st: 9.469
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -58,13 +58,13 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 28
+    hp: 29
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 13.383
+    encumbrance_st: 13.381
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -107,9 +107,9 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 10
-  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (aelia) out; torch (ottar) out; torch (marcellus) out; torch (phaedra) out; torch (phaedra) out; torch (aelia) out; torch (aelia) out; torch (phaedra) out; torch (aelia) out; torch (phaedra) out; torch (aelia) out; torch (phaedra) out; torch (aelia) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; lantern (vettius) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; torch (phaedra) out; torch (phaedra) out; torch (phaedra) out; torch (hrodvar) out; torch (aelia) out; torch (marcellus) out; torch (aelia) out; torch (aelia) out; torch (marcellus) out; torch (lucilla) out; torch (aelia) out; torch (lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (lucilla) out; torch (aelia)
-    out; lantern (vettius) out; torch (marcellus) out; torch (aelia) out; lantern (vettius) out; torch (lucilla) out; lantern (vettius) out; torch (lucilla) out; lantern (vettius) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; torch (Brennus) out; lantern (vettius) out; torch (aelia) out; torch (aelia) out; torch (aelia) out; lantern (vettius) out; torch (Brennus) out; lantern (vettius) out; torch (vettius) out; lantern (vettius) out; lantern (vettius) out; torch (aelia) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out; torch (aelia) out; lantern (vettius) out; lantern (vettius) out; lantern (vettius) out
-  rations: 'Cotta: food 8 d, water 2.8 d; Brennus: food 8 d, water 3.4 d; Ennia Ursa: food 14 d, water 0.2 d; Horse, Light Riding: fodder 0 st, water 0 st'
+  light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
+  rations: 'Cotta: food 3 d, water 2.8 d; Brennus: food 3 d, water 3.4 d; Ennia Ursa: food 14 d, water 0.2 d; Vettius: food 0 d, water 0.4 d; Lucilla: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Tiberius Maro: food 0 d, water 1.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Great Teacher is dead (day 614, the drowned cellar under the Citadel): his hilt, his grey silk suit, three strange syringes, his robe and jewelled belt are ours, and his little device (empty: it runs on orange crystals)'
@@ -126,27 +126,27 @@ public:
   - 'The Watch: an officer came about the herb-wife found in the Eastgate meadows (day 533) and left unsatisfied'
   - The black barge at Tertulla's landing, paid to day 545
   trail:
-  - '19.07'
-  - '18.06'
-  - '18.05'
-  - '17.06'
-  - '18.05'
-  - '18.06'
-  - '18.05'
-  - '18.06'
-  - '19.07'
-  - '20.07'
-  - '20.08'
-  - '21.09'
-  - '22.09'
-  - '23.10'
-  - '23.11'
-  - '24.11'
-  - '24.12'
-  - '25.13'
-  - '25.14'
+  - '25.19'
+  - '26.18'
+  - '26.17'
+  - '27.17'
+  - '27.16'
+  - '26.15'
   - '26.14'
-clock_day: 672
+  - '25.14'
+  - '25.13'
+  - '24.12'
+  - '24.11'
+  - '23.11'
+  - '23.10'
+  - '22.09'
+  - '21.09'
+  - '20.08'
+  - '20.07'
+  - '19.07'
+  - '18.06'
+  - '18.05'
+clock_day: 678
 ---
 # Campaign State
 

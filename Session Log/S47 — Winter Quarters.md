@@ -35,7 +35,21 @@ bring him the parts of beasts for his magic.
   for the barony; Phaedra takes Vestus' place in the line. Cotta, with Ennia and Brennus, will ride south to look at
   the bugbears' fort across the ford before the thaw.
 
+- Day 666. Phaedra began her scrolls of sleep. Cotta, Brennus and Ennia rode south on the Imperial road, twelve miles
+  a day in the mud; Brennus slept in his mail the first night and paid for it with two days' rest.
+- Day 670. Phaedra's first scroll held.
+- Day 672, dawn. A black boar the size of an ox came across the frost at the camp. Cotta's sword skidded off its hide;
+  Brennus' spear went in, and in, and when it broke and ran he took it from behind. It died as a fat naked man.
+  The same morning the three spurred past ten bandits and, an hour on, rode wide of two more fat men walking the road.
+- Day 673, Türos Aster. The Legate had nothing for three riders. From the village bank they watched the fort across
+  the ford by day and night: a horn and watchers on the gate tower, smoke over the walls, many fires. The ford people
+  told of thirty and more warriors with bows when a raid goes out, two great bears, and the ferryman's boy Lucius,
+  taken alive in the autumn.
+- Day 675. Riding home, Ennia found jewellery hidden in a broken milestone by the road. Phaedra's second scroll failed.
+- Day 678. The three are back at the Silk Pony.
+
 ## Who they met
+- Legate Nicus Balens of Türos Aster: cold, tired, short of men ("I asked for men who can clear a fort. I count three.").
 - Ennia Ursa, monster-hunter (Explorer 1): sharp-eyed, quiet, counts everything twice ("Ants don't sleep, and they don't forget a trail.").
 - Silvanus, an older hunter who would not work for a mage.
 

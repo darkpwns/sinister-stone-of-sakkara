@@ -99,20 +99,21 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by lucilla",
    "owner": "lucilla",
-   "stabled": {
-    "at": "the Silk Pony",
-    "day": 666,
-    "cause": "left in town while the three scout south"
-   },
    "history": [
     {
      "stabled": "the Silk Pony",
      "day": 666,
      "cause": "left in town while the three scout south"
+    },
+    {
+     "unstabled": "the Silk Pony",
+     "day": 678,
+     "nights": 12,
+     "cause": "the company's animals, back in use"
     }
    ]
   },
@@ -166,20 +167,21 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Donkey, Draft",
    "note": "bought in Türos Tem by lucilla",
    "owner": "lucilla",
-   "stabled": {
-    "at": "the Silk Pony",
-    "day": 666,
-    "cause": "left in town while the three scout south"
-   },
    "history": [
     {
      "stabled": "the Silk Pony",
      "day": 666,
      "cause": "left in town while the three scout south"
+    },
+    {
+     "unstabled": "the Silk Pony",
+     "day": 678,
+     "nights": 12,
+     "cause": "the company's animals, back in use"
     }
    ]
   },
@@ -235,7 +237,7 @@
    "kind": "vehicle",
    "name": "Cart, Small",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "note": "bought in Turos Orn by vettius",
    "owner": "vettius",
    "vehicle": "Cart, Small",
@@ -258,32 +260,34 @@
      "stabled": "the Silk Pony",
      "day": 666,
      "cause": "left in town while the three scout south"
+    },
+    {
+     "unstabled": "the Silk Pony",
+     "day": 678,
+     "nights": 12,
+     "cause": "the company's animals, back in use"
     }
-   ],
-   "stabled": {
-    "at": "the Silk Pony",
-    "day": 666,
-    "cause": "left in town while the three scout south"
-   }
+   ]
   },
   "mule1": {
    "kind": "animal",
    "name": "Mule, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Mule, Draft",
    "note": "bought in Turos Orn by vettius",
    "owner": "vettius",
-   "stabled": {
-    "at": "the Silk Pony",
-    "day": 666,
-    "cause": "left in town while the three scout south"
-   },
    "history": [
     {
      "stabled": "the Silk Pony",
      "day": 666,
      "cause": "left in town while the three scout south"
+    },
+    {
+     "unstabled": "the Silk Pony",
+     "day": 678,
+     "nights": 12,
+     "cause": "the company's animals, back in use"
     }
    ]
   },
@@ -118449,6 +118453,124 @@
    ],
    "cmd": "inv wield",
    "n": 6018
+  },
+  {
+   "op": "pay",
+   "cause": "beds for three and fodder and stalls for three horses, night of day 673 (Ledger day 316 prices)",
+   "day": 673,
+   "time": "day 673 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -2
+    }
+   ],
+   "to": "a camp-followers' inn, Türos Aster",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 6019
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: components for Phaedra's scroll no. 2 and material for no. 3",
+   "day": 675,
+   "time": "day 675 07:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "vettius",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6020
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 2 (Rulings S47)",
+   "day": 675,
+   "time": "day 675 07:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists and alchemists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6021
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Phaedra's scroll of Slumber no. 3 (days 676-680)",
+   "day": 675,
+   "time": "day 675 07:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District vellum-makers and ink-grinders",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6022
+  },
+  {
+   "op": "pay",
+   "cause": "stalls for donkey1, donkey2 and mule1, days 666-678 (2sp a stall a day)",
+   "day": 678,
+   "time": "day 678 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "sp": -2,
+     "gp": -7
+    }
+   ],
+   "to": "the Silk Pony (Thana)",
+   "price_cp": 720,
+   "cmd": "inv pay",
+   "n": 6023
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 678,
+   "time": "day 678 05:53",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 6024
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 678,
+   "time": "day 678 05:53",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 6025
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 678,
+   "time": "day 678 05:53",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 6026
   }
  ],
  "holdings": {
@@ -119360,8 +119482,8 @@
    "cp": 3
   },
   "vettius": {
-   "gp": 305,
-   "sp": 269,
+   "gp": 298,
+   "sp": 267,
    "cp": 404
   },
   "durio": {
@@ -119430,7 +119552,7 @@
   },
   "brennus": {
    "sp": 369,
-   "gp": 371,
+   "gp": 369,
    "cp": 476
   },
   "quirinus": {
@@ -119479,7 +119601,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 681842,
+   "gp": 680842,
    "cp": 6,
    "sp": 4
   },
