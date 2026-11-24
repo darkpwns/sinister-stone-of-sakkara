@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 1
-  time: 08:00
-  weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; clear; wind moderate
+    day: 4
+  time: '10:00'
+  weather: Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; mostly cloudy; wind gentle
   place: Türos Tem
-  hex: '22.20'
+  hex: '19.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -23,7 +23,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 7.453
+    encumbrance_st: 6.44
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -31,7 +31,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 7.187
+    encumbrance_st: 6.184
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.014
+    encumbrance_st: 5.011
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 11.891
+    encumbrance_st: 6.888
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -55,7 +55,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 8.904
+    encumbrance_st: 6.91
   - name: Tertia
     sheet: Characters/tertia.json
     role: pc
@@ -63,14 +63,17 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 7.03
+    encumbrance_st: 6.027
   light: none
-  rations: 'Galerius: food 0 d, water 0 d; Faustina: food 0 d, water 0 d; Hrodric: food 0 d, water 0 d; Callista: food 0 d, water 0 d; Corvus: food 0 d, water 0 d; Tertia: food 0 d, water 0 d'
+  rations: 'Galerius: food 5 d, water 2.6 d; Faustina: food 5 d, water 0.2 d; Hrodric: food 5 d, water 0.2 d; Callista: food 5 d, water 0.2 d; Corvus: food 5 d, water 0.2 d; Tertia: food 5 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
   - '22.20'
-clock_day: 1
+  - '21.20'
+  - '20.19'
+  - '19.19'
+clock_day: 4
 ---
 # Campaign State
 
