@@ -60,7 +60,7 @@ caravan coming about day 790.
 - The caravan sale: the gems and jewellery of A155-A157, about 29,900gp.
 
 ## Rumours given
-- From Bassus' runners: Thana is with child; the Regent no longer wants the workshop; a Tower mage bought a map of the
+- From Bassus' runners: Thana is with child, and the child is Vettius' (her own words); the Regent no longer wants the workshop; a Tower mage bought a map of the
   southern fords; the ledger-keeper skimmed (made to pay it back).
 
 ## Changes to the world
