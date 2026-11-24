@@ -111,13 +111,12 @@ public:
   rations: 'Cotta: food 2 d, water 0.2 d (fatigued); Brennus: food 2 d, water 1.2 d; Vettius: food 2 d, water 1.4 d (fatigued); Lucilla: food 2 d, water 1 d (fatigued); Neris: food 2 d, water 0 d (fatigued); Aelia: food 2 d, water 0 d (fatigued); Phaedra: food 2 d, water 0 d (fatigued); Ennia Ursa: food 14 d, water 0.2 d (fatigued); Vestus the Unlikely: food 2 d, water 2.8 d (fatigued)'
   tracker: {}
   threads:
-  - 'The Silk Pony, Cyfaraun: the Gilded Ram''s men, Lentulus Mordax''s gangs and Sigvald''s forty Jutlanders come at the Pony the night of day 831'
-  - Vettius and Thana are betrothed; the wedding at the Grey Sisters after the fight; the child before the winter festival
-  - 'The legion''s gate from the Ford to the city: the Regent wants it; Lucan Vesper of the Tower is surveying the fort with Brennus'' leave; the gates opened only for a tessera of passage, carried off by the gate-priests to their nearest house (the standing stones point north-east at something)'
-  - 'The Barony of the Ford: eight families, loyal; Tiberius holds the fort; the works go on (the breach and the south gate tower)'
-  - 'To sell through the Family: three cut stones, a sword from a hollow oak, two doses of dragon''s blood, the medusae''s eyes and tongues; Lucilla''s caravan returns wait; more laborers to hire'
-  - A bandit camp of about sixty in the trees by the road two days south of the city (20.07)
-  - Three dark shapes at dusk in the forest east of the fort; seven great beetles in a hollow there
+  - 'The legion''s gate: our arch in the fort''s strongroom is open; we hold three bronze tesserae and the watchword; the city''s arch lies in the buried legion camp under the Old District''s old baths'
+  - 'Vettius and Thana are married; the child before the winter festival; the street is the boss''s again (the North Gate dice-houses too)'
+  - 'The Barony of the Ford: twenty-one families, loyal; the works with 400 laborers (phase 1 about day 880); a hill with a view and a spring in our hex'
+  - 'Near the fort: a spring where unicorns drink (27.18), a broken wizard''s tower (27.18), seven great beetles in the forest east, a grey dead thing on the hills at dusk (30.17)'
+  - 'The bandit camp on the road two days south of the city: two bands left, a boss, an assassin and a mage'
+  - 'The Gilded Ram''s owner is outlawed and gone; the Regent keeps his own counsel'
   trail:
   - '27.16'
   - '27.17'

@@ -32,6 +32,9 @@ In the Argollëan War the legion that built the fort at the Ford (26.19) joined 
   hills north-east: **the Ruined Monastery (31.17)**, the site the standing stones point at; they are part of its
   cache (H218) when it is prepped (three tesserae, special treasure, TT special treasures by substitution, JJ p. 66).
 
+## Status (S54)
+- The fort's arch open (day 851). The company holds the three tesserae (L999-L1001) and the watchword (AQUILA VIGILAT). The city's arch: in the buried castra under the Old District's old baths (the stolen survey): not yet built as a site.
+
 ## Who knows
 - **The Tower of Knowledge:** its library holds the legion's survey of the Argollëan War camps, which marks a
   'porta' in the Ford fort's principia and 'the castra gate' in the city. The Regent wants the gate (for the Tower:

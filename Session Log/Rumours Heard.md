@@ -41,3 +41,5 @@ type: rumours
 - Day 815 (Thana's rider, Cyfaraun): Pullus' old lieutenant has made himself boss of the street while the boss is away; the take has stopped; Bassus holds the Pony; the strongbox is in the Grey Sisters' vault.
 - Day 827 (Lucan Vesper, a Tower mage on the road): the Regent wants the old legion's gate between the fort of the Ford and the city.
 - Day 829 (Vettius' spies, Cyfaraun): the Gilded Ram's men, Mordax's gangs and the forty Jutlanders come at the Silk Pony the night of day 831.
+- Day 841 (the Tower's survey, stolen): the legion's gate opens from the buried camp under the Old District's old baths.
+- Day 858 (hobgoblins in the forest, 28.18): the gnolls of the hill-ruin served a priest of the thing in the pit.

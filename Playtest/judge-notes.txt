@@ -723,3 +723,10 @@ Finding S53 day 825: `supplies show ID --on ANIMAL` must be undone (`--on none`)
 Note S53 day 829: the user's direction (Vettius weds Thana; a quest for a way to join Cyfaraun and the fort) answered by Rulings S53 and Adventure/Legion Waygate.md (Judge prep: a JJ Portal; the tesserae in the Ruined Monastery's cache).
 Void S54 day 832: the first hiring offer to C71 (2d6+5 17) was made for 50 masons where only 25 had come forward: not recorded by the engine; re-offered for 25 (11).
 Void S54 day 840: two exploding re-rolls of the Ford's Loyal 1d10 (10, 7): the Loyal extra is a plain 1d10 (RR Effects of Morale).
+Note S54 days 829-859: big fights stepped in initiative order by session drivers (Playtest/tools/s54_pony.py, s54_bandits.py, s54_crypt.py: round-next, act for the named combatant, stop at a fallen member); simplifications: foes' spells not modelled (the hierophant fought with his mace: a Judge's slip in the party's favour), front-line limits by hand, area spells by the S54 ruling.
+Slip S54 night 831: Sigvald and his second set to their Hit Dice after `state add` kept 1-HD hp (re-rolled, damage re-applied); Bassus' knives had no weapon in round 1 (their shots lost).
+Finding S54 day 832: `offer --count` above the candidates' count rolls and then fails without recording.
+Finding S54 day 841: the hexes CSV's 'wilderness' classification breaks `travel` and `camp` ('wilderness' is not in list): every such hex on a route needs `--hex CC.RR:classification=unsettled` (or outlands for the barony).
+Finding S54 days 846-854: navigation is thrown when a route leaves the road for one hex and keeps failing near the road (the party 'lost' onto the road it knows): fixed by `navigate --found` when the road is recognised.
+Slip S54 days 852-857: feed for the mounts was charged as bought from farms in unsettled hexes (it should have been carried from the fort): the cost stands as the fort's feed.
+Note S54 day 848: three laborers lost to giant crab spiders by an abstract resolution (the camp's edge, 1d6 4; bites by dice; dragged off 1d6 3); `retinue set S70 count=197`.

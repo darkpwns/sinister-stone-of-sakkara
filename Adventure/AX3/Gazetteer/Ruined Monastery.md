@@ -17,6 +17,8 @@ prepped: 2026-11-24
 Ruins of a **Zaharan monastery** among rocky hills south-east of [[Turos Spen|Türos Spen]], across the Krysivor. Most buildings have collapsed to rubble, but the **underground complex** below is intact, inhabited by **beastmen and chthonic cultists**.
 - AX3 suggests a one-page dungeon not in the library; built judge-interim S54 (JJ ch. 8: a small dungeon, 10 areas).
 
+- **Status (S54, day 857): cleared.** The cult of the Worm Below destroyed; the gnoll warband broken (four gnolls and six drudges fled); H226, H227 and the vault (H218, three tesserae) taken. The pit in R7 remains.
+
 ## Running Ruined Monastery
 - Dungeon level: 2
 - Wandering monsters: 1d6 every 2 turns, 6+
