@@ -238,6 +238,28 @@ metamphora). Build it into the engine:
    spinneret (S50, an exterior organ, anyone), components carried 200' before harvesting, and a component left
    unpreserved for a turn.
 
+## H. Speed: a requirement on every item above
+The engine must stay fast (tools `engine/docs/speed.md`: 7.17.6 brought a call through the wrapper to 0.12-0.25 s, `turn`
+and `wait` to about 0.38 s, a 20-call fight round to 4.6 s). Every section here adds data and work; none may slow play.
+1. Before any change, run the speed table of `engine/docs/speed.md` on the current Sakkara state (day 859: an inventory
+   log of about 6,500 events, 1,000+ lots, 225 hoards) and record it as the baseline; after each section, run it
+   again. A call more than 10% slower than baseline is a defect to fix before the next section, not a note.
+2. Budgets (medians of 5 through the skill's wrapper): any single command ≤ 0.25 s; `turn`, `wait`, `camp`, `travel`
+   for one day ≤ 0.4 s; `area` on 20 targets ≤ 0.5 s; `round-auto` for a round of 80 combatants ≤ 5 s; `domain month`
+   ≤ 1 s; `play.py march` ≤ 1 s a day; `play.py depart` ≤ 1 s; `save.sh` no slower than today.
+3. New data (taming tables, special components, mundane parts, terrain encounter tables) goes through the cached loader
+   (`acks/fastload.py`) and is read only by the commands that need it, never at import or by every command.
+4. Large fights: per-pair distances grow as n² (S54: 1,200 `state distance` lines for one fight). Add group or zone
+   positions (`state place GROUP --zone street --range 60` and distances between zones), so setting up and moving 80
+   combatants costs a handful of commands and the state stays small. `round-auto` runs in one process.
+5. Growth of the campaign files: the inventory replay, the adventure ledger and the exploration state's day log grow
+   every session. Make `acks compact` (or an automatic checkpoint) keep their read cost flat, without losing history
+   (archived, not deleted), and add a test that a day-859-sized state stays within the budgets.
+6. The lessons index and schedule are checked on every command: keep that check O(lessons) with no file re-reads in one
+   process, as more lessons are added by C6.
+7. Extend `engine/tests/test_speed.py` with the new commands (outputs, logged rolls and state files identical with and
+   without the cache) and add the before/after rows to `engine/docs/speed.md`. Put the final speed table in the report.
+
 ## E. Decisions for the user (not engine work)
 1. OPEN-ITEMS #24: `level-up` re-rolls hp without the permanent enervation losses; a Judge's correction is pending for
    Brennus (26) and Vettius (25) maximum hp (S20).
