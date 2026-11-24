@@ -127343,6 +127343,193 @@
    "coins": [],
    "cmd": "payout --apply",
    "n": 6481
+  },
+  {
+   "op": "add",
+   "cause": "a roe deer Ennia shot in the forest east, day 810 (her hunt)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [
+    {
+     "who": "fort-stores",
+     "item": "rations, standard (one week)",
+     "slot": "here",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 6482
+  },
+  {
+   "op": "remove",
+   "cause": "the company's meals in the fort, days 804-810",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [
+    {
+     "who": "fort-stores",
+     "item": "rations, standard (one week)",
+     "slot": "here",
+     "qty": -10
+    }
+   ],
+   "coins": [],
+   "why": "eaten",
+   "cmd": "inv remove",
+   "n": 6483
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee 0.25% of the company's purse (722,592gp), month 27 (day 810; Rulings S16, S46)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1806
+    }
+   ],
+   "to": "the Merchant Guildhouse, Cyfaraun",
+   "price_cp": 180600,
+   "cmd": "inv pay",
+   "n": 6484
+  },
+  {
+   "op": "receive",
+   "cause": "the Family's take, month 27: the Pony's honest-trade half 1,624 only (Rulings S19, S22); the syndicate's take stopped: a lieutenant made himself boss (Rulings S46, roll month 27)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": 1624
+    }
+   ],
+   "frm": "Thana, the Silk Pony",
+   "cmd": "inv receive",
+   "n": 6485
+  },
+  {
+   "op": "receive",
+   "cause": "Lucilla's income, month 27 (Rulings S19), deposited while she is in the south",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": 4250
+    }
+   ],
+   "frm": "Lucilla's factors, Cyfaraun",
+   "cmd": "inv receive",
+   "n": 6486
+  },
+  {
+   "op": "receive",
+   "cause": "the Barony of the Ford, month 27 revenue: land 8, services 4, taxes 2 per family (RR Collecting Revenue; Rulings S52)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 98
+    }
+   ],
+   "frm": "the seven families of the Ford",
+   "cmd": "inv receive",
+   "n": 6487
+  },
+  {
+   "op": "pay",
+   "cause": "liturgies, month 27 (1gp a family; RR Paying Expenses)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -7
+    }
+   ],
+   "to": "the ford meadows' feast",
+   "price_cp": 700,
+   "cmd": "inv pay",
+   "n": 6488
+  },
+  {
+   "op": "pay",
+   "cause": "maintenance, month 27 (1gp a family; RR Paying Expenses)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -7
+    }
+   ],
+   "to": "the works (the fort's upkeep)",
+   "price_cp": 700,
+   "cmd": "inv pay",
+   "n": 6489
+  },
+  {
+   "op": "pay",
+   "cause": "tithes, month 27 (1gp a family; RR Paying Expenses; Rulings S52)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -7
+    }
+   ],
+   "to": "the Lady's shrine in the fort (Neris)",
+   "price_cp": 700,
+   "cmd": "inv pay",
+   "n": 6490
+  },
+  {
+   "op": "give",
+   "cause": "drawn for the Ford's agricultural investment, month 28",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "bottomless-bag",
+     "pp": -200
+    },
+    {
+     "who": "brennus",
+     "pp": 200
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6491
+  },
+  {
+   "op": "pay",
+   "cause": "agricultural investment, month 28: 1,000gp, Brennus overseeing (days 811-812): 1d10+1 families at the month's end (RR Attracting Peasants; Rulings S52)",
+   "day": 811,
+   "time": "day 811 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "pp": -200
+    }
+   ],
+   "to": "the Ford's farms (seed, oxen, cottages)",
+   "price_cp": 100000,
+   "cmd": "inv pay",
+   "n": 6492
   }
  ],
  "holdings": {
@@ -128298,7 +128485,7 @@
   },
   "fort-stores": {
    "here": {
-    "rations, standard (one week)": 50,
+    "rations, standard (one week)": 42,
     "attercop parts (spinneret, two tarsi, mandibles)": 1
    }
   }
@@ -128385,7 +128572,7 @@
   },
   "brennus": {
    "sp": 384,
-   "gp": 282,
+   "gp": 359,
    "cp": 497
   },
   "quirinus": {
@@ -128434,7 +128621,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 722592,
+   "gp": 726660,
    "cp": 6,
    "sp": 4
   },
@@ -128470,7 +128657,7 @@
    "sp": 74
   },
   "bottomless-bag": {
-   "pp": 15869,
+   "pp": 15669,
    "gp": 56350
   },
   "ennia-ursa": {

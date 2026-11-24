@@ -24,6 +24,9 @@ laborers are walling the breach. The barony's first month closes on day 810.
 ## Where they went
 - Day 803. Rations from the Legate's granary for us and the soldiers to the month after next; wages paid ahead. Vettius crept up to the cave mouth: a clearing ringed by sixteen stone men facing a cleft in grey rock; a stool and a spindle in its shadow; smoke and cooked meat; no sound.
 - Day 804. At dawn the company went east. Seven beetles the size of men in a hollow on the way: they let us by. At the clearing a veiled woman sat at the cave mouth, spinning. Brennus stepped out and hailed her as the baron of the Ford. She hissed, rose and fled into the dark, shrieking; Neris' sleep did not take her. Nobody came out. Vestus sent a fireball into the dark thirty feet in: screams. When the burning rugs had smoked out, Vettius found two snake-haired women dead in the hall and heard breathing up a passage north; Vestus' second fireball ended it. A chest by a cold pool in the back: a black sapphire, other stones, a silver hand mirror, a necklace and a torque. Neris cut the eyes and tongues from the two that were not burned to cinders. Home by noon.
+- Days 805-810. Rest at the fort. Ennia hunted: boars (she let them be) and roe deer for the pot.
+- Day 810. The barony's first month: eight families now in the meadows (one couple left, four came), loyal to the baron; the land is good (eight gold a family from the fields). Ninety-eight gold in rents and dues; feast, upkeep and the Lady's tithe paid. Lucilla's caravans: one lost a little, the other is held at a customs post.
+- Day 811. Bassus' runner from Cyfaraun: the Jutland company the Gilded Ram's owner hired has turned off the Imperial road toward the southern fords. Council: we stay at the fort until we see them; the cache waits. Brennus put a thousand gold into the farms (seed, oxen, cottages) and walked the fields with the families.
 
 ## Who they met
 
@@ -38,6 +41,7 @@ laborers are walling the breach. The barony's first month closes on day 810.
 ## Next time
 
 > [!judge]- Judge rolls
+> Month 27's end (run day 811): investments 20 (Return -200%), 3 (Delay 1 month, customs; a 1d10 cause roll void); the Ford morale 2d6+1 7, families +6 -8, Loyal +3 (8); the Family's usurpation 1 (Pullus' old lieutenant, 5). Ennia 805-810: 4,6,5,6,1,1: boars x4 (evaded), roe deer x35 (one shot).
 > Week of 806 (run day 803): wharf 2, Watch 5, hesitant 4, spies +2, **secret 1 (true): the Jutland company turns south**, double agents 1 (moot). The Jutland company: 40 men, orders 5 (seek service), at the ford day 817.
 > Site build: Stone Sisters' Cave (judge-interim): TT H for 3 medusae (H221, 2,025gp); hp 14, 14, 18; 16 stone men.
 > Day 803: no watcher (5); Vettius sneak 9, hide 14, listen 2 (an adventuring listen 10 void); trip 3.

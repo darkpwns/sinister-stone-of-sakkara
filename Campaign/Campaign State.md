@@ -9,9 +9,9 @@ adventure: Borderlands (AX3), between adventures (A157 paid out at Türos Aster,
 public:
   date:
     year: ''
-    season: spring
-    day: 804
-  time: '11:32'
+    season: summer
+    day: 811
+  time: 06:00
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Türos Aster
   hex: '25.19'
@@ -64,7 +64,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 14.33
+    encumbrance_st: 14.407
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -140,7 +140,7 @@ public:
   - '26.17'
   - '26.18'
   - '25.19'
-clock_day: 804
+clock_day: 811
 ---
 # Campaign State
 

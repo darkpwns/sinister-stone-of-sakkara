@@ -5658,6 +5658,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 804 |  | treasure share |  |  |  |  |
 | 804 |  | treasure share |  |  |  |  |
 | 804 |  | treasure share |  |  |  |  |
+| 811 | the Merchant Guildhouse, Cyfaraun | storage fee 0.25% of the company's purse (722,592gp), month 27 (day 810; Rulings S16, S46) |  |  | 1,806gp | guildhouse-bank |
+| 811 | Thana, the Silk Pony | the Family's take, month 27: the Pony's honest-trade half 1,624 only (Rulings S19, S22); the syndicate's take stopped: a lieutenant made himself boss (Rulings S46, roll month 27) |  | 1,624gp |  | guildhouse-bank |
+| 811 | Lucilla's factors, Cyfaraun | Lucilla's income, month 27 (Rulings S19), deposited while she is in the south |  | 4,250gp |  | guildhouse-bank |
+| 811 | the seven families of the Ford | the Barony of the Ford, month 27 revenue: land 8, services 4, taxes 2 per family (RR Collecting Revenue; Rulings S52) |  | 98gp |  | brennus |
+| 811 | the ford meadows' feast | liturgies, month 27 (1gp a family; RR Paying Expenses) |  |  | 7gp | brennus |
+| 811 | the works (the fort's upkeep) | maintenance, month 27 (1gp a family; RR Paying Expenses) |  |  | 7gp | brennus |
+| 811 | the Lady's shrine in the fort (Neris) | tithes, month 27 (1gp a family; RR Paying Expenses; Rulings S52) |  |  | 7gp | brennus |
+| 811 | the Ford's farms (seed, oxen, cottages) | agricultural investment, month 28: 1,000gp, Brennus overseeing (days 811-812): 1d10+1 families at the month's end (RR Attracting Peasants; Rulings S52) |  |  | 1,000gp | brennus |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

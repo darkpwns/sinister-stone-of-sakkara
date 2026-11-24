@@ -136,8 +136,11 @@ items:
   month_end: true
   from: 480
   rolls:
-  - {label: "Lucilla's investment 1 (Balanced, 582gp, 1%; a 16% extortion fee taken from its value month 25): Vagaries of Investment", dice: 1d100}
-  - {label: "Lucilla's investment 3 (Balanced, 3,000gp, 1%; Disrepute month 25: return halved months 25-26): Vagaries of Investment", dice: 1d100}
+  - {label: "Lucilla's investment 1 (Balanced, 576gp, 1%; Return -200% month 27): Vagaries of Investment", dice: 1d100}
+  - {label: "Lucilla's investment 3 (Balanced, 3,000gp, 1%; Delay months 27-28 (held up at customs): roll from month 29; at month 28's end skip this roll)", dice: 1d100}
+  - {label: "the Barony of the Ford: domain morale (RR Domain Morale; +1 if Brennus administered the month)", dice: 2d6}
+  - {label: "the Ford: families gained (RR Population Growth, 1d10 exploding)", dice: 1d10}
+  - {label: "the Ford: families lost (RR Population Growth, 1d10 exploding)", dice: 1d10}
   steps:
   - "Guildhouse storage fee: 0.25% of each member's balance that day (`play.py bank-balances --bank guildhouse-bank --day N`), posted from holder guildhouse-bank as an `inv pay` naming the member (Rulings S16; JJ pp. 218-219)"
   - "investments: look each d100 up on the RR Vagaries of Investment table (RR Passive Investment; Rulings S10); sub-rolls as the result demands (Delay months 1d6, Discovery 2d10%, Monopoly months 1d6); returns to Lucilla as `inv receive`; no XP. Investment 2 (Risky, 700gp, 3%) is under Delay over months 16-21: no roll, no return; investment 1's Protector lasts to month 16"
@@ -146,6 +149,8 @@ items:
   - "the Family's take to the boss (Vettius): the AX3 p. 75 table for the Family plus Sand & Bones, less the per-level shares of members dead or gone (4th -425, 3rd -200, 0th -1; gone in month 16: Gallus Pinarius 3rd, one wharf man 0th; gone in month 19: Vibius Turpio 4th, day 558; double agents #3 and #4, 0th, day 561; Gnaeus Plautus 4th, day 565; double agent #5, 0th, day 568), plus the Pony's honest-trade owner's half 1,624gp (Rulings S19, S22, S25)"
   - "hijink XP: the take above the boss's monthly threshold (5,000 at 8th level); none on the front or the venture"
   - "Lucilla's income: the front's houses and The Mink 1,500gp; her half of the venture company 2,750gp; no XP (Rulings S19)"
+  - "the Barony of the Ford (Rulings S52): revenue families x (land 8 + services 4 + taxes 2); expenses liturgies, maintenance, tithes 1gp a family each from Brennus; garrison: the company's soldiers in the fort (Brennus' own troops' wages for domain income); base morale +1 while the stronghold is below 30,000gp (+0 after phase 1: insufficient -1 ends); current morale: the 2d6 roll; Loyal +1d10 families, other morale effects; agricultural investment families (1d10+1 if Brennus oversees) arrive at the month's end; prestige growth only once the domain is secure (phase 1 done) and Brennus adventured that month; domain XP above 5,000 (8th)"
+  - "the Family's syndicate take: STOPPED from month 27 (Pullus' old lieutenant made himself boss, Rulings S46/S52) until Vettius returns and settles it; the Pony's half (Thana) still paid; while the take runs again, the 1-in-6 usurpation roll each month's end (Rulings S46)"
   - "tax collectors' check on open sales (5% +1% per 1,000gp sold or banked this month, 1d100; AX3 Doing Business): only if goods were sold openly, not through the Family (Rulings S19)"
   source: "Rulings S10, S14, S16, S19, S22, S25; AX3 pp. 75, 148; RR Passive Investment"
 
@@ -374,3 +379,17 @@ items:
   - "they offer their swords to the baron at the ford; reaction and hiring by the engine if the company talks"
   source: "Rulings S52 (the Jutland company); hidden rolls S52"
 
+- id: thana-letter-810
+  title: "Thana's rider reaches the fort: Pullus' old lieutenant has made himself boss of the Family's street work (month 27's end); the take is stopped; Bassus holds the Pony and the North Gate houses with his knives"
+  day: 815
+  steps:
+  - "tell Vettius in Thana's words; what the usurper has (the wharf and dice-houses' street gangs, the Ram's friendship) and what holds (the Pony, the honest trade, Bassus, the ledger in the Grey Sisters' vault) is the Judge's watch; the take resumes when Vettius returns and settles it (Rulings S46)"
+  source: "Rulings S46, S52; hidden rolls month 27"
+
+
+- id: ford-investment-m28
+  title: "The Ford's agricultural investment of month 28 (1,000gp, Brennus overseeing): 1d10+1 families arrive at the month's end"
+  day: 840
+  rolls:
+  - {label: "families from the Ford's agricultural investment, month 28 (RR Attracting Peasants, overseen)", dice: 1d10+1}
+  source: "RR Attracting Peasants; Rulings S52"
