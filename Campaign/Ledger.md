@@ -4513,3 +4513,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 561 |  | treasure share |  | 428gp 5sp 7cp |  | brennus |
 | 561 |  | treasure share |  | 214gp 2sp 9cp |  | phaedra |
 | 562 | the Grey Sisters (vault) | vault fee, a month ahead (days 563-592; Rulings S11) |  |  | 10gp | lucilla |
+| 565 | the Order of the Eclipse (blood-price to the dead man's wife) | Rulings S28: a Family member's petition (Gnaeus Plautus, Thief 4): 500gp a level; Plautus exiled with a purse |  |  | 2,000gp | vettius |

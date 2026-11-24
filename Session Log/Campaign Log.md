@@ -45,3 +45,4 @@ tags:
 - [[S34 — Beyond the Grey Arch]]
 - [[S35 — A New Shield]]
 - [[S36 — The Beetle Stair]]
+- [[S37 — The Doom Throne]]

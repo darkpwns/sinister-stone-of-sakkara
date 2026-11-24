@@ -1,31 +1,30 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 129,
+  "A": 130,
   "L": 826,
   "H": 137,
-  "M": 246
+  "M": 247
  },
  "adventure": {
-  "id": "A129",
-  "name": "Order contract: Rufus Calenus (Lucilla)",
-  "start_day": 559,
+  "id": "A130",
+  "name": "Order contract: Phanes Kordaxis (Neris)",
+  "start_day": 565,
   "participants": {
-   "lucilla": {
-    "id": "lucilla",
-    "name": "Lucilla",
-    "actor": "lucilla",
+   "neris": {
+    "id": "neris",
+    "name": "Neris",
+    "actor": "neris",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 182126,
+    "xp_before": 140092,
     "level_before": 8,
-    "class": "Venturer",
-    "joined_day": 559,
-    "xp_award": 487
+    "class": "Priestess",
+    "joined_day": 565
    },
    "vettius": {
     "id": "vettius",
@@ -35,13 +34,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 199327,
+    "xp_before": 199792,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 559,
-    "xp_award": 465
+    "joined_day": 565
    },
    "brennus": {
     "id": "brennus",
@@ -51,13 +49,27 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 149644,
+    "xp_before": 150109,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 559,
-    "xp_award": 465
+    "joined_day": 565
+   },
+   "vestus-the-unlikely": {
+    "id": "vestus-the-unlikely",
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 134117,
+    "level_before": 7,
+    "class": "Mage",
+    "joined_day": 565
    },
    "phaedra": {
     "id": "phaedra",
@@ -67,89 +79,33 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": "phaedra",
-    "xp_before": 58986,
+    "xp_before": 59207,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 559,
-    "xp_award": 221
+    "joined_day": 565
    }
   },
   "monsters": [
    {
-    "id": "M246",
-    "monster": "Rufus Calenus",
-    "source": "Rufus Calenus",
+    "id": "M247",
+    "monster": "Phanes Kordaxis",
+    "source": "Phanes Kordaxis",
     "number": 1,
     "how": "killed",
-    "xp_each": 50,
+    "xp_each": 80,
     "fight": {
      "ids": [
-      "rufus-calenus"
+      "phanes-kordaxis"
      ],
-     "text": "the fight with Rufus Calenus, round 1"
+     "text": "the fight with Phanes Kordaxis, 3 Brigand, round 1"
     }
    }
   ],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 561,
-   "at": null,
-   "total": 1550.0,
-   "per_share": 442.85714285714283,
-   "awards": {
-    "lucilla": {
-     "share": 1.0,
-     "why": null,
-     "base": 443,
-     "pct": 10,
-     "pen": 0,
-     "award": 487,
-     "xp_before": 182126,
-     "xp_after": 182613,
-     "capped": null,
-     "zero": false
-    },
-    "vettius": {
-     "share": 1.0,
-     "why": null,
-     "base": 443,
-     "pct": 5,
-     "pen": 0,
-     "award": 465,
-     "xp_before": 199327,
-     "xp_after": 199792,
-     "capped": null,
-     "zero": false
-    },
-    "brennus": {
-     "share": 1.0,
-     "why": null,
-     "base": 443,
-     "pct": 5,
-     "pen": 0,
-     "award": 465,
-     "xp_before": 149644,
-     "xp_after": 150109,
-     "capped": null,
-     "zero": false
-    },
-    "phaedra": {
-     "share": 0.5,
-     "why": null,
-     "base": 221,
-     "pct": 0,
-     "pen": 0,
-     "award": 221,
-     "xp_before": 58986,
-     "xp_after": 59207,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
+  "status": "open",
+  "payout": null,
   "events": []
  },
  "closed": [
@@ -39236,6 +39192,152 @@
       "award": 645,
       "xp_before": 4112,
       "xp_after": 4757,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
+  },
+  {
+   "id": "A129",
+   "name": "Order contract: Rufus Calenus (Lucilla)",
+   "start_day": 559,
+   "participants": {
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 182126,
+     "level_before": 8,
+     "class": "Venturer",
+     "joined_day": 559,
+     "xp_award": 487
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 199327,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 559,
+     "xp_award": 465
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 149644,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 559,
+     "xp_award": 465
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "phaedra",
+     "xp_before": 58986,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 559,
+     "xp_award": 221
+    }
+   },
+   "monsters": [
+    {
+     "id": "M246",
+     "monster": "Rufus Calenus",
+     "source": "Rufus Calenus",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 50,
+     "fight": {
+      "ids": [
+       "rufus-calenus"
+      ],
+      "text": "the fight with Rufus Calenus, round 1"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 561,
+    "at": null,
+    "total": 1550.0,
+    "per_share": 442.85714285714283,
+    "awards": {
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 443,
+      "pct": 10,
+      "pen": 0,
+      "award": 487,
+      "xp_before": 182126,
+      "xp_after": 182613,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 443,
+      "pct": 5,
+      "pen": 0,
+      "award": 465,
+      "xp_before": 199327,
+      "xp_after": 199792,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 443,
+      "pct": 5,
+      "pen": 0,
+      "award": 465,
+      "xp_before": 149644,
+      "xp_after": 150109,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 221,
+      "pct": 0,
+      "pen": 0,
+      "award": 221,
+      "xp_before": 58986,
+      "xp_after": 59207,
       "capped": null,
       "zero": false
      }
