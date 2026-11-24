@@ -11,7 +11,11 @@ only) → reaction (if no one attacks) → combat. The engine runs every step in
   the territory column (road, night), civilized / monster (rarity, MM terrain table, River tables along a river) /
   terrain encounter, the lair check and the statblock's wilderness number, the distance by terrain capped by each
   side's visibility (light, group size, terrain, weather; senses other than sight) and who has detected whom. A
-  terrain encounter (dangerous, valuable, unique) names its type; its sub-procedure is the Judge's (JJ pp. 63-68).
+  terrain encounter (dangerous, valuable, unique) names its type; `acks.sh terrain-encounter` (engine 7.19.4) runs its
+  sub-procedure hidden (cache stored as a hoard, ruin, trap and hazard with the marching-order triggers `--order
+  A,B,C` and the bypass hours, challenge with its dimensions, poison with doses and harvest target, ore, food,
+  spoilage, magical place `--spell S`, magical resource, monster carcass, double); `--sub NAME` when you choose the
+  result; anything else is still the Judge's (JJ pp. 63-68).
   Deliberate wilderness encounters: `acks.sh encounter start --wild --monster "<MM note>" [--number N]
   [--monster-terrain T]` (or `--kind civilized|monster` for a table roll in the current hex; `--at CC.RR` to roll on
   another hex's tables, engine 7.18.2: a `--hex` override for a hex that is neither the travel hex nor `--at` is

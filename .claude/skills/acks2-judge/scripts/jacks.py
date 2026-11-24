@@ -29,7 +29,8 @@ import jlib  # noqa: E402
 STAGE2 = {"explore-init", "party", "location", "light", "timer", "explore", "wander-check", "reaction", "move-rate",
           "clock", "disease", "walk"}
 STAGE4 = {"travel-init", "travel", "forced-march", "navigate", "weather", "forage", "water", "firewood", "hunt",
-          "fish", "eat", "drink", "supplies", "camp", "rest-day", "heal", "mounts", "search", "travel-show"}
+          "fish", "eat", "drink", "supplies", "camp", "rest-day", "heal", "mounts", "search", "travel-show",
+          "terrain-encounter"}
 STAGE5A = {"treasure", "place", "item", "recover", "appraise", "identify", "use", "sell"}
 STAGE5B = {"payout", "level-up", "advance-0th", "death"}
 STAGE3 = {"retinue", "recruit", "candidate", "offer", "hire", "dismiss", "transfer", "wages", "loyalty", "obey",
