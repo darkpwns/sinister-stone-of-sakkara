@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 155,
-  "L": 928,
+  "L": 945,
   "H": 217,
-  "M": 284
+  "M": 291
  },
  "adventure": {
   "id": "A155",
@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 202635,
     "level_before": 9,
     "class": "Venturer",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 9035
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 262012,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 8625
    },
    "brennus": {
     "id": "brennus",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 173489,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 8625
    },
    "tiberius-maro": {
     "id": "tiberius-maro",
@@ -64,12 +70,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "tiberius-maro",
     "xp_before": 13302,
     "level_before": 5,
     "class": "Crusader",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 4107
    },
    "cotta": {
     "id": "cotta",
@@ -79,12 +87,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 55955,
     "level_before": 6,
     "class": "Explorer",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 8214
    },
    "neris": {
     "id": "neris",
@@ -94,12 +104,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 164255,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 8214
    },
    "aelia": {
     "id": "aelia",
@@ -109,12 +121,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "aelia",
     "xp_before": 71481,
     "level_before": 7,
     "class": "Bard",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 4107
    },
    "phaedra": {
     "id": "phaedra",
@@ -124,12 +138,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 72087,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 4107
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -139,12 +155,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 153754,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 8625
    },
    "ennia-ursa": {
     "id": "ennia-ursa",
@@ -154,12 +172,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "ennia-ursa",
     "xp_before": 1158,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 736
+    "joined_day": 736,
+    "returned_day": 743,
+    "xp_award": 2841
    }
   },
   "monsters": [
@@ -199,12 +219,259 @@
      ],
      "text": "the fight with 3 Devil Boar, encounter enc539, round 4"
     }
+   },
+   {
+    "id": "M285",
+    "monster": "Bugbear",
+    "source": "Bugbear (MM p. 48)",
+    "number": 3,
+    "how": "killed",
+    "xp_each": 260,
+    "hd": "5+1",
+    "fight": {
+     "ids": [
+      "s2",
+      "shaman",
+      "s3"
+     ],
+     "text": "the fight with 26 Bugbear, 2 Cave Bear, round 19"
+    }
+   },
+   {
+    "id": "M286",
+    "monster": "Bugbear",
+    "source": "Bugbear (MM p. 48)",
+    "number": 4,
+    "how": "killed",
+    "xp_each": 140,
+    "hd": "4+1",
+    "fight": {
+     "ids": [
+      "c2",
+      "grishna",
+      "c4",
+      "c5"
+     ],
+     "text": "the fight with 26 Bugbear, 2 Cave Bear, round 19"
+    }
+   },
+   {
+    "id": "M287",
+    "monster": "Bugbear",
+    "source": "Bugbear (MM p. 48)",
+    "number": 17,
+    "how": "killed",
+    "xp_each": 65,
+    "fight": {
+     "ids": [
+      "w25",
+      "w26",
+      "w27",
+      "w28",
+      "w29",
+      "w9",
+      "w10",
+      "w11",
+      "w12",
+      "w13",
+      "w14",
+      "w15",
+      "w16",
+      "w17",
+      "w22",
+      "w23",
+      "w24"
+     ],
+     "text": "the fight with 26 Bugbear, 2 Cave Bear, round 19"
+    }
+   },
+   {
+    "id": "M288",
+    "monster": "Bugbear",
+    "source": "Bugbear (MM p. 48)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 500,
+    "hd": "7+2",
+    "fight": {
+     "ids": [
+      "chief"
+     ],
+     "text": "the fight with 26 Bugbear, 2 Cave Bear, round 19"
+    }
+   },
+   {
+    "id": "M289",
+    "monster": "Cave Bear",
+    "source": "Cave Bear (MM p. 45)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 320,
+    "fight": {
+     "ids": [
+      "b1",
+      "b2"
+     ],
+     "text": "the fight with 26 Bugbear, 2 Cave Bear, round 19"
+    }
+   },
+   {
+    "id": "M290",
+    "monster": "Bugbear (champion)",
+    "source": "Bugbear (MM p. 48)",
+    "number": 2,
+    "how": "captured",
+    "xp_each": 140
+   },
+   {
+    "id": "M291",
+    "monster": "Bugbear (warrior)",
+    "source": "Bugbear (MM p. 48)",
+    "number": 2,
+    "how": "captured",
+    "xp_each": 65
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 743,
+   "at": "Türos Aster",
+   "total": 65714.0,
+   "per_share": 8214.25,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 8214,
+     "pct": 10,
+     "pen": 0,
+     "award": 9035,
+     "xp_before": 202635,
+     "xp_after": 211670,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 8214,
+     "pct": 5,
+     "pen": 0,
+     "award": 8625,
+     "xp_before": 262012,
+     "xp_after": 270637,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 8214,
+     "pct": 5,
+     "pen": 0,
+     "award": 8625,
+     "xp_before": 173489,
+     "xp_after": 182114,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 4107,
+     "pct": 0,
+     "pen": 0,
+     "award": 4107,
+     "xp_before": 13302,
+     "xp_after": 17409,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 8214,
+     "pct": 0,
+     "pen": 0,
+     "award": 8214,
+     "xp_before": 55955,
+     "xp_after": 64169,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 8214,
+     "pct": 0,
+     "pen": 0,
+     "award": 8214,
+     "xp_before": 164255,
+     "xp_after": 172469,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 4107,
+     "pct": 0,
+     "pen": 0,
+     "award": 4107,
+     "xp_before": 71481,
+     "xp_after": 75588,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 4107,
+     "pct": 0,
+     "pen": 0,
+     "award": 4107,
+     "xp_before": 72087,
+     "xp_after": 76194,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 8214,
+     "pct": 5,
+     "pen": 0,
+     "award": 8625,
+     "xp_before": 153754,
+     "xp_after": 162379,
+     "capped": null,
+     "zero": false,
+     "level_up": 8
+    },
+    "ennia-ursa": {
+     "share": 0.5,
+     "why": null,
+     "base": 4107,
+     "pct": 0,
+     "pen": 0,
+     "award": 2841,
+     "xp_before": 1158,
+     "xp_after": 3999,
+     "capped": [
+      4107,
+      2841
+     ],
+     "zero": false,
+     "level_up": 2
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 743,
+   "where": "Türos Aster"
+  }
  },
  "closed": [
   {
@@ -85599,7 +85866,7 @@
    "qty": 9000,
    "stone": 9.0,
    "carrier": null,
-   "status": "stored",
+   "status": "divided",
    "found": {
     "day": 737,
     "where": "26.14: Porcius' farm, the devil boars' lair (root cellar)"
@@ -85628,7 +85895,8 @@
    "stored": {
     "place": "the bag with no bottom (on Lucilla)",
     "day": 737
-   }
+   },
+   "divided_day": 743
   },
   "L907": {
    "id": "L907",
@@ -85637,7 +85905,7 @@
    "qty": 4000,
    "stone": 4.0,
    "carrier": null,
-   "status": "stored",
+   "status": "divided",
    "found": {
     "day": 737,
     "where": "26.14: Porcius' farm, the devil boars' lair (root cellar)"
@@ -85666,7 +85934,8 @@
    "stored": {
     "place": "the bag with no bottom (on Lucilla)",
     "day": 737
-   }
+   },
+   "divided_day": 743
   },
   "L908": {
    "id": "L908",
@@ -86150,7 +86419,7 @@
    "qty": 13000,
    "stone": 13.0,
    "carrier": null,
-   "status": "stored",
+   "status": "divided",
    "found": {
     "day": 737,
     "where": "26.14: Porcius' farm, the devil boars' lair (root cellar)"
@@ -86179,7 +86448,8 @@
    "stored": {
     "place": "the bag with no bottom (on Lucilla)",
     "day": 737
-   }
+   },
+   "divided_day": 743
   },
   "L921": {
    "id": "L921",
@@ -86188,7 +86458,7 @@
    "qty": 13000,
    "stone": 13.0,
    "carrier": null,
-   "status": "stored",
+   "status": "divided",
    "found": {
     "day": 737,
     "where": "26.14: Porcius' farm, the devil boars' lair (root cellar)"
@@ -86217,7 +86487,8 @@
    "stored": {
     "place": "the bag with no bottom (on Lucilla)",
     "day": 737
-   }
+   },
+   "divided_day": 743
   },
   "L922": {
    "id": "L922",
@@ -86463,6 +86734,726 @@
    "used": false,
    "sold": null,
    "judge": []
+  },
+  "L929": {
+   "id": "L929",
+   "adventure": "A155",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (the pay-chest)"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "rarity": "uncommon",
+    "subtable": "uncommon-potions-1",
+    "cursed": false,
+    "variants": false,
+    "usable": null,
+    "cue": "vivid red, strong taste of onion",
+    "magical": true,
+    "name": "Potion of Cure Disease",
+    "note": null,
+    "spell": "Cure Disease",
+    "category": "Potion",
+    "apparent_gp": 25,
+    "apparent_text": "25gp (unidentified potions)",
+    "obviously_magical": false,
+    "spell_level_text": "Divine 3",
+    "base_gp": 1500,
+    "base_cost_text": "500gp x level 3 (Divine 3; spell note)",
+    "stone": 0.16666666666666666,
+    "taken": true
+   },
+   "player": {
+    "desc": "a potion (vivid red, strong taste of onion)",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L930": {
+   "id": "L930",
+   "adventure": "A155",
+   "kind": "item",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "the lane, on the war-chief's arm"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "rarity": "uncommon",
+    "subtable": "uncommon-armor",
+    "cursed": false,
+    "variants": false,
+    "usable": null,
+    "cue": null,
+    "magical": true,
+    "base_gp": 5000,
+    "category": "Shield",
+    "arms_type": "Shield",
+    "name": "Shield +1",
+    "note": null,
+    "apparent_gp": 660,
+    "apparent_text": "650gp + 10gp (Shield; TT p. 270)",
+    "generic": true,
+    "stone": 1.0,
+    "taken": true
+   },
+   "player": {
+    "desc": "a shield",
+    "value_gp": null,
+    "apparent_gp": 660,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L931": {
+   "id": "L931",
+   "adventure": "A155",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "the lane, in the sub-chieftain's hand"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "rarity": "uncommon",
+    "subtable": "uncommon-swords",
+    "cursed": false,
+    "variants": false,
+    "usable": null,
+    "cue": null,
+    "magical": true,
+    "base_gp": 5000,
+    "category": "Sword",
+    "arms_type": "Sword",
+    "name": "Sword +1",
+    "note": null,
+    "apparent_gp": 660,
+    "apparent_text": "650gp + 10gp (Sword; TT p. 231)",
+    "generic": true,
+    "stone": 0.16666666666666666,
+    "taken": true
+   },
+   "player": {
+    "desc": "a sword",
+    "value_gp": null,
+    "apparent_gp": 660,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L932": {
+   "id": "L932",
+   "adventure": "A155",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "the lane, by the shaman's body"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "rarity": "uncommon",
+    "subtable": "uncommon-miscellaneous-weapons",
+    "cursed": false,
+    "variants": false,
+    "usable": null,
+    "cue": null,
+    "magical": true,
+    "base_gp": 5000,
+    "category": "Miscellaneous Weapon",
+    "arms_type": "Club",
+    "name": "Club +1",
+    "note": null,
+    "apparent_gp": 651,
+    "apparent_text": "650gp + 1gp (Club; TT p. 251)",
+    "generic": true,
+    "stone": 0.16666666666666666,
+    "taken": true
+   },
+   "player": {
+    "desc": "a club",
+    "value_gp": null,
+    "apparent_gp": 651,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L933": {
+   "id": "L933",
+   "adventure": "A155",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "rarity": "uncommon",
+    "subtable": "uncommon-potions-1",
+    "cursed": false,
+    "variants": false,
+    "usable": null,
+    "cue": "chunky blue pigment",
+    "magical": true,
+    "name": "Ivorean War-Paint",
+    "note": "ACKS II Rules/Magic Items/Potions/Ivorean War-Paint.md",
+    "category": "Potion",
+    "base_cost_text": "3,000gp: Single charge 6th level effect",
+    "apparent_text": "25gp",
+    "base_gp": 3000,
+    "apparent_gp": 25,
+    "obviously_magical": false,
+    "stone": 0.16666666666666666,
+    "taken": true
+   },
+   "player": {
+    "desc": "a potion (chunky blue pigment)",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L934": {
+   "id": "L934",
+   "adventure": "A155",
+   "kind": "coins",
+   "qty": 11000,
+   "stone": 11.0,
+   "carrier": null,
+   "status": "divided",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks and the legion's pay-chest)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 11000,
+    "value_gp": 1100.0,
+    "stone": 11.0,
+    "name": "11,000 silver pieces",
+    "taken": true
+   },
+   "player": {
+    "desc": "11,000 silver pieces",
+    "value_gp": 1100.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   },
+   "divided_day": 743
+  },
+  "L935": {
+   "id": "L935",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks and the legion's pay-chest)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 700,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 700gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+    "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (alabaster)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L936": {
+   "id": "L936",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks and the legion's pay-chest)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 90,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze)",
+    "material": "Glass, shells, or wrought copper, brass, or bronze",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (glass)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L937": {
+   "id": "L937",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks and the legion's pay-chest)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 2000,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal)",
+    "material": "Wrought orichalcum, silver studded with turquoise, moonstone, or opal",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (wrought orichalcum)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L938": {
+   "id": "L938",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks and the legion's pay-chest)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 90,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze)",
+    "material": "Glass, shells, or wrought copper, brass, or bronze",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (glass)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L939": {
+   "id": "L939",
+   "adventure": "A155",
+   "kind": "gem",
+   "qty": 1,
+   "stone": 0.001,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum"
+   },
+   "true": {
+    "kind": "gem",
+    "grade": "gem",
+    "value_gp": 100,
+    "stone": 0.001,
+    "qty": 1,
+    "name": "gem worth 100gp (Amber, amethyst, coral, jade, jet, tourmaline)",
+    "stones": "Amber, amethyst, coral, jade, jet, tourmaline",
+    "taken": true
+   },
+   "player": {
+    "desc": "a gemstone",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L940": {
+   "id": "L940",
+   "adventure": "A155",
+   "kind": "gem",
+   "qty": 1,
+   "stone": 0.001,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum"
+   },
+   "true": {
+    "kind": "gem",
+    "grade": "gem",
+    "value_gp": 500,
+    "stone": 0.001,
+    "qty": 1,
+    "name": "gem worth 500gp (Aquamarine, alexandrite, topaz)",
+    "stones": "Aquamarine, alexandrite, topaz",
+    "taken": true
+   },
+   "player": {
+    "desc": "a gemstone",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L941": {
+   "id": "L941",
+   "adventure": "A155",
+   "kind": "coins",
+   "qty": 14000,
+   "stone": 14.0,
+   "carrier": null,
+   "status": "divided",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "ep",
+    "qty": 14000,
+    "value_gp": 7000.0,
+    "stone": 14.0,
+    "name": "14,000 electrum pieces",
+    "taken": true
+   },
+   "player": {
+    "desc": "14,000 electrum pieces",
+    "value_gp": 7000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   },
+   "divided_day": 743
+  },
+  "L942": {
+   "id": "L942",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 1100,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+    "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (alabaster)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L943": {
+   "id": "L943",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 800,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+    "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (alabaster)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L944": {
+   "id": "L944",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 1100,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold)",
+    "material": "Alabaster, chryselephantine, ivory, or wrought gold",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (alabaster)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
+  },
+  "L945": {
+   "id": "L945",
+   "adventure": "A155",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": null,
+   "status": "stored",
+   "found": {
+    "day": 743,
+    "where": "K6b, the sacellum (hide sacks)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "grade": "jewelry",
+    "value_gp": 700,
+    "stone": 0.16666666666666666,
+    "qty": 1,
+    "name": "jewelry worth 700gp (Carved jade or wrought platinum)",
+    "material": "Carved jade or wrought platinum",
+    "taken": true
+   },
+   "player": {
+    "desc": "a piece of jewelry (carved jade)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "the bag with no bottom (on Lucilla)",
+    "day": 743
+   }
   }
  },
  "hoards": {
@@ -96450,7 +97441,8 @@
         "page": "p. 161",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96472,7 +97464,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96494,7 +97487,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96516,7 +97510,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96538,7 +97533,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "item",
@@ -96577,7 +97573,8 @@
       "generic": true,
       "stone": 1.0,
       "looks": "a shield",
-      "value_known": false
+      "value_known": false,
+      "taken": true
      },
      {
       "kind": "item",
@@ -96622,12 +97619,13 @@
       "base_cost_text": "500gp x level 3 (Divine 3; spell note)",
       "stone": 0.16666666666666666,
       "looks": "a potion (vivid red, strong taste of onion)",
-      "value_known": false
+      "value_known": false,
+      "taken": true
      }
     ],
     "fraction": null
    },
-   "found": false
+   "found": true
   },
   "H213": {
    "id": "H213",
@@ -96658,7 +97656,8 @@
         "page": "p. 161",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "gem",
@@ -96680,7 +97679,8 @@
         "page": "p. 161",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "item",
@@ -96723,12 +97723,13 @@
       "generic": true,
       "stone": 0.16666666666666666,
       "looks": "a sword",
-      "value_known": false
+      "value_known": false,
+      "taken": true
      }
     ],
     "fraction": null
    },
-   "found": false
+   "found": true
   },
   "H214": {
    "id": "H214",
@@ -96767,7 +97768,8 @@
         "page": "p. 161",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96789,7 +97791,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96811,7 +97814,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96833,7 +97837,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "jewelry",
@@ -96855,7 +97860,8 @@
         "page": "p. 25",
         "row": 5
        }
-      ]
+      ],
+      "taken": true
      },
      {
       "kind": "item",
@@ -96898,7 +97904,8 @@
       "generic": true,
       "stone": 0.16666666666666666,
       "looks": "a club",
-      "value_known": false
+      "value_known": false,
+      "taken": true
      },
      {
       "kind": "item",
@@ -96941,12 +97948,13 @@
       "obviously_magical": false,
       "stone": 0.16666666666666666,
       "looks": "a potion (chunky blue pigment)",
-      "value_known": false
+      "value_known": false,
+      "taken": true
      }
     ],
     "fraction": null
    },
-   "found": false
+   "found": true
   },
   "H215": {
    "id": "H215",

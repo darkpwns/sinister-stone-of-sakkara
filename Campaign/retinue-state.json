@@ -6373,7 +6373,7 @@
    "employer": "lucilla",
    "kind": "mercenary",
    "type": "Light Infantry",
-   "count": 18,
+   "count": 16,
    "level": 0,
    "class": null,
    "occupation": null,
@@ -6423,6 +6423,10 @@
     {
      "day": null,
      "event": "set count: 20 -> 18 (Judge)"
+    },
+    {
+     "day": null,
+     "event": "set count: 18 -> 16 (Judge)"
     }
    ],
    "actor": null,
@@ -6912,7 +6916,7 @@
    "kind": "henchman",
    "type": null,
    "count": 1,
-   "level": 1,
+   "level": 2,
    "class": "Explorer",
    "occupation": null,
    "race": "human",
@@ -6922,7 +6926,7 @@
    "loyalty": 2,
    "morale": -1,
    "morale_src": "as Bowmen",
-   "wage_gp": 25.0,
+   "wage_gp": 50.0,
    "wage_per": "month",
    "hired_day": 636,
    "periods_paid": 5,
@@ -6976,6 +6980,28 @@
     {
      "day": 739,
      "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 743,
+     "event": "wage 25 -> 50 gp/month (level 2; RR p. 168)"
+    },
+    {
+     "day": 743,
+     "event": "loyalty roll (level)",
+     "total": 6,
+     "result": "Grudging Loyalty",
+     "loyalty": 2
+    },
+    {
+     "day": 743,
+     "event": "loyalty roll (level)",
+     "total": 10,
+     "result": "Loyalty",
+     "loyalty": 3
+    },
+    {
+     "day": null,
+     "event": "set loyalty: 3 -> 2 (Judge)"
     }
    ],
    "actor": "ennia-ursa",

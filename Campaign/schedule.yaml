@@ -188,10 +188,11 @@ items:
   source: "secret 701 no. 1 (true); Adventure/AX3/City/Imperial Vanguard.md; Rulings S31 (abstract methods for rival parties)"
 
 - id: fortress-raids
-  title: "Weekly: the bugbears' raids from the fort (K5) and the Imperial Vanguard hunting them (course 4 on day 710)"
+  title: "Weekly: the bugbears' raids from the fort (K5) and the Imperial Vanguard hunting them (course 4 on day 710) (the fort fell day 743, S49: retired)"
   every: 7
   anchor: 710
   from: 717
+  until: 743                          # the tribe's warriors destroyed day 743 (S49)
   rolls:
   - {label: "a warband of K5 out raiding", dice: 1d6, outcomes: {"1-2": "a raid (1d3 days)", "3-6": "none"}}
   - {label: "which warband", dice: 1d6, outcomes: {"1-3": "warband 1 (S1, C1, seven archers; XPV 855)", "4-6": "warband 2 (S2, C2, five warriors; XPV 725)"}}
@@ -199,8 +200,8 @@ items:
   source: "Adventure/Ruined Imperial Fortress K5; schedule vanguard-at-the-ford"
 
 - id: grey-sisters-vault
-  title: The Grey Sisters' vault fee (10gp a month, paid ahead; last paid day 652 to day 742)
-  day: 743
+  title: The Grey Sisters' vault fee (10gp a month, paid ahead; last paid day 743 to day 832)
+  day: 833
   steps: ["pay 10gp a month ahead from Lucilla or Vettius (Rulings S11); then move this item's day on"]
   source: "Rulings S11 (row 81); Ledger day 443"
 
@@ -334,3 +335,10 @@ items:
   day: 629
   steps: ["`recover --reward 1500 --late --adventure A153 --carrier neris`, `payout --late L# --apply`; then set the order-roll item `until: 628` (released)"]
   source: "World State night 627"
+
+- id: barony-patent
+  title: "The governor's patent of patrician rank (baron) for Brennus and the claim to the Ruined Imperial Fortress (26.19) reaches Türos Aster (the Legate's report sent day 743; 1d4+2 weeks, rolled 5)"
+  day: 778
+  steps: ["the Legate's courier brings the patent: Brennus is a patrician (baron) with the claim to the fort and its hex (26.19); then the JJ domain rules (R/judge-screen; JJ Domains): the hex's classification and land revenue from `hex.py 26.19`, peasant families, garrison, stronghold value (the ruined fort), Vettius' Ionicus estate at 27.19 beside it", "until then the fort is held under the Legate's warrant of claim (Rulings S49)"]
+  source: "Rulings S49 (the patent); Adventure/Turos Aster.md; AX3 #30"
+

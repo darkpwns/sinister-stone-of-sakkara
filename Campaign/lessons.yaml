@@ -302,3 +302,30 @@ lessons:
   on: ["party remove", "travel", "camp", "rest-day"]
   text: "before days pass away from the employers' eyes: `wages show` and pay every wage that falls due before the expected return PLUS A MONTH (the march may run long) (a missed wage is a calamity roll at the rollover); a helper script that cuts engine lines must stop on 'missed' and 'loyalty'"
   source: "judge-notes days 666-680 (S47): Ennia, Phaedra (Hostility) and Tiberius missed"
+
+- id: lady-favour-reroll
+  category: rulings
+  status: remind
+  since: S49
+  on: [save]
+  where: ["party.conditions ~ Lady's favour[^;\"\\]]{0,200}unused"]
+  text: "a party member who fails this save may carry the Lady's favour (Calefa's boon, day 743, to day 773): the AI player re-rolls once if it matters (the first result stands if the second is worse); then mark it used on his conditions"
+  source: "Rulings S48 (Calefa's boon), S49 (granted day 743)"
+
+- id: move-within-speed
+  category: combat
+  status: remind
+  since: S49
+  on: ["state distance"]
+  where: ["fight.open"]
+  text: "a party member's move in a round is at most his running speed (combat speed if he also attacks or casts): `acks.sh move-rate ID` (loaded Lucilla, Brennus and Aelia run 30'); a charge is refused past running speed, a plain move is not"
+  source: "judge-notes S49 day 743 round 13 (Lucilla and Vettius moved 90')"
+
+- id: hench-level-loyalty-once
+  category: henchmen
+  status: remind
+  since: S49
+  on: [loyalty]
+  where: ["argv ~ --trigger level"]
+  text: "`level-up --member ID --apply` already rolls a henchman's level loyalty: do not roll it again"
+  source: "judge-notes S49 day 743 (Ennia's second roll void)"

@@ -739,6 +739,46 @@ tags:
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 2,000 | cotta |
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 900gp (Alabaster, chryselephantine, ivory, or wrought gold) | 900 | cotta |
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze) | 90 | cotta |
+| 743 | A155 the march to the bugbears' fort | 9,000 electrum pieces | 4,500 | stored |
+| 743 | A155 the march to the bugbears' fort | 4,000 gold pieces | 4,000 | stored |
+| 743 | A155 the march to the bugbears' fort | brilliant worth 6,000gp (Facet cut star sapphire or star ruby) | 6,000 | lucilla |
+| 743 | A155 the march to the bugbears' fort | brilliant worth 2,000gp (Black pearl, baroque pearl, crystal geode) | 2,000 | lucilla |
+| 743 | A155 the march to the bugbears' fort | brilliant worth 4,000gp (Facet cut imperial topaz, flawless diamond) | 4,000 | lucilla |
+| 743 | A155 the march to the bugbears' fort | brilliant worth 2,000gp (Black pearl, baroque pearl, crystal geode) | 2,000 | lucilla |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 130gp (Glass, shells, or wrought copper, brass, or bronze) | 130 | lucilla |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 4,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 4,000 | lucilla |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze) | 90 | lucilla |
+| 743 | A155 the march to the bugbears' fort | Dagger +2 | 653 | lucilla |
+| 743 | A155 the march to the bugbears' fort | Oil of the Secret Fire | 25 | lucilla |
+| 743 | A155 the march to the bugbears' fort | Potion of Captain's Presence | 25 | lucilla |
+| 743 | A155 the march to the bugbears' fort | Potion of Freezing | 25 | lucilla |
+| 743 | A155 the march to the bugbears' fort | Potion of Comprehension | 25 | lucilla |
+| 743 | A155 the march to the bugbears' fort | 13,000 silver pieces | 1,300 | stored |
+| 743 | A155 the march to the bugbears' fort | 13,000 electrum pieces | 6,500 | stored |
+| 743 | A155 the march to the bugbears' fort | gem worth 100gp (Amber, amethyst, coral, jade, jet, tourmaline) | 100 | lucilla |
+| 743 | A155 the march to the bugbears' fort | gem worth 100gp (Amber, amethyst, coral, jade, jet, tourmaline) | 100 | lucilla |
+| 743 | A155 the march to the bugbears' fort | gem worth 75gp (Carnelian, chalcedony, sardonyx, zircon) | 75 | lucilla |
+| 743 | A155 the march to the bugbears' fort | gem worth 100gp (Amber, amethyst, coral, jade, jet, tourmaline) | 100 | lucilla |
+| 743 | A155 the march to the bugbears' fort | gem worth 10gp (Azurite, hematite, malachite, obsidian, quartz) | 10 | lucilla |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 160gp (Glass, shells, or wrought copper, brass, or bronze) | 160 | lucilla |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 600gp (Alabaster, chryselephantine, ivory, or wrought gold) | 600 | lucilla |
+| 743 | A155 the march to the bugbears' fort | Potion of Cure Disease | 25 | stored |
+| 743 | A155 the march to the bugbears' fort | Shield +1 | 660 | stored |
+| 743 | A155 the march to the bugbears' fort | Sword +1 | 660 | stored |
+| 743 | A155 the march to the bugbears' fort | Club +1 | 651 | stored |
+| 743 | A155 the march to the bugbears' fort | Ivorean War-Paint | 25 | stored |
+| 743 | A155 the march to the bugbears' fort | 11,000 silver pieces | 1,100 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 700gp (Alabaster, chryselephantine, ivory, or wrought gold) | 700 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze) | 90 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 2,000 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 90gp (Glass, shells, or wrought copper, brass, or bronze) | 90 | stored |
+| 743 | A155 the march to the bugbears' fort | gem worth 100gp (Amber, amethyst, coral, jade, jet, tourmaline) | 100 | stored |
+| 743 | A155 the march to the bugbears' fort | gem worth 500gp (Aquamarine, alexandrite, topaz) | 500 | stored |
+| 743 | A155 the march to the bugbears' fort | 14,000 electrum pieces | 7,000 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold) | 1,100 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold) | 800 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold) | 1,100 | stored |
+| 743 | A155 the march to the bugbears' fort | jewelry worth 700gp (Carved jade or wrought platinum) | 700 | stored |
 
 ## Monster XP
 
@@ -962,6 +1002,16 @@ tags:
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Bandit | 2 | 10 | 20 |
 | 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Mother Corvina | 1 | 50 | 50 |
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Devil Boar | 1 | 2,000 | 2,000 |
+| 743 | A155 the march to the bugbears' fort | Devil Boar | 1 | 2,000 | 2,000 |
+| 743 | A155 the march to the bugbears' fort | Devil Boar | 1 | 2,000 | 2,000 |
+| 743 | A155 the march to the bugbears' fort | Devil Boar | 2 | 2,000 | 4,000 |
+| 743 | A155 the march to the bugbears' fort | Bugbear | 3 | 260 | 780 |
+| 743 | A155 the march to the bugbears' fort | Bugbear | 4 | 140 | 560 |
+| 743 | A155 the march to the bugbears' fort | Bugbear | 17 | 65 | 1,105 |
+| 743 | A155 the march to the bugbears' fort | Bugbear | 1 | 500 | 500 |
+| 743 | A155 the march to the bugbears' fort | Cave Bear | 2 | 320 | 640 |
+| 743 | A155 the march to the bugbears' fort | Bugbear (champion) | 2 | 140 | 280 |
+| 743 | A155 the march to the bugbears' fort | Bugbear (warrior) | 2 | 65 | 130 |
 
 ## Shares and XP awarded
 
@@ -1993,6 +2043,16 @@ tags:
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Cotta | 1 | 1,516 | 800 | 0 | +0% | 2,316 |
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Brennus | 1 | 1,516 | 800 | 0 | +5% | 2,432 |
 | 678 | A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia) | Ennia Ursa | 0.5 | 758 | 400 | 0 | +0% | 1,158 |
+| 743 | A155 the march to the bugbears' fort | Lucilla | 1 | 6,715 | 1,499 | 0 | +10% | 9,035 |
+| 743 | A155 the march to the bugbears' fort | Vettius | 1 | 6,715 | 1,499 | 0 | +5% | 8,625 |
+| 743 | A155 the march to the bugbears' fort | Brennus | 1 | 6,715 | 1,499 | 0 | +5% | 8,625 |
+| 743 | A155 the march to the bugbears' fort | Tiberius Maro | 0.5 | 3,357 | 750 | 0 | +0% | 4,107 |
+| 743 | A155 the march to the bugbears' fort | Cotta | 1 | 6,715 | 1,499 | 0 | +0% | 8,214 |
+| 743 | A155 the march to the bugbears' fort | Neris | 1 | 6,715 | 1,499 | 0 | +0% | 8,214 |
+| 743 | A155 the march to the bugbears' fort | Aelia | 0.5 | 3,357 | 750 | 0 | +0% | 4,107 |
+| 743 | A155 the march to the bugbears' fort | Phaedra | 0.5 | 3,357 | 750 | 0 | +0% | 4,107 |
+| 743 | A155 the march to the bugbears' fort | Vestus the Unlikely | 1 | 6,715 | 1,499 | 0 | +5% | 8,625 |
+| 743 | A155 the march to the bugbears' fort | Ennia Ursa | 0.5 | 3,357 | 750 | 0 | +0% (capped) | 2,841 | (src: RR p. 310 xp.magic_item_basis; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 52 class.bard.key_attributes; RR p. 34 class.mage.key_attributes; RR p. 311 xp.level_cap_short; RR p. 168 Henchmen) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5432,6 +5492,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 739 | the retinue | wages paid |  |  | 54gp | cotta |
 | 739 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 741 | the Legate's quartermaster, Türos Aster | 140 man-weeks of army rations (salt pork, hard bread) from the fort's granary at 3gp (the Legate friendly, day 741; Judge's ruling): 120 for the soldiers' train, 20 for the company |  |  | 420gp | lucilla |
+| 743 | the Grey Sisters | vault fee, three months ahead (days 743-832; Rulings S11; settled as left before the march, Rulings S47) |  |  | 30gp | lucilla |
+| 743 |  | treasure share |  | 3,050gp |  | lucilla |
+| 743 |  | treasure share |  | 3,050gp |  | vettius |
+| 743 |  | treasure share |  | 3,050gp |  | brennus |
+| 743 |  | treasure share |  | 1,525gp |  | tiberius-maro |
+| 743 |  | treasure share |  | 3,050gp |  | cotta |
+| 743 |  | treasure share |  | 3,050gp |  | neris |
+| 743 |  | treasure share |  | 1,525gp |  | aelia |
+| 743 |  | treasure share |  | 1,525gp |  | phaedra |
+| 743 |  | treasure share |  | 3,050gp |  | vestus-the-unlikely |
+| 743 |  | treasure share |  | 1,525gp |  | ennia-ursa |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
