@@ -72,6 +72,15 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    - **Sweep:** `acks.sh sweep <a> <t1> <t2> …`.
    - **Other damage** (spells, traps, falls, oil): `acks.sh damage <t> --dice XdY --type T [--extraordinary|--mundane]
      [--half]` (spells: `--extraordinary`; refused without a tier when the target's protection differs by tier).
+   - **Large fights** (engine 7.19.1; replaces the per-session drivers): positions by zone, not per pair:
+     `state place <group|id> --zone street [--range 60 [--from yard]]` (the same zone is in reach; two zones their
+     range apart), `state frontage <zone> 2` (attackers per target in a passage). Standing tactics per foe group:
+     `act <group> --tactic shoot-nearest|close-and-attack|hold|flee|hack DOOR:HP [--weapon Spear] [--missile
+     Shortbow]`; party members' standing orders: `state order <id> shoot-nearest|close-and-attack|hold|flee [--group
+     G]` (`none` clears it). Then `round-auto [--until round-end|party-down|judge] [--max-rounds N]` steps the rounds
+     in one process and stops at a party member's turn without an order, a felled party member, a JUDGE item, a
+     refusal, or a side with no one fighting; act for whoever it stopped at, then `round-auto` again. Initiative ties
+     are taken in the listed order (said in a NOTE).
    - **Area spells** (engine 7.19.0): `acks.sh area --spell Fireball --caster <id> --targets A,B,… | --group G
      [--count N] [--include <party ids>] [--dice 8d6]`: the damage rolled once (open), each target's save (hidden),
      no save where half would still fell it, typed damage through the engine (types for `state end`, the area hit
