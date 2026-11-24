@@ -137,3 +137,28 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 25 |  | treasure share |  | 106gp 6sp 7cp |  | severina |
 | 25 | Traveler's Inn | lodging (courtyard), 2 donkeys stabled, meals: nights of days 25-26 |  |  | 3gp 2sp | faustina |
 | 25 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 19-26 |  |  | 2gp 5sp | faustina |
+| 30 | Traveler's Inn | lodging (courtyard), 2 donkeys, meals, nights of days 27-30; the pups' feed days 26-30 |  |  | 9gp | faustina |
+| 31 | brokers and criers | recruiting fee (a week's search) |  |  | 4gp | faustina |
+| 31 | the retinue | wages paid |  |  | 12gp | faustina |
+| 31 | marius (signing bonus, a month's wage) | signing bonus agreed in Severina's offer |  |  | 12gp | faustina |
+| 31 | the retinue | wages paid |  |  | 12gp | faustina |
+| 31 | lupa (signing bonus, a month's wage) | signing bonus agreed in Severina's offer |  |  | 12gp | faustina |
+| 31 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | faustina |
+| 31 | Turos Tem | Spear (broken shaft: as dagger) | 1 |  | 2gp 7sp | faustina |
+| 31 | Turos Tem | Shield | 1 |  | 9gp | faustina |
+| 31 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | faustina |
+| 31 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 31 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | faustina |
+| 31 | Turos Tem | Spear | 1 |  | 2gp 7sp | faustina |
+| 31 | Turos Tem | Shield | 1 |  | 9gp | faustina |
+| 31 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | faustina |
+| 31 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 31 | Turos Tem | Padded Armor | 1 |  | 9gp | faustina |
+| 31 | Turos Tem | Hide and Fur Armor | 1 |  | 9gp | faustina |
+| 31 | Turos Tem | Metamphora (60gp) | 3 |  | 13gp 5sp | faustina |
+| 31 | Turos Tem | Oil, Military (1 pint) | 1 |  | 1gp 8sp | faustina |
+| 31 | Turos Tem | Oil, Military (1 pint) | 1 |  | 1gp 8sp | faustina |
+| 31 | Turos Tem | Oil, Military (1 pint) | 1 |  | 1gp 8sp | faustina |
+| 31 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | faustina |
+| 32 | the retinue | wages paid |  |  | 12gp | faustina |
+| 32 | the retinue | wages paid |  |  | 12gp | faustina |

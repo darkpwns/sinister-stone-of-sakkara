@@ -1,15 +1,15 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 2,
-  "L": 30,
+  "A": 3,
+  "L": 33,
   "H": 0,
-  "M": 6
+  "M": 8
  },
  "adventure": {
-  "id": "A2",
-  "name": "AX1 Buried Temple, delve 3 (the spider-mothers)",
-  "start_day": 19,
+  "id": "A3",
+  "name": "AX1 Buried Temple, delve 4 (the ogre)",
+  "start_day": 32,
   "participants": {
    "galerius": {
     "id": "galerius",
@@ -19,14 +19,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 347,
+    "xp_before": 475,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 19,
-    "returned_day": 25,
-    "xp_award": 128
+    "joined_day": 32
    },
    "faustina": {
     "id": "faustina",
@@ -36,65 +34,12 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 331,
+    "xp_before": 453,
     "level_before": 1,
     "class": "Priestess",
-    "joined_day": 19,
-    "returned_day": 25,
-    "xp_award": 122
-   },
-   "hrodric": {
-    "id": "hrodric",
-    "name": "Hrodric",
-    "actor": "hrodric",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 331,
-    "level_before": 1,
-    "class": "Shaman",
-    "joined_day": 19,
-    "returned_day": 25,
-    "xp_award": 122
-   },
-   "callista": {
-    "id": "callista",
-    "name": "Callista",
-    "actor": "callista",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 331,
-    "level_before": 1,
-    "class": "Mage",
-    "joined_day": 19,
-    "returned_day": 25,
-    "xp_award": 122
-   },
-   "corvus": {
-    "id": "corvus",
-    "name": "Corvus",
-    "actor": "corvus",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 331,
-    "level_before": 1,
-    "class": "Explorer",
-    "joined_day": 19,
-    "returned_day": 25,
-    "xp_award": 122
+    "joined_day": 32
    },
    "severina": {
     "id": "severina",
@@ -104,113 +49,113 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 281,
+    "xp_before": 403,
     "level_before": 1,
     "class": "Venturer",
-    "joined_day": 19,
-    "returned_day": 25,
-    "xp_award": 122
+    "joined_day": 32
+   },
+   "callista": {
+    "id": "callista",
+    "name": "Callista",
+    "actor": "callista",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 453,
+    "level_before": 1,
+    "class": "Mage",
+    "joined_day": 32
+   },
+   "corvus": {
+    "id": "corvus",
+    "name": "Corvus",
+    "actor": "corvus",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 453,
+    "level_before": 1,
+    "class": "Explorer",
+    "joined_day": 32
+   },
+   "marius": {
+    "id": "marius",
+    "name": "Marius",
+    "actor": "marius",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": "marius",
+    "xp_before": 0,
+    "level_before": 0,
+    "class": "None (0th level)",
+    "joined_day": 32
+   },
+   "lupa": {
+    "id": "lupa",
+    "name": "Lupa",
+    "actor": "lupa",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": "lupa",
+    "xp_before": 0,
+    "level_before": 0,
+    "class": "None (0th level)",
+    "joined_day": 32
    }
   },
   "monsters": [
    {
-    "id": "M6",
-    "monster": "Giant Crab Spider",
-    "source": "Giant Crab Spider (MM p. 294)",
-    "number": 2,
-    "how": "captured",
-    "xp_each": 29
+    "id": "M7",
+    "monster": "Ogre",
+    "source": "Ogre (MM p. 250)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 140,
+    "fight": {
+     "ids": [
+      "og"
+     ],
+     "text": "the fight with Ogre, round 3"
+    }
+   },
+   {
+    "id": "M8",
+    "monster": "Stirge (Sakkara)",
+    "source": "Stirge (Sakkara) (MM p. 34)",
+    "number": 6,
+    "how": "killed",
+    "xp_each": 13,
+    "fight": {
+     "ids": [
+      "st1",
+      "st2",
+      "st3",
+      "st4",
+      "st5",
+      "st6"
+     ],
+     "text": "the fight with 6 Stirge (Sakkara), round 11"
+    }
    }
   ],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 25,
-   "at": "Turos Tem",
-   "total": 698.0,
-   "per_share": 116.33333333333333,
-   "awards": {
-    "galerius": {
-     "share": 1.0,
-     "why": null,
-     "base": 116,
-     "pct": 10,
-     "pen": 0,
-     "award": 128,
-     "xp_before": 347,
-     "xp_after": 475,
-     "capped": null,
-     "zero": false
-    },
-    "faustina": {
-     "share": 1.0,
-     "why": null,
-     "base": 116,
-     "pct": 5,
-     "pen": 0,
-     "award": 122,
-     "xp_before": 331,
-     "xp_after": 453,
-     "capped": null,
-     "zero": false
-    },
-    "hrodric": {
-     "share": 1.0,
-     "why": null,
-     "base": 116,
-     "pct": 5,
-     "pen": 0,
-     "award": 122,
-     "xp_before": 331,
-     "xp_after": 453,
-     "capped": null,
-     "zero": false
-    },
-    "callista": {
-     "share": 1.0,
-     "why": null,
-     "base": 116,
-     "pct": 5,
-     "pen": 0,
-     "award": 122,
-     "xp_before": 331,
-     "xp_after": 453,
-     "capped": null,
-     "zero": false
-    },
-    "corvus": {
-     "share": 1.0,
-     "why": null,
-     "base": 116,
-     "pct": 5,
-     "pen": 0,
-     "award": 122,
-     "xp_before": 331,
-     "xp_after": 453,
-     "capped": null,
-     "zero": false
-    },
-    "severina": {
-     "share": 1.0,
-     "why": null,
-     "base": 116,
-     "pct": 5,
-     "pen": 0,
-     "award": 122,
-     "xp_before": 281,
-     "xp_after": 403,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
-  "events": [],
-  "returned": {
-   "day": 25,
-   "where": "Turos Tem"
-  }
+  "status": "open",
+  "payout": null,
+  "events": []
  },
  "closed": [
   {
@@ -498,6 +443,212 @@
    "events": [],
    "returned": {
     "day": 9,
+    "where": "Turos Tem"
+   }
+  },
+  {
+   "id": "A2",
+   "name": "AX1 Buried Temple, delve 3 (the spider-mothers)",
+   "start_day": 19,
+   "participants": {
+    "galerius": {
+     "id": "galerius",
+     "name": "Galerius",
+     "actor": "galerius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 347,
+     "level_before": 1,
+     "class": "Fighter",
+     "joined_day": 19,
+     "returned_day": 25,
+     "xp_award": 128
+    },
+    "faustina": {
+     "id": "faustina",
+     "name": "Faustina",
+     "actor": "faustina",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 331,
+     "level_before": 1,
+     "class": "Priestess",
+     "joined_day": 19,
+     "returned_day": 25,
+     "xp_award": 122
+    },
+    "hrodric": {
+     "id": "hrodric",
+     "name": "Hrodric",
+     "actor": "hrodric",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 331,
+     "level_before": 1,
+     "class": "Shaman",
+     "joined_day": 19,
+     "returned_day": 25,
+     "xp_award": 122
+    },
+    "callista": {
+     "id": "callista",
+     "name": "Callista",
+     "actor": "callista",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 331,
+     "level_before": 1,
+     "class": "Mage",
+     "joined_day": 19,
+     "returned_day": 25,
+     "xp_award": 122
+    },
+    "corvus": {
+     "id": "corvus",
+     "name": "Corvus",
+     "actor": "corvus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 331,
+     "level_before": 1,
+     "class": "Explorer",
+     "joined_day": 19,
+     "returned_day": 25,
+     "xp_award": 122
+    },
+    "severina": {
+     "id": "severina",
+     "name": "Severina",
+     "actor": "severina",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 281,
+     "level_before": 1,
+     "class": "Venturer",
+     "joined_day": 19,
+     "returned_day": 25,
+     "xp_award": 122
+    }
+   },
+   "monsters": [
+    {
+     "id": "M6",
+     "monster": "Giant Crab Spider",
+     "source": "Giant Crab Spider (MM p. 294)",
+     "number": 2,
+     "how": "captured",
+     "xp_each": 29
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 25,
+    "at": "Turos Tem",
+    "total": 698.0,
+    "per_share": 116.33333333333333,
+    "awards": {
+     "galerius": {
+      "share": 1.0,
+      "why": null,
+      "base": 116,
+      "pct": 10,
+      "pen": 0,
+      "award": 128,
+      "xp_before": 347,
+      "xp_after": 475,
+      "capped": null,
+      "zero": false
+     },
+     "faustina": {
+      "share": 1.0,
+      "why": null,
+      "base": 116,
+      "pct": 5,
+      "pen": 0,
+      "award": 122,
+      "xp_before": 331,
+      "xp_after": 453,
+      "capped": null,
+      "zero": false
+     },
+     "hrodric": {
+      "share": 1.0,
+      "why": null,
+      "base": 116,
+      "pct": 5,
+      "pen": 0,
+      "award": 122,
+      "xp_before": 331,
+      "xp_after": 453,
+      "capped": null,
+      "zero": false
+     },
+     "callista": {
+      "share": 1.0,
+      "why": null,
+      "base": 116,
+      "pct": 5,
+      "pen": 0,
+      "award": 122,
+      "xp_before": 331,
+      "xp_after": 453,
+      "capped": null,
+      "zero": false
+     },
+     "corvus": {
+      "share": 1.0,
+      "why": null,
+      "base": 116,
+      "pct": 5,
+      "pen": 0,
+      "award": 122,
+      "xp_before": 331,
+      "xp_after": 453,
+      "capped": null,
+      "zero": false
+     },
+     "severina": {
+      "share": 1.0,
+      "why": null,
+      "base": 116,
+      "pct": 5,
+      "pen": 0,
+      "award": 122,
+      "xp_before": 281,
+      "xp_after": 403,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 25,
     "where": "Turos Tem"
    }
   }
@@ -1892,6 +2043,105 @@
     "training state cs2"
    ],
    "divided_day": 25
+  },
+  "L31": {
+   "id": "L31",
+   "adventure": "A3",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 2.0,
+   "carrier": "faustina",
+   "status": "carried",
+   "found": {
+    "day": 33,
+    "where": "L1 44"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 120.0,
+    "stone": 2.0,
+    "name": "ogre knucklebones in 2 metamphora (monster component, bones; humanoid default effect beguile humanoid)",
+    "merch": null
+   },
+   "player": {
+    "desc": "ogre knucklebones in 2 metamphora (monster component, bones; humanoid default effect beguile humanoid)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L32": {
+   "id": "L32",
+   "adventure": "A3",
+   "kind": "coins",
+   "qty": 3000,
+   "stone": 3.0,
+   "carrier": "severina",
+   "status": "carried",
+   "found": {
+    "day": 33,
+    "where": "L1 44, a bag under the furs"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 3000,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "3,000 silver pieces"
+   },
+   "player": {
+    "desc": "3,000 silver pieces",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L33": {
+   "id": "L33",
+   "adventure": "A3",
+   "kind": "coins",
+   "qty": 300,
+   "stone": 0.3,
+   "carrier": "galerius",
+   "status": "carried",
+   "found": {
+    "day": 33,
+    "where": "L1 44, a bag under the furs"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 300,
+    "value_gp": 300.0,
+    "stone": 0.3,
+    "name": "300 gold pieces"
+   },
+   "player": {
+    "desc": "300 gold pieces",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
   }
  },
  "hoards": {},
@@ -1939,6 +2189,14 @@
   "severina": {
    "id": "severina",
    "actor": "severina"
+  },
+  "marius": {
+   "id": "marius",
+   "actor": "marius"
+  },
+  "lupa": {
+   "id": "lupa",
+   "actor": "lupa"
   }
  }
 }

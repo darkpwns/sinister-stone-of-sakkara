@@ -15,6 +15,10 @@ Prefix bullets with the session (`S03:`). Run 2 (from 2026-11-24).
 - S02: Red Eye gnolls (hyena-men) in the buried temple say 'the Lady Below' pays any band that wipes out one of her lesser tribes. So the beastmen there serve a mistress, and she sets them on each other.
 
 ## Plans
+- S05: Downtime: Faustina worked in Genelen's hospital and won her friendship (she fears the nightmares are a curse); Corvus walked the farm tracks till he knows them (no more getting lost with him leading); Callista got nowhere with Malyn's apprentices; Galerius fell out badly with the quartermaster. Hrodric stays in town training the pups.
+- S05: Severina hired Marius (a cantina keeper, good cook) and Lupa (a butcher). The ogre broke Lupa's leg (amputated) and he quit; we carry him home.
+- S05: Killed the ogre of the north hall; its bag held 3,000 silver and 300 gold; its knucklebones kept in jars. Carry more jars inside: we lost six fliers' parts for want of them.
+- S05: Orcs say the purple one in the stepped tower takes a hundred a head to let anyone down to the Lady.
 - S04: Took the two spider-mothers of the egg room alive with Slumber and nets (day 21); one broke loose in the rain on the way home and is somewhere in the forest by the temple; the other sold to Malyn's people for 140gp. Also ten jars of incense and a garnet from that room.
 - S04: Lost twice more on the farmland between the forest and the fort (days 22, 24). We need a guide or a better map of the farm tracks; follow the river.
 - S04: Seen near the fort: fourteen skeletons marching by day toward the forest (they ignored us), and three hairy men by the ford who watched us.
