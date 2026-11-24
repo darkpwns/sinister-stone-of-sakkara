@@ -5775,6 +5775,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 840 | her caravan factors, Cyfaraun | investment 1, month 28: Return +200% (3% of 576; RR Passive Investment) |  | 17gp |  | lucilla |
 | 840 | the eight families of the Ford (by Tiberius) | the Barony of the Ford, month 28 revenue: 8 families x 14gp (Rulings S52) |  | 112gp |  | brennus |
 | 840 | the Ford's feast, upkeep and the Lady's shrine (by Tiberius) | liturgies, maintenance and tithes, month 28 (1gp a family each) |  |  | 24gp | brennus |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 2,511gp 6sp 6cp |  | cotta |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 2,511gp 6sp 6cp |  | brennus |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 2,511gp 6sp 6cp |  | vettius |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 2,511gp 6sp 6cp |  | lucilla |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 2,511gp 6sp 6cp |  | neris |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 2,511gp 6sp 6cp |  | vestus-the-unlikely |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 1,255gp 8sp 2cp |  | aelia |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 1,255gp 8sp 2cp |  | phaedra |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 1,255gp 8sp 2cp |  | ennia-ursa |
+| 841 | market | his share of the sale of L966,L967,L968,L969,L970,L971,L972,L973,L974,L975,L976,L977,L978,L979,L952 (after the payout) |  | 322gp 4sp 8cp |  | tiberius-maro |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
+| 841 | the Silk Pony's stables | stabling days 829-842 (13 nights): three warhorses at 5sp, twelve at 2sp (RR p. 131) |  |  | 50gp 7sp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
