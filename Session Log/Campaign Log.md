@@ -58,3 +58,4 @@ tags:
 - [[S47 — Winter Quarters]]
 - [[S48 — The Thaw]]
 - [[S49 — The West Wall]]
+- [[S50 — Clearing the Barony]]

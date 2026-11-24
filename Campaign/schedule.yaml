@@ -136,8 +136,8 @@ items:
   month_end: true
   from: 480
   rolls:
-  - {label: "Lucilla's investment 1 (Balanced, 693gp, 1%): Vagaries of Investment", dice: 1d100}
-  - {label: "Lucilla's investment 3 (Balanced, 3,000gp, 1%): Vagaries of Investment", dice: 1d100}
+  - {label: "Lucilla's investment 1 (Balanced, 582gp, 1%; a 16% extortion fee taken from its value month 25): Vagaries of Investment", dice: 1d100}
+  - {label: "Lucilla's investment 3 (Balanced, 3,000gp, 1%; Disrepute month 25: return halved months 25-26): Vagaries of Investment", dice: 1d100}
   steps:
   - "Guildhouse storage fee: 0.25% of each member's balance that day (`play.py bank-balances --bank guildhouse-bank --day N`), posted from holder guildhouse-bank as an `inv pay` naming the member (Rulings S16; JJ pp. 218-219)"
   - "investments: look each d100 up on the RR Vagaries of Investment table (RR Passive Investment; Rulings S10); sub-rolls as the result demands (Delay months 1d6, Discovery 2d10%, Monopoly months 1d6); returns to Lucilla as `inv receive`; no XP. Investment 2 (Risky, 700gp, 3%) is under Delay over months 16-21: no roll, no return; investment 1's Protector lasts to month 16"
@@ -341,4 +341,14 @@ items:
   day: 778
   steps: ["the Legate's courier brings the patent: Brennus is a patrician (baron) with the claim to the fort and its hex (26.19); then the JJ domain rules (R/judge-screen; JJ Domains): the hex's classification and land revenue from `hex.py 26.19`, peasant families, garrison, stronghold value (the ruined fort), Vettius' Ionicus estate at 27.19 beside it", "until then the fort is held under the Legate's warrant of claim (Rulings S49)"]
   source: "Rulings S49 (the patent); Adventure/Turos Aster.md; AX3 #30"
+
+- id: doppelganger-lodge
+  title: "Weekly: the four 'woodsmen' of the lodge in the south forest (26.20: doppelgangers, in lair; met by Ennia day 765, she suspects nothing) look for a way into the fort's garrison"
+  every: 7
+  anchor: 771
+  from: 771
+  rolls:
+  - {label: "a doppelganger kills and replaces someone of the fort's people (1 a soldier on a wood or water detail, 2 a camp-follower from Türos Aster; 3-6 nothing this week)", dice: 1d6}
+  steps: ["on 1-2: name the victim (a soldier of the unit on detail, Judge's pick); the replacement learns the company's ways; a later Judge's call decides when it acts (MM Doppelganger)", "ends when the lodge is cleared"]
+  source: "MM Doppelganger; Ennia's hunt day 765 (S50); Judge's call"
 

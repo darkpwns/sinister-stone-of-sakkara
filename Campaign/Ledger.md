@@ -779,6 +779,9 @@ tags:
 | 743 | A155 the march to the bugbears' fort | jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold) | 800 | stored |
 | 743 | A155 the march to the bugbears' fort | jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold) | 1,100 | stored |
 | 743 | A155 the march to the bugbears' fort | jewelry worth 700gp (Carved jade or wrought platinum) | 700 | stored |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | 2,000 silver pieces | 200 | cotta |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | four ornamental stones (L947-L950) | 175 | cotta |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | a piece of jewelry (fine wood) (L951) | 500 | cotta |
 
 ## Monster XP
 
@@ -1012,6 +1015,7 @@ tags:
 | 743 | A155 the march to the bugbears' fort | Cave Bear | 2 | 320 | 640 |
 | 743 | A155 the march to the bugbears' fort | Bugbear (champion) | 2 | 140 | 280 |
 | 743 | A155 the march to the bugbears' fort | Bugbear (warrior) | 2 | 65 | 130 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Hideous Attercop | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -2053,6 +2057,14 @@ tags:
 | 743 | A155 the march to the bugbears' fort | Phaedra | 0.5 | 3,357 | 750 | 0 | +0% | 4,107 |
 | 743 | A155 the march to the bugbears' fort | Vestus the Unlikely | 1 | 6,715 | 1,499 | 0 | +5% | 8,625 |
 | 743 | A155 the march to the bugbears' fort | Ennia Ursa | 0.5 | 3,357 | 750 | 0 | +0% (capped) | 2,841 | (src: RR p. 310 xp.magic_item_basis; RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 52 class.bard.key_attributes; RR p. 34 class.mage.key_attributes; RR p. 311 xp.level_cap_short; RR p. 168 Henchmen) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Brennus | 1 | 147 | +5% | 154 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Vettius | 1 | 147 | +5% | 154 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Lucilla | 1 | 147 | +10% | 162 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Cotta | 1 | 147 | +0% | 147 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Neris | 1 | 147 | +0% | 147 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Aelia | 0.5 | 73 | +0% | 73 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Phaedra | 0.5 | 73 | +0% | 73 |
+| 773 | A156 clearing the barony's hex (26.19) and its edges | Ennia Ursa | 0.5 | 73 | +0% | 73 |
 
 ## Wages
 
@@ -5503,6 +5515,33 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 743 |  | treasure share |  | 1,525gp |  | phaedra |
 | 743 |  | treasure share |  | 3,050gp |  | vestus-the-unlikely |
 | 743 |  | treasure share |  | 1,525gp |  | ennia-ursa |
+| 743 | the Legate's quartermaster, Türos Aster | 216 man-weeks of army rations at 3gp (Rulings S48): 186 for the soldiers holding the fort (three weeks), 30 for the company (three weeks each) |  |  | 648gp | lucilla |
+| 750 | the Merchant Guildhouse, Cyfaraun | storage fee 0.25% of the company's purse (687,124gp), month 25 (day 750; Rulings S16, S46) |  |  | 1,718gp | guildhouse-bank |
+| 750 | the Family (Bassus, for the boss) | the Family's take, month 25: the syndicate 16,083 and the Pony's half 1,624 (Rulings S19, S22, S25), deposited for Vettius while he is in the south |  | 17,707gp |  | guildhouse-bank |
+| 750 | Lucilla's front houses, The Mink and the venture company | Lucilla's income, month 25 (front 1,500, venture half 2,750; Rulings S19), deposited while she is in the south |  | 4,250gp |  | guildhouse-bank |
+| 771 | the Legate's quartermaster, Türos Aster | 6 man-weeks of army rations at 3gp (Rulings S48), eaten fresh in the fort days 765-771 |  |  | 18gp | lucilla |
+| 773 | the retinue | wages paid |  |  | 3,200gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 144gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 192gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 240gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 126gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 288gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 24gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 42gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 18gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 54gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 30gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 50gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 800gp | bottomless-bag |
+| 773 | the retinue | wages paid |  |  | 400gp | bottomless-bag |
+| 773 |  | treasure share |  | 30gp 7sp 7cp |  | brennus |
+| 773 |  | treasure share |  | 30gp 7sp 7cp |  | vettius |
+| 773 |  | treasure share |  | 30gp 7sp 7cp |  | lucilla |
+| 773 |  | treasure share |  | 30gp 7sp 7cp |  | cotta |
+| 773 |  | treasure share |  | 30gp 7sp 7cp |  | neris |
+| 773 |  | treasure share |  | 15gp 3sp 8cp |  | aelia |
+| 773 |  | treasure share |  | 15gp 3sp 8cp |  | phaedra |
+| 773 |  | treasure share |  | 15gp 3sp 8cp |  | ennia-ursa |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
