@@ -29,6 +29,11 @@ supplies, the party's Evasion throw, hp healed and CON lost.
   fix each FAIL line with the command it names.
 
 ## Each day
+- **Days of plain marching:** `python3 $S/play.py march DAYS --route A,B,… [--hours-per-day N] [--watches "A,B;C,D"]
+  [--camp-hours 12] [--dusk 18]`: travel, the evening wait, water at the day's river or lake, camp, in one process;
+  it stops at an encounter (civilized and herd encounters are passed by after their reaction), a pending encounter it
+  cannot pass, a refusal, the party lost, CON lost, a missed wage or loyalty roll, a death, starvation, dehydration or
+  a schedule item due. Run the steps below by hand only where it stopped.
 1. **Travel**: `travel --to CC.RR` (or `--dir FACE --n N`, `--route A,B,C`, `--hours H`, `--ancillary` for up to 4
    hours, `--familiar ID` for an explorer's Pathfinding, `--retrace` on a route already travelled) or `forced-march …`.
    The first travel of the day rolls the weather (open) and the Navigation throw (hidden; no throw on a road or

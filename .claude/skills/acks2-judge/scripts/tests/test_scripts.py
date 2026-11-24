@@ -202,3 +202,20 @@ def test_play_depart_checklist(camp):
     assert code in (0, 3) and ("READY" in out.splitlines()[-1])
     assert any(ln.startswith(("OK", "WARN", "FAIL")) for ln in out.splitlines())
     assert open(os.path.join(camp, "Campaign", "exploration-state.json")).read() == before
+
+
+def test_play_march_stops_or_marches(camp):
+    """C2: march runs in one process and ends with the route's end, the days marched, or a STOP line saying why."""
+    need(camp, "Campaign/exploration-state.json")
+    xs = json.load(open(os.path.join(camp, "Campaign", "exploration-state.json")))
+    if not xs.get("travel"):
+        pytest.skip("no travel block")
+    here = xs["travel"]["hex"]
+    c, r = (int(x) for x in here.split("."))
+    route = f"{c:02d}.{r + 1:02d}"
+    code, out = sh(camp, "march", "1", "--route", route, "--hours-per-day", "2", script="play.py",
+                   env={"ACKS_ACK": "water-short"})
+    assert code in (0, 3), out
+    assert out.startswith("day ") or out.startswith("arrived")
+    if code == 3:
+        assert "STOP:" in out

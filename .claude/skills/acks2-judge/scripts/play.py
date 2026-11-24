@@ -26,6 +26,14 @@
       light (torches, oil), spells not yet regained, and the schedule's items that fall on the road. Every line is
       OK, WARN or FAIL; it ends READY only when no line fails (exit 0), else NOT READY (exit 3).
 
+  play.py march DAYS --route A,B,C [--hours-per-day N] [--watches "A,B;C,D"] [--camp-hours 12] [--dusk 18]
+      Days of march in one process (C2): each day travel along the route (the hours given, else the engine's day),
+      the evening wait to dusk, water at the day's river or lake (`water`), camp with the watches. It stops, saying
+      why, at an encounter (a civilized or herd encounter is passed by after its reaction, unless the reaction is
+      hostile), a refusal, the party lost, CON lost, a missed wage or a loyalty roll, a death, starvation or
+      dehydration, or a schedule item due. Territory classifications come from the campaign data (hexes block), never
+      per call. Exit 0: the days marched or the route's end reached; 3: stopped.
+
   play.py cond add ID "TEXT" [--cause WHY]   |   play.py cond remove ID "TEXT" [--cause WHY]   |   play.py cond list ID
       One condition added to or taken off an actor's `state.conditions` (the engine's `actor set` takes the whole
       list: this reads it, changes one entry and writes it back with the cause). `remove` matches the exact text or,
@@ -415,6 +423,118 @@ def depart(a):
     return 0 if not fails else 3
 
 
+MARCH_STOP = re.compile(r"loses \d+ CON|\bCON\b[^;|]{0,20}lost|DEHYDRATED|STARVING|missed|not paid|calamity|loyalty roll|"
+                        r"\bdies\b|is dead|DUE day|NOT ALLOWED", re.I)
+BENIGN = re.compile(r"herd|commoner|merchant|pilgrim|peasant|caravan|patrol", re.I)
+
+
+def _facts(out):
+    """The engine's own lines, without lesson reminders and notes (their words must not stop a march)."""
+    return " | ".join(p for p in SRC.sub("", out).split(" | ") if not p.strip().startswith(("REMINDER", "NOTE")))
+
+
+def _xs(E):
+    with open(E.ctx["xstate"], encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _enc_open(x):
+    e = x.get("encounter") or {}
+    return e if e and e.get("status") not in ("ended", "no encounter", "evaded") else None
+
+
+def _benign_pass(E, e):
+    """A civilized or herd encounter passed by after its reaction: (passed, text)."""
+    kind = ((e.get("wilderness") or {}).get("kind") or "")
+    name = str(e.get("monster_name") or e.get("entry") or "")
+    if not (kind == "civilized" or BENIGN.search(name)):
+        return False, f"encounter {e.get('id')}: {name} ({kind or 'monster'})"
+    code, out = E.run("reaction")
+    if code or re.search(r"hostile|attacks", out, re.I):
+        return False, f"encounter {e.get('id')}: {name}: {short(out, 200)}"
+    E.run("encounter", "end")
+    return True, f"{name}: {short(out, 120)}; passed by"
+
+
+def march(a):
+    E = Engine()
+    route = [x for x in a.route.split(",") if x]
+    watches = a.watches
+    for n in range(a.days):
+        x = _xs(E)
+        here = x["travel"]["hex"]
+        if here in route:
+            route = route[route.index(here) + 1:]
+        if not route:
+            print(f"arrived at {here}")
+            return 0
+        day = x["clock"]["day"]
+        argv = ["travel", "--route", ",".join(route)] + (["--hours", str(a.hours_per_day)] if a.hours_per_day else [])
+        code, out = E.run(*argv)
+        print(f"day {day}: {short(out, 300)}")
+        if code and "travel is used up" in out:
+            out = ""                                     # today's travel was done before the march: camp first
+        elif code:
+            print("STOP: travel refused")
+            return 3
+        x = _xs(E)
+        e = _enc_open(x)
+        while e:
+            ok, why = _benign_pass(E, e)
+            print(f"  {why}")
+            if not ok:
+                print("STOP: encounter")
+                return 3
+            x = _xs(E)
+            here = x["travel"]["hex"]
+            rest = [h for h in route if h != here]
+            code, out = E.run("travel", "--route", ",".join(rest[rest.index(here) + 1:] if here in rest else rest),
+                              *(["--hours", str(a.hours_per_day)] if a.hours_per_day else []))
+            print(f"  on: {short(out, 200)}")
+            x = _xs(E)
+            e = _enc_open(x) if not code else None
+        pend = x["travel"].get("pending_enc")
+        if pend:
+            # an encounter met partway into the hex where the day's travel ended (S47 day 675: it lapsed)
+            code, out2 = E.run("encounter", "start", "--wild", "--kind", "pending")
+            print(f"  pending: {short(out2, 200)}")
+            x = _xs(E)
+            e = _enc_open(x)
+            ok, why = _benign_pass(E, e) if e else (False, "the pending encounter could not begin")
+            print(f"  {why}")
+            if not ok:
+                print("STOP: encounter")
+                return 3
+            x = _xs(E)
+        if (x["travel"].get("lost") or {}):
+            print(f"STOP: the party is lost (true {x['travel']['hex']}, believed {x['travel']['believed']})")
+            return 3
+        if MARCH_STOP.search(_facts(out)):
+            print("STOP: " + MARCH_STOP.search(_facts(out)).group(0))
+            return 3
+        hr = x["clock"]["round_of_day"] / 60.0
+        if int(a.dusk - hr) >= 1:
+            E.run("wait", "--hours", str(int(a.dusk - hr)))
+        code, wout = E.run("water")
+        if code == 0 and "nothing" not in wout.lower():
+            print(f"  water: {short(wout, 160)}")
+        argv = ["camp", "--hours", str(a.camp_hours)] + (["--watches", watches] if watches else [])
+        code, out = E.run(*argv)
+        print(f"  night: {short(out, 300)}")
+        if code:
+            print("STOP: camp refused")
+            return 3
+        x = _xs(E)
+        if _enc_open(x):
+            print("STOP: night encounter")
+            return 3
+        if MARCH_STOP.search(_facts(out)):
+            m = MARCH_STOP.search(_facts(out))
+            print("STOP: " + _facts(out)[max(0, m.start() - 80):m.end() + 80])
+            return 3
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -441,6 +561,13 @@ def main(argv=None):
     p.add_argument("--resupply", action="store_true", help="food short of the whole trip is a warning (resupply on "
                                                            "the way)")
     p.add_argument("--ids", help="the members who go (default: the exploration party)")
+    p = sub.add_parser("march")
+    p.add_argument("days", type=int)
+    p.add_argument("--route", required=True)
+    p.add_argument("--hours-per-day", type=float)
+    p.add_argument("--watches")
+    p.add_argument("--camp-hours", type=float, default=12)
+    p.add_argument("--dusk", type=float, default=18)
     p = sub.add_parser("cond")
     p.add_argument("action", choices=["add", "remove", "list"])
     p.add_argument("id")
@@ -452,7 +579,7 @@ def main(argv=None):
     if rest:
         ap.error("unrecognized arguments: " + " ".join(rest))
     return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond,
-            "depart": depart}[a.cmd](a)
+            "depart": depart, "march": march}[a.cmd](a)
 
 
 if __name__ == "__main__":
