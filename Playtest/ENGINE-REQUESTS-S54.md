@@ -197,8 +197,50 @@ role War Mount, trained value 20,000gp, adult 8,200, juvenile 2,125, baby 1,815;
    bewitched (juvenile rates), a trainer with 3 ranks refused for a monstrosity, and a trained war mount sold at 20,000gp
    adjusted by its attributes.
 
+## G. Monster parts and special components (new; MM pp. 366-387)
+Today the Judge harvests by hand (Rulings S47, S51, S52) and got it wrong in S52 (fireballed medusae: MM p. 371 says
+area damage ruins appendages, coverings and exterior organs, and an unpreserved component spoils in 1 turn without a
+metamphora). Build it into the engine:
+1. Data. Import the Special Components Tables by monster type (`Monster Rules/Special Components Tables (*).md`:
+   component, its kind (appendage, bones, covering, exterior organ, internal organ, remnant), value, encumbrance,
+   associated spell effects, bracketed restrictions), the default effects by type (`Value and Encumbrance of Special
+   Components.md`), and the mundane parts tables (`Antlers, Horns, and Tusks`, `Claws, Fangs, Stingers, Tails, and
+   Talons`, `Feathers and Plumage`, `Pelts and Meats`, `Rugs, Capes, Coats, and Trophies`, `Venoms`) with their
+   proficiencies and times; cross-check against each statblock's `spoils` field. Unlisted monsters: components worth
+   their XP value split by the Judge (`--split`), with the type's default effects.
+2. Intactness. The combat state records, per foe, what damaged it (area effects, blunt weapons, poison,
+   disintegration); `state end` and the new `area` command (B1) write it. Ruinous effects per MM's Ruining Special
+   Components table mark components ruined; the optional permanent-wounds check (MM: Mortal Wounds roll with the
+   timing and +1 per prerequisite rank; 0 or less destroys all) as a campaign setting.
+3. Identify. `acks components identify MONSTER --by ID`: Alchemy, Loremastery, Magical Engineering or Naturalism (one
+   attempt per proficiency until a level or rank is gained; 1 turn); a natural 20 on 1d20 gives an unusual component
+   (Judge's choice); Discern Magic route by a magic research throw each turn.
+4. Harvest. `acks harvest BODY --by ID [--component NAME] [--helpers …]`: appendages, exterior organs and remnants by
+   anyone in 1 turn; bones, coverings, internal organs only with the type's prerequisite (Animal: Animal Husbandry,
+   Labor (Butchery) or Trapping; Beastmen: AH and/or Healing 2; Construct: Magical Engineering; Giant and Humanoid:
+   Healing; Incarnation: Alchemy 2; Monstrosity: AH and/or Healing 3; Oozes and Plants: Alchemy; Undead: Alchemy 2
+   incorporeal or Healing 2 corporeal; Vermin: AH 2), the craftsman's tools, 1 turn per 100gp of value; the clock
+   advances. Each component needs a metamphora from the harvester's inventory (5gp and 1 stone per 60gp of value
+   stored; a catalog row), else it loses its value after 1 turn; moving a corpse before harvesting: a cumulative 10%
+   per 100' that its components lose their value. Results are treasure lots (special components) on a carrier, with
+   kind, value, weight (the metamphora's), associated effects and the monster's name.
+5. Mundane parts. Skinning, fleshing, butchering, plucking, horn removal and venom extraction by their proficiency
+   throws and times; values; venom doses as poison items that can coat weapons (MM Venoms); meat as food for the
+   travel supplies.
+6. Use and sale. Component lots count toward magic research and magic item creation costs for their associated
+   effects (RR Creating Magic Items, Component Cost; a hook for a future research module: `research` deducts matching
+   components by value); sold at value to alchemists and mages within the market's class and demand; sale XP as
+   treasure. Young and weak monsters and great-souled creatures by the MM's adjustments.
+7. The hunter. Rulings S47's hunter henchman (fortnightly hunts, JJ 11 abstract wilderness) uses `harvest` for his
+   share of components and metamphora.
+8. Tests: a medusa killed by a sword (eyes 100, hair-lock 50, skin 50, tongue 50; AH and/or Healing 3 for the covering
+   and internal organ; four metamphora), the same medusa fireballed (only the tongue intact), a hideous attercop's
+   spinneret (S50, an exterior organ, anyone), components carried 200' before harvesting, and a component left
+   unpreserved for a turn.
+
 ## E. Decisions for the user (not engine work)
 1. OPEN-ITEMS #24: `level-up` re-rolls hp without the permanent enervation losses; a Judge's correction is pending for
    Brennus (26) and Vettius (25) maximum hp (S20).
+3. S52 correction pending: the medusae's eyes and tongues harvested day 804 (L973-L976) were not harvestable as ruled (MM p. 371: Fireball ruins exterior organs; no metamphora were carried, so every component spoiled in a turn). They were paid out in A158 (300 XP) and sold day 841 (300gp). Void the lots, the 300gp and their XP, or keep them by a ruling.
 2. OPEN-ITEMS #43: Kardakia's `tools.ref` (main) and `tools.min_version` (7.11.0) in its `Campaign/campaign.yaml` are
    untouched; the 7.16-7.17 features (and this work) need them raised before Kardakia uses them.
