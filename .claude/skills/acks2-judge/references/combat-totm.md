@@ -72,6 +72,12 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    - **Sweep:** `acks.sh sweep <a> <t1> <t2> …`.
    - **Other damage** (spells, traps, falls, oil): `acks.sh damage <t> --dice XdY --type T [--extraordinary|--mundane]
      [--half]` (spells: `--extraordinary`; refused without a tier when the target's protection differs by tier).
+   - **Area spells** (engine 7.19.0): `acks.sh area --spell Fireball --caster <id> --targets A,B,… | --group G
+     [--count N] [--include <party ids>] [--dice 8d6]`: the damage rolled once (open), each target's save (hidden),
+     no save where half would still fell it, typed damage through the engine (types for `state end`, the area hit
+     recorded for components). The area, save, dice per level, type and tier come from the spell's note; `--dice`,
+     `--save`, `--type`, `--tier`, `--on-save`, `--label` for an effect without a note. A party member in the area
+     is refused unless `--include`d. Never a helper script's own loop.
    - **Damage set by hand** (an area spell, a fall): `acks.sh state set <id> hp=N type=fire` (or `--dmg-type fire`)
      records the type for `state end`'s Mortal Wounds (engine 7.18.10; damage from `attack` and `damage --type`
      records itself). **Cures in a fight:** `acks.sh state set <id> hp=N` (a cure that brings a dying combatant to 1 hp or more ends the dying timer; engine 7.14.0). A rebuked or frightened foe that is engaged (`state engage`) cowers. Berserkergang: `state cond <id> berserk` (`enraged` is accepted). A power's dice of its own type: `attack … --extra-dice "Striking:1d6:luminous"`; a damage bonus (Vigor, Ogre Strength): `--damage-mod "Vigor:+2"`. A mummy's slam puts mummy rot on the combatant: copy it to the actor after the fight. A character's worn protections (a ring) are the actor's `defenses` (`actor set <id> defenses '{"resist": "fire:both", "source": "…"}' --cause …`): `state add` applies them.
