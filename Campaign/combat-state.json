@@ -10,13 +10,13 @@
   ]
  },
  "combatants": {
-  "vettius": {
-   "id": "vettius",
+  "neris": {
+   "id": "neris",
    "side": "party",
    "status": "active",
    "conditions": [],
-   "group": "vettius",
-   "perceived": "vettius",
+   "group": "neris",
+   "perceived": "neris",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
@@ -26,17 +26,17 @@
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
-   "name": "Vettius",
+   "name": "Neris",
    "stats": {
-    "name": "Vettius",
-    "actor": "vettius",
+    "name": "Neris",
+    "actor": "neris",
     "kind": "pc",
-    "level": 9,
-    "class": "Thief",
+    "level": 8,
+    "class": "Priestess",
     "size": "man-sized",
     "mods": {
      "STR": [
-      1,
+      -2,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -44,321 +44,10 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 1
       }
      ],
      "INT": [
-      2,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 5
-      }
-     ],
-     "WIL": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "DEX": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CON": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "CHA": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ]
-    },
-    "attack_throw": [
-     6,
-     {
-      "table": "thief-attack-and-saving-throws",
-      "title": "Thief Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "block": "^tbl-thief-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 31",
-      "row": 4
-     }
-    ],
-    "saves": [
-     {
-      "paralysis": 9,
-      "death": 9,
-      "blast": 9,
-      "implements": 10,
-      "spells": 11
-     },
-     {
-      "table": "thief-attack-and-saving-throws",
-      "title": "Thief Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "block": "^tbl-thief-attack-and-saving-throws",
-      "book": "RR",
-      "page": "p. 31",
-      "row": 4
-     }
-    ],
-    "hit_die": [
-     "1d4",
-     {
-      "rule": "class.thief.hit_die",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "book": "RR",
-      "page": "p. 30"
-     }
-    ],
-    "progression": "crusader/thief",
-    "cleaves": [
-     4,
-     {
-      "rule": "class.thief.cleave",
-      "note": "ACKS II Rules/03 Classes/Thief.md",
-      "book": "RR",
-      "page": "p. 30"
-     }
-    ],
-    "throw_mods": {
-     "hiding": [
-      {
-       "target": "throws.hiding",
-       "value": -8,
-       "source": "Cloak of the Elven Ranger",
-       "cause": "worn",
-       "rule": "TT p. 151",
-       "item": "L528",
-       "flat": 12
-      }
-     ],
-     "sneaking": [
-      {
-       "target": "throws.sneaking",
-       "value": -8,
-       "source": "Boots of the Elven Ranger",
-       "cause": "worn",
-       "rule": "TT p. 140",
-       "item": "L529"
-      }
-     ]
-    },
-    "ac_options": {
-     "shield": 4,
-     "no_shield": 4,
-     "dex_only": 1
-    },
-    "hp_max": 32,
-    "movement_running": 30,
-    "weapons": [
-     {
-      "name": "Short Sword +2",
-      "init_bonus": "",
-      "attack_throw": 3,
-      "damage": "1d6+3",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "right hand"
-     },
-     {
-      "name": "Sword +2",
-      "init_bonus": "",
-      "attack_throw": 3,
-      "damage": "1d6+3",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "left hand"
-     },
-     {
-      "name": "Sword +1",
-      "init_bonus": "",
-      "attack_throw": 4,
-      "damage": "1d6/1d8+2",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "belt"
-     }
-    ],
-    "save_mods_text": {},
-    "initiative_sheet": null,
-    "proficiencies": [
-     "Lockpicking Expertise",
-     "Trapfinding",
-     "Alertness",
-     "Adventuring",
-     "Art and Craft (locksmithing)",
-     "Healing",
-     "Navigation",
-     "Caving",
-     "Alertness"
-    ],
-    "proficiency_throws": {},
-    "prof_throw_list": {
-     "lockpicking expertise": "",
-     "trapfinding": "",
-     "alertness": "",
-     "adventuring": "",
-     "art and craft (locksmithing)": "",
-     "healing": "",
-     "navigation": "",
-     "caving": ""
-    },
-    "ac_mode": "shield"
-   },
-   "actor": "vettius",
-   "hp_max": 32,
-   "hp": 32,
-   "hp_start": 32
-  },
-  "faustus-cerco": {
-   "id": "faustus-cerco",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "asleep",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 0,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 0,
-     "note": null
-    },
-    {
-     "name": "dead",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 0,
-     "note": null
-    }
-   ],
-   "group": "faustus",
-   "perceived": "the sleeping apprentice",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": {
-    "round": 0,
-    "types": [],
-    "natural": false,
-    "by": null,
-    "tier": null,
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": null,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "npc",
-   "name": "Faustus Cerco",
-   "stats": {
-    "name": "Faustus Cerco",
-    "actor": "faustus-cerco",
-    "kind": "npc",
-    "level": 1,
-    "class": "Mage",
-    "size": "man-sized",
-    "mods": {
-     "STR": [
-      2,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 5
-      }
-     ],
-     "INT": [
-      -3,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 0
-      }
-     ],
-     "WIL": [
-      1,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 4
-      }
-     ],
-     "DEX": [
-      0,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 3
-      }
-     ],
-     "CON": [
       -1,
       {
        "table": "attribute-modifiers",
@@ -370,6 +59,42 @@
        "row": 2
       }
      ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
      "CHA": [
       0,
       {
@@ -384,94 +109,172 @@
      ]
     },
     "attack_throw": [
-     10,
+     8,
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
+      "table": "priestess-attack-throws",
+      "title": "Priestess (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-attack-throws",
       "book": "RR",
-      "page": "p. 35",
-      "row": 0
+      "page": "p. 65",
+      "row": 2
      }
     ],
     "saves": [
      {
-      "paralysis": 13,
-      "death": 13,
-      "blast": 15,
-      "implements": 11,
-      "spells": 12
+      "paralysis": 9,
+      "death": 6,
+      "blast": 12,
+      "implements": 9,
+      "spells": 11
      },
      {
-      "table": "mage-attack-and-saving-throws",
-      "title": "Mage Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
-      "block": "^tbl-mage-attack-and-saving-throws",
+      "table": "priestess-saving-throws",
+      "title": "Priestess (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-saving-throws",
       "book": "RR",
-      "page": "p. 35",
-      "row": 0
+      "page": "p. 65",
+      "row": 3
      }
     ],
     "hit_die": [
      "1d4",
      {
-      "rule": "class.mage.hit_die",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "rule": "class.priestess.hit_die",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
       "book": "RR",
-      "page": "p. 34"
+      "page": "p. 64"
      }
     ],
     "progression": "mage",
     "cleaves": [
      0,
      {
-      "rule": "class.mage.cleave",
-      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "rule": "class.priestess.cleave",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
       "book": "RR",
-      "page": "p. 34"
+      "page": "p. 64"
      }
     ],
-    "ac_options": {
-     "shield": 0,
-     "no_shield": 0,
-     "dex_only": 0
+    "save_refs": {
+     "paralysis": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "death": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "blast": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "implements": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "spells": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     }
     },
-    "hp_max": 3,
-    "movement_running": 120,
-    "weapons": [],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 1
+    },
+    "hp_max": 21,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4/1d6-2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
     "save_mods_text": {},
-    "initiative_sheet": 0,
-    "proficiencies": [],
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Laying on Hands",
+     "Divine Blessing",
+     "Healing 2",
+     "Healing",
+     "Knowledge (astrology)"
+    ],
     "proficiency_throws": {},
-    "prof_throw_list": {},
+    "prof_throw_list": {
+     "laying on hands": "",
+     "divine blessing": "",
+     "healing 2": "",
+     "healing": "",
+     "knowledge (astrology)": ""
+    },
     "ac_mode": "shield"
    },
-   "actor": "faustus-cerco",
-   "hp_max": 3,
-   "hp": -10,
-   "hp_start": 3,
-   "mortal_wounds": {
-    "total": -23,
-    "d20": 8,
-    "d6": 6,
-    "table": "mortal-wounds-slashing",
-    "condition": "You were instantly killed.",
-    "wound": "A ghastly cut across the belly reveals your harsh demise.",
-    "band": "-6 or less"
-   },
-   "xp_recorded": {
-    "record": "M245",
-    "how": "killed",
-    "xp": 10
-   }
+   "actor": "neris",
+   "hp_max": 21,
+   "hp": 21,
+   "hp_start": 21
   }
  },
  "groups": {
-  "vettius": {
+  "neris": {
    "side": "party",
    "members": [
-    "vettius"
+    "neris"
    ],
    "morale": {
     "state": "steady",
@@ -479,44 +282,11 @@
     "triggered": false
    },
    "start_count": 1
-  },
-  "faustus": {
-   "side": "foe",
-   "members": [
-    "faustus-cerco"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1,
-   "felled_rounds": [
-    0
-   ]
   }
  },
  "engaged": [],
  "engaged_at_round_start": [],
  "distances": {},
  "log": [],
- "notes_shown": [],
- "party_hp_written": [
-  "vettius"
- ],
- "ended": {
-  "round": 0,
-  "felled_foes": [
-   {
-    "id": "faustus-cerco",
-    "name": "Faustus Cerco",
-    "perceived": "the sleeping apprentice",
-    "outcome": "slain",
-    "hp": -10,
-    "condition": "You were instantly killed.",
-    "wound": "A ghastly cut across the belly reveals your harsh demise.",
-    "total": -23
-   }
-  ]
- }
+ "notes_shown": []
 }

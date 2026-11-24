@@ -671,6 +671,15 @@
    "base": null,
    "note": "what remains of H117 after its Restore Life and Limb was read (day 517)",
    "judge": true
+  },
+  "scroll of fireball (arcane, auran)": {
+   "name": "scroll of Fireball (arcane, Auran)",
+   "items_each": 0,
+   "stone_each": "0",
+   "value_cp": 450000,
+   "base": null,
+   "note": null,
+   "judge": true
   }
  },
  "log": [
@@ -102523,6 +102532,237 @@
    "frm": "Cyfaraun",
    "cmd": "sell",
    "n": 5153
+  },
+  {
+   "op": "pay",
+   "cause": "the black barge's mooring, a fortnight ahead (days 546-559)",
+   "day": 546,
+   "time": "day 546 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -4
+    }
+   ],
+   "to": "Tertulla",
+   "price_cp": 400,
+   "cmd": "inv pay",
+   "n": 5154
+  },
+  {
+   "op": "give",
+   "cause": "vestus withdraws for the Fireball scroll's components (day 547)",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1500
+    },
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 1500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5155
+  },
+  {
+   "op": "pay",
+   "cause": "special components, miscellaneous (RR Adventuring Equipment), the component cost of a scroll of Fireball, paid at the end",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -1500
+    }
+   ],
+   "to": "the Tower's apothecary",
+   "price_cp": 150000,
+   "cmd": "inv pay",
+   "n": 5156
+  },
+  {
+   "op": "add",
+   "cause": "scribed by Vestus at the Tower's Arcane Workshop, days 540-547 (research throw 14 vs 13+)",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "scroll of fireball (arcane, auran)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5157
+  },
+  {
+   "op": "give",
+   "cause": "vestus withdraws the material cost of a scroll of Dispel Magic (day 547)",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1500
+    },
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 1500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5158
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, scroll of Dispel Magic (500gp x 3), the Tower's Arcane Workshop, day 547",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -1500
+    }
+   ],
+   "to": "the Tower's suppliers",
+   "price_cp": 150000,
+   "cmd": "inv pay",
+   "n": 5159
+  },
+  {
+   "op": "give",
+   "cause": "neris withdraws the material cost of a scroll of Death Ward (day 547)",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -2000
+    },
+    {
+     "who": "neris",
+     "gp": 2000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5160
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, scroll of Death Ward (500gp x 4; gold leaf, vellum, inks), day 547",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -2000
+    }
+   ],
+   "to": "the Grey Sisters' scriptorium suppliers",
+   "price_cp": 200000,
+   "cmd": "inv pay",
+   "n": 5161
+  },
+  {
+   "op": "give",
+   "cause": "hrodvar withdraws for a second try at the tomb-jacks (day 547)",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -150
+    },
+    {
+     "who": "hrodvar",
+     "gp": 150
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5162
+  },
+  {
+   "op": "pay",
+   "cause": "iron and smith's work, tomb-jacks, second try (Rulings S35)",
+   "day": 547,
+   "time": "day 547 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodvar",
+     "gp": -150
+    }
+   ],
+   "to": "a smith of the Bridge District",
+   "price_cp": 15000,
+   "cmd": "inv pay",
+   "n": 5163
+  },
+  {
+   "op": "give",
+   "cause": "vettius withdraws Phaedra's and Hrodvar's months (day 550)",
+   "day": 550,
+   "time": "day 550 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1600
+    },
+    {
+     "who": "vettius",
+     "gp": 1600
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5164
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 550,
+   "time": "day 550 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -800
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 80000,
+   "cmd": "inv wages",
+   "n": 5165
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 553,
+   "time": "day 553 06:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -800
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 80000,
+   "cmd": "inv wages",
+   "n": 5166
   }
  ],
  "holdings": {
@@ -102671,7 +102911,8 @@
     "oil, military (1 pint)": 5,
     "rubbing kit (10 parchment sheets, charcoal sticks)": 1,
     "spell book, blank (100 pages)": 1,
-    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
+    "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
+    "scroll of fireball (arcane, auran)": 1
    }
   },
   "donkey1": {
@@ -103328,7 +103569,7 @@
  },
  "coins": {
   "lucilla": {
-   "gp": 473,
+   "gp": 469,
    "sp": 211,
    "cp": 335
   },
@@ -103455,7 +103696,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 822107,
+   "gp": 815357,
    "cp": 4,
    "sp": 2
   },

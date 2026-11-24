@@ -4447,3 +4447,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | brennus |
 | 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 161gp 5sp 4cp |  | aelia |
 | 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | cotta |
+| 546 | Tertulla | the black barge's mooring, a fortnight ahead (days 546-559) |  |  | 4gp | lucilla |
+| 547 | the Tower's apothecary | special components, miscellaneous (RR Adventuring Equipment), the component cost of a scroll of Fireball, paid at the end |  |  | 1,500gp | vestus-the-unlikely |
+| 547 | the Tower's suppliers | material cost, scroll of Dispel Magic (500gp x 3), the Tower's Arcane Workshop, day 547 |  |  | 1,500gp | vestus-the-unlikely |
+| 547 | the Grey Sisters' scriptorium suppliers | material cost, scroll of Death Ward (500gp x 4; gold leaf, vellum, inks), day 547 |  |  | 2,000gp | neris |
+| 547 | a smith of the Bridge District | iron and smith's work, tomb-jacks, second try (Rulings S35) |  |  | 150gp | hrodvar |
+| 550 | the retinue | wages paid |  |  | 800gp | vettius |
+| 553 | the retinue | wages paid |  |  | 800gp | vettius |
