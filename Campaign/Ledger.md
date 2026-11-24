@@ -782,6 +782,20 @@ tags:
 | 773 | A156 clearing the barony's hex (26.19) and its edges | 2,000 silver pieces | 200 | cotta |
 | 773 | A156 clearing the barony's hex (26.19) and its edges | four ornamental stones (L947-L950) | 175 | cotta |
 | 773 | A156 clearing the barony's hex (26.19) and its edges | a piece of jewelry (fine wood) (L951) | 500 | cotta |
+| 803 | A157 the barony month (day 773-803) | two doses of dragon blood (stoppered vials) | 3,000 | ennia-ursa |
+| 803 | A157 the barony month (day 773-803) | 7,000 silver pieces | 700 | vettius |
+| 803 | A157 the barony month (day 773-803) | ornamental worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | sold |
+| 803 | A157 the barony month (day 773-803) | ornamental worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | sold |
+| 803 | A157 the barony month (day 773-803) | ornamental worth 50gp (Bloodstone, crystal, citrine, jasper, moonstone, onyx) | 50 | sold |
+| 803 | A157 the barony month (day 773-803) | ornamental worth 10gp (Azurite, hematite, malachite, obsidian, quartz) | 10 | sold |
+| 803 | A157 the barony month (day 773-803) | ornamental worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | sold |
+| 803 | A157 the barony month (day 773-803) | ornamental worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | sold |
+| 803 | A157 the barony month (day 773-803) | trinket worth 130gp (Glass, shells, or wrought copper, brass, or bronze) | 130 | sold |
+| 803 | A157 the barony month (day 773-803) | trinket worth 140gp (Glass, shells, or wrought copper, brass, or bronze) | 140 | sold |
+| 803 | A157 the barony month (day 773-803) | trinket worth 130gp (Glass, shells, or wrought copper, brass, or bronze) | 130 | sold |
+| 803 | A157 the barony month (day 773-803) | trinket worth 600gp (Fine wood, porcelain, or wrought silver) | 600 | sold |
+| 803 | A157 the barony month (day 773-803) | trinket worth 600gp (Fine wood, porcelain, or wrought silver) | 600 | sold |
+| 803 | A157 the barony month (day 773-803) | 21,000 copper pieces | 210 | tiberius-maro |
 
 ## Monster XP
 
@@ -1016,6 +1030,7 @@ tags:
 | 743 | A155 the march to the bugbears' fort | Bugbear (champion) | 2 | 140 | 280 |
 | 743 | A155 the march to the bugbears' fort | Bugbear (warrior) | 2 | 65 | 130 |
 | 773 | A156 clearing the barony's hex (26.19) and its edges | Hideous Attercop | 1 | 80 | 80 |
+| 803 | A157 the barony month (day 773-803) | Doppelgänger | 4 | 135 | 540 |
 
 ## Shares and XP awarded
 
@@ -2065,6 +2080,16 @@ tags:
 | 773 | A156 clearing the barony's hex (26.19) and its edges | Aelia | 0.5 | 73 | +0% | 73 |
 | 773 | A156 clearing the barony's hex (26.19) and its edges | Phaedra | 0.5 | 73 | +0% | 73 |
 | 773 | A156 clearing the barony's hex (26.19) and its edges | Ennia Ursa | 0.5 | 73 | +0% | 73 |
+| 803 | A157 the barony month (day 773-803) | Brennus | 1 | 709 | 68 | 0 | +5% | 815 |
+| 803 | A157 the barony month (day 773-803) | Vettius | 1 | 709 | 68 | 0 | +5% | 815 |
+| 803 | A157 the barony month (day 773-803) | Lucilla | 1 | 709 | 68 | 0 | +10% | 854 |
+| 803 | A157 the barony month (day 773-803) | Cotta | 1 | 709 | 68 | 0 | +0% | 776 |
+| 803 | A157 the barony month (day 773-803) | Neris | 1 | 709 | 68 | 0 | +0% | 776 |
+| 803 | A157 the barony month (day 773-803) | Vestus the Unlikely | 1 | 709 | 68 | 0 | +5% | 815 |
+| 803 | A157 the barony month (day 773-803) | Aelia | 0.5 | 354 | 34 | 0 | +0% | 388 |
+| 803 | A157 the barony month (day 773-803) | Phaedra | 0.5 | 354 | 34 | 0 | +0% | 388 |
+| 803 | A157 the barony month (day 773-803) | Ennia Ursa | 0.5 | 354 | 34 | 0 | +0% | 388 |
+| 803 | A157 the barony month (day 773-803) | Tiberius Maro | 0.5 | 354 | 34 | 0 | +0% | 388 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 52 class.bard.key_attributes; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5542,6 +5567,53 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 773 |  | treasure share |  | 15gp 3sp 8cp |  | aelia |
 | 773 |  | treasure share |  | 15gp 3sp 8cp |  | phaedra |
 | 773 |  | treasure share |  | 15gp 3sp 8cp |  | ennia-ursa |
+| 773 | the Legate's quartermaster, Türos Aster | 35 man-weeks of army rations at 3gp (Rulings S48) for the company in the fort, days 774-808 |  |  | 105gp | lucilla |
+| 773 | the Legate's quartermaster, Türos Aster | 260 man-weeks of army rations at 3gp (Rulings S48) for the 62 soldiers in the fort, days 773-808 |  |  | 780gp | lucilla |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 1gp | brennus |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 5gp | brennus |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 2gp | brennus |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 1gp | brennus |
+| 778 | the retinue | wages paid |  |  | 64gp | lucilla |
+| 778 | the retinue | wages paid |  |  | 180gp | lucilla |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 7gp | vettius |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 13gp | vettius |
+| 778 | brokers and criers | recruiting fee (a week's search) |  |  | 9gp | vettius |
+| 778 | the retinue | wages paid |  |  | 800gp | guildhouse-bank |
+| 778 | the retinue | wages paid |  |  | 2,250gp | guildhouse-bank |
+| 778 | the engineer (S67), Cyfaraun | signing bonus, a month's wage (Lucilla's factor's offer, day 790) |  |  | 400gp | guildhouse-bank |
+| 778 | the 225 laborers (S68), Cyfaraun | signing bonus, a week's wage each (Lucilla's factor's offer, day 790) |  |  | 282gp | guildhouse-bank |
+| 778 | Cyfaraun cartwrights, mule-dealers and grain merchants | the labor column's road south (120 miles, ten days): six carts and mules hired, food for 226 for twelve days (Judge's estimate) |  |  | 1,200gp | guildhouse-bank |
+| 778 | the courier (a light horseman of M44) | road money for the letters north and back |  |  | 40gp | guildhouse-bank |
+| 778 | settlers' seed, ploughs, oxen and cottage timber for the ford meadows (26.19) | agricultural investment, month 26 (RR Attracting Peasants: 1d10+1 families with the ruler overseeing) |  |  | 1,000gp | brennus |
+| 780 | the Merchant Guildhouse, Cyfaraun | storage fee 0.25% of the company's purse (702,391gp), month 26 (day 780; Rulings S16, S46) |  |  | 1,756gp | guildhouse-bank |
+| 780 | the Family (Bassus, for the boss) | the Family's take, month 26: the syndicate 16,083 and the Pony's half 1,624 (Rulings S19, S22, S25), deposited while Vettius is in the south |  | 17,707gp |  | guildhouse-bank |
+| 780 | Lucilla's front houses, The Mink and the venture company | Lucilla's income, month 26 (Rulings S19), deposited while she is in the south |  | 4,250gp |  | guildhouse-bank |
+| 785 | the Forum inn, Türos Tem | lodging and meals for Lucilla, Aelia and five horsemen, days 779-785 |  |  | 28gp | lucilla |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 3,764gp 1sp 9cp |  | lucilla |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 3,764gp 1sp 9cp |  | vettius |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 3,764gp 1sp 9cp |  | brennus |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 1,824gp 9sp 9cp |  | tiberius-maro |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 3,764gp 1sp 9cp |  | cotta |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 3,764gp 1sp 9cp |  | neris |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 1,882gp 1sp 1cp |  | aelia |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 1,882gp 1sp 1cp |  | phaedra |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 3,649gp 9sp 6cp |  | vestus-the-unlikely |
+| 790 | the Krysean caravan at Türos Aster | his share of the sale of L908,L909,L910,L911,L912,L913,L914,L922,L923,L924,L925,L926,L927,L928,L935,L936,L937,L938,L939,L940,L942,L943,L944,L945,L947,L948,L949,L950,L951,L954,L955,L956,L957,L958,L959,L960,L961,L962,L963,L964 (after the payout) |  | 1,882gp 1sp 1cp |  | ennia-ursa |
+| 790 | the Krysean caravan at Türos Aster | arrow | 40 |  | 2gp | cotta |
+| 790 | the Krysean caravan at Türos Aster | Shield, Mirror | 1 |  | 250gp | brennus |
+| 790 | the Krysean caravan at Türos Aster | Mirror (hand-sized, steel) | 3 |  | 15gp | vettius |
+| 801 | the Legate's quartermaster and the Krysean grain-factor, Türos Aster | 1,150 man-weeks of rations at 3gp for the engineer and 225 laborers, days 801-836 (Rulings S48) |  |  | 3,450gp | lucilla |
+| 801 | Türos Tem and Türos Aster lime-burners, sawyers and carters | materials for phase 1 of the fort's restoration (3,000gp, 50% of the project, RR Construction Materials; +10% carting): lime, timber, iron; the stone from the ruin and the outcrop east |  |  | 3,300gp | lucilla |
+| 803 |  | treasure share |  | 355gp 7sp 5cp |  | brennus |
+| 803 |  | treasure share |  | 355gp 7sp 5cp |  | vettius |
+| 803 |  | treasure share |  | 355gp 7sp 5cp |  | lucilla |
+| 803 |  | treasure share |  | 355gp 7sp 5cp |  | cotta |
+| 803 |  | treasure share |  | 355gp 7sp 5cp |  | neris |
+| 803 |  | treasure share |  | 355gp 7sp 5cp |  | vestus-the-unlikely |
+| 803 |  | treasure share |  | 177gp 8sp 8cp |  | aelia |
+| 803 |  | treasure share |  | 177gp 8sp 8cp |  | phaedra |
+| 803 |  | treasure share |  | 177gp 8sp 8cp |  | ennia-ursa |
+| 803 |  | treasure share |  | 177gp 8sp 8cp |  | tiberius-maro |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
