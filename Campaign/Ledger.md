@@ -5417,6 +5417,20 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 724 | the Silk Pony (Thana) | the rest of the stall fees for cotta-horse and ennia-horse, days 691-724 (33 nights) |  |  | 2gp | vestus-the-unlikely |
 | 724 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | vestus-the-unlikely |
 | 729 | the retinue | wages paid |  |  | 800gp | vettius |
+| 739 | the retinue | wages paid |  |  | 800gp | vettius |
+| 739 | the retinue | wages paid |  |  | 800gp | vettius |
+| 739 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 739 | the retinue | wages paid |  |  | 132gp | lucilla |
+| 739 | the retinue | wages paid |  |  | 120gp | lucilla |
+| 739 | the retinue | wages paid |  |  | 42gp | lucilla |
+| 739 | the retinue | wages paid |  |  | 30gp | lucilla |
+| 739 | the retinue | wages paid |  |  | 72gp | vettius |
+| 739 | the retinue | wages paid |  |  | 24gp | vettius |
+| 739 | the retinue | wages paid |  |  | 63gp | brennus |
+| 739 | the retinue | wages paid |  |  | 18gp | brennus |
+| 739 | the retinue | wages paid |  |  | 144gp | cotta |
+| 739 | the retinue | wages paid |  |  | 54gp | cotta |
+| 739 | the retinue | wages paid |  |  | 25gp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
