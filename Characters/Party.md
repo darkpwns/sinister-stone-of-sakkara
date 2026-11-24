@@ -16,5 +16,4 @@ Prose only; numbers are in each actor (`Characters/<id>.json`). Built 2026-11-24
 | Corvus (`corvus`) | Tomasz | Explorer 1, Neutral, 18 | A Türos Tem poacher's boy who knows the Viaspen's game trails. | Beast Friendship (reads beasts, +2 reactions with animals, keeps animal henchmen), Trapping; nets and bola for live capture |
 | Tertia (`tertia`) | Rosa | Venturer 1, Neutral, 22 | A Cyfaraun merchant's daughter who means to sell monster parts to the Tower at the Tower's prices. Frail (CON 5). | Bargaining, Animal Training, Animal Husbandry |
 
-> [!danger] Judge only
-> Owed: Hrodric's eagle totem as an actor (`Actors/monsters/hrodric-eagle.json`: Eagle/Hawk row of RR Shaman Totem Animals, ½ HD at his 1st level, 4 hp per HD, intellect half his; Spd 480' fly, AC 3, 2 attacks 1d3/1d3, dive), before its first fight or scouting flight.
+Hrodric's eagle: [[Hrodric's Eagle]] (kept by hand until the engine models totem animals).

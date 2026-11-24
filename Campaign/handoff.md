@@ -32,4 +32,4 @@ One file, rewritten each session by `handoff.py`; never appended to. The first b
 - Party strength 6 HD (six 1st-level PCs) = the L1 floor (Rulings R2 S02). Henchmen: a new 0th-level search in Türos Tem from day 31; up to 4 as the purse allows.
 - Training courses C21-C25 (war-dog pups, guards; Hrodric 3, Severina 2): tamed day 40 if the trainers stay in town; `train pause` each course when they leave, `resume` on return; supply 2.5gp a week.
 - Town attitudes: legate Neutral, Genelen Indifferent, Malyn's apprentices Neutral, Karanos Unfriendly, Thales Unfriendly, Socolo Unfriendly, Miren Neutral, Ilarion Neutral.
-- Owed: Hrodric's eagle totem actor.
+- Hrodric's eagle: by hand, `Characters/Hrodric's Eagle.md` (numbers, how to add it to a fight, its death); keep its hp line current.

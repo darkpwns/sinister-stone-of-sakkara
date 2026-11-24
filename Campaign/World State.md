@@ -61,6 +61,6 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Ansgar the lumbermonger: refused; another search for 0th-level henchmen in Türos Tem only from day 31 (month 2).
 - Rosa's reserve fund holds Tertia's 50 XP from the eggs' sale (day 10; by hand: the engine's fund has 281, already used by Severina).
 - Training courses C21-C25 (war dogs, guards): tamed day 40 if the trainers stay; `train pause` when Hrodric or Severina leave town, `train resume` on return; supply 2.5gp a week from the purse.
-- Hrodric's eagle totem actor (owed since S01).
+- Hrodric's eagle: kept by hand in `Characters/Hrodric's Eagle.md` (current hp there) until the engine models totem animals (user: after the playtest, before SOTN).
 
 - Notes prepped during run 1 beyond the modules (`Adventure/Porcius' Farm/`, `Ruined Imperial Fortress/`, `Ruined Monastery/`, `Stone Sisters' Cave/`, `Legion Waygate.md`, the AX3 contract NPCs in `Adventure/AX3/NPCs/`, AX3 dungeons built in play) may carry run-1 outcomes in their text: read them as unplayed (their keyed state as first written).
