@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 42
+session: 43
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 602
-  time: 06:11
+    day: 604
+  time: '17:11'
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -80,7 +80,8 @@ public:
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
-    spells_used: []
+    spells_used:
+    - Slumber
     encumbrance_st: 7.928
   - name: Cotta
     sheet: Characters/cotta.json
@@ -134,7 +135,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 602
+clock_day: 604
 ---
 # Campaign State
 

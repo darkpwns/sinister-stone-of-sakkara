@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 3
 tags:
   - sakkara/secret
+actor: "marcus-galeo"
 ---
 # Marcus Galeo (Order contract, Brennus, S42; Judge only)
 

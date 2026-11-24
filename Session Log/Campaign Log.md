@@ -51,3 +51,4 @@ tags:
 - [[S40 — The Old Ape's Word]]
 - [[S41 — The Rook]]
 - [[S42 — The Canary Trap]]
+- [[S43 — The Gate Toll]]

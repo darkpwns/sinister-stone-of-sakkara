@@ -1,16 +1,31 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 138,
+  "A": 139,
   "L": 858,
   "H": 137,
-  "M": 261
+  "M": 262
  },
  "adventure": {
-  "id": "A138",
-  "name": "Order contract: Theron Askalaios (Vestus)",
-  "start_day": 592,
+  "id": "A139",
+  "name": "Order contract: Marcus Galeo (Brennus)",
+  "start_day": 604,
   "participants": {
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
+    "kind": "pc",
+    "player": "Kwame",
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 161203,
+    "level_before": 8,
+    "class": "Fighter",
+    "joined_day": 604
+   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -19,31 +34,12 @@
     "player": "Tomasz",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 213749,
+    "xp_before": 224863,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 592,
-    "returned_day": 593,
-    "xp_award": 357
-   },
-   "vestus-the-unlikely": {
-    "id": "vestus-the-unlikely",
-    "name": "Vestus the Unlikely",
-    "actor": "vestus-the-unlikely",
-    "kind": "pc",
-    "player": "Priya",
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 141312,
-    "level_before": 7,
-    "class": "Mage",
-    "joined_day": 592,
-    "returned_day": 593,
-    "xp_award": 357
+    "joined_day": 604
    },
    "neris": {
     "id": "neris",
@@ -53,83 +49,49 @@
     "player": "Ingrid",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 146374,
+    "xp_before": 150761,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 592,
-    "returned_day": 593,
-    "xp_award": 340
+    "joined_day": 604
+   },
+   "phaedra": {
+    "id": "phaedra",
+    "name": "Phaedra",
+    "actor": "phaedra",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 63879,
+    "level_before": 6,
+    "class": "Mage",
+    "joined_day": 604
    }
   },
   "monsters": [
    {
-    "id": "M261",
-    "monster": "Theron Askalaios",
-    "source": "Theron Askalaios",
+    "id": "M262",
+    "monster": "Marcus Galeo",
+    "source": "Marcus Galeo",
     "number": 1,
     "how": "killed",
-    "xp_each": 20,
+    "xp_each": 50,
     "fight": {
      "ids": [
-      "theron-askalaios"
+      "marcus-galeo"
      ],
-     "text": "the fight with Theron Askalaios, round 0"
+     "text": "the fight with Marcus Galeo, 2 Bandit, round 0"
     }
    }
   ],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 593,
-   "at": "Cyfaraun",
-   "total": 1020.0,
-   "per_share": 340.0,
-   "awards": {
-    "vettius": {
-     "share": 1.0,
-     "why": null,
-     "base": 340,
-     "pct": 5,
-     "pen": 0,
-     "award": 357,
-     "xp_before": 213749,
-     "xp_after": 214106,
-     "capped": null,
-     "zero": false
-    },
-    "vestus-the-unlikely": {
-     "share": 1.0,
-     "why": null,
-     "base": 340,
-     "pct": 5,
-     "pen": 0,
-     "award": 357,
-     "xp_before": 141312,
-     "xp_after": 141669,
-     "capped": null,
-     "zero": false
-    },
-    "neris": {
-     "share": 1.0,
-     "why": null,
-     "base": 340,
-     "pct": 0,
-     "pen": 0,
-     "award": 340,
-     "xp_before": 146374,
-     "xp_after": 146714,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
-  "events": [],
-  "returned": {
-   "day": 593,
-   "where": "Cyfaraun"
-  }
+  "status": "open",
+  "payout": null,
+  "events": []
  },
  "closed": [
   {
@@ -41344,6 +41306,131 @@
    "events": [],
    "returned": {
     "day": 583,
+    "where": "Cyfaraun"
+   }
+  },
+  {
+   "id": "A138",
+   "name": "Order contract: Theron Askalaios (Vestus)",
+   "start_day": 592,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": "Tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 213749,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 592,
+     "returned_day": 593,
+     "xp_award": 357
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": "Priya",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 141312,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 592,
+     "returned_day": 593,
+     "xp_award": 357
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": "Ingrid",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 146374,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 592,
+     "returned_day": 593,
+     "xp_award": 340
+    }
+   },
+   "monsters": [
+    {
+     "id": "M261",
+     "monster": "Theron Askalaios",
+     "source": "Theron Askalaios",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 20,
+     "fight": {
+      "ids": [
+       "theron-askalaios"
+      ],
+      "text": "the fight with Theron Askalaios, round 0"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 593,
+    "at": "Cyfaraun",
+    "total": 1020.0,
+    "per_share": 340.0,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 340,
+      "pct": 5,
+      "pen": 0,
+      "award": 357,
+      "xp_before": 213749,
+      "xp_after": 214106,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 340,
+      "pct": 5,
+      "pen": 0,
+      "award": 357,
+      "xp_before": 141312,
+      "xp_after": 141669,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 340,
+      "pct": 0,
+      "pen": 0,
+      "award": 340,
+      "xp_before": 146374,
+      "xp_after": 146714,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 593,
     "where": "Cyfaraun"
    }
   }
