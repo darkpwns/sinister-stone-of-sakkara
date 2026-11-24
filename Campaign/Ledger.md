@@ -5614,6 +5614,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 803 |  | treasure share |  | 177gp 8sp 8cp |  | phaedra |
 | 803 |  | treasure share |  | 177gp 8sp 8cp |  | ennia-ursa |
 | 803 |  | treasure share |  | 177gp 8sp 8cp |  | tiberius-maro |
+| 803 | the Legate's quartermaster, Türos Aster | 50 man-weeks of army rations at 3gp (Rulings S48) for the company in the fort, days 804-838 |  |  | 75gp | lucilla |
+| 803 | the Legate's quartermaster, Türos Aster | 266 man-weeks of army rations at 3gp (Rulings S48) for the 62 soldiers in the fort, days 809-838 |  |  | 403gp | lucilla |
+| 803 | the Legate's quartermaster, Türos Aster | the rest of the company's 50 man-weeks (150gp in all; Judge's correction: 1pp = 5gp) |  |  | 75gp | lucilla |
+| 803 | the Legate's quartermaster, Türos Aster | the rest of the soldiers' 266 man-weeks (798gp in all; Judge's correction: 1pp = 5gp) |  |  | 395gp | lucilla |
+| 803 | the retinue | wages paid |  |  | 800gp | vettius |
+| 803 | the retinue | wages paid |  |  | 24gp | vettius |
+| 803 | the retinue | wages paid |  |  | 42gp | lucilla |
+| 803 | the retinue | wages paid |  |  | 30gp | lucilla |
+| 803 | the retinue | wages paid |  |  | 100gp | lucilla |
+| 803 | the retinue | wages paid |  |  | 18gp | brennus |
+| 803 | the retinue | wages paid |  |  | 54gp | cotta |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

@@ -60,3 +60,4 @@ tags:
 - [[S49 — The West Wall]]
 - [[S50 — Clearing the Barony]]
 - [[S51 — The Baron of the Ford]]
+- [[S52 — The First Month of the Ford]]

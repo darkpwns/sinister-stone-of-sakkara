@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 51
+session: 52
 mode: town
 location: '[[Turos Aster]]'
 adventure: Borderlands (AX3), between adventures (A157 paid out at Türos Aster, day 803)
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 16.309
+    encumbrance_st: 16.305
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 34
     conditions: []
     spells_used: []
-    encumbrance_st: 10.007
+    encumbrance_st: 10.004
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -75,7 +75,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 14.348
+    encumbrance_st: 14.33
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -91,7 +91,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.92
+    encumbrance_st: 8.866
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
