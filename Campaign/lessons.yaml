@@ -291,10 +291,11 @@ lessons:
 
 - id: secret-entries-first
   category: town-routine
-  status: refuse
+  status: judge                       # scoped to run 1 (user, 2026-11-24): was refuse; it fired on every `schedule run --due`
+  scope: "run 1 (S01-S54) only: the Family's (thieves' guild's) weekly secret; run 2 has no such schedule item. Restore status refuse only if a run-2 schedule gains a weekly-secret item"
   since: S47
   on: ["schedule run"]
-  where: ["argv ~ --due|weekly-secret"]
+  where: ["argv ~ weekly-secret"]
   text: "the Family's week's secret is rolled on six entries written first in World State (Rulings S25): write them, then run with ACKS_ACK=secret-entries-first"
   source: "judge-notes day 638 (S47): the schedule rolled the secret before the entries were written"
 
@@ -332,3 +333,30 @@ lessons:
   where: ["argv ~ --trigger level"]
   text: "`level-up --member ID --apply` already rolls a henchman's level loyalty: do not roll it again"
   source: "judge-notes S49 day 743 (Ennia's second roll void)"
+
+# ---- run 2 (from 2026-11-24)
+- id: camp-past-encounter
+  category: overland
+  status: refuse
+  since: R2 S03
+  on: [camp]
+  where: ["encounter.open"]
+  text: "an encounter is open (a night encounter the camp stopped at): resolve it (`encounter surprise|reaction|fight`, then `encounter end`) and `camp --resume`; a second `camp` ran 12 hours past the wraiths (Rulings R2 S03)"
+  source: "R2 S03 day 8 (Tertia's death replayed)"
+
+- id: load-before-march
+  category: overland
+  status: remind
+  since: R2 S02
+  on: [travel, forced-march]
+  text: "after any load change, check that every `inv give` went through and every member's `move-rate` band is what the march needs: one refused give left Galerius at 30' for an afternoon"
+  source: "R2 S02 day 5"
+
+- id: rest-due
+  category: dungeon
+  status: remind
+  since: R2 S02
+  on: [turn]
+  where: ["location.kind == dungeon"]
+  text: "a rest turn after every five turns in a dungeon (`rest`); the line says 'rest due': the party left the temple winded on day 4"
+  source: "R2 S02 day 4"
