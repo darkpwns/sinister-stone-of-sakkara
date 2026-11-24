@@ -195,6 +195,8 @@ refuses the rebuke before any roll (`state set ID rebuke_as=TYPE`, or `rebuke_as
 `rebuke ID --cornered ID,…` for undead that cannot flee (they cower). Righteous Rebuke (on the sheet, or `state set ID righteous_rebuke=yes`) is applied by the engine:
 + half the divine caster level (rounded up) to the 2d6 Hit Dice and the WIL modifier on the throw (7.19.22); do not
 pass it as `--mod` too. Battle Magic's +1 initiative for a caster who declared a spell is applied by the engine too
-(7.19.23). Undead at 0 hp are destroyed, also when hp is
+(7.19.23). A monster whose note says armor AC doesn't count (gelatinous mass) is attacked against the
+target's AC without armor by the engine (7.19.26); set `state set ID ac_armorless=N` for a target whose magic armor
+or shield bonus counts. Undead at 0 hp are destroyed, also when hp is
 set by `state set ID hp=N`. **Step the round with `round-next`** and act for the combatant it names: the lessons index
 reminds when an action is taken out of its count.
