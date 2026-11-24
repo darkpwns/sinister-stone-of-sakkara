@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 7
+session: 8
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,49 +10,49 @@ public:
   date:
     year: ''
     season: spring
-    day: 50
-  time: '18:01'
+    day: 52
+  time: 07:01
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate
   place: Türos Tem
-  hex: '24.19'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 5
-    hp_max: 5
+    hp: 6
+    hp_max: 6
     conditions: []
     spells_used: []
     encumbrance_st: 4.667
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 7
-    hp_max: 7
+    hp: 8
+    hp_max: 8
     conditions: []
     spells_used: []
     encumbrance_st: 6.333
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
-    hp: 6
-    hp_max: 6
+    hp: 10
+    hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 6.402
+    encumbrance_st: 6.332
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 4
-    hp_max: 4
+    hp: 7
+    hp_max: 7
     conditions: []
     spells_used: []
     encumbrance_st: 8
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 6
-    hp_max: 6
+    hp: 7
+    hp_max: 7
     conditions: []
     spells_used: []
     encumbrance_st: 7.833
@@ -89,12 +89,10 @@ public:
     spells_used: []
     encumbrance_st: 2.5
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 2 d, water 5.4 d; Faustina: food 2 d, water 0 d; Callista: food 2 d, water 3 d; Corvus: food 2 d, water 0 d; Hrodric: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 0 d, water 5.4 d (fatigued); Faustina: food 0 d, water 0 d (fatigued); Callista: food 0 d, water 3 d (fatigued); Corvus: food 0 d, water 0 d (fatigued); Hrodric: food 3 d, water 0 d (fatigued); Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '19.19'
-  - '20.19'
   - '21.20'
   - '22.20'
   - '23.21'
@@ -113,7 +111,9 @@ public:
   - '22.16'
   - '25.19'
   - '24.19'
-clock_day: 50
+  - '23.20'
+  - '22.20'
+clock_day: 52
 ---
 # Campaign State
 

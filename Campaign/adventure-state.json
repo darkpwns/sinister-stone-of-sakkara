@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 647,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 46
+    "joined_day": 46,
+    "returned_day": 52,
+    "xp_award": 2706
    },
    "faustina": {
     "id": "faustina",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 617,
     "level_before": 1,
     "class": "Priestess",
-    "joined_day": 46
+    "joined_day": 46,
+    "returned_day": 52,
+    "xp_award": 2583
    },
    "hrodric": {
     "id": "hrodric",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 453,
     "level_before": 1,
     "class": "Shaman",
-    "joined_day": 46
+    "joined_day": 46,
+    "returned_day": 52,
+    "xp_award": 2546
    },
    "callista": {
     "id": "callista",
@@ -64,12 +70,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 617,
     "level_before": 1,
     "class": "Mage",
-    "joined_day": 46
+    "joined_day": 46,
+    "returned_day": 52,
+    "xp_award": 2583
    },
    "corvus": {
     "id": "corvus",
@@ -79,24 +87,105 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 617,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 46
+    "joined_day": 46,
+    "returned_day": 52,
+    "xp_award": 2583
    }
   },
   "monsters": [],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 52,
+   "at": "Turos Tem",
+   "total": 12300.0,
+   "per_share": 2460.0,
+   "awards": {
+    "galerius": {
+     "share": 1.0,
+     "why": null,
+     "base": 2460,
+     "pct": 10,
+     "pen": 0,
+     "award": 2706,
+     "xp_before": 647,
+     "xp_after": 3353,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    },
+    "faustina": {
+     "share": 1.0,
+     "why": null,
+     "base": 2460,
+     "pct": 5,
+     "pen": 0,
+     "award": 2583,
+     "xp_before": 617,
+     "xp_after": 3200,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    },
+    "hrodric": {
+     "share": 1.0,
+     "why": null,
+     "base": 2460,
+     "pct": 5,
+     "pen": 0,
+     "award": 2546,
+     "xp_before": 453,
+     "xp_after": 2999,
+     "capped": [
+      2583,
+      2546
+     ],
+     "zero": false,
+     "level_up": 2
+    },
+    "callista": {
+     "share": 1.0,
+     "why": null,
+     "base": 2460,
+     "pct": 5,
+     "pen": 0,
+     "award": 2583,
+     "xp_before": 617,
+     "xp_after": 3200,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    },
+    "corvus": {
+     "share": 1.0,
+     "why": null,
+     "base": 2460,
+     "pct": 5,
+     "pen": 0,
+     "award": 2583,
+     "xp_before": 617,
+     "xp_after": 3200,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    }
+   }
+  },
   "events": [],
   "bearers": {
    "donkey1": {
     "name": "donkey1",
     "day": 50
    }
+  },
+  "returned": {
+   "day": 52,
+   "where": "Turos Tem"
   }
  },
  "closed": [
@@ -2362,8 +2451,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 50,
     "where": "a cache under a waystone by the road, 25.19"
@@ -2380,20 +2469,29 @@
    },
    "player": {
     "desc": "a piece of jewelry (alabaster)",
-    "value_gp": null,
+    "value_gp": 800,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 880.0,
+    "market": "Turos Tem (Market)",
+    "day": 52,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H1",
     "index": 1
-   }
+   },
+   "divided_day": 52
   },
   "L35": {
    "id": "L35",
@@ -2401,8 +2499,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 50,
     "where": "a cache under a waystone by the road, 25.19"
@@ -2419,20 +2517,29 @@
    },
    "player": {
     "desc": "a piece of jewelry (fine wood)",
-    "value_gp": null,
+    "value_gp": 400,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 440.0,
+    "market": "Turos Tem (Market)",
+    "day": 52,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H1",
     "index": 2
-   }
+   },
+   "divided_day": 52
   },
   "L36": {
    "id": "L36",
@@ -2440,8 +2547,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 50,
     "where": "a cache under a waystone by the road, 25.19"
@@ -2458,20 +2565,29 @@
    },
    "player": {
     "desc": "a piece of jewelry (wrought orichalcum)",
-    "value_gp": null,
+    "value_gp": 4000,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 4400.0,
+    "market": "Turos Tem (Market)",
+    "day": 52,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H1",
     "index": 3
-   }
+   },
+   "divided_day": 52
   },
   "L37": {
    "id": "L37",
@@ -2479,8 +2595,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 50,
     "where": "a cache under a waystone by the road, 25.19"
@@ -2497,20 +2613,29 @@
    },
    "player": {
     "desc": "a piece of jewelry (alabaster)",
-    "value_gp": null,
+    "value_gp": 1100,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1210.0,
+    "market": "Turos Tem (Market)",
+    "day": 52,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H1",
     "index": 4
-   }
+   },
+   "divided_day": 52
   },
   "L38": {
    "id": "L38",
@@ -2519,7 +2644,7 @@
    "qty": 6000,
    "stone": 6.0,
    "carrier": "donkey1",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 50,
     "where": "a cache under a waystone by the road, 25.19"
@@ -2548,7 +2673,8 @@
    "from_hoard": {
     "hoard": "H1",
     "index": 0
-   }
+   },
+   "divided_day": 52
   }
  },
  "hoards": {

@@ -1,23 +1,23 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 7,
- "generated": 1795563538,
+ "session": 8,
+ "generated": 1795563910,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 50
+  "day": 52
  },
- "time": "18:01",
+ "time": "07:01",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate",
  "place": "Türos Tem",
- "hex": "24.19",
+ "hex": "22.20",
  "party": [
   {
    "name": "Callista",
    "sheet": "Characters/callista.json",
    "role": "pc",
-   "hp": 5,
-   "hp_max": 5,
+   "hp": 6,
+   "hp_max": 6,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 4.667
@@ -26,8 +26,8 @@
    "name": "Corvus",
    "sheet": "Characters/corvus.json",
    "role": "pc",
-   "hp": 7,
-   "hp_max": 7,
+   "hp": 8,
+   "hp_max": 8,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 6.333
@@ -36,18 +36,18 @@
    "name": "Faustina",
    "sheet": "Characters/faustina.json",
    "role": "pc",
-   "hp": 6,
-   "hp_max": 6,
+   "hp": 10,
+   "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.402
+   "encumbrance_st": 6.332
   },
   {
    "name": "Galerius",
    "sheet": "Characters/galerius.json",
    "role": "pc",
-   "hp": 4,
-   "hp_max": 4,
+   "hp": 7,
+   "hp_max": 7,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 8
@@ -56,8 +56,8 @@
    "name": "Hrodric",
    "sheet": "Characters/hrodric.json",
    "role": "pc",
-   "hp": 6,
-   "hp_max": 6,
+   "hp": 7,
+   "hp_max": 7,
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 7.833
@@ -104,12 +104,10 @@
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 2 d, water 5.4 d; Faustina: food 2 d, water 0 d; Callista: food 2 d, water 3 d; Corvus: food 2 d, water 0 d; Hrodric: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 0 d, water 5.4 d (fatigued); Faustina: food 0 d, water 0 d (fatigued); Callista: food 0 d, water 3 d (fatigued); Corvus: food 0 d, water 0 d (fatigued); Hrodric: food 3 d, water 0 d (fatigued); Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "19.19",
-  "20.19",
   "21.20",
   "22.20",
   "23.21",
@@ -127,7 +125,9 @@
   "23.16",
   "22.16",
   "25.19",
-  "24.19"
+  "24.19",
+  "23.20",
+  "22.20"
  ],
  "explored_hexes": [
   {
@@ -165,13 +165,13 @@
    "role": "pc",
    "name": "Callista",
    "class": "Mage",
-   "level": 1,
-   "xp": 617,
+   "level": 2,
+   "xp": 3200,
    "alignment": "Neutral",
    "birthplace": "Cyfaraun",
    "age": 27,
    "gender": "female",
-   "hp_max": 5,
+   "hp_max": 6,
    "attributes": {
     "STR": {
      "score": 6,
@@ -208,8 +208,8 @@
    },
    "hit_die": "1d4",
    "cleaves": 0,
-   "title": "Arcanist",
-   "xp_next": 2500,
+   "title": "Seer",
+   "xp_next": 5000,
    "attack_table": [
     10,
     11,
@@ -258,7 +258,7 @@
      "6": []
     },
     "per_day": [
-     1,
+     2,
      0,
      0,
      0,
@@ -398,7 +398,7 @@
      "possessions",
      "retinue"
     ],
-    "level": 1,
+    "level": 2,
     "max_level": 14,
     "class_skills": {},
     "level_columns": {},
@@ -422,13 +422,13 @@
    "role": "pc",
    "name": "Corvus",
    "class": "Explorer",
-   "level": 1,
-   "xp": 617,
+   "level": 2,
+   "xp": 3200,
    "alignment": "Neutral",
    "birthplace": "Türos Tem",
    "age": 18,
    "gender": "male",
-   "hp_max": 7,
+   "hp_max": 8,
    "attributes": {
     "STR": {
      "score": 10,
@@ -455,19 +455,20 @@
      "mod": 0
     }
    },
-   "attack_throw": 10,
+   "attack_throw": 9,
    "saves": {
-    "paralysis": 13,
-    "death": 14,
-    "blast": 15,
-    "implements": 16,
-    "spells": 17
+    "paralysis": 12,
+    "death": 13,
+    "blast": 14,
+    "implements": 15,
+    "spells": 16
    },
    "hit_die": "1d6",
-   "cleaves": 1,
-   "title": "Scout",
-   "xp_next": 2000,
+   "cleaves": 2,
+   "title": "Outrider",
+   "xp_next": 4000,
    "attack_table": [
+    9,
     10,
     11,
     12,
@@ -477,8 +478,7 @@
     16,
     17,
     18,
-    19,
-    20
+    19
    ],
    "proficiencies": {
     "class": [
@@ -573,7 +573,7 @@
     {
      "name": "Short Sword",
      "init_bonus": "",
-     "attack_throw": 10,
+     "attack_throw": 9,
      "damage": "1d6+1",
      "range": {
       "short": 0,
@@ -585,7 +585,7 @@
     {
      "name": "Bola",
      "init_bonus": "",
-     "attack_throw": 10,
+     "attack_throw": 9,
      "damage": "1d2+1",
      "range": {
       "short": 15,
@@ -597,7 +597,7 @@
     {
      "name": "Net",
      "init_bonus": "",
-     "attack_throw": 10,
+     "attack_throw": 9,
      "damage": "",
      "range": {
       "short": 10,
@@ -609,7 +609,7 @@
     {
      "name": "Short Bow",
      "init_bonus": "",
-     "attack_throw": 10,
+     "attack_throw": 9,
      "damage": "1d6+1",
      "range": {
       "short": 75,
@@ -654,7 +654,7 @@
      "possessions",
      "retinue"
     ],
-    "level": 1,
+    "level": 2,
     "max_level": 14,
     "class_skills": {},
     "level_columns": {
@@ -662,7 +662,7 @@
       "value": "+1",
       "kind": "damage-bonus",
       "table": "explorer-level-progression",
-      "row": 0
+      "row": 1
      }
     },
     "powers": {
@@ -690,13 +690,13 @@
    "role": "pc",
    "name": "Faustina",
    "class": "Priestess",
-   "level": 1,
-   "xp": 617,
+   "level": 2,
+   "xp": 3200,
    "alignment": "Lawful",
    "birthplace": "Türos Tem",
    "age": 21,
    "gender": "female",
-   "hp_max": 6,
+   "hp_max": 10,
    "attributes": {
     "STR": {
      "score": 7,
@@ -733,8 +733,8 @@
    },
    "hit_die": "1d4",
    "cleaves": 0,
-   "title": "Novice",
-   "xp_next": 2000,
+   "title": "Daughter",
+   "xp_next": 4000,
    "attack_table": [
     10,
     11,
@@ -831,11 +831,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 2381,
+    "gp": 2311,
     "sp": 6,
     "cp": 15
    },
-   "encumbrance_st": 6.402,
+   "encumbrance_st": 6.332,
    "weapons": [
     {
      "name": "Staff",
@@ -870,30 +870,6 @@
      "apparent_value_gp": 250,
      "magical": true,
      "stone": 0.167
-    },
-    {
-     "id": "L34",
-     "looks": "a piece of jewelry (alabaster)",
-     "qty": 1,
-     "stone": 0.167
-    },
-    {
-     "id": "L35",
-     "looks": "a piece of jewelry (fine wood)",
-     "qty": 1,
-     "stone": 0.167
-    },
-    {
-     "id": "L36",
-     "looks": "a piece of jewelry (wrought orichalcum)",
-     "qty": 1,
-     "stone": 0.167
-    },
-    {
-     "id": "L37",
-     "looks": "a piece of jewelry (alabaster)",
-     "qty": 1,
-     "stone": 0.167
     }
    ],
    "spells": {
@@ -922,7 +898,7 @@
      "6": []
     },
     "per_day": [
-     2,
+     3,
      0,
      0,
      0,
@@ -965,7 +941,7 @@
      "possessions",
      "retinue"
     ],
-    "level": 1,
+    "level": 2,
     "max_level": 14,
     "class_skills": {},
     "level_columns": {},
@@ -1097,13 +1073,13 @@
    "role": "pc",
    "name": "Galerius",
    "class": "Fighter",
-   "level": 1,
-   "xp": 647,
+   "level": 2,
+   "xp": 3353,
    "alignment": "Lawful",
    "birthplace": "Türos Tem",
    "age": 22,
    "gender": "male",
-   "hp_max": 4,
+   "hp_max": 7,
    "attributes": {
     "STR": {
      "score": 17,
@@ -1130,19 +1106,20 @@
      "mod": -1
     }
    },
-   "attack_throw": 10,
+   "attack_throw": 9,
    "saves": {
-    "paralysis": 13,
-    "death": 14,
-    "blast": 15,
-    "implements": 16,
-    "spells": 17
+    "paralysis": 12,
+    "death": 13,
+    "blast": 14,
+    "implements": 15,
+    "spells": 16
    },
    "hit_die": "1d8",
-   "cleaves": 1,
-   "title": "Man-at-Arms",
-   "xp_next": 2000,
+   "cleaves": 2,
+   "title": "Warrior",
+   "xp_next": 4000,
    "attack_table": [
+    9,
     10,
     11,
     12,
@@ -1152,8 +1129,7 @@
     16,
     17,
     18,
-    19,
-    20
+    19
    ],
    "proficiencies": {
     "class": [
@@ -1248,7 +1224,7 @@
     {
      "name": "Sword",
      "init_bonus": "",
-     "attack_throw": 8,
+     "attack_throw": 7,
      "damage": "1d6+3",
      "range": {
       "short": 0,
@@ -1260,7 +1236,7 @@
     {
      "name": "Net",
      "init_bonus": "",
-     "attack_throw": 8,
+     "attack_throw": 7,
      "damage": "",
      "range": {
       "short": 10,
@@ -1305,7 +1281,7 @@
      "possessions",
      "retinue"
     ],
-    "level": 1,
+    "level": 2,
     "max_level": 14,
     "class_skills": {},
     "level_columns": {
@@ -1313,7 +1289,7 @@
       "value": "+1",
       "kind": "damage-bonus",
       "table": "fighter-level-progression",
-      "row": 0
+      "row": 1
      }
     },
     "powers": {
@@ -1335,13 +1311,13 @@
    "role": "pc",
    "name": "Hrodric",
    "class": "Shaman",
-   "level": 1,
-   "xp": 453,
+   "level": 2,
+   "xp": 2999,
    "alignment": "Neutral",
    "birthplace": "the Jutlandic north",
    "age": 20,
    "gender": "male",
-   "hp_max": 6,
+   "hp_max": 7,
    "attributes": {
     "STR": {
      "score": 12,
@@ -1377,9 +1353,9 @@
     "spells": 15
    },
    "hit_die": "1d6",
-   "cleaves": 0,
-   "title": "Spirit Whisperer",
-   "xp_next": 1500,
+   "cleaves": 1,
+   "title": "Village Healer",
+   "xp_next": 3000,
    "attack_table": [
     10,
     11,
@@ -1546,7 +1522,7 @@
      "6": []
     },
     "per_day": [
-     1,
+     2,
      0,
      0,
      0,
@@ -1589,7 +1565,7 @@
      "possessions",
      "retinue"
     ],
-    "level": 1,
+    "level": 2,
     "max_level": 14,
     "class_skills": {},
     "level_columns": {},
@@ -2665,239 +2641,7 @@
    }
   }
  ],
- "open_rolls": [
-  {
-   "label": "search fee 0th level (Class V)",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    6
-   ],
-   "total": 11
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    6
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    6
-   ],
-   "total": 11
-  },
-  {
-   "label": "Galerius surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Faustina surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Callista surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Corvus surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    6
-   ],
-   "total": 11
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    6
-   ],
-   "total": 12
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    3
-   ],
-   "total": 6
-  },
-  {
-   "label": "Callista throw",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "Galerius surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Faustina surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Callista surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Corvus surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather temperature (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    3
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather temperature (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    3
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather precipitation (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    4
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather wind (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    3
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather temperature (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    2
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather wind (R07.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  }
- ],
+ "open_rolls": [],
  "rumours_heard": [
   "Day 5, the Buried Temple (L1 2): three Red Eye gnolls, Friendly, taking the party for new recruits: 'the Lady Below' rewards any band that wipes out one of her lesser tribes, as she rewarded the Red Eye gnolls.",
   "Day 27, Türos Tem: Priestess Genelen (Friendly, to Faustina) confided that villagers and soldiers suffer nightmares; she suspects a curse.",

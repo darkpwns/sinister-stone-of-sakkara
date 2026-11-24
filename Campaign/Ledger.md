@@ -27,6 +27,11 @@ tags:
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | ogre knucklebones in 2 metamphora (monster component, bones; humanoid default effect beguile humanoid) | 120 | sold |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | 3,000 silver pieces | 300 | severina |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | 300 gold pieces | 300 | galerius |
+| 52 | Pilgrimage to the Shrine of the White Lady | jewelry worth 800gp (Alabaster, chryselephantine, ivory, or wrought gold) | 800 | sold |
+| 52 | Pilgrimage to the Shrine of the White Lady | jewelry worth 400gp (Fine wood, porcelain, or wrought silver) | 400 | sold |
+| 52 | Pilgrimage to the Shrine of the White Lady | jewelry worth 4,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 4,000 | sold |
+| 52 | Pilgrimage to the Shrine of the White Lady | jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold) | 1,100 | sold |
+| 52 | Pilgrimage to the Shrine of the White Lady | 6,000 gold pieces | 6,000 | donkey1 |
 
 ## Monster XP
 
@@ -70,6 +75,11 @@ tags:
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Corvus | 1 | 120 | 36 | 0 | +5% | 164 |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Marius | 0.5 | 60 | 18 | 0 | +0% | 78 |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Lupa | 0.5 | 60 | 18 | 0 | +0% | 78 |
+| 52 | Pilgrimage to the Shrine of the White Lady | Galerius | 1 | 2,460 | 0 | 0 | +10% | 2,706 |
+| 52 | Pilgrimage to the Shrine of the White Lady | Faustina | 1 | 2,460 | 0 | 0 | +5% | 2,583 |
+| 52 | Pilgrimage to the Shrine of the White Lady | Hrodric | 1 | 2,460 | 0 | 0 | +5% (capped) | 2,546 |
+| 52 | Pilgrimage to the Shrine of the White Lady | Callista | 1 | 2,460 | 0 | 0 | +5% | 2,583 |
+| 52 | Pilgrimage to the Shrine of the White Lady | Corvus | 1 | 2,460 | 0 | 0 | +5% | 2,583 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -193,3 +203,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 45 | titus (signing bonus) | signing bonus, a month's wage |  |  | 12gp | faustina |
 | 45 | Turos Tem | Padded Armor | 1 |  | 9gp | faustina |
 | 49 | Türos Aster village (lodging and meals) | night of day 49 for five and a donkey |  |  | 1gp | faustina |
+| 52 |  | treasure share |  | 2,586gp |  | galerius |
+| 52 |  | treasure share |  | 2,586gp |  | faustina |
+| 52 |  | treasure share |  | 2,586gp |  | hrodric |
+| 52 |  | treasure share |  | 2,586gp |  | callista |
+| 52 |  | treasure share |  | 2,586gp |  | corvus |

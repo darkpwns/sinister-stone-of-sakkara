@@ -10,19 +10,19 @@ Hrodric's totem animal (RR Shaman, Totem Animal; chosen at creation, S01). Kept 
 animals (the user, 2026-11-24: to be added after the Sakkara playtest, before SOTN). Its current hp are kept on this
 note: update the line below after every fight or injury.
 
-**Current hp: 2 / 2** (day 19)
+**Current hp: 4 / 4** (day 52: Hrodric 2nd level, rescaled)
 
-## Numbers (Hrodric at 1st level)
+## Numbers (Hrodric at 2nd level, from day 52)
 
 | | Value | Source |
 | --- | --- | --- |
-| Hit Dice | 1/2 (one less than Hrodric's; 1/2 at his 1st level) | RR Shaman, Hit Dice |
-| hp | 2 (4 per HD) | RR Shaman, Hit Dice |
+| Hit Dice | 1 (one less than Hrodric's 2; it was 1/2 at his 1st level) | RR Shaman, Hit Dice |
+| hp | 4 (4 per HD) | RR Shaman, Hit Dice |
 | AC | 3 | Totem table AC 3; difference from an ordinary eagle (HD 1+1) is 1/2 HD, rounded to even = 0: no change |
-| Attacks | 2 talons, 12+ (as a monster of 1/2 HD) | RR Shaman ("attack throws as a monster of its HD"); MM Medium Raptor (1/2 HD, 12+) |
-| Damage | 1d3 / 1d3 slashing | Totem table; no HD adjustment (difference 0) |
+| Attacks | 2 talons, 10+ (as a monster of 1 HD) | RR Shaman ("attack throws as a monster of its HD"); RR p. 296 Attack Throws by Level and HD (1 HD: 10+) |
+| Damage | 1d3 / 1d3 slashing | Totem table; at 1 HD the difference from 1 HD is 0: no adjustment |
 | Dive | double damage dice (2d3 per talon) in open terrain; both talons on a smaller foe: its size-adjusted Paralysis save or grabbed (talons automatic each round while grabbed) | MM p. 17 Dive Attack; MM Medium Raptor |
-| Saves | as a Fighter of 1/4 HD: F0 (as a normal man) | RR Shaman ("saving throws as a Fighter of half its HD") |
+| Saves | as a Fighter of 1/2 HD: F0 (as a normal man) | RR Shaman ("saving throws as a Fighter of half its HD") |
 | Morale | none: utterly loyal while Hrodric keeps his tribal traditions; fights for him and obeys | RR Shaman, Mind and loyalty |
 | Speed | 480' flying (totem table); 20'/60' on the ground (Medium Raptor) | RR Shaman table; MM Medium Raptor |
 | Senses | acute vision; +2 to avoid surprise in the open (alert) | MM Medium Raptor |
@@ -38,7 +38,7 @@ difference from 1 HD (Judge decides the dice); attack throw as a monster of its 
 
 - **In a fight:** add it as a party combatant on the Medium Raptor statblock with its own numbers:
   `state add hrodric-eagle --monster "Medium Raptor" --side party --perceived "Hrodric's eagle"`, then
-  `state set hrodric-eagle hp=<current> hp_max=2 ac=3 damage=1d3 attack_throw=12 save=F0`. Ignore the JUDGE line on
+  `state set hrodric-eagle hp=<current> hp_max=4 ac=3 damage=1d3 attack_throw=10 save=F0`. Ignore the JUDGE line on
   the desert vulture's defenses (an eagle has none). Its two talons: `attack hrodric-eagle T --attack 0`, then
   `--attack 1`. A dive: `attack … --no-damage` for each talon, then `damage T --dice 2d3 --type slashing --mundane`
   per hit; on two hits against a smaller foe, the foe's size-adjusted Paralysis save (`save T paralysis`) or
