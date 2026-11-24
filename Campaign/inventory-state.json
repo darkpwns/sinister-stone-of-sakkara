@@ -901,6 +901,12 @@
      "cause": "the march south"
     }
    ]
+  },
+  "ground:27.16": {
+   "kind": "cache",
+   "name": "ground:27.16",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -122815,6 +122821,29 @@
    "coins": [],
    "cmd": "inv add",
    "n": 6241
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:27.16",
+   "day": 736,
+   "time": "day 736 02:30",
+   "deltas": [
+    {
+     "who": "aelia",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "ground:27.16",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 6242
   }
  ],
  "holdings": {
@@ -123332,7 +123361,7 @@
     "waterskin": 5
    },
    "backpack": {
-    "arrow": 26,
+    "arrow": 25,
     "waterskin": 10,
     "torch": 2,
     "tinderbox (flint & steel)": 1,
@@ -123755,6 +123784,11 @@
     "iron spike": 10,
     "leather armor": 1,
     "caltrops (20 oz bag)": 2
+   }
+  },
+  "ground:27.16": {
+   "here": {
+    "arrow": 1
    }
   }
  },

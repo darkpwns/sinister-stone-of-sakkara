@@ -32,24 +32,6 @@ items:
   - "write the result to World State Scheduled events"
   source: "AX3 pp. 175-176 (Tables ax3-eclipse-contracts, ax3-retribution-*); Rulings S25, S28; target level: Judge's call S28"
 
-- id: weekly-brotherhood
-  title: "Weekly: someone seeks the Brotherhood"
-  every: 7
-  anchor: 477
-  from: 484
-  rolls:
-  - label: "someone seeks the Brotherhood"
-    dice: 1d6
-    on: "1"
-    outcomes: {"1": "a seeker", "2-6": "nobody"}
-    then:
-    - {label: "the seeker", dice: 1d6, outcomes: {"1-2": "a merchant", "3-4": "a patrician's steward", "5": "a jilted lover", "6": "a Watch officer"}}
-    - {label: "the target", dice: 1d6, outcomes: {"1-2": "a rival merchant", "3-4": "a spouse", "5": "a moneylender", "6": "the Captain"}}
-    - {label: "days until Destrio's answer", dice: 1d3}
-    - {label: "Destrio's answer", dice: 1d6, outcomes: {"1-2": "watched, let be", "3-4": "the target warned, the seeker left to the Watch", "5-6": "the name entered in the Codex: ruinous misfortune"}}
-  steps: ["the note is left for 'Vasan' at the Nicean stalls; Lucilla's men bring it; reported to Destrio through Oppius"]
-  source: "Judge's call (World State days 330, 365); Rulings S25 (no Rulings row defines the 1-in-6)"
-
 - id: weekly-wharf-betrayer
   title: "Weekly: an untraced wharf betrayer sells word"
   every: 7
