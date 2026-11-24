@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 832
-  time: 01:04
+    day: 840
+  time: 06:00
   weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; drizzle; wind gentle (drizzly)
   place: Türos Aster
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 11.77
+    encumbrance_st: 11.963
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -63,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 11.364
+    encumbrance_st: 11.452
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -75,7 +75,7 @@ public:
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 14
+    hp: 20
     hp_max: 20
     conditions: []
     spells_used: []
@@ -108,7 +108,7 @@ public:
     encumbrance_st: 4.3
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 4 d, water 0.2 d; Brennus: food 4 d, water 1.2 d; Vettius: food 4 d, water 1.4 d; Lucilla: food 4 d, water 1 d; Neris: food 4 d, water 0 d; Aelia: food 4 d, water 0 d; Phaedra: food 4 d, water 0 d; Ennia Ursa: food 3 d, water 0.2 d; Vestus the Unlikely: food 4 d, water 2.8 d'
+  rations: 'Cotta: food 4 d, water 0.2 d; Brennus: food 4 d, water 1.2 d; Vettius: food 4 d, water 1.4 d; Lucilla: food 4 d, water 1 d; Neris: food 4 d, water 0 d; Aelia: food 4 d, water 0 d; Phaedra: food 4 d, water 0 d; Ennia Ursa: food 0 d, water 0.2 d; Vestus the Unlikely: food 4 d, water 2.8 d'
   tracker: {}
   threads:
   - 'The Silk Pony, Cyfaraun: the Gilded Ram''s men, Lentulus Mordax''s gangs and Sigvald''s forty Jutlanders come at the Pony the night of day 831'
@@ -139,7 +139,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 832
+clock_day: 840
 ---
 # Campaign State
 

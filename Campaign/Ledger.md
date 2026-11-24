@@ -1048,6 +1048,12 @@ tags:
 | 803 | A157 the barony month (day 773-803) | Doppelgänger | 4 | 135 | 540 |
 | 804 | A158 the stone sisters' cave | Medusa | 2 | 245 | 490 |
 | 804 | A158 the stone sisters' cave | Medusa | 1 | 245 | 245 |
+| 832 | A160 the night at the Silk Pony | Brigand | 1 | 200 | 200 |
+| 832 | A160 the night at the Silk Pony | Brigand | 1 | 50 | 50 |
+| 832 | A160 the night at the Silk Pony | Brigand | 38 | 10 | 380 |
+| 832 | A160 the night at the Silk Pony | Bandit | 1 | 80 | 80 |
+| 832 | A160 the night at the Silk Pony | Bandit | 15 | 10 | 150 |
+| 832 | A160 the night at the Silk Pony | Bandit | 1 | 10 | 10 |
 
 ## Shares and XP awarded
 
@@ -2126,6 +2132,15 @@ tags:
 | 829 | A159 the road north | Aelia | 0.5 | 977 | 0 | 0 | +0% | 977 |
 | 829 | A159 the road north | Phaedra | 0.5 | 977 | 0 | 0 | +0% | 977 |
 | 829 | A159 the road north | Ennia Ursa | 0.5 | 977 | 0 | 0 | +0% | 977 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 832 | A160 the night at the Silk Pony | Cotta | 1 | 0 | 116 | 0 | +0% | 116 |
+| 832 | A160 the night at the Silk Pony | Brennus | 1 | 0 | 116 | 0 | +5% | 122 |
+| 832 | A160 the night at the Silk Pony | Vettius | 1 | 0 | 116 | 0 | +5% | 122 |
+| 832 | A160 the night at the Silk Pony | Lucilla | 1 | 0 | 116 | 0 | +10% | 128 |
+| 832 | A160 the night at the Silk Pony | Neris | 1 | 0 | 116 | 0 | +0% | 116 |
+| 832 | A160 the night at the Silk Pony | Vestus the Unlikely | 1 | 0 | 116 | 0 | +5% | 122 |
+| 832 | A160 the night at the Silk Pony | Aelia | 0.5 | 0 | 58 | 0 | +0% | 58 |
+| 832 | A160 the night at the Silk Pony | Phaedra | 0.5 | 0 | 58 | 0 | +0% | 58 |
+| 832 | A160 the night at the Silk Pony | Ennia Ursa | 0.5 | 0 | 58 | 0 | +0% | 58 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5736,6 +5751,30 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 829 |  | treasure share |  |  |  |  |
 | 829 |  | treasure share |  |  |  |  |
 | 829 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 |  | treasure share |  |  |  |  |
+| 832 | brokers and criers | recruiting fee (a week's search) |  |  | 8gp | lucilla |
+| 832 | brokers and criers | recruiting fee (a week's search) |  |  | 11gp | lucilla |
+| 832 | the retinue | wages paid |  |  | 2,000gp | lucilla |
+| 832 | the retinue | wages paid |  |  | 400gp | lucilla |
+| 832 | the new workmen (signing: a week's wage) | signing bonus, a week's wage: 200 laborers at 5gp/month and 25 masons at 8gp/month (Rulings S51 terms) |  |  | 250gp | lucilla |
+| 832 | Cyfaraun grain-factors and carters | the labour column's road south (120 miles, about twelve days): six carts and mules hired, food for 226 for two weeks (Judge's estimate as S51) |  |  | 1,500gp | lucilla |
+| 833 | the Grey Sisters and the Silk Pony's kitchens | Vettius and Thana's wedding (day 833): the rite before Calefa (Neris officiating), a gift to the Grey Sisters 200gp, the feast for the Family and the Festival District 800gp |  |  | 1,000gp | vettius |
+| 834 | her caravan factors, Cyfaraun | investment returns months 25-27 collected (inv 1 month 26: Return 1% of 582 = 6gp; inv 3 month 26: Return -50% and Disrepute halved: 7gp; RR Passive Investment) |  | 13gp |  | lucilla |
+| 840 | the Merchant Guildhouse, Cyfaraun | storage fee 0.25% of the company's purse (726,660gp), month 28 (day 840; Rulings S16, S46) |  |  | 1,817gp | guildhouse-bank |
+| 840 | the Family (Bassus) | the Family's syndicate take, month 28: days 832-840 only (9/30 of 31,728: the full take, the boss home; Mordax and his 13 gone: -438) (Rulings S46, S54) |  | 9,518gp |  | guildhouse-bank |
+| 840 | Thana, the Silk Pony | the Pony's honest half 1,624 and the North Gate dice-houses (taken from the Ram, day 832) 240 (9/30 of 800), month 28 (Rulings S19, S54) |  | 1,864gp |  | guildhouse-bank |
+| 840 | Lucilla's factors, Cyfaraun | Lucilla's income, month 28 (Rulings S19) |  | 4,250gp |  | guildhouse-bank |
+| 840 | her caravan factors, Cyfaraun | investment 1, month 28: Return +200% (3% of 576; RR Passive Investment) |  | 17gp |  | lucilla |
+| 840 | the eight families of the Ford (by Tiberius) | the Barony of the Ford, month 28 revenue: 8 families x 14gp (Rulings S52) |  | 112gp |  | brennus |
+| 840 | the Ford's feast, upkeep and the Lady's shrine (by Tiberius) | liturgies, maintenance and tithes, month 28 (1gp a family each) |  |  | 24gp | brennus |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

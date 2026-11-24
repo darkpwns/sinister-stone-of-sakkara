@@ -801,6 +801,54 @@
    "level": null,
    "wage": "6gp/month",
    "race": "human"
+  },
+  "Cyfaraun|specialist|Laborer - Unskilled|month 28": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "specialist",
+   "type": "Laborer - Unskilled",
+   "table": "specialist-availability",
+   "row": 20,
+   "total": 400,
+   "by_week": [
+    200,
+    100,
+    100
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C69"
+   ],
+   "region": "Cyfaraun",
+   "level": null,
+   "wage": "3gp/month",
+   "race": "human"
+  },
+  "Cyfaraun|specialist|Laborer - Skilled|month 28": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "specialist",
+   "type": "Laborer - Skilled",
+   "table": "specialist-availability",
+   "row": 19,
+   "total": 150,
+   "by_week": [
+    75,
+    37,
+    38
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C71"
+   ],
+   "region": "Cyfaraun",
+   "level": null,
+   "wage": "6gp/month",
+   "race": "human"
   }
  },
  "candidates": {
@@ -4308,6 +4356,88 @@
    "race": "human",
    "level": 0,
    "try_again": false
+  },
+  "C69": {
+   "id": "C69",
+   "kind": "specialist",
+   "type": "Laborer - Unskilled",
+   "count": 200,
+   "search": "Cyfaraun|specialist|Laborer - Unskilled|month 28",
+   "week": 1,
+   "wage_table": "3gp/month",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 832,
+     "wage": 5.0,
+     "signing": "week"
+    }
+   ],
+   "race": "human",
+   "level": 0,
+   "try_again": false,
+   "accepted_by": "lucilla",
+   "elan": true,
+   "offer_wage": 5.0
+  },
+  "C71": {
+   "id": "C71",
+   "kind": "specialist",
+   "type": "Laborer - Skilled",
+   "count": 25,
+   "search": "Cyfaraun|specialist|Laborer - Skilled|month 28",
+   "week": 1,
+   "wage_table": "6gp/month",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 11,
+     "result": "Accept",
+     "day": 832,
+     "wage": 8.0,
+     "signing": "week"
+    }
+   ],
+   "race": "human",
+   "level": 0,
+   "try_again": false,
+   "accepted_by": "lucilla",
+   "elan": false,
+   "offer_wage": 8.0
+  },
+  "C72": {
+   "id": "C72",
+   "kind": "specialist",
+   "type": "Laborer - Skilled",
+   "count": 50,
+   "search": "Cyfaraun|specialist|Laborer - Skilled|month 28",
+   "week": 1,
+   "wage_table": "6gp/month",
+   "status": "accepted",
+   "attempts": [
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 17,
+     "result": "Accept with élan",
+     "day": 832,
+     "wage": 8.0,
+     "signing": "week"
+    }
+   ],
+   "race": "human",
+   "level": 0,
+   "of_pool": "C71",
+   "try_again": false,
+   "accepted_by": "lucilla",
+   "elan": true,
+   "offer_wage": 8.0
   }
  },
  "members": {
@@ -7754,6 +7884,90 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "S70": {
+   "id": "S70",
+   "name": "Laborer - Unskilled",
+   "candidate": "C69",
+   "employer": "lucilla",
+   "kind": "specialist",
+   "type": "Laborer - Unskilled",
+   "count": 200,
+   "level": 0,
+   "class": null,
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 3,
+   "morale": -2,
+   "morale_src": null,
+   "wage_gp": 5.0,
+   "wage_per": "month",
+   "hired_day": 832,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 832,
+     "event": "hired",
+     "loyalty": 3
+    },
+    {
+     "day": 832,
+     "event": "wages paid: 2 month(s), 2000 gp"
+    }
+   ],
+   "actor": null,
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "S73": {
+   "id": "S73",
+   "name": "Laborer - Skilled",
+   "candidate": "C71",
+   "employer": "lucilla",
+   "kind": "specialist",
+   "type": "Laborer - Skilled",
+   "count": 25,
+   "level": 0,
+   "class": null,
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": null,
+   "wage_gp": 8.0,
+   "wage_per": "month",
+   "hired_day": 832,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 832,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 832,
+     "event": "wages paid: 2 month(s), 400 gp"
+    }
+   ],
+   "actor": null,
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
@@ -7778,7 +7992,7 @@
   }
  ],
  "events": [],
- "seq": 68,
+ "seq": 73,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
