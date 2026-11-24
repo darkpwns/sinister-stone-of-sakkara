@@ -74,3 +74,5 @@ Hidden: every treasure and placement roll, true identities, values before apprai
 - Porters and bearers carry lots without being participants (engine 7.19.15): `recover … --carrier porter1 --bearer
   "Porters"` (or `--give L# --carrier porter1 --bearer`): the lots count as carried (brought back for XP), take no
   share, and load no member; the porters' own load and pace are yours.
+- A lot left behind (`recover --drop L# [--where "<place>"]`) records where it lies; `recover --give L# --carrier ID`
+  takes it up again. Part of a lot of coins or pieces: `recover --split L#:N` (engine 7.19.16; same carrier).
