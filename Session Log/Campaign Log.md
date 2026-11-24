@@ -50,3 +50,4 @@ tags:
 - [[S39 — The Week After the Throne]]
 - [[S40 — The Old Ape's Word]]
 - [[S41 — The Rook]]
+- [[S42 — The Knives Come Out]]

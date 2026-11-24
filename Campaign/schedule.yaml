@@ -69,19 +69,6 @@ items:
   - "untraced betrayers left: World State (6 on day 477)"
   source: "World State day 383; Rulings S20, S23, S25"
 
-- id: weekly-double-agents
-  title: "Weekly: the turned-hesitant double agents (none now: #5 ran day 568; #2 gone day 484, #3 and #4 ran day 561; the turncoat, the day-484 man, the day-526 man and Pullus hold without rolling)"
-  every: 7
-  anchor: 477
-  from: 484
-  who: []
-  rolls:
-  - {label: "{who} runs", dice: 1d6, outcomes: {"1": "runs", "2-6": "holds"}}
-  steps:
-  - "only a hesitant (6-8) result rolls weekly; the turncoat (9) no longer rolls from day 491 (Rulings S29)"
-  - "a 1: he leaves the city, no longer a member (0th -1gp at the take); his last buyer learns the tales were the Family's (Rulings S29)"
-  source: "Rulings S25 (row 159); World State"
-
 - id: weekly-watch
   title: "Weekly: the Watch on the company"
   every: 7
@@ -277,23 +264,6 @@ items:
   - "mark done each week with `schedule done weekly-infiltrator-pullus` and move the day on, or remove this item once nothing more is expected"
   source: "RR Thief (Hideout followers); Rulings S25; S35 rolls"
 
-- id: weekly-hesitant-554
-  title: "Weekly: the hesitant member who turned betrayer on day 554 sells word"
-  every: 7
-  anchor: 554
-  from: 561
-  rolls:
-  - label: "the day-554 turncoat sells word"
-    dice: 1d6
-    on: "1"
-    outcomes: {"1": "he sells word", "2-6": "nothing"}
-    then:
-    - {label: "the buyer", dice: 1d6, outcomes: {"1-3": "the Watch", "4-6": "Nuvicus' men"}}
-    - {label: "what he sells", dice: 1d6, outcomes: {"1-3": "the Family's new trade", "4-5": "the Pony hideout's ways", "6": "varies (the hoard; the boss and the Order)"}}
-  steps:
-  - "on a sale: each of Vettius' spies traces him on 1-3; traced: his choice 2d6+2 (Rulings S25); untraced to the Watch: an extra 1-in-6 Watch roll next week"
-  source: "schedule weekly-hesitant (day 554: 1); Rulings S25"
-
 - id: weekly-teacher
   title: "Weekly: the Great Teacher, awake and hidden in the Nethercity (fled day 555, 39/53 hp; knows the company through their minds; scrambler 3 charges)"
   every: 7
@@ -325,3 +295,15 @@ items:
   day: 591
   steps: ["the magic research throw as on day 547 (`roll \"Vestus' Fireball scroll throw:1d20-1\"` vs 13+; Rulings S35); success: `recover --item` a custom scroll lot as on day 547 (no XP; month-end research XP counts the 1,500gp); failure: the materials lost", "research days are dedicated: Vestus does no Order work or delve days 584-590 (Rulings S35)"]
   source: "World State day 584; precedent day 547; Rulings S35"
+
+- id: weekly-purge
+  title: "Weekly: Vettius' purge (Rulings S42): the canary trap for the untraced wharf betrayers (three on day 597), and whether the purge becomes common talk"
+  every: 7
+  anchor: 596
+  from: 603
+  rolls:
+  - {label: "the purge becomes common talk", dice: 1d6, outcomes: {"1": "common talk: members' morale -1, the hesitant lose +1 for three weeks", "2-6": "not yet"}}
+  steps:
+  - "canary trap: each untraced betrayer sells on 1-2 on 1d6 within 1d3 days; traced by the spies (1-3 each); killed: runs on 1, body found on 1 (Rulings S42)"
+  - "each death of the week: one extra 1-in-6 Brotherhood-seeker roll the next week; take off the month's tribute by level"
+  source: "Rulings S42; World State day 596"

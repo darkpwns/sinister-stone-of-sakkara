@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 41
+session: 42
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 595
-  time: 07:11
+    day: 596
+  time: 06:11
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -75,7 +75,7 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 6
+    hp: 9
     hp_max: 20
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
@@ -134,7 +134,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 595
+clock_day: 596
 ---
 # Campaign State
 
