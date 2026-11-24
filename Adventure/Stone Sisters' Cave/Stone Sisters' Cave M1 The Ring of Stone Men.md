@@ -16,7 +16,7 @@ A clearing 90' across in old oak forest, grass knee-high. **Sixteen grey stone m
 - None by day; the sisters cross it at dusk when they go out.
 
 ### Treasure
-- On the stone men, petrified with them (reachable only by restoring them; MM p. 235): a brass armlet (140gp), a glass-bead necklace (140gp), a bone comb (25gp), a copper torque (110gp): part of **H221**.
+- On the stone men, petrified with them (reachable only by restoring them; MM p. 235): a brass armlet (140gp) and a bone comb (25gp): part of **H221** (the necklace and torque moved to M4's chest, S52 amendment).
 
 ### Checks and saves
 - Sneaking across the clearing toward M2: a watcher in M2 (if there) is the encounter's surprise and Hiding against Vettius (engine).

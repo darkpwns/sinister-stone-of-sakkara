@@ -702,3 +702,11 @@ Finding S51 day 780: `schedule run --due` did not run the month-end item on its 
 Slip S51 day 803: payout --ledger preview rows for 'Purchases and sales' were pasted into the Ledger and removed (that section is generated).
 Note S51 day 790: the caravan sale paid the share-holders of A155 and A156 after their payouts (engine 7.14.0 path); pooled with play.py bank --keep 300.
 Void S51 day 778: the two hidden rolls for the father of Thana's child (1d6 4, 1d3 2) are void: the user ruled the child is Vettius' (Rulings S51).
+Slip S52 day 803: the first ration payment tendered platinum as if 1pp = 10gp (75gp and 403gp paid of 150gp and 798gp); the rest paid at once (1pp = 5gp).
+Note S52 day 803: the day-806 weekly block run early with --day 806 (user's direction, entries first); `schedule due --ahead` still lists the 806 items as due on day 803 (display only: `schedule due --day 806` says nothing due).
+Finding S52 day 803: actors' state.spells_used is not cleared by rest-day/wait (Vestus, Phaedra, Neris carried S51's lists for a month): cleared by hand day 804.
+Void S52 day 803: Vettius' listening at the cave mouth by `throw --adventuring listening` (18+, the general throw); his class skill (`--prof listening`, 5+) applies: that throw stands (2, fail).
+Slip S52 day 804: the 2-hour march from the fort to the cave was not put on the clock before the fight (turn 12 added afterwards; the encounters happened about 08:00, logged 06:00).
+Finding S52 day 804: `encounter start --wild --hex 27.19:terrain=forest` rolled on the travel hex's table (25.19, grassland: a boggart) because the override names another hex than the party's; void, re-rolled with `--hex 25.19:terrain=forest` (bombardier beetles).
+Slip S52 day 804: `recover --hoard H221 --lots` is 0-indexed: lots 4 and 8 (the glass necklace, the copper torque) were taken for 0 and 7; the prep notes amended before discovery (the chest held them too; the statues keep the armlet and the comb).
+Note S52 day 804: the watcher kept the encounter's 'surprised' after Brennus' hail (the hail spends surprise): removed by hand; her hp and the others' set to the prepped 14/14/18.

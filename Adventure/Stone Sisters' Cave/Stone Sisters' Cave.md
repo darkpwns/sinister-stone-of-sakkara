@@ -17,7 +17,7 @@ A coven of three medusae (MM p. 235) in a limestone cave in the forest east of t
 
 ## Running Stone Sisters' Cave
 - Dungeon level: 1
-- Wandering monsters: none (a lair; the forest's tables outside)
+- Wandering monsters: none
 - Light: none inside (the sisters see by Lightless Vision 60'); daylight reaches 10' into the mouth (M2).
 - **Habits (Judge's call S52):** the sisters keep the night. By day (06:00-18:00) they sleep in M4; one sits veiled in the shadow of the mouth (M2) watching the clearing on 1-3 on 1d6 (hidden, each time the party first looks). At dusk all three wake; on 1-2 on 1d6 (hidden) a night they go out together into the forest (back before dawn).
 - **Alarm:** a fight or loud noise in M1 is heard in M2 at once and in M3-M4 by sleepers on 1-2 on 1d6 per round (earshot); a fight in M3 wakes M4 at once. Woken, they veil themselves (1 round) and come to the threat together.

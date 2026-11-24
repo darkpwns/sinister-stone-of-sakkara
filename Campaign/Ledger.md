@@ -796,6 +796,17 @@ tags:
 | 803 | A157 the barony month (day 773-803) | trinket worth 600gp (Fine wood, porcelain, or wrought silver) | 600 | sold |
 | 803 | A157 the barony month (day 773-803) | trinket worth 600gp (Fine wood, porcelain, or wrought silver) | 600 | sold |
 | 803 | A157 the barony month (day 773-803) | 21,000 copper pieces | 210 | tiberius-maro |
+| 804 | A158 the stone sisters' cave | gem worth 50gp (Bloodstone, crystal, citrine, jasper, moonstone, onyx) | 50 | lucilla |
+| 804 | A158 the stone sisters' cave | gem worth 250gp (Garnet, pearl, spinel) | 250 | lucilla |
+| 804 | A158 the stone sisters' cave | gem worth 10gp (Azurite, hematite, malachite, obsidian, quartz) | 10 | lucilla |
+| 804 | A158 the stone sisters' cave | trinket worth 140gp (Glass, shells, or wrought copper, brass, or bronze) | 140 | lucilla |
+| 804 | A158 the stone sisters' cave | trinket worth 110gp (Glass, shells, or wrought copper, brass, or bronze) | 110 | lucilla |
+| 804 | A158 the stone sisters' cave | gem worth 1,000gp (Black sapphire, diamond, emerald, jacinth, ruby) | 1,000 | lucilla |
+| 804 | A158 the stone sisters' cave | trinket worth 300gp (Fine wood, porcelain, or wrought silver) | 300 | lucilla |
+| 804 | A158 the stone sisters' cave | a medusa's eyes (special component: cone of paralysis, hypnotic sigil, petrification) | 100 | cotta |
+| 804 | A158 the stone sisters' cave | a medusa's eyes (special component: cone of paralysis, hypnotic sigil, petrification) | 100 | cotta |
+| 804 | A158 the stone sisters' cave | a medusa's tongue (special component: disfigure body and soul, holy blessing) | 50 | tiberius-maro |
+| 804 | A158 the stone sisters' cave | a medusa's tongue (special component: disfigure body and soul, holy blessing) | 50 | tiberius-maro |
 
 ## Monster XP
 
@@ -1031,6 +1042,8 @@ tags:
 | 743 | A155 the march to the bugbears' fort | Bugbear (warrior) | 2 | 65 | 130 |
 | 773 | A156 clearing the barony's hex (26.19) and its edges | Hideous Attercop | 1 | 80 | 80 |
 | 803 | A157 the barony month (day 773-803) | Doppelgänger | 4 | 135 | 540 |
+| 804 | A158 the stone sisters' cave | Medusa | 2 | 245 | 490 |
+| 804 | A158 the stone sisters' cave | Medusa | 1 | 245 | 245 |
 
 ## Shares and XP awarded
 
@@ -2090,6 +2103,16 @@ tags:
 | 803 | A157 the barony month (day 773-803) | Phaedra | 0.5 | 354 | 34 | 0 | +0% | 388 |
 | 803 | A157 the barony month (day 773-803) | Ennia Ursa | 0.5 | 354 | 34 | 0 | +0% | 388 |
 | 803 | A157 the barony month (day 773-803) | Tiberius Maro | 0.5 | 354 | 34 | 0 | +0% | 388 | (src: RR p. 310 xp.treasure_per_gp; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 52 class.bard.key_attributes; RR p. 34 class.mage.key_attributes; RR p. 168 Henchmen) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 804 | A158 the stone sisters' cave | Cotta | 1 | 270 | 92 | 0 | +0% | 362 |
+| 804 | A158 the stone sisters' cave | Brennus | 1 | 270 | 92 | 0 | +5% | 380 |
+| 804 | A158 the stone sisters' cave | Vettius | 1 | 270 | 92 | 0 | +5% | 380 |
+| 804 | A158 the stone sisters' cave | Lucilla | 1 | 270 | 92 | 0 | +10% | 398 |
+| 804 | A158 the stone sisters' cave | Neris | 1 | 270 | 92 | 0 | +0% | 362 |
+| 804 | A158 the stone sisters' cave | Vestus the Unlikely | 1 | 270 | 92 | 0 | +5% | 380 |
+| 804 | A158 the stone sisters' cave | Aelia | 0.5 | 135 | 46 | 0 | +0% | 181 |
+| 804 | A158 the stone sisters' cave | Phaedra | 0.5 | 135 | 46 | 0 | +0% | 181 |
+| 804 | A158 the stone sisters' cave | Ennia Ursa | 0.5 | 135 | 46 | 0 | +0% | 181 |
+| 804 | A158 the stone sisters' cave | Tiberius Maro | 0.5 | 135 | 46 | 0 | +0% | 181 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5625,6 +5648,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 803 | the retinue | wages paid |  |  | 100gp | lucilla |
 | 803 | the retinue | wages paid |  |  | 18gp | brennus |
 | 803 | the retinue | wages paid |  |  | 54gp | cotta |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
+| 804 |  | treasure share |  |  |  |  |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

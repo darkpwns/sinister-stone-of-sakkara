@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 803
-  time: 06:00
+    day: 804
+  time: '11:32'
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Türos Aster
   hex: '25.19'
@@ -35,18 +35,14 @@ public:
     hp_max: 34
     conditions: []
     spells_used: []
-    encumbrance_st: 10.004
+    encumbrance_st: 9.837
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 19
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fireball
-    - Fireball
-    - Mage Missile
-    - Bewitch Monster
+    spells_used: []
     encumbrance_st: 5.229
   - name: Neris
     sheet: Characters/neris.json
@@ -57,14 +53,7 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used:
-    - Word of Command
-    - Holy Blessing
     - Slumber
-    - Halt Humanoids
-    - Cure Major Injury
-    - Cure Major Injury
-    - Cure Moderate Injury
-    - Cure Light Injury
     encumbrance_st: 16.148
   - name: Brennus
     sheet: Characters/brennus.json
@@ -116,13 +105,10 @@ public:
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
-    spells_used:
-    - Fan of Flames
-    - Slumber
-    - Thunderbolt
+    spells_used: []
     encumbrance_st: 7.583
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
   rations: 'Cotta: food 0 d, water 0.8 d; Brennus: food 0 d, water 1.4 d; Vettius: food 0 d, water 0 d; Lucilla: food 0 d, water 1 d; Neris: food 0 d, water 0 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 0 d; Ennia Ursa: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Tiberius Maro: food 0 d, water 1.2 d'
   tracker: {}
   threads:
@@ -154,7 +140,7 @@ public:
   - '26.17'
   - '26.18'
   - '25.19'
-clock_day: 803
+clock_day: 804
 ---
 # Campaign State
 
