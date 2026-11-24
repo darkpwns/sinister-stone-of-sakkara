@@ -5296,6 +5296,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 678 |  | treasure share |  |  |  |  |
 | 678 |  | treasure share |  |  |  |  |
 | 678 |  | treasure share |  |  |  |  |
+| 680 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 3 (Rulings S47) |  |  | 500gp | vettius |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

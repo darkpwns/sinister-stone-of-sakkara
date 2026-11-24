@@ -6024,14 +6024,16 @@
    "monster": null,
    "animal": false,
    "caster": true,
-   "loyalty": -1,
+   "loyalty": -2,
    "morale": 1,
    "morale_src": null,
    "wage_gp": 400.0,
    "wage_per": "month",
    "hired_day": 528,
    "periods_paid": 5,
-   "missed": [],
+   "missed": [
+    5
+   ],
    "status": "active",
    "history": [
     {
@@ -6223,6 +6225,13 @@
      "event": "obedience: lead Ennia's second hunt in the forest east of the road (26.09-26.11) with thirty of the company's light foot, a fortnight",
      "total": 7,
      "result": "Compliant"
+    },
+    {
+     "day": 678,
+     "event": "loyalty roll (calamity: wage due day 678 not paid)",
+     "total": 10,
+     "result": "Loyalty",
+     "loyalty": -2
     }
    ],
    "actor": "tiberius-maro",

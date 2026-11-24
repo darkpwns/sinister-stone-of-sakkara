@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: winter
-    day: 678
+    day: 680
   time: 05:53
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 9.469
+    encumbrance_st: 9.969
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -58,7 +58,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 29
+    hp: 34
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -146,7 +146,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 678
+clock_day: 680
 ---
 # Campaign State
 
