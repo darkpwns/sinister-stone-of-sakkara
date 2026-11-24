@@ -48,6 +48,12 @@
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by callista",
    "owner": "callista"
+  },
+  "ground:buried-temple": {
+   "kind": "cache",
+   "name": "ground:buried-temple",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {},
@@ -3121,6 +3127,206 @@
    "price_cp": 10,
    "cmd": "inv pay",
    "n": 111
+  },
+  {
+   "op": "wield",
+   "cause": "Short Bow taken in hand",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "#w18",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "tertia",
+     "item": "#w18",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w18",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 112
+  },
+  {
+   "op": "wield",
+   "cause": "Short Bow taken in hand",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "#w13",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "corvus",
+     "item": "#w13",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w13",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 113
+  },
+  {
+   "op": "wield",
+   "cause": "Spear taken in hand",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w7",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 114
+  },
+  {
+   "op": "wield",
+   "cause": "Sword taken in hand",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w1",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 115
+  },
+  {
+   "op": "wield",
+   "cause": "Staff taken in hand",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w5",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 116
+  },
+  {
+   "op": "wield",
+   "cause": "Staff taken in hand",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w11",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 117
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (hit): destroyed",
+   "day": 4,
+   "time": "day 4 10:00",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 118
+  },
+  {
+   "op": "light",
+   "cause": "lantern1 lit (lantern)",
+   "day": 4,
+   "time": "day 4 10:07",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern1",
+   "cmd": "light on",
+   "n": 119
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:buried-temple",
+   "day": 4,
+   "time": "day 4 10:17",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:buried-temple",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 120
+  },
+  {
+   "op": "remove",
+   "cause": "the gnoll's teeth packed in it (lot recorded with the jar's weight)",
+   "day": 4,
+   "time": "day 4 10:17",
+   "deltas": [
+    {
+     "who": "faustina",
+     "item": "metamphora (60gp)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "cmd": "inv remove",
+   "n": 121
   }
  ],
  "holdings": {
@@ -3163,7 +3369,7 @@
     "tinderbox (flint & steel)": 1
    },
    "sack": {
-    "metamphora (60gp)": 2
+    "metamphora (60gp)": 1
    }
   },
   "hrodric": {
@@ -3205,7 +3411,7 @@
    "backpack": {
     "craftsman's tools (any)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 2,
+    "oil, common (1 pint)": 1,
     "waterskin": 1,
     "tinderbox (flint & steel)": 1
    },
@@ -3218,11 +3424,10 @@
     "leather armor": 1
    },
    "back": {
-    "backpack (holds 4 stone)": 1,
-    "#w13": 1
+    "backpack (holds 4 stone)": 1
    },
    "belt": {
-    "arrow": 20,
+    "arrow": 19,
     "#w14": 1,
     "#w15": 1,
     "#w16": 1
@@ -3232,6 +3437,9 @@
     "waterskin": 1,
     "iron spike": 6,
     "torch": 6
+   },
+   "right_hand": {
+    "#w13": 1
    }
   },
   "tertia": {
@@ -3239,17 +3447,19 @@
     "scale armor": 1
    },
    "back": {
-    "backpack (holds 4 stone)": 1,
-    "#w18": 1
+    "backpack (holds 4 stone)": 1
    },
    "belt": {
     "#w17": 1,
-    "arrow": 20,
+    "arrow": 19,
     "sack, large (holds 6 stone)": 1
    },
    "backpack": {
     "waterskin": 1,
     "metamphora (60gp)": 2
+   },
+   "right_hand": {
+    "#w18": 1
    }
   },
   "donkey1": {
@@ -3260,6 +3470,11 @@
     "torch": 6,
     "#w4": 1,
     "#w9": 1
+   }
+  },
+  "ground:buried-temple": {
+   "here": {
+    "arrow": 1
    }
   }
  },
@@ -4051,7 +4266,7 @@
     "medium": 150,
     "long": 300
    },
-   "grip": 1,
+   "grip": 2,
    "lot": null,
    "cause": "starting equipment (no templates: any item on the equipment list at list price, user ruling R2 S01)",
    "magic": {
@@ -4354,7 +4569,7 @@
     "medium": 150,
     "long": 300
    },
-   "grip": 1,
+   "grip": 2,
    "lot": null,
    "cause": "starting equipment (no templates: any item on the equipment list at list price, user ruling R2 S01)",
    "magic": {
@@ -4396,6 +4611,7 @@
   }
  },
  "notes_shown": [
-  "availability.month_reading"
+  "availability.month_reading",
+  "weapon.two_handed_other_hand"
  ]
 }

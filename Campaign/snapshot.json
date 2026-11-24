@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 1,
- "generated": 1795559061,
+ "generated": 1795559356,
  "date": {
   "year": "",
   "season": "spring",
   "day": 4
  },
- "time": "10:00",
+ "time": "11:12",
  "weather": "Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; mostly cloudy; wind gentle",
  "place": "Türos Tem",
  "hex": "19.19",
@@ -20,7 +20,7 @@
    "hp_max": 5,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.44
+   "encumbrance_st": 6.274
   },
   {
    "name": "Corvus",
@@ -40,7 +40,7 @@
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.011
+   "encumbrance_st": 4.011
   },
   {
    "name": "Galerius",
@@ -73,7 +73,7 @@
    "encumbrance_st": 6.027
   }
  ],
- "light": "none",
+ "light": "lantern (Callista) out",
  "rations": "Galerius: food 5 d, water 2.6 d; Faustina: food 5 d, water 0.2 d; Hrodric: food 5 d, water 0.2 d; Callista: food 5 d, water 0.2 d; Corvus: food 5 d, water 0.2 d; Tertia: food 5 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
@@ -83,7 +83,20 @@
   "20.19",
   "19.19"
  ],
- "explored_hexes": [],
+ "explored_hexes": [
+  {
+   "hex": "21.20",
+   "terrain": "farmland"
+  },
+  {
+   "hex": "20.19",
+   "terrain": "Viaspen forest"
+  },
+  {
+   "hex": "19.19",
+   "terrain": "Viaspen forest"
+  }
+ ],
  "characters": [
   {
    "type": "character",
@@ -235,11 +248,11 @@
      "contents": [
       "Craftsman's Tools (any)",
       "Lantern",
-      "Oil, Common (1 pint) ×2",
+      "Oil, Common (1 pint)",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
-     "items": 4,
+     "items": 3,
      "stone": 2
     },
     "sack": {
@@ -262,7 +275,7 @@
     "sp": 9,
     "cp": 2
    },
-   "encumbrance_st": 6.44,
+   "encumbrance_st": 6.274,
    "weapons": [
     {
      "name": "Staff",
@@ -427,8 +440,8 @@
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone), Short Bow",
-     "items": 2,
+     "item": "Backpack (holds 4 stone)",
+     "items": 1,
      "stone": 0
     },
     "armor": {
@@ -436,8 +449,8 @@
      "stone": 2
     },
     "right_hand": {
-     "item": "",
-     "items": 0,
+     "item": "Short Bow",
+     "items": 1,
      "stone": 0
     },
     "left_hand": {
@@ -446,7 +459,7 @@
      "stone": 0
     },
     "belt": {
-     "item": "Bola, Net, Short Sword, arrow ×20",
+     "item": "Bola, Net, Short Sword, arrow ×19",
      "items": 3,
      "stone": 1
     },
@@ -496,6 +509,18 @@
    "encumbrance_st": 6.184,
    "weapons": [
     {
+     "name": "Short Bow",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d6+1",
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "held": "right hand, two-handed"
+    },
+    {
      "name": "Short Sword",
      "init_bonus": "",
      "attack_throw": 10,
@@ -530,18 +555,6 @@
       "long": 20
      },
      "held": "belt"
-    },
-    {
-     "name": "Short Bow",
-     "init_bonus": "",
-     "attack_throw": 10,
-     "damage": "1d6+1",
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "held": "back"
     }
    ],
    "treasure": [],
@@ -742,10 +755,10 @@
     },
     "sack": {
      "contents": [
-      "Metamphora (60gp) ×2"
+      "Metamphora (60gp)"
      ],
      "items": 0,
-     "stone": 2
+     "stone": 1
     },
     "worn": {
      "contents": [],
@@ -760,7 +773,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 5.011,
+   "encumbrance_st": 4.011,
    "weapons": [
     {
      "name": "Staff",
@@ -787,7 +800,14 @@
      "held": "belt"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L1",
+     "looks": "gnoll canine teeth, in a metamphora (monster component; humanoid default effect beguile humanoid)",
+     "qty": 1,
+     "stone": 1.0
+    }
+   ],
    "spells": {
     "repertoire": {
      "1": [
@@ -823,10 +843,10 @@
     ]
    },
    "movement": {
-    "exploration": 90,
-    "combat": 30,
-    "running": 90,
-    "expedition": 18
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1650,8 +1670,8 @@
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone), Short Bow",
-     "items": 2,
+     "item": "Backpack (holds 4 stone)",
+     "items": 1,
      "stone": 0
     },
     "armor": {
@@ -1659,8 +1679,8 @@
      "stone": 3
     },
     "right_hand": {
-     "item": "",
-     "items": 0,
+     "item": "Short Bow",
+     "items": 1,
      "stone": 0
     },
     "left_hand": {
@@ -1669,7 +1689,7 @@
      "stone": 0
     },
     "belt": {
-     "item": "Sack, Large (holds 6 stone), Short Sword, arrow ×20",
+     "item": "Sack, Large (holds 6 stone), Short Sword, arrow ×19",
      "items": 3,
      "stone": 0
     },
@@ -1717,6 +1737,18 @@
    "encumbrance_st": 6.027,
    "weapons": [
     {
+     "name": "Short Bow",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d6",
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "held": "right hand, two-handed"
+    },
+    {
      "name": "Short Sword",
      "init_bonus": "",
      "attack_throw": 10,
@@ -1727,21 +1759,17 @@
       "long": 0
      },
      "held": "belt"
-    },
-    {
-     "name": "Short Bow",
-     "init_bonus": "",
-     "attack_throw": 10,
-     "damage": "1d6",
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "held": "back"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L2",
+     "looks": "5 gold pieces",
+     "qty": 5,
+     "value_gp": 5.0,
+     "stone": 0.005
+    }
+   ],
    "movement": {
     "exploration": 90,
     "combat": 30,
@@ -1803,396 +1831,6 @@
   }
  ],
  "open_rolls": [
-  {
-   "label": "DEX (4d6, drop 1)",
-   "spec": "4d6",
-   "rolls": [
-    2,
-    5,
-    2,
-    3
-   ],
-   "total": 12
-  },
-  {
-   "label": "CON (4d6, drop 1)",
-   "spec": "4d6",
-   "rolls": [
-    6,
-    4,
-    4,
-    4
-   ],
-   "total": 18
-  },
-  {
-   "label": "STR (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    4,
-    1,
-    1
-   ],
-   "total": 6
-  },
-  {
-   "label": "WIL (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    6,
-    6,
-    3
-   ],
-   "total": 15
-  },
-  {
-   "label": "CHA (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    6,
-    1,
-    5
-   ],
-   "total": 12
-  },
-  {
-   "label": "CON (5d6, drop 2)",
-   "spec": "5d6",
-   "rolls": [
-    3,
-    1,
-    3,
-    6,
-    4
-   ],
-   "total": 17
-  },
-  {
-   "label": "DEX (4d6, drop 1)",
-   "spec": "4d6",
-   "rolls": [
-    6,
-    3,
-    1,
-    2
-   ],
-   "total": 12
-  },
-  {
-   "label": "INT (4d6, drop 1)",
-   "spec": "4d6",
-   "rolls": [
-    2,
-    5,
-    5,
-    2
-   ],
-   "total": 14
-  },
-  {
-   "label": "STR (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    5,
-    2,
-    3
-   ],
-   "total": 10
-  },
-  {
-   "label": "WIL (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    3,
-    2,
-    3
-   ],
-   "total": 8
-  },
-  {
-   "label": "CHA (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    1,
-    6,
-    2
-   ],
-   "total": 9
-  },
-  {
-   "label": "CHA (5d6, drop 2)",
-   "spec": "5d6",
-   "rolls": [
-    6,
-    1,
-    2,
-    3,
-    1
-   ],
-   "total": 13
-  },
-  {
-   "label": "INT (4d6, drop 1)",
-   "spec": "4d6",
-   "rolls": [
-    5,
-    1,
-    5,
-    3
-   ],
-   "total": 14
-  },
-  {
-   "label": "DEX (4d6, drop 1)",
-   "spec": "4d6",
-   "rolls": [
-    2,
-    5,
-    2,
-    1
-   ],
-   "total": 10
-  },
-  {
-   "label": "STR (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    6,
-    1,
-    2
-   ],
-   "total": 9
-  },
-  {
-   "label": "WIL (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    3,
-    3,
-    5
-   ],
-   "total": 11
-  },
-  {
-   "label": "CON (3d6, drop 0)",
-   "spec": "3d6",
-   "rolls": [
-    1,
-    2,
-    2
-   ],
-   "total": 5
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d8",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    6,
-    4,
-    4
-   ],
-   "total": 14
-  },
-  {
-   "label": "starting age",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d4",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    2,
-    2,
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "starting age",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    6,
-    5,
-    2
-   ],
-   "total": 13
-  },
-  {
-   "label": "starting age",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d4",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    5,
-    6,
-    6
-   ],
-   "total": 17
-  },
-  {
-   "label": "starting age",
-   "spec": "3d6",
-   "rolls": [
-    2,
-    4,
-    4
-   ],
-   "total": 10
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    4,
-    1,
-    1
-   ],
-   "total": 6
-  },
-  {
-   "label": "starting age",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    2,
-    5,
-    1
-   ],
-   "total": 8
-  },
-  {
-   "label": "starting age",
-   "spec": "2d4",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "1d3",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "1d12",
-   "spec": "1d12",
-   "rolls": [
-    9
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "search fee 0th level (Class V)",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
   {
    "label": "weather temperature (R06.05)",
    "spec": "2d6",
@@ -2273,6 +1911,335 @@
     1
    ],
    "total": 5
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Tertia",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "attack Tertia vs small dog-faced archer",
+   "spec": "1d20-2",
+   "rolls": [
+    14
+   ],
+   "total": 12
+  },
+  {
+   "label": "damage to small dog-faced archer",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Tertia",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Corvus vs hyena-headed brute",
+   "spec": "1d20+2",
+   "rolls": [
+    8
+   ],
+   "total": 10
+  },
+  {
+   "label": "attack Galerius vs hyena-headed brute",
+   "spec": "1d20+6",
+   "rolls": [
+    8
+   ],
+   "total": 14
+  },
+  {
+   "label": "damage to hyena-headed brute",
+   "spec": "1d6+3",
+   "rolls": [
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "attack Hrodric vs hyena-headed brute",
+   "spec": "1d20+4",
+   "rolls": [
+    15
+   ],
+   "total": 19
+  },
+  {
+   "label": "damage to hyena-headed brute",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "Galerius bash room 11 door (pair)",
+   "spec": "1d20+12",
+   "rolls": [
+    6
+   ],
+   "total": 18
+  },
+  {
+   "label": "Rosa's impulse (1 fires)",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Tomasz's impulse (1 fires)",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Kwame's impulse (1 fires)",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
   }
  ],
  "rumours_heard": [],

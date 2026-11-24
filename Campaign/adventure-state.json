@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 1,
-  "L": 0,
+  "L": 2,
   "H": 0,
-  "M": 0
+  "M": 2
  },
  "adventure": {
   "id": "A1",
@@ -102,14 +102,110 @@
     "joined_day": 2
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M1",
+    "monster": "Kobold",
+    "source": "Kobold (MM p. 52)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 5,
+    "fight": {
+     "ids": [
+      "k2"
+     ],
+     "text": "the fight with 4 Kobold, round 1"
+    }
+   },
+   {
+    "id": "M2",
+    "monster": "Gnoll",
+    "source": "Gnoll (MM p. 49)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 20,
+    "fight": {
+     "ids": [
+      "g1"
+     ],
+     "text": "the fight with Gnoll, round 1"
+    }
+   }
+  ],
   "awards": [],
   "status": "open",
   "payout": null,
   "events": []
  },
  "closed": [],
- "lots": {},
+ "lots": {
+  "L1": {
+   "id": "L1",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": "faustina",
+   "status": "carried",
+   "found": {
+    "day": 4,
+    "where": "L1 2, the Great Hall"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 20.0,
+    "stone": 1.0,
+    "name": "gnoll canine teeth, in a metamphora (monster component; humanoid default effect beguile humanoid)",
+    "merch": null
+   },
+   "player": {
+    "desc": "gnoll canine teeth, in a metamphora (monster component; humanoid default effect beguile humanoid)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L2": {
+   "id": "L2",
+   "adventure": "A1",
+   "kind": "coins",
+   "qty": 5,
+   "stone": 0.005,
+   "carrier": "tertia",
+   "status": "carried",
+   "found": {
+    "day": 4,
+    "where": "L1 2, the gnoll's purse"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 5,
+    "value_gp": 5.0,
+    "stone": 0.005,
+    "name": "5 gold pieces"
+   },
+   "player": {
+    "desc": "5 gold pieces",
+    "value_gp": 5.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  }
+ },
  "hoards": {},
  "markets": {},
  "players": {},

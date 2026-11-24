@@ -11,7 +11,7 @@ public:
     year: ''
     season: spring
     day: 4
-  time: '10:00'
+  time: '11:12'
   weather: Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; mostly cloudy; wind gentle
   place: Türos Tem
   hex: '19.19'
@@ -23,7 +23,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6.44
+    encumbrance_st: 6.274
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.011
+    encumbrance_st: 4.011
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -64,7 +64,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 6.027
-  light: none
+  light: lantern (Callista) out
   rations: 'Galerius: food 5 d, water 2.6 d; Faustina: food 5 d, water 0.2 d; Hrodric: food 5 d, water 0.2 d; Callista: food 5 d, water 0.2 d; Corvus: food 5 d, water 0.2 d; Tertia: food 5 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
