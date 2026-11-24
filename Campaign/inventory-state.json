@@ -54,100 +54,16 @@
    "name": "ground:buried-temple",
    "actor": null,
    "status": "active"
+  },
+  "ground:20.19": {
+   "kind": "cache",
+   "name": "ground:20.19",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {},
  "log": [
-  {
-   "op": "open",
-   "cause": "starting gold (3d6 x 10)",
-   "day": null,
-   "time": null,
-   "deltas": [],
-   "coins": [
-    {
-     "who": "galerius",
-     "gp": 140
-    }
-   ],
-   "cmd": "chargen equip",
-   "n": 1
-  },
-  {
-   "op": "open",
-   "cause": "starting gold (3d6 x 10)",
-   "day": null,
-   "time": null,
-   "deltas": [],
-   "coins": [
-    {
-     "who": "faustina",
-     "gp": 80
-    }
-   ],
-   "cmd": "chargen equip",
-   "n": 2
-  },
-  {
-   "op": "open",
-   "cause": "starting gold (3d6 x 10)",
-   "day": null,
-   "time": null,
-   "deltas": [],
-   "coins": [
-    {
-     "who": "hrodric",
-     "gp": 130
-    }
-   ],
-   "cmd": "chargen equip",
-   "n": 3
-  },
-  {
-   "op": "open",
-   "cause": "starting gold (3d6 x 10)",
-   "day": null,
-   "time": null,
-   "deltas": [],
-   "coins": [
-    {
-     "who": "callista",
-     "gp": 170
-    }
-   ],
-   "cmd": "chargen equip",
-   "n": 4
-  },
-  {
-   "op": "open",
-   "cause": "starting gold (3d6 x 10)",
-   "day": null,
-   "time": null,
-   "deltas": [],
-   "coins": [
-    {
-     "who": "corvus",
-     "gp": 60
-    }
-   ],
-   "cmd": "chargen equip",
-   "n": 5
-  },
-  {
-   "op": "open",
-   "cause": "starting gold (3d6 x 10)",
-   "day": null,
-   "time": null,
-   "deltas": [],
-   "coins": [
-    {
-     "who": "tertia",
-     "gp": 80
-    }
-   ],
-   "cmd": "chargen equip",
-   "n": 6
-  },
   {
    "op": "add",
    "cause": "starting equipment (no templates: any item on the equipment list at list price, user ruling R2 S01)",
@@ -4018,6 +3934,329 @@
    "why": "used",
    "cmd": "inv remove",
    "n": 156
+  },
+  {
+   "op": "wield",
+   "cause": "Sword taken in hand",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w1",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 157
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:20.19",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:20.19",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 158
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:20.19",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:20.19",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 159
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (hit): destroyed",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 160
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (hit): destroyed",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 161
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:20.19",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:20.19",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 162
+  },
+  {
+   "op": "move",
+   "cause": "drops the bow for the sword",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "#w13",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "corvus",
+     "item": "#w13",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 163
+  },
+  {
+   "op": "wield",
+   "cause": "Short Sword taken in hand",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "#w14",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "corvus",
+     "item": "#w14",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w14",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 164
+  },
+  {
+   "op": "remove",
+   "cause": "the stirge proboscises packed in it (lot carries the jar's weight)",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "metamphora (60gp)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "cmd": "inv remove",
+   "n": 165
+  },
+  {
+   "op": "add",
+   "cause": "taken from the dead brigand scout on the trail (Viaspen encounter 4)",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": 13
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 166
+  },
+  {
+   "op": "give",
+   "cause": "Tertia carried on the donkey (one leg lost)",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "galerius",
+     "item": "scale armor",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 167
+  },
+  {
+   "op": "give",
+   "cause": "Tertia carried on the donkey (one leg lost)",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "#w18",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "corvus",
+     "item": "#w18",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 168
+  },
+  {
+   "op": "give",
+   "cause": "Tertia carried on the donkey (one leg lost)",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "torch",
+     "slot": "pack",
+     "qty": -6
+    },
+    {
+     "who": "hrodric",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 169
+  },
+  {
+   "op": "give",
+   "cause": "Tertia carried on the donkey (one leg lost)",
+   "day": 5,
+   "time": "day 5 12:03",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "#w4",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "galerius",
+     "item": "#w4",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 170
+  },
+  {
+   "op": "give",
+   "cause": "load shared on the march home",
+   "day": 5,
+   "time": "day 5 18:43",
+   "deltas": [
+    {
+     "who": "galerius",
+     "item": "scale armor",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "faustina",
+     "item": "scale armor",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 171
   }
  ],
  "holdings": {
@@ -4035,7 +4274,8 @@
     "backpack (holds 4 stone)": 1
    },
    "belt": {
-    "arrow": 20
+    "arrow": 20,
+    "#w4": 1
    },
    "backpack": {
     "waterskin": 1,
@@ -4044,7 +4284,8 @@
   },
   "faustina": {
    "back": {
-    "backpack (holds 4 stone)": 1
+    "backpack (holds 4 stone)": 1,
+    "scale armor": 1
    },
    "right_hand": {
     "#w5": 1
@@ -4081,7 +4322,8 @@
    "backpack": {
     "#w10": 1,
     "rope, 50'": 1,
-    "waterskin": 1
+    "waterskin": 1,
+    "torch": 6
    },
    "sack": {
     "torch": 6
@@ -4106,7 +4348,7 @@
     "tinderbox (flint & steel)": 1
    },
    "sack": {
-    "metamphora (60gp)": 2
+    "metamphora (60gp)": 1
    }
   },
   "corvus": {
@@ -4114,11 +4356,10 @@
     "leather armor": 1
    },
    "back": {
-    "backpack (holds 4 stone)": 1
+    "backpack (holds 4 stone)": 1,
+    "#w13": 1
    },
    "belt": {
-    "arrow": 2,
-    "#w14": 1,
     "#w15": 1,
     "#w16": 1
    },
@@ -4126,29 +4367,24 @@
     "rope, 50'": 1,
     "waterskin": 1,
     "iron spike": 6,
-    "torch": 6
+    "torch": 6,
+    "arrow": 13,
+    "#w18": 1
    },
    "right_hand": {
-    "#w13": 1
+    "#w14": 1
    }
   },
   "tertia": {
-   "armor": {
-    "scale armor": 1
-   },
    "back": {
     "backpack (holds 4 stone)": 1
    },
    "belt": {
     "#w17": 1,
-    "arrow": 3,
     "sack, large (holds 6 stone)": 1
    },
    "backpack": {
     "waterskin": 1
-   },
-   "right_hand": {
-    "#w18": 1
    }
   },
   "donkey1": {
@@ -4156,14 +4392,17 @@
     "waterskin": 12,
     "#w2": 1,
     "#w3": 1,
-    "torch": 6,
-    "#w4": 1,
     "#w9": 1
    }
   },
   "ground:buried-temple": {
    "here": {
     "arrow": 13
+   }
+  },
+  "ground:20.19": {
+   "here": {
+    "arrow": 3
    }
   }
  },
@@ -5302,5 +5541,35 @@
  "notes_shown": [
   "availability.month_reading",
   "weapon.two_handed_other_hand"
- ]
+ ],
+ "checkpoint": {
+  "events": 6,
+  "through_day": -84,
+  "holdings": {},
+  "coins": {
+   "galerius": {
+    "gp": 140
+   },
+   "faustina": {
+    "gp": 80
+   },
+   "hrodric": {
+    "gp": 130
+   },
+   "callista": {
+    "gp": 170
+   },
+   "corvus": {
+    "gp": 60
+   },
+   "tertia": {
+    "gp": 80
+   }
+  },
+  "instances": {},
+  "ledger_rows": [],
+  "archives": [
+   "inventory-S02.jsonl"
+  ]
+ }
 }

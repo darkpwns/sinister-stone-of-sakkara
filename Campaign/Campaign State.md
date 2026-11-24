@@ -10,28 +10,28 @@ public:
   date:
     year: ''
     season: spring
-    day: 5
-  time: '10:43'
-  weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; mostly cloudy; wind strong
+    day: 7
+  time: '17:43'
+  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate
   place: Türos Tem
-  hex: '19.19'
+  hex: '23.21'
   party:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 5
+    hp: 2
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6.107
+    encumbrance_st: 5.107
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 7
+    hp: 4
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 6.184
+    encumbrance_st: 6.35
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.011
+    encumbrance_st: 7.011
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 6.888
+    encumbrance_st: 7.888
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -55,17 +55,19 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.91
+    encumbrance_st: 7.91
   - name: Tertia
     sheet: Characters/tertia.json
     role: pc
     hp: 2
     hp_max: 2
-    conditions: []
+    conditions:
+    - 'one leg torn off (Mortal Wounds day 5): a crutch is required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes'
+    - 'grievously wounded (day 5): 2 weeks of bed rest'
     spells_used: []
-    encumbrance_st: 4.027
+    encumbrance_st: 0.694
   light: lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 4 d, water 2.6 d; Faustina: food 4 d, water 0.2 d; Hrodric: food 4 d, water 0.2 d; Callista: food 4 d, water 0.2 d; Corvus: food 4 d, water 0.2 d; Tertia: food 4 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 2 d, water 2.6 d; Faustina: food 2 d, water 0.2 d; Hrodric: food 2 d, water 0.2 d; Callista: food 2 d, water 0.2 d; Corvus: food 2 d, water 0.2 d; Tertia: food 2 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -73,7 +75,11 @@ public:
   - '21.20'
   - '20.19'
   - '19.19'
-clock_day: 5
+  - '20.19'
+  - '21.20'
+  - '22.20'
+  - '23.21'
+clock_day: 7
 ---
 # Campaign State
 

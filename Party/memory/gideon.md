@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S02: Talking first went badly at the temple door (the kobolds attacked); Slumber saved us twice. Keep the mage's spell for the swarm.
 
 ## Opinions of NPCs
 

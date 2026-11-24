@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S02: We lost the way in the forest on day 6. Mark the trail out and keep the sun on the right side; the fort lies south-east of the forest.
 
 ## Opinions of NPCs
 

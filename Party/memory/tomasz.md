@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S02: Stirges come out of nowhere in the forest too. Bows first, then swords; a flier on a body is a flier that will turn on us.
 
 ## Opinions of NPCs
 

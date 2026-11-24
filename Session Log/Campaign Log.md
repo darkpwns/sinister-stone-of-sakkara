@@ -14,3 +14,4 @@ Run 2 (from 2026-11-24). Run 1's log: `Archive/Run 1 (S01-S54)/Session Log/Campa
 ## Sessions
 
 - [[S01 — A Kingdom of Beasts]] (2026-11-24): run 2 set up; six PCs built without templates
+- [[S02 — Eggs in the Webs]] (2026-11-24): days 1-7: Türos Tem, the temple found, two delves, crab spider eggs, the goblin chief's hoard; Tertia loses a leg; lost in the Viaspen

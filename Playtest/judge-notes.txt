@@ -731,3 +731,13 @@ Finding S54 days 846-854: navigation is thrown when a route leaves the road for 
 Slip S54 days 852-857: feed for the mounts was charged as bought from farms in unsettled hexes (it should have been carried from the fort): the cost stands as the fort's feed.
 Note S54 day 848: three laborers lost to giant crab spiders by an abstract resolution (the camp's edge, 1d6 4; bites by dice; dragged off 1d6 3); `retinue set S70 count=197`.
 Correction pending S54 (found after the session): Rulings S52's harvest of the fireballed medusae is wrong by MM pp. 371-372: area damage ruins appendages, coverings and exterior organs (the eyes), and an unpreserved component spoils in a turn (no metamphora were carried): L973-L976 (two eyes, two tongues, 300gp) should not exist; they were paid out in A158 and sold day 841. To void (lots, 300gp, their XP) or keep by a ruling: the user's call.
+
+=== Run 2 (from 2026-11-24) ===
+S02 (days 1-7): Engine gap: `harvest` refuses a monster with no row on its type's components table (gnoll: humanoid; stirge: monstrosity) although MM p. 372 says such a monster's components are worth its XP value, split by the Judge: lots made with `recover --goods … --value XP` and the jars removed with `inv remove` (Rulings R2 S02). A `harvest --component X --kind X:appendage` override for the Judge's split would close it.
+S02: Judge slip: an intimidation `reaction` meant for bound captives ran after `turn` had opened a wandering encounter (enc9) and was stored on it; restarted the encounter with `encounter start --replace`. A `reaction --encounter ID` (or a warning when a new encounter opened in the same call chain) would catch it.
+S02: Judge slip: Campaign State `session:` stayed 1 through days 1-4 (rolls logged as session 1).
+S02: Judge slip (lesson rest-due recorded): six dungeon turns without a rest turn on day 4.
+S02: Judge slip (lesson load-before-march recorded): a refused `inv give` (no container room) went unnoticed and the next `travel` ran at Galerius' 30'.
+S02: `round-auto` with stirges at `close-and-attack` 57' away: the fliers (180' fly) took four rounds to reach the party (not checked; may be the zone range model).
+S02: `encounter surprise --party none --monsters none` returns "no encounter" without rolling: correct by the matrix, but a lit party is never 'none' to infravision monsters: pass --monsters los.
+S02: `train young` refuses a species whose note has no '% per adult' (giant crab spider eggs at AX1 L1 11): the count was ruled (15) and `capture --how eggs --count 15` used.

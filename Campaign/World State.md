@@ -38,6 +38,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 5 | Viaspen encounter 4: four stirges on a dead brigand scout | 20.19, forest trail | killed; Tertia lost a leg; the scout's 13 arrows taken |
+| 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
 
@@ -50,5 +52,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Scheduled events
 
 ## Prep queue (Judge only)
+
+- Buried Temple replacements (AX1 p. 35): from day 11 a weekly 1d6 per cleared room while the Lady lives (1-3: 1d6 more of the tribe); the bodiless heads of 43 and Area 4's stirges are wanderers, not rooms. The kobolds of room 1 (one killed) count as a cleared post only if the Judge decides the door was abandoned: it was not (three returned).
+- Ansgar the lumbermonger: refused; another search for 0th-level henchmen in Türos Tem only from day 31 (month 2).
+- Hrodric's eagle totem actor (owed since S01).
 
 - Notes prepped during run 1 beyond the modules (`Adventure/Porcius' Farm/`, `Ruined Imperial Fortress/`, `Ruined Monastery/`, `Stone Sisters' Cave/`, `Legion Waygate.md`, the AX3 contract NPCs in `Adventure/AX3/NPCs/`, AX3 dungeons built in play) may carry run-1 outcomes in their text: read them as unplayed (their keyed state as first written).
