@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 825
-  time: 06:12
-  weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
+    day: 829
+  time: 08:39
+  weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; drizzle; wind gentle (drizzly)
   place: Türos Aster
-  hex: '24.12'
+  hex: '18.05'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 16.009
+    encumbrance_st: 11.77
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 34
     conditions: []
     spells_used: []
-    encumbrance_st: 9.833
+    encumbrance_st: 9.126
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 5.229
+    encumbrance_st: 4.467
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,7 +53,7 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used: []
-    encumbrance_st: 16.981
+    encumbrance_st: 6.3
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -63,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 13.411
+    encumbrance_st: 11.364
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -71,7 +71,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.218
+    encumbrance_st: 3.967
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
@@ -79,7 +79,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.67
+    encumbrance_st: 6.05
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
@@ -95,7 +95,7 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 10.329
+    encumbrance_st: 7.633
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -105,10 +105,10 @@ public:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
     spells_used: []
-    encumbrance_st: 7.583
+    encumbrance_st: 4.3
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 0 d, water 2.8 d; Brennus: food 0 d, water 2.4 d; Vettius: food 0 d, water 1.4 d; Lucilla: food 0 d, water 3 d; Neris: food 0 d, water 1 d; Aelia: food 0 d, water 3 d; Phaedra: food 0 d, water 1 d; Ennia Ursa: food 6 d, water 0.2 d; Vestus the Unlikely: food 0 d, water 2.8 d; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 4 d, water 2.8 d (fatigued); Brennus: food 4 d, water 2.4 d; Vettius: food 4 d, water 1.4 d (fatigued); Lucilla: food 4 d, water 3 d (fatigued); Neris: food 4 d, water 1 d (fatigued); Aelia: food 4 d, water 3 d (fatigued); Phaedra: food 4 d, water 1 d (fatigued); Ennia Ursa: food 5 d, water 0.2 d (fatigued); Vestus the Unlikely: food 4 d, water 2.8 d (fatigued); Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Barony of the Ford: Brennus a patrician baron since day 778; eight families in the ford meadows, loyal; a thousand gold in the farms this month; the engineer, the masons and 225 laborers walling the breach and raising the south gate tower (a season''s work); Tiberius and the soldiers hold the fort'
@@ -120,16 +120,6 @@ public:
   - Two doses of dragon's blood and the medusae's eyes and tongues to sell (quietly); Lucilla's caravan returns wait in Cyfaraun; more laborers would speed the works
   - A Tower mage bought a map of the southern fords
   trail:
-  - '26.14'
-  - '26.15'
-  - '27.16'
-  - '26.15'
-  - '26.14'
-  - '26.15'
-  - '27.16'
-  - '27.17'
-  - '26.17'
-  - '26.18'
   - '25.19'
   - '25.18'
   - '26.17'
@@ -140,7 +130,17 @@ public:
   - '25.14'
   - '25.13'
   - '24.12'
-clock_day: 825
+  - '24.11'
+  - '23.11'
+  - '23.10'
+  - '22.09'
+  - '21.09'
+  - '20.08'
+  - '20.07'
+  - '19.07'
+  - '18.06'
+  - '18.05'
+clock_day: 829
 ---
 # Campaign State
 

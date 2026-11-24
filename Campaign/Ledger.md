@@ -807,6 +807,10 @@ tags:
 | 804 | A158 the stone sisters' cave | a medusa's eyes (special component: cone of paralysis, hypnotic sigil, petrification) | 100 | cotta |
 | 804 | A158 the stone sisters' cave | a medusa's tongue (special component: disfigure body and soul, holy blessing) | 50 | tiberius-maro |
 | 804 | A158 the stone sisters' cave | a medusa's tongue (special component: disfigure body and soul, holy blessing) | 50 | tiberius-maro |
+| 829 | A159 the road north | brilliant worth 6,000gp (Facet cut star sapphire or star ruby) | 6,000 | vettius |
+| 829 | A159 the road north | brilliant worth 4,000gp (Facet cut imperial topaz, flawless diamond) | 4,000 | vettius |
+| 829 | A159 the road north | brilliant worth 4,000gp (Facet cut imperial topaz, flawless diamond) | 4,000 | vettius |
+| 829 | A159 the road north | Sword +1, Oblivion | 660 | cotta |
 
 ## Monster XP
 
@@ -2113,6 +2117,15 @@ tags:
 | 804 | A158 the stone sisters' cave | Phaedra | 0.5 | 135 | 46 | 0 | +0% | 181 |
 | 804 | A158 the stone sisters' cave | Ennia Ursa | 0.5 | 135 | 46 | 0 | +0% | 181 |
 | 804 | A158 the stone sisters' cave | Tiberius Maro | 0.5 | 135 | 46 | 0 | +0% | 181 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 829 | A159 the road north | Cotta | 1 | 1,955 | 0 | 0 | +0% | 1,955 |
+| 829 | A159 the road north | Brennus | 1 | 1,955 | 0 | 0 | +5% | 2,053 |
+| 829 | A159 the road north | Vettius | 1 | 1,955 | 0 | 0 | +5% | 2,053 |
+| 829 | A159 the road north | Lucilla | 1 | 1,955 | 0 | 0 | +10% | 2,150 |
+| 829 | A159 the road north | Neris | 1 | 1,955 | 0 | 0 | +0% | 1,955 |
+| 829 | A159 the road north | Vestus the Unlikely | 1 | 1,955 | 0 | 0 | +5% | 2,053 |
+| 829 | A159 the road north | Aelia | 0.5 | 977 | 0 | 0 | +0% | 977 |
+| 829 | A159 the road north | Phaedra | 0.5 | 977 | 0 | 0 | +0% | 977 |
+| 829 | A159 the road north | Ennia Ursa | 0.5 | 977 | 0 | 0 | +0% | 977 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5694,6 +5707,35 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 822 | farms and road-houses on the Imperial road (25.14) | a day's feed for eight mounts, day 823: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
 | 823 | farms and road-houses on the Imperial road (25.13) | a day's feed for eight mounts, day 824: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
 | 824 | farms and road-houses on the Imperial road (24.12) | a day's feed for eight mounts, day 825: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 825 | Turos Orn | bought in Turos Orn |  |  | 18gp | lucilla |
+| 825 | Turos Orn | bought in Turos Orn |  |  | 9gp | lucilla |
+| 825 | Turos Orn | bought in Turos Orn |  |  | 9gp | lucilla |
+| 825 | Turos Orn | bought in Turos Orn |  |  | 9gp | lucilla |
+| 825 | Turos Orn | bought in Turos Orn |  |  | 67gp 5sp | lucilla |
+| 825 | Turos Orn | bought in Turos Orn |  |  | 27gp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | Turos Orn | Rations, Iron (one week) | 1 |  | 2gp 7sp | lucilla |
+| 825 | an inn at Türos Orn | lodging and meals for nine, night of day 825 (6sp each; the Türos Tem rate, S51) |  |  | 5gp 4sp | lucilla |
+| 825 | an inn at Türos Orn | stabling and the night's feed for fifteen animals, night of day 825 (three warhorses at 5sp, twelve at 2sp; RR p. 131) |  |  | 3gp 9sp | lucilla |
+| 825 | farms and road-houses on the Imperial road (Türos Orn) | a day's feed for eleven mounts, day 826: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 826 | farms and road-houses on the Imperial road (20.07) | a day's feed for eleven mounts, day 827: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 827 | farms and road-houses on the Imperial road (19.07) | a day's feed for eleven mounts, day 828: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 828 | farms and road-houses on the Imperial road (18.06) | a day's feed for eleven mounts, day 829: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
+| 829 |  | treasure share |  |  |  |  |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
