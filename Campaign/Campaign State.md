@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 724
-  time: 09:53
+    day: 732
+  time: 06:00
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
-  hex: '18.06'
+  hex: '24.11'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -108,7 +108,7 @@ public:
     encumbrance_st: 11.404
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 14 d, water 2.8 d; Brennus: food 14 d, water 3.4 d; Vettius: food 11 d, water 1.4 d; Lucilla: food 11 d, water 3 d; Neris: food 11 d, water 3.2 d; Aelia: food 11 d, water 3 d; Phaedra: food 11 d, water 1 d; Tiberius Maro: food 11 d, water 3.2 d; Vestus the Unlikely: food 14 d, water 0.8 d; Ennia Ursa: food 14 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 6 d, water 1.8 d; Brennus: food 6 d, water 2.4 d; Vettius: food 3 d, water 0.4 d; Lucilla: food 3 d, water 2 d; Neris: food 3 d, water 2.2 d; Aelia: food 3 d, water 2 d; Phaedra: food 3 d, water 0 d; Tiberius Maro: food 3 d, water 2.2 d; Vestus the Unlikely: food 6 d, water 1.8 d; Ennia Ursa: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
@@ -120,14 +120,6 @@ public:
   - Free of the Order of the Eclipse since day 629; Destrio's people have been seen near the Plaza District Watch house
   - 'The workshop in the Pony''s back house: Phaedra scribes scrolls of sleep and Neris brews potions of healing there'
   trail:
-  - '26.18'
-  - '26.17'
-  - '27.17'
-  - '27.16'
-  - '26.15'
-  - '26.14'
-  - '25.14'
-  - '25.13'
   - '24.12'
   - '24.11'
   - '23.11'
@@ -140,7 +132,15 @@ public:
   - '18.06'
   - '18.05'
   - '18.06'
-clock_day: 724
+  - '19.07'
+  - '20.07'
+  - '20.08'
+  - '21.09'
+  - '22.09'
+  - '23.10'
+  - '23.11'
+  - '24.11'
+clock_day: 732
 ---
 # Campaign State
 
