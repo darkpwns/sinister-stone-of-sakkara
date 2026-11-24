@@ -192,6 +192,8 @@ state file (`git rm` if committed); `save.sh`.
 `round-next` says they cannot act, and `attack`, `sweep`, `rebuke` refuse them. **Rebuke** (7.17.0): its line states the
 2d6 Hit Dice and who was affected; Hit Dice go to undead not yet rebuked first; an undead with no rebuking row
 refuses the rebuke before any roll (`state set ID rebuke_as=TYPE`, or `rebuke_as=none` to leave it out);
-`rebuke ID --cornered ID,…` for undead that cannot flee (they cower). Undead at 0 hp are destroyed, also when hp is
+`rebuke ID --cornered ID,…` for undead that cannot flee (they cower). Righteous Rebuke (on the sheet, or `state set ID righteous_rebuke=yes`) is applied by the engine:
++ half the divine caster level (rounded up) to the 2d6 Hit Dice and the WIL modifier on the throw (7.19.22); do not
+pass it as `--mod` too. Undead at 0 hp are destroyed, also when hp is
 set by `state set ID hp=N`. **Step the round with `round-next`** and act for the combatant it names: the lessons index
 reminds when an action is taken out of its count.
