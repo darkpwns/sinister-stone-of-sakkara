@@ -27,8 +27,12 @@ laborers are walling the breach. The barony's first month closes on day 810.
 - Days 805-810. Rest at the fort. Ennia hunted: boars (she let them be) and roe deer for the pot.
 - Day 810. The barony's first month: eight families now in the meadows (one couple left, four came), loyal to the baron; the land is good (eight gold a family from the fields). Ninety-eight gold in rents and dues; feast, upkeep and the Lady's tithe paid. Lucilla's caravans: one lost a little, the other is held at a customs post.
 - Day 811. Bassus' runner from Cyfaraun: the Jutland company the Gilded Ram's owner hired has turned off the Imperial road toward the southern fords. Council: we stay at the fort until we see them; the cache waits. Brennus put a thousand gold into the farms (seed, oxen, cottages) and walked the fields with the families.
+- Day 815. A rider from Thana: Pullus' old lieutenant has made himself boss of the street while the boss is away; the take has stopped. Bassus and his knives hold the Pony; the strongbox is in the Grey Sisters' vault.
+- Day 816. From the Legate's towers Vettius and Cotta watched forty men in mail come down the road under a raven banner.
+- Day 817. At the ford Sigvald Ironbrow, a grizzled Jutlander with a tattooed scalp, offered his forty axes to the baron ("Your wall has a hole. We fill holes."). Neris prayed before the handshake: the captain and his second burned red to her eyes. Lucilla offered him more than whoever paid him; he swore, and still burned. We sent them on their way; they went back north.
 
 ## Who they met
+- Sigvald Ironbrow, captain of the Jutland company: grizzled, scalp tattooed with ravens, slow to smile ("Your wall has a hole. We fill holes."); hired by the Gilded Ram's owner.
 
 ## Treasure and XP
 - A158 (the stone sisters' cave) paid at the fort: 2,895 XP (eight shares of 362).
@@ -41,6 +45,8 @@ laborers are walling the breach. The barony's first month closes on day 810.
 ## Next time
 
 > [!judge]- Judge rolls
+> Week of 813: wharf 3, Watch 3, hesitant 2, spies +1, secret 2 (true: the strongbox to the vault), double agents 6.
+> Day 817: impulses Kwame 2, Tomasz 6, Rosa 1 (hire them cheap). Sigvald: reaction 2d6+6 13 (Friendly, a month's bribe offered); turning 2d6+2 5 (false); course 3 (north to the Ram).
 > Month 27's end (run day 811): investments 20 (Return -200%), 3 (Delay 1 month, customs; a 1d10 cause roll void); the Ford morale 2d6+1 7, families +6 -8, Loyal +3 (8); the Family's usurpation 1 (Pullus' old lieutenant, 5). Ennia 805-810: 4,6,5,6,1,1: boars x4 (evaded), roe deer x35 (one shot).
 > Week of 806 (run day 803): wharf 2, Watch 5, hesitant 4, spies +2, **secret 1 (true): the Jutland company turns south**, double agents 1 (moot). The Jutland company: 40 men, orders 5 (seek service), at the ford day 817.
 > Site build: Stone Sisters' Cave (judge-interim): TT H for 3 medusae (H221, 2,025gp); hp 14, 14, 18; 16 stone men.

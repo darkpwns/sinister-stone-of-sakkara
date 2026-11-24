@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: summer
-    day: 811
+    day: 817
   time: 06:00
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Türos Aster
@@ -54,6 +54,7 @@ public:
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used:
     - Slumber
+    - Discern Evil
     encumbrance_st: 16.148
   - name: Brennus
     sheet: Characters/brennus.json
@@ -140,7 +141,7 @@ public:
   - '26.17'
   - '26.18'
   - '25.19'
-clock_day: 811
+clock_day: 817
 ---
 # Campaign State
 
