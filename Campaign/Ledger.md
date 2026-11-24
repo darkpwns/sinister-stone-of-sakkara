@@ -4438,3 +4438,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 540 |  | treasure share |  | 500gp |  | vettius |
 | 540 | the Solar Citadel | Repair Disfigurement and Disability by Patriarch Arëtar (Rulings S12), day 540 |  |  | 185gp | hrodvar |
 | 540 | the Solar Citadel | Repair Disfigurement and Disability by Patriarch Arëtar (Rulings S12), day 540 |  |  | 185gp | phaedra |
+| 540 | the Tower's suppliers | material cost, scroll of Fireball (RR Creating Magic Items: 500gp x 3; paid at the start), the Tower's Arcane Workshop, day 540 |  |  | 1,500gp | vestus-the-unlikely |
+| 540 | a smith of the Bridge District | iron and smith's work for the tomb-jacks (Rulings S35) |  |  | 150gp | hrodvar |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | lucilla |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | vettius |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | vestus-the-unlikely |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | neris |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | brennus |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 161gp 5sp 4cp |  | aelia |
+| 541 | Cyfaraun | his share of the sale of L786 (after the payout) |  | 323gp 8cp |  | cotta |

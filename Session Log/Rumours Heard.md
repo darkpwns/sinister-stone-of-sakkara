@@ -34,3 +34,6 @@ type: rumours
 - Day 331, Cyfaraun, the Nicean wine-seller at the Emporium stalls (friendly): the Patriarch bars visits to the Night Captain's tomb because tomb raiders desecrated it on his watch; if people saw, he would be shamed out of the city.
 - Day 485 (Lucilla's rumormongering, Cyfaraun, month 17): Valerian Bellësareus, Master of the Sword of Fire, fell in the Empyrean War's last battle and was buried with his sword in a sacred cairn.
 - Day 485 (Lucilla's rumormongering, Cyfaraun, month 17): the Thrassians once ruled here; their immortal king sleeps until his race rises again.
+- Day 541 (Lucilla's rumormongering, Cyfaraun, month 19): the Tower's masters are asking who killed the apprentice Faustus Cerco; his landlady saw a cloaked man on the roof-tiles.
+- Day 541 (Lucilla's rumormongering): the Imperial Vanguard means to go down after the white apes' caves next week.
+- Day 541 (Lucilla's rumormongering): the wine-factor Gaius Sertorius Macro has hired two Jutland bravos to watch the Citadel's north door.

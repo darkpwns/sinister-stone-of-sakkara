@@ -9,9 +9,9 @@ adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
 public:
   date:
     year: ''
-    season: summer
-    day: 540
-  time: 06:14
+    season: fall
+    day: 541
+  time: '12:14'
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 9.521
+    encumbrance_st: 9.852
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 10.818
+    encumbrance_st: 11.149
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 4.747
+    encumbrance_st: 5.078
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,7 +53,7 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used: []
-    encumbrance_st: 5.448
+    encumbrance_st: 5.779
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -63,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 11.312
+    encumbrance_st: 11.643
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -71,7 +71,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 8.534
+    encumbrance_st: 8.704
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -89,7 +89,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.444
+    encumbrance_st: 8.775
   - name: Hrodvar
     sheet: Characters/hrodvar.json
     role: henchman
@@ -144,7 +144,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 540
+clock_day: 541
 ---
 # Campaign State
 
