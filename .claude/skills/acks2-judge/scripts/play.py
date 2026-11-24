@@ -34,6 +34,13 @@
       dehydration, or a schedule item due. Territory classifications come from the campaign data (hexes block), never
       per call. Exit 0: the days marched or the route's end reached; 3: stopped.
 
+  play.py city-week [--day N] [--item weekly-secret] [--world "Campaign/World State.md"]
+      The week's city block (C3): finds the week's secret entry in World State ("- **Day N weekly: the week's
+      secrets** (S##; entries written before the roll): 1 …; … 6 …."); when it is missing or not six entries, prints
+      its template and refuses (exit 3). With the six entries written it runs the week's due schedule items (the
+      lesson secret-entries-first acknowledged by the entries' presence) and writes "**rolled N**" and each item's
+      result into that line (the Judge adds the narrative); exit 0.
+
   play.py cond add ID "TEXT" [--cause WHY]   |   play.py cond remove ID "TEXT" [--cause WHY]   |   play.py cond list ID
       One condition added to or taken off an actor's `state.conditions` (the engine's `actor set` takes the whole
       list: this reads it, changes one entry and writes it back with the cause). `remove` matches the exact text or,
@@ -540,6 +547,64 @@ def march(a):
     return 0
 
 
+WEEK_RE = r"^- \*\*Day {day} weekly: the week's secrets\*\* \(([^)]*)\): (.*)$"
+
+
+def city_week(a):
+    E = Engine()
+    ctx = E.ctx
+    world = jlib.path(a.world)
+    with open(world, encoding="utf-8") as f:
+        text = f.read()
+    with open(ctx["xstate"], encoding="utf-8") as f:
+        xs = json.load(f)
+    day = a.day
+    if day is None:
+        code, d = E.data("schedule", "due", "--ahead", "7")
+        d = d.get("data") or {}
+        due = [x for x in (d.get("due") or []) if x["id"] == a.item] or \
+            [x for x in (d.get("ahead") or []) if x["id"] == a.item]
+        if not due:
+            print(f"nothing of {a.item} due now or in the coming week")
+            return 3
+        day = due[0].get("due_day") or due[0].get("day")
+    sess = ctx.get("session") or "?"
+    pat = re.compile(WEEK_RE.format(day=day), re.M)
+    m = pat.search(text)
+    entries = re.findall(r"(?:^|; )(\d) ", m.group(2)) if m else []
+    if not m or [e for e in entries] != ["1", "2", "3", "4", "5", "6"]:
+        print(f"NOT RUN: the six entries of day {day} are not in {a.world} yet. Write this line (in ## Scheduled "
+              f"events, above the last week's), then run again:")
+        print(f"- **Day {day} weekly: the week's secrets** (S{sess}; entries written before the roll): 1 …; 2 …; 3 …; "
+              f"4 …; 5 …; 6 ….")
+        return 3
+    if "rolled" in m.group(1):
+        print(f"day {day}: the week's secret is rolled already ({m.group(1)})")
+        return 3
+    os.environ["ACKS_ACK"] = ",".join(x for x in [os.environ.get("ACKS_ACK", ""), "secret-entries-first"] if x)
+    code, out = E.run("schedule", "run", "--due", "--day", str(day))
+    print(short(out, 2000))
+    if code:
+        print("STOP: the schedule run was refused")
+        return 3
+    res = []
+    rolled = None
+    for part in SRC.sub("", out).split(" | ")[0].split("; "):
+        part = part.replace("[H] ", "").strip()
+        mm = re.match(r"(.+?): (\d+d\d+.*?) = (-?\d+)(?:: (.*))?$", part)
+        if mm:
+            if a.item in part or "the secret" in mm.group(1):
+                rolled = mm.group(3)
+            res.append(f"{mm.group(1)} {mm.group(3)}" + (f" ({mm.group(4)})" if mm.group(4) else ""))
+    head = m.group(1) + (f"; **rolled {rolled}**" if rolled else "") + ("; " + "; ".join(r for r in res if "the secret" not in r) if res else "")
+    new = f"- **Day {day} weekly: the week's secrets** ({head}): {m.group(2)}"
+    text = text[:m.start()] + new + text[m.end():]
+    with open(world, "w", encoding="utf-8") as f:
+        f.write(text)
+    print(f"written into {a.world}: day {day} weekly, rolled {rolled}")
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -573,6 +638,10 @@ def main(argv=None):
     p.add_argument("--watches")
     p.add_argument("--camp-hours", type=float, default=12)
     p.add_argument("--dusk", type=float, default=18)
+    p = sub.add_parser("city-week")
+    p.add_argument("--day", type=int)
+    p.add_argument("--item", default="weekly-secret")
+    p.add_argument("--world", default="Campaign/World State.md")
     p = sub.add_parser("cond")
     p.add_argument("action", choices=["add", "remove", "list"])
     p.add_argument("id")
@@ -584,7 +653,7 @@ def main(argv=None):
     if rest:
         ap.error("unrecognized arguments: " + " ".join(rest))
     return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond,
-            "depart": depart, "march": march}[a.cmd](a)
+            "depart": depart, "march": march, "city-week": city_week}[a.cmd](a)
 
 
 if __name__ == "__main__":

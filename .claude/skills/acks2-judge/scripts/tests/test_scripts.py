@@ -219,3 +219,26 @@ def test_play_march_stops_or_marches(camp):
     assert out.startswith("day ") or out.startswith("arrived")
     if code == 3:
         assert "STOP:" in out
+
+
+def test_play_city_week_refuses_then_writes(camp):
+    """C3: no six entries -> the template and exit 3; with them -> the weekly block run and the line written."""
+    need(camp, "Campaign/schedule.yaml", "weekly-secret")
+    need(camp, "Campaign/World State.md")
+    code, out = sh(camp, "schedule", "due", "--ahead", "7", "--json")
+    d = json.loads(out[out.find("{"):]).get("data") or {}
+    occ = [x for x in (d.get("due") or []) if x["id"] == "weekly-secret"] + \
+        [x for x in (d.get("ahead") or []) if x["id"] == "weekly-secret"]
+    if not occ:
+        pytest.skip("no weekly secret due within the week")
+    day = occ[0].get("due_day") or occ[0].get("day")
+    code, out = sh(camp, "city-week", "--day", str(day), script="play.py")
+    assert code == 3 and f"- **Day {day} weekly: the week's secrets**" in out
+    p = os.path.join(camp, "Campaign", "World State.md")
+    s = open(p, encoding="utf-8").read()
+    s = s.replace("## Scheduled events\n", "## Scheduled events\n- **Day %d weekly: the week's secrets** (S99; entries "
+                  "written before the roll): 1 a; 2 b; 3 c; 4 d; 5 e; 6 f.\n" % day, 1)
+    open(p, "w", encoding="utf-8").write(s)
+    code, out = sh(camp, "city-week", "--day", str(day), script="play.py")
+    assert code == 0, out
+    assert "**rolled" in open(p, encoding="utf-8").read()

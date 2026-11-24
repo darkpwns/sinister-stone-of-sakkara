@@ -22,3 +22,6 @@ Load when the party is in a settlement or stronghold and buys, sells, lodges, as
 
 ## State
 Every transaction is an inventory event (the actors' gear and coins and the Ledger's Purchases and sales are generated from it); time in Campaign State; `save.sh`.
+- **The city's weekly block** (a campaign with a weekly secret): `python3 $S/play.py city-week` prints the line of
+  the week's six entries to write into World State first and refuses until they are there; then it runs the week's
+  due schedule items and writes "**rolled N**" and each item's result into that line; add the narrative after it.
