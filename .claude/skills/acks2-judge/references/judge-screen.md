@@ -137,6 +137,10 @@ choice or when injuries make adventuring unlikely.
   prestige only when secure and the ruler adventured; the limit per hex), domain XP above the threshold, construction
   progress; `--apply` writes it and the coins (the ruler receives the revenue and pays the expenses). The hex adapter
   can read the domains' hexes from this file (`hexes.domains: {file: Campaign/domain-state.json}`).
+- The whole month's end in one call: `python3 $S/play.py month-end [--administered ford] [--adventured ford]
+  [--investment ford:1000 --overseen ford]` (campaign.yaml `month_end`: the schedule's month-end item, each domain's
+  month, the bank's storage fee, the incomes with their half-while-away and usurpation rolls, training progress),
+  writing the World State and Rulings lines; `--dry-run` first lists what it will do.
 
 ## 10. What modules leave to the Judge (decide by a hidden roll or a recorded call, before it matters)
 - Where a named NPC is now (lair, patrol, absent): set odds from the text ("most of her time" = 5 in 6 after an alarm).

@@ -215,3 +215,13 @@ hexes:
     types:
     - stronghold
     - town
+month_end:                                 # play.py month-end (skill C4); the figures are the Rulings' (S16, S19, S46, S52, S54)
+  schedule_item: month-end
+  domains: [ford]                          # `acks.sh domain init ford …` once (judge-screen 9a), from Rulings S51-S54
+  bank: {holder: guildhouse-bank, fee_pct: 0.25}
+  incomes:
+  - {to: vettius, gp: 31728, label: "the Family's syndicate take", half_when_away: {who: vettius, place: Cyfaraun}, usurpation: "1d6:1"}
+  - {to: vettius, gp: 1624, label: "the Pony's honest half"}
+  - {to: vettius, gp: 800, label: "the North Gate dice-houses (front)"}
+  - {to: lucilla, gp: 1500, label: "the front's houses and The Mink"}
+  - {to: lucilla, gp: 2750, label: "Lucilla's half of the venture company"}

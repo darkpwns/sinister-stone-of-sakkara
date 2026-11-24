@@ -41,6 +41,14 @@
       lesson secret-entries-first acknowledged by the entries' presence) and writes "**rolled N**" and each item's
       result into that line (the Judge adds the narrative); exit 0.
 
+  play.py month-end [--day N] [--administered DOMAIN] [--adventured DOMAIN] [--investment DOMAIN:GP] [--overseen
+                   DOMAIN] [--dry-run]
+      The month's end in one call (C4), from campaign.yaml `month_end`: the schedule's month-end item, each domain's
+      month (`domain month … --apply`), the bank's storage fee per member (`bank: {holder, fee_pct}`), the incomes
+      (`incomes: [{to, gp, label, half_when_away: {who, place}, usurpation: "1d6:1"}]`: full while `who` is at
+      `place`, half away with the usurpation roll), training progress (`train show`, when the engine has it), and
+      the World State and Rulings lines. --dry-run rolls nothing and writes nothing: it lists what would run.
+
   play.py cond add ID "TEXT" [--cause WHY]   |   play.py cond remove ID "TEXT" [--cause WHY]   |   play.py cond list ID
       One condition added to or taken off an actor's `state.conditions` (the engine's `actor set` takes the whole
       list: this reads it, changes one entry and writes it back with the cause). `remove` matches the exact text or,
@@ -605,6 +613,134 @@ def city_week(a):
     return 0
 
 
+def _balances(ctx, bank, upto):
+    with open(ctx["istate"], encoding="utf-8") as f:
+        x = json.load(f)
+    V = {"pp": 5.0, "gp": 1.0, "ep": 0.5, "sp": 0.1, "cp": 0.01}
+    ids = sorted(x["holders"], key=len, reverse=True)
+    bal = {}
+    for e in x["log"]:
+        if (e.get("day") or 0) > upto:
+            continue
+        g = [c for c in e.get("coins", []) if c.get("who") == bank]
+        if not g:
+            continue
+        d = sum(V[k] * c.get(k, 0) for c in g for k in V)
+        others = [c["who"] for c in e.get("coins", []) if c.get("who") != bank]
+        who = others[0] if others else next((i for i in ids if re.search(r"\b" + re.escape(i) + r"\b",
+                                                                              e.get("cause", ""), re.I)), None)
+        if who:
+            bal[who] = bal.get(who, 0) + d
+    return {k: v for k, v in bal.items() if v > 0.005}
+
+
+def _where(xs, who):
+    """The settlement a character is in: the party's location, or where he stays behind."""
+    if who in (xs.get("staying") or {}):
+        return str((xs["staying"][who] or {}).get("place") or "")
+    if who in (xs.get("party") or {}):
+        loc = xs.get("location") or {}
+        return str(loc.get("site") or "") if loc.get("kind") == "settlement" else ""
+    return ""
+
+
+def month_end(a):
+    E = Engine()
+    ctx = E.ctx
+    cfg = ctx["cfg"].get("month_end") or {}
+    with open(ctx["xstate"], encoding="utf-8") as f:
+        xs = json.load(f)
+    md = int((ctx["cfg"].get("tools") or {}).get("month_days") or 30)
+    day = a.day or ((xs["clock"]["day"] + md - 1) // md) * md
+    month = day // md
+    sess = ctx.get("session") or "?"
+    lines, plan = [], []
+    item = cfg.get("schedule_item", "month-end")
+    plan.append(f"schedule run {item} --due-day {day}")
+    for did in (cfg.get("domains") or []):
+        plan.append(f"domain month {did} --apply")
+    bank = cfg.get("bank") or {}
+    if bank.get("holder"):
+        plan.append(f"bank fee {bank.get('fee_pct', 0.25)}% from {bank['holder']}")
+    for inc in cfg.get("incomes") or []:
+        plan.append(f"income {inc['label']} -> {inc['to']}")
+    if a.dry_run:
+        print("month's end, day %d (month %d): %s" % (day, month, "; ".join(plan)))
+        return 0
+    code, out = E.run("schedule", "run", item, "--due-day", str(day), "--day", str(day))
+    print(short(out, 600))
+    if code:
+        print("STOP: the month-end item was refused")
+        return 3
+    lines.append("schedule: " + "; ".join(p.replace("[H] ", "") for p in SRC.sub("", out).split(" | ")[0].split("; ")[1:]))
+    invest = dict(x.split(":", 1) for x in (a.investment or []))
+    for did in (cfg.get("domains") or []):
+        argv = ["domain", "month", did, "--apply", "--day", str(day)]
+        if did in (a.administered or []):
+            argv.append("--administered")
+        if did in (a.adventured or []):
+            argv.append("--adventured")
+        if did in invest:
+            argv += ["--investment", invest[did]] + (["--overseen"] if did in (a.overseen or []) else [])
+        code, out = E.run(*argv)
+        print(short(out, 600))
+        if code:
+            print(f"STOP: domain {did}: refused")
+            return 3
+        fam = re.search(r"= (\d+)$", SRC.sub("", out).split(" | ")[0].split("; families ")[-1].split(";")[0])
+        lines.append(f"domain {did}: " + "; ".join(p for p in SRC.sub("", out).split(" | ")[0].replace("[H] ", "").split("; ")
+                                                   if p.startswith(("families", "morale roll", did)) or "revenue" in p))
+    if bank.get("holder"):
+        bal = _balances(ctx, bank["holder"], day)
+        pct = float(bank.get("fee_pct", 0.25))
+        for who, v in sorted(bal.items()):
+            fee = round(v * pct / 100, 2)
+            if fee < 0.01:
+                continue
+            code, out = E.run("inv", "pay", bank["holder"], f"{fee:g}gp", "--to", "the bank's storage fee",
+                              "--cause", f"storage fee {pct:g}% of {who}'s balance {v:,.0f}gp (month {month})")
+            print(short(out, 200))
+        lines.append(f"bank fee {pct:g}% on {len(bal)} balance(s)")
+    for inc in cfg.get("incomes") or []:
+        gp = float(inc["gp"])
+        note = ""
+        away = inc.get("half_when_away")
+        if away and away.get("place", "").lower() not in _where(xs, away["who"]).lower():
+            gp = gp / 2
+            note = f" (half: {away['who']} away)"
+            if inc.get("usurpation"):
+                die, _, hit = inc["usurpation"].partition(":")
+                code, out = E.run("roll", "--hidden", f"{inc['label']}: usurpation while {away['who']} is away:{die}")
+                r = int(re.search(r"= (\d+)", out).group(1))
+                if r <= int(hit or 1):
+                    print(f"STOP: {inc['label']}: a lieutenant makes himself boss ({die} {r}): the take stops (Judge)")
+                    lines.append(f"{inc['label']}: USURPED ({die} {r}): stopped")
+                    continue
+                note += f"; usurpation {die} {r}: holds"
+        code, out = E.run("inv", "receive", inc["to"], f"{gp:.0f}gp", "--from", inc["label"], "--cause",
+                          f"{inc['label']}, month {month}{note}")
+        print(short(out, 200))
+        lines.append(f"{inc['label']} {gp:,.0f}gp to {inc['to']}{note}")
+    code, out = E.run("train", "show") if "train" in (cfg.get("extras") or ["train"]) else (1, "")
+    if code == 0:
+        lines.append("training: " + short(out, 300))
+    text = "; ".join(lines)
+    world = jlib.path("Campaign/World State.md")
+    with open(world, encoding="utf-8") as f:
+        w = f.read()
+    entry = f"- **Day {day} (S{sess}): month {month}'s end.** {text}\n"
+    w = w.replace("## Scheduled events\n", "## Scheduled events\n" + entry, 1)
+    with open(world, "w", encoding="utf-8") as f:
+        f.write(w)
+    rul = jlib.path("Campaign/Rulings.md")
+    import datetime
+    with open(rul, "a", encoding="utf-8") as f:
+        f.write(f"| {datetime.date.today().isoformat()} | S{sess} | Month {month}'s end (day {day}) | "
+                f"{text.replace('|', '/')} | play.py month-end (engine) |\n")
+    print(f"written: World State and Rulings (month {month}'s end)")
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -642,6 +778,13 @@ def main(argv=None):
     p.add_argument("--day", type=int)
     p.add_argument("--item", default="weekly-secret")
     p.add_argument("--world", default="Campaign/World State.md")
+    p = sub.add_parser("month-end")
+    p.add_argument("--day", type=int)
+    p.add_argument("--administered", action="append")
+    p.add_argument("--adventured", action="append")
+    p.add_argument("--investment", action="append", help="DOMAIN:GP")
+    p.add_argument("--overseen", action="append")
+    p.add_argument("--dry-run", action="store_true")
     p = sub.add_parser("cond")
     p.add_argument("action", choices=["add", "remove", "list"])
     p.add_argument("id")
@@ -653,7 +796,7 @@ def main(argv=None):
     if rest:
         ap.error("unrecognized arguments: " + " ".join(rest))
     return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond,
-            "depart": depart, "march": march, "city-week": city_week}[a.cmd](a)
+            "depart": depart, "march": march, "city-week": city_week, "month-end": month_end}[a.cmd](a)
 
 
 if __name__ == "__main__":

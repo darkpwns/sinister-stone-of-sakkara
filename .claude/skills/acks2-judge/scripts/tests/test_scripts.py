@@ -242,3 +242,12 @@ def test_play_city_week_refuses_then_writes(camp):
     code, out = sh(camp, "city-week", "--day", str(day), script="play.py")
     assert code == 0, out
     assert "**rolled" in open(p, encoding="utf-8").read()
+
+
+def test_play_month_end_dry_run(camp):
+    """C4: --dry-run lists the month's end from the campaign's month_end block and changes nothing."""
+    need(camp, "Campaign/campaign.yaml", "month_end:")
+    before = open(os.path.join(camp, "Campaign", "World State.md"), encoding="utf-8").read()
+    code, out = sh(camp, "month-end", "--dry-run", script="play.py")
+    assert code == 0 and "month's end, day" in out and "schedule run" in out
+    assert open(os.path.join(camp, "Campaign", "World State.md"), encoding="utf-8").read() == before
