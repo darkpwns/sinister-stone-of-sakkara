@@ -48,3 +48,4 @@ tags:
 - [[S37 — The Doom Throne]]
 - [[S38 — The Nuvicus Matter]]
 - [[S39 — The Week After the Throne]]
+- [[S40 — The Warlords' Sepulchre]]

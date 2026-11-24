@@ -4679,3 +4679,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 581 |  | treasure share |  | 166gp 6sp 7cp |  | vettius |
 | 581 |  | treasure share |  | 166gp 6sp 7cp |  | vestus-the-unlikely |
 | 581 |  | treasure share |  | 166gp 6sp 7cp |  | neris |
+| 581 | the Tower of Knowledge | a mage's identification of the wolf-butted spear (L832), two weeks (AX3 p. 152), day 581 |  |  | 2,000gp | vettius |
