@@ -31,6 +31,9 @@ bring him the parts of beasts for his magic.
 - Day 664. Vestus finished his first scroll with market herbs and webs in place of spider parts. The working went
   wrong: a fold of grey light, and the workshop was empty. Vestus is gone. Neris asked Calefa where he is and was not
   answered.
+- Day 665. The company's council: the hunts end (no one is left to use the parts); the workshop is to be packed
+  for the barony; Phaedra takes Vestus' place in the line. Cotta, with Ennia and Brennus, will ride south to look at
+  the bugbears' fort across the ford before the thaw.
 
 ## Who they met
 - Ennia Ursa, monster-hunter (Explorer 1): sharp-eyed, quiet, counts everything twice ("Ants don't sleep, and they don't forget a trail.").
