@@ -666,6 +666,8 @@ tags:
 | 561 | Order contract: Rufus Calenus (Lucilla) | reward 1500.0gp | 1,500 | lucilla |
 | 567 | Order contract: Phanes Kordaxis (Neris) | reward 2000.0gp | 2,000 | neris |
 | 573 | Order contract: Dorion Makrenos (Brennus) | reward 1000.0gp | 1,000 | brennus |
+| 574 | Descent 80 (the doom throne, J8) | 20 red garnets prised from the doom throne | 5,000 | sold |
+| 574 | Descent 80 (the doom throne, J8) | 20 black garnets prised from the doom throne | 5,000 | sold |
 
 ## Monster XP
 
@@ -857,6 +859,9 @@ tags:
 | 567 | Order contract: Phanes Kordaxis (Neris) | Phanes Kordaxis | 1 | 80 | 80 |
 | 567 | Descent 79 (the doom throne, J8) | Flailing Spirit (SOTN) | 1 | 2,600 | 2,600 |
 | 573 | Order contract: Dorion Makrenos (Brennus) | Dorion Makrenos | 1 | 20 | 20 |
+| 574 | Descent 80 (the doom throne, J8) | Troglodyte | 12 | 15 | 180 |
+| 574 | Descent 80 (the doom throne, J8) | Troglodyte | 1 | 20 | 20 |
+| 574 | Descent 80 (the doom throne, J8) | Incarnation of Terror (SOTN) | 1 | 3,900 | 3,900 |
 
 ## Shares and XP awarded
 
@@ -1742,6 +1747,15 @@ tags:
 | 573 | Order contract: Dorion Makrenos (Brennus) | Vettius | 1 | 400 | 8 | 0 | +5% | 428 |
 | 573 | Order contract: Dorion Makrenos (Brennus) | Brennus | 1 | 400 | 8 | 0 | +5% | 428 |
 | 573 | Order contract: Dorion Makrenos (Brennus) | Phaedra | 0.5 | 200 | 4 | 0 | +0% | 204 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 574 | Descent 80 (the doom throne, J8) | Lucilla | 1 | 1,333 | 547 | 0 | +10% | 2,068 |
+| 574 | Descent 80 (the doom throne, J8) | Vettius | 1 | 1,333 | 547 | 0 | +5% | 1,974 |
+| 574 | Descent 80 (the doom throne, J8) | Brennus | 1 | 1,333 | 547 | 0 | +5% | 1,974 |
+| 574 | Descent 80 (the doom throne, J8) | Vestus the Unlikely | 1 | 1,333 | 547 | 0 | +5% | 1,974 |
+| 574 | Descent 80 (the doom throne, J8) | Neris | 1 | 1,333 | 547 | 0 | +0% | 1,880 |
+| 574 | Descent 80 (the doom throne, J8) | Cotta | 1 | 1,333 | 547 | 0 | +0% | 1,880 |
+| 574 | Descent 80 (the doom throne, J8) | Aelia | 0.5 | 667 | 273 | 0 | +0% | 940 |
+| 574 | Descent 80 (the doom throne, J8) | Phaedra | 0.5 | 667 | 273 | 0 | +0% | 940 |
+| 574 | Descent 80 (the doom throne, J8) | Tiberius Maro | 0.5 | 667 | 273 | 0 | +0% | 940 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4587,3 +4601,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 573 | Cyfaraun | Waterskin | 5 |  | 3gp | phaedra |
 | 573 | Cyfaraun | Waterskin | 5 |  | 3gp | neris |
 | 573 | Cyfaraun | torch | 6 |  | 1sp | aelia |
+| 574 |  | treasure share |  | 1,333gp 3sp 3cp |  | lucilla |
+| 574 |  | treasure share |  | 1,333gp 3sp 3cp |  | vettius |
+| 574 |  | treasure share |  | 1,333gp 3sp 3cp |  | brennus |
+| 574 |  | treasure share |  | 1,333gp 3sp 3cp |  | vestus-the-unlikely |
+| 574 |  | treasure share |  | 1,333gp 3sp 3cp |  | neris |
+| 574 |  | treasure share |  | 1,333gp 3sp 3cp |  | cotta |
+| 574 |  | treasure share |  | 666gp 6sp 7cp |  | aelia |
+| 574 |  | treasure share |  | 666gp 6sp 7cp |  | phaedra |
+| 574 |  | treasure share |  | 666gp 6sp 7cp |  | tiberius-maro |
