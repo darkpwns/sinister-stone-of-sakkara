@@ -147,6 +147,56 @@ where a command changes. Run the full test suites before each commit. Do not cha
 23. A paralysed party member could be driven to attack by a script (S32, l. 559): make `attack` refuse any attacker
     whose conditions forbid acting (paralysed, slumbering, unconscious, surprised in round 1) whatever the caller.
 
+## F. Capturing, taming and training animals and monsters (new; MM pp. 354-360, RR p. 106)
+The party wants to capture and train the wild pegasi of its barony (MM Pegasus: Large, training period 1 month, TM +3,
+role War Mount, trained value 20,000gp, adult 8,200, juvenile 2,125, baby 1,815; flying). Build the whole procedure:
+1. **Data.** Import the MM Taming and Training Tables (`vault/ACKS II Rules/Monster Rules/Monster Taming and Training
+   Tables.md`: Animals, Beastmen & Humanoids, Plants, Monstrosities; columns Diminutive, Weight, Size, Normal Load,
+   Lifespan, Role, Trained Value, Adult/Juvenile/Baby Value, Supply Cost, Training Period, TM, BR) with `acks extract`
+   and `acks check` coverage, cross-checked against the statblocks' `training_period`, `training_modifier`,
+   `untrained_value` and `trained_value` fields (flag disagreements, e.g. the Pegasus note's 8,250 vs the table's 8,200).
+   Each creature's trainer category (domestic / wild / dire-giant-prehistoric / monstrosity-vermin) from its type, for
+   the Animal Training rank it needs (RR p. 106: ranks 1-4).
+2. **Capture.** `acks capture TARGET --how slumbering|paralyzed|netted|restrained|bewitched|surrendered --by ID` in a
+   fight or after it: a helpless or restrained creature taken alive becomes a captive holder (an animal holder with
+   age stage adult/adolescent/juvenile/baby/egg, sex, attributes if rolled, hp and wounds), its captured XP recorded
+   (RR pp. 310-311). Young and eggs found in a lair (MM aerie rules: Pegasus 25% per adult) are lots that become
+   captive holders. Captives eat (supply cost; B6 feed) and can escape: a Judge's hook each day while not tamed.
+3. **Taming and training as an activity.** `acks train start CREATURE --trainer ID [--role mount|war-mount|guard|
+   hunter|drover|work-beast|livestock | --tricks attack,carry,…] [--whispering]`, then the clock advances it:
+   - periods by age (MM Overview): from baby/juvenile 1 period to tame, 1 for the first trick, half per further trick;
+     adult domestic animals ×4 taming, ×2 per trick; other adult monsters ×12 taming, ×6 per trick;
+   - the trainer's Animal Training ranks must cover the creature's category; one trainer trains up to six at once as a
+     dedicated activity; monster whispering (one trainer, one creature, whole course: +2 tricks) is required for flying
+     creatures trained as adults;
+   - the creature's maximum tricks 2d4 + TM (+2 whispering), rolled hidden at the start and revealed only when reached
+     (RR p. 106); sapient creatures (TM S) skip taming and train only as mounts or war mounts, by consent;
+   - roles count as tricks (Drover 7, Guard 7 or 2 with affinity, Hunter 2, Livestock 1, Mount 5, War Mount 8 or 2
+     with affinity, Work Beast 2): refuse a role the creature cannot learn;
+   - magic (MM Magic and Monster Training): a bewitched creature (Bewitch Beast/Monster) is tame at once and trains at
+     juvenile rates while the bewitchment lasts; Beast Friendship and Speak with Beasts as written; an elven
+     fastness's animal friendship;
+   - interruptions (the trainer away, the creature hurt) pause the progress; `train show` lists every course with its
+     next milestone; milestones and completion print on the clock commands like schedule items.
+4. **Animal trainers as hirelings.** The recruit tables' animal trainer specialist by rank (25 / 75 / 150 / 250gp a
+   month; 150gp minimum for gigantic or larger creatures), with Animal Training ranks on the hired actor.
+5. **Handling and control.** Handlers per role (Roles at a Glance: a proficient handler controls 1 mount or war mount
+   (with Riding, 1 ridden in battle and up to 6 led), 6 work beasts, 6 drovers, 20 guards; an unproficient handler 1);
+   trainers introduce new handlers; a tame but uncontrolled creature met again: reaction with +2 for the Animal
+   Training proficient, 9+ becomes its handler (MM Encounters with Tamed Monsters). Trained mounts join the inventory
+   as animals (`inv` holders) with their role, tricks, handler and loads (normal load from the table), and fight in the
+   combat state with their tricks (attack, defend, carry; war mounts in a charge per their statblock).
+6. **Value and sale.** Untrained values by age, trained value, attribute adjustments (MM: 13-15 +25% … 3 -15% per
+   attribute), the mercenary wage (trained value / 33 less supply cost × 4) for hiring out; `sell` of a captive or
+   trained creature at the market's class and demand, with sale XP as treasure (TT/RR rules for selling monsters).
+7. **Flying mounts in travel.** A party mounted on fliers travels by air: flying speed from the statblock, no terrain
+   multiplier, visibility and encounter distances for flyers, the flying encounter tables where the rules give them,
+   loads per normal load, and landing and feeding each day (RR Overland Travel; MM flying monsters).
+8. **Tests:** a pegasus foal (tamed month 1, war-mount role over 1 + 7 × 0.5 = 4.5 more months, 8 tricks needed vs
+   2d4+3), an adult pegasus captured (12 months taming, 6 + 7 × 3 months training, whispering required), the same adult
+   bewitched (juvenile rates), a trainer with 3 ranks refused for a monstrosity, and a trained war mount sold at 20,000gp
+   adjusted by its attributes.
+
 ## E. Decisions for the user (not engine work)
 1. OPEN-ITEMS #24: `level-up` re-rolls hp without the permanent enervation losses; a Judge's correction is pending for
    Brennus (26) and Vettius (25) maximum hp (S20).
