@@ -105,6 +105,12 @@
    "name": "Petra",
    "actor": "petra",
    "status": "active"
+  },
+  "titus": {
+   "kind": "henchman",
+   "name": "Titus",
+   "actor": "titus",
+   "status": "active"
   }
  },
  "custom": {},
@@ -8037,6 +8043,276 @@
    "price_cp": 1600,
    "cmd": "inv pay",
    "n": 326
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -24
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2400,
+   "cmd": "inv wages",
+   "n": 327
+  },
+  {
+   "op": "pay",
+   "cause": "signing bonus, a month's wage",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -12
+    }
+   ],
+   "to": "titus (signing bonus)",
+   "price_cp": 1200,
+   "cmd": "inv pay",
+   "n": 328
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (his own)",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [
+    {
+     "who": "titus",
+     "item": "#w25",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w25",
+     "key": "knife",
+     "row": "Knife",
+     "table": "weapons-swords-daggers",
+     "table_row": 0,
+     "type": "Tiny Melee/Missile",
+     "size": "Tiny",
+     "dice": {
+      "1h": "1d3",
+      "2h": "1d3"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Thrown"
+     ],
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (his own)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 0
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 0
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 0
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 0
+       }
+      }
+     }
+    }
+   ],
+   "n": 329
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [
+    {
+     "who": "titus",
+     "item": "padded armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -9
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 2,
+   "row": "Padded Armor",
+   "packs": 1,
+   "price_cp": 900,
+   "cmd": "inv buy",
+   "n": 330
+  },
+  {
+   "op": "give",
+   "cause": "Galerius' spare spear to the new henchman",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "#w2",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "titus",
+     "item": "#w2",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 331
+  },
+  {
+   "op": "give",
+   "cause": "from the company chest",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "titus",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 332
+  },
+  {
+   "op": "give",
+   "cause": "from the donkey's skins",
+   "day": 45,
+   "time": "day 45 06:01",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "titus",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 333
+  },
+  {
+   "op": "give",
+   "cause": "provisions for the pilgrimage",
+   "day": 46,
+   "time": "day 46 06:01",
+   "deltas": [
+    {
+     "who": "galerius",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "hrodric",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 334
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to hrodric: 7 days of iron rations; supplies: galerius food 5 d, water 5.4 d, firewood 0 st; faustina food 5 d, water 0 d, firewood 0 st; callista food 5 d, water 3 d, firewood 0 st; corvus food 5 d, water 0 d, firewood 0 st; hrodric food 8 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of galerius, faustina, hrodric); donkey2 fodder 0 st, water 0 st (carries the supplies of callista, corvus)",
+   "day": 46,
+   "time": "day 46 06:01",
+   "deltas": [
+    {
+     "who": "hrodric",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 335
+  },
+  {
+   "op": "pay",
+   "cause": "night of day 49 for five and a donkey",
+   "day": 49,
+   "time": "day 49 15:01",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -1
+    }
+   ],
+   "to": "Türos Aster village (lodging and meals)",
+   "price_cp": 100,
+   "cmd": "inv pay",
+   "n": 336
   }
  ],
  "holdings": {
@@ -8060,7 +8336,6 @@
    },
    "backpack": {
     "waterskin": 1,
-    "rations, iron (one week)": 1,
     "tinderbox (flint & steel)": 1
    }
   },
@@ -8156,8 +8431,7 @@
   },
   "donkey1": {
    "pack": {
-    "waterskin": 24,
-    "#w2": 1,
+    "waterskin": 23,
     "#w3": 1,
     "#w9": 1,
     "metamphora (60gp)": 3
@@ -8175,7 +8449,6 @@
   },
   "company-chest": {
    "here": {
-    "sack, large (holds 6 stone)": 1,
     "torch": 12
    }
   },
@@ -8263,11 +8536,28 @@
    "backpack": {
     "waterskin": 1
    }
+  },
+  "titus": {
+   "belt": {
+    "#w25": 1
+   },
+   "armor": {
+    "padded armor": 1
+   },
+   "right_hand": {
+    "#w2": 1
+   },
+   "back": {
+    "sack, large (holds 6 stone)": 1
+   },
+   "sack": {
+    "waterskin": 1
+   }
   }
  },
  "coins": {
   "faustina": {
-   "gp": 2427,
+   "gp": 2381,
    "sp": 6,
    "cp": 15
   },
@@ -9778,6 +10068,69 @@
      "catalog": {
       "table": "weapons-spears-polearms",
       "row": 4
+     }
+    }
+   }
+  },
+  "w25": {
+   "id": "w25",
+   "key": "knife",
+   "row": "Knife",
+   "table": "weapons-swords-daggers",
+   "table_row": 0,
+   "type": "Tiny Melee/Missile",
+   "size": "Tiny",
+   "dice": {
+    "1h": "1d3",
+    "2h": "1d3"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Thrown"
+   ],
+   "range": {
+    "short": 15,
+    "medium": 30,
+    "long": 45
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (his own)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 0
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 0
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 0
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 0
      }
     }
    }

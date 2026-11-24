@@ -16,6 +16,9 @@ Prefix bullets with the session (`S03:`). Run 2 (from 2026-11-24).
 - S02: Red Eye gnolls (hyena-men) in the buried temple say 'the Lady Below' pays any band that wipes out one of her lesser tribes. So the beastmen there serve a mistress, and she sets them on each other.
 
 ## Plans
+- S07: The pilgrimage went wrong: lost in the rain east of the shrine (days 47-49), we came out at Türos Aster. On the way: a rust-red seam of ore by a stream in the forest north-west of Aster (we couldn't tell what), a host of pale spirits (we slipped away), and on the road back a hidden chest of gold and jewelry under a waystone.
+- S07: **The kingdom's first ground:** the legate of Türos Aster will make whoever clears the bugbears out of the ruined imperial fortress across the ford a patrician, with a claim to the stronghold. We take it: land, walls and a title; holding it against Chaos is what we'd do anyway. Gather Severina, the henchmen and the dogs at Türos Tem first.
+- S07: Hrodric's three pups are tame (day 46). Severina hired Titus, a bookbinder (day 45).
 - S06: Back from the ogre: 720gp of treasure; the purse about 2,500gp. Lupa quit and rests at the inn. Severina hired Petra (a seamstress) on day 38.
 - S06: Pilgrims say a white unicorn drinks at the Shrine of the White Lady, a day or two north-east up the Krysivor. Hrodric wants to see it; Faustina says the White Lady is Mityara and her beast is not ours to take. We go as pilgrims first, and look.
 - S06: The pups will be tame about day 46 (Hrodric's) and day 49 (Severina's). Galerius found no war-horse foal to train. The officers at the fort have turned against us (Ilarion, Miren, Thales): stop asking them for things.

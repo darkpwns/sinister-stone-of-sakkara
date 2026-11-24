@@ -85,12 +85,14 @@
    ],
    "weeks": [
     1,
-    2
+    2,
+    3
    ],
    "candidates": [
     "C2",
     "C3",
-    "C4"
+    "C4",
+    "C5"
    ],
    "region": "Turos Tem",
    "level": 0,
@@ -518,6 +520,101 @@
    "accepted_by": "severina",
    "elan": true,
    "offer_wage": 12.0
+  },
+  "C5": {
+   "id": "C5",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Titus",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "severina",
+     "party": "party",
+     "total": 14,
+     "result": "Accept with élan",
+     "day": 45,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 6,
+     "mod": -1
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 17,
+     "mod": 2
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 9,
+     "mod": 0
+    }
+   },
+   "occupation": "Bookbinder",
+   "occupation_group": "Master Crafter",
+   "proficiencies": [
+    {
+     "name": "Craft (bookbinding)",
+     "ranks": 3
+    },
+    {
+     "name": "Art (embossing)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 33,
+   "prof_slots": 6,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 600,
+   "prof_count": 6,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 2",
+   "week": 3,
+   "actor": "titus",
+   "try_again": false,
+   "accepted_by": "severina",
+   "elan": true,
+   "offer_wage": 12.0
   }
  },
  "members": {
@@ -661,13 +758,55 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "titus": {
+   "id": "titus",
+   "name": "Titus",
+   "candidate": "C5",
+   "employer": "severina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Bookbinder",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 45,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 45,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 45,
+     "event": "wages paid: 2 month(s), 24 gp"
+    }
+   ],
+   "actor": "titus",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 4,
+ "seq": 5,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",

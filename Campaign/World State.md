@@ -12,6 +12,10 @@ records only state. Run 2 starts from the modules as printed: nothing of run 1 (
 
 | Hex | Terrain | First visited | Notes |
 | --- | --- | --- | --- |
+| 22.19 | farmland | day 9 | sheep; the way north-east to the forest |
+| 23.19 | farmland | day 46 | a band of 24 raiders (Friendly to Faustina, day 46) |
+| 25.19 | Türos Aster (fort, ford) | day 49 | Legate Nicus Balens Indifferent; his offer on the Ruined Imperial Fortress; a cache by the road (day 50) |
+| 24.19 | hills, road | day 50 | — |
 | 21.20 | farmland | day 2 | camp; a freeholder's well (water 1sp a head) |
 | 20.19 | Viaspen forest | day 3 | beastman tracks found (first hour of searching) leading west |
 | 19.19 | Viaspen forest | day 3 | the Buried Temple found day 4; a spring found day 3 (water) |
@@ -38,6 +42,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 45 | Severina hired Titus (bookbinder, 0th level) | Türos Tem | henchmen: Marius, Petra, Titus |
+| 46 | Hrodric's three pups tamed (C21-C23); courses paused from day 46 | Türos Tem | tricks from day 76 once resumed |
+| 47 | lost in the rain (natural 1) on the pilgrimage | 23.18 → 24.18 → 25.18 → 25.17 | the shrine not reached; an iron outcrop in 24.18 (not identified by the party); 19 haunts in 25.18 (evaded) |
+| 50 | a cache under a waystone (JJ valuable terrain, TT K: 6,000gp and four pieces of jewelry, 12,300gp) | 25.19 | taken (L34-L38) |
 | 35 | payout of A3 (938 XP); Lupa off the rolls | Türos Tem | purse about 2,500gp |
 | 38 | Severina hired Petra (seamstress, 0th level) | Türos Tem | henchmen: Marius, Petra |
 | 31 | Severina hired Marius (cantina keeper) and Lupa (butcher), 0th level, 12gp a month, a month's signing | Türos Tem | Lupa maimed by the ogre day 33 (one leg amputated, bed rest to day 47) and resigned; carried home |
@@ -55,6 +63,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Türos Tem (day 1): Legate Ulrand Valerian Neutral (Faustina); Priestess Genelen Indifferent (Faustina); Malyn's apprentices Indifferent (Callista); Guildmaster Aeropos Karanos **Unfriendly** (Tertia); Quartermaster Koinos Thales **Unfriendly** (Hrodric, over kyrpeges at the inn); Centurion Axios Ilarion Neutral (Faustina).
 - Ansgar the lumbermonger (henchman candidate, day 1): refused Callista and Tertia (twice).
 - Türos Tem (days 27-31): **Priestess Genelen Friendly** (Faustina, working in her hospital; day 27); the legate Indifferent (day 28, corrected); Malyn's apprentices Neutral → Indifferent (Callista, days 27-30: no introduction to Malyn); **Quartermaster Thales Hostile** (Galerius, day 27).
+- Türos Aster (day 50): Legate Nicus Balens Indifferent (Faustina): the standing offer: clear the Ruined Imperial Fortress (26.19, bugbears) = patrician rank and a claim to the stronghold. The party means to take it up.
 - Türos Tem (days 36-40): Centurion Ilarion Neutral → **Unfriendly** (Galerius); Subaltern Miren Neutral → **Unfriendly** (Callista; she disparages the party to Malyn: -2 to his reactions). Pilgrims to the Shrine of the White Lady Friendly (day 35, 21.20).
 - Lupa (former henchman, resigned day 33): bed rest at the Traveler's Inn to day 47, one leg; 60gp of his own.
 - Buried Temple (day 33): orcs Friendly (took the party for recruits; invited it to wipe out a lesser tribe: declined); a redcap in the forest by night (Indifferent).
@@ -72,6 +81,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Buried Temple replacements (AX1 p. 35): from day 11 a weekly 1d6 per cleared room while the Lady lives (1-3: 1d6 more of the tribe); the bodiless heads of 43 and Area 4's stirges are wanderers, not rooms. The kobolds of room 1 (one killed) count as a cleared post only if the Judge decides the door was abandoned: it was not (three returned).
 - Ansgar the lumbermonger: refused; another search for 0th-level henchmen in Türos Tem only from day 31 (month 2).
 - Henchman search, month 2 (Türos Tem, 0th level): week 2 done (Petra); week 3 (day 45) 1 more (`recruit --employer severina … --week 3`).
+- The Ruined Imperial Fortress (26.19; notes in `Adventure/Ruined Imperial Fortress/`, K1-K8, prepped in run 1: read them as unplayed and check for run-1 outcomes before the party arrives): the party's next goal.
 - The Shrine of the White Lady (23.16; AX1 seed: a unicorn, 20 hp; the pool removes one Tampering side effect from a Lawful drinker once a lifetime and lays a geas to destroy Chaotic creatures in Southern Argollë): the party has the rumour (day 35). Not prepped: build it (unprepped-sites.md) before the party arrives. A unicorn's taming row: monstrosity, rank 4, TM S, baby 2,000gp.
 - Rosa's reserve fund holds Tertia's 50 XP from the eggs' sale (day 10; by hand: the engine's fund has 281, already used by Severina).
 - Training courses C21-C25 (war dogs, guards): tamed day 40 if the trainers stay; `train pause` when Hrodric or Severina leave town, `train resume` on return; supply 2.5gp a week from the purse.

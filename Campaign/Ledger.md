@@ -189,3 +189,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 38 | Turos Tem | Padded Armor | 1 |  | 9gp | faustina |
 | 38 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | faustina |
 | 40 | Traveler's Inn | lodging (courtyard), meals for 6 and 2 henchmen, 2 donkeys, nights of days 35-42 (the pups fed from Corvus' hunting, Rulings R2 S06) |  |  | 16gp | faustina |
+| 45 | the retinue | wages paid |  |  | 24gp | faustina |
+| 45 | titus (signing bonus) | signing bonus, a month's wage |  |  | 12gp | faustina |
+| 45 | Turos Tem | Padded Armor | 1 |  | 9gp | faustina |
+| 49 | Türos Aster village (lodging and meals) | night of day 49 for five and a donkey |  |  | 1gp | faustina |

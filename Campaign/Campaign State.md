@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 6
+session: 7
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 42
+    day: 50
   time: '18:01'
-  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate
+  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate
   place: Türos Tem
-  hex: '22.20'
+  hex: '24.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.448
+    encumbrance_st: 6.402
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 9
+    encumbrance_st: 8
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -80,19 +80,19 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 3.5
+  - name: Titus
+    sheet: Characters/titus.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
+    encumbrance_st: 2.5
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 5 d, water 5.6 d; Faustina: food 5 d, water 0 d; Callista: food 5 d, water 3 d; Corvus: food 5 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Hrodric: food 1 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 2 d, water 5.4 d; Faustina: food 2 d, water 0 d; Callista: food 2 d, water 3 d; Corvus: food 2 d, water 0 d; Hrodric: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '24.21'
-  - '22.19'
-  - '22.20'
-  - '21.21'
-  - '21.20'
-  - '20.19'
-  - '19.19'
-  - '20.19'
   - '19.19'
   - '20.19'
   - '21.20'
@@ -105,7 +105,15 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 42
+  - '22.19'
+  - '23.19'
+  - '23.18'
+  - '23.17'
+  - '23.16'
+  - '22.16'
+  - '25.19'
+  - '24.19'
+clock_day: 50
 ---
 # Campaign State
 

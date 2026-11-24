@@ -1,16 +1,16 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 6,
- "generated": 1795562564,
+ "session": 7,
+ "generated": 1795563009,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 42
+  "day": 50
  },
  "time": "18:01",
- "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate",
+ "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate",
  "place": "Türos Tem",
- "hex": "22.20",
+ "hex": "24.19",
  "party": [
   {
    "name": "Callista",
@@ -40,7 +40,7 @@
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.448
+   "encumbrance_st": 6.402
   },
   {
    "name": "Galerius",
@@ -50,7 +50,7 @@
    "hp_max": 4,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 9
+   "encumbrance_st": 8
   },
   {
    "name": "Hrodric",
@@ -91,21 +91,23 @@
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 3.5
+  },
+  {
+   "name": "Titus",
+   "sheet": "Characters/titus.json",
+   "role": "henchman",
+   "hp": 3,
+   "hp_max": 3,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 2.5
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 5 d, water 5.6 d; Faustina: food 5 d, water 0 d; Callista: food 5 d, water 3 d; Corvus: food 5 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Hrodric: food 1 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 2 d, water 5.4 d; Faustina: food 2 d, water 0 d; Callista: food 2 d, water 3 d; Corvus: food 2 d, water 0 d; Hrodric: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "24.21",
-  "22.19",
-  "22.20",
-  "21.21",
-  "21.20",
-  "20.19",
-  "19.19",
-  "20.19",
   "19.19",
   "20.19",
   "21.20",
@@ -117,9 +119,33 @@
   "19.19",
   "20.19",
   "21.20",
-  "22.20"
+  "22.20",
+  "22.19",
+  "23.19",
+  "23.18",
+  "23.17",
+  "23.16",
+  "22.16",
+  "25.19",
+  "24.19"
  ],
  "explored_hexes": [
+  {
+   "hex": "22.19",
+   "terrain": "farmland"
+  },
+  {
+   "hex": "23.19",
+   "terrain": "farmland"
+  },
+  {
+   "hex": "25.19",
+   "terrain": "Türos Aster (fort, ford)"
+  },
+  {
+   "hex": "24.19",
+   "terrain": "hills, road"
+  },
   {
    "hex": "21.20",
    "terrain": "farmland"
@@ -805,11 +831,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 2427,
+    "gp": 2381,
     "sp": 6,
     "cp": 15
    },
-   "encumbrance_st": 6.448,
+   "encumbrance_st": 6.402,
    "weapons": [
     {
      "name": "Staff",
@@ -843,6 +869,30 @@
      "qty": 1,
      "apparent_value_gp": 250,
      "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L34",
+     "looks": "a piece of jewelry (alabaster)",
+     "qty": 1,
+     "stone": 0.167
+    },
+    {
+     "id": "L35",
+     "looks": "a piece of jewelry (fine wood)",
+     "qty": 1,
+     "stone": 0.167
+    },
+    {
+     "id": "L36",
+     "looks": "a piece of jewelry (wrought orichalcum)",
+     "qty": 1,
+     "stone": 0.167
+    },
+    {
+     "id": "L37",
+     "looks": "a piece of jewelry (alabaster)",
+     "qty": 1,
      "stone": 0.167
     }
    ],
@@ -1169,12 +1219,11 @@
     },
     "backpack": {
      "contents": [
-      "Rations, Iron (one week)",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
      "items": 2,
-     "stone": 1
+     "stone": 0
     },
     "sack": {
      "contents": [],
@@ -1194,7 +1243,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 9,
+   "encumbrance_st": 8,
    "weapons": [
     {
      "name": "Sword",
@@ -2368,51 +2417,305 @@
      ]
     }
    }
+  },
+  {
+   "type": "character",
+   "role": "henchman",
+   "name": "Titus",
+   "class": "None (0th level)",
+   "occupation": "Bookbinder",
+   "level": 0,
+   "xp": 0,
+   "xp_bonus": "",
+   "alignment": "",
+   "birthplace": "",
+   "age": 33,
+   "gender": "",
+   "size": "man-sized",
+   "hp_max": 3,
+   "initiative": 0,
+   "surprise": 0,
+   "avoid_surprise": 0,
+   "save_mods": {
+    "paralysis": "",
+    "death": "",
+    "blast": "",
+    "implements": "",
+    "spells": ""
+   },
+   "movement": {
+    "stealth": 0,
+    "climb": 0,
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
+   },
+   "healing_rate": "",
+   "mortal_wounds": 0,
+   "class_features": "",
+   "languages": [],
+   "hired": {
+    "date": "day 45",
+    "wage_gp": 12.0,
+    "market": "Turos Tem",
+    "employer": "Severina",
+    "terms": ""
+   },
+   "attributes": {
+    "STR": {
+     "score": 6,
+     "mod": -1
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 17,
+     "mod": 2
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 9,
+     "mod": 0
+    }
+   },
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "hit_die": "1/2 HD",
+   "xp_next": 600,
+   "attack_table": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "proficiencies": {
+    "class": [],
+    "general": [
+     {
+      "name": "Craft (bookbinding) 3",
+      "throw": ""
+     },
+     {
+      "name": "Art (embossing)",
+      "throw": ""
+     },
+     {
+      "name": "Folkways",
+      "throw": ""
+     },
+     {
+      "name": "Revelry",
+      "throw": ""
+     }
+    ],
+    "gained_at": ""
+   },
+   "spells": {
+    "repertoire": {
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "gear": {
+    "back": {
+     "item": "Sack, Large (holds 6 stone)",
+     "items": 1,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Padded Armor",
+     "stone": 1
+    },
+    "right_hand": {
+     "item": "Spear",
+     "items": 0,
+     "stone": 1
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "Knife",
+     "items": 1,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [
+      "Waterskin"
+     ],
+     "items": 1,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
+   },
+   "encumbrance_st": 2.5,
+   "weapons": [
+    {
+     "name": "Spear",
+     "init_bonus": "",
+     "attack_throw": 12,
+     "damage": "1d6-1",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "right hand"
+    },
+    {
+     "name": "Knife",
+     "init_bonus": "",
+     "attack_throw": 12,
+     "damage": "1d3-1",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "belt"
+    }
+   ],
+   "gems": "",
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 22,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 1,
+    "no_shield": 1,
+    "dex_only": 0
+   },
+   "sheet": {
+    "profile": "0th-level",
+    "class": "None (0th level)",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "possessions"
+    ]
+   }
   }
  ],
  "open_rolls": [
   {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
+   "label": "search fee 0th level (Class V)",
+   "spec": "1d6",
    "rolls": [
-    6,
-    3
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
     5
    ],
-   "total": 9
+   "total": 5
   },
   {
-   "label": "weather wind (R05.05)",
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    6
+   ],
+   "total": 11
+  },
+  {
+   "label": "weather precipitation (R06.05)",
    "spec": "2d6",
    "rolls": [
     2,
-    2
+    6
    ],
-   "total": 4
+   "total": 8
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    6
+   ],
+   "total": 11
   },
   {
    "label": "Galerius surprise",
    "spec": "1d6",
    "rolls": [
-    6
+    4
    ],
-   "total": 6
+   "total": 4
   },
   {
    "label": "Faustina surprise",
    "spec": "1d6",
    "rolls": [
-    1
+    3
    ],
-   "total": 1
+   "total": 3
   },
   {
    "label": "Callista surprise",
@@ -2426,49 +2729,173 @@
    "label": "Corvus surprise",
    "spec": "1d6",
    "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Severina surprise",
-   "spec": "1d6",
-   "rolls": [
     2
    ],
    "total": 2
   },
   {
-   "label": "Marius surprise",
+   "label": "Hrodric surprise",
    "spec": "1d6",
    "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    6
+   ],
+   "total": 11
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
     3
+   ],
+   "total": 6
+  },
+  {
+   "label": "Callista throw",
+   "spec": "1d20",
+   "rolls": [
+    12
+   ],
+   "total": 12
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    4
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather wind (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    4
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    3
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather temperature (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    2
    ],
    "total": 3
   },
   {
-   "label": "Lupa surprise",
-   "spec": "1d6",
+   "label": "weather precipitation (R07.05)",
+   "spec": "2d6",
    "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "corvus natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "search fee 0th level (Class V)",
-   "spec": "1d6",
-   "rolls": [
+    2,
     2
    ],
-   "total": 2
+   "total": 4
+  },
+  {
+   "label": "weather wind (R07.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
   }
  ],
  "rumours_heard": [
@@ -2477,7 +2904,8 @@
   "Day 27, Türos Tem: Priestess Genelen said there is a place in the Viaspen Forest so evil the gods sealed it beneath a mountain of rock.",
   "Day 28, Türos Tem: the legate (Indifferent) said elves still live in the forests of Southern Argollë, gone feral and craving the flesh of men.",
   "Day 33, the buried temple (L1): friendly orcs, taking the party for new recruits: 'the great purple one' sleeps in the stepped tower in the inner courtyard and takes a hundred gold a head to let anyone go down to the Lady; they invited the party to help wipe out a lesser tribe for her reward (declined).",
-  "Day 35, the road below Türos Tem (21.20): friendly pilgrims bound for the Shrine of the White Lady, a day or two north-east up the Krysivor, where a white unicorn drinks from the holy pool."
+  "Day 35, the road below Türos Tem (21.20): friendly pilgrims bound for the Shrine of the White Lady, a day or two north-east up the Krysivor, where a white unicorn drinks from the holy pool.",
+  "Day 50, Türos Aster: Legate Nicus Balens (Indifferent) repeated his standing offer: whoever clears the bugbear tribe out of the Ruined Imperial Fortress across the ford (26.19) is raised to patrician (baron) with a claim to the stronghold."
  ],
  "requests_done": []
 }
