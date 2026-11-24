@@ -1,16 +1,33 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 136,
-  "L": 850,
+  "A": 137,
+  "L": 857,
   "H": 137,
-  "M": 259
+  "M": 260
  },
  "adventure": {
-  "id": "A136",
-  "name": "Order contract: Gnaeus Sabucius (Vestus)",
-  "start_day": 579,
+  "id": "A137",
+  "name": "Descent 83 (the horns of Nargund's vault; the old ape)",
+  "start_day": 583,
   "participants": {
+   "lucilla": {
+    "id": "lucilla",
+    "name": "Lucilla",
+    "actor": "lucilla",
+    "kind": "pc",
+    "player": "Rosa",
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 188362,
+    "level_before": 8,
+    "class": "Venturer",
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 466
+   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -21,12 +38,29 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 213126,
+    "xp_before": 213304,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 579,
-    "returned_day": 581,
-    "xp_award": 178
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 445
+   },
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
+    "kind": "pc",
+    "player": "Kwame",
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 156509,
+    "level_before": 8,
+    "class": "Fighter",
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 445
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -38,12 +72,12 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 140689,
+    "xp_before": 140867,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 579,
-    "returned_day": 581,
-    "xp_award": 178
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 445
    },
    "neris": {
     "id": "neris",
@@ -55,71 +89,182 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 145780,
+    "xp_before": 145950,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 579,
-    "returned_day": 581,
-    "xp_award": 170
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 424
+   },
+   "cotta": {
+    "id": "cotta",
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "pc",
+    "player": "Gideon",
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 41704,
+    "level_before": 6,
+    "class": "Explorer",
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 424
+   },
+   "aelia": {
+    "id": "aelia",
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 65514,
+    "level_before": 7,
+    "class": "Bard",
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 212
+   },
+   "tiberius-maro": {
+    "id": "tiberius-maro",
+    "name": "Tiberius Maro",
+    "actor": "tiberius-maro",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 7370,
+    "level_before": 4,
+    "class": "Crusader",
+    "joined_day": 583,
+    "returned_day": 583,
+    "xp_award": 212
    }
   },
   "monsters": [
    {
-    "id": "M259",
-    "monster": "Gnaeus Sabucius",
-    "source": "Gnaeus Sabucius",
+    "id": "M260",
+    "monster": "Gelatinous Mass",
+    "source": "Gelatinous Mass (MM p. 234)",
     "number": 1,
     "how": "killed",
-    "xp_each": 10,
+    "xp_each": 245,
     "fight": {
      "ids": [
-      "gnaeus-sabucius"
+      "gelatinous-mass1"
      ],
-     "text": "the fight with Gnaeus Sabucius, round 1"
+     "text": "the fight with Gelatinous Mass, encounter enc466, round 1"
     }
    }
   ],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 581,
+   "day": 583,
    "at": "Cyfaraun",
-   "total": 510.0,
-   "per_share": 170.0,
+   "total": 2965.0,
+   "per_share": 423.57142857142856,
    "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 424,
+     "pct": 10,
+     "pen": 0,
+     "award": 466,
+     "xp_before": 188362,
+     "xp_after": 188828,
+     "capped": null,
+     "zero": false
+    },
     "vettius": {
      "share": 1.0,
      "why": null,
-     "base": 170,
+     "base": 424,
      "pct": 5,
      "pen": 0,
-     "award": 178,
-     "xp_before": 213126,
-     "xp_after": 213304,
+     "award": 445,
+     "xp_before": 213304,
+     "xp_after": 213749,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 424,
+     "pct": 5,
+     "pen": 0,
+     "award": 445,
+     "xp_before": 156509,
+     "xp_after": 156954,
      "capped": null,
      "zero": false
     },
     "vestus-the-unlikely": {
      "share": 1.0,
      "why": null,
-     "base": 170,
+     "base": 424,
      "pct": 5,
      "pen": 0,
-     "award": 178,
-     "xp_before": 140689,
-     "xp_after": 140867,
+     "award": 445,
+     "xp_before": 140867,
+     "xp_after": 141312,
      "capped": null,
      "zero": false
     },
     "neris": {
      "share": 1.0,
      "why": null,
-     "base": 170,
+     "base": 424,
      "pct": 0,
      "pen": 0,
-     "award": 170,
-     "xp_before": 145780,
-     "xp_after": 145950,
+     "award": 424,
+     "xp_before": 145950,
+     "xp_after": 146374,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 424,
+     "pct": 0,
+     "pen": 0,
+     "award": 424,
+     "xp_before": 41704,
+     "xp_after": 42128,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 212,
+     "pct": 0,
+     "pen": 0,
+     "award": 212,
+     "xp_before": 65514,
+     "xp_after": 65726,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 212,
+     "pct": 0,
+     "pen": 0,
+     "award": 212,
+     "xp_before": 7370,
+     "xp_after": 7582,
      "capped": null,
      "zero": false
     }
@@ -127,7 +272,7 @@
   },
   "events": [],
   "returned": {
-   "day": 581,
+   "day": 583,
    "where": "Cyfaraun"
   }
  },
@@ -40951,6 +41096,131 @@
     "day": 579,
     "where": "Cyfaraun"
    }
+  },
+  {
+   "id": "A136",
+   "name": "Order contract: Gnaeus Sabucius (Vestus)",
+   "start_day": 579,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": "Tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 213126,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 579,
+     "returned_day": 581,
+     "xp_award": 178
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": "Priya",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 140689,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 579,
+     "returned_day": 581,
+     "xp_award": 178
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": "Ingrid",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 145780,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 579,
+     "returned_day": 581,
+     "xp_award": 170
+    }
+   },
+   "monsters": [
+    {
+     "id": "M259",
+     "monster": "Gnaeus Sabucius",
+     "source": "Gnaeus Sabucius",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 10,
+     "fight": {
+      "ids": [
+       "gnaeus-sabucius"
+      ],
+      "text": "the fight with Gnaeus Sabucius, round 1"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 581,
+    "at": "Cyfaraun",
+    "total": 510.0,
+    "per_share": 170.0,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 170,
+      "pct": 5,
+      "pen": 0,
+      "award": 178,
+      "xp_before": 213126,
+      "xp_after": 213304,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 170,
+      "pct": 5,
+      "pen": 0,
+      "award": 178,
+      "xp_before": 140689,
+      "xp_after": 140867,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 170,
+      "pct": 0,
+      "pen": 0,
+      "award": 170,
+      "xp_before": 145780,
+      "xp_after": 145950,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 581,
+    "where": "Cyfaraun"
+   }
   }
  ],
  "lots": {
@@ -78825,6 +79095,300 @@
    "sold": null,
    "judge": [],
    "divided_day": 581
+  },
+  "L851": {
+   "id": "L851",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 5.0,
+    "name": "a mature dragon horn",
+    "merch": null
+   },
+   "player": {
+    "desc": "a mature dragon horn",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 400.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
+  },
+  "L852": {
+   "id": "L852",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 5.0,
+    "name": "a mature dragon horn",
+    "merch": null
+   },
+   "player": {
+    "desc": "a mature dragon horn",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 400.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
+  },
+  "L853": {
+   "id": "L853",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 5.0,
+    "name": "a mature dragon horn",
+    "merch": null
+   },
+   "player": {
+    "desc": "a mature dragon horn",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 400.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
+  },
+  "L854": {
+   "id": "L854",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 5.0,
+    "name": "a mature dragon horn",
+    "merch": null
+   },
+   "player": {
+    "desc": "a mature dragon horn",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 400.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
+  },
+  "L855": {
+   "id": "L855",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 5.0,
+    "name": "5 wyvern horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "5 wyvern horns",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 400.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
+  },
+  "L856": {
+   "id": "L856",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 5.0,
+    "name": "5 wyvern horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "5 wyvern horns",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 400.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
+  },
+  "L857": {
+   "id": "L857",
+   "adventure": "A137",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 583,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 320.0,
+    "stone": 4.0,
+    "name": "4 wyvern horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "4 wyvern horns",
+    "value_gp": 320.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 320.0,
+    "market": "Cyfaraun",
+    "day": 583,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 583
   }
  },
  "hoards": {

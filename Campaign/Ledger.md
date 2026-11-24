@@ -688,6 +688,13 @@ tags:
 | 579 | Descent 82 (Nargund's vault, the second load) | 3 wyvern horns | 240 | sold |
 | 579 | Descent 82 (Nargund's vault, the second load) | 3 wyvern horns | 240 | sold |
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | reward 500.0gp | 500 | vestus-the-unlikely |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | a mature dragon horn | 400 | sold |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | a mature dragon horn | 400 | sold |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | a mature dragon horn | 400 | sold |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | a mature dragon horn | 400 | sold |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 5 wyvern horns | 400 | sold |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 5 wyvern horns | 400 | sold |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 4 wyvern horns | 320 | sold |
 
 ## Monster XP
 
@@ -889,6 +896,7 @@ tags:
 | 578 | Descent 81 (the white apes' caves, M) | Great White Ape (SOTN) | 1 | 320 | 320 |
 | 578 | Descent 81 (the white apes' caves, M) | Giant Fly | 3 | 29 | 87 |
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | Gnaeus Sabucius | 1 | 10 | 10 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Gelatinous Mass | 1 | 245 | 245 |
 
 ## Shares and XP awarded
 
@@ -1803,6 +1811,14 @@ tags:
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | Vettius | 1 | 167 | 3 | 0 | +5% | 178 |
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | Vestus the Unlikely | 1 | 167 | 3 | 0 | +5% | 178 |
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | Neris | 1 | 167 | 3 | 0 | +0% | 170 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Lucilla | 1 | 389 | 35 | 0 | +10% | 466 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Vettius | 1 | 389 | 35 | 0 | +5% | 445 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Brennus | 1 | 389 | 35 | 0 | +5% | 445 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Vestus the Unlikely | 1 | 389 | 35 | 0 | +5% | 445 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Neris | 1 | 389 | 35 | 0 | +0% | 424 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Cotta | 1 | 389 | 35 | 0 | +0% | 424 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Aelia | 0.5 | 194 | 18 | 0 | +0% | 212 |
+| 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Tiberius Maro | 0.5 | 194 | 18 | 0 | +0% | 212 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4680,3 +4696,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 581 |  | treasure share |  | 166gp 6sp 7cp |  | vestus-the-unlikely |
 | 581 |  | treasure share |  | 166gp 6sp 7cp |  | neris |
 | 581 | the Tower of Knowledge | a mage's identification of the wolf-butted spear (L832), two weeks (AX3 p. 152), day 581 |  |  | 2,000gp | vettius |
+| 583 |  | treasure share |  | 388gp 5sp 7cp |  | lucilla |
+| 583 |  | treasure share |  | 388gp 5sp 7cp |  | vettius |
+| 583 |  | treasure share |  | 388gp 5sp 7cp |  | brennus |
+| 583 |  | treasure share |  | 388gp 5sp 7cp |  | vestus-the-unlikely |
+| 583 |  | treasure share |  | 388gp 5sp 7cp |  | neris |
+| 583 |  | treasure share |  | 388gp 5sp 7cp |  | cotta |
+| 583 |  | treasure share |  | 194gp 2sp 9cp |  | aelia |
+| 583 |  | treasure share |  | 194gp 2sp 9cp |  | tiberius-maro |
