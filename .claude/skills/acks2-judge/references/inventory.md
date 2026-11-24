@@ -61,7 +61,9 @@ come from the print-checked equipment tables (`acks.sh inv catalog WORDS` finds 
   party's fodder, or can be ridden, loaded or harnessed; engine 7.18.8: its riders dismount and the members'
   supplies packed on it go back onto them, said in the output: check their loads), `inv unstable ID…` (it counts the nights; the fee per night
   is on the JUDGE line, RR p. 131: pay it with `inv pay`). An animal or vehicle gained without buying:
-  `inv add ID "<row>" 1 --as NEWID --cause "…"`.
+  `inv add ID "<row>" 1 --as NEWID --cause "…"`. An animal killed: `inv animal dies ID --cause "…"` (engine
+  7.18.12: its load and tack dropped on the ground cache of the site, riders dismounted, packs back on their members,
+  its team unharnessed, the holder closed as dead); never `inv holder remove` for it.
 - A purchase refused for want of room or stock says how many packs and units were asked (`inv buy ID torch 2` buys two
   packs of six); a refused purchase keeps the month's availability roll: asking again does not roll again.
 
