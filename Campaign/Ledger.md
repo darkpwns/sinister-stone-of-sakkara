@@ -5431,6 +5431,7 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 739 | the retinue | wages paid |  |  | 144gp | cotta |
 | 739 | the retinue | wages paid |  |  | 54gp | cotta |
 | 739 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 741 | the Legate's quartermaster, Türos Aster | 140 man-weeks of army rations (salt pork, hard bread) from the fort's granary at 3gp (the Legate friendly, day 741; Judge's ruling): 120 for the soldiers' train, 20 for the company |  |  | 420gp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
