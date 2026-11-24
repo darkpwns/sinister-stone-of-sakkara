@@ -13,7 +13,9 @@ only) → reaction (if no one attacks) → combat. The engine runs every step in
   side's visibility (light, group size, terrain, weather; senses other than sight) and who has detected whom. A
   terrain encounter (dangerous, valuable, unique) names its type; its sub-procedure is the Judge's (JJ pp. 63-68).
   Deliberate wilderness encounters: `acks.sh encounter start --wild --monster "<MM note>" [--number N]
-  [--monster-terrain T]` (or `--kind civilized|monster` for a table roll in the current hex).
+  [--monster-terrain T]` (or `--kind civilized|monster` for a table roll in the current hex; `--at CC.RR` to roll on
+  another hex's tables, engine 7.18.2: a `--hex` override for a hex that is neither the travel hex nor `--at` is
+  refused).
 - Keyed or deliberate: `acks.sh encounter start --monster "<MM note>" [--number N]`; a placed monster's lair check
   and lair numbers (warbands of gangs …): `--placed`. Entries with alternatives: `--choose <name>`.
 - Distance: the line gives the maximum (2d6 × 10'); reduce it on the map until either side sees the other or its
