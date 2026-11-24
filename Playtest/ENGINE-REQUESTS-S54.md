@@ -107,3 +107,48 @@ where a command changes. Run the full test suites before each commit. Do not cha
    list party members who are left behind (Tiberius at the fort was missing from S54's table).
 6. Escalated lessons in the handoff (wage-days, surprise-members, npc-rolls-hidden, driver-loop-stop): move each into
    a refusal or a script per `references/memory.md`, so the ESCALATE lines clear.
+
+## D. Still open from the SOTN sessions (S29-S48; after the S29 engineering pass, engine 7.16.0-7.17.7)
+`Playtest/OPEN-ITEMS.md` closed most of the S08-S28 findings in 7.16-7.17.7; these came after it, or were left open there.
+1. `encounter fight --set hp=N` does not set the keyed hp (monsters keep rolled hp) (S30, judge-notes l. 552).
+2. `explore force-door --door-kind` is case-sensitive ("stone slab" vs the table's "Stone slab") (S31, l. 554).
+3. `state end` leaves `Campaign/combat-state.json` in place, so the next `encounter fight` refuses ("a fight in
+   progress") and `throw`/`--prof` outside a fight refuse an actor not in the stale file (S38 l. 614, S43 l. 635).
+   `state end` should close the fight file; `throw` outside a fight should ignore an ended state.
+4. `encounter surprise --members …` without `--party`/`--monsters` reads both sides as no foreknowledge and returns
+   NO ENCOUNTER with no dice (S38, l. 615): require both flags.
+5. No `state set ID damage=…` override for a module statblock whose damage differs from the MM's (S38, l. 617).
+6. `camp --hours N` rolled an encounter mid-camp and ran on to the end without stopping (S39, l. 620): stop at the
+   encounter's hour as `camp` does in other cases.
+7. `roll` refuses compound dice (`1d8+1d12`) (S40, l. 626).
+8. `play.py walk --relight ID` does not refuel and relight a burnt-out lantern when its carrier has oil (S40, l. 628).
+   The unsettling-event timer expiring inside `walk` does not stop it (S33, l. 567).
+9. A magic weapon recovered with `recover --goods` counts only its apparent value and earns no sale XP when sold
+   identified (S42, l. 632): refuse `--goods` for a name that matches a magic item, or warn and point to `--item`.
+10. Porters and bearers are not adventure participants: a lot they carry has to sit on a member, who then reads as
+    overloaded (`move-rate` refuses, `walk` runs on) (S45, l. 652). Add bearer holders that carry lots.
+11. `recover --drop` leaves a dropped lot findable at the site; splitting a lot needs `recover --split L# N` (S45, l. 653).
+12. A bag of holding (weightless contents past its capacity) cannot be one holder; it is modelled as a cache plus a
+    6-st item (S46, l. 662). Add a container kind with a weight cap.
+13. Travel members keep `vehicle`/`passenger` after their cart is unharnessed and stabled (S48, l. 674).
+14. Actor modifiers for timed spells (Holy Blessing entered as `actor mod`) never expire (S30, l. 549): give
+    `actor mod` an expiry (`--until "day N HH:MM"` or `--turns N`) that the clock removes.
+15. Typed defenses in SOTN bestiary notes ('status none', 'judge') are not parsed (S34, l. 575).
+16. `state aura add … --fail cowering` keeps the condition with no end and rolls again for creatures already immune
+    after a success (MM: cower to the next round; immune 1 turn on a success) (S34).
+17. `rebuke` does not add Righteous Rebuke's extra Hit Dice (half the level), only its throw modifier (S34).
+18. Battle Magic's +1 initiative when casting is not applied (S34).
+19. `restore` keeps no record of a failed attempt's side effect; the next attempt's penalties are passed by hand (S34).
+20. An actor's `note.save.*` text is printed on any save made at that actor's initiative, not only his own (S29, l. 535).
+21. A monster that ignores armor AC (gelatinous mass, MM p. 234: DEX, magic, natural and spell AC only) is attacked
+    against full AC (S29, l. 537): read the note's AC rule into the attack.
+22. Magic ammunition lots are not tracked: `--ammo-magic N` applies the bonus, but the arrow is taken from the lot by
+    hand (OPEN-ITEMS #15).
+23. A paralysed party member could be driven to attack by a script (S32, l. 559): make `attack` refuse any attacker
+    whose conditions forbid acting (paralysed, slumbering, unconscious, surprised in round 1) whatever the caller.
+
+## E. Decisions for the user (not engine work)
+1. OPEN-ITEMS #24: `level-up` re-rolls hp without the permanent enervation losses; a Judge's correction is pending for
+   Brennus (26) and Vettius (25) maximum hp (S20).
+2. OPEN-ITEMS #43: Kardakia's `tools.ref` (main) and `tools.min_version` (7.11.0) in its `Campaign/campaign.yaml` are
+   untouched; the 7.16-7.17 features (and this work) need them raised before Kardakia uses them.
