@@ -5345,6 +5345,65 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 691 | Cyfaraun | bought in Cyfaraun |  |  | 108gp | lucilla |
 | 691 | Cyfaraun | bought in Cyfaraun |  |  | 135gp | lucilla |
 | 691 | Cyfaraun | Saddle and Tack, Riding | 7 |  | 63gp | lucilla |
+| 691 | the retinue | wages paid |  |  | 400gp | vettius |
+| 691 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 6 (Rulings S47) |  |  | 500gp | vettius |
+| 691 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 6 (Rulings S47) |  |  | 500gp | neris |
+| 692 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 6 (Rulings S47) |  |  | 500gp | neris |
+| 693 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 7 (Rulings S47) |  |  | 500gp | neris |
+| 694 | a centurion of the Watch | a week's pay to forget (RR p. 287), day 694 |  |  | 15gp | vettius |
+| 694 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 7 (Rulings S47) |  |  | 500gp | neris |
+| 695 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 6 (Rulings S47) |  |  | 500gp | vettius |
+| 695 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 8 (Rulings S47) |  |  | 500gp | neris |
+| 696 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 7 (Rulings S47) |  |  | 500gp | vettius |
+| 696 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 8 (Rulings S47) |  |  | 500gp | neris |
+| 697 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 9 (Rulings S47) |  |  | 500gp | neris |
+| 698 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 9 (Rulings S47) |  |  | 500gp | neris |
+| 699 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 10 (Rulings S47) |  |  | 500gp | neris |
+| 700 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 7 (Rulings S47) |  |  | 500gp | vettius |
+| 700 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 10 (Rulings S47) |  |  | 500gp | neris |
+| 701 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 8 (Rulings S47) |  |  | 500gp | vettius |
+| 701 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 11 (Rulings S47) |  |  | 500gp | neris |
+| 702 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 11 (Rulings S47) |  |  | 500gp | neris |
+| 703 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 12 (Rulings S47) |  |  | 500gp | neris |
+| 704 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 12 (Rulings S47) |  |  | 500gp | neris |
+| 705 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 8 (Rulings S47) |  |  | 500gp | vettius |
+| 705 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 13 (Rulings S47) |  |  | 500gp | neris |
+| 706 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 9 (Rulings S47) |  |  | 500gp | vettius |
+| 706 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 13 (Rulings S47) |  |  | 500gp | neris |
+| 707 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 14 (Rulings S47) |  |  | 500gp | neris |
+| 707 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 707 | the retinue | wages paid |  |  | 132gp | lucilla |
+| 707 | the retinue | wages paid |  |  | 120gp | lucilla |
+| 707 | the retinue | wages paid |  |  | 48gp | lucilla |
+| 707 | the retinue | wages paid |  |  | 30gp | lucilla |
+| 707 | the retinue | wages paid |  |  | 72gp | vettius |
+| 707 | the retinue | wages paid |  |  | 24gp | vettius |
+| 707 | the retinue | wages paid |  |  | 72gp | brennus |
+| 707 | the retinue | wages paid |  |  | 18gp | brennus |
+| 707 | the retinue | wages paid |  |  | 144gp | cotta |
+| 707 | the retinue | wages paid |  |  | 54gp | cotta |
+| 707 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 708 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 14 (Rulings S47) |  |  | 500gp | neris |
+| 709 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 15 (Rulings S47) |  |  | 500gp | neris |
+| 710 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 9 (Rulings S47) |  |  | 500gp | vettius |
+| 710 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 15 (Rulings S47) |  |  | 500gp | neris |
+| 711 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 10 (Rulings S47) |  |  | 500gp | vettius |
+| 711 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 16 (Rulings S47) |  |  | 500gp | neris |
+| 712 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 16 (Rulings S47) |  |  | 500gp | neris |
+| 713 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 17 (Rulings S47) |  |  | 500gp | neris |
+| 714 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 17 (Rulings S47) |  |  | 500gp | neris |
+| 715 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 10 (Rulings S47) |  |  | 500gp | vettius |
+| 715 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 18 (Rulings S47) |  |  | 500gp | neris |
+| 716 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 11 (Rulings S47) |  |  | 500gp | vettius |
+| 716 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 18 (Rulings S47) |  |  | 500gp | neris |
+| 717 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 19 (Rulings S47) |  |  | 500gp | neris |
+| 718 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 19 (Rulings S47) |  |  | 500gp | neris |
+| 719 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 20 (Rulings S47) |  |  | 500gp | neris |
+| 720 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 11 (Rulings S47) |  |  | 500gp | vettius |
+| 720 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 20 (Rulings S47) |  |  | 500gp | neris |
+| 720 | the Merchant Guildhouse | storage fee 0.25% of the company's purse (667,971gp), month 24 (day 720; Rulings S16, S46) |  |  | 1,670gp | guildhouse-bank |
+| 720 | the Family (Thana) | the Family's take, month 24: the syndicate 16,083 (16,508 less the defected lieutenant's 4th-level share 425) and the Pony's half 1,624 (Rulings S19, S22, S25) |  | 17,707gp |  | vettius |
+| 720 | the front's houses, The Mink, the venture company and investments | Lucilla's income, month 24 (Rulings S19) 4,250gp; investment 1: 81, Return +200% (21gp); investment 3: 66, Return +50% (45gp) (RR p. 384) |  | 4,316gp |  | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

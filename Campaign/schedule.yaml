@@ -197,6 +197,25 @@ items:
   steps: ["he reappears in his workshop (holder vestus-workshop; wherever it stands that day: Judge's call), with what he carried on day 664, spells as on day 664, not aged; `party add vestus-the-unlikely`; lift his condition; Priya plays him again (Rulings S47)"]
   source: "RR p. 415 (Magic Item Creation mishaps, minor 4); Rulings S47"
 
+- id: vanguard-at-the-ford
+  title: "The Imperial Vanguard (six, about 5th level, light horses; AX3 pp. 195-201) left Cyfaraun about day 699 for the bugbear bounties: at Türos Aster about day 710"
+  day: 710
+  rolls:
+  - {label: "the Vanguard's course at the ford (Judge's call)", dice: 1d6, outcomes: {"1-3": "they attack the fort on their own (JJ 11 Abstract Wilderness against the whole village; splitting allowed)", "4-5": "they hunt the raiding warbands across the ford for ears (JJ 11 against one warband a week)", "6": "they wait at Türos Aster for allies and the Legate's leave"}}
+  steps: ["resolve by JJ 11 (expedition level from their levels; the fort's XPV from its hub note) and write the outcome into the fort's notes (bugbears slain, Vanguard dead, captured or victorious; their gear into the hoard if they fall); the company meets the result when it arrives", "AX3: they are Lawful and good; overconfident"]
+  source: "secret 701 no. 1 (true); Adventure/AX3/City/Imperial Vanguard.md; Rulings S31 (abstract methods for rival parties)"
+
+- id: fortress-raids
+  title: "Weekly: the bugbears' raids from the fort (K5) and the Imperial Vanguard hunting them (course 4 on day 710)"
+  every: 7
+  anchor: 710
+  from: 717
+  rolls:
+  - {label: "a warband of K5 out raiding", dice: 1d6, outcomes: {"1-2": "a raid (1d3 days)", "3-6": "none"}}
+  - {label: "which warband", dice: 1d6, outcomes: {"1-3": "warband 1 (S1, C1, seven archers; XPV 855)", "4-6": "warband 2 (S2, C2, five warriors; XPV 725)"}}
+  steps: ["on a raid while the Vanguard hunts: JJ 11 (Vanguard expedition level 5 vs Monster Level 3; challenge from the warband's XPV; 1d8+1d12 + the difficulty) and write the losses into K5 and the Vanguard note", "week of 710: no raid (4)"]
+  source: "Adventure/Ruined Imperial Fortress K5; schedule vanguard-at-the-ford"
+
 - id: grey-sisters-vault
   title: The Grey Sisters' vault fee (10gp a month, paid ahead; last paid day 652 to day 742)
   day: 743
