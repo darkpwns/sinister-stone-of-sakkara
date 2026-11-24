@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 619
-  time: 08:21
+    day: 620
+  time: 09:30
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -27,23 +27,23 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 10.42
+    encumbrance_st: 10.424
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 22
+    hp: 17
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 14.219
+    encumbrance_st: 14.058
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 18
-    hp_max: 18
+    hp: 19
+    hp_max: 19
     conditions: []
     spells_used:
-    - Flight
+    - Fan of Flames
     encumbrance_st: 4.981
   - name: Neris
     sheet: Characters/neris.json
@@ -56,17 +56,17 @@ public:
     spells_used:
     - Smite Undead
     - Cure Disease
-    encumbrance_st: 6.527
+    encumbrance_st: 6.531
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 35
+    hp: 30
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 13.06
+    encumbrance_st: 13.064
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -74,7 +74,7 @@ public:
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 10.435
+    encumbrance_st: 9.768
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
@@ -83,8 +83,9 @@ public:
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
-    spells_used: []
-    encumbrance_st: 8.937
+    spells_used:
+    - Fan of Flames
+    encumbrance_st: 8.939
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
@@ -96,7 +97,7 @@ public:
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
-    hp: 18
+    hp: 19
     hp_max: 19
     conditions: []
     spells_used: []
@@ -140,7 +141,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 619
+clock_day: 620
 ---
 # Campaign State
 

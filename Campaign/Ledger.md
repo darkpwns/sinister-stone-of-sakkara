@@ -731,6 +731,8 @@ tags:
 | 618 | A146 descent 88: the alchemists' laboratory (N) | 4 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 588 | lucilla |
 | 618 | A146 descent 88: the alchemists' laboratory (N) | 4 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 588 | brennus |
 | 619 | A148 descent 89: the temple's great hall (H14) | twenty-eight orange crystals pried from the ceiling's stars, warm and faintly glowing | 14,000 | vestus-the-unlikely |
+| 620 | A149 descent 90: the library carried out (N3) | 280 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 41,176 | brennus |
+| 620 | A149 descent 90: the library carried out (N3) | the two magic-lit chandeliers of N2 and N3 | 60 | cotta |
 
 ## Monster XP
 
@@ -945,6 +947,8 @@ tags:
 | 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Sextus Rubrius | 1 | 20 | 20 |
 | 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Bandit | 2 | 10 | 20 |
 | 619 | A148 descent 89: the temple's great hall (H14) | Mummy | 1 | 660 | 660 |
+| 620 | A149 descent 90: the library carried out (N3) | Sage Slime | 1 | 56 | 56 |
+| 620 | A149 descent 90: the library carried out (N3) | Wight | 5 | 80 | 400 |
 
 ## Shares and XP awarded
 
@@ -1945,6 +1949,14 @@ tags:
 | 619 | A148 descent 89: the temple's great hall (H14) | Aelia | 0.5 | 875 | 41 | 0 | +0% | 916 |
 | 619 | A148 descent 89: the temple's great hall (H14) | Tiberius Maro | 1 | 1,750 | 82 | 0 | +0% | 1,832 |
 | 619 | A148 descent 89: the temple's great hall (H14) | Phaedra | 0.5 | 875 | 41 | 0 | +0% | 916 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 620 | A149 descent 90: the library carried out (N3) | Vettius | 1 | 5,891 | 65 | 0 | +5% | 6,254 |
+| 620 | A149 descent 90: the library carried out (N3) | Vestus the Unlikely | 1 | 5,891 | 65 | 0 | +5% | 6,254 |
+| 620 | A149 descent 90: the library carried out (N3) | Lucilla | 1 | 5,891 | 65 | 0 | +10% | 6,552 |
+| 620 | A149 descent 90: the library carried out (N3) | Cotta | 1 | 5,891 | 65 | 0 | +0% | 5,956 |
+| 620 | A149 descent 90: the library carried out (N3) | Brennus | 1 | 5,891 | 65 | 0 | +5% | 6,254 |
+| 620 | A149 descent 90: the library carried out (N3) | Neris | 1 | 5,891 | 65 | 0 | +0% | 5,956 |
+| 620 | A149 descent 90: the library carried out (N3) | Aelia | 0.5 | 2,945 | 33 | 0 | +0% | 2,978 |
+| 620 | A149 descent 90: the library carried out (N3) | Phaedra | 0.5 | 2,945 | 33 | 0 | +0% | 2,978 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4957,3 +4969,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 619 |  | treasure share |  |  |  |  |
 | 619 |  | treasure share |  |  |  |  |
 | 619 |  | treasure share |  |  |  |  |
+| 620 | the reward | his share of L894 (a reward after the payout) |  | 222gp 2sp 2cp |  | vettius |
+| 620 | the reward | his share of L894 (a reward after the payout) |  | 222gp 2sp 2cp |  | lucilla |
+| 620 | the reward | his share of L894 (a reward after the payout) |  | 111gp 1sp 1cp |  | phaedra |
+| 620 | the reward | his share of L894 (a reward after the payout) |  | 222gp 2sp 2cp |  | neris |
+| 620 | the reward | his share of L894 (a reward after the payout) |  | 222gp 2sp 2cp |  | brennus |
+| 620 | fourteen Family porters | a day's carrying, 1gp each (Rulings S45) |  |  | 14gp | vettius |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
+| 620 |  | treasure share |  |  |  |  |
