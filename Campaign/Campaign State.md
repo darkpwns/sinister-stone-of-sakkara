@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 53
+session: 54
 mode: town
 location: '[[Turos Aster]]'
 adventure: Borderlands (AX3), between adventures (A157 paid out at Türos Aster, day 803)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 829
-  time: 08:39
+    day: 832
+  time: 01:04
   weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; drizzle; wind gentle (drizzly)
   place: Türos Aster
   hex: '18.05'
@@ -75,7 +75,7 @@ public:
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 20
+    hp: 14
     hp_max: 20
     conditions: []
     spells_used: []
@@ -108,7 +108,7 @@ public:
     encumbrance_st: 4.3
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 4 d, water 0.2 d (fatigued); Brennus: food 4 d, water 1.2 d; Vettius: food 4 d, water 1.4 d (fatigued); Lucilla: food 4 d, water 1 d (fatigued); Neris: food 4 d, water 0 d (fatigued); Aelia: food 4 d, water 0 d (fatigued); Phaedra: food 4 d, water 0 d (fatigued); Ennia Ursa: food 5 d, water 0.2 d (fatigued); Vestus the Unlikely: food 4 d, water 2.8 d (fatigued)'
+  rations: 'Cotta: food 4 d, water 0.2 d; Brennus: food 4 d, water 1.2 d; Vettius: food 4 d, water 1.4 d; Lucilla: food 4 d, water 1 d; Neris: food 4 d, water 0 d; Aelia: food 4 d, water 0 d; Phaedra: food 4 d, water 0 d; Ennia Ursa: food 3 d, water 0.2 d; Vestus the Unlikely: food 4 d, water 2.8 d'
   tracker: {}
   threads:
   - 'The Silk Pony, Cyfaraun: the Gilded Ram''s men, Lentulus Mordax''s gangs and Sigvald''s forty Jutlanders come at the Pony the night of day 831'
@@ -139,7 +139,7 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 829
+clock_day: 832
 ---
 # Campaign State
 

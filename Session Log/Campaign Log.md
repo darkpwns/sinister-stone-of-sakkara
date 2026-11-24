@@ -62,3 +62,4 @@ tags:
 - [[S51 — The Baron of the Ford]]
 - [[S52 — The First Month of the Ford]]
 - [[S53 — The Road North]]
+- [[S54 — The Night at the Silk Pony]]
