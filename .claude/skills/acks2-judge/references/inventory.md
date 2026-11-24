@@ -95,3 +95,7 @@ come from the print-checked equipment tables (`acks.sh inv catalog WORDS` finds 
 `save.sh` runs `actor check` on every actor and `inv check` (the log replays to the stored holdings; actor holders,
 lights, animal loads, lot carriers and henchmen agree) and rewrites the Ledger's "Purchases and sales" table from the
 log. If it refuses: record the missing event.
+- A bag of holding or other container whose contents weigh nothing past its own weight (engine 7.19.17): its own
+  holder, `inv holder add bag1 --kind container --cap 10 --weighs 6 --carrier lucilla --name "<what it is>"` (the
+  note's capacity and weight); `inv give lucilla bag1 ITEM` puts things in (refused past --cap), and the carrier's
+  encumbrance counts only --weighs. Never a cache holder plus an item.
