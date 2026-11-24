@@ -910,6 +910,24 @@
    "base": null,
    "note": null,
    "judge": true
+  },
+  "scroll materials (vellum and silver-ground inks)": {
+   "name": "Scroll materials (vellum and silver-ground inks)",
+   "items_each": 6,
+   "stone_each": "0",
+   "value_cp": 50000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "potion of cure light injury (neris')": {
+   "name": "Potion of Cure Light Injury (Neris')",
+   "items_each": 6,
+   "stone_each": "0",
+   "value_cp": 50000,
+   "base": null,
+   "note": null,
+   "judge": true
   }
  },
  "log": [
@@ -118607,6 +118625,827 @@
    "price_cp": 50000,
    "cmd": "inv pay",
    "n": 6028
+  },
+  {
+   "op": "add",
+   "cause": "scribed in the company's workshop, days 676-680 (Rulings S47; throw 18 vs 12+); kept in the workshop chest",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [
+    {
+     "who": "vestus-workshop",
+     "item": "scroll of slumber (phaedra's)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 6029
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Phaedra's scroll of Slumber no. 4 (days 681-685)",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District vellum-makers and ink-grinders",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6030
+  },
+  {
+   "op": "remove",
+   "cause": "VOID (Judge's correction S47): Phaedra had left on day 670; no scroll no. 3",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [
+    {
+     "who": "vestus-workshop",
+     "item": "scroll of slumber (phaedra's)",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "other",
+   "cmd": "inv remove",
+   "n": 6031
+  },
+  {
+   "op": "receive",
+   "cause": "Judge's correction S47: Phaedra's scroll materials and components of days 675 and 680 never bought (she had left on day 670)",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": 2000
+    }
+   ],
+   "frm": "voided purchases",
+   "cmd": "inv receive",
+   "n": 6032
+  },
+  {
+   "op": "add",
+   "cause": "bought day 670 for Phaedra's scroll no. 2, never used (she left that night)",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [
+    {
+     "who": "vestus-workshop",
+     "item": "scroll materials (vellum and silver-ground inks)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 6033
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: Tiberius' overdue wage",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -400
+    },
+    {
+     "who": "vettius",
+     "gp": 400
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6034
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -400
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 40000,
+   "cmd": "inv wages",
+   "n": 6035
+  },
+  {
+   "op": "pay",
+   "cause": "a week's pay to forget (RR p. 287), day 680",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -15
+    }
+   ],
+   "to": "a centurion of the Watch",
+   "price_cp": 1500,
+   "cmd": "inv pay",
+   "n": 6036
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse for wages",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -2000
+    },
+    {
+     "who": "lucilla",
+     "gp": 2000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6037
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse for wages",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -120
+    },
+    {
+     "who": "vettius",
+     "gp": 120
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6038
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse for wages",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -100
+    },
+    {
+     "who": "brennus",
+     "gp": 100
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6039
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse for wages",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -220
+    },
+    {
+     "who": "cotta",
+     "gp": 220
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6040
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -1600
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 160000,
+   "cmd": "inv wages",
+   "n": 6041
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -132
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 13200,
+   "cmd": "inv wages",
+   "n": 6042
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -120
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 12000,
+   "cmd": "inv wages",
+   "n": 6043
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -48
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 4800,
+   "cmd": "inv wages",
+   "n": 6044
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -30
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 3000,
+   "cmd": "inv wages",
+   "n": 6045
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -72
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 7200,
+   "cmd": "inv wages",
+   "n": 6046
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -24
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2400,
+   "cmd": "inv wages",
+   "n": 6047
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -72
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 7200,
+   "cmd": "inv wages",
+   "n": 6048
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -18
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1800,
+   "cmd": "inv wages",
+   "n": 6049
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": -144
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 14400,
+   "cmd": "inv wages",
+   "n": 6050
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": -54
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 5400,
+   "cmd": "inv wages",
+   "n": 6051
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -25
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2500,
+   "cmd": "inv wages",
+   "n": 6052
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: material and components of Neris' potion no. 1",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "neris",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6053
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Neris' potion of Cure Light Injury no. 1 (Rulings S47)",
+   "day": 680,
+   "time": "day 680 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District apothecaries and glass-blowers",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6054
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Neris' potion no. 1 (Rulings S47)",
+   "day": 682,
+   "time": "day 682 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6055
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: material and components of Neris' potion no. 2",
+   "day": 682,
+   "time": "day 682 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "neris",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6056
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Neris' potion of Cure Light Injury no. 2 (Rulings S47)",
+   "day": 682,
+   "time": "day 682 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District apothecaries and glass-blowers",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6057
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Neris' potion no. 2 (Rulings S47)",
+   "day": 684,
+   "time": "day 684 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6058
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: material and components of Neris' potion no. 3",
+   "day": 684,
+   "time": "day 684 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "neris",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6059
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Neris' potion of Cure Light Injury no. 3 (Rulings S47)",
+   "day": 684,
+   "time": "day 684 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District apothecaries and glass-blowers",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6060
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Neris' potion no. 3 (Rulings S47)",
+   "day": 686,
+   "time": "day 686 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6061
+  },
+  {
+   "op": "add",
+   "cause": "brewed in the company's workshop: no. 1 (12) and no. 3 (18) (Rulings S47)",
+   "day": 686,
+   "time": "day 686 05:53",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "potion of cure light injury (neris')",
+     "slot": "belt",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 6062
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: Neris' potion no. 4",
+   "day": 686,
+   "time": "day 686 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "neris",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6063
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Neris' potion of Cure Light Injury no. 4 (Rulings S47)",
+   "day": 686,
+   "time": "day 686 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District apothecaries and glass-blowers",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6064
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Neris' potion no. 4 (Rulings S47)",
+   "day": 688,
+   "time": "day 688 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6065
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: Neris' potion no. 5",
+   "day": 688,
+   "time": "day 688 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "neris",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6066
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Neris' potion of Cure Light Injury no. 5 (Rulings S47)",
+   "day": 688,
+   "time": "day 688 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District apothecaries and glass-blowers",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6067
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Neris' potion no. 5 (Rulings S47)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6068
+  },
+  {
+   "op": "add",
+   "cause": "brewed in the company's workshop: no. 4 (14) (Rulings S47)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [
+    {
+     "who": "neris",
+     "item": "potion of cure light injury (neris')",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 6069
+  },
+  {
+   "op": "pay",
+   "cause": "storage fee 0.25% of the company's purse (674,002gp), month 23 (day 690; Rulings S16, S46)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1685
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 168500,
+   "cmd": "inv pay",
+   "n": 6070
+  },
+  {
+   "op": "receive",
+   "cause": "the Family's take, month 23: the syndicate 16,508 and the Pony's half 1,624 (Rulings S19, S22, S25)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 18132
+    }
+   ],
+   "frm": "the Family (Thana)",
+   "cmd": "inv receive",
+   "n": 6071
+  },
+  {
+   "op": "receive",
+   "cause": "Lucilla's income, month 23 (Rulings S19) 4,250gp; investment 1: 62, Return +50% (10gp, RR p. 384)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 4260
+    }
+   ],
+   "frm": "the front's houses, The Mink, the venture company and investment 1",
+   "cmd": "inv receive",
+   "n": 6072
+  },
+  {
+   "op": "pay",
+   "cause": "month 23: 19, Return -200% (a 30gp loss, RR p. 384)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -30
+    }
+   ],
+   "to": "investment 3 (Balanced, 3,000gp)",
+   "price_cp": 3000,
+   "cmd": "inv pay",
+   "n": 6073
+  },
+  {
+   "op": "give",
+   "cause": "into the company's purse (Rulings S46)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -18132
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 18132
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6074
+  },
+  {
+   "op": "give",
+   "cause": "into the company's purse (Rulings S46)",
+   "day": 690,
+   "time": "day 690 05:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -4230
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 4230
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6075
   }
  ],
  "holdings": {
@@ -118867,7 +119706,8 @@
     "waterskin": 5
    },
    "belt": {
-    "#w31": 1
+    "#w31": 1,
+    "potion of cure light injury (neris')": 3
    },
    "backpack": {
     "waterskin": 11,
@@ -119489,7 +120329,8 @@
   "vestus-workshop": {
    "here": {
     "workshop apparatus (magic research)": 1,
-    "metamphora (60gp)": 10
+    "metamphora (60gp)": 10,
+    "scroll materials (vellum and silver-ground inks)": 1
    }
   },
   "ennia-horse": {
@@ -119510,7 +120351,7 @@
  },
  "coins": {
   "lucilla": {
-   "gp": 99,
+   "gp": 144,
    "sp": 270,
    "cp": 423
   },
@@ -119518,7 +120359,7 @@
    "cp": 3
   },
   "vettius": {
-   "gp": 798,
+   "gp": 307,
    "sp": 267,
    "cp": 404
   },
@@ -119588,7 +120429,7 @@
   },
   "brennus": {
    "sp": 369,
-   "gp": 369,
+   "gp": 379,
    "cp": 476
   },
   "quirinus": {
@@ -119637,7 +120478,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 679842,
+   "gp": 694679,
    "cp": 6,
    "sp": 4
   },
@@ -119660,7 +120501,7 @@
   "cotta": {
    "cp": 240,
    "sp": 177,
-   "gp": 290
+   "gp": 312
   },
   "body:iulia": {
    "cp": 251,

@@ -5297,6 +5297,36 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 678 |  | treasure share |  |  |  |  |
 | 678 |  | treasure share |  |  |  |  |
 | 680 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 3 (Rulings S47) |  |  | 500gp | vettius |
+| 680 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 4 (days 681-685) |  |  | 500gp | vettius |
+| 680 | voided purchases | Judge's correction S47: Phaedra's scroll materials and components of days 675 and 680 never bought (she had left on day 670) |  | 2,000gp |  | guildhouse-bank |
+| 680 | the retinue | wages paid |  |  | 400gp | vettius |
+| 680 | a centurion of the Watch | a week's pay to forget (RR p. 287), day 680 |  |  | 15gp | vettius |
+| 680 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 680 | the retinue | wages paid |  |  | 132gp | lucilla |
+| 680 | the retinue | wages paid |  |  | 120gp | lucilla |
+| 680 | the retinue | wages paid |  |  | 48gp | lucilla |
+| 680 | the retinue | wages paid |  |  | 30gp | lucilla |
+| 680 | the retinue | wages paid |  |  | 72gp | vettius |
+| 680 | the retinue | wages paid |  |  | 24gp | vettius |
+| 680 | the retinue | wages paid |  |  | 72gp | brennus |
+| 680 | the retinue | wages paid |  |  | 18gp | brennus |
+| 680 | the retinue | wages paid |  |  | 144gp | cotta |
+| 680 | the retinue | wages paid |  |  | 54gp | cotta |
+| 680 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 680 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 1 (Rulings S47) |  |  | 500gp | neris |
+| 682 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 1 (Rulings S47) |  |  | 500gp | neris |
+| 682 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 2 (Rulings S47) |  |  | 500gp | neris |
+| 684 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 2 (Rulings S47) |  |  | 500gp | neris |
+| 684 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 3 (Rulings S47) |  |  | 500gp | neris |
+| 686 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 3 (Rulings S47) |  |  | 500gp | neris |
+| 686 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 4 (Rulings S47) |  |  | 500gp | neris |
+| 688 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 4 (Rulings S47) |  |  | 500gp | neris |
+| 688 | Plaza District apothecaries and glass-blowers | material cost, Neris' potion of Cure Light Injury no. 5 (Rulings S47) |  |  | 500gp | neris |
+| 690 | Plaza District herbalists | miscellaneous special components 500gp, Neris' potion no. 5 (Rulings S47) |  |  | 500gp | neris |
+| 690 | the Merchant Guildhouse | storage fee 0.25% of the company's purse (674,002gp), month 23 (day 690; Rulings S16, S46) |  |  | 1,685gp | guildhouse-bank |
+| 690 | the Family (Thana) | the Family's take, month 23: the syndicate 16,508 and the Pony's half 1,624 (Rulings S19, S22, S25) |  | 18,132gp |  | vettius |
+| 690 | the front's houses, The Mink, the venture company and investment 1 | Lucilla's income, month 23 (Rulings S19) 4,250gp; investment 1: 62, Return +50% (10gp, RR p. 384) |  | 4,260gp |  | lucilla |
+| 690 | investment 3 (Balanced, 3,000gp) | month 23: 19, Return -200% (a 30gp loss, RR p. 384) |  |  | 30gp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
