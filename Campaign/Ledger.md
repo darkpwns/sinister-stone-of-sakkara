@@ -4548,3 +4548,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 567 |  | treasure share |  |  |  |  |
 | 567 |  | treasure share |  |  |  |  |
 | 567 | Hrodvar | the tomb-jacks, bought from Hrodvar on his leaving (day 567) |  |  | 150gp | vettius |
+| 569 | the Jutlander apothecary | a week's pay as a bribe for his record of Nuvicus' poison buys (day 569) |  |  | 10gp | lucilla |

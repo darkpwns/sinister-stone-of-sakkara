@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 37
+session: 38
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 10.53
+    encumbrance_st: 10.52
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
