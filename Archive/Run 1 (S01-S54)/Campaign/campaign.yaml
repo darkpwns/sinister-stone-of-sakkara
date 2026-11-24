@@ -1,0 +1,227 @@
+# Sakkara playtest (2026-11-20): AX1 The Sinister Stone of Sakkara run as an acks2-judge campaign, AI party of six.
+# Local test instance; Kardakia's master state is untouched. Schema: .claude/skills/acks2-judge/references/config-schema.md.
+
+campaign:
+  name: AX1 Playtest
+  repo: darkpwns/sinister-stone-of-sakkara
+  clone_dir: /home/user/sinister-stone-of-sakkara
+  resume_phrase: resume Sakkara
+  chat_name: Sakkara S## — <summary>
+  commit_prefix: S##
+rules:
+  repo: darkpwns/acks2-rules-vault
+  clone_dir: /home/claude/acks2-rules-vault
+  lookup_skill: acks2-rules-lookup
+  supplements: none
+  warfare: ACKS II Rules/10 Warfare/
+tools:
+  repo: darkpwns/acks2-tools
+  clone_dir: /home/claude/acks2-tools
+  ref: ccr-6e7c0096-7nmfvu
+  min_version: 7.17.7
+  setup: setup.sh
+  wrapper: .claude/skills/acks2-judge/scripts/acks.sh
+  combat_state: Campaign/combat-state.json
+  exploration_state: Campaign/exploration-state.json
+  retinue_state: Campaign/retinue-state.json
+  actor_changes: Campaign/actor-changes/
+  candidates: Campaign/candidates/
+  engine_rulings: Campaign/engine-rulings.yaml
+  coverage: engine/COVERAGE.md
+  hexes: Campaign/campaign.yaml
+  inventory_state: Campaign/inventory-state.json
+  adventure_state: Campaign/adventure-state.json
+  treasure:
+    setting: classic
+    arms_setting: Classical Epic
+  bestiary:
+  - Adventure/Bestiary/
+  - Adventure/AX3/Bestiary/
+  - Adventure/SOTN/Bestiary/
+  items:
+  - Adventure/Items/
+  travel:
+    dawn: 06:00
+    moon: half
+start:
+  year: ''
+  season: spring
+  day: 1
+  time: morning
+  mode: town
+  location: '[[Turos Tem]]'
+  hex: '22.20'
+paths:
+  home: Adventure/AX1 Hub.md
+  wiki_folders:
+    world: Adventure/
+    region: Adventure/
+    places: Adventure/
+    people: Adventure/
+    factions: Adventure/
+    realms: Adventure/
+    markets: Adventure/
+    dynamic_lairs: Adventure/
+    tables: Adventure/
+    secrets: Campaign/
+    sessions: Session Log/
+    build_notes: Campaign/
+    templates: Templates/
+    maps: Adventure/
+  sites_folder: Adventure/
+  state:
+    campaign_state: Campaign/Campaign State.md
+    world_state: Campaign/World State.md
+    rulings: Campaign/Rulings.md
+    ledger: Campaign/Ledger.md
+    roll_log: Campaign/roll-log.jsonl
+    snapshot: Campaign/snapshot.json
+  characters: Characters/
+  actors:
+  - Characters/
+  - Characters/former/
+  - Campaign/candidates/
+  - Actors/npc/
+  - Actors/monsters/
+  calendar: Campaign/Campaign State.md
+secrecy:
+  judge_only_folders:
+  - Campaign/
+  - Actors/
+  - Adventure/
+  judge_only_files: []
+  judge_only_tag: sakkara/secret
+  judge_only_callout: '> [!danger] Judge only'
+  player_facing:
+  - Party/
+  revealed: [Turos Tem, Viaspen Forest, Cyfaraun]
+logs:
+  session_log:
+    folder: Session Log/
+    template: Templates/Session.md
+    filename: S## — <summary>.md
+    index: Session Log/Campaign Log.md
+    index_section: '## Sessions'
+    judge_block: '> [!judge]- Judge rolls'
+  rumours:
+    note: Session Log/Rumours Heard.md
+    section: '## Rumours heard by the party'
+  story_strands:
+    note: Campaign/World State.md
+  clocks: []
+procedures:
+  overland: core
+  flags: none
+  procedure_notes:
+  - Adventure/AX1 Hub.md
+  weather:
+    source: ACKS II Rules/Judges Journal/02 Adventures/Weathering the Wilderness.md
+    unit: 24-mile hex, rolled at the start of each game day
+    climate: hexes.climate
+display: {}
+party:
+  structure: ai-party
+  caller: rosa
+  user_pc: ''
+  active_players:
+  - id: gideon
+    pc: Characters/cotta.json
+  - id: priya
+    pc: Characters/vestus-the-unlikely.json
+  - id: tomasz
+    pc: Characters/vettius.json
+  - id: rosa
+    pc: Characters/lucilla.json
+  - id: kwame
+    pc: Characters/brennus.json
+  - id: ingrid
+    pc: Characters/neris.json
+  pc_pdf_template: ''
+  pc_pdf_source: none
+  agent:
+    call: Agent tool, subagent_type general-purpose, model sonnet, prompt = build's one-line pointer
+    model: Claude Sonnet 5.5
+    base_prompt: Party/prompt/base.md
+    profiles: Party/profiles/
+    heuristics: Party/heuristics.md
+    memory: Party/memory/
+    party_notes: Party/party-notes.md
+    call_dir: /tmp/claude-0/-home-user/4ce086a7-1656-539c-ba33-f82689527569/scratchpad/party
+    call_log: Campaign/party-log.jsonl
+    retries: 1
+    rules_refused:
+    - vault/Bestiaries/
+    - vault/ACKS II Rules/Monster Rules/
+    - vault/ACKS II Rules/Judges Journal/
+hexes:
+  csv: Data/hexes.csv
+  numbering: CC.RR column.row; 6-mile hexes; the AX3 Borderlands regional map sheet (Library maps/ACKS_borderlands-amended-GM.tif), 01.01 at its top-left; Türos Tem 22.20
+  offset: even-columns-down
+  columns:
+    hex: hex
+    terrain: terrain
+    zone: zone
+    river: river
+    domain: domain_ruler
+    domain_kind: domain_kind
+    classification: classification
+    revenue: land_revenue_gp
+    site: point_of_interest
+    lake: lake
+    encounters: encounters                  # AX1 Viaspen Forest: the module's 1d6 6+ check and table replace the RR throw (travel, search, hunt)
+  roads:
+    file: Data/world.json
+    key: roads
+  navigable_rivers:
+    file: Data/world.json
+    keys: []
+  places: Data/places.csv
+  terrain_map:
+    grass:
+      acks: grassland-farmland
+    scrub:
+      acks: scrubland-sparse
+    hills:
+      acks: hills-rocky
+    mountains:
+      acks: mountains-rocky
+    forest:
+      acks: forest-deciduous
+    swamp:
+      acks: swamp-marshy
+    barrens:
+      acks: barrens-rocky
+    sea:
+      acks: null
+    lake:
+      acks: null
+  classification_map: {}                   # the CSV's 'wilderness' is read by the engine as unsettled (RR p. 338, engine 7.18.0)
+  domains:                                 # a domain's hexes take its classification (engine 7.18.0)
+  - name: Barony of the Ford
+    classification: outlands               # Rulings S51 (the barony granted, day 778)
+    hexes: ['26.19']
+  climate:
+    by_column:
+      below: 99
+      west: Cfb
+      east: Cfb
+  weather_region:
+    size: 4
+  settlements:
+    file: Data/places.csv
+    hex_column: hex
+    name_column: note
+    type_column: type
+    types:
+    - stronghold
+    - town
+month_end:                                 # play.py month-end (skill C4); the figures are the Rulings' (S16, S19, S46, S52, S54)
+  schedule_item: month-end
+  domains: [ford]                          # `acks.sh domain init ford …` once (judge-screen 9a), from Rulings S51-S54
+  bank: {holder: guildhouse-bank, fee_pct: 0.25}
+  incomes:
+  - {to: vettius, gp: 31728, label: "the Family's syndicate take", half_when_away: {who: vettius, place: Cyfaraun}, usurpation: "1d6:1"}
+  - {to: vettius, gp: 1624, label: "the Pony's honest half"}
+  - {to: vettius, gp: 800, label: "the North Gate dice-houses (front)"}
+  - {to: lucilla, gp: 1500, label: "the front's houses and The Mink"}
+  - {to: lucilla, gp: 2750, label: "Lucilla's half of the venture company"}

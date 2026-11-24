@@ -1,65 +1,16 @@
 ---
 type: campaign-log
 tags:
-  - gotfn/campaign
+- sakkara/campaign
 ---
 # Campaign Log
 
+Run 2 (from 2026-11-24). Run 1's log: `Archive/Run 1 (S01-S54)/Session Log/Campaign Log.md`.
+
 ## Party
+
+- Galerius (Gideon, Fighter), Faustina (Ingrid, Priestess), Hrodric (Kwame, Shaman), Callista (Priya, Mage), Corvus (Tomasz, Explorer), Tertia (Rosa, Venturer)
 
 ## Sessions
 
-- [[S01 — First delve]]
-- [[S02 — Goblin quarter]]
-- [[S03 — Courtyard prisoners]]
-- [[S04 — The ogre's secret]]
-- [[S05 — The sleeping dragon]]
-- [[S06 — The Lady Below]]
-- [[S07 — The Lady falls]]
-- [[S08 — The road to Cyfaraun]]
-- [[S09 — The deep galleries]]
-- [[S10 — Return to the temple]]
-- [[S11 — Healers and the stare]]
-- [[S12 — The princess and the inquisitor]]
-- [[S13 — Another way around]]
-- [[S14 — The white fish]]
-- [[S15 — Upriver]]
-- [[S16 — The bronze guards]]
-- [[S17 — The ledger]]
-- [[S18 — Sludge mold]]
-- [[S19 — The Thelesa villa]]
-- [[S20 — War with Sand and Bones]]
-- [[S21 — Return to the Nethercity]]
-- [[S22 — Out from Under the Eclipse]]
-- [[S23 — A Wagging Tongue]]
-- [[S24 — The Seven-Spoked Wheel]]
-- [[S25 — Accounts Paid]]
-- [[S26 — The Serpent's Sanctum]]
-- [[S27 — Rivals Below]]
-- [[S28 — The Mummy King's Hall]]
-- [[S29 — The High Priest's Shade]]
-- [[S30 — The Vanguard's Sign]]
-- [[S31 — Beyond the Queen's Panel]]
-- [[S32 — Proof Against Poison]]
-- [[S33 — The Laboratory Opens]]
-- [[S34 — Beyond the Grey Arch]]
-- [[S35 — A New Shield]]
-- [[S36 — The Beetle Stair]]
-- [[S37 — The Doom Throne]]
-- [[S38 — The Nuvicus Matter]]
-- [[S39 — The Week After the Throne]]
-- [[S40 — The Old Ape's Word]]
-- [[S41 — The Rook]]
-- [[S42 — The Canary Trap]]
-- [[S43 — The Gate Toll]]
-- [[S44 — The Hunt for the Teacher]]
-- [[S45 — The Last Tombs]]
-- [[S46 — Leaving Cyfaraun]]
-- [[S47 — Winter Quarters]]
-- [[S48 — The Thaw]]
-- [[S49 — The West Wall]]
-- [[S50 — Clearing the Barony]]
-- [[S51 — The Baron of the Ford]]
-- [[S52 — The First Month of the Ford]]
-- [[S53 — The Road North]]
-- [[S54 — The Night at the Silk Pony]]
+- [[S01 — A Kingdom of Beasts]] (2026-11-24): run 2 set up; six PCs built without templates

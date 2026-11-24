@@ -1,8 +1,9 @@
-# Sakkara playtest (2026-11-20): AX1 The Sinister Stone of Sakkara run as an acks2-judge campaign, AI party of six.
-# Local test instance; Kardakia's master state is untouched. Schema: .claude/skills/acks2-judge/references/config-schema.md.
+# Sakkara campaign, run 2 (2026-11-24): AX1 The Sinister Stone of Sakkara, then AX2 Secrets of the Nethercity, as an
+# acks2-judge campaign, AI party of six with new characters. Run 1 (S01-S54) is in Archive/Run 1 (S01-S54)/.
+# Kardakia's master state is untouched. Schema: .claude/skills/acks2-judge/references/config-schema.md.
 
 campaign:
-  name: AX1 Playtest
+  name: Sakkara Run 2
   repo: darkpwns/sinister-stone-of-sakkara
   clone_dir: /home/user/sinister-stone-of-sakkara
   resume_phrase: resume Sakkara
@@ -18,7 +19,7 @@ tools:
   repo: darkpwns/acks2-tools
   clone_dir: /home/claude/acks2-tools
   ref: ccr-6e7c0096-7nmfvu
-  min_version: 7.17.7
+  min_version: 7.22.1
   setup: setup.sh
   wrapper: .claude/skills/acks2-judge/scripts/acks.sh
   combat_state: Campaign/combat-state.json
@@ -94,7 +95,7 @@ secrecy:
   judge_only_callout: '> [!danger] Judge only'
   player_facing:
   - Party/
-  revealed: [Turos Tem, Viaspen Forest, Cyfaraun]
+  revealed: [Turos Tem, Viaspen Forest, Cyfaraun]   # run 2: Callista and Tertia are from Cyfaraun; Corvus knows the Viaspen
 logs:
   session_log:
     folder: Session Log/
@@ -121,21 +122,21 @@ procedures:
 display: {}
 party:
   structure: ai-party
-  caller: rosa
+  caller: gideon
   user_pc: ''
   active_players:
   - id: gideon
-    pc: Characters/cotta.json
+    pc: Characters/galerius.json
   - id: priya
-    pc: Characters/vestus-the-unlikely.json
+    pc: Characters/callista.json
   - id: tomasz
-    pc: Characters/vettius.json
+    pc: Characters/corvus.json
   - id: rosa
-    pc: Characters/lucilla.json
+    pc: Characters/tertia.json
   - id: kwame
-    pc: Characters/brennus.json
+    pc: Characters/hrodric.json
   - id: ingrid
-    pc: Characters/neris.json
+    pc: Characters/faustina.json
   pc_pdf_template: ''
   pc_pdf_source: none
   agent:
@@ -146,7 +147,7 @@ party:
     heuristics: Party/heuristics.md
     memory: Party/memory/
     party_notes: Party/party-notes.md
-    call_dir: /tmp/claude-0/-home-user/4ce086a7-1656-539c-ba33-f82689527569/scratchpad/party
+    call_dir: /tmp/claude-0/-home-user/8f7e8988-7e29-5549-8056-6add8a39050f/scratchpad/party
     call_log: Campaign/party-log.jsonl
     retries: 1
     rules_refused:
@@ -196,10 +197,7 @@ hexes:
     lake:
       acks: null
   classification_map: {}                   # the CSV's 'wilderness' is read by the engine as unsettled (RR p. 338, engine 7.18.0)
-  domains:                                 # a domain's hexes take its classification (engine 7.18.0)
-  - name: Barony of the Ford
-    classification: outlands               # Rulings S51 (the barony granted, day 778)
-    hexes: ['26.19']
+  domains: []                              # a domain's hexes take its classification (engine 7.18.0); run 2 has none yet
   climate:
     by_column:
       below: 99
@@ -215,13 +213,7 @@ hexes:
     types:
     - stronghold
     - town
-month_end:                                 # play.py month-end (skill C4); the figures are the Rulings' (S16, S19, S46, S52, S54)
+month_end:                                 # play.py month-end (skill C4); run 2 has no domains or incomes yet
   schedule_item: month-end
-  domains: [ford]                          # `acks.sh domain init ford …` once (judge-screen 9a), from Rulings S51-S54
-  bank: {holder: guildhouse-bank, fee_pct: 0.25}
-  incomes:
-  - {to: vettius, gp: 31728, label: "the Family's syndicate take", half_when_away: {who: vettius, place: Cyfaraun}, usurpation: "1d6:1"}
-  - {to: vettius, gp: 1624, label: "the Pony's honest half"}
-  - {to: vettius, gp: 800, label: "the North Gate dice-houses (front)"}
-  - {to: lucilla, gp: 1500, label: "the front's houses and The Mink"}
-  - {to: lucilla, gp: 2750, label: "Lucilla's half of the venture company"}
+  domains: []
+  incomes: []

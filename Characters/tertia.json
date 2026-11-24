@@ -1,0 +1,21 @@
+{
+"schema": "acks-actor/2",
+"id": "tertia",
+"type": "character",
+"role": "pc",
+"name": "Tertia",
+"class": "Venturer",
+"level": 1,
+"xp": 0,
+"alignment": "Neutral",
+"birthplace": "Cyfaraun",
+"age": 22,
+"gender": "female",
+"hp_max": 2,
+"attributes": {"STR":9,"INT":13,"WIL":11,"DEX":9,"CON":5,"CHA":13},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Bargaining","list":"class"},{"type":"proficiency","name":"Animal Training","list":"general"},{"type":"proficiency","name":"Animal Husbandry","list":"general"}],
+"modifiers": [],
+"state": {"conditions":[],"spells_used":[],"hp":2},
+"changes": [{"field":"attributes.CHA","from":null,"to":13,"cause":"chargen: attribute CHA (5d6)"},{"field":"attributes.INT","from":null,"to":13,"cause":"chargen: attribute INT (4d6)"},{"field":"attributes.DEX","from":null,"to":9,"cause":"chargen: attribute DEX (4d6)"},{"field":"attributes.STR","from":null,"to":9,"cause":"chargen: attribute STR (3d6)"},{"field":"attributes.WIL","from":null,"to":11,"cause":"chargen: attribute WIL (3d6)"},{"field":"attributes.CON","from":null,"to":5,"cause":"chargen: attribute CON (3d6)"},{"field":"class","from":null,"to":"Venturer","cause":"chargen: class Venturer"},{"field":"level","from":null,"to":1,"cause":"chargen: class Venturer"},{"field":"xp","from":null,"to":0,"cause":"chargen: class Venturer"},{"field":"hp_max","from":null,"to":2,"cause":"chargen: hit points (1d6)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Adventuring","list":"general"},"cause":"chargen: starting proficiency"},{"field":"age","from":null,"to":22,"cause":"chargen: starting age (17 + 2d4)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Bargaining","list":"class"},"cause":"chargen: class proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Animal Training","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Animal Husbandry","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"inventory_holder","from":null,"to":true,"cause":"chargen: inventory holder: starting gold (3d6 x 10)"},{"field":"alignment","from":null,"to":"Neutral","cause":"chargen: set alignment"},{"field":"gender","from":null,"to":"female","cause":"chargen: set gender"},{"field":"birthplace","from":null,"to":"Cyfaraun","cause":"chargen: set birthplace"},{"field":"chargen","from":{"method":"no-templates","done":["attributes","class","hp","gold","age","equipment"],"owed":{"class":0,"general":0,"spells":0},"template":null,"next":"finish ID"},"to":null,"cause":"chargen: finished"}]
+}

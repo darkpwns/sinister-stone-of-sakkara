@@ -1,0 +1,21 @@
+{
+"schema": "acks-actor/2",
+"id": "galerius",
+"type": "character",
+"role": "pc",
+"name": "Galerius",
+"class": "Fighter",
+"level": 1,
+"xp": 0,
+"alignment": "Lawful",
+"birthplace": "Türos Tem",
+"age": 22,
+"gender": "male",
+"hp_max": 4,
+"attributes": {"STR":17,"INT":14,"WIL":13,"DEX":10,"CON":10,"CHA":8},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Fighting Style Specialization","list":"class"},{"type":"proficiency","name":"Animal Training","list":"general"},{"type":"proficiency","name":"Riding","list":"general"}],
+"modifiers": [],
+"state": {"conditions":[],"spells_used":[],"hp":4},
+"changes": [{"field":"attributes.WIL","from":null,"to":13,"cause":"chargen: attribute WIL (5d6)"},{"field":"attributes.STR","from":null,"to":17,"cause":"chargen: attribute STR (4d6)"},{"field":"attributes.CON","from":null,"to":10,"cause":"chargen: attribute CON (4d6)"},{"field":"attributes.INT","from":null,"to":14,"cause":"chargen: attribute INT (3d6)"},{"field":"attributes.DEX","from":null,"to":10,"cause":"chargen: attribute DEX (3d6)"},{"field":"attributes.CHA","from":null,"to":8,"cause":"chargen: attribute CHA (3d6)"},{"field":"class","from":null,"to":"Fighter","cause":"chargen: class Fighter"},{"field":"level","from":null,"to":1,"cause":"chargen: class Fighter"},{"field":"xp","from":null,"to":0,"cause":"chargen: class Fighter"},{"field":"hp_max","from":null,"to":4,"cause":"chargen: hit points (1d8)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Adventuring","list":"general"},"cause":"chargen: starting proficiency"},{"field":"age","from":null,"to":22,"cause":"chargen: starting age (17 + 1d6)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Fighting Style Specialization","list":"class"},"cause":"chargen: class proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Animal Training","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Riding","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"inventory_holder","from":null,"to":true,"cause":"chargen: inventory holder: starting gold (3d6 x 10)"},{"field":"alignment","from":null,"to":"Lawful","cause":"chargen: set alignment"},{"field":"gender","from":null,"to":"male","cause":"chargen: set gender"},{"field":"birthplace","from":null,"to":"Türos Tem","cause":"chargen: set birthplace"},{"field":"chargen","from":{"method":"no-templates","done":["attributes","class","hp","gold","age","equipment"],"owed":{"class":0,"general":0,"spells":0},"template":null,"next":"finish ID"},"to":null,"cause":"chargen: finished"}]
+}

@@ -4,7 +4,7 @@ player: gideon
 ---
 # Gideon — memory
 
-Player-facing notes kept by the Judge from the party agent's suggested updates. One bullet per item, prefixed with the session (`S03:`). Keep each section to about 8 bullets; merge or drop stale ones at session end.
+Player-facing notes kept by the Judge. One bullet per item, prefixed with the session (`S03:`). Keep each section to about 8 bullets; merge or drop stale ones at session end. Run 2 (from 2026-11-24).
 
 ## Grudges
 
@@ -13,7 +13,6 @@ Player-facing notes kept by the Judge from the party agent's suggested updates. 
 ## Lessons learned
 
 ## Opinions of NPCs
-- S18 (day 344): Arëtar knows, or guesses. He wanted a court. Mend it with the next report and honest work below.
-- S18: Arëtar will not lie for us, even to catch the man who paid to have his Captain killed. The Order judges faster; we did it the Order's way.
 
 ## Henchmen and hirelings
+

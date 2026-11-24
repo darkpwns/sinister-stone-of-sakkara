@@ -1,12 +1,15 @@
 ---
 type: rulings
 tags:
-  - gotfn/campaign
+  - sakkara/campaign
 ---
 # Rulings
 
-Precedents set in this campaign, so each question is ruled the same way next time. Newest last. Carry over the rows of
-the old `Campaigns/GotFN Solo/Rulings.md` (README step 3).
+Precedents set in this campaign, so each question is ruled the same way next time. Newest last.
+
+**Run 2 (from 2026-11-24, session S01 again).** Rows whose session is a plain `S##` (S01-S54) are run 1's (archived in
+`Archive/Run 1 (S01-S54)/`). Their rulings on rules, procedures and module readings stand as precedents; their facts
+about run-1 characters, NPCs, factions and events do not hold. Run-2 rows carry the session as `R2 S##`.
 
 | Date (real) | Session | Question | Ruling | Source or "Judge's ruling" |
 | --- | --- | --- | --- | --- |
@@ -303,3 +306,8 @@ the old `Campaigns/GotFN Solo/Rulings.md` (README step 3).
 | 2026-11-24 | S54 | The tesserae's watchword (Classical Auran) | Vettius deciphered it (thief Deciphering 4+, a 5): AQUILA VIGILAT ('the eagle watches'); the company knows it | RR Thief; Judge's call |
 | 2026-11-24 | S54 | The draugr on the hills of 30.17 at dusk (very rare) | Indifferent (reaction 11): it watched the company pass and went to mist. A candidate for the 'three dark shapes at dusk' of S51 (Judge's watch, not established) | MM Draugr; Judge's call |
 | 2026-11-24 | S54 | The barony hex's double valuable terrain (day 859) | A vista (a bald hill over the ford meadows: visibility doubled; a watchtower or fastness site) and a fountain (a spring: 120 gallons a day) in 26.19 | JJ pp. 66-67 |
+| 2026-11-24 | R2 S01 | A fresh campaign: what carries over from run 1? | Table rules, Rulings (as precedents), engine rulings, the Judge's lessons index and the module and region notes carry over; characters, inventory, retinue, adventures, the world's state and the party's knowledge do not (Archive/Run 1 (S01-S54)/). Character creation: no templates (RR optional rule) | User's instruction |
+| 2026-11-24 | R2 S01 | The party's standing goal | Found a magical kingdom: Animal Training and the harvesting proficiencies always in the party; session goals advance it; factions only when they help or carry no recurring obligation (Campaign State Table rules; Party/heuristics.md) | User's instruction |
+| 2026-11-24 | R2 S01 | Starting equipment without templates: is it limited by the starting market's class? | No: at character creation any item on the RR equipment lists can be bought at its list price (no availability rolls, no bargaining); entered with `inv add --cause "starting equipment …"` and one `inv pay` of the list total per PC. After creation, markets apply as usual. The first purchase pass (day 1, market rules) was undone and its availability rolls are void | User's ruling |
+| 2026-11-24 | R2 S01 | Price of iron rations at creation (RR lists 1-6gp) | 1gp a week (run 1's Türos Tem price, S01 day 32) | Judge's ruling |
+| 2026-11-24 | R2 S01 | Metamphora | One metamphora (5gp) is an item of 1 stone that preserves 60gp of components (`Metamphora (60gp)`, engine catalogue) | Engine catalogue (MM p. 371) |
