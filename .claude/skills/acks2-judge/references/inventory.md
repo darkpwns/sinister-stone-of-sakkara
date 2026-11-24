@@ -58,7 +58,8 @@ come from the print-checked equipment tables (`acks.sh inv catalog WORDS` finds 
   fights as a dagger or a staff at −1 (`inv use ID ITEM dagger|staff` picks the end) until `inv repair ID ITEM
   [--payer ID]` (1gp, RR p. 127; where a repair can be had is yours).
 - Animals and vehicles left behind: `inv stable ID… --at "<place>" --cause "…"` (they no longer march, eat from the
-  party's fodder, or can be ridden, loaded or harnessed), `inv unstable ID…` (it counts the nights; the fee per night
+  party's fodder, or can be ridden, loaded or harnessed; engine 7.18.8: its riders dismount and the members'
+  supplies packed on it go back onto them, said in the output: check their loads), `inv unstable ID…` (it counts the nights; the fee per night
   is on the JUDGE line, RR p. 131: pay it with `inv pay`). An animal or vehicle gained without buying:
   `inv add ID "<row>" 1 --as NEWID --cause "…"`.
 - A purchase refused for want of room or stock says how many packs and units were asked (`inv buy ID torch 2` buys two
