@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 567
-  time: 07:37
+    day: 569
+  time: 06:39
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -35,16 +35,15 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 14.131
+    encumbrance_st: 13.837
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
     hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Mage Missile
-    encumbrance_st: 6.364
+    spells_used: []
+    encumbrance_st: 5.92
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -53,10 +52,8 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Smite Undead
-    - Smite Undead
-    encumbrance_st: 7.064
+    spells_used: []
+    encumbrance_st: 6.62
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -66,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 12.783
+    encumbrance_st: 12.339
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -82,10 +79,8 @@ public:
     hp_max: 20
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
-    spells_used:
-    - Fan of Flames
-    - Fan of Flames
-    encumbrance_st: 8.284
+    spells_used: []
+    encumbrance_st: 8.062
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
@@ -97,8 +92,8 @@ public:
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
-    hp: 6
-    hp_max: 6
+    hp: 5
+    hp_max: 5
     conditions:
     - enervated (Death save each day on waking, RR p. 509)
     spells_used: []
@@ -139,7 +134,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 567
+clock_day: 569
 ---
 # Campaign State
 
