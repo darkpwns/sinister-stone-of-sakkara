@@ -518,20 +518,21 @@
    "kind": "animal",
    "name": "Horse, Light Riding",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Horse, Light Riding",
    "owner": "cotta",
    "note": "Cotta's own (Outrider template), day 331",
-   "stabled": {
-    "at": "the Silk Pony",
-    "day": 691,
-    "cause": "stabled until the march"
-   },
    "history": [
     {
      "stabled": "the Silk Pony",
      "day": 691,
      "cause": "stabled until the march"
+    },
+    {
+     "unstabled": "the Silk Pony",
+     "day": 724,
+     "nights": 33,
+     "cause": "Vestus and Ennia ride after the company"
     }
    ]
   },
@@ -701,20 +702,21 @@
    "kind": "animal",
    "name": "Horse, Light Riding",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Horse, Light Riding",
    "note": "bought in Cyfaraun by lucilla",
    "owner": "lucilla",
-   "stabled": {
-    "at": "the Silk Pony",
-    "day": 691,
-    "cause": "stabled until the march"
-   },
    "history": [
     {
      "stabled": "the Silk Pony",
      "day": 691,
      "cause": "stabled until the march"
+    },
+    {
+     "unstabled": "the Silk Pony",
+     "day": 724,
+     "nights": 33,
+     "cause": "Vestus and Ennia ride after the company"
     }
    ]
   },
@@ -122576,6 +122578,190 @@
    "coins": [],
    "cmd": "inv give",
    "n": 6230
+  },
+  {
+   "op": "give",
+   "cause": "loads shifted to the pack mule (Phaedra's horse over its maximum)",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [
+    {
+     "who": "phaedra",
+     "item": "waterskin",
+     "slot": "worn",
+     "qty": -5
+    },
+    {
+     "who": "phaedra",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "mule1",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 5
+    },
+    {
+     "who": "mule1",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 6231
+  },
+  {
+   "op": "give",
+   "cause": "loads shifted to the pack mule",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [
+    {
+     "who": "phaedra",
+     "item": "iron spike",
+     "slot": "backpack",
+     "qty": -10
+    },
+    {
+     "who": "mule1",
+     "item": "iron spike",
+     "slot": "pack",
+     "qty": 10
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 6232
+  },
+  {
+   "op": "give",
+   "cause": "loads shifted to the pack mule",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [
+    {
+     "who": "phaedra",
+     "item": "leather armor",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "mule1",
+     "item": "leather armor",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 6233
+  },
+  {
+   "op": "give",
+   "cause": "loads shifted to the pack mule",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [
+    {
+     "who": "phaedra",
+     "item": "caltrops (20 oz bag)",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "mule1",
+     "item": "caltrops (20 oz bag)",
+     "slot": "pack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 6234
+  },
+  {
+   "op": "pay",
+   "cause": "stalls for cotta-horse and ennia-horse, days 721-724, and their feed (2sp a stall a night; Ennia's lodging on the house)",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "sp": -4,
+     "gp": -11
+    }
+   ],
+   "to": "the Silk Pony (Thana)",
+   "price_cp": 1140,
+   "cmd": "inv pay",
+   "n": 6235
+  },
+  {
+   "op": "pay",
+   "cause": "the rest of the stall fees for cotta-horse and ennia-horse, days 691-724 (33 nights)",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -2
+    }
+   ],
+   "to": "the Silk Pony (Thana)",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 6236
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -12
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 25,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 1200,
+   "cmd": "inv buy",
+   "n": 6237
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to vestus-the-unlikely: 14 days of iron rations; supplies: cotta food 14 d, water 2.8 d, firewood 0 st; brennus food 14 d, water 3.4 d, firewood 0 st; vettius food 11 d, water 1.4 d, firewood 0 st; lucilla food 11 d, water 3 d, firewood 0 st; neris food 11 d, water 3.2 d, firewood 0 st; aelia food 11 d, water 3 d, firewood 0 st; phaedra food 11 d, water 1 d, firewood 0 st; tiberius-maro food 11 d, water 3.2 d, firewood 0 st; vestus-the-unlikely food 14 d, water 0.8 d, firewood 0 st; ennia-ursa food 14 d, water 0.2 d, firewood 0 st; donkey1 fodder 0 st, water 0 st; donkey2 fodder 0 st, water 0 st; mule1 fodder 0 st, water 0 st; brennus-horse fodder 0 st, water 0 st; horse-lucilla fodder 0 st, water 0 st; horse-vettius fodder 0 st, water 0 st; horse-brennus fodder 0 st, water 0 st; mule-neris fodder 0 st, water 0 st; mule-aelia fodder 0 st, water 0 st; horse-tiberius fodder 0 st, water 0 st; horse-cotta fodder 0 st, water 0 st; cotta-horse fodder 0 st, water 0 st; ennia-horse fodder 0 st, water 0 st",
+   "day": 724,
+   "time": "day 724 09:53",
+   "deltas": [
+    {
+     "who": "vestus-the-unlikely",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": -2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 6238
   }
  ],
  "holdings": {
@@ -122962,20 +123148,16 @@
     "scroll of slumber (phaedra's)": 6
    },
    "worn": {
-    "backpack (holds 4 stone)": 1,
-    "waterskin": 5
+    "backpack (holds 4 stone)": 1
    },
    "backpack": {
-    "waterskin": 10,
-    "oil, military (1 pint)": 4,
-    "iron spike": 10,
-    "caltrops (20 oz bag)": 2
+    "waterskin": 5,
+    "oil, military (1 pint)": 4
    },
    "right_hand": {
     "#w37": 1
    },
    "back": {
-    "leather armor": 1,
     "#w42": 1,
     "#w43": 1
    },
@@ -123512,12 +123694,20 @@
    "pack": {
     "saddle and tack, riding": 1
    }
+  },
+  "mule1": {
+   "pack": {
+    "waterskin": 10,
+    "iron spike": 10,
+    "leather armor": 1,
+    "caltrops (20 oz bag)": 2
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 586,
-   "sp": 206,
+   "gp": 575,
+   "sp": 202,
    "cp": 423
   },
   "body:cassia": {
@@ -123539,7 +123729,7 @@
   "vestus-the-unlikely": {
    "cp": 397,
    "sp": 338,
-   "gp": 150
+   "gp": 136
   },
   "zaira-the-beautiful": {
    "cp": 5,

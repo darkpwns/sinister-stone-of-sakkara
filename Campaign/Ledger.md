@@ -5413,6 +5413,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
 | 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
 | 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 724 | the Silk Pony (Thana) | stalls for cotta-horse and ennia-horse, days 721-724, and their feed (2sp a stall a night; Ennia's lodging on the house) |  |  | 11gp 4sp | lucilla |
+| 724 | the Silk Pony (Thana) | the rest of the stall fees for cotta-horse and ennia-horse, days 691-724 (33 nights) |  |  | 2gp | vestus-the-unlikely |
+| 724 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | vestus-the-unlikely |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

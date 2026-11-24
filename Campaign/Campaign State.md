@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 721
-  time: 07:53
+    day: 724
+  time: 09:53
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
-  hex: '18.05'
+  hex: '18.06'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 16.882
+    encumbrance_st: 16.867
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -41,10 +41,9 @@ public:
     role: pc
     hp: 18
     hp_max: 18
-    conditions:
-    - 'lost in time and space (a failed experiment, day 664): vanished from his workshop'
+    conditions: []
     spells_used: []
-    encumbrance_st: 5.052
+    encumbrance_st: 5.038
   - name: Neris
     sheet: Characters/neris.json
     role: pc
@@ -106,10 +105,10 @@ public:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
     spells_used: []
-    encumbrance_st: 16.071
+    encumbrance_st: 11.404
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 17 d, water 2.8 d; Brennus: food 17 d, water 3.4 d; Vettius: food 14 d, water 0.4 d; Lucilla: food 14 d, water 1 d; Neris: food 14 d, water 1.2 d; Aelia: food 14 d, water 1 d; Phaedra: food 14 d, water 1 d; Tiberius Maro: food 14 d, water 1.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 14 d, water 2.8 d; Brennus: food 14 d, water 3.4 d; Vettius: food 11 d, water 1.4 d; Lucilla: food 11 d, water 3 d; Neris: food 11 d, water 3.2 d; Aelia: food 11 d, water 3 d; Phaedra: food 11 d, water 1 d; Tiberius Maro: food 11 d, water 3.2 d; Vestus the Unlikely: food 14 d, water 0.8 d; Ennia Ursa: food 14 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
@@ -121,7 +120,6 @@ public:
   - Free of the Order of the Eclipse since day 629; Destrio's people have been seen near the Plaza District Watch house
   - 'The workshop in the Pony''s back house: Phaedra scribes scrolls of sleep and Neris brews potions of healing there'
   trail:
-  - '25.19'
   - '26.18'
   - '26.17'
   - '27.17'
@@ -141,7 +139,8 @@ public:
   - '19.07'
   - '18.06'
   - '18.05'
-clock_day: 721
+  - '18.06'
+clock_day: 724
 ---
 # Campaign State
 
