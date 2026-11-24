@@ -5334,6 +5334,17 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 690 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 4 (days 681-685; Rulings S47) |  |  | 500gp | vettius |
 | 690 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 5 (days 686-690; Rulings S47) |  |  | 500gp | vettius |
 | 690 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 5 (Rulings S47) |  |  | 500gp | vettius |
+| 691 | market | his share of the sale of L902,L903,L904,L905 (after the payout) |  | 1,516gp |  | cotta |
+| 691 | market | his share of the sale of L902,L903,L904,L905 (after the payout) |  | 1,516gp |  | brennus |
+| 691 | market | his share of the sale of L902,L903,L904,L905 (after the payout) |  | 758gp |  | ennia-ursa |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 36gp | lucilla |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 36gp | lucilla |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 225gp | lucilla |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 27gp | lucilla |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 27gp | lucilla |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 108gp | lucilla |
+| 691 | Cyfaraun | bought in Cyfaraun |  |  | 135gp | lucilla |
+| 691 | Cyfaraun | Saddle and Tack, Riding | 7 |  | 63gp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
