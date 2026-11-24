@@ -1,11 +1,11 @@
 {
  "campaign": "AX1 Playtest",
  "session": 38,
- "generated": 1795480881,
+ "generated": 1795481079,
  "date": {
   "year": "",
   "season": "fall",
-  "day": 569
+  "day": 570
  },
  "time": "06:39",
  "weather": "Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate",
@@ -25,7 +25,7 @@
     "It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)"
    ],
    "spells_used": [],
-   "encumbrance_st": 10.52
+   "encumbrance_st": 14.784
   },
   {
    "name": "Vettius",
@@ -35,7 +35,7 @@
    "hp_max": 32,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 13.837
+   "encumbrance_st": 32.395
   },
   {
    "name": "Vestus the Unlikely",
@@ -45,7 +45,7 @@
    "hp_max": 18,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.92
+   "encumbrance_st": 5.91
   },
   {
    "name": "Neris",
@@ -111,9 +111,7 @@
    "role": "henchman",
    "hp": 5,
    "hp_max": 5,
-   "conditions": [
-    "enervated (Death save each day on waking, RR p. 509)"
-   ],
+   "conditions": [],
    "spells_used": [],
    "encumbrance_st": 10.172
   }
@@ -934,6 +932,27 @@
      "apparent_value_gp": 700.0,
      "magical": true,
      "stone": 5.0
+    },
+    {
+     "id": "L822",
+     "looks": "SOTN Fire Lance",
+     "qty": 1,
+     "apparent_value_gp": 100,
+     "magical": true,
+     "known": [
+      "identity",
+      "charges",
+      "command words",
+      "curse",
+      "all properties",
+      "the Tower's identification (paid day 556): an ancient fire lance: an energy crystal in its chamber becomes a cone of liquid fire 30' long and 10' wide (5d6 fire, half on a Blast save",
+      "1d6 more fire the next round to anyone burned",
+      "flammables ignite)",
+      "one crystal a blast",
+      "it holds five and is loaded with five",
+      "usable only by those trained to fight as fighters (fighter's attack progression)"
+     ],
+     "stone": 0.167
     }
    ],
    "movement": {
@@ -1527,11 +1546,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 130,
-    "sp": 215,
-    "cp": 342
+    "gp": 4383,
+    "sp": 219,
+    "cp": 349
    },
-   "encumbrance_st": 10.52,
+   "encumbrance_st": 14.784,
    "weapons": [
     {
      "name": "Mace +1",
@@ -3034,7 +3053,7 @@
    "name": "Vestus the Unlikely",
    "class": "Mage",
    "level": 7,
-   "xp": 134943,
+   "xp": 135543,
    "hp_max": 18,
    "attributes": {
     "STR": {
@@ -3217,11 +3236,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 150,
+    "gp": 140,
     "sp": 280,
     "cp": 323
    },
-   "encumbrance_st": 5.92,
+   "encumbrance_st": 5.91,
    "weapons": [
     {
      "name": "Dagger",
@@ -3391,6 +3410,25 @@
      "looks": "long black scroll on golden handles tipped with black sapphires (gold script)",
      "qty": 1,
      "stone": 0.5
+    },
+    {
+     "id": "L824",
+     "looks": "SOTN Arcane Sword",
+     "qty": 1,
+     "apparent_value_gp": 100,
+     "magical": true,
+     "known": [
+      "identity",
+      "charges",
+      "command words",
+      "curse",
+      "all properties",
+      "the Tower's identification (paid day 556): an ancient arcane sword: a telepathic command from its holder springs a blade of crackling blue lightning (2d6 one-handed, 2d8 two-handed, extraordinary electrical damage)",
+      "one energy crystal powers 30 rounds of blade",
+      "this one has 8 rounds left",
+      "usable only by arcane spellcasters"
+     ],
+     "stone": 0.167
     }
    ],
    "movement": {
@@ -3462,7 +3500,7 @@
    "name": "Vettius",
    "class": "Thief",
    "level": 9,
-   "xp": 200618,
+   "xp": 207552,
    "alignment": "Neutral",
    "age": 22,
    "gender": "male",
@@ -3640,11 +3678,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 150,
+    "gp": 18708,
     "sp": 214,
     "cp": 306
    },
-   "encumbrance_st": 13.837,
+   "encumbrance_st": 32.395,
    "weapons": [
     {
      "name": "Short Sword +2",
@@ -3768,12 +3806,6 @@
      "stone": 0.167
     }
    ],
-   "movement": {
-    "exploration": 30,
-    "combat": 10,
-    "running": 30,
-    "expedition": 6
-   },
    "proficiency_throws": {
     "climbing": -2,
     "dungeonbashing": 14,
@@ -3897,7 +3929,24 @@
    }
   }
  ],
- "open_rolls": [],
+ "open_rolls": [
+  {
+   "label": "hrodvar death save",
+   "spec": "1d20",
+   "rolls": [
+    13
+   ],
+   "total": 13
+  },
+  {
+   "label": "tiberius-maro death save",
+   "spec": "1d20+6",
+   "rolls": [
+    13
+   ],
+   "total": 19
+  }
+ ],
  "rumours_heard": [
   "Day 1, Türos Tem: Cassia already knew a tale (Loremastery) that an elven wizard-lord is behind the beastman raiders, bent on revenge against the Empire.",
   "Day 12, Türos Tem: the legate, asked for help, mentioned that elves still live in the forests of Southern Argollë but have gone feral and crave the flesh of men.",

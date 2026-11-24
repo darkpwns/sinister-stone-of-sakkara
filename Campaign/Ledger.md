@@ -4549,3 +4549,23 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 567 |  | treasure share |  |  |  |  |
 | 567 | Hrodvar | the tomb-jacks, bought from Hrodvar on his leaving (day 567) |  |  | 150gp | vettius |
 | 569 | the Jutlander apothecary | a week's pay as a bribe for his record of Nuvicus' poison buys (day 569) |  |  | 10gp | lucilla |
+| 570 | the Merchant Guildhouse | storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 49876.91 |  |  | 124gp 6sp 9cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 106601.16 |  |  | 266gp 5sp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 26076.67 |  |  | 65gp 1sp 9cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 14729.09 |  |  | 36gp 8sp 2cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 32368.05 |  |  | 80gp 9sp 2cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 69608.17 |  |  | 174gp 2cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 97676.08 |  |  | 244gp 1sp 9cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 31968.5 |  |  | 79gp 9sp 2cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of neris, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 87863.49 |  |  | 219gp 6sp 6cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 44962.89 |  |  | 112gp 4sp 1cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 16.84 |  |  | 4cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of tiberius-maro, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 3225.88 |  |  | 8gp 6cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of varro, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 31228.4 |  |  | 78gp 7cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 85243.35 |  |  | 213gp 1sp 1cp | guildhouse-bank |
+| 570 | the Merchant Guildhouse | storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 19 (day 570): on 138064.76 |  |  | 345gp 1sp 6cp | guildhouse-bank |
+| 570 | investment 1 (Balanced, 693gp) | month 19: Vagaries 34, Return -50% (0.5%) |  | 3gp 4sp 7cp |  | lucilla |
+| 570 | the front's houses and The Mink | month 19 income (Rulings S19) |  | 1,500gp |  | lucilla |
+| 570 | the venture company (her half) | month 19 income (Rulings S19) |  | 2,750gp |  | lucilla |
+| 570 | the syndicate (the Family and Sand & Bones) and the Pony's honest trade | month 19 take: syndicate 16,934 (17,747 less Turpio 4th 425, Plautus 4th 425, double agents #3 #4 #5 0th 3; plus eight 1st-level thieves of day 545, 40) + the Pony's half 1,624 (AX3 p. 75; RR Monthly Member Tribute; Rulings S19, S22, S25) |  | 18,558gp |  | vettius |
+| 570 | the Tower | month 19 dues (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
