@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 1
 tags:
   - sakkara/secret
+actor: "livia-sabella"
 ---
 # Livia Sabella (Order contract, Vettius, S45; Judge only)
 

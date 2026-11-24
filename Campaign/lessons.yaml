@@ -277,3 +277,11 @@ lessons:
   on: ["adventure start"]
   text: "before the first turn below, look at every member's hands (`inv show ID`): front-liners hold melee weapons, archers may hold bows only at the rear, a priest's symbol in one hand and a weapon at the belt; a driver must stop (never run on) when an attack is refused"
   source: "judge-notes S38 (I7: Cotta's and Neris' lost actions)"
+
+- id: lots-before-treasure-delve
+  category: treasure
+  status: remind
+  since: S46
+  on: ["adventure start"]
+  text: "before a descent for a site's treasure, list what was already taken there: `python3 -c` over Campaign/adventure-state.json lots by found.where (or `acks.sh adventure show`), not only World State prose (S45 took N's emptied laboratory a second time)"
+  source: "judge-notes S46 day 625"

@@ -209,8 +209,8 @@ items:
   source: "World State Vessels; inventory log days 308-421; user's correction S33 (the company keeps it paid)"
 
 - id: grey-sisters-vault
-  title: The Grey Sisters' vault fee (10gp a month, paid ahead; last paid day 594 to day 622)
-  day: 623
+  title: The Grey Sisters' vault fee (10gp a month, paid ahead; last paid day 623 to day 652)
+  day: 653
   steps: ["pay 10gp a month ahead from Lucilla or Vettius (Rulings S11); then move this item's day on"]
   source: "Rulings S11 (row 81); Ledger day 443"
 
@@ -332,3 +332,9 @@ items:
   day: 620
   steps: ["`recover --reward 1000 --late --adventure A147 --carrier lucilla`, then `payout --late L# --apply` (XP and gp to A147's holders)"]
   source: "World State day 619 (Rulings S28)"
+
+- id: commission-a151
+  title: "Oppius brings the commissions for Thalassa (2,000gp, Vettius) and Kleon Pharsalos (1,500gp, Brennus) (A151 paid out)"
+  day: 626
+  steps: ["`recover --reward 3500 --late --adventure A151 --carrier vettius`, then `payout --late L# --apply`"]
+  source: "World State night 624 (Rulings S28)"

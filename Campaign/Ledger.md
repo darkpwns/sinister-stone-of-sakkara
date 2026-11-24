@@ -949,6 +949,11 @@ tags:
 | 619 | A148 descent 89: the temple's great hall (H14) | Mummy | 1 | 660 | 660 |
 | 620 | A149 descent 90: the library carried out (N3) | Sage Slime | 1 | 56 | 56 |
 | 620 | A149 descent 90: the library carried out (N3) | Wight | 5 | 80 | 400 |
+| 623 | A150 Order contracts: Ilaria (Brennus), Livia Sabella (Vettius) | Ilaria the Herb-seller | 1 | 20 | 20 |
+| 623 | A150 Order contracts: Ilaria (Brennus), Livia Sabella (Vettius) | Livia Sabella | 1 | 10 | 10 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Thalassa of the Reeds | 1 | 80 | 80 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Kleon Pharsalos | 1 | 50 | 50 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Bandit | 2 | 10 | 20 |
 
 ## Shares and XP awarded
 
@@ -1957,6 +1962,15 @@ tags:
 | 620 | A149 descent 90: the library carried out (N3) | Neris | 1 | 5,891 | 65 | 0 | +0% | 5,956 |
 | 620 | A149 descent 90: the library carried out (N3) | Aelia | 0.5 | 2,945 | 33 | 0 | +0% | 2,978 |
 | 620 | A149 descent 90: the library carried out (N3) | Phaedra | 0.5 | 2,945 | 33 | 0 | +0% | 2,978 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 623 | A150 Order contracts: Ilaria (Brennus), Livia Sabella (Vettius) | Vettius | 1 | 0 | 9 | 0 | +5% | 9 |
+| 623 | A150 Order contracts: Ilaria (Brennus), Livia Sabella (Vettius) | Brennus | 1 | 0 | 9 | 0 | +5% | 9 |
+| 623 | A150 Order contracts: Ilaria (Brennus), Livia Sabella (Vettius) | Phaedra | 0.5 | 0 | 4 | 0 | +0% | 4 |
+| 623 | A150 Order contracts: Ilaria (Brennus), Livia Sabella (Vettius) | Neris | 1 | 0 | 9 | 0 | +0% | 9 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Vettius | 1 | 0 | 33 | 0 | +5% | 35 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Brennus | 1 | 0 | 33 | 0 | +5% | 35 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Phaedra | 0.5 | 0 | 17 | 0 | +0% | 17 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Neris | 1 | 0 | 33 | 0 | +0% | 33 |
+| 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Lucilla | 1 | 0 | 33 | 0 | +10% | 36 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4983,3 +4997,54 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 620 |  | treasure share |  |  |  |  |
 | 620 |  | treasure share |  |  |  |  |
 | 620 |  | treasure share |  |  |  |  |
+| 623 | the Grey Sisters | vault fee, days 623-652 |  |  | 10gp | lucilla |
+| 623 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 623 |  | treasure share |  |  |  |  |
+| 623 |  | treasure share |  |  |  |  |
+| 623 |  | treasure share |  |  |  |  |
+| 623 |  | treasure share |  |  |  |  |
+| 624 | the reward | his share of L897 (a reward after the payout) |  | 428gp 5sp 7cp |  | vettius |
+| 624 | the reward | his share of L897 (a reward after the payout) |  | 428gp 5sp 7cp |  | brennus |
+| 624 | the reward | his share of L897 (a reward after the payout) |  | 214gp 2sp 9cp |  | phaedra |
+| 624 | the reward | his share of L897 (a reward after the payout) |  | 428gp 5sp 7cp |  | neris |
+| 624 |  | treasure share |  |  |  |  |
+| 624 |  | treasure share |  |  |  |  |
+| 624 |  | treasure share |  |  |  |  |
+| 624 |  | treasure share |  |  |  |  |
+| 624 |  | treasure share |  |  |  |  |
+| 625 | brokers and criers | recruiting fee (a week's search) |  |  | 12gp | vettius |
+| 625 | brokers and criers | recruiting fee (a week's search) |  |  | 13gp | lucilla |
+| 625 | brokers and criers | recruiting fee (a week's search) |  |  | 10gp | neris |
+| 625 | brokers and criers | recruiting fee (a week's search) |  |  | 6gp | brennus |
+| 625 | brokers and criers | recruiting fee (a week's search) |  |  | 13gp | cotta |
+| 625 | brokers and criers | recruiting fee (a week's search) |  |  | 10gp | brennus |
+| 625 | the retinue | wages paid |  |  | 72gp | vettius |
+| 625 | the retinue | wages paid |  |  | 132gp | lucilla |
+| 625 | the retinue | wages paid |  |  | 120gp | lucilla |
+| 625 | the retinue | wages paid |  |  | 72gp | brennus |
+| 625 | the retinue | wages paid |  |  | 144gp | cotta |
+| 625 | the Heavy Infantry | a month's pay on signing (C36) |  |  | 72gp | vettius |
+| 625 | the Light Cavalry | a month's pay on signing (C38) |  |  | 120gp | lucilla |
+
+## The company purse (pooled day 624, Rulings S46)
+Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
+departed keep their balances as estates): the record of what each put in.
+
+```
+aelia: 54,516.27
+brennus: 116,897.68
+cotta: 35,732.29
+gnaeus: 14,655.54
+hrodvar: 32,206.41
+iulia: 69,260.56
+lucilla: 112,411.59
+marcellus: 31,808.86
+neris: 99,155.32
+phaedra: 49,960.76
+saturnin: 16.76
+tiberius-maro: 8,092.22
+varro: 31,072.45
+vestus-the-unlikely: 87,585.03
+vettius: 179,963.72
+sum 923,335.46; bank holds 921,335.46; unattributed [(1718, -2000.0, "Vestus' deposit: full identification of the bone-handled scroll L126 (2,000gp, t")]
+```

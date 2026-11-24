@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 45
+session: 46
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 620
-  time: 09:30
+    day: 625
+  time: 04:50
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -27,23 +27,22 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 10.424
+    encumbrance_st: 10.529
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 17
+    hp: 24
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 14.058
+    encumbrance_st: 14.842
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 19
-    hp_max: 19
+    hp: 18
+    hp_max: 18
     conditions: []
-    spells_used:
-    - Fan of Flames
+    spells_used: []
     encumbrance_st: 4.981
   - name: Neris
     sheet: Characters/neris.json
@@ -53,20 +52,18 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Smite Undead
-    - Cure Disease
-    encumbrance_st: 6.531
+    spells_used: []
+    encumbrance_st: 6.961
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 30
+    hp: 35
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 13.064
+    encumbrance_st: 13.916
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -83,9 +80,8 @@ public:
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 8.939
+    spells_used: []
+    encumbrance_st: 9.164
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
@@ -93,7 +89,7 @@ public:
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.493
+    encumbrance_st: 8.836
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
@@ -104,7 +100,7 @@ public:
     encumbrance_st: 11.727
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Vettius: food 6 d, water 3 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 3 d; Cotta: food 6 d, water 2.8 d; Brennus: food 6 d, water 3.4 d; Neris: food 6 d, water 3.2 d; Aelia: food 6 d, water 3 d; Phaedra: food 6 d, water 3 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 6 d, water 3 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 3 d; Cotta: food 6 d, water 2.8 d; Brennus: food 6 d, water 3.4 d; Neris: food 6 d, water 3.2 d; Aelia: food 6 d, water 3 d; Phaedra: food 6 d, water 3 d; Tiberius Maro: food 6 d, water 3.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Great Teacher is dead (day 614, the drowned cellar under the Citadel): his hilt, his grey silk suit, three strange syringes, his robe and jewelled belt are ours, and his little device (empty: it runs on orange crystals)'
@@ -141,7 +137,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 620
+clock_day: 625
 ---
 # Campaign State
 

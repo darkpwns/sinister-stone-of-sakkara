@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 3
 tags:
   - sakkara/secret
+actor: "kleon-pharsalos"
 ---
 # Kleon Pharsalos (Order contract, Brennus, S45; Judge only)
 
