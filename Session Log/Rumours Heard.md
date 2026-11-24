@@ -37,3 +37,5 @@ type: rumours
 - Day 541 (Lucilla's rumormongering, Cyfaraun, month 19): the Tower's masters are asking who killed the apprentice Faustus Cerco; his landlady saw a cloaked man on the roof-tiles.
 - Day 541 (Lucilla's rumormongering): the Imperial Vanguard means to go down after the white apes' caves next week.
 - Day 541 (Lucilla's rumormongering): the wine-factor Gaius Sertorius Macro has hired two Jutland bravos to watch the Citadel's north door.
+- Day 811 (Bassus' runner, Cyfaraun, week of 806): the Jutland company the Gilded Ram's owner hired has turned off the Imperial road toward the southern fords.
+- Day 815 (Thana's rider, Cyfaraun): Pullus' old lieutenant has made himself boss of the street while the boss is away; the take has stopped; Bassus holds the Pony; the strongbox is in the Grey Sisters' vault.

@@ -2,7 +2,7 @@
 type: session
 session: 52
 date_real: 2026-11-24
-date_game: day 803-
+date_game: day 803-817
 location: Türos Aster and the fort (25.19, 26.19)
 tags:
   - sakkara/session
@@ -43,6 +43,7 @@ laborers are walling the breach. The barony's first month closes on day 810.
 - The stone sisters are dead; their cave is empty. The ring of stone men still stands.
 
 ## Next time
+Day 818, dawn: the ride north to Cyfaraun (nine; Tiberius holds the fort). The street to take back from Pullus' old lieutenant; the Jutlanders went the same way. The cache in the north-east waits.
 
 > [!judge]- Judge rolls
 > Week of 813: wharf 3, Watch 3, hesitant 2, spies +1, secret 2 (true: the strongbox to the vault), double agents 6.

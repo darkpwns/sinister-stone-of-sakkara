@@ -5666,6 +5666,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 811 | the works (the fort's upkeep) | maintenance, month 27 (1gp a family; RR Paying Expenses) |  |  | 7gp | brennus |
 | 811 | the Lady's shrine in the fort (Neris) | tithes, month 27 (1gp a family; RR Paying Expenses; Rulings S52) |  |  | 7gp | brennus |
 | 811 | the Ford's farms (seed, oxen, cottages) | agricultural investment, month 28: 1,000gp, Brennus overseeing (days 811-812): 1d10+1 families at the month's end (RR Attracting Peasants; Rulings S52) |  |  | 1,000gp | brennus |
+| 817 | the retinue | wages paid |  |  | 800gp | vettius |
+| 817 | the retinue | wages paid |  |  | 800gp | vettius |
+| 817 | the retinue | wages paid |  |  | 144gp | vettius |
+| 817 | the retinue | wages paid |  |  | 48gp | vettius |
+| 817 | the retinue | wages paid |  |  | 3,200gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 100gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 192gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 240gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 84gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 60gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 64gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 180gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 800gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 2,250gp | lucilla |
+| 817 | the retinue | wages paid |  |  | 126gp | brennus |
+| 817 | the retinue | wages paid |  |  | 36gp | brennus |
+| 817 | the retinue | wages paid |  |  | 288gp | cotta |
+| 817 | the retinue | wages paid |  |  | 108gp | cotta |
+| 817 | the Legate's quartermaster, Türos Aster | 1,380 man-weeks of army rations at 3gp (Rulings S48) for the engineer, masons and 225 laborers, days 837-878 |  |  | 4,140gp | lucilla |
+| 817 | the Legate's quartermaster, Türos Aster | 355 man-weeks of army rations at 3gp (Rulings S48) for the 62 soldiers in the fort, days 839-878 |  |  | 1,065gp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

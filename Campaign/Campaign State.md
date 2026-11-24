@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 16.305
+    encumbrance_st: 16.298
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -35,7 +35,7 @@ public:
     hp_max: 34
     conditions: []
     spells_used: []
-    encumbrance_st: 9.837
+    encumbrance_st: 9.833
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -53,7 +53,6 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used:
-    - Slumber
     - Discern Evil
     encumbrance_st: 16.148
   - name: Brennus
@@ -65,7 +64,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 14.407
+    encumbrance_st: 14.245
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -81,7 +80,7 @@ public:
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 8.866
+    encumbrance_st: 8.67
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
@@ -113,13 +112,14 @@ public:
   rations: 'Cotta: food 0 d, water 0.8 d; Brennus: food 0 d, water 1.4 d; Vettius: food 0 d, water 0 d; Lucilla: food 0 d, water 1 d; Neris: food 0 d, water 0 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 0 d; Ennia Ursa: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Tiberius Maro: food 0 d, water 1.2 d'
   tracker: {}
   threads:
-  - 'The Barony of the Ford: Brennus a patrician baron since day 778; seven families in the ford meadows; the engineer, the masons and 225 laborers walling the breach and raising the south gate tower (a season''s work); Tiberius and the soldiers hold the fort'
-  - 'The stone sisters'' cave in the forest east (the elves: snake-haired women who turn men to stone; do not look at them): three mirrors and a mirror shield bought'
-  - Three dark shapes at dusk in the forest east that chilled the air; brigands passed south
+  - 'The Barony of the Ford: Brennus a patrician baron since day 778; eight families in the ford meadows, loyal; a thousand gold in the farms this month; the engineer, the masons and 225 laborers walling the breach and raising the south gate tower (a season''s work); Tiberius and the soldiers hold the fort'
+  - 'The Family: Pullus'' old lieutenant has made himself boss of the street while Vettius is away; the take has stopped; Bassus holds the Pony; the strongbox is in the Grey Sisters'' vault'
+  - Sigvald Ironbrow's Jutland company (forty, hired by the Gilded Ram's owner) asked for service at the ford with murder in its captain's heart; refused, it marched back north
+  - Thana is with child (Vettius') and wants him home before it comes
   - The standing stones by the river point thirty miles north-east at something
-  - Two doses of dragon's blood to sell (quietly)
-  - Thana is with child and wants the boss home; the Family holds; a Tower mage bought a map of the southern fords
-  - The workshop in the Pony's back house waits; the Regent no longer asks for it
+  - Three dark shapes at dusk in the forest east that chilled the air; seven great beetles in a hollow there
+  - Two doses of dragon's blood and the medusae's eyes and tongues to sell (quietly); Lucilla's caravan returns wait in Cyfaraun; more laborers would speed the works
+  - A Tower mage bought a map of the southern fords
   trail:
   - '20.08'
   - '21.09'
