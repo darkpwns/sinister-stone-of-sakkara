@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 1
 tags:
   - sakkara/secret
+actor: "gnaeus-sabucius"
 ---
 # Gnaeus Sabucius (Order contract, Vestus, S39; Judge only)
 

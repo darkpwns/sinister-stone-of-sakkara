@@ -679,6 +679,15 @@ tags:
 | 578 | Descent 81 (the white apes' caves, M) | 3 tumbaga ingots | 900 | sold |
 | 578 | Descent 81 (the white apes' caves, M) | 3 tumbaga ingots | 900 | sold |
 | 578 | Descent 81 (the white apes' caves, M) | 2 tumbaga ingots | 600 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 4 tumbaga ingots | 1,200 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 4 tumbaga ingots | 1,200 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 4 tumbaga ingots | 1,200 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 10 pieces of elephant ivory | 500 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 10 pieces of elephant ivory | 500 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 10 pieces of elephant ivory | 500 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 3 wyvern horns | 240 | sold |
+| 579 | Descent 82 (Nargund's vault, the second load) | 3 wyvern horns | 240 | sold |
+| 581 | Order contract: Gnaeus Sabucius (Vestus) | reward 500.0gp | 500 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -879,6 +888,7 @@ tags:
 | 578 | Descent 81 (the white apes' caves, M) | Cave Gorilla | 6 | 80 | 480 |
 | 578 | Descent 81 (the white apes' caves, M) | Great White Ape (SOTN) | 1 | 320 | 320 |
 | 578 | Descent 81 (the white apes' caves, M) | Giant Fly | 3 | 29 | 87 |
+| 581 | Order contract: Gnaeus Sabucius (Vestus) | Gnaeus Sabucius | 1 | 10 | 10 |
 
 ## Shares and XP awarded
 
@@ -1782,6 +1792,17 @@ tags:
 | 578 | Descent 81 (the white apes' caves, M) | Aelia | 0.5 | 1,017 | 95 | 0 | +0% | 1,112 |
 | 578 | Descent 81 (the white apes' caves, M) | Phaedra | 0.5 | 1,017 | 95 | 0 | +0% | 1,112 |
 | 578 | Descent 81 (the white apes' caves, M) | Tiberius Maro | 0.5 | 1,017 | 95 | 0 | +0% | 1,112 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 579 | Descent 82 (Nargund's vault, the second load) | Lucilla | 1 | 797 | 0 | 0 | +10% | 877 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Vettius | 1 | 797 | 0 | 0 | +5% | 837 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Brennus | 1 | 797 | 0 | 0 | +5% | 837 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Vestus the Unlikely | 1 | 797 | 0 | 0 | +5% | 837 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Neris | 1 | 797 | 0 | 0 | +0% | 797 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Cotta | 1 | 797 | 0 | 0 | +0% | 797 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Aelia | 0.5 | 399 | 0 | 0 | +0% | 399 |
+| 579 | Descent 82 (Nargund's vault, the second load) | Tiberius Maro | 0.5 | 399 | 0 | 0 | +0% | 399 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 581 | Order contract: Gnaeus Sabucius (Vestus) | Vettius | 1 | 167 | 3 | 0 | +5% | 178 |
+| 581 | Order contract: Gnaeus Sabucius (Vestus) | Vestus the Unlikely | 1 | 167 | 3 | 0 | +5% | 178 |
+| 581 | Order contract: Gnaeus Sabucius (Vestus) | Neris | 1 | 167 | 3 | 0 | +0% | 170 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4647,3 +4668,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 578 |  | treasure share |  | 973gp 3sp 3cp |  | phaedra |
 | 578 |  | treasure share |  | 973gp 3sp 3cp |  | tiberius-maro |
 | 578 | the Solar Citadel | Repair Disfigurement and Disability for Phaedra by Patriarch Arëtar (Rulings S12), day 578 |  |  | 185gp | vettius |
+| 579 |  | treasure share |  | 797gp 1sp 4cp |  | lucilla |
+| 579 |  | treasure share |  | 797gp 1sp 4cp |  | vettius |
+| 579 |  | treasure share |  | 797gp 1sp 4cp |  | brennus |
+| 579 |  | treasure share |  | 797gp 1sp 4cp |  | vestus-the-unlikely |
+| 579 |  | treasure share |  | 797gp 1sp 4cp |  | neris |
+| 579 |  | treasure share |  | 797gp 1sp 4cp |  | cotta |
+| 579 |  | treasure share |  | 398gp 5sp 7cp |  | aelia |
+| 579 |  | treasure share |  | 398gp 5sp 7cp |  | tiberius-maro |
+| 581 |  | treasure share |  | 166gp 6sp 7cp |  | vettius |
+| 581 |  | treasure share |  | 166gp 6sp 7cp |  | vestus-the-unlikely |
+| 581 |  | treasure share |  | 166gp 6sp 7cp |  | neris |
