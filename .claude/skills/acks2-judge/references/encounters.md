@@ -32,7 +32,9 @@ present), `--group-surprise` (party by group, average bonus), `--each` (each mon
 (actor `avoid_surprise`, `surprise` penalties, deafened/blinded applied); monster rolls hidden. Both sides none: no
 encounter. A monster note's penalty to others' surprise (a gelatinous mass's "Translucent: others -2", an orc band's
 "Hunters"; engine 7.14.0) comes back as a JUDGE line with the verdicts the same dice give under it: if it applies
-here, `encounter surprise --apply-note-penalty` records them. Never roll surprise again for it.
+here, `encounter surprise --apply-note-penalty` records them. Never roll surprise again for it. A monster's own
+"+N to avoid surprise" (engine 7.18.17) is applied from its note; when the note makes it conditional ("in natural
+habitat", "at home"), the command refuses before rolling: give `--monster-bonus N` (it applies) or `--monster-bonus 0`.
 
 ## 3. Evasion
 `acks.sh evade`: refused in a dungeon (the party can still flee in combat: `round-start --declare <id>:retreat`). In
