@@ -70,7 +70,9 @@ the tools repo's `engine/COVERAGE.md` (Stage 3).
   calamity: loyalty −1 and a hidden loyalty roll, applied by the engine. Away from civilization the rule is the same.
 
 ## Loyalty, obedience, morale
-- Calamities: `acks.sh loyalty <MID> --trigger calamity --why "curse"`; a level gained: `--trigger level --to-level N`;
+- Calamities: `acks.sh loyalty <MID> --trigger calamity --why "curse"`; a level gained: `level-up --member <MID>` and
+  `advance-0th --member <MID>` roll the level's loyalty roll themselves (hidden, with the retinue state; never roll
+  `loyalty --trigger level` after them: that is a second roll); a level gained any other way: `--trigger level --to-level N`;
   a henchman who thinks himself above his employer: `--trigger outclassed --levels N`; permanent wounds:
   `--event wound-grievous` (and `--cured` later). After a fight: `acks.sh loyalty --pending` rolls the 0-hp calamities the
   round end queued. Hostility or Resignation: he leaves (narrate it; move his actor to `Characters/former/`).
