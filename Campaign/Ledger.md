@@ -696,6 +696,8 @@ tags:
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 5 wyvern horns | 400 | sold |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 4 wyvern horns | 320 | sold |
 | 593 | Order contract: Theron Askalaios (Vestus) | reward 1000.0gp | 1,000 | vestus-the-unlikely |
+| 606 | Order contract: Marcus Galeo (Brennus) | reward 1500.0gp | 1,500 | brennus |
+| 609 | Order contract: Lucius Caper (Vettius) | reward 2000.0gp | 2,000 | vettius |
 
 ## Monster XP
 
@@ -899,6 +901,8 @@ tags:
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | Gnaeus Sabucius | 1 | 10 | 10 |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Gelatinous Mass | 1 | 245 | 245 |
 | 593 | Order contract: Theron Askalaios (Vestus) | Theron Askalaios | 1 | 20 | 20 |
+| 606 | Order contract: Marcus Galeo (Brennus) | Marcus Galeo | 1 | 50 | 50 |
+| 609 | Order contract: Lucius Caper (Vettius) | Lucius Caper | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -1824,6 +1828,22 @@ tags:
 | 593 | Order contract: Theron Askalaios (Vestus) | Vettius | 1 | 333 | 7 | 0 | +5% | 357 |
 | 593 | Order contract: Theron Askalaios (Vestus) | Vestus the Unlikely | 1 | 333 | 7 | 0 | +5% | 357 |
 | 593 | Order contract: Theron Askalaios (Vestus) | Neris | 1 | 333 | 7 | 0 | +0% | 340 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 606 | Order contract: Marcus Galeo (Brennus) | Brennus | 1 | 429 | 14 | 0 | +5% | 465 |
+| 606 | Order contract: Marcus Galeo (Brennus) | Vettius | 1 | 429 | 14 | 0 | +5% | 465 |
+| 606 | Order contract: Marcus Galeo (Brennus) | Neris | 1 | 429 | 14 | 0 | +0% | 443 |
+| 606 | Order contract: Marcus Galeo (Brennus) | Phaedra | 0.5 | 214 | 7 | 0 | +0% | 221 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Lucilla | 1 | 0 | 0 | 0 | +10% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Vettius | 1 | 0 | 0 | 0 | +5% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Brennus | 1 | 0 | 0 | 0 | +5% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Vestus the Unlikely | 1 | 0 | 0 | 0 | +5% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Neris | 1 | 0 | 0 | 0 | +0% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Cotta | 1 | 0 | 0 | 0 | +0% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Aelia | 0.5 | 0 | 0 | 0 | +0% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Phaedra | 0.5 | 0 | 0 | 0 | +0% | 0 |
+| 606 | Descent 84 (the slimy tunnel; the magic rock) | Tiberius Maro | 0.5 | 0 | 0 | 0 | +0% | 0 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 609 | Order contract: Lucius Caper (Vettius) | Vettius | 1 | 800 | 32 | 0 | +5% | 874 |
+| 609 | Order contract: Lucius Caper (Vettius) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 |
+| 609 | Order contract: Lucius Caper (Vettius) | Neris | 1 | 800 | 32 | 0 | +0% | 832 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4751,3 +4771,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 602 | Tertulla | the black barge's mooring, a fortnight ahead (to day 615) |  |  | 4gp | lucilla |
 | 602 | the Order of the Eclipse (Destrio) | Judge's correction S42 (user's clarification): Pullus was not killed, so no blood-price was asked: the 2,500gp of day 598 reversed |  | 2,500gp |  | vettius |
 | 602 | the syndicate | Judge's correction S42: month 20's take was 18,132gp, not 18,123 (no purge deaths: +3 for the three 0th-level men, +5 for Pullus, +1 for the day-554 turncoat) |  | 9gp |  | vettius |
+| 606 |  | treasure share |  | 428gp 5sp 7cp |  | brennus |
+| 606 |  | treasure share |  | 428gp 5sp 7cp |  | vettius |
+| 606 |  | treasure share |  | 428gp 5sp 7cp |  | neris |
+| 606 |  | treasure share |  | 214gp 2sp 9cp |  | phaedra |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 606 |  | treasure share |  |  |  |  |
+| 609 |  | treasure share |  | 800gp |  | vettius |
+| 609 |  | treasure share |  | 400gp |  | phaedra |
+| 609 |  | treasure share |  | 800gp |  | neris |

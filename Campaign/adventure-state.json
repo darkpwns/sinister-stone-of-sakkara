@@ -1,31 +1,16 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 139,
-  "L": 858,
+  "A": 141,
+  "L": 860,
   "H": 137,
-  "M": 262
+  "M": 263
  },
  "adventure": {
-  "id": "A139",
-  "name": "Order contract: Marcus Galeo (Brennus)",
-  "start_day": 604,
+  "id": "A141",
+  "name": "Order contract: Lucius Caper (Vettius)",
+  "start_day": 608,
   "participants": {
-   "brennus": {
-    "id": "brennus",
-    "name": "Brennus",
-    "actor": "brennus",
-    "kind": "pc",
-    "player": "Kwame",
-    "status": "alive",
-    "body": null,
-    "returned": false,
-    "retinue_id": null,
-    "xp_before": 161203,
-    "level_before": 8,
-    "class": "Fighter",
-    "joined_day": 604
-   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -34,27 +19,14 @@
     "player": "Tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 224863,
+    "xp_before": 225328,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 604
-   },
-   "neris": {
-    "id": "neris",
-    "name": "Neris",
-    "actor": "neris",
-    "kind": "pc",
-    "player": "Ingrid",
-    "status": "alive",
-    "body": null,
-    "returned": false,
-    "retinue_id": null,
-    "xp_before": 150761,
-    "level_before": 8,
-    "class": "Priestess",
-    "joined_day": 604
+    "joined_day": 608,
+    "returned_day": 609,
+    "xp_award": 874
    },
    "phaedra": {
     "id": "phaedra",
@@ -64,34 +36,100 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 63879,
+    "xp_before": 64100,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 604
+    "joined_day": 608,
+    "returned_day": 609,
+    "xp_award": 416
+   },
+   "neris": {
+    "id": "neris",
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "player": "Ingrid",
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 151204,
+    "level_before": 8,
+    "class": "Priestess",
+    "joined_day": 608,
+    "returned_day": 609,
+    "xp_award": 832
    }
   },
   "monsters": [
    {
-    "id": "M262",
-    "monster": "Marcus Galeo",
-    "source": "Marcus Galeo",
+    "id": "M263",
+    "monster": "Lucius Caper",
+    "source": "Lucius Caper",
     "number": 1,
     "how": "killed",
-    "xp_each": 50,
+    "xp_each": 80,
     "fight": {
      "ids": [
-      "marcus-galeo"
+      "lucius-caper"
      ],
-     "text": "the fight with Marcus Galeo, 2 Bandit, round 0"
+     "text": "the fight with Lucius Caper, round 2"
     }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 609,
+   "at": "Cyfaraun",
+   "total": 2080.0,
+   "per_share": 832.0,
+   "awards": {
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 832,
+     "pct": 5,
+     "pen": 0,
+     "award": 874,
+     "xp_before": 225328,
+     "xp_after": 226202,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 416,
+     "pct": 0,
+     "pen": 0,
+     "award": 416,
+     "xp_before": 64100,
+     "xp_after": 64516,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 832,
+     "pct": 0,
+     "pen": 0,
+     "award": 832,
+     "xp_before": 151204,
+     "xp_after": 152036,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 609,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -41433,6 +41471,444 @@
     "day": 593,
     "where": "Cyfaraun"
    }
+  },
+  {
+   "id": "A139",
+   "name": "Order contract: Marcus Galeo (Brennus)",
+   "start_day": 604,
+   "participants": {
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": "Kwame",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 161203,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 604,
+     "returned_day": 606,
+     "xp_award": 465
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": "Tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 224863,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 604,
+     "returned_day": 606,
+     "xp_award": 465
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": "Ingrid",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 150761,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 604,
+     "returned_day": 606,
+     "xp_award": 443
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 63879,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 604,
+     "returned_day": 606,
+     "xp_award": 221
+    }
+   },
+   "monsters": [
+    {
+     "id": "M262",
+     "monster": "Marcus Galeo",
+     "source": "Marcus Galeo",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 50,
+     "fight": {
+      "ids": [
+       "marcus-galeo"
+      ],
+      "text": "the fight with Marcus Galeo, 2 Bandit, round 0"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 606,
+    "at": "Cyfaraun",
+    "total": 1550.0,
+    "per_share": 442.85714285714283,
+    "awards": {
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 443,
+      "pct": 5,
+      "pen": 0,
+      "award": 465,
+      "xp_before": 161203,
+      "xp_after": 161668,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 443,
+      "pct": 5,
+      "pen": 0,
+      "award": 465,
+      "xp_before": 224863,
+      "xp_after": 225328,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 443,
+      "pct": 0,
+      "pen": 0,
+      "award": 443,
+      "xp_before": 150761,
+      "xp_after": 151204,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 221,
+      "pct": 0,
+      "pen": 0,
+      "award": 221,
+      "xp_before": 63879,
+      "xp_after": 64100,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 606,
+    "where": "Cyfaraun"
+   }
+  },
+  {
+   "id": "A140",
+   "name": "Descent 84 (the slimy tunnel; the magic rock)",
+   "start_day": 606,
+   "participants": {
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": "Rosa",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 193279,
+     "level_before": 8,
+     "class": "Venturer",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": "Tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 225328,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": "Kwame",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 161668,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": "Priya",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 145918,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": "Ingrid",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 151204,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "cotta": {
+     "id": "cotta",
+     "name": "Cotta",
+     "actor": "cotta",
+     "kind": "pc",
+     "player": "Gideon",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 46175,
+     "level_before": 6,
+     "class": "Explorer",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "aelia": {
+     "id": "aelia",
+     "name": "Aelia",
+     "actor": "aelia",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 67749,
+     "level_before": 7,
+     "class": "Bard",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 64100,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    },
+    "tiberius-maro": {
+     "id": "tiberius-maro",
+     "name": "Tiberius Maro",
+     "actor": "tiberius-maro",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 9605,
+     "level_before": 4,
+     "class": "Crusader",
+     "joined_day": 606,
+     "returned_day": 606,
+     "xp_award": 0
+    }
+   },
+   "monsters": [],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 606,
+    "at": "Cyfaraun",
+    "total": 0.0,
+    "per_share": 0.0,
+    "awards": {
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 10,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 193279,
+      "xp_after": 193279,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 225328,
+      "xp_after": 225328,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 161668,
+      "xp_after": 161668,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 5,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 145918,
+      "xp_after": 145918,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 151204,
+      "xp_after": 151204,
+      "capped": null,
+      "zero": false
+     },
+     "cotta": {
+      "share": 1.0,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 46175,
+      "xp_after": 46175,
+      "capped": null,
+      "zero": false
+     },
+     "aelia": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 67749,
+      "xp_after": 67749,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 64100,
+      "xp_after": 64100,
+      "capped": null,
+      "zero": false
+     },
+     "tiberius-maro": {
+      "share": 0.5,
+      "why": null,
+      "base": 0,
+      "pct": 0,
+      "pen": 0,
+      "award": 0,
+      "xp_before": 9605,
+      "xp_after": 9605,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 606,
+    "where": "Cyfaraun"
+   }
   }
  ],
  "lots": {
@@ -79657,6 +80133,72 @@
    "sold": null,
    "judge": [],
    "divided_day": 593
+  },
+  "L859": {
+   "id": "L859",
+   "adventure": "A139",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "brennus",
+   "status": "divided",
+   "found": {
+    "day": 606,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0,
+    "name": "reward 1500.0gp"
+   },
+   "player": {
+    "desc": "reward of 1500.0gp",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 606
+  },
+  "L860": {
+   "id": "L860",
+   "adventure": "A141",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "vettius",
+   "status": "divided",
+   "found": {
+    "day": 609,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0,
+    "name": "reward 2000.0gp"
+   },
+   "player": {
+    "desc": "reward of 2000.0gp",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 609
   }
  },
  "hoards": {
