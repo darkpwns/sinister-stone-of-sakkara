@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 4
 tags:
   - sakkara/secret
+actor: "thalassa-of-the-reeds"
 ---
 # Thalassa of the Reeds (Order contract, Vettius, S44; Judge only)
 

@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 3
 tags:
   - sakkara/secret
+actor: "mother-corvina"
 ---
 # Mother Corvina (Order contract, Neris, S44; Judge only)
 

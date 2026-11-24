@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 2
 tags:
   - sakkara/secret
+actor: "ilaria-the-herb-seller"
 ---
 # Ilaria the Herb-seller (Order contract, Brennus, S44; Judge only)
 

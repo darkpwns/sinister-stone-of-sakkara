@@ -714,6 +714,22 @@ tags:
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | 3,000 gold pieces | 3,000 | brennus |
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | five terracotta canopic jars | 125 | tiberius-maro |
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | six large red-figure terracotta urns | 120 | lucilla |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | eight jars of alchemical formulae in Ancient Argollëan (potions of beast and dragon control, gaseous form, growth, human and plant control, polymorph, undead control) | 8,000 | vestus-the-unlikely |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | thirteen jars of arcane scrolls in Ancient Argollëan (nineteen scrolls) | 2,850 | phaedra |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | the iridescent alloy stripped from the apparatus' four hemispheres | 20,000 | brennus |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | fourteen copper flasks of potions, oils and poisons, and the ogre-spider study | 4,500 | neris |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | the embalmers' goods: bronze hooks, canopic jars, natron, urns of charms | 0 (left (not brought back)) | left |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | the embalmers' bronze hooks and canopic jars | 1,500 | vestus-the-unlikely |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | the embalmers' vials of blue natron | 900 | cotta |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | the embalmers' urns of sacred charms | 890 | neris |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 10 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 1,471 | vettius |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 12 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 1,765 | aelia |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 8 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 1,176 | phaedra |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 8 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 1,176 | vestus-the-unlikely |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 8 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 1,176 | cotta |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 6 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 882 | neris |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 4 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 588 | lucilla |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | 4 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 588 | brennus |
 
 ## Monster XP
 
@@ -1902,6 +1918,15 @@ tags:
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | Aelia | 0.5 | 216 | 100 | 0 | +0% | 316 |
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | Tiberius Maro | 0.5 | 216 | 100 | 0 | +0% | 316 |
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | Phaedra | 0.5 | 216 | 100 | 0 | +0% | 316 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Vettius | 1 | 6,328 | 0 | 0 | +5% | 6,644 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Vestus the Unlikely | 1 | 6,328 | 0 | 0 | +5% | 6,644 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Lucilla | 1 | 6,328 | 0 | 0 | +10% | 6,961 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Cotta | 1 | 6,328 | 0 | 0 | +0% | 6,328 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Brennus | 1 | 6,328 | 0 | 0 | +5% | 6,644 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Neris | 1 | 6,328 | 0 | 0 | +0% | 6,328 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Aelia | 0.5 | 3,164 | 0 | 0 | +0% | 3,164 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Tiberius Maro | 0.5 | 3,164 | 0 | 0 | +0% | 3,164 |
+| 618 | A146 descent 88: the alchemists' laboratory (N) | Phaedra | 0.5 | 3,164 | 0 | 0 | +0% | 3,164 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4887,3 +4912,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 616 |  | treasure share |  | 200gp |  | aelia |
 | 616 |  | treasure share |  | 200gp |  | tiberius-maro |
 | 616 |  | treasure share |  | 200gp |  | phaedra |
+| 617 | the retinue | wages paid |  |  | 200gp | vettius |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |
+| 618 |  | treasure share |  |  |  |  |

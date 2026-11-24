@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 2
 tags:
   - sakkara/secret
+actor: "sextus-rubrius"
 ---
 # Sextus Rubrius (Order contract, Lucilla, S44; Judge only)
 
