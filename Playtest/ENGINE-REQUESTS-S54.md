@@ -1,0 +1,109 @@
+# Engine and tool requests from the Sakkara playtest (S47-S54)
+
+Work in `darkpwns/acks2-tools` (the engine, `acks`) and in the Judge skill's scripts in `darkpwns/sinister-stone-of-sakkara`
+(`.claude/skills/acks2-judge/scripts/`; keep `darkpwns/kardakia-campaign`'s copy of the skill in step). Branch:
+`ccr-6e7c0096-7nmfvu` in every repo. Evidence for each item: `Playtest/judge-notes.txt` (the Slip/Finding/Void lines of
+S47-S54) and `Campaign/roll-log.jsonl` in the Sakkara repo. Rules come from `darkpwns/acks2-rules-vault` (read-only):
+every number the engine applies must name its source as the engine already does; where the rules are silent, add a
+named reading or a campaign-ruling hook (`Campaign/engine-rulings.yaml`), never a silent default.
+
+For every change: a test in the engine's test suite; `engine/COVERAGE.md` and `HISTORY.md` updated; the version bumped
+(7.18.x); `acks check` passes; the skill's references (`references/*.md`) and `scripts/tests/test_scripts.py` updated
+where a command changes. Run the full test suites before each commit. Do not change campaign state files.
+
+## A. Bugs and refusals that cost time in play (fix first)
+1. **Hex classification 'wilderness'.** The hexes CSV uses `wilderness`; `travel`, `camp`, `search` and
+   `encounter start --wild` fail with "'wilderness' is not in list". Map it in the hex adapter (to `unsettled` by the
+   JJ territory table, or make the mapping a campaign setting in `campaign.yaml hexes`), and let a domain's hexes be
+   read as the domain's classification (`outlands` for the Barony of the Ford, 26.19) from campaign data.
+2. **Navigation on and beside roads.** A route that follows a road throws no Navigation; but a route that leaves the
+   road for one hex, and the first day out from a settlement, keep throwing and putting the party 'lost' onto the road
+   it knows. When a lost party enters a road hex, or any hex it has visited and named, it becomes aware and found by
+   itself (RR Navigation: a recognised landmark). `--familiar ID` (Pathfinding) must work with classification overrides.
+3. **`encounter start --wild --hex CC.RR:…`** applies the override to that hex but rolls on the travel hex's table.
+   Add `--at CC.RR` (roll on that hex's tables) and refuse an override for a hex that is neither the travel hex nor `--at`.
+4. **`recover --lots`** is 0-indexed and silent about it. Show each lot's index in `treasure`/`adventure show` output,
+   accept lot ids, and add `recover --undo L#` (returns the lot to its hoard, voiding the recover event).
+5. **`state set ID hd=N`** keeps the 1-HD hp rolled at `state add`; `perceived=` set later is not used in attack lines.
+   Add `state add … --hd N` (rolls hp for those Hit Dice) and make `state set hd=` offer `--reroll-hp`; attack lines
+   must use the current `perceived`.
+6. **`offer --count N`** above the candidates' count rolls the reaction, then fails without recording. Refuse before
+   any roll.
+7. **Spells used.** `rest-day --settlement` (and `wait` in a settlement over 8 night hours) does not clear actors'
+   `state.spells_used`; `camp` does. Clear it wherever restful sleep is recorded.
+8. **Water at the rollover.** Food is shared at the rollover, water is not: a member with no waterskins dehydrates while
+   others carry days of water (Neris, S53). Share water as food is shared (the same `--mode`), and refuse `travel` when
+   any member has less than a day of water and the route has no river or well that day (`ACKS_ACK` to override).
+9. **`supplies show ID --on ANIMAL`** blocks `inv stable` until undone with `--on none`; `inv stable` should unpack the
+   members' supplies onto the members (and dismount riders) by itself, saying so.
+10. **`schedule due --ahead`** lists items run early with `schedule run --day N` as still due on the current day.
+11. **`state end`** demands a damage type for every felled foe that took `state set hp` damage. Record the type when
+    damage comes from `damage --type` or the new area command (B1), and default to the weapon's type for attacks.
+12. **`retinue set`** takes no `--cause`; add it and write the change to the retinue history. A hireling group's count
+    lost to monsters (S54: three laborers) needs `retinue lose ID N --cause "…"`.
+13. **Dead animals.** `inv holder remove` refuses while the animal holds its tack; add `inv animal dies ID --cause …`
+    (load dropped at the site, riders dismounted, holder closed).
+14. **`roll`**: accept exploding dice (`1d10!`) for the population rolls, and colons in labels (quote-safe parsing).
+15. **`treasure --terrain`** accepts only the table's exact words (`grass`, not `grassland`): map the hex adapter's
+    terrains and aliases.
+16. **`wait` in a settlement** while fatigued counts as "still active" and worsens fatigue; a day of `wait` in town with
+    no strenuous activity should count as rest (or refuse `wait` past 12 hours and point to `rest-day`).
+17. Known from S47-S51, still open: round-end morale counts slumbering party members as felled; `encounter surprise`
+    omits a monster's own surprise bonus; leaders' weapon bonuses and Hit-Dice saves (MM leader tables) not modelled;
+    stale engagements from killed foes block charges; `level-up --member` rolls the henchman's level loyalty itself
+    (document it); `search` names a known site first; `encounter start --placed` rolls a lair check for a found lair.
+
+## B. New engine capability
+1. **Area spells: `acks area --spell "Fireball" --caster ID --targets A,B,… [--dice 8d6]`.** Rolls the damage once
+   (open), each target's save (hidden), skips the save where half the damage would still fell the target, applies
+   damage with its type and tier, and records the type for `state end`. Reads the spell's area, save and damage from
+   the vault note; `--count N` for "about N creatures in the area" with the Judge's screen §3 conventions; refuses a
+   party member in the area unless named with `--include`.
+2. **Group actions for large fights: `acks act GROUP --tactic shoot-nearest|close-and-attack|hold|flee|hack DOOR:N`**
+   and `acks round-auto --until party-down|judge|round-end`: steps `round-next` and, for each combatant, applies its
+   group's standing tactic (attack throws, moves within move-rate, engagement limits by frontage: `state frontage
+   PASSAGE 2`), stopping at any party member's own turn unless that member has a standing order, at a felled party
+   member, a JUDGE item, or a refusal. Party members get standing orders (`state order ID shoot-nearest --group G`).
+   This replaces the per-session drivers in `Playtest/tools/s54_*.py`.
+3. **Foes' spells.** Monster and NPC casters (shamans, witch doctors, cult priests, the draugr's spell-like powers)
+   need a spell list in the combat state (`state set ID spells="Command,Cause Light Injury x2"`) and `acks cast ID SPELL
+   --targets …` resolving the common spells (Slumber, Command, Halt Humanoids, Cause/Cure Injury, Holy Circle and its
+   reverse) by their vault notes.
+4. **Terrain encounters (JJ pp. 63-68): `acks terrain-encounter [--type T]`** for the dangerous, valuable and unique
+   types the engine already rolls: the sub-tables (cache with Treasure Type by Terrain, ruin structure and value,
+   trap and hazard as JJ trap levels with the marching-order trigger rolls and bypass hours plus the extra encounter
+   throw, challenge type and dimensions, poison type and doses with the identification and harvest throws, magical
+   place spell and frequency, magical resource value and weight, double), all hidden and logged, with the Judge's
+   choices as options.
+5. **Domains (RR Domains and Realms, Keeping the Peace, Experience from Domains): `acks domain init|month|show`.**
+   A domain record (hexes, classification, land value per hex, families, stronghold value and minimum, garrison,
+   ruler and magistrates, taxes, liturgies, tithes, morale base and current, investments, construction projects with
+   labor rates). `domain month` does revenue, expenses, domain income, personal authority, base and current morale
+   (the roll with its modifiers), effects of morale, population growth and loss (exploding), agricultural investment
+   families, prestige immigration (only when secure and the ruler adventured), domain XP above the threshold, and
+   construction progress, writing the coins through the inventory. The Sakkara rulings S51-S54 on the Barony of the
+   Ford are the test case (21 families at month 28's end).
+6. **Mounts' feed.** A catalog row for animal feed (RR Surviving the Wild: 2sp a stone), consumed at the rollover from
+   the animals' loads by their daily food (normal load / 10; grazers excepted unless force-marched), with the
+   underfed and starving conditions for animals; refuse `travel` when non-grazers carry no feed (override with ACKS_ACK).
+7. **Spoilage warning.** Standard rations carried in the wild spoil; print the days left at each rollover and warn a
+   day ahead.
+
+## C. Skill scripts (`.claude/skills/acks2-judge/scripts/`)
+1. **`play.py depart --route … --return-day N`**: the pre-march checklist as one command: wages through the return
+   plus a month (lists what to pay), food and water days per member, waterskins per member, feed per animal, mounts'
+   loads and the column's speed (which animal sets it), light, spells, the weekly and month-end items that fall on the
+   road. Refuses to report ready while any line fails.
+2. **`play.py march DAYS --route … [--hours-per-day N] [--watches …]`**: the S54 march helper as a supported command:
+   travel, evening wait, feed and water at the day's source, camp, with stops at any encounter (benign civilized and
+   herd encounters passed by after their reaction), lost status, CON loss, a missed wage, a due schedule item. Uses the
+   classification overrides from campaign data, never per call.
+3. **`play.py city-week`**: prints the six entries' template for the week's secrets, refuses the run until World State
+   holds them, runs the weekly block, and writes the results line into World State in the established format.
+4. **`play.py month-end`**: runs the month-end item and the domain month (B5), posts the bank fee, the Family's take
+   by Rulings S46 (full or half by Vettius' location; the usurpation roll when away), Lucilla's income and
+   investments, and writes the World State and Rulings lines.
+5. Fix `brief.py` to print only the parts the resume prompt names (it prints 1,000 lines now), and `handoff.py` to
+   list party members who are left behind (Tiberius at the fort was missing from S54's table).
+6. Escalated lessons in the handoff (wage-days, surprise-members, npc-rolls-hidden, driver-loop-stop): move each into
+   a refusal or a script per `references/memory.md`, so the ESCALATE lines clear.
