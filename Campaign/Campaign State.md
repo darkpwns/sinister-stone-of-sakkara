@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 46
+session: 47
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: winter
-    day: 635
-  time: '18:50'
+    day: 636
+  time: 07:50
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 16.746
+    encumbrance_st: 16.696
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -98,9 +98,17 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 10.775
+  - name: Ennia Ursa
+    sheet: Characters/ennia-ursa.json
+    role: henchman
+    hp: 4
+    hp_max: 4
+    conditions: []
+    spells_used: []
+    encumbrance_st: 11
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Vettius: food 0 d, water 0.4 d (hungry); Vestus the Unlikely: food 0 d, water 0.8 d (hungry); Lucilla: food 0 d, water 1 d (hungry); Cotta: food 0 d, water 0.8 d (hungry); Brennus: food 0 d, water 1.4 d (hungry); Neris: food 0 d, water 1.2 d (hungry, underfed); Aelia: food 0 d, water 1 d (hungry, underfed); Phaedra: food 0 d, water 1 d (hungry); Tiberius Maro: food 0 d, water 1.2 d (hungry, underfed); Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
+  rations: 'Vettius: food 0 d, water 0.4 d; Vestus the Unlikely: food 0 d, water 0.8 d; Lucilla: food 0 d, water 1 d; Cotta: food 0 d, water 0.8 d; Brennus: food 0 d, water 1.4 d; Neris: food 0 d, water 1.2 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Tiberius Maro: food 0 d, water 1.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Great Teacher is dead (day 614, the drowned cellar under the Citadel): his hilt, his grey silk suit, three strange syringes, his robe and jewelled belt are ours, and his little device (empty: it runs on orange crystals)'
@@ -137,7 +145,7 @@ public:
   - '18.05'
   - '18.06'
   - '18.05'
-clock_day: 635
+clock_day: 636
 ---
 # Campaign State
 

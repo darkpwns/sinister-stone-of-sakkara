@@ -599,6 +599,42 @@
    "level": null,
    "wage": "By race",
    "race": "human"
+  },
+  "Cyfaraun|henchman|2nd level|month 22": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "2nd level",
+   "table": "henchmen-availability",
+   "row": 2,
+   "total": 2,
+   "by_week": [
+    1,
+    1,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 2,
+   "wage": "50gp/month"
+  },
+  "Cyfaraun|henchman|1st level|month 22": {
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "kind": "henchman",
+   "type": "1st level",
+   "table": "henchmen-availability",
+   "row": 1,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [],
+   "candidates": [],
+   "level": 1,
+   "wage": "25gp/month"
   }
  },
  "candidates": {
@@ -3717,6 +3753,158 @@
    "accepted_by": "lucilla",
    "elan": false,
    "offer_wage": null
+  },
+  "C57": {
+   "id": "C57",
+   "kind": "henchman",
+   "level": 2,
+   "race": "human",
+   "name": "Silvanus",
+   "status": "refused",
+   "attempts": [
+    {
+     "employer": "vestus-the-unlikely",
+     "party": "party",
+     "total": 5,
+     "result": "Refuse",
+     "day": 636,
+     "wage": 50.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 9,
+     "mod": 0
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 6,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 8,
+     "mod": -1
+    },
+    "CON": {
+     "score": 8,
+     "mod": -1
+    },
+    "CHA": {
+     "score": 9,
+     "mod": 0
+    }
+   },
+   "class": "Explorer",
+   "hit_die": "1d6",
+   "hp_max": 6,
+   "attack_throw": 9,
+   "saves": {
+    "paralysis": 12,
+    "death": 13,
+    "blast": 14,
+    "implements": 15,
+    "spells": 16
+   },
+   "caster": false,
+   "morale": -1,
+   "ac": -1,
+   "wage_table": "50gp/month",
+   "search": "Cyfaraun|rarity|Explorer of level 2|22",
+   "wanted": "Explorer of level 2",
+   "market": "Cyfaraun",
+   "actor": "c57",
+   "morale_src": "as Bowmen",
+   "try_again": false
+  },
+  "C58": {
+   "id": "C58",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Ennia Ursa",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "vestus-the-unlikely",
+     "party": "party",
+     "total": 5,
+     "result": "Refuse",
+     "day": 636,
+     "wage": 25.0,
+     "signing": "month"
+    },
+    {
+     "employer": "lucilla",
+     "party": "party",
+     "total": 9,
+     "result": "Accept",
+     "day": 636,
+     "wage": 25.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 10,
+     "mod": 0
+    },
+    "INT": {
+     "score": 14,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 11,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 9,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 12,
+     "mod": 0
+    }
+   },
+   "class": "Explorer",
+   "hit_die": "1d6",
+   "hp_max": 4,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 17
+   },
+   "caster": false,
+   "morale": -1,
+   "ac": 0,
+   "wage_table": "25gp/month",
+   "search": "Cyfaraun|rarity|Explorer of level 1|22",
+   "wanted": "Explorer of level 1",
+   "market": "Cyfaraun",
+   "morale_src": "as Bowmen",
+   "actor": "ennia-ursa",
+   "try_again": false,
+   "accepted_by": "lucilla",
+   "elan": false,
+   "offer_wage": 25.0
   }
  },
  "members": {
@@ -6424,6 +6612,48 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "ennia-ursa": {
+   "id": "ennia-ursa",
+   "name": "Ennia Ursa",
+   "candidate": "C58",
+   "employer": "lucilla",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Explorer",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -1,
+   "morale_src": "as Bowmen",
+   "wage_gp": 25.0,
+   "wage_per": "month",
+   "hired_day": 636,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 636,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 636,
+     "event": "wages paid: 1 month(s), 25 gp"
+    }
+   ],
+   "actor": "ennia-ursa",
+   "market": "Cyfaraun",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
@@ -6437,7 +6667,7 @@
   }
  ],
  "events": [],
- "seq": 56,
+ "seq": 58,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
@@ -7081,6 +7311,38 @@
    "day": 523,
    "found": [
     "C35"
+   ]
+  },
+  "Cyfaraun|rarity|Explorer of level 3|22": {
+   "market": "Cyfaraun",
+   "what": "Explorer of level 3",
+   "month": 22,
+   "day": 636,
+   "found": []
+  },
+  "Cyfaraun|rarity|Explorer of level 4|22": {
+   "market": "Cyfaraun",
+   "what": "Explorer of level 4",
+   "month": 22,
+   "day": 636,
+   "found": []
+  },
+  "Cyfaraun|rarity|Explorer of level 2|22": {
+   "market": "Cyfaraun",
+   "what": "Explorer of level 2",
+   "month": 22,
+   "day": 636,
+   "found": [
+    "C57"
+   ]
+  },
+  "Cyfaraun|rarity|Explorer of level 1|22": {
+   "market": "Cyfaraun",
+   "what": "Explorer of level 1",
+   "month": 22,
+   "day": 636,
+   "found": [
+    "C58"
    ]
   }
  }

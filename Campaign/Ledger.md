@@ -5241,6 +5241,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 631 | the retinue | wages paid |  |  | 30gp | lucilla |
 | 631 | the mercenaries (M56) | a month's pay on signing |  |  | 60gp | lucilla |
 | 631 | the Cyfaraun wagon-makers, mule-dealers and grain merchants | the soldiers' baggage train: two wagons (2 x 200gp), eight mules (8 x 30gp), 220 man-weeks of iron rations (4gp each, Ledger price, less 160 for bulk) and fodder; two teamsters hired at 4gp a month (Rulings S46) |  |  | 1,320gp | lucilla |
+| 636 | the retinue | wages paid |  |  | 25gp | lucilla |
+| 636 | ennia-ursa | signing bonus, a month's wage |  |  | 25gp | lucilla |
+| 636 | Cyfaraun glass-blowers, joiners, smiths and instrument-makers | Vestus' personal workshop, 36,000gp (Rulings S47), from the company's purse |  |  | 36,000gp | guildhouse-bank |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

@@ -579,6 +579,18 @@
    "name": "Light Cavalry",
    "actor": null,
    "status": "active"
+  },
+  "ennia-ursa": {
+   "kind": "henchman",
+   "name": "Ennia Ursa",
+   "actor": "ennia-ursa",
+   "status": "active"
+  },
+  "vestus-workshop": {
+   "kind": "cache",
+   "name": "Vestus' workshop (the Silk Pony's back house)",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -794,6 +806,15 @@
    "items_each": 0,
    "stone_each": "1/100",
    "value_cp": 100000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "workshop apparatus (magic research)": {
+   "name": "Workshop apparatus (magic research)",
+   "items_each": 0,
+   "stone_each": "360",
+   "value_cp": 3600000,
    "base": null,
    "note": null,
    "judge": true
@@ -116173,6 +116194,651 @@
    "coins": [],
    "cmd": "inv give",
    "n": 5920
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -25
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2500,
+   "cmd": "inv wages",
+   "n": 5921
+  },
+  {
+   "op": "pay",
+   "cause": "signing bonus, a month's wage",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -25
+    }
+   ],
+   "to": "ennia-ursa",
+   "price_cp": 2500,
+   "cmd": "inv pay",
+   "n": 5922
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "#w78",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w78",
+     "key": "short bow",
+     "row": "Short Bow",
+     "table": "weapons-bows-crossbows",
+     "table_row": 5,
+     "type": "Missile",
+     "size": null,
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [],
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     }
+    }
+   ],
+   "n": 5923
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "chain mail armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5924
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "tunic and pants, crafter/freeholder",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5925
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "cloak, linen or wool, hooded",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5926
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "belt/sash, leather",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5927
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "boots, leather, low",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5928
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5929
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5930
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "#w79",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w79",
+     "key": "short sword",
+     "row": "Short Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 3,
+     "type": "Small Melee",
+     "size": "Small",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     }
+    }
+   ],
+   "n": 5931
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "#w80",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w80",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 5932
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "#w81",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w81",
+     "key": "net",
+     "row": "Net",
+     "table": "weapons-other-weapons",
+     "table_row": 3,
+     "type": "Medium Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": null,
+      "2h": null
+     },
+     "types": [],
+     "special": [
+      "Entangling",
+      "Thrown"
+     ],
+     "range": {
+      "short": 10,
+      "medium": 15,
+      "long": 20
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 3
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 3
+       }
+      }
+     }
+    }
+   ],
+   "n": 5933
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "herb, garlic (1 lb)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5934
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "herb, wolfsbane (1 lb)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5935
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "holy water (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5936
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "rope, 50'",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5937
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5938
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "tinderbox (flint & steel)",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5939
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "waterskin",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5940
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5941
+  },
+  {
+   "op": "pay",
+   "cause": "Vestus' personal workshop, 36,000gp (Rulings S47), from the company's purse",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -36000
+    }
+   ],
+   "to": "Cyfaraun glass-blowers, joiners, smiths and instrument-makers",
+   "price_cp": 3600000,
+   "cmd": "inv pay",
+   "n": 5942
+  },
+  {
+   "op": "add",
+   "cause": "fitted for Vestus (Rulings S47); ready day 650",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "vestus-workshop",
+     "item": "workshop apparatus (magic research)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5943
   }
  ],
  "holdings": {
@@ -117017,11 +117683,49 @@
     "waterskin": 8,
     "iron spike": 10
    }
+  },
+  "ennia-ursa": {
+   "belt": {
+    "#w78": 1,
+    "arrow": 20,
+    "#w79": 1,
+    "tinderbox (flint & steel)": 1,
+    "waterskin": 1
+   },
+   "armor": {
+    "chain mail armor": 1
+   },
+   "worn": {
+    "tunic and pants, crafter/freeholder": 1,
+    "cloak, linen or wool, hooded": 1,
+    "belt/sash, leather": 1,
+    "boots, leather, low": 1,
+    "backpack (holds 4 stone)": 1
+   },
+   "right_hand": {
+    "#w80": 1
+   },
+   "backpack": {
+    "#w81": 1,
+    "herb, garlic (1 lb)": 2,
+    "herb, wolfsbane (1 lb)": 2,
+    "holy water (1 pint)": 2,
+    "rope, 50'": 1,
+    "torch": 6
+   },
+   "back": {
+    "rations, iron (one week)": 1
+   }
+  },
+  "vestus-workshop": {
+   "here": {
+    "workshop apparatus (magic research)": 1
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 386,
+   "gp": 336,
    "sp": 270,
    "cp": 423
   },
@@ -117148,7 +117852,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 703581,
+   "gp": 667581,
    "cp": 6,
    "sp": 4
   },
@@ -121948,6 +122652,252 @@
      "catalog": {
       "table": "weapons-spears-polearms",
       "row": 4
+     }
+    }
+   }
+  },
+  "w78": {
+   "id": "w78",
+   "key": "short bow",
+   "row": "Short Bow",
+   "table": "weapons-bows-crossbows",
+   "table_row": 5,
+   "type": "Missile",
+   "size": null,
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [],
+   "range": {
+    "short": 75,
+    "medium": 150,
+    "long": 300
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   }
+  },
+  "w79": {
+   "id": "w79",
+   "key": "short sword",
+   "row": "Short Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 3,
+   "type": "Small Melee",
+   "size": "Small",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   }
+  },
+  "w80": {
+   "id": "w80",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w81": {
+   "id": "w81",
+   "key": "net",
+   "row": "Net",
+   "table": "weapons-other-weapons",
+   "table_row": 3,
+   "type": "Medium Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": null,
+    "2h": null
+   },
+   "types": [],
+   "special": [
+    "Entangling",
+    "Thrown"
+   ],
+   "range": {
+    "short": 10,
+    "medium": 15,
+    "long": 20
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 3
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 3
      }
     }
    }
