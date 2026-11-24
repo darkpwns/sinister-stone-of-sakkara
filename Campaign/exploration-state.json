@@ -1,9 +1,9 @@
 {
  "schema": "acks-exploration/3",
  "clock": {
-  "day": 614,
-  "round_of_day": 315,
-  "total_rounds": 882555
+  "day": 615,
+  "round_of_day": 401,
+  "total_rounds": 884081
  },
  "party": {
   "vettius": {
@@ -31,7 +31,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 1.0
+   "treasure_stone": 1.33
   },
   "cotta": {
    "id": "cotta",
@@ -40,7 +40,7 @@
    "perceived": "Cotta",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.67
+   "treasure_stone": 1.8366666666666667
   },
   "brennus": {
    "id": "brennus",
@@ -49,7 +49,7 @@
    "perceived": "Brennus",
    "conditions": [],
    "endurance": true,
-   "treasure_stone": 0.6666666666666666
+   "treasure_stone": 0.8366666666666667
   },
   "neris": {
    "id": "neris",
@@ -76,7 +76,7 @@
    "perceived": "Tiberius Maro",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.0
+   "treasure_stone": 3.67
   },
   "phaedra": {
    "id": "phaedra",
@@ -835,6 +835,15 @@
    "closed": false,
    "rounds_left": 177,
    "tallow": false
+  },
+  {
+   "id": "lantern47",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 94,
+   "tallow": false
   }
  ],
  "timers": [],
@@ -859,36 +868,12 @@
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 614 05:10",
-   "roll": 1,
+   "at": "day 615 06:10",
+   "roll": 4,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 606 08:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 606 08:40",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 611 04:50",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 611 05:20",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 611 05:50",
     "roll": 3,
@@ -984,13 +969,37 @@
     "roll": 1,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 615 04:40",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 615 05:10",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 615 05:40",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 615 06:10",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 882550
+  "turn_start_done": 884050
  },
  "turn_actions": {
-  "turn": 88255,
+  "turn": 88408,
   "listened": [],
   "actions": []
  },
@@ -1125,6 +1134,10 @@
   "614": {
    "delve_rounds": 53,
    "rest_rounds": 10
+  },
+  "615": {
+   "delve_rounds": 96,
+   "rest_rounds": 20
   }
  },
  "events": [
@@ -2027,13 +2040,22 @@
     "rest_rounds": 0
    },
    "carried_food": false
+  },
+  {
+   "event": "day_rollover",
+   "day": 615,
+   "previous": {
+    "delve_rounds": 53,
+    "rest_rounds": 10
+   },
+   "carried_food": false
   }
  ],
  "next_ids": {
-  "enc": 477,
+  "enc": 479,
   "torch": 409,
-  "t": 165,
-  "lantern": 46
+  "t": 166,
+  "lantern": 47
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -2824,7 +2846,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -2918,7 +2940,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -3572,7 +3594,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -4035,7 +4057,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -4225,7 +4247,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -4508,7 +4530,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 31.0,
+      "wild": 32.0,
       "dungeon": 1.0
      }
     ],
@@ -4879,7 +4901,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -5525,7 +5547,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -5617,7 +5639,7 @@
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 40.0,
+      "wild": 41.0,
       "dungeon": 1.0
      }
     ],
@@ -6695,6 +6717,10 @@
      [
       0,
       0
+     ],
+     [
+      1,
+      1
      ],
      [
       1,
@@ -9213,6 +9239,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ],
     "supplies_st": 0.0,
@@ -11229,6 +11259,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ]
    },
@@ -13016,6 +13050,10 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
      ]
     ]
    }
@@ -14285,6 +14323,188 @@
      "in_settlement": true,
      "slept_restful": 8
     }
+   },
+   "614": {
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "cotta": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "aelia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "tiberius-maro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "hrodvar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": "rest",
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": true,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 8
+    }
    }
   },
   "trail": [
@@ -14734,22 +14954,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc458",
-   "at": "day 577 06:04",
-   "monster_name": "Cave Gorilla",
-   "number": 7,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc459",
-   "at": "day 577 13:30",
-   "monster_name": "Insect Swarm",
-   "number": 1,
-   "reaction": null,
-   "status": "begun"
-  },
-  {
    "id": "enc460",
    "at": "day 577 18:36",
    "monster_name": "Cave Gorilla",
@@ -14891,6 +15095,22 @@
    "at": "day 614 04:32",
    "monster_name": "Great Teacher (SOTN)",
    "number": 1,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc478",
+   "at": "day 615 05:05",
+   "monster_name": "Eolande (SOTN)",
+   "number": 1,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc479",
+   "at": "day 615 05:17",
+   "monster_name": "Skeleton",
+   "number": 48,
    "reaction": null,
    "status": "fighting"
   }

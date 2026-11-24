@@ -704,6 +704,13 @@ tags:
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | SOTN Anagathic | 100 | neris |
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | SOTN Healing Syringe | 100 | neris |
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | jewelry worth 15000.0gp | 15,000 | lucilla |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | SOTN Eolande's Sword | 650 | cotta |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a conical boar's-tusk helmet with a winged crest | 250 | brennus |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | 6,000 gold pieces | 6,000 | brennus |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | four terracotta canopic jars | 100 | tiberius-maro |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a large terracotta amphora with geometric patterns | 60 | tiberius-maro |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a round cedar shield gilded with gold | 100 | cotta |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a chryselephantine statuette of a serene priestess | 300 | lucilla |
 
 ## Monster XP
 
@@ -912,6 +919,8 @@ tags:
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Troglodyte | 31 | 20 | 620 |
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Skeleton | 7 | 13 | 91 |
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | Great Teacher (SOTN) | 1 | 5,000 | 5,000 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Eolande (SOTN) | 1 | 660 | 660 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Skeleton | 48 | 13 | 624 |
 
 ## Shares and XP awarded
 
@@ -1871,6 +1880,15 @@ tags:
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | Aelia | 0.5 | 1,027 | 333 | 0 | +0% | 1,360 |
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | Tiberius Maro | 0.5 | 1,027 | 333 | 0 | +0% | 1,360 |
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | Phaedra | 0.5 | 1,027 | 333 | 0 | +0% | 1,360 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Vettius | 1 | 995 | 171 | 0 | +5% | 1,224 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Vestus the Unlikely | 1 | 995 | 171 | 0 | +5% | 1,224 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Lucilla | 1 | 995 | 171 | 0 | +10% | 1,283 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Cotta | 1 | 995 | 171 | 0 | +0% | 1,166 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Brennus | 1 | 995 | 171 | 0 | +5% | 1,224 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Neris | 1 | 995 | 171 | 0 | +0% | 1,166 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Aelia | 0.5 | 497 | 86 | 0 | +0% | 583 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Tiberius Maro | 0.5 | 497 | 86 | 0 | +0% | 583 |
+| 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Phaedra | 0.5 | 497 | 86 | 0 | +0% | 583 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4835,3 +4853,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 614 |  | treasure share |  |  |  |  |
 | 614 |  | treasure share |  |  |  |  |
 | 614 |  | treasure share |  |  |  |  |
+| 614 | the Tower of Knowledge | identification of L863, L864, L865 (ready day 628) |  |  | 6,000gp | vestus-the-unlikely |
+| 615 | Cyfaraun (Market) | Oil, Common (1 pint) | 6 |  | 1gp 8sp | vettius |
+| 615 |  | treasure share |  | 800gp |  | vettius |
+| 615 |  | treasure share |  | 800gp |  | vestus-the-unlikely |
+| 615 |  | treasure share |  | 800gp |  | lucilla |
+| 615 |  | treasure share |  | 800gp |  | cotta |
+| 615 |  | treasure share |  | 800gp |  | brennus |
+| 615 |  | treasure share |  | 800gp |  | neris |
+| 615 |  | treasure share |  | 400gp |  | aelia |
+| 615 |  | treasure share |  | 400gp |  | tiberius-maro |
+| 615 |  | treasure share |  | 400gp |  | phaedra |
