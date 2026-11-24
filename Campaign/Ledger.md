@@ -654,6 +654,15 @@ tags:
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | 8 cedar scroll jars of the library (N3) | 1,176 | sold |
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | N3's fallen bronze chandelier | 30 | sold |
 | 540 | Order contract: Faustus Cerco (Vettius) | reward 500.0gp | 500 | vettius |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Cadmium Death Orb | 25 | cotta |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Chartreuse Death Orb | 25 | cotta |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Cobalt Death Orb | 25 | lucilla |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Verdigris Death Orb | 25 | lucilla |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Cinnabar Death Orb | 25 | vettius |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Fire Lance | 100 | brennus |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | five warm orange crystals, loaded in the lance | 2,500 | brennus |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Arcane Sword | 100 | vestus-the-unlikely |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | the Teacher's metal canister (dented, its hatch sprung; carried by three: Hrodvar, Tiberius, Cotta) | 7,500 | sold |
 
 ## Monster XP
 
@@ -1694,6 +1703,16 @@ tags:
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Hrodvar | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 |
 | 535 | Descent 77 (N3's last jars; O3's last coffin pieces) | Tiberius Maro | 0.5 | 1,112 | 0 | 0 | +0% | 1,112 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 | 540 | Order contract: Faustus Cerco (Vettius) | Vettius | 1 | 500 | 10 | 0 | +5% | 536 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Lucilla | 1 | 1,291 | 0 | 0 | +10% | 1,420 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Vettius | 1 | 1,291 | 0 | 0 | +5% | 1,356 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Brennus | 1 | 1,291 | 0 | 0 | +5% | 1,356 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Vestus the Unlikely | 1 | 1,291 | 0 | 0 | +5% | 1,356 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Neris | 1 | 1,291 | 0 | 0 | +0% | 1,291 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Cotta | 1 | 1,291 | 0 | 0 | +0% | 1,291 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Aelia | 0.5 | 645 | 0 | 0 | +0% | 645 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Phaedra | 0.5 | 645 | 0 | 0 | +0% | 645 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Hrodvar | 0.5 | 645 | 0 | 0 | -20% | 516 |
+| 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Tiberius Maro | 0.5 | 645 | 0 | 0 | +0% | 645 | | NOTE: Tampering with Mortality XP penalty -10% until the next level / permanent wound: -10% earned XP (Mortal Wounds, its condition) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4469,3 +4488,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | phaedra |
 | 555 | Cyfaraun | Sack, Small (holds 2 stone) | 1 |  | 2sp 7cp | hrodvar |
 | 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | hrodvar |
+| 555 |  | treasure share |  | 937gp 5sp |  | lucilla |
+| 555 |  | treasure share |  | 937gp 5sp |  | vettius |
+| 555 |  | treasure share |  | 937gp 5sp |  | brennus |
+| 555 |  | treasure share |  | 937gp 5sp |  | vestus-the-unlikely |
+| 555 |  | treasure share |  | 937gp 5sp |  | neris |
+| 555 |  | treasure share |  | 937gp 5sp |  | cotta |
+| 555 |  | treasure share |  | 468gp 7sp 5cp |  | aelia |
+| 555 |  | treasure share |  | 468gp 7sp 5cp |  | phaedra |
+| 555 |  | treasure share |  | 468gp 7sp 5cp |  | hrodvar |
+| 555 |  | treasure share |  | 468gp 7sp 5cp |  | tiberius-maro |

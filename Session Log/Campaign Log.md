@@ -44,3 +44,4 @@ tags:
 - [[S33 — The Laboratory Opens]]
 - [[S34 — Beyond the Grey Arch]]
 - [[S35 — A New Shield]]
+- [[S36 — The Beetle Stair]]

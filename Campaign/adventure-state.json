@@ -1,16 +1,32 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 127,
-  "L": 816,
+  "A": 128,
+  "L": 825,
   "H": 137,
   "M": 245
  },
  "adventure": {
-  "id": "A127",
-  "name": "Order contract: Faustus Cerco (Vettius)",
-  "start_day": 538,
+  "id": "A128",
+  "name": "Descent 78 (the beetle stair: the Teacher's sepulcher)",
+  "start_day": 555,
   "participants": {
+   "lucilla": {
+    "id": "lucilla",
+    "name": "Lucilla",
+    "actor": "lucilla",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 180706,
+    "level_before": 8,
+    "class": "Venturer",
+    "joined_day": 555,
+    "xp_award": 1420
+   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -21,46 +37,267 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 197435,
+    "xp_before": 197971,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 538,
-    "xp_award": 536
+    "joined_day": 555,
+    "xp_award": 1356
+   },
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 148288,
+    "level_before": 8,
+    "class": "Fighter",
+    "joined_day": 555,
+    "xp_award": 1356
+   },
+   "vestus-the-unlikely": {
+    "id": "vestus-the-unlikely",
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 132761,
+    "level_before": 7,
+    "class": "Mage",
+    "joined_day": 555,
+    "xp_award": 1356
+   },
+   "neris": {
+    "id": "neris",
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 138801,
+    "level_before": 8,
+    "class": "Priestess",
+    "joined_day": 555,
+    "xp_award": 1291
+   },
+   "cotta": {
+    "id": "cotta",
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 35187,
+    "level_before": 6,
+    "class": "Explorer",
+    "joined_day": 555,
+    "xp_award": 1291
+   },
+   "aelia": {
+    "id": "aelia",
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "aelia",
+    "xp_before": 62256,
+    "level_before": 7,
+    "class": "Bard",
+    "joined_day": 555,
+    "xp_award": 645
+   },
+   "phaedra": {
+    "id": "phaedra",
+    "name": "Phaedra",
+    "actor": "phaedra",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "phaedra",
+    "xp_before": 58341,
+    "level_before": 6,
+    "class": "Mage",
+    "joined_day": 555,
+    "xp_award": 645
+   },
+   "hrodvar": {
+    "id": "hrodvar",
+    "name": "Hrodvar",
+    "actor": "hrodvar",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "hrodvar",
+    "xp_before": 43513,
+    "level_before": 6,
+    "class": "Dwarven Vaultguard",
+    "joined_day": 555,
+    "xp_award": 516
+   },
+   "tiberius-maro": {
+    "id": "tiberius-maro",
+    "name": "Tiberius Maro",
+    "actor": "tiberius-maro",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "tiberius-maro",
+    "xp_before": 4112,
+    "level_before": 3,
+    "class": "Crusader",
+    "joined_day": 555,
+    "xp_award": 645
    }
   },
-  "monsters": [
-   {
-    "id": "M245",
-    "monster": "Faustus Cerco",
-    "source": "Faustus Cerco",
-    "number": 1,
-    "how": "killed",
-    "xp_each": 10,
-    "fight": {
-     "ids": [
-      "faustus-cerco"
-     ],
-     "text": "the fight with Faustus Cerco, round 0"
-    }
-   }
-  ],
+  "monsters": [],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 540,
+   "day": 555,
    "at": null,
-   "total": 510.0,
-   "per_share": 510.0,
+   "total": 10325.0,
+   "per_share": 1290.625,
    "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 1291,
+     "pct": 10,
+     "pen": 0,
+     "award": 1420,
+     "xp_before": 180706,
+     "xp_after": 182126,
+     "capped": null,
+     "zero": false
+    },
     "vettius": {
      "share": 1.0,
      "why": null,
-     "base": 510,
+     "base": 1291,
      "pct": 5,
      "pen": 0,
-     "award": 536,
-     "xp_before": 197435,
-     "xp_after": 197971,
+     "award": 1356,
+     "xp_before": 197971,
+     "xp_after": 199327,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 1291,
+     "pct": 5,
+     "pen": 0,
+     "award": 1356,
+     "xp_before": 148288,
+     "xp_after": 149644,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 1291,
+     "pct": 5,
+     "pen": 0,
+     "award": 1356,
+     "xp_before": 132761,
+     "xp_after": 134117,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 1291,
+     "pct": 0,
+     "pen": 0,
+     "award": 1291,
+     "xp_before": 138801,
+     "xp_after": 140092,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 1291,
+     "pct": 0,
+     "pen": 0,
+     "award": 1291,
+     "xp_before": 35187,
+     "xp_after": 36478,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 645,
+     "pct": 0,
+     "pen": 0,
+     "award": 645,
+     "xp_before": 62256,
+     "xp_after": 62901,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 645,
+     "pct": 0,
+     "pen": 0,
+     "award": 645,
+     "xp_before": 58341,
+     "xp_after": 58986,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 645,
+     "pct": 0,
+     "pen": 20,
+     "award": 516,
+     "xp_before": 43513,
+     "xp_after": 44029,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 645,
+     "pct": 0,
+     "pen": 0,
+     "award": 645,
+     "xp_before": 4112,
+     "xp_after": 4757,
      "capped": null,
      "zero": false
     }
@@ -38797,6 +39034,68 @@
     }
    },
    "events": []
+  },
+  {
+   "id": "A127",
+   "name": "Order contract: Faustus Cerco (Vettius)",
+   "start_day": 538,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 197435,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 538,
+     "xp_award": 536
+    }
+   },
+   "monsters": [
+    {
+     "id": "M245",
+     "monster": "Faustus Cerco",
+     "source": "Faustus Cerco",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 10,
+     "fight": {
+      "ids": [
+       "faustus-cerco"
+      ],
+      "text": "the fight with Faustus Cerco, round 0"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 540,
+    "at": null,
+    "total": 510.0,
+    "per_share": 510.0,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 510,
+      "pct": 5,
+      "pen": 0,
+      "award": 536,
+      "xp_before": 197435,
+      "xp_after": 197971,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
   }
  ],
  "lots": {
@@ -75286,6 +75585,364 @@
    "sold": null,
    "judge": [],
    "divided_day": 540
+  },
+  "L817": {
+   "id": "L817",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "cotta",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Cadmium Death Orb",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Cadmium Death Orb.md",
+    "category": "miscellaneous",
+    "base_gp": 1500,
+    "apparent_gp": 25,
+    "base_cost_text": "1500gp",
+    "apparent_text": "25gp",
+    "rarity": "uncommon",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a transparent oval orb of foggy red-orange vapour",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L818": {
+   "id": "L818",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "cotta",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Chartreuse Death Orb",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Chartreuse Death Orb.md",
+    "category": "miscellaneous",
+    "base_gp": 1500,
+    "apparent_gp": 25,
+    "base_cost_text": "1500gp",
+    "apparent_text": "25gp",
+    "rarity": "uncommon",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a transparent oval orb of sickly yellow-green fluid",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L819": {
+   "id": "L819",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "lucilla",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Cobalt Death Orb",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Cobalt Death Orb.md",
+    "category": "miscellaneous",
+    "base_gp": 3000,
+    "apparent_gp": 25,
+    "base_cost_text": "3000gp",
+    "apparent_text": "25gp",
+    "rarity": "uncommon",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "SOTN Cobalt Death Orb",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": [
+     "identity",
+     "general method of use"
+    ]
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L820": {
+   "id": "L820",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "lucilla",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Verdigris Death Orb",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Verdigris Death Orb.md",
+    "category": "miscellaneous",
+    "base_gp": 2500,
+    "apparent_gp": 25,
+    "base_cost_text": "2500gp",
+    "apparent_text": "25gp",
+    "rarity": "uncommon",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a transparent oval orb of coiling green-blue gas",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L821": {
+   "id": "L821",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "vettius",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Cinnabar Death Orb",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Cinnabar Death Orb.md",
+    "category": "miscellaneous",
+    "base_gp": 3000,
+    "apparent_gp": 25,
+    "base_cost_text": "3000gp",
+    "apparent_text": "25gp",
+    "rarity": "uncommon",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a transparent oval orb of silver liquid",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L822": {
+   "id": "L822",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "brennus",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Fire Lance",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Fire Lance.md",
+    "category": "miscellaneous",
+    "base_gp": 25000,
+    "apparent_gp": 100,
+    "base_cost_text": "25000gp",
+    "apparent_text": "100gp",
+    "rarity": "rare",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a 4' lance with a wide mouth at one end and a crossbow-like grip at the other",
+    "value_gp": null,
+    "apparent_gp": 100,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L823": {
+   "id": "L823",
+   "adventure": "A128",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.33,
+   "carrier": "brennus",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 2500.0,
+    "stone": 0.33,
+    "name": "five warm orange crystals, loaded in the lance",
+    "merch": null
+   },
+   "player": {
+    "desc": "five warm orange crystals, loaded in the lance",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L824": {
+   "id": "L824",
+   "adventure": "A128",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "vestus-the-unlikely",
+   "status": "carried",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "SOTN Arcane Sword",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/SOTN Arcane Sword.md",
+    "category": "miscellaneous",
+    "base_gp": 29500,
+    "apparent_gp": 100,
+    "base_cost_text": "29500gp",
+    "apparent_text": "100gp",
+    "rarity": "very rare",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a bladeless cylindrical hilt of dark metal",
+    "value_gp": null,
+    "apparent_gp": 100,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L825": {
+   "id": "L825",
+   "adventure": "A128",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 10.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 555,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 7500.0,
+    "stone": 10.0,
+    "name": "the Teacher's metal canister (dented, its hatch sprung; carried by three: Hrodvar, Tiberius, Cotta)",
+    "merch": null
+   },
+   "player": {
+    "desc": "the Teacher's metal canister (dented, its hatch sprung; carried by three: Hrodvar, Tiberius, Cotta)",
+    "value_gp": 7500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 7500.0,
+    "market": "Cyfaraun",
+    "day": 555,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 555
   }
  },
  "hoards": {
@@ -82642,7 +83299,9 @@
   "phaedra|L749|alchemy|6": true,
   "vestus-the-unlikely|L779|magical-engineering|7": true,
   "vestus-the-unlikely|L780|magical-engineering|7": true,
-  "vestus-the-unlikely|L781|magical-engineering|7": true
+  "vestus-the-unlikely|L781|magical-engineering|7": true,
+  "vestus-the-unlikely|L822|magical-engineering|7": true,
+  "vestus-the-unlikely|L824|magical-engineering|7": true
  },
  "settings": {
   "setting": "classic",
