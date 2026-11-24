@@ -48,8 +48,9 @@ triggers): Judge block only. `| JUDGE:` lists what is left to you; `| NOTE:` act
    ran out, expired or became due. **If a check finds an encounter, the advance stops at its minute** and the line
    shows who, how many and the maximum distance (all `[H]`): go to `encounters.md`.
    `turn N` also stops in the turn the last light burns out. Many turns in one call: `python3 $S/play.py walk N
-   --relight A,B` (rests after 5 turns, relights, stops with the reason at an encounter, a character down, no light
-   left or anything left to the Judge); or set the standing order `acks.sh light auto on --carriers A,B` once per
+   --relight A,B` (rests after 5 turns, relights (a carrier's own lantern first: lit, or refuelled and lit), stops
+   with the reason at an encounter, a character down, no light left, a timer that runs out (`--past-timers` to go on)
+   or anything left to the Judge); or set the standing order `acks.sh light auto on --carriers A,B` once per
    delve and the engine lights the next torch itself.
 3. Rest: `acks.sh rest` (1 turn) after 5 turns; the `turn` line says "rest due"; a 6th turn without rest makes the
    party winded (no running or charging) until it rests 1 turn (Endurance exempt).
