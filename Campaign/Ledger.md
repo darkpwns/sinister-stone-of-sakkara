@@ -5686,6 +5686,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 817 | the retinue | wages paid |  |  | 108gp | cotta |
 | 817 | the Legate's quartermaster, Türos Aster | 1,380 man-weeks of army rations at 3gp (Rulings S48) for the engineer, masons and 225 laborers, days 837-878 |  |  | 4,140gp | lucilla |
 | 817 | the Legate's quartermaster, Türos Aster | 355 man-weeks of army rations at 3gp (Rulings S48) for the 62 soldiers in the fort, days 839-878 |  |  | 1,065gp | lucilla |
+| 817 | the Legate's stables, Türos Aster | stabling days 743-817 (74 nights): three warhorses at 5sp, six riding animals at 2sp (RR p. 131, the low end) |  |  | 199gp 8sp | lucilla |
+| 819 | farms and road-houses on the Imperial road (26.17) | a day's feed for eight mounts, day 819: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 819 | farms and road-houses on the Imperial road (27.16) | a day's feed for eight mounts, day 820: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 820 | farms and road-houses on the Imperial road (26.14) | a day's feed for eight mounts, day 821: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 822 | farms and road-houses on the Imperial road (25.14) | a day's feed for eight mounts, day 822: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 822 | farms and road-houses on the Imperial road (25.14) | a day's feed for eight mounts, day 823: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 823 | farms and road-houses on the Imperial road (25.13) | a day's feed for eight mounts, day 824: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
+| 824 | farms and road-houses on the Imperial road (24.12) | a day's feed for eight mounts, day 825: 20.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 4gp 1sp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

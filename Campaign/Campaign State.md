@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 52
+session: 53
 mode: town
 location: '[[Turos Aster]]'
 adventure: Borderlands (AX3), between adventures (A157 paid out at Türos Aster, day 803)
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 817
-  time: 06:00
+    day: 825
+  time: 06:12
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Türos Aster
-  hex: '25.19'
+  hex: '24.12'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 16.298
+    encumbrance_st: 16.009
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -52,9 +52,8 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Discern Evil
-    encumbrance_st: 16.148
+    spells_used: []
+    encumbrance_st: 16.981
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -64,7 +63,7 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 14.245
+    encumbrance_st: 13.411
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
@@ -109,7 +108,7 @@ public:
     encumbrance_st: 7.583
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 0 d, water 0.8 d; Brennus: food 0 d, water 1.4 d; Vettius: food 0 d, water 0 d; Lucilla: food 0 d, water 1 d; Neris: food 0 d, water 0 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 0 d; Ennia Ursa: food 0 d, water 0 d; Vestus the Unlikely: food 0 d, water 0.8 d; Tiberius Maro: food 0 d, water 1.2 d'
+  rations: 'Cotta: food 0 d, water 2.8 d; Brennus: food 0 d, water 2.4 d; Vettius: food 0 d, water 1.4 d; Lucilla: food 0 d, water 3 d; Neris: food 0 d, water 1 d; Aelia: food 0 d, water 3 d; Phaedra: food 0 d, water 1 d; Ennia Ursa: food 6 d, water 0.2 d; Vestus the Unlikely: food 0 d, water 2.8 d; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The Barony of the Ford: Brennus a patrician baron since day 778; eight families in the ford meadows, loyal; a thousand gold in the farms this month; the engineer, the masons and 225 laborers walling the breach and raising the south gate tower (a season''s work); Tiberius and the soldiers hold the fort'
@@ -121,15 +120,6 @@ public:
   - Two doses of dragon's blood and the medusae's eyes and tongues to sell (quietly); Lucilla's caravan returns wait in Cyfaraun; more laborers would speed the works
   - A Tower mage bought a map of the southern fords
   trail:
-  - '20.08'
-  - '21.09'
-  - '22.09'
-  - '23.10'
-  - '23.11'
-  - '24.11'
-  - '24.12'
-  - '25.13'
-  - '25.14'
   - '26.14'
   - '26.15'
   - '27.16'
@@ -141,7 +131,16 @@ public:
   - '26.17'
   - '26.18'
   - '25.19'
-clock_day: 817
+  - '25.18'
+  - '26.17'
+  - '27.17'
+  - '27.16'
+  - '26.15'
+  - '26.14'
+  - '25.14'
+  - '25.13'
+  - '24.12'
+clock_day: 825
 ---
 # Campaign State
 
