@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 841
-  time: 09:50
-  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
+    day: 850
+  time: '12:33'
+  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; heavy rain; wind moderate (rainy)
   place: Türos Aster
-  hex: '20.07'
+  hex: '26.19'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 12.292
+    encumbrance_st: 12.284
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -48,14 +48,12 @@ public:
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 19
+    hp: 8
     hp_max: 21
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Cure Light Injury
-    - Cure Moderate Injury
+    spells_used: []
     encumbrance_st: 6.312
   - name: Brennus
     sheet: Characters/brennus.json
@@ -108,12 +106,11 @@ public:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
     spells_used:
-    - Thunderbolt
-    - Thunderbolt
+    - Fan of Flames
     encumbrance_st: 4.31
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 18 d, water 2.8 d; Brennus: food 18 d, water 3.4 d; Vettius: food 18 d, water 4.4 d; Lucilla: food 18 d, water 3 d; Neris: food 18 d, water 0 d; Aelia: food 18 d, water 0 d; Phaedra: food 18 d, water 1 d; Ennia Ursa: food 14 d, water 0.2 d; Vestus the Unlikely: food 18 d, water 2.8 d; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 9 d, water 0.2 d (fatigued); Brennus: food 9 d, water 1.2 d; Vettius: food 9 d, water 1.4 d (fatigued); Lucilla: food 9 d, water 1 d (fatigued); Neris: food 9 d, water 0 d (fatigued); Aelia: food 9 d, water 0 d (fatigued); Phaedra: food 9 d, water 0 d (fatigued); Ennia Ursa: food 14 d, water 0.2 d (fatigued); Vestus the Unlikely: food 9 d, water 2.8 d (fatigued)'
   tracker: {}
   threads:
   - 'The Silk Pony, Cyfaraun: the Gilded Ram''s men, Lentulus Mordax''s gangs and Sigvald''s forty Jutlanders come at the Pony the night of day 831'
@@ -124,27 +121,27 @@ public:
   - A bandit camp of about sixty in the trees by the road two days south of the city (20.07)
   - Three dark shapes at dusk in the forest east of the fort; seven great beetles in a hollow there
   trail:
-  - '27.17'
-  - '27.16'
-  - '26.15'
-  - '26.14'
-  - '25.14'
-  - '25.13'
-  - '24.12'
-  - '24.11'
-  - '23.11'
-  - '23.10'
-  - '22.09'
-  - '21.09'
+  - '19.07'
+  - '20.07'
   - '20.08'
-  - '20.07'
-  - '19.07'
-  - '18.06'
-  - '18.05'
-  - '18.06'
-  - '19.07'
-  - '20.07'
-clock_day: 841
+  - '21.09'
+  - '22.09'
+  - '23.10'
+  - '23.11'
+  - '24.11'
+  - '24.12'
+  - '25.13'
+  - '25.14'
+  - '26.14'
+  - '26.15'
+  - '27.16'
+  - '27.17'
+  - '26.17'
+  - '26.18'
+  - '26.17'
+  - '26.18'
+  - '26.19'
+clock_day: 850
 ---
 # Campaign State
 

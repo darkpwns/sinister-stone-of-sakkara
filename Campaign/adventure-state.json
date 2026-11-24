@@ -4,7 +4,7 @@
   "A": 161,
   "L": 980,
   "H": 225,
-  "M": 304
+  "M": 305
  },
  "adventure": {
   "id": "A161",
@@ -19,12 +19,14 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 67525,
     "level_before": 7,
     "class": "Explorer",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 61
    },
    "brennus": {
     "id": "brennus",
@@ -34,12 +36,14 @@
     "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 185638,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 64
    },
    "vettius": {
     "id": "vettius",
@@ -49,12 +53,14 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 286327,
     "level_before": 10,
     "class": "Thief",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 64
    },
    "lucilla": {
     "id": "lucilla",
@@ -64,12 +70,14 @@
     "player": "rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 215362,
     "level_before": 9,
     "class": "Venturer",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 67
    },
    "neris": {
     "id": "neris",
@@ -79,12 +87,14 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 175825,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 61
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -94,12 +104,14 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 165749,
     "level_before": 8,
     "class": "Mage",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 64
    },
    "aelia": {
     "id": "aelia",
@@ -109,12 +121,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 77265,
     "level_before": 7,
     "class": "Bard",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 31
    },
    "phaedra": {
     "id": "phaedra",
@@ -124,12 +138,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 77871,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 31
    },
    "ennia-ursa": {
     "id": "ennia-ursa",
@@ -139,12 +155,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 5676,
     "level_before": 3,
     "class": "Explorer",
-    "joined_day": 841
+    "joined_day": 841,
+    "returned_day": 850,
+    "xp_award": 31
    }
   },
   "monsters": [
@@ -215,12 +233,139 @@
      ],
      "text": "the fight with 60 Bandit, encounter enc588, round 3"
     }
+   },
+   {
+    "id": "M305",
+    "monster": "Giant Rat",
+    "source": "Giant Rat (MM p. 325)",
+    "number": 16,
+    "how": "killed",
+    "xp_each": 5
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 850,
+   "at": "the fort of the Ford",
+   "total": 460.0,
+   "per_share": 61.333333333333336,
+   "awards": {
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 61,
+     "pct": 0,
+     "pen": 0,
+     "award": 61,
+     "xp_before": 67525,
+     "xp_after": 67586,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 61,
+     "pct": 5,
+     "pen": 0,
+     "award": 64,
+     "xp_before": 185638,
+     "xp_after": 185702,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 61,
+     "pct": 5,
+     "pen": 0,
+     "award": 64,
+     "xp_before": 286327,
+     "xp_after": 286391,
+     "capped": null,
+     "zero": false
+    },
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 61,
+     "pct": 10,
+     "pen": 0,
+     "award": 67,
+     "xp_before": 215362,
+     "xp_after": 215429,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 61,
+     "pct": 0,
+     "pen": 0,
+     "award": 61,
+     "xp_before": 175825,
+     "xp_after": 175886,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 61,
+     "pct": 5,
+     "pen": 0,
+     "award": 64,
+     "xp_before": 165749,
+     "xp_after": 165813,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 31,
+     "pct": 0,
+     "pen": 0,
+     "award": 31,
+     "xp_before": 77265,
+     "xp_after": 77296,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 31,
+     "pct": 0,
+     "pen": 0,
+     "award": 31,
+     "xp_before": 77871,
+     "xp_after": 77902,
+     "capped": null,
+     "zero": false
+    },
+    "ennia-ursa": {
+     "share": 0.5,
+     "why": null,
+     "base": 31,
+     "pct": 0,
+     "pen": 0,
+     "award": 31,
+     "xp_before": 5676,
+     "xp_after": 5707,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 850,
+   "where": "the fort of the Ford"
+  }
  },
  "closed": [
   {

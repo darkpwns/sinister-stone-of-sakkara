@@ -1054,6 +1054,10 @@ tags:
 | 832 | A160 the night at the Silk Pony | Bandit | 1 | 80 | 80 |
 | 832 | A160 the night at the Silk Pony | Bandit | 15 | 10 | 150 |
 | 832 | A160 the night at the Silk Pony | Bandit | 1 | 10 | 10 |
+| 850 | A161 the road south with the labour column | Bandit | 2 | 50 | 100 |
+| 850 | A161 the road south with the labour column | Bandit | 3 | 20 | 60 |
+| 850 | A161 the road south with the labour column | Bandit | 22 | 10 | 220 |
+| 850 | A161 the road south with the labour column | Giant Rat | 16 | 5 | 80 |
 
 ## Shares and XP awarded
 
@@ -2141,6 +2145,15 @@ tags:
 | 832 | A160 the night at the Silk Pony | Aelia | 0.5 | 0 | 58 | 0 | +0% | 58 |
 | 832 | A160 the night at the Silk Pony | Phaedra | 0.5 | 0 | 58 | 0 | +0% | 58 |
 | 832 | A160 the night at the Silk Pony | Ennia Ursa | 0.5 | 0 | 58 | 0 | +0% | 58 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 850 | A161 the road south with the labour column | Cotta | 1 | 0 | 61 | 0 | +0% | 61 |
+| 850 | A161 the road south with the labour column | Brennus | 1 | 0 | 61 | 0 | +5% | 64 |
+| 850 | A161 the road south with the labour column | Vettius | 1 | 0 | 61 | 0 | +5% | 64 |
+| 850 | A161 the road south with the labour column | Lucilla | 1 | 0 | 61 | 0 | +10% | 67 |
+| 850 | A161 the road south with the labour column | Neris | 1 | 0 | 61 | 0 | +0% | 61 |
+| 850 | A161 the road south with the labour column | Vestus the Unlikely | 1 | 0 | 61 | 0 | +5% | 64 |
+| 850 | A161 the road south with the labour column | Aelia | 0.5 | 0 | 31 | 0 | +0% | 31 |
+| 850 | A161 the road south with the labour column | Phaedra | 0.5 | 0 | 31 | 0 | +0% | 31 |
+| 850 | A161 the road south with the labour column | Ennia Ursa | 0.5 | 0 | 31 | 0 | +0% | 31 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5795,6 +5808,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
 | 841 | Cyfaraun | Rations, Iron (one week) | 2 |  | 5gp 4sp | lucilla |
 | 841 | the Silk Pony's stables | stabling days 829-842 (13 nights): three warhorses at 5sp, twelve at 2sp (RR p. 131) |  |  | 50gp 7sp | lucilla |
+| 841 | farms and road-houses on the Imperial road (22.09) | a day's feed for eleven mounts, day 842: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 842 | farms and road-houses on the Imperial road (23.11) | a day's feed for eleven mounts, day 843: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 843 | farms and road-houses on the Imperial road (25.14) | a day's feed for eleven mounts, day 844: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 844 | farms and road-houses on the Imperial road (25.14) | a day's feed for eleven mounts, day 845: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 845 | farms and road-houses on the Imperial road (26.14) | a day's feed for eleven mounts, day 846: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 846 | farms and road-houses on the Imperial road (x) | a day's feed for eleven mounts, day 847: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 847 | farms and road-houses on the Imperial road (27.16) | a day's feed for eleven mounts, day 848: 27.5 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp 5sp | lucilla |
+| 848 | farms and road-houses on the Imperial road (27.17) | a day's feed for ten mounts, day 849: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 849 | farms and road-houses on the Imperial road (26.18) | a day's feed for ten mounts, day 850: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
+| 850 |  | treasure share |  |  |  |  |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

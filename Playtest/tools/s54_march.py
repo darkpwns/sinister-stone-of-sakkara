@@ -22,7 +22,7 @@ for d in range(int(sys.argv[1])):
     print(f'day {day}: ' + t.strip().split(' | ')[0][:400])
     if c: print('STOP: refusal'); break
     if 'encounter enc' in t or 'ENCOUNTER (' in t:
-        if re.search(r'Herd Animal|Commoner|Merchant|Pilgrim', t) and 'IN LAIR' not in t:
+        if re.search(r'Herd Animal|Commoner|Merchant|Pilgrim', t):
             run('encounter', 'end'); print('  (benign: passed by)')
             c, t = run('travel', '--route', ','.join([r for r in route if r != xs()['travel']['hex']]), '--hours', '4')
             print('   ' + t.strip().split(' | ')[0][:300])
@@ -35,4 +35,4 @@ for d in range(int(sys.argv[1])):
     c, t = run('camp', '--hours', '12', '--watches', 'vettius,cotta;ennia-ursa,brennus;lucilla,aelia;neris,phaedra')
     bad = [l for l in t.replace(';', '\n').split('\n') if STOP.search(l) and 'none' not in l and 'Endurance' not in l and 'encounter throw' not in l and 'night encounters' not in l]
     print('  night: ' + ' / '.join(b.strip()[:160] for b in bad[:4]))
-    if any(re.search(r'ENCOUNTER|encounter enc|CON|missed|LOST|dies', b) for b in bad): print('STOP: night'); break
+    if re.search(r'ENCOUNTER \(|encounter enc\d+|loses \d+ CON|DEHYDRATED|STARVING|LOST|not paid| dies', t): print('STOP: night:', re.search(r'.{80}(ENCOUNTER \(|encounter enc\d+|loses \d+ CON|DEHYDRATED|STARVING|LOST|not paid| dies).{80}', t, re.S).group(0)); break
