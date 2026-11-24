@@ -251,3 +251,24 @@ def test_play_month_end_dry_run(camp):
     code, out = sh(camp, "month-end", "--dry-run", script="play.py")
     assert code == 0 and "month's end, day" in out and "schedule run" in out
     assert open(os.path.join(camp, "Campaign", "World State.md"), encoding="utf-8").read() == before
+
+
+def test_brief_prints_the_named_parts_only(camp):
+    """C5: the brief prints the parts the resume names (not the whole World State and Rulings); --full prints all."""
+    code, out = sh(camp, script="brief.py")
+    assert code == 0 and "===== handoff" in out and "the last" in out
+    ws = open(os.path.join(camp, "Campaign", "World State.md"), encoding="utf-8").read()
+    if len(ws.splitlines()) > 200:
+        assert len(out.splitlines()) < len(ws.splitlines()) + 200
+    code, full = sh(camp, "--full", script="brief.py")
+    assert len(full) > len(out)
+
+
+def test_handoff_lists_members_left_behind(camp):
+    need(camp, "Campaign/exploration-state.json", '"staying"')
+    xs = json.load(open(os.path.join(camp, "Campaign", "exploration-state.json")))
+    if not xs.get("staying"):
+        pytest.skip("no one left behind")
+    sys.path.insert(0, S)
+    code, out = sh(camp, script="brief.py")
+    assert "**Left behind:**" in out and next(iter(xs["staying"])) in out

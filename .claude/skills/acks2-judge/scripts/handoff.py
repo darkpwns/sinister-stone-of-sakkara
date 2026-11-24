@@ -61,6 +61,12 @@ def generated():
                     f"{st.get('hp', '?')}/{v.get('hp_max', '?')} | {conds[:160]} |")
     if rows:
         out += ["", "| Party | Class | XP | hp | Conditions |", "| --- | --- | --- | --- | --- |", *rows, ""]
+    stay = xs.get("staying") or {}
+    if stay:
+        # members left behind (C5: Tiberius at the fort was missing from S54's table)
+        out.append("- **Left behind:** " + "; ".join(
+            f"{k} at {(v or {}).get('place') or '?'}" + (f" (since day {(v or {}).get('since')})" if (v or {}).get('since')
+                                                         else "") for k, v in stay.items()))
     for label, argv in (("Adventure", ["adventure", "show"]), ("Wages", ["wages", "show"])):
         code, t = line(ctx, *argv, n=700)
         out.append(f"- **{label}:** {t.replace('[H] ', '')}")
