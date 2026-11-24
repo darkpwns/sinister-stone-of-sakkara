@@ -1,25 +1,19 @@
 {
  "schema": "acks-combat/3",
- "round": 3,
+ "round": 2,
  "order": [
-  "brennus",
-  "lucilla",
   "vestus-the-unlikely",
   "neris",
-  "vettius",
-  "trogb1",
-  "trogb10",
-  "trogb11",
-  "trogw1",
   "cotta",
-  "aelia",
+  "vettius",
+  "brennus",
   "phaedra",
+  "aelia",
+  "lucilla",
   "tiberius-maro",
-  "trogb9",
-  "trogb5",
-  "trogb12"
+  "incarnation"
  ],
- "count_index": 2,
+ "count_index": 5,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -33,8 +27,8 @@
    "status": "active",
    "conditions": [
     {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "name": "faltering",
+     "source": null,
      "rounds_left": null,
      "since_round": 1,
      "note": null
@@ -45,14 +39,11 @@
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [
-    1,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 4,
+   "cleaves_used": 0,
    "declared": {},
-   "init": 7,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -248,32 +239,17 @@
    "actor": "lucilla",
    "hp_max": 42,
    "hp": 40,
-   "hp_start": 42,
-   "aura_counts": {
-    "stench": 2
-   },
-   "attacked_round": 3,
-   "acted_round": 3
+   "hp_start": 40
   },
   "vettius": {
    "id": "vettius",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "vettius",
    "perceived": "vettius",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
@@ -509,38 +485,24 @@
    "actor": "vettius",
    "hp_max": 32,
    "hp": 30,
-   "hp_start": 32,
-   "aura_counts": {
-    "stench": 1
-   },
-   "attacked_round": 2
+   "hp_start": 30,
+   "acted_round": 2
   },
   "brennus": {
    "id": "brennus",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "brennus",
    "perceived": "brennus",
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [
-    1,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 2,
+   "cleaves_used": 0,
    "declared": {},
-   "init": 8,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -746,34 +708,18 @@
    "actor": "brennus",
    "hp_max": 35,
    "hp": 32,
-   "hp_start": 35,
-   "aura_counts": {
-    "stench": 1
-   },
-   "attacked_round": 3,
-   "acted_round": 3
+   "hp_start": 32,
+   "acted_round": 2
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "vestus-the-unlikely",
    "perceived": "vestus-the-unlikely",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    1,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {
@@ -956,38 +902,25 @@
    },
    "actor": "vestus-the-unlikely",
    "hp_max": 18,
-   "hp": 9,
-   "hp_start": 18,
-   "aura_counts": {
-    "stench": 2
-   }
+   "hp": 11,
+   "hp_start": 11,
+   "acted_round": 2
   },
   "neris": {
    "id": "neris",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "neris",
    "perceived": "neris",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    1,
-    2,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {},
-   "init": 7,
+   "declared": {
+    "spell": true
+   },
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1201,13 +1134,13 @@
       "name": "Staff",
       "init_bonus": "",
       "attack_throw": 10,
-      "damage": "1d4/1d6-2",
+      "damage": "1d4-2",
       "range": {
        "short": 0,
        "medium": 0,
        "long": 0
       },
-      "held": "belt"
+      "held": "right hand"
      }
     ],
     "save_mods_text": {},
@@ -1232,36 +1165,22 @@
    "actor": "neris",
    "hp_max": 21,
    "hp": 15,
-   "hp_start": 21,
-   "aura_counts": {
-    "stench": 1
-   },
-   "attacked_round": 2
+   "hp_start": 15,
+   "acted_round": 2
   },
   "cotta": {
    "id": "cotta",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "cotta",
    "perceived": "cotta",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    1
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1405,16 +1324,16 @@
     "movement_running": 60,
     "weapons": [
      {
-      "name": "Long Bow +1",
+      "name": "Sword",
       "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
+      "attack_throw": 7,
+      "damage": "1d6+3",
       "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
+       "short": 0,
+       "medium": 0,
+       "long": 0
       },
-      "held": "right hand, two-handed"
+      "held": "right hand"
      },
      {
       "name": "Composite Bow",
@@ -1429,16 +1348,16 @@
       "held": "belt"
      },
      {
-      "name": "Sword",
+      "name": "Long Bow +1",
       "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d6/1d8+3",
+      "attack_throw": 5,
+      "damage": "1d6+4",
       "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
+       "short": 120,
+       "medium": 240,
+       "long": 360
       },
-      "held": "belt"
+      "held": "back"
      }
     ],
     "save_mods_text": {},
@@ -1465,33 +1384,19 @@
    "actor": "cotta",
    "hp_max": 19,
    "hp": 16,
-   "hp_start": 19,
-   "aura_counts": {
-    "stench": 1
-   },
-   "attacked_round": 2
+   "hp_start": 16,
+   "attacked_round": 2,
+   "acted_round": 2
   },
   "aelia": {
    "id": "aelia",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "aelia",
    "perceived": "aelia",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    2,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
@@ -1639,18 +1544,6 @@
     "movement_running": 30,
     "weapons": [
      {
-      "name": "Composite Bow +1",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "right hand, two-handed"
-     },
-     {
       "name": "Short Sword",
       "init_bonus": "",
       "attack_throw": 5,
@@ -1660,7 +1553,7 @@
        "medium": 0,
        "long": 0
       },
-      "held": "belt"
+      "held": "right hand"
      },
      {
       "name": "Short Bow",
@@ -1685,6 +1578,18 @@
        "long": 20
       },
       "held": "belt"
+     },
+     {
+      "name": "Composite Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "back"
      },
      {
       "name": "Short Sword (silvered)",
@@ -1723,11 +1628,7 @@
    "actor": "aelia",
    "hp_max": 23,
    "hp": 18,
-   "hp_start": 23,
-   "aura_counts": {
-    "stench": 1
-   },
-   "attacked_round": 2
+   "hp_start": 18
   },
   "phaedra": {
    "id": "phaedra",
@@ -1735,8 +1636,8 @@
    "status": "active",
    "conditions": [
     {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "name": "faltering",
+     "source": null,
      "rounds_left": null,
      "since_round": 1,
      "note": null
@@ -1745,19 +1646,13 @@
    "group": "phaedra",
    "perceived": "phaedra",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    1,
-    2,
-    2,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {
     "spell": true
    },
-   "init": 3,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1957,48 +1852,21 @@
    "actor": "phaedra",
    "hp_max": 20,
    "hp": 12,
-   "hp_start": 20,
-   "aura_counts": {
-    "stench": 1
-   }
+   "hp_start": 12
   },
   "tiberius-maro": {
    "id": "tiberius-maro",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    },
-    {
-     "name": "defending",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": "shield"
-    },
-    {
-     "name": "defended",
-     "source": "tiberius-maro",
-     "rounds_left": null,
-     "since_round": 2,
-     "note": "shield"
-    }
-   ],
+   "conditions": [],
    "group": "tiberius-maro",
    "perceived": "tiberius-maro",
    "judge_set": {},
-   "hp_lost_rounds": [
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2183,314 +2051,33 @@
    },
    "actor": "tiberius-maro",
    "hp_max": 5,
-   "hp": 3,
-   "hp_start": 5,
-   "aura_counts": {
-    "stench": 1
-   },
-   "morale_state": "victory or death"
+   "hp": 5,
+   "hp_start": 5
   },
-  "trogb1": {
-   "id": "trogb1",
+  "incarnation": {
+   "id": "incarnation",
    "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "i",
+   "perceived": "a vast shape of smoke and screaming faces",
    "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
+    "save": "M12",
+    "attack_throw": "-1",
+    "immune": "all:mundane,necrotic:both,poison:both"
    },
    "hp_lost_rounds": [
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "brennus",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 7,
-   "hp": -5,
-   "hp_start": 7,
-   "attacked_round": 2,
-   "mortal_wounds": {
-    "total": -4,
-    "d20": 7,
-    "d6": 5,
-    "table": "mortal-wounds-slashing",
-    "condition": "You were instantly killed.",
-    "wound": "A ghastly cut across the belly reveals your harsh demise.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb2": {
-   "id": "trogb2",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
+    2,
     2,
     2
    ],
    "felled": {
     "round": 2,
     "types": [
-     "piercing",
-     "slashing"
+     "electric"
     ],
     "natural": false,
-    "by": "cotta",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 3,
-   "hp": -4,
-   "hp_start": 3,
-   "attacked_round": 2,
-   "dying": {
-    "within": "round",
-    "since_round": 3,
-    "deadline_round": 4
-   },
-   "mortal_wounds": {
-    "total": 4,
-    "d20": 20,
-    "d6": 4,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb3": {
-   "id": "trogb3",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "cotta",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 6,
-   "hp": -2,
-   "hp_start": 6,
-   "attacked_round": 2,
-   "mortal_wounds": {
-    "total": -4,
-    "d20": 4,
-    "d6": 6,
-    "table": "mortal-wounds-piercing",
-    "condition": "You were instantly killed.",
-    "wound": "Your corpse is largely intact and ready for a noble funeral.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb4": {
-   "id": "trogb4",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "cotta",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 7,
-   "hp": -2,
-   "hp_start": 7,
-   "attacked_round": 1,
-   "dying": {
-    "within": "day",
-    "since_round": 3
-   },
-   "mortal_wounds": {
-    "total": 11,
-    "d20": 19,
-    "d6": 6,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb5": {
-   "id": "trogb5",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2,
-    2,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "lucilla",
+    "by": "phaedra",
     "tier": "extraordinary",
     "nonlethal": false
    },
@@ -2500,574 +2087,146 @@
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 9,
-   "hp": -5,
-   "hp_start": 9,
-   "attacked_round": 2,
-   "mortal_wounds": {
-    "total": -5,
-    "d20": 6,
-    "d6": 3,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You were instantly killed.",
-    "wound": "Your rib cage collapsed, leading to an agonizing death gasping for air from ruptured lungs.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb6": {
-   "id": "trogb6",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
+   "name": "Incarnation of Terror (SOTN)",
+   "stats": {
+    "monster": {
+     "name": "Incarnation of Terror (SOTN)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Incarnation of Terror (SOTN).md",
+     "page": 145,
+     "needs_judge": [
+      [
+       "attacks[1]",
+       "not 'N (attacks T+)': 'soul-blasting cry'"
+      ],
+      [
+       "damage[1][0]",
+       "no damage dice: 'death'"
+      ],
+      [
+       "save",
+       "save given as 'Mage 12 (SOTN M12)'"
+      ],
+      [
+       "defenses",
+       "not read: magic weapons"
+      ]
+     ],
+     "checks": [],
+     "type": "undead",
+     "type_text": "Undead",
+     "size_index": 1,
+     "size": "man-sized",
+     "ac": 12,
+     "hd": {
+      "text": "12***",
+      "dice": 12,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 12
+     },
+     "attacks": [
+      {
+       "raw": "1 (bone-chilling touch -1+)",
+       "count": 1,
+       "names": [
+        "bone-chilling touch"
+       ],
+       "throw": -1
+      },
+      {
+       "raw": "soul-blasting cry",
+       "error": "not 'N (attacks T+)'"
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d10 extraordinary necrotic + paralysis",
+       "pieces": [
+        {
+         "raw": "1d10 extraordinary necrotic + paralysis",
+         "dice": "1d10",
+         "extraordinary": true,
+         "types": [
+          "necrotic"
+         ],
+         "rider": "paralysis"
+        }
+       ]
+      },
+      {
+       "raw": "death",
+       "pieces": [
+        {
+         "raw": "death",
+         "error": "no damage dice"
+        }
+       ]
+      }
+     ],
+     "save_as": null,
+     "morale": 4,
+     "attack_throw_by_hd": -1,
+     "speed": "40’ / 120’",
+     "xp": "3,900",
+     "tier": null,
+     "defenses": {
+      "status": "judge",
+      "records": [
+       {
+        "type": "all",
+        "tier": "mundane",
+        "kind": "immune",
+        "quote": "Incorporeal (Incorporeal (Monster Ability)): passes through non-magical objects and over any surface, cannot fly; immune to mundane damage, harmed only by incorporeal creatures, magic weapons and spells",
+        "field": "combat"
+       },
+       {
+        "type": "necrotic",
+        "tier": "both",
+        "kind": "immune",
+        "quote": "Undead: immune to enchantment, necrotic and poisonous damage; inherently evil (Discern Evil, Holy Circle, Dispel Evil); holy water deals extraordinary luminous damage; destroyed at 0 hp; rebuked as incarnations (the Incarnation row), and may save vs",
+        "field": "combat"
+       },
+       {
+        "type": "poisonous",
+        "tier": "both",
+        "kind": "immune",
+        "quote": "Undead: immune to enchantment, necrotic and poisonous damage; inherently evil (Discern Evil, Holy Circle, Dispel Evil); holy water deals extraordinary luminous damage; destroyed at 0 hp; rebuked as incarnations (the Incarnation row), and may save vs",
+        "field": "combat"
+       }
+      ],
+      "effects": [
+       {
+        "effect": "enchantment",
+        "item": "enchantment",
+        "kind": "immune",
+        "quote": "Undead: immune to enchantment, necrotic and poisonous damage; inherently evil (Discern Evil, Holy Circle, Dispel Evil); holy water deals extraordinary luminous damage; destroyed at 0 hp; rebuked as incarnations (the Incarnation row), and may save vs",
+        "field": "combat"
+       }
+      ],
+      "traits": [],
+      "judge": [
+       {
+        "field": "defenses",
+        "reason": "not read: magic weapons",
+        "quote": "Incorporeal (Incorporeal (Monster Ability)): passes through non-magical objects and over any surface, cannot fly; immune to mundane damage, harmed only by incorporeal creatures, magic weapons and spells"
+       }
+      ],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/SOTN/Bestiary/Incarnation of Terror (SOTN).md",
+       "parsed_at_load": true
+      }
+     }
     }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
    },
-   "hp_lost_rounds": [
-    2,
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "lucilla",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 2,
-   "hp": -2,
-   "hp_start": 2,
-   "attacked_round": 2,
-   "mortal_wounds": {
-    "total": -5,
-    "d20": 6,
-    "d6": 4,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You were instantly killed.",
-    "wound": "Crushed bones and splattered brains betray your grisly end.",
-    "band": "-5 to 0"
-   },
+   "hp_max": 56,
+   "hp": -7,
+   "hp_start": 56,
    "xp_recorded": {
-    "record": "M250",
+    "record": "M252",
     "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb7": {
-   "id": "trogb7",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 3,
-   "hp": -1,
-   "hp_start": 3,
-   "attacked_round": 1,
-   "dying": {
-    "within": "round",
-    "since_round": 3,
-    "deadline_round": 4
-   },
-   "mortal_wounds": {
-    "total": 5,
-    "d20": 13,
-    "d6": 6,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb8": {
-   "id": "trogb8",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2
-   ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 3,
-   "hp": -3,
-   "hp_start": 3,
-   "attacked_round": 1,
-   "dying": {
-    "within": "round",
-    "since_round": 3,
-    "deadline_round": 4
-   },
-   "mortal_wounds": {
-    "total": 4,
-    "d20": 15,
-    "d6": 1,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your spinal cord is severed at the neck (DEX reduced to 3, cannot move, fight, use items, or cast spells, must make Death save each month or die from complications).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb9": {
-   "id": "trogb9",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2,
-    2,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "lucilla",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 9,
-   "hp": -1,
-   "hp_start": 9,
-   "attacked_round": 2,
-   "mortal_wounds": {
-    "total": 0,
-    "d20": 6,
-    "d6": 5,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You were instantly killed.",
-    "wound": "A bone-shattering wound reveals your harsh demise.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb10": {
-   "id": "trogb10",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "lucilla",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 2,
-   "hp": -1,
-   "hp_start": 2,
-   "attacked_round": 2,
-   "dying": {
-    "within": "day",
-    "since_round": 3
-   },
-   "mortal_wounds": {
-    "total": 11,
-    "d20": 19,
-    "d6": 4,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One of your hands is crushed and must be amputated (cannot dual-wield or use two-handed weapons).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb11": {
-   "id": "trogb11",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "lucilla",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 5,
-   "hp": 0,
-   "hp_start": 5,
-   "attacked_round": 2,
-   "dying": {
-    "within": "turn",
-    "since_round": 3
-   },
-   "mortal_wounds": {
-    "total": 7,
-    "d20": 8,
-    "d6": 5,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "A skull-shaking blow leaves you partly deaf and suffering ear-ringing headaches (-2 to Listening throws, -2 to surprise rolls, -1 initiative).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogb12": {
-   "id": "trogb12",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "b",
-   "perceived": "grey-scaled lizard-woman",
-   "judge_set": {
-    "ac": "3",
-    "hd": "1+1",
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    2,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "brennus",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 8,
-   "hp": 0,
-   "hp_start": 8,
-   "attacked_round": 2,
-   "dying": {
-    "within": "round",
-    "since_round": 3,
-    "deadline_round": 4
-   },
-   "mortal_wounds": {
-    "total": 5,
-    "d20": 6,
-    "d6": 6,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M250",
-    "how": "killed",
-    "xp": 15
-   }
-  },
-  "trogw1": {
-   "id": "trogw1",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 3,
-     "note": null
-    }
-   ],
-   "group": "w",
-   "perceived": "grey-scaled lizard-warrior",
-   "judge_set": {
-    "attack_throw": "9"
-   },
-   "hp_lost_rounds": [
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "fire"
-    ],
-    "natural": false,
-    "by": "vestus-the-unlikely",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 8,
-   "hp": 0,
-   "hp_start": 8,
-   "attacked_round": 2,
-   "dying": {
-    "within": "turn",
-    "since_round": 3
-   },
-   "mortal_wounds": {
-    "total": 10,
-    "d20": 11,
-    "d6": 3,
-    "table": "mortal-wounds-acid-electrical-fire-luminous",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One leg is burned off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M251",
-    "how": "killed",
-    "xp": 20
+    "xp": 3900
    }
   }
  },
@@ -3180,56 +2339,10 @@
    },
    "start_count": 1
   },
-  "b": {
+  "i": {
    "side": "foe",
    "members": [
-    "trogb1",
-    "trogb2",
-    "trogb3",
-    "trogb4",
-    "trogb5",
-    "trogb6",
-    "trogb7",
-    "trogb8",
-    "trogb9",
-    "trogb10",
-    "trogb11",
-    "trogb12"
-   ],
-   "morale": {
-    "state": "advance and pursue",
-    "rolls": [
-     {
-      "round": 2,
-      "total": 11,
-      "result": "Advance and Pursue",
-      "reason": "1/3 of the group felled (6/12)"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 2,
-    "first_round": 2
-   },
-   "start_count": 12,
-   "felled_rounds": [
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    3,
-    3,
-    3,
-    3,
-    3,
-    3
-   ]
-  },
-  "w": {
-   "side": "foe",
-   "members": [
-    "trogw1"
+    "incarnation"
    ],
    "morale": {
     "state": "steady",
@@ -3238,78 +2351,25 @@
    },
    "start_count": 1,
    "felled_rounds": [
-    3
+    2
    ]
   }
  },
  "engaged": [],
- "engaged_at_round_start": [
-  [
-   "brennus",
-   "trogb1"
-  ],
-  [
-   "lucilla",
-   "trogb5"
-  ],
-  [
-   "aelia",
-   "trogb9"
-  ],
-  [
-   "neris",
-   "trogb10"
-  ],
-  [
-   "phaedra",
-   "trogb11"
-  ],
-  [
-   "tiberius-maro",
-   "trogb12"
-  ],
-  [
-   "trogw1",
-   "vestus-the-unlikely"
-  ],
-  [
-   "trogb5",
-   "vettius"
-  ],
-  [
-   "cotta",
-   "trogb1"
-  ]
- ],
+ "engaged_at_round_start": [],
  "distances": {
-  "brennus|trogb1": 5,
-  "brennus|trogb2": 5,
-  "cotta|trogb3": 5,
-  "cotta|trogb4": 5,
-  "lucilla|trogb5": 5,
-  "lucilla|trogb6": 5,
-  "trogb7|vettius": 5,
-  "trogb8|vettius": 5,
-  "aelia|trogb9": 5,
-  "neris|trogb10": 5,
-  "phaedra|trogb11": 5,
-  "tiberius-maro|trogb12": 5,
-  "trogw1|vestus-the-unlikely": 5,
-  "trogb5|vettius": 5,
-  "cotta|trogb2": 5,
-  "cotta|trogb1": 5,
-  "brennus|trogb12": 5,
-  "brennus|trogb11": 5,
-  "lucilla|trogb9": 5,
-  "lucilla|trogb10": 5,
-  "lucilla|trogb11": 5
+  "incarnation|lucilla": 15,
+  "incarnation|vettius": 15,
+  "brennus|incarnation": 15,
+  "incarnation|vestus-the-unlikely": 15,
+  "incarnation|neris": 15,
+  "cotta|incarnation": 15,
+  "aelia|incarnation": 15,
+  "incarnation|phaedra": 15,
+  "incarnation|tiberius-maro": 15
  },
  "log": [],
- "notes_shown": [
-  "morale.hireling_leadership",
-  "morale.hireling_triggers",
-  "morale.modifier_tiers"
- ],
+ "notes_shown": [],
  "wards": [
   {
    "bearer": "tiberius-maro",
@@ -3323,47 +2383,12 @@
    "fall": "creature",
    "evil": "foes",
    "source": "Rulings S14, S35",
-   "fallen": {}
+   "fallen": {
+    "incarnation": 2
+   }
   }
  ],
- "auras": [
-  {
-   "name": "stench",
-   "sources": [
-    "trogb1",
-    "trogb2",
-    "trogb3",
-    "trogb4",
-    "trogb5",
-    "trogb6",
-    "trogb7",
-    "trogb8",
-    "trogb9",
-    "trogb10",
-    "trogb11",
-    "trogb12",
-    "trogw1"
-   ],
-   "radius": 5,
-   "save": "death",
-   "per_extra": 0,
-   "mods": [
-    [
-     "stench",
-     -2
-    ]
-   ],
-   "fail": "queasy",
-   "fail_rounds": null,
-   "affects": "foes",
-   "while_failed": null,
-   "source": "MM Troglodyte; SOTN J1 note",
-   "hears": [],
-   "noted": [],
-   "silenced_by": []
-  }
- ],
- "round_ended": 2,
+ "round_ended": 1,
  "retinue": {
   "aelia": {
    "hp_triggered": false,
@@ -3371,16 +2396,14 @@
    "calamity_queued": false
   },
   "phaedra": {
-   "hp_triggered": true,
+   "hp_triggered": false,
    "party_triggered": false,
-   "calamity_queued": false,
-   "hp_first": 2
+   "calamity_queued": false
   },
   "tiberius-maro": {
-   "hp_triggered": true,
+   "hp_triggered": false,
    "party_triggered": false,
-   "calamity_queued": false,
-   "hp_first": 2
+   "calamity_queued": false
   }
  },
  "party_hp_written": [
@@ -3395,138 +2418,7 @@
   "tiberius-maro"
  ],
  "ended": {
-  "round": 3,
-  "felled_foes": [
-   {
-    "id": "trogb1",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -5,
-    "condition": "You were instantly killed.",
-    "wound": "A ghastly cut across the belly reveals your harsh demise.",
-    "total": -4
-   },
-   {
-    "id": "trogb2",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -4,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
-    "total": 4
-   },
-   {
-    "id": "trogb3",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You were instantly killed.",
-    "wound": "Your corpse is largely intact and ready for a noble funeral.",
-    "total": -4
-   },
-   {
-    "id": "trogb4",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
-    "total": 11
-   },
-   {
-    "id": "trogb5",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -5,
-    "condition": "You were instantly killed.",
-    "wound": "Your rib cage collapsed, leading to an agonizing death gasping for air from ruptured lungs.",
-    "total": -5
-   },
-   {
-    "id": "trogb6",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -2,
-    "condition": "You were instantly killed.",
-    "wound": "Crushed bones and splattered brains betray your grisly end.",
-    "total": -5
-   },
-   {
-    "id": "trogb7",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
-    "total": 5
-   },
-   {
-    "id": "trogb8",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -3,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your spinal cord is severed at the neck (DEX reduced to 3, cannot move, fight, use items, or cast spells, must make Death save each month or die from complications).",
-    "total": 4
-   },
-   {
-    "id": "trogb9",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You were instantly killed.",
-    "wound": "A bone-shattering wound reveals your harsh demise.",
-    "total": 0
-   },
-   {
-    "id": "trogb10",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One of your hands is crushed and must be amputated (cannot dual-wield or use two-handed weapons).",
-    "total": 11
-   },
-   {
-    "id": "trogb11",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": 0,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "A skull-shaking blow leaves you partly deaf and suffering ear-ringing headaches (-2 to Listening throws, -2 to surprise rolls, -1 initiative).",
-    "total": 7
-   },
-   {
-    "id": "trogb12",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-woman",
-    "outcome": "slain",
-    "hp": 0,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
-    "total": 5
-   },
-   {
-    "id": "trogw1",
-    "name": "Troglodyte",
-    "perceived": "grey-scaled lizard-warrior",
-    "outcome": "slain",
-    "hp": 0,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One leg is burned off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
-    "total": 10
-   }
-  ]
+  "round": 2,
+  "felled_foes": []
  }
 }

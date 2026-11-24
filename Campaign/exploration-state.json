@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 574,
-  "round_of_day": 362,
-  "total_rounds": 825002
+  "round_of_day": 414,
+  "total_rounds": 825054
  },
  "party": {
   "vettius": {
@@ -13,7 +13,7 @@
    "perceived": "Vettius",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 1.0
+   "treasure_stone": 1.02
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -31,7 +31,7 @@
    "perceived": "Lucilla",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.8333333333333334
+   "treasure_stone": 0.8533333333333334
   },
   "cotta": {
    "id": "cotta",
@@ -743,20 +743,29 @@
    "carrier": "vettius",
    "lit": true,
    "closed": false,
-   "rounds_left": 97,
+   "rounds_left": 45,
    "tallow": false
   }
  ],
- "timers": [],
+ "timers": [
+  {
+   "id": "t163",
+   "label": "purified at the J4 font (bane -1; the J5 shadows pass them)",
+   "rounds_left": 18,
+   "hidden": false,
+   "source": "SOTN J4",
+   "started": "day 574 06:12"
+  }
+ ],
  "rest": {
-  "rounds_since_rest": 23,
+  "rounds_since_rest": 12,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Nethercity I - Deep Level Southern Cave Complex",
+  "site": "Nethercity J - Doom Temple of Dirgion",
   "kind": "dungeon",
-  "level": 3,
+  "level": 4,
   "room": null,
   "wandering": {
    "none": false,
@@ -764,26 +773,20 @@
    "every": 3,
    "target": 6
   },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-volcanic-caves.yaml",
+  "table": "Adventure/SOTN/Tables/sotn-wandering-temple-tomb.yaml",
   "source": {
    "wandering": "site setting: '1d6 every 3 turns, 6+'"
   }
  },
  "wandering": {
-  "turns_since_check": 0,
+  "turns_since_check": 2,
   "last_check": {
-   "at": "day 574 06:00",
-   "roll": 5,
+   "at": "day 574 06:30",
+   "roll": 3,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 555 09:10",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 555 09:40",
     "roll": 3,
@@ -897,13 +900,19 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 574 06:30",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 825000
+  "turn_start_done": 825050
  },
  "turn_actions": {
-  "turn": 82500,
+  "turn": 82505,
   "listened": [],
   "actions": []
  },
@@ -1056,8 +1065,8 @@
    "rest_rounds": 0
   },
   "574": {
-   "delve_rounds": 123,
-   "rest_rounds": 20
+   "delve_rounds": 165,
+   "rest_rounds": 30
   }
  },
  "events": [
@@ -2000,9 +2009,9 @@
   }
  ],
  "next_ids": {
-  "enc": 454,
+  "enc": 455,
   "torch": 402,
-  "t": 162,
+  "t": 163,
   "lantern": 34
  },
  "travel": {
@@ -3529,7 +3538,7 @@
     }
    },
    "vestus-the-unlikely": {
-    "hp": 9,
+    "hp": 11,
     "hp_max": 18,
     "con": 10,
     "con_mod": 0,
@@ -5574,7 +5583,7 @@
     "passenger": false
    },
    "tiberius-maro": {
-    "hp": 3,
+    "hp": 5,
     "hp_max": 5,
     "con": 9,
     "con_mod": 0,
@@ -14964,14 +14973,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc435",
-   "at": "day 521 08:30",
-   "monster_name": "Tunnel Prawn (SOTN)",
-   "number": 9,
-   "reaction": "unfriendly",
-   "status": "fighting"
-  },
-  {
    "id": "enc436",
    "at": "day 523 22:45",
    "monster_name": "Marius Corvo",
@@ -15120,6 +15121,14 @@
    "at": "day 574 05:59",
    "monster_name": "Troglodyte",
    "number": 13,
+   "reaction": null,
+   "status": "surprise rolled"
+  },
+  {
+   "id": "enc455",
+   "at": "day 574 06:42",
+   "monster_name": "Incarnation of Terror (SOTN)",
+   "number": 1,
    "reaction": null,
    "status": "surprise rolled"
   }
