@@ -82,6 +82,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): PAUSED; next trick 1 day 1000000023; C22 K17 (hrodric): PAUSED; next trick 1 day 1000000023; C23 K18 (hrodric): PAUSED; next trick 1 day 1000000023; C24 K19 (severina): PAUSED; next trick 1 day 1000000020; C25 K20 (severina): PAUSED; next trick 1 day 1000000020
 
 ## Prep queue (Judge only)
 

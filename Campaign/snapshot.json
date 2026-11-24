@@ -1,16 +1,16 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 8,
- "generated": 1795564228,
+ "session": 9,
+ "generated": 1795564767,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 59
+  "day": 66
  },
- "time": "07:01",
+ "time": "06:00",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate",
  "place": "Türos Tem",
- "hex": "22.20",
+ "hex": "19.19",
  "party": [
   {
    "name": "Callista",
@@ -40,7 +40,7 @@
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.74
+   "encumbrance_st": 6.662
   },
   {
    "name": "Galerius",
@@ -50,7 +50,7 @@
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 8
+   "encumbrance_st": 8.5
   },
   {
    "name": "Hrodric",
@@ -110,19 +110,14 @@
    "hp_max": 3,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 8.217
+   "encumbrance_st": 7.217
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 0 d, water 5.4 d; Faustina: food 0 d, water 0 d; Callista: food 0 d, water 3 d; Corvus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 8 d, water 5.4 d; Faustina: food 8 d, water 0 d; Callista: food 8 d, water 3 d; Corvus: food 8 d, water 0 d; Hrodric: food 11 d, water 0 d; Severina: food 6 d, water 0 d; Marius: food 5 d, water 0 d; Varro: food 8 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "21.20",
-  "22.20",
-  "23.21",
-  "22.20",
-  "21.20",
   "20.19",
   "19.19",
   "20.19",
@@ -137,7 +132,12 @@
   "25.19",
   "24.19",
   "23.20",
-  "22.20"
+  "22.20",
+  "21.20",
+  "22.20",
+  "21.20",
+  "20.19",
+  "19.19"
  ],
  "explored_hexes": [
   {
@@ -836,10 +836,10 @@
     },
     "sack": {
      "contents": [
-      "Rations, Iron (one week)"
+      "Metamphora (60gp) ×2"
      ],
      "items": 0,
-     "stone": 1
+     "stone": 2
     },
     "worn": {
      "contents": [],
@@ -850,11 +850,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 1725,
-    "sp": 0,
-    "cp": 15
+    "gp": 1655,
+    "sp": 2,
+    "cp": 5
    },
-   "encumbrance_st": 5.74,
+   "encumbrance_st": 6.662,
    "weapons": [
     {
      "name": "Staff",
@@ -1214,10 +1214,11 @@
     },
     "backpack": {
      "contents": [
+      "Oil, Military (1 pint) ×3",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
-     "items": 2,
+     "items": 5,
      "stone": 0
     },
     "sack": {
@@ -1238,7 +1239,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 8,
+   "encumbrance_st": 8.5,
    "weapons": [
     {
      "name": "Sword",
@@ -2851,11 +2852,10 @@
      "contents": [
       "Holy Book",
       "Holy Symbol",
-      "Rations, Iron (one week)",
       "Waterskin"
      ],
      "items": 2,
-     "stone": 1.5
+     "stone": 0.5
     },
     "worn": {
      "contents": [
@@ -2874,7 +2874,7 @@
     "sp": 25,
     "cp": 0
    },
-   "encumbrance_st": 8.217,
+   "encumbrance_st": 7.217,
    "weapons": [
     {
      "name": "Mace",
@@ -3015,12 +3015,425 @@
  ],
  "open_rolls": [
   {
-   "label": "search fee 1st level (Class V)",
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    4
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    1
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    1
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    2
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    4
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    1
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    4
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    2
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    1
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    2
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    1
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    2
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    4
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    2
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    4
+   ],
+   "total": 9
+  },
+  {
+   "label": "Hrodric surprise",
    "spec": "1d6",
    "rolls": [
     3
    ],
    "total": 3
+  },
+  {
+   "label": "Severina surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
   }
  ],
  "rumours_heard": [

@@ -339,8 +339,10 @@ lessons:
   category: overland
   status: refuse
   since: R2 S03
-  on: [camp]
+  on: [camp, rest-day, water, travel, forced-march, wait, forage, hunt, search, firewood]
   where: ["encounter.open"]
+  triggered_since: R2 S09
+  enforced_by: "R2 S09: the refusal widened from camp to every wilderness day command (a batch ran water and rest-day past the 03:30 goblins, day 65)"
   text: "an encounter is open (a night encounter the camp stopped at): resolve it (`encounter surprise|reaction|fight`, then `encounter end`) and `camp --resume`; a second `camp` ran 12 hours past the wraiths (Rulings R2 S03)"
   source: "R2 S03 day 8 (Tertia's death replayed)"
 
@@ -360,3 +362,12 @@ lessons:
   where: ["location.kind == dungeon"]
   text: "a rest turn after every five turns in a dungeon (`rest`); the line says 'rest due': the party left the temple winded on day 4"
   source: "R2 S02 day 4"
+
+- id: familiar-guide
+  category: overland
+  status: remind
+  since: R2 S09
+  on: [travel, forced-march]
+  without: [--familiar]
+  text: "Corvus guides in his surveyed hexes (22.20, 21.20, 20.19, 19.19; Rulings R2 S05): pass `--familiar corvus` when he leads there; on day 61 the bonus was left out and a navigation die that would have succeeded failed"
+  source: "R2 S09 day 61 (judge-notes)"
