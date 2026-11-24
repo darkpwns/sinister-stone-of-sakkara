@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 132,
-  "L": 827,
+  "L": 828,
   "H": 137,
   "M": 249
  },
@@ -19,12 +19,14 @@
     "player": "Tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 207552,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 572
+    "joined_day": 572,
+    "returned_day": 573,
+    "xp_award": 428
    },
    "brennus": {
     "id": "brennus",
@@ -34,12 +36,14 @@
     "player": "Kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 150935,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 572
+    "joined_day": 572,
+    "returned_day": 573,
+    "xp_award": 428
    },
    "phaedra": {
     "id": "phaedra",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 59600,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 572
+    "joined_day": 572,
+    "returned_day": 573,
+    "xp_award": 204
    }
   },
   "monsters": [
@@ -74,9 +80,56 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 573,
+   "at": "Cyfaraun",
+   "total": 1020.0,
+   "per_share": 408.0,
+   "awards": {
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 408,
+     "pct": 5,
+     "pen": 0,
+     "award": 428,
+     "xp_before": 207552,
+     "xp_after": 207980,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 408,
+     "pct": 5,
+     "pen": 0,
+     "award": 428,
+     "xp_before": 150935,
+     "xp_after": 151363,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 204,
+     "pct": 0,
+     "pen": 0,
+     "award": 204,
+     "xp_before": 59600,
+     "xp_after": 59804,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 573,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -46621,8 +46674,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 261,
     "where": "H16"
@@ -46646,7 +46699,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L173": {
    "id": "L173",
@@ -46654,8 +46711,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.17,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 261,
     "where": "H16"
@@ -46679,7 +46736,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L174": {
    "id": "L174",
@@ -48772,8 +48833,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1667,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 296,
     "where": "room 7, under the mattress"
@@ -48797,7 +48858,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L225": {
    "id": "L225",
@@ -58575,8 +58640,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 2.0,
-   "carrier": "brennus",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 381,
     "where": ""
@@ -58600,7 +58665,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L421": {
    "id": "L421",
@@ -73187,8 +73256,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.17,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 515,
     "where": "N10"
@@ -73212,7 +73281,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L743": {
    "id": "L743",
@@ -73220,8 +73293,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.17,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 515,
     "where": "N10"
@@ -73245,7 +73318,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L744": {
    "id": "L744",
@@ -73870,8 +73947,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 6.5,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 515,
     "where": "N3"
@@ -73895,7 +73972,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L759": {
    "id": "L759",
@@ -75392,8 +75473,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.5,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 520,
     "where": "O4"
@@ -75417,7 +75498,11 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L795": {
    "id": "L795",
@@ -75669,8 +75754,8 @@
    "kind": "item",
    "qty": 1,
    "stone": 5.0,
-   "carrier": "brennus",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 521,
     "where": "O3"
@@ -75702,7 +75787,11 @@
    "identified": false,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "silk-pony-strongbox",
+    "day": 573
+   }
   },
   "L802": {
    "id": "L802",
@@ -76738,6 +76827,39 @@
    "sold": null,
    "judge": [],
    "divided_day": 567
+  },
+  "L828": {
+   "id": "L828",
+   "adventure": "A132",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "brennus",
+   "status": "divided",
+   "found": {
+    "day": 573,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1000.0,
+    "stone": 0,
+    "name": "reward 1000.0gp"
+   },
+   "player": {
+    "desc": "reward of 1000.0gp",
+    "value_gp": 1000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 573
   }
  },
  "hoards": {

@@ -665,6 +665,7 @@ tags:
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | the Teacher's metal canister (dented, its hatch sprung; carried by three: Hrodvar, Tiberius, Cotta) | 7,500 | sold |
 | 561 | Order contract: Rufus Calenus (Lucilla) | reward 1500.0gp | 1,500 | lucilla |
 | 567 | Order contract: Phanes Kordaxis (Neris) | reward 2000.0gp | 2,000 | neris |
+| 573 | Order contract: Dorion Makrenos (Brennus) | reward 1000.0gp | 1,000 | brennus |
 
 ## Monster XP
 
@@ -855,6 +856,7 @@ tags:
 | 561 | Order contract: Rufus Calenus (Lucilla) | Rufus Calenus | 1 | 50 | 50 |
 | 567 | Order contract: Phanes Kordaxis (Neris) | Phanes Kordaxis | 1 | 80 | 80 |
 | 567 | Descent 79 (the doom throne, J8) | Flailing Spirit (SOTN) | 1 | 2,600 | 2,600 |
+| 573 | Order contract: Dorion Makrenos (Brennus) | Dorion Makrenos | 1 | 20 | 20 |
 
 ## Shares and XP awarded
 
@@ -1737,6 +1739,9 @@ tags:
 | 567 | Descent 79 (the doom throne, J8) | Phaedra | 0.5 | 0 | 162 | 0 | +0% | 162 |
 | 567 | Descent 79 (the doom throne, J8) | Hrodvar | 0.5 | 0 | 162 | 0 | -10% | 146 |
 | 567 | Descent 79 (the doom throne, J8) | Tiberius Maro | 0.5 | 0 | 162 | 0 | +0% | 162 | | NOTE: Tampering with Mortality XP penalty -10% until the next level / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 573 | Order contract: Dorion Makrenos (Brennus) | Vettius | 1 | 400 | 8 | 0 | +5% | 428 |
+| 573 | Order contract: Dorion Makrenos (Brennus) | Brennus | 1 | 400 | 8 | 0 | +5% | 428 |
+| 573 | Order contract: Dorion Makrenos (Brennus) | Phaedra | 0.5 | 200 | 4 | 0 | +0% | 204 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4570,3 +4575,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 570 | the syndicate (the Family and Sand & Bones) and the Pony's honest trade | month 19 take: syndicate 16,934 (17,747 less Turpio 4th 425, Plautus 4th 425, double agents #3 #4 #5 0th 3; plus eight 1st-level thieves of day 545, 40) + the Pony's half 1,624 (AX3 p. 75; RR Monthly Member Tribute; Rulings S19, S22, S25) |  | 18,558gp |  | vettius |
 | 570 | the Tower | month 19 dues (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
 | 572 | Tertulla | the black barge's mooring, a fortnight ahead (to day 587) |  |  | 4gp | lucilla |
+| 573 |  | treasure share |  | 400gp |  | vettius |
+| 573 |  | treasure share |  | 400gp |  | brennus |
+| 573 |  | treasure share |  | 200gp |  | phaedra |
+| 573 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 8sp | vettius |
+| 573 | Cyfaraun | Waterskin | 10 |  | 6gp | brennus |
+| 573 | Cyfaraun | Waterskin | 15 |  | 9gp | tiberius-maro |
+| 573 | Cyfaraun | Waterskin | 7 |  | 4gp 2sp | vettius |
+| 573 | Cyfaraun | Waterskin | 5 |  | 3gp | aelia |
+| 573 | Cyfaraun | Waterskin | 5 |  | 3gp | lucilla |
+| 573 | Cyfaraun | Waterskin | 5 |  | 3gp | phaedra |
+| 573 | Cyfaraun | Waterskin | 5 |  | 3gp | neris |
+| 573 | Cyfaraun | torch | 6 |  | 1sp | aelia |
