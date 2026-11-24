@@ -1,14 +1,14 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 1,
- "generated": 1795559356,
+ "session": 2,
+ "generated": 1795559598,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 4
+  "day": 5
  },
- "time": "11:12",
- "weather": "Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; mostly cloudy; wind gentle",
+ "time": "10:43",
+ "weather": "Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; mostly cloudy; wind strong",
  "place": "Türos Tem",
  "hex": "19.19",
  "party": [
@@ -20,7 +20,7 @@
    "hp_max": 5,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.274
+   "encumbrance_st": 6.107
   },
   {
    "name": "Corvus",
@@ -70,11 +70,11 @@
    "hp_max": 2,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.027
+   "encumbrance_st": 4.027
   }
  ],
- "light": "lantern (Callista) out",
- "rations": "Galerius: food 5 d, water 2.6 d; Faustina: food 5 d, water 0.2 d; Hrodric: food 5 d, water 0.2 d; Callista: food 5 d, water 0.2 d; Corvus: food 5 d, water 0.2 d; Tertia: food 5 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Callista) out; lantern (Callista) out",
+ "rations": "Galerius: food 4 d, water 2.6 d; Faustina: food 4 d, water 0.2 d; Hrodric: food 4 d, water 0.2 d; Callista: food 4 d, water 0.2 d; Corvus: food 4 d, water 0.2 d; Tertia: food 4 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -248,11 +248,10 @@
      "contents": [
       "Craftsman's Tools (any)",
       "Lantern",
-      "Oil, Common (1 pint)",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
-     "items": 3,
+     "items": 2,
      "stone": 2
     },
     "sack": {
@@ -275,7 +274,7 @@
     "sp": 9,
     "cp": 2
    },
-   "encumbrance_st": 6.274,
+   "encumbrance_st": 6.107,
    "weapons": [
     {
      "name": "Staff",
@@ -459,7 +458,7 @@
      "stone": 0
     },
     "belt": {
-     "item": "Bola, Net, Short Sword, arrow ×19",
+     "item": "Bola, Net, Short Sword, arrow ×2",
      "items": 3,
      "stone": 1
     },
@@ -806,6 +805,21 @@
      "looks": "gnoll canine teeth, in a metamphora (monster component; humanoid default effect beguile humanoid)",
      "qty": 1,
      "stone": 1.0
+    },
+    {
+     "id": "L5",
+     "looks": "500 gold pieces",
+     "qty": 500,
+     "value_gp": 500.0,
+     "stone": 0.5
+    },
+    {
+     "id": "L6",
+     "looks": "a flask of brown syrup smelling faintly of honey",
+     "qty": 1,
+     "apparent_value_gp": 250,
+     "magical": true,
+     "stone": 0.167
     }
    ],
    "spells": {
@@ -1689,7 +1703,7 @@
      "stone": 0
     },
     "belt": {
-     "item": "Sack, Large (holds 6 stone), Short Sword, arrow ×19",
+     "item": "Sack, Large (holds 6 stone), Short Sword, arrow ×3",
      "items": 3,
      "stone": 0
     },
@@ -1710,11 +1724,10 @@
     },
     "backpack": {
      "contents": [
-      "Metamphora (60gp) ×2",
       "Waterskin"
      ],
      "items": 1,
-     "stone": 2
+     "stone": 0
     },
     "sack": {
      "contents": [],
@@ -1734,7 +1747,7 @@
     "sp": 3,
     "cp": 0
    },
-   "encumbrance_st": 6.027,
+   "encumbrance_st": 4.027,
    "weapons": [
     {
      "name": "Short Bow",
@@ -1768,13 +1781,31 @@
      "qty": 5,
      "value_gp": 5.0,
      "stone": 0.005
+    },
+    {
+     "id": "L3",
+     "looks": "a pink-green stone",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L4",
+     "looks": "a pink-green stone",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L7",
+     "looks": "7 stirge proboscises in 2 metamphora (monster components; monstrosity default effect dominate monster)",
+     "qty": 1,
+     "stone": 2.0
     }
    ],
    "movement": {
-    "exploration": 90,
-    "combat": 30,
-    "running": 90,
-    "expedition": 18
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1832,261 +1863,12 @@
  ],
  "open_rolls": [
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    3
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    3
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    3
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    3
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather wind (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
    "label": "init Faustina",
    "spec": "1d6",
    "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Hrodric",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Tertia",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "attack Tertia vs small dog-faced archer",
-   "spec": "1d20-2",
-   "rolls": [
-    14
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to small dog-faced archer",
-   "spec": "1d6",
-   "rolls": [
     3
    ],
    "total": 3
-  },
-  {
-   "label": "Galerius surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "Faustina surprise",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Callista surprise",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Corvus surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Tertia surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Galerius surprise",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Faustina surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Callista surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Corvus surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Tertia surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
   },
   {
    "label": "init Hrodric",
@@ -2108,69 +1890,44 @@
    "label": "init Corvus",
    "spec": "1d6",
    "rolls": [
-    6
+    4
    ],
-   "total": 6
+   "total": 4
   },
   {
    "label": "init Tertia",
    "spec": "1d6",
    "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "attack Corvus vs hyena-headed brute",
-   "spec": "1d20+2",
-   "rolls": [
-    8
-   ],
-   "total": 10
-  },
-  {
-   "label": "attack Galerius vs hyena-headed brute",
-   "spec": "1d20+6",
-   "rolls": [
-    8
-   ],
-   "total": 14
-  },
-  {
-   "label": "damage to hyena-headed brute",
-   "spec": "1d6+3",
-   "rolls": [
     4
    ],
-   "total": 7
+   "total": 4
   },
   {
-   "label": "attack Hrodric vs hyena-headed brute",
-   "spec": "1d20+4",
+   "label": "attack Corvus vs long-beaked flier",
+   "spec": "1d20",
    "rolls": [
-    15
+    19
    ],
    "total": 19
   },
   {
-   "label": "damage to hyena-headed brute",
-   "spec": "2d6",
+   "label": "damage to long-beaked flier",
+   "spec": "1d6+1",
    "rolls": [
-    1,
     4
    ],
    "total": 5
   },
   {
-   "label": "Galerius bash room 11 door (pair)",
-   "spec": "1d20+12",
+   "label": "attack Tertia vs long-beaked flier",
+   "spec": "1d20",
    "rolls": [
-    6
+    7
    ],
-   "total": 18
+   "total": 7
   },
   {
-   "label": "Rosa's impulse (1 fires)",
+   "label": "init Galerius",
    "spec": "1d6",
    "rolls": [
     6
@@ -2178,28 +1935,244 @@
    "total": 6
   },
   {
-   "label": "Tomasz's impulse (1 fires)",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Kwame's impulse (1 fires)",
+   "label": "init Faustina",
    "spec": "1d6",
    "rolls": [
     4
    ],
    "total": 4
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Tertia",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Corvus vs long-beaked flier",
+   "spec": "1d20",
+   "rolls": [
+    17
+   ],
+   "total": 17
+  },
+  {
+   "label": "damage to long-beaked flier",
+   "spec": "1d6+1",
+   "rolls": [
+    3
+   ],
+   "total": 4
+  },
+  {
+   "label": "attack Tertia vs long-beaked flier",
+   "spec": "1d20",
+   "rolls": [
+    15
+   ],
+   "total": 15
+  },
+  {
+   "label": "damage to long-beaked flier",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Tertia",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "attack Tertia vs long-beaked flier",
+   "spec": "1d20",
+   "rolls": [
+    15
+   ],
+   "total": 15
+  },
+  {
+   "label": "damage to long-beaked flier",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
   },
   {
    "label": "Galerius surprise",
    "spec": "1d6",
    "rolls": [
-    4
+    5
    ],
-   "total": 4
+   "total": 5
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
   },
   {
    "label": "Faustina surprise",
@@ -2213,9 +2186,9 @@
    "label": "Hrodric surprise",
    "spec": "1d6",
    "rolls": [
-    3
+    1
    ],
-   "total": 3
+   "total": 1
   },
   {
    "label": "Callista surprise",
@@ -2229,9 +2202,9 @@
    "label": "Corvus surprise",
    "spec": "1d6",
    "rolls": [
-    3
+    6
    ],
-   "total": 3
+   "total": 6
   },
   {
    "label": "Tertia surprise",
@@ -2240,8 +2213,58 @@
     6
    ],
    "total": 6
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
   }
  ],
- "rumours_heard": [],
+ "rumours_heard": [
+  "Day 5, the Buried Temple (L1 2): three Red Eye gnolls, Friendly, taking the party for new recruits: 'the Lady Below' rewards any band that wipes out one of her lesser tribes, as she rewarded the Red Eye gnolls."
+ ],
  "requests_done": []
 }

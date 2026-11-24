@@ -27,6 +27,12 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - 3 Kobold Guard Room (door only): the three captive kobolds handed back to the 6 guards (Indifferent): no tribute asked, no passage promised. Room 3's kobolds know the party.
 - 11 Abandoned Room: door forced; 15 giant crab spider eggs taken from the webs (captives K1-K15, Corvus).
 - 12 Old Storage Chamber: looked at from the curtain only (day 4); not entered; spiders unseen.
+- 19 Crossroads (day 5): door from 2 and the NE door to the west corridor forced; a lone hobgoblin scout (Neutral, then Indifferent on day 5's way out).
+- 33, 34 (day 5): doors forced; four newly arrived goblins mourning their kin met in 34 (Indifferent; Neutral when met again by the west corridor).
+- 42 Dark Shaft, 39 Goblin Chief's Lair (day 5): **hidden compartment found and emptied** (2 tourmalines L3-L4, 500gp L5, potion L6). Eight kobolds with rats passed (Indifferent).
+- 43 Great Hall north (day 5): **the 11 bodiless zombie heads destroyed** (arrows); the doors north to 61 and south to 27 not opened.
+- 44 Ogre's Cave (day 5): door forced; the ogre demanded meat or gold; the party backed out (Indifferent). Nothing taken.
+- West corridor by Area 4 (day 5): 7 stirges killed (3 slumbered, coup de grace); proboscises harvested (L7). Three Red Eye gnolls (Friendly) and two goblins (Indifferent) met on the way out.
 
 ## Events triggered
 

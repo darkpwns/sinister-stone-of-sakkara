@@ -1,16 +1,19 @@
 {
  "schema": "acks-combat/3",
- "round": 1,
+ "round": 4,
  "order": [
-  "faustina",
-  "corvus",
+  "tertia",
   "galerius",
   "hrodric",
-  "tertia",
+  "s2",
+  "s7",
   "callista",
-  "g1"
+  "s6",
+  "s5",
+  "faustina",
+  "corvus"
  ],
- "count_index": 4,
+ "count_index": 0,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -22,15 +25,7 @@
    "id": "galerius",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "disordered",
-     "source": "charge",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "galerius",
    "perceived": "galerius",
    "judge_set": {},
@@ -214,23 +209,13 @@
    "actor": "galerius",
    "hp_max": 4,
    "hp": 4,
-   "hp_start": 4,
-   "attacked_round": 1,
-   "acted_round": 1
+   "hp_start": 4
   },
   "faustina": {
    "id": "faustina",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "surprised",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 0,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "faustina",
    "perceived": "faustina",
    "judge_set": {},
@@ -238,7 +223,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -379,7 +364,7 @@
      "dex_only": 0
     },
     "hp_max": 6,
-    "movement_running": 90,
+    "movement_running": 120,
     "weapons": [
      {
       "name": "Staff",
@@ -424,22 +409,13 @@
    "actor": "faustina",
    "hp_max": 6,
    "hp": 6,
-   "hp_start": 6,
-   "acted_round": 1
+   "hp_start": 6
   },
   "hrodric": {
    "id": "hrodric",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "disordered",
-     "source": "charge",
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "hrodric",
    "perceived": "hrodric",
    "judge_set": {},
@@ -447,7 +423,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -647,9 +623,7 @@
    "actor": "hrodric",
    "hp_max": 6,
    "hp": 6,
-   "hp_start": 6,
-   "attacked_round": 1,
-   "acted_round": 1
+   "hp_start": 6
   },
   "callista": {
    "id": "callista",
@@ -663,7 +637,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -851,7 +825,10 @@
    "actor": "callista",
    "hp_max": 5,
    "hp": 5,
-   "hp_start": 5
+   "hp_start": 5,
+   "spells_cast": {
+    "slumber": 1
+   }
   },
   "corvus": {
    "id": "corvus",
@@ -865,7 +842,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1076,8 +1053,7 @@
    "hp_max": 7,
    "hp": 7,
    "hp_start": 7,
-   "attacked_round": 1,
-   "acted_round": 1
+   "attacked_round": 3
   },
   "tertia": {
    "id": "tertia",
@@ -1091,7 +1067,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1279,20 +1255,14 @@
    "actor": "tertia",
    "hp_max": 2,
    "hp": 2,
-   "hp_start": 2
+   "hp_start": 2,
+   "attacked_round": 4
   },
-  "g1": {
-   "id": "g1",
+  "s1": {
+   "id": "s1",
    "side": "foe",
    "status": "dead",
    "conditions": [
-    {
-     "name": "surprised",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 0,
-     "note": null
-    },
     {
      "name": "unconscious",
      "source": null,
@@ -1301,11 +1271,10 @@
      "note": null
     }
    ],
-   "group": "gnoll",
-   "perceived": "hyena-headed brute",
+   "group": "stirges",
+   "perceived": "long-beaked flier",
    "judge_set": {},
    "hp_lost_rounds": [
-    1,
     1
    ],
    "felled": {
@@ -1314,46 +1283,826 @@
      "piercing"
     ],
     "natural": false,
-    "by": "hrodric",
+    "by": "corvus",
     "tier": "mundane",
     "nonlethal": false
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
    },
-   "hp_max": 8,
-   "hp": -4,
-   "hp_start": 8,
+   "hp_max": 1,
+   "hp": -1,
+   "hp_start": 1,
    "last_types": [
     "piercing"
    ],
    "dying": {
     "within": "round",
-    "since_round": 1,
-    "deadline_round": 2
+    "since_round": 4,
+    "deadline_round": 5
    },
    "mortal_wounds": {
-    "total": 3,
-    "d20": 11,
-    "d6": 4,
+    "total": 5,
+    "d20": 16,
+    "d6": 3,
     "table": "mortal-wounds-piercing",
     "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
+    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
     "band": "1-5"
    },
    "xp_recorded": {
-    "record": "M2",
+    "record": "M4",
     "how": "killed",
-    "xp": 20
+    "xp": 13
+   }
+  },
+  "s2": {
+   "id": "s2",
+   "side": "foe",
+   "status": "slain",
+   "conditions": [
+    {
+     "name": "slumbering",
+     "source": "callista",
+     "rounds_left": 7,
+     "since_round": 1,
+     "note": null
+    },
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "stirges",
+   "perceived": "long-beaked flier",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 7,
+   "hp": -7,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M4",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "s3": {
+   "id": "s3",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "stirges",
+   "perceived": "long-beaked flier",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "corvus",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 1,
+   "hp": -4,
+   "hp_start": 1,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": -24,
+    "d20": 2,
+    "d6": 4,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "Air wheezes from the hole in your chest as your lungs deflate for the last time.",
+    "band": "-6 or less"
+   },
+   "xp_recorded": {
+    "record": "M4",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "s4": {
+   "id": "s4",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "stirges",
+   "perceived": "long-beaked flier",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "corvus",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 1,
+   "hp": -3,
+   "hp_start": 1,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": -9,
+    "d20": 17,
+    "d6": 1,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "Impaled from mouth to rectum, you die agonizingly unable to scream or defecate. Your corpse is hard to look at.",
+    "band": "-6 or less"
+   },
+   "xp_recorded": {
+    "record": "M4",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "s5": {
+   "id": "s5",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 4,
+     "note": null
+    }
+   ],
+   "group": "stirges",
+   "perceived": "long-beaked flier",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    3,
+    4
+   ],
+   "felled": {
+    "round": 4,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "tertia",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 4,
+   "hp": -2,
+   "hp_start": 4,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": -4,
+    "d20": 4,
+    "d6": 4,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "A ghastly puncture that left your guts spilling out messily betrays your grisly end.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M4",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "s6": {
+   "id": "s6",
+   "side": "foe",
+   "status": "slain",
+   "conditions": [
+    {
+     "name": "slumbering",
+     "source": "callista",
+     "rounds_left": 7,
+     "since_round": 1,
+     "note": null
+    },
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "stirges",
+   "perceived": "long-beaked flier",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 7,
+   "hp": -7,
+   "hp_start": 7,
+   "xp_recorded": {
+    "record": "M4",
+    "how": "killed",
+    "xp": 13
+   }
+  },
+  "s7": {
+   "id": "s7",
+   "side": "foe",
+   "status": "slain",
+   "conditions": [
+    {
+     "name": "slumbering",
+     "source": "callista",
+     "rounds_left": 7,
+     "since_round": 1,
+     "note": null
+    },
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "stirges",
+   "perceived": "long-beaked flier",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Stirge (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Stirge (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+     "page": 34,
+     "needs_judge": [],
+     "checks": [],
+     "type": "monstrosity",
+     "type_text": "Monstrosity (bestial)",
+     "size_index": 0,
+     "size": "small",
+     "ac": 2,
+     "hd": {
+      "text": "1*",
+      "dice": 1,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 1
+     },
+     "attacks": [
+      {
+       "raw": "1 (proboscis 10+)",
+       "count": 1,
+       "names": [
+        "proboscis"
+       ],
+       "throw": 10
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d3 piercing + blood drain",
+       "pieces": [
+        {
+         "raw": "1d3 piercing + blood drain",
+         "dice": "1d3",
+         "extraordinary": false,
+         "types": [
+          "piercing"
+         ],
+         "rider": "blood drain"
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      2
+     ],
+     "morale": 1,
+     "attack_throw_by_hd": 10,
+     "speed": "10’ / 30’",
+     "xp": "13",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 8,
+   "hp": -8,
+   "hp_start": 8,
+   "xp_recorded": {
+    "record": "M4",
+    "how": "killed",
+    "xp": 13
    }
   }
  },
@@ -1430,36 +2179,103 @@
    },
    "start_count": 1
   },
-  "gnoll": {
+  "stirges": {
    "side": "foe",
    "members": [
-    "g1"
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7"
    ],
    "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
+    "state": "faltering",
+    "rolls": [
+     {
+      "round": 3,
+      "total": 4,
+      "result": "Morale Faltering",
+      "reason": "1/3 of the group felled (3/7)"
+     }
+    ],
+    "triggered": true,
+    "last_trigger_round": 3,
+    "first_round": 3
    },
-   "start_count": 1,
+   "start_count": 7,
    "felled_rounds": [
-    1
+    1,
+    2,
+    3,
+    4
    ]
   }
  },
  "engaged": [],
  "engaged_at_round_start": [],
  "distances": {
-  "g1|galerius": 5,
-  "g1|hrodric": 5,
-  "corvus|g1": 40,
-  "g1|tertia": 40,
-  "callista|g1": 40,
-  "faustina|g1": 40
+  "galerius|s4": 10,
+  "galerius|s5": 10,
+  "galerius|s3": 30
  },
  "log": [],
- "notes_shown": [
-  "damage.impact_extra_dice"
- ],
+ "notes_shown": [],
+ "placed": {
+  "galerius": "corridor",
+  "faustina": "corridor",
+  "hrodric": "corridor",
+  "callista": "corridor",
+  "corvus": "corridor",
+  "tertia": "corridor",
+  "stirges": "corpse"
+ },
+ "zones": {
+  "corridor": {
+   "ranges": {
+    "corpse": 40
+   }
+  },
+  "corpse": {
+   "ranges": {
+    "corridor": 40
+   }
+  }
+ },
+ "tactics": {
+  "stirges": {
+   "tactic": "close-and-attack"
+  }
+ },
+ "orders": {
+  "galerius": {
+   "tactic": "hold",
+   "group": null
+  },
+  "hrodric": {
+   "tactic": "hold",
+   "group": null
+  },
+  "faustina": {
+   "tactic": "hold",
+   "group": null
+  },
+  "corvus": {
+   "tactic": "shoot-nearest",
+   "group": "stirges"
+  },
+  "tertia": {
+   "tactic": "shoot-nearest",
+   "group": "stirges"
+  },
+  "callista": {
+   "tactic": "hold",
+   "group": null
+  }
+ },
+ "round_ended": 3,
+ "retinue": {},
  "party_hp_written": [
   "galerius",
   "faustina",
@@ -1469,17 +2285,47 @@
   "tertia"
  ],
  "ended": {
-  "round": 1,
+  "round": 4,
   "felled_foes": [
    {
-    "id": "g1",
-    "name": "Gnoll",
-    "perceived": "hyena-headed brute",
+    "id": "s1",
+    "name": "Stirge (Sakkara)",
+    "perceived": "long-beaked flier",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
+    "total": 5
+   },
+   {
+    "id": "s3",
+    "name": "Stirge (Sakkara)",
+    "perceived": "long-beaked flier",
     "outcome": "slain",
     "hp": -4,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
-    "total": 3
+    "condition": "You were instantly killed.",
+    "wound": "Air wheezes from the hole in your chest as your lungs deflate for the last time.",
+    "total": -24
+   },
+   {
+    "id": "s4",
+    "name": "Stirge (Sakkara)",
+    "perceived": "long-beaked flier",
+    "outcome": "slain",
+    "hp": -3,
+    "condition": "You were instantly killed.",
+    "wound": "Impaled from mouth to rectum, you die agonizingly unable to scream or defecate. Your corpse is hard to look at.",
+    "total": -9
+   },
+   {
+    "id": "s5",
+    "name": "Stirge (Sakkara)",
+    "perceived": "long-beaked flier",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You were instantly killed.",
+    "wound": "A ghastly puncture that left your guts spilling out messily betrays your grisly end.",
+    "total": -4
    }
   ]
  }
