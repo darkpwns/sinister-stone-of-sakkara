@@ -2,6 +2,13 @@
 import os, re, sys
 import yaml
 
+_LOADER = getattr(yaml, "CSafeLoader", yaml.SafeLoader)     # libyaml when installed (engine 7.22, H2): same YAML
+
+
+def _load(text):
+    return yaml.load(text, Loader=_LOADER)
+
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.environ.get("JUDGE_REPO") or os.path.abspath(os.path.join(HERE, "..", "..", "..", ".."))
 
@@ -12,7 +19,7 @@ def path(rel):
 
 def config():
     with open(path("Campaign/campaign.yaml"), encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        return _load(f)
 
 
 FM = re.compile(r"\A---\n(.*?)\n---\n?", re.S)
@@ -25,7 +32,7 @@ def read_note(rel):
     m = FM.match(text)
     if not m:
         return {}, text
-    return (yaml.safe_load(m.group(1)) or {}), text[m.end():]
+    return (_load(m.group(1)) or {}), text[m.end():]
 
 
 def write_note(rel, fm, body):

@@ -305,3 +305,22 @@ def test_harvest_gets_the_fight_and_the_clock(camp):
     env, line = argv_of(camp, "harvest", "med", "--by", "M")
     assert f"--xstate {C}/exploration-state.json --state {C}/combat-state.json" in line
     assert env["ACKS_INV_ASTATE"] and env["ACKS_ISTATE"]
+
+
+def test_bank_balances_read_the_archived_inventory_events(tmp_path, monkeypatch):
+    """Engine 7.22 (S54 H5): compact --inventory archives old events; play.py's bank balances read them too."""
+    monkeypatch.syspath_prepend(S)
+    import play
+    arch = tmp_path / "archive"
+    arch.mkdir()
+    (arch / "inventory-S54.jsonl").write_text(json.dumps({"n": 1, "day": 3, "op": "pay", "cause": "deposit",
+                                                          "coins": [{"who": "bank", "gp": 10}]}) + "\n")
+    x = {"checkpoint": {"archives": ["inventory-S54.jsonl"]}, "log": [{"n": 2, "day": 9, "op": "pay"}]}
+    ev = play._all_events(str(tmp_path / "inventory-state.json"), x)
+    assert [e["n"] for e in ev] == [1, 2]
+
+
+def test_compact_gets_the_inventory(camp):
+    C = os.path.join(camp, "Campaign")
+    env, line = argv_of(camp, "compact", "--inventory")
+    assert f"--xstate {C}/exploration-state.json" in line and env["ACKS_ISTATE"].endswith("inventory-state.json")

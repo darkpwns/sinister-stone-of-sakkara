@@ -278,6 +278,17 @@ def payout(a, rest):
     return 0
 
 
+def _all_events(istate, x):
+    """Every inventory event: those `compact --inventory` archived (engine 7.22) and the log."""
+    out = []
+    for nm in ((x.get("checkpoint") or {}).get("archives") or []):
+        ap = os.path.join(os.path.dirname(os.path.abspath(istate)), "archive", nm)
+        if os.path.exists(ap):
+            with open(ap, encoding="utf-8") as f:
+                out += [json.loads(ln) for ln in f if ln.strip()]
+    return out + list(x["log"])
+
+
 def bank_balances(a):
     E = Engine()
     with open(E.ctx["istate"], encoding="utf-8") as f:
@@ -289,7 +300,7 @@ def bank_balances(a):
         return sum(V[k] * c.get(k, 0) for k in V)
     ids = sorted(x["holders"], key=len, reverse=True)
     bal, unknown, tot = {}, [], 0.0
-    for e in x["log"]:
+    for e in _all_events(E.ctx["istate"], x):
         if (e.get("day") or 0) > upto:
             continue
         cs = e.get("coins", [])
@@ -643,7 +654,7 @@ def _balances(ctx, bank, upto):
     V = {"pp": 5.0, "gp": 1.0, "ep": 0.5, "sp": 0.1, "cp": 0.01}
     ids = sorted(x["holders"], key=len, reverse=True)
     bal = {}
-    for e in x["log"]:
+    for e in _all_events(ctx["istate"], x):
         if (e.get("day") or 0) > upto:
             continue
         g = [c for c in e.get("coins", []) if c.get("who") == bank]
