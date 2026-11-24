@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 153,
-  "L": 900,
+  "L": 901,
   "H": 211,
   "M": 280
  },
@@ -94,7 +94,17 @@
     }
    }
   },
-  "events": []
+  "events": [],
+  "late_rewards": [
+   {
+    "lot": "L901",
+    "gp": 1500.0,
+    "xp": 1500.0,
+    "day": 628,
+    "paid": true,
+    "paid_day": 628
+   }
+  ]
  },
  "closed": [
   {
@@ -42620,7 +42630,14 @@
      }
     }
    },
-   "events": []
+   "events": [],
+   "late_sale_xp": [
+    {
+     "lot": "L864",
+     "xp": 3000.0,
+     "paid": true
+    }
+   ]
   },
   {
    "id": "A144",
@@ -55504,7 +55521,7 @@
    "qty": 1,
    "stone": 0.16666666666666666,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 308,
     "where": "P11 (teleported to Lake Laman)"
@@ -55540,7 +55557,29 @@
    "appraised": false,
    "identified": true,
    "used": true,
-   "sold": null,
+   "sold": {
+    "price": 68000.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": true,
+    "split": {
+     "lucilla": 7555.56,
+     "vettius": 7555.56,
+     "iulia": 7555.56,
+     "vestus-the-unlikely": 7555.56,
+     "neris": 7555.56,
+     "brennus": 7555.56,
+     "phaedra": 3777.78,
+     "varro": 3777.78,
+     "hrodvar": 3777.78,
+     "aelia": 3777.78,
+     "marcellus": 3777.78,
+     "gnaeus": 3777.78
+    }
+   },
    "judge": [],
    "stored": {
     "place": "Tertulla's landing, Lake Laman",
@@ -78347,7 +78386,7 @@
    "qty": 1,
    "stone": 0.17,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 515,
     "where": "N10"
@@ -78362,15 +78401,34 @@
    },
    "player": {
     "desc": "hepatizon orb inscribed with glyphs",
-    "value_gp": null,
+    "value_gp": 1000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "vestus-the-unlikely",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 133.33,
+     "vettius": 133.33,
+     "vestus-the-unlikely": 133.33,
+     "neris": 133.33,
+     "brennus": 133.33,
+     "iulia": 133.33,
+     "phaedra": 66.67,
+     "aelia": 66.67,
+     "cotta": 66.67
+    }
+   },
    "judge": [],
    "stored": {
     "place": "silk-pony-strongbox",
@@ -78384,7 +78442,7 @@
    "qty": 1,
    "stone": 0.17,
    "carrier": null,
-   "status": "stored",
+   "status": "sold",
    "found": {
     "day": 515,
     "where": "N10"
@@ -78399,15 +78457,34 @@
    },
    "player": {
     "desc": "electrum orb inscribed with glyphs",
-    "value_gp": null,
+    "value_gp": 1000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1000.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "vestus-the-unlikely",
+    "identified": true,
+    "used": false,
+    "split": {
+     "lucilla": 133.33,
+     "vettius": 133.33,
+     "vestus-the-unlikely": 133.33,
+     "neris": 133.33,
+     "brennus": 133.33,
+     "iulia": 133.33,
+     "phaedra": 66.67,
+     "aelia": 66.67,
+     "cotta": 66.67
+    }
+   },
    "judge": [],
    "stored": {
     "place": "silk-pony-strongbox",
@@ -83362,14 +83439,21 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a close-fitting suit of strange grey silk, light as breath",
+    "desc": "SOTN Silkweave Suit",
     "value_gp": null,
     "apparent_gp": 100,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "charges",
+     "command words",
+     "curse",
+     "all properties",
+     "a suit of the alien silk: as leather armour +2 for anyone who may wear leather, and it keeps out heat and cold"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
    "judge": []
@@ -83380,8 +83464,8 @@
    "kind": "item",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "neris",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 614,
     "where": "the drowned cellar under the Citadel (the Teacher's body)"
@@ -83402,16 +83486,43 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "two little glass syringes of strange make, full of something pale",
+    "desc": "SOTN Anagathic",
     "value_gp": null,
     "apparent_gp": 100,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "charges",
+     "command words",
+     "curse",
+     "all properties",
+     "anagathics: each injection gives five years without ageing"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 3000.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "neris",
+    "identified": true,
+    "used": false,
+    "sale_xp": 3000.0,
+    "split": {
+     "vettius": 400.0,
+     "vestus-the-unlikely": 400.0,
+     "lucilla": 400.0,
+     "cotta": 400.0,
+     "brennus": 400.0,
+     "neris": 400.0,
+     "aelia": 200.0,
+     "tiberius-maro": 200.0,
+     "phaedra": 200.0
+    }
+   },
    "judge": []
   },
   "L865": {
@@ -83442,14 +83553,21 @@
     "stone": 0.16666666666666666
    },
    "player": {
-    "desc": "a little glass syringe of strange make, full of something amber",
+    "desc": "SOTN Healing Syringe",
     "value_gp": null,
     "apparent_gp": 100,
     "magical": true,
-    "known": []
+    "known": [
+     "identity",
+     "charges",
+     "command words",
+     "curse",
+     "all properties",
+     "a healing syringe: 3d6+3 hit points to a living creature, one dose"
+    ]
    },
    "appraised": false,
-   "identified": false,
+   "identified": true,
    "used": false,
    "sold": null,
    "judge": []
@@ -83460,8 +83578,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 614,
     "where": "the drowned cellar under the Citadel (the Teacher's body)"
@@ -83475,15 +83593,34 @@
    },
    "player": {
     "desc": "a long black robe and a gold belt set with black sapphires and rubies",
-    "value_gp": null,
+    "value_gp": 15000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 15000.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 2000.0,
+     "vestus-the-unlikely": 2000.0,
+     "lucilla": 2000.0,
+     "cotta": 2000.0,
+     "brennus": 2000.0,
+     "neris": 2000.0,
+     "aelia": 1000.0,
+     "tiberius-maro": 1000.0,
+     "phaedra": 1000.0
+    }
+   },
    "judge": []
   },
   "L867": {
@@ -83532,8 +83669,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.17,
-   "carrier": "brennus",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 615,
     "where": "D2, Eolande's tomb"
@@ -83548,15 +83685,34 @@
    },
    "player": {
     "desc": "a conical boar's-tusk helmet with a winged crest",
-    "value_gp": null,
+    "value_gp": 250.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 250.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "brennus",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 33.33,
+     "vestus-the-unlikely": 33.33,
+     "lucilla": 33.33,
+     "cotta": 33.33,
+     "brennus": 33.33,
+     "neris": 33.33,
+     "aelia": 16.67,
+     "tiberius-maro": 16.67,
+     "phaedra": 16.67
+    }
+   },
    "judge": []
   },
   "L869": {
@@ -83599,8 +83755,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.67,
-   "carrier": "tiberius-maro",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 615,
     "where": "D6b hidden alcove"
@@ -83615,15 +83771,34 @@
    },
    "player": {
     "desc": "four terracotta canopic jars",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "tiberius-maro",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 13.33,
+     "vestus-the-unlikely": 13.33,
+     "lucilla": 13.33,
+     "cotta": 13.33,
+     "brennus": 13.33,
+     "neris": 13.33,
+     "aelia": 6.67,
+     "tiberius-maro": 6.67,
+     "phaedra": 6.67
+    }
+   },
    "judge": []
   },
   "L871": {
@@ -83632,8 +83807,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 3.0,
-   "carrier": "tiberius-maro",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 615,
     "where": "D6b hidden alcove"
@@ -83648,15 +83823,34 @@
    },
    "player": {
     "desc": "a large terracotta amphora with geometric patterns",
-    "value_gp": null,
+    "value_gp": 60.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 60.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "tiberius-maro",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 8.0,
+     "vestus-the-unlikely": 8.0,
+     "lucilla": 8.0,
+     "cotta": 8.0,
+     "brennus": 8.0,
+     "neris": 8.0,
+     "aelia": 4.0,
+     "tiberius-maro": 4.0,
+     "phaedra": 4.0
+    }
+   },
    "judge": []
   },
   "L872": {
@@ -83665,8 +83859,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "cotta",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 615,
     "where": "D6b hidden alcove"
@@ -83681,15 +83875,34 @@
    },
    "player": {
     "desc": "a round cedar shield gilded with gold",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "cotta",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 13.33,
+     "vestus-the-unlikely": 13.33,
+     "lucilla": 13.33,
+     "cotta": 13.33,
+     "brennus": 13.33,
+     "neris": 13.33,
+     "aelia": 6.67,
+     "tiberius-maro": 6.67,
+     "phaedra": 6.67
+    }
+   },
    "judge": []
   },
   "L873": {
@@ -83698,8 +83911,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.33,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 615,
     "where": "D6b hidden alcove"
@@ -83714,15 +83927,34 @@
    },
    "player": {
     "desc": "a chryselephantine statuette of a serene priestess",
-    "value_gp": null,
+    "value_gp": 300.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 300.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 40.0,
+     "vestus-the-unlikely": 40.0,
+     "lucilla": 40.0,
+     "cotta": 40.0,
+     "brennus": 40.0,
+     "neris": 40.0,
+     "aelia": 20.0,
+     "tiberius-maro": 20.0,
+     "phaedra": 20.0
+    }
+   },
    "judge": []
   },
   "L874": {
@@ -83765,8 +83997,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.83,
-   "carrier": "tiberius-maro",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 616,
     "where": "M9"
@@ -83781,15 +84013,34 @@
    },
    "player": {
     "desc": "five terracotta canopic jars",
-    "value_gp": null,
+    "value_gp": 125.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 125.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "tiberius-maro",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 16.67,
+     "vestus-the-unlikely": 16.67,
+     "lucilla": 16.67,
+     "cotta": 16.67,
+     "brennus": 16.67,
+     "neris": 16.67,
+     "aelia": 8.33,
+     "tiberius-maro": 8.33,
+     "phaedra": 8.33
+    }
+   },
    "judge": []
   },
   "L876": {
@@ -83798,8 +84049,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 6.0,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 616,
     "where": "M9"
@@ -83814,15 +84065,34 @@
    },
    "player": {
     "desc": "six large red-figure terracotta urns",
-    "value_gp": null,
+    "value_gp": 120.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 120.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 16.0,
+     "vestus-the-unlikely": 16.0,
+     "lucilla": 16.0,
+     "cotta": 16.0,
+     "brennus": 16.0,
+     "neris": 16.0,
+     "aelia": 8.0,
+     "tiberius-maro": 8.0,
+     "phaedra": 8.0
+    }
+   },
    "judge": []
   },
   "L877": {
@@ -84391,8 +84661,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.33,
-   "carrier": "vestus-the-unlikely",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 619,
     "where": "H14 ceiling"
@@ -84407,15 +84677,34 @@
    },
    "player": {
     "desc": "twenty-eight orange crystals pried from the ceiling's stars, warm and faintly glowing",
-    "value_gp": null,
+    "value_gp": 14000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 14000.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "vestus-the-unlikely",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 1750.0,
+     "vestus-the-unlikely": 1750.0,
+     "lucilla": 1750.0,
+     "cotta": 1750.0,
+     "brennus": 1750.0,
+     "neris": 1750.0,
+     "aelia": 875.0,
+     "tiberius-maro": 1750.0,
+     "phaedra": 875.0
+    }
+   },
    "judge": []
   },
   "L894": {
@@ -84504,8 +84793,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "cotta",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 620,
     "where": "N2, N3"
@@ -84525,10 +84814,28 @@
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 30.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "cotta",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 4.29,
+     "vestus-the-unlikely": 4.29,
+     "lucilla": 4.29,
+     "cotta": 4.29,
+     "brennus": 4.29,
+     "neris": 4.29,
+     "aelia": 2.14,
+     "phaedra": 2.14
+    }
+   },
    "judge": [
     "corrected S46: only N3's chandelier was left (N2's is L757)"
    ]
@@ -84583,8 +84890,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 60.0,
-   "carrier": "brennus",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 626,
     "where": "M8"
@@ -84599,15 +84906,34 @@
    },
    "player": {
     "desc": "three painted bronze sarcophagi in the likeness of the elven brothers",
-    "value_gp": null,
+    "value_gp": 1500.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1500.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "brennus",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 200.0,
+     "vestus-the-unlikely": 200.0,
+     "lucilla": 200.0,
+     "cotta": 200.0,
+     "brennus": 200.0,
+     "neris": 200.0,
+     "aelia": 100.0,
+     "tiberius-maro": 100.0,
+     "phaedra": 100.0
+    }
+   },
    "judge": []
   },
   "L899": {
@@ -84616,8 +84942,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 20.0,
-   "carrier": "lucilla",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 626,
     "where": "M13, Nargund's vault"
@@ -84632,15 +84958,34 @@
    },
    "player": {
     "desc": "two ancient dragon horns",
-    "value_gp": null,
+    "value_gp": 1600.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1600.0,
+    "market": "Cyfaraun",
+    "day": 631,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false,
+    "split": {
+     "vettius": 213.33,
+     "vestus-the-unlikely": 213.33,
+     "lucilla": 213.33,
+     "cotta": 213.33,
+     "brennus": 213.33,
+     "neris": 213.33,
+     "aelia": 106.67,
+     "tiberius-maro": 106.67,
+     "phaedra": 106.67
+    }
+   },
    "judge": []
   },
   "L900": {
@@ -84687,6 +85032,48 @@
     "lucilla": 777.78
    },
    "divided_day": 626
+  },
+  "L901": {
+   "id": "L901",
+   "adventure": "A153",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "divided",
+   "found": {
+    "day": 628,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0,
+    "name": "reward 1500.0gp"
+   },
+   "player": {
+    "desc": "reward of 1500.0gp",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "civilization",
+    "day": 628
+   },
+   "late": true,
+   "late_split": {
+    "vettius": 750.0,
+    "neris": 750.0
+   },
+   "divided_day": 628
   }
  },
  "hoards": {
@@ -94700,6 +95087,18 @@
    "cap": 3
   },
   "Cyfaraun (Market)|18|very rare": {
+   "sold": 1,
+   "cap": 1
+  },
+  "Cyfaraun|22|legendary": {
+   "sold": 0,
+   "cap": 0
+  },
+  "Cyfaraun|22|uncommon": {
+   "sold": 1,
+   "cap": 6
+  },
+  "Cyfaraun|22|very rare": {
    "sold": 1,
    "cap": 1
   }

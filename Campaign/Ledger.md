@@ -5056,6 +5056,191 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 626 | the reward | his share of L900 (a reward after the payout) |  | 777gp 7sp 8cp |  | lucilla |
 | 627 |  | treasure share |  |  |  |  |
 | 627 |  | treasure share |  |  |  |  |
+| 628 | the reward | his share of L901 (a reward after the payout) |  | 750gp |  | vettius |
+| 628 | the reward | his share of L901 (a reward after the payout) |  | 750gp |  | neris |
+| 630 | the Merchant Guildhouse | aelia: storage fee 0.25%, month 21 (day 630) |  |  | 136gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | brennus: storage fee 0.25%, month 21 (day 630) |  |  | 295gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | cotta: storage fee 0.25%, month 21 (day 630) |  |  | 88gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | gnaeus: storage fee 0.25%, month 21 (day 630) |  |  | 36gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | hrodvar: storage fee 0.25%, month 21 (day 630) |  |  | 80gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | iulia: storage fee 0.25%, month 21 (day 630) |  |  | 173gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | lucilla: storage fee 0.25%, month 21 (day 630) |  |  | 281gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | marcellus: storage fee 0.25%, month 21 (day 630) |  |  | 79gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | neris: storage fee 0.25%, month 21 (day 630) |  |  | 250gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | phaedra: storage fee 0.25%, month 21 (day 630) |  |  | 126gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | saturnin: storage fee 0.25%, month 21 (day 630) |  |  |  |  |
+| 630 | the Merchant Guildhouse | tiberius-maro: storage fee 0.25%, month 21 (day 630) |  |  | 20gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | varro: storage fee 0.25%, month 21 (day 630) |  |  | 77gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | vestus-the-unlikely: storage fee 0.25%, month 21 (day 630) |  |  | 218gp | guildhouse-bank |
+| 630 | the Merchant Guildhouse | vettius: storage fee 0.25%, month 21 (day 630) |  |  | 452gp | guildhouse-bank |
+| 630 | the textile caravan (investment 1) | investment 1, month 21: Return -50% (41) |  | 3gp |  | lucilla |
+| 630 | the investors' agent (investment 3) | investment 3, month 21: Return -150% (22): a loss of 15gp |  |  | 15gp | lucilla |
+| 630 | the Tower of Knowledge | Vestus' dues, month 21 |  |  | 10gp | vestus-the-unlikely |
+| 630 | the Family (Thana) | the Family's take, month 21: the syndicate 16,508 and the Pony's half 1,624 (Rulings S19, S22, S25) |  | 18,132gp |  | vettius |
+| 630 | the front and the venture company | Lucilla's income, month 21: houses and the Mink 1,500, the venture's half 2,750 |  | 4,250gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 4gp 2sp 9cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 4gp 2sp 9cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 4gp 2sp 9cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 4gp 2sp 9cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 4gp 2sp 9cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 4gp 2sp 9cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 2gp 1sp 4cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L896 (after the payout) |  | 2gp 1sp 4cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 400gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 400gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 400gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 400gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 400gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 400gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 200gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 200gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L864 (after the payout) |  | 200gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 2,000gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 2,000gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 2,000gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 2,000gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 2,000gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 2,000gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 1,000gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 1,000gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L866 (after the payout) |  | 1,000gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 33gp 3sp 3cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 33gp 3sp 3cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 33gp 3sp 3cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 33gp 3sp 3cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 33gp 3sp 3cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 33gp 3sp 3cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 16gp 6sp 7cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 16gp 6sp 7cp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L868 (after the payout) |  | 16gp 6sp 7cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 13gp 3sp 3cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 13gp 3sp 3cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 13gp 3sp 3cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 13gp 3sp 3cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 13gp 3sp 3cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 13gp 3sp 3cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 6gp 6sp 7cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 6gp 6sp 7cp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L870 (after the payout) |  | 6gp 6sp 7cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 8gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 8gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 8gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 8gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 8gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 8gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 4gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 4gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L871 (after the payout) |  | 4gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 13gp 3sp 3cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 13gp 3sp 3cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 13gp 3sp 3cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 13gp 3sp 3cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 13gp 3sp 3cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 13gp 3sp 3cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 6gp 6sp 7cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 6gp 6sp 7cp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L872 (after the payout) |  | 6gp 6sp 7cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 40gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 40gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 40gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 40gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 40gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 40gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 20gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 20gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L873 (after the payout) |  | 20gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 16gp 6sp 7cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 16gp 6sp 7cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 16gp 6sp 7cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 16gp 6sp 7cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 16gp 6sp 7cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 16gp 6sp 7cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 8gp 3sp 3cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 8gp 3sp 3cp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L875 (after the payout) |  | 8gp 3sp 3cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 16gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 16gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 16gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 16gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 16gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 16gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 8gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 8gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L876 (after the payout) |  | 8gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 875gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 1,750gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L893 (after the payout) |  | 875gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 200gp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 200gp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 200gp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 200gp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 200gp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 200gp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 100gp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 100gp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L898 (after the payout) |  | 100gp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 213gp 3sp 3cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 213gp 3sp 3cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 213gp 3sp 3cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 213gp 3sp 3cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 213gp 3sp 3cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 213gp 3sp 3cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 106gp 6sp 7cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 106gp 6sp 7cp |  | tiberius-maro |
+| 631 | Cyfaraun | his share of the sale of L899 (after the payout) |  | 106gp 6sp 7cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 133gp 3sp 3cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 133gp 3sp 3cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 133gp 3sp 3cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 133gp 3sp 3cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 133gp 3sp 3cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 66gp 6sp 7cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 66gp 6sp 7cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L742 (after the payout) |  | 66gp 6sp 7cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 133gp 3sp 3cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 133gp 3sp 3cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 133gp 3sp 3cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 133gp 3sp 3cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 133gp 3sp 3cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 66gp 6sp 7cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 66gp 6sp 7cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L743 (after the payout) |  | 66gp 6sp 7cp |  | cotta |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 7,555gp 5sp 6cp |  | lucilla |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 7,555gp 5sp 6cp |  | vettius |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 7,555gp 5sp 6cp |  | vestus-the-unlikely |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 7,555gp 5sp 6cp |  | neris |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 7,555gp 5sp 6cp |  | brennus |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 3,777gp 7sp 8cp |  | phaedra |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 3,777gp 7sp 8cp |  | varro |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 3,777gp 7sp 8cp |  | hrodvar |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 3,777gp 7sp 8cp |  | aelia |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 3,777gp 7sp 8cp |  | marcellus |
+| 631 | Cyfaraun | his share of the sale of L258 (after the payout) |  | 3,777gp 7sp 8cp |  | gnaeus |
+| 631 | Diokles Antipatros, Krysean spice-lord | his bottomless bag (TT p. 141; Rulings S46) |  |  | 120,000gp | lucilla |
+| 631 |  | coins changed |  |  |  | guildhouse-bank |
+| 631 | the Merchant Guildhouse (gem broker) | 100 gems of 1,000gp and the 2% fee on 200,000gp exchanged (Rulings S46) |  |  | 104,000gp | lucilla |
+| 631 | Cyfaraun (Market) | Shield | 1 |  | 10gp | tiberius-maro |
+| 631 | brokers and criers | recruiting fee (a week's search) |  |  | 7gp | vettius |
+| 631 | brokers and criers | recruiting fee (a week's search) |  |  | 10gp | lucilla |
+| 631 | brokers and criers | recruiting fee (a week's search) |  |  | 9gp | brennus |
+| 631 | brokers and criers | recruiting fee (a week's search) |  |  | 10gp | cotta |
+| 631 | brokers and criers | recruiting fee (a week's search) |  |  | 7gp | neris |
+| 631 | the retinue | wages paid |  |  | 24gp | vettius |
+| 631 | the mercenaries (M52) | a month's pay on signing |  |  | 48gp | vettius |
+| 631 | the retinue | wages paid |  |  | 48gp | lucilla |
+| 631 | the mercenaries (M53) | a month's pay on signing |  |  | 96gp | lucilla |
+| 631 | the retinue | wages paid |  |  | 18gp | brennus |
+| 631 | the mercenaries (M54) | a month's pay on signing |  |  | 36gp | brennus |
+| 631 | the retinue | wages paid |  |  | 54gp | cotta |
+| 631 | the mercenaries (M55) | a month's pay on signing |  |  | 108gp | cotta |
+| 631 | the retinue | wages paid |  |  | 30gp | lucilla |
+| 631 | the mercenaries (M56) | a month's pay on signing |  |  | 60gp | lucilla |
+| 631 | the Cyfaraun wagon-makers, mule-dealers and grain merchants | the soldiers' baggage train: two wagons (2 x 200gp), eight mules (8 x 30gp), 220 man-weeks of iron rations (4gp each, Ledger price, less 160 for bulk) and fodder; two teamsters hired at 4gp a month (Rulings S46) |  |  | 1,320gp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

@@ -537,6 +537,48 @@
    "name": "Crossbowman",
    "actor": null,
    "status": "active"
+  },
+  "bottomless-bag": {
+   "kind": "cache",
+   "name": "the Bottomless Bag's contents (Lucilla carries it: no weight beyond the bag's 6 st, up to 100 st)",
+   "actor": null,
+   "status": "active"
+  },
+  "solar-citadel": {
+   "kind": "cache",
+   "name": "the Solar Citadel (the Underwatch regalia returned)",
+   "actor": null,
+   "status": "active"
+  },
+  "M52": {
+   "kind": "hireling",
+   "name": "Heavy Infantry",
+   "actor": null,
+   "status": "active"
+  },
+  "M53": {
+   "kind": "hireling",
+   "name": "Light Infantry",
+   "actor": null,
+   "status": "active"
+  },
+  "M54": {
+   "kind": "hireling",
+   "name": "Bowman",
+   "actor": null,
+   "status": "active"
+  },
+  "M55": {
+   "kind": "hireling",
+   "name": "Crossbowman",
+   "actor": null,
+   "status": "active"
+  },
+  "M56": {
+   "kind": "hireling",
+   "name": "Light Cavalry",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -734,6 +776,24 @@
    "items_each": 0,
    "stone_each": "2",
    "value_cp": 15000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "bottomless bag": {
+   "name": "Bottomless Bag",
+   "items_each": 0,
+   "stone_each": "6",
+   "value_cp": 10000000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "gems (assorted, 1,000gp each)": {
+   "name": "Gems (assorted, 1,000gp each)",
+   "items_each": 0,
+   "stone_each": "1/100",
+   "value_cp": 100000,
    "base": null,
    "note": null,
    "judge": true
@@ -112364,6 +112424,3651 @@
    "coins": [],
    "cmd": "payout --apply",
    "n": 5706
+  },
+  {
+   "op": "receive",
+   "cause": "his share of L901 (a reward after the payout)",
+   "day": 628,
+   "time": "day 628 19:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 750
+    }
+   ],
+   "frm": "the reward",
+   "cmd": "payout --late",
+   "n": 5707
+  },
+  {
+   "op": "receive",
+   "cause": "his share of L901 (a reward after the payout)",
+   "day": 628,
+   "time": "day 628 19:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 750
+    }
+   ],
+   "frm": "the reward",
+   "cmd": "payout --late",
+   "n": 5708
+  },
+  {
+   "op": "pay",
+   "cause": "aelia: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -136
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 13600,
+   "cmd": "inv pay",
+   "n": 5709
+  },
+  {
+   "op": "pay",
+   "cause": "brennus: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -295
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 29500,
+   "cmd": "inv pay",
+   "n": 5710
+  },
+  {
+   "op": "pay",
+   "cause": "cotta: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -88
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 8800,
+   "cmd": "inv pay",
+   "n": 5711
+  },
+  {
+   "op": "pay",
+   "cause": "gnaeus: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -36
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 3600,
+   "cmd": "inv pay",
+   "n": 5712
+  },
+  {
+   "op": "pay",
+   "cause": "hrodvar: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -80
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 8000,
+   "cmd": "inv pay",
+   "n": 5713
+  },
+  {
+   "op": "pay",
+   "cause": "iulia: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -173
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 17300,
+   "cmd": "inv pay",
+   "n": 5714
+  },
+  {
+   "op": "pay",
+   "cause": "lucilla: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -281
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 28100,
+   "cmd": "inv pay",
+   "n": 5715
+  },
+  {
+   "op": "pay",
+   "cause": "marcellus: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -79
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 7900,
+   "cmd": "inv pay",
+   "n": 5716
+  },
+  {
+   "op": "pay",
+   "cause": "neris: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -250
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 25000,
+   "cmd": "inv pay",
+   "n": 5717
+  },
+  {
+   "op": "pay",
+   "cause": "phaedra: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -126
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 12600,
+   "cmd": "inv pay",
+   "n": 5718
+  },
+  {
+   "op": "pay",
+   "cause": "saturnin: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 0,
+   "cmd": "inv pay",
+   "n": 5719
+  },
+  {
+   "op": "pay",
+   "cause": "tiberius-maro: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -20
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 2000,
+   "cmd": "inv pay",
+   "n": 5720
+  },
+  {
+   "op": "pay",
+   "cause": "varro: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -77
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 7700,
+   "cmd": "inv pay",
+   "n": 5721
+  },
+  {
+   "op": "pay",
+   "cause": "vestus-the-unlikely: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -218
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 21800,
+   "cmd": "inv pay",
+   "n": 5722
+  },
+  {
+   "op": "pay",
+   "cause": "vettius: storage fee 0.25%, month 21 (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -452
+    }
+   ],
+   "to": "the Merchant Guildhouse",
+   "price_cp": 45200,
+   "cmd": "inv pay",
+   "n": 5723
+  },
+  {
+   "op": "receive",
+   "cause": "investment 1, month 21: Return -50% (41)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 3
+    }
+   ],
+   "frm": "the textile caravan (investment 1)",
+   "cmd": "inv receive",
+   "n": 5724
+  },
+  {
+   "op": "pay",
+   "cause": "investment 3, month 21: Return -150% (22): a loss of 15gp",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -15
+    }
+   ],
+   "to": "the investors' agent (investment 3)",
+   "price_cp": 1500,
+   "cmd": "inv pay",
+   "n": 5725
+  },
+  {
+   "op": "pay",
+   "cause": "Vestus' dues, month 21",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -10
+    }
+   ],
+   "to": "the Tower of Knowledge",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 5726
+  },
+  {
+   "op": "receive",
+   "cause": "the Family's take, month 21: the syndicate 16,508 and the Pony's half 1,624 (Rulings S19, S22, S25)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 18132
+    }
+   ],
+   "frm": "the Family (Thana)",
+   "cmd": "inv receive",
+   "n": 5727
+  },
+  {
+   "op": "receive",
+   "cause": "Lucilla's income, month 21: houses and the Mink 1,500, the venture's half 2,750",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 4250
+    }
+   ],
+   "frm": "the front and the venture company",
+   "cmd": "inv receive",
+   "n": 5728
+  },
+  {
+   "op": "give",
+   "cause": "vettius banks coin above 150gp (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -18882
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 18882
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5729
+  },
+  {
+   "op": "give",
+   "cause": "lucilla banks coin above 150gp (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -4238
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 4238
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5730
+  },
+  {
+   "op": "give",
+   "cause": "neris banks coin above 150gp (day 630)",
+   "day": 630,
+   "time": "day 630 05:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -750
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 750
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5731
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 9,
+     "sp": 2,
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5732
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 9,
+     "sp": 2,
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5733
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 9,
+     "sp": 2,
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5734
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 9,
+     "sp": 2,
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5735
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 9,
+     "sp": 2,
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5736
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 9,
+     "sp": 2,
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5737
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 4,
+     "sp": 1,
+     "gp": 2
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5738
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L896 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 4,
+     "sp": 1,
+     "gp": 2
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5739
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 400
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5740
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 400
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5741
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 400
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5742
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 400
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5743
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 400
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5744
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 400
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5745
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5746
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5747
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L864 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5748
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 2000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5749
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 2000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5750
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 2000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5751
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 2000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5752
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 2000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5753
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 2000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5754
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 1000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5755
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 1000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5756
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L866 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 1000
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5757
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5758
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5759
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5760
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5761
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5762
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5763
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5764
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5765
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L868 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5766
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5767
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5768
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5769
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5770
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5771
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5772
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 6
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5773
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "cp": 7,
+     "sp": 6,
+     "gp": 6
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5774
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L870 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 6
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5775
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5776
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5777
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5778
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5779
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5780
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5781
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5782
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5783
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L871 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 4
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5784
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5785
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5786
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5787
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5788
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5789
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 13
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5790
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 6
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5791
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "cp": 7,
+     "sp": 6,
+     "gp": 6
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5792
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L872 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 6
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5793
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 40
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5794
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 40
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5795
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 40
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5796
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 40
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5797
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 40
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5798
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 40
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5799
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 20
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5800
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 20
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5801
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L873 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 20
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5802
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5803
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5804
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5805
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5806
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5807
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 7,
+     "sp": 6,
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5808
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 3,
+     "sp": 3,
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5809
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "cp": 3,
+     "sp": 3,
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5810
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L875 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 3,
+     "sp": 3,
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5811
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5812
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5813
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5814
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5815
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5816
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 16
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5817
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5818
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5819
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L876 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 8
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5820
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5821
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5822
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5823
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5824
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5825
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5826
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 875
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5827
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 1750
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5828
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L893 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 875
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5829
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5830
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5831
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5832
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5833
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5834
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": 200
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5835
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": 100
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5836
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": 100
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5837
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L898 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": 100
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5838
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 213
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5839
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 213
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5840
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 213
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5841
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 3,
+     "sp": 3,
+     "gp": 213
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5842
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 213
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5843
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 213
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5844
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 106
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5845
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "cp": 7,
+     "sp": 6,
+     "gp": 106
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5846
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L899 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 106
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5847
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5848
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5849
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5850
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5851
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5852
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 66
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5853
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 66
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5854
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L742 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 7,
+     "sp": 6,
+     "gp": 66
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5855
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5856
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5857
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5858
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5859
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 3,
+     "sp": 3,
+     "gp": 133
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5860
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 7,
+     "sp": 6,
+     "gp": 66
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5861
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 7,
+     "sp": 6,
+     "gp": 66
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5862
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L743 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "cp": 7,
+     "sp": 6,
+     "gp": 66
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5863
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "cp": 6,
+     "sp": 5,
+     "gp": 7555
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5864
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "cp": 6,
+     "sp": 5,
+     "gp": 7555
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5865
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "cp": 6,
+     "sp": 5,
+     "gp": 7555
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5866
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "cp": 6,
+     "sp": 5,
+     "gp": 7555
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5867
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "cp": 6,
+     "sp": 5,
+     "gp": 7555
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5868
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "cp": 8,
+     "sp": 7,
+     "gp": 3777
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5869
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "varro",
+     "cp": 8,
+     "sp": 7,
+     "gp": 3777
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5870
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodvar",
+     "cp": 8,
+     "sp": 7,
+     "gp": 3777
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5871
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "cp": 8,
+     "sp": 7,
+     "gp": 3777
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5872
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "marcellus",
+     "cp": 8,
+     "sp": 7,
+     "gp": 3777
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5873
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L258 (after the payout)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gnaeus",
+     "cp": 8,
+     "sp": 7,
+     "gp": 3777
+    }
+   ],
+   "frm": "Cyfaraun",
+   "cmd": "sell",
+   "n": 5874
+  },
+  {
+   "op": "give",
+   "cause": "vettius banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -12527
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 12527
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5875
+  },
+  {
+   "op": "give",
+   "cause": "vestus-the-unlikely banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -12517
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 12517
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5876
+  },
+  {
+   "op": "give",
+   "cause": "lucilla banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -12527
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 12527
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5877
+  },
+  {
+   "op": "give",
+   "cause": "cotta banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": -4838
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 4838
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5878
+  },
+  {
+   "op": "give",
+   "cause": "brennus banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -12527
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 12527
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5879
+  },
+  {
+   "op": "give",
+   "cause": "neris banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -12527
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 12527
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5880
+  },
+  {
+   "op": "give",
+   "cause": "aelia banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aelia",
+     "gp": -6260
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 6260
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5881
+  },
+  {
+   "op": "give",
+   "cause": "phaedra banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "phaedra",
+     "gp": -6260
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 6260
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5882
+  },
+  {
+   "op": "give",
+   "cause": "tiberius-maro banks coin above 150gp (day 631)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": -3224
+    },
+    {
+     "who": "guildhouse-bank",
+     "gp": 3224
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5883
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: the bottomless bag (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -120000
+    },
+    {
+     "who": "lucilla",
+     "gp": 120000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5884
+  },
+  {
+   "op": "pay",
+   "cause": "his bottomless bag (TT p. 141; Rulings S46)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -120000
+    }
+   ],
+   "to": "Diokles Antipatros, Krysean spice-lord",
+   "price_cp": 12000000,
+   "cmd": "inv pay",
+   "n": 5885
+  },
+  {
+   "op": "add",
+   "cause": "bought of Diokles Antipatros, day 632",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "bottomless bag",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5886
+  },
+  {
+   "op": "exchange",
+   "cause": "coins changed",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -100000,
+     "pp": 20000
+    }
+   ],
+   "cmd": "inv exchange",
+   "n": 5887
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: 100,000gp as platinum for the road (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "pp": -20000
+    },
+    {
+     "who": "bottomless-bag",
+     "pp": 20000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5888
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: gems for the road (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -104000
+    },
+    {
+     "who": "lucilla",
+     "gp": 104000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5889
+  },
+  {
+   "op": "pay",
+   "cause": "100 gems of 1,000gp and the 2% fee on 200,000gp exchanged (Rulings S46)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -104000
+    }
+   ],
+   "to": "the Merchant Guildhouse (gem broker)",
+   "price_cp": 10400000,
+   "cmd": "inv pay",
+   "n": 5890
+  },
+  {
+   "op": "add",
+   "cause": "bought through the Guildhouse, day 632 (a war chest; not treasure)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [
+    {
+     "who": "bottomless-bag",
+     "item": "gems (assorted, 1,000gp each)",
+     "slot": "here",
+     "qty": 100
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5891
+  },
+  {
+   "op": "give",
+   "cause": "the Underwatch shield returned to Arëtar with the captaincy (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "solar-citadel",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5892
+  },
+  {
+   "op": "give",
+   "cause": "the Underwatch spear returned with the captaincy (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "#w77",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "solar-citadel",
+     "item": "#w77",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5893
+  },
+  {
+   "op": "buy",
+   "cause": "his own shield (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "tiberius-maro",
+     "gp": -10
+    }
+   ],
+   "market": "Cyfaraun (Market)",
+   "market_class": "III",
+   "month": 22,
+   "row": "Shield",
+   "packs": 1,
+   "price_cp": 1000,
+   "cmd": "inv buy",
+   "n": 5894
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -7
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 700,
+   "cmd": "inv pay",
+   "n": 5895
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -10
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 5896
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -9
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 900,
+   "cmd": "inv pay",
+   "n": 5897
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": -10
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 5898
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "neris",
+     "gp": -7
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 700,
+   "cmd": "inv pay",
+   "n": 5899
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "tiberius-maro",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 5900
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: wages and signing (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -300
+    },
+    {
+     "who": "vettius",
+     "gp": 300
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5901
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: wages and signing (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -300
+    },
+    {
+     "who": "lucilla",
+     "gp": 300
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5902
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: wages and signing (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -300
+    },
+    {
+     "who": "brennus",
+     "gp": 300
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5903
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: wages and signing (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -300
+    },
+    {
+     "who": "cotta",
+     "gp": 300
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5904
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -24
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2400,
+   "cmd": "inv wages",
+   "n": 5905
+  },
+  {
+   "op": "pay",
+   "cause": "a month's pay on signing",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -48
+    }
+   ],
+   "to": "the mercenaries (M52)",
+   "price_cp": 4800,
+   "cmd": "inv pay",
+   "n": 5906
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -48
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 4800,
+   "cmd": "inv wages",
+   "n": 5907
+  },
+  {
+   "op": "pay",
+   "cause": "a month's pay on signing",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -96
+    }
+   ],
+   "to": "the mercenaries (M53)",
+   "price_cp": 9600,
+   "cmd": "inv pay",
+   "n": 5908
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -18
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1800,
+   "cmd": "inv wages",
+   "n": 5909
+  },
+  {
+   "op": "pay",
+   "cause": "a month's pay on signing",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -36
+    }
+   ],
+   "to": "the mercenaries (M54)",
+   "price_cp": 3600,
+   "cmd": "inv pay",
+   "n": 5910
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": -54
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 5400,
+   "cmd": "inv wages",
+   "n": 5911
+  },
+  {
+   "op": "pay",
+   "cause": "a month's pay on signing",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "cotta",
+     "gp": -108
+    }
+   ],
+   "to": "the mercenaries (M55)",
+   "price_cp": 10800,
+   "cmd": "inv pay",
+   "n": 5912
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -30
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 3000,
+   "cmd": "inv wages",
+   "n": 5913
+  },
+  {
+   "op": "pay",
+   "cause": "a month's pay on signing",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -60
+    }
+   ],
+   "to": "the mercenaries (M56)",
+   "price_cp": 6000,
+   "cmd": "inv pay",
+   "n": 5914
+  },
+  {
+   "op": "give",
+   "cause": "the company purse: the baggage train (day 632)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1500
+    },
+    {
+     "who": "lucilla",
+     "gp": 1500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5915
+  },
+  {
+   "op": "pay",
+   "cause": "the soldiers' baggage train: two wagons (2 x 200gp), eight mules (8 x 30gp), 220 man-weeks of iron rations (4gp each, Ledger price, less 160 for bulk) and fodder; two teamsters hired at 4gp a month (Rulings S46)",
+   "day": 631,
+   "time": "day 631 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -1320
+    }
+   ],
+   "to": "the Cyfaraun wagon-makers, mule-dealers and grain merchants",
+   "price_cp": 132000,
+   "cmd": "inv pay",
+   "n": 5916
   }
  ],
  "holdings": {
@@ -112390,7 +116095,8 @@
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    },
    "sack": {
-    "oil, common (1 pint)": 2
+    "oil, common (1 pint)": 2,
+    "bottomless bag": 1
    },
    "belt": {
     "#w10": 1
@@ -113177,7 +116883,6 @@
    },
    "backpack": {
     "rations, iron (one week)": 1,
-    "#w77": 1,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    }
   },
@@ -113195,21 +116900,32 @@
    "here": {
     "arrow": 1
    }
+  },
+  "bottomless-bag": {
+   "here": {
+    "gems (assorted, 1,000gp each)": 100
+   }
+  },
+  "solar-citadel": {
+   "here": {
+    "shield": 1,
+    "#w77": 1
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 150,
-   "sp": 239,
-   "cp": 383
+   "gp": 386,
+   "sp": 270,
+   "cp": 423
   },
   "body:cassia": {
    "cp": 3
   },
   "vettius": {
-   "gp": 150,
-   "sp": 238,
-   "cp": 364
+   "gp": 371,
+   "sp": 269,
+   "cp": 404
   },
   "durio": {
    "gp": 514,
@@ -113220,8 +116936,8 @@
    "gp": 13732
   },
   "vestus-the-unlikely": {
-   "cp": 357,
-   "sp": 307,
+   "cp": 397,
+   "sp": 338,
    "gp": 150
   },
   "zaira-the-beautiful": {
@@ -113271,14 +116987,14 @@
    "sp": 7
   },
   "neris": {
-   "gp": 150,
-   "sp": 331,
-   "cp": 410
+   "gp": 143,
+   "sp": 362,
+   "cp": 450
   },
   "brennus": {
-   "sp": 338,
-   "gp": 150,
-   "cp": 436
+   "sp": 369,
+   "gp": 387,
+   "cp": 476
   },
   "quirinus": {
    "sp": 27,
@@ -113286,34 +117002,34 @@
    "cp": 9
   },
   "phaedra": {
-   "sp": 288,
+   "sp": 335,
    "gp": 150,
-   "cp": 362
+   "cp": 419
   },
   "varro": {
-   "sp": 253,
-   "gp": 150,
-   "cp": 329
+   "sp": 260,
+   "gp": 3927,
+   "cp": 337
   },
   "hrodvar": {
-   "sp": 240,
-   "gp": 150,
-   "cp": 296
+   "sp": 247,
+   "gp": 3927,
+   "cp": 304
   },
   "aelia": {
-   "cp": 352,
-   "sp": 266,
+   "cp": 409,
+   "sp": 313,
    "gp": 150
   },
   "marcellus": {
-   "cp": 292,
-   "sp": 219,
-   "gp": 150
+   "cp": 300,
+   "sp": 226,
+   "gp": 3927
   },
   "gnaeus": {
-   "cp": 75,
-   "sp": 54,
-   "gp": 2
+   "cp": 83,
+   "sp": 61,
+   "gp": 3779
   },
   "body:ottar": {
    "cp": 9,
@@ -113326,7 +117042,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 925515,
+   "gp": 703581,
    "cp": 6,
    "sp": 4
   },
@@ -113347,9 +117063,9 @@
    "sp": 50
   },
   "cotta": {
-   "cp": 198,
-   "sp": 145,
-   "gp": 150
+   "cp": 240,
+   "sp": 177,
+   "gp": 278
   },
   "body:iulia": {
    "cp": 251,
@@ -113357,9 +117073,12 @@
    "gp": 150
   },
   "tiberius-maro": {
-   "gp": 150,
-   "cp": 47,
-   "sp": 30
+   "gp": 140,
+   "cp": 78,
+   "sp": 57
+  },
+  "bottomless-bag": {
+   "pp": 20000
   }
  },
  "rolls": {
