@@ -147,6 +147,8 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
   --source "<module page>"`. `round-next` then rolls the save at the start of each creature's own initiative when it
   is within the radius of a source by the recorded distances (or on the list: `state aura hears <name> ID,…`): never
   roll these by hand, and record distances so the engine knows who is in range.
+  A fear aura (MM): `--fail cowering:1 --immune-turns 1` (cowers to its next round; a creature that saves is immune
+  for a turn and is not asked again; engine 7.19.21). A condition with no rounds lasts until removed.
 
 ## Wounds
 - A PC or henchman at 0 hp or less is unconscious (the line says so; a henchman at 0 hp also needs a loyalty roll
