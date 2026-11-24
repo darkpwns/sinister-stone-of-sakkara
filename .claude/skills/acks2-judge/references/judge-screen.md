@@ -125,6 +125,19 @@ choice or when injuries make adventuring unlikely.
   1d6, none above; class VI: divine 1st 2d4, 2nd 1d6), 5 / 10 / 45 / 185 / 900gp by level; recruit the caster by
   reaction; never for the opposite alignment; double for other faiths (`acks.sh spellcasting`).
 
+## 9a. Domains (engine 7.19.5; RR Domains and Realms, Keeping the Peace, Experience from Domains)
+- The domain is a record in `Campaign/domain-state.json` (config `tools.domain_state`): `acks.sh domain init <id>
+  --ruler <actor> --classification outlands --hexes 26.19 --families N land=26.19:8 ruler_level=8 cha_mod=-1
+  ruler_alignment=neutral domain_alignment=lawful stronghold_value=24000 stronghold_min=30000 garrison_by_wages=yes
+  additional_troops_gp=16 base=1 current=1 xp_deduction_gp=81`; changes with `domain set <id> FIELD=VALUE`
+  (`project=NAME:COST:GP_PER_DAY[:DONE]` for construction).
+- Each month's end: `acks.sh domain month <id> [--administered] [--adventured] [--investment GP --overseen]
+  [--mod NAME:N] [--repress GP] [--calamity N] --apply`: revenue, expenses, income, personal authority, base and
+  current morale (the roll hidden), the morale level's effects, families (natural 1d10!, the morale dice, investment,
+  prestige only when secure and the ruler adventured; the limit per hex), domain XP above the threshold, construction
+  progress; `--apply` writes it and the coins (the ruler receives the revenue and pays the expenses). The hex adapter
+  can read the domains' hexes from this file (`hexes.domains: {file: Campaign/domain-state.json}`).
+
 ## 10. What modules leave to the Judge (decide by a hidden roll or a recorded call, before it matters)
 - Where a named NPC is now (lair, patrol, absent): set odds from the text ("most of her time" = 5 in 6 after an alarm).
 - Whether guards or undead are alerted by a fight elsewhere, and how many rounds they take to arrive.

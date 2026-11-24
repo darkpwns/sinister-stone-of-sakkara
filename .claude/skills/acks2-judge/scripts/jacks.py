@@ -75,6 +75,7 @@ def context():
         "aliases": jlib.path("Campaign/campaign.yaml") if (t.get("class_aliases") or t.get("race_aliases")) else "",
         "lessons": lessons if os.path.exists(lessons) else "",
         "schedule": schedule if os.path.exists(schedule) else "",
+        "dstate": jlib.path(t.get("domain_state", "Campaign/domain-state.json")),
     }
 
 
@@ -117,6 +118,8 @@ def extra_for(ctx, cmd, args):
         pass
     elif cmd in ("lesson", "schedule", "compact"):
         ex += ["--xstate", X]
+    elif cmd == "domain":
+        ex += ["--xstate", X, "--dstate", ctx["dstate"]]
     elif cmd in STAGE2:
         ex += ["--state", S, "--xstate", X] + (["--retinue", R] if cmd == "walk" else [])
     elif cmd in ("evade", "pursue"):
