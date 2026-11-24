@@ -4788,3 +4788,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 609 |  | treasure share |  | 400gp |  | phaedra |
 | 609 |  | treasure share |  | 800gp |  | neris |
 | 609 | the retinue | wages paid |  |  | 800gp | vettius |
+| 611 | Cyfaraun (Market) | torch | 6 |  | 1sp | aelia |
+| 611 | Cyfaraun (Market) | torch | 6 |  | 1sp | phaedra |
