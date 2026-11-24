@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 570
-  time: 06:39
+    day: 572
+  time: '23:39'
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -27,7 +27,7 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 14.784
+    encumbrance_st: 14.78
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
@@ -133,7 +133,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 570
+clock_day: 572
 ---
 # Campaign State
 

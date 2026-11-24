@@ -4569,3 +4569,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 570 | the venture company (her half) | month 19 income (Rulings S19) |  | 2,750gp |  | lucilla |
 | 570 | the syndicate (the Family and Sand & Bones) and the Pony's honest trade | month 19 take: syndicate 16,934 (17,747 less Turpio 4th 425, Plautus 4th 425, double agents #3 #4 #5 0th 3; plus eight 1st-level thieves of day 545, 40) + the Pony's half 1,624 (AX3 p. 75; RR Monthly Member Tribute; Rulings S19, S22, S25) |  | 18,558gp |  | vettius |
 | 570 | the Tower | month 19 dues (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
+| 572 | Tertulla | the black barge's mooring, a fortnight ahead (to day 587) |  |  | 4gp | lucilla |
