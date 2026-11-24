@@ -102,19 +102,15 @@ public:
   rations: 'Cotta: food 3 d, water 2.8 d; Brennus: food 3 d, water 3.4 d; Ennia Ursa: food 14 d, water 0.2 d; Vettius: food 0 d, water 0.4 d; Lucilla: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Tiberius Maro: food 0 d, water 1.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - 'The Great Teacher is dead (day 614, the drowned cellar under the Citadel): his hilt, his grey silk suit, three strange syringes, his robe and jewelled belt are ours, and his little device (empty: it runs on orange crystals)'
-  - The troglodyte shaman, freed of his spell, will guide us to the magic rock when we bring gifts for her tribe
-  - The Regent of the Tower holds the Teacher's canister and was cold to Vestus
-  - 'The Order (day 614): a sellsword of the Fish Market wharves (Lucilla), a hedge-witch of the reed-beds (Vettius), a wise-woman with a crow (Neris), a herb-seller of the night market (Brennus)'
-  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
-  - 'Tiberius Maro, Vettius'' crusader, is Captain of the Underwatch (day 528): spear, shield and the Rod of the Dawn; the company lodges at the Citadel again'
-  - A wine-factor, Gaius Sertorius Macro, asked the Brotherhood for the Captain's death (day 534); Destrio entered his name in the Codex
-  - 'The Family''s traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head'
-  - 'Below: N and O are empty; the sealed cases (F17: the egg-bulbs wake the Great Teacher); J8''s throne; L4''s platform; the serpent door and the bronze door off the lizard-men''s tunnel'
-  - 'The Order: the month-18 contracts are done (Corvo, Ruga, Ammia Thrax, Faustus Cerco)'
-  - The dark crystal from the golden-skull shrine is at the Tower for identification (ready day 547)
-  - 'The Watch: an officer came about the herb-wife found in the Eastgate meadows (day 533) and left unsatisfied'
-  - The black barge at Tertulla's landing, paid to day 545
+  - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
+  - 'The fort (seen day 673): a horn and watchers on the gate tower, many fires; the ford people speak of thirty and more warriors with bows, two great bears, and the ferryman''s boy Lucius taken alive in the autumn'
+  - 'Vestus vanished from his workshop on day 664 in a fold of grey light; the Revered Mother says his line is not closed: look for him where he last worked, when the thaw comes'
+  - 'Phaedra left Vettius on the night of day 670, unpaid and furious, with her scroll; she goes to the Prefect''s examiner Plautius, who has questioned Vettius'
+  - 'The Revered Mother''s charge to Neris (day 680): give the legion''s dead in the fort rites when it is ours'
+  - 'Devil boars on the Imperial road near 26.14-27.16: one killed (it died a fat man), two more walk the road'
+  - 'Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; the lieutenant who runs the street work has been seen with the Gilded Ram''s people and will not run it in spring'
+  - 'Free of the Order of the Eclipse since day 629; Destrio''s people have been seen near the Plaza District Watch house'
+  - 'The workshop in the Pony''s back house: Neris brews potions of healing there'
   trail:
   - '25.19'
   - '26.18'
