@@ -4749,3 +4749,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 2,066gp 6sp 7cp |  | phaedra |
 | 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 2,066gp 6sp 7cp |  | tiberius-maro |
 | 602 | Tertulla | the black barge's mooring, a fortnight ahead (to day 615) |  |  | 4gp | lucilla |
+| 602 | the Order of the Eclipse (Destrio) | Judge's correction S42 (user's clarification): Pullus was not killed, so no blood-price was asked: the 2,500gp of day 598 reversed |  | 2,500gp |  | vettius |
+| 602 | the syndicate | Judge's correction S42: month 20's take was 18,132gp, not 18,123 (no purge deaths: +3 for the three 0th-level men, +5 for Pullus, +1 for the day-554 turncoat) |  | 9gp |  | vettius |

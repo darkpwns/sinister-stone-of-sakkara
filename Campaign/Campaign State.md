@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 13.888
+    encumbrance_st: 16.397
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc

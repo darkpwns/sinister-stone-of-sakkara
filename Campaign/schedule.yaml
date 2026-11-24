@@ -296,14 +296,26 @@ items:
   steps: ["the magic research throw as on day 547 (`roll \"Vestus' Fireball scroll throw:1d20-1\"` vs 13+; Rulings S35); success: `recover --item` a custom scroll lot as on day 547 (no XP; month-end research XP counts the 1,500gp); failure: the materials lost", "research days are dedicated: Vestus does no Order work or delve days 584-590 (Rulings S35)"]
   source: "World State day 584; precedent day 547; Rulings S35"
 
-- id: weekly-purge
-  title: "Weekly: Vettius' purge (Rulings S42): the canary trap for the untraced wharf betrayers (three on day 597), and whether the purge becomes common talk"
+- id: weekly-double-agents
+  title: "Weekly: the turned-hesitant double agents (none hesitant now: the S&B turncoat, the day-484 man, the day-526 man, Pullus and the day-554 turncoat (turned day 597) hold without rolling)"
+  every: 7
+  anchor: 477
+  from: 484
+  who: []
+  rolls:
+  - {label: "{who} runs", dice: 1d6, outcomes: {"1": "runs", "2-6": "holds"}}
+  steps:
+  - "only a hesitant (6-8) result rolls weekly; one who holds (9+) does not (Rulings S29)"
+  - "a 1: he tries to leave the city: the Family's knives catch and kill him on 1-4 on 1d6 (Rulings S42), else he is gone and his last buyer learns the tales were the Family's (Rulings S29)"
+  source: "Rulings S25 (row 159), S29, S42; World State"
+
+- id: weekly-canary
+  title: "Weekly: Vettius' canary trap for the untraced wharf betrayers (three on day 597) (Rulings S42)"
   every: 7
   anchor: 596
   from: 603
-  rolls:
-  - {label: "the purge becomes common talk", dice: 1d6, outcomes: {"1": "common talk: members' morale -1, the hesitant lose +1 for three weeks", "2-6": "not yet"}}
   steps:
-  - "canary trap: each untraced betrayer sells on 1-2 on 1d6 within 1d3 days; traced by the spies (1-3 each); killed: runs on 1, body found on 1 (Rulings S42)"
-  - "each death of the week: one extra 1-in-6 Brotherhood-seeker roll the next week; take off the month's tribute by level"
-  source: "Rulings S42; World State day 596"
+  - "each untraced betrayer sells a planted tale on 1-2 on 1d6 within 1d3 days; a sale is traced by each spy on 1-3 (spy count in World State)"
+  - "traced: the choice 2d6+2: 9+ turned and holds; 6-8 turned, hesitant (into weekly-double-agents); 5- cannot be turned: killed (body found on 1 on 1d6: an extra Watch roll; an extra 1-in-6 Brotherhood-seeker roll the next week; tribute off the take)"
+  - "in a week with a killing: 1-in-6 it becomes common talk (members' morale -1, the hesitant lose +1 for three weeks)"
+  source: "Rulings S20, S42"
