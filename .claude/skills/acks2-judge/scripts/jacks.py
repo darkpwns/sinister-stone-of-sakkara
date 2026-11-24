@@ -122,8 +122,8 @@ def extra_for(ctx, cmd, args):
         ex += ["--xstate", X]
     elif cmd == "domain":
         ex += ["--xstate", X, "--dstate", ctx["dstate"]]
-    elif cmd in ("capture", "train"):
-        ex += ["--xstate", X] + (["--state", S] if cmd == "capture" else [])
+    elif cmd in ("capture", "train", "harvest", "components"):
+        ex += ["--xstate", X] + (["--state", S] if cmd in ("capture", "harvest") else [])
     elif cmd in STAGE2:
         ex += ["--state", S, "--xstate", X] + (["--retinue", R] if cmd == "walk" else [])
     elif cmd in ("evade", "pursue"):

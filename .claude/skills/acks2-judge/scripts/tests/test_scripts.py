@@ -297,3 +297,11 @@ def test_capture_and_train_get_the_training_state(camp):
     assert f"--xstate {C}/exploration-state.json --state {C}/combat-state.json" in line
     env, line = argv_of(camp, "train", "show")
     assert f"--xstate {C}/exploration-state.json" in line and "--state " not in line
+
+
+def test_harvest_gets_the_fight_and_the_clock(camp):
+    """Engine 7.21 (S54 G): harvest reads the slain foe from the combat state and advances the clock."""
+    C = os.path.join(camp, "Campaign")
+    env, line = argv_of(camp, "harvest", "med", "--by", "M")
+    assert f"--xstate {C}/exploration-state.json --state {C}/combat-state.json" in line
+    assert env["ACKS_INV_ASTATE"] and env["ACKS_ISTATE"]
