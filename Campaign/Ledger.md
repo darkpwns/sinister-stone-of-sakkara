@@ -4704,3 +4704,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 583 |  | treasure share |  | 388gp 5sp 7cp |  | cotta |
 | 583 |  | treasure share |  | 194gp 2sp 9cp |  | aelia |
 | 583 |  | treasure share |  | 194gp 2sp 9cp |  | tiberius-maro |
+| 584 | the Tower's suppliers | material cost, scroll of Fireball (RR Creating Magic Items: 500gp x 3; paid at the start), the Tower's Arcane Workshop, day 584 |  |  | 1,500gp | vestus-the-unlikely |
+| 588 | Tertulla | the black barge's mooring, a fortnight ahead (to day 601) |  |  | 4gp | lucilla |
+| 588 | the retinue | wages paid |  |  | 200gp | vettius |

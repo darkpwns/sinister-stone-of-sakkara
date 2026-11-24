@@ -216,8 +216,8 @@ items:
   source: "RR Thief (Hideout, 9th level); rolls S34 day 523"
 
 - id: barge-mooring
-  title: Tertulla's mooring fee for the black barge (2gp a week, paid a fortnight ahead; paid to day 587)
-  day: 588
+  title: Tertulla's mooring fee for the black barge (2gp a week, paid a fortnight ahead; paid to day 601)
+  day: 602
   steps: ["Lucilla pays 4gp for the next two weeks (`inv pay lucilla 4gp --to \"Tertulla, Lake Laman fisherwoman\" --cause \"mooring the black barge, days N-N+13\"`); then move this item's day on 14 days"]
   source: "World State Vessels; inventory log days 308-421; user's correction S33 (the company keeps it paid)"
 
@@ -319,3 +319,9 @@ items:
   day: 595
   steps: ["`identify L832 --by vettius --method judge --reveal ...` from SOTN Magic Items (Wolf-Spear of the Hunter, SOTN p. 136); carrier back to Vettius (`recover --give L832 --carrier vettius`)"]
   source: "World State day 581; precedent day 570 (L822/L824)"
+
+- id: vestus-fireball-scroll-584
+  title: "Vestus' scroll of Fireball in the Tower's workshop (begun day 584; 1,500gp paid; workshop crowded: four researchers, +0) is done"
+  day: 591
+  steps: ["the magic research throw as on day 547 (`roll \"Vestus' Fireball scroll throw:1d20-1\"` vs 13+; Rulings S35); success: `recover --item` a custom scroll lot as on day 547 (no XP; month-end research XP counts the 1,500gp); failure: the materials lost", "research days are dedicated: Vestus does no Order work or delve days 584-590 (Rulings S35)"]
+  source: "World State day 584; precedent day 547; Rulings S35"
