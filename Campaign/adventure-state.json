@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 129,
-  "L": 825,
+  "L": 826,
   "H": 137,
   "M": 246
  },
@@ -19,12 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 182126,
     "level_before": 8,
     "class": "Venturer",
-    "joined_day": 559
+    "joined_day": 559,
+    "xp_award": 487
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 199327,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 559
+    "joined_day": 559,
+    "xp_award": 465
    },
    "brennus": {
     "id": "brennus",
@@ -49,12 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 149644,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 559
+    "joined_day": 559,
+    "xp_award": 465
    },
    "phaedra": {
     "id": "phaedra",
@@ -64,12 +67,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 58986,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 559
+    "joined_day": 559,
+    "xp_award": 221
    }
   },
   "monsters": [
@@ -89,8 +93,63 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 561,
+   "at": null,
+   "total": 1550.0,
+   "per_share": 442.85714285714283,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 443,
+     "pct": 10,
+     "pen": 0,
+     "award": 487,
+     "xp_before": 182126,
+     "xp_after": 182613,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 443,
+     "pct": 5,
+     "pen": 0,
+     "award": 465,
+     "xp_before": 199327,
+     "xp_after": 199792,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 443,
+     "pct": 5,
+     "pen": 0,
+     "award": 465,
+     "xp_before": 149644,
+     "xp_after": 150109,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 221,
+     "pct": 0,
+     "pen": 0,
+     "award": 221,
+     "xp_before": 58986,
+     "xp_after": 59207,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -76030,6 +76089,39 @@
    },
    "judge": [],
    "divided_day": 555
+  },
+  "L826": {
+   "id": "L826",
+   "adventure": "A129",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "lucilla",
+   "status": "divided",
+   "found": {
+    "day": 561,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0,
+    "name": "reward 1500.0gp"
+   },
+   "player": {
+    "desc": "reward of 1500.0gp",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 561
   }
  },
  "hoards": {

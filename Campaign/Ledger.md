@@ -663,6 +663,7 @@ tags:
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | five warm orange crystals, loaded in the lance | 2,500 | brennus |
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Arcane Sword | 100 | vestus-the-unlikely |
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | the Teacher's metal canister (dented, its hatch sprung; carried by three: Hrodvar, Tiberius, Cotta) | 7,500 | sold |
+| 561 | Order contract: Rufus Calenus (Lucilla) | reward 1500.0gp | 1,500 | lucilla |
 
 ## Monster XP
 
@@ -850,6 +851,7 @@ tags:
 | 531 | Order contract: Decimus Ruga (Brennus) | Decimus Ruga | 1 | 10 | 10 |
 | 533 | Order contract: Ammia Thrax (Vettius) | Ammia Thrax | 1 | 80 | 80 |
 | 540 | Order contract: Faustus Cerco (Vettius) | Faustus Cerco | 1 | 10 | 10 |
+| 561 | Order contract: Rufus Calenus (Lucilla) | Rufus Calenus | 1 | 50 | 50 |
 
 ## Shares and XP awarded
 
@@ -1713,6 +1715,10 @@ tags:
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Phaedra | 0.5 | 645 | 0 | 0 | +0% | 645 |
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Hrodvar | 0.5 | 645 | 0 | 0 | -20% | 516 |
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | Tiberius Maro | 0.5 | 645 | 0 | 0 | +0% | 645 | | NOTE: Tampering with Mortality XP penalty -10% until the next level / permanent wound: -10% earned XP (Mortal Wounds, its condition) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 561 | Order contract: Rufus Calenus (Lucilla) | Lucilla | 1 | 429 | 14 | 0 | +10% | 487 |
+| 561 | Order contract: Rufus Calenus (Lucilla) | Vettius | 1 | 429 | 14 | 0 | +5% | 465 |
+| 561 | Order contract: Rufus Calenus (Lucilla) | Brennus | 1 | 429 | 14 | 0 | +5% | 465 |
+| 561 | Order contract: Rufus Calenus (Lucilla) | Phaedra | 0.5 | 214 | 7 | 0 | +0% | 221 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4501,3 +4507,9 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 556 | the Tower (identification) | identification of L822 and L824 by the Tower's magic research (2,000gp each, as day 519), ready day 570 |  |  | 4,000gp | vestus-the-unlikely |
 | 556 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 6sp 2cp | vettius |
 | 558 | the Order of the Eclipse (blood-price to Sextus Varo's brother) | Rulings S28: a Family member's petition (Vibius Turpio, Thief 4): 500gp a level; Turpio exiled with a purse |  |  | 2,000gp | vettius |
+| 560 | Tertulla | the black barge's mooring, a fortnight ahead (days 560-573) |  |  | 4gp | lucilla |
+| 561 |  | treasure share |  | 428gp 5sp 7cp |  | lucilla |
+| 561 |  | treasure share |  | 428gp 5sp 7cp |  | vettius |
+| 561 |  | treasure share |  | 428gp 5sp 7cp |  | brennus |
+| 561 |  | treasure share |  | 214gp 2sp 9cp |  | phaedra |
+| 562 | the Grey Sisters (vault) | vault fee, a month ahead (days 563-592; Rulings S11) |  |  | 10gp | lucilla |
