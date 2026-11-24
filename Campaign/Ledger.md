@@ -699,6 +699,11 @@ tags:
 | 606 | Order contract: Marcus Galeo (Brennus) | reward 1500.0gp | 1,500 | brennus |
 | 609 | Order contract: Lucius Caper (Vettius) | reward 2000.0gp | 2,000 | vettius |
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | SOTN Khepri Neural Scrambler | 100 | vestus-the-unlikely |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | SOTN Arcane Sword | 100 | vestus-the-unlikely |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | SOTN Silkweave Suit | 100 | vettius |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | SOTN Anagathic | 100 | neris |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | SOTN Healing Syringe | 100 | neris |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | jewelry worth 15000.0gp | 15,000 | lucilla |
 
 ## Monster XP
 
@@ -906,6 +911,7 @@ tags:
 | 609 | Order contract: Lucius Caper (Vettius) | Lucius Caper | 1 | 80 | 80 |
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Troglodyte | 31 | 20 | 620 |
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Skeleton | 7 | 13 | 91 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Great Teacher (SOTN) | 1 | 5,000 | 5,000 |
 
 ## Shares and XP awarded
 
@@ -1856,6 +1862,15 @@ tags:
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Aelia | 0.5 | 7 | 47 | 0 | +0% | 54 |
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Tiberius Maro | 0.5 | 7 | 47 | 0 | +0% | 54 |
 | 611 | A142 descent 85: the hunt for the Great Teacher (I) | Phaedra | 0.5 | 7 | 47 | 0 | +0% | 54 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Vettius | 1 | 2,053 | 667 | 0 | +5% | 2,856 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Vestus the Unlikely | 1 | 2,053 | 667 | 0 | +5% | 2,856 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Lucilla | 1 | 2,053 | 667 | 0 | +10% | 2,992 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Cotta | 1 | 2,053 | 667 | 0 | +0% | 2,720 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Brennus | 1 | 2,053 | 667 | 0 | +5% | 2,856 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Neris | 1 | 2,053 | 667 | 0 | +0% | 2,720 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Aelia | 0.5 | 1,027 | 333 | 0 | +0% | 1,360 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Tiberius Maro | 0.5 | 1,027 | 333 | 0 | +0% | 1,360 |
+| 614 | A143 the drowned cellar under the Citadel: the Teacher | Phaedra | 0.5 | 1,027 | 333 | 0 | +0% | 1,360 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4811,3 +4826,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 611 |  | treasure share |  |  |  |  |
 | 611 |  | treasure share |  |  |  |  |
 | 611 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |
+| 614 |  | treasure share |  |  |  |  |

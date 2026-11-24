@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 611
-  time: '14:12'
+    day: 614
+  time: 05:15
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 40
+    hp: 42
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -31,11 +31,11 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 29
+    hp: 32
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 13.066
+    encumbrance_st: 12.9
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -43,7 +43,6 @@ public:
     hp_max: 18
     conditions: []
     spells_used:
-    - Fireball
     - Bewitch Monster
     encumbrance_st: 4.981
   - name: Neris
@@ -55,8 +54,7 @@ public:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used:
-    - Holy Blessing
-    - Slumber
+    - Word of Command
     encumbrance_st: 6.527
   - name: Brennus
     sheet: Characters/brennus.json
@@ -90,7 +88,7 @@ public:
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 15
+    hp: 19
     hp_max: 19
     conditions: []
     spells_used: []
@@ -98,22 +96,25 @@ public:
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
-    hp: 15
+    hp: 18
     hp_max: 18
     conditions: []
     spells_used: []
     encumbrance_st: 11.727
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
   rations: 'Vettius: food 6 d, water 3 d; Vestus the Unlikely: food 6 d, water 2.8 d; Lucilla: food 6 d, water 3 d; Cotta: food 6 d, water 2.8 d; Brennus: food 6 d, water 3.4 d; Neris: food 6 d, water 3.2 d; Aelia: food 6 d, water 3 d; Tiberius Maro: food 6 d, water 3.2 d; Phaedra: food 6 d, water 3 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
+  - 'The Great Teacher is dead (day 614, the drowned cellar under the Citadel): his hilt, his grey silk suit, three strange syringes, his robe and jewelled belt are ours, and his little device (empty: it runs on orange crystals)'
+  - The troglodyte shaman, freed of his spell, will guide us to the magic rock when we bring gifts for her tribe
+  - The Regent of the Tower holds the Teacher's canister and was cold to Vestus
+  - 'The Order (day 614): a sellsword of the Fish Market wharves (Lucilla), a hedge-witch of the reed-beds (Vettius), a wise-woman with a crow (Neris), a herb-seller of the night market (Brennus)'
   - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; Thana runs the Pony's honest trade; Lucilla keeps The Mink
   - 'Tiberius Maro, Vettius'' crusader, is Captain of the Underwatch (day 528): spear, shield and the Rod of the Dawn; the company lodges at the Citadel again'
   - A wine-factor, Gaius Sertorius Macro, asked the Brotherhood for the Captain's death (day 534); Destrio entered his name in the Codex
   - 'The Family''s traitors on the wharves: fifteen in the river, some still unknown; a wagging tongue means a rolling head'
   - 'Below: N and O are empty; the sealed cases (F17: the egg-bulbs wake the Great Teacher); J8''s throne; L4''s platform; the serpent door and the bronze door off the lizard-men''s tunnel'
-  - The troglodyte shaman will guide us to the magic rock in the cavern of the ants
   - 'The Order: the month-18 contracts are done (Corvo, Ruga, Ammia Thrax, Faustus Cerco)'
   - The dark crystal from the golden-skull shrine is at the Tower for identification (ready day 547)
   - 'The Watch: an officer came about the herb-wife found in the Eastgate meadows (day 533) and left unsatisfied'
@@ -139,7 +140,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 611
+clock_day: 614
 ---
 # Campaign State
 
