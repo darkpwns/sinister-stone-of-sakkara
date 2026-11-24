@@ -1,23 +1,20 @@
 {
  "schema": "acks-combat/3",
- "round": 2,
+ "round": 4,
  "order": [
   "brennus",
+  "tiberius-maro",
+  "giant-fly2",
+  "vettius",
   "neris",
   "cotta",
   "aelia",
-  "cave-gorilla6",
-  "vettius",
+  "giant-fly1",
+  "giant-fly3",
   "vestus-the-unlikely",
-  "cave-gorilla2",
-  "lucilla",
-  "cave-gorilla5",
-  "cave-gorilla7",
-  "tiberius-maro",
-  "cave-gorilla4",
-  "phaedra"
+  "lucilla"
  ],
- "count_index": 13,
+ "count_index": 10,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -33,13 +30,11 @@
    "group": "vettius",
    "perceived": "Vettius",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 1,
+   "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -270,10 +265,10 @@
    },
    "actor": "vettius",
    "hp_max": 32,
-   "hp": 30,
-   "hp_start": 32,
-   "attacked_round": 2,
-   "acted_round": 2
+   "hp": 13,
+   "hp_start": 13,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "vestus-the-unlikely": {
    "id": "vestus-the-unlikely",
@@ -283,11 +278,13 @@
    "group": "vestus-the-unlikely",
    "perceived": "Vestus the Unlikely",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    4
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -464,9 +461,9 @@
    },
    "actor": "vestus-the-unlikely",
    "hp_max": 18,
-   "hp": 18,
-   "hp_start": 18,
-   "acted_round": 2
+   "hp": 4,
+   "hp_start": 12,
+   "acted_round": 4
   },
   "lucilla": {
    "id": "lucilla",
@@ -478,15 +475,11 @@
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [
-    1,
-    1,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -681,10 +674,9 @@
    },
    "actor": "lucilla",
    "hp_max": 42,
-   "hp": 34,
-   "hp_start": 42,
-   "attacked_round": 2,
-   "acted_round": 2
+   "hp": 23,
+   "hp_start": 23,
+   "attacked_round": 4
   },
   "cotta": {
    "id": "cotta",
@@ -694,14 +686,11 @@
    "group": "cotta",
    "perceived": "Cotta",
    "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 5,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -867,18 +856,6 @@
        "long": 360
       },
       "held": "belt"
-     },
-     {
-      "name": "Long Bow +1",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "back"
      }
     ],
     "save_mods_text": {},
@@ -904,10 +881,10 @@
    },
    "actor": "cotta",
    "hp_max": 19,
-   "hp": 15,
-   "hp_start": 19,
-   "attacked_round": 2,
-   "acted_round": 2
+   "hp": 11,
+   "hp_start": 11,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "brennus": {
    "id": "brennus",
@@ -919,11 +896,9 @@
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
    "init": 7,
    "nonlethal": 0,
@@ -1130,10 +1105,10 @@
    },
    "actor": "brennus",
    "hp_max": 35,
-   "hp": 34,
-   "hp_start": 35,
-   "attacked_round": 2,
-   "acted_round": 2
+   "hp": 13,
+   "hp_start": 13,
+   "attacked_round": 4,
+   "acted_round": 4
   },
   "neris": {
    "id": "neris",
@@ -1143,11 +1118,14 @@
    "group": "neris",
    "perceived": "Neris",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    2,
+    4
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1391,9 +1369,9 @@
    },
    "actor": "neris",
    "hp_max": 21,
-   "hp": 21,
+   "hp": 15,
    "hp_start": 21,
-   "acted_round": 2
+   "acted_round": 4
   },
   "aelia": {
    "id": "aelia",
@@ -1407,7 +1385,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1551,6 +1529,18 @@
     "movement_running": 30,
     "weapons": [
      {
+      "name": "Composite Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "right hand, two-handed"
+     },
+     {
       "name": "Short Sword",
       "init_bonus": "",
       "attack_throw": 5,
@@ -1560,7 +1550,7 @@
        "medium": 0,
        "long": 0
       },
-      "held": "right hand"
+      "held": "belt"
      },
      {
       "name": "Short Bow",
@@ -1585,18 +1575,6 @@
        "long": 20
       },
       "held": "belt"
-     },
-     {
-      "name": "Composite Bow +1",
-      "init_bonus": "",
-      "attack_throw": 5,
-      "damage": "1d6+4",
-      "range": {
-       "short": 120,
-       "medium": 240,
-       "long": 360
-      },
-      "held": "back"
      },
      {
       "name": "Short Sword (silvered)",
@@ -1636,29 +1614,13 @@
    "hp_max": 23,
    "hp": 23,
    "hp_start": 23,
-   "attacked_round": 1,
-   "acted_round": 2
+   "acted_round": 4
   },
   "tiberius-maro": {
    "id": "tiberius-maro",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "defending",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 2,
-     "note": "shield"
-    },
-    {
-     "name": "defended",
-     "source": "tiberius-maro",
-     "rounds_left": null,
-     "since_round": 2,
-     "note": "shield"
-    }
-   ],
+   "conditions": [],
    "group": "tiberius-maro",
    "perceived": "Tiberius Maro",
    "judge_set": {},
@@ -1666,7 +1628,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1853,7 +1815,7 @@
    "hp_max": 5,
    "hp": 5,
    "hp_start": 5,
-   "acted_round": 2
+   "acted_round": 4
   },
   "phaedra": {
    "id": "phaedra",
@@ -1863,11 +1825,24 @@
    "group": "phaedra",
    "perceived": "Phaedra",
    "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
+   "hp_lost_rounds": [
+    1,
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "acidic"
+    ],
+    "natural": true,
+    "by": "giant-fly1",
+    "tier": "mundane",
+    "nonlethal": false
+   },
    "cleaves_used": 0,
    "declared": {},
-   "init": 0,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2066,11 +2041,20 @@
    },
    "actor": "phaedra",
    "hp_max": 20,
-   "hp": 20,
-   "hp_start": 20
+   "hp": 1,
+   "hp_start": 13,
+   "mortal_wounds": {
+    "total": 19,
+    "d20": 15,
+    "d6": 1,
+    "table": "mortal-wounds-acid-electrical-fire-luminous",
+    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of rest.",
+    "wound": "Your face melts like wax and chars like beef in the flame (gruesome scarring).",
+    "band": "16-20"
+   }
   },
-  "cave-gorilla1": {
-   "id": "cave-gorilla1",
+  "giant-fly1": {
+   "id": "giant-fly1",
    "side": "foe",
    "status": "dead",
    "conditions": [
@@ -2078,21 +2062,18 @@
      "name": "unconscious",
      "source": null,
      "rounds_left": null,
-     "since_round": 1,
+     "since_round": 4,
      "note": null
     }
    ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 1",
-   "judge_set": {
-    "attack_throw": "7"
-   },
+   "group": "giant-fly",
+   "perceived": "huge buzzing flies 1",
+   "judge_set": {},
    "hp_lost_rounds": [
-    1,
-    1
+    4
    ],
    "felled": {
-    "round": 1,
+    "round": 4,
     "types": [
      "slashing"
     ],
@@ -2103,143 +2084,42 @@
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Cave Gorilla",
-   "stats": {},
-   "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
-   },
-   "hp_max": 22,
-   "hp": -5,
-   "hp_start": 22,
-   "mortal_wounds": {
-    "total": -5,
-    "d20": 1,
-    "d6": 1,
-    "table": "mortal-wounds-slashing",
-    "condition": "You were instantly killed.",
-    "wound": "Your body lies cleaved in two, and the halves lay entangled like conjoined twins in bloody embrace.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M253",
-    "how": "killed",
-    "xp": 80
-   }
-  },
-  "cave-gorilla2": {
-   "id": "cave-gorilla2",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [
-    {
-     "name": "cowering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 2,
-     "note": "engaged: cowers until it can flee with defensive movement"
-    }
-   ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 2",
-   "judge_set": {
-    "attack_throw": "7"
-   },
-   "hp_lost_rounds": [
-    1,
-    1,
-    2
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
    "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Cave Gorilla",
+   "name": "Giant Fly",
    "stats": {},
    "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
+    "base": "giant-fly",
+    "sha256": "e305ea4e96fda9234ce50bcbf72781e5d092499aa9b32c55482a531be060fd75"
    },
-   "hp_max": 17,
-   "hp": 5,
-   "hp_start": 17,
-   "attacked_round": 2,
-   "acted_round": 2,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "cave-gorilla3": {
-   "id": "cave-gorilla3",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 3",
-   "judge_set": {
-    "attack_throw": "7"
+   "hp_max": 9,
+   "hp": -5,
+   "hp_start": 9,
+   "attacked_round": 3,
+   "dying": {
+    "within": "round",
+    "since_round": 4,
+    "deadline_round": 5
    },
-   "hp_lost_rounds": [
-    1,
-    1
-   ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "piercing"
-    ],
-    "natural": false,
-    "by": "aelia",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Cave Gorilla",
-   "stats": {},
-   "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
-   },
-   "hp_max": 12,
-   "hp": -3,
-   "hp_start": 12,
    "mortal_wounds": {
-    "total": -2,
-    "d20": 6,
+    "total": 1,
+    "d20": 12,
     "d6": 3,
-    "table": "mortal-wounds-piercing",
-    "condition": "You were instantly killed.",
-    "wound": "Air wheezes from the hole in your chest as your lungs deflate for the last time.",
-    "band": "-5 to 0"
+    "table": "mortal-wounds-slashing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Both legs are hacked off (DEX reduced to 3 for AC purposes, two crutches required, movement reduced by 60', cannot force march).",
+    "band": "1-5"
    },
    "xp_recorded": {
-    "record": "M253",
+    "record": "M258",
     "how": "killed",
-    "xp": 80
+    "xp": 29
    }
   },
-  "cave-gorilla4": {
-   "id": "cave-gorilla4",
+  "giant-fly2": {
+   "id": "giant-fly2",
    "side": "foe",
    "status": "dead",
    "conditions": [
@@ -2247,189 +2127,123 @@
      "name": "unconscious",
      "source": null,
      "rounds_left": null,
-     "since_round": 2,
+     "since_round": 4,
      "note": null
     }
    ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 4",
-   "judge_set": {
-    "attack_throw": "7"
-   },
+   "group": "giant-fly",
+   "perceived": "huge buzzing flies 2",
+   "judge_set": {},
    "hp_lost_rounds": [
-    1,
-    2
+    4
    ],
    "felled": {
-    "round": 2,
+    "round": 4,
     "types": [
      "piercing",
      "slashing"
     ],
     "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
+    "by": "cotta",
+    "tier": "mundane",
     "nonlethal": false
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Cave Gorilla",
+   "name": "Giant Fly",
    "stats": {},
    "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
+    "base": "giant-fly",
+    "sha256": "e305ea4e96fda9234ce50bcbf72781e5d092499aa9b32c55482a531be060fd75"
    },
-   "hp_max": 15,
-   "hp": -3,
-   "hp_start": 15,
-   "attacked_round": 1,
+   "hp_max": 5,
+   "hp": -2,
+   "hp_start": 5,
+   "attacked_round": 4,
+   "acted_round": 4,
    "dying": {
-    "within": "day",
-    "since_round": 2
+    "within": "turn",
+    "since_round": 4
    },
    "mortal_wounds": {
-    "total": 14,
-    "d20": 20,
+    "total": 8,
+    "d20": 16,
     "d6": 1,
     "table": "mortal-wounds-slashing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "The slash cuts into your skull and your brain-fluid leaks out (-2 on magical research and proficiency throws, 10% penalty on earned XP).",
-    "band": "11-15"
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to saves vs. poison, chronic indigestion and flatulence give -4 to reaction rolls).",
+    "band": "6-10"
    },
    "xp_recorded": {
-    "record": "M253",
+    "record": "M258",
     "how": "killed",
-    "xp": 80
+    "xp": 29
    }
   },
-  "cave-gorilla5": {
-   "id": "cave-gorilla5",
+  "giant-fly3": {
+   "id": "giant-fly3",
    "side": "foe",
-   "status": "fled",
+   "status": "dead",
    "conditions": [
     {
-     "name": "cowering",
-     "source": "morale",
+     "name": "unconscious",
+     "source": null,
      "rounds_left": null,
-     "since_round": 2,
-     "note": "engaged: cowers until it can flee with defensive movement"
+     "since_round": 4,
+     "note": null
     }
    ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 5",
-   "judge_set": {
-    "attack_throw": "7"
+   "group": "giant-fly",
+   "perceived": "huge buzzing flies 3",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    4,
+    4
+   ],
+   "felled": {
+    "round": 4,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
    },
-   "hp_lost_rounds": [],
-   "felled": null,
    "cleaves_used": 0,
    "declared": {},
    "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Cave Gorilla",
+   "name": "Giant Fly",
    "stats": {},
    "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
+    "base": "giant-fly",
+    "sha256": "e305ea4e96fda9234ce50bcbf72781e5d092499aa9b32c55482a531be060fd75"
    },
-   "hp_max": 21,
-   "hp": 18,
-   "hp_start": 21,
-   "attacked_round": 2,
-   "acted_round": 2,
+   "hp_max": 10,
+   "hp": -1,
+   "hp_start": 10,
+   "attacked_round": 4,
+   "acted_round": 4,
+   "mortal_wounds": {
+    "total": -3,
+    "d20": 3,
+    "d6": 3,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You were instantly killed.",
+    "wound": "Your rib cage collapsed, leading to an agonizing death gasping for air from ruptured lungs.",
+    "band": "-5 to 0"
+   },
    "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "cave-gorilla6": {
-   "id": "cave-gorilla6",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [
-    {
-     "name": "cowering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 2,
-     "note": "engaged: cowers until it can flee with defensive movement"
-    }
-   ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 6",
-   "judge_set": {
-    "attack_throw": "7"
-   },
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Cave Gorilla",
-   "stats": {},
-   "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
-   },
-   "hp_max": 17,
-   "hp": 10,
-   "hp_start": 17,
-   "attacked_round": 2,
-   "acted_round": 2,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "cave-gorilla7": {
-   "id": "cave-gorilla7",
-   "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "slumbering",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "cave-gorilla",
-   "perceived": "shaggy white apes 7",
-   "judge_set": {
-    "attack_throw": "7"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Cave Gorilla",
-   "stats": {},
-   "monster": {
-    "base": "cave-gorilla",
-    "sha256": "90eb63f67f35b9aa418cfb43551fa6e303fd39bd7f596c67f76822f52e1c813c"
-   },
-   "hp_max": 20,
-   "hp": -20,
-   "hp_start": 20,
-   "attacked_round": 1,
-   "xp_recorded": {
-    "record": "M253",
+    "record": "M258",
     "how": "killed",
-    "xp": 80
+    "xp": 29
    }
   }
  },
@@ -2540,144 +2354,77 @@
     "rolls": [],
     "triggered": false
    },
-   "start_count": 1
+   "start_count": 1,
+   "felled_rounds": [
+    3
+   ]
   },
-  "cave-gorilla": {
+  "giant-fly": {
    "side": "foe",
    "members": [
-    "cave-gorilla1",
-    "cave-gorilla2",
-    "cave-gorilla3",
-    "cave-gorilla4",
-    "cave-gorilla5",
-    "cave-gorilla6",
-    "cave-gorilla7"
+    "giant-fly1",
+    "giant-fly2",
+    "giant-fly3"
    ],
    "morale": {
-    "state": "frightened",
-    "rolls": [
-     {
-      "round": 1,
-      "total": 8,
-      "result": "Fight On",
-      "reason": "1/3 of the group felled (3/7)"
-     },
-     {
-      "round": 2,
-      "total": 1,
-      "result": "Frightened Retreat",
-      "reason": "another member felled this round"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 2,
-    "first_round": 1
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
    },
-   "start_count": 7,
+   "start_count": 3,
    "felled_rounds": [
-    1,
-    1,
-    2
+    4,
+    4,
+    4
    ]
   }
  },
- "engaged": [
-  [
-   "cave-gorilla7",
-   "lucilla"
-  ]
- ],
+ "engaged": [],
  "engaged_at_round_start": [
   [
-   "cave-gorilla2",
-   "lucilla"
+   "giant-fly2",
+   "vestus-the-unlikely"
   ],
   [
-   "cave-gorilla4",
-   "vettius"
-  ],
-  [
-   "cave-gorilla5",
-   "cotta"
-  ],
-  [
-   "brennus",
-   "cave-gorilla6"
-  ],
-  [
-   "cave-gorilla7",
-   "lucilla"
+   "giant-fly3",
+   "neris"
   ]
  ],
  "distances": {
-  "cave-gorilla1|vettius": 70,
-  "cave-gorilla2|vettius": 70,
-  "cave-gorilla3|vettius": 70,
-  "cave-gorilla4|vettius": 5,
-  "cave-gorilla5|vettius": 70,
-  "cave-gorilla6|vettius": 70,
-  "cave-gorilla7|vettius": 70,
-  "cave-gorilla1|vestus-the-unlikely": 70,
-  "cave-gorilla2|vestus-the-unlikely": 70,
-  "cave-gorilla3|vestus-the-unlikely": 70,
-  "cave-gorilla4|vestus-the-unlikely": 70,
-  "cave-gorilla5|vestus-the-unlikely": 70,
-  "cave-gorilla6|vestus-the-unlikely": 70,
-  "cave-gorilla7|vestus-the-unlikely": 70,
-  "cave-gorilla1|lucilla": 70,
-  "cave-gorilla2|lucilla": 5,
-  "cave-gorilla3|lucilla": 70,
-  "cave-gorilla4|lucilla": 70,
-  "cave-gorilla5|lucilla": 70,
-  "cave-gorilla6|lucilla": 70,
-  "cave-gorilla7|lucilla": 5,
-  "cave-gorilla1|cotta": 70,
-  "cave-gorilla2|cotta": 70,
-  "cave-gorilla3|cotta": 70,
-  "cave-gorilla4|cotta": 70,
-  "cave-gorilla5|cotta": 5,
-  "cave-gorilla6|cotta": 70,
-  "cave-gorilla7|cotta": 70,
-  "brennus|cave-gorilla1": 5,
-  "brennus|cave-gorilla2": 70,
-  "brennus|cave-gorilla3": 70,
-  "brennus|cave-gorilla4": 70,
-  "brennus|cave-gorilla5": 70,
-  "brennus|cave-gorilla6": 5,
-  "brennus|cave-gorilla7": 70,
-  "cave-gorilla1|neris": 70,
-  "cave-gorilla2|neris": 70,
-  "cave-gorilla3|neris": 70,
-  "cave-gorilla4|neris": 70,
-  "cave-gorilla5|neris": 70,
-  "cave-gorilla6|neris": 70,
-  "cave-gorilla7|neris": 70,
-  "aelia|cave-gorilla1": 70,
-  "aelia|cave-gorilla2": 70,
-  "aelia|cave-gorilla3": 70,
-  "aelia|cave-gorilla4": 70,
-  "aelia|cave-gorilla5": 70,
-  "aelia|cave-gorilla6": 70,
-  "aelia|cave-gorilla7": 70,
-  "cave-gorilla1|tiberius-maro": 70,
-  "cave-gorilla2|tiberius-maro": 70,
-  "cave-gorilla3|tiberius-maro": 70,
-  "cave-gorilla4|tiberius-maro": 70,
-  "cave-gorilla5|tiberius-maro": 70,
-  "cave-gorilla6|tiberius-maro": 70,
-  "cave-gorilla7|tiberius-maro": 70,
-  "cave-gorilla1|phaedra": 70,
-  "cave-gorilla2|phaedra": 70,
-  "cave-gorilla3|phaedra": 70,
-  "cave-gorilla4|phaedra": 70,
-  "cave-gorilla5|phaedra": 70,
-  "cave-gorilla6|phaedra": 70,
-  "cave-gorilla7|phaedra": 70
+  "giant-fly1|vettius": 70,
+  "giant-fly2|vettius": 70,
+  "giant-fly3|vettius": 5,
+  "giant-fly1|vestus-the-unlikely": 70,
+  "giant-fly2|vestus-the-unlikely": 5,
+  "giant-fly3|vestus-the-unlikely": 70,
+  "giant-fly1|lucilla": 70,
+  "giant-fly2|lucilla": 70,
+  "giant-fly3|lucilla": 5,
+  "cotta|giant-fly1": 70,
+  "cotta|giant-fly2": 5,
+  "cotta|giant-fly3": 5,
+  "brennus|giant-fly1": 5,
+  "brennus|giant-fly2": 5,
+  "brennus|giant-fly3": 70,
+  "giant-fly1|neris": 70,
+  "giant-fly2|neris": 70,
+  "giant-fly3|neris": 5,
+  "aelia|giant-fly1": 70,
+  "aelia|giant-fly2": 70,
+  "aelia|giant-fly3": 5,
+  "giant-fly1|tiberius-maro": 70,
+  "giant-fly2|tiberius-maro": 70,
+  "giant-fly3|tiberius-maro": 70,
+  "giant-fly1|phaedra": 5,
+  "giant-fly2|phaedra": 70,
+  "giant-fly3|phaedra": 70
  },
  "log": [],
- "encounter_id": "enc458",
+ "encounter_id": "enc464",
  "notes_shown": [
-  "morale.modifier_tiers"
+  "morale.hireling_leadership",
+  "morale.hireling_triggers",
+  "mw.d6_unmodified"
  ],
  "wards": [
   {
@@ -2695,7 +2442,7 @@
    "fallen": {}
   }
  ],
- "round_ended": 2,
+ "round_ended": 3,
  "retinue": {
   "aelia": {
    "hp_triggered": false,
@@ -2708,9 +2455,10 @@
    "calamity_queued": false
   },
   "phaedra": {
-   "hp_triggered": false,
+   "hp_triggered": true,
    "party_triggered": false,
-   "calamity_queued": false
+   "calamity_queued": true,
+   "hp_first": 2
   }
  },
  "party_hp_written": [
@@ -2725,37 +2473,37 @@
   "phaedra"
  ],
  "ended": {
-  "round": 2,
+  "round": 4,
   "felled_foes": [
    {
-    "id": "cave-gorilla1",
-    "name": "Cave Gorilla",
-    "perceived": "shaggy white apes 1",
+    "id": "giant-fly1",
+    "name": "Giant Fly",
+    "perceived": "huge buzzing flies 1",
     "outcome": "slain",
     "hp": -5,
-    "condition": "You were instantly killed.",
-    "wound": "Your body lies cleaved in two, and the halves lay entangled like conjoined twins in bloody embrace.",
-    "total": -5
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Both legs are hacked off (DEX reduced to 3 for AC purposes, two crutches required, movement reduced by 60', cannot force march).",
+    "total": 1
    },
    {
-    "id": "cave-gorilla3",
-    "name": "Cave Gorilla",
-    "perceived": "shaggy white apes 3",
+    "id": "giant-fly2",
+    "name": "Giant Fly",
+    "perceived": "huge buzzing flies 2",
     "outcome": "slain",
-    "hp": -3,
-    "condition": "You were instantly killed.",
-    "wound": "Air wheezes from the hole in your chest as your lungs deflate for the last time.",
-    "total": -2
+    "hp": -2,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to saves vs. poison, chronic indigestion and flatulence give -4 to reaction rolls).",
+    "total": 8
    },
    {
-    "id": "cave-gorilla4",
-    "name": "Cave Gorilla",
-    "perceived": "shaggy white apes 4",
+    "id": "giant-fly3",
+    "name": "Giant Fly",
+    "perceived": "huge buzzing flies 3",
     "outcome": "slain",
-    "hp": -3,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "The slash cuts into your skull and your brain-fluid leaks out (-2 on magical research and proficiency throws, 10% penalty on earned XP).",
-    "total": 14
+    "hp": -1,
+    "condition": "You were instantly killed.",
+    "wound": "Your rib cage collapsed, leading to an agonizing death gasping for air from ruptured lungs.",
+    "total": -3
    }
   ]
  }

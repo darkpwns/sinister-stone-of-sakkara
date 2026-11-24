@@ -668,6 +668,17 @@ tags:
 | 573 | Order contract: Dorion Makrenos (Brennus) | reward 1000.0gp | 1,000 | brennus |
 | 574 | Descent 80 (the doom throne, J8) | 20 red garnets prised from the doom throne | 5,000 | sold |
 | 574 | Descent 80 (the doom throne, J8) | 20 black garnets prised from the doom throne | 5,000 | sold |
+| 578 | Descent 81 (the white apes' caves, M) | a cedar coffer of 18 ebony wolf carvings with ruby eyes | 3,600 | sold |
+| 578 | Descent 81 (the white apes' caves, M) | an ash-wood spear whose butt-cap is a howling wolf | 650 | vettius |
+| 578 | Descent 81 (the white apes' caves, M) | 5,000 gold pieces | 5,000 | lucilla |
+| 578 | Descent 81 (the white apes' caves, M) | 2,000 gold pieces | 2,000 | aelia |
+| 578 | Descent 81 (the white apes' caves, M) | 5,000 silver pieces | 500 | neris |
+| 578 | Descent 81 (the white apes' caves, M) | 2,000 silver pieces | 200 | vestus-the-unlikely |
+| 578 | Descent 81 (the white apes' caves, M) | 3,000 silver pieces | 300 | phaedra |
+| 578 | Descent 81 (the white apes' caves, M) | 2 tumbaga ingots | 600 | sold |
+| 578 | Descent 81 (the white apes' caves, M) | 3 tumbaga ingots | 900 | sold |
+| 578 | Descent 81 (the white apes' caves, M) | 3 tumbaga ingots | 900 | sold |
+| 578 | Descent 81 (the white apes' caves, M) | 2 tumbaga ingots | 600 | sold |
 
 ## Monster XP
 
@@ -862,6 +873,12 @@ tags:
 | 574 | Descent 80 (the doom throne, J8) | Troglodyte | 12 | 15 | 180 |
 | 574 | Descent 80 (the doom throne, J8) | Troglodyte | 1 | 20 | 20 |
 | 574 | Descent 80 (the doom throne, J8) | Incarnation of Terror (SOTN) | 1 | 3,900 | 3,900 |
+| 578 | Descent 81 (the white apes' caves, M) | Cave Gorilla | 4 | 80 | 320 |
+| 578 | Descent 81 (the white apes' caves, M) | Insect Swarm | 1 | 65 | 65 |
+| 578 | Descent 81 (the white apes' caves, M) | Cave Gorilla | 2 | 80 | 160 |
+| 578 | Descent 81 (the white apes' caves, M) | Cave Gorilla | 6 | 80 | 480 |
+| 578 | Descent 81 (the white apes' caves, M) | Great White Ape (SOTN) | 1 | 320 | 320 |
+| 578 | Descent 81 (the white apes' caves, M) | Giant Fly | 3 | 29 | 87 |
 
 ## Shares and XP awarded
 
@@ -1756,6 +1773,15 @@ tags:
 | 574 | Descent 80 (the doom throne, J8) | Aelia | 0.5 | 667 | 273 | 0 | +0% | 940 |
 | 574 | Descent 80 (the doom throne, J8) | Phaedra | 0.5 | 667 | 273 | 0 | +0% | 940 |
 | 574 | Descent 80 (the doom throne, J8) | Tiberius Maro | 0.5 | 667 | 273 | 0 | +0% | 940 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 578 | Descent 81 (the white apes' caves, M) | Lucilla | 1 | 2,033 | 191 | 0 | +10% | 2,446 |
+| 578 | Descent 81 (the white apes' caves, M) | Vettius | 1 | 2,033 | 191 | 0 | +5% | 2,335 |
+| 578 | Descent 81 (the white apes' caves, M) | Brennus | 1 | 2,033 | 191 | 0 | +5% | 2,335 |
+| 578 | Descent 81 (the white apes' caves, M) | Vestus the Unlikely | 1 | 2,033 | 191 | 0 | +5% | 2,335 |
+| 578 | Descent 81 (the white apes' caves, M) | Neris | 1 | 2,033 | 191 | 0 | +0% | 2,224 |
+| 578 | Descent 81 (the white apes' caves, M) | Cotta | 1 | 2,033 | 191 | 0 | +0% | 2,224 |
+| 578 | Descent 81 (the white apes' caves, M) | Aelia | 0.5 | 1,017 | 95 | 0 | +0% | 1,112 |
+| 578 | Descent 81 (the white apes' caves, M) | Phaedra | 0.5 | 1,017 | 95 | 0 | +0% | 1,112 |
+| 578 | Descent 81 (the white apes' caves, M) | Tiberius Maro | 0.5 | 1,017 | 95 | 0 | +0% | 1,112 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4611,3 +4637,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 574 |  | treasure share |  | 666gp 6sp 7cp |  | phaedra |
 | 574 |  | treasure share |  | 666gp 6sp 7cp |  | tiberius-maro |
 | 576 | the retinue | wages paid |  |  | 800gp | vettius |
+| 578 |  | treasure share |  | 1,946gp 6sp 7cp |  | lucilla |
+| 578 |  | treasure share |  | 1,946gp 6sp 7cp |  | vettius |
+| 578 |  | treasure share |  | 1,946gp 6sp 7cp |  | brennus |
+| 578 |  | treasure share |  | 1,946gp 6sp 7cp |  | vestus-the-unlikely |
+| 578 |  | treasure share |  | 1,946gp 6sp 7cp |  | neris |
+| 578 |  | treasure share |  | 1,946gp 6sp 7cp |  | cotta |
+| 578 |  | treasure share |  | 973gp 3sp 3cp |  | aelia |
+| 578 |  | treasure share |  | 973gp 3sp 3cp |  | phaedra |
+| 578 |  | treasure share |  | 973gp 3sp 3cp |  | tiberius-maro |
+| 578 | the Solar Citadel | Repair Disfigurement and Disability for Phaedra by Patriarch Arëtar (Rulings S12), day 578 |  |  | 185gp | vettius |

@@ -26,7 +26,7 @@ def act(pid):
         tg = [t for t in engaged_with(c, pid) if up(cb[t]) and cb[t]["side"] == "party"]
         if not tg: print("no engaged target for", pid); return
         t = tg[0]; hp0 = cb[t]["hp"]
-        code, o = run("attack", pid, t, "--attack", str(n))
+        code, o = run("attack", pid, t, "--attack", str(n), *[x for x in os.environ.get("S39_FOEARGS", "").split("|") if x])
         if "JUDGE" in o: print("JUDGE in attack line"); sys.exit(3)
         if pid.startswith("trogb"):
             mm = re.search(r"damage 1d4[^>]*-> \[?(\d+)\]?", o)
@@ -39,12 +39,16 @@ def act(pid):
         if not up(cb[t]): print("FALLEN:", t); sys.exit(3)
     c, cb = cs()
     if not foes(cb): print("ALL FOES DOWN"); sys.exit(3)
-MELEE = {"brennus", "cotta", "lucilla", "vettius", "aelia", "neris"}
+MELEE = set(os.environ.get("S39_MELEE", "brennus,cotta,lucilla,vettius,aelia,neris").split(","))
 def melee(pid, cleave=False):
     c, cb = cs()
     tg = sorted([t for t in engaged_with(c, pid) if up(cb[t]) and cb[t]["side"] == "foe"], key=lambda k: cb[k]["hp"])
+    if not tg and os.environ.get("S39_CLOSE"):
+        cand = sorted([f for f in foes(cb)], key=lambda k: (len(engaged_with(c, k)), cb[k]["hp"]))
+        if cand:
+            run("state", "engage", pid, cand[0]); c, cb = cs(); tg = [cand[0]]
     if not tg: print("PARTY COUNT (no engaged foe):", pid); sys.exit(3)
-    code, o = run("attack", pid, tg[0], *(["--cleave"] if cleave else []))
+    code, o = run("attack", pid, tg[0], *(["--cleave"] if cleave else []), *[x for x in os.environ.get("S39_PARTYARGS", "").split("|") if x])
     if code != 0 or "JUDGE" in o: print("STOP: attack refused or JUDGE"); sys.exit(3)
     c, cb = cs()
     if not foes(cb): print("ALL FOES DOWN"); sys.exit(3)

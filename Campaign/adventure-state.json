@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 134,
-  "L": 830,
+  "L": 841,
   "H": 137,
-  "M": 254
+  "M": 258
  },
  "adventure": {
   "id": "A134",
@@ -19,12 +19,14 @@
     "player": "Rosa",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 185039,
     "level_before": 8,
     "class": "Venturer",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 2446
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +36,14 @@
     "player": "Tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 209954,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 2335
    },
    "brennus": {
     "id": "brennus",
@@ -49,12 +53,14 @@
     "player": "Kwame",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 153337,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 2335
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -64,12 +70,14 @@
     "player": "Priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 137517,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 2335
    },
    "neris": {
     "id": "neris",
@@ -79,12 +87,14 @@
     "player": "Ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 142759,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 2224
    },
    "cotta": {
     "id": "cotta",
@@ -94,12 +104,14 @@
     "player": "Gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 38683,
     "level_before": 6,
     "class": "Explorer",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 2224
    },
    "aelia": {
     "id": "aelia",
@@ -109,12 +121,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 64003,
     "level_before": 7,
     "class": "Bard",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 1112
    },
    "phaedra": {
     "id": "phaedra",
@@ -124,12 +138,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 60744,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 1112
    },
    "tiberius-maro": {
     "id": "tiberius-maro",
@@ -139,12 +155,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 5859,
     "level_before": 3,
     "class": "Crusader",
-    "joined_day": 577
+    "joined_day": 577,
+    "returned_day": 578,
+    "xp_award": 1112
    }
   },
   "monsters": [
@@ -173,12 +191,196 @@
     "how": "killed",
     "xp_each": 65,
     "hd": "3"
+   },
+   {
+    "id": "M255",
+    "monster": "Cave Gorilla",
+    "source": "Cave Gorilla (MM p. 168)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 80,
+    "fight": {
+     "ids": [
+      "cave-gorilla1",
+      "cave-gorilla2"
+     ],
+     "text": "the fight with 3 Cave Gorilla, encounter enc460, round 3"
+    }
+   },
+   {
+    "id": "M256",
+    "monster": "Cave Gorilla",
+    "source": "Cave Gorilla (MM p. 168)",
+    "number": 6,
+    "how": "killed",
+    "xp_each": 80,
+    "fight": {
+     "ids": [
+      "cave-gorilla1",
+      "cave-gorilla2",
+      "cave-gorilla3",
+      "cave-gorilla4",
+      "cave-gorilla5",
+      "cave-gorilla6"
+     ],
+     "text": "the fight with 6 Cave Gorilla, Great White Ape (SOTN), encounter enc461, round 3"
+    }
+   },
+   {
+    "id": "M257",
+    "monster": "Great White Ape (SOTN)",
+    "source": "Great White Ape (SOTN) (MM p. 103)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 320,
+    "fight": {
+     "ids": [
+      "leader"
+     ],
+     "text": "the fight with 6 Cave Gorilla, Great White Ape (SOTN), encounter enc461, round 3"
+    }
+   },
+   {
+    "id": "M258",
+    "monster": "Giant Fly",
+    "source": "Giant Fly (MM p. 142)",
+    "number": 3,
+    "how": "killed",
+    "xp_each": 29,
+    "fight": {
+     "ids": [
+      "giant-fly1",
+      "giant-fly2",
+      "giant-fly3"
+     ],
+     "text": "the fight with 3 Giant Fly, encounter enc464, round 4"
+    }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 578,
+   "at": "Cyfaraun",
+   "total": 16682.0,
+   "per_share": 2224.266666666667,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 10,
+     "pen": 0,
+     "award": 2446,
+     "xp_before": 185039,
+     "xp_after": 187485,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 5,
+     "pen": 0,
+     "award": 2335,
+     "xp_before": 209954,
+     "xp_after": 212289,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 5,
+     "pen": 0,
+     "award": 2335,
+     "xp_before": 153337,
+     "xp_after": 155672,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 5,
+     "pen": 0,
+     "award": 2335,
+     "xp_before": 137517,
+     "xp_after": 139852,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 0,
+     "pen": 0,
+     "award": 2224,
+     "xp_before": 142759,
+     "xp_after": 144983,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 2224,
+     "pct": 0,
+     "pen": 0,
+     "award": 2224,
+     "xp_before": 38683,
+     "xp_after": 40907,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 64003,
+     "xp_after": 65115,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 60744,
+     "xp_after": 61856,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 1112,
+     "pct": 0,
+     "pen": 0,
+     "award": 1112,
+     "xp_before": 5859,
+     "xp_after": 6971,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 578,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -77457,6 +77659,419 @@
    },
    "judge": [],
    "divided_day": 574
+  },
+  "L831": {
+   "id": "L831",
+   "adventure": "A134",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 3600.0,
+    "stone": 3.0,
+    "name": "a cedar coffer of 18 ebony wolf carvings with ruby eyes",
+    "merch": null
+   },
+   "player": {
+    "desc": "a cedar coffer of 18 ebony wolf carvings with ruby eyes",
+    "value_gp": 3600.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 3600.0,
+    "market": "Cyfaraun",
+    "day": 578,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 578
+  },
+  "L832": {
+   "id": "L832",
+   "adventure": "A134",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": "vettius",
+   "status": "carried",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 650.0,
+    "stone": 1.0,
+    "name": "an ash-wood spear whose butt-cap is a howling wolf",
+    "merch": null
+   },
+   "player": {
+    "desc": "an ash-wood spear whose butt-cap is a howling wolf",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L833": {
+   "id": "L833",
+   "adventure": "A134",
+   "kind": "coins",
+   "qty": 5000,
+   "stone": 5.0,
+   "carrier": "lucilla",
+   "status": "divided",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 5000,
+    "value_gp": 5000.0,
+    "stone": 5.0,
+    "name": "5,000 gold pieces"
+   },
+   "player": {
+    "desc": "5,000 gold pieces",
+    "value_gp": 5000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 578
+  },
+  "L834": {
+   "id": "L834",
+   "adventure": "A134",
+   "kind": "coins",
+   "qty": 2000,
+   "stone": 2.0,
+   "carrier": "aelia",
+   "status": "divided",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 2000,
+    "value_gp": 2000.0,
+    "stone": 2.0,
+    "name": "2,000 gold pieces"
+   },
+   "player": {
+    "desc": "2,000 gold pieces",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 578
+  },
+  "L835": {
+   "id": "L835",
+   "adventure": "A134",
+   "kind": "coins",
+   "qty": 5000,
+   "stone": 5.0,
+   "carrier": "neris",
+   "status": "divided",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 5000,
+    "value_gp": 500.0,
+    "stone": 5.0,
+    "name": "5,000 silver pieces"
+   },
+   "player": {
+    "desc": "5,000 silver pieces",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 578
+  },
+  "L836": {
+   "id": "L836",
+   "adventure": "A134",
+   "kind": "coins",
+   "qty": 2000,
+   "stone": 2.0,
+   "carrier": "vestus-the-unlikely",
+   "status": "divided",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 2000,
+    "value_gp": 200.0,
+    "stone": 2.0,
+    "name": "2,000 silver pieces"
+   },
+   "player": {
+    "desc": "2,000 silver pieces",
+    "value_gp": 200.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 578
+  },
+  "L837": {
+   "id": "L837",
+   "adventure": "A134",
+   "kind": "coins",
+   "qty": 3000,
+   "stone": 3.0,
+   "carrier": "phaedra",
+   "status": "divided",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 3000,
+    "value_gp": 300.0,
+    "stone": 3.0,
+    "name": "3,000 silver pieces"
+   },
+   "player": {
+    "desc": "3,000 silver pieces",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 578
+  },
+  "L838": {
+   "id": "L838",
+   "adventure": "A134",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 600.0,
+    "stone": 4.0,
+    "name": "2 tumbaga ingots",
+    "merch": null
+   },
+   "player": {
+    "desc": "2 tumbaga ingots",
+    "value_gp": 600.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 600.0,
+    "market": "Cyfaraun",
+    "day": 578,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 578
+  },
+  "L839": {
+   "id": "L839",
+   "adventure": "A134",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 6.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 900.0,
+    "stone": 6.0,
+    "name": "3 tumbaga ingots",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 tumbaga ingots",
+    "value_gp": 900.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 900.0,
+    "market": "Cyfaraun",
+    "day": 578,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 578
+  },
+  "L840": {
+   "id": "L840",
+   "adventure": "A134",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 6.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 900.0,
+    "stone": 6.0,
+    "name": "3 tumbaga ingots",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 tumbaga ingots",
+    "value_gp": 900.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 900.0,
+    "market": "Cyfaraun",
+    "day": 578,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 578
+  },
+  "L841": {
+   "id": "L841",
+   "adventure": "A134",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 577,
+    "where": "M10"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 600.0,
+    "stone": 4.0,
+    "name": "2 tumbaga ingots",
+    "merch": null
+   },
+   "player": {
+    "desc": "2 tumbaga ingots",
+    "value_gp": 600.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 600.0,
+    "market": "Cyfaraun",
+    "day": 578,
+    "class": "III",
+    "by": "lucilla",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 578
   }
  },
  "hoards": {
