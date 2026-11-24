@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 1,
-  "L": 8,
+  "L": 23,
   "H": 0,
   "M": 5
  },
@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 2
+    "joined_day": 2,
+    "returned_day": 9,
+    "xp_award": 295
    },
    "faustina": {
     "id": "faustina",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Priestess",
-    "joined_day": 2
+    "joined_day": 2,
+    "returned_day": 9,
+    "xp_award": 281
    },
    "hrodric": {
     "id": "hrodric",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Shaman",
-    "joined_day": 2
+    "joined_day": 2,
+    "returned_day": 9,
+    "xp_award": 281
    },
    "callista": {
     "id": "callista",
@@ -64,12 +70,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Mage",
-    "joined_day": 2
+    "joined_day": 2,
+    "returned_day": 9,
+    "xp_award": 281
    },
    "corvus": {
     "id": "corvus",
@@ -79,12 +87,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 2
+    "joined_day": 2,
+    "returned_day": 9,
+    "xp_award": 281
    },
    "tertia": {
     "id": "tertia",
@@ -92,14 +102,17 @@
     "actor": "tertia",
     "kind": "pc",
     "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": false,
+    "status": "dead",
+    "body": "carried",
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Venturer",
-    "joined_day": 2
+    "joined_day": 2,
+    "died_day": 9,
+    "xp_award": 281,
+    "xp_held": 281
    }
   },
   "monsters": [
@@ -194,9 +207,92 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 9,
+   "at": "Turos Tem",
+   "total": 1605.0,
+   "per_share": 267.5,
+   "awards": {
+    "galerius": {
+     "share": 1.0,
+     "why": null,
+     "base": 268,
+     "pct": 10,
+     "pen": 0,
+     "award": 295,
+     "xp_before": 0,
+     "xp_after": 295,
+     "capped": null,
+     "zero": false
+    },
+    "faustina": {
+     "share": 1.0,
+     "why": null,
+     "base": 268,
+     "pct": 5,
+     "pen": 0,
+     "award": 281,
+     "xp_before": 0,
+     "xp_after": 281,
+     "capped": null,
+     "zero": false
+    },
+    "hrodric": {
+     "share": 1.0,
+     "why": null,
+     "base": 268,
+     "pct": 5,
+     "pen": 0,
+     "award": 281,
+     "xp_before": 0,
+     "xp_after": 281,
+     "capped": null,
+     "zero": false
+    },
+    "callista": {
+     "share": 1.0,
+     "why": null,
+     "base": 268,
+     "pct": 5,
+     "pen": 0,
+     "award": 281,
+     "xp_before": 0,
+     "xp_after": 281,
+     "capped": null,
+     "zero": false
+    },
+    "corvus": {
+     "share": 1.0,
+     "why": null,
+     "base": 268,
+     "pct": 5,
+     "pen": 0,
+     "award": 281,
+     "xp_before": 0,
+     "xp_after": 281,
+     "capped": null,
+     "zero": false
+    },
+    "tertia": {
+     "share": 1.0,
+     "why": null,
+     "base": 268,
+     "pct": 5,
+     "pen": 0,
+     "award": 281,
+     "xp_before": 0,
+     "xp_after": 281,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 9,
+   "where": "Turos Tem"
+  }
  },
  "closed": [],
  "lots": {
@@ -206,8 +302,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 4,
     "where": "L1 2, the Great Hall"
@@ -222,15 +318,31 @@
    },
    "player": {
     "desc": "gnoll canine teeth, in a metamphora (monster component; humanoid default effect beguile humanoid)",
-    "value_gp": null,
+    "value_gp": 20.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 20.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.33,
+     "faustina": 3.33,
+     "hrodric": 3.33,
+     "callista": 3.33,
+     "corvus": 3.33,
+     "tertia": 3.33
+    }
+   },
    "judge": []
   },
   "L2": {
@@ -239,8 +351,8 @@
    "kind": "coins",
    "qty": 5,
    "stone": 0.005,
-   "carrier": "tertia",
-   "status": "carried",
+   "carrier": "faustina",
+   "status": "divided",
    "found": {
     "day": 4,
     "where": "L1 2, the gnoll's purse"
@@ -264,7 +376,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 9
   },
   "L3": {
    "id": "L3",
@@ -272,8 +385,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "tertia",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 5,
     "where": "L1 39, hidden compartment"
@@ -287,15 +400,31 @@
    },
    "player": {
     "desc": "a pink-green stone",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 16.67,
+     "faustina": 16.67,
+     "hrodric": 16.67,
+     "callista": 16.67,
+     "corvus": 16.67,
+     "tertia": 16.67
+    }
+   },
    "judge": []
   },
   "L4": {
@@ -304,8 +433,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "tertia",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 5,
     "where": "L1 39, hidden compartment"
@@ -319,15 +448,31 @@
    },
    "player": {
     "desc": "a pink-green stone",
-    "value_gp": null,
+    "value_gp": 100.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 100.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 16.67,
+     "faustina": 16.67,
+     "hrodric": 16.67,
+     "callista": 16.67,
+     "corvus": 16.67,
+     "tertia": 16.67
+    }
+   },
    "judge": []
   },
   "L5": {
@@ -337,7 +482,7 @@
    "qty": 500,
    "stone": 0.5,
    "carrier": "faustina",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 5,
     "where": "L1 39, hidden compartment"
@@ -361,7 +506,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 9
   },
   "L6": {
    "id": "L6",
@@ -409,8 +555,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 2.0,
-   "carrier": "tertia",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 5,
     "where": "L1, the west corridor by Area 4"
@@ -425,15 +571,31 @@
    },
    "player": {
     "desc": "7 stirge proboscises in 2 metamphora (monster components; monstrosity default effect dominate monster)",
-    "value_gp": null,
+    "value_gp": 91.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 91.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 15.17,
+     "faustina": 15.17,
+     "hrodric": 15.17,
+     "callista": 15.17,
+     "corvus": 15.17,
+     "tertia": 15.17
+    }
+   },
    "judge": []
   },
   "L8": {
@@ -442,8 +604,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": "callista",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 5,
     "where": "20.19, the forest trail"
@@ -458,28 +620,801 @@
    },
    "player": {
     "desc": "4 stirge proboscises in a metamphora (monster components; monstrosity default effect dominate monster)",
-    "value_gp": null,
+    "value_gp": 52.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 52.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 8.67,
+     "faustina": 8.67,
+     "hrodric": 8.67,
+     "callista": 8.67,
+     "corvus": 8.67,
+     "tertia": 8.67
+    }
+   },
    "judge": []
+  },
+  "L9": {
+   "id": "L9",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K1"
+   ]
+  },
+  "L10": {
+   "id": "L10",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K2"
+   ]
+  },
+  "L11": {
+   "id": "L11",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K3"
+   ]
+  },
+  "L12": {
+   "id": "L12",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K4"
+   ]
+  },
+  "L13": {
+   "id": "L13",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K5"
+   ]
+  },
+  "L14": {
+   "id": "L14",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K6"
+   ]
+  },
+  "L15": {
+   "id": "L15",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K7"
+   ]
+  },
+  "L16": {
+   "id": "L16",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K8"
+   ]
+  },
+  "L17": {
+   "id": "L17",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K9"
+   ]
+  },
+  "L18": {
+   "id": "L18",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K10"
+   ]
+  },
+  "L19": {
+   "id": "L19",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K11"
+   ]
+  },
+  "L20": {
+   "id": "L20",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K12"
+   ]
+  },
+  "L21": {
+   "id": "L21",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K13"
+   ]
+  },
+  "L22": {
+   "id": "L22",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K14"
+   ]
+  },
+  "L23": {
+   "id": "L23",
+   "adventure": "A1",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 10,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (egg, baby value)",
+    "qty": 1,
+    "value_gp": 19.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (egg, baby value)",
+    "value_gp": 19.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 19.0,
+    "market": "Turos Tem (Market)",
+    "day": 10,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.17,
+     "faustina": 3.17,
+     "hrodric": 3.17,
+     "callista": 3.17,
+     "corvus": 3.17,
+     "tertia": 3.17
+    }
+   },
+   "judge": [
+    "training state K15"
+   ]
   }
  },
  "hoards": {},
  "markets": {},
- "players": {},
+ "players": {
+  "rosa": {
+   "reserve_xp": 281,
+   "funeral_xp": 0
+  }
+ },
  "failed": {},
  "settings": {
   "setting": "classic",
   "arms_setting": "Classical Epic",
   "gem_mode": "each"
  },
- "readings_explained": [],
+ "readings_explained": [
+  "sell.gems_jewelry"
+ ],
  "roster": {
   "galerius": {
    "id": "galerius",

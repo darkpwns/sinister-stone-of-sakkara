@@ -1,36 +1,36 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 2,
- "generated": 1795559928,
+ "session": 3,
+ "generated": 1795560816,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 7
+  "day": 19
  },
- "time": "17:43",
+ "time": "06:00",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate",
  "place": "Türos Tem",
- "hex": "23.21",
+ "hex": "22.20",
  "party": [
   {
    "name": "Callista",
    "sheet": "Characters/callista.json",
    "role": "pc",
-   "hp": 2,
+   "hp": 5,
    "hp_max": 5,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.107
+   "encumbrance_st": 6
   },
   {
    "name": "Corvus",
    "sheet": "Characters/corvus.json",
    "role": "pc",
-   "hp": 4,
+   "hp": 7,
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.35
+   "encumbrance_st": 6.167
   },
   {
    "name": "Faustina",
@@ -40,7 +40,7 @@
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 7.011
+   "encumbrance_st": 7.499
   },
   {
    "name": "Galerius",
@@ -50,7 +50,7 @@
    "hp_max": 4,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 7.888
+   "encumbrance_st": 9.833
   },
   {
    "name": "Hrodric",
@@ -60,24 +60,21 @@
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 7.91
+   "encumbrance_st": 7.833
   },
   {
-   "name": "Tertia",
-   "sheet": "Characters/tertia.json",
+   "name": "Severina",
+   "sheet": "Characters/severina.json",
    "role": "pc",
-   "hp": 2,
-   "hp_max": 2,
-   "conditions": [
-    "one leg torn off (Mortal Wounds day 5): a crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes",
-    "grievously wounded (day 5): 2 weeks of bed rest"
-   ],
+   "hp": 7,
+   "hp_max": 7,
+   "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 0.694
+   "encumbrance_st": 5.833
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 2 d, water 2.6 d; Faustina: food 2 d, water 0.2 d; Hrodric: food 2 d, water 0.2 d; Callista: food 2 d, water 0.2 d; Corvus: food 2 d, water 0.2 d; Tertia: food 2 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 0 d, water 3 d; Faustina: food 0 d, water 0.2 d; Hrodric: food 0 d, water 0 d; Callista: food 0 d, water 0 d; Corvus: food 0 d, water 0.2 d; Severina: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -88,7 +85,10 @@
   "20.19",
   "21.20",
   "22.20",
-  "23.21"
+  "23.21",
+  "24.21",
+  "22.19",
+  "22.20"
  ],
  "explored_hexes": [
   {
@@ -111,7 +111,7 @@
    "name": "Callista",
    "class": "Mage",
    "level": 1,
-   "xp": 0,
+   "xp": 331,
    "alignment": "Neutral",
    "birthplace": "Cyfaraun",
    "age": 27,
@@ -255,10 +255,11 @@
      "contents": [
       "Craftsman's Tools (any)",
       "Lantern",
+      "Oil, Common (1 pint) ×6",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
-     "items": 2,
+     "items": 8,
      "stone": 2
     },
     "sack": {
@@ -277,11 +278,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 96,
-    "sp": 9,
-    "cp": 2
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
    },
-   "encumbrance_st": 5.107,
+   "encumbrance_st": 6,
    "weapons": [
     {
      "name": "Staff",
@@ -308,14 +309,7 @@
      "held": "belt"
     }
    ],
-   "treasure": [
-    {
-     "id": "L8",
-     "looks": "4 stirge proboscises in a metamphora (monster components; monstrosity default effect dominate monster)",
-     "qty": 1,
-     "stone": 1.0
-    }
-   ],
+   "treasure": [],
    "movement": {
     "exploration": 90,
     "combat": 30,
@@ -376,7 +370,7 @@
    "name": "Corvus",
    "class": "Explorer",
    "level": 1,
-   "xp": 0,
+   "xp": 331,
    "alignment": "Neutral",
    "birthplace": "Türos Tem",
    "age": 18,
@@ -453,8 +447,8 @@
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone), Short Bow",
-     "items": 2,
+     "item": "Backpack (holds 4 stone)",
+     "items": 1,
      "stone": 0
     },
     "armor": {
@@ -517,11 +511,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 17,
+    "gp": 0,
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.35,
+   "encumbrance_st": 6.167,
    "weapons": [
     {
      "name": "Short Sword",
@@ -558,18 +552,6 @@
       "long": 20
      },
      "held": "belt"
-    },
-    {
-     "name": "Short Bow",
-     "init_bonus": "",
-     "attack_throw": 10,
-     "damage": "1d6+1",
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "held": "back"
     },
     {
      "name": "Short Bow",
@@ -656,7 +638,7 @@
    "name": "Faustina",
    "class": "Priestess",
    "level": 1,
-   "xp": 0,
+   "xp": 331,
    "alignment": "Lawful",
    "birthplace": "Türos Tem",
    "age": 21,
@@ -733,9 +715,9 @@
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone), Scale Armor",
+     "item": "Backpack (holds 4 stone)",
      "items": 1,
-     "stone": 3
+     "stone": 0
     },
     "armor": {
      "item": "",
@@ -774,11 +756,12 @@
     "backpack": {
      "contents": [
       "Craftsman's Tools (any)",
+      "Rations, Iron (one week) ×2",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
      "items": 2,
-     "stone": 1
+     "stone": 3
     },
     "sack": {
      "contents": [
@@ -796,11 +779,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 11,
-    "sp": 0,
-    "cp": 0
+    "gp": 1419,
+    "sp": 25,
+    "cp": 55
    },
-   "encumbrance_st": 7.011,
+   "encumbrance_st": 7.499,
    "weapons": [
     {
      "name": "Staff",
@@ -828,19 +811,6 @@
     }
    ],
    "treasure": [
-    {
-     "id": "L1",
-     "looks": "gnoll canine teeth, in a metamphora (monster component; humanoid default effect beguile humanoid)",
-     "qty": 1,
-     "stone": 1.0
-    },
-    {
-     "id": "L5",
-     "looks": "500 gold pieces",
-     "qty": 500,
-     "value_gp": 500.0,
-     "stone": 0.5
-    },
     {
      "id": "L6",
      "looks": "a flask of brown syrup smelling faintly of honey",
@@ -1052,7 +1022,7 @@
    "name": "Galerius",
    "class": "Fighter",
    "level": 1,
-   "xp": 0,
+   "xp": 347,
    "alignment": "Lawful",
    "birthplace": "Türos Tem",
    "age": 22,
@@ -1173,11 +1143,12 @@
     },
     "backpack": {
      "contents": [
+      "Rations, Iron (one week) ×2",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
      "items": 2,
-     "stone": 0
+     "stone": 2
     },
     "sack": {
      "contents": [],
@@ -1193,11 +1164,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 53,
-    "sp": 2,
+    "gp": 0,
+    "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 7.888,
+   "encumbrance_st": 9.833,
    "weapons": [
     {
      "name": "Sword",
@@ -1290,7 +1261,7 @@
    "name": "Hrodric",
    "class": "Shaman",
    "level": 1,
-   "xp": 0,
+   "xp": 331,
    "alignment": "Neutral",
    "birthplace": "the Jutlandic north",
    "age": 20,
@@ -1435,11 +1406,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 70,
-    "sp": 7,
+    "gp": 0,
+    "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 7.91,
+   "encumbrance_st": 7.833,
    "weapons": [
     {
      "name": "Spear",
@@ -1641,35 +1612,35 @@
   {
    "type": "character",
    "role": "pc",
-   "name": "Tertia",
+   "name": "Severina",
    "class": "Venturer",
    "level": 1,
-   "xp": 0,
+   "xp": 281,
    "alignment": "Neutral",
    "birthplace": "Cyfaraun",
    "age": 22,
    "gender": "female",
-   "hp_max": 2,
+   "hp_max": 7,
    "attributes": {
     "STR": {
      "score": 9,
      "mod": 0
     },
     "INT": {
-     "score": 13,
-     "mod": 1
+     "score": 12,
+     "mod": 0
     },
     "WIL": {
-     "score": 11,
-     "mod": 0
+     "score": 7,
+     "mod": -1
     },
     "DEX": {
-     "score": 9,
-     "mod": 0
+     "score": 7,
+     "mod": -1
     },
     "CON": {
-     "score": 5,
-     "mod": -2
+     "score": 16,
+     "mod": 2
     },
     "CHA": {
      "score": 13,
@@ -1716,22 +1687,18 @@
      {
       "name": "Animal Training",
       "throw": ""
-     },
-     {
-      "name": "Animal Husbandry",
-      "throw": ""
      }
     ]
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone)",
+     "item": "Short Bow",
      "items": 1,
      "stone": 0
     },
     "armor": {
-     "item": "",
-     "stone": 0
+     "item": "Scale Armor",
+     "stone": 3
     },
     "right_hand": {
      "item": "",
@@ -1744,8 +1711,8 @@
      "stone": 0
     },
     "belt": {
-     "item": "Sack, Large (holds 6 stone), Short Sword",
-     "items": 2,
+     "item": "Short Sword",
+     "items": 1,
      "stone": 0
     },
     "head": {
@@ -1765,10 +1732,12 @@
     },
     "backpack": {
      "contents": [
-      "Waterskin"
+      "Rations, Iron (one week) ×2",
+      "Waterskin",
+      "arrow ×20"
      ],
-     "items": 1,
-     "stone": 0
+     "items": 2,
+     "stone": 2
     },
     "sack": {
      "contents": [],
@@ -1776,19 +1745,21 @@
      "stone": 0
     },
     "worn": {
-     "contents": [],
-     "items": 0,
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
      "stone": 0
     }
    },
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 24,
-    "sp": 3,
+    "gp": 0,
+    "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 0.694,
+   "encumbrance_st": 5.833,
    "weapons": [
     {
      "name": "Short Sword",
@@ -1801,40 +1772,25 @@
       "long": 0
      },
      "held": "belt"
-    }
-   ],
-   "treasure": [
-    {
-     "id": "L2",
-     "looks": "5 gold pieces",
-     "qty": 5,
-     "value_gp": 5.0,
-     "stone": 0.005
     },
     {
-     "id": "L3",
-     "looks": "a pink-green stone",
-     "qty": 1,
-     "stone": 0.001
-    },
-    {
-     "id": "L4",
-     "looks": "a pink-green stone",
-     "qty": 1,
-     "stone": 0.001
-    },
-    {
-     "id": "L7",
-     "looks": "7 stirge proboscises in 2 metamphora (monster components; monstrosity default effect dominate monster)",
-     "qty": 1,
-     "stone": 2.0
+     "name": "Short Bow",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d6",
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "held": "back"
     }
    ],
    "movement": {
-    "exploration": 120,
-    "combat": 40,
-    "running": 120,
-    "expedition": 24
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1844,9 +1800,9 @@
     "trapbreaking": 18
    },
    "ac": {
-    "shield": 0,
-    "no_shield": 0,
-    "dex_only": 0
+    "shield": 2,
+    "no_shield": 2,
+    "dex_only": -1
    },
    "sheet": {
     "profile": "venturer",
@@ -1892,87 +1848,7 @@
  ],
  "open_rolls": [
   {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Tertia",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "attack Tertia vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "attack Galerius vs long-beaked flier",
-   "spec": "1d20+2",
-   "rolls": [
-    20
-   ],
-   "total": 22
-  },
-  {
-   "label": "damage to long-beaked flier",
-   "spec": "1d6+3",
-   "rolls": [
-    2
-   ],
-   "total": 5
-  },
-  {
-   "label": "attack Corvus vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to long-beaked flier",
-   "spec": "1d6+1",
-   "rolls": [
-    4
-   ],
-   "total": 5
-  },
-  {
-   "label": "Mortal Wounds Tertia d20",
-   "spec": "1d20",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Mortal Wounds Tertia d6",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Faustina",
+   "label": "Faustina surprise",
    "spec": "1d6",
    "rolls": [
     1
@@ -1980,264 +1856,7 @@
    "total": 1
   },
   {
-   "label": "init Hrodric",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "damage to corvus",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "attack Galerius vs long-beaked flier",
-   "spec": "1d20+2",
-   "rolls": [
-    10
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to long-beaked flier",
-   "spec": "1d6+3",
-   "rolls": [
-    1
-   ],
-   "total": 4
-  },
-  {
-   "label": "attack Hrodric vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    10
-   ],
-   "total": 10
-  },
-  {
-   "label": "attack Corvus vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    10
-   ],
-   "total": 10
-  },
-  {
-   "label": "Cure Light Injury on tertia",
-   "spec": "1d6+1",
-   "rolls": [
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "attack Callista vs long-beaked flier",
-   "spec": "1d20-1",
-   "rolls": [
-    16
-   ],
-   "total": 15
-  },
-  {
-   "label": "damage to long-beaked flier",
-   "spec": "1d4-1",
-   "rolls": [
-    2
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Hrodric",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Galerius vs long-beaked flier",
-   "spec": "1d20+2",
-   "rolls": [
-    9
-   ],
-   "total": 11
-  },
-  {
-   "label": "attack Hrodric vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "damage to callista",
-   "spec": "1d3",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Faustina vs long-beaked flier",
-   "spec": "1d20-1",
-   "rolls": [
-    6
-   ],
-   "total": 5
-  },
-  {
-   "label": "attack Callista vs long-beaked flier",
-   "spec": "1d20-1",
-   "rolls": [
-    2
-   ],
-   "total": 1
-  },
-  {
-   "label": "attack Corvus vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Hrodric",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "attack Corvus vs long-beaked flier",
-   "spec": "1d20",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "attack Faustina vs long-beaked flier",
-   "spec": "1d20-1",
-   "rolls": [
-    19
-   ],
-   "total": 18
-  },
-  {
-   "label": "damage to long-beaked flier",
-   "spec": "1d4-1",
-   "rolls": [
-    4
-   ],
-   "total": 3
-  },
-  {
-   "label": "damage to long-beaked flier",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R05.05)",
+   "label": "weather temperature (R06.05)",
    "spec": "2d6",
    "rolls": [
     1,
@@ -2246,13 +1865,244 @@
    "total": 4
   },
   {
-   "label": "weather wind (R05.05)",
+   "label": "weather precipitation (R06.05)",
    "spec": "2d6",
    "rolls": [
-    6,
+    3,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "galerius dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "faustina dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "hrodric dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "callista dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "corvus dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "tertia dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    2
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
     3
    ],
-   "total": 9
+   "total": 8
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    3
+   ],
+   "total": 6
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Tertia surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "evasion (galerius,faustina,hrodric,callista,corvus,tertia)",
+   "spec": "1d20",
+   "rolls": [
+    17
+   ],
+   "total": 17
+  },
+  {
+   "label": "galerius dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "faustina dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "hrodric dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "callista dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "corvus dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "tertia dehydration CON",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
   },
   {
    "label": "Galerius surprise",
@@ -2263,39 +2113,143 @@
    "total": 1
   },
   {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
    "label": "Corvus surprise",
    "spec": "1d6",
    "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "CHA (5d6, drop 2)",
+   "spec": "5d6",
+   "rolls": [
+    4,
+    1,
+    5,
+    2,
+    4
+   ],
+   "total": 16
+  },
+  {
+   "label": "INT (4d6, drop 1)",
+   "spec": "4d6",
+   "rolls": [
+    6,
+    3,
+    3,
     1
    ],
-   "total": 1
+   "total": 13
   },
   {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
+   "label": "CON (4d6, drop 1)",
+   "spec": "4d6",
    "rolls": [
     5,
-    2
+    6,
+    5,
+    1
+   ],
+   "total": 17
+  },
+  {
+   "label": "STR (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    2,
+    4,
+    3
+   ],
+   "total": 9
+  },
+  {
+   "label": "WIL (3d6, drop 0)",
+   "spec": "3d6",
+   "rolls": [
+    3,
+    3,
+    1
    ],
    "total": 7
   },
   {
-   "label": "weather wind (R05.05)",
-   "spec": "2d6",
+   "label": "DEX (3d6, drop 0)",
+   "spec": "3d6",
    "rolls": [
-    2,
-    6
+    3,
+    1,
+    3
    ],
-   "total": 8
+   "total": 7
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "starting gold (3d6 x 10)",
+   "spec": "3d6",
+   "rolls": [
+    1,
+    2,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "starting age",
+   "spec": "2d4",
+   "rolls": [
+    4,
+    1
+   ],
+   "total": 5
+  },
+  {
+   "label": "callista natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "corvus natural healing",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
   }
  ],
  "rumours_heard": [

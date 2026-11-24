@@ -38,6 +38,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 9 | Tertia died of thirst at the day-9 rollover (lost in the forest, days 6-9) | 22.18 | buried at the fort (5gp); Rosa's new PC Severina (Venturer 1, 281 XP), Tertia's cousin |
+| 10 | the party pooled its finances (company purse with Faustina, about 1,420gp on day 19) | Türos Tem | Rulings R2 S03 |
 | 5 | Viaspen encounter 4: four stirges on a dead brigand scout | 20.19, forest trail | killed; Tertia lost a leg; the scout's 13 arrows taken |
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
@@ -45,6 +47,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Türos Tem (day 1): Legate Ulrand Valerian Neutral (Faustina); Priestess Genelen Indifferent (Faustina); Malyn's apprentices Indifferent (Callista); Guildmaster Aeropos Karanos **Unfriendly** (Tertia); Quartermaster Koinos Thales **Unfriendly** (Hrodric, over kyrpeges at the inn); Centurion Axios Ilarion Neutral (Faustina).
 - Ansgar the lumbermonger (henchman candidate, day 1): refused Callista and Tertia (twice).
+- Türos Tem (days 10-19): Malyn's apprentices Neutral to Callista (bought the parts and eggs at market terms); Annalist Hometri Socolo **Unfriendly** (Callista); Subaltern Lynara Miren Neutral (Severina); a cataphract veteran with war-dog pups Neutral (sold 5 pups).
+- Viaspen: five wraiths (Neutral, night of day 7-8, 23.21/19.19 area, drifting west toward the dome); two treeherders (Neutral, night of day 8-9, 22.18; told the way south); a band of four brigands Friendly (day 9, 22.19; shared water and the way).
 - Buried Temple: room 3 kobolds Indifferent (captives returned); Thethamun's patrol Neutral.
 
 ## Faction standing
@@ -55,6 +59,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Buried Temple replacements (AX1 p. 35): from day 11 a weekly 1d6 per cleared room while the Lady lives (1-3: 1d6 more of the tribe); the bodiless heads of 43 and Area 4's stirges are wanderers, not rooms. The kobolds of room 1 (one killed) count as a cleared post only if the Judge decides the door was abandoned: it was not (three returned).
 - Ansgar the lumbermonger: refused; another search for 0th-level henchmen in Türos Tem only from day 31 (month 2).
+- Rosa's reserve fund holds Tertia's 50 XP from the eggs' sale (day 10; by hand: the engine's fund has 281, already used by Severina).
+- Training courses C21-C25 (war dogs, guards): tamed day 40 if the trainers stay; `train pause` when Hrodric or Severina leave town, `train resume` on return; supply 2.5gp a week from the purse.
 - Hrodric's eagle totem actor (owed since S01).
 
 - Notes prepped during run 1 beyond the modules (`Adventure/Porcius' Farm/`, `Ruined Imperial Fortress/`, `Ruined Monastery/`, `Stone Sisters' Cave/`, `Legion Waygate.md`, the AX3 contract NPCs in `Adventure/AX3/NPCs/`, AX3 dungeons built in play) may carry run-1 outcomes in their text: read them as unplayed (their keyed state as first written).

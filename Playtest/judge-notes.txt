@@ -741,3 +741,7 @@ S02: Judge slip (lesson load-before-march recorded): a refused `inv give` (no co
 S02: `round-auto` with stirges at `close-and-attack` 57' away: the fliers (180' fly) took four rounds to reach the party (not checked; may be the zone range model).
 S02: `encounter surprise --party none --monsters none` returns "no encounter" without rolling: correct by the matrix, but a lit party is never 'none' to infravision monsters: pass --monsters los.
 S02: `train young` refuses a species whose note has no '% per adult' (giant crab spider eggs at AX1 L1 11): the count was ruled (15) and `capture --how eggs --count 15` used.
+S03: Judge slip (lesson camp-past-encounter): `camp` run a second time while a night encounter it had stopped at was open: it ran 12 more hours. A refusal while an encounter is open would close it. Corrected by restoring the exploration state (Rulings R2 S03).
+S03: Engine gap: captives turned into lots (`train lot`) after the adventure's payout earn no treasure XP (`payout --sale` finds none): awarded by hand. Captives taken in an adventure could be listed in its payout at their value.
+S03: Engine: a dead member's coin share at the payout and at later sales is named for the Judge (pooled by hand with `inv receive`).
+S03: Engine: `wait` over a night in the wilderness does not record restful sleep (the replayed night counted as no sleep: FATIGUED -2 on day 8). Camp is the only sleep outside a settlement.

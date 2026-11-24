@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 2
+session: 3
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,28 +10,28 @@ public:
   date:
     year: ''
     season: spring
-    day: 7
-  time: '17:43'
+    day: 19
+  time: 06:00
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate
   place: Türos Tem
-  hex: '23.21'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 2
+    hp: 5
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.107
+    encumbrance_st: 6
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 4
+    hp: 7
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 6.35
+    encumbrance_st: 6.167
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 7.011
+    encumbrance_st: 7.499
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 7.888
+    encumbrance_st: 9.833
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -55,19 +55,17 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 7.91
-  - name: Tertia
-    sheet: Characters/tertia.json
+    encumbrance_st: 7.833
+  - name: Severina
+    sheet: Characters/severina.json
     role: pc
-    hp: 2
-    hp_max: 2
-    conditions:
-    - 'one leg torn off (Mortal Wounds day 5): a crutch is required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes'
-    - 'grievously wounded (day 5): 2 weeks of bed rest'
+    hp: 7
+    hp_max: 7
+    conditions: []
     spells_used: []
-    encumbrance_st: 0.694
+    encumbrance_st: 5.833
   light: lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 2 d, water 2.6 d; Faustina: food 2 d, water 0.2 d; Hrodric: food 2 d, water 0.2 d; Callista: food 2 d, water 0.2 d; Corvus: food 2 d, water 0.2 d; Tertia: food 2 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 0 d, water 3 d; Faustina: food 0 d, water 0.2 d; Hrodric: food 0 d, water 0 d; Callista: food 0 d, water 0 d; Corvus: food 0 d, water 0.2 d; Severina: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -79,7 +77,10 @@ public:
   - '21.20'
   - '22.20'
   - '23.21'
-clock_day: 7
+  - '24.21'
+  - '22.19'
+  - '22.20'
+clock_day: 19
 ---
 # Campaign State
 

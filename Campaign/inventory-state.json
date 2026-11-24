@@ -38,7 +38,7 @@
    "kind": "pc",
    "name": "tertia",
    "actor": "tertia",
-   "status": "active"
+   "status": "dead"
   },
   "donkey1": {
    "kind": "animal",
@@ -60,6 +60,33 @@
    "name": "ground:20.19",
    "actor": null,
    "status": "active"
+  },
+  "body:tertia": {
+   "kind": "body",
+   "name": "body of tertia",
+   "actor": null,
+   "status": "active"
+  },
+  "company-chest": {
+   "kind": "cache",
+   "name": "the company's chest (Traveler's Inn, Türos Tem)",
+   "actor": null,
+   "status": "active"
+  },
+  "severina": {
+   "kind": "pc",
+   "name": "severina",
+   "actor": "severina",
+   "status": "active"
+  },
+  "donkey2": {
+   "kind": "animal",
+   "name": "Donkey, Draft",
+   "actor": null,
+   "status": "active",
+   "animal": "Donkey, Draft",
+   "note": "bought in Turos Tem by faustina",
+   "owner": "faustina"
   }
  },
  "custom": {},
@@ -4257,6 +4284,1309 @@
    "coins": [],
    "cmd": "inv give",
    "n": 171
+  },
+  {
+   "op": "death",
+   "cause": "tertia died; body carried",
+   "day": 9,
+   "time": "day 9 02:50",
+   "deltas": [
+    {
+     "who": "tertia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:tertia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tertia",
+     "item": "#w17",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:tertia",
+     "item": "#w17",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tertia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:tertia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tertia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:tertia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "tertia",
+     "sp": -3,
+     "gp": -24
+    },
+    {
+     "who": "body:tertia",
+     "sp": 3,
+     "gp": 24
+    }
+   ],
+   "cmd": "death",
+   "n": 172
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "galerius",
+     "cp": 7,
+     "sp": 1,
+     "gp": 84
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 173
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": 7,
+     "sp": 1,
+     "gp": 84
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 174
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodric",
+     "cp": 7,
+     "sp": 1,
+     "gp": 84
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 175
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "callista",
+     "cp": 7,
+     "sp": 1,
+     "gp": 84
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 176
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "corvus",
+     "cp": 7,
+     "sp": 1,
+     "gp": 84
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 177
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (the party pools its finances, user R2 S03); Faustina keeps it",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "galerius",
+     "cp": -7,
+     "sp": -3,
+     "gp": -137
+    },
+    {
+     "who": "faustina",
+     "cp": 7,
+     "sp": 3,
+     "gp": 137
+    }
+   ],
+   "cmd": "inv give",
+   "n": 178
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (the party pools its finances, user R2 S03); Faustina keeps it",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodric",
+     "cp": -7,
+     "sp": -8,
+     "gp": -154
+    },
+    {
+     "who": "faustina",
+     "cp": 7,
+     "sp": 8,
+     "gp": 154
+    }
+   ],
+   "cmd": "inv give",
+   "n": 179
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (the party pools its finances, user R2 S03); Faustina keeps it",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "callista",
+     "cp": -9,
+     "sp": -10,
+     "gp": -180
+    },
+    {
+     "who": "faustina",
+     "cp": 9,
+     "sp": 10,
+     "gp": 180
+    }
+   ],
+   "cmd": "inv give",
+   "n": 180
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (the party pools its finances, user R2 S03); Faustina keeps it",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "corvus",
+     "cp": -7,
+     "sp": -1,
+     "gp": -101
+    },
+    {
+     "who": "faustina",
+     "cp": 7,
+     "sp": 1,
+     "gp": 101
+    }
+   ],
+   "cmd": "inv give",
+   "n": 181
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's purse into the company purse (the party pools its finances, user R2 S03); Faustina keeps it",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "body:tertia",
+     "sp": -3,
+     "gp": -24
+    },
+    {
+     "who": "faustina",
+     "sp": 3,
+     "gp": 24
+    }
+   ],
+   "cmd": "inv give",
+   "n": 182
+  },
+  {
+   "op": "receive",
+   "cause": "Tertia's treasure share (84.17gp) into the company purse (the party pools its finances, user R2 S03); Faustina keeps it",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": 2,
+     "gp": 84
+    }
+   ],
+   "frm": "Tertia's share of A1 (pooled)",
+   "cmd": "inv receive",
+   "n": 183
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's effects into the company's keeping (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "body:tertia",
+     "item": "#w17",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w17",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 184
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's effects into the company's keeping (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "body:tertia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 185
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's effects into the company's keeping (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "body:tertia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 186
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's effects into the company's keeping (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "body:tertia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 187
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's armour into the company chest",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "faustina",
+     "item": "scale armor",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 188
+  },
+  {
+   "op": "pay",
+   "cause": "Tertia's burial in the fort's burying ground (rites by a hospitalist)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -5
+    }
+   ],
+   "to": "Hospital of Mityara",
+   "price_cp": 500,
+   "cmd": "inv pay",
+   "n": 189
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severina",
+     "gp": 70
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 190
+  },
+  {
+   "op": "give",
+   "cause": "Severina's kit from the company chest (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 191
+  },
+  {
+   "op": "give",
+   "cause": "Severina's kit from the company chest (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "#w17",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "#w17",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 192
+  },
+  {
+   "op": "give",
+   "cause": "Severina's kit from the company chest (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 193
+  },
+  {
+   "op": "give",
+   "cause": "Severina's kit from the company chest (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 194
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severina",
+     "gp": -70
+    },
+    {
+     "who": "faustina",
+     "gp": 70
+    }
+   ],
+   "cmd": "inv give",
+   "n": 195
+  },
+  {
+   "op": "give",
+   "cause": "Tertia's bow to her cousin (pooled kit)",
+   "day": 9,
+   "time": "day 9 13:43",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "#w13",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "#w13",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 196
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L1,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "galerius",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 197
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L1,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 198
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L1,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodric",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 199
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L1,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "callista",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 200
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L1,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "corvus",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 201
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the day-10 sale proceeds",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "galerius",
+     "cp": -2,
+     "sp": -7,
+     "gp": -74
+    },
+    {
+     "who": "faustina",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "cmd": "inv give",
+   "n": 202
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the day-10 sale proceeds",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodric",
+     "cp": -2,
+     "sp": -7,
+     "gp": -74
+    },
+    {
+     "who": "faustina",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "cmd": "inv give",
+   "n": 203
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the day-10 sale proceeds",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "callista",
+     "cp": -2,
+     "sp": -7,
+     "gp": -74
+    },
+    {
+     "who": "faustina",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "cmd": "inv give",
+   "n": 204
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the day-10 sale proceeds",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "corvus",
+     "cp": -2,
+     "sp": -7,
+     "gp": -74
+    },
+    {
+     "who": "faustina",
+     "cp": 2,
+     "sp": 7,
+     "gp": 74
+    }
+   ],
+   "cmd": "inv give",
+   "n": 205
+  },
+  {
+   "op": "receive",
+   "cause": "the company purse (pooled)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": 7,
+     "sp": 6,
+     "gp": 74
+    }
+   ],
+   "frm": "Tertia's part of the day-10 sale (pooled)",
+   "cmd": "inv receive",
+   "n": 206
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L3,L4 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "galerius",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 207
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L3,L4 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 208
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L3,L4 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodric",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 209
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L3,L4 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "callista",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 210
+  },
+  {
+   "op": "receive",
+   "cause": "his share of the sale of L3,L4 (after the payout)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "corvus",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "market",
+   "cmd": "sell",
+   "n": 211
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the gems' sale",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "galerius",
+     "cp": -4,
+     "sp": -3,
+     "gp": -33
+    },
+    {
+     "who": "faustina",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "cmd": "inv give",
+   "n": 212
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the gems' sale",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "hrodric",
+     "cp": -4,
+     "sp": -3,
+     "gp": -33
+    },
+    {
+     "who": "faustina",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "cmd": "inv give",
+   "n": 213
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the gems' sale",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "callista",
+     "cp": -4,
+     "sp": -3,
+     "gp": -33
+    },
+    {
+     "who": "faustina",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "cmd": "inv give",
+   "n": 214
+  },
+  {
+   "op": "give",
+   "cause": "the company purse (pooled): the gems' sale",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "corvus",
+     "cp": -4,
+     "sp": -3,
+     "gp": -33
+    },
+    {
+     "who": "faustina",
+     "cp": 4,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "cmd": "inv give",
+   "n": 215
+  },
+  {
+   "op": "receive",
+   "cause": "the company purse (pooled)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": 3,
+     "sp": 3,
+     "gp": 33
+    }
+   ],
+   "frm": "Tertia's part of the gems' sale (pooled)",
+   "cmd": "inv receive",
+   "n": 216
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 12
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": -8,
+     "sp": -4,
+     "gp": -6
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Waterskin",
+   "packs": 12,
+   "price_cp": 648,
+   "cmd": "inv buy",
+   "n": 217
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "galerius",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": -8,
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 180,
+   "cmd": "inv buy",
+   "n": 218
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "faustina",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": -8,
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 180,
+   "cmd": "inv buy",
+   "n": 219
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": -8,
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 180,
+   "cmd": "inv buy",
+   "n": 220
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": -2,
+     "sp": -6,
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Oil, Common (1 pint)",
+   "packs": 6,
+   "price_cp": 162,
+   "cmd": "inv buy",
+   "n": 221
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": 20
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": -9
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Quiver, 20 Arrows",
+   "packs": 1,
+   "price_cp": 90,
+   "cmd": "inv buy",
+   "n": 222
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -9
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Donkey, Draft",
+   "packs": 1,
+   "price_cp": 900,
+   "cmd": "inv buy",
+   "animal": "donkey2",
+   "n": 223
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "rations, iron (one week)",
+     "slot": "here",
+     "qty": 6
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": -4,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Rations, Iron (one week)",
+   "packs": 6,
+   "price_cp": 540,
+   "cmd": "inv buy",
+   "n": 224
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "torch",
+     "slot": "here",
+     "qty": 12
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": -8,
+     "sp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Torches (6)",
+   "packs": 2,
+   "price_cp": 18,
+   "cmd": "inv buy",
+   "n": 225
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 11
+    }
+   ],
+   "coins": [
+    {
+     "who": "faustina",
+     "cp": -4,
+     "sp": -9,
+     "gp": -5
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 1,
+   "row": "Waterskin",
+   "packs": 11,
+   "price_cp": 594,
+   "cmd": "inv buy",
+   "n": 226
+  },
+  {
+   "op": "pay",
+   "cause": "5 juvenile war dogs at 3gp (MM p. 360 juvenile value; Judge's call: a litter at the fort)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -15
+    }
+   ],
+   "to": "a cataphract veteran (5 war-dog pups)",
+   "price_cp": 1500,
+   "cmd": "inv pay",
+   "n": 227
+  },
+  {
+   "op": "pay",
+   "cause": "lodging in the courtyard, 2 donkeys stabled and meals, nights of days 9-18 (6 x 1sp + 2 x 2sp a night; meals 1sp a head a day)",
+   "day": 10,
+   "time": "day 10 07:43",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -16
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 1600,
+   "cmd": "inv pay",
+   "n": 228
+  },
+  {
+   "op": "pay",
+   "cause": "war-dog pups' supply, days 10-19 (0.5gp a week each, MM p. 360)",
+   "day": 19,
+   "time": "day 19 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "sp": -5,
+     "gp": -3
+    }
+   ],
+   "to": "Traveler's Inn (feed for the pups)",
+   "price_cp": 350,
+   "cmd": "inv pay",
+   "n": 229
   }
  ],
  "holdings": {
@@ -4279,13 +5609,13 @@
    },
    "backpack": {
     "waterskin": 1,
+    "rations, iron (one week)": 2,
     "tinderbox (flint & steel)": 1
    }
   },
   "faustina": {
    "back": {
-    "backpack (holds 4 stone)": 1,
-    "scale armor": 1
+    "backpack (holds 4 stone)": 1
    },
    "right_hand": {
     "#w5": 1
@@ -4298,6 +5628,7 @@
    "backpack": {
     "craftsman's tools (any)": 1,
     "waterskin": 1,
+    "rations, iron (one week)": 2,
     "tinderbox (flint & steel)": 1
    },
    "sack": {
@@ -4344,6 +5675,7 @@
    "backpack": {
     "craftsman's tools (any)": 1,
     "lantern": 1,
+    "oil, common (1 pint)": 6,
     "waterskin": 1,
     "tinderbox (flint & steel)": 1
    },
@@ -4356,8 +5688,7 @@
     "leather armor": 1
    },
    "back": {
-    "backpack (holds 4 stone)": 1,
-    "#w13": 1
+    "backpack (holds 4 stone)": 1
    },
    "belt": {
     "#w15": 1,
@@ -4375,21 +5706,9 @@
     "#w14": 1
    }
   },
-  "tertia": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "belt": {
-    "#w17": 1,
-    "sack, large (holds 6 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 1
-   }
-  },
   "donkey1": {
    "pack": {
-    "waterskin": 12,
+    "waterskin": 24,
     "#w2": 1,
     "#w3": 1,
     "#w9": 1
@@ -4404,31 +5723,44 @@
    "here": {
     "arrow": 3
    }
+  },
+  "company-chest": {
+   "here": {
+    "sack, large (holds 6 stone)": 1,
+    "rations, iron (one week)": 6,
+    "torch": 12
+   }
+  },
+  "severina": {
+   "armor": {
+    "scale armor": 1
+   },
+   "belt": {
+    "#w17": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 1,
+    "rations, iron (one week)": 2,
+    "arrow": 20
+   },
+   "back": {
+    "#w13": 1
+   }
+  },
+  "donkey2": {
+   "pack": {
+    "waterskin": 11
+   }
   }
  },
  "coins": {
-  "galerius": {
-   "gp": 53,
-   "sp": 2
-  },
   "faustina": {
-   "gp": 11
-  },
-  "hrodric": {
-   "gp": 70,
-   "sp": 7
-  },
-  "callista": {
-   "gp": 96,
-   "sp": 9,
-   "cp": 2
-  },
-  "corvus": {
-   "gp": 17
-  },
-  "tertia": {
-   "gp": 24,
-   "sp": 3
+   "gp": 1419,
+   "sp": 25,
+   "cp": 55
   }
  },
  "rolls": {},
