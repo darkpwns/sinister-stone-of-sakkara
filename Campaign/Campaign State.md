@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 741
-  time: '19:46'
+    day: 742
+  time: 05:46
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
   hex: '25.19'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 37
+    hp: 40
     hp_max: 43
     conditions:
     - minor scarring (fang mark on the hand)
@@ -108,7 +108,7 @@ public:
     encumbrance_st: 11.404
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 14 d, water 2.8 d (fatigued); Brennus: food 14 d, water 3.4 d; Vettius: food 14 d, water 1.4 d (fatigued); Lucilla: food 14 d, water 3 d (fatigued); Neris: food 14 d, water 3.2 d (fatigued); Aelia: food 14 d, water 3 d (fatigued); Phaedra: food 14 d, water 1 d (fatigued); Vestus the Unlikely: food 14 d, water 2.8 d (fatigued); Ennia Ursa: food 18 d, water 0.2 d (fatigued); Tiberius Maro: food 14 d, water 3.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 13 d, water 1.8 d; Brennus: food 13 d, water 2.4 d; Vettius: food 13 d, water 0.4 d; Lucilla: food 13 d, water 2 d; Neris: food 13 d, water 2.2 d; Aelia: food 13 d, water 2 d; Phaedra: food 13 d, water 0 d; Vestus the Unlikely: food 13 d, water 1.8 d; Ennia Ursa: food 17 d, water 0 d; Tiberius Maro: food 13 d, water 2.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
@@ -140,7 +140,7 @@ public:
   - '26.17'
   - '26.18'
   - '25.19'
-clock_day: 741
+clock_day: 742
 ---
 # Campaign State
 
