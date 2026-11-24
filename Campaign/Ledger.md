@@ -730,6 +730,7 @@ tags:
 | 618 | A146 descent 88: the alchemists' laboratory (N) | 6 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 882 | neris |
 | 618 | A146 descent 88: the alchemists' laboratory (N) | 4 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 588 | lucilla |
 | 618 | A146 descent 88: the alchemists' laboratory (N) | 4 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 588 | brennus |
+| 619 | A148 descent 89: the temple's great hall (H14) | twenty-eight orange crystals pried from the ceiling's stars, warm and faintly glowing | 14,000 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -941,6 +942,9 @@ tags:
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Eolande (SOTN) | 1 | 660 | 660 |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Skeleton | 48 | 13 | 624 |
 | 616 | A145 descent 87: the warlord brothers (M8, M9) | Mummy | 3 | 500 | 1,500 |
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Sextus Rubrius | 1 | 20 | 20 |
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Bandit | 2 | 10 | 20 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Mummy | 1 | 660 | 660 |
 
 ## Shares and XP awarded
 
@@ -1927,6 +1931,20 @@ tags:
 | 618 | A146 descent 88: the alchemists' laboratory (N) | Aelia | 0.5 | 3,164 | 0 | 0 | +0% | 3,164 |
 | 618 | A146 descent 88: the alchemists' laboratory (N) | Tiberius Maro | 0.5 | 3,164 | 0 | 0 | +0% | 3,164 |
 | 618 | A146 descent 88: the alchemists' laboratory (N) | Phaedra | 0.5 | 3,164 | 0 | 0 | +0% | 3,164 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Vettius | 1 | 0 | 9 | 0 | +5% | 9 |
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Lucilla | 1 | 0 | 9 | 0 | +10% | 10 |
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Phaedra | 0.5 | 0 | 4 | 0 | +0% | 4 |
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Neris | 1 | 0 | 9 | 0 | +0% | 9 |
+| 619 | A147 Order contract: Sextus Rubrius (Lucilla) | Brennus | 1 | 0 | 9 | 0 | +5% | 9 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 619 | A148 descent 89: the temple's great hall (H14) | Vettius | 1 | 1,750 | 82 | 0 | +5% | 1,924 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Vestus the Unlikely | 1 | 1,750 | 82 | 0 | +5% | 1,924 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Lucilla | 1 | 1,750 | 82 | 0 | +10% | 2,015 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Cotta | 1 | 1,750 | 82 | 0 | +0% | 1,832 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Brennus | 1 | 1,750 | 82 | 0 | +5% | 1,924 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Neris | 1 | 1,750 | 82 | 0 | +0% | 1,832 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Aelia | 0.5 | 875 | 41 | 0 | +0% | 916 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Tiberius Maro | 1 | 1,750 | 82 | 0 | +0% | 1,832 |
+| 619 | A148 descent 89: the temple's great hall (H14) | Phaedra | 0.5 | 875 | 41 | 0 | +0% | 916 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4922,3 +4940,20 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 618 |  | treasure share |  |  |  |  |
 | 618 |  | treasure share |  |  |  |  |
 | 618 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 | Cyfaraun (Market) | torch | 6 |  | 1sp | aelia |
+| 619 | Cyfaraun (Market) | torch | 6 |  | 1sp | phaedra |
+| 619 | Cyfaraun (Market) | Oil, Common (1 pint) | 8 |  | 2gp 4sp | vettius |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
+| 619 |  | treasure share |  |  |  |  |
