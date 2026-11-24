@@ -24,6 +24,9 @@ tags:
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 2 clay jars of old incense, oils and perfumes | 50 | sold |
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 2 clay jars of old incense, oils and perfumes | 50 | sold |
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Spider, Giant Crab (adult, adult value) | 140 | sold |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | ogre knucklebones in 2 metamphora (monster component, bones; humanoid default effect beguile humanoid) | 120 | sold |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | 3,000 silver pieces | 300 | severina |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | 300 gold pieces | 300 | galerius |
 
 ## Monster XP
 
@@ -35,6 +38,8 @@ tags:
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Stirge (Sakkara) | 7 | 13 | 91 |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Stirge (Sakkara) | 4 | 13 | 52 |
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Giant Crab Spider | 2 | 29 | 58 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Ogre | 1 | 140 | 140 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Stirge (Sakkara) | 6 | 13 | 78 |
 
 ## Shares and XP awarded
 
@@ -58,6 +63,13 @@ tags:
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Callista | 1 | 107 | 10 | 0 | +5% | 122 |
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Corvus | 1 | 107 | 10 | 0 | +5% | 122 |
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Severina | 1 | 107 | 10 | 0 | +5% | 122 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Galerius | 1 | 120 | 36 | 0 | +10% | 172 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Faustina | 1 | 120 | 36 | 0 | +5% | 164 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Severina | 1 | 120 | 36 | 0 | +5% | 164 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Callista | 1 | 120 | 36 | 0 | +5% | 164 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Corvus | 1 | 120 | 36 | 0 | +5% | 164 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Marius | 0.5 | 60 | 18 | 0 | +0% | 78 |
+| S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Lupa | 0.5 | 60 | 18 | 0 | +0% | 78 |
 
 ## Wages
 
@@ -162,3 +174,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 31 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | faustina |
 | 32 | the retinue | wages paid |  |  | 12gp | faustina |
 | 32 | the retinue | wages paid |  |  | 12gp | faustina |
+| 35 |  | treasure share |  | 120gp |  | galerius |
+| 35 |  | treasure share |  | 120gp |  | faustina |
+| 35 |  | treasure share |  | 120gp |  | severina |
+| 35 |  | treasure share |  | 120gp |  | callista |
+| 35 |  | treasure share |  | 120gp |  | corvus |
+| 35 |  | treasure share |  | 60gp |  | marius |
+| 35 |  | treasure share |  | 60gp |  | lupa |
+| 38 | the retinue | wages paid |  |  | 24gp | faustina |
+| 38 | petra (signing bonus) | signing bonus, a month's wage |  |  | 12gp | faustina |
+| 38 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | faustina |
+| 38 | Turos Tem | Spear | 1 |  | 2gp 7sp | faustina |
+| 38 | Turos Tem | Shield | 1 |  | 9gp | faustina |
+| 38 | Turos Tem | Padded Armor | 1 |  | 9gp | faustina |
+| 38 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | faustina |
+| 40 | Traveler's Inn | lodging (courtyard), meals for 6 and 2 henchmen, 2 donkeys, nights of days 35-42 (the pups fed from Corvus' hunting, Rulings R2 S06) |  |  | 16gp | faustina |

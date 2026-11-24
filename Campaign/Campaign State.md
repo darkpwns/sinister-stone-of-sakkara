@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 35
-  time: 06:01
+    day: 42
+  time: '18:01'
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate
   place: Türos Tem
-  hex: '20.19'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -27,7 +27,7 @@ public:
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 6
+    hp: 7
     hp_max: 7
     conditions: []
     spells_used: []
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.918
+    encumbrance_st: 6.448
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -64,16 +64,6 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5
-  - name: Lupa
-    sheet: Characters/lupa.json
-    role: henchman
-    hp: 3
-    hp_max: 3
-    conditions:
-    - 'one leg crushed and amputated (Mortal Wounds day 33): a crutch is required, movement reduced by 30'', DEX reduced by 1/3 for AC purposes'
-    - 'grievously wounded (day 33): 2 weeks of bed rest'
-    spells_used: []
-    encumbrance_st: 3.5
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
@@ -81,14 +71,20 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
+    encumbrance_st: 3.56
+  - name: Petra
+    sheet: Characters/petra.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
     encumbrance_st: 3.5
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 5 d, water 5.6 d; Faustina: food 5 d, water 0 d; Callista: food 5 d, water 3 d; Corvus: food 5 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Lupa: food 4 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 5 d, water 5.6 d; Faustina: food 5 d, water 0 d; Callista: food 5 d, water 3 d; Corvus: food 5 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Hrodric: food 1 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '22.20'
-  - '23.21'
   - '24.21'
   - '22.19'
   - '22.20'
@@ -107,7 +103,9 @@ public:
   - '20.19'
   - '19.19'
   - '20.19'
-clock_day: 35
+  - '21.20'
+  - '22.20'
+clock_day: 42
 ---
 # Campaign State
 

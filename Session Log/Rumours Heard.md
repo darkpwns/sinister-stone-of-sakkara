@@ -9,3 +9,4 @@ type: rumours
 - Day 27, Türos Tem: Priestess Genelen said there is a place in the Viaspen Forest so evil the gods sealed it beneath a mountain of rock.
 - Day 28, Türos Tem: the legate (Indifferent) said elves still live in the forests of Southern Argollë, gone feral and craving the flesh of men.
 - Day 33, the buried temple (L1): friendly orcs, taking the party for new recruits: 'the great purple one' sleeps in the stepped tower in the inner courtyard and takes a hundred gold a head to let anyone go down to the Lady; they invited the party to help wipe out a lesser tribe for her reward (declined).
+- Day 35, the road below Türos Tem (21.20): friendly pilgrims bound for the Shrine of the White Lady, a day or two north-east up the Krysivor, where a white unicorn drinks from the holy pool.

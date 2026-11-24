@@ -18,3 +18,4 @@ Run 2 (from 2026-11-24). Run 1's log: `Archive/Run 1 (S01-S54)/Session Log/Campa
 - [[S03 — Thirst]] (2026-11-24): days 7-19: lost in the Viaspen; Tertia dies of thirst; payout, pooled purse, Severina; war-dog pups
 - [[S04 — The Spider-Mothers]] (2026-11-24): days 19-26: the spider-mothers of room 12 taken alive (one escaped, one sold); lost twice on the farm tracks; payout A2
 - [[S05 — The Ogre's Furs]] (2026-11-24): days 27-34: downtime (Genelen won, the tracks surveyed, the pups trained); two henchmen hired; the ogre of L1 44 killed; Lupa maimed and resigned
+- [[S06 — Downtime and Pilgrims]] (2026-11-24): days 35-42: payout A3; a week of downtime (pups, hospital, hunting, the officers turn cold); Petra hired; the unicorn rumour

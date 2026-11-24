@@ -12,9 +12,13 @@ Prefix bullets with the session (`S03:`). Run 2 (from 2026-11-24).
   Training and the harvesting proficiencies in the party always; every session goal advances the kingdom.
 
 ## Rumours and what we make of them
+- S06: A white unicorn at the Shrine of the White Lady (north-east, up the river): holy to Mityara, says Faustina.
 - S02: Red Eye gnolls (hyena-men) in the buried temple say 'the Lady Below' pays any band that wipes out one of her lesser tribes. So the beastmen there serve a mistress, and she sets them on each other.
 
 ## Plans
+- S06: Back from the ogre: 720gp of treasure; the purse about 2,500gp. Lupa quit and rests at the inn. Severina hired Petra (a seamstress) on day 38.
+- S06: Pilgrims say a white unicorn drinks at the Shrine of the White Lady, a day or two north-east up the Krysivor. Hrodric wants to see it; Faustina says the White Lady is Mityara and her beast is not ours to take. We go as pilgrims first, and look.
+- S06: The pups will be tame about day 46 (Hrodric's) and day 49 (Severina's). Galerius found no war-horse foal to train. The officers at the fort have turned against us (Ilarion, Miren, Thales): stop asking them for things.
 - S05: Downtime: Faustina worked in Genelen's hospital and won her friendship (she fears the nightmares are a curse); Corvus walked the farm tracks till he knows them (no more getting lost with him leading); Callista got nowhere with Malyn's apprentices; Galerius fell out badly with the quartermaster. Hrodric stays in town training the pups.
 - S05: Severina hired Marius (a cantina keeper, good cook) and Lupa (a butcher). The ogre broke Lupa's leg (amputated) and he quit; we carry him home.
 - S05: Killed the ogre of the north hall; its bag held 3,000 silver and 300 gold; its knucklebones kept in jars. Carry more jars inside: we lost six fliers' parts for want of them.

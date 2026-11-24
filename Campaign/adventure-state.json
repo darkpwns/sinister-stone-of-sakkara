@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 475,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 172
    },
    "faustina": {
     "id": "faustina",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 453,
     "level_before": 1,
     "class": "Priestess",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 164
    },
    "severina": {
     "id": "severina",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 403,
     "level_before": 1,
     "class": "Venturer",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 164
    },
    "callista": {
     "id": "callista",
@@ -64,12 +70,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 453,
     "level_before": 1,
     "class": "Mage",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 164
    },
    "corvus": {
     "id": "corvus",
@@ -79,12 +87,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 453,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 164
    },
    "marius": {
     "id": "marius",
@@ -94,12 +104,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "marius",
     "xp_before": 0,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 78
    },
    "lupa": {
     "id": "lupa",
@@ -109,12 +121,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "lupa",
     "xp_before": 0,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 32
+    "joined_day": 32,
+    "returned_day": 35,
+    "xp_award": 78
    }
   },
   "monsters": [
@@ -153,9 +167,104 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 35,
+   "at": "Turos Tem",
+   "total": 938.0,
+   "per_share": 156.33333333333334,
+   "awards": {
+    "galerius": {
+     "share": 1.0,
+     "why": null,
+     "base": 156,
+     "pct": 10,
+     "pen": 0,
+     "award": 172,
+     "xp_before": 475,
+     "xp_after": 647,
+     "capped": null,
+     "zero": false
+    },
+    "faustina": {
+     "share": 1.0,
+     "why": null,
+     "base": 156,
+     "pct": 5,
+     "pen": 0,
+     "award": 164,
+     "xp_before": 453,
+     "xp_after": 617,
+     "capped": null,
+     "zero": false
+    },
+    "severina": {
+     "share": 1.0,
+     "why": null,
+     "base": 156,
+     "pct": 5,
+     "pen": 0,
+     "award": 164,
+     "xp_before": 403,
+     "xp_after": 567,
+     "capped": null,
+     "zero": false
+    },
+    "callista": {
+     "share": 1.0,
+     "why": null,
+     "base": 156,
+     "pct": 5,
+     "pen": 0,
+     "award": 164,
+     "xp_before": 453,
+     "xp_after": 617,
+     "capped": null,
+     "zero": false
+    },
+    "corvus": {
+     "share": 1.0,
+     "why": null,
+     "base": 156,
+     "pct": 5,
+     "pen": 0,
+     "award": 164,
+     "xp_before": 453,
+     "xp_after": 617,
+     "capped": null,
+     "zero": false
+    },
+    "marius": {
+     "share": 0.5,
+     "why": null,
+     "base": 78,
+     "pct": 0,
+     "pen": 0,
+     "award": 78,
+     "xp_before": 0,
+     "xp_after": 78,
+     "capped": null,
+     "zero": true
+    },
+    "lupa": {
+     "share": 0.5,
+     "why": null,
+     "base": 78,
+     "pct": 0,
+     "pen": 0,
+     "award": 78,
+     "xp_before": 0,
+     "xp_after": 78,
+     "capped": null,
+     "zero": true
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 35,
+   "where": "Turos Tem"
+  }
  },
  "closed": [
   {
@@ -2050,8 +2159,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 2.0,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 33,
     "where": "L1 44"
@@ -2066,16 +2175,25 @@
    },
    "player": {
     "desc": "ogre knucklebones in 2 metamphora (monster component, bones; humanoid default effect beguile humanoid)",
-    "value_gp": null,
+    "value_gp": 120.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
-   "judge": []
+   "sold": {
+    "price": 120.0,
+    "market": "Turos Tem (Market)",
+    "day": 35,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 35
   },
   "L32": {
    "id": "L32",
@@ -2084,7 +2202,7 @@
    "qty": 3000,
    "stone": 3.0,
    "carrier": "severina",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 33,
     "where": "L1 44, a bag under the furs"
@@ -2108,7 +2226,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 35
   },
   "L33": {
    "id": "L33",
@@ -2117,7 +2236,7 @@
    "qty": 300,
    "stone": 0.3,
    "carrier": "galerius",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 33,
     "where": "L1 44, a bag under the furs"
@@ -2141,7 +2260,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 35
   }
  },
  "hoards": {},

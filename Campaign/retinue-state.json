@@ -84,11 +84,13 @@
     1
    ],
    "weeks": [
-    1
+    1,
+    2
    ],
    "candidates": [
     "C2",
-    "C3"
+    "C3",
+    "C4"
    ],
    "region": "Turos Tem",
    "level": 0,
@@ -420,6 +422,102 @@
    "accepted_by": "severina",
    "elan": true,
    "offer_wage": 12.0
+  },
+  "C4": {
+   "id": "C4",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Petra",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "severina",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 38,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Craft (tailoring), JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 14,
+     "mod": 1
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 11,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 8,
+     "mod": -1
+    },
+    "CON": {
+     "score": 11,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 14,
+     "mod": 1
+    }
+   },
+   "occupation": "Tailor/Seamstress",
+   "occupation_group": "Apprentice Crafter",
+   "proficiencies": [
+    {
+     "name": "Craft (tailoring)",
+     "ranks": 1
+    },
+    {
+     "name": "Craft (weaving)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": -1,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 2",
+   "week": 2,
+   "actor": "petra",
+   "try_again": false,
+   "accepted_by": "severina",
+   "elan": true,
+   "offer_wage": 12.0
   }
  },
  "members": {
@@ -521,13 +619,55 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "petra": {
+   "id": "petra",
+   "name": "Petra",
+   "candidate": "C4",
+   "employer": "severina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Tailor/Seamstress",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 38,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 38,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 38,
+     "event": "wages paid: 2 month(s), 24 gp"
+    }
+   ],
+   "actor": "petra",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 3,
+ "seq": 4,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
