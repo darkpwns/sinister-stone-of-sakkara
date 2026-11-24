@@ -22,6 +22,7 @@ A keep built by the Imperial legions in the **Argollëan War** to guard the **ea
 - Dungeon level: 1
 - Wandering monsters: none (a lair: the hex's wilderness tables outside; inside, the alarm below)
 - **The tribe (built S47, day 665; MM Bugbear village):** the war-chief Ghorbash Old-Tusk, 3 sub-chieftains, 6 champions, 27 warriors (15 archers, 12 spearmen), the shaman Urzuk (Shaman 4), the witch doctor Grishna (Mage 4), 2 trained cave bears, 27 drudges, 54 whelps, 1 captive. About 4,960 XP of fighters (warriors 65, champions 140, sub-chieftains 260, chieftain 500; bears, drudges, casters as the MM).
+- **Losses:** day 738, warband 1 (sub-chieftain, champion, seven archers) slain raiding by the Imperial Vanguard: 20 warriors, 5 champions, 2 sub-chieftains left.
 - **Alarm:** the gate tower's horn (K2) or any fight heard: the barracks turn out (K4 1d4 rounds, K5 1d4+1), the bears loosed (1d6), the war-chief at his door; drudges and whelps flee to K6 and the forest. Morale +2 while the war-chief lives (MM). The tribe sees by Lightless Vision (30'): they fight by night as well as by day.
 - **Raids:** each week a warband of K5 is out raiding on 1-2 on 1d6 (1d3 days); after a raid the warriors sleep by day.
 - **Response to a siege:** they shoot from the palisade, sally by the breach (K7) into the attackers' rear, and send the drudges and whelps into the forest east if the walls are taken.
