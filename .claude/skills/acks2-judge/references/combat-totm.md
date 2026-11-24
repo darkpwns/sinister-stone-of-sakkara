@@ -126,7 +126,9 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
   again at A's count next round (`round-next` applies it); splash, scatter (direction and distance rolled) and who
   stands within 5' are printed for you to apply; no STR, class or backstab bonus; a natural 1 burns the thrower.
 - **Ammunition**: `--ammo "silver arrow"` counts as silver against a creature with that flaw; a magic arrow or bolt:
-  `--ammo-magic N` (higher bonus to hit, both to damage, extraordinary; TT p. 251) and take one from its lot by hand.
+  `--ammo-lot L#` (engine 7.19.27: its +N applied as `--ammo-magic`, higher bonus to hit, both to damage,
+  extraordinary; one taken from the lot: a hit destroys it, a miss goes to a lot left at `--site`, recovered after the
+  battle with `recover --give L# --carrier ID`; TT p. 251). Never deduct it by hand.
   A NOTE names a magic bow carried but not in hand: `inv wield` it before the fight.
 - **Leaving a fight**: `state remove ID --why left|absent|fled` (a party member who walks out or was never there is
   `left`/`absent`: no casualty for anyone's morale); `state return ID` brings him back. `state set ID status=` takes
