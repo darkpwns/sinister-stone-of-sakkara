@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 38
+session: 39
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 574
-  time: 09:34
+    day: 575
+  time: 06:34
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 40
+    hp: 42
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -31,7 +31,7 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 30
+    hp: 32
     hp_max: 32
     conditions: []
     spells_used: []
@@ -39,30 +39,27 @@ public:
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 11
+    hp: 18
     hp_max: 18
     conditions: []
-    spells_used:
-    - Fan of Flames
-    - Fan of Flames
-    - Fireball
+    spells_used: []
     encumbrance_st: 4.926
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 15
+    hp: 21
     hp_max: 21
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used:
-    - Remove Fear
-    - Remove Fear
+    - Cure Light Injury
+    - Cure Light Injury
     encumbrance_st: 6.46
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 32
+    hp: 35
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -72,7 +69,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 18
+    hp: 23
     hp_max: 23
     conditions: []
     spells_used: []
@@ -80,18 +77,16 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 12
+    hp: 20
     hp_max: 20
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
-    spells_used:
-    - Fan of Flames
-    - Thunderbolt
+    spells_used: []
     encumbrance_st: 7.909
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 16
+    hp: 19
     hp_max: 19
     conditions: []
     spells_used: []
@@ -140,7 +135,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 574
+clock_day: 575
 ---
 # Campaign State
 

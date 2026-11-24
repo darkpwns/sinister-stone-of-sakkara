@@ -47,3 +47,4 @@ tags:
 - [[S36 — The Beetle Stair]]
 - [[S37 — The Doom Throne]]
 - [[S38 — The Nuvicus Matter]]
+- [[S39 — The Week After the Throne]]
