@@ -12,10 +12,15 @@ Prefix bullets with the session (`S03:`). Run 2 (from 2026-11-24).
   Training and the harvesting proficiencies in the party always; every session goal advances the kingdom.
 
 ## Rumours and what we make of them
+- S08: The legate says the Black Fang and Red Eye gnolls are the toughest beastman bands about, and the borderland has grown dangerous since the garrisons were stripped for the western wars. An old imperial column by the road near the fort shows legionaries riding winged beasts: such riders were real once.
 - S06: A white unicorn at the Shrine of the White Lady (north-east, up the river): holy to Mityara, says Faustina.
 - S02: Red Eye gnolls (hyena-men) in the buried temple say 'the Lady Below' pays any band that wipes out one of her lesser tribes. So the beastmen there serve a mistress, and she sets them on each other.
 
 ## Plans
+- S08: Home on day 52. The cache paid 12,930gp; the five pilgrims are 2nd level. 13,000gp is with Guildmaster Karanos for a month (free if we leave it till day 82; he takes 15% if we draw it early). The purse (Faustina) about 1,700gp.
+- S08: Faustina hired **Varro**, a priest-crusader of Ammonar (banded plate, mace; rebukes the dead): good for the temple's lower levels. Four henchmen now: Marius, Petra, Titus (Severina's), Varro (Faustina's). More only from day 61.
+- S08: The legate is now friendly to us: he gave Faustina a scroll to recruit soldiers at the Parade Ground (one in four of those drilling will listen) and introduced Callista to Malyn. Malyn (cold, but civil) sold her a copy of his Discern Magic formula for 500gp: she knows it now.
+- S08: Next: the buried temple's level below (we have the strength our rule asks for, 12 Hit Dice, if Hrodric and Severina come: their pups' training stops while they are away). The purple one in the stepped tower takes a hundred a head to let us down; or we find another way. Then the fortress, much later, with soldiers.
 - S07: The pilgrimage went wrong: lost in the rain east of the shrine (days 47-49), we came out at Türos Aster. On the way: a rust-red seam of ore by a stream in the forest north-west of Aster (we couldn't tell what), a host of pale spirits (we slipped away), and on the road back a hidden chest of gold and jewelry under a waystone.
 - S07: **The kingdom's first ground:** the legate of Türos Aster will make whoever clears the bugbears out of the ruined imperial fortress across the ford a patrician, with a claim to the stronghold. We want it. But what Corvus saw from Aster's watchtower is a whole tribe behind a palisade (archers on the towers, scores of tents, smoke everywhere): six of us and three cooks would be eaten. **Not yet.** First: levels (the buried temple, level by level, at the strength we agreed), proper henchmen (at 2nd level we may hire 1st-level ones), and later mercenaries for an assault on a walled camp. Scout the fortress properly before any plan (Tomasz: count them first).
 - S07: Hrodric's three pups are tame (day 46). Severina hired Titus, a bookbinder (day 45).

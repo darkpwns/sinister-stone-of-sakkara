@@ -16,6 +16,8 @@ records only state. Run 2 starts from the modules as printed: nothing of run 1 (
 | 23.19 | farmland | day 46 | a band of 24 raiders (Friendly to Faustina, day 46) |
 | 25.19 | Türos Aster (fort, ford) | day 49 | Legate Nicus Balens Indifferent; his offer on the Ruined Imperial Fortress; a cache by the road (day 50) |
 | 24.19 | hills, road | day 50 | — |
+| 23.20 | farmland, road | day 51 | an old imperial victory column by the road (reliefs of riders on winged beasts; an inscription in Classical Auran, unread); pilgrims on the road (Neutral) |
+| 22.20 | Türos Tem (fort, ford, farmland) | day 1 | farmers by the road (Neutral, day 51); the party camped by their farm the night of day 51 |
 | 21.20 | farmland | day 2 | camp; a freeholder's well (water 1sp a head) |
 | 20.19 | Viaspen forest | day 3 | beastman tracks found (first hour of searching) leading west |
 | 19.19 | Viaspen forest | day 3 | the Buried Temple found day 4; a spring found day 3 (water) |
@@ -42,6 +44,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 52 | payout of A4 (12,300 XP; 12,930gp with the jewelry sold by Severina); Galerius, Faustina, Hrodric, Callista, Corvus to 2nd level | Türos Tem | 13,000gp deposited with Guildmaster Karanos (free if left to day 82); the purse about 1,700gp |
+| 52 | Faustina hired Varro (Crusader 1, a temple priest of Ammonar), 25gp a month, a month's signing | Türos Tem | henchmen: Marius, Petra, Titus (Severina), Varro (Faustina) |
+| 52 | the legate turned Friendly (Faustina's petition): two rumours, the scroll to recruit at the Parade Ground, an introduction to Malyn | Türos Tem | Callista met Malyn (Neutral); copied his formula of Discern Magic (500gp), learned it by day 59 |
+| 52-59 | downtime week: Hrodric and Severina train the pups (C21-C23 resumed day 52); Faustina and Varro at the hospital; Corvus hunts for the pups; Galerius drills the henchmen; Callista studies | Türos Tem | — |
 | 45 | Severina hired Titus (bookbinder, 0th level) | Türos Tem | henchmen: Marius, Petra, Titus |
 | 46 | Hrodric's three pups tamed (C21-C23); courses paused from day 46 | Türos Tem | tricks from day 76 once resumed |
 | 47 | lost in the rain (natural 1) on the pilgrimage | 23.18 → 24.18 → 25.18 → 25.17 | the shrine not reached; an iron outcrop in 24.18 (not identified by the party); 19 haunts in 25.18 (evaded) |
@@ -59,6 +65,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
+- Türos Tem (day 52): **Legate Ulrand Valerian Friendly** (Faustina's petition: two rumours, the Parade Ground scroll, an introduction to Malyn); **Malyn the Misshapen Neutral** (Callista, introduced by the legate; Miren's disparagement counted): let her copy one formula for 500gp; Varro (Faustina's henchman) loyal.
 
 - Türos Tem (day 1): Legate Ulrand Valerian Neutral (Faustina); Priestess Genelen Indifferent (Faustina); Malyn's apprentices Indifferent (Callista); Guildmaster Aeropos Karanos **Unfriendly** (Tertia); Quartermaster Koinos Thales **Unfriendly** (Hrodric, over kyrpeges at the inn); Centurion Axios Ilarion Neutral (Faustina).
 - Ansgar the lumbermonger (henchman candidate, day 1): refused Callista and Tertia (twice).
@@ -79,8 +86,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Prep queue (Judge only)
 
 - Buried Temple replacements (AX1 p. 35): from day 11 a weekly 1d6 per cleared room while the Lady lives (1-3: 1d6 more of the tribe); the bodiless heads of 43 and Area 4's stirges are wanderers, not rooms. The kobolds of room 1 (one killed) count as a cleared post only if the Judge decides the door was abandoned: it was not (three returned).
-- Ansgar the lumbermonger: refused; another search for 0th-level henchmen in Türos Tem only from day 31 (month 2).
-- Henchman search, month 2 (Türos Tem, 0th level): week 2 done (Petra); week 3 (day 45) 1 more (`recruit --employer severina … --week 3`).
+- Henchman searches: month 2 (days 31-60) done for 0th level (Marius, Petra, Titus) and 1st level (Varro, day 52; weeks 2-3 bring no more). Month 3 from day 61. The party has 4 henchmen (its cap while above the delve floor, Rulings R2 S02).
+- The legate's scroll (day 52): one-fourth of each troop type drilling at the Parade Ground (22) will consider service as hirelings or henchmen (AX1 Türos Tem note); kept for the fortress plan.
+- Guildmaster Karanos holds 13,000gp (`bank-karanos`) from day 52: free if withdrawn from day 82; before that 15% while he is Unfriendly. He is secretly in debt to the Siadanos syndicate (Judge only): if he turns Hostile he may abscond with deposits.
 - The Ruined Imperial Fortress (26.19; notes in `Adventure/Ruined Imperial Fortress/`, K1-K8, prepped in run 1). Run-2 state: the whole tribe present (K5's warband 1 restored to the note, 2026-11-24). Fighting strength from the notes: war-chief Ghorbash (7+2 HD), shaman Urzuk (5+1, Shaman 4), witch doctor Grishna (4+1, Mage 4: Slumber, Fan of Flames), 3 sub-chieftains (5+1), 6 champions (4+1), about 29 warriors (3+1), 27 drudges (1+1), 2 trained cave bears: roughly 180 HD behind a palisade. The hoards in K6b are named by run 1's ids (H212-H214): in run 2 place them with `treasure --type L` ×3 (or `recover` loose) when found. The party's long-term goal, not the next adventure (user, S07 end: the party would be destroyed at its level).
 - The Shrine of the White Lady (23.16; AX1 seed: a unicorn, 20 hp; the pool removes one Tampering side effect from a Lawful drinker once a lifetime and lays a geas to destroy Chaotic creatures in Southern Argollë): the party has the rumour (day 35). Not prepped: build it (unprepped-sites.md) before the party arrives. A unicorn's taming row: monstrosity, rank 4, TM S, baby 2,000gp.
 - Rosa's reserve fund holds Tertia's 50 XP from the eggs' sale (day 10; by hand: the engine's fund has 281, already used by Severina).

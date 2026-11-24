@@ -208,3 +208,10 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 52 |  | treasure share |  | 2,586gp |  | hrodric |
 | 52 |  | treasure share |  | 2,586gp |  | callista |
 | 52 |  | treasure share |  | 2,586gp |  | corvus |
+| 52 | brokers and criers | recruiting fee (a week's search) |  |  | 3gp | faustina |
+| 52 | the retinue | wages paid |  |  | 25gp | faustina |
+| 52 | Varro | signing bonus, a month's wage (offer day 52) |  |  | 25gp | faustina |
+| 52 | Faustina | signing bonus paid by Faustina (her inv pay above) |  | 25gp |  | varro |
+| 52 | his own purse | equipment on hiring (Crusader template Priest, rolled 11) |  | 2gp 5sp |  | varro |
+| 52 | Malyn the Misshapen | Callista copies Malyn's formula of Discern Magic into her spell book (Neutral; Rulings R2 S08: a 1st-level formula at a 1st-level spell scroll's base cost, TT p. 96) |  |  | 500gp | faustina |
+| 59 | Traveler's Inn | nights of days 52-58: six private rooms (5sp), four henchmen in the courtyard (1sp), meals for ten (1sp a head a day), two donkeys stabled (2sp) |  |  | 33gp 6sp | faustina |

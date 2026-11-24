@@ -1,11 +1,11 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 8,
- "generated": 1795563910,
+ "generated": 1795564228,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 52
+  "day": 59
  },
  "time": "07:01",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate",
@@ -40,7 +40,7 @@
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.332
+   "encumbrance_st": 5.74
   },
   {
    "name": "Galerius",
@@ -101,10 +101,20 @@
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 2.5
+  },
+  {
+   "name": "Varro",
+   "sheet": "Characters/varro.json",
+   "role": "henchman",
+   "hp": 3,
+   "hp_max": 3,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 8.217
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 0 d, water 5.4 d (fatigued); Faustina: food 0 d, water 0 d (fatigued); Callista: food 0 d, water 3 d (fatigued); Corvus: food 0 d, water 0 d (fatigued); Hrodric: food 3 d, water 0 d (fatigued); Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 0 d, water 5.4 d; Faustina: food 0 d, water 0 d; Callista: food 0 d, water 3 d; Corvus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -145,6 +155,14 @@
   {
    "hex": "24.19",
    "terrain": "hills, road"
+  },
+  {
+   "hex": "23.20",
+   "terrain": "farmland, road"
+  },
+  {
+   "hex": "22.20",
+   "terrain": "Türos Tem (fort, ford, farmland)"
   },
   {
    "hex": "21.20",
@@ -249,7 +267,8 @@
     "repertoire": {
      "1": [
       "Slumber",
-      "Desiccate"
+      "Desiccate",
+      "Discern Magic"
      ],
      "2": [],
      "3": [],
@@ -831,11 +850,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 2311,
-    "sp": 6,
+    "gp": 1725,
+    "sp": 0,
     "cp": 15
    },
-   "encumbrance_st": 6.332,
+   "encumbrance_st": 5.74,
    "weapons": [
     {
      "name": "Staff",
@@ -2639,9 +2658,371 @@
      "possessions"
     ]
    }
+  },
+  {
+   "type": "character",
+   "role": "henchman",
+   "name": "Varro",
+   "class": "Crusader",
+   "occupation": "crusader of Ammonar (temple priest)",
+   "level": 1,
+   "xp": 0,
+   "xp_bonus": "",
+   "alignment": "Lawful",
+   "birthplace": "",
+   "age": 0,
+   "gender": "",
+   "size": "man-sized",
+   "hp_max": 3,
+   "initiative": -2,
+   "surprise": 0,
+   "avoid_surprise": 0,
+   "save_mods": {
+    "paralysis": "",
+    "death": "",
+    "blast": "",
+    "implements": "",
+    "spells": ""
+   },
+   "movement": {
+    "stealth": 0,
+    "climb": 0,
+    "exploration": 60,
+    "combat": 20,
+    "running": 60,
+    "expedition": 12
+   },
+   "healing_rate": "",
+   "mortal_wounds": 0,
+   "class_features": "",
+   "languages": [],
+   "hired": {
+    "date": "day 52",
+    "wage_gp": 25.0,
+    "market": "Turos Tem",
+    "employer": "Faustina",
+    "terms": ""
+   },
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 10,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 4,
+     "mod": -2
+    },
+    "CON": {
+     "score": 8,
+     "mod": -1
+    },
+    "CHA": {
+     "score": 15,
+     "mod": 1
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 10,
+    "blast": 16,
+    "implements": 13,
+    "spells": 15
+   },
+   "hit_die": "1d6",
+   "cleaves": 0,
+   "title": "Catechist",
+   "xp_next": 1500,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Divine Blessing",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Theology",
+      "throw": ""
+     }
+    ],
+    "gained_at": ""
+   },
+   "spells": {
+    "repertoire": {
+     "1": [
+      "Counterspell",
+      "Cure Light Injury",
+      "Destroy Dead",
+      "Discern Evil",
+      "Discern Magic",
+      "Holy Circle",
+      "Illumination",
+      "Remove Fear",
+      "Sling Stone",
+      "Word of Command"
+     ],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    },
+    "per_day": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Banded Plate Armor",
+     "stone": 5
+    },
+    "right_hand": {
+     "item": "Mace",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "Shield",
+     "items": 0,
+     "stone": 1
+    },
+    "belt": {
+     "item": "Sack, Small (holds 2 stone)",
+     "items": 1,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [
+      "Holy Book",
+      "Holy Symbol",
+      "Rations, Iron (one week)",
+      "Waterskin"
+     ],
+     "items": 2,
+     "stone": 1.5
+    },
+    "worn": {
+     "contents": [
+      "Belt/Sash, Embossed Leather",
+      "Boots, Leather, High",
+      "Cassock, Linen or Wool"
+     ],
+     "items": 0,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 25,
+    "sp": 25,
+    "cp": 0
+   },
+   "encumbrance_st": 8.217,
+   "weapons": [
+    {
+     "name": "Mace",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6+1",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "right hand"
+    }
+   ],
+   "gems": "",
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 14,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 4,
+    "no_shield": 3,
+    "dex_only": -2
+   },
+   "sheet": {
+    "profile": "crusader",
+    "class": "Crusader",
+    "caster": true,
+    "magic": "divine",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "spells",
+     "possessions"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {},
+    "powers": {
+     "starting": [
+      "Divine Magic",
+      "Rebuke Undead",
+      "Theology"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Minor Magical Research"
+      }
+     ]
+    },
+    "prayerful_repertoire": {
+     "1": [
+      "Counterspell",
+      "Cure Light Injury",
+      "Destroy Dead",
+      "Discern Evil",
+      "Discern Magic",
+      "Holy Circle",
+      "Illumination",
+      "Remove Fear",
+      "Sling Stone",
+      "Word of Command"
+     ],
+     "2": [
+      "Augury",
+      "Delay Poison",
+      "Energy Protection",
+      "Halt Humanoids",
+      "Holy Blessing",
+      "Holy Chant",
+      "Noiselessness",
+      "Physical Protection",
+      "Righteous Wrath",
+      "Spiritual Weapon"
+     ],
+     "3": [
+      "Dispel Magic",
+      "Divine Protection",
+      "Holy Circle, Sustained",
+      "Holy Prayer",
+      "Illumination, Perpetual",
+      "Invulnerability to Evil",
+      "Remove Curse",
+      "Rune of Warding",
+      "Spellward",
+      "Striking"
+     ],
+     "4": [
+      "Angelic Aura",
+      "Call of the Regal Pride",
+      "Cure Serious Injury",
+      "Energy Invulnerability",
+      "Inspire Awe",
+      "Neutralize Poison",
+      "Physical Invulnerability",
+      "Repair Disfigurement and Disability",
+      "Smite Undead",
+      "Sunflare"
+     ],
+     "5": [
+      "Atonement",
+      "Blast Ward",
+      "Communion",
+      "Fiery Pillar",
+      "Locate Haunting",
+      "Restore Life and Limb",
+      "Strength of Mind",
+      "True Seeing",
+      "Turn to Dust",
+      "Vigor"
+     ],
+     "6": [
+      "Arrows of the Sun",
+      "Banner of Invincibility",
+      "Blast Ward, Greater",
+      "Dispel Evil",
+      "Hidden Host",
+      "Phoenix Aura",
+      "Prophetic Dream",
+      "Quest",
+      "Salvific Rain",
+      "Summon Winged Herald"
+     ]
+    }
+   }
   }
  ],
- "open_rolls": [],
+ "open_rolls": [
+  {
+   "label": "search fee 1st level (Class V)",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  }
+ ],
  "rumours_heard": [
   "Day 5, the Buried Temple (L1 2): three Red Eye gnolls, Friendly, taking the party for new recruits: 'the Lady Below' rewards any band that wipes out one of her lesser tribes, as she rewarded the Red Eye gnolls.",
   "Day 27, Türos Tem: Priestess Genelen (Friendly, to Faustina) confided that villagers and soldiers suffer nightmares; she suspects a curse.",
@@ -2649,7 +3030,9 @@
   "Day 28, Türos Tem: the legate (Indifferent) said elves still live in the forests of Southern Argollë, gone feral and craving the flesh of men.",
   "Day 33, the buried temple (L1): friendly orcs, taking the party for new recruits: 'the great purple one' sleeps in the stepped tower in the inner courtyard and takes a hundred gold a head to let anyone go down to the Lady; they invited the party to help wipe out a lesser tribe for her reward (declined).",
   "Day 35, the road below Türos Tem (21.20): friendly pilgrims bound for the Shrine of the White Lady, a day or two north-east up the Krysivor, where a white unicorn drinks from the holy pool.",
-  "Day 50, Türos Aster: Legate Nicus Balens (Indifferent) repeated his standing offer: whoever clears the bugbear tribe out of the Ruined Imperial Fortress across the ford (26.19) is raised to patrician (baron) with a claim to the stronghold."
+  "Day 50, Türos Aster: Legate Nicus Balens (Indifferent) repeated his standing offer: whoever clears the bugbear tribe out of the Ruined Imperial Fortress across the ford (26.19) is raised to patrician (baron) with a claim to the stronghold.",
+  "Day 52, Türos Tem: the legate (Friendly, to Faustina): Southern Argollë has grown far more dangerous since the Tarkaun stripped the garrisons for his wars in the west.",
+  "Day 52, Türos Tem: the legate (Friendly, to Faustina): the Black Fang and Red Eye gnolls are the toughest of the beastman warbands hereabouts."
  ],
  "requests_done": []
 }

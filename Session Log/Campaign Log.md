@@ -20,3 +20,4 @@ Run 2 (from 2026-11-24). Run 1's log: `Archive/Run 1 (S01-S54)/Session Log/Campa
 - [[S05 — The Ogre's Furs]] (2026-11-24): days 27-34: downtime (Genelen won, the tracks surveyed, the pups trained); two henchmen hired; the ogre of L1 44 killed; Lupa maimed and resigned
 - [[S06 — Downtime and Pilgrims]] (2026-11-24): days 35-42: payout A3; a week of downtime (pups, hospital, hunting, the officers turn cold); Petra hired; the unicorn rumour
 - [[S07 — The Wrong Road to the Shrine]] (2026-11-24): days 43-50: Titus hired; pups tamed; lost on the way to the shrine; Türos Aster and the legate's offer on the ruined fortress; a 12,300gp cache by the road
+- [[S08 — Home Rich, Two Levels Up]] (2026-11-24): days 50-59: home with the cache; payout A4, five PCs to 2nd level; 13,000gp banked; Varro hired; the legate Friendly; Discern Magic from Malyn; a week of downtime

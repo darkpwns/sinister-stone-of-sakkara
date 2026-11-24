@@ -11,3 +11,5 @@ type: rumours
 - Day 33, the buried temple (L1): friendly orcs, taking the party for new recruits: 'the great purple one' sleeps in the stepped tower in the inner courtyard and takes a hundred gold a head to let anyone go down to the Lady; they invited the party to help wipe out a lesser tribe for her reward (declined).
 - Day 35, the road below Türos Tem (21.20): friendly pilgrims bound for the Shrine of the White Lady, a day or two north-east up the Krysivor, where a white unicorn drinks from the holy pool.
 - Day 50, Türos Aster: Legate Nicus Balens (Indifferent) repeated his standing offer: whoever clears the bugbear tribe out of the Ruined Imperial Fortress across the ford (26.19) is raised to patrician (baron) with a claim to the stronghold.
+- Day 52, Türos Tem: the legate (Friendly, to Faustina): Southern Argollë has grown far more dangerous since the Tarkaun stripped the garrisons for his wars in the west.
+- Day 52, Türos Tem: the legate (Friendly, to Faustina): the Black Fang and Red Eye gnolls are the toughest of the beastman warbands hereabouts.

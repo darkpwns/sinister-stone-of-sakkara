@@ -98,6 +98,30 @@
    "level": 0,
    "wage": "12gp/month",
    "race": "human"
+  },
+  "Turos Tem|henchman|1st level|month 2": {
+   "market": "Turos Tem",
+   "market_class": "V",
+   "kind": "henchman",
+   "type": "1st level",
+   "table": "henchmen-availability",
+   "row": 1,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C6"
+   ],
+   "region": "Turos Tem",
+   "level": 1,
+   "wage": "25gp/month",
+   "race": "human"
   }
  },
  "candidates": {
@@ -615,6 +639,87 @@
    "accepted_by": "severina",
    "elan": true,
    "offer_wage": 12.0
+  },
+  "C6": {
+   "id": "C6",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Varro",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "faustina",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 52,
+     "wage": 25.0,
+     "signing": null
+    },
+    {
+     "employer": "faustina",
+     "party": "party",
+     "total": 14,
+     "result": "Accept with élan",
+     "day": 52,
+     "wage": 25.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 10,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 4,
+     "mod": -2
+    },
+    "CON": {
+     "score": 8,
+     "mod": -1
+    },
+    "CHA": {
+     "score": 15,
+     "mod": 1
+    }
+   },
+   "class": "Crusader",
+   "hit_die": "1d6",
+   "hp_max": 3,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 10,
+    "blast": 16,
+    "implements": 13,
+    "spells": 15
+   },
+   "caster": true,
+   "morale": 0,
+   "ac": -2,
+   "wage_table": "25gp/month",
+   "search": "Turos Tem|henchman|1st level|month 2",
+   "week": 1,
+   "actor": "varro",
+   "try_again": false,
+   "accepted_by": "faustina",
+   "elan": true,
+   "offer_wage": 25.0,
+   "morale_src": "as Heavy Infantry"
   }
  },
  "members": {
@@ -800,19 +905,64 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "varro": {
+   "id": "varro",
+   "name": "Varro",
+   "candidate": "C6",
+   "employer": "faustina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Crusader",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 2,
+   "morale": null,
+   "morale_src": null,
+   "wage_gp": 25.0,
+   "wage_per": "month",
+   "hired_day": 52,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 52,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 52,
+     "event": "wages paid: 1 month(s), 25 gp"
+    }
+   ],
+   "actor": "varro",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 5,
+ "seq": 6,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
+  "cand.market_class",
   "fatigue.six_day_onset",
   "hire.bribery_signing",
+  "hire.prof_stacking",
   "loyal.calamity_order",
+  "npcp.class_axes",
   "wage.timing"
  ]
 }

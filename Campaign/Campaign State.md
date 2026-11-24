@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: spring
-    day: 52
+    day: 59
   time: 07:01
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate
   place: Türos Tem
@@ -39,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 6.332
+    encumbrance_st: 5.74
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -88,8 +88,16 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 2.5
+  - name: Varro
+    sheet: Characters/varro.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.217
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 0 d, water 5.4 d (fatigued); Faustina: food 0 d, water 0 d (fatigued); Callista: food 0 d, water 3 d (fatigued); Corvus: food 0 d, water 0 d (fatigued); Hrodric: food 3 d, water 0 d (fatigued); Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 0 d, water 5.4 d; Faustina: food 0 d, water 0 d; Callista: food 0 d, water 3 d; Corvus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -113,7 +121,7 @@ public:
   - '24.19'
   - '23.20'
   - '22.20'
-clock_day: 52
+clock_day: 59
 ---
 # Campaign State
 
