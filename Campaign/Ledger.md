@@ -4718,3 +4718,34 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 593 |  | treasure share |  | 333gp 3sp 3cp |  | neris |
 | 594 | the retinue | wages paid |  |  | 1,600gp | lucilla |
 | 594 | the Grey Sisters | vault fee, days 593-622 (Rulings S11), paid day 594 (a day late) |  |  | 10gp | lucilla |
+| 598 | the Order of the Eclipse (Destrio) | blood-price for Pullus, the Order's man in the Family, killed in the purge of day 596 (Rulings S42, Destrio's answer 4) |  |  | 2,500gp | vettius |
+| 600 | the Merchant Guildhouse | storage fee of aelia, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 51980.22 |  |  | 129gp 9sp 5cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of brennus, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 111192.66 |  |  | 277gp 9sp 8cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of cotta, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 30475.48 |  |  | 76gp 1sp 9cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of gnaeus, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 14692.27 |  |  | 36gp 7sp 3cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of hrodvar, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 32287.13 |  |  | 80gp 7sp 2cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of iulia, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 69434.15 |  |  | 173gp 5sp 9cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of lucilla, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 104521.89 |  |  | 261gp 3sp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of marcellus, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 31888.58 |  |  | 79gp 7sp 2cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of neris, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 92603.83 |  |  | 231gp 5sp 1cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of phaedra, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 46686.48 |  |  | 116gp 7sp 2cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of saturnin, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 16.8 |  |  | 4cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of tiberius-maro, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 5439.82 |  |  | 13gp 6sp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of varro, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 31150.33 |  |  | 77gp 8sp 8cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of vestus-the-unlikely, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 88483.24 |  |  | 221gp 2sp 1cp | guildhouse-bank |
+| 600 | the Merchant Guildhouse | storage fee of vettius, 0.25% a month (JJ pp. 218-219), month 20 (day 600): on 153950.6 |  |  | 384gp 8sp 8cp | guildhouse-bank |
+| 600 | investment 3 (Balanced, 3,270gp) | month 20: Vagaries 19, Return -200% (a loss of 1% of 3,270gp) |  |  | 32gp 7sp | lucilla |
+| 600 | the front's houses and The Mink | month 20 income (Rulings S19) |  | 1,500gp |  | lucilla |
+| 600 | the venture company (her half) | month 20 income (Rulings S19) |  | 2,750gp |  | lucilla |
+| 600 | the syndicate (the Family and Sand & Bones) and the Pony's honest trade | month 20 take: syndicate 16,499 (16,934 less Calvus 4th 425, the day-540 turncoat 0th 1, the purge's three 0th 3 and Pullus 1st 5, the day-554 turncoat 0th 1) + the Pony's half 1,624 (AX3 p. 75; RR Monthly Member Tribute; Rulings S19, S22, S25, S42) |  | 18,123gp |  | vettius |
+| 600 | the Tower | month 20 dues (AX3 p. 148) |  |  | 10gp | vestus-the-unlikely |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 4,133gp 3sp 3cp |  | lucilla |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 4,133gp 3sp 3cp |  | vettius |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 4,133gp 3sp 3cp |  | brennus |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 4,133gp 3sp 3cp |  | vestus-the-unlikely |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 4,133gp 3sp 3cp |  | neris |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 4,133gp 3sp 3cp |  | cotta |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 2,066gp 6sp 7cp |  | aelia |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 2,066gp 6sp 7cp |  | phaedra |
+| 601 | Cyfaraun | his share of the sale of L832 (after the payout) |  | 2,066gp 6sp 7cp |  | tiberius-maro |
+| 602 | Tertulla | the black barge's mooring, a fortnight ahead (to day 615) |  |  | 4gp | lucilla |
