@@ -115,8 +115,10 @@ choice or when injuries make adventuring unlikely.
 
 ## 9. Town loop (engine: R/town.md, R/xp-treasure.md)
 - Market availability is per market per month (hidden): small markets run out of rations, oil, holy water; buy at
-  the first chance. Food is shared at the day rollover (a member short eats from the others' surplus;
-  `supplies share --mode pack|none` to limit it).
+  the first chance. Food and water are shared at the day rollover (a member short eats and drinks from the others'
+  surplus; `supplies share --mode pack|none` to limit it; engine 7.18.7). `travel` is refused when the party, as it
+  shares, has less than a day's water and today's route has no river, lake or settlement (`ACKS_ACK=water-short`
+  to go anyway).
 - Selling: magic items at apparent value unless identified; identified and sold unused adds sale XP. Identification:
   magic research (5th-level caster or Loremastery; 1,000gp + 1,000gp, library), a module's sage, or use.
 - Spellcasting services (RR pp. 172-173): castings per day by market class (class V: divine 1st 4d6, 2nd 2d4, 3rd
