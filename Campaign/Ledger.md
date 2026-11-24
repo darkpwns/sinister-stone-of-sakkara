@@ -733,6 +733,8 @@ tags:
 | 619 | A148 descent 89: the temple's great hall (H14) | twenty-eight orange crystals pried from the ceiling's stars, warm and faintly glowing | 14,000 | vestus-the-unlikely |
 | 620 | A149 descent 90: the library carried out (N3) | 280 cedar scroll jars of the alchemists' library (notes on spell research, crossbreeding and necromancy, Ancient Argollëan) | 41,176 | brennus |
 | 620 | A149 descent 90: the library carried out (N3) | the two magic-lit chandeliers of N2 and N3 | 60 | cotta |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | three painted bronze sarcophagi in the likeness of the elven brothers | 1,500 | brennus |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | two ancient dragon horns | 1,600 | lucilla |
 
 ## Monster XP
 
@@ -954,6 +956,7 @@ tags:
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Thalassa of the Reeds | 1 | 80 | 80 |
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Kleon Pharsalos | 1 | 50 | 50 |
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Bandit | 2 | 10 | 20 |
+| 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Mother Corvina | 1 | 50 | 50 |
 
 ## Shares and XP awarded
 
@@ -1971,6 +1974,17 @@ tags:
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Phaedra | 0.5 | 0 | 17 | 0 | +0% | 17 |
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Neris | 1 | 0 | 33 | 0 | +0% | 33 |
 | 624 | A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus) | Lucilla | 1 | 0 | 33 | 0 | +10% | 36 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Vettius | 1 | 413 | 0 | 0 | +5% | 434 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Vestus the Unlikely | 1 | 413 | 0 | 0 | +5% | 434 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Lucilla | 1 | 413 | 0 | 0 | +10% | 454 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Cotta | 1 | 413 | 0 | 0 | +0% | 413 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Brennus | 1 | 413 | 0 | 0 | +5% | 434 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Neris | 1 | 413 | 0 | 0 | +0% | 413 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Aelia | 0.5 | 207 | 0 | 0 | +0% | 207 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Tiberius Maro | 0.5 | 207 | 0 | 0 | +0% | 207 |
+| 626 | A152 descent 91: the last heavy goods (M8, M13) with porters | Phaedra | 0.5 | 207 | 0 | 0 | +0% | 207 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Vettius | 1 | 0 | 25 | 0 | +5% | 26 |
+| 627 | A153 Order contract: Mother Corvina (Neris), second attempt | Neris | 1 | 0 | 25 | 0 | +0% | 25 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5025,6 +5039,23 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 625 | the retinue | wages paid |  |  | 144gp | cotta |
 | 625 | the Heavy Infantry | a month's pay on signing (C36) |  |  | 72gp | vettius |
 | 625 | the Light Cavalry | a month's pay on signing (C38) |  |  | 120gp | lucilla |
+| 626 | eight Family porters | a day's carrying, 1gp each (Rulings S45) |  |  | 8gp | vettius |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 |  | treasure share |  |  |  |  |
+| 626 | the reward | his share of L900 (a reward after the payout) |  | 777gp 7sp 8cp |  | vettius |
+| 626 | the reward | his share of L900 (a reward after the payout) |  | 777gp 7sp 8cp |  | brennus |
+| 626 | the reward | his share of L900 (a reward after the payout) |  | 388gp 8sp 9cp |  | phaedra |
+| 626 | the reward | his share of L900 (a reward after the payout) |  | 777gp 7sp 8cp |  | neris |
+| 626 | the reward | his share of L900 (a reward after the payout) |  | 777gp 7sp 8cp |  | lucilla |
+| 627 |  | treasure share |  |  |  |  |
+| 627 |  | treasure share |  |  |  |  |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

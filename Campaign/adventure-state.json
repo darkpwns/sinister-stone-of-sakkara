@@ -1,15 +1,15 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 151,
-  "L": 897,
+  "A": 153,
+  "L": 900,
   "H": 211,
-  "M": 279
+  "M": 280
  },
  "adventure": {
-  "id": "A151",
-  "name": "A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus)",
-  "start_day": 624,
+  "id": "A153",
+  "name": "A153 Order contract: Mother Corvina (Neris), second attempt",
+  "start_day": 627,
   "participants": {
    "vettius": {
     "id": "vettius",
@@ -21,43 +21,11 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 246583,
+    "xp_before": 235171,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 624,
-    "xp_award": 35
-   },
-   "brennus": {
-    "id": "brennus",
-    "name": "Brennus",
-    "actor": "brennus",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 182049,
-    "level_before": 8,
-    "class": "Fighter",
-    "joined_day": 624,
-    "xp_award": 35
-   },
-   "phaedra": {
-    "id": "phaedra",
-    "name": "Phaedra",
-    "actor": "phaedra",
-    "kind": "henchman",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": "phaedra",
-    "xp_before": 74220,
-    "level_before": 6,
-    "class": "Mage",
-    "joined_day": 624,
-    "xp_award": 17
+    "joined_day": 627,
+    "xp_award": 26
    },
    "neris": {
     "id": "neris",
@@ -69,139 +37,58 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 171448,
+    "xp_before": 160580,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 624,
-    "xp_award": 33
-   },
-   "lucilla": {
-    "id": "lucilla",
-    "name": "Lucilla",
-    "actor": "lucilla",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 214151,
-    "level_before": 9,
-    "class": "Venturer",
-    "joined_day": 624,
-    "xp_award": 36
+    "joined_day": 627,
+    "xp_award": 25
    }
   },
   "monsters": [
    {
-    "id": "M277",
-    "monster": "Thalassa of the Reeds",
-    "source": "Thalassa of the Reeds",
-    "number": 1,
-    "how": "killed",
-    "xp_each": 80,
-    "fight": {
-     "ids": [
-      "thalassa-of-the-reeds"
-     ],
-     "text": "the fight with Thalassa of the Reeds, round 1"
-    }
-   },
-   {
-    "id": "M278",
-    "monster": "Kleon Pharsalos",
-    "source": "Kleon Pharsalos",
+    "id": "M280",
+    "monster": "Mother Corvina",
+    "source": "Mother Corvina",
     "number": 1,
     "how": "killed",
     "xp_each": 50,
     "fight": {
      "ids": [
-      "kleon-pharsalos"
+      "mother-corvina"
      ],
-     "text": "the fight with Kleon Pharsalos, 3 Bandit, round 1"
-    }
-   },
-   {
-    "id": "M279",
-    "monster": "Bandit",
-    "source": "Bandit (MM p. 217)",
-    "number": 2,
-    "how": "killed",
-    "xp_each": 10,
-    "fight": {
-     "ids": [
-      "c1",
-      "c2"
-     ],
-     "text": "the fight with Kleon Pharsalos, 3 Bandit, round 1"
+     "text": "the fight with Mother Corvina, round 0"
     }
    }
   ],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 624,
+   "day": 627,
    "at": null,
-   "total": 150.0,
-   "per_share": 33.333333333333336,
+   "total": 50.0,
+   "per_share": 25.0,
    "awards": {
     "vettius": {
      "share": 1.0,
      "why": null,
-     "base": 33,
+     "base": 25,
      "pct": 5,
      "pen": 0,
-     "award": 35,
-     "xp_before": 246583,
-     "xp_after": 246618,
-     "capped": null,
-     "zero": false
-    },
-    "brennus": {
-     "share": 1.0,
-     "why": null,
-     "base": 33,
-     "pct": 5,
-     "pen": 0,
-     "award": 35,
-     "xp_before": 182049,
-     "xp_after": 182084,
-     "capped": null,
-     "zero": false
-    },
-    "phaedra": {
-     "share": 0.5,
-     "why": null,
-     "base": 17,
-     "pct": 0,
-     "pen": 0,
-     "award": 17,
-     "xp_before": 74220,
-     "xp_after": 74237,
+     "award": 26,
+     "xp_before": 235171,
+     "xp_after": 235197,
      "capped": null,
      "zero": false
     },
     "neris": {
      "share": 1.0,
      "why": null,
-     "base": 33,
+     "base": 25,
      "pct": 0,
      "pen": 0,
-     "award": 33,
-     "xp_before": 171448,
-     "xp_after": 171481,
-     "capped": null,
-     "zero": false
-    },
-    "lucilla": {
-     "share": 1.0,
-     "why": null,
-     "base": 33,
-     "pct": 10,
-     "pen": 0,
-     "award": 36,
-     "xp_before": 214151,
-     "xp_after": 214187,
+     "award": 25,
+     "xp_before": 160580,
+     "xp_after": 160605,
      "capped": null,
      "zero": false
     }
@@ -44575,6 +44462,490 @@
      "paid_day": 624
     }
    ]
+  },
+  {
+   "id": "A151",
+   "name": "A151 Order contracts: Thalassa (Vettius), Mother Corvina (Neris), Kleon Pharsalos (Brennus)",
+   "start_day": 624,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 246583,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 624,
+     "xp_award": 35
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 182049,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 624,
+     "xp_award": 35
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "phaedra",
+     "xp_before": 74220,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 624,
+     "xp_award": 17
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 171448,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 624,
+     "xp_award": 33
+    },
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 214151,
+     "level_before": 9,
+     "class": "Venturer",
+     "joined_day": 624,
+     "xp_award": 36
+    }
+   },
+   "monsters": [
+    {
+     "id": "M277",
+     "monster": "Thalassa of the Reeds",
+     "source": "Thalassa of the Reeds",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 80,
+     "fight": {
+      "ids": [
+       "thalassa-of-the-reeds"
+      ],
+      "text": "the fight with Thalassa of the Reeds, round 1"
+     }
+    },
+    {
+     "id": "M278",
+     "monster": "Kleon Pharsalos",
+     "source": "Kleon Pharsalos",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 50,
+     "fight": {
+      "ids": [
+       "kleon-pharsalos"
+      ],
+      "text": "the fight with Kleon Pharsalos, 3 Bandit, round 1"
+     }
+    },
+    {
+     "id": "M279",
+     "monster": "Bandit",
+     "source": "Bandit (MM p. 217)",
+     "number": 2,
+     "how": "killed",
+     "xp_each": 10,
+     "fight": {
+      "ids": [
+       "c1",
+       "c2"
+      ],
+      "text": "the fight with Kleon Pharsalos, 3 Bandit, round 1"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 624,
+    "at": null,
+    "total": 150.0,
+    "per_share": 33.333333333333336,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 33,
+      "pct": 5,
+      "pen": 0,
+      "award": 35,
+      "xp_before": 246583,
+      "xp_after": 246618,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 33,
+      "pct": 5,
+      "pen": 0,
+      "award": 35,
+      "xp_before": 182049,
+      "xp_after": 182084,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 17,
+      "pct": 0,
+      "pen": 0,
+      "award": 17,
+      "xp_before": 74220,
+      "xp_after": 74237,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 33,
+      "pct": 0,
+      "pen": 0,
+      "award": 33,
+      "xp_before": 171448,
+      "xp_after": 171481,
+      "capped": null,
+      "zero": false
+     },
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 33,
+      "pct": 10,
+      "pen": 0,
+      "award": 36,
+      "xp_before": 214151,
+      "xp_after": 214187,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "late_rewards": [
+    {
+     "lot": "L900",
+     "gp": 3500.0,
+     "xp": 3500.0,
+     "day": 626,
+     "paid": true,
+     "paid_day": 626
+    }
+   ]
+  },
+  {
+   "id": "A152",
+   "name": "A152 descent 91: the last heavy goods (M8, M13) with porters",
+   "start_day": 626,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 233920,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 626,
+     "xp_award": 434
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 152900,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 626,
+     "xp_award": 434
+    },
+    "lucilla": {
+     "id": "lucilla",
+     "name": "Lucilla",
+     "actor": "lucilla",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 200885,
+     "level_before": 9,
+     "class": "Venturer",
+     "joined_day": 626,
+     "xp_award": 454
+    },
+    "cotta": {
+     "id": "cotta",
+     "name": "Cotta",
+     "actor": "cotta",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 52826,
+     "level_before": 6,
+     "class": "Explorer",
+     "joined_day": 626,
+     "xp_award": 413
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 169386,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 626,
+     "xp_award": 434
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 159389,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 626,
+     "xp_award": 413
+    },
+    "aelia": {
+     "id": "aelia",
+     "name": "Aelia",
+     "actor": "aelia",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "aelia",
+     "xp_before": 71074,
+     "level_before": 7,
+     "class": "Bard",
+     "joined_day": 626,
+     "xp_award": 207
+    },
+    "tiberius-maro": {
+     "id": "tiberius-maro",
+     "name": "Tiberius Maro",
+     "actor": "tiberius-maro",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "tiberius-maro",
+     "xp_before": 12895,
+     "level_before": 5,
+     "class": "Crusader",
+     "joined_day": 626,
+     "xp_award": 207
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "phaedra",
+     "xp_before": 68191,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 626,
+     "xp_award": 207
+    }
+   },
+   "monsters": [],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 626,
+    "at": null,
+    "total": 3100.0,
+    "per_share": 413.3333333333333,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 413,
+      "pct": 5,
+      "pen": 0,
+      "award": 434,
+      "xp_before": 233920,
+      "xp_after": 234354,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 413,
+      "pct": 5,
+      "pen": 0,
+      "award": 434,
+      "xp_before": 152900,
+      "xp_after": 153334,
+      "capped": null,
+      "zero": false
+     },
+     "lucilla": {
+      "share": 1.0,
+      "why": null,
+      "base": 413,
+      "pct": 10,
+      "pen": 0,
+      "award": 454,
+      "xp_before": 200885,
+      "xp_after": 201339,
+      "capped": null,
+      "zero": false
+     },
+     "cotta": {
+      "share": 1.0,
+      "why": null,
+      "base": 413,
+      "pct": 0,
+      "pen": 0,
+      "award": 413,
+      "xp_before": 52826,
+      "xp_after": 53239,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 413,
+      "pct": 5,
+      "pen": 0,
+      "award": 434,
+      "xp_before": 169386,
+      "xp_after": 169820,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 413,
+      "pct": 0,
+      "pen": 0,
+      "award": 413,
+      "xp_before": 159389,
+      "xp_after": 159802,
+      "capped": null,
+      "zero": false
+     },
+     "aelia": {
+      "share": 0.5,
+      "why": null,
+      "base": 207,
+      "pct": 0,
+      "pen": 0,
+      "award": 207,
+      "xp_before": 71074,
+      "xp_after": 71281,
+      "capped": null,
+      "zero": false
+     },
+     "tiberius-maro": {
+      "share": 0.5,
+      "why": null,
+      "base": 207,
+      "pct": 0,
+      "pen": 0,
+      "award": 207,
+      "xp_before": 12895,
+      "xp_after": 13102,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 207,
+      "pct": 0,
+      "pen": 0,
+      "award": 207,
+      "xp_before": 68191,
+      "xp_after": 68398,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
   }
  ],
  "lots": {
@@ -84205,6 +84576,117 @@
     "neris": 428.57
    },
    "divided_day": 624
+  },
+  "L898": {
+   "id": "L898",
+   "adventure": "A152",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 60.0,
+   "carrier": "brennus",
+   "status": "carried",
+   "found": {
+    "day": 626,
+    "where": "M8"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 60.0,
+    "name": "three painted bronze sarcophagi in the likeness of the elven brothers",
+    "merch": null
+   },
+   "player": {
+    "desc": "three painted bronze sarcophagi in the likeness of the elven brothers",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L899": {
+   "id": "L899",
+   "adventure": "A152",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 20.0,
+   "carrier": "lucilla",
+   "status": "carried",
+   "found": {
+    "day": 626,
+    "where": "M13, Nargund's vault"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1600.0,
+    "stone": 20.0,
+    "name": "two ancient dragon horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "two ancient dragon horns",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L900": {
+   "id": "L900",
+   "adventure": "A151",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "divided",
+   "found": {
+    "day": 626,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 3500.0,
+    "stone": 0,
+    "name": "reward 3500.0gp"
+   },
+   "player": {
+    "desc": "reward of 3500.0gp",
+    "value_gp": 3500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "civilization",
+    "day": 626
+   },
+   "late": true,
+   "late_split": {
+    "vettius": 777.78,
+    "brennus": 777.78,
+    "phaedra": 388.89,
+    "neris": 777.78,
+    "lucilla": 777.78
+   },
+   "divided_day": 626
   }
  },
  "hoards": {
