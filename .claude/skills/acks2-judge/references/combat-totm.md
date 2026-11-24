@@ -81,6 +81,11 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
      in one process and stops at a party member's turn without an order, a felled party member, a JUDGE item, a
      refusal, or a side with no one fighting; act for whoever it stopped at, then `round-auto` again. Initiative ties
      are taken in the listed order (said in a NOTE).
+   - **Foes' spells** (engine 7.19.3): give a caster its list once, `state set <id> spells="Word of Command,Cause
+     Light Injury x2,Slumber" level=5` (from its statblock or the module), then `acks.sh cast <id> "<Spell>"
+     --targets A,B [--word flee]`: Slumber, Word of Command, Halt Humanoids, Cure/Cause Light and Serious Injury
+     (the cause's touch is an attack throw), Holy and Unholy Circle (a ward) and area spells are resolved by their
+     notes, each cast counted off; anything else is refused with the note to read.
    - **Area spells** (engine 7.19.0): `acks.sh area --spell Fireball --caster <id> --targets A,B,… | --group G
      [--count N] [--include <party ids>] [--dice 8d6]`: the damage rolled once (open), each target's save (hidden),
      no save where half would still fell it, typed damage through the engine (types for `state end`, the area hit
