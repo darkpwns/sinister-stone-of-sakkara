@@ -191,7 +191,9 @@ conditions the fight put on a character that outlast it (mummy rot, a wound): `a
 state file (`git rm` if committed); `save.sh`.
 
 **Surprise** lasts through round 1 (engine 7.17.0): the surprised keep the condition until round 2's `round-start`,
-`round-next` says they cannot act, and `attack`, `sweep`, `rebuke` refuse them. **Rebuke** (7.17.0): its line states the
+`round-next` says they cannot act, and `attack`, `sweep`, `rebuke` refuse them. A save whose failure
+puts the saver in a condition: `save ID paralysis --fail-cond paralyzed:N` (7.19.28) so the condition is recorded
+before anyone's next action; a driver never decides who may act. **Rebuke** (7.17.0): its line states the
 2d6 Hit Dice and who was affected; Hit Dice go to undead not yet rebuked first; an undead with no rebuking row
 refuses the rebuke before any roll (`state set ID rebuke_as=TYPE`, or `rebuke_as=none` to leave it out);
 `rebuke ID --cornered ID,…` for undead that cannot flee (they cower). Righteous Rebuke (on the sheet, or `state set ID righteous_rebuke=yes`) is applied by the engine:
