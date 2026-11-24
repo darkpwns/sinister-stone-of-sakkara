@@ -17,7 +17,8 @@ only) → reaction (if no one attacks) → combat. The engine runs every step in
   another hex's tables, engine 7.18.2: a `--hex` override for a hex that is neither the travel hex nor `--at` is
   refused).
 - Keyed or deliberate: `acks.sh encounter start --monster "<MM note>" [--number N]`; a placed monster's lair check
-  and lair numbers (warbands of gangs …): `--placed`. Entries with alternatives: `--choose <name>`.
+  and lair numbers (warbands of gangs …): `--placed` (at a lair the party found by `search` there is no lair
+  check: in its lair, engine 7.18.22; `--in-lair yes|no` says it outright). Entries with alternatives: `--choose <name>`.
 - Distance: the line gives the maximum (2d6 × 10'); reduce it on the map until either side sees the other or its
   light, then `acks.sh encounter distance <feet>` (or `--seen-at` at start). The line lists the party's lit sources.
 - `acks.sh monster NAME` (the compendium's statblock) for the Judge-only fields. NPC parties: build them (hirelings
