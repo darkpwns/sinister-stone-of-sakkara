@@ -41,7 +41,7 @@ lessons:
   category: encounter-procedure
   status: refuse
   since: S21
-  triggered_since: S29
+  triggered_since: S35
   on: ["encounter surprise"]
   without: [--members]
   text: "`encounter surprise` rolls for the whole exploration party: pass --members for those actually present (made a refusal S35 after the day-523 slip; ACKS_ACK=surprise-members when the whole party is truly present)"
@@ -124,7 +124,7 @@ lessons:
   since: S18
   triggered_since: S29
   on: ["explore force-door"]
-  where: ["argv ~ -12"]
+  where: ["argv ~ (:|=| )-12\\b"]
   text: "Rulings S18 dropped SOTN's −12 on slab doors: use `--door-kind \"stone slab\"` (the campaign's doors ruling) and `--helpers`, no hand modifier"
   source: "Rulings S18; judge-notes S18, day 472"
   enforced_by: "engine 7.17.0: door kinds are campaign data; Campaign/engine-rulings.yaml `doors:` wins over the module's row"
@@ -151,10 +151,11 @@ lessons:
   category: secrecy
   status: refuse
   since: S22
-  triggered_since: S29
+  triggered_since: S55
   on: [roll]
   without: [--hidden]
   where: ["argv ~ reaction|morale|loyalty|answer|repl(y|ies)|decides|decision|wandering|\\bNPC\\b"]
+  enforced_by: "S55 (engine 7.19.8): `mortal-wounds --name` off the combat state (an NPC's: S32 Irial) is hidden unless --open"
   text: "rolls for NPCs and the world (reactions, answers, morale, loyalty, decisions, wandering checks) are hidden: add --hidden"
   source: "SKILL.md §4; judge-notes day 429"
 
@@ -202,10 +203,10 @@ lessons:
   category: bookkeeping
   status: engine
   since: S28
-  triggered_since: S29
+  triggered_since: S55
   text: "a wage falls due on the hiring day + k × 30 (`wages show`: \"next due day N\"); \"paid through day N−1\" is not the due day"
-  source: "judge-notes S28; OPEN-ITEMS 40"
-  enforced_by: "engine: `wages show`; handoff.py prints it"
+  source: "judge-notes S28; OPEN-ITEMS 40; slips S47-S48 (wages missed on the road)"
+  enforced_by: "engine: `wages show`; handoff.py prints it; S55 (skill C6): `play.py depart` FAILs on every wage due before the return plus a month and `play.py march` stops on a missed wage or loyalty roll (the S47-S48 slips were helpers that cut those lines)"
 
 - id: hp-reroll-by-the-book
   category: module-ruling
@@ -248,8 +249,10 @@ lessons:
 
 - id: driver-loop-stop
   category: fight-procedure
-  status: judge
+  status: engine
   since: S34
+  triggered_since: S55
+  enforced_by: "engine 7.19.1: `round-auto` steps the rounds in one process and stops at a fallen member, a JUDGE item, a refusal or a side gone; the drivers are retired"
   text: "a bash loop around a fight driver must break on the driver's non-zero exit (3 a fallen member, 4 a choice left to the Judge): `python3 driver.py … || break`; never let the loop start the next round"
   source: "judge-notes day 517 (S34: the insect plague placed two rounds late)"
 

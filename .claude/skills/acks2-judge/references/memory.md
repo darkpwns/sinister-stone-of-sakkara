@@ -49,3 +49,9 @@ write a number into the Judge's notes that the generated block can give. `brief.
   `play.py payout [payout options]` (the payout, and its rows into the Ledger note).
 - Python helpers for a scripted fight import `jacks` and call `jacks.run(["attack", "a", "b"])` → (exit code, text):
   no process per call. A scripted loop must stop at an arriving encounter, a fallen character, or a JUDGE part.
+  A fight of many: `act GROUP --tactic …`, `state order …`, `round-auto` (engine 7.19.1) instead of a driver; days of
+  march: `play.py march`; a departure: `play.py depart`; the week's city block: `play.py city-week`; the month's end:
+  `play.py month-end`.
+- An ESCALATE line clears when the hole is closed in the engine or a script and the lesson's `triggered_since` is set
+  to the session the enforcement starts (`enforced_by` says what closes it); the S47-S48 escalations (wage-days,
+  surprise-members, npc-rolls-hidden, driver-loop-stop) were closed so in S55.
