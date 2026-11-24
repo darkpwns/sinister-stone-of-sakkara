@@ -147,3 +147,6 @@ only); `hire --publish-to Characters/<id>.json` moves the hired one into `Charac
 
 Fallback only if the engine is UNAVAILABLE: the same steps by hand with `dice.py --hidden` and the notes named above;
 write nothing into `Characters/` until the engine is back (actors are written by the engine).
+- A spell's or effect's modifier that lasts a while (Holy Blessing, Bless): `actor mod ID TARGET N --source "<spell>"
+  --cause "cast day N" --turns 6` (or `--rounds N`, `--until "day N HH:MM"`; engine 7.19.19): the clock removes it
+  when it runs out (a timer names it); never an `actor mod` left to be remembered.
