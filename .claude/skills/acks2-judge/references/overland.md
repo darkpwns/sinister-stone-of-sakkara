@@ -72,7 +72,10 @@ A published module that gives its own encounter check and table for some hexes (
 - `navigate` shows the believed hex and today's throw; `navigate --found CC.RR` when the party fixes its position
   (doubling back, a landmark it knows). Reaching a settlement fixes it automatically (engine reading); crossing the
   hex where it expected a settlement that is not there makes it aware it is lost (forewarned). A lost party throws
-  every day, even on what it believes is a road.
+  every day, even on what it believes is a road. Engine 7.18.1: a lost party that enters a road hex or a hex it
+  entered earlier while it knew where it was recognises it (reading `nav.found_at_known`): the position is fixed and
+  the day's travel stops there; plan the route on from that hex. `travel --to` goes by road when the way is at most
+  half again the straight line (`--direct` for the straight line); `--route` for anything else.
 - After an evasion (`evade`), a failed Navigation −4 leaves the party lost and aware. If the monsters track it:
   `pursue --wilderness [--target N] [--ground soft|hard]`; the pursuers close hour by hour during travel and camp and
   the encounter begins again where they catch up (rain or snow loses the trail).
