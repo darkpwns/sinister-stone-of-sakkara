@@ -811,6 +811,27 @@ tags:
 | 829 | A159 the road north | brilliant worth 4,000gp (Facet cut imperial topaz, flawless diamond) | 4,000 | vettius |
 | 829 | A159 the road north | brilliant worth 4,000gp (Facet cut imperial topaz, flawless diamond) | 4,000 | vettius |
 | 829 | A159 the road north | Sword +1, Oblivion | 660 | cotta |
+| 859 | A162 the Ruined Monastery | trinket worth 600gp (Fine wood, porcelain, or wrought silver) | 600 | vettius |
+| 859 | A162 the Ruined Monastery | trinket worth 60gp (Glass, shells, or wrought copper, brass, or bronze) | 60 | vettius |
+| 859 | A162 the Ruined Monastery | trinket worth 7gp (Bone, scrimshaw, beast parts) | 7 | vettius |
+| 859 | A162 the Ruined Monastery | trinket worth 150gp (Glass, shells, or wrought copper, brass, or bronze) | 150 | vettius |
+| 859 | A162 the Ruined Monastery | trinket worth 200gp (Fine wood, porcelain, or wrought silver) | 200 | vettius |
+| 859 | A162 the Ruined Monastery | 1,000 silver pieces | 100 | lucilla |
+| 859 | A162 the Ruined Monastery | gem worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | lucilla |
+| 859 | A162 the Ruined Monastery | gem worth 75gp (Carnelian, chalcedony, sardonyx, zircon) | 75 | lucilla |
+| 859 | A162 the Ruined Monastery | gem worth 75gp (Carnelian, chalcedony, sardonyx, zircon) | 75 | lucilla |
+| 859 | A162 the Ruined Monastery | gem worth 50gp (Bloodstone, crystal, citrine, jasper, moonstone, onyx) | 50 | lucilla |
+| 859 | A162 the Ruined Monastery | jewelry worth 700gp (Fine wood, porcelain, or wrought silver) | 700 | lucilla |
+| 859 | A162 the Ruined Monastery | jewelry worth 110gp (Glass, shells, or wrought copper, brass, or bronze) | 110 | lucilla |
+| 859 | A162 the Ruined Monastery | jewelry worth 500gp (Fine wood, porcelain, or wrought silver) | 500 | lucilla |
+| 859 | A162 the Ruined Monastery | jewelry worth 700gp (Carved jade or wrought platinum) | 700 | lucilla |
+| 859 | A162 the Ruined Monastery | jewelry worth 4,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 4,000 | lucilla |
+| 859 | A162 the Ruined Monastery | jewelry worth 2,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 2,000 | lucilla |
+| 859 | A162 the Ruined Monastery | 2,000 electrum pieces | 1,000 | brennus |
+| 859 | A162 the Ruined Monastery | Whip +1, Tyrant's | 655 | brennus |
+| 859 | A162 the Ruined Monastery | a bronze tessera of passage stamped with the legion's eagle (PORTA VADI / CASTRA CYFARAUN; a watchword on the reverse in Classical Auran) | 100 | vettius |
+| 859 | A162 the Ruined Monastery | a bronze tessera of passage stamped with the legion's eagle (PORTA VADI / CASTRA CYFARAUN; a watchword on the reverse in Classical Auran) | 100 | vettius |
+| 859 | A162 the Ruined Monastery | a bronze tessera of passage stamped with the legion's eagle (PORTA VADI / CASTRA CYFARAUN; a watchword on the reverse in Classical Auran) | 100 | vettius |
 
 ## Monster XP
 
@@ -1058,6 +1079,18 @@ tags:
 | 850 | A161 the road south with the labour column | Bandit | 3 | 20 | 60 |
 | 850 | A161 the road south with the labour column | Bandit | 22 | 10 | 220 |
 | 850 | A161 the road south with the labour column | Giant Rat | 16 | 5 | 80 |
+| 859 | A162 the Ruined Monastery | Gnoll | 1 | 50 | 50 |
+| 859 | A162 the Ruined Monastery | Gnoll | 3 | 20 | 60 |
+| 859 | A162 the Ruined Monastery | Gnoll | 10 | 20 | 200 |
+| 859 | A162 the Ruined Monastery | Brigand | 5 | 20 | 100 |
+| 859 | A162 the Ruined Monastery | Bandit | 9 | 10 | 90 |
+| 859 | A162 the Ruined Monastery | Brigand | 1 | 80 | 80 |
+| 859 | A162 the Ruined Monastery | Gnoll | 2 | 80 | 160 |
+| 859 | A162 the Ruined Monastery | Gnoll | 2 | 50 | 100 |
+| 859 | A162 the Ruined Monastery | Gnoll | 4 | 20 | 80 |
+| 859 | A162 the Ruined Monastery | Orc | 6 | 10 | 60 |
+| 859 | A162 the Ruined Monastery | Skeleton | 8 | 13 | 104 |
+| 859 | A162 the Ruined Monastery | Giant Rat | 25 | 5 | 125 |
 
 ## Shares and XP awarded
 
@@ -2154,6 +2187,15 @@ tags:
 | 850 | A161 the road south with the labour column | Aelia | 0.5 | 0 | 31 | 0 | +0% | 31 |
 | 850 | A161 the road south with the labour column | Phaedra | 0.5 | 0 | 31 | 0 | +0% | 31 |
 | 850 | A161 the road south with the labour column | Ennia Ursa | 0.5 | 0 | 31 | 0 | +0% | 31 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 859 | A162 the Ruined Monastery | Cotta | 1 | 1,508 | 161 | 0 | +0% | 1,669 |
+| 859 | A162 the Ruined Monastery | Brennus | 1 | 1,508 | 161 | 0 | +5% | 1,752 |
+| 859 | A162 the Ruined Monastery | Vettius | 1 | 1,508 | 161 | 0 | +5% | 1,752 |
+| 859 | A162 the Ruined Monastery | Lucilla | 1 | 1,508 | 161 | 0 | +10% | 1,836 |
+| 859 | A162 the Ruined Monastery | Neris | 1 | 1,508 | 161 | 0 | +0% | 1,669 |
+| 859 | A162 the Ruined Monastery | Vestus the Unlikely | 1 | 1,508 | 161 | 0 | +5% | 1,752 |
+| 859 | A162 the Ruined Monastery | Aelia | 0.5 | 754 | 81 | 0 | +0% | 834 |
+| 859 | A162 the Ruined Monastery | Phaedra | 0.5 | 754 | 81 | 0 | +0% | 834 |
+| 859 | A162 the Ruined Monastery | Ennia Ursa | 0.5 | 754 | 81 | 0 | +0% | 834 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -5826,6 +5868,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 850 |  | treasure share |  |  |  |  |
 | 850 |  | treasure share |  |  |  |  |
 | 850 |  | treasure share |  |  |  |  |
+| 852 | the Legate's stables, Türos Aster | stabling days 850-852 (2 nights, 14 animals) and the three donkeys kept on |  |  | 7gp 1sp | lucilla |
+| 852 | farms and road-houses on the Imperial road (26.18) | a day's feed for ten mounts, day 853: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 853 | farms and road-houses on the Imperial road (27.18) | a day's feed for ten mounts, day 854: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 854 | farms and road-houses on the Imperial road (26.18) | a day's feed for ten mounts, day 855: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 855 | farms and road-houses on the Imperial road (27.18) | a day's feed for ten mounts, day 856: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 856 | farms and road-houses on the Imperial road (29.17) | a day's feed for ten mounts, day 857: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 857 | farms and road-houses on the Imperial road (x) | a day's feed for ten mounts, day 858: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 858 | farms and road-houses on the Imperial road (x) | a day's feed for ten mounts, day 0: 25 st at 2sp (RR Surviving the Wild; Rulings S53) |  |  | 5gp | lucilla |
+| 859 |  | treasure share |  | 146gp 6sp 7cp |  | cotta |
+| 859 |  | treasure share |  | 146gp 6sp 7cp |  | brennus |
+| 859 |  | treasure share |  | 146gp 6sp 7cp |  | vettius |
+| 859 |  | treasure share |  | 146gp 6sp 7cp |  | lucilla |
+| 859 |  | treasure share |  | 146gp 6sp 7cp |  | neris |
+| 859 |  | treasure share |  | 146gp 6sp 7cp |  | vestus-the-unlikely |
+| 859 |  | treasure share |  | 73gp 3sp 3cp |  | aelia |
+| 859 |  | treasure share |  | 73gp 3sp 3cp |  | phaedra |
+| 859 |  | treasure share |  | 73gp 3sp 3cp |  | ennia-ursa |
+| 859 | the Legate's stables | the three donkeys' stabling days 852-859 left owing: 7 nights x 3 x 2sp = 4gp 2sp |  |  | 1gp | lucilla |
+| 859 | the Legate's stables | the rest of the donkeys' stabling, days 852-859 |  |  | 3gp 2sp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

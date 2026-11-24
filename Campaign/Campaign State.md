@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: summer
-    day: 850
-  time: '12:33'
-  weather: Hot (91 to 94 F) by day, Warm (83 to 86 F) at night; heavy rain; wind moderate (rainy)
+    day: 859
+  time: '10:43'
+  weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; clear; wind still
   place: Türos Aster
   hex: '26.19'
   party:
@@ -27,34 +27,33 @@ public:
     - 'third eye in the forehead (Tampering with Mortality, day 243): lidded; telepathy 3 times a day by unlidding it; -3 to reaction rolls with normal men who see it'
     - It feels like another being sometimes controls your right arm. When you roll a natural 1 on an attack throw, you hit an adjacent ally instead of an enemy. (Tampering with Mortality)
     spells_used: []
-    encumbrance_st: 12.284
+    encumbrance_st: 12.294
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 34
+    hp: 18
     hp_max: 34
     conditions: []
     spells_used: []
-    encumbrance_st: 9.316
+    encumbrance_st: 9.162
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 13
+    hp: 18
     hp_max: 19
     conditions: []
-    spells_used:
-    - Fireball
-    encumbrance_st: 4.479
+    spells_used: []
+    encumbrance_st: 4.492
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 8
+    hp: 19
     hp_max: 21
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
     spells_used: []
-    encumbrance_st: 6.312
+    encumbrance_st: 6.325
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
@@ -64,23 +63,23 @@ public:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
     - 'made a woman by the gods (Tampering with Mortality, day 247): -2 to reaction rolls with those who knew Brennus before (CHA under 13)'
     spells_used: []
-    encumbrance_st: 11.479
+    encumbrance_st: 11.492
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 21
+    hp: 23
     hp_max: 23
     conditions: []
     spells_used: []
-    encumbrance_st: 3.977
+    encumbrance_st: 3.983
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 15
+    hp: 18
     hp_max: 20
     conditions: []
     spells_used: []
-    encumbrance_st: 6.312
+    encumbrance_st: 6.325
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
@@ -96,21 +95,20 @@ public:
     hp_max: 9
     conditions: []
     spells_used: []
-    encumbrance_st: 7.643
+    encumbrance_st: 7.649
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 16
+    hp: 19
     hp_max: 20
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
     - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
-    spells_used:
-    - Fan of Flames
-    encumbrance_st: 4.31
+    spells_used: []
+    encumbrance_st: 4.316
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 9 d, water 0.2 d (fatigued); Brennus: food 9 d, water 1.2 d; Vettius: food 9 d, water 1.4 d (fatigued); Lucilla: food 9 d, water 1 d (fatigued); Neris: food 9 d, water 0 d (fatigued); Aelia: food 9 d, water 0 d (fatigued); Phaedra: food 9 d, water 0 d (fatigued); Ennia Ursa: food 14 d, water 0.2 d (fatigued); Vestus the Unlikely: food 9 d, water 2.8 d (fatigued)'
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
+  rations: 'Cotta: food 2 d, water 0.2 d (fatigued); Brennus: food 2 d, water 1.2 d; Vettius: food 2 d, water 1.4 d (fatigued); Lucilla: food 2 d, water 1 d (fatigued); Neris: food 2 d, water 0 d (fatigued); Aelia: food 2 d, water 0 d (fatigued); Phaedra: food 2 d, water 0 d (fatigued); Ennia Ursa: food 14 d, water 0.2 d (fatigued); Vestus the Unlikely: food 2 d, water 2.8 d (fatigued)'
   tracker: {}
   threads:
   - 'The Silk Pony, Cyfaraun: the Gilded Ram''s men, Lentulus Mordax''s gangs and Sigvald''s forty Jutlanders come at the Pony the night of day 831'
@@ -121,19 +119,6 @@ public:
   - A bandit camp of about sixty in the trees by the road two days south of the city (20.07)
   - Three dark shapes at dusk in the forest east of the fort; seven great beetles in a hollow there
   trail:
-  - '19.07'
-  - '20.07'
-  - '20.08'
-  - '21.09'
-  - '22.09'
-  - '23.10'
-  - '23.11'
-  - '24.11'
-  - '24.12'
-  - '25.13'
-  - '25.14'
-  - '26.14'
-  - '26.15'
   - '27.16'
   - '27.17'
   - '26.17'
@@ -141,7 +126,20 @@ public:
   - '26.17'
   - '26.18'
   - '26.19'
-clock_day: 850
+  - '26.18'
+  - '27.18'
+  - '26.18'
+  - '27.18'
+  - '28.17'
+  - '29.17'
+  - '30.16'
+  - '31.17'
+  - '30.17'
+  - '29.18'
+  - '28.18'
+  - '27.19'
+  - '26.19'
+clock_day: 859
 ---
 # Campaign State
 
