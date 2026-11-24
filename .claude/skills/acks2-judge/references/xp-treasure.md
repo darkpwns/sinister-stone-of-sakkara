@@ -71,3 +71,6 @@ The engine decides all of this (tools repo `engine/COVERAGE.md`, stage 5): treas
 Hidden: every treasure and placement roll, true identities, values before appraisal, rarities (never told to players, TT p. 29), appraisal and identification throws, monster XP during the adventure, a small market's buyer roll, loyalty rolls. Open: what the characters perceive of found treasure, coins, appraised values, identified facts, sale prices, the payout and split, level-ups and the hp rolls, Tampering with Mortality. `snapshot.py` refuses an unidentified item's true name or note anywhere in the output and the true-record fields; the party agent sees only the actors' `treasure` player records (`party.py` lists them as "treasure carried"; the `judge` block is never passed).
 - A magic item is never `recover --goods` (engine 7.19.14 refuses a name that matches one): `recover --item "<name>"`
   keeps its apparent value and its sale XP when sold identified; `--as-goods` only for mundane goods that share a name.
+- Porters and bearers carry lots without being participants (engine 7.19.15): `recover … --carrier porter1 --bearer
+  "Porters"` (or `--give L# --carrier porter1 --bearer`): the lots count as carried (brought back for XP), take no
+  share, and load no member; the porters' own load and pace are yours.
