@@ -4498,3 +4498,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 555 |  | treasure share |  | 468gp 7sp 5cp |  | phaedra |
 | 555 |  | treasure share |  | 468gp 7sp 5cp |  | hrodvar |
 | 555 |  | treasure share |  | 468gp 7sp 5cp |  | tiberius-maro |
+| 556 | the Tower (identification) | identification of L822 and L824 by the Tower's magic research (2,000gp each, as day 519), ready day 570 |  |  | 4,000gp | vestus-the-unlikely |
+| 556 | Cyfaraun | Oil, Common (1 pint) | 6 |  | 1gp 6sp 2cp | vettius |
+| 558 | the Order of the Eclipse (blood-price to Sextus Varo's brother) | Rulings S28: a Family member's petition (Vibius Turpio, Thief 4): 500gp a level; Turpio exiled with a purse |  |  | 2,000gp | vettius |
