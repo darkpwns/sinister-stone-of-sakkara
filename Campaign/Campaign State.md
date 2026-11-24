@@ -35,7 +35,7 @@ public:
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 9.478
+    encumbrance_st: 9.493
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -97,6 +97,16 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 10
+  - name: Phaedra
+    sheet: Characters/phaedra.json
+    role: henchman
+    hp: 20
+    hp_max: 20
+    conditions:
+    - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
+    - Your connection to the Divine is lessened. You can cast 1 less Divine spell per level per day and your WIL is reduced by 1d3. (Tampering with Mortality) (WIL -2, day 578; no divine spells to lose)
+    spells_used: []
+    encumbrance_st: 10.071
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
   rations: 'Cotta: food 3 d, water 2.8 d; Brennus: food 3 d, water 3.4 d; Ennia Ursa: food 14 d, water 0.2 d; Vettius: food 0 d, water 0.4 d; Lucilla: food 0 d, water 1 d; Neris: food 0 d, water 1.2 d; Aelia: food 0 d, water 1 d; Phaedra: food 0 d, water 1 d; Tiberius Maro: food 0 d, water 1.2 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
@@ -105,12 +115,11 @@ public:
   - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
   - 'The fort (seen day 673): a horn and watchers on the gate tower, many fires; the ford people speak of thirty and more warriors with bows, two great bears, and the ferryman''s boy Lucius taken alive in the autumn'
   - 'Vestus vanished from his workshop on day 664 in a fold of grey light; the Revered Mother says his line is not closed: look for him where he last worked, when the thaw comes'
-  - 'Phaedra left Vettius on the night of day 670, unpaid and furious, with her scroll; she goes to the Prefect''s examiner Plautius, who has questioned Vettius'
   - 'The Revered Mother''s charge to Neris (day 680): give the legion''s dead in the fort rites when it is ours'
   - 'Devil boars on the Imperial road near 26.14-27.16: one killed (it died a fat man), two more walk the road'
-  - 'Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; the lieutenant who runs the street work has been seen with the Gilded Ram''s people and will not run it in spring'
-  - 'Free of the Order of the Eclipse since day 629; Destrio''s people have been seen near the Plaza District Watch house'
-  - 'The workshop in the Pony''s back house: Neris brews potions of healing there'
+  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; the lieutenant who runs the street work has been seen with the Gilded Ram's people and will not run it in spring
+  - Free of the Order of the Eclipse since day 629; Destrio's people have been seen near the Plaza District Watch house
+  - 'The workshop in the Pony''s back house: Phaedra scribes scrolls of sleep and Neris brews potions of healing there'
   trail:
   - '25.19'
   - '26.18'

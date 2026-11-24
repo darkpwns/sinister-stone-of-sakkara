@@ -5327,6 +5327,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 690 | the Family (Thana) | the Family's take, month 23: the syndicate 16,508 and the Pony's half 1,624 (Rulings S19, S22, S25) |  | 18,132gp |  | vettius |
 | 690 | the front's houses, The Mink, the venture company and investment 1 | Lucilla's income, month 23 (Rulings S19) 4,250gp; investment 1: 62, Return +50% (10gp, RR p. 384) |  | 4,260gp |  | lucilla |
 | 690 | investment 3 (Balanced, 3,000gp) | month 23: 19, Return -200% (a 30gp loss, RR p. 384) |  |  | 30gp | lucilla |
+| 690 | the retinue | wages paid |  |  | 800gp | vettius |
+| 690 | the day-675 and day-680 purchases for Phaedra's scrolls | Judge's correction S47 (second): Phaedra never left; the purchases of days 675 and 680 stand (the refund reversed) |  |  | 2,000gp | guildhouse-bank |
+| 690 | the voided day-680 bribe | Judge's correction S47 (second): no centurion came about Phaedra's statement (she never left) |  | 15gp |  | vettius |
+| 690 | the retinue | wages paid |  |  | 800gp | vettius |
+| 690 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 4 (days 681-685; Rulings S47) |  |  | 500gp | vettius |
+| 690 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 5 (days 686-690; Rulings S47) |  |  | 500gp | vettius |
+| 690 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 5 (Rulings S47) |  |  | 500gp | vettius |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
