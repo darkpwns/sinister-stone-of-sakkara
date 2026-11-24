@@ -381,10 +381,15 @@ def depart(a):
             out("OK", f"water: {i} {water:g} day(s), {cnt.get('waterskin', 0)} waterskin(s)")
         if cnt:
             out("OK", f"light: {i} {cnt.get('torch', 0)} torch(es), {cnt.get('oil', 0)} oil")
+    from acks import travel as TV
     for aid, an in (tv.get("animals") or {}).items():
-        feed = float(an.get("food") or 0)
-        out("OK" if feed or an.get("grazer") else "WARN",
-            f"feed: {aid} ({an.get('kind')}) {feed:g} day(s) of feed, {float(an.get('water') or 0):g} of water")
+        feed = float(an.get("food") or 0) + float(an.get("feed_inv") or 0)
+        row, _r = TV.animal_food_row(an.get("kind") or "")
+        days = feed / row[0] if row and row[0] else 0
+        grazer = TV.is_grazer(an.get("kind") or "")
+        kind = "OK" if grazer or days >= max(1, trip) else ("WARN" if days >= 1 else "FAIL")
+        out(kind, f"feed: {aid} ({an.get('kind')}) {feed:g} st = {days:.1f} day(s)" + (" (grazes)" if grazer else "")
+            + f"; water {float(an.get('water') or 0):g} st")
     out("OK", f"metamphora carried: {meta}")
     sp = tv.get("speed") or {}
     if sp.get("error"):

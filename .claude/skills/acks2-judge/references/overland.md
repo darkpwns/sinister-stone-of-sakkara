@@ -21,6 +21,10 @@ supplies, the party's Evasion throw, hp healed and CON lost.
   vehicle sets the pace; wheeled vehicles keep to roads in desert, mountains, forest and swamp; palanquins do not);
   animals outside the inventory: `mounts add ID --kind "Horse, Light" --rider ID [--cargo ST --food ST --water ST]` (no rider: led
   pack animal); `supplies show ID --on M1` packs a member's food and water on an animal (its weight moves there).
+  Feed (engine 7.19.6): `inv buy <payer> "Animal feed (1 stone)" N` (2sp a stone, RR p. 276) and `inv give` it to the
+  animal; each rollover the animal eats its daily food (normal load / 10) from what it carries; donkeys, oxen and
+  steppe horses graze unless force marched; a hungry animal becomes underfed and starving as characters do, and
+  `travel` is refused while a non-grazer carries less than a day's feed (`ACKS_ACK=feed-short` to go anyway).
   Carried food, water and firewood count in each member's encumbrance and a rider's weight (15 st + gear + supplies).
   Hit points the party starts with: `heal ID --hp N`. Settings: `heal ID --set protective=no|wet=yes|native=polar|resist=cold`.
 - **Before every departure:** `python3 $S/play.py depart --route A,B,… --return-day N [--resupply]` (the checklist:
