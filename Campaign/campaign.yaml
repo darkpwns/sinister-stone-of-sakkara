@@ -195,6 +195,11 @@ hexes:
       acks: null
     lake:
       acks: null
+  classification_map: {}                   # the CSV's 'wilderness' is read by the engine as unsettled (RR p. 338, engine 7.18.0)
+  domains:                                 # a domain's hexes take its classification (engine 7.18.0)
+  - name: Barony of the Ford
+    classification: outlands               # Rulings S51 (the barony granted, day 778)
+    hexes: ['26.19']
   climate:
     by_column:
       below: 99

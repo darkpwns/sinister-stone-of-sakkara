@@ -77,6 +77,25 @@ def prep_status(note):
     return "settlement/landmark"
 
 
+_HM = {}
+
+
+def engine_class(h):
+    """The engine's territory classification of the hex (engine 7.18.0: a domain's hexes, classification_map, the
+    'wilderness' reading), with its source; None when the engine is not installed or refuses the word."""
+    try:
+        if "hm" not in _HM:
+            from acks import hexmap as HM
+            _HM["hm"] = HM.load(jlib.path(cfg.get("tools", {}).get("hexes", "Campaign/campaign.yaml")))
+        cls, ref = _HM["hm"].classify(h)
+    except Exception as e:  # noqa: BLE001 - the table's own word is still shown
+        return f"engine refuses: {e}"
+    if not ref or str(ref.get("campaign", "")).startswith("hex table column"):
+        return cls
+    src = ref.get("campaign") or ref.get("given") or f"{ref.get('book', '')} {ref.get('page', '')} {ref.get('rule', '')}".strip()
+    return f"{cls} ({src})"
+
+
 def site_name(h):
     s = rows[h].get(C["site"], "")
     return re.sub(r"^#\d+\s+", "", s) if s else ""
@@ -88,6 +107,7 @@ def describe(h, short=False):
     site = site_name(h)
     out = {"hex": h, "terrain": t, "acks_terrain": tm.get("acks") or "impassable",
            "zone": r[C["zone"]], "classification": r[C["classification"]], "river": r[C["river"]] or None,
+           "engine_classification": None if short else engine_class(h),
            "navigable_river": nav, "road": roads or None, "domain": r[C["domain"]] or None,
            "site": site or None}
     if site:

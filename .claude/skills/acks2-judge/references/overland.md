@@ -79,7 +79,11 @@ A published module that gives its own encounter check and table for some hexes (
 
 ## Hexes, sites and state
 - `hex.py HEX` gives the campaign's view (terrain and ACKS type, zone, classification, road, river, site and its prep
-  status, climate, neighbours). Entering a site's hex: if `hex.py` reports it **UNPREPPED** and the party approaches,
+  status, climate, neighbours) and `engine_classification`, the territory the engine uses (engine 7.18.0): a domain's
+  hexes take the domain's classification (config `hexes.domains`: `{name, classification, hexes}` per domain, or
+  `{file: …}` for the domain records of `acks domain`); the table's word is mapped by `hexes.classification_map`, and
+  `wilderness` is read as unsettled (reading `terr.wilderness_term`, RR p. 338). Never pass
+  `--hex CC.RR:classification=…` to work around the table: set the campaign data. Entering a site's hex: if `hex.py` reports it **UNPREPPED** and the party approaches,
   stop at the threshold and load unprepped-sites.md. Read a site note only when the party enters its hex or sees it.
 - Dynamic lairs (config `paths.wiki_folders.dynamic_lairs`): when a monster encounter is IN LAIR and matches one, the
   party has found that lair; note it in World State and the lair note.

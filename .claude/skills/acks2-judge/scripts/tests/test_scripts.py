@@ -164,3 +164,26 @@ def test_snapshot_allows_an_unidentified_twin_of_a_known_name(camp):
     json.dump(adv, open(ap, "w"))
     code, out = sh(camp, "--check", script="snapshot.py")           # the identified twin publishes the name
     assert code == 0, out
+
+
+def test_hex_shows_the_engines_classification(camp):
+    """Engine 7.18.0 (A1): the table's 'wilderness' and a domain's hexes as the engine reads them."""
+    import csv as _csv
+    cfgp = os.path.join(camp, "Campaign", "campaign.yaml")
+    import yaml as _yaml
+    cfg = _yaml.safe_load(open(cfgp))
+    H = cfg.get("hexes") or {}
+    if not H.get("csv"):
+        pytest.skip("no hex table")
+    col = (H.get("columns") or {}).get("classification")
+    rows = list(_csv.DictReader(open(os.path.join(camp, H["csv"]), encoding="utf-8")))
+    wild = [r for r in rows if (r.get(col) or "").strip().lower() == "wilderness"
+            and r[H["columns"]["hex"]] not in {h for d in (H.get("domains") or []) for h in d.get("hexes", [])}]
+    if not wild:
+        pytest.skip("no 'wilderness' hex outside a domain")
+    code, out = sh(camp, wild[0][H["columns"]["hex"]], script="hex.py")
+    assert code == 0 and "engine_classification: unsettled" in out
+    for d in H.get("domains") or []:
+        if isinstance(d, dict) and d.get("hexes"):
+            code, out = sh(camp, d["hexes"][0], script="hex.py")
+            assert f"engine_classification: {d['classification']}" in out
