@@ -5272,6 +5272,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 660 | the retinue | wages paid |  |  | 54gp | cotta |
 | 660 | the retinue | wages paid |  |  | 30gp | lucilla |
 | 664 | Plaza District herbalists and alchemists (spider webs, roots, ground bone) | miscellaneous special components 500gp (count 1,000gp under Efficiency), consumed in the scroll of Webbing no. 1 (Rulings S47; RR Component Cost) |  |  | 500gp | vestus-the-unlikely |
+| 666 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 1 (days 666-670) |  |  | 500gp | vettius |
+| 666 | Cyfaraun | bought in Cyfaraun |  |  | 75gp | brennus |
+| 666 | Cyfaraun | Saddle and Tack, Riding | 1 |  | 10gp | brennus |
+| 666 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | brennus |
+| 666 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | brennus |
+| 666 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | brennus |
+| 667 | the retinue | wages paid |  |  | 25gp | brennus |
+| 670 | Plaza District herbalists and alchemists | miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 1 (Rulings S47) |  |  | 500gp | vettius |
+| 670 | Plaza District vellum-makers and ink-grinders | material cost, Phaedra's scroll of Slumber no. 2 (days 671-675) |  |  | 500gp | vettius |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

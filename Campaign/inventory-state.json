@@ -99,10 +99,22 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by lucilla",
-   "owner": "lucilla"
+   "owner": "lucilla",
+   "stabled": {
+    "at": "the Silk Pony",
+    "day": 666,
+    "cause": "left in town while the three scout south"
+   },
+   "history": [
+    {
+     "stabled": "the Silk Pony",
+     "day": 666,
+     "cause": "left in town while the three scout south"
+    }
+   ]
   },
   "quintus-the-rager": {
    "kind": "hireling",
@@ -154,10 +166,22 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Türos Tem by lucilla",
-   "owner": "lucilla"
+   "owner": "lucilla",
+   "stabled": {
+    "at": "the Silk Pony",
+    "day": 666,
+    "cause": "left in town while the three scout south"
+   },
+   "history": [
+    {
+     "stabled": "the Silk Pony",
+     "day": 666,
+     "cause": "left in town while the three scout south"
+    }
+   ]
   },
   "ground:catacombs": {
    "kind": "cache",
@@ -211,14 +235,12 @@
    "kind": "vehicle",
    "name": "Cart, Small",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "note": "bought in Turos Orn by vettius",
    "owner": "vettius",
    "vehicle": "Cart, Small",
-   "config": "Cart, Small (1 mule)",
-   "team": [
-    "mule1"
-   ],
+   "config": null,
+   "team": [],
    "bearers": null,
    "history": [
     {
@@ -228,18 +250,42 @@
      ],
      "bearers": null,
      "cause": null
+    },
+    {
+     "unharnessed": "Cart, Small (1 mule)"
+    },
+    {
+     "stabled": "the Silk Pony",
+     "day": 666,
+     "cause": "left in town while the three scout south"
     }
-   ]
+   ],
+   "stabled": {
+    "at": "the Silk Pony",
+    "day": 666,
+    "cause": "left in town while the three scout south"
+   }
   },
   "mule1": {
    "kind": "animal",
    "name": "Mule, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Mule, Draft",
    "note": "bought in Turos Orn by vettius",
    "owner": "vettius",
-   "harness": "cart1"
+   "stabled": {
+    "at": "the Silk Pony",
+    "day": 666,
+    "cause": "left in town while the three scout south"
+   },
+   "history": [
+    {
+     "stabled": "the Silk Pony",
+     "day": 666,
+     "cause": "left in town while the three scout south"
+    }
+   ]
   },
   "neris": {
    "kind": "henchman",
@@ -600,6 +646,21 @@
    "animal": "Horse, Light Riding",
    "note": "bought in Cyfaraun by lucilla",
    "owner": "lucilla"
+  },
+  "brennus-horse": {
+   "kind": "animal",
+   "name": "Horse, Light Riding",
+   "actor": null,
+   "status": "active",
+   "animal": "Horse, Light Riding",
+   "note": "bought in Cyfaraun by brennus",
+   "owner": "brennus"
+  },
+  "ground:26.14": {
+   "kind": "cache",
+   "name": "ground:26.14",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {
@@ -833,6 +894,15 @@
    "items_each": 0,
    "stone_each": "1",
    "value_cp": 500,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "scroll of slumber (phaedra's)": {
+   "name": "Scroll of Slumber (Phaedra's)",
+   "items_each": 6,
+   "stone_each": "0",
+   "value_cp": 50000,
    "base": null,
    "note": null,
    "judge": true
@@ -117733,6 +117803,652 @@
    "price_cp": 50000,
    "cmd": "inv pay",
    "n": 5989
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: material for Phaedra's scroll of Slumber no. 1 (Rulings S47)",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -500
+    },
+    {
+     "who": "vettius",
+     "gp": 500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5990
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Phaedra's scroll of Slumber no. 1 (days 666-670)",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District vellum-makers and ink-grinders",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 5991
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: a horse for the ride south",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -100
+    },
+    {
+     "who": "brennus",
+     "gp": 100
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5992
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -75
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 23,
+   "row": "Horse, Light Riding",
+   "packs": 1,
+   "price_cp": 7500,
+   "cmd": "inv buy",
+   "animal": "brennus-horse",
+   "n": 5993
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "saddle and tack, riding",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -10
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 23,
+   "row": "Saddle and Tack, Riding",
+   "packs": 1,
+   "price_cp": 1000,
+   "cmd": "inv buy",
+   "n": 5994
+  },
+  {
+   "op": "give",
+   "cause": "Brennus' horse",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "saddle and tack, riding",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "brennus-horse",
+     "item": "saddle and tack, riding",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5995
+  },
+  {
+   "op": "give",
+   "cause": "jars stored in the workshop (the hunts ended)",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "ennia-horse",
+     "item": "metamphora (60gp)",
+     "slot": "pack",
+     "qty": -10
+    },
+    {
+     "who": "vestus-workshop",
+     "item": "metamphora (60gp)",
+     "slot": "here",
+     "qty": 10
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5996
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -12
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 23,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 1200,
+   "cmd": "inv buy",
+   "n": 5997
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -12
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 23,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 1200,
+   "cmd": "inv buy",
+   "n": 5998
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": 2
+    }
+   ],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -12
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 23,
+   "row": "Rations, Iron (one week)",
+   "packs": 2,
+   "price_cp": 1200,
+   "cmd": "inv buy",
+   "n": 5999
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to cotta: 14 days of iron rations; supplies: cotta food 14 d, water 0.8 d, firewood 0 st; brennus food 0 d, water 1.4 d, firewood 0 st; ennia-ursa food 0 d, water 0 d, firewood 0 st; cotta-horse fodder 0 st, water 0 st; ennia-horse fodder 0 st, water 0 st; brennus-horse fodder 0 st, water 0 st",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": -2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 6000
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to brennus: 14 days of iron rations; supplies: cotta food 14 d, water 0.8 d, firewood 0 st; brennus food 14 d, water 1.4 d, firewood 0 st; ennia-ursa food 0 d, water 0 d, firewood 0 st; cotta-horse fodder 0 st, water 0 st; ennia-horse fodder 0 st, water 0 st; brennus-horse fodder 0 st, water 0 st",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": -2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 6001
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to ennia-ursa: 14 days of iron rations; supplies: cotta food 14 d, water 0.8 d, firewood 0 st; brennus food 14 d, water 1.4 d, firewood 0 st; ennia-ursa food 14 d, water 0 d, firewood 0 st; cotta-horse fodder 0 st, water 0 st; ennia-horse fodder 0 st, water 0 st; brennus-horse fodder 0 st, water 0 st",
+   "day": 666,
+   "time": "day 666 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": -2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 6002
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 667,
+   "time": "day 667 03:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "brennus",
+     "gp": -25
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 2500,
+   "cmd": "inv wages",
+   "n": 6003
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: miscellaneous components for Phaedra's scroll no. 1",
+   "day": 670,
+   "time": "day 670 18:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -500
+    },
+    {
+     "who": "vettius",
+     "gp": 500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6004
+  },
+  {
+   "op": "pay",
+   "cause": "miscellaneous special components 500gp, Phaedra's scroll of Slumber no. 1 (Rulings S47)",
+   "day": 670,
+   "time": "day 670 18:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District herbalists and alchemists",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6005
+  },
+  {
+   "op": "add",
+   "cause": "scribed in the company's workshop, days 666-670 (Rulings S47; throw 12 vs 12+)",
+   "day": 670,
+   "time": "day 670 18:00",
+   "deltas": [
+    {
+     "who": "phaedra",
+     "item": "scroll of slumber (phaedra's)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 6006
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: material for Phaedra's scroll of Slumber no. 2",
+   "day": 670,
+   "time": "day 670 18:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -500
+    },
+    {
+     "who": "vettius",
+     "gp": 500
+    }
+   ],
+   "cmd": "inv give",
+   "n": 6007
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, Phaedra's scroll of Slumber no. 2 (days 671-675)",
+   "day": 670,
+   "time": "day 670 18:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -500
+    }
+   ],
+   "to": "Plaza District vellum-makers and ink-grinders",
+   "price_cp": 50000,
+   "cmd": "inv pay",
+   "n": 6008
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "#w53",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "brennus",
+     "item": "#w53",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 6009
+  },
+  {
+   "op": "wield",
+   "cause": "Spear +1 taken in hand",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "brennus",
+     "item": "#w74",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "brennus",
+     "item": "#w74",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w74",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 6010
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 6011
+  },
+  {
+   "op": "wield",
+   "cause": "Long Bow +1 taken in hand",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w72",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "cotta",
+     "item": "#w72",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w72",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 6012
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "#w80",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "ennia-ursa",
+     "item": "#w80",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 6013
+  },
+  {
+   "op": "wield",
+   "cause": "Short Bow taken in hand",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "#w78",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ennia-ursa",
+     "item": "#w78",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w78",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 6014
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:26.14",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:26.14",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 6015
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:26.14",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:26.14",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 6016
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w72",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "cotta",
+     "item": "#w72",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 6017
+  },
+  {
+   "op": "wield",
+   "cause": "Sword taken in hand",
+   "day": 672,
+   "time": "day 672 06:00",
+   "deltas": [
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "cotta",
+     "item": "#w68",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w68",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 6018
   }
  ],
  "holdings": {
@@ -118085,10 +118801,12 @@
     "crowbar": 1,
     "waterskin": 6,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1,
-    "#w74": 1,
     "torch": 2
    },
    "right_hand": {
+    "#w74": 1
+   },
+   "back": {
     "#w53": 1
    }
   },
@@ -118136,7 +118854,8 @@
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    },
    "sack": {
-    "torch": 6
+    "torch": 6,
+    "scroll of slumber (phaedra's)": 1
    }
   },
   "varro": {
@@ -118439,7 +119158,6 @@
   "cotta": {
    "belt": {
     "#w67": 1,
-    "arrow": 1,
     "waterskin": 1,
     "alchemist's filter mask (vinegar, camphor, charcoal pad)": 1
    },
@@ -118580,8 +119298,7 @@
   },
   "ennia-ursa": {
    "belt": {
-    "#w78": 1,
-    "arrow": 20,
+    "arrow": 19,
     "#w79": 1,
     "tinderbox (flint & steel)": 1,
     "waterskin": 1
@@ -118597,7 +119314,7 @@
     "backpack (holds 4 stone)": 1
    },
    "right_hand": {
-    "#w80": 1
+    "#w78": 1
    },
    "backpack": {
     "#w81": 1,
@@ -118606,17 +119323,30 @@
     "holy water (1 pint)": 2,
     "rope, 50'": 1,
     "torch": 6
+   },
+   "back": {
+    "#w80": 1
    }
   },
   "vestus-workshop": {
    "here": {
-    "workshop apparatus (magic research)": 1
+    "workshop apparatus (magic research)": 1,
+    "metamphora (60gp)": 10
    }
   },
   "ennia-horse": {
    "pack": {
-    "saddle and tack, riding": 1,
-    "metamphora (60gp)": 10
+    "saddle and tack, riding": 1
+   }
+  },
+  "brennus-horse": {
+   "pack": {
+    "saddle and tack, riding": 1
+   }
+  },
+  "ground:26.14": {
+   "here": {
+    "arrow": 2
    }
   }
  },
@@ -118700,7 +119430,7 @@
   },
   "brennus": {
    "sp": 369,
-   "gp": 417,
+   "gp": 371,
    "cp": 476
   },
   "quirinus": {
@@ -118749,7 +119479,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 683442,
+   "gp": 681842,
    "cp": 6,
    "sp": 4
   },
@@ -123329,7 +124059,7 @@
     "medium": 60,
     "long": 120
    },
-   "grip": 1,
+   "grip": 2,
    "lot": "L716",
    "cause": "lot L716 used",
    "magic": {
@@ -123574,7 +124304,7 @@
     "medium": 150,
     "long": 300
    },
-   "grip": 1,
+   "grip": 2,
    "lot": null,
    "cause": "equipment on hiring (Monster Hunter template, RR Explorer)",
    "magic": {

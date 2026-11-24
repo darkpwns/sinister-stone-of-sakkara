@@ -4700,15 +4700,17 @@
    "monster": null,
    "animal": false,
    "caster": true,
-   "loyalty": 0,
+   "loyalty": -1,
    "morale": 1,
    "morale_src": null,
    "wage_gp": 800,
    "wage_per": "month",
    "hired_day": 190,
    "periods_paid": 16,
-   "missed": [],
-   "status": "active",
+   "missed": [
+    16
+   ],
+   "status": "left (hostile)",
    "history": [
     {
      "day": 190,
@@ -4936,6 +4938,13 @@
      "event": "obedience: scribe scrolls of Slumber in the company's workshop through the winter, a day's work each day",
      "total": 10,
      "result": "Compliant"
+    },
+    {
+     "day": 670,
+     "event": "loyalty roll (calamity: wage due day 670 not paid)",
+     "total": 2,
+     "result": "Hostility",
+     "loyalty": -1
     }
    ],
    "actor": "phaedra",
@@ -6698,14 +6707,16 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": 2,
+   "loyalty": 1,
    "morale": -1,
    "morale_src": "as Bowmen",
    "wage_gp": 25.0,
    "wage_per": "month",
    "hired_day": 636,
-   "periods_paid": 1,
-   "missed": [],
+   "periods_paid": 2,
+   "missed": [
+    1
+   ],
    "status": "active",
    "history": [
     {
@@ -6728,6 +6739,17 @@
      "event": "obedience: hunt the eastern forest again under Tiberius, a fortnight",
      "total": 7,
      "result": "Compliant"
+    },
+    {
+     "day": 666,
+     "event": "loyalty roll (calamity: wage due day 666 not paid)",
+     "total": 10,
+     "result": "Loyalty",
+     "loyalty": 1
+    },
+    {
+     "day": 667,
+     "event": "wages paid: 1 month(s), 25 gp"
     }
    ],
    "actor": "ennia-ursa",
@@ -6739,7 +6761,13 @@
   }
  },
  "slander": [],
- "never_rehire": [],
+ "never_rehire": [
+  {
+   "name": "Phaedra",
+   "employer": "vettius",
+   "day": 670
+  }
+ ],
  "pending": [
   {
    "member": "phaedra",

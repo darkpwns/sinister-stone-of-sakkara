@@ -1,110 +1,82 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 153,
+  "A": 154,
   "L": 901,
   "H": 214,
-  "M": 280
+  "M": 281
  },
  "adventure": {
-  "id": "A153",
-  "name": "A153 Order contract: Mother Corvina (Neris), second attempt",
-  "start_day": 627,
+  "id": "A154",
+  "name": "A154 the scouting ride to Türos Aster (Cotta, Brennus, Ennia)",
+  "start_day": 672,
   "participants": {
-   "vettius": {
-    "id": "vettius",
-    "name": "Vettius",
-    "actor": "vettius",
+   "cotta": {
+    "id": "cotta",
+    "name": "Cotta",
+    "actor": "cotta",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 235171,
-    "level_before": 9,
-    "class": "Thief",
-    "joined_day": 627,
-    "xp_award": 26
+    "xp_before": 53639,
+    "level_before": 6,
+    "class": "Explorer",
+    "joined_day": 672
    },
-   "neris": {
-    "id": "neris",
-    "name": "Neris",
-    "actor": "neris",
+   "brennus": {
+    "id": "brennus",
+    "name": "Brennus",
+    "actor": "brennus",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 160580,
+    "xp_before": 171057,
     "level_before": 8,
-    "class": "Priestess",
-    "joined_day": 627,
-    "xp_award": 25
+    "class": "Fighter",
+    "joined_day": 672
+   },
+   "ennia-ursa": {
+    "id": "ennia-ursa",
+    "name": "Ennia Ursa",
+    "actor": "ennia-ursa",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": "ennia-ursa",
+    "xp_before": 0,
+    "level_before": 1,
+    "class": "Explorer",
+    "joined_day": 672
    }
   },
   "monsters": [
    {
-    "id": "M280",
-    "monster": "Mother Corvina",
-    "source": "Mother Corvina",
+    "id": "M281",
+    "monster": "Devil Boar",
+    "source": "Devil Boar (MM p. 99)",
     "number": 1,
     "how": "killed",
-    "xp_each": 50,
+    "xp_each": 2000,
     "fight": {
      "ids": [
-      "mother-corvina"
+      "g1"
      ],
-     "text": "the fight with Mother Corvina, round 0"
+     "text": "the fight with Devil Boar, round 7"
     }
    }
   ],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 627,
-   "at": null,
-   "total": 50.0,
-   "per_share": 25.0,
-   "awards": {
-    "vettius": {
-     "share": 1.0,
-     "why": null,
-     "base": 25,
-     "pct": 5,
-     "pen": 0,
-     "award": 26,
-     "xp_before": 235171,
-     "xp_after": 235197,
-     "capped": null,
-     "zero": false
-    },
-    "neris": {
-     "share": 1.0,
-     "why": null,
-     "base": 25,
-     "pct": 0,
-     "pen": 0,
-     "award": 25,
-     "xp_before": 160580,
-     "xp_after": 160605,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
-  "events": [],
-  "late_rewards": [
-   {
-    "lot": "L901",
-    "gp": 1500.0,
-    "xp": 1500.0,
-    "day": 628,
-    "paid": true,
-    "paid_day": 628
-   }
-  ]
+  "status": "open",
+  "payout": null,
+  "events": []
  },
  "closed": [
   {
@@ -44963,6 +44935,106 @@
     }
    },
    "events": []
+  },
+  {
+   "id": "A153",
+   "name": "A153 Order contract: Mother Corvina (Neris), second attempt",
+   "start_day": 627,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 235171,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 627,
+     "xp_award": 26
+    },
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 160580,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 627,
+     "xp_award": 25
+    }
+   },
+   "monsters": [
+    {
+     "id": "M280",
+     "monster": "Mother Corvina",
+     "source": "Mother Corvina",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 50,
+     "fight": {
+      "ids": [
+       "mother-corvina"
+      ],
+      "text": "the fight with Mother Corvina, round 0"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 627,
+    "at": null,
+    "total": 50.0,
+    "per_share": 25.0,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 25,
+      "pct": 5,
+      "pen": 0,
+      "award": 26,
+      "xp_before": 235171,
+      "xp_after": 235197,
+      "capped": null,
+      "zero": false
+     },
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 25,
+      "pct": 0,
+      "pen": 0,
+      "award": 25,
+      "xp_before": 160580,
+      "xp_after": 160605,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "late_rewards": [
+    {
+     "lot": "L901",
+     "gp": 1500.0,
+     "xp": 1500.0,
+     "day": 628,
+     "paid": true,
+     "paid_day": 628
+    }
+   ]
   }
  ],
  "lots": {
@@ -95861,6 +95933,10 @@
   "tiberius-maro": {
    "id": "tiberius-maro",
    "actor": "tiberius-maro"
+  },
+  "ennia-ursa": {
+   "id": "ennia-ursa",
+   "actor": "ennia-ursa"
   }
  },
  "bought_market": [
