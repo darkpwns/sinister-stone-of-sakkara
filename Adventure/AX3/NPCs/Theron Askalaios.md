@@ -4,6 +4,7 @@ place: "[[Cyfaraun]]"
 level: 2
 tags:
   - sakkara/secret
+actor: "theron-askalaios"
 ---
 # Theron Askalaios (Order contract, Vestus, S40; Judge only)
 

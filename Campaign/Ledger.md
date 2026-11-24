@@ -4707,3 +4707,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 584 | the Tower's suppliers | material cost, scroll of Fireball (RR Creating Magic Items: 500gp x 3; paid at the start), the Tower's Arcane Workshop, day 584 |  |  | 1,500gp | vestus-the-unlikely |
 | 588 | Tertulla | the black barge's mooring, a fortnight ahead (to day 601) |  |  | 4gp | lucilla |
 | 588 | the retinue | wages paid |  |  | 200gp | vettius |
+| 592 | the Order of the Eclipse (Destrio) | blood-price for Spurius Calvus, a Family man (Mage 4), Neris' assignment of day 592 (Rulings S25, S28) |  |  | 2,000gp | vettius |
