@@ -711,6 +711,9 @@ tags:
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a large terracotta amphora with geometric patterns | 60 | tiberius-maro |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a round cedar shield gilded with gold | 100 | cotta |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | a chryselephantine statuette of a serene priestess | 300 | lucilla |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | 3,000 gold pieces | 3,000 | brennus |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | five terracotta canopic jars | 125 | tiberius-maro |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | six large red-figure terracotta urns | 120 | lucilla |
 
 ## Monster XP
 
@@ -921,6 +924,7 @@ tags:
 | 614 | A143 the drowned cellar under the Citadel: the Teacher | Great Teacher (SOTN) | 1 | 5,000 | 5,000 |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Eolande (SOTN) | 1 | 660 | 660 |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Skeleton | 48 | 13 | 624 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Mummy | 3 | 500 | 1,500 |
 
 ## Shares and XP awarded
 
@@ -1889,6 +1893,15 @@ tags:
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Aelia | 0.5 | 497 | 86 | 0 | +0% | 583 |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Tiberius Maro | 0.5 | 497 | 86 | 0 | +0% | 583 |
 | 615 | A144 descent 86: Eolande's tomb and the gallery (D) | Phaedra | 0.5 | 497 | 86 | 0 | +0% | 583 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Vettius | 1 | 433 | 200 | 0 | +5% | 665 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Vestus the Unlikely | 1 | 433 | 200 | 0 | +5% | 665 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Lucilla | 1 | 433 | 200 | 0 | +10% | 696 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Cotta | 1 | 433 | 200 | 0 | +0% | 633 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Brennus | 1 | 433 | 200 | 0 | +5% | 665 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Neris | 1 | 433 | 200 | 0 | +0% | 633 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Aelia | 0.5 | 216 | 100 | 0 | +0% | 316 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Tiberius Maro | 0.5 | 216 | 100 | 0 | +0% | 316 |
+| 616 | A145 descent 87: the warlord brothers (M8, M9) | Phaedra | 0.5 | 216 | 100 | 0 | +0% | 316 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4864,3 +4877,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 615 |  | treasure share |  | 400gp |  | aelia |
 | 615 |  | treasure share |  | 400gp |  | tiberius-maro |
 | 615 |  | treasure share |  | 400gp |  | phaedra |
+| 616 | Tertulla, Lake Laman fisherwoman | mooring the black barge, days 616-629 |  |  | 4gp | lucilla |
+| 616 |  | treasure share |  | 400gp |  | vettius |
+| 616 |  | treasure share |  | 400gp |  | vestus-the-unlikely |
+| 616 |  | treasure share |  | 400gp |  | lucilla |
+| 616 |  | treasure share |  | 400gp |  | cotta |
+| 616 |  | treasure share |  | 400gp |  | brennus |
+| 616 |  | treasure share |  | 400gp |  | neris |
+| 616 |  | treasure share |  | 200gp |  | aelia |
+| 616 |  | treasure share |  | 200gp |  | tiberius-maro |
+| 616 |  | treasure share |  | 200gp |  | phaedra |
