@@ -22,8 +22,10 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    - Other monsters: `acks.sh state add <id> --monster "<MM note name>" --group <g> --perceived "<what the party sees>"`
      (hp rolled hidden). The line lists any field the statblock leaves as a choice (`JUDGE: needs Judge: ac …`):
      set it with `acks.sh state set <id> ac=5` (also `hd`, `morale`, `save=F3`, `attack_throw`, `weapon=spear`,
-     `size`, `armor_ac`, `running`). Leaders with their own statblock line in the
-     entry: `--set ac=… --set hd=… --set attack_throw=…`. A creature with other Hit Dice than its statblock's: give
+     `size`, `armor_ac`, `running`, `damage=1d10`, `weapon_bonus=2`). Leaders of a note's leader table (Orc, Goblin,
+     Hobgoblin, Bugbear, Gnoll, Kobold …): `state add <id> --monster Orc --leader chieftain` sets AC, HD, hp, attack
+     throw, damage, weapon bonus and save (statblock class at the HD's level, reading `monster.leader_save`; engine
+     7.18.18). Other leaders with their own statblock line: `--set ac=… --set hd=… --set attack_throw=…`. A creature with other Hit Dice than its statblock's: give
      them at `state add … --hd N` (hp rolled for them); `state set <id> hd=N` later keeps the hp unless
      `--reroll-hp` (damage taken is kept). `state set <id> perceived="…"` renames it in every line (engine 7.18.4).
    - Immunities and resistances load with the monster from its bestiary note (engine 6.20.0: typed records, mundane
