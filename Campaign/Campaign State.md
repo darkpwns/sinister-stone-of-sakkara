@@ -10,16 +10,16 @@ public:
   date:
     year: ''
     season: spring
-    day: 739
-  time: 06:22
+    day: 741
+  time: 05:46
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
-  hex: '27.16'
+  hex: '25.19'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 43
+    hp: 37
     hp_max: 43
     conditions:
     - minor scarring (fang mark on the hand)
@@ -108,7 +108,7 @@ public:
     encumbrance_st: 11.404
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 2 d, water 2.8 d (fatigued); Brennus: food 2 d, water 3.4 d; Vettius: food 2 d, water 1.4 d (fatigued); Lucilla: food 2 d, water 3 d (fatigued); Neris: food 2 d, water 3.2 d (fatigued); Aelia: food 2 d, water 3 d (fatigued); Phaedra: food 2 d, water 1 d (fatigued); Vestus the Unlikely: food 2 d, water 2.8 d (fatigued); Ennia Ursa: food 4 d, water 0.2 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 0 d, water 2.8 d (fatigued); Brennus: food 0 d, water 3.4 d; Vettius: food 0 d, water 1.4 d (fatigued); Lucilla: food 0 d, water 3 d (fatigued); Neris: food 0 d, water 3.2 d (fatigued); Aelia: food 0 d, water 3 d (fatigued); Phaedra: food 0 d, water 1 d (fatigued); Vestus the Unlikely: food 0 d, water 2.8 d (fatigued); Ennia Ursa: food 4 d, water 0.2 d (fatigued); Tiberius Maro: food 0 d, water 3.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st'
   tracker: {}
   threads:
   - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
@@ -120,10 +120,6 @@ public:
   - Free of the Order of the Eclipse since day 629; Destrio's people have been seen near the Plaza District Watch house
   - 'The workshop in the Pony''s back house: Phaedra scribes scrolls of sleep and Neris brews potions of healing there'
   trail:
-  - '18.05'
-  - '18.06'
-  - '19.07'
-  - '20.07'
   - '20.08'
   - '21.09'
   - '22.09'
@@ -140,7 +136,11 @@ public:
   - '26.14'
   - '26.15'
   - '27.16'
-clock_day: 739
+  - '27.17'
+  - '26.17'
+  - '26.18'
+  - '25.19'
+clock_day: 741
 ---
 # Campaign State
 
