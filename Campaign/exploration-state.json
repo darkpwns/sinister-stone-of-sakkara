@@ -1,9 +1,9 @@
 {
  "schema": "acks-exploration/3",
  "clock": {
-  "day": 565,
-  "round_of_day": 1324,
-  "total_rounds": 813004
+  "day": 567,
+  "round_of_day": 457,
+  "total_rounds": 815017
  },
  "party": {
   "vettius": {
@@ -68,15 +68,6 @@
    "conditions": [],
    "endurance": false,
    "treasure_stone": 4.503333333333333
-  },
-  "hrodvar": {
-   "id": "hrodvar",
-   "actor": "hrodvar",
-   "name": "Hrodvar",
-   "perceived": "Hrodvar",
-   "conditions": [],
-   "endurance": true,
-   "treasure_stone": 0.0
   },
   "tiberius-maro": {
    "id": "tiberius-maro",
@@ -736,78 +727,49 @@
    "closed": false,
    "rounds_left": 180,
    "tallow": false
+  },
+  {
+   "id": "lantern33",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 27,
+   "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 0,
+  "rounds_since_rest": 40,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Cyfaraun",
-  "kind": "settlement",
-  "level": null,
-  "room": null,
+  "site": "Nethercity A - Sewer Caves",
+  "kind": "dungeon",
+  "level": 2,
+  "room": "the sewer caves (out)",
   "wandering": {
-   "none": true
+   "none": false,
+   "die": "1d6",
+   "every": 3,
+   "target": 6
   },
-  "table": null,
+  "table": "Adventure/SOTN/Tables/sotn-wandering-sewer-caves.yaml",
   "source": {
-   "wandering": "a settlement: no wandering monster checks"
+   "hub": "Adventure/SOTN/SOTN Hub.md",
+   "wandering": "site setting: '1d6 every 3 turns, 6+' (Adventure/SOTN/SOTN Hub.md)"
   }
  },
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 555 10:40",
-   "roll": 2,
+   "at": "day 567 07:30",
+   "roll": 1,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 535 07:50",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 535 08:20",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 535 08:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 535 09:20",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 535 09:50",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 535 10:20",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 535 10:50",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 535 11:20",
     "roll": 5,
@@ -885,13 +847,55 @@
     "roll": 2,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 567 04:30",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 567 05:00",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 567 05:30",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 567 06:00",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 567 06:30",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 567 07:00",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 567 07:30",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 797920
+  "turn_start_done": 815010
  },
  "turn_actions": {
-  "turn": 81300,
+  "turn": 81501,
   "listened": [],
   "actions": []
  },
@@ -1038,6 +1042,14 @@
   "565": {
    "delve_rounds": 0,
    "rest_rounds": 0
+  },
+  "566": {
+   "delve_rounds": 0,
+   "rest_rounds": 0
+  },
+  "567": {
+   "delve_rounds": 183,
+   "rest_rounds": 30
   }
  },
  "events": [
@@ -1952,13 +1964,31 @@
     "rest_rounds": 0
    },
    "carried_food": false
+  },
+  {
+   "event": "day_rollover",
+   "day": 566,
+   "previous": {
+    "delve_rounds": 0,
+    "rest_rounds": 0
+   },
+   "carried_food": false
+  },
+  {
+   "event": "day_rollover",
+   "day": 567,
+   "previous": {
+    "delve_rounds": 0,
+    "rest_rounds": 0
+   },
+   "carried_food": false
   }
  ],
  "next_ids": {
-  "enc": 448,
+  "enc": 449,
   "torch": 402,
   "t": 162,
-  "lantern": 32
+  "lantern": 33
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -4563,8 +4593,8 @@
     "passenger": false
    },
    "hrodvar": {
-    "hp": 19,
-    "hp_max": 19,
+    "hp": 13,
+    "hp_max": 13,
     "con": 7,
     "con_mod": -1,
     "con_lost": {
@@ -5473,8 +5503,8 @@
     "passenger": false
    },
    "tiberius-maro": {
-    "hp": 12,
-    "hp_max": 12,
+    "hp": 6,
+    "hp_max": 6,
     "con": 9,
     "con_mod": 0,
     "con_lost": {
@@ -6160,6 +6190,14 @@
      ],
      [
       0,
+      1
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1,
       1
      ],
      [
@@ -8683,6 +8721,14 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      1
      ]
     ],
     "supplies_st": 0.0,
@@ -10503,6 +10549,14 @@
      [
       1,
       1
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1,
+      1
      ]
     ]
    },
@@ -11749,6 +11803,14 @@
      ],
      [
       0,
+      1
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      1,
       1
      ],
      [
@@ -13918,6 +13980,360 @@
      "slept_restful": 8,
      "in_settlement": true
     }
+   },
+   "566": {
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "cotta": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "aelia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "hrodvar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "tiberius-maro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "slept_restful": 8,
+     "in_settlement": true
+    }
+   },
+   "565": {
+    "vettius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "vestus-the-unlikely": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "lucilla": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "cotta": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "brennus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "neris": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "aelia": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "hrodvar": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "tiberius-maro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    },
+    "phaedra": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true
+    }
    }
   },
   "trail": [
@@ -14367,14 +14783,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc429",
-   "at": "day 516 05:20",
-   "monster_name": "Giant Rat",
-   "number": 10,
-   "reaction": "unfriendly",
-   "status": "fighting"
-  },
-  {
    "id": "enc430",
    "at": "day 516 07:20",
    "monster_name": "Tunnel Prawn (SOTN)",
@@ -14525,6 +14933,14 @@
    "number": 1,
    "reaction": null,
    "status": "surprise rolled"
+  },
+  {
+   "id": "enc449",
+   "at": "day 567 05:30",
+   "monster_name": "Flailing Spirit (SOTN)",
+   "number": 1,
+   "reaction": null,
+   "status": "surprise rolled"
   }
  ],
  "diseases": {
@@ -14552,5 +14968,65 @@
   ],
   "kind": "torch"
  },
- "staying": {}
+ "staying": {
+  "hrodvar": {
+   "place": "Cyfaraun",
+   "since": 567,
+   "member": {
+    "id": "hrodvar",
+    "actor": "hrodvar",
+    "name": "Hrodvar",
+    "perceived": "Hrodvar",
+    "conditions": [],
+    "endurance": true,
+    "treasure_stone": 0.0
+   }
+  }
+ },
+ "enervation": {
+  "hrodvar": {
+   "since_day": 567,
+   "source": "the flailing spirit's touch (day 567, F18)",
+   "hp_max_before": 19,
+   "hp_max": 13,
+   "level": 6,
+   "lost_hit": 6,
+   "lost_daily": 0,
+   "streak": 0,
+   "next_night": 567,
+   "pinnacle": null,
+   "pinnacle_source": null,
+   "salving_rest": false,
+   "salving_source": null,
+   "mods": [],
+   "sleep": "ledger",
+   "sleep_source": null,
+   "owed": [],
+   "ended_day": null,
+   "ended_how": null,
+   "history": []
+  },
+  "tiberius-maro": {
+   "since_day": 567,
+   "source": "the flailing spirit's touch (day 567, F18)",
+   "hp_max_before": 12,
+   "hp_max": 6,
+   "level": 3,
+   "lost_hit": 6,
+   "lost_daily": 0,
+   "streak": 0,
+   "next_night": 567,
+   "pinnacle": null,
+   "pinnacle_source": null,
+   "salving_rest": false,
+   "salving_source": null,
+   "mods": [],
+   "sleep": "ledger",
+   "sleep_source": null,
+   "owed": [],
+   "ended_day": null,
+   "ended_how": null,
+   "history": []
+  }
+ }
 }

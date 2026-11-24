@@ -664,6 +664,7 @@ tags:
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | SOTN Arcane Sword | 100 | vestus-the-unlikely |
 | 555 | Descent 78 (the beetle stair: the Teacher's sepulcher) | the Teacher's metal canister (dented, its hatch sprung; carried by three: Hrodvar, Tiberius, Cotta) | 7,500 | sold |
 | 561 | Order contract: Rufus Calenus (Lucilla) | reward 1500.0gp | 1,500 | lucilla |
+| 567 | Order contract: Phanes Kordaxis (Neris) | reward 2000.0gp | 2,000 | neris |
 
 ## Monster XP
 
@@ -852,6 +853,8 @@ tags:
 | 533 | Order contract: Ammia Thrax (Vettius) | Ammia Thrax | 1 | 80 | 80 |
 | 540 | Order contract: Faustus Cerco (Vettius) | Faustus Cerco | 1 | 10 | 10 |
 | 561 | Order contract: Rufus Calenus (Lucilla) | Rufus Calenus | 1 | 50 | 50 |
+| 567 | Order contract: Phanes Kordaxis (Neris) | Phanes Kordaxis | 1 | 80 | 80 |
+| 567 | Descent 79 (the doom throne, J8) | Flailing Spirit (SOTN) | 1 | 2,600 | 2,600 |
 
 ## Shares and XP awarded
 
@@ -1719,6 +1722,21 @@ tags:
 | 561 | Order contract: Rufus Calenus (Lucilla) | Vettius | 1 | 429 | 14 | 0 | +5% | 465 |
 | 561 | Order contract: Rufus Calenus (Lucilla) | Brennus | 1 | 429 | 14 | 0 | +5% | 465 |
 | 561 | Order contract: Rufus Calenus (Lucilla) | Phaedra | 0.5 | 214 | 7 | 0 | +0% | 221 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 567 | Order contract: Phanes Kordaxis (Neris) | Neris | 1 | 444 | 18 | 0 | +0% | 462 |
+| 567 | Order contract: Phanes Kordaxis (Neris) | Vettius | 1 | 444 | 18 | 0 | +5% | 485 |
+| 567 | Order contract: Phanes Kordaxis (Neris) | Brennus | 1 | 444 | 18 | 0 | +5% | 485 |
+| 567 | Order contract: Phanes Kordaxis (Neris) | Vestus the Unlikely | 1 | 444 | 18 | 0 | +5% | 485 |
+| 567 | Order contract: Phanes Kordaxis (Neris) | Phaedra | 0.5 | 222 | 9 | 0 | +0% | 231 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 567 | Descent 79 (the doom throne, J8) | Lucilla | 1 | 0 | 325 | 0 | +10% | 358 |
+| 567 | Descent 79 (the doom throne, J8) | Vettius | 1 | 0 | 325 | 0 | +5% | 341 |
+| 567 | Descent 79 (the doom throne, J8) | Brennus | 1 | 0 | 325 | 0 | +5% | 341 |
+| 567 | Descent 79 (the doom throne, J8) | Vestus the Unlikely | 1 | 0 | 325 | 0 | +5% | 341 |
+| 567 | Descent 79 (the doom throne, J8) | Neris | 1 | 0 | 325 | 0 | +0% | 325 |
+| 567 | Descent 79 (the doom throne, J8) | Cotta | 1 | 0 | 325 | 0 | +0% | 325 |
+| 567 | Descent 79 (the doom throne, J8) | Aelia | 0.5 | 0 | 162 | 0 | +0% | 162 |
+| 567 | Descent 79 (the doom throne, J8) | Phaedra | 0.5 | 0 | 162 | 0 | +0% | 162 |
+| 567 | Descent 79 (the doom throne, J8) | Hrodvar | 0.5 | 0 | 162 | 0 | -10% | 146 |
+| 567 | Descent 79 (the doom throne, J8) | Tiberius Maro | 0.5 | 0 | 162 | 0 | +0% | 162 | | NOTE: Tampering with Mortality XP penalty -10% until the next level / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4514,3 +4532,19 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 561 |  | treasure share |  | 214gp 2sp 9cp |  | phaedra |
 | 562 | the Grey Sisters (vault) | vault fee, a month ahead (days 563-592; Rulings S11) |  |  | 10gp | lucilla |
 | 565 | the Order of the Eclipse (blood-price to the dead man's wife) | Rulings S28: a Family member's petition (Gnaeus Plautus, Thief 4): 500gp a level; Plautus exiled with a purse |  |  | 2,000gp | vettius |
+| 567 |  | treasure share |  | 444gp 4sp 4cp |  | neris |
+| 567 |  | treasure share |  | 444gp 4sp 4cp |  | vettius |
+| 567 |  | treasure share |  | 444gp 4sp 4cp |  | brennus |
+| 567 |  | treasure share |  | 444gp 4sp 4cp |  | vestus-the-unlikely |
+| 567 |  | treasure share |  | 222gp 2sp 2cp |  | phaedra |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 |  | treasure share |  |  |  |  |
+| 567 | Hrodvar | the tomb-jacks, bought from Hrodvar on his leaving (day 567) |  |  | 150gp | vettius |

@@ -4976,7 +4976,7 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": 1,
+   "loyalty": 0,
    "morale": 1,
    "morale_src": "carried over (Judge)",
    "wage_gp": 800.0,
@@ -4984,7 +4984,7 @@
    "hired_day": 523,
    "periods_paid": 2,
    "missed": [],
-   "status": "active",
+   "status": "left (resigned)",
    "history": [
     {
      "day": 523,
@@ -5009,6 +5009,13 @@
      "event": "obedience: the beetle stair: force the sleeper's coffin",
      "total": 7,
      "result": "Compliant"
+    },
+    {
+     "day": 567,
+     "event": "loyalty roll (calamity: enervated (the flailing spirit's touch (day 567, F18)))",
+     "total": 5,
+     "result": "Resignation",
+     "loyalty": 0
     }
    ],
    "actor": "hrodvar",
@@ -5033,7 +5040,7 @@
    "monster": null,
    "animal": false,
    "caster": true,
-   "loyalty": 0,
+   "loyalty": -2,
    "morale": 0,
    "morale_src": null,
    "wage_gp": 150.0,
@@ -5071,6 +5078,19 @@
      "event": "obedience: the beetle stair: the sleeper's sepulcher",
      "total": 5,
      "result": "Begrudging"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (lost 1/3 of his hp (6/12))",
+     "total": 14,
+     "result": "Victory or Death"
+    },
+    {
+     "day": 567,
+     "event": "loyalty roll (calamity: enervated (the flailing spirit's touch (day 567, F18)))",
+     "total": 7,
+     "result": "Grudging Loyalty",
+     "loyalty": -2
     }
    ],
    "actor": "tiberius-maro",

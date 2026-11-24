@@ -1,30 +1,31 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 130,
-  "L": 826,
+  "A": 131,
+  "L": 827,
   "H": 137,
-  "M": 247
+  "M": 248
  },
  "adventure": {
-  "id": "A130",
-  "name": "Order contract: Phanes Kordaxis (Neris)",
-  "start_day": 565,
+  "id": "A131",
+  "name": "Descent 79 (the doom throne, J8)",
+  "start_day": 567,
   "participants": {
-   "neris": {
-    "id": "neris",
-    "name": "Neris",
-    "actor": "neris",
+   "lucilla": {
+    "id": "lucilla",
+    "name": "Lucilla",
+    "actor": "lucilla",
     "kind": "pc",
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 140092,
+    "xp_before": 182613,
     "level_before": 8,
-    "class": "Priestess",
-    "joined_day": 565
+    "class": "Venturer",
+    "joined_day": 567,
+    "xp_award": 358
    },
    "vettius": {
     "id": "vettius",
@@ -34,12 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 199792,
+    "xp_before": 200277,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 565
+    "joined_day": 567,
+    "xp_award": 341
    },
    "brennus": {
     "id": "brennus",
@@ -49,12 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 150109,
+    "xp_before": 150594,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 565
+    "joined_day": 567,
+    "xp_award": 341
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -64,12 +67,61 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
-    "xp_before": 134117,
+    "xp_before": 134602,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 565
+    "joined_day": 567,
+    "xp_award": 341
+   },
+   "neris": {
+    "id": "neris",
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 140554,
+    "level_before": 8,
+    "class": "Priestess",
+    "joined_day": 567,
+    "xp_award": 325
+   },
+   "cotta": {
+    "id": "cotta",
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "pc",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 36478,
+    "level_before": 6,
+    "class": "Explorer",
+    "joined_day": 567,
+    "xp_award": 325
+   },
+   "aelia": {
+    "id": "aelia",
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "aelia",
+    "xp_before": 62901,
+    "level_before": 7,
+    "class": "Bard",
+    "joined_day": 567,
+    "xp_award": 162
    },
    "phaedra": {
     "id": "phaedra",
@@ -79,33 +131,194 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
-    "xp_before": 59207,
+    "xp_before": 59438,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 565
+    "joined_day": 567,
+    "xp_award": 162
+   },
+   "hrodvar": {
+    "id": "hrodvar",
+    "name": "Hrodvar",
+    "actor": "hrodvar",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "hrodvar",
+    "xp_before": 44094,
+    "level_before": 6,
+    "class": "Dwarven Vaultguard",
+    "joined_day": 567,
+    "xp_award": 146
+   },
+   "tiberius-maro": {
+    "id": "tiberius-maro",
+    "name": "Tiberius Maro",
+    "actor": "tiberius-maro",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": "tiberius-maro",
+    "xp_before": 4757,
+    "level_before": 3,
+    "class": "Crusader",
+    "joined_day": 567,
+    "xp_award": 162
    }
   },
   "monsters": [
    {
-    "id": "M247",
-    "monster": "Phanes Kordaxis",
-    "source": "Phanes Kordaxis",
+    "id": "M248",
+    "monster": "Flailing Spirit (SOTN)",
+    "source": "Flailing Spirit (SOTN) (MM p. 143)",
     "number": 1,
     "how": "killed",
-    "xp_each": 80,
+    "xp_each": 2600,
+    "hd": "8",
     "fight": {
      "ids": [
-      "phanes-kordaxis"
+      "spirit"
      ],
-     "text": "the fight with Phanes Kordaxis, 3 Brigand, round 1"
+     "text": "the fight with Flailing Spirit (SOTN), round 3"
     }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 567,
+   "at": null,
+   "total": 2600.0,
+   "per_share": 325.0,
+   "awards": {
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 325,
+     "pct": 10,
+     "pen": 0,
+     "award": 358,
+     "xp_before": 182613,
+     "xp_after": 182971,
+     "capped": null,
+     "zero": false
+    },
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 325,
+     "pct": 5,
+     "pen": 0,
+     "award": 341,
+     "xp_before": 200277,
+     "xp_after": 200618,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 325,
+     "pct": 5,
+     "pen": 0,
+     "award": 341,
+     "xp_before": 150594,
+     "xp_after": 150935,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 325,
+     "pct": 5,
+     "pen": 0,
+     "award": 341,
+     "xp_before": 134602,
+     "xp_after": 134943,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 325,
+     "pct": 0,
+     "pen": 0,
+     "award": 325,
+     "xp_before": 140554,
+     "xp_after": 140879,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 325,
+     "pct": 0,
+     "pen": 0,
+     "award": 325,
+     "xp_before": 36478,
+     "xp_after": 36803,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 162,
+     "pct": 0,
+     "pen": 0,
+     "award": 162,
+     "xp_before": 62901,
+     "xp_after": 63063,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 162,
+     "pct": 0,
+     "pen": 0,
+     "award": 162,
+     "xp_before": 59438,
+     "xp_after": 59600,
+     "capped": null,
+     "zero": false
+    },
+    "hrodvar": {
+     "share": 0.5,
+     "why": null,
+     "base": 162,
+     "pct": 0,
+     "pen": 10,
+     "award": 146,
+     "xp_before": 44094,
+     "xp_after": 44240,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 162,
+     "pct": 0,
+     "pen": 0,
+     "award": 162,
+     "xp_before": 4757,
+     "xp_after": 4919,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
@@ -39344,6 +39557,180 @@
     }
    },
    "events": []
+  },
+  {
+   "id": "A130",
+   "name": "Order contract: Phanes Kordaxis (Neris)",
+   "start_day": 565,
+   "participants": {
+    "neris": {
+     "id": "neris",
+     "name": "Neris",
+     "actor": "neris",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 140092,
+     "level_before": 8,
+     "class": "Priestess",
+     "joined_day": 565,
+     "xp_award": 462
+    },
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 199792,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 565,
+     "xp_award": 485
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 150109,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 565,
+     "xp_award": 485
+    },
+    "vestus-the-unlikely": {
+     "id": "vestus-the-unlikely",
+     "name": "Vestus the Unlikely",
+     "actor": "vestus-the-unlikely",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 134117,
+     "level_before": 7,
+     "class": "Mage",
+     "joined_day": 565,
+     "xp_award": 485
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": "phaedra",
+     "xp_before": 59207,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 565,
+     "xp_award": 231
+    }
+   },
+   "monsters": [
+    {
+     "id": "M247",
+     "monster": "Phanes Kordaxis",
+     "source": "Phanes Kordaxis",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 80,
+     "fight": {
+      "ids": [
+       "phanes-kordaxis"
+      ],
+      "text": "the fight with Phanes Kordaxis, 3 Brigand, round 1"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 567,
+    "at": null,
+    "total": 2080.0,
+    "per_share": 462.22222222222223,
+    "awards": {
+     "neris": {
+      "share": 1.0,
+      "why": null,
+      "base": 462,
+      "pct": 0,
+      "pen": 0,
+      "award": 462,
+      "xp_before": 140092,
+      "xp_after": 140554,
+      "capped": null,
+      "zero": false
+     },
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 462,
+      "pct": 5,
+      "pen": 0,
+      "award": 485,
+      "xp_before": 199792,
+      "xp_after": 200277,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 462,
+      "pct": 5,
+      "pen": 0,
+      "award": 485,
+      "xp_before": 150109,
+      "xp_after": 150594,
+      "capped": null,
+      "zero": false
+     },
+     "vestus-the-unlikely": {
+      "share": 1.0,
+      "why": null,
+      "base": 462,
+      "pct": 5,
+      "pen": 0,
+      "award": 485,
+      "xp_before": 134117,
+      "xp_after": 134602,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 231,
+      "pct": 0,
+      "pen": 0,
+      "award": 231,
+      "xp_before": 59207,
+      "xp_after": 59438,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": []
   }
  ],
  "lots": {
@@ -76224,6 +76611,39 @@
    "sold": null,
    "judge": [],
    "divided_day": 561
+  },
+  "L827": {
+   "id": "L827",
+   "adventure": "A130",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "neris",
+   "status": "divided",
+   "found": {
+    "day": 567,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 2000.0,
+    "stone": 0,
+    "name": "reward 2000.0gp"
+   },
+   "player": {
+    "desc": "reward of 2000.0gp",
+    "value_gp": 2000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 567
   }
  },
  "hoards": {
