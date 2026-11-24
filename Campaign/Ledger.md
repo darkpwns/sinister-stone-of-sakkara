@@ -17,6 +17,13 @@ tags:
 | S03 | A1 AX1 The Sinister Stone of Sakkara | AX1 Potion of Healing | 250 | faustina |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | 7 stirge proboscises in 2 metamphora (monster components; monstrosity default effect dominate monster) | 91 | faustina |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | 4 stirge proboscises in a metamphora (monster components; monstrosity default effect dominate monster) | 52 | callista |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 10 clay jars of old incense, oils and perfumes | 0 (left (not brought back)) | left |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | gem worth 250.0gp | 250 | sold |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 3 clay jars of old incense, oils and perfumes | 75 | sold |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 3 clay jars of old incense, oils and perfumes | 75 | sold |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 2 clay jars of old incense, oils and perfumes | 50 | sold |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | 2 clay jars of old incense, oils and perfumes | 50 | sold |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Spider, Giant Crab (adult, adult value) | 140 | sold |
 
 ## Monster XP
 
@@ -27,6 +34,7 @@ tags:
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Bodiless Zombie (Sakkara) | 11 | 29 | 319 |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Stirge (Sakkara) | 7 | 13 | 91 |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Stirge (Sakkara) | 4 | 13 | 52 |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Giant Crab Spider | 2 | 29 | 58 |
 
 ## Shares and XP awarded
 
@@ -44,6 +52,12 @@ tags:
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Callista | 1 | 48 | 0 | 0 | +5% | 50 (eggs sold day 10) |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Corvus | 1 | 48 | 0 | 0 | +5% | 50 (eggs sold day 10) |
 | S03 | A1 AX1 The Sinister Stone of Sakkara | Tertia (dead: Rosa's reserve fund) | 1 | 48 | 0 | 0 | +5% | 50 (eggs sold day 10) |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Galerius | 1 | 107 | 10 | 0 | +10% | 128 |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Faustina | 1 | 107 | 10 | 0 | +5% | 122 |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Hrodric | 1 | 107 | 10 | 0 | +5% | 122 |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Callista | 1 | 107 | 10 | 0 | +5% | 122 |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Corvus | 1 | 107 | 10 | 0 | +5% | 122 |
+| S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Severina | 1 | 107 | 10 | 0 | +5% | 122 |
 
 ## Wages
 
@@ -115,3 +129,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 10 | a cataphract veteran (5 war-dog pups) | 5 juvenile war dogs at 3gp (MM p. 360 juvenile value; Judge's call: a litter at the fort) |  |  | 15gp | faustina |
 | 10 | Traveler's Inn | lodging in the courtyard, 2 donkeys stabled and meals, nights of days 9-18 (6 x 1sp + 2 x 2sp a night; meals 1sp a head a day) |  |  | 16gp | faustina |
 | 19 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 10-19 (0.5gp a week each, MM p. 360) |  |  | 3gp 5sp | faustina |
+| 25 |  | treasure share |  | 106gp 6sp 7cp |  | galerius |
+| 25 |  | treasure share |  | 106gp 6sp 7cp |  | faustina |
+| 25 |  | treasure share |  | 106gp 6sp 7cp |  | hrodric |
+| 25 |  | treasure share |  | 106gp 6sp 7cp |  | callista |
+| 25 |  | treasure share |  | 106gp 6sp 7cp |  | corvus |
+| 25 |  | treasure share |  | 106gp 6sp 7cp |  | severina |
+| 25 | Traveler's Inn | lodging (courtyard), 2 donkeys stabled, meals: nights of days 25-26 |  |  | 3gp 2sp | faustina |
+| 25 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 19-26 |  |  | 2gp 5sp | faustina |

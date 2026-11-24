@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 3
+session: 4
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: spring
-    day: 19
+    day: 27
   time: 06:00
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; overcast; wind moderate
   place: Türos Tem
@@ -23,7 +23,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6
+    encumbrance_st: 5.833
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 7.499
+    encumbrance_st: 8.201
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -64,13 +64,11 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5.833
-  light: lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 0 d, water 3 d; Faustina: food 0 d, water 0.2 d; Hrodric: food 0 d, water 0 d; Callista: food 0 d, water 0 d; Corvus: food 0 d, water 0.2 d; Severina: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
+  rations: 'Galerius: food 1 d, water 2.2 d; Faustina: food 1 d, water 0 d; Hrodric: food 1 d, water 0 d; Callista: food 1 d, water 0 d; Corvus: food 1 d, water 0 d; Severina: food 1 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '22.20'
-  - '21.20'
   - '20.19'
   - '19.19'
   - '20.19'
@@ -80,7 +78,18 @@ public:
   - '24.21'
   - '22.19'
   - '22.20'
-clock_day: 19
+  - '21.21'
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
+  - '23.21'
+  - '22.20'
+clock_day: 27
 ---
 # Campaign State
 

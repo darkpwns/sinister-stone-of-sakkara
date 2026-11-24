@@ -1,15 +1,17 @@
 {
  "schema": "acks-combat/3",
- "round": 8,
+ "round": 1,
  "order": [
-  "corvus",
+  "galerius",
   "faustina",
   "hrodric",
-  "galerius",
-  "t3",
-  "callista"
+  "corvus",
+  "cs1",
+  "callista",
+  "severina",
+  "cs2"
  ],
- "count_index": 2,
+ "count_index": 5,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -29,7 +31,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -170,7 +172,7 @@
      "dex_only": 0
     },
     "hp_max": 4,
-    "movement_running": 90,
+    "movement_running": 60,
     "weapons": [
      {
       "name": "Sword",
@@ -183,6 +185,18 @@
        "long": 0
       },
       "held": "right hand"
+     },
+     {
+      "name": "Net",
+      "init_bonus": "",
+      "attack_throw": 8,
+      "damage": "",
+      "range": {
+       "short": 10,
+       "medium": 15,
+       "long": 20
+      },
+      "held": "belt"
      }
     ],
     "save_mods_text": {},
@@ -206,13 +220,21 @@
    "hp_max": 4,
    "hp": 4,
    "hp_start": 4,
-   "attacked_round": 7
+   "acted_round": 1
   },
   "faustina": {
    "id": "faustina",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "surprised",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 0,
+     "note": null
+    }
+   ],
    "group": "faustina",
    "perceived": "faustina",
    "judge_set": {},
@@ -220,7 +242,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -361,7 +383,7 @@
      "dex_only": 0
     },
     "hp_max": 6,
-    "movement_running": 120,
+    "movement_running": 60,
     "weapons": [
      {
       "name": "Staff",
@@ -407,11 +429,7 @@
    "hp_max": 6,
    "hp": 6,
    "hp_start": 6,
-   "spells_cast": {
-    "cure light injury": 1
-   },
-   "attacked_round": 8,
-   "acted_round": 8
+   "acted_round": 1
   },
   "hrodric": {
    "id": "hrodric",
@@ -425,7 +443,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -566,7 +584,7 @@
      "dex_only": 1
     },
     "hp_max": 6,
-    "movement_running": 90,
+    "movement_running": 60,
     "weapons": [
      {
       "name": "Spear",
@@ -626,7 +644,7 @@
    "hp_max": 6,
    "hp": 6,
    "hp_start": 6,
-   "attacked_round": 8
+   "acted_round": 1
   },
   "callista": {
    "id": "callista",
@@ -636,13 +654,12 @@
    "group": "callista",
    "perceived": "callista",
    "judge_set": {},
-   "hp_lost_rounds": [
-    6,
-    7
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {},
+   "declared": {
+    "spell": "cast"
+   },
    "init": 1,
    "nonlethal": 0,
    "notes": [],
@@ -830,25 +847,29 @@
    },
    "actor": "callista",
    "hp_max": 5,
-   "hp": 2,
+   "hp": 5,
    "hp_start": 5,
-   "last_types": [
-    "piercing"
-   ],
-   "attacked_round": 7
+   "spells_cast": {
+    "slumber": 1
+   }
   },
   "corvus": {
    "id": "corvus",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "surprised",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 0,
+     "note": null
+    }
+   ],
    "group": "corvus",
    "perceived": "corvus",
    "judge_set": {},
-   "hp_lost_rounds": [
-    5,
-    6
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
@@ -996,18 +1017,6 @@
     "movement_running": 90,
     "weapons": [
      {
-      "name": "Short Bow",
-      "init_bonus": "",
-      "attack_throw": 10,
-      "damage": "1d6+1",
-      "range": {
-       "short": 75,
-       "medium": 150,
-       "long": 300
-      },
-      "held": "right hand, two-handed"
-     },
-     {
       "name": "Short Sword",
       "init_bonus": "",
       "attack_throw": 10,
@@ -1017,7 +1026,7 @@
        "medium": 0,
        "long": 0
       },
-      "held": "belt"
+      "held": "right hand"
      },
      {
       "name": "Bola",
@@ -1042,6 +1051,18 @@
        "long": 20
       },
       "held": "belt"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6+1",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "backpack"
      }
     ],
     "save_mods_text": {},
@@ -1061,53 +1082,38 @@
    },
    "actor": "corvus",
    "hp_max": 7,
-   "hp": 4,
+   "hp": 7,
    "hp_start": 7,
-   "attacked_round": 8,
-   "last_types": [
-    "piercing"
-   ],
-   "acted_round": 8
+   "acted_round": 1
   },
-  "tertia": {
-   "id": "tertia",
+  "severina": {
+   "id": "severina",
    "side": "party",
-   "status": "unconscious",
+   "status": "active",
    "conditions": [
     {
-     "name": "unconscious",
+     "name": "surprised",
      "source": null,
      "rounds_left": null,
-     "since_round": 5,
+     "since_round": 0,
      "note": null
     }
    ],
-   "group": "tertia",
-   "perceived": "tertia",
+   "group": "severina",
+   "perceived": "severina",
    "judge_set": {},
-   "hp_lost_rounds": [
-    5
-   ],
-   "felled": {
-    "round": 5,
-    "types": [
-     "piercing"
-    ],
-    "natural": true,
-    "by": "t3",
-    "tier": "mundane",
-    "nonlethal": false
-   },
+   "hp_lost_rounds": [],
+   "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
-   "name": "Tertia",
+   "name": "Severina",
    "stats": {
-    "name": "Tertia",
-    "actor": "tertia",
+    "name": "Severina",
+    "actor": "severina",
     "kind": "pc",
     "level": 1,
     "class": "Venturer",
@@ -1126,7 +1132,7 @@
       }
      ],
      "INT": [
-      1,
+      0,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1134,11 +1140,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 3
       }
      ],
      "WIL": [
-      0,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1146,11 +1152,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 2
       }
      ],
      "DEX": [
-      0,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1158,11 +1164,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 2
       }
      ],
      "CON": [
-      -2,
+      2,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -1170,7 +1176,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 1
+       "row": 5
       }
      ],
      "CHA": [
@@ -1236,25 +1242,13 @@
      }
     ],
     "ac_options": {
-     "shield": 3,
-     "no_shield": 3,
-     "dex_only": 0
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": -1
     },
-    "hp_max": 2,
-    "movement_running": 120,
+    "hp_max": 7,
+    "movement_running": 90,
     "weapons": [
-     {
-      "name": "Short Bow",
-      "init_bonus": "",
-      "attack_throw": 10,
-      "damage": "1d6",
-      "range": {
-       "short": 75,
-       "medium": 150,
-       "long": 300
-      },
-      "held": "right hand, two-handed"
-     },
      {
       "name": "Short Sword",
       "init_bonus": "",
@@ -1266,6 +1260,18 @@
        "long": 0
       },
       "held": "belt"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d6",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "back"
      }
     ],
     "save_mods_text": {},
@@ -1273,583 +1279,110 @@
     "proficiencies": [
      "Bargaining",
      "Adventuring",
-     "Animal Training",
-     "Animal Husbandry"
+     "Animal Training"
     ],
     "proficiency_throws": {},
     "prof_throw_list": {
      "bargaining": "",
      "adventuring": "",
-     "animal training": "",
-     "animal husbandry": ""
+     "animal training": ""
     },
     "ac_mode": "no_shield"
    },
-   "actor": "tertia",
-   "hp_max": 2,
-   "hp": 2,
-   "hp_start": 2,
-   "attacked_round": 5,
-   "last_types": [
-    "piercing"
-   ],
-   "mortal_wounds": {
-    "total": 9,
-    "d20": 1,
-    "d6": 3,
-    "table": "mortal-wounds-savage",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One leg is torn off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
-    "band": "6-10"
-   }
+   "actor": "severina",
+   "hp_max": 7,
+   "hp": 7,
+   "hp_start": 7
   },
-  "t1": {
-   "id": "t1",
+  "cs1": {
+   "id": "cs1",
    "side": "foe",
-   "status": "dead",
+   "status": "captured",
    "conditions": [
     {
-     "name": "unconscious",
+     "name": "surprised",
      "source": null,
      "rounds_left": null,
-     "since_round": 3,
+     "since_round": 0,
+     "note": null
+    },
+    {
+     "name": "slumbering",
+     "source": "callista",
+     "rounds_left": 10,
+     "since_round": 1,
      "note": null
     }
    ],
-   "group": "stirges",
-   "perceived": "long-beaked flier",
+   "group": "spiders",
+   "perceived": "pale crab-like spider",
    "judge_set": {},
-   "hp_lost_rounds": [
-    2,
-    3
-   ],
-   "felled": {
-    "round": 3,
-    "types": [
-     "piercing"
-    ],
-    "natural": false,
-    "by": "corvus",
-    "tier": "mundane",
-    "nonlethal": false
-   },
+   "hp_lost_rounds": [],
+   "felled": null,
    "cleaves_used": 0,
    "declared": {},
    "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Stirge (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Stirge (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-     "page": 34,
-     "needs_judge": [],
-     "checks": [],
-     "type": "monstrosity",
-     "type_text": "Monstrosity (bestial)",
-     "size_index": 0,
-     "size": "small",
-     "ac": 2,
-     "hd": {
-      "text": "1*",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "1 (proboscis 10+)",
-       "count": 1,
-       "names": [
-        "proboscis"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d3 piercing + blood drain",
-       "pieces": [
-        {
-         "raw": "1d3 piercing + blood drain",
-         "dice": "1d3",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ],
-         "rider": "blood drain"
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      2
-     ],
-     "morale": 1,
-     "attack_throw_by_hd": 10,
-     "speed": "10’ / 30’",
-     "xp": "13",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
+   "name": "Giant Crab Spider",
+   "stats": {},
+   "monster": {
+    "base": "giant-crab-spider",
+    "sha256": "d4a6ba4f3faa5ce248bb85f0b87f9bb09aee310c467e37b6bc1d8f119bc21917"
    },
-   "hp_max": 6,
-   "hp": -3,
-   "hp_start": 6,
-   "last_types": [
-    "piercing"
-   ],
-   "dying": {
-    "within": "turn",
-    "since_round": 8
-   },
-   "mortal_wounds": {
-    "total": 7,
-    "d20": 15,
-    "d6": 5,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One of your eyes is punctured and ruined (-2 to missile attack throws).",
-    "band": "6-10"
-   },
+   "hp_max": 9,
+   "hp": 9,
+   "hp_start": 10,
+   "acted_round": 1,
+   "captured_as": "cs1",
    "xp_recorded": {
-    "record": "M5",
-    "how": "killed",
-    "xp": 13
+    "judge": "captured"
    }
   },
-  "t2": {
-   "id": "t2",
+  "cs2": {
+   "id": "cs2",
    "side": "foe",
-   "status": "dead",
+   "status": "captured",
    "conditions": [
     {
-     "name": "latched on corvus",
+     "name": "surprised",
      "source": null,
      "rounds_left": null,
-     "since_round": 5,
+     "since_round": 0,
      "note": null
     },
     {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 6,
+     "name": "slumbering",
+     "source": "callista",
+     "rounds_left": 10,
+     "since_round": 1,
      "note": null
     }
    ],
-   "group": "stirges",
-   "perceived": "long-beaked flier",
+   "group": "spiders",
+   "perceived": "pale crab-like spider",
    "judge_set": {},
-   "hp_lost_rounds": [
-    5,
-    6
-   ],
-   "felled": {
-    "round": 6,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "galerius",
-    "tier": "mundane",
-    "nonlethal": false
-   },
+   "hp_lost_rounds": [],
+   "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Stirge (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Stirge (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-     "page": 34,
-     "needs_judge": [],
-     "checks": [],
-     "type": "monstrosity",
-     "type_text": "Monstrosity (bestial)",
-     "size_index": 0,
-     "size": "small",
-     "ac": 2,
-     "hd": {
-      "text": "1*",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "1 (proboscis 10+)",
-       "count": 1,
-       "names": [
-        "proboscis"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d3 piercing + blood drain",
-       "pieces": [
-        {
-         "raw": "1d3 piercing + blood drain",
-         "dice": "1d3",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ],
-         "rider": "blood drain"
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      2
-     ],
-     "morale": 1,
-     "attack_throw_by_hd": 10,
-     "speed": "10’ / 30’",
-     "xp": "13",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
+   "name": "Giant Crab Spider",
+   "stats": {},
+   "monster": {
+    "base": "giant-crab-spider",
+    "sha256": "d4a6ba4f3faa5ce248bb85f0b87f9bb09aee310c467e37b6bc1d8f119bc21917"
    },
-   "hp_max": 6,
-   "hp": -3,
-   "hp_start": 6,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "attacked_round": 5,
-   "dying": {
-    "within": "round",
-    "since_round": 8,
-    "deadline_round": 9
-   },
-   "mortal_wounds": {
-    "total": 4,
-    "d20": 12,
-    "d6": 5,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A strike through the eye into the brain leaves you blind (blinded, -4 attack throws, no LOS, move reduced to 1/3 normal, -2 to surprise rolls).",
-    "band": "1-5"
-   },
+   "hp_max": 8,
+   "hp": 8,
+   "hp_start": 9,
+   "captured_as": "cs2",
    "xp_recorded": {
-    "record": "M5",
-    "how": "killed",
-    "xp": 13
-   }
-  },
-  "t3": {
-   "id": "t3",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "latched on callista",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 6,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 8,
-     "note": null
-    }
-   ],
-   "group": "stirges",
-   "perceived": "long-beaked flier",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    6,
-    8,
-    8
-   ],
-   "felled": {
-    "round": 8,
-    "types": [
-     "bludgeoning"
-    ],
-    "natural": false,
-    "by": "faustina",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Stirge (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Stirge (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-     "page": 34,
-     "needs_judge": [],
-     "checks": [],
-     "type": "monstrosity",
-     "type_text": "Monstrosity (bestial)",
-     "size_index": 0,
-     "size": "small",
-     "ac": 2,
-     "hd": {
-      "text": "1*",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "1 (proboscis 10+)",
-       "count": 1,
-       "names": [
-        "proboscis"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d3 piercing + blood drain",
-       "pieces": [
-        {
-         "raw": "1d3 piercing + blood drain",
-         "dice": "1d3",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ],
-         "rider": "blood drain"
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      2
-     ],
-     "morale": 1,
-     "attack_throw_by_hd": 10,
-     "speed": "10’ / 30’",
-     "xp": "13",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 4,
-   "hp": -4,
-   "hp_start": 4,
-   "attacked_round": 6,
-   "last_types": [
-    "piercing"
-   ],
-   "damaged_by": [
-    "blunt"
-   ],
-   "dying": {
-    "within": "turn",
-    "since_round": 8
-   },
-   "mortal_wounds": {
-    "total": 9,
-    "d20": 20,
-    "d6": 1,
-    "table": "mortal-wounds-arcane-bludgeoning-seismic",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "Your spine is shattered at the waist (as per legs crushed, cannot reproduce, and must make Death save each year or die from complications).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M5",
-    "how": "killed",
-    "xp": 13
-   }
-  },
-  "t4": {
-   "id": "t4",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 5,
-     "note": null
-    }
-   ],
-   "group": "stirges",
-   "perceived": "long-beaked flier",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    5
-   ],
-   "felled": {
-    "round": 5,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "galerius",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Stirge (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Stirge (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-     "page": 34,
-     "needs_judge": [],
-     "checks": [],
-     "type": "monstrosity",
-     "type_text": "Monstrosity (bestial)",
-     "size_index": 0,
-     "size": "small",
-     "ac": 2,
-     "hd": {
-      "text": "1*",
-      "dice": 1,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 1
-     },
-     "attacks": [
-      {
-       "raw": "1 (proboscis 10+)",
-       "count": 1,
-       "names": [
-        "proboscis"
-       ],
-       "throw": 10
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d3 piercing + blood drain",
-       "pieces": [
-        {
-         "raw": "1d3 piercing + blood drain",
-         "dice": "1d3",
-         "extraordinary": false,
-         "types": [
-          "piercing"
-         ],
-         "rider": "blood drain"
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      2
-     ],
-     "morale": 1,
-     "attack_throw_by_hd": 10,
-     "speed": "10’ / 30’",
-     "xp": "13",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Stirge (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 5,
-   "hp": 0,
-   "hp_start": 5,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "dying": {
-    "within": "round",
-    "since_round": 8,
-    "deadline_round": 9
-   },
-   "mortal_wounds": {
-    "total": 5,
-    "d20": 6,
-    "d6": 3,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M5",
-    "how": "killed",
-    "xp": 13
+    "judge": "captured"
    }
   }
  },
@@ -1914,202 +1447,60 @@
    },
    "start_count": 1
   },
-  "tertia": {
+  "severina": {
    "side": "party",
    "members": [
-    "tertia"
+    "severina"
    ],
    "morale": {
     "state": "steady",
     "rolls": [],
     "triggered": false
    },
-   "start_count": 1,
-   "felled_rounds": [
-    5
-   ]
+   "start_count": 1
   },
-  "stirges": {
+  "spiders": {
    "side": "foe",
    "members": [
-    "t1",
-    "t2",
-    "t3",
-    "t4"
+    "cs1",
+    "cs2"
    ],
    "morale": {
-    "state": "fight on",
-    "rolls": [
-     {
-      "round": 5,
-      "total": 6,
-      "result": "Fight On",
-      "reason": "1/3 of the group felled (2/4)"
-     },
-     {
-      "round": 6,
-      "total": 7,
-      "result": "Fight On",
-      "reason": "another member felled this round"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 6,
-    "first_round": 5
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
    },
-   "start_count": 4,
-   "felled_rounds": [
-    3,
-    5,
-    6,
-    8
-   ]
+   "start_count": 2
   }
  },
  "engaged": [],
- "engaged_at_round_start": [
-  [
-   "callista",
-   "t3"
-  ],
-  [
-   "hrodric",
-   "t3"
-  ],
-  [
-   "corvus",
-   "t3"
-  ],
-  [
-   "galerius",
-   "t3"
-  ],
-  [
-   "faustina",
-   "t3"
-  ]
- ],
+ "engaged_at_round_start": [],
  "distances": {
-  "galerius|t4": 5,
-  "galerius|t1": 37,
-  "galerius|t3": 5,
-  "galerius|t2": 5,
-  "corvus|t2": 5,
-  "t2|tertia": 5,
-  "t3|tertia": 5,
-  "hrodric|t2": 27,
-  "callista|t2": 27,
-  "callista|t3": 5,
-  "hrodric|t3": 5,
-  "corvus|t3": 5,
-  "faustina|t3": 5
+  "cs1|galerius": 15,
+  "cs2|galerius": 15,
+  "cs1|faustina": 15,
+  "cs2|faustina": 15,
+  "cs1|hrodric": 15,
+  "cs2|hrodric": 15,
+  "callista|cs1": 15,
+  "callista|cs2": 15,
+  "corvus|cs1": 15,
+  "corvus|cs2": 15,
+  "cs1|severina": 15,
+  "cs2|severina": 15
  },
  "log": [],
- "notes_shown": [
-  "morale.modifier_tiers",
-  "mw.d6_unmodified"
- ],
- "placed": {
-  "galerius": "body",
-  "faustina": "trail",
-  "hrodric": "trail",
-  "callista": "trail",
-  "corvus": "body",
-  "tertia": "body",
-  "stirges": "body"
- },
- "zones": {
-  "trail": {
-   "ranges": {
-    "body": 57
-   }
-  },
-  "body": {
-   "ranges": {
-    "trail": 57
-   }
-  }
- },
- "tactics": {
-  "stirges": {
-   "tactic": "close-and-attack"
-  }
- },
- "orders": {
-  "galerius": {
-   "tactic": "close-and-attack",
-   "group": "stirges"
-  },
-  "hrodric": {
-   "tactic": "close-and-attack",
-   "group": "stirges"
-  },
-  "callista": {
-   "tactic": "close-and-attack",
-   "group": "stirges"
-  },
-  "corvus": {
-   "tactic": "shoot-nearest",
-   "group": "stirges"
-  },
-  "tertia": {
-   "tactic": "shoot-nearest",
-   "group": "stirges"
-  }
- },
- "round_ended": 7,
- "retinue": {},
+ "notes_shown": [],
  "party_hp_written": [
   "galerius",
   "faustina",
   "hrodric",
   "callista",
   "corvus",
-  "tertia"
+  "severina"
  ],
  "ended": {
-  "round": 8,
-  "felled_foes": [
-   {
-    "id": "t1",
-    "name": "Stirge (Sakkara)",
-    "perceived": "long-beaked flier",
-    "outcome": "slain",
-    "hp": -3,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "One of your eyes is punctured and ruined (-2 to missile attack throws).",
-    "total": 7
-   },
-   {
-    "id": "t2",
-    "name": "Stirge (Sakkara)",
-    "perceived": "long-beaked flier",
-    "outcome": "slain",
-    "hp": -3,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A strike through the eye into the brain leaves you blind (blinded, -4 attack throws, no LOS, move reduced to 1/3 normal, -2 to surprise rolls).",
-    "total": 4
-   },
-   {
-    "id": "t3",
-    "name": "Stirge (Sakkara)",
-    "perceived": "long-beaked flier",
-    "outcome": "slain",
-    "hp": -4,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "Your spine is shattered at the waist (as per legs crushed, cannot reproduce, and must make Death save each year or die from complications).",
-    "total": 9
-   },
-   {
-    "id": "t4",
-    "name": "Stirge (Sakkara)",
-    "perceived": "long-beaked flier",
-    "outcome": "slain",
-    "hp": 0,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
-    "total": 5
-   }
-  ]
+  "round": 1,
+  "felled_foes": []
  }
 }

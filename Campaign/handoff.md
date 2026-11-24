@@ -3,21 +3,21 @@
 One file, rewritten each session by `handoff.py`; never appended to. The first block is generated from the state files; the second is the Judge's.
 
 <!-- generated:start -->
-- **Session** 3 · **day 19**, 06:00 · **Turos Tem** (settlement)
+- **Session** 4 · **day 27**, 06:00 · **Turos Tem** (settlement)
 
 | Party | Class | XP | hp | Conditions |
 | --- | --- | --- | --- | --- |
-| Galerius | Fighter 1 | 347 | 4/4 |  |
-| Faustina | Priestess 1 | 331 | 6/6 |  |
-| Hrodric | Shaman 1 | 331 | 6/6 |  |
-| Callista | Mage 1 | 331 | 5/5 |  |
-| Corvus | Explorer 1 | 331 | 7/7 |  |
-| Severina | Venturer 1 | 281 | 7/7 |  |
+| Galerius | Fighter 1 | 475 | 4/4 |  |
+| Faustina | Priestess 1 | 453 | 6/6 |  |
+| Hrodric | Shaman 1 | 453 | 6/6 |  |
+| Callista | Mage 1 | 453 | 5/5 |  |
+| Corvus | Explorer 1 | 453 | 7/7 |  |
+| Severina | Venturer 1 | 403 | 7/7 |  |
 
-- **Adventure:** A1 AX1 The Sinister Stone of Sakkara (paid): Galerius (pc), Faustina (pc), Hrodric (pc), Callista (pc), Corvus (pc), Tertia (pc, dead); lots 23; monsters 5 (487 XP); hoards unfound 0
+- **Adventure:** A2 AX1 Buried Temple, delve 3 (the spider-mothers) (paid): Galerius (pc), Faustina (pc), Hrodric (pc), Callista (pc), Corvus (pc), Severina (pc); lots 7; monsters 1 (58 XP); hoards unfound 0
 - **Wages:** no retinue; owed now: 0 gp | NOTE: wage timing: reading wage.timing
-- **Fight in the combat state:** round 8; galerius[party] active hp 4/4 init 2; faustina[party] active hp 6/6 init 3; hrodric[party] active hp 6/6 init 3; callista[party] active hp 2/5 init 1; corvus[party] active hp 4/7 init 5; tertia[party] unconscious hp 2/2 init 6 unconscious; t1[foe] dead hp -3/6 init 4 unconscious; t2[foe] dead hp -3/6 init 5 latched on corvus,unconscious; t3[foe] dead hp -4/4 init 2 latched on callista,unconscious; t4[foe] dead hp 0/5 init 6 unconscious; engaged
-- **Schedule:** nothing due on day 19
+- **Fight in the combat state:** round 1; galerius[party] active hp 4/4 init 6; faustina[party] active hp 6/6 init 6 surprised; hrodric[party] active hp 6/6 init 5; callista[party] active hp 5/5 init 1; corvus[party] active hp 7/7 init 5 surprised; severina[party] active hp 7/7 init 1 surprised; cs1[foe] captured hp 9/9 init 4 slumbering,surprised; cs2[foe] captured hp 8/8 init 1 slumbering,surprised; engaged
+- **Schedule:** day 30: month-end Month's end
 - **Standing reminders (lessons whose conditions hold now):**
   - no standing reminder applies to the current state
 - **Lessons to escalate (slipped on again):**
@@ -27,9 +27,9 @@ One file, rewritten each session by `handoff.py`; never appended to. The first b
 <!-- generated:end -->
 
 ## Judge's notes for the next session
-- Start: set Campaign State `session:` to 4; new log `Session Log/S04 — <summary>.md`. The Judge plays the six AI players by profiles, heuristics and party notes; Gideon calls. Rosa plays Severina (Venturer 1).
-- **In hand:** day 19, 06:00, Türos Tem; all whole and rested. Company purse with Faustina (about 1,420gp; Rulings R2 S03: every coin pooled, `--payer faustina`); the company chest at the inn. Two donkeys (35 waterskins), 6 weeks of iron rations in the chest; metamphora sold out until month 2 (day 31).
-- Party strength 6 HD (six 1st-level PCs) = the L1 floor (Rulings R2 S02). Henchmen: a new 0th-level search in Türos Tem from day 31; up to 4 as the purse allows.
-- Training courses C21-C25 (war-dog pups, guards; Hrodric 3, Severina 2): tamed day 40 if the trainers stay in town; `train pause` each course when they leave, `resume` on return; supply 2.5gp a week.
-- Town attitudes: legate Neutral, Genelen Indifferent, Malyn's apprentices Neutral, Karanos Unfriendly, Thales Unfriendly, Socolo Unfriendly, Miren Neutral, Ilarion Neutral.
-- Hrodric's eagle: by hand, `Characters/Hrodric's Eagle.md` (numbers, how to add it to a fight, its death); keep its hp line current.
+- Start: set Campaign State `session:` to 5; new log `Session Log/S05 — <summary>.md`. The Judge plays the six AI players by profiles, heuristics and party notes; Gideon calls.
+- **In hand:** day 27, 06:00, Türos Tem; all whole. Purse with Faustina about 2,050gp (pooled, Rulings R2 S03). Two donkeys; company chest at the inn. Hrodric's eagle: by hand (`Characters/Hrodric's Eagle.md`, 2/2 hp).
+- Party strength 6 HD = the L1 floor. Day 31: a new month: henchman search (0th level, Türos Tem) and market availability (metamphora, armour) renew. Up to 4 henchmen as the purse allows (Rulings R2 S02).
+- Training C21-C25 (war-dog pups) resumed day 25: tamed day 46 if Hrodric and Severina stay; pause them whenever they leave.
+- Loose in the Viaspen: one giant crab spider (escaped day 22, 19.19). Abroad: the Lady's skeletons (14, by day, 22.19 → NW); three wereboars near the ford (Neutral).
+- Navigation on the farm tracks between 21.20 and 22.20 has failed three times: the party may want a guide (a local) or to follow the Krysivor.

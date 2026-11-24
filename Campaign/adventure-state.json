@@ -1,15 +1,15 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 1,
-  "L": 23,
+  "A": 2,
+  "L": 30,
   "H": 0,
-  "M": 5
+  "M": 6
  },
  "adventure": {
-  "id": "A1",
-  "name": "AX1 The Sinister Stone of Sakkara",
-  "start_day": 2,
+  "id": "A2",
+  "name": "AX1 Buried Temple, delve 3 (the spider-mothers)",
+  "start_day": 19,
   "participants": {
    "galerius": {
     "id": "galerius",
@@ -21,12 +21,12 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 0,
+    "xp_before": 347,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 2,
-    "returned_day": 9,
-    "xp_award": 295
+    "joined_day": 19,
+    "returned_day": 25,
+    "xp_award": 128
    },
    "faustina": {
     "id": "faustina",
@@ -38,12 +38,12 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 0,
+    "xp_before": 331,
     "level_before": 1,
     "class": "Priestess",
-    "joined_day": 2,
-    "returned_day": 9,
-    "xp_award": 281
+    "joined_day": 19,
+    "returned_day": 25,
+    "xp_award": 122
    },
    "hrodric": {
     "id": "hrodric",
@@ -55,12 +55,12 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 0,
+    "xp_before": 331,
     "level_before": 1,
     "class": "Shaman",
-    "joined_day": 2,
-    "returned_day": 9,
-    "xp_award": 281
+    "joined_day": 19,
+    "returned_day": 25,
+    "xp_award": 122
    },
    "callista": {
     "id": "callista",
@@ -72,12 +72,12 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 0,
+    "xp_before": 331,
     "level_before": 1,
     "class": "Mage",
-    "joined_day": 2,
-    "returned_day": 9,
-    "xp_award": 281
+    "joined_day": 19,
+    "returned_day": 25,
+    "xp_award": 122
    },
    "corvus": {
     "id": "corvus",
@@ -89,200 +89,118 @@
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 0,
+    "xp_before": 331,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 2,
-    "returned_day": 9,
-    "xp_award": 281
+    "joined_day": 19,
+    "returned_day": 25,
+    "xp_award": 122
    },
-   "tertia": {
-    "id": "tertia",
-    "name": "Tertia",
-    "actor": "tertia",
+   "severina": {
+    "id": "severina",
+    "name": "Severina",
+    "actor": "severina",
     "kind": "pc",
     "player": null,
-    "status": "dead",
-    "body": "carried",
+    "status": "alive",
+    "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 0,
+    "xp_before": 281,
     "level_before": 1,
     "class": "Venturer",
-    "joined_day": 2,
-    "died_day": 9,
-    "xp_award": 281,
-    "xp_held": 281
+    "joined_day": 19,
+    "returned_day": 25,
+    "xp_award": 122
    }
   },
   "monsters": [
    {
-    "id": "M1",
-    "monster": "Kobold",
-    "source": "Kobold (MM p. 52)",
-    "number": 1,
-    "how": "killed",
-    "xp_each": 5,
-    "fight": {
-     "ids": [
-      "k2"
-     ],
-     "text": "the fight with 4 Kobold, round 1"
-    }
-   },
-   {
-    "id": "M2",
-    "monster": "Gnoll",
-    "source": "Gnoll (MM p. 49)",
-    "number": 1,
-    "how": "killed",
-    "xp_each": 20,
-    "fight": {
-     "ids": [
-      "g1"
-     ],
-     "text": "the fight with Gnoll, round 1"
-    }
-   },
-   {
-    "id": "M3",
-    "monster": "Bodiless Zombie (Sakkara)",
-    "source": "Bodiless Zombie (Sakkara) (MM p. 45)",
-    "number": 11,
-    "how": "killed",
-    "xp_each": 29,
-    "fight": {
-     "ids": [
-      "h1",
-      "h2",
-      "h3",
-      "h4",
-      "h5",
-      "h6",
-      "h7",
-      "h8",
-      "h9",
-      "h10",
-      "h11"
-     ],
-     "text": "the fight with 11 Bodiless Zombie (Sakkara), round 14"
-    }
-   },
-   {
-    "id": "M4",
-    "monster": "Stirge (Sakkara)",
-    "source": "Stirge (Sakkara) (MM p. 34)",
-    "number": 7,
-    "how": "killed",
-    "xp_each": 13,
-    "fight": {
-     "ids": [
-      "s1",
-      "s2",
-      "s3",
-      "s4",
-      "s5",
-      "s6",
-      "s7"
-     ],
-     "text": "the fight with 7 Stirge (Sakkara), round 4"
-    }
-   },
-   {
-    "id": "M5",
-    "monster": "Stirge (Sakkara)",
-    "source": "Stirge (Sakkara) (MM p. 34)",
-    "number": 4,
-    "how": "killed",
-    "xp_each": 13,
-    "fight": {
-     "ids": [
-      "t1",
-      "t2",
-      "t3",
-      "t4"
-     ],
-     "text": "the fight with 4 Stirge (Sakkara), round 8"
-    }
+    "id": "M6",
+    "monster": "Giant Crab Spider",
+    "source": "Giant Crab Spider (MM p. 294)",
+    "number": 2,
+    "how": "captured",
+    "xp_each": 29
    }
   ],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 9,
+   "day": 25,
    "at": "Turos Tem",
-   "total": 1605.0,
-   "per_share": 267.5,
+   "total": 698.0,
+   "per_share": 116.33333333333333,
    "awards": {
     "galerius": {
      "share": 1.0,
      "why": null,
-     "base": 268,
+     "base": 116,
      "pct": 10,
      "pen": 0,
-     "award": 295,
-     "xp_before": 0,
-     "xp_after": 295,
+     "award": 128,
+     "xp_before": 347,
+     "xp_after": 475,
      "capped": null,
      "zero": false
     },
     "faustina": {
      "share": 1.0,
      "why": null,
-     "base": 268,
+     "base": 116,
      "pct": 5,
      "pen": 0,
-     "award": 281,
-     "xp_before": 0,
-     "xp_after": 281,
+     "award": 122,
+     "xp_before": 331,
+     "xp_after": 453,
      "capped": null,
      "zero": false
     },
     "hrodric": {
      "share": 1.0,
      "why": null,
-     "base": 268,
+     "base": 116,
      "pct": 5,
      "pen": 0,
-     "award": 281,
-     "xp_before": 0,
-     "xp_after": 281,
+     "award": 122,
+     "xp_before": 331,
+     "xp_after": 453,
      "capped": null,
      "zero": false
     },
     "callista": {
      "share": 1.0,
      "why": null,
-     "base": 268,
+     "base": 116,
      "pct": 5,
      "pen": 0,
-     "award": 281,
-     "xp_before": 0,
-     "xp_after": 281,
+     "award": 122,
+     "xp_before": 331,
+     "xp_after": 453,
      "capped": null,
      "zero": false
     },
     "corvus": {
      "share": 1.0,
      "why": null,
-     "base": 268,
+     "base": 116,
      "pct": 5,
      "pen": 0,
-     "award": 281,
-     "xp_before": 0,
-     "xp_after": 281,
+     "award": 122,
+     "xp_before": 331,
+     "xp_after": 453,
      "capped": null,
      "zero": false
     },
-    "tertia": {
+    "severina": {
      "share": 1.0,
      "why": null,
-     "base": 268,
+     "base": 116,
      "pct": 5,
      "pen": 0,
-     "award": 281,
-     "xp_before": 0,
-     "xp_after": 281,
+     "award": 122,
+     "xp_before": 281,
+     "xp_after": 403,
      "capped": null,
      "zero": false
     }
@@ -290,11 +208,300 @@
   },
   "events": [],
   "returned": {
-   "day": 9,
+   "day": 25,
    "where": "Turos Tem"
   }
  },
- "closed": [],
+ "closed": [
+  {
+   "id": "A1",
+   "name": "AX1 The Sinister Stone of Sakkara",
+   "start_day": 2,
+   "participants": {
+    "galerius": {
+     "id": "galerius",
+     "name": "Galerius",
+     "actor": "galerius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Fighter",
+     "joined_day": 2,
+     "returned_day": 9,
+     "xp_award": 295
+    },
+    "faustina": {
+     "id": "faustina",
+     "name": "Faustina",
+     "actor": "faustina",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Priestess",
+     "joined_day": 2,
+     "returned_day": 9,
+     "xp_award": 281
+    },
+    "hrodric": {
+     "id": "hrodric",
+     "name": "Hrodric",
+     "actor": "hrodric",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Shaman",
+     "joined_day": 2,
+     "returned_day": 9,
+     "xp_award": 281
+    },
+    "callista": {
+     "id": "callista",
+     "name": "Callista",
+     "actor": "callista",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Mage",
+     "joined_day": 2,
+     "returned_day": 9,
+     "xp_award": 281
+    },
+    "corvus": {
+     "id": "corvus",
+     "name": "Corvus",
+     "actor": "corvus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Explorer",
+     "joined_day": 2,
+     "returned_day": 9,
+     "xp_award": 281
+    },
+    "tertia": {
+     "id": "tertia",
+     "name": "Tertia",
+     "actor": "tertia",
+     "kind": "pc",
+     "player": null,
+     "status": "dead",
+     "body": "carried",
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 0,
+     "level_before": 1,
+     "class": "Venturer",
+     "joined_day": 2,
+     "died_day": 9,
+     "xp_award": 281,
+     "xp_held": 281
+    }
+   },
+   "monsters": [
+    {
+     "id": "M1",
+     "monster": "Kobold",
+     "source": "Kobold (MM p. 52)",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 5,
+     "fight": {
+      "ids": [
+       "k2"
+      ],
+      "text": "the fight with 4 Kobold, round 1"
+     }
+    },
+    {
+     "id": "M2",
+     "monster": "Gnoll",
+     "source": "Gnoll (MM p. 49)",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 20,
+     "fight": {
+      "ids": [
+       "g1"
+      ],
+      "text": "the fight with Gnoll, round 1"
+     }
+    },
+    {
+     "id": "M3",
+     "monster": "Bodiless Zombie (Sakkara)",
+     "source": "Bodiless Zombie (Sakkara) (MM p. 45)",
+     "number": 11,
+     "how": "killed",
+     "xp_each": 29,
+     "fight": {
+      "ids": [
+       "h1",
+       "h2",
+       "h3",
+       "h4",
+       "h5",
+       "h6",
+       "h7",
+       "h8",
+       "h9",
+       "h10",
+       "h11"
+      ],
+      "text": "the fight with 11 Bodiless Zombie (Sakkara), round 14"
+     }
+    },
+    {
+     "id": "M4",
+     "monster": "Stirge (Sakkara)",
+     "source": "Stirge (Sakkara) (MM p. 34)",
+     "number": 7,
+     "how": "killed",
+     "xp_each": 13,
+     "fight": {
+      "ids": [
+       "s1",
+       "s2",
+       "s3",
+       "s4",
+       "s5",
+       "s6",
+       "s7"
+      ],
+      "text": "the fight with 7 Stirge (Sakkara), round 4"
+     }
+    },
+    {
+     "id": "M5",
+     "monster": "Stirge (Sakkara)",
+     "source": "Stirge (Sakkara) (MM p. 34)",
+     "number": 4,
+     "how": "killed",
+     "xp_each": 13,
+     "fight": {
+      "ids": [
+       "t1",
+       "t2",
+       "t3",
+       "t4"
+      ],
+      "text": "the fight with 4 Stirge (Sakkara), round 8"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 9,
+    "at": "Turos Tem",
+    "total": 1605.0,
+    "per_share": 267.5,
+    "awards": {
+     "galerius": {
+      "share": 1.0,
+      "why": null,
+      "base": 268,
+      "pct": 10,
+      "pen": 0,
+      "award": 295,
+      "xp_before": 0,
+      "xp_after": 295,
+      "capped": null,
+      "zero": false
+     },
+     "faustina": {
+      "share": 1.0,
+      "why": null,
+      "base": 268,
+      "pct": 5,
+      "pen": 0,
+      "award": 281,
+      "xp_before": 0,
+      "xp_after": 281,
+      "capped": null,
+      "zero": false
+     },
+     "hrodric": {
+      "share": 1.0,
+      "why": null,
+      "base": 268,
+      "pct": 5,
+      "pen": 0,
+      "award": 281,
+      "xp_before": 0,
+      "xp_after": 281,
+      "capped": null,
+      "zero": false
+     },
+     "callista": {
+      "share": 1.0,
+      "why": null,
+      "base": 268,
+      "pct": 5,
+      "pen": 0,
+      "award": 281,
+      "xp_before": 0,
+      "xp_after": 281,
+      "capped": null,
+      "zero": false
+     },
+     "corvus": {
+      "share": 1.0,
+      "why": null,
+      "base": 268,
+      "pct": 5,
+      "pen": 0,
+      "award": 281,
+      "xp_before": 0,
+      "xp_after": 281,
+      "capped": null,
+      "zero": false
+     },
+     "tertia": {
+      "share": 1.0,
+      "why": null,
+      "base": 268,
+      "pct": 5,
+      "pen": 0,
+      "award": 281,
+      "xp_before": 0,
+      "xp_after": 281,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 9,
+    "where": "Turos Tem"
+   }
+  }
+ ],
  "lots": {
   "L1": {
    "id": "L1",
@@ -1396,6 +1603,295 @@
    "judge": [
     "training state K15"
    ]
+  },
+  "L24": {
+   "id": "L24",
+   "adventure": "A2",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 10.0,
+   "carrier": null,
+   "status": "left",
+   "found": {
+    "day": 21,
+    "where": "L1 12"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 250.0,
+    "stone": 10.0,
+    "name": "10 clay jars of old incense, oils and perfumes",
+    "merch": null
+   },
+   "player": {
+    "desc": "10 clay jars of old incense, oils and perfumes",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "left_at": {
+    "where": "Buried Temple",
+    "day": 21
+   }
+  },
+  "L25": {
+   "id": "L25",
+   "adventure": "A2",
+   "kind": "gem",
+   "qty": 1,
+   "stone": 0.001,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 21,
+    "where": "L1 12, on a dead goblin"
+   },
+   "true": {
+    "kind": "gem",
+    "qty": 1,
+    "value_gp": 250.0,
+    "stone": 0.001,
+    "name": "gem worth 250.0gp"
+   },
+   "player": {
+    "desc": "a deep red stone the size of a thumbnail",
+    "value_gp": 250.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 250.0,
+    "market": "Turos Tem (Market)",
+    "day": 25,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 25
+  },
+  "L26": {
+   "id": "L26",
+   "adventure": "A2",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 21,
+    "where": "L1 12"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 75.0,
+    "stone": 3.0,
+    "name": "3 clay jars of old incense, oils and perfumes",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 clay jars of old incense, oils and perfumes",
+    "value_gp": 75.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 75.0,
+    "market": "Turos Tem (Market)",
+    "day": 25,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 25
+  },
+  "L27": {
+   "id": "L27",
+   "adventure": "A2",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 21,
+    "where": "L1 12"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 75.0,
+    "stone": 3.0,
+    "name": "3 clay jars of old incense, oils and perfumes",
+    "merch": null
+   },
+   "player": {
+    "desc": "3 clay jars of old incense, oils and perfumes",
+    "value_gp": 75.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 75.0,
+    "market": "Turos Tem (Market)",
+    "day": 25,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 25
+  },
+  "L28": {
+   "id": "L28",
+   "adventure": "A2",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 2.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 21,
+    "where": "L1 12"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 50.0,
+    "stone": 2.0,
+    "name": "2 clay jars of old incense, oils and perfumes",
+    "merch": null
+   },
+   "player": {
+    "desc": "2 clay jars of old incense, oils and perfumes",
+    "value_gp": 50.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 50.0,
+    "market": "Turos Tem (Market)",
+    "day": 25,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 25
+  },
+  "L29": {
+   "id": "L29",
+   "adventure": "A2",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 2.0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 21,
+    "where": "L1 12"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 50.0,
+    "stone": 2.0,
+    "name": "2 clay jars of old incense, oils and perfumes",
+    "merch": null
+   },
+   "player": {
+    "desc": "2 clay jars of old incense, oils and perfumes",
+    "value_gp": 50.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 50.0,
+    "market": "Turos Tem (Market)",
+    "day": 25,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 25
+  },
+  "L30": {
+   "id": "L30",
+   "adventure": "A2",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 25,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Spider, Giant Crab (adult, adult value)",
+    "qty": 1,
+    "value_gp": 140.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Spider, Giant Crab (adult, adult value)",
+    "value_gp": 140.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 140.0,
+    "market": "Turos Tem (Market)",
+    "day": 25,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false
+   },
+   "judge": [
+    "training state cs2"
+   ],
+   "divided_day": 25
   }
  },
  "hoards": {},
@@ -1439,6 +1935,10 @@
   "tertia": {
    "id": "tertia",
    "actor": "tertia"
+  },
+  "severina": {
+   "id": "severina",
+   "actor": "severina"
   }
  }
 }
