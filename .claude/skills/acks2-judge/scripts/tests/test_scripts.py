@@ -287,3 +287,13 @@ def test_play_walk_stops_at_a_timer_and_refuels_a_lantern(camp):
     code, out = sh(camp, "walk", "3", "--relight", who, "--kind", "lantern", script="play.py")
     assert "timer 'the unsettling event'" in out and code == 3, out
     assert "relit:" in out, out
+
+
+def test_capture_and_train_get_the_training_state(camp):
+    """Engine 7.20 (S54 F): capture and train run with the training state (ACKS_TSTATE) and the clock."""
+    C = os.path.join(camp, "Campaign")
+    env, line = argv_of(camp, "capture", "peg", "--how", "slumbering", "--by", "M")
+    assert env["ACKS_TSTATE"] == f"{C}/training-state.json"
+    assert f"--xstate {C}/exploration-state.json --state {C}/combat-state.json" in line
+    env, line = argv_of(camp, "train", "show")
+    assert f"--xstate {C}/exploration-state.json" in line and "--state " not in line

@@ -76,6 +76,7 @@ def context():
         "lessons": lessons if os.path.exists(lessons) else "",
         "schedule": schedule if os.path.exists(schedule) else "",
         "dstate": jlib.path(t.get("domain_state", "Campaign/domain-state.json")),
+        "tstate": jlib.path(t.get("training_state", "Campaign/training-state.json")),
     }
 
 
@@ -86,7 +87,8 @@ def env_for(ctx, cmd, args):
            "ACKS_BESTIARY": os.pathsep.join(ctx["bestiary"]), "ACKS_TABLES": ctx["tables"], "ACKS_ITEMS": ctx["items"],
            "ACKS_LESSONS": ctx["lessons"], "ACKS_SCHEDULE": ctx["schedule"], "ACKS_CSTATE": ctx["cstate"],
            "ACKS_LESSONS_STATE": ctx["state"],        # the combat state, for lessons that ask about the fight
-           "ACKS_HEXES": ctx["hexes"]}                # the hex adapter (treasure --terrain reads its terrain codes)
+           "ACKS_HEXES": ctx["hexes"],                # the hex adapter (treasure --terrain reads its terrain codes)
+           "ACKS_TSTATE": ctx["tstate"]}              # the training state (capture, train; engine 7.20)
     if cmd == "actor" and args[:1] == ["import"] and not os.path.exists(ctx["istate"]):
         env["ACKS_ISTATE"] = None            # no inventory yet: import keeps possessions (D10)
     return env
@@ -120,6 +122,8 @@ def extra_for(ctx, cmd, args):
         ex += ["--xstate", X]
     elif cmd == "domain":
         ex += ["--xstate", X, "--dstate", ctx["dstate"]]
+    elif cmd in ("capture", "train"):
+        ex += ["--xstate", X] + (["--state", S] if cmd == "capture" else [])
     elif cmd in STAGE2:
         ex += ["--state", S, "--xstate", X] + (["--retinue", R] if cmd == "walk" else [])
     elif cmd in ("evade", "pursue"):

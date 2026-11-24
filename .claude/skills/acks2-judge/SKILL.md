@@ -77,6 +77,7 @@ Craft:
 | Buying, selling, finding, giving, dropping, using up or losing anything; paying or receiving money | `R/inventory.md` (*engine*: the only record of possessions; actors' gear and coins are generated) |
 | Arriving at a site whose notes have no keyed content | `R/unprepped-sites.md` (stop at the threshold first) |
 | Treasure (rolling, placing, finding, carrying, appraising, identifying, selling), XP, levels, death, end of an adventure | `R/xp-treasure.md` (*engine*) |
+| Capturing, taming, training, handling or selling animals and monsters; riding trained creatures | `R/taming.md` (*engine*) |
 | Making, changing or exporting a character (actors, the PDF); current hp and conditions; an NPC's first numbers; a PC built step by step on the sheet (`acks chargen`, draft actors; `acks class profile|list`) | `R/characters.md` |
 | Party declarations, callers, the AI party, AI players' PCs and hiring | `R/party-structure.md` |
 | First session (empty party) | `R/bootstrap.md` |
