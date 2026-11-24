@@ -25,6 +25,13 @@ bring him the parts of beasts for his magic.
 - Day 651. Ennia came back with nothing: a column of giant ants and a flock of great bats, too many to take, and
   boars that were only meat. The company sends her out again under Tiberius, with Aelia and thirty light foot.
 
+- Days 651-664. The second hunt, under Tiberius, saw two lynxes and nothing worth a jar. Month 22 closed: the
+  Family's take came in, and Vettius made his street lieutenant pay over a side-purse; the man has been seen
+  drinking with the Gilded Ram's people since, and will not run the street work in spring.
+- Day 664. Vestus finished his first scroll with market herbs and webs in place of spider parts. The working went
+  wrong: a fold of grey light, and the workshop was empty. Vestus is gone. Neris asked Calefa where he is and was not
+  answered.
+
 ## Who they met
 - Ennia Ursa, monster-hunter (Explorer 1): sharp-eyed, quiet, counts everything twice ("Ants don't sleep, and they don't forget a trail.").
 - Silvanus, an older hunter who would not work for a mage.

@@ -5251,6 +5251,27 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 638 | the retinue | wages paid |  |  | 800gp | vettius |
 | 638 | the retinue | wages paid |  |  | 400gp | vettius |
 | 650 | Plaza District vellum-makers and ink-grinders (silver-ground inks, spider-silk vellum) | material cost, scroll of Webbing no. 1 (Rulings S47; RR Creating Magic Items) |  |  | 1,000gp | vestus-the-unlikely |
+| 651 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 651 | the retinue | wages paid |  |  | 132gp | lucilla |
+| 651 | the retinue | wages paid |  |  | 120gp | lucilla |
+| 651 | the retinue | wages paid |  |  | 72gp | vettius |
+| 651 | the retinue | wages paid |  |  | 72gp | brennus |
+| 651 | the retinue | wages paid |  |  | 144gp | cotta |
+| 651 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | lucilla |
+| 651 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | lucilla |
+| 651 | Cyfaraun | Rations, Iron (one week) | 2 |  | 12gp | lucilla |
+| 652 | the Grey Sisters | vault fee, three months ahead (days 653-742; Rulings S11) |  |  | 30gp | lucilla |
+| 660 | the Merchant Guildhouse | storage fee 0.25% of the company's purse (663,231gp), month 22 (day 660; Rulings S16, S46) |  |  | 1,658gp | guildhouse-bank |
+| 660 | the Family (Thana) | the Family's take, month 22: the syndicate 16,508 and the Pony's half 1,624 (Rulings S19, S22, S25) |  | 18,132gp |  | vettius |
+| 660 | the front's houses, The Mink and the venture company | Lucilla's income, month 22 (Rulings S19) |  | 4,250gp |  | lucilla |
+| 660 | investment 1 (Balanced, 693gp) | month 22: 53, Return (RR p. 384) |  | 7gp |  | lucilla |
+| 660 | investment 3 (Balanced, 3,000gp) | month 22: 81, Return +200% (RR p. 384) |  | 90gp |  | lucilla |
+| 660 | the retinue | wages paid |  |  | 24gp | vettius |
+| 660 | the retinue | wages paid |  |  | 48gp | lucilla |
+| 660 | the retinue | wages paid |  |  | 18gp | brennus |
+| 660 | the retinue | wages paid |  |  | 54gp | cotta |
+| 660 | the retinue | wages paid |  |  | 30gp | lucilla |
+| 664 | Plaza District herbalists and alchemists (spider webs, roots, ground bone) | miscellaneous special components 500gp (count 1,000gp under Efficiency), consumed in the scroll of Webbing no. 1 (Rulings S47; RR Component Cost) |  |  | 500gp | vestus-the-unlikely |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
