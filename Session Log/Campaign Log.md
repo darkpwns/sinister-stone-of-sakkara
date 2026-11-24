@@ -52,3 +52,4 @@ tags:
 - [[S41 — The Rook]]
 - [[S42 — The Canary Trap]]
 - [[S43 — The Gate Toll]]
+- [[S44 — The Hunt for the Teacher]]

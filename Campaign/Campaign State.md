@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 43
+session: 44
 mode: town
 location: '[[Cyfaraun]]'
 adventure: Secrets of the Nethercity (AX2), between delves (A118 paid out)
@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 609
-  time: 06:51
+    day: 610
+  time: 05:51
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -52,8 +52,7 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Halt Humanoids
+    spells_used: []
     encumbrance_st: 6.527
   - name: Brennus
     sheet: Characters/brennus.json
@@ -135,7 +134,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 609
+clock_day: 610
 ---
 # Campaign State
 
