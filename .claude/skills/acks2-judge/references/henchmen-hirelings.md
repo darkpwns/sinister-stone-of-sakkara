@@ -65,7 +65,7 @@ the tools repo's `engine/COVERAGE.md` (Stage 3).
 
 ## Wages
 - `acks.sh wages show` (due by date), `acks.sh wages pay <MID> --payer <PC> [--months N | --all]` when the employer pays (from his coins in the inventory).
-- A henchman's monthly wage follows his level (engine 7.17.3, RR p. 168): when he gains a level (`level-up --member`, `advance-0th --member`) a table wage becomes the new level's from his next wage day, said in the line; agreed terms off the table are left alone with a JUDGE line. `retinue set ID wage=N` sets an agreed wage (`wage` is `wage_gp`; unknown keys are refused). A wage is due on the hiring day + k × the month (`wages show`: "next due day N"); "paid through day N−1" is not the due day.
+- A henchman's monthly wage follows his level (engine 7.17.3, RR p. 168): when he gains a level (`level-up --member`, `advance-0th --member`) a table wage becomes the new level's from his next wage day, said in the line; agreed terms off the table are left alone with a JUDGE line. `retinue set ID wage=N --cause "…"` sets an agreed wage (`wage` is `wage_gp`; unknown keys are refused; the cause and day go into the member's history, engine 7.18.11). A hireling group's losses: `retinue lose ID N --cause "…"` (the count falls, wages follow; the last of them ends the group), never `retinue set ID count=N`. A wage is due on the hiring day + k × the month (`wages show`: "next due day N"); "paid through day N−1" is not the due day.
 - Wage days run on every day rollover (`turn`, `rest`, `wait`): a wage still unpaid at the end of its day is missed — a
   calamity: loyalty −1 and a hidden loyalty roll, applied by the engine. Away from civilization the rule is the same.
 
