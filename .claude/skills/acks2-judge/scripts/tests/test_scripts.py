@@ -190,3 +190,15 @@ def test_hex_shows_the_engines_classification(camp):
         if isinstance(d, dict) and d.get("hexes"):
             code, out = sh(camp, d["hexes"][0], script="hex.py")
             assert f"engine_classification: {d['classification']}" in out
+
+
+def test_play_depart_checklist(camp):
+    """C1: the pre-march checklist reads the states, changes nothing and ends READY or NOT READY."""
+    need(camp, "Campaign/exploration-state.json")
+    before = open(os.path.join(camp, "Campaign", "exploration-state.json")).read()
+    xs = json.load(open(os.path.join(camp, "Campaign", "exploration-state.json")))
+    day = xs["clock"]["day"]
+    code, out = sh(camp, "depart", "--return-day", str(day + 5), script="play.py")
+    assert code in (0, 3) and ("READY" in out.splitlines()[-1])
+    assert any(ln.startswith(("OK", "WARN", "FAIL")) for ln in out.splitlines())
+    assert open(os.path.join(camp, "Campaign", "exploration-state.json")).read() == before

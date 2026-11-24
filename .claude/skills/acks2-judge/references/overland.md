@@ -23,6 +23,10 @@ supplies, the party's Evasion throw, hp healed and CON lost.
   pack animal); `supplies show ID --on M1` packs a member's food and water on an animal (its weight moves there).
   Carried food, water and firewood count in each member's encumbrance and a rider's weight (15 st + gear + supplies).
   Hit points the party starts with: `heal ID --hp N`. Settings: `heal ID --set protective=no|wet=yes|native=polar|resist=cold`.
+- **Before every departure:** `python3 $S/play.py depart --route A,B,… --return-day N [--resupply]` (the checklist:
+  wages through the return plus a month, food and water provisioned per member, waterskins, feed per animal,
+  metamphora, the column's speed and who sets it, light, spells, schedule items on the road). Leave only on READY;
+  fix each FAIL line with the command it names.
 
 ## Each day
 1. **Travel**: `travel --to CC.RR` (or `--dir FACE --n N`, `--route A,B,C`, `--hours H`, `--ancillary` for up to 4

@@ -19,6 +19,13 @@
   play.py bank-balances --bank HOLDER [--day N]
       Each member's balance with a bank holder, from the inventory log (who gave, or who the cause names).
 
+  play.py depart --route A,B,C --return-day N [--resupply] [--ids ID,…]
+      The pre-march checklist in one call (C1): wages through the return plus a month (what to pay, who pays), food
+      and water days per member as the travel block holds them (rations packed but not provisioned are named),
+      waterskins per member, feed and water per animal, metamphora carried, the column's speed and who sets it,
+      light (torches, oil), spells not yet regained, and the schedule's items that fall on the road. Every line is
+      OK, WARN or FAIL; it ends READY only when no line fails (exit 0), else NOT READY (exit 3).
+
   play.py cond add ID "TEXT" [--cause WHY]   |   play.py cond remove ID "TEXT" [--cause WHY]   |   play.py cond list ID
       One condition added to or taken off an actor's `state.conditions` (the engine's `actor set` takes the whole
       list: this reads it, changes one entry and writes it back with the cause). `remove` matches the exact text or,
@@ -289,6 +296,125 @@ def cond(a):
     return code
 
 
+def _held_counts(st, I, hid, words):
+    out = {w: 0 for w in words}
+    for key, q in (I.held(st, hid) or {}).items():
+        low = key.lower()
+        for w in words:
+            if w in low:
+                out[w] += q
+    return out
+
+
+def depart(a):
+    """C1: the pre-march checklist. Nothing is changed: it reads the states and asks the engine (travel-show,
+    schedule due) through jacks.py."""
+    from acks import hire as H
+    from acks import inventory as I
+    E = Engine()
+    ctx = E.ctx
+    with open(ctx["xstate"], encoding="utf-8") as f:
+        xs = json.load(f)
+    day = xs["clock"]["day"]
+    ids = [x for x in (a.ids or "").split(",") if x] or list(xs.get("party") or {})
+    route = [x for x in (a.route or "").split(",") if x]
+    ret = int(a.return_day)
+    trip = max(0, ret - day)
+    lines, fails = [], 0
+
+    def out(kind, text):
+        nonlocal fails
+        fails += kind == "FAIL"
+        lines.append(f"{kind:4} {text}")
+
+    # wages through the return plus a month
+    if os.path.exists(ctx["rstate"]):
+        rs = H.load(ctx["rstate"])
+        md = int(rs.get("month_days") or 30)
+        horizon = ret + md
+        for m in H.active_members(rs):
+            if m.get("wage_per") != "month" or not m.get("wage_gp"):
+                continue
+            k = m["periods_paid"]
+            dues = []
+            while H.due_day(rs, m, k) <= horizon:
+                dues.append(H.due_day(rs, m, k))
+                k += 1
+            amt = m["wage_gp"] * m.get("count", 1)
+            if dues:
+                out("FAIL", f"wages: {m['id']} {m['name']} ({m['employer']} pays) due day {', '.join(map(str, dues))}: "
+                            f"`wages pay {m['id']} --payer {m['employer']} --months {len(dues)}` ({len(dues) * amt:g} gp)")
+            else:
+                out("OK", f"wages: {m['id']} {m['name']} paid through day {H.due_day(rs, m, m['periods_paid']) - 1}")
+    # the travel block: food, water, speed
+    code, tv = E.data("travel-show")
+    tv = tv.get("data") or {}
+    mem = tv.get("members") or {}
+    st = I.load(ctx["istate"]) if os.path.exists(ctx["istate"]) else None
+    meta = 0
+    for i in ids:
+        m = mem.get(i) or {}
+        if m.get("dead"):
+            continue
+        food = sum(float(x.get("days") or 0) for x in m.get("food") or [])
+        water = float(m.get("water") or 0)
+        cnt = _held_counts(st, I, i, ("ration", "waterskin", "metamphora", "torch", "oil")) if st and i in st["holders"] \
+            else {}
+        meta += cnt.get("metamphora", 0)
+        need = trip
+        if food + 1e-9 < need:
+            hint = f"; {cnt.get('ration', 0)} ration item(s) packed: `inv provision`" if cnt.get("ration") else ""
+            out("WARN" if a.resupply else "FAIL", f"food: {i} {food:g} day(s) provisioned for {trip} day(s) out{hint}")
+        else:
+            out("OK", f"food: {i} {food:g} day(s)")
+        if not cnt.get("waterskin") and water < 1:
+            out("FAIL", f"water: {i} {water:g} day(s), no waterskins")
+        else:
+            out("OK", f"water: {i} {water:g} day(s), {cnt.get('waterskin', 0)} waterskin(s)")
+        if cnt:
+            out("OK", f"light: {i} {cnt.get('torch', 0)} torch(es), {cnt.get('oil', 0)} oil")
+    for aid, an in (tv.get("animals") or {}).items():
+        feed = float(an.get("food") or 0)
+        out("OK" if feed or an.get("grazer") else "WARN",
+            f"feed: {aid} ({an.get('kind')}) {feed:g} day(s) of feed, {float(an.get('water') or 0):g} of water")
+    out("OK", f"metamphora carried: {meta}")
+    sp = tv.get("speed") or {}
+    if sp.get("error"):
+        out("FAIL", f"speed: {sp['error']}")
+    elif sp:
+        days = (6 * len(route) / sp["miles_per_day"]) if route and sp.get("miles_per_day") else None
+        out("OK", f"speed: {sp['miles_per_day']:g} mi/day, set by {sp['slowest']}"
+            + (f"; the route ({len(route)} hexes) about {days:.1f} day(s)" if days else ""))
+        if days and days > trip:
+            out("FAIL", f"route: about {days:.1f} day(s) out but the return is day {ret} ({trip} days)")
+    # spells not regained
+    for i in ids:
+        p = jlib.actor_path(i) if hasattr(jlib, "actor_path") else None
+        if not p:
+            for d in jlib.actor_dirs(jlib.config()):
+                q = os.path.join(d, f"{i}.json")
+                if os.path.exists(q):
+                    p = q
+                    break
+        if p and os.path.exists(p):
+            with open(p, encoding="utf-8") as f:
+                used = ((json.load(f).get("state") or {}).get("spells_used") or [])
+            if used:
+                out("WARN", f"spells: {i} has not regained {', '.join(map(str, used))} (a night's rest first)")
+    # the schedule's items on the road
+    if trip:
+        code, sd = E.data("schedule", "due", "--ahead", str(trip))
+        d = sd.get("data") or {}
+        for x in d.get("due") or []:
+            out("FAIL", f"schedule: {x['id']} due day {x['due_day']} (before leaving: `schedule run --due`)")
+        for x in d.get("ahead") or []:
+            out("WARN", f"schedule: {x['id']} falls on day {x['day']} on the road")
+    for ln in lines:
+        print(ln)
+    print("READY" if not fails else f"NOT READY: {fails} line(s) fail")
+    return 0 if not fails else 3
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -309,6 +435,12 @@ def main(argv=None):
     p = sub.add_parser("bank-balances")
     p.add_argument("--bank", required=True)
     p.add_argument("--day", type=int)
+    p = sub.add_parser("depart")
+    p.add_argument("--route", default="")
+    p.add_argument("--return-day", required=True, type=int)
+    p.add_argument("--resupply", action="store_true", help="food short of the whole trip is a warning (resupply on "
+                                                           "the way)")
+    p.add_argument("--ids", help="the members who go (default: the exploration party)")
     p = sub.add_parser("cond")
     p.add_argument("action", choices=["add", "remove", "list"])
     p.add_argument("id")
@@ -319,7 +451,8 @@ def main(argv=None):
         return payout(a, rest)
     if rest:
         ap.error("unrecognized arguments: " + " ".join(rest))
-    return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond}[a.cmd](a)
+    return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond,
+            "depart": depart}[a.cmd](a)
 
 
 if __name__ == "__main__":
