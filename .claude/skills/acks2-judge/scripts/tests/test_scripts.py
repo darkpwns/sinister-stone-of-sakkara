@@ -272,3 +272,18 @@ def test_handoff_lists_members_left_behind(camp):
     sys.path.insert(0, S)
     code, out = sh(camp, script="brief.py")
     assert "**Left behind:**" in out and next(iter(xs["staying"])) in out
+
+
+def test_play_walk_stops_at_a_timer_and_refuels_a_lantern(camp):
+    """D8: walk stops when a timer runs out; a carrier's burnt-out lantern is refuelled and lit when he has oil."""
+    need(camp, "Campaign/exploration-state.json")
+    xs = json.load(open(os.path.join(camp, "Campaign", "exploration-state.json")))
+    lan = [l for l in xs.get("lights") or [] if l.get("kind") == "lantern" and not l.get("lit")
+           and l.get("carrier") in (xs.get("party") or {})]
+    if not lan:
+        pytest.skip("no unlit lantern in the party")
+    who = lan[0]["carrier"]
+    sh(camp, "timer", "add", "the unsettling event", "--for", "1t")
+    code, out = sh(camp, "walk", "3", "--relight", who, "--kind", "lantern", script="play.py")
+    assert "timer 'the unsettling event'" in out and code == 3, out
+    assert "relit:" in out, out

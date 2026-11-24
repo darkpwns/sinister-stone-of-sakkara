@@ -6,7 +6,8 @@
       would pass the rest interval (RR p. 271: 1 turn in 6), relight when no light is lit (a torch from the first of
       the --relight carriers who has one; with the engine's `light auto on` the engine does it), and STOP, saying why,
       at anything that needs the Judge: an encounter, a character down or dead, no light left, a refusal, anything the
-      engine leaves to the Judge. A timer that runs out is reported and the walk goes on. Every turn's line is printed
+      engine leaves to the Judge, a timer that runs out (`--past-timers` walks on). A carrier's burnt-out lantern is
+      refuelled and lit when he has oil (`light refuel ID --light`). Every turn's line is printed
       (sources stripped). Exit code 0: all N turns walked; 3: stopped early.
   play.py supplies [ID ...]
       Torches, oil, rations, holy water and gold of each party member (default: the exploration party).
@@ -105,11 +106,28 @@ def since_rest(E):
 
 
 def relight(E, carriers, kind):
+    """A new light from the first carrier who can: his own burnt-out lantern refuelled and lit when he has oil (D8:
+    `light refuel ID --light`), else a new light of --kind."""
+    code, d = E.data("light", "show", "--all")
+    ls = (d.get("data") or {}).get("lights") or []
     for c in carriers:
+        for l in ls:
+            if l.get("kind") == "lantern" and l.get("carrier") == c and not l.get("lit") and (l.get("rounds_left") or 0) > 0:
+                code, out = E.run("light", "on", l["id"])          # his own lantern, put out with oil still in it
+                if code == 0:
+                    return short(out, 120)
+        for l in ls:
+            if l.get("kind") == "lantern" and l.get("carrier") == c and (l.get("rounds_left") or 0) <= 0:
+                code, out = E.run("light", "refuel", l["id"], "--light")
+                if code == 0:
+                    return short(out, 120)
         code, out = E.run("light", "on", "--kind", kind, "--carrier", c)
         if code == 0:
             return short(out, 80)
     return None
+
+
+TIMER = re.compile(r"timer '([^']+)' \(([^)]+)\) expires")
 
 
 def walk(a):
@@ -149,6 +167,12 @@ def walk(a):
         walked += 1
         if STOP.search(out) or " | JUDGE: " in out:
             print(f"-- stop after turn {i} of {a.turns}: needs the Judge")
+            return 3
+        tm = TIMER.search(out)
+        if tm and not a.past_timers:
+            # D8 (S33): an unsettling event's timer ran out inside the walk and the walk went on
+            print(f"-- stop after turn {i} of {a.turns}: timer '{tm.group(1)}' ({tm.group(2)}) expired "
+                  "(--past-timers to walk on)")
             return 3
     ensure_light()
     print(f"walked {walked} turn{'s' if walked != 1 else ''}")
@@ -749,6 +773,7 @@ def main(argv=None):
     p.add_argument("--rest-every", type=int, default=5, help="turns of exploration before a turn of rest (RR p. 271)")
     p.add_argument("--relight", help="carriers to take a new light from, in order (ID,ID)")
     p.add_argument("--kind", default="torch")
+    p.add_argument("--past-timers", action="store_true", help="walk on when a timer runs out (default: stop)")
     p = sub.add_parser("supplies")
     p.add_argument("ids", nargs="*")
     p = sub.add_parser("bank")
