@@ -10,16 +10,16 @@ public:
   date:
     year: ''
     season: spring
-    day: 742
-  time: '21:46'
+    day: 743
+  time: 05:46
   weather: Chilly (41 to 50 F) by day, Chilly (41 to 50 F) at night; clear; wind strong
   place: Cyfaraun
-  hex: '25.19'
+  hex: '26.19'
   party:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 40
+    hp: 41
     hp_max: 43
     conditions:
     - minor scarring (fang mark on the hand)
@@ -108,17 +108,17 @@ public:
     encumbrance_st: 9.404
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
     out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
-  rations: 'Cotta: food 13 d, water 1.8 d; Brennus: food 13 d, water 2.4 d; Vettius: food 13 d, water 0.4 d; Lucilla: food 13 d, water 2 d; Neris: food 13 d, water 2.2 d; Aelia: food 13 d, water 2 d; Phaedra: food 13 d, water 0 d; Vestus the Unlikely: food 13 d, water 1.8 d; Ennia Ursa: food 17 d, water 0 d; Tiberius Maro: food 13 d, water 2.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st'
+  rations: 'Cotta: food 12 d, water 0.8 d; Brennus: food 12 d, water 1.4 d; Vettius: food 12 d, water 0 d; Lucilla: food 12 d, water 1 d; Neris: food 12 d, water 1.2 d; Aelia: food 12 d, water 1 d; Phaedra: food 12 d, water 0 d (dehydrated); Vestus the Unlikely: food 12 d, water 0.8 d; Ennia Ursa: food 17 d, water 0 d (dehydrated); Tiberius Maro: food 12 d, water 1.2 d; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st; Horse, Light Riding: fodder 0 st, water 0 st; Horse, Medium Riding: fodder 0 st, water 0 st; Horse, Medium War: fodder 0 st, water 0 st; Mule, Riding: fodder 0 st, water 0 st; Horse, Light War: fodder 0 st, water 0 st; Horse, Steppe War: fodder 0 st, water 0 st'
   tracker: {}
   threads:
-  - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; he thinks little of us (day 673)'
-  - 'The fort (seen day 673): a horn and watchers on the gate tower, many fires; the ford people speak of thirty and more warriors with bows, two great bears, and the ferryman''s boy Lucius taken alive in the autumn'
-  - 'Vestus vanished from his workshop on day 664 in a fold of grey light; the Revered Mother says his line is not closed: look for him where he last worked, when the thaw comes'
-  - 'The Revered Mother''s charge to Neris (day 680): give the legion''s dead in the fort rites when it is ours'
-  - 'Devil boars on the Imperial road near 26.14-27.16: one killed (it died a fat man), two more walk the road'
-  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius at the Silk Pony; the lieutenant who runs the street work has been seen with the Gilded Ram's people and will not run it in spring
-  - Free of the Order of the Eclipse since day 629; Destrio's people have been seen near the Plaza District Watch house
-  - 'The workshop in the Pony''s back house: Phaedra scribes scrolls of sleep and Neris brews potions of healing there'
+  - 'The barony: Legate Nicus Balens at Türos Aster offers patrician rank and a claim to the ruined fort across the ford to whoever clears its bugbears; since day 741 he is our friend'
+  - 'Day 743, sunrise: we are inside the fort''s east side; the war-chief, his shaman, his witch doctor and the south barracks are dead; the rest of the tribe holds the west wall against Tiberius'' soldiers at the ford'
+  - 'The central hall: the tribe''s women and young fled into it; the legion''s strongroom lies under it (the Legate''s plan); the ferryman''s boy Lucius was taken alive in the autumn'
+  - 'The Revered Mother''s charge to Neris: give the legion''s dead in the fort rites when it is ours'
+  - The Imperial Vanguard hunt the fort's raiders from the ford village and mean to take the fort themselves
+  - Porcius' farm (26.14) is empty; its hoard rides with us, unsold and unidentified; Porcia is with the Legate's steward
+  - Selene is dead; the Family and Sand & Bones are one syndicate under Vettius; Bassus, Thana's brother, runs the street work while he is away
+  - The workshop in the Pony's back house waits; the Regent of the Tower wants it, and his watcher saw Vestus come back
   trail:
   - '20.08'
   - '21.09'
@@ -140,7 +140,7 @@ public:
   - '26.17'
   - '26.18'
   - '25.19'
-clock_day: 742
+clock_day: 743
 ---
 # Campaign State
 
