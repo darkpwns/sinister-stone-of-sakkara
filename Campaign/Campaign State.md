@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 573
-  time: 07:39
+    day: 574
+  time: 06:02
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 42
+    hp: 40
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -31,23 +31,25 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 32
+    hp: 30
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 14.993
+    encumbrance_st: 14.827
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
-    hp: 18
+    hp: 11
     hp_max: 18
     conditions: []
-    spells_used: []
+    spells_used:
+    - Fan of Flames
+    - Fan of Flames
     encumbrance_st: 4.91
   - name: Neris
     sheet: Characters/neris.json
     role: pc
-    hp: 21
+    hp: 15
     hp_max: 21
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
@@ -57,7 +59,7 @@ public:
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 35
+    hp: 32
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -67,7 +69,7 @@ public:
   - name: Aelia
     sheet: Characters/aelia.json
     role: henchman
-    hp: 23
+    hp: 18
     hp_max: 23
     conditions: []
     spells_used: []
@@ -75,16 +77,17 @@ public:
   - name: Phaedra
     sheet: Characters/phaedra.json
     role: henchman
-    hp: 20
+    hp: 12
     hp_max: 20
     conditions:
     - You grow an alien eye on the center of your forehead. The eye stays lidded most of the time. Three times per day you may unlid the eye and use the telepathy spell. Normal men view you with fear and trepidation (-3 to reaction rolls). (Tampering with Mortality)
-    spells_used: []
+    spells_used:
+    - Fan of Flames
     encumbrance_st: 7.896
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 19
+    hp: 16
     hp_max: 19
     conditions: []
     spells_used: []
@@ -98,7 +101,7 @@ public:
     spells_used: []
     encumbrance_st: 11.663
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) 9 turns 7 rounds left
   rations: 'Vettius: food 7 d, water 3 d; Vestus the Unlikely: food 7 d, water 2.8 d; Lucilla: food 7 d, water 3 d; Cotta: food 7 d, water 2.8 d; Brennus: food 7 d, water 3.4 d; Neris: food 7 d, water 3.2 d; Aelia: food 7 d, water 3 d; Tiberius Maro: food 7 d, water 3 d; Phaedra: food 7 d, water 3 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -133,7 +136,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 573
+clock_day: 574
 ---
 # Campaign State
 

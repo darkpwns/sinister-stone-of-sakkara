@@ -1,16 +1,31 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 132,
+  "A": 133,
   "L": 828,
   "H": 137,
-  "M": 249
+  "M": 251
  },
  "adventure": {
-  "id": "A132",
-  "name": "Order contract: Dorion Makrenos (Brennus)",
-  "start_day": 572,
+  "id": "A133",
+  "name": "Descent 80 (the doom throne, J8)",
+  "start_day": 574,
   "participants": {
+   "lucilla": {
+    "id": "lucilla",
+    "name": "Lucilla",
+    "actor": "lucilla",
+    "kind": "pc",
+    "player": "Rosa",
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 182971,
+    "level_before": 8,
+    "class": "Venturer",
+    "joined_day": 574
+   },
    "vettius": {
     "id": "vettius",
     "name": "Vettius",
@@ -19,14 +34,12 @@
     "player": "Tomasz",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 207552,
+    "xp_before": 207980,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 572,
-    "returned_day": 573,
-    "xp_award": 428
+    "joined_day": 574
    },
    "brennus": {
     "id": "brennus",
@@ -36,14 +49,72 @@
     "player": "Kwame",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 150935,
+    "xp_before": 151363,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 572,
-    "returned_day": 573,
-    "xp_award": 428
+    "joined_day": 574
+   },
+   "vestus-the-unlikely": {
+    "id": "vestus-the-unlikely",
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "player": "Priya",
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 135543,
+    "level_before": 7,
+    "class": "Mage",
+    "joined_day": 574
+   },
+   "neris": {
+    "id": "neris",
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "player": "Ingrid",
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 140879,
+    "level_before": 8,
+    "class": "Priestess",
+    "joined_day": 574
+   },
+   "cotta": {
+    "id": "cotta",
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "pc",
+    "player": "Gideon",
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 36803,
+    "level_before": 6,
+    "class": "Explorer",
+    "joined_day": 574
+   },
+   "aelia": {
+    "id": "aelia",
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 63063,
+    "level_before": 7,
+    "class": "Bard",
+    "joined_day": 574
    },
    "phaedra": {
     "id": "phaedra",
@@ -53,83 +124,75 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 59600,
+    "xp_before": 59804,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 572,
-    "returned_day": 573,
-    "xp_award": 204
+    "joined_day": 574
+   },
+   "tiberius-maro": {
+    "id": "tiberius-maro",
+    "name": "Tiberius Maro",
+    "actor": "tiberius-maro",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 4919,
+    "level_before": 3,
+    "class": "Crusader",
+    "joined_day": 574
    }
   },
   "monsters": [
    {
-    "id": "M249",
-    "monster": "Dorion Makrenos",
-    "source": "Dorion Makrenos",
+    "id": "M250",
+    "monster": "Troglodyte",
+    "source": "Troglodyte (MM p. 317)",
+    "number": 12,
+    "how": "killed",
+    "xp_each": 15,
+    "hd": "1+1",
+    "fight": {
+     "ids": [
+      "trogb1",
+      "trogb2",
+      "trogb3",
+      "trogb4",
+      "trogb5",
+      "trogb6",
+      "trogb7",
+      "trogb8",
+      "trogb9",
+      "trogb10",
+      "trogb11",
+      "trogb12"
+     ],
+     "text": "the fight with 13 Troglodyte, round 3"
+    }
+   },
+   {
+    "id": "M251",
+    "monster": "Troglodyte",
+    "source": "Troglodyte (MM p. 317)",
     "number": 1,
     "how": "killed",
     "xp_each": 20,
     "fight": {
      "ids": [
-      "dorion-makrenos"
+      "trogw1"
      ],
-     "text": "the fight with Dorion Makrenos, round 0"
+     "text": "the fight with 13 Troglodyte, round 3"
     }
    }
   ],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 573,
-   "at": "Cyfaraun",
-   "total": 1020.0,
-   "per_share": 408.0,
-   "awards": {
-    "vettius": {
-     "share": 1.0,
-     "why": null,
-     "base": 408,
-     "pct": 5,
-     "pen": 0,
-     "award": 428,
-     "xp_before": 207552,
-     "xp_after": 207980,
-     "capped": null,
-     "zero": false
-    },
-    "brennus": {
-     "share": 1.0,
-     "why": null,
-     "base": 408,
-     "pct": 5,
-     "pen": 0,
-     "award": 428,
-     "xp_before": 150935,
-     "xp_after": 151363,
-     "capped": null,
-     "zero": false
-    },
-    "phaedra": {
-     "share": 0.5,
-     "why": null,
-     "base": 204,
-     "pct": 0,
-     "pen": 0,
-     "award": 204,
-     "xp_before": 59600,
-     "xp_after": 59804,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
-  "events": [],
-  "returned": {
-   "day": 573,
-   "where": "Cyfaraun"
-  }
+  "status": "open",
+  "payout": null,
+  "events": []
  },
  "closed": [
   {
@@ -39856,6 +39919,131 @@
     }
    },
    "events": []
+  },
+  {
+   "id": "A132",
+   "name": "Order contract: Dorion Makrenos (Brennus)",
+   "start_day": 572,
+   "participants": {
+    "vettius": {
+     "id": "vettius",
+     "name": "Vettius",
+     "actor": "vettius",
+     "kind": "pc",
+     "player": "Tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 207552,
+     "level_before": 9,
+     "class": "Thief",
+     "joined_day": 572,
+     "returned_day": 573,
+     "xp_award": 428
+    },
+    "brennus": {
+     "id": "brennus",
+     "name": "Brennus",
+     "actor": "brennus",
+     "kind": "pc",
+     "player": "Kwame",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 150935,
+     "level_before": 8,
+     "class": "Fighter",
+     "joined_day": 572,
+     "returned_day": 573,
+     "xp_award": 428
+    },
+    "phaedra": {
+     "id": "phaedra",
+     "name": "Phaedra",
+     "actor": "phaedra",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 59600,
+     "level_before": 6,
+     "class": "Mage",
+     "joined_day": 572,
+     "returned_day": 573,
+     "xp_award": 204
+    }
+   },
+   "monsters": [
+    {
+     "id": "M249",
+     "monster": "Dorion Makrenos",
+     "source": "Dorion Makrenos",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 20,
+     "fight": {
+      "ids": [
+       "dorion-makrenos"
+      ],
+      "text": "the fight with Dorion Makrenos, round 0"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 573,
+    "at": "Cyfaraun",
+    "total": 1020.0,
+    "per_share": 408.0,
+    "awards": {
+     "vettius": {
+      "share": 1.0,
+      "why": null,
+      "base": 408,
+      "pct": 5,
+      "pen": 0,
+      "award": 428,
+      "xp_before": 207552,
+      "xp_after": 207980,
+      "capped": null,
+      "zero": false
+     },
+     "brennus": {
+      "share": 1.0,
+      "why": null,
+      "base": 408,
+      "pct": 5,
+      "pen": 0,
+      "award": 428,
+      "xp_before": 150935,
+      "xp_after": 151363,
+      "capped": null,
+      "zero": false
+     },
+     "phaedra": {
+      "share": 0.5,
+      "why": null,
+      "base": 204,
+      "pct": 0,
+      "pen": 0,
+      "award": 204,
+      "xp_before": 59600,
+      "xp_after": 59804,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 573,
+    "where": "Cyfaraun"
+   }
   }
  ],
  "lots": {

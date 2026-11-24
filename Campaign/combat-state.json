@@ -1,8 +1,25 @@
 {
  "schema": "acks-combat/3",
- "round": 0,
- "order": [],
- "count_index": null,
+ "round": 3,
+ "order": [
+  "brennus",
+  "lucilla",
+  "vestus-the-unlikely",
+  "neris",
+  "vettius",
+  "trogb1",
+  "trogb10",
+  "trogb11",
+  "trogw1",
+  "cotta",
+  "aelia",
+  "phaedra",
+  "tiberius-maro",
+  "trogb9",
+  "trogb5",
+  "trogb12"
+ ],
+ "count_index": 2,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -10,19 +27,257 @@
   ]
  },
  "combatants": {
+  "lucilla": {
+   "id": "lucilla",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "lucilla",
+   "perceived": "lucilla",
+   "judge_set": {
+    "resist": "fire:both"
+   },
+   "hp_lost_rounds": [
+    1,
+    2
+   ],
+   "felled": null,
+   "cleaves_used": 4,
+   "declared": {},
+   "init": 7,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Lucilla",
+   "stats": {
+    "name": "Lucilla",
+    "actor": "lucilla",
+    "kind": "pc",
+    "level": 8,
+    "class": "Venturer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 3
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 10,
+      "death": 10,
+      "blast": 10,
+      "implements": 11,
+      "spells": 12
+     },
+     {
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.venturer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "book": "RR",
+      "page": "p. 40"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     4,
+     {
+      "rule": "class.venturer.cleave",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "book": "RR",
+      "page": "p. 40"
+     }
+    ],
+    "ac_options": {
+     "shield": 6,
+     "no_shield": 6,
+     "dex_only": 1
+    },
+    "hp_max": 42,
+    "movement_running": 30,
+    "weapons": [
+     {
+      "name": "Mace +1",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "left hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Magical Engineering",
+     "Driving",
+     "Leadership",
+     "Intimidation",
+     "Adventuring",
+     "Knowledge (history)",
+     "Bargaining",
+     "Diplomacy"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "magical engineering": "",
+     "driving": "",
+     "leadership": "",
+     "intimidation": "",
+     "adventuring": "",
+     "knowledge (history)": "",
+     "bargaining": "",
+     "diplomacy": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "lucilla",
+   "hp_max": 42,
+   "hp": 40,
+   "hp_start": 42,
+   "aura_counts": {
+    "stench": 2
+   },
+   "attacked_round": 3,
+   "acted_round": 3
+  },
   "vettius": {
    "id": "vettius",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
    "group": "vettius",
    "perceived": "vettius",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    1
+   ],
    "felled": null,
-   "cleaves_used": 1,
+   "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -186,7 +441,7 @@
      "dex_only": 1
     },
     "hp_max": 32,
-    "movement_running": null,
+    "movement_running": 30,
     "weapons": [
      {
       "name": "Short Sword +2",
@@ -253,25 +508,39 @@
    },
    "actor": "vettius",
    "hp_max": 32,
-   "hp": 32,
+   "hp": 30,
    "hp_start": 32,
-   "attacked_round": 0
+   "aura_counts": {
+    "stench": 1
+   },
+   "attacked_round": 2
   },
   "brennus": {
    "id": "brennus",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
    "group": "brennus",
    "perceived": "brennus",
    "judge_set": {
     "resist": "fire:both"
    },
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    1,
+    2
+   ],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 2,
    "declared": {},
-   "init": null,
+   "init": 8,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -476,22 +745,1019 @@
    },
    "actor": "brennus",
    "hp_max": 35,
-   "hp": 35,
-   "hp_start": 35
+   "hp": 32,
+   "hp_start": 35,
+   "aura_counts": {
+    "stench": 1
+   },
+   "attacked_round": 3,
+   "acted_round": 3
+  },
+  "vestus-the-unlikely": {
+   "id": "vestus-the-unlikely",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "vestus-the-unlikely",
+   "perceived": "vestus-the-unlikely",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    1,
+    2
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {
+    "spell": true
+   },
+   "init": 7,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Vestus the Unlikely",
+   "stats": {
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
+    "kind": "pc",
+    "level": 7,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     8,
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 11,
+      "death": 11,
+      "blast": 13,
+      "implements": 9,
+      "spells": 10
+     },
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 2
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "ac_options": {
+     "shield": 1,
+     "no_shield": 1,
+     "dex_only": 1
+    },
+    "hp_max": 18,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Loremastery",
+     "Magical Engineering",
+     "Mapping",
+     "Language (Ancient Argollëan)",
+     "Swimming"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "loremastery": "",
+     "magical engineering": "",
+     "mapping": "",
+     "language (ancient argollëan)": "",
+     "swimming": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "vestus-the-unlikely",
+   "hp_max": 18,
+   "hp": 9,
+   "hp_start": 18,
+   "aura_counts": {
+    "stench": 2
+   }
+  },
+  "neris": {
+   "id": "neris",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "neris",
+   "perceived": "neris",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    1,
+    2,
+    2
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 7,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Neris",
+   "stats": {
+    "name": "Neris",
+    "actor": "neris",
+    "kind": "pc",
+    "level": 8,
+    "class": "Priestess",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 1
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     8,
+     {
+      "table": "priestess-attack-throws",
+      "title": "Priestess (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-attack-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 2
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 9,
+      "death": 6,
+      "blast": 12,
+      "implements": 9,
+      "spells": 11
+     },
+     {
+      "table": "priestess-saving-throws",
+      "title": "Priestess (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-saving-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.priestess.hit_die",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.priestess.cleave",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "save_refs": {
+     "paralysis": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "death": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "blast": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "implements": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     },
+     "spells": {
+      "modifier": "lot L468 (Ring of Protection +1) -1",
+      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
+      "rules": {
+       "table": "priestess-saving-throws",
+       "title": "Priestess (Crusader) Saving Throws",
+       "note": "ACKS II Rules/03 Classes/Priestess.md",
+       "block": "^tbl-priestess-saving-throws",
+       "book": "RR",
+       "page": "p. 65",
+       "row": 3
+      }
+     }
+    },
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 1
+    },
+    "hp_max": 21,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4/1d6-2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Laying on Hands",
+     "Divine Blessing",
+     "Healing 2",
+     "Healing",
+     "Knowledge (astrology)"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "laying on hands": "",
+     "divine blessing": "",
+     "healing 2": "",
+     "healing": "",
+     "knowledge (astrology)": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "neris",
+   "hp_max": 21,
+   "hp": 15,
+   "hp_start": 21,
+   "aura_counts": {
+    "stench": 1
+   },
+   "attacked_round": 2
+  },
+  "cotta": {
+   "id": "cotta",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "cotta",
+   "perceived": "cotta",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    1
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Cotta",
+   "stats": {
+    "name": "Cotta",
+    "actor": "cotta",
+    "kind": "pc",
+    "level": 6,
+    "class": "Explorer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     7,
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 3
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 10,
+      "death": 11,
+      "blast": 12,
+      "implements": 13,
+      "spells": 14
+     },
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 3
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.explorer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 26"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     6,
+     {
+      "rule": "class.explorer.cleave",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 4,
+     "no_shield": 4,
+     "dex_only": 1
+    },
+    "hp_max": 19,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Long Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Composite Bow",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+3",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6/1d8+3",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Adventuring",
+     "Mounted Combat",
+     "Precise Shooting",
+     "Combat Reflexes",
+     "Riding",
+     "Mapping"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "adventuring": "",
+     "mounted combat": "",
+     "precise shooting": "",
+     "combat reflexes": "",
+     "riding": "",
+     "mapping": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "cotta",
+   "hp_max": 19,
+   "hp": 16,
+   "hp_start": 19,
+   "aura_counts": {
+    "stench": 1
+   },
+   "attacked_round": 2
+  },
+  "aelia": {
+   "id": "aelia",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "aelia",
+   "perceived": "aelia",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    2,
+    2
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Aelia",
+   "stats": {
+    "name": "Aelia",
+    "actor": "aelia",
+    "kind": "henchman",
+    "level": 7,
+    "class": "Bard",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     6,
+     {
+      "table": "bard-attack-and-saving-throws",
+      "title": "Bard (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "block": "^tbl-bard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 53",
+      "row": 4
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 9,
+      "death": 10,
+      "blast": 11,
+      "implements": 12,
+      "spells": 13
+     },
+     {
+      "table": "bard-attack-and-saving-throws",
+      "title": "Bard (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "block": "^tbl-bard-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 53",
+      "row": 4
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.bard.hit_die",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "book": "RR",
+      "page": "p. 52"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     7,
+     {
+      "rule": "class.bard.cleave",
+      "note": "ACKS II Rules/03 Classes/Bard.md",
+      "book": "RR",
+      "page": "p. 52"
+     }
+    ],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 0
+    },
+    "hp_max": 23,
+    "movement_running": 30,
+    "weapons": [
+     {
+      "name": "Composite Bow +1",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 120,
+       "medium": 240,
+       "long": 360
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 6,
+      "damage": "1d6+3",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Net",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "",
+      "range": {
+       "short": 10,
+       "medium": 15,
+       "long": 20
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Short Sword (silvered)",
+      "init_bonus": "",
+      "attack_throw": 5,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "backpack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Magical Engineering",
+     "Combat Reflexes",
+     "Performance",
+     "Bargaining",
+     "Healing",
+     "Naturalism"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "magical engineering": "",
+     "combat reflexes": "",
+     "performance": "",
+     "bargaining": "",
+     "healing": "",
+     "naturalism": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "aelia",
+   "hp_max": 23,
+   "hp": 18,
+   "hp_start": 23,
+   "aura_counts": {
+    "stench": 1
+   },
+   "attacked_round": 2
   },
   "phaedra": {
    "id": "phaedra",
    "side": "party",
    "status": "active",
-   "conditions": [],
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
    "group": "phaedra",
    "perceived": "phaedra",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {},
-   "init": null,
+   "declared": {
+    "spell": true
+   },
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -690,63 +1956,63 @@
    },
    "actor": "phaedra",
    "hp_max": 20,
-   "hp": 20,
-   "hp_start": 20
+   "hp": 12,
+   "hp_start": 20,
+   "aura_counts": {
+    "stench": 1
+   }
   },
-  "dorion-makrenos": {
-   "id": "dorion-makrenos",
-   "side": "foe",
-   "status": "dead",
+  "tiberius-maro": {
+   "id": "tiberius-maro",
+   "side": "party",
+   "status": "active",
    "conditions": [
     {
-     "name": "surprised",
-     "source": null,
+     "name": "queasy",
+     "source": "aura stench (MM Troglodyte; SOTN J1 note)",
      "rounds_left": null,
-     "since_round": 0,
+     "since_round": 1,
      "note": null
     },
     {
-     "name": "unconscious",
+     "name": "defending",
      "source": null,
      "rounds_left": null,
-     "since_round": 0,
-     "note": null
+     "since_round": 2,
+     "note": "shield"
+    },
+    {
+     "name": "defended",
+     "source": "tiberius-maro",
+     "rounds_left": null,
+     "since_round": 2,
+     "note": "shield"
     }
    ],
-   "group": "m",
-   "perceived": "the horse-coper",
+   "group": "tiberius-maro",
+   "perceived": "tiberius-maro",
    "judge_set": {},
    "hp_lost_rounds": [
-    0
+    2
    ],
-   "felled": {
-    "round": 0,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "vettius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
+   "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": null,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
-   "kind": "npc",
-   "name": "Dorion Makrenos",
+   "kind": "henchman",
+   "name": "Tiberius Maro",
    "stats": {
-    "name": "Dorion Makrenos",
-    "actor": "dorion-makrenos",
-    "kind": "npc",
-    "level": 2,
-    "class": "Venturer",
+    "name": "Tiberius Maro",
+    "actor": "tiberius-maro",
+    "kind": "henchman",
+    "level": 3,
+    "class": "Crusader",
     "size": "man-sized",
     "mods": {
      "STR": [
-      -1,
+      2,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -754,11 +2020,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 2
+       "row": 5
       }
      ],
      "INT": [
-      -1,
+      0,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -766,11 +2032,11 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 2
+       "row": 3
       }
      ],
      "WIL": [
-      1,
+      0,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -778,7 +2044,7 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 4
+       "row": 3
       }
      ],
      "DEX": [
@@ -806,7 +2072,7 @@
       }
      ],
      "CHA": [
-      -2,
+      1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -814,95 +2080,1010 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 1
+       "row": 4
       }
      ]
     },
     "attack_throw": [
-     10,
+     9,
      {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
+      "table": "crusader-attack-and-saving-throws",
+      "title": "Crusader Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "block": "^tbl-crusader-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 41",
-      "row": 0
+      "page": "p. 37",
+      "row": 1
      }
     ],
     "saves": [
      {
-      "paralysis": 13,
-      "death": 13,
-      "blast": 13,
-      "implements": 14,
-      "spells": 15
+      "paralysis": 12,
+      "death": 9,
+      "blast": 15,
+      "implements": 12,
+      "spells": 14
      },
      {
-      "table": "venturer-attack-and-saving-throws",
-      "title": "Venturer (Thief) Attack and Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
-      "block": "^tbl-venturer-attack-and-saving-throws",
+      "table": "crusader-attack-and-saving-throws",
+      "title": "Crusader Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "block": "^tbl-crusader-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 41",
-      "row": 0
+      "page": "p. 37",
+      "row": 1
      }
     ],
     "hit_die": [
      "1d6",
      {
-      "rule": "class.venturer.hit_die",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "rule": "class.crusader.hit_die",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
       "book": "RR",
-      "page": "p. 40"
+      "page": "p. 36"
      }
     ],
     "progression": "crusader/thief",
     "cleaves": [
      1,
      {
-      "rule": "class.venturer.cleave",
-      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "rule": "class.crusader.cleave",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
       "book": "RR",
-      "page": "p. 40"
+      "page": "p. 36"
      }
     ],
     "ac_options": {
-     "shield": 0,
-     "no_shield": 0,
+     "shield": 7,
+     "no_shield": 5,
      "dex_only": 0
     },
-    "hp_max": 7,
-    "movement_running": 120,
-    "weapons": [],
+    "hp_max": 5,
+    "movement_running": 30,
+    "weapons": [
+     {
+      "name": "Mace",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Spear",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6/1d8+2",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "backpack"
+     }
+    ],
     "save_mods_text": {},
     "initiative_sheet": 0,
-    "proficiencies": [],
+    "proficiencies": [
+     "Laying on Hands",
+     "Adventuring",
+     "Naturalism"
+    ],
     "proficiency_throws": {},
-    "prof_throw_list": {},
+    "prof_throw_list": {
+     "laying on hands": "",
+     "adventuring": "",
+     "naturalism": ""
+    },
     "ac_mode": "shield"
    },
-   "actor": "dorion-makrenos",
+   "actor": "tiberius-maro",
+   "hp_max": 5,
+   "hp": 3,
+   "hp_start": 5,
+   "aura_counts": {
+    "stench": 1
+   },
+   "morale_state": "victory or death"
+  },
+  "trogb1": {
+   "id": "trogb1",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
    "hp_max": 7,
-   "hp": -12,
+   "hp": -5,
    "hp_start": 7,
+   "attacked_round": 2,
    "mortal_wounds": {
-    "total": -3,
-    "d20": 15,
-    "d6": 3,
+    "total": -4,
+    "d20": 7,
+    "d6": 5,
     "table": "mortal-wounds-slashing",
     "condition": "You were instantly killed.",
-    "wound": "Cruel fate has left your jowls sliced open as if you died smiling at your own demise.",
+    "wound": "A ghastly cut across the belly reveals your harsh demise.",
     "band": "-5 to 0"
    },
    "xp_recorded": {
-    "record": "M249",
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb2": {
+   "id": "trogb2",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "cotta",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 3,
+   "hp": -4,
+   "hp_start": 3,
+   "attacked_round": 2,
+   "dying": {
+    "within": "round",
+    "since_round": 3,
+    "deadline_round": 4
+   },
+   "mortal_wounds": {
+    "total": 4,
+    "d20": 20,
+    "d6": 4,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb3": {
+   "id": "trogb3",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "cotta",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 6,
+   "hp": -2,
+   "hp_start": 6,
+   "attacked_round": 2,
+   "mortal_wounds": {
+    "total": -4,
+    "d20": 4,
+    "d6": 6,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "Your corpse is largely intact and ready for a noble funeral.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb4": {
+   "id": "trogb4",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "cotta",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 7,
+   "hp": -2,
+   "hp_start": 7,
+   "attacked_round": 1,
+   "dying": {
+    "within": "day",
+    "since_round": 3
+   },
+   "mortal_wounds": {
+    "total": 11,
+    "d20": 19,
+    "d6": 6,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb5": {
+   "id": "trogb5",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 9,
+   "hp": -5,
+   "hp_start": 9,
+   "attacked_round": 2,
+   "mortal_wounds": {
+    "total": -5,
+    "d20": 6,
+    "d6": 3,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You were instantly killed.",
+    "wound": "Your rib cage collapsed, leading to an agonizing death gasping for air from ruptured lungs.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb6": {
+   "id": "trogb6",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 2,
+   "hp": -2,
+   "hp_start": 2,
+   "attacked_round": 2,
+   "mortal_wounds": {
+    "total": -5,
+    "d20": 6,
+    "d6": 4,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You were instantly killed.",
+    "wound": "Crushed bones and splattered brains betray your grisly end.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb7": {
+   "id": "trogb7",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "vettius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 3,
+   "hp": -1,
+   "hp_start": 3,
+   "attacked_round": 1,
+   "dying": {
+    "within": "round",
+    "since_round": 3,
+    "deadline_round": 4
+   },
+   "mortal_wounds": {
+    "total": 5,
+    "d20": 13,
+    "d6": 6,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb8": {
+   "id": "trogb8",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "vettius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 3,
+   "hp": -3,
+   "hp_start": 3,
+   "attacked_round": 1,
+   "dying": {
+    "within": "round",
+    "since_round": 3,
+    "deadline_round": 4
+   },
+   "mortal_wounds": {
+    "total": 4,
+    "d20": 15,
+    "d6": 1,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your spinal cord is severed at the neck (DEX reduced to 3, cannot move, fight, use items, or cast spells, must make Death save each month or die from complications).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb9": {
+   "id": "trogb9",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 9,
+   "hp": -1,
+   "hp_start": 9,
+   "attacked_round": 2,
+   "mortal_wounds": {
+    "total": 0,
+    "d20": 6,
+    "d6": 5,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You were instantly killed.",
+    "wound": "A bone-shattering wound reveals your harsh demise.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb10": {
+   "id": "trogb10",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 2,
+   "hp": -1,
+   "hp_start": 2,
+   "attacked_round": 2,
+   "dying": {
+    "within": "day",
+    "since_round": 3
+   },
+   "mortal_wounds": {
+    "total": 11,
+    "d20": 19,
+    "d6": 4,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your hands is crushed and must be amputated (cannot dual-wield or use two-handed weapons).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb11": {
+   "id": "trogb11",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "lucilla",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "attacked_round": 2,
+   "dying": {
+    "within": "turn",
+    "since_round": 3
+   },
+   "mortal_wounds": {
+    "total": 7,
+    "d20": 8,
+    "d6": 5,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "A skull-shaking blow leaves you partly deaf and suffering ear-ringing headaches (-2 to Listening throws, -2 to surprise rolls, -1 initiative).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogb12": {
+   "id": "trogb12",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "b",
+   "perceived": "grey-scaled lizard-woman",
+   "judge_set": {
+    "ac": "3",
+    "hd": "1+1",
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    2,
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "brennus",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 8,
+   "hp": 0,
+   "hp_start": 8,
+   "attacked_round": 2,
+   "dying": {
+    "within": "round",
+    "since_round": 3,
+    "deadline_round": 4
+   },
+   "mortal_wounds": {
+    "total": 5,
+    "d20": 6,
+    "d6": 6,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M250",
+    "how": "killed",
+    "xp": 15
+   }
+  },
+  "trogw1": {
+   "id": "trogw1",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "w",
+   "perceived": "grey-scaled lizard-warrior",
+   "judge_set": {
+    "attack_throw": "9"
+   },
+   "hp_lost_rounds": [
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "fire"
+    ],
+    "natural": false,
+    "by": "vestus-the-unlikely",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 8,
+   "hp": 0,
+   "hp_start": 8,
+   "attacked_round": 2,
+   "dying": {
+    "within": "turn",
+    "since_round": 3
+   },
+   "mortal_wounds": {
+    "total": 10,
+    "d20": 11,
+    "d6": 3,
+    "table": "mortal-wounds-acid-electrical-fire-luminous",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "One leg is burned off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M251",
     "how": "killed",
     "xp": 20
    }
   }
  },
  "groups": {
+  "lucilla": {
+   "side": "party",
+   "members": [
+    "lucilla"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
   "vettius": {
    "side": "party",
    "members": [
@@ -927,6 +3108,54 @@
    },
    "start_count": 1
   },
+  "vestus-the-unlikely": {
+   "side": "party",
+   "members": [
+    "vestus-the-unlikely"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "neris": {
+   "side": "party",
+   "members": [
+    "neris"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "cotta": {
+   "side": "party",
+   "members": [
+    "cotta"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "aelia": {
+   "side": "party",
+   "members": [
+    "aelia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
   "phaedra": {
    "side": "party",
    "members": [
@@ -939,10 +3168,68 @@
    },
    "start_count": 1
   },
-  "m": {
+  "tiberius-maro": {
+   "side": "party",
+   "members": [
+    "tiberius-maro"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "b": {
    "side": "foe",
    "members": [
-    "dorion-makrenos"
+    "trogb1",
+    "trogb2",
+    "trogb3",
+    "trogb4",
+    "trogb5",
+    "trogb6",
+    "trogb7",
+    "trogb8",
+    "trogb9",
+    "trogb10",
+    "trogb11",
+    "trogb12"
+   ],
+   "morale": {
+    "state": "advance and pursue",
+    "rolls": [
+     {
+      "round": 2,
+      "total": 11,
+      "result": "Advance and Pursue",
+      "reason": "1/3 of the group felled (6/12)"
+     }
+    ],
+    "triggered": true,
+    "last_trigger_round": 2,
+    "first_round": 2
+   },
+   "start_count": 12,
+   "felled_rounds": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ]
+  },
+  "w": {
+   "side": "foe",
+   "members": [
+    "trogw1"
    ],
    "morale": {
     "state": "steady",
@@ -951,34 +3238,294 @@
    },
    "start_count": 1,
    "felled_rounds": [
-    0
+    3
    ]
   }
  },
  "engaged": [],
- "engaged_at_round_start": [],
+ "engaged_at_round_start": [
+  [
+   "brennus",
+   "trogb1"
+  ],
+  [
+   "lucilla",
+   "trogb5"
+  ],
+  [
+   "aelia",
+   "trogb9"
+  ],
+  [
+   "neris",
+   "trogb10"
+  ],
+  [
+   "phaedra",
+   "trogb11"
+  ],
+  [
+   "tiberius-maro",
+   "trogb12"
+  ],
+  [
+   "trogw1",
+   "vestus-the-unlikely"
+  ],
+  [
+   "trogb5",
+   "vettius"
+  ],
+  [
+   "cotta",
+   "trogb1"
+  ]
+ ],
  "distances": {
-  "dorion-makrenos|vettius": 5
+  "brennus|trogb1": 5,
+  "brennus|trogb2": 5,
+  "cotta|trogb3": 5,
+  "cotta|trogb4": 5,
+  "lucilla|trogb5": 5,
+  "lucilla|trogb6": 5,
+  "trogb7|vettius": 5,
+  "trogb8|vettius": 5,
+  "aelia|trogb9": 5,
+  "neris|trogb10": 5,
+  "phaedra|trogb11": 5,
+  "tiberius-maro|trogb12": 5,
+  "trogw1|vestus-the-unlikely": 5,
+  "trogb5|vettius": 5,
+  "cotta|trogb2": 5,
+  "cotta|trogb1": 5,
+  "brennus|trogb12": 5,
+  "brennus|trogb11": 5,
+  "lucilla|trogb9": 5,
+  "lucilla|trogb10": 5,
+  "lucilla|trogb11": 5
  },
  "log": [],
- "notes_shown": [],
+ "notes_shown": [
+  "morale.hireling_leadership",
+  "morale.hireling_triggers",
+  "morale.modifier_tiers"
+ ],
+ "wards": [
+  {
+   "bearer": "tiberius-maro",
+   "name": "the Underwatch shield",
+   "radius": 10,
+   "bars": [
+    "enchanted"
+   ],
+   "within": "party",
+   "out": [],
+   "fall": "creature",
+   "evil": "foes",
+   "source": "Rulings S14, S35",
+   "fallen": {}
+  }
+ ],
+ "auras": [
+  {
+   "name": "stench",
+   "sources": [
+    "trogb1",
+    "trogb2",
+    "trogb3",
+    "trogb4",
+    "trogb5",
+    "trogb6",
+    "trogb7",
+    "trogb8",
+    "trogb9",
+    "trogb10",
+    "trogb11",
+    "trogb12",
+    "trogw1"
+   ],
+   "radius": 5,
+   "save": "death",
+   "per_extra": 0,
+   "mods": [
+    [
+     "stench",
+     -2
+    ]
+   ],
+   "fail": "queasy",
+   "fail_rounds": null,
+   "affects": "foes",
+   "while_failed": null,
+   "source": "MM Troglodyte; SOTN J1 note",
+   "hears": [],
+   "noted": [],
+   "silenced_by": []
+  }
+ ],
+ "round_ended": 2,
+ "retinue": {
+  "aelia": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
+  "phaedra": {
+   "hp_triggered": true,
+   "party_triggered": false,
+   "calamity_queued": false,
+   "hp_first": 2
+  },
+  "tiberius-maro": {
+   "hp_triggered": true,
+   "party_triggered": false,
+   "calamity_queued": false,
+   "hp_first": 2
+  }
+ },
  "party_hp_written": [
+  "lucilla",
   "vettius",
   "brennus",
-  "phaedra"
+  "vestus-the-unlikely",
+  "neris",
+  "cotta",
+  "aelia",
+  "phaedra",
+  "tiberius-maro"
  ],
  "ended": {
-  "round": 0,
+  "round": 3,
   "felled_foes": [
    {
-    "id": "dorion-makrenos",
-    "name": "Dorion Makrenos",
-    "perceived": "the horse-coper",
+    "id": "trogb1",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
     "outcome": "slain",
-    "hp": -12,
+    "hp": -5,
     "condition": "You were instantly killed.",
-    "wound": "Cruel fate has left your jowls sliced open as if you died smiling at your own demise.",
-    "total": -3
+    "wound": "A ghastly cut across the belly reveals your harsh demise.",
+    "total": -4
+   },
+   {
+    "id": "trogb2",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -4,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
+    "total": 4
+   },
+   {
+    "id": "trogb3",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You were instantly killed.",
+    "wound": "Your corpse is largely intact and ready for a noble funeral.",
+    "total": -4
+   },
+   {
+    "id": "trogb4",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
+    "total": 11
+   },
+   {
+    "id": "trogb5",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -5,
+    "condition": "You were instantly killed.",
+    "wound": "Your rib cage collapsed, leading to an agonizing death gasping for air from ruptured lungs.",
+    "total": -5
+   },
+   {
+    "id": "trogb6",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You were instantly killed.",
+    "wound": "Crushed bones and splattered brains betray your grisly end.",
+    "total": -5
+   },
+   {
+    "id": "trogb7",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
+    "total": 5
+   },
+   {
+    "id": "trogb8",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -3,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your spinal cord is severed at the neck (DEX reduced to 3, cannot move, fight, use items, or cast spells, must make Death save each month or die from complications).",
+    "total": 4
+   },
+   {
+    "id": "trogb9",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You were instantly killed.",
+    "wound": "A bone-shattering wound reveals your harsh demise.",
+    "total": 0
+   },
+   {
+    "id": "trogb10",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your hands is crushed and must be amputated (cannot dual-wield or use two-handed weapons).",
+    "total": 11
+   },
+   {
+    "id": "trogb11",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "A skull-shaking blow leaves you partly deaf and suffering ear-ringing headaches (-2 to Listening throws, -2 to surprise rolls, -1 initiative).",
+    "total": 7
+   },
+   {
+    "id": "trogb12",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-woman",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
+    "total": 5
+   },
+   {
+    "id": "trogw1",
+    "name": "Troglodyte",
+    "perceived": "grey-scaled lizard-warrior",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "One leg is burned off (crutch is required, movement reduced by 30', DEX reduced by 1/3 for AC purposes).",
+    "total": 10
    }
   ]
  }
