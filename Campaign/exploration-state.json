@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 611,
-  "round_of_day": 528,
-  "total_rounds": 878448
+  "round_of_day": 852,
+  "total_rounds": 878772
  },
  "party": {
   "vettius": {
@@ -822,100 +822,49 @@
    "id": "lantern44",
    "kind": "lantern",
    "carrier": "vettius",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 240,
+   "rounds_left": 36,
+   "tallow": false
+  },
+  {
+   "id": "lantern45",
+   "kind": "lantern",
+   "carrier": "vettius",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 190,
    "tallow": false
   }
  ],
- "timers": [
-  {
-   "id": "t165",
-   "label": "Holy Blessing (Neris)",
-   "rounds_left": 13,
-   "hidden": false,
-   "source": null,
-   "started": "day 611 08:01"
-  }
- ],
+ "timers": [],
  "rest": {
   "rounds_since_rest": 0,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Nethercity I - Deep Level Southern Cave Complex",
-  "kind": "dungeon",
-  "level": 3,
-  "room": "I10",
+  "site": "Cyfaraun",
+  "kind": "settlement",
+  "level": null,
+  "room": null,
   "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 3,
-   "target": 6
+   "none": true
   },
-  "table": "Adventure/SOTN/Tables/sotn-wandering-volcanic-caves.yaml",
+  "table": null,
   "source": {
-   "wandering": "site setting: '1d6 every 3 turns, 6+'"
+   "wandering": "a settlement: no wandering monster checks"
   }
  },
  "wandering": {
-  "turns_since_check": 2,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 611 08:20",
-   "roll": 5,
+   "at": "day 611 13:20",
+   "roll": 4,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 583 09:00",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 583 09:30",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 583 10:00",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 583 10:30",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 583 11:00",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 583 11:30",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 583 12:00",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 606 06:40",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 606 07:10",
     "roll": 6,
@@ -987,13 +936,61 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 611 08:50",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 611 09:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 611 09:50",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 611 10:20",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 611 10:50",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 611 11:20",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 611 11:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 611 13:20",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
    }
   ],
   "pending_at": null,
-  "turn_start_done": 878440
+  "turn_start_done": 878740
  },
  "turn_actions": {
-  "turn": 87844,
+  "turn": 87877,
   "listened": [],
   "actions": []
  },
@@ -1134,8 +1131,8 @@
    "rest_rounds": 0
   },
   "611": {
-   "delve_rounds": 227,
-   "rest_rounds": 40
+   "delve_rounds": 451,
+   "rest_rounds": 70
   }
  },
  "events": [
@@ -2059,10 +2056,10 @@
   }
  ],
  "next_ids": {
-  "enc": 474,
+  "enc": 476,
   "torch": 409,
   "t": 165,
-  "lantern": 44
+  "lantern": 45
  },
  "travel": {
   "hex_source": "Campaign/campaign.yaml",
@@ -15079,22 +15076,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc455",
-   "at": "day 574 06:42",
-   "monster_name": "Incarnation of Terror (SOTN)",
-   "number": 1,
-   "reaction": null,
-   "status": "surprise rolled"
-  },
-  {
-   "id": "enc456",
-   "at": "day 574 08:30",
-   "monster_name": "Skeleton",
-   "number": 4,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
    "id": "enc457",
    "at": "day 577 05:00",
    "monster_name": "Sage Slime",
@@ -15236,6 +15217,22 @@
    "at": "day 611 08:01",
    "monster_name": "Troglodyte",
    "number": 31,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc475",
+   "at": "day 611 08:58",
+   "monster_name": "Troglodyte Shaman (SOTN)",
+   "number": 1,
+   "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc476",
+   "at": "day 611 09:50",
+   "monster_name": "Skeleton",
+   "number": 7,
    "reaction": null,
    "status": "fighting"
   }

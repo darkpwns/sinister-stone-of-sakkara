@@ -698,6 +698,7 @@ tags:
 | 593 | Order contract: Theron Askalaios (Vestus) | reward 1000.0gp | 1,000 | vestus-the-unlikely |
 | 606 | Order contract: Marcus Galeo (Brennus) | reward 1500.0gp | 1,500 | brennus |
 | 609 | Order contract: Lucius Caper (Vettius) | reward 2000.0gp | 2,000 | vettius |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | SOTN Khepri Neural Scrambler | 100 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -903,6 +904,8 @@ tags:
 | 593 | Order contract: Theron Askalaios (Vestus) | Theron Askalaios | 1 | 20 | 20 |
 | 606 | Order contract: Marcus Galeo (Brennus) | Marcus Galeo | 1 | 50 | 50 |
 | 609 | Order contract: Lucius Caper (Vettius) | Lucius Caper | 1 | 80 | 80 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Troglodyte | 31 | 20 | 620 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Skeleton | 7 | 13 | 91 |
 
 ## Shares and XP awarded
 
@@ -1844,6 +1847,15 @@ tags:
 | 609 | Order contract: Lucius Caper (Vettius) | Vettius | 1 | 800 | 32 | 0 | +5% | 874 |
 | 609 | Order contract: Lucius Caper (Vettius) | Phaedra | 0.5 | 400 | 16 | 0 | +0% | 416 |
 | 609 | Order contract: Lucius Caper (Vettius) | Neris | 1 | 800 | 32 | 0 | +0% | 832 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Vettius | 1 | 13 | 95 | 0 | +5% | 113 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Vestus the Unlikely | 1 | 13 | 95 | 0 | +5% | 113 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Lucilla | 1 | 13 | 95 | 0 | +10% | 119 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Cotta | 1 | 13 | 95 | 0 | +0% | 108 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Brennus | 1 | 13 | 95 | 0 | +5% | 113 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Neris | 1 | 13 | 95 | 0 | +0% | 108 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Aelia | 0.5 | 7 | 47 | 0 | +0% | 54 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Tiberius Maro | 0.5 | 7 | 47 | 0 | +0% | 54 |
+| 611 | A142 descent 85: the hunt for the Great Teacher (I) | Phaedra | 0.5 | 7 | 47 | 0 | +0% | 54 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4790,3 +4802,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 609 | the retinue | wages paid |  |  | 800gp | vettius |
 | 611 | Cyfaraun (Market) | torch | 6 |  | 1sp | aelia |
 | 611 | Cyfaraun (Market) | torch | 6 |  | 1sp | phaedra |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |
+| 611 |  | treasure share |  |  |  |  |

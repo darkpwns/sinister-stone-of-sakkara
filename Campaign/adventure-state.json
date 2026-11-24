@@ -4,7 +4,7 @@
   "A": 142,
   "L": 861,
   "H": 137,
-  "M": 264
+  "M": 265
  },
  "adventure": {
   "id": "A142",
@@ -19,12 +19,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 226202,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 113
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -34,12 +35,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 145918,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 113
    },
    "lucilla": {
     "id": "lucilla",
@@ -49,12 +51,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 193279,
     "level_before": 8,
     "class": "Venturer",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 119
    },
    "cotta": {
     "id": "cotta",
@@ -64,12 +67,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 46175,
     "level_before": 6,
     "class": "Explorer",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 108
    },
    "brennus": {
     "id": "brennus",
@@ -79,12 +83,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 161668,
     "level_before": 8,
     "class": "Fighter",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 113
    },
    "neris": {
     "id": "neris",
@@ -94,12 +99,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 152036,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 108
    },
    "aelia": {
     "id": "aelia",
@@ -109,12 +115,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "aelia",
     "xp_before": 67749,
     "level_before": 7,
     "class": "Bard",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 54
    },
    "tiberius-maro": {
     "id": "tiberius-maro",
@@ -124,12 +131,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "tiberius-maro",
     "xp_before": 9605,
     "level_before": 4,
     "class": "Crusader",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 54
    },
    "phaedra": {
     "id": "phaedra",
@@ -139,12 +147,13 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "phaedra",
     "xp_before": 64516,
     "level_before": 6,
     "class": "Mage",
-    "joined_day": 611
+    "joined_day": 611,
+    "xp_award": 54
    }
   },
   "monsters": [
@@ -191,11 +200,146 @@
      ],
      "text": "the fight with 31 Troglodyte, Great Teacher (SOTN), encounter enc474, round 5"
     }
+   },
+   {
+    "id": "M265",
+    "monster": "Skeleton",
+    "source": "Skeleton (MM p. 280)",
+    "number": 7,
+    "how": "killed",
+    "xp_each": 13,
+    "fight": {
+     "ids": [
+      "skeleton1",
+      "skeleton2",
+      "skeleton3",
+      "skeleton4",
+      "skeleton5",
+      "skeleton6",
+      "skeleton7"
+     ],
+     "text": "the fight with 7 Skeleton, encounter enc476, round 1"
+    }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
+  "status": "paid",
+  "payout": {
+   "day": 611,
+   "at": null,
+   "total": 811.0,
+   "per_share": 108.13333333333334,
+   "awards": {
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 108,
+     "pct": 5,
+     "pen": 0,
+     "award": 113,
+     "xp_before": 226202,
+     "xp_after": 226315,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 108,
+     "pct": 5,
+     "pen": 0,
+     "award": 113,
+     "xp_before": 145918,
+     "xp_after": 146031,
+     "capped": null,
+     "zero": false
+    },
+    "lucilla": {
+     "share": 1.0,
+     "why": null,
+     "base": 108,
+     "pct": 10,
+     "pen": 0,
+     "award": 119,
+     "xp_before": 193279,
+     "xp_after": 193398,
+     "capped": null,
+     "zero": false
+    },
+    "cotta": {
+     "share": 1.0,
+     "why": null,
+     "base": 108,
+     "pct": 0,
+     "pen": 0,
+     "award": 108,
+     "xp_before": 46175,
+     "xp_after": 46283,
+     "capped": null,
+     "zero": false
+    },
+    "brennus": {
+     "share": 1.0,
+     "why": null,
+     "base": 108,
+     "pct": 5,
+     "pen": 0,
+     "award": 113,
+     "xp_before": 161668,
+     "xp_after": 161781,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 108,
+     "pct": 0,
+     "pen": 0,
+     "award": 108,
+     "xp_before": 152036,
+     "xp_after": 152144,
+     "capped": null,
+     "zero": false
+    },
+    "aelia": {
+     "share": 0.5,
+     "why": null,
+     "base": 54,
+     "pct": 0,
+     "pen": 0,
+     "award": 54,
+     "xp_before": 67749,
+     "xp_after": 67803,
+     "capped": null,
+     "zero": false
+    },
+    "tiberius-maro": {
+     "share": 0.5,
+     "why": null,
+     "base": 54,
+     "pct": 0,
+     "pen": 0,
+     "award": 54,
+     "xp_before": 9605,
+     "xp_after": 9659,
+     "capped": null,
+     "zero": false
+    },
+    "phaedra": {
+     "share": 0.5,
+     "why": null,
+     "base": 54,
+     "pct": 0,
+     "pen": 0,
+     "award": 54,
+     "xp_before": 64516,
+     "xp_after": 64570,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
   "events": []
  },
  "closed": [
