@@ -4610,3 +4610,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 574 |  | treasure share |  | 666gp 6sp 7cp |  | aelia |
 | 574 |  | treasure share |  | 666gp 6sp 7cp |  | phaedra |
 | 574 |  | treasure share |  | 666gp 6sp 7cp |  | tiberius-maro |
+| 576 | the retinue | wages paid |  |  | 800gp | vettius |

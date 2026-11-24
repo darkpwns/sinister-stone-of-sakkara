@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: fall
-    day: 575
-  time: 06:34
+    day: 577
+  time: '18:16'
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind moderate
   place: Cyfaraun
   hex: '18.05'
@@ -19,7 +19,7 @@ public:
   - name: Lucilla
     sheet: Characters/lucilla.json
     role: pc
-    hp: 42
+    hp: 34
     hp_max: 42
     conditions:
     - minor scarring (fang mark on the hand)
@@ -31,11 +31,11 @@ public:
   - name: Vettius
     sheet: Characters/vettius.json
     role: pc
-    hp: 32
+    hp: 30
     hp_max: 32
     conditions: []
     spells_used: []
-    encumbrance_st: 14.833
+    encumbrance_st: 14.666
   - name: Vestus the Unlikely
     sheet: Characters/vestus-the-unlikely.json
     role: pc
@@ -52,14 +52,12 @@ public:
     conditions:
     - 'a vision of terrible import (Tampering with Mortality, day 246): the beetle-faced teacher asleep in the cold below the black river'
     - 'a priestess of Calefa, the Lady of Fortune, protector of the dead (her prayers answered by Calefa since the new moon of day 342; revealed in dreams, days 443-447; received by the Grey Sisters, day 448): Calefa''s strictures (Rulings S24)'
-    spells_used:
-    - Cure Light Injury
-    - Cure Light Injury
+    spells_used: []
     encumbrance_st: 6.46
   - name: Brennus
     sheet: Characters/brennus.json
     role: pc
-    hp: 35
+    hp: 34
     hp_max: 35
     conditions:
     - nose flattened, cheek crushed, ear cauliflowered (gruesome scarring)
@@ -86,11 +84,11 @@ public:
   - name: Cotta
     sheet: Characters/cotta.json
     role: pc
-    hp: 19
+    hp: 15
     hp_max: 19
     conditions: []
     spells_used: []
-    encumbrance_st: 8.457
+    encumbrance_st: 7.457
   - name: Tiberius Maro
     sheet: Characters/tiberius-maro.json
     role: henchman
@@ -100,7 +98,7 @@ public:
     spells_used: []
     encumbrance_st: 11.685
   light: torch (ottar) out; torch (ottar) out; torch (ottar) out; torch (Aelia) out; torch (ottar) out; torch (marcellus) out; torch (Phaedra) out; torch (Phaedra) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; torch (Phaedra) out; torch (Aelia) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Phaedra) out; torch (Phaedra) out; torch (Phaedra) out; torch (hrodvar) out; torch (Aelia) out; torch (marcellus) out; torch (Aelia) out; torch (Aelia) out; torch (marcellus) out; torch (Lucilla) out; torch (Aelia) out; torch (Lucilla) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (marcellus) out; torch (varro) out; torch (Lucilla) out; torch (Aelia)
-    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out
+    out; lantern (Vettius) out; torch (marcellus) out; torch (Aelia) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Lucilla) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; torch (Brennus) out; lantern (Vettius) out; torch (Aelia) out; torch (Aelia) out; torch (Aelia) out; lantern (Vettius) out; torch (Brennus) out; lantern (Vettius) out; torch (Vettius) out; lantern (Vettius) out; lantern (Vettius) out; torch (Aelia) out; lantern (Vettius) out
   rations: 'Vettius: food 7 d, water 3 d; Vestus the Unlikely: food 7 d, water 2.8 d; Lucilla: food 7 d, water 3 d; Cotta: food 7 d, water 2.8 d; Brennus: food 7 d, water 3.4 d; Neris: food 7 d, water 3.2 d; Aelia: food 7 d, water 3 d; Tiberius Maro: food 7 d, water 3 d; Phaedra: food 7 d, water 3 d; Horse, Light Riding: fodder 0 st, water 0 st; Donkey, Draft: fodder 0 st, water 0 st; Mule, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads:
@@ -135,7 +133,7 @@ public:
   - '18.05'
   - '17.06'
   - '18.05'
-clock_day: 575
+clock_day: 577
 ---
 # Campaign State
 

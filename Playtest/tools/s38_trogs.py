@@ -1,4 +1,4 @@
-"""S38 I7 troglodyte driver: steps round-next; a troglodyte makes its 3 attacks (claw, claw, bite) on an engaged party
+"""S38 I7 troglodyte driver (S39: NATT per monster prefix via env S39_NATT, e.g. "ape:2"; BREEDER fix only for trogb): steps round-next; a troglodyte makes its 3 attacks (claw, claw, bite) on an engaged party
 member (or the nearest standing one it is engaged with); a breeder's damage is 1d2 (SOTN I/J note), the engine's 1d4
 re-read as ceil(d4/2) and the hp set back by hand. Stops (exit 3) at a party member's count, a fallen party member,
 the last foe down, or a JUDGE line; exit 0 at round-end."""
@@ -18,7 +18,10 @@ PENDING = sys.argv[1:]
 def act(pid):
     c, cb = cs()
     if not up(cb[pid]): return
-    for n in range(3):
+    natt = 3
+    for spec in os.environ.get("S39_NATT", "").split(","):
+        if ":" in spec and pid.startswith(spec.split(":")[0]): natt = int(spec.split(":")[1])
+    for n in range(natt):
         c, cb = cs()
         tg = [t for t in engaged_with(c, pid) if up(cb[t]) and cb[t]["side"] == "party"]
         if not tg: print("no engaged target for", pid); return
