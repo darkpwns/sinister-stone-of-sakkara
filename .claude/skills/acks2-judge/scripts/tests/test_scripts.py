@@ -103,6 +103,9 @@ def test_batch_runs_in_order_and_stops_at_a_refusal(camp):
 
 def test_schedule_is_named_by_the_clock(camp):
     need(camp, "Campaign/schedule.yaml", "order-roll")
+    lp = os.path.join(camp, "Campaign", "schedule-log.jsonl")
+    if os.path.exists(lp):
+        os.remove(lp)                      # the campaign's own record has run day 480 long since: a fresh record
     code, out = sh(camp, "schedule", "due", "--day", "480")
     assert "DUE order-roll" in out and "DUE month-end" in out
     code, out = sh(camp, "schedule", "check")
