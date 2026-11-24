@@ -2,7 +2,7 @@
 type: session
 session: 35
 date_real: 2026-11-23
-date_game: summer day 523-540
+date_game: summer day 523 - fall day 555
 location: Cyfaraun
 tags:
   - sakkara/session
@@ -36,6 +36,19 @@ Iulia stood; Neris petitions Arëtar for the regalia; Vestus' contract on Marius
   hierophant's tomb. Two grave ghouls in the alchemists' hall fled from Tiberius' first prayer. Sold for 17,795gp.
 - Days 536-540. A last errand for Vettius: the apprentice Faustus Cerco, killed asleep in his room in the Scribes'
   Row. Tiberius made his report to the Patriarch. Month 18 ended.
+- Day 540. Patriarch Arëtar prayed over Hrodvar and Phaedra: Hrodvar's belly is whole (he says the gods shook him);
+  Phaedra's foot grew back, with a lidded third eye; she lay abed two weeks.
+- Days 540-555, downtime. Vestus scribed a scroll of Fireball in the Tower's workshop; his scroll of Dispel Magic came
+  to nothing. Neris' scroll of Death Ward failed in the Grey Sisters' scriptorium. Hrodvar's first set of iron
+  tomb-jacks cracked in the smith's yard; the second holds, for lifting slabs and coffin lids. Lucilla sold the
+  golden-skull shrine and heard the city's talk: a wine merchant's bravos were watching the Citadel; Brennus, Tiberius
+  and Hrodvar faced them, they named the merchant and left the city; the Patriarch dealt with it quietly.
+- Day 547. The dark crystal came back from the Tower: a soul gem of the old elven necromancers, full of divine
+  power, an elven soul inside. Vestus spoke with the soul, Caogan, an old rival of the hierophant: the reliquary's
+  vault opens by the right-hand lever in the hidden room, never by spells; its glass cases open to a thought or break,
+  and either wakes the sleeping Teacher; he sleeps behind the coiled serpents in the vestibule, down the beetle stair,
+  in cold glass. Neris promised to free Caogan when the gem's power is spent.
+- Day 545. Eight new thieves came to Vettius' Pony.
 
 ## Who they met
 - Tiberius Maro (day 528): tall, sinewy, sun-darkened, bearded; few words. "The light does not ask where you slept.
@@ -49,6 +62,7 @@ Iulia stood; Neris petitions Arëtar for the regalia; Vestus' contract on Marius
 - A122-A124, A127 (Order commissions): 500, 500, 2,000 and 500gp.
 - A126 (descent 77): 17,795 XP over 8 shares.
 - Vettius: 7,747 XP from the syndicate's take (month 18).
+- The golden-skull shrine sold for 2,100gp (to descent 75's shares).
 
 ## Rumours given
 - The Imperial Vanguard came back about day 532, a man short (the Family's ears).
@@ -60,7 +74,7 @@ Iulia stood; Neris petitions Arëtar for the regalia; Vestus' contract on Marius
 - A wine merchant has asked for the Captain's death; the Order has his name.
 
 ## Next time
-Day 540, the Citadel. Ten in the company. The selling day of month 19; the crystal back from the Tower on day 547; the
+Day 555, dawn, the Citadel. Ten in the company, at full strength and provisioned. The selling day of month 19; the crystal back from the Tower on day 547; the
 Order on day 543. Below: the sealed cases (F17), the throne (J8), the shaman's platform (L4).
 
 > [!judge]- Judge rolls
@@ -74,4 +88,5 @@ Order on day 543. Below: the sealed cases (F17), the throne (J8), the shaman's p
 > Day 535 (A126): obedience Tiberius 7; wandering 5,5,2,2,2,5,2,3,4,2,5,6 (grave ghouls x2),3,5,5,5; ghouls surprised 2.
 > Day 536 Order: Vettius 4 (Faustus Cerco); calls 4, 6, 6. Night 538: follower 4, wakes 2, body 4 (found), commission 2.
 > Day 540 weekly: Brotherhood 1 (merchant vs rival, Codex), wharf 3, #3 6, #4 3, Watch 2 (+4, 2), link 3, hesitant 1 (turned), spies 1 (27), secret 3. Month end: investments 67, 20; Arëtar's task 5.
-> NPC voices: Tiberius Maro, Ammia Thrax, Decimus Ruga, Faustus Cerco (above); Marius Corvo (S34).
+> Downtime: Repair (Arëtar) Hrodvar 27, Phaedra 12; Tower crowding 3, 2; scrolls 14 (Fireball, success), 8 (Dispel Magic, fail); Neris' Death Ward 3 (fail); jacks 1 (fail), 15 (success); rumours 1d4 3 (table spent: city talk 1, 4, 2); bravos 13; Arëtar 6; Order 543 and 550 none; infiltrator 1d8 1, report 4; weekly 547: 2, 6, 3/6, 2 (+2), 2, 5, spies 2, secret 2, turncoat 2; weekly 554: 2, 4, 5/2, 4, 6, hesitant 1, spies 3, secret 5, turncoat 6, Pullus marked 1 (5; passed 4; choice 13).
+> NPC voices: Caogan (proud, bitter, clipped, scornful); Tiberius Maro, Ammia Thrax, Decimus Ruga, Faustus Cerco (above); Marius Corvo (S34).

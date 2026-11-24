@@ -261,3 +261,12 @@ lessons:
   where: ['party.conditions ~ (lost|ruined|mangled|crippled|destroyed|shattered|blinded)[^;\"\]]{0,60}\(Mortal Wounds|Mortal Wounds, day [0-9]+\): [^;\"\]]{0,60}(lost|ruined|mangled|crippled|destroyed|shattered|blinded)', "location.site ~ Cyfaraun"]
   text: "a party member carries a disabling lasting wound (Mortal Wounds) while in Cyfaraun: offer Repair Disfigurement and Disability (Arëtar, 185gp, Rulings S12) or record why not; a henchman with his own coin seeks it himself (Judge plays his wishes)"
   source: "S35 slip: Hrodvar's (day 499) and Phaedra's (day 517) wounds left untreated until the user asked, day 540"
+
+- id: tomb-jacks
+  category: standing-modifier
+  status: remind
+  since: S35
+  on: ["explore force-door"]
+  with: [--door-kind]
+  text: "Hrodvar's tomb-jacks (Rulings S35): on a slab, lid or stone door that lifts or slides, a turn to set them gives the heaver +2 (Hrodvar, or another with Engineering) or +1 (another under his instruction): `--mod \"Hrodvar's tomb-jacks:+2\"` and `turn 1` for the setting; not on hinged doors"
+  source: "Rulings S35 (Hrodvar's tomb-jacks, built day 554)"

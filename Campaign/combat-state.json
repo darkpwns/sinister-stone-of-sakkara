@@ -10,13 +10,13 @@
   ]
  },
  "combatants": {
-  "neris": {
-   "id": "neris",
+  "vestus-the-unlikely": {
+   "id": "vestus-the-unlikely",
    "side": "party",
    "status": "active",
    "conditions": [],
-   "group": "neris",
-   "perceived": "neris",
+   "group": "vestus-the-unlikely",
+   "perceived": "vestus-the-unlikely",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
@@ -26,28 +26,16 @@
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
-   "name": "Neris",
+   "name": "Vestus the Unlikely",
    "stats": {
-    "name": "Neris",
-    "actor": "neris",
+    "name": "Vestus the Unlikely",
+    "actor": "vestus-the-unlikely",
     "kind": "pc",
-    "level": 8,
-    "class": "Priestess",
+    "level": 7,
+    "class": "Mage",
     "size": "man-sized",
     "mods": {
      "STR": [
-      -2,
-      {
-       "table": "attribute-modifiers",
-       "title": "Attribute Modifiers",
-       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
-       "block": "^tbl-attribute-modifiers",
-       "book": "RR",
-       "page": "p. 14",
-       "row": 1
-      }
-     ],
-     "INT": [
       -1,
       {
        "table": "attribute-modifiers",
@@ -57,6 +45,18 @@
        "book": "RR",
        "page": "p. 14",
        "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
       }
      ],
      "WIL": [
@@ -96,7 +96,7 @@
       }
      ],
      "CHA": [
-      0,
+      -1,
       {
        "table": "attribute-modifiers",
        "title": "Attribute Modifiers",
@@ -104,177 +104,110 @@
        "block": "^tbl-attribute-modifiers",
        "book": "RR",
        "page": "p. 14",
-       "row": 3
+       "row": 2
       }
      ]
     },
     "attack_throw": [
      8,
      {
-      "table": "priestess-attack-throws",
-      "title": "Priestess (Mage) Attack Throws",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "block": "^tbl-priestess-attack-throws",
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 65",
+      "page": "p. 35",
       "row": 2
      }
     ],
     "saves": [
      {
-      "paralysis": 9,
-      "death": 6,
-      "blast": 12,
+      "paralysis": 11,
+      "death": 11,
+      "blast": 13,
       "implements": 9,
-      "spells": 11
+      "spells": 10
      },
      {
-      "table": "priestess-saving-throws",
-      "title": "Priestess (Crusader) Saving Throws",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
-      "block": "^tbl-priestess-saving-throws",
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
       "book": "RR",
-      "page": "p. 65",
-      "row": 3
+      "page": "p. 35",
+      "row": 2
      }
     ],
     "hit_die": [
      "1d4",
      {
-      "rule": "class.priestess.hit_die",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
       "book": "RR",
-      "page": "p. 64"
+      "page": "p. 34"
      }
     ],
     "progression": "mage",
     "cleaves": [
      0,
      {
-      "rule": "class.priestess.cleave",
-      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
       "book": "RR",
-      "page": "p. 64"
+      "page": "p. 34"
      }
     ],
-    "save_refs": {
-     "paralysis": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "death": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "blast": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "implements": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     },
-     "spells": {
-      "modifier": "lot L468 (Ring of Protection +1) -1",
-      "cause": "Ring of Protection +1: +1 to all saving throws (TT p. 83)",
-      "rules": {
-       "table": "priestess-saving-throws",
-       "title": "Priestess (Crusader) Saving Throws",
-       "note": "ACKS II Rules/03 Classes/Priestess.md",
-       "block": "^tbl-priestess-saving-throws",
-       "book": "RR",
-       "page": "p. 65",
-       "row": 3
-      }
-     }
-    },
     "ac_options": {
-     "shield": 2,
-     "no_shield": 2,
+     "shield": 1,
+     "no_shield": 1,
      "dex_only": 1
     },
-    "hp_max": 21,
+    "hp_max": 18,
     "movement_running": 90,
     "weapons": [
      {
-      "name": "Staff",
+      "name": "Dagger",
       "init_bonus": "",
-      "attack_throw": 10,
-      "damage": "1d4/1d6-2",
+      "attack_throw": 9,
+      "damage": "1d4-1",
       "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
+       "short": 15,
+       "medium": 30,
+       "long": 45
       },
-      "held": "belt"
+      "held": "right hand"
      }
     ],
     "save_mods_text": {},
-    "initiative_sheet": 1,
+    "initiative_sheet": null,
     "proficiencies": [
-     "Laying on Hands",
-     "Divine Blessing",
-     "Healing 2",
-     "Healing",
-     "Knowledge (astrology)"
+     "Loremastery",
+     "Magical Engineering",
+     "Mapping",
+     "Language (Ancient Argollëan)",
+     "Swimming"
     ],
     "proficiency_throws": {},
     "prof_throw_list": {
-     "laying on hands": "",
-     "divine blessing": "",
-     "healing 2": "",
-     "healing": "",
-     "knowledge (astrology)": ""
+     "loremastery": "",
+     "magical engineering": "",
+     "mapping": "",
+     "language (ancient argollëan)": "",
+     "swimming": ""
     },
     "ac_mode": "shield"
    },
-   "actor": "neris",
-   "hp_max": 21,
-   "hp": 21,
-   "hp_start": 21
+   "actor": "vestus-the-unlikely",
+   "hp_max": 18,
+   "hp": 18,
+   "hp_start": 18
   }
  },
  "groups": {
-  "neris": {
+  "vestus-the-unlikely": {
    "side": "party",
    "members": [
-    "neris"
+    "vestus-the-unlikely"
    ],
    "morale": {
     "state": "steady",

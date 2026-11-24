@@ -4454,3 +4454,18 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 547 | a smith of the Bridge District | iron and smith's work, tomb-jacks, second try (Rulings S35) |  |  | 150gp | hrodvar |
 | 550 | the retinue | wages paid |  |  | 800gp | vettius |
 | 553 | the retinue | wages paid |  |  | 800gp | vettius |
+| 555 | the Tower's apothecary | special components, miscellaneous, the component cost of a scroll of Dispel Magic, paid at the end |  |  | 1,500gp | vestus-the-unlikely |
+| 555 | the retinue | wages paid |  |  | 150gp | vettius |
+| 555 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | lucilla |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | vettius |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | brennus |
+| 555 | Cyfaraun | Sack, Small (holds 2 stone) | 1 |  | 2sp 7cp | vestus-the-unlikely |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | vestus-the-unlikely |
+| 555 | Cyfaraun | Sack, Small (holds 2 stone) | 1 |  | 2sp 7cp | neris |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | neris |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | cotta |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | aelia |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | phaedra |
+| 555 | Cyfaraun | Sack, Small (holds 2 stone) | 1 |  | 2sp 7cp | hrodvar |
+| 555 | Cyfaraun | Rations, Iron (one week) | 1 |  | 3gp 6sp | hrodvar |
