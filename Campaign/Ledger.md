@@ -5244,6 +5244,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 636 | the retinue | wages paid |  |  | 25gp | lucilla |
 | 636 | ennia-ursa | signing bonus, a month's wage |  |  | 25gp | lucilla |
 | 636 | Cyfaraun glass-blowers, joiners, smiths and instrument-makers | Vestus' personal workshop, 36,000gp (Rulings S47), from the company's purse |  |  | 36,000gp | guildhouse-bank |
+| 636 | Cyfaraun | bought in Cyfaraun |  |  | 75gp | lucilla |
+| 636 | Cyfaraun | Rations, Iron (one week) | 1 |  | 6gp | lucilla |
+| 636 | an alchemist of the Plaza District | 10 metamphora (60gp each), 5gp apiece (MM p. 372) |  |  | 50gp | lucilla |
+| 636 | Cyfaraun | Saddle and Tack, Riding | 1 |  | 10gp | lucilla |
+| 638 | the retinue | wages paid |  |  | 800gp | vettius |
+| 638 | the retinue | wages paid |  |  | 400gp | vettius |
+| 650 | Plaza District vellum-makers and ink-grinders (silver-ground inks, spider-silk vellum) | material cost, scroll of Webbing no. 1 (Rulings S47; RR Creating Magic Items) |  |  | 1,000gp | vestus-the-unlikely |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and

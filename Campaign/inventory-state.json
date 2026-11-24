@@ -591,6 +591,15 @@
    "name": "Vestus' workshop (the Silk Pony's back house)",
    "actor": null,
    "status": "active"
+  },
+  "ennia-horse": {
+   "kind": "animal",
+   "name": "Horse, Light Riding",
+   "actor": null,
+   "status": "active",
+   "animal": "Horse, Light Riding",
+   "note": "bought in Cyfaraun by lucilla",
+   "owner": "lucilla"
   }
  },
  "custom": {
@@ -815,6 +824,15 @@
    "items_each": 0,
    "stone_each": "360",
    "value_cp": 3600000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "metamphora (60gp)": {
+   "name": "Metamphora (60gp)",
+   "items_each": 0,
+   "stone_each": "1",
+   "value_cp": 500,
    "base": null,
    "note": null,
    "judge": true
@@ -116839,6 +116857,271 @@
    "coins": [],
    "cmd": "inv add",
    "n": 5943
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -75
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 22,
+   "row": "Horse, Light Riding",
+   "packs": 1,
+   "price_cp": 7500,
+   "cmd": "inv buy",
+   "animal": "ennia-horse",
+   "n": 5944
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -6
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 22,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 600,
+   "cmd": "inv buy",
+   "n": 5945
+  },
+  {
+   "op": "pay",
+   "cause": "10 metamphora (60gp each), 5gp apiece (MM p. 372)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -50
+    }
+   ],
+   "to": "an alchemist of the Plaza District",
+   "price_cp": 5000,
+   "cmd": "inv pay",
+   "n": 5946
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Cyfaraun",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "saddle and tack, riding",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucilla",
+     "gp": -10
+    }
+   ],
+   "market": "Cyfaraun",
+   "market_class": "III",
+   "month": 22,
+   "row": "Saddle and Tack, Riding",
+   "packs": 1,
+   "price_cp": 1000,
+   "cmd": "inv buy",
+   "n": 5947
+  },
+  {
+   "op": "give",
+   "cause": "Ennia's horse",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "saddle and tack, riding",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "ennia-horse",
+     "item": "saddle and tack, riding",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5948
+  },
+  {
+   "op": "add",
+   "cause": "bought for Ennia's hunt (Rulings S47)",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "ennia-horse",
+     "item": "metamphora (60gp)",
+     "slot": "pack",
+     "qty": 10
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 5949
+  },
+  {
+   "op": "give",
+   "cause": "second week of rations for the hunt",
+   "day": 636,
+   "time": "day 636 07:50",
+   "deltas": [
+    {
+     "who": "lucilla",
+     "item": "rations, iron (one week)",
+     "slot": "sack",
+     "qty": -1
+    },
+    {
+     "who": "ennia-ursa",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 5950
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the company's purse for Phaedra's and Tiberius' wages (Rulings S46)",
+   "day": 638,
+   "time": "day 638 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1200
+    },
+    {
+     "who": "vettius",
+     "gp": 1200
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5951
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 638,
+   "time": "day 638 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -800
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 80000,
+   "cmd": "inv wages",
+   "n": 5952
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 638,
+   "time": "day 638 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vettius",
+     "gp": -400
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 40000,
+   "cmd": "inv wages",
+   "n": 5953
+  },
+  {
+   "op": "give",
+   "cause": "drawn from the purse: material cost of a scroll of Webbing (Rulings S47)",
+   "day": 650,
+   "time": "day 650 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "guildhouse-bank",
+     "gp": -1000
+    },
+    {
+     "who": "vestus-the-unlikely",
+     "gp": 1000
+    }
+   ],
+   "cmd": "inv give",
+   "n": 5954
+  },
+  {
+   "op": "pay",
+   "cause": "material cost, scroll of Webbing no. 1 (Rulings S47; RR Creating Magic Items)",
+   "day": 650,
+   "time": "day 650 07:50",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "vestus-the-unlikely",
+     "gp": -1000
+    }
+   ],
+   "to": "Plaza District vellum-makers and ink-grinders (silver-ground inks, spider-silk vellum)",
+   "price_cp": 100000,
+   "cmd": "inv pay",
+   "n": 5955
+  },
+  {
+   "op": "remove",
+   "cause": "Ennia's first hunt, days 638-651",
+   "day": 651,
+   "time": "day 651 07:50",
+   "deltas": [
+    {
+     "who": "ennia-ursa",
+     "item": "rations, iron (one week)",
+     "slot": "back",
+     "qty": -2
+    }
+   ],
+   "coins": [],
+   "why": "eaten",
+   "cmd": "inv remove",
+   "n": 5956
   }
  ],
  "holdings": {
@@ -117712,20 +117995,23 @@
     "holy water (1 pint)": 2,
     "rope, 50'": 1,
     "torch": 6
-   },
-   "back": {
-    "rations, iron (one week)": 1
    }
   },
   "vestus-workshop": {
    "here": {
     "workshop apparatus (magic research)": 1
    }
+  },
+  "ennia-horse": {
+   "pack": {
+    "saddle and tack, riding": 1,
+    "metamphora (60gp)": 10
+   }
   }
  },
  "coins": {
   "lucilla": {
-   "gp": 336,
+   "gp": 195,
    "sp": 270,
    "cp": 423
   },
@@ -117852,7 +118138,7 @@
    "sp": 5
   },
   "guildhouse-bank": {
-   "gp": 667581,
+   "gp": 665381,
    "cp": 6,
    "sp": 4
   },

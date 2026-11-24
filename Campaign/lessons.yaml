@@ -285,3 +285,12 @@ lessons:
   on: ["adventure start"]
   text: "before a descent for a site's treasure, list what was already taken there: `python3 -c` over Campaign/adventure-state.json lots by found.where (or `acks.sh adventure show`), not only World State prose (S45 took N's emptied laboratory a second time)"
   source: "judge-notes S46 day 625"
+
+- id: secret-entries-first
+  category: town-routine
+  status: refuse
+  since: S47
+  on: ["schedule run"]
+  where: ["argv ~ --due|weekly-secret"]
+  text: "the Family's week's secret is rolled on six entries written first in World State (Rulings S25): write them, then run with ACKS_ACK=secret-entries-first"
+  source: "judge-notes day 638 (S47): the schedule rolled the secret before the entries were written"
