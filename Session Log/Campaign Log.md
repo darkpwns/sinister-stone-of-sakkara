@@ -49,4 +49,4 @@ tags:
 - [[S38 — The Nuvicus Matter]]
 - [[S39 — The Week After the Throne]]
 - [[S40 — The Old Ape's Word]]
-- [[S41 — The Rook and the Magic Rock]]
+- [[S41 — The Rook]]

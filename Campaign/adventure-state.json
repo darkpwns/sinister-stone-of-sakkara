@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 138,
-  "L": 857,
+  "L": 858,
   "H": 137,
   "M": 261
  },
@@ -19,12 +19,14 @@
     "player": "Tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 213749,
     "level_before": 9,
     "class": "Thief",
-    "joined_day": 592
+    "joined_day": 592,
+    "returned_day": 593,
+    "xp_award": 357
    },
    "vestus-the-unlikely": {
     "id": "vestus-the-unlikely",
@@ -34,12 +36,14 @@
     "player": "Priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 141312,
     "level_before": 7,
     "class": "Mage",
-    "joined_day": 592
+    "joined_day": 592,
+    "returned_day": 593,
+    "xp_award": 357
    },
    "neris": {
     "id": "neris",
@@ -49,12 +53,14 @@
     "player": "Ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 146374,
     "level_before": 8,
     "class": "Priestess",
-    "joined_day": 592
+    "joined_day": 592,
+    "returned_day": 593,
+    "xp_award": 340
    }
   },
   "monsters": [
@@ -74,9 +80,56 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 593,
+   "at": "Cyfaraun",
+   "total": 1020.0,
+   "per_share": 340.0,
+   "awards": {
+    "vettius": {
+     "share": 1.0,
+     "why": null,
+     "base": 340,
+     "pct": 5,
+     "pen": 0,
+     "award": 357,
+     "xp_before": 213749,
+     "xp_after": 214106,
+     "capped": null,
+     "zero": false
+    },
+    "vestus-the-unlikely": {
+     "share": 1.0,
+     "why": null,
+     "base": 340,
+     "pct": 5,
+     "pen": 0,
+     "award": 357,
+     "xp_before": 141312,
+     "xp_after": 141669,
+     "capped": null,
+     "zero": false
+    },
+    "neris": {
+     "share": 1.0,
+     "why": null,
+     "base": 340,
+     "pct": 0,
+     "pen": 0,
+     "award": 340,
+     "xp_before": 146374,
+     "xp_after": 146714,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 593,
+   "where": "Cyfaraun"
+  }
  },
  "closed": [
   {
@@ -78430,8 +78483,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 1.0,
-   "carrier": null,
-   "status": "stored",
+   "carrier": "vettius",
+   "status": "carried",
    "found": {
     "day": 577,
     "where": "M10"
@@ -78439,23 +78492,27 @@
    "true": {
     "kind": "goods",
     "qty": 1,
-    "value_gp": 650.0,
+    "value_gp": 31000.0,
     "stone": 1.0,
-    "name": "an ash-wood spear whose butt-cap is a howling wolf",
+    "name": "the Wolf-Spear of the Hunter (SOTN p. 136)",
     "merch": null
    },
    "player": {
     "desc": "an ash-wood spear whose butt-cap is a howling wolf",
-    "value_gp": null,
+    "value_gp": 31000.0,
     "apparent_gp": null,
     "magical": false,
-    "known": []
+    "known": [
+     "the Tower's identification (paid day 581, ready day 595): the Wolf-Spear of the Hunter: a spear +2, +3 against ordinary and giant animals; three times a day it grants its wielder the Tracking proficiency (or a rank more) for an hour; cursed: a foe slain with a natural 20 throws the wielder into a berserker rage (+2 to attack throws, immune to fear, -2 AC, cannot retreat) until every enemy in sight is down; worth some 31,000gp"
+    ]
    },
    "appraised": false,
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": [],
+   "judge": [
+    "S39-S41: a goods lot (recovered as goods); identified by hand on day 595 (identify refuses goods lots: precedent L805, S35)"
+   ],
    "stored": {
     "place": "tower-of-knowledge",
     "day": 581
@@ -79461,6 +79518,39 @@
    },
    "judge": [],
    "divided_day": 583
+  },
+  "L858": {
+   "id": "L858",
+   "adventure": "A138",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "vestus-the-unlikely",
+   "status": "divided",
+   "found": {
+    "day": 593,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1000.0,
+    "stone": 0,
+    "name": "reward 1000.0gp"
+   },
+   "player": {
+    "desc": "reward of 1000.0gp",
+    "value_gp": 1000.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 593
   }
  },
  "hoards": {

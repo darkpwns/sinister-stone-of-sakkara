@@ -695,6 +695,7 @@ tags:
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 5 wyvern horns | 400 | sold |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 5 wyvern horns | 400 | sold |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | 4 wyvern horns | 320 | sold |
+| 593 | Order contract: Theron Askalaios (Vestus) | reward 1000.0gp | 1,000 | vestus-the-unlikely |
 
 ## Monster XP
 
@@ -897,6 +898,7 @@ tags:
 | 578 | Descent 81 (the white apes' caves, M) | Giant Fly | 3 | 29 | 87 |
 | 581 | Order contract: Gnaeus Sabucius (Vestus) | Gnaeus Sabucius | 1 | 10 | 10 |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Gelatinous Mass | 1 | 245 | 245 |
+| 593 | Order contract: Theron Askalaios (Vestus) | Theron Askalaios | 1 | 20 | 20 |
 
 ## Shares and XP awarded
 
@@ -1819,6 +1821,9 @@ tags:
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Cotta | 1 | 389 | 35 | 0 | +0% | 424 |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Aelia | 0.5 | 194 | 18 | 0 | +0% | 212 |
 | 583 | Descent 83 (the horns of Nargund's vault; the old ape) | Tiberius Maro | 0.5 | 194 | 18 | 0 | +0% | 212 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 593 | Order contract: Theron Askalaios (Vestus) | Vettius | 1 | 333 | 7 | 0 | +5% | 357 |
+| 593 | Order contract: Theron Askalaios (Vestus) | Vestus the Unlikely | 1 | 333 | 7 | 0 | +5% | 357 |
+| 593 | Order contract: Theron Askalaios (Vestus) | Neris | 1 | 333 | 7 | 0 | +0% | 340 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -4708,3 +4713,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 588 | Tertulla | the black barge's mooring, a fortnight ahead (to day 601) |  |  | 4gp | lucilla |
 | 588 | the retinue | wages paid |  |  | 200gp | vettius |
 | 592 | the Order of the Eclipse (Destrio) | blood-price for Spurius Calvus, a Family man (Mage 4), Neris' assignment of day 592 (Rulings S25, S28) |  |  | 2,000gp | vettius |
+| 593 |  | treasure share |  | 333gp 3sp 3cp |  | vettius |
+| 593 |  | treasure share |  | 333gp 3sp 3cp |  | vestus-the-unlikely |
+| 593 |  | treasure share |  | 333gp 3sp 3cp |  | neris |
+| 594 | the retinue | wages paid |  |  | 1,600gp | lucilla |
+| 594 | the Grey Sisters | vault fee, days 593-622 (Rulings S11), paid day 594 (a day late) |  |  | 10gp | lucilla |
