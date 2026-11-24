@@ -5404,6 +5404,15 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 720 | the Merchant Guildhouse | storage fee 0.25% of the company's purse (667,971gp), month 24 (day 720; Rulings S16, S46) |  |  | 1,670gp | guildhouse-bank |
 | 720 | the Family (Thana) | the Family's take, month 24: the syndicate 16,083 (16,508 less the defected lieutenant's 4th-level share 425) and the Pony's half 1,624 (Rulings S19, S22, S25) |  | 17,707gp |  | vettius |
 | 720 | the front's houses, The Mink, the venture company and investments | Lucilla's income, month 24 (Rulings S19) 4,250gp; investment 1: 81, Return +200% (21gp); investment 3: 66, Return +50% (45gp) (RR p. 384) |  | 4,316gp |  | lucilla |
+| 721 | the Silk Pony (Thana) | stalls for eleven animals, days 691-721 (2sp a stall a night) |  |  | 66gp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
+| 721 | Cyfaraun | Rations, Iron (one week) | 2 |  | 10gp 8sp | lucilla |
 
 ## The company purse (pooled day 624, Rulings S46)
 Each member's Guildhouse balance as it stood when the company pooled its wealth (play.py bank-balances; the dead and
