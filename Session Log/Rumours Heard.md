@@ -13,3 +13,5 @@ type: rumours
 - Day 50, Türos Aster: Legate Nicus Balens (Indifferent) repeated his standing offer: whoever clears the bugbear tribe out of the Ruined Imperial Fortress across the ford (26.19) is raised to patrician (baron) with a claim to the stronghold.
 - Day 52, Türos Tem: the legate (Friendly, to Faustina): Southern Argollë has grown far more dangerous since the Tarkaun stripped the garrisons for his wars in the west.
 - Day 52, Türos Tem: the legate (Friendly, to Faustina): the Black Fang and Red Eye gnolls are the toughest of the beastman warbands hereabouts.
+- Day 87, the Catacombs (L2 9): Ur-Shet of the Black Fangs (Friendly): the Lady never leaves her inner fane; black-robed priests at the fane east of the stair test visitors; the Red Eyes tend her breeding pool by their cavern; the dead guard her doors; the stinking ones stalk the tunnels and hate her; the red water changes those who drink it.
+- Day 88, the Buried Temple (L1 20): drinking brigands (Friendly): Drusus lost a patrol down the spiral stair weeks ago, when the dead came up it.

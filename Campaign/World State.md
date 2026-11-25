@@ -49,11 +49,22 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Days 73-86 (Judge's rolls): two more orc raids on the hobgoblins, both repulsed: 6 hobgoblins and 3 orcs dead; the hobgoblins now Thethamun (healed), Shulgi and 4 warriors. Abgal has not returned. Day 86: the company sheltered a night in 60 (8 stirges in 56 beyond the barred doors). Thethamun (Friendly, helpful) told of level 2: Red Eyes at the wyrm's stair and the breeding pools, the exiled Black Fangs in the west caves (beaten by two ogres), priests at a fane east, the dead at the Lady's door.
 - Day 87: the toll orcs of 26 turned Friendly; **Apsa** (Friendly, helpful) took 100gp to leave the hobgoblins alone for the rest of spring (to day 120), waived the company's toll, and hinted that the Black Fangs below would pay to see the Red Eyes humbled.
+- Days 87-88 (S13): Marius and the donkeys kept a night in 27 with the toll orcs (the cask of wine); skins filled at the pool (24). Idimmu awake, paid 800gp for eight (each descent pays). Long Hall: four drinking brigands (Friendly). Crossroads: an orc band (Indifferent).
+
+### [[Level 2 - Catacombs]] (entered day 87)
+- 1 Catacomb Entrance: the three Red Eye guards of 10 came out (they know the company as the hobgoblins' Lawful friends): Neutral for a week's bribe (10gp, to day 94); one ran to tell Hepsis (15), who waits.
+- Hewn room through the pillars, 8: the Black Fang guards and Ulmash **Friendly** (seven days of iron rations as a gift).
+- 9 Black Fang cavern: **Ur-Shet Friendly** (partners against the ogres, then the Red Eyes); the seep at the back (tainted) purified by Faustina for the company's skins. The chest in the cave's southern tip not found.
+- 5 Failed Assault: passed; five L1 orcs raiding the Black Fangs met there (Neutral; they backed off). Two hobgoblin deserters (Indifferent) at 8's mouth.
+- **7 Ogre Den: both ogres killed** (day 87) by the Black Fangs with the company; the 600gp bag to Ur-Shet, the 400gp bag, the sword +1 (to Galerius) and the knucklebones (180gp) to the company. **No wandering encounters in the den** (module). Black Fangs now: Ur-Shet 20, Ulmash 16, six gnolls (three cured to full on day 88).
+
 
 ## Events triggered
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 94 | a brigand host (about 37, eight gangs) on the road in 22.20, two miles from Türos Tem; the company slipped away unseen | 22.20 | not reported to the fort |
+| 87 | the two ogres of L2 7 killed by the Black Fangs with the company; their den held | Catacombs L2 7 | the Black Fangs Friendly; Ur-Shet's 600gp; the den a safe rest |
 | 87 | a truce bought between the orcs and the hobgoblins (Apsa, 100gp; to day 120) | Buried Temple L1 27 | the hobgoblins keep the wing; the company's toll waived |
 | 82-86 | to the temple (bombardier beetles' nest skirted, 21.20; dire wolves at night, Indifferent; lost a day in 21.19; the module's stirges skirted, 20.19); a ruined castle seen in 22.20 | 22.20-19.19 | — |
 | 74 | the merchants delivered: Karanos paid 500gp and is **Friendly** (fees 3%; offered three shipping contracts, declined); payout A6 (505 XP) | Türos Tem | — |
@@ -86,6 +97,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
+- Catacombs (day 88): **Ur-Shet and the Black Fangs Friendly** (fought beside the company; three of them saved by its healers); the Red Eye guards of 10 Neutral (bribed to day 94; they know the company); **Hepsis** told of the company (waits); Idimmu Friendly (100 a head each descent); the toll orcs and the Long Hall brigands Friendly.
 - Buried Temple (day 87): **Apsa Friendly** (the truce; the company's toll waived); the toll orcs of 26 Friendly; Thethamun Friendly (helpful).
 - Türos Tem (day 74): **Guildmaster Karanos Friendly** (his merchants returned); the **innkeeper Friendly** (the Brethren's bill paid); Daros Thenes and Odysios Panas grateful; Vestus (gone to seek work), Thorwell and Thorcigar (gone home with the merchants).
 - Buried Temple (day 72): **Idimmu Friendly** (Faustina; sold the prisoners); Thethamun and Shulgi Friendly (told of the prisoners); kobold bands Indifferent/Neutral; goblins Neutral.
@@ -108,10 +120,12 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Day 90 (S13): month 3's end.** schedule: ; training: C21 K16 (hrodric): next trick 2 day 104; C22 K17 (hrodric): next trick 2 day 104; C23 K18 (hrodric): next trick 2 day 104; C24 K19 (severina): next trick 2 day 94; C25 K20 (severina): next trick 2 day 94
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
-- **In the temple (day 87 06:07, L1 27):** adventure A7 open (9 members). Next: Idimmu (Friendly) and the stair to level 2 (100gp a head: 900gp; purse 1,134gp), the Black Fangs (west caves, +2 peaceful; Ur-Shet partners against the ogres or the Red Eyes). Hrodric's courses paused from day 82; Severina's run (next trick day 94).
+- **On the road (day 95 dawn, camp in 21.20, mud):** adventure A8 open (ten: Severina back). To the temple (about 1.5 days in the mud); Marius and the donkeys with the toll orcs again; Idimmu's toll 900gp for nine; the Black Fangs: Ur-Shet means to strike the Red Eyes next (10 at the stair foot: three; 15 with Hepsis: four and the loot pile; the abomination of the pool in 16). The Red Eyes know the company; Hepsis waits unless provoked (roll again when the company is next seen with the Black Fangs: the Red Eyes attack on sight). The Black Fangs' chest (9, southern tip) unfound. Courses paused from day 94 (Severina, trick 3 due day 109 + days paused) and day 95 (Hrodric, trick 2 due day 104 + days paused).
+- The brigand host in 22.20 (day 94, 37): Antonius' or Drusus' men? Judge: decide before the company next passes (a hidden 1d6: 1-3 Antonius' Viaspen brigands moving camp, 4-6 a free company come to raid the farms).
 - The orcs' truce lasts to day 120; after that the weekly raid rolls resume (1-2 a week).
 - **Table rule (S12):** no travel off the Türos Tem-temple corridor until the Buried Temple is complete: the Shrine of the White Lady and the arch wait.
 - **The Shrine of the White Lady (23.16)** is the party's next goal (a pilgrimage, Faustina leading, once the ground dries): **UNPREPPED**: build it with `unprepped-sites.md` before arrival (AX1 seed: the unicorn, 20 hp; the pool: removes one Tampering side effect from a Lawful drinker once a lifetime and lays a geas to destroy Chaotic creatures in Southern Argollë). Route: 22.20, 22.19 (Corvus familiar), 23.18 (?), 23.17, 23.16 or by the river; mud while it is wet (weather rolled to day 80: wet).

@@ -336,3 +336,8 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 89 | Turos Tem | Oil, Common (1 pint) | 4 |  | 1gp 2sp | faustina |
 | 89 | Turos Tem | Metamphora (60gp) | 3 |  | 15gp | faustina |
 | 89 | Turos Tem | torch | 12 |  | 2sp | faustina |
+| 91 | Turos Tem | Metamphora (60gp) | 3 |  | 15gp | faustina |
+| 94 | Traveler's Inn | nights of days 82-93 (Severina), 89-93 (the company of nine, meals), two donkeys |  |  | 34gp | faustina |
+| 94 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 90-96 |  |  | 2gp 5sp | faustina |
+| 94 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 94 | the retinue | wages paid |  |  | 12gp | faustina |
