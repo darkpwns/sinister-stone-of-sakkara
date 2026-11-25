@@ -16,3 +16,6 @@ not touched.
   decision points only (cost).
 - Playtest record: `Playtest/REPORT.md` (per delve), `Playtest/judge-notes.txt` (voids, slips, corrections, findings), `Playtest/HANDOFF.md` (where play stands, how to resume), `Playtest/tools/` (fight and travel helpers).
 - Commit and push after every save (`save.sh`).
+- Attach only this repo, `darkpwns/acks2-tools` and `darkpwns/acks2-rules-vault` for play. `darkpwns/kardakia-campaign`
+  is attached only to sync the skill copy: when it is cloned in the session its CLAUDE.md (about 4k tokens) is loaded
+  with every call and none of it applies here.

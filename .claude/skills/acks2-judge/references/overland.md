@@ -30,7 +30,11 @@ supplies, the party's Evasion throw, hp healed and CON lost.
 - **Before every departure:** `python3 $S/play.py depart --route A,B,… --return-day N [--resupply]` (the checklist:
   wages through the return plus a month, food and water provisioned per member, waterskins, feed per animal,
   metamphora, the column's speed and who sets it, light, spells, schedule items on the road). Leave only on READY;
-  fix each FAIL line with the command it names.
+  fix each FAIL line with the command it names. With `party.downtime_required` (a table rule), `depart` refuses until
+  each PC and henchman has `downtime ID --activity "…" --from D --to D`.
+- **Loads** (7.24): `travel` refuses while a member is slower than the column and his load could ride a pack animal
+  with room; the line names the items, the animal and the miles a day gained (`inv give`, `supplies show ID --on
+  ANIMAL`; `ACKS_ACK=load-before-march` to march anyway).
 
 ## Each day
 - **Days of plain marching:** `python3 $S/play.py march DAYS --route A,B,… [--hours-per-day N] [--watches "A,B;C,D"]
@@ -44,12 +48,18 @@ supplies, the party's Evasion throw, hp healed and CON lost.
    navigable river); each hex entered costs 6 miles at the party's speed × terrain (× road after terrain, × weather,
    mud, snow), and makes the encounter throw (hidden; 1d6 miles in). An encounter stops the travel there with who, how
    many, lair, distance and detection rolled; then `encounter surprise …`, `evade` or `reaction`, `encounter fight`
-   (encounters.md). `travel` again continues the route. A lost party strays without knowing; the line's hidden part
+   (encounters.md). The encounter is stored at once as pending (7.23): the travel that reaches its mile begins it,
+   `encounter start --wild --kind pending` begins it where the party stopped, and `camp`, `wait`, `travel`,
+   `rest-day`, `water`, `forage`, `hunt`, `fish`, `search`, `firewood` and `location` refuse until it is met.
+   `travel` again continues the route; `travel --to` the hex the party is in crosses the rest of it or names the
+   settlement arrival (`location --settlement`). A lost party strays without knowing; the line's hidden part
    says where it truly is. The day's travel hours are enforced (8, or 12 forced; ancillary hours left are 4).
 2. **Ancillary activities** (1 hour each; members working side by side share the hour): `forage [--honest]` (food,
    once a day each; a Survival member feeds himself every wilderness day without it), `water [--carry N]` (party, once
    a day; free and automatic in a river or lake hex: use it there every day the party passes water; it fills each
-   member's waterskins, `--carry N` only to hold fewer days), `firewood` (as often as wanted), `search [--hours N] [--specific]
+   member's waterskins, `--carry N` only to hold fewer days; `--purified-by ID` for Purify Food and Water spends the
+   slot; a pack animal whose riders are dead serves the company with its waterskins; `water` names each animal's
+   daily water and counts it watered), `firewood` (as often as wanted), `search [--hours N] [--specific]
    [--survey ID] [--stock]` (a hidden throw per hour, an encounter throw first). Dedicated instead of travel:
    `hunt [--dogs N]`, `fish --vessel [--who IDS]` (only from a becalmed or anchored vessel: the rules give no
    fishing on land and the engine refuses it without a ruling), `rest-day [--days N] [--healer ID --patients A,B] [--settlement]` (after a day of travel the
@@ -74,7 +84,10 @@ supplies, the party's Evasion throw, hp healed and CON lost.
    and rolls the night encounter check by territory (hidden). A night encounter stops the camp at its hour and names
    who is awake (sleepers start slumbering: `encounter surprise --slumbering IDS`; they cannot evade until woken; with
    no one awake the camp does not see it coming); after it, `camp --resume`. A night encounter timed after a short
-   camp waits while the party stays and lapses when it travels on.
+   camp waits while the party stays and lapses when it travels on. A night outside a settlement without a camp:
+   `wait --hours N --sleep [--armored IDS]`.
+6. **Lodging** in a settlement (7.23): `lodging --inn "Traveler's Inn" --nights N --members … --animals
+   donkey1:draft --payer ID` by `Campaign/lodging.yaml` (or RR p. 131).
 5. **Weather for a place not on the route**: `weather --at CC.RR` (or `--climate C --season S`); `--reroll` only by ruling.
 
 ## Lost, found, pursued
@@ -111,21 +124,3 @@ A published module that gives its own encounter check and table for some hexes (
   back into the travel state (then `heal ID --bed-rest N` from a Mortal Wounds result). Mortal Wounds deadlines
   ("within 1 day") are the Judge's: the engine heals on whole rest days (a day with travel is not one).
 - Hidden rolls and the true hex while lost go in the session log's Judge block.
-
-## Engine 7.23-7.24 (Sakkara run 2 requests)
-- A travel line's 'ENCOUNTER … N miles into the hex' is stored at once as a pending encounter: the travel that reaches
-  its mile begins it; `encounter start --wild --kind pending` begins it where the party stopped; `location` refuses
-  until it is met; the line names the hex's settlement when it is the destination. `travel --to` the hex the party is
-  in crosses the rest of it or names the settlement arrival (`location --settlement`).
-- `camp`, `wait`, `travel`, `rest-day`, `water`, `forage`, `hunt`, `fish`, `search`, `firewood` refuse while an
-  encounter is unresolved.
-- **Loads before the march:** `travel` refuses while a member is slower than the column and his load could ride a
-  pack animal with room; the line names the items, the animal and the miles a day gained (`inv give`, `supplies show
-  ID --on ANIMAL`; `ACKS_ACK=load-before-march` to march anyway).
-- **Water:** a pack animal nobody's supplies ride on (its riders dead) serves the company with its waterskins; a dead
-  carrier's water stays with his group's skins or goes with his body (said); `water` names each animal's daily water
-  and counts it watered. `water --purified-by ID` (Purify Food and Water) fills the skins and spends the slot.
-- **A night outside a settlement without camp:** `wait --hours N --sleep [--armored IDS]`.
-- **Lodging:** `lodging --inn "Traveler's Inn" --nights N --members … --animals donkey1:draft --payer faustina` by
-  `Campaign/lodging.yaml` (or RR p. 131); `downtime ID --activity "…" --from D --to D` before `play.py depart` (the
-  table rule: `party.downtime_required` in campaign.yaml).

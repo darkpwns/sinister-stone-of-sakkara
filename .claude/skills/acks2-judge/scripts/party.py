@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""party.py — the AI party agent's plumbing (references/party-structure.md). The agent itself is called by the
+"""party.py — the AI party agent's plumbing (references/party-agent.md). The agent itself is called by the
 Judge with the Agent tool; this script never calls a model.
 
   (any command) --players id,id                     limit to a split-off group of AI players

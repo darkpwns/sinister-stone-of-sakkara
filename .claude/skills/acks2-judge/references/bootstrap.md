@@ -11,7 +11,7 @@ Load when `brief.py` says **bootstrap needed** (Campaign State `public.party` is
    If the structure is AI party or mixed, a second AskUserQuestion: which AI players sit at the table (multi-select from the six profiles in `Party/profiles/`, all six by default for AI party), the caller (AI party: Gideon by default; mixed: the user), Character creation (templates, RR default / no templates, optional rule), and whether AI players hire their own henchmen (yes, recommended / no). Record them in config `party` (`active_players` as `{id, pc: ""}`, `caller`) and in Table rules.
    Record the answers in Campaign State `## Table rules` and config `party.structure`, append one line per setting to Rulings.md (`Judge's ruling: table rule set at bootstrap`). If quest awards are on, ask in the same reply for the award scale or propose one, and record it in Rulings.md.
 2. **The PC on the sheet** (solo, human party and mixed; not AI party). The default: build him on the Kardakia Party Map sheet with `acks.sh chargen` (characters.md → The PC: built on the sheet), one step per request, every roll open. If the user has a filled fillable PDF and prefers to import it (legacy), use `charsheet.py pdf2actor` into `Characters/<id>.json` (role pc) and report the import's differences from the rules; otherwise ask the player to use the sheet.
-2b. **AI players' PCs** (AI party and mixed): party-structure.md → Making the AI players' PCs, then, if Table rules allow, the hiring session (in town, at the start location, before step 7's first scene ends).
+2b. **AI players' PCs** (AI party and mixed): party-agent.md → Making the AI players' PCs, then, if Table rules allow, the hiring session (in town, at the start location, before step 7's first scene ends).
 2c. **Inventory** (engine stage 6, `inventory.md` Setup): `acks.sh inv init --month-days N`, then each PC as a holder with his PDF coins as the opening balance and his starting gear added item by item.
 3. **Party entry:** set `session: 1` in Campaign State. `public.party` is generated from the actors at the save (`xsync.py`); a PC who starts wounded: `acks.sh actor set <id> state.hp N --cause …`.
 4. **Start:** date, time, mode, location, hex and place from config `start`; weather not yet rolled (`acks.sh travel-init` then `acks.sh weather` when the party first goes outdoors or travels; the engine rolls each later day at dawn).
@@ -35,7 +35,7 @@ exist: keep them all. Characters go on unless their injuries make further advent
    character's XP): `acks.sh death <prior id> --new-character --player <player> --prior-xp <prior character's xp>`
    (the prior actor is in `Characters/former/`). Run it only when that player's new character is made: it consumes
    the funeral XP. The players' funds are the adventure ledger's `players` block.
-3. **The new PCs** (players without a character): party-structure.md → Making the AI players' PCs (or `acks.sh chargen` for a human player), one per
+3. **The new PCs** (players without a character): party-agent.md → Making the AI players' PCs (or `acks.sh chargen` for a human player), one per
    player, at 1st level; then `acks.sh actor set <id> xp <starting XP> --cause "reserve XP (RR Character Death)"` and
    `acks.sh level-up --sheet <id> --apply` once for each level that XP reaches. Equipment: the template's, or 3d6 × 10
    gp, unless he inherits (a relative may collect a dead character's belongings once: `death <prior> --heir <id>

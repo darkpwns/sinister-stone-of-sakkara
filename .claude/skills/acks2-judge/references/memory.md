@@ -7,6 +7,11 @@ something that happens: the engine or a script does it; or it fires on its trigg
 - Every `acks.sh` call is checked against the index. ` | REMINDER: [id] text (source)` at the end of a line: the
   lesson applies to what you are doing now; act on it before going on. `NOT RUN (lesson): [id] …`: the command was
   refused and nothing was rolled; fix the command, or put `ACKS_ACK=id` before it when you do mean it.
+- A lesson the engine now enforces has status `engine` (7.23: `camp-past-encounter`, `rest-due`,
+  `load-before-march`). A lesson may carry `run: N`; the index's top-level `run: N` names the current run, and a
+  lesson of another run never fires and is left out of the brief and the escalations.
+- **Stale session number:** the first command of a process warns when Campaign State's `session:` is that of a roll
+  logged on an earlier day: set the new session number before rolling.
 - `acks.sh lesson list` (all, with slip counts); `lesson test -- CMD ARGS…` (which lessons a command would fire,
   without running it); `lesson brief` (those standing in the current state); `lesson check` (save.sh runs it).
 - **A slip** (you notice a recorded lesson was missed): `acks.sh lesson slip ID --day N --note "what happened"`, and
@@ -41,9 +46,11 @@ write a number into the Judge's notes that the generated block can give. `brief.
 ## Many commands in one call
 - `acks.sh batch FILE` (or `-` and a here-document): one command per line, as after `acks.sh`; each runs exactly as
   alone (own dice, logged rolls, refusals); the batch stops at the first refusal or error and says how many were not
-  run; `--stop-on REGEX`, `--stop-on-judge` (stop at anything left to the Judge), `--keep-going`. Use it for a
-  moment's rolls that do not depend on each other's results, a round's state changes, a town day's purchases. Never
-  put a roll after a result that decides whether it happens.
+  run; `--stop-on REGEX`, `--stop-on-judge` (stop at anything left to the Judge), `--keep-going`; it also stops
+  after a command that brought an encounter. `@expect REGEX` on its own line stops the batch unless the previous
+  output matched (a fight round in one call: `combat-totm.md` → Each round). Use it for a moment's rolls that do not
+  depend on each other's results, a fight round, a round's state changes, a town day's purchases. Never put a roll
+  after a result that decides whether it happens.
 - `python3 $S/play.py walk N --relight A,B` (turn by turn with rests and relights, stopping at anything that needs
   you), `play.py supplies`, `play.py bank --to <holder> --keep 150`, `play.py bank-balances --bank <holder>`,
   `play.py payout [payout options]` (the payout, and its rows into the Ledger note).
@@ -55,11 +62,3 @@ write a number into the Judge's notes that the generated block can give. `brief.
 - An ESCALATE line clears when the hole is closed in the engine or a script and the lesson's `triggered_since` is set
   to the session the enforcement starts (`enforced_by` says what closes it); the S47-S48 escalations (wage-days,
   surprise-members, npc-rolls-hidden, driver-loop-stop) were closed so in S55.
-
-## Engine 7.23-7.24 (Sakkara run 2)
-- Lessons moved into the engine: `camp-past-encounter` (the encounter guards and the batch stop), `rest-due` (`turn`
-  refuses the sixth turn), `load-before-march` (`travel` refuses a movable slowing load): status `engine`.
-- **Runs:** a lesson may carry `run: N`; the index's top-level `run: N` names the current run; a lesson of another run
-  never fires and is left out of the brief and the escalations.
-- **Stale session number:** the first command of a process warns when Campaign State's `session:` is that of a roll
-  logged on an earlier day (`jacks.py`): set the new session number before rolling.

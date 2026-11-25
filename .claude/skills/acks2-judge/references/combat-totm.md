@@ -40,6 +40,28 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    `state engage <a> <b>`, cover by argument at the attack. Surprised combatants: `state cond <id> surprised`.
 
 ## Each round
+**Two calls a round, not one per action.** Every tool call re-reads the whole chat, so a round of single commands
+(17-20 calls) is the costliest thing a session does. Settle the round's declarations first (the AI players' or the
+user's, the monsters' by their tactics), then: call 1, `round-start` (its order); call 2, one `acks.sh batch
+--stop-on-judge --stop-on "REMINDER|unconscious|slain|destroyed|dies|cannot act"` with the rest of the round in that
+order, a `round-next` and `@expect "<name> acts"` before each combatant's actions, and `round-end` last:
+```
+bash $S/acks.sh batch --stop-on-judge --stop-on "REMINDER|unconscious|slain|destroyed|dies|cannot act" <<'EOF'
+round-next
+@expect "Galerius acts"
+attack galerius g1
+round-next
+@expect "gnoll 1 acts"
+attack g1 galerius --attack 0
+round-end
+EOF
+```
+The batch runs each command exactly as alone (same dice, logs, refusals) and stops at a refusal, at an order other
+than the one planned (`@expect`), at a fall, a JUDGE item or a reminder: decide what changes (a new target, a cleave,
+a cure) and send the rest of the round as a new batch starting where it stopped. Rolls whose count decides the next
+dice (a spell's targets, spikes) end a batch: roll the count, then batch what depends on it. Fights with standing
+orders: `round-auto` (below, Large fights) does the same in one call for every size of fight.
+
 1. Declarations, then initiative: `acks.sh round-start [--declare <id>:spell|retreat|withdraw …] [--mod <id>:<name>:+N]`.
    It gives the order. Ties name who chooses. Show the party's initiative rolls; give the monsters only as the order.
 2. Count down: `acks.sh round-next` gives the next combatant to act (it ends disordered/charging/defending and
@@ -72,6 +94,11 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
    - **Sweep:** `acks.sh sweep <a> <t1> <t2> …`.
    - **Other damage** (spells, traps, falls, oil): `acks.sh damage <t> --dice XdY --type T [--extraordinary|--mundane]
      [--half]` (spells: `--extraordinary`; refused without a tier when the target's protection differs by tier).
+   - **Allies and groups in one command** (7.23): `state add --group fangs --monster Gnoll --count 6 --hp
+     10,9,8,10,9,8 --weapon "Battle Axe" --order close-and-attack --side party --perceived "Black Fang gnoll {n}"`;
+     foes' hp from a module key the same way (`--hp 20,15`); `state order --group fangs hold`. A totem companion
+     (`companion new|show|rescale|dies`) joins the fight with its owner; `state end` writes its hp; its death costs
+     the owner a Death save or its maximum hp and the totem benefit.
    - **Large fights** (engine 7.19.1; replaces the per-session drivers): positions by zone, not per pair:
      `state place <group|id> --zone street [--range 60 [--from yard]]` (the same zone is in reach; two zones their
      range apart), `state frontage <zone> 2` (attackers per target in a passage). Standing tactics per foe group:
@@ -80,7 +107,13 @@ actor differences and readings applied (book contradictions, rulings). `--json` 
      G]` (`none` clears it). Then `round-auto [--until round-end|party-down|judge] [--max-rounds N]` steps the rounds
      in one process and stops at a party member's turn without an order, a felled party member, a JUDGE item, a
      refusal, or a side with no one fighting; act for whoever it stopped at, then `round-auto` again. Initiative ties
-     are taken in the listed order (said in a NOTE).
+     are taken in the listed order (said in a NOTE). Leaders with their own damage ('1d6+2 by weapon') attack with
+     their statblock routine; `state set ID weapon=` clears a weapon. `shoot-nearest` shoots from where the archer
+     stands within long range, moves only into range, never engages. A cowering foe stays a target.
+   - **Party spells** (7.24): `cast ID SPELL --targets T` checks the caster's repertoire and spells per day and
+     records `state.spells_used`; outside a fight the actor's hp are healed. A cure on a character at 0 hp or below
+     brings on his Mortal Wounds roll (+1 per level) and heals no damage (RR p. 302); a later cure heals from 0
+     (engine-rulings `heal.below_zero: zero`); a survivor owing bed rest stays at 1 hp.
    - **Foes' spells** (engine 7.19.3): give a caster its list once, `state set <id> spells="Word of Command,Cause
      Light Injury x2,Slumber" level=5` (from its statblock or the module), then `acks.sh cast <id> "<Spell>"
      --targets A,B [--word flee]`: Slumber, Word of Command, Halt Humanoids, Cure/Cause Light and Serious Injury
@@ -204,18 +237,3 @@ target's AC without armor by the engine (7.19.26); set `state set ID ac_armorles
 or shield bonus counts. Undead at 0 hp are destroyed, also when hp is
 set by `state set ID hp=N`. **Step the round with `round-next`** and act for the combatant it names: the lessons index
 reminds when an action is taken out of its count.
-
-## Engine 7.23-7.24 (Sakkara run 2 requests)
-- **Allies and groups in one command:** `state add --group fangs --monster Gnoll --count 6 --hp 10,9,8,10,9,8 --weapon
-  "Battle Axe" --order close-and-attack --side party --perceived "Black Fang gnoll {n}"`; foes' hp from a module key the
-  same way (`--hp 20,15`); `state order --group fangs hold`.
-- **Leaders with their own damage** ('1d6+2 by weapon', Ur-Shet, Ulmash) attack with their statblock routine in
-  `round-auto`; `state set ID weapon=` clears a weapon.
-- **shoot-nearest** shoots from where the archer stands within long range, moves only into range, never engages.
-- A **cowering** foe stays a target: `round-auto` goes on to the party's attacks.
-- **Party spellcasting:** `cast ID SPELL --targets T` checks the caster's repertoire and spells per day and records
-  `state.spells_used`; outside a fight (cures in the den) the actor's hp are healed. A cure on a character at 0 hp or
-  below brings on his Mortal Wounds roll (+1 per level) and heals no damage (RR p. 302); a later cure heals from 0
-  (Campaign/engine-rulings.yaml `heal.below_zero: zero`, Rulings S07); a survivor owing bed rest stays at 1 hp.
-- **Companions:** a totem animal (`companion new|show|rescale|dies`) joins the fight with its owner; `state end`
-  writes its hp; its death costs the owner a Death save or its maximum hp and the totem benefit.

@@ -101,6 +101,12 @@ def test_batch_runs_in_order_and_stops_at_a_refusal(camp):
     assert "batch: stopped at line 4 (exit 2); 1 command not run" in out
 
 
+def test_batch_expect_stops_before_an_unplanned_turn(camp):
+    code, out = sh(camp, "batch", stdin='roll x:1d6\n@expect "x: 1d6"\nroll y:1d6\n@expect nobody acts\nroll z:1d6\n')
+    assert code == 0 and "y: 1d6" in out and "z: 1d6" not in out
+    assert "batch: stopped at line 4 (expected /nobody acts/ not in the last output); 1 command not run" in out
+
+
 def test_schedule_is_named_by_the_clock(camp):
     need(camp, "Campaign/schedule.yaml", "order-roll")
     lp = os.path.join(camp, "Campaign", "schedule-log.jsonl")

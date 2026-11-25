@@ -79,7 +79,11 @@ come from the print-checked equipment tables (`acks.sh inv catalog WORDS` finds 
 - `wages pay <MID> --payer <id>` takes the wages from the payer's coins; `recruit` takes the week's fee from the
   employer; `appraise --fee` from `--by`.
 - `payout --apply` puts each share's coins into the inventory; `death --dies` moves everything the dead man held to
-  `body:<id>` (take from it with `inv take`).
+  `body:<id>` (take from it with `inv take`); `restore ID … --apply` (no roll without `--apply`) makes a restored
+  character an active holder again with his possessions back from `body:ID`.
+- `recover --goods "jar of oil" --value 100 --stone 5 --pieces 10`: a lot of like pieces that `--split L#:N` divides;
+  `recover --undo L#` voids a loose find (no hoard). `train lot` of a creature captured in an adventure already paid
+  out: its sale's XP goes to that payout's share-holders by `payout --sale L#`.
 - An inventory animal's or vehicle's stage 4 cargo is its inventory: load it with `inv give <id> mule1 …` or
   `inv give <id> wagon1 …`, never `mounts load --cargo`. Inventory animals and harnessed vehicles join the march
   (stage 4) by themselves; a harnessed animal carries no pack and no rider (its fodder rides in the vehicle).
@@ -99,11 +103,3 @@ log. If it refuses: record the missing event.
   holder, `inv holder add bag1 --kind container --cap 10 --weighs 6 --carrier lucilla --name "<what it is>"` (the
   note's capacity and weight); `inv give lucilla bag1 ITEM` puts things in (refused past --cap), and the carrier's
   encumbrance counts only --weighs. Never a cache holder plus an item.
-
-## Engine 7.23-7.24 (Sakkara run 2 requests)
-- `recover --goods "jar of oil" --value 100 --stone 5 --pieces 10`: a lot of like pieces that `--split L#:N` divides;
-  `recover --undo L#` voids a loose find (no hoard).
-- `train lot` of a creature captured in an adventure already paid out: its sale's XP goes to that payout's share-holders
-  by `payout --sale L#`.
-- `restore ID … --apply` (no roll without `--apply`) makes a restored character an active holder again with his
-  possessions back from `body:ID`.

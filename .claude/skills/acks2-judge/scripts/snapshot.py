@@ -14,7 +14,10 @@ Then the output is scanned for Judge-only note titles (campaign.yaml secrecy) an
 "retinue_id" and "judge" (engine stage 3: loyalty scores and sheets' Judge blocks); any hit -> refuse.
 Nothing is written on refusal (exit 2). --check validates without writing.
 --payload prints the display db document for the written snapshot (campaign.yaml display:), compact JSON:
-{"schema": 1, "written_at": ..., "snapshot": {...}}; the Judge passes it to db_write as the "set" op's data."""
+{"schema": 1, "written_at": ..., "snapshot": {...}}.
+--payload-file [PATH] writes that document to PATH (default: config `display.payload_file`, else
+/tmp/acks-display-payload.json) and prints one line with the path: the Judge passes the path as the db write's
+`file_path`, so the snapshot never passes through the chat (save.sh runs it when a display page is configured)."""
 import glob, json, os, re, sys, time
 sys.path.insert(0, os.path.dirname(__file__))
 import jlib
@@ -233,11 +236,24 @@ try:
     wall(cfg, text)
 except Refuse as e:
     print("snapshot REFUSED: " + str(e), file=sys.stderr); sys.exit(2)
-if "--payload" in sys.argv:   # the snapshot already written by the last run, exactly as committed
+def payload_doc():
     disp = cfg.get("display") or {}
     written = json.load(open(jlib.path(cfg["paths"]["state"]["snapshot"]), encoding="utf-8"))
-    print(json.dumps({"schema": disp.get("schema", 1), "written_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(written["generated"])),
-                      "snapshot": written}, ensure_ascii=False, separators=(",", ":")))
+    return {"schema": disp.get("schema", 1),
+            "written_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(written["generated"])), "snapshot": written}
+
+
+if "--payload-file" in sys.argv:   # the snapshot already written by the last run, to a file for the db write's file_path
+    i = sys.argv.index("--payload-file")
+    out = sys.argv[i + 1] if len(sys.argv) > i + 1 and not sys.argv[i + 1].startswith("--") else \
+        (cfg.get("display") or {}).get("payload_file") or "/tmp/acks-display-payload.json"
+    text = json.dumps(payload_doc(), ensure_ascii=False, separators=(",", ":"))
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(text)
+    print(f"display payload: {out} ({len(text.encode('utf-8'))} bytes)")
+    sys.exit(0)
+if "--payload" in sys.argv:   # the snapshot already written by the last run, exactly as committed
+    print(json.dumps(payload_doc(), ensure_ascii=False, separators=(",", ":")))
     sys.exit(0)
 if "--check" in sys.argv:
     print("snapshot ok (not written)"); sys.exit(0)

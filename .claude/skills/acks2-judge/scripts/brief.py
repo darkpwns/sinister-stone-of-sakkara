@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """brief.py [--full] : what the resume step reads, in one print, and no more (C5; it printed a thousand lines):
-Campaign State (whole: it is short), the handoff (its generated block made fresh from the state files: date, party,
+Campaign State (without its generated `public.party` block, which the handoff's party table repeats; `--full` keeps
+it), the handoff (its generated block made fresh from the state files: date, party,
 who is left behind, adventure, wages, what the schedule holds due, the standing reminders and the lessons to
 escalate, then the Judge's notes), the last rows of the Rulings table, the World State sections the resume names
 (config `brief.world_sections`, default: Prep queue, NPC attitudes, and the latest entries of Scheduled events),
@@ -9,8 +10,9 @@ the tail of the latest session log and of the playtest's judge notes when the ca
 as before.
 
 Config (campaign.yaml, all optional):
-  brief: {rulings_rows: 25, world_sections: ["Prep queue", "NPC attitudes", "Scheduled events:12"],
-          tails: ["Playtest/judge-notes.txt:30"], session_lines: 40}
+  brief: {rulings_rows: 8, world_sections: ["Prep queue", "NPC attitudes", "Scheduled events:12"],
+          tails: ["Playtest/judge-notes.txt:8"], session_lines: 40}
+Older Rulings rows are found by keyword (`grep -i WORD` the Rulings note), as the skill's ruling order says.
 """
 import glob
 import os
@@ -46,8 +48,34 @@ def section(text, name, n=None):
     return body
 
 
-print(f"===== {st['campaign_state']}")
-print(open(jlib.path(st["campaign_state"]), encoding="utf-8").read().strip())
+def drop_party(text):
+    """Campaign State without the generated `public.party` list (the handoff's party table has the same rows) and
+    with the `public.trail` list on one line."""
+    out, mode, trail = [], None, []
+    for ln in text.splitlines():
+        if mode and (re.match(r"^  [A-Za-z_]", ln) or re.match(r"^\S", ln)):
+            if mode == "trail":
+                out.append("  trail: " + ", ".join(trail))
+            mode = None
+        if mode == "party":
+            continue
+        if mode == "trail":
+            trail.append(ln.strip().lstrip("- ").strip("'\""))
+            continue
+        if re.match(r"^  party:\s*$", ln):
+            mode = "party"
+            out.append("  party: (generated from the actors; see the handoff's party table)")
+            continue
+        if re.match(r"^  trail:\s*$", ln):
+            mode, trail = "trail", []
+            continue
+        out.append(ln)
+    return "\n".join(out)
+
+
+cs = open(jlib.path(st["campaign_state"]), encoding="utf-8").read().strip()
+print(f"===== {st['campaign_state']}" + ("" if full else " (public.party omitted: the handoff has it)"))
+print(cs if full else drop_party(cs))
 print("===== handoff (generated now from the state files; the Judge's notes below it)")
 try:
     import handoff
@@ -60,8 +88,8 @@ if full:
         print(open(jlib.path(st[key]), encoding="utf-8").read().strip())
 else:
     rows = [ln for ln in open(jlib.path(st["rulings"]), encoding="utf-8").read().splitlines() if ln.startswith("| ")]
-    n = int(B.get("rulings_rows", 25))
-    print(f"===== {st['rulings']} (the last {n} rows of {max(0, len(rows) - 2)}; --full for all)")
+    n = int(B.get("rulings_rows", 8))
+    print(f"===== {st['rulings']} (the last {n} rows of {max(0, len(rows) - 2)}; grep the note by keyword for the rest)")
     print("\n".join(rows[:2] + rows[2:][-n:]))
     ws = open(jlib.path(st["world_state"]), encoding="utf-8").read()
     for spec in B.get("world_sections") or ["Prep queue", "NPC attitudes", "Scheduled events:12"]:
@@ -79,12 +107,12 @@ if logs:
     print("\n".join(lines[-int(B.get("session_lines", 40)):]))
 else:
     print("(none yet)")
-for spec in B.get("tails") or ["Playtest/judge-notes.txt:30"]:
+for spec in B.get("tails") or ["Playtest/judge-notes.txt:8"]:
     rel, _, k = str(spec).partition(":")
     p = jlib.path(rel)
     if os.path.exists(p):
-        print(f"===== {rel} (the last {k or 30} lines)")
-        print("\n".join(open(p, encoding="utf-8").read().splitlines()[-int(k or 30):]))
+        print(f"===== {rel} (the last {k or 8} lines)")
+        print("\n".join(open(p, encoding="utf-8").read().splitlines()[-int(k or 8):]))
 fm, _ = jlib.read_note(st["campaign_state"])
 print("===== status")
 print("bootstrap needed" if not (fm.get("public") or {}).get("party") else

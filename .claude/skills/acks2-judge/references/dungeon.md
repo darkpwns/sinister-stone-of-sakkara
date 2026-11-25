@@ -20,6 +20,9 @@ triggers): Judge block only. `| JUDGE:` lists what is left to you; `| NOTE:` act
    (`Dungeon level: N`, `Wandering monsters: none` or `Wandering monsters: 1d6 every 3 turns, 4+`, `Encounter table:
    FILE` in acks-table/1 with `source.campaign: true`). Without a hub line: `--level N` (JJ p. 36 default check
    1d6 every 2 turns, 6+). Prep writes these lines in the hub's `Running …` section.
+   Room settings (7.23): `Room R: <rate>[; table FILE] [(condition)]` lines in the hub's Running section apply on
+   `location --room R` and lapse when the party leaves the room; a setting that waits for 'once …' applies after
+   `location --room R --cleared`.
    An area with its own rate (a module's "5-6 each turn in Area 1"): `acks.sh location --wandering "1d6 every 1 turns, 5+"` changes only the rate (site, level and table stay); go back with the hub's value. A module's level 2 table: `--table FILE`.
 4. Light: `acks.sh light on --kind torch|lantern|candle --carrier <id>` (`--tallow` for tallow candles): the torch, candle or flask of oil comes out of the carrier's inventory, refused if he has none (`inventory.md`). Marching
    order in the tracker (`public.tracker.formation`). Speeds: `acks.sh move-rate <id>` (encumbrance from the
@@ -46,14 +49,17 @@ triggers): Judge block only. `| JUDGE:` lists what is left to you; `| NOTE:` act
    it ends, or the time an influence attempt took). It runs the wandering checks the site's settings call for (at the
    start of every 2nd turn by default), burns light and timers, counts turns since rest, and reports everything that
    ran out, expired or became due. **If a check finds an encounter, the advance stops at its minute** and the line
-   shows who, how many and the maximum distance (all `[H]`): go to `encounters.md`.
+   shows who, how many and the maximum distance (all `[H]`): go to `encounters.md`. An encounter is played before
+   anything else (7.23): `location` (a change), `wait` and the day commands refuse while one is unresolved, a batch
+   stops after the command that brought it, and `encounter end` refuses one never played without `--unplayed "why"`.
    `turn N` also stops in the turn the last light burns out. Many turns in one call: `python3 $S/play.py walk N
    --relight A,B` (rests after 5 turns, relights (a carrier's own lantern first: lit, or refuelled and lit), stops
    with the reason at an encounter, a character down, no light left, a timer that runs out (`--past-timers` to go on)
    or anything left to the Judge); or set the standing order `acks.sh light auto on --carriers A,B` once per
    delve and the engine lights the next torch itself.
-3. Rest: `acks.sh rest` (1 turn) after 5 turns; the `turn` line says "rest due"; a 6th turn without rest makes the
-   party winded (no running or charging) until it rests 1 turn (Endurance exempt).
+3. Rest: `acks.sh rest` (1 turn) after 5 turns; `turn N` refuses exploration past the fifth turn without one (7.23;
+   RR p. 271): `rest` first, or `turn N --auto-rest`; `ACKS_ACK=rest-due` when you mean it. A 6th turn without rest
+   makes the party winded (no running or charging) until it rests 1 turn (Endurance exempt).
 4. Spells and effects with a duration: `acks.sh timer add "<spell> (<caster>)" --for 6t [--hidden]` with the duration
    from the spell's note; `turn` reports the expiry.
 5. Room by room: `acks.sh location --room <key>` (for the log); World State per room below.
@@ -63,6 +69,11 @@ Read only the notes for rooms the party is in or can perceive. Lead with what ma
 eye), then answer what the player looks at. Never mention what a key holds that the characters cannot perceive
 (hidden doors, contents of closed containers, monsters out of sight). A listen or search line marked `[H]` that
 succeeds lets you narrate what is there; a failure says nothing either way.
+- Monsters keyed in a room (7.23): `encounter start --placed --key "Adventure/Level 2 - Catacombs.md#7" --in-lair yes`
+  takes the monster, number, hp list and a special weapon from the key; `encounter fight` uses them (no `state set`).
+- A module's taint (AX1 level 2, `Campaign/taint.yaml`): `taint drink ID` (save vs Spells or a mutation), `taint
+  touch ID`, `taint immerse ID --rounds N`, `taint show`; `reaction` sums the face's mutations. Water from `water
+  --purified-by ID` carries no taint.
 
 ## State
 - `save.sh` runs `xsync.py` first: it copies the engine's player view (time of day, light sources with bearer and
@@ -79,25 +90,6 @@ succeeds lets you narrate what is there; a failure says nothing either way.
 - `acks.sh clock [--player]` shows the time, light, timers, rest and location (`--player`: open values only).
 - A day passing (`turn` line "day N begins"): with a travel block (`travel-init` before the expedition), the engine's
   rollover runs rations (iron rations keep one week in a dungeon), water, sleep owed, fatigue (each hour of delving is
-  strenuous) and healing; read its lines. Sleeping in the dungeon: `camp --watches … --hours 8` records the sleep and
+  strenuous) and healing; read its lines. `wait` at a site counts as rest for fatigue, not delving (7.23; the line says
+what each day counts as); a night slept there: `wait --hours N --sleep [--armored IDS]`. Sleeping in the dungeon: `camp --watches … --hours 8` records the sleep and
   makes no wilderness night check; run the site's wandering checks for those hours (`wander-check`).
-
-## Engine 7.23-7.24 (Sakkara run 2 requests)
-- **Rest turns are enforced:** `turn N` refuses exploration that would pass the fifth turn without a rest turn
-  (RR p. 271): `rest` first, or `turn N --auto-rest` (rests whenever one falls due, as `play.py walk`); a Judge who
-  means it: `ACKS_ACK=rest-due`.
-- **An encounter is played before anything else:** `encounter end` refuses a wandering encounter that arrived and was
-  never played (no distance, surprise, reaction, evasion or fight) unless `--unplayed "why"`; `location` (a change),
-  `wait` and the day commands refuse while an encounter is unresolved (`ACKS_ACK=encounter-open`); `acks.sh batch`
-  stops after the command that brought an encounter and names it.
-- **Waiting at a site is rest:** `wait` in a dungeon counts as rest for fatigue, not delving (reading
-  `time.waiting_not_delving`); the line says what each day at the site counts as. A night slept there: `wait --hours N
-  --sleep [--armored IDS]` (or `camp`, as before).
-- **Room settings from the hub:** `Room R: <rate>[; table FILE] [(condition)]` lines in a hub's Running section;
-  `location --room R` applies them and the site's return when the party leaves the room; a setting that waits for
-  'once …' applies after `location --room R --cleared` (the ogre den, L2 7).
-- **Module stat lines:** `encounter start --placed --key "Adventure/Level 2 - Catacombs.md#7" --in-lair yes`: the
-  monster, number, hp list and a special weapon from the room key; `encounter fight` uses them (no `state set`).
-- **Taint (AX1 level 2):** `taint drink ID` (a save vs Spells or a mutation), `taint touch ID`, `taint immerse ID
-  --rounds N`, `taint show` from `Campaign/taint.yaml`; `reaction` sums the face's mutations. Water purified with
-  `water --purified-by ID` carries no taint.

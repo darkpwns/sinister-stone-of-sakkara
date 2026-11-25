@@ -37,6 +37,9 @@ fi
 python3 "$D/check_overlay.py" || { echo "NOT SAVED: class-overlays.yaml refused (overlay check)"; exit 2; }   # S5
 python3 "$D/xsync.py"   # actors' state -> public.party (D7); engine exploration state -> public.time, light, weather, believed hex, trail, rations (open values only)
 python3 "$D/snapshot.py" || { echo "NOT SAVED: snapshot refused; fix the state, then save again"; exit 2; }
+if python3 -c "import sys; sys.path.insert(0,'$D'); import jlib; sys.exit(0 if (jlib.config().get('display') or {}).get('artifact_slug') else 1)" 2>/dev/null; then
+  python3 "$D/snapshot.py" --payload-file || echo "display payload not written (the repo is saved; write the page at the next save)"   # the db write's file_path
+fi
 cd "$R" || exit 1
 git add -A
 if git diff --cached --quiet; then echo "nothing to commit"; else

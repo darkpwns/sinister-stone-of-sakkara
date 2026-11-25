@@ -18,9 +18,9 @@ Player-facing fields only: date and time, weather, place and hex, explored hexes
 
 ## Display page (VTT) db write
 The VTT page (config `display`: artifact slug, url, db document) shows the snapshot to the player; it never writes. After every `save.sh` that wrote a new snapshot:
-1. `python3 $S/snapshot.py --payload` prints the document: `{"schema": 1, "written_at": …, "snapshot": {…}}`.
-2. `db_write` (artifact tools; slug = config `display.artifact_slug`) with one op `set`, path = config `display.db_doc`, data = that document, `ifVersion` = the version from your last `db_write` result in this chat, or from `db_get` on that path if you have none (omit only if the document does not exist).
-3. Failure (a conflict, a refusal, an outage): re-read the version with `db_get` and retry once. If that fails too, tell the user in one line ("display page not updated; the repo is"), carry on playing, and write again at the next state write. Each write is the whole snapshot, so the next one repairs a missed one. `Campaign/snapshot.json` in the repo stays authoritative.
+1. `save.sh` writes the document (`{"schema": 1, "written_at": …, "snapshot": {…}}`) to a file and prints `display payload: PATH (N bytes)` (by hand: `python3 $S/snapshot.py --payload-file`). Never print the payload (`--payload`) or type it into a tool call: the snapshot is tens of thousands of characters, and passing it through the chat costs it twice per save.
+2. `ArtifactData` `set` with `url` = config `display.artifact_url`, `collection` and `doc_id` from config `display.db_doc` (`campaigns/kardakia` → collection `campaigns`, doc_id `kardakia`), **`file_path` = that PATH** (never `data`), `if_version` = the version from your last write result in this chat, or from an `ArtifactData` `get` of that document if you have none (omit only if the document does not exist).
+3. Failure (a conflict, a refusal, an outage): re-read the version with `get` and retry once. If that fails too, tell the user in one line ("display page not updated; the repo is"), carry on playing, and write again at the next state write. Each write is the whole snapshot, so the next one repairs a missed one. `Campaign/snapshot.json` in the repo stays authoritative.
 4. Never write anything to the db except that document, and never a snapshot that `snapshot.py` refused.
 
 ## Prep queue (end of every session)

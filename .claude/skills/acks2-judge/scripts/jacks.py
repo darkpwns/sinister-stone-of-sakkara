@@ -13,6 +13,9 @@ dice, log lines, state reads and writes and refusals, exactly as when run alone;
 refusal or error, after a command that opened or brought an encounter (engine 7.23.0; not after `encounter`
 commands; --keep-going runs on), or at a stop condition, and says how many commands were not run. The first command
 of a process warns when Campaign State's session number is that of a roll logged on an earlier day (B3).
+A line `@expect REGEX` runs nothing: the batch stops there unless the previous command's output matches REGEX (a
+fight round in one call: `round-next` then `@expect "Galerius acts"` before his attack, so an order that differs from
+the one planned stops the batch before anyone acts out of turn).
 
 Python helpers import this module and call `run(["turn", "1"])` -> (exit code, output text): no new process per call.
 """
@@ -282,8 +285,22 @@ def batch(argv):
     stops = [re.compile(x) for x in b.stop_on]
     if b.stop_on_judge:
         stops.append(re.compile(r' \| JUDGE: |"judge": \[\s*"'))
-    ctx, worst = context(), 0
+    ctx, worst, last = context(), 0, ""
     for i, (n, ln) in enumerate(lines):
+        if ln.startswith("@expect"):
+            pat = ln[len("@expect"):].strip()
+            try:
+                pat = " ".join(shlex.split(pat)) if pat[:1] in "\"'" else pat
+                ok = bool(pat) and re.search(pat, last, re.I)
+            except (ValueError, re.error) as e:
+                print(f"batch: line {n}: bad @expect: {e}")
+                return 2
+            if not ok:
+                left = len(lines) - i - 1
+                print(f"batch: stopped at line {n} (expected /{pat}/ not in the last output); "
+                      f"{left} command{'s' if left != 1 else ''} not run")
+                return 0
+            continue
         try:
             args = shlex.split(ln)
         except ValueError as e:
@@ -295,6 +312,7 @@ def batch(argv):
         code, out = run(args, ctx) if args and args[0] != "batch" else (2, "batch: no nested batch\n")
         sys.stdout.write(out)
         sys.stdout.flush()
+        last = out
         why = f"exit {code}" if code and not b.keep_going else ("stop condition met" if any(s.search(out) for s in stops) else None)
         if not why and not code and not b.keep_going and ctx.get("_encounters") and args[0] != "encounter":
             why = "; ".join(ctx["_encounters"])    # engine 7.23.0 (A1): an encounter came; play it before going on

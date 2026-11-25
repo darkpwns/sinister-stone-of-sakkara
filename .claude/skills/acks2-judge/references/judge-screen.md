@@ -1,6 +1,8 @@
 # AI Judge's screen — what the engine leaves to the Judge
 
-Load at session start, beside the rules vault's `Judge's Screen.md` (core numbers: throws, combat, Mortal Wounds,
+Read by section (`python3 $S/ref.py judge-screen` lists the headings; `ref.py judge-screen 11` prints one): §11
+Routine and the headings at session start, each other section when its case arises (a spell or scroll, an area, a
+wound, a death, a module gap). Beside the rules vault's `Judge's Screen.md` (core numbers: throws, combat, Mortal Wounds,
 encounters, dungeon, wilderness, hirelings, XP, conditions). The engine (`acks.sh`) decides every number it covers;
 this sheet holds what came up again and again in play (Sakkara playtest, AX1) and is **not** decided by the engine:
 spell effects, scrolls, areas, judgement calls, and the routine an AI Judge slips on. Rules lines cite the vault; lines
