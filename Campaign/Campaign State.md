@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 5
+session: 6
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,7 +10,7 @@ public:
   date:
     year: ''
     season: spring
-    day: 28
+    day: 35
   time: '19:40'
   weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; misty; wind still
   place: Türos Tem
@@ -25,7 +25,7 @@ public:
     - 'grievously wounded (day 16, a giant wolf): 2 weeks of bed rest (to day 30)'
     - 'intestines mangled and ruined (Mortal Wounds, day 16): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
     spells_used: []
-    encumbrance_st: 6.873
+    encumbrance_st: 6.83
   - name: Fulvia
     sheet: Characters/fulvia.json
     role: pc
@@ -33,7 +33,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.542
+    encumbrance_st: 5.643
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
@@ -41,17 +41,16 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.036
+    encumbrance_st: 4.012
   - name: Gaius Rufo
     sheet: Characters/gaius-rufo.json
     role: pc
-    hp: 1
+    hp: 2
     hp_max: 5
     conditions:
-    - bed rest 1 week (day 17 to day 24), after a critical wound (day 16, a giant wolf)
-    - 'one foot chewed off (Mortal Wounds, day 16): peg required, movement -30 feet, DEX reduced by 1/3 for AC'
+    - 'one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC'
     spells_used: []
-    encumbrance_st: 5.935
+    encumbrance_st: 5.932
   - name: Ione
     sheet: Characters/ione.json
     role: henchman
@@ -60,8 +59,48 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 1.448
+  - name: Aedo
+    sheet: Characters/aedo.json
+    role: pc
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 7.506
+  - name: Septimia
+    sheet: Characters/septimia.json
+    role: pc
+    hp: 4
+    hp_max: 4
+    conditions: []
+    spells_used: []
+    encumbrance_st: 3.861
+  - name: Decimus Ruga
+    sheet: Characters/decimus-ruga.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.17
+  - name: Herennius Bow
+    sheet: Characters/herennius-bow.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
+    encumbrance_st: 3.667
+  - name: Tullus Brocchus
+    sheet: Characters/tullus-brocchus.json
+    role: henchman
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.179
   light: none
-  rations: 'Octavia: food 0 d, water 1 d (hungry, underfed, fatigued); Fulvia: food 0 d, water 1 d (hungry, underfed, fatigued); Eskil: food 0 d, water 1 d (hungry, underfed, fatigued, incapacitated); Gaius Rufo: food 0 d, water 0 d (hungry, underfed, fatigued, incapacitated); Ione: food 0 d, water 0 d (hungry, underfed, fatigued)'
+  rations: 'Octavia: food 0 d, water 1 d; Fulvia: food 0 d, water 1 d; Eskil: food 0 d, water 1 d (incapacitated); Gaius Rufo: food 0 d, water 0 d; Ione: food 0 d, water 0 d; Septimia: food 7 d, water 0 d; Aedo: food 7 d, water 0 d; Tullus Brocchus: food 0 d, water 0 d; Decimus Ruga: food 0 d, water 0 d; Herennius Bow: food 0 d, water 0 d'
   tracker: {}
   threads: []
   trail:
@@ -85,7 +124,7 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 28
+clock_day: 35
 ---
 # Campaign State
 

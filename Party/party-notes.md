@@ -27,7 +27,13 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
 - S03: The goblins of the old warrens were butchered by the hobgoblins; a few newcomers remain, angry.
 - S03: Spider eggs in a web in the kobolds' ground: whatever laid them is behind the curtain with the jars.
 
+- S06: Malyn: the black boar is a *devil boar*, a man-eater who is a fat man by day; only silver or enchanted weapons
+  hurt it. We have a silver dagger (Fulvia) and three silver arrows (Herennius).
+- S06: From Malyn's library: an old legend of a Zaharan temple in the Viaspen that the clerics of Law buried under a
+  dome of rock. Our black hill is that dome.
+
 ## Plans
+- S06: Wait for Eskil to rise (about day 42), or go without him; keep clear of the farms of 21.20 at night.
 - S05: A black boar the size of an ox in the farmland west of the fort, a day's walk out: our blades did not bite it;
   it killed Lepidus, Aurelia, Silvanus and Sextus. Never camp in 21.20 again; find out what it is (Malyn, Socolo).
 - S05: Bring the bodies home for burial (a cart; the quartermaster lends mounts). New companions for Ingrid and Tomasz.

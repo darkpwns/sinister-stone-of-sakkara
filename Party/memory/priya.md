@@ -18,3 +18,4 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 - S02: Lady Celena enjoys a learned conversation; she invited Octavia to dine.
 
 ## Henchmen and hirelings
+- S06: Tullus Brocchus, heavy infantry, 12 a month and a month's gift.

@@ -9,7 +9,7 @@ Run 3 (from 2026-11-25). Earlier runs' logs: `Archive/Run 1 (S01-S54)/Session Lo
 
 ## Party
 
-- Octavia (Priya, Mage), Fulvia (Rosa, Thief), Eskil (Kwame, Shaman), Gaius Rufo (Gideon, 0th level, from day 26); Ingrid and Tomasz: new characters owed
+- Octavia (Priya, Mage), Fulvia (Rosa, Thief), Eskil (Kwame, Shaman), Gaius Rufo (Gideon, 0th level, from day 26), Septimia (Ingrid, Priestess, from day 29), Aedo (Tomasz, Explorer, from day 29)
 - Dead (day 25-26): Lepidus (Gideon), Aurelia (Ingrid), Silvanus (Tomasz); Sextus Varo (henchman)
 
 ## Sessions
@@ -19,3 +19,4 @@ Run 3 (from 2026-11-25). Earlier runs' logs: `Archive/Run 1 (S01-S54)/Session Lo
 - [[S03 — The Chief's Knife]] (2026-11-25): days 8-14; Urza paid; the hobgoblins befriended, their plotters slain; lost and thirsty on the way home
 - [[S04 — The Forest Will Not Let Go]] (2026-11-25): days 15-21; a second giant wolf: Eskil and Gaius maimed; lost in the Viaspen, out of food
 - [[S05 — The Black Boar]] (2026-11-25): days 22-28; a man-eating boar kills Lepidus, Aurelia, Silvanus and Sextus; the survivors sell the silver and the eggs
+- [[S06 — Silver and Graves]] (2026-11-25): days 29-35; Septimia and Aedo join; the dead buried; three soldiers hired; the devil boar named

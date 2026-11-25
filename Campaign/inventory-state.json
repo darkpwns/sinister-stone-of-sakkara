@@ -133,6 +133,42 @@
    "name": "body of Sextus Varo",
    "actor": null,
    "status": "active"
+  },
+  "septimia": {
+   "kind": "pc",
+   "name": "septimia",
+   "actor": "septimia",
+   "status": "active"
+  },
+  "aedo": {
+   "kind": "pc",
+   "name": "aedo",
+   "actor": "aedo",
+   "status": "active"
+  },
+  "company-chest": {
+   "kind": "cache",
+   "name": "the company chest (Traveler's Inn)",
+   "actor": null,
+   "status": "active"
+  },
+  "tullus-brocchus": {
+   "kind": "henchman",
+   "name": "Tullus Brocchus",
+   "actor": "tullus-brocchus",
+   "status": "active"
+  },
+  "decimus-ruga": {
+   "kind": "henchman",
+   "name": "Decimus Ruga",
+   "actor": "decimus-ruga",
+   "status": "active"
+  },
+  "herennius-bow": {
+   "kind": "henchman",
+   "name": "Herennius Bow",
+   "actor": "herennius-bow",
+   "status": "active"
   }
  },
  "custom": {},
@@ -6340,6 +6376,2642 @@
    "price_cp": 20,
    "cmd": "inv pay",
    "n": 239
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "gp": 110
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 240
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aedo",
+     "gp": 50
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 241
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 242
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 243
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 244
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 245
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 246
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "#w24",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w24",
+     "key": "staff",
+     "row": "Staff",
+     "table": "weapons-other-weapons",
+     "table_row": 9,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d4",
+      "2h": "1d6"
+     },
+     "types": [
+      "bludgeoning"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-other-weapons",
+        "row": 9
+       }
+      }
+     }
+    }
+   ],
+   "n": 247
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "#w25",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w25",
+     "key": "dagger",
+     "row": "Dagger",
+     "table": "weapons-swords-daggers",
+     "table_row": 1,
+     "type": "Tiny Melee/Missile",
+     "size": "Tiny",
+     "dice": {
+      "1h": "1d4",
+      "2h": "1d4"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Thrown"
+     ],
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 1
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 1
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 1
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 1
+       }
+      }
+     }
+    }
+   ],
+   "n": 248
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "holy symbol",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 249
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "holy water (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 250
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 251
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 252
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 253
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 254
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 255
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 256
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 257
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "#w26",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w26",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 258
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "#w27",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w27",
+     "key": "short bow",
+     "row": "Short Bow",
+     "table": "weapons-bows-crossbows",
+     "table_row": 5,
+     "type": "Missile",
+     "size": null,
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [],
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     }
+    }
+   ],
+   "n": 259
+  },
+  {
+   "op": "add",
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 260
+  },
+  {
+   "op": "pay",
+   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "sp": 1,
+     "gp": -86
+    }
+   ],
+   "to": "outfitters (character creation)",
+   "price_cp": 8590,
+   "cmd": "inv pay",
+   "n": 261
+  },
+  {
+   "op": "pay",
+   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aedo",
+     "sp": 1,
+     "gp": -48
+    }
+   ],
+   "to": "outfitters (character creation)",
+   "price_cp": 4790,
+   "cmd": "inv pay",
+   "n": 262
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to septimia: 7 days of iron rations; supplies: octavia food 0 d, water 1 d, firewood 0 st; fulvia food 0 d, water 1 d, firewood 0 st; eskil food 0 d, water 1 d, firewood 0 st; gaius-rufo food 0 d, water 0 d, firewood 0 st; ione food 0 d, water 0 d, firewood 0 st; septimia food 7 d, water 0 d, firewood 0 st; aedo food 0 d, water 0 d, firewood 0 st",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 263
+  },
+  {
+   "op": "provision",
+   "cause": "packed as supplies: supplies added to aedo: 7 days of iron rations; supplies: octavia food 0 d, water 1 d, firewood 0 st; fulvia food 0 d, water 1 d, firewood 0 st; eskil food 0 d, water 1 d, firewood 0 st; gaius-rufo food 0 d, water 0 d, firewood 0 st; ione food 0 d, water 0 d, firewood 0 st; septimia food 7 d, water 0 d, firewood 0 st; aedo food 7 d, water 0 d, firewood 0 st",
+   "day": 28,
+   "time": "day 28 19:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv provision",
+   "n": 264
+  },
+  {
+   "op": "remove",
+   "cause": "taken from the body in 21.20 before the legate's patrol came (day 29)",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:sextus-varo",
+     "item": "#w22",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "stolen",
+   "cmd": "inv remove",
+   "n": 265
+  },
+  {
+   "op": "remove",
+   "cause": "taken from the body in 21.20 before the legate's patrol came (day 29)",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:sextus-varo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "stolen",
+   "cmd": "inv remove",
+   "n": 266
+  },
+  {
+   "op": "remove",
+   "cause": "taken from the body in 21.20 before the legate's patrol came (day 29)",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:sextus-varo",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "stolen",
+   "cmd": "inv remove",
+   "n": 267
+  },
+  {
+   "op": "remove",
+   "cause": "taken from the body in 21.20 before the legate's patrol came (day 29)",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:sextus-varo",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "stolen",
+   "cmd": "inv remove",
+   "n": 268
+  },
+  {
+   "op": "remove",
+   "cause": "taken from the body in 21.20 before the legate's patrol came (day 29)",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:sextus-varo",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "stolen",
+   "cmd": "inv remove",
+   "n": 269
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "#w1",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w1",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 270
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "#w2",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w2",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 271
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "#w3",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w3",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 272
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "#w4",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w4",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 273
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "#w5",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w5",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 274
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 275
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "chain mail armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "chain mail armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 276
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 277
+  },
+  {
+   "op": "give",
+   "cause": "body:lepidus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:lepidus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 278
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "#w6",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w6",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 279
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "#w7",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w7",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 280
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 281
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "chain mail armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "chain mail armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 282
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 283
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "holy water (1 pint)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "holy water (1 pint)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 284
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 285
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 286
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "#w10",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w10",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 287
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "#w11",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w11",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 288
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "#w9",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "#w9",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 289
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 290
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 291
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 292
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 293
+  },
+  {
+   "op": "give",
+   "cause": "body:aurelia gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:aurelia",
+     "item": "sling stone",
+     "slot": "here",
+     "qty": -30
+    },
+    {
+     "who": "company-chest",
+     "item": "sling stone",
+     "slot": "here",
+     "qty": 30
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 294
+  },
+  {
+   "op": "give",
+   "cause": "body:silvanus gives to company-chest",
+   "day": 29,
+   "time": "day 29 06:40",
+   "deltas": [
+    {
+     "who": "body:silvanus",
+     "item": "arrow",
+     "slot": "here",
+     "qty": -20
+    },
+    {
+     "who": "company-chest",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 295
+  },
+  {
+   "op": "pay",
+   "cause": "burial of Lepidus' remains (day 30)",
+   "day": 30,
+   "time": "day 30 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "gp": -2
+    }
+   ],
+   "to": "the fort's gravediggers",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 296
+  },
+  {
+   "op": "pay",
+   "cause": "burial of Aurelia (day 30)",
+   "day": 30,
+   "time": "day 30 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -2
+    }
+   ],
+   "to": "the fort's gravediggers",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 297
+  },
+  {
+   "op": "pay",
+   "cause": "burial of Silvanus (day 30)",
+   "day": 30,
+   "time": "day 30 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -2
+    }
+   ],
+   "to": "the fort's gravediggers",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 298
+  },
+  {
+   "op": "pay",
+   "cause": "burial of Sextus Varo (day 30)",
+   "day": 30,
+   "time": "day 30 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -2
+    }
+   ],
+   "to": "the fort's gravediggers",
+   "price_cp": 200,
+   "cmd": "inv pay",
+   "n": 299
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 31,
+   "time": "day 31 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 300
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 301
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 302
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 303
+  },
+  {
+   "op": "pay",
+   "cause": "signing gift: a month's wage",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "gp": -12
+    }
+   ],
+   "to": "Tullus Brocchus",
+   "price_cp": 1200,
+   "cmd": "inv pay",
+   "n": 304
+  },
+  {
+   "op": "receive",
+   "cause": "signing gift",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tullus-brocchus",
+     "gp": 12
+    }
+   ],
+   "frm": "Octavia",
+   "cmd": "inv receive",
+   "n": 305
+  },
+  {
+   "op": "pay",
+   "cause": "signing gift: a week's wage",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -3
+    }
+   ],
+   "to": "Decimus Ruga",
+   "price_cp": 300,
+   "cmd": "inv pay",
+   "n": 306
+  },
+  {
+   "op": "receive",
+   "cause": "signing gift",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "decimus-ruga",
+     "gp": 3
+    }
+   ],
+   "frm": "Eskil",
+   "cmd": "inv receive",
+   "n": 307
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 308
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 309
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 310
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "#w28",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w28",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 311
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "#w29",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w29",
+     "key": "sword",
+     "row": "Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 4,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 312
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 313
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 314
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 315
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 316
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "#w30",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w30",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 317
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "#w31",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w31",
+     "key": "sword",
+     "row": "Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 4,
+     "type": "Medium Melee",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 318
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 319
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 320
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 321
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "#w32",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w32",
+     "key": "short bow",
+     "row": "Short Bow",
+     "table": "weapons-bows-crossbows",
+     "table_row": 5,
+     "type": "Missile",
+     "size": null,
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [],
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-bows-crossbows",
+        "row": 5
+       }
+      }
+     }
+    }
+   ],
+   "n": 322
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 323
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "#w33",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "new_instances": [
+    {
+     "id": "w33",
+     "key": "short sword",
+     "row": "Short Sword",
+     "table": "weapons-swords-daggers",
+     "table_row": 3,
+     "type": "Small Melee",
+     "size": "Small",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d6"
+     },
+     "types": [
+      "piercing",
+      "slashing"
+     ],
+     "special": [],
+     "range": null,
+     "grip": 1,
+     "lot": null,
+     "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 3
+       }
+      }
+     }
+    }
+   ],
+   "n": 324
+  },
+  {
+   "op": "add",
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "day": 31,
+   "time": "day 31 10:40",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 325
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "#w34",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -30
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 2,
+   "row": "Silver Dagger",
+   "packs": 1,
+   "price_cp": 3000,
+   "cmd": "inv buy",
+   "new_instances": [
+    {
+     "id": "w34",
+     "key": "silver dagger",
+     "row": "Silver Dagger",
+     "table": "weapons-swords-daggers",
+     "table_row": 2,
+     "type": "Tiny Melee/Missile",
+     "size": "Tiny",
+     "dice": {
+      "1h": "1d4",
+      "2h": "1d4"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Silver",
+      "Thrown"
+     ],
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "bought in Turos Tem",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 2
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 2
+       }
+      }
+     },
+     "silvered": {
+      "value": true,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 2
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-swords-daggers",
+        "row": 2
+       }
+      }
+     }
+    }
+   ],
+   "n": 326
+  },
+  {
+   "op": "give",
+   "cause": "company-chest gives to aedo",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "aedo",
+     "item": "shield",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 327
+  },
+  {
+   "op": "give",
+   "cause": "aedo gives to company-chest",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 328
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "silver arrow",
+     "slot": "backpack",
+     "qty": 3
+    }
+   ],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -15
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 2,
+   "row": "1 Silver Arrow",
+   "packs": 3,
+   "price_cp": 1500,
+   "cmd": "inv buy",
+   "n": 329
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to herennius-bow",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "silver arrow",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "herennius-bow",
+     "item": "silver arrow",
+     "slot": "backpack",
+     "qty": 3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 330
+  },
+  {
+   "op": "give",
+   "cause": "aedo gives to company-chest",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "company-chest",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 331
+  },
+  {
+   "op": "give",
+   "cause": "company-chest gives to aedo",
+   "day": 32,
+   "time": "day 32 06:40",
+   "deltas": [
+    {
+     "who": "company-chest",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "aedo",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 332
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "cp": 5,
+     "sp": 1,
+     "gp": -4
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 385,
+   "cmd": "inv pay",
+   "n": 333
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "cp": -5,
+     "sp": 2,
+     "gp": -4
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 385,
+   "cmd": "inv pay",
+   "n": 334
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "cp": -5,
+     "sp": 2,
+     "gp": -4
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 385,
+   "cmd": "inv pay",
+   "n": 335
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "cp": 5,
+     "sp": 1,
+     "gp": -4
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 385,
+   "cmd": "inv pay",
+   "n": 336
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "cp": 5,
+     "sp": -1,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 105,
+   "cmd": "inv pay",
+   "n": 337
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aedo",
+     "cp": 5,
+     "sp": -1,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 105,
+   "cmd": "inv pay",
+   "n": 338
+  },
+  {
+   "op": "pay",
+   "cause": "stabling the donkey, nights of days 29-35",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "sp": -4,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 140,
+   "cmd": "inv pay",
+   "n": 339
+  },
+  {
+   "op": "pay",
+   "cause": "a wooden peg for the lost foot (Judge's price; AX1 Appendix III not printed)",
+   "day": 35,
+   "time": "day 35 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "gp": -5
+    }
+   ],
+   "to": "the hospital storerooms",
+   "price_cp": 500,
+   "cmd": "inv pay",
+   "n": 340
   }
  ],
  "holdings": {
@@ -6368,7 +9040,8 @@
     "tinderbox (flint & steel)": 1,
     "torch": 6,
     "thieves' tools": 1,
-    "sack, large (holds 6 stone)": 1
+    "sack, large (holds 6 stone)": 1,
+    "#w34": 1
    },
    "armor": {
     "leather armor": 1
@@ -6451,70 +9124,154 @@
   },
   "body:lepidus": {
    "here": {
-    "chain mail armor": 1,
-    "shield": 1,
+    "waterskin": 4
+   }
+  },
+  "body:aurelia": {
+   "here": {
+    "waterskin": 4
+   }
+  },
+  "body:silvanus": {
+   "here": {
+    "waterskin": 5
+   }
+  },
+  "septimia": {
+   "back": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "holy water (1 pint)": 2
+   },
+   "right_hand": {
+    "#w24": 1
+   },
+   "belt": {
+    "#w25": 1,
+    "holy symbol": 1
+   }
+  },
+  "aedo": {
+   "back": {
+    "backpack (holds 4 stone)": 1,
+    "#w27": 1
+   },
+   "backpack": {
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "shield": 1
+   },
+   "armor": {
+    "scale armor": 1
+   },
+   "right_hand": {
+    "#w26": 1
+   },
+   "belt": {
+    "arrow": 20
+   }
+  },
+  "company-chest": {
+   "here": {
     "#w1": 1,
     "#w2": 1,
     "#w3": 1,
     "#w4": 1,
     "#w5": 1,
-    "backpack (holds 4 stone)": 1,
-    "waterskin": 4,
-    "tinderbox (flint & steel)": 1
-   }
-  },
-  "body:aurelia": {
-   "here": {
-    "chain mail armor": 1,
-    "shield": 1,
+    "backpack (holds 4 stone)": 3,
+    "chain mail armor": 2,
+    "shield": 3,
+    "tinderbox (flint & steel)": 3,
     "#w6": 1,
-    "holy symbol": 1,
     "#w7": 1,
-    "sling stone": 30,
-    "backpack (holds 4 stone)": 1,
-    "waterskin": 4,
-    "tinderbox (flint & steel)": 1,
-    "holy water (1 pint)": 1
-   }
-  },
-  "body:silvanus": {
-   "here": {
-    "backpack (holds 4 stone)": 1,
+    "holy symbol": 1,
+    "holy water (1 pint)": 1,
     "#w10": 1,
-    "waterskin": 5,
-    "tinderbox (flint & steel)": 1,
-    "scale armor": 1,
-    "shield": 1,
+    "#w11": 1,
     "#w9": 1,
+    "sling stone": 30,
     "arrow": 20,
-    "#w11": 1
+    "leather armor": 1
    }
   },
-  "body:sextus-varo": {
-   "here": {
-    "backpack (holds 4 stone)": 1,
-    "banded plate armor": 1,
-    "shield": 1,
-    "#w22": 1,
-    "waterskin": 1
+  "tullus-brocchus": {
+   "back": {
+    "backpack (holds 4 stone)": 1
+   },
+   "armor": {
+    "banded plate armor": 1
+   },
+   "left_hand": {
+    "shield": 1
+   },
+   "right_hand": {
+    "#w28": 1
+   },
+   "belt": {
+    "#w29": 1
+   },
+   "backpack": {
+    "waterskin": 5
+   }
+  },
+  "decimus-ruga": {
+   "back": {
+    "backpack (holds 4 stone)": 1
+   },
+   "armor": {
+    "banded plate armor": 1
+   },
+   "left_hand": {
+    "shield": 1
+   },
+   "right_hand": {
+    "#w30": 1
+   },
+   "belt": {
+    "#w31": 1
+   },
+   "backpack": {
+    "waterskin": 5
+   }
+  },
+  "herennius-bow": {
+   "back": {
+    "backpack (holds 4 stone)": 1
+   },
+   "armor": {
+    "leather armor": 1
+   },
+   "right_hand": {
+    "#w32": 1
+   },
+   "belt": {
+    "arrow": 20,
+    "#w33": 1
+   },
+   "backpack": {
+    "waterskin": 5,
+    "silver arrow": 3
    }
   }
  },
  "coins": {
   "octavia": {
-   "gp": 195,
-   "cp": 4,
-   "sp": 4
+   "gp": 165,
+   "cp": 9,
+   "sp": 5
   },
   "fulvia": {
-   "gp": 197,
-   "sp": 7,
-   "cp": 5
+   "gp": 134,
+   "sp": 9
   },
   "eskil": {
-   "gp": 196,
-   "sp": 5,
-   "cp": 5
+   "gp": 160,
+   "sp": 3
   },
   "ione": {
    "gp": 99,
@@ -6537,12 +9294,37 @@
    "gp": 4
   },
   "gaius-rufo": {
-   "cp": 3,
-   "sp": 3,
-   "gp": 96
+   "cp": 8,
+   "sp": 4,
+   "gp": 87
+  },
+  "septimia": {
+   "gp": 23,
+   "cp": 5
+  },
+  "aedo": {
+   "gp": 1,
+   "cp": 5
+  },
+  "tullus-brocchus": {
+   "gp": 12
+  },
+  "decimus-ruga": {
+   "gp": 3
   }
  },
- "rolls": {},
+ "rolls": {
+  "Turos Tem|2|Silver Dagger": {
+   "roll": 25,
+   "chance": "1/4",
+   "present": true
+  },
+  "Turos Tem|2|Dog, War": {
+   "roll": 98,
+   "chance": "1/4",
+   "present": false
+  }
+ },
  "instances": {
   "w1": {
    "id": "w1",
@@ -7967,6 +10749,681 @@
      "catalog": {
       "table": "weapons-swords-daggers",
       "row": 4
+     }
+    }
+   }
+  },
+  "w24": {
+   "id": "w24",
+   "key": "staff",
+   "row": "Staff",
+   "table": "weapons-other-weapons",
+   "table_row": 9,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d4",
+    "2h": "1d6"
+   },
+   "types": [
+    "bludgeoning"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-other-weapons",
+      "row": 9
+     }
+    }
+   }
+  },
+  "w25": {
+   "id": "w25",
+   "key": "dagger",
+   "row": "Dagger",
+   "table": "weapons-swords-daggers",
+   "table_row": 1,
+   "type": "Tiny Melee/Missile",
+   "size": "Tiny",
+   "dice": {
+    "1h": "1d4",
+    "2h": "1d4"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Thrown"
+   ],
+   "range": {
+    "short": 15,
+    "medium": 30,
+    "long": 45
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 1
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 1
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 1
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 1
+     }
+    }
+   }
+  },
+  "w26": {
+   "id": "w26",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w27": {
+   "id": "w27",
+   "key": "short bow",
+   "row": "Short Bow",
+   "table": "weapons-bows-crossbows",
+   "table_row": 5,
+   "type": "Missile",
+   "size": null,
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [],
+   "range": {
+    "short": 75,
+    "medium": 150,
+    "long": 300
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   }
+  },
+  "w28": {
+   "id": "w28",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w29": {
+   "id": "w29",
+   "key": "sword",
+   "row": "Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 4,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w30": {
+   "id": "w30",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w31": {
+   "id": "w31",
+   "key": "sword",
+   "row": "Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 4,
+   "type": "Medium Melee",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 4
+     }
+    }
+   }
+  },
+  "w32": {
+   "id": "w32",
+   "key": "short bow",
+   "row": "Short Bow",
+   "table": "weapons-bows-crossbows",
+   "table_row": 5,
+   "type": "Missile",
+   "size": null,
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [],
+   "range": {
+    "short": 75,
+    "medium": 150,
+    "long": 300
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-bows-crossbows",
+      "row": 5
+     }
+    }
+   }
+  },
+  "w33": {
+   "id": "w33",
+   "key": "short sword",
+   "row": "Short Sword",
+   "table": "weapons-swords-daggers",
+   "table_row": 3,
+   "type": "Small Melee",
+   "size": "Small",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d6"
+   },
+   "types": [
+    "piercing",
+    "slashing"
+   ],
+   "special": [],
+   "range": null,
+   "grip": 1,
+   "lot": null,
+   "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 3
+     }
+    }
+   }
+  },
+  "w34": {
+   "id": "w34",
+   "key": "silver dagger",
+   "row": "Silver Dagger",
+   "table": "weapons-swords-daggers",
+   "table_row": 2,
+   "type": "Tiny Melee/Missile",
+   "size": "Tiny",
+   "dice": {
+    "1h": "1d4",
+    "2h": "1d4"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Silver",
+    "Thrown"
+   ],
+   "range": {
+    "short": 15,
+    "medium": 30,
+    "long": 45
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "bought in Turos Tem",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 2
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 2
+     }
+    }
+   },
+   "silvered": {
+    "value": true,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 2
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-swords-daggers",
+      "row": 2
      }
     }
    }

@@ -463,3 +463,7 @@ factions and events do not hold. Run-3 rows carry the session as `R3 S##`.
 | 2026-11-25 | R3 S05 | A man-eater (Victory or Death) with fallen prey and others fleeing | It stops to feed on the first fallen; anyone coming back within its reach is attacked on 1-2 on 1d6 | Judge's call |
 | 2026-11-25 | R3 S05 | Arrival at a settlement in its own hex at half speed | The party in the settlement's hex at the end of a travel day reaches it (`location --settlement`) | Judge's call |
 | 2026-11-25 | R3 S05 | Can an incapacitated (bed rest) caster cast a cure? | No (RR p. 511: cannot cast spells) | RR p. 511 |
+| 2026-11-25 | R3 S06 | A new character from a back-up: how are his attributes entered? | The back-up draft (already rolled in S01) is renamed to the new id and carried on through `chargen` (class, hp, gold …) | Judge's call (RR p. 13) |
+| 2026-11-25 | R3 S06 | A 6th-level mage's lore on a monster (Malyn, the devil boar) | A throw of 13+ (Loremastery's 18+ less 1 per level above 1st) | Judge's call (RR p. 112) |
+| 2026-11-25 | R3 S06 | Bringing in bodies left in a dangerous hex by a Friendly ruler's patrol | By day with a cart; 1 on 1d6 one body is stripped; 1 on 1d6 the patrol meets the hex's danger | Judge's call |
+| 2026-11-25 | R3 S06 | A wooden peg for a lost foot | 5gp at the hospital storerooms (AX1 Appendix III prices not printed) | Judge's call |

@@ -129,3 +129,27 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 28 | Traveler's Inn | private room and meals, day 28 (bed rest) |  |  | 5sp 5cp | eskil |
 | 28 | Traveler's Inn | private room and meals, day 28 (bed rest) |  |  | 5sp 5cp | gaius-rufo |
 | 28 | Traveler's Inn | stabling the donkey, night of day 28 |  |  | 2sp | eskil |
+| 28 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 85gp 9sp | septimia |
+| 28 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 47gp 9sp | aedo |
+| 30 | the fort's gravediggers | burial of Lepidus' remains (day 30) |  |  | 2gp | octavia |
+| 30 | the fort's gravediggers | burial of Aurelia (day 30) |  |  | 2gp | fulvia |
+| 30 | the fort's gravediggers | burial of Silvanus (day 30) |  |  | 2gp | eskil |
+| 30 | the fort's gravediggers | burial of Sextus Varo (day 30) |  |  | 2gp | eskil |
+| 31 | the retinue | wages paid |  |  | 12gp | eskil |
+| 31 | the retinue | wages paid |  |  | 12gp | octavia |
+| 31 | the retinue | wages paid |  |  | 12gp | eskil |
+| 31 | the retinue | wages paid |  |  | 12gp | fulvia |
+| 31 | Tullus Brocchus | signing gift: a month's wage |  |  | 12gp | octavia |
+| 31 | Octavia | signing gift |  | 12gp |  | tullus-brocchus |
+| 31 | Decimus Ruga | signing gift: a week's wage |  |  | 3gp | eskil |
+| 31 | Eskil | signing gift |  | 3gp |  | decimus-ruga |
+| 32 | Turos Tem | Silver Dagger | 1 |  | 30gp | fulvia |
+| 32 | Turos Tem | silver arrow | 3 |  | 15gp | fulvia |
+| 35 | Traveler's Inn | private room and meals, nights of days 29-35 |  |  | 3gp 8sp 5cp | octavia |
+| 35 | Traveler's Inn | private room and meals, nights of days 29-35 |  |  | 3gp 8sp 5cp | fulvia |
+| 35 | Traveler's Inn | private room and meals, nights of days 29-35 |  |  | 3gp 8sp 5cp | eskil |
+| 35 | Traveler's Inn | private room and meals, nights of days 29-35 |  |  | 3gp 8sp 5cp | gaius-rufo |
+| 35 | Traveler's Inn | courtyard and meals, nights of days 29-35 |  |  | 1gp 5cp | septimia |
+| 35 | Traveler's Inn | courtyard and meals, nights of days 29-35 |  |  | 1gp 5cp | aedo |
+| 35 | Traveler's Inn | stabling the donkey, nights of days 29-35 |  |  | 1gp 4sp | eskil |
+| 35 | the hospital storerooms | a wooden peg for the lost foot (Judge's price; AX1 Appendix III not printed) |  |  | 5gp | gaius-rufo |

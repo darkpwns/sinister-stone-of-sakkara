@@ -19,3 +19,4 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Opinions of NPCs
 
 ## Henchmen and hirelings
+- S06: Aedo wears Silvanus' scale. Silvanus' hound is still with us.
