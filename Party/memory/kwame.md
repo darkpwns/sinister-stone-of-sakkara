@@ -10,6 +10,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 - S04: The spiked wolves. Eskil's gut will never be right (−4 to how folk take him).
 
 ## Debts
+- S07: Paid the legion 63 gold for Sextus' lost kit.
 
 ## Lessons learned
 

@@ -153,3 +153,31 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 35 | Traveler's Inn | courtyard and meals, nights of days 29-35 |  |  | 1gp 5cp | aedo |
 | 35 | Traveler's Inn | stabling the donkey, nights of days 29-35 |  |  | 1gp 4sp | eskil |
 | 35 | the hospital storerooms | a wooden peg for the lost foot (Judge's price; AX1 Appendix III not printed) |  |  | 5gp | gaius-rufo |
+| 37 | the legion's quartermaster | Sextus Varo's lost issue kit (banded plate, shield, spear), billed day 37 |  |  | 63gp | eskil |
+| 41 | Aedo | a loan to Aedo for his supplies (day 41) |  |  | 10gp | octavia |
+| 41 | Octavia | a loan from Octavia (day 41) |  | 10gp |  | aedo |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | fulvia |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | eskil |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | gaius-rufo |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | ione |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | tullus-brocchus |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | decimus-ruga |
+| 41 | Herennius Bow | two weeks' rations for Herennius |  |  | 2gp | fulvia |
+| 41 | Fulvia | rations money |  | 2gp |  | herennius-bow |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | herennius-bow |
+| 41 | Turos Tem | bought in Turos Tem |  |  | 10gp | fulvia |
+| 41 | Turos Tem | Oil, Common (1 pint) | 4 |  | 1gp 2sp | octavia |
+| 41 | Turos Tem | Sack, Large (holds 6 stone) | 1 |  | 8sp | octavia |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | octavia |
+| 41 | Turos Tem | Sack, Large (holds 6 stone) | 1 |  | 8sp | septimia |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | septimia |
+| 41 | Turos Tem | Sack, Large (holds 6 stone) | 1 |  | 8sp | aedo |
+| 41 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | aedo |
+| 41 | Traveler's Inn | private room and meals, nights of days 36-42 |  |  | 3gp 8sp 5cp | octavia |
+| 41 | Traveler's Inn | private room and meals, nights of days 36-42 |  |  | 3gp 8sp 5cp | fulvia |
+| 41 | Traveler's Inn | private room and meals, nights of days 36-42 |  |  | 3gp 8sp 5cp | eskil |
+| 41 | Traveler's Inn | private room and meals, nights of days 36-42 |  |  | 3gp 8sp 5cp | gaius-rufo |
+| 41 | Traveler's Inn | courtyard and meals, nights of days 36-42 |  |  | 1gp 5cp | septimia |
+| 41 | Traveler's Inn | courtyard and meals, nights of days 36-42 |  |  | 1gp 5cp | aedo |
+| 41 | Traveler's Inn | stabling the donkey, nights of days 36-42 |  |  | 1gp 4sp | eskil |
+| 41 | Traveler's Inn | stabling the second donkey, night of day 41 |  |  | 2sp | fulvia |

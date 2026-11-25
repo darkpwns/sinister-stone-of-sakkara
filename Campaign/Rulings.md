@@ -467,3 +467,4 @@ factions and events do not hold. Run-3 rows carry the session as `R3 S##`.
 | 2026-11-25 | R3 S06 | A 6th-level mage's lore on a monster (Malyn, the devil boar) | A throw of 13+ (Loremastery's 18+ less 1 per level above 1st) | Judge's call (RR p. 112) |
 | 2026-11-25 | R3 S06 | Bringing in bodies left in a dangerous hex by a Friendly ruler's patrol | By day with a cart; 1 on 1d6 one body is stripped; 1 on 1d6 the patrol meets the hex's danger | Judge's call |
 | 2026-11-25 | R3 S06 | A wooden peg for a lost foot | 5gp at the hospital storerooms (AX1 Appendix III prices not printed) | Judge's call |
+| 2026-11-25 | R3 S07 | The legion's lost issue kit (Sextus Varo, Rulings R3 S02) | The employer pays its list price when billed (63gp; billed day 37 on 1-2 on 1d6) | Judge's call |

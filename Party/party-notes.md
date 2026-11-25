@@ -33,7 +33,8 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
   dome of rock. Our black hill is that dome.
 
 ## Plans
-- S06: Wait for Eskil to rise (about day 42), or go without him; keep clear of the farms of 21.20 at night.
+- S07: Eskil is up (day 42). Two weeks' food each, two donkeys. Next: the black hill; through the kobolds (paid) to
+  the hobgoblins (friends); ask Thethamun the way to the Lady. Keep clear of the farms of 21.20, above all at night.
 - S05: A black boar the size of an ox in the farmland west of the fort, a day's walk out: our blades did not bite it;
   it killed Lepidus, Aurelia, Silvanus and Sextus. Never camp in 21.20 again; find out what it is (Malyn, Socolo).
 - S05: Bring the bodies home for burial (a cart; the quartermaster lends mounts). New companions for Ingrid and Tomasz.

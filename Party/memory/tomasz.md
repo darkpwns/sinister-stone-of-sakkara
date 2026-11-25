@@ -10,6 +10,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 - S05: The black boar that killed Silvanus.
 
 ## Debts
+- S07: Aedo owes Octavia 10 gold.
 
 ## Lessons learned
 - S04: The forest turns us north in drizzle and fog. Keep the sun on the right in the afternoon when going home.
