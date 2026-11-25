@@ -32,7 +32,11 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
 - S06: From Malyn's library: an old legend of a Zaharan temple in the Viaspen that the clerics of Law buried under a
   dome of rock. Our black hill is that dome.
 
+- S08: The hobgoblin guards came out and fought beside us against the rats. Thethamun's people keep faith.
+- S08: Rat bites carry sickness. Eskil is down with a fever; others may follow.
+
 ## Plans
+- S08: Rest and cures at the hospital; never march into the temple fatigued.
 - S07: Eskil is up (day 42). Two weeks' food each, two donkeys. Next: the black hill; through the kobolds (paid) to
   the hobgoblins (friends); ask Thethamun the way to the Lady. Keep clear of the farms of 21.20, above all at night.
 - S05: A black boar the size of an ox in the farmland west of the fort, a day's walk out: our blades did not bite it;

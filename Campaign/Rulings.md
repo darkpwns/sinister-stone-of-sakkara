@@ -468,3 +468,7 @@ factions and events do not hold. Run-3 rows carry the session as `R3 S##`.
 | 2026-11-25 | R3 S06 | Bringing in bodies left in a dangerous hex by a Friendly ruler's patrol | By day with a cart; 1 on 1d6 one body is stripped; 1 on 1d6 the patrol meets the hex's danger | Judge's call |
 | 2026-11-25 | R3 S06 | A wooden peg for a lost foot | 5gp at the hospital storerooms (AX1 Appendix III prices not printed) | Judge's call |
 | 2026-11-25 | R3 S07 | The legion's lost issue kit (Sextus Varo, Rulings R3 S02) | The employer pays its list price when billed (63gp; billed day 37 on 1-2 on 1d6) | Judge's call |
+| 2026-11-25 | R3 S08 | Small rocs met nesting in farmland: their +2 to avoid surprise 'in natural habitat'? | No (farmland is not their habitat) | Judge's call |
+| 2026-11-25 | R3 S08 | A Friendly tribe's guards and a fight at their door | They come out and join on 1-4 on 1d6 | Judge's call |
+| 2026-11-25 | R3 S08 | A character 'knocked out' (Mortal Wounds) who wakes at 1 hp: can he cast? | Yes: he is not on bed rest (it is 'magical healing or one night of bed rest'): Eskil cast his cure | Judge's reading (RR pp. 300-302) |
+| 2026-11-25 | R3 S08 | Lodging the sick at the hospital | A cot in the hospital courtyard, 1sp a night (Judge's price; AX1 gives the courtyard's healing, not its fee) | Judge's call |

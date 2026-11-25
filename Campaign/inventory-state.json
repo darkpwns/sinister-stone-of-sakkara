@@ -84,11 +84,33 @@
      "stabled": "Traveler's Inn",
      "day": 28,
      "cause": "in town"
+    },
+    {
+     "unstabled": "Traveler's Inn",
+     "day": 43,
+     "nights": 15,
+     "cause": null
+    },
+    {
+     "stabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 45,
+     "cause": "left with Ione at the entry"
+    },
+    {
+     "unstabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 46,
+     "nights": 1,
+     "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 49,
+     "cause": "in town"
     }
    ],
    "stabled": {
     "at": "Traveler's Inn",
-    "day": 28,
+    "day": 49,
     "cause": "in town"
    }
   },
@@ -174,10 +196,33 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by fulvia",
-   "owner": "fulvia"
+   "owner": "fulvia",
+   "history": [
+    {
+     "stabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 45,
+     "cause": "left with Ione at the entry"
+    },
+    {
+     "unstabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 46,
+     "nights": 1,
+     "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 49,
+     "cause": "in town"
+    }
+   ],
+   "stabled": {
+    "at": "Traveler's Inn",
+    "day": 49,
+    "cause": "in town"
+   }
   }
  },
  "custom": {},
@@ -9840,6 +9885,454 @@
    "price_cp": 20,
    "cmd": "inv pay",
    "n": 378
+  },
+  {
+   "op": "give",
+   "cause": "aedo gives to donkey2",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "donkey2",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 379
+  },
+  {
+   "op": "give",
+   "cause": "tullus-brocchus gives to donkey2",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "donkey2",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 380
+  },
+  {
+   "op": "give",
+   "cause": "decimus-ruga gives to donkey2",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [
+    {
+     "who": "decimus-ruga",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "donkey2",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": 3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 381
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 382
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 383
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 384
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 43,
+   "time": "day 43 05:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 385
+  },
+  {
+   "op": "light",
+   "cause": "torch9 lit (torch)",
+   "day": 45,
+   "time": "day 45 14:40",
+   "deltas": [
+    {
+     "who": "gaius-rufo",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch9",
+   "cmd": "light on",
+   "n": 386
+  },
+  {
+   "op": "light",
+   "cause": "lantern3 lit (lantern)",
+   "day": 45,
+   "time": "day 45 14:40",
+   "deltas": [
+    {
+     "who": "octavia",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern3",
+   "cmd": "light on",
+   "n": 387
+  },
+  {
+   "op": "wield",
+   "cause": "Dagger taken in hand",
+   "day": 45,
+   "time": "day 45 15:16",
+   "deltas": [
+    {
+     "who": "octavia",
+     "item": "#w8",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "octavia",
+     "item": "#w8",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w8",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 388
+  },
+  {
+   "op": "light",
+   "cause": "torch10 lit (torch)",
+   "day": 46,
+   "time": "day 46 06:26",
+   "deltas": [
+    {
+     "who": "gaius-rufo",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch10",
+   "cmd": "light on",
+   "n": 389
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 390
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 391
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 392
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 393
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 394
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 395
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 396
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 397
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 398
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 399
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 49",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "cp": 5,
+     "sp": -6
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 400
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 49",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "cp": -5,
+     "sp": -5
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 401
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 49",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "cp": 5,
+     "sp": -6
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 402
+  },
+  {
+   "op": "pay",
+   "cause": "a cot in the hospital courtyard, day 49 (Judge's price)",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "sp": 9,
+     "gp": -1
+    }
+   ],
+   "to": "the hospital of Mityara",
+   "price_cp": 10,
+   "cmd": "inv pay",
+   "n": 403
+  },
+  {
+   "op": "pay",
+   "cause": "a cot in the hospital courtyard, day 49 (Judge's price)",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aedo",
+     "sp": -1
+    }
+   ],
+   "to": "the hospital of Mityara",
+   "price_cp": 10,
+   "cmd": "inv pay",
+   "n": 404
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, day 49",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "cp": 5,
+     "sp": -2
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 15,
+   "cmd": "inv pay",
+   "n": 405
+  },
+  {
+   "op": "pay",
+   "cause": "stabling the two donkeys, night of day 49",
+   "day": 49,
+   "time": "day 49 14:16",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "sp": 6,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 40,
+   "cmd": "inv pay",
+   "n": 406
   }
  ],
  "holdings": {
@@ -9852,14 +10345,14 @@
     "waterskin": 5,
     "tinderbox (flint & steel)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 6,
+    "oil, common (1 pint)": 5,
     "mirror (hand-sized, steel)": 1
-   },
-   "belt": {
-    "#w8": 1
    },
    "worn": {
     "sack, large (holds 6 stone)": 1
+   },
+   "right_hand": {
+    "#w8": 1
    }
   },
   "fulvia": {
@@ -9938,7 +10431,7 @@
    "backpack": {
     "waterskin": 5,
     "tinderbox (flint & steel)": 1,
-    "torch": 3
+    "torch": 1
    }
   },
   "ione": {
@@ -9995,7 +10488,7 @@
     "#w27": 1
    },
    "backpack": {
-    "waterskin": 5,
+    "waterskin": 2,
     "tinderbox (flint & steel)": 1,
     "torch": 6,
     "shield": 1
@@ -10053,7 +10546,7 @@
     "#w29": 1
    },
    "backpack": {
-    "waterskin": 5
+    "waterskin": 2
    }
   },
   "decimus-ruga": {
@@ -10073,7 +10566,7 @@
     "#w31": 1
    },
    "backpack": {
-    "waterskin": 5
+    "waterskin": 2
    }
   },
   "herennius-bow": {
@@ -10094,21 +10587,26 @@
     "waterskin": 5,
     "silver arrow": 3
    }
+  },
+  "donkey2": {
+   "pack": {
+    "waterskin": 9
+   }
   }
  },
  "coins": {
   "octavia": {
-   "gp": 147,
-   "cp": 4,
-   "sp": 7
+   "gp": 135,
+   "cp": 9,
+   "sp": 1
   },
   "fulvia": {
-   "gp": 116,
-   "sp": 8,
-   "cp": 5
+   "gp": 103,
+   "sp": 9
   },
   "eskil": {
-   "gp": 90,
+   "gp": 65,
+   "sp": 9,
    "cp": 5
   },
   "ione": {
@@ -10132,17 +10630,16 @@
    "gp": 4
   },
   "gaius-rufo": {
-   "cp": 3,
-   "sp": 6,
+   "cp": 8,
    "gp": 81
   },
   "septimia": {
    "gp": 19,
-   "sp": 2
+   "cp": 5
   },
   "aedo": {
    "gp": 7,
-   "sp": 2
+   "sp": 1
   },
   "tullus-brocchus": {
    "gp": 10
@@ -12268,7 +12765,8 @@
   }
  },
  "notes_shown": [
-  "availability.month_reading"
+  "availability.month_reading",
+  "weapon.tiny_one_hand"
  ],
  "checkpoint": {
   "events": 6,

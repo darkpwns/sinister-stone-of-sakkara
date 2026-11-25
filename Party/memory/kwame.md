@@ -15,6 +15,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Lessons learned
 
 ## Opinions of NPCs
+- S08: Thethamun's guards fought for us. We owe them.
 - S03: Thethamun, the hobgoblin chief: a friend; Shulgi is his loyal blade. Urza the kobold: paid and done.
 - S02: The little door-guards can be talked round. The legate warms to a good dinner.
 

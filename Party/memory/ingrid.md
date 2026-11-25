@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S08: A forced march left us fatigued for the fight. Rest a day before going in.
 - S06: Septimia is the healer now; Aedo has Healing too. Two healers, as promised.
 - S05: Aurelia died because no one else could heal. Two healers always.
 - S04: Four days of food from the marsh was not enough once two men had to be carried. Never leave a site with less than a week's food.

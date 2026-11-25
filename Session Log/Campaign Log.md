@@ -21,3 +21,4 @@ Run 3 (from 2026-11-25). Earlier runs' logs: `Archive/Run 1 (S01-S54)/Session Lo
 - [[S05 — The Black Boar]] (2026-11-25): days 22-28; a man-eating boar kills Lepidus, Aurelia, Silvanus and Sextus; the survivors sell the silver and the eggs
 - [[S06 — Silver and Graves]] (2026-11-25): days 29-35; Septimia and Aedo join; the dead buried; three soldiers hired; the devil boar named
 - [[S07 — Waiting on Eskil]] (2026-11-25): days 36-42; town week; supplies for the next push; Eskil up
+- [[S08 — The Rat Tide]] (2026-11-25): days 43-49; a tide of giant rats at the hobgoblins' door; Aedo maimed; disease; home

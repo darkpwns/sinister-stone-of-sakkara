@@ -181,3 +181,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 41 | Traveler's Inn | courtyard and meals, nights of days 36-42 |  |  | 1gp 5cp | aedo |
 | 41 | Traveler's Inn | stabling the donkey, nights of days 36-42 |  |  | 1gp 4sp | eskil |
 | 41 | Traveler's Inn | stabling the second donkey, night of day 41 |  |  | 2sp | fulvia |
+| 43 | the retinue | wages paid |  |  | 12gp | eskil |
+| 43 | the retinue | wages paid |  |  | 12gp | octavia |
+| 43 | the retinue | wages paid |  |  | 12gp | eskil |
+| 43 | the retinue | wages paid |  |  | 12gp | fulvia |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 |  | treasure share |  |  |  |  |
+| 49 | Traveler's Inn | private room and meals, day 49 |  |  | 5sp 5cp | octavia |
+| 49 | Traveler's Inn | private room and meals, day 49 |  |  | 5sp 5cp | fulvia |
+| 49 | Traveler's Inn | private room and meals, day 49 |  |  | 5sp 5cp | gaius-rufo |
+| 49 | the hospital of Mityara | a cot in the hospital courtyard, day 49 (Judge's price) |  |  | 1sp | eskil |
+| 49 | the hospital of Mityara | a cot in the hospital courtyard, day 49 (Judge's price) |  |  | 1sp | aedo |
+| 49 | Traveler's Inn | courtyard and meals, day 49 |  |  | 1sp 5cp | septimia |
+| 49 | Traveler's Inn | stabling the two donkeys, night of day 49 |  |  | 4sp | fulvia |

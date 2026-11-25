@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 7
+session: 8
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,21 +10,23 @@ public:
   date:
     year: ''
     season: spring
-    day: 42
-  time: '18:40'
-  weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; misty; wind still
+    day: 49
+  time: '18:16'
+  weather: Brisk (63 to 67 F) by day, Chilly (57 to 62 F) at night; overcast; wind gentle
   place: Türos Tem
   hex: '22.20'
   party:
   - name: Eskil
     sheet: Characters/eskil.json
     role: pc
-    hp: 3
+    hp: 5
     hp_max: 5
     conditions:
-    - 'intestines mangled and ruined (Mortal Wounds, day 16): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
+    - 'intestines mangled and ruined (Mortal Wounds, day 16): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, -4 to reaction rolls'
+    - ghostly visions of lost companions (Mortal Wounds, day 45)
+    - 'symptomatic: Ague (incapacitated)'
     spells_used: []
-    encumbrance_st: 6.762
+    encumbrance_st: 6.746
   - name: Fulvia
     sheet: Characters/fulvia.json
     role: pc
@@ -32,24 +34,26 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.629
+    encumbrance_st: 5.612
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
     hp: 6
     hp_max: 6
-    conditions: []
+    conditions:
+    - 'symptomatic: Spotted Pox (incapacitated)'
     spells_used: []
-    encumbrance_st: 4.825
+    encumbrance_st: 4.645
   - name: Gaius Rufo
     sheet: Characters/gaius-rufo.json
     role: pc
-    hp: 5
+    hp: 3
     hp_max: 5
     conditions:
     - 'one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC'
+    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
-    encumbrance_st: 5.923
+    encumbrance_st: 5.589
   - name: Ione
     sheet: Characters/ione.json
     role: henchman
@@ -61,27 +65,31 @@ public:
   - name: Aedo
     sheet: Characters/aedo.json
     role: pc
-    hp: 5
+    hp: 1
     hp_max: 5
-    conditions: []
+    conditions:
+    - 'grievously wounded (day 45, giant rats): 2 weeks of bed rest'
+    - 'intestines mangled and ruined (Mortal Wounds, day 45): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
+    - 'calf almost chewed through (day 45): cannot force march unless mounted'
+    - 'symptomatic: Putrid Fever (incapacitated)'
     spells_used: []
-    encumbrance_st: 7.676
+    encumbrance_st: 7.175
   - name: Septimia
     sheet: Characters/septimia.json
     role: pc
-    hp: 4
+    hp: 3
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 4.021
+    encumbrance_st: 4.024
   - name: Decimus Ruga
     sheet: Characters/decimus-ruga.json
     role: henchman
-    hp: 3
+    hp: 1
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 8.168
+    encumbrance_st: 7.668
   - name: Herennius Bow
     sheet: Characters/herennius-bow.json
     role: henchman
@@ -93,22 +101,18 @@ public:
   - name: Tullus Brocchus
     sheet: Characters/tullus-brocchus.json
     role: henchman
-    hp: 5
+    hp: 1
     hp_max: 5
-    conditions: []
+    conditions:
+    - 'in shock (day 45): magical healing and a night of bed rest (given), or a week of rest'
+    - two fingers of one hand bitten off (Mortal Wounds, day 45)
     spells_used: []
-    encumbrance_st: 8.177
-  light: none
-  rations: 'Octavia: food 14 d, water 1 d; Fulvia: food 14 d, water 1 d; Eskil: food 14 d, water 1 d; Gaius Rufo: food 14 d, water 0 d; Ione: food 14 d, water 0 d; Septimia: food 21 d, water 0 d; Aedo: food 21 d, water 0 d; Tullus Brocchus: food 14 d, water 0 d; Decimus Ruga: food 14 d, water 0 d; Herennius Bow: food 14 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 7.677
+  light: torch (Gaius Rufo) out; lantern (Octavia) out; torch (Gaius Rufo) out
+  rations: 'Octavia: food 8 d, water 1 d (fatigued); Fulvia: food 8 d, water 0 d (fatigued); Eskil: food 8 d, water 0 d (fatigued); Gaius Rufo: food 8 d, water 0 d (fatigued); Septimia: food 20 d, water 0 d (fatigued); Aedo: food 15 d, water 0.4 d (fatigued, incapacitated); Tullus Brocchus: food 8 d, water 0 d (fatigued, incapacitated); Decimus Ruga: food 8 d, water 0 d (fatigued); Herennius Bow: food 8 d, water 0 d (fatigued); Ione: food 9 d, water 1 d'
   tracker: {}
   threads: []
   trail:
-  - '20.19'
-  - '19.19'
-  - '20.19'
-  - '21.20'
-  - '22.20'
-  - '21.20'
   - '20.19'
   - '19.19'
   - '20.19'
@@ -123,7 +127,13 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 42
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
+clock_day: 49
 ---
 # Campaign State
 
