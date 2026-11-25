@@ -204,3 +204,18 @@ target's AC without armor by the engine (7.19.26); set `state set ID ac_armorles
 or shield bonus counts. Undead at 0 hp are destroyed, also when hp is
 set by `state set ID hp=N`. **Step the round with `round-next`** and act for the combatant it names: the lessons index
 reminds when an action is taken out of its count.
+
+## Engine 7.23-7.24 (Sakkara run 2 requests)
+- **Allies and groups in one command:** `state add --group fangs --monster Gnoll --count 6 --hp 10,9,8,10,9,8 --weapon
+  "Battle Axe" --order close-and-attack --side party --perceived "Black Fang gnoll {n}"`; foes' hp from a module key the
+  same way (`--hp 20,15`); `state order --group fangs hold`.
+- **Leaders with their own damage** ('1d6+2 by weapon', Ur-Shet, Ulmash) attack with their statblock routine in
+  `round-auto`; `state set ID weapon=` clears a weapon.
+- **shoot-nearest** shoots from where the archer stands within long range, moves only into range, never engages.
+- A **cowering** foe stays a target: `round-auto` goes on to the party's attacks.
+- **Party spellcasting:** `cast ID SPELL --targets T` checks the caster's repertoire and spells per day and records
+  `state.spells_used`; outside a fight (cures in the den) the actor's hp are healed. A cure on a character at 0 hp or
+  below brings on his Mortal Wounds roll (+1 per level) and heals no damage (RR p. 302); a later cure heals from 0
+  (Campaign/engine-rulings.yaml `heal.below_zero: zero`, Rulings S07); a survivor owing bed rest stays at 1 hp.
+- **Companions:** a totem animal (`companion new|show|rescale|dies`) joins the fight with its owner; `state end`
+  writes its hp; its death costs the owner a Death save or its maximum hp and the totem benefit.

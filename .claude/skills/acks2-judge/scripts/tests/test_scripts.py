@@ -324,3 +324,48 @@ def test_compact_gets_the_inventory(camp):
     C = os.path.join(camp, "Campaign")
     env, line = argv_of(camp, "compact", "--inventory")
     assert f"--xstate {C}/exploration-state.json" in line and env["ACKS_ISTATE"].endswith("inventory-state.json")
+
+
+def test_stale_session_number_is_warned(camp):
+    """B3 (engine 7.23.0 work; Sakkara run 2 S02, S08): a new chat's rolls were logged under the last session's number.
+    The first command warns while the last logged roll is from an earlier day and has Campaign State's session."""
+    import re
+    import time
+    cs = open(os.path.join(camp, "Campaign", "Campaign State.md"), encoding="utf-8").read()
+    m = re.search(r"^session:\s*(\d+)", cs, re.M)
+    if not m:
+        pytest.skip("no session number in Campaign State")
+    log = os.path.join(camp, "Campaign", "roll-log.jsonl")
+    with open(log, "a", encoding="utf-8") as f:
+        f.write(json.dumps({"session": int(m.group(1)), "t": int(time.time()) - 3 * 86400, "vis": "open",
+                            "label": "x", "spec": "1d6", "rolls": [3], "mod_txt": "", "total": 3}) + "\n")
+    code, out = sh(camp, "roll", "x:1d6")
+    assert code == 0 and "WARNING (stale session)" in out, out
+    code, out = sh(camp, "roll", "x:1d6")                    # a roll today has been logged: no warning
+    assert "stale session" not in out
+
+
+def test_restore_cast_and_companion_get_their_states(camp):
+    env, line = argv_of(camp, "restore", "x", "--alignment", "lawful", "--caster-level", "3")
+    assert "--xstate" in line
+    env, line = argv_of(camp, "cast", "x", "Slumber")
+    assert "--xstate" in line and "--state" in line
+    env, line = argv_of(camp, "companion", "show", "x")
+    assert "--state" in line
+    for cmd in ("faction", "taint", "lodging", "lair-check", "downtime"):
+        env, line = argv_of(camp, cmd, "show")
+        assert "--xstate" in line and "--retinue" not in line, (cmd, line)
+
+
+def test_play_depart_refuses_without_downtime_when_required(camp):
+    """C7 (engine 7.24.0): the Sakkara table rule 'every PC and henchman has a downtime activity between adventures',
+    as the campaign setting party.downtime_required."""
+    need(camp, "Campaign/exploration-state.json")
+    cy = os.path.join(camp, "Campaign", "campaign.yaml")
+    txt = open(cy, encoding="utf-8").read()
+    if "\nparty:\n" not in txt:
+        pytest.skip("no party block")
+    open(cy, "w", encoding="utf-8").write(txt.replace("\nparty:\n", "\nparty:\n  downtime_required: true\n", 1))
+    m = first_member(camp)
+    code, out = sh(camp, "depart", "--return-day", "999", script="play.py")
+    assert f"downtime: {m} has no downtime activity" in out, out

@@ -99,3 +99,11 @@ log. If it refuses: record the missing event.
   holder, `inv holder add bag1 --kind container --cap 10 --weighs 6 --carrier lucilla --name "<what it is>"` (the
   note's capacity and weight); `inv give lucilla bag1 ITEM` puts things in (refused past --cap), and the carrier's
   encumbrance counts only --weighs. Never a cache holder plus an item.
+
+## Engine 7.23-7.24 (Sakkara run 2 requests)
+- `recover --goods "jar of oil" --value 100 --stone 5 --pieces 10`: a lot of like pieces that `--split L#:N` divides;
+  `recover --undo L#` voids a loose find (no hoard).
+- `train lot` of a creature captured in an adventure already paid out: its sale's XP goes to that payout's share-holders
+  by `payout --sale L#`.
+- `restore ID … --apply` (no roll without `--apply`) makes a restored character an active holder again with his
+  possessions back from `body:ID`.

@@ -55,3 +55,11 @@ write a number into the Judge's notes that the generated block can give. `brief.
 - An ESCALATE line clears when the hole is closed in the engine or a script and the lesson's `triggered_since` is set
   to the session the enforcement starts (`enforced_by` says what closes it); the S47-S48 escalations (wage-days,
   surprise-members, npc-rolls-hidden, driver-loop-stop) were closed so in S55.
+
+## Engine 7.23-7.24 (Sakkara run 2)
+- Lessons moved into the engine: `camp-past-encounter` (the encounter guards and the batch stop), `rest-due` (`turn`
+  refuses the sixth turn), `load-before-march` (`travel` refuses a movable slowing load): status `engine`.
+- **Runs:** a lesson may carry `run: N`; the index's top-level `run: N` names the current run; a lesson of another run
+  never fires and is left out of the brief and the escalations.
+- **Stale session number:** the first command of a process warns when Campaign State's `session:` is that of a roll
+  logged on an earlier day (`jacks.py`): set the new session number before rolling.

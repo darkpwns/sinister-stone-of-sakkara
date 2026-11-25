@@ -81,3 +81,23 @@ succeeds lets you narrate what is there; a failure says nothing either way.
   rollover runs rations (iron rations keep one week in a dungeon), water, sleep owed, fatigue (each hour of delving is
   strenuous) and healing; read its lines. Sleeping in the dungeon: `camp --watches … --hours 8` records the sleep and
   makes no wilderness night check; run the site's wandering checks for those hours (`wander-check`).
+
+## Engine 7.23-7.24 (Sakkara run 2 requests)
+- **Rest turns are enforced:** `turn N` refuses exploration that would pass the fifth turn without a rest turn
+  (RR p. 271): `rest` first, or `turn N --auto-rest` (rests whenever one falls due, as `play.py walk`); a Judge who
+  means it: `ACKS_ACK=rest-due`.
+- **An encounter is played before anything else:** `encounter end` refuses a wandering encounter that arrived and was
+  never played (no distance, surprise, reaction, evasion or fight) unless `--unplayed "why"`; `location` (a change),
+  `wait` and the day commands refuse while an encounter is unresolved (`ACKS_ACK=encounter-open`); `acks.sh batch`
+  stops after the command that brought an encounter and names it.
+- **Waiting at a site is rest:** `wait` in a dungeon counts as rest for fatigue, not delving (reading
+  `time.waiting_not_delving`); the line says what each day at the site counts as. A night slept there: `wait --hours N
+  --sleep [--armored IDS]` (or `camp`, as before).
+- **Room settings from the hub:** `Room R: <rate>[; table FILE] [(condition)]` lines in a hub's Running section;
+  `location --room R` applies them and the site's return when the party leaves the room; a setting that waits for
+  'once …' applies after `location --room R --cleared` (the ogre den, L2 7).
+- **Module stat lines:** `encounter start --placed --key "Adventure/Level 2 - Catacombs.md#7" --in-lair yes`: the
+  monster, number, hp list and a special weapon from the room key; `encounter fight` uses them (no `state set`).
+- **Taint (AX1 level 2):** `taint drink ID` (a save vs Spells or a mutation), `taint touch ID`, `taint immerse ID
+  --rounds N`, `taint show` from `Campaign/taint.yaml`; `reaction` sums the face's mutations. Water purified with
+  `water --purified-by ID` carries no taint.

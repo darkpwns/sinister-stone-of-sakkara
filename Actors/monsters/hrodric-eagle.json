@@ -1,0 +1,11 @@
+{
+"schema": "acks-actor/2",
+"id": "hrodric-eagle",
+"type": "monster",
+"name": "Hrodric's eagle",
+"state": {"hp_max":8,"hp":8},
+"changes": [{"cause":"made: owner level 3 (RR Shaman, Totem Animal)","hd":"2","hp_max":8,"ac":3}],
+"base": "medium-raptor",
+"overrides": {"hd":{"text":"2","dice":2,"half":false,"bonus":0,"stars":0,"attack_hd":2},"ac":3,"save_as":["F",1],"attacks":[{"count":2,"names":["talons"],"raw":"2 (talons 12+)","throw":9}],"damage":[{"pieces":[{"dice":"1d4+1","extraordinary":false,"raw":"1d4+1","types":["slashing"]},{"dice":"1d4","extraordinary":false,"raw":"1d4","types":["slashing"]}],"raw":"1d4+1 / 1d4"}]},
+"companion": {"owner":"hrodric","rule":"shaman-totem","totem":"Eagle","damage":"1d4+1/1d4","level":3,"status":"alive"}
+}

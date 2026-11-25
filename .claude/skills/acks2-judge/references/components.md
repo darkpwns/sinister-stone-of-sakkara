@@ -24,3 +24,9 @@ Load when a slain monster's parts are identified, harvested, preserved, sold or 
 - Not in the engine: mundane parts (pelts, horns, feathers, venoms: the tables' notes), the optional permanent-wounds
   check (`components.permanent_wounds` is off), the hunter henchman's fortnightly hunts (Rulings S47: run `harvest` on
   what he kills).
+
+## Engine 7.24 (Sakkara run 2 requests)
+- A monster with no row on its type's table (gnoll, stirge, ogre): its components are worth its XP value (MM p. 372):
+  the statblock's spoils where it has them (the ogre's knucklebones, 140gp), else one part the Judge names: `harvest
+  BODY --by ID --component "canine teeth" --kind "canine teeth:appendage"`. Fewer metamphora than the value needs keep
+  60gp each; the rest spoils (Rulings R2 S05, R2 S13). No more `recover --goods` plus `inv remove`.

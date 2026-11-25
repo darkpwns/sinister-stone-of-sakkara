@@ -1,10 +1,18 @@
 ---
 type: companion
 owner: hrodric
+actor: hrodric-eagle
 tags:
 - sakkara/characters
 ---
 # Hrodric's eagle (totem animal)
+
+**From engine 7.24.0 the eagle is the companion actor `hrodric-eagle` (`Actors/monsters/hrodric-eagle.json`, migrated
+day 95 from the numbers below: HD 2, hp 8/8, AC 3, talons 1d4+1 / 1d4, 9+, F1).** Its hp are the actor's state;
+`acks.sh companion show hrodric-eagle`; it joins a fight with Hrodric (`state add hrodric --side party`); `state end`
+writes its hp; its death (`companion dies hrodric-eagle`, or slain in a fight) makes Hrodric's Death save or costs him
+its maximum hp and removes Command; `level-up hrodric --apply` rescales it (the Judge gives the new dice: `companion
+rescale hrodric-eagle --damage D/D`). The record below is kept as the history; the hand procedure is retired.
 
 Hrodric's totem animal (RR Shaman, Totem Animal; chosen at creation, S01). Kept by hand until the engine models totem
 animals (the user, 2026-11-24: to be added after the Sakkara playtest, before SOTN). Its current hp are kept on this

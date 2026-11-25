@@ -111,3 +111,21 @@ A published module that gives its own encounter check and table for some hexes (
   back into the travel state (then `heal ID --bed-rest N` from a Mortal Wounds result). Mortal Wounds deadlines
   ("within 1 day") are the Judge's: the engine heals on whole rest days (a day with travel is not one).
 - Hidden rolls and the true hex while lost go in the session log's Judge block.
+
+## Engine 7.23-7.24 (Sakkara run 2 requests)
+- A travel line's 'ENCOUNTER … N miles into the hex' is stored at once as a pending encounter: the travel that reaches
+  its mile begins it; `encounter start --wild --kind pending` begins it where the party stopped; `location` refuses
+  until it is met; the line names the hex's settlement when it is the destination. `travel --to` the hex the party is
+  in crosses the rest of it or names the settlement arrival (`location --settlement`).
+- `camp`, `wait`, `travel`, `rest-day`, `water`, `forage`, `hunt`, `fish`, `search`, `firewood` refuse while an
+  encounter is unresolved.
+- **Loads before the march:** `travel` refuses while a member is slower than the column and his load could ride a
+  pack animal with room; the line names the items, the animal and the miles a day gained (`inv give`, `supplies show
+  ID --on ANIMAL`; `ACKS_ACK=load-before-march` to march anyway).
+- **Water:** a pack animal nobody's supplies ride on (its riders dead) serves the company with its waterskins; a dead
+  carrier's water stays with his group's skins or goes with his body (said); `water` names each animal's daily water
+  and counts it watered. `water --purified-by ID` (Purify Food and Water) fills the skins and spends the slot.
+- **A night outside a settlement without camp:** `wait --hours N --sleep [--armored IDS]`.
+- **Lodging:** `lodging --inn "Traveler's Inn" --nights N --members … --animals donkey1:draft --payer faustina` by
+  `Campaign/lodging.yaml` (or RR p. 131); `downtime ID --activity "…" --from D --to D` before `play.py depart` (the
+  table rule: `party.downtime_required` in campaign.yaml).

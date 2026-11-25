@@ -18,8 +18,8 @@ rules:
 tools:
   repo: darkpwns/acks2-tools
   clone_dir: /home/claude/acks2-tools
-  ref: ccr-6e7c0096-7nmfvu
-  min_version: 7.22.1
+  ref: ccr-b02f6c10-76g9ec
+  min_version: 7.24.0
   setup: setup.sh
   wrapper: .claude/skills/acks2-judge/scripts/acks.sh
   combat_state: Campaign/combat-state.json
@@ -122,6 +122,7 @@ procedures:
 display: {}
 party:
   structure: ai-party
+  downtime_required: true      # engine 7.24.0 (C7): the table rule; play.py depart refuses until each PC and henchman has one
   caller: gideon
   user_pc: ''
   active_players:

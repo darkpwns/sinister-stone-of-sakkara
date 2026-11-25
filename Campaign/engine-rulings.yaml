@@ -6,7 +6,11 @@
 #     date: 2026-12-01
 #     ruling: "Rulings.md 2026-12-01: morale modifier lines stack"
 schema: acks-rulings/1
-rulings: []
+rulings:
+  - rule: heal.below_zero
+    value: zero
+    date: 2026-11-21
+    ruling: "Rulings S07: a cure on a character below 0 hp heals from 0 (the negative total serves only the Mortal Wounds roll); held for engine 7.23.0's `cast`"
 # Door kinds (engine 7.17.2): a row here wins over the module's doors table (Adventure/SOTN/Tables/doors.yaml) for
 # `explore force-door --door-kind NAME` and is printed as "Judge's ruling (date)".
 doors:

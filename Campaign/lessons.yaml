@@ -5,6 +5,7 @@
 # judge = prose only. A slip is recorded with `acks.sh lesson slip ID --day N --note "…"` (Campaign/slips.jsonl);
 # `acks.sh lesson check` lists what to escalate. Judge only.
 schema: acks-lessons/1
+run: 2                       # the current run (engine 7.24.0, B4): a lesson with `run: 1` no longer fires
 lessons:
 
 # ---- the sixteen kinds of slip recorded through S28 (Playtest/OPEN-ITEMS.md section D)
@@ -291,6 +292,7 @@ lessons:
 
 - id: secret-entries-first
   category: town-routine
+  run: 1                              # engine 7.24.0 (B4): never fires in run 2
   status: judge                       # scoped to run 1 (user, 2026-11-24): was refuse; it fired on every `schedule run --due`
   scope: "run 1 (S01-S54) only: the Family's (thieves' guild's) weekly secret; run 2 has no such schedule item. Restore status refuse only if a run-2 schedule gains a weekly-secret item"
   since: S47
@@ -337,31 +339,35 @@ lessons:
 # ---- run 2 (from 2026-11-24)
 - id: camp-past-encounter
   category: overland
-  status: refuse
+  status: engine
+  triggered_since: R2 S13
   since: R2 S03
   on: [camp, rest-day, water, travel, forced-march, wait, forage, hunt, search, firewood]
   where: ["encounter.open"]
-  triggered_since: R2 S09
-  enforced_by: "R2 S09: the refusal widened from camp to every wilderness day command (a batch ran water and rest-day past the 03:30 goblins, day 65)"
   text: "an encounter is open (a night encounter the camp stopped at): resolve it (`encounter surprise|reaction|fight`, then `encounter end`) and `camp --resume`; a second `camp` ran 12 hours past the wraiths (Rulings R2 S03)"
   source: "R2 S03 day 8 (Tertia's death replayed)"
+  enforced_by: "engine 7.23.0 (A1): encounter end refuses an arrived unplayed encounter without --unplayed; acks.sh batch stops after a command that brought one; camp, wait, travel, location and the day commands refuse while one is unresolved (ACKS_ACK=encounter-open)"
 
 - id: load-before-march
   category: overland
-  status: remind
+  status: engine
+  triggered_since: R2 S13
   since: R2 S02
   on: [travel, forced-march]
   text: "after any load change, check that every `inv give` went through and every member's `move-rate` band is what the march needs: one refused give left Galerius at 30' for an afternoon"
   source: "R2 S02 day 5"
+  enforced_by: "engine 7.23.0 (B2): travel refuses while a member is slower than the column and his load could ride a pack animal with room; it names the items, the animal and the miles gained (ACKS_ACK=load-before-march)"
 
 - id: rest-due
   category: dungeon
-  status: remind
+  status: engine
+  triggered_since: R2 S13
   since: R2 S02
   on: [turn]
   where: ["location.kind == dungeon"]
   text: "a rest turn after every five turns in a dungeon (`rest`); the line says 'rest due': the party left the temple winded on day 4"
   source: "R2 S02 day 4"
+  enforced_by: "engine 7.23.0 (B1): turn refuses the sixth dungeon turn without a rest turn (ACKS_ACK=rest-due); turn N --auto-rest"
 
 - id: familiar-guide
   category: overland

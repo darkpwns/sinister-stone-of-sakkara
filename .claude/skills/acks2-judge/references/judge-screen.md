@@ -170,3 +170,9 @@ choice or when injuries make adventuring unlikely.
 - Each march: daylight hours only unless the party chooses otherwise; `water` where the party passes water;
   `water --source "the camp well"` at a well, spring or cistern the place gives (no throw).
 - After deaths: `death --dies` (body, retinue, exploration party), then the takeover or new character (§7).
+
+## Engine 7.23-7.24 at a glance
+`turn N --auto-rest` · `encounter end --unplayed "why"` · `wait --sleep` · `location --room R [--cleared]` ·
+`encounter start --placed --key NOTE#ROOM` · `state add --count N --hp LIST --weapon W --order T` · `state order
+--group G T` · `cast ID SPELL` (slots) · `water --purified-by ID` · `companion show hrodric-eagle` · `faction show` ·
+`lair-check` · `lodging` · `downtime` · `taint drink|touch|show` · `restore … --apply` (preview first).

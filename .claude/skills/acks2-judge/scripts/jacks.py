@@ -10,7 +10,9 @@ lessons index (ACKS_LESSONS). Every roll is logged like dice.py's. Which state a
 `jacks.py batch [FILE|-] [--keep-going] [--stop-on REGEX] [--stop-on-judge]`: many commands, one per line, written
 as after `acks.sh` (blank lines and # comments skipped), run one after the other in this process: each gets its own
 dice, log lines, state reads and writes and refusals, exactly as when run alone; the batch stops at the first
-refusal or error (or at a stop condition) and says how many commands were not run.
+refusal or error, after a command that opened or brought an encounter (engine 7.23.0; not after `encounter`
+commands; --keep-going runs on), or at a stop condition, and says how many commands were not run. The first command
+of a process warns when Campaign State's session number is that of a roll logged on an earlier day (B3).
 
 Python helpers import this module and call `run(["turn", "1"])` -> (exit code, output text): no new process per call.
 """
@@ -77,6 +79,10 @@ def context():
         "schedule": schedule if os.path.exists(schedule) else "",
         "dstate": jlib.path(t.get("domain_state", "Campaign/domain-state.json")),
         "tstate": jlib.path(t.get("training_state", "Campaign/training-state.json")),
+        # engine 7.24.0: the faction state (C3), the module's taint data (C6) and the lodging rates (C7), when present
+        "factions": jlib.path(t.get("faction_state", "Campaign/faction-state.json")),
+        "taint": jlib.path(t.get("taint", "Campaign/taint.yaml")),
+        "lodging": jlib.path(t.get("lodging", "Campaign/lodging.yaml")),
     }
 
 
@@ -88,7 +94,10 @@ def env_for(ctx, cmd, args):
            "ACKS_LESSONS": ctx["lessons"], "ACKS_SCHEDULE": ctx["schedule"], "ACKS_CSTATE": ctx["cstate"],
            "ACKS_LESSONS_STATE": ctx["state"],        # the combat state, for lessons that ask about the fight
            "ACKS_HEXES": ctx["hexes"],                # the hex adapter (treasure --terrain reads its terrain codes)
-           "ACKS_TSTATE": ctx["tstate"]}              # the training state (capture, train; engine 7.20)
+           "ACKS_TSTATE": ctx["tstate"],              # the training state (capture, train; engine 7.20)
+           "ACKS_FACTIONS": ctx["factions"] if os.path.exists(ctx["factions"]) or cmd == "faction" else None,
+           "ACKS_TAINT": ctx["taint"] if os.path.exists(ctx["taint"]) else None,
+           "ACKS_LODGING": ctx["lodging"] if os.path.exists(ctx["lodging"]) else None}
     if cmd == "actor" and args[:1] == ["import"] and not os.path.exists(ctx["istate"]):
         env["ACKS_ISTATE"] = None            # no inventory yet: import keeps possessions (D10)
     return env
@@ -148,7 +157,15 @@ def extra_for(ctx, cmd, args):
     elif cmd in STAGE5B:
         ex += ["--astate", A, "--xstate", X, "--retinue", R]
     elif cmd == "restore":
-        pass
+        ex += ["--xstate", X]              # engine 7.23.0 (A7): --apply puts him back in the party and the travel record
+    elif cmd == "cast":
+        ex += ["--state", S, "--retinue", R, "--xstate", X]       # engine 7.23.0 (C5): cures outside a fight
+    elif cmd == "companion":
+        ex += ["--state", S]               # engine 7.24.0 (C1): a totem's death in a fight
+    elif cmd in ("faction", "taint", "lodging", "lair-check"):
+        ex += ["--xstate", X]              # engine 7.24.0 (C3, C6, C7, C8): the clock (and the party)
+    elif cmd == "downtime":
+        ex += ["--xstate", X, "--astate", A]
     elif cmd == "inv":
         ex += ["--xstate", X, "--astate", A, "--retinue", R]
     elif cmd in STAGE3:
@@ -168,6 +185,30 @@ def _engine():
         return cli
     except ImportError:
         return None
+
+
+def stale_session(ctx):
+    """B3 (engine 7.23.0 work; Sakkara run 2 S02 and S08: rolls of a new chat logged under the last session's number):
+    the warning when the roll log's last roll is from an earlier real date and Campaign State's session number is the
+    one that roll was logged under; None otherwise. Reads only the log's last line."""
+    import datetime
+    import json
+    try:
+        with open(ctx["log"], "rb") as f:
+            f.seek(0, 2)
+            n = f.tell()
+            f.seek(max(0, n - 4096))
+            last = json.loads([x for x in f.read().decode("utf-8", "replace").splitlines() if x.strip()][-1])
+    except (OSError, ValueError, IndexError):
+        return None
+    try:
+        day = datetime.date.fromtimestamp(int(last.get("t") or 0))
+    except (TypeError, ValueError, OverflowError, OSError):
+        return None
+    if day != datetime.date.today() and str(last.get("session")) == str(ctx["session"]):
+        return (f"WARNING (stale session): Campaign State `session: {ctx['session']}` is the session of the last roll "
+                f"({day}); today's rolls would be logged under it: set the new session number in Campaign State")
+    return None
 
 
 def _apply_env(env):
@@ -193,7 +234,16 @@ def run(argv, ctx=None, capture=True):
         r = subprocess.run([sys.executable, os.path.join(HERE, "xsync.py"), "--party"], capture_output=True, text=True)
         sys.stderr.write(r.stdout + r.stderr)
     full = [cmd, *args, *extra_for(ctx, cmd, args)]
+    warn = None
+    if not ctx.get("_stale_checked"):
+        ctx["_stale_checked"] = True
+        warn = stale_session(ctx)
     buf = io.StringIO()
+    try:
+        from acks import explore as _X           # engine 7.23.0 (A1): encounters this command opened or brought
+        _X.ENC_EVENTS.clear()
+    except (ImportError, AttributeError):
+        _X = None
     try:
         if capture:
             with contextlib.redirect_stdout(buf), contextlib.redirect_stderr(buf):
@@ -202,7 +252,19 @@ def run(argv, ctx=None, capture=True):
             code = cli.run(full)
     except SystemExit as e:
         code = e.code if isinstance(e.code, int) else 2
-    return int(code or 0), buf.getvalue()
+    out = buf.getvalue()
+    if _X is not None and getattr(_X, "ENC_EVENTS", None):
+        seen = {}
+        for rec, how in _X.ENC_EVENTS:
+            seen[id(rec)] = f"encounter {_X.enc_name(rec)} {how}"
+        ctx["_encounters"] = list(seen.values())
+    else:
+        ctx["_encounters"] = []
+    if warn:
+        out += warn + "\n"
+        if not capture:
+            print(warn)
+    return int(code or 0), out
 
 
 def batch(argv):
@@ -234,6 +296,8 @@ def batch(argv):
         sys.stdout.write(out)
         sys.stdout.flush()
         why = f"exit {code}" if code and not b.keep_going else ("stop condition met" if any(s.search(out) for s in stops) else None)
+        if not why and not code and not b.keep_going and ctx.get("_encounters") and args[0] != "encounter":
+            why = "; ".join(ctx["_encounters"])    # engine 7.23.0 (A1): an encounter came; play it before going on
         worst = worst or code
         if why:
             left = len(lines) - i - 1

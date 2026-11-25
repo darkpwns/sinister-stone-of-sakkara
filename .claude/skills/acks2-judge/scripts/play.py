@@ -404,6 +404,36 @@ def depart(a):
                             f"`wages pay {m['id']} --payer {m['employer']} --months {len(dues)}` ({len(dues) * amt:g} gp)")
             else:
                 out("OK", f"wages: {m['id']} {m['name']} paid through day {H.due_day(rs, m, m['periods_paid']) - 1}")
+    # a downtime activity for every PC and henchman between adventures (engine 7.24.0, C7; a campaign setting:
+    # campaign.yaml party.downtime_required)
+    if ((ctx["cfg"].get("party") or {}).get("downtime_required")):
+        last = None
+        if os.path.exists(ctx["astate"]):
+            with open(ctx["astate"], encoding="utf-8") as f:
+                ad = json.load(f)
+            paid = [x for x in [ad.get("adventure")] + list(ad.get("closed") or []) if x and x.get("status") == "paid"]
+            last = ad["adventure"]["id"] if ad.get("adventure") and ad["adventure"].get("status") == "paid" else \
+                (paid[-1]["id"] if paid else None)
+        recs = xs.get("downtime") or []
+        for i in ids:
+            role = None
+            for d_ in jlib.actor_dirs(ctx["cfg"]):
+                ap_ = os.path.join(d_, i + ".json")
+                if os.path.exists(ap_):
+                    try:
+                        with open(ap_, encoding="utf-8") as f:
+                            role = json.load(f).get("role")
+                    except (OSError, ValueError):
+                        pass
+                    break
+            if role not in (None, "pc", "henchman"):
+                continue
+            have = [r for r in recs if r.get("id") == i and (last is None or r.get("after") == last)]
+            if have:
+                out("OK", f"downtime: {i}: {have[-1]['activity']}")
+            else:
+                out("FAIL", f"downtime: {i} has no downtime activity since {last or 'the last adventure'}: "
+                            f"`acks.sh downtime {i} --activity \"...\" --from D --to D`")
     # the travel block: food, water, speed
     code, tv = E.data("travel-show")
     tv = tv.get("data") or {}

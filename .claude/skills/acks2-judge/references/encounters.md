@@ -74,3 +74,15 @@ fought>`, then `acks.sh encounter end`.
 
 After the encounter: hidden rolls to the Judge block; monsters slain or fled and treasure into World State and the
 Ledger; `save.sh`.
+
+## Engine 7.23-7.24 (Sakkara run 2 requests)
+- `encounter end` refuses an arrived, unplayed encounter without `--unplayed "why"`; a batch stops after the command
+  that brought one. Never clear an encounter in a batch.
+- `encounter surprise --party none --monsters none` warns when the party carries light and the monsters see in the
+  dark: give `--monsters los`.
+- **Factions:** `faction add|know|deal|rebuild|show|due` on `Campaign/faction-state.json`; `encounter start --faction
+  red-eyes` and `reaction` then apply what the faction knows of the party (its modifier) by themselves, print its
+  standing and keep the result as its attitude; bribes and truces show on the clock when they end; restocking rolls
+  of cleared rooms (`faction rebuild-roll ID ROOM`) when they fall due.
+- **Lair strength before committing:** `lair-check --monster NAME --number N [--allies N:HD,...] [--floor HD]` (the
+  table rule: combat is a failure state; plainly outmatched at 2x by default, a campaign setting).
