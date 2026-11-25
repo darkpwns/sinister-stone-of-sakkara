@@ -92,7 +92,7 @@
    "kind": "henchman",
    "name": "Marius",
    "actor": "marius",
-   "status": "active"
+   "status": "dead"
   },
   "lupa": {
    "kind": "henchman",
@@ -122,6 +122,12 @@
    "kind": "henchman",
    "name": "Varro",
    "actor": "varro",
+   "status": "active"
+  },
+  "body:marius": {
+   "kind": "body",
+   "name": "body of Marius",
+   "actor": null,
    "status": "active"
   }
  },
@@ -9590,6 +9596,304 @@
    "price_cp": 440,
    "cmd": "inv pay",
    "n": 397
+  },
+  {
+   "op": "give",
+   "cause": "torch-bearer for the delve",
+   "day": 66,
+   "time": "day 66 06:00",
+   "deltas": [
+    {
+     "who": "hrodric",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -6
+    },
+    {
+     "who": "marius",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 398
+  },
+  {
+   "op": "light",
+   "cause": "torch1 lit (torch)",
+   "day": 66,
+   "time": "day 66 06:00",
+   "deltas": [
+    {
+     "who": "marius",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch1",
+   "cmd": "light on",
+   "n": 399
+  },
+  {
+   "op": "pay",
+   "cause": "a bribe for passage, courtyard 61 (reaction influence, a week's bribe; Judge's call 3gp a head)",
+   "day": 66,
+   "time": "day 66 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -9
+    }
+   ],
+   "to": "three Red Eye gnolls",
+   "price_cp": 900,
+   "cmd": "inv pay",
+   "n": 400
+  },
+  {
+   "op": "pay",
+   "cause": "tribute for passage below, 100gp a head for eight (AX1 L1 75)",
+   "day": 66,
+   "time": "day 66 06:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -800
+    }
+   ],
+   "to": "Idimmu the purple wyrm",
+   "price_cp": 80000,
+   "cmd": "inv pay",
+   "n": 401
+  },
+  {
+   "op": "light",
+   "cause": "torch2 lit (torch, light auto)",
+   "day": 66,
+   "time": "day 66 07:00",
+   "deltas": [
+    {
+     "who": "marius",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch2",
+   "cmd": "turn (light auto)",
+   "n": 402
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:buried-temple",
+   "day": 66,
+   "time": "day 66 07:10",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "ground:buried-temple",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 403
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:buried-temple",
+   "day": 66,
+   "time": "day 66 07:10",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "ground:buried-temple",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 404
+  },
+  {
+   "op": "pay",
+   "cause": "ransom: weapons down mid-fight, the purse for the lives of the fallen (reaction Indifferent with a bribe)",
+   "day": 66,
+   "time": "day 66 07:10",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -846
+    }
+   ],
+   "to": "the two ogres of the den (L2 7)",
+   "price_cp": 84600,
+   "cmd": "inv pay",
+   "n": 405
+  },
+  {
+   "op": "add",
+   "cause": "Judge's correction: round 6 shot voided (the parley had ended the fight)",
+   "day": 66,
+   "time": "day 66 07:10",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "arrow",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 406
+  },
+  {
+   "op": "death",
+   "cause": "marius died; body carried",
+   "day": 66,
+   "time": "day 66 07:10",
+   "deltas": [
+    {
+     "who": "marius",
+     "item": "#w19",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:marius",
+     "item": "#w19",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marius",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:marius",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marius",
+     "item": "#w20",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:marius",
+     "item": "#w20",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marius",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:marius",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marius",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:marius",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "marius",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:marius",
+     "item": "torch",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "marius",
+     "item": "padded armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:marius",
+     "item": "padded armor",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "marius",
+     "gp": -60
+    },
+    {
+     "who": "body:marius",
+     "gp": 60
+    }
+   ],
+   "cmd": "death",
+   "n": 407
+  },
+  {
+   "op": "light",
+   "cause": "lantern5 lit (lantern)",
+   "day": 66,
+   "time": "day 66 07:29",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern5",
+   "cmd": "light on",
+   "n": 408
   }
  ],
  "holdings": {
@@ -9656,8 +9960,7 @@
    "backpack": {
     "#w10": 1,
     "rope, 50'": 1,
-    "waterskin": 1,
-    "torch": 6
+    "waterskin": 1
    },
    "sack": {
     "torch": 6
@@ -9678,7 +9981,7 @@
    "backpack": {
     "craftsman's tools (any)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 4,
+    "oil, common (1 pint)": 3,
     "waterskin": 1,
     "tinderbox (flint & steel)": 1
    }
@@ -9717,7 +10020,7 @@
   },
   "ground:buried-temple": {
    "here": {
-    "arrow": 18
+    "arrow": 20
    }
   },
   "ground:20.19": {
@@ -9744,7 +10047,7 @@
    "backpack": {
     "waterskin": 1,
     "rations, iron (one week)": 1,
-    "arrow": 10
+    "arrow": 9
    },
    "right_hand": {
     "#w13": 1
@@ -9753,26 +10056,6 @@
   "donkey2": {
    "pack": {
     "waterskin": 11
-   }
-  },
-  "marius": {
-   "belt": {
-    "#w19": 1
-   },
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "right_hand": {
-    "#w20": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "backpack": {
-    "waterskin": 1
-   },
-   "armor": {
-    "padded armor": 1
    }
   },
   "lupa": {
@@ -9855,16 +10138,23 @@
     "holy book": 1,
     "waterskin": 1
    }
+  },
+  "body:marius": {
+   "here": {
+    "#w19": 1,
+    "backpack (holds 4 stone)": 1,
+    "#w20": 1,
+    "shield": 1,
+    "waterskin": 1,
+    "torch": 4,
+    "padded armor": 1
+   }
   }
  },
  "coins": {
   "faustina": {
-   "gp": 1655,
    "sp": 2,
    "cp": 5
-  },
-  "marius": {
-   "gp": 60
   },
   "lupa": {
    "gp": 60
@@ -9875,6 +10165,9 @@
   "varro": {
    "gp": 25,
    "sp": 25
+  },
+  "body:marius": {
+   "gp": 60
   }
  },
  "rolls": {

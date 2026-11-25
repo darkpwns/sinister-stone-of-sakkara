@@ -234,3 +234,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 61 | Turos Tem | Oil, Military (1 pint) | 3 |  | 5gp 4sp | faustina |
 | 61 | Turos Tem | Metamphora (60gp) | 2 |  | 9gp | faustina |
 | 62 | Traveler's Inn | night of day 61: six private rooms, two henchmen in the courtyard, meals for eight, two donkeys |  |  | 4gp 4sp | faustina |
+| 66 | three Red Eye gnolls | a bribe for passage, courtyard 61 (reaction influence, a week's bribe; Judge's call 3gp a head) |  |  | 9gp | faustina |
+| 66 | Idimmu the purple wyrm | tribute for passage below, 100gp a head for eight (AX1 L1 75) |  |  | 800gp | faustina |
+| 66 | the two ogres of the den (L2 7) | ransom: weapons down mid-fight, the purse for the lives of the fallen (reaction Indifferent with a bribe) |  |  | 846gp | faustina |

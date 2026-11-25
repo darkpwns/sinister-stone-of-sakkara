@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 9,
- "generated": 1795564767,
+ "generated": 1795565412,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 66
+  "day": 67
  },
- "time": "06:00",
+ "time": "05:50",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate",
  "place": "Türos Tem",
  "hex": "19.19",
@@ -16,19 +16,22 @@
    "name": "Callista",
    "sheet": "Characters/callista.json",
    "role": "pc",
-   "hp": 6,
+   "hp": 4,
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.667
+   "encumbrance_st": 4.5
   },
   {
    "name": "Corvus",
    "sheet": "Characters/corvus.json",
    "role": "pc",
-   "hp": 8,
+   "hp": 1,
    "hp_max": 8,
-   "conditions": [],
+   "conditions": [
+    "in shock (day 66): magical healing and one night of bed rest, or 1 week of bed rest: incapacitated",
+    "three fingers smashed on one hand: the hand is useless (permanent, day 66)"
+   ],
    "spells_used": [],
    "encumbrance_st": 6.333
   },
@@ -36,17 +39,21 @@
    "name": "Faustina",
    "sheet": "Characters/faustina.json",
    "role": "pc",
-   "hp": 10,
-   "hp_max": 10,
-   "conditions": [],
+   "hp": 2,
+   "hp_max": 6,
+   "conditions": [
+    "bed rest 1 week (critically wounded day 66, healed by Varro): incapacitated",
+    "shattered ribs (permanent, day 66): constant fatigue and pain; must rest 2 turns every 6; expedition speed reduced by 1/3; cannot force march; CON reduced by 1/3",
+    "gruesome scarring (day 66): nose flattened, cheek crushed, ear turned to cauliflower"
+   ],
    "spells_used": [],
-   "encumbrance_st": 6.662
+   "encumbrance_st": 5.007
   },
   {
    "name": "Galerius",
    "sheet": "Characters/galerius.json",
    "role": "pc",
-   "hp": 7,
+   "hp": 1,
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
@@ -56,11 +63,14 @@
    "name": "Hrodric",
    "sheet": "Characters/hrodric.json",
    "role": "pc",
-   "hp": 7,
+   "hp": 1,
    "hp_max": 7,
-   "conditions": [],
+   "conditions": [
+    "in shock (day 66): magical healing and one night of bed rest, or 1 week of bed rest: incapacitated",
+    "two fingers smashed on one hand (permanent, day 66)"
+   ],
    "spells_used": [],
-   "encumbrance_st": 7.833
+   "encumbrance_st": 6.833
   },
   {
    "name": "Severina",
@@ -71,16 +81,6 @@
    "conditions": [],
    "spells_used": [],
    "encumbrance_st": 5
-  },
-  {
-   "name": "Marius",
-   "sheet": "Characters/marius.json",
-   "role": "henchman",
-   "hp": 4,
-   "hp_max": 4,
-   "conditions": [],
-   "spells_used": [],
-   "encumbrance_st": 3.56
   },
   {
    "name": "Petra",
@@ -113,8 +113,8 @@
    "encumbrance_st": 7.217
   }
  ],
- "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 8 d, water 5.4 d; Faustina: food 8 d, water 0 d; Callista: food 8 d, water 3 d; Corvus: food 8 d, water 0 d; Hrodric: food 11 d, water 0 d; Severina: food 6 d, water 0 d; Marius: food 5 d, water 0 d; Varro: food 8 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; lantern (Callista) out",
+ "rations": "Galerius: food 7 d, water 5.4 d; Faustina: food 7 d, water 0 d (incapacitated); Callista: food 7 d, water 2.8 d; Corvus: food 7 d, water 0 d (incapacitated); Hrodric: food 10 d, water 0 d (incapacitated); Severina: food 5 d, water 0 d; Varro: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -329,11 +329,11 @@
      "contents": [
       "Craftsman's Tools (any)",
       "Lantern",
-      "Oil, Common (1 pint) ×4",
+      "Oil, Common (1 pint) ×3",
       "Tinderbox (flint & steel)",
       "Waterskin"
      ],
-     "items": 6,
+     "items": 5,
      "stone": 2
     },
     "sack": {
@@ -354,7 +354,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 4.667,
+   "encumbrance_st": 4.5,
    "weapons": [
     {
      "name": "Staff",
@@ -715,7 +715,7 @@
    "birthplace": "Türos Tem",
    "age": 21,
    "gender": "female",
-   "hp_max": 10,
+   "hp_max": 6,
    "attributes": {
     "STR": {
      "score": 7,
@@ -734,8 +734,8 @@
      "mod": 0
     },
     "CON": {
-     "score": 16,
-     "mod": 2
+     "score": 11,
+     "mod": 0
     },
     "CHA": {
      "score": 14,
@@ -850,11 +850,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 1655,
+    "gp": 0,
     "sp": 2,
     "cp": 5
    },
-   "encumbrance_st": 6.662,
+   "encumbrance_st": 5.007,
    "weapons": [
     {
      "name": "Staff",
@@ -881,16 +881,7 @@
      "held": "belt"
     }
    ],
-   "treasure": [
-    {
-     "id": "L6",
-     "looks": "a flask of brown syrup smelling faintly of honey",
-     "qty": 1,
-     "apparent_value_gp": 250,
-     "magical": true,
-     "stone": 0.167
-    }
-   ],
+   "treasure": [],
    "spells": {
     "repertoire": {
      "1": [
@@ -1394,10 +1385,6 @@
      {
       "name": "Animal Training",
       "throw": ""
-     },
-     {
-      "name": "Command",
-      "throw": ""
      }
     ],
     "general": [
@@ -1455,10 +1442,9 @@
      "contents": [
       "Net",
       "Rope, 50'",
-      "Waterskin",
-      "torch ×6"
+      "Waterskin"
      ],
-     "items": 7,
+     "items": 1,
      "stone": 2
     },
     "sack": {
@@ -1481,7 +1467,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 7.833,
+   "encumbrance_st": 6.833,
    "weapons": [
     {
      "name": "Spear",
@@ -1551,10 +1537,10 @@
     ]
    },
    "movement": {
-    "exploration": 60,
-    "combat": 20,
-    "running": 60,
-    "expedition": 12
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1678,257 +1664,6 @@
       "Summon Weather"
      ]
     }
-   }
-  },
-  {
-   "type": "character",
-   "role": "henchman",
-   "name": "Marius",
-   "class": "None (0th level)",
-   "occupation": "Cantinakeeper",
-   "level": 0,
-   "xp": 78,
-   "xp_bonus": "",
-   "alignment": "",
-   "birthplace": "",
-   "age": 27,
-   "gender": "",
-   "size": "man-sized",
-   "hp_max": 4,
-   "initiative": 1,
-   "surprise": 0,
-   "avoid_surprise": 0,
-   "save_mods": {
-    "paralysis": "",
-    "death": "",
-    "blast": "",
-    "implements": "",
-    "spells": ""
-   },
-   "movement": {
-    "stealth": 0,
-    "climb": 0,
-    "exploration": 120,
-    "combat": 40,
-    "running": 120,
-    "expedition": 24
-   },
-   "healing_rate": "",
-   "mortal_wounds": 0,
-   "class_features": "",
-   "languages": [],
-   "hired": {
-    "date": "day 31",
-    "wage_gp": 12.0,
-    "market": "Turos Tem",
-    "employer": "Severina",
-    "terms": ""
-   },
-   "attributes": {
-    "STR": {
-     "score": 11,
-     "mod": 0
-    },
-    "INT": {
-     "score": 8,
-     "mod": -1
-    },
-    "WIL": {
-     "score": 8,
-     "mod": -1
-    },
-    "DEX": {
-     "score": 13,
-     "mod": 1
-    },
-    "CON": {
-     "score": 13,
-     "mod": 1
-    },
-    "CHA": {
-     "score": 11,
-     "mod": 0
-    }
-   },
-   "attack_throw": 11,
-   "saves": {
-    "paralysis": 14,
-    "death": 15,
-    "blast": 16,
-    "implements": 17,
-    "spells": 18
-   },
-   "hit_die": "1/2 HD",
-   "xp_next": 660,
-   "attack_table": [
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21
-   ],
-   "proficiencies": {
-    "class": [],
-    "general": [
-     {
-      "name": "Profession (cantinakeeper)",
-      "throw": ""
-     },
-     {
-      "name": "Folkways",
-      "throw": ""
-     },
-     {
-      "name": "Labor (cooking)",
-      "throw": ""
-     },
-     {
-      "name": "Revelry",
-      "throw": ""
-     },
-     {
-      "name": "Streetwise",
-      "throw": ""
-     }
-    ],
-    "gained_at": ""
-   },
-   "spells": {
-    "repertoire": {
-     "1": [],
-     "2": [],
-     "3": [],
-     "4": [],
-     "5": [],
-     "6": []
-    }
-   },
-   "gear": {
-    "back": {
-     "item": "Backpack (holds 4 stone)",
-     "items": 1,
-     "stone": 0
-    },
-    "armor": {
-     "item": "Padded Armor",
-     "stone": 1
-    },
-    "right_hand": {
-     "item": "Spear (broken shaft: as dagger)",
-     "items": 0,
-     "stone": 1
-    },
-    "left_hand": {
-     "item": "Shield",
-     "items": 0,
-     "stone": 1
-    },
-    "belt": {
-     "item": "Knife",
-     "items": 1,
-     "stone": 0
-    },
-    "head": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "pouch": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "hidden": {
-     "item": "",
-     "items": 0,
-     "stone": 0
-    },
-    "backpack": {
-     "contents": [
-      "Waterskin"
-     ],
-     "items": 1,
-     "stone": 0
-    },
-    "sack": {
-     "contents": [],
-     "items": 0,
-     "stone": 0
-    },
-    "worn": {
-     "contents": [],
-     "items": 0,
-     "stone": 0
-    }
-   },
-   "coins": {
-    "pp": 0,
-    "ep": 0,
-    "gp": 60,
-    "sp": 0,
-    "cp": 0
-   },
-   "encumbrance_st": 3.56,
-   "weapons": [
-    {
-     "name": "Spear (broken shaft: as dagger)",
-     "init_bonus": "",
-     "attack_throw": 12,
-     "damage": "1d4",
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "held": "right hand"
-    },
-    {
-     "name": "Knife",
-     "init_bonus": "",
-     "attack_throw": 11,
-     "damage": "1d3",
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "held": "belt"
-    }
-   ],
-   "gems": "",
-   "treasure": [],
-   "proficiency_throws": {
-    "climbing": 8,
-    "dungeonbashing": 18,
-    "listening": 18,
-    "searching": 18,
-    "trapbreaking": 18
-   },
-   "ac": {
-    "shield": 1,
-    "no_shield": 1,
-    "dex_only": 1
-   },
-   "sheet": {
-    "profile": "0th-level",
-    "class": "None (0th level)",
-    "caster": false,
-    "magic": "none",
-    "panels": [
-     "header",
-     "attributes",
-     "combat",
-     "weapons",
-     "adventuring_throws",
-     "proficiencies",
-     "possessions"
-    ]
    }
   },
   {
@@ -2302,7 +2037,7 @@
      "contents": [
       "Rations, Iron (one week)",
       "Waterskin",
-      "arrow ×10"
+      "arrow ×9"
      ],
      "items": 2,
      "stone": 1
@@ -2354,7 +2089,16 @@
      "held": "belt"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L6",
+     "looks": "a flask of brown syrup smelling faintly of honey",
+     "qty": 1,
+     "apparent_value_gp": 250,
+     "magical": true,
+     "stone": 0.167
+    }
+   ],
    "movement": {
     "exploration": 120,
     "combat": 40,
@@ -2890,6 +2634,7 @@
     }
    ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 14,
@@ -3015,412 +2760,119 @@
  ],
  "open_rolls": [
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "Mortal Wounds Faustina d20",
+   "spec": "1d20",
    "rolls": [
-    6,
-    4
+    10
    ],
    "total": 10
   },
   {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
+   "label": "Mortal Wounds Faustina d6",
+   "spec": "1d6",
    "rolls": [
-    6,
-    6
-   ],
-   "total": 12
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
     1
    ],
-   "total": 2
+   "total": 1
   },
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "attack Severina vs the smaller giant (a broken stalagmite)",
+   "spec": "1d20-1",
    "rolls": [
-    2,
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    1
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    5
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    2
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    6
-   ],
-   "total": 12
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    5
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    4
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    4
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    2
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    6
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    6
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    1
+    7
    ],
    "total": 6
   },
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "attack Marius vs the smaller giant (a broken stalagmite)",
+   "spec": "1d20-1",
    "rolls": [
-    4,
-    5
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    6
+    11
    ],
    "total": 10
   },
   {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
+   "label": "attack Varro vs the larger giant (a curved sword)",
+   "spec": "1d20+1",
    "rolls": [
-    6,
-    6
+    10
    ],
-   "total": 12
+   "total": 11
   },
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "init Galerius",
+   "spec": "1d6",
    "rolls": [
-    4,
-    6
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
     4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    5
    ],
    "total": 5
   },
   {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
+   "label": "init Varro",
+   "spec": "1d6",
    "rolls": [
-    5,
-    5
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
     1
    ],
-   "total": 2
+   "total": 1
   },
   {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
+   "label": "Mortal Wounds Faustina d20",
+   "spec": "1d20",
    "rolls": [
-    3,
-    5
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
+    9
    ],
    "total": 9
   },
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "Mortal Wounds Faustina d6",
+   "spec": "1d6",
    "rolls": [
-    1,
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    4
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    6
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    2
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
     1
    ],
-   "total": 7
+   "total": 1
   },
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "attack Severina vs the larger giant (a curved sword)",
+   "spec": "1d20",
    "rolls": [
-    3,
-    2
+    16
    ],
-   "total": 5
+   "total": 16
   },
   {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
+   "label": "damage to the larger giant (a curved sword)",
+   "spec": "1d6",
    "rolls": [
-    2,
-    5
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    5
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    5
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    2
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    4
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
     6
    ],
-   "total": 7
+   "total": 6
   },
   {
-   "label": "weather wind (R05.05)",
-   "spec": "2d6",
+   "label": "init Galerius",
+   "spec": "1d6",
    "rolls": [
-    2,
-    5
+    1
    ],
-   "total": 7
+   "total": 1
   },
   {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
-    4
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    2
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    4
-   ],
-   "total": 9
-  },
-  {
-   "label": "Hrodric surprise",
+   "label": "init Callista",
    "spec": "1d6",
    "rolls": [
     3
@@ -3428,12 +2880,287 @@
    "total": 3
   },
   {
-   "label": "Severina surprise",
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Mortal Wounds Hrodric d20",
+   "spec": "1d20",
+   "rolls": [
+    18
+   ],
+   "total": 18
+  },
+  {
+   "label": "Mortal Wounds Hrodric d6",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Hrodric fingers smashed",
+   "spec": "1d3",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Varro's Cure Light Injury on Faustina",
+   "spec": "1d6+1",
+   "rolls": [
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Mortal Wounds Marius d20",
+   "spec": "1d20",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Marius d6",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Mortal Wounds Corvus d20",
+   "spec": "1d20",
+   "rolls": [
+    15
+   ],
+   "total": 15
+  },
+  {
+   "label": "Mortal Wounds Corvus d6",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Corvus fingers smashed",
+   "spec": "1d3",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Faustina",
    "spec": "1d6",
    "rolls": [
     2
    ],
    "total": 2
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Medium Raptor d20",
+   "spec": "1d20",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Mortal Wounds Medium Raptor d6",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Hrodric death save",
+   "spec": "1d20+1",
+   "rolls": [
+    20
+   ],
+   "total": 21
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Severina surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Varro surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    6
+   ],
+   "total": 7
   }
  ],
  "rumours_heard": [

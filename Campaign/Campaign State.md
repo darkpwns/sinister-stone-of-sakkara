@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 66
-  time: 06:00
+    day: 67
+  time: 05:50
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate
   place: Türos Tem
   hex: '19.19'
@@ -19,31 +19,36 @@ public:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 6
+    hp: 4
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.667
+    encumbrance_st: 4.5
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 8
+    hp: 1
     hp_max: 8
-    conditions: []
+    conditions:
+    - 'in shock (day 66): magical healing and one night of bed rest, or 1 week of bed rest: incapacitated'
+    - 'three fingers smashed on one hand: the hand is useless (permanent, day 66)'
     spells_used: []
     encumbrance_st: 6.333
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
-    hp: 10
-    hp_max: 10
-    conditions: []
+    hp: 2
+    hp_max: 6
+    conditions:
+    - 'bed rest 1 week (critically wounded day 66, healed by Varro): incapacitated'
+    - 'shattered ribs (permanent, day 66): constant fatigue and pain; must rest 2 turns every 6; expedition speed reduced by 1/3; cannot force march; CON reduced by 1/3'
+    - 'gruesome scarring (day 66): nose flattened, cheek crushed, ear turned to cauliflower'
     spells_used: []
-    encumbrance_st: 6.662
+    encumbrance_st: 5.007
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 7
+    hp: 1
     hp_max: 7
     conditions: []
     spells_used: []
@@ -51,11 +56,13 @@ public:
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 7
+    hp: 1
     hp_max: 7
-    conditions: []
+    conditions:
+    - 'in shock (day 66): magical healing and one night of bed rest, or 1 week of bed rest: incapacitated'
+    - two fingers smashed on one hand (permanent, day 66)
     spells_used: []
-    encumbrance_st: 7.833
+    encumbrance_st: 6.833
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -64,14 +71,6 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5
-  - name: Marius
-    sheet: Characters/marius.json
-    role: henchman
-    hp: 4
-    hp_max: 4
-    conditions: []
-    spells_used: []
-    encumbrance_st: 3.56
   - name: Petra
     sheet: Characters/petra.json
     role: henchman
@@ -96,8 +95,8 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 7.217
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 8 d, water 5.4 d; Faustina: food 8 d, water 0 d; Callista: food 8 d, water 3 d; Corvus: food 8 d, water 0 d; Hrodric: food 11 d, water 0 d; Severina: food 6 d, water 0 d; Marius: food 5 d, water 0 d; Varro: food 8 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; lantern (Callista) out
+  rations: 'Galerius: food 7 d, water 5.4 d; Faustina: food 7 d, water 0 d (incapacitated); Callista: food 7 d, water 2.8 d; Corvus: food 7 d, water 0 d (incapacitated); Hrodric: food 10 d, water 0 d (incapacitated); Severina: food 5 d, water 0 d; Varro: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -121,7 +120,7 @@ public:
   - '21.20'
   - '20.19'
   - '19.19'
-clock_day: 66
+clock_day: 67
 ---
 # Campaign State
 
