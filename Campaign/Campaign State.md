@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 11
+session: 12
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,18 +10,20 @@ public:
   date:
     year: ''
     season: spring
-    day: 80
-  time: '18:05'
-  weather: Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; misty; wind still
+    day: 82
+  time: '11:36'
+  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind strong
   place: Türos Tem
   hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 6
+    hp: 1
     hp_max: 6
-    conditions: []
+    conditions:
+    - You feel blessed by your god and recover 1d6 days quicker than you normally would. All negative side effects are removed. (Tampering with Mortality, day 82)
+    - 'bed rest: 2 weeks less the blessing 4 days = 10 days, from day 82 to day 92 (incapacitated)'
     spells_used: []
     encumbrance_st: 4.667
   - name: Corvus
@@ -39,7 +41,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.283
+    encumbrance_st: 3.196
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -97,7 +99,7 @@ public:
     spells_used: []
     encumbrance_st: 3.5
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out
-  rations: 'Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Quintus: food 0 d, water 0 d; Zaira: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 11 d, water 5.4 d; Faustina: food 11 d, water 0 d; Corvus: food 11 d, water 0 d; Marius: food 8 d, water 0 d; Varro: food 11 d, water 0 d; Hrodric: food 10 d, water 0 d; Quintus: food 7 d, water 0.2 d; Zaira: food 7 d, water 0.2 d; Callista: food 11 d, water 3 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -121,7 +123,7 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 80
+clock_day: 82
 ---
 # Campaign State
 
