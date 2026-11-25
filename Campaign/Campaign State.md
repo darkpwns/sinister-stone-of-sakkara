@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 95
-  time: 06:52
-  weather: Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; drizzle; wind moderate (drizzly)
+    day: 97
+  time: '12:52'
+  weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; overcast; wind gentle
   place: Türos Tem
-  hex: '21.20'
+  hex: '19.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -39,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.717
+    encumbrance_st: 4.666
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -98,12 +98,10 @@ public:
     spells_used: []
     encumbrance_st: 4.215
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out
-  rations: 'Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 10 d, water 1 d; Varro: food 8 d, water 0.2 d; Hrodric: food 8 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 7 d, water 1 d; Marius: food 8 d, water 0.6 d; Severina: food 11 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 6 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 8 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 6 d, water 0.2 d; Hrodric: food 6 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 5 d, water 1 d; Marius: food 6 d, water 0.6 d; Severina: food 9 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '20.19'
-  - '19.19'
   - '20.19'
   - '21.20'
   - '22.20'
@@ -122,7 +120,9 @@ public:
   - '21.20'
   - '22.20'
   - '21.20'
-clock_day: 95
+  - '20.19'
+  - '19.19'
+clock_day: 97
 ---
 # Campaign State
 

@@ -341,3 +341,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 94 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 90-96 |  |  | 2gp 5sp | faustina |
 | 94 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
 | 94 | the retinue | wages paid |  |  | 12gp | faustina |
+| 95 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 96 | the retinue | wages paid |  |  | 25gp | faustina |
+| 96 | the retinue | wages paid |  |  | 25gp | faustina |

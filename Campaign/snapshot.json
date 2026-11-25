@@ -1,16 +1,16 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 14,
- "generated": 1795589492,
+ "generated": 1795589601,
  "date": {
   "year": "",
   "season": "summer",
-  "day": 95
+  "day": 97
  },
- "time": "06:52",
- "weather": "Balmy (68 to 71 F) by day, Brisk (63 to 67 F) at night; drizzle; wind moderate (drizzly)",
+ "time": "12:52",
+ "weather": "Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; overcast; wind gentle",
  "place": "Türos Tem",
- "hex": "21.20",
+ "hex": "19.19",
  "party": [
   {
    "name": "Callista",
@@ -40,7 +40,7 @@
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.717
+   "encumbrance_st": 4.666
   },
   {
    "name": "Galerius",
@@ -116,12 +116,10 @@
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out",
- "rations": "Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 10 d, water 1 d; Varro: food 8 d, water 0.2 d; Hrodric: food 8 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 7 d, water 1 d; Marius: food 8 d, water 0.6 d; Severina: food 11 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 6 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 8 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 6 d, water 0.2 d; Hrodric: food 6 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 5 d, water 1 d; Marius: food 6 d, water 0.6 d; Severina: food 9 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "20.19",
-  "19.19",
   "20.19",
   "21.20",
   "22.20",
@@ -139,7 +137,9 @@
   "20.19",
   "21.20",
   "22.20",
-  "21.20"
+  "21.20",
+  "20.19",
+  "19.19"
  ],
  "explored_hexes": [
   {
@@ -852,11 +852,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 1645,
+    "gp": 1594,
     "sp": 37,
     "cp": 35
    },
-   "encumbrance_st": 4.717,
+   "encumbrance_st": 4.666,
    "weapons": [
     {
      "name": "Staff",
@@ -3097,7 +3097,113 @@
    }
   }
  ],
- "open_rolls": [],
+ "open_rolls": [
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    2
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    1
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    4
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "Galerius death save",
+   "spec": "1d20+1",
+   "rolls": [
+    5
+   ],
+   "total": 6
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    16
+   ],
+   "total": 19
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    3
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    1
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    1
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    3
+   ],
+   "total": 6
+  }
+ ],
  "rumours_heard": [
   "Day 5, the Buried Temple (L1 2): three Red Eye gnolls, Friendly, taking the party for new recruits: 'the Lady Below' rewards any band that wipes out one of her lesser tribes, as she rewarded the Red Eye gnolls.",
   "Day 27, Türos Tem: Priestess Genelen (Friendly, to Faustina) confided that villagers and soldiers suffer nightmares; she suspects a curse.",
