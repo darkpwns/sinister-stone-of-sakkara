@@ -59,6 +59,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Days 112-118 (S14): payout A9; the Red Eyes' goods sold (1,005gp); Callista's formula from Malyn (Illusory Duplicates, 1,000gp); Socolo (Neutral) read the Zaharan scroll for 40gp; a week in town.
 
+- Days 119-125 (S14): month 4's end (day 120); A10 out day 119; the Outer Fane (22) taken on day 122 with all the Black Fangs (half the coin and gold to them): Callista's and Faustina's Slumbers took Ur-Namu and his four catechists; the catechists killed in their sleep, Ur-Namu bound and questioned (intimidated: the Lady, the Stone, the undead and the symbol, the sealed doors); the altar stripped (937gp ours) and cleansed (Hrodric's Holy Blessing); the couch of 21 ripped open (ruby, amethyst). Home day 123 past eighteen zombies in 22.20 (evaded); Ur-Namu given to the legate (Indifferent audience). Marius Thief 2; the bronze mace +1 to Varro.
+
 ### [[Level 2 - Catacombs]] (entered day 87)
 - 1 Catacomb Entrance: the three Red Eye guards of 10 came out (they know the company as the hobgoblins' Lawful friends): Neutral for a week's bribe (10gp, to day 94); one ran to tell Hepsis (15), who waits.
 - Hewn room through the pillars, 8: the Black Fang guards and Ulmash **Friendly** (seven days of iron rations as a gift).
@@ -129,11 +131,15 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
+- **Day 120 (S14): month 4's end.** schedule: ; training: C21 K16 (hrodric): PAUSED; next trick 3 day 1000000014; C22 K17 (hrodric): PAUSED; next trick 3 day 1000000014; C23 K18 (hrodric): PAUSED; next trick 3 day 1000000014; C24 K19 (severina): PAUSED; next trick 3 day 1000000005; C25 K20 (severina): PAUSED; next trick 3 day 1000000005
 - **Day 90 (S13): month 3's end.** schedule: ; training: C21 K16 (hrodric): next trick 2 day 104; C22 K17 (hrodric): next trick 2 day 104; C23 K18 (hrodric): next trick 2 day 104; C24 K19 (severina): next trick 2 day 94; C25 K20 (severina): next trick 2 day 94
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
-- **At the save (dawn of day 119, Türos Tem):** A9 paid (day 112). A week in town done (Callista learned Illusory Duplicates; Hrodric's pups learned Heel). Before leaving: Quintus' food (his standard rations spoiled: iron rations), `play.py depart`, A10 for the next delve (the Outer Fane 22: Ur-Namu, 4 catechists; the sinkhole: destroy the altar and bless or holy water, 100 XP each Lawful; strip 2,000gp of gold, 3 turns). Mud: heavy rain on day 116. The scroll of ward against undead (L59) is in Ancient Zaharan: nobody in the company reads it. Month 4 ends on day 120 (`play.py month-end`).
+- **At the save (dawn of day 126, Türos Tem):** A10 paid (day 123). The Outer Fane (22) is cleansed and empty: Ur-Namu captured (to the legate), the four catechists killed. Left on L2: the Lady (38-39), the zombies of 23 (6) and 35 (8), the skeletons of 34 (12), the abominations of 16, 19, 20 (2), 24, 36, the trees of 20 and 25, the ghouls of 28, the green slime of 17, the grey ooze of 30. The Black Fangs hold 15 (Friendly). The company holds one iron draconic-eye unholy symbol (Ur-Namu's; Galerius): undead of 23/34/35 let pass anyone presenting one. **Galerius asked the fort's smith about copies (downtime days 123-125): Judge: rule whether faithful copies serve (a hidden roll or a ruling) before the next descent.** The six golden symbols in L1 74 (secret) are unknown to the company.
+- **The Lady after the fane:** decide her answer before the company next goes below (her priests gone; she has no runner left).
+- **The dead on the farms (day 123):** eighteen zombies fell on a farm in 22.20 at dusk (three farmfolk killed); the legate's cavalry destroyed them on day 124 (news in town).
+- Orc raids on the hobgoblins: weekly roll from day 120 (week of 120: none); next week of day 127.
 - **The Red Eyes are destroyed (day 110):** Hepsis and all seven gnolls killed by the Black Fangs with the company; the Black Fangs (Ur-Shet 20, Ulmash 16, six gnolls, one at 3 hp) now hold cavern 15, beside the Bloody Shore (16: the abomination in the birthing pool, untouched). The Lady loses her favoured tribe: Judge: her answer (Ur-Namu's priests and the undead of 23, 34, 35; a raid on the Black Fangs in 15?) before the company next goes below. Replacement rolls (AX1 p. 53): a tribe wiped out does not return.
 - **The long stair** has no toll and, since day 110, no guards.
 - **Galerius:** bilious fever, symptomatic from day 104 (incapacitated, rides donkey2); survivable, 4 weeks unless cured. The company is taking him to Genelen's hospital: Cure Disease (divine 3rd, RR pp. 172-173: `acks.sh spellcasting`, class V market). Faustina's diagnosis failed (no retry until further symptoms).

@@ -66,6 +66,12 @@ tags:
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | cattle horns | 44 | severina |
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | crate of Krysean pottery | 100 | donkey2 |
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | bottles of fine Tirenean wine | 270 | zaira |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | 35 platinum pieces | 175 | faustina |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Mace +1 | 655 | galerius |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | 937 gold pieces | 937 | quintus |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | gem worth 300.0gp | 300 | severina |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | gem worth 75.0gp | 75 | severina |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | sack of legionary iron rations (two weeks) | 6 | marius |
 
 ## Monster XP
 
@@ -88,6 +94,8 @@ tags:
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Gnoll | 5 | 20 | 100 |
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Gnoll | 2 | 20 | 40 |
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Hepsis (Sakkara) | 1 | 80 | 80 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Catechist (Sakkara) | 4 | 10 | 40 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Ur-Namu (Sakkara) | 1 | 100 | 100 |
 
 ## Shares and XP awarded
 
@@ -164,6 +172,16 @@ tags:
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Quintus | 0.5 | 78 | 21 | 0 | +5% | 104 |
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Zaira | 0.5 | 78 | 21 | 0 | +0% | 99 |
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Marius | 0.5 | 78 | 21 | 0 | +5% | 104 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Galerius | 1 | 268 | 18 | 38 | +10% | 356 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Faustina | 1 | 268 | 18 | 38 | +5% | 340 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Callista | 1 | 268 | 18 | 38 | +5% | 340 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Corvus | 1 | 268 | 18 | 38 | +5% | 340 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Hrodric | 1 | 268 | 18 | 38 | +5% | 340 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Severina | 1 | 268 | 18 | 38 | +5% | 340 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Varro | 0.5 | 134 | 9 | 19 | +5% | 170 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Quintus | 0.5 | 134 | 9 | 19 | +5% | 170 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Zaira | 0.5 | 134 | 9 | 19 | +0% | 162 |
+| 123 | A10 The Outer Fane (Buried Temple, level 2) | Marius | 0.5 | 134 | 9 | 19 | +5% | 170 |; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 168 Henchmen) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -475,3 +493,35 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 112 | Malyn the Misshapen | a 2nd-level formula copied into Callista's book: Invisibility (Rulings R2 S14) |  |  | 1,000gp | faustina |
 | 112 | Traveler's Inn | lodging, 7 night(s) |  |  | 39gp 2sp | faustina |
 | 112 | Annalist Hometri Socolo | reading the Ancient Zaharan scroll (Neutral: his fee, AX1 Türos Tem) |  |  | 40gp | faustina |
+| 119 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 119 | the retinue | wages paid |  |  | 12gp | faustina |
+| 119 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 119 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 119 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 119 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 119 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 119 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 120 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 121 | Apsa's orcs of 27 | a night's shelter and minding the donkeys (day 121) |  |  | 10gp | faustina |
+| 123 | the freeholder of 21.20 | well water, 1sp a head for eleven (the captive too) (Rulings S08) |  |  | 1gp 1sp | faustina |
+| 123 |  | treasure share |  | 139gp |  | galerius |
+| 123 |  | treasure share |  | 139gp |  | faustina |
+| 123 |  | treasure share |  | 139gp |  | callista |
+| 123 |  | treasure share |  | 139gp |  | corvus |
+| 123 |  | treasure share |  | 139gp |  | hrodric |
+| 123 |  | treasure share |  | 139gp |  | severina |
+| 123 |  | treasure share |  | 69gp 5sp |  | varro |
+| 123 |  | treasure share |  | 69gp 5sp |  | quintus |
+| 123 |  | treasure share |  | 69gp 5sp |  | zaira |
+| 123 |  | treasure share |  | 69gp 5sp |  | marius |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 52gp 3sp 8cp |  | galerius |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 52gp 3sp 8cp |  | faustina |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 52gp 3sp 8cp |  | callista |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 52gp 3sp 8cp |  | corvus |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 52gp 3sp 8cp |  | hrodric |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 52gp 3sp 8cp |  | severina |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 26gp 1sp 9cp |  | varro |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 26gp 1sp 9cp |  | quintus |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 26gp 1sp 9cp |  | zaira |
+| 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 26gp 1sp 9cp |  | marius |
+| 123 | Traveler's Inn | lodging, 3 night(s) |  |  | 16gp 8sp | faustina |
