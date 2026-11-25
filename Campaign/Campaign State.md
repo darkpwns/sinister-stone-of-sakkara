@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: summer
-    day: 91
-  time: 06:14
-  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind gentle
+    day: 96
+  time: '14:00'
+  weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; drizzle; wind strong (drizzly)
   place: Türos Tem
   hex: '22.20'
   party:
@@ -26,7 +26,7 @@ public:
     - 'three fingers of the other hand bitten off: that hand is useless (Mortal Wounds, day 68)'
     - ghostly visions of lost companions (Mortal Wounds, day 68)
     spells_used: []
-    encumbrance_st: 4.516
+    encumbrance_st: 3.133
   - name: Ione
     sheet: Characters/ione.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 7.762
+    encumbrance_st: 7.879
   - name: Caelia
     sheet: Characters/caelia.json
     role: pc
@@ -42,7 +42,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.733
+    encumbrance_st: 5.85
   - name: Lucan
     sheet: Characters/lucan.json
     role: pc
@@ -50,7 +50,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 8.415
+    encumbrance_st: 8.532
   - name: Severus
     sheet: Characters/severus.json
     role: pc
@@ -58,7 +58,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 9.697
+    encumbrance_st: 9.814
   - name: Valeria
     sheet: Characters/valeria.json
     role: pc
@@ -66,7 +66,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.405
+    encumbrance_st: 4.522
   - name: Pallas Cornu
     sheet: Characters/pallas-cornu.json
     role: henchman
@@ -74,7 +74,7 @@ public:
     hp_max: 1
     conditions: []
     spells_used: []
-    encumbrance_st: 7.333
+    encumbrance_st: 7.392
   - name: Flavia Scriba
     sheet: Characters/flavia-scriba.json
     role: henchman
@@ -82,7 +82,7 @@ public:
     hp_max: 2
     conditions: []
     spells_used: []
-    encumbrance_st: 1.333
+    encumbrance_st: 2.559
   - name: Gnaeus Fossor
     sheet: Characters/gnaeus-fossor.json
     role: henchman
@@ -90,18 +90,12 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 6
-  light: torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out
-  rations: 'Octavia: food 0 d, water 4.2 d; Ione: food 90 d, water 1 d; Valeria: food 7 d, water 0 d; Severus: food 21 d, water 0 d; Lucan: food 7 d, water 3 d; Caelia: food 7 d, water 0 d; Pallas Cornu: food 0 d, water 0 d; Gnaeus Fossor: food 0 d, water 0 d; Flavia Scriba: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 5.892
+  light: torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out; torch (Gnaeus Fossor) out; lantern (Flavia Scriba) out; lantern (Flavia Scriba) out
+  rations: 'Octavia: food 0 d, water 3.8 d; Ione: food 59 d, water 0 d; Valeria: food 2 d, water 3.6 d; Severus: food 16 d, water 0 d; Lucan: food 2 d, water 0 d; Caelia: food 0 d, water 1 d; Pallas Cornu: food 0 d, water 1 d; Gnaeus Fossor: food 0 d, water 1 d; Flavia Scriba: food 0 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '20.18'
-  - '20.19'
-  - '21.20'
-  - '22.20'
-  - '21.20'
-  - '20.19'
   - '19.19'
   - '20.19'
   - '21.20'
@@ -116,7 +110,13 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 91
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
+clock_day: 96
 ---
 # Campaign State
 

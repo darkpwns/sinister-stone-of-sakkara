@@ -9,6 +9,10 @@ tags:
 
 | Session | Adventure | Lot | Description | Value (gp) | XP |
 | --- | --- | --- | --- | --- | --- |
+| 96 | A5 The Buried Temple: the new company | 500 gold pieces | 500 | gnaeus-fossor |
+| 96 | A5 The Buried Temple: the new company | gem worth 100.0gp | 100 | caelia |
+| 96 | A5 The Buried Temple: the new company | gem worth 100.0gp | 100 | caelia |
+| 96 | A5 The Buried Temple: the new company | AX1 Potion of Healing | 250 | valeria |
 
 ## Monster XP
 
@@ -28,6 +32,15 @@ tags:
 | S05 | A2 | Ione | 0.5 | 96.88 | 24.75 | 0 | 0 | 122 |
 | S09 | A4 | Octavia | 1 | 0 | 60 | 0 | +10% | 66 |
 | S09 | A4 | Ione | 0.5 | 0 | 30 | 0 | 0 | 30 |
+| 96 | A5 The Buried Temple: the new company | Octavia | 1 | 127 | 0 | 0 | +10% | 140 |
+| 96 | A5 The Buried Temple: the new company | Ione | 1 | 127 | 0 | 0 | +0% | 127 |
+| 96 | A5 The Buried Temple: the new company | Valeria | 1 | 127 | 0 | 0 | +0% | 127 |
+| 96 | A5 The Buried Temple: the new company | Severus | 1 | 127 | 0 | 0 | +5% | 133 |
+| 96 | A5 The Buried Temple: the new company | Lucan | 1 | 127 | 0 | 0 | +5% | 133 |
+| 96 | A5 The Buried Temple: the new company | Caelia | 1 | 127 | 0 | 0 | +5% | 133 |
+| 96 | A5 The Buried Temple: the new company | Pallas Cornu | 0.5 | 63 | 0 | 0 | +0% | 63 |
+| 96 | A5 The Buried Temple: the new company | Gnaeus Fossor | 0.5 | 63 | 0 | 0 | +0% | 63 |
+| 96 | A5 The Buried Temple: the new company | Flavia Scriba | 0.5 | 63 | 0 | 0 | +0% | 63 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -276,3 +289,21 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 91 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | caelia |
 | 91 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | caelia |
 | 91 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | severus |
+| 96 |  | treasure share |  | 66gp 6sp 7cp |  | octavia |
+| 96 |  | treasure share |  | 66gp 6sp 7cp |  | ione |
+| 96 |  | treasure share |  | 66gp 6sp 7cp |  | valeria |
+| 96 |  | treasure share |  | 66gp 6sp 7cp |  | severus |
+| 96 |  | treasure share |  | 66gp 6sp 7cp |  | lucan |
+| 96 |  | treasure share |  | 66gp 6sp 7cp |  | caelia |
+| 96 |  | treasure share |  | 33gp 3sp 3cp |  | pallas-cornu |
+| 96 |  | treasure share |  | 33gp 3sp 3cp |  | gnaeus-fossor |
+| 96 |  | treasure share |  | 33gp 3sp 3cp |  | flavia-scriba |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 26gp 6sp 6cp |  | octavia |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 26gp 6sp 6cp |  | ione |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 26gp 6sp 6cp |  | valeria |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 26gp 6sp 6cp |  | severus |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 26gp 6sp 6cp |  | lucan |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 26gp 6sp 6cp |  | caelia |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 13gp 3sp 4cp |  | pallas-cornu |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 13gp 3sp 4cp |  | gnaeus-fossor |
+| 96 | market | his share of the sale of L6,L7 (after the payout) |  | 13gp 3sp 4cp |  | flavia-scriba |
