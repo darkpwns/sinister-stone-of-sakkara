@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 112
-  time: '10:26'
+    day: 119
+  time: 05:26
   weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; partly cloudy; wind still
   place: Türos Tem
   hex: '22.20'
@@ -52,7 +52,7 @@ public:
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 13
+    hp: 17
     hp_max: 17
     conditions: []
     spells_used: []
@@ -98,7 +98,7 @@ public:
     spells_used: []
     encumbrance_st: 4.933
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 9 d, water 1 d; Varro: food 8 d, water 1 d; Hrodric: food 8 d, water 1 d; Quintus: food 14 d, water 1 d; Zaira: food 7 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 8 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 9 d, water 1 d; Varro: food 8 d, water 1 d; Hrodric: food 8 d, water 1 d; Quintus: food 12 d, water 1 d; Zaira: food 7 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 8 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -122,7 +122,7 @@ public:
   - '21.20'
   - '21.21'
   - '22.20'
-clock_day: 112
+clock_day: 119
 ---
 # Campaign State
 
