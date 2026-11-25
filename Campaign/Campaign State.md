@@ -88,7 +88,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 7.633
+    encumbrance_st: 3.843
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
@@ -99,11 +99,11 @@ public:
     spells_used: []
     encumbrance_st: 5.976
   light: torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 0 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 0 d, water 1 d; Quintus: food 2 d, water 1 d; Severina: food 5 d, water 1 d; Marius: food 0 d, water 1 d'
+  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 0 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 0 d, water 1 d; Severina: food 5 d, water 1 d; Marius: food 0 d, water 1 d'
   tracker: {}
   threads:
   - The Lady's letter to a 'Lord of Secrets'
-  - Quintus leaves Galerius' service at the month's end (day 150); Zaira has left Callista's
+  - Zaira and Quintus have left the company (day 145): Callista and Galerius have no henchmen
   - The Shrine of the White Lady and the arch on the knoll (the road is open now)
   trail:
   - '19.19'

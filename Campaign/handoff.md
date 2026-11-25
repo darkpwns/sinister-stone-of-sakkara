@@ -13,7 +13,6 @@ One file, rewritten each session by `handoff.py`; never appended to. The first b
 | Corvus | Explorer 4 | 9214 | 18/18 |  |
 | Varro | Crusader 3 | 3207 | 8/8 |  |
 | Hrodric | Shaman 4 | 8699 | 17/18 |  |
-| Quintus | Fighter 2 | 2851 | 8/8 |  |
 | Severina | Venturer 4 | 6039 | 21/21 |  |
 | Marius | Thief 3 | 3033 | 13/13 |  |
 
@@ -32,6 +31,6 @@ One file, rewritten each session by `handoff.py`; never appended to. The first b
 ## Judge's notes for the next session
 - **Start (S17):** branch `ccr-d8a69e1e-0903mi` (this repo; pushed); tools on `tools.ref`, engine 7.24.0. Set Campaign State `session:` to 17 **before any roll** (the S16 build rolls landed under session 15 because it was set late); new session log `S17 — ….md`. Run `acks.sh inv check` after setup (add any light id a compaction archived to the inventory's `settings.lights_before`).
 - **Standing instructions (user):** the Judge plays the six AI players (Gideon calls); combat is a failure state (steel only when the foe cannot fight back or is plainly outmatched); dungeon factions used actively; kingdom goal; pooled purse with Faustina, coin banked with Karanos; up to 4 henchmen; a downtime record for everyone before each departure; party notes and rumours player-facing. The corridor rule is fulfilled (AX1 complete day 143).
-- **In hand:** evening of day 148 in Türos Tem. **Between adventures:** Campaign State says so, so the resume loads `R/bootstrap.md` (its last section: a new adventure in a running campaign). Next per Table rules: AX2 *Secrets of the Nethercity* (`Adventure/SOTN/`; hub hook: a priestess henchman sought in Cyfaraun; the Lady's letter to a 'Lord of Secrets' is a second bridge). Decide with the AI table what they do first (they know nothing of SOTN): recruit henchmen (Callista lost Zaira; Galerius loses Quintus on day 150), the Shrine of the White Lady (23.16, unprepped), the arch at the full moon.
-- **Month 5 ends on day 150:** `play.py month-end` (wages: Quintus' last month; Varro 50gp from day 172; training courses; the bank).
+- **In hand:** evening of day 148 in Türos Tem. **Between adventures:** Campaign State says so, so the resume loads `R/bootstrap.md` (its last section: a new adventure in a running campaign). Next per Table rules: AX2 *Secrets of the Nethercity* (`Adventure/SOTN/`; hub hook: a priestess henchman sought in Cyfaraun; the Lady's letter to a 'Lord of Secrets' is a second bridge). Decide with the AI table what they do first (they know nothing of SOTN): recruit henchmen (Zaira and Quintus left on day 145: Callista and Galerius have none; Severina has Marius, Faustina Varro), the Shrine of the White Lady (23.16, unprepped), the arch at the full moon.
+- **Month 5 ends on day 150:** `play.py month-end` (wages: Varro 50gp from day 172, Marius; training courses; the bank).
 - **Slips to watch (S15-S16):** loads with carried supplies before `travel`; `water --source` at every well; the surprise note penalty before any `reaction` (lesson note-penalty-before-reaction); `capture` before `state end`; a zone's frontage does not block passage: keep foes out of a held tunnel by hand; casters with declared spells and members declaring withdrawal get order `none` so round-auto stops for them; pause training courses when the trainers leave town; never type an item's true name into an open roll label.
