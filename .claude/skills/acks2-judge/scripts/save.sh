@@ -34,6 +34,8 @@ if [[ "$1" =~ ^S[0-9]+\ end ]]; then   # session end: old day ledgers, events an
     else bash "$D/acks.sh" compact 2>&1 | cut -c1-200; fi; }   # engine 7.16.0+
   python3 "$D/handoff.py" || echo "handoff not written"
 fi
+python3 "$D/sessionlog.py" fm || { echo "NOT SAVED: a note's front matter does not parse (quote values with colons)"; exit 2; }   # C7 (7.25.0 proposals)
+if [ "${LEAK_OK:-}" != "1" ]; then python3 "$D/leak.py" || { echo "NOT SAVED: a player-facing write may leak Judge-only facts (fix it, or LEAK_OK=1 after checking)"; exit 2; }; fi   # C8
 python3 "$D/check_overlay.py" || { echo "NOT SAVED: class-overlays.yaml refused (overlay check)"; exit 2; }   # S5
 python3 "$D/xsync.py"   # actors' state -> public.party (D7); engine exploration state -> public.time, light, weather, believed hex, trail, rations (open values only)
 python3 "$D/snapshot.py" || { echo "NOT SAVED: snapshot refused; fix the state, then save again"; exit 2; }

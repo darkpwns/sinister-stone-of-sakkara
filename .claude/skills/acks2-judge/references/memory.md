@@ -63,3 +63,21 @@ write a number into the Judge's notes that the generated block can give. `brief.
   never fires and is left out of the brief and the escalations.
 - **Stale session number:** the first command of a process warns when Campaign State's `session:` is that of a roll
   logged on an earlier day (`jacks.py`): set the new session number before rolling.
+
+## Engine 7.25 (Sakkara run 2 S14-S16)
+- **Slip catcher** (scripts/slips.py, run by jacks after every command): `state end` refused for a nonlethal
+  knockout, skins filled beside a known source, travel with a training course running, a reaction before the note's
+  surprise penalty: each recorded once per day in Campaign/slips.jsonl (`lesson check` escalates).
+- **Terms before the roll:** `ruling.py search WORDS`; `ruling.py make --question Q --terms T --roll 1d6` (refused
+  when a precedent matches; `--new`).
+- **Plan check:** `party.py check-plan "CALL"`: the breaking points and table rules a call touches (cheap; before
+  the party agent).
+- **save.sh** refuses a note whose front matter does not parse (`sessionlog.py fm`) and a player-facing write that may
+  leak (`leak.py`: Judge-only titles and markers, an unidentified lot's true name; LEAK_OK=1 after checking).
+- **Session log draft:** `sessionlog.py draft --from-day N` (Campaign/session-draft.md: days, encounters, payouts,
+  the Judge block from the hidden rolls and judge-notes).
+- Open-roll labels that name an unidentified lot's true name or a foe the party has not named are refused before
+  anything is rolled (engine).
+- Schedule items end with a faction: `until_faction_destroyed: ID` and `faction destroyed ID`.
+- `retain ID --offer TERMS`: a resigning henchman's answer is a CHOICE; `retain ID --accept|--withdraw` records it.
+- `reaction --faction F --band`: a band's reaction keeps the faction's attitude.

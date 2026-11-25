@@ -26,3 +26,9 @@ In a folder named after the site under config `paths.sites_folder`:
 - Hidden rolls of the build go in the session log's Judge block under "Site build: <site>".
 
 Then `save.sh "S## prep <site> (judge-interim)"`, and resume at the threshold.
+
+## build_site.py (engine 7.25 proposals, C4)
+`build_site.py SPEC.yaml` runs the build: refuses while Campaign State's session is stale; rolls population (number,
+hp, leaders), treasure (`treasure --type`), writes the hub (Running, Rooms, `## Route graph`), room skeletons, the
+wandering table from the population, the roster, and a Rulings row; checks every [[link]]. The spec's form is in the
+script's help. The Judge then writes the rooms' descriptions.

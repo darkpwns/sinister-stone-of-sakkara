@@ -367,5 +367,76 @@ def test_play_depart_refuses_without_downtime_when_required(camp):
         pytest.skip("no party block")
     open(cy, "w", encoding="utf-8").write(txt.replace("\nparty:\n", "\nparty:\n  downtime_required: true\n", 1))
     m = first_member(camp)
+    xp = os.path.join(camp, "Campaign", "exploration-state.json")
+    xs = json.load(open(xp))
+    xs["downtime"] = []                       # the campaign's own records would answer the check
+    json.dump(xs, open(xp, "w"))
     code, out = sh(camp, "depart", "--return-day", "999", script="play.py")
     assert f"downtime: {m} has no downtime activity" in out, out
+
+
+# ------------------------------------------------------------------ 7.25.0 proposals (C1-C11)
+
+def test_c11_slip_catcher_records_a_reaction_before_the_note_penalty(camp):
+    import importlib
+    sys.path.insert(0, S)
+    sl = importlib.import_module("slips")
+    xp = os.path.join(camp, "Campaign", "exploration-state.json")
+    need(camp, "Campaign/exploration-state.json")
+    xs = json.load(open(xp))
+    xs["encounter"] = {"id": "enc1", "status": "reaction", "surprise": {"note_penalty": {"mod": -2}}}
+    json.dump(xs, open(xp, "w"))
+    ctx = {"xstate": xp, "tstate": "", "lessons": os.path.join(camp, "Campaign", "lessons.yaml"), "session": "16"}
+    hits = sl.found(ctx, "reaction", [], 0, "")
+    assert hits and hits[0][0] == "note-penalty-before-reaction"
+    assert sl.found(ctx, "state", ["end"], 1, "NOT ALLOWED: t1 knocked out by nonlethal damage alone: take it")[0][0] \
+        == "nonlethal-capture"
+
+
+def test_c6_check_plan(camp):
+    code, out = sh(camp, "check-plan", "we leave the chest and press on deeper", script="party.py")
+    assert code == 3 and "[rosa]" in out and "[ingrid]" in out
+    code, out = sh(camp, "check-plan", "we parley with the gnolls and pay them 50gp", script="party.py")
+    assert code == 0
+
+
+def test_c7_front_matter_check_names_a_bad_note(camp):
+    p = os.path.join(camp, "Campaign", "Broken.md")
+    open(p, "w").write("---\nweather: hot: and dry\n---\nbody\n")
+    code, out = sh(camp, "fm", script="sessionlog.py")
+    assert code == 3 and "Broken.md" in out
+
+
+def test_c8_leak_check_finds_a_judge_title_in_party_notes(camp):
+    need(camp, "Party/party-notes.md")
+    import yaml
+    sec = yaml.safe_load(open(os.path.join(camp, "Campaign", "campaign.yaml"))).get("secrecy") or {}
+    rev = set(sec.get("revealed") or [])
+    titles = []
+    for folder in sec.get("judge_only_folders") or []:
+        d = os.path.join(camp, folder)
+        if folder.startswith("Campaign") or not os.path.isdir(d):
+            continue
+        titles += sorted(f[:-3] for f in os.listdir(d) if f.endswith(".md") and f[:-3] not in rev and len(f) > 8)
+    if not titles:
+        pytest.skip("no Adventure notes")
+    with open(os.path.join(camp, "Party", "party-notes.md"), "a") as f:
+        f.write(f"\n- we read {titles[0]}\n")
+    code, out = sh(camp, "Party/party-notes.md", script="leak.py")
+    assert code == 3 and titles[0] in out
+
+
+def test_c3_route_graph_and_shortest_path(camp):
+    sys.path.insert(0, S)
+    import play
+    hub = os.path.join(camp, "TestHub.md")
+    open(hub, "w").write("# x\n\n## Route graph\n- 15 - 9: 60 (cave)\n- 9 - 38: 120\n- 15 - 38: 400\n- stop: 9\n")
+    os.environ["JUDGE_REPO"] = camp
+    g, stops, notes = play.route_graph(hub)
+    assert play.shortest(g, "15", "38") == ["15", "9", "38"] and stops == {"9"} and notes[("15", "9")] == "(cave)"
+
+
+def test_c5_ruling_search_finds_a_precedent(camp):
+    need(camp, "Campaign/Rulings.md", "| ")
+    code, out = sh(camp, "search", "hiring", "reaction", script="ruling.py")
+    assert code == 0

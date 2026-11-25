@@ -101,3 +101,16 @@ succeeds lets you narrate what is there; a failure says nothing either way.
 - **Taint (AX1 level 2):** `taint drink ID` (a save vs Spells or a mutation), `taint touch ID`, `taint immerse ID
   --rounds N`, `taint show` from `Campaign/taint.yaml`; `reaction` sums the face's mutations. Water purified with
   `water --purified-by ID` carries no taint.
+
+## Engine 7.25 (Sakkara run 2 S14-S16 requests)
+- **Route walker:** `play.py route 15 38 26 [--hub NOTE]` walks the hub's `## Route graph` (`- A - B: FEET [note]`,
+  `- stop: R, R`) with turns, rests and relights, `location --room R` at each room, and stops at stop rooms and
+  encounters. Write the graph once per site (build_site.py writes it).
+- A wandering rate set while in a room (`location --wandering none` at room 15) is the room's: it ends on leaving it.
+- `wander-check` by hand counts for the interval: the turn under way is not checked again.
+- **Rosters:** `roster add --site S --monster M --count N --hp a,b --where ROOM`; site encounters draw from them (an
+  empty roster: no one comes); `encounter end` writes the fight back. **Alarms:** `alarm link W3 --heard-in W6 --rounds 3`,
+  `alarm raise W3` (the room's people join the fight at that round's start). **Bands:** `band add drusus --monster
+  Brigand --number 4 --site Catacombs`: the same band again, with its last attitude; `band set drusus --status led-out`.
+- **Rest plan:** `play.py rest-plan`: days of rest, cures a day, food and water, and whether the place is a safe rest.
+- `party status`: one line per member (hp, spells, load with supplies, food, water, light, conditions, fatigue).

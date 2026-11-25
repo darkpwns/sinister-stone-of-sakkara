@@ -20,6 +20,10 @@ Judge with the Agent tool; this script never calls a model.
   party.py talk DECL                                compact table talk for the Judge's reply to the user
   party.py memory DECL... [--session S##]           write the declarations' memory updates into Party/ notes
   party.py costs                                    this session's agent calls, for the session log's Judge block
+  party.py check-plan "CALL"                        the profile breaking points and table rules a call touches
+                                                    (Rosa's treasure, Ingrid's turn-back point, combat as a failure
+                                                    state, value given away ...); exit 3 when any: a cheap read
+                                                    before the party agent (7.25.0 proposals, C6)
 """
 import glob, json, os, re, secrets, subprocess, sys, textwrap, time
 sys.path.insert(0, os.path.dirname(__file__))
@@ -797,6 +801,53 @@ def cmd_costs(args):
     print(f"- party agent total: {len(rows)} call(s), ~{tot // 1000}k tokens")
 
 
+# ---------------------------------------------------------------- check-plan (7.25.0 proposals, C6)
+PLAN_RULES = [
+    # (who or rule, needs all of these word groups, unless any of these, what it touches)
+    ("rosa", [r"\b(leav|abandon|left behind|skip|ignore|without)\w*", r"\b(treasure|loot|coin|gold|silver|chest|"
+              r"hoard|lot|gems?|statue|idol|goods)\b"], r"\b(carry|take it|load|haul|bring)\b",
+     "Rosa's breaking point: treasure already found and in reach left behind"),
+    ("ingrid", [r"\b(push on|press on|go on|continue|deeper|one more|keep going|further)\b"],
+     r"\b(turn back|return|rest|withdraw|camp)\b", "Ingrid's breaking point: on past the turn-back point (light, food, "
+                                                   "hit points): check the counts first"),
+    ("kwame", [r"\b(attack|charge|ambush|kill|strike first|open fire|assault)\b"],
+     r"\b(parley|talk|helpless|asleep|surrender|bound|cowering|paralyz)\w*",
+     "Kwame's breaking point: attacking creatures that could have been talked to"),
+    ("tomasz", [r"\b(charge|rush|storm|burst in|go in|enter)\b"], r"\b(scout|listen|look|peek|check)\w*",
+     "Tomasz's breaking point: charging into an unscouted room or an even fight against unknown numbers"),
+    ("priya", [r"\b(run|flee|hurry|rush|dash)\b"], r"\b(map|mark|chalk|retrace)\w*",
+     "Priya's breaking point: running blind through unmapped passages, or leaving without marking the way"),
+    ("combat-failure", [r"\b(attack|charge|fight|ambush|assault|kill|battle|melee)\w*"],
+     r"\b(helpless|asleep|slumber|paralyz|surrender|bound|cowering|outnumber|allies carry)\w*",
+     "the table rule: combat is a failure state (draw steel only when the foe cannot fight back or is plainly "
+     "outmatched; count Hit Dice and the largest blow first)"),
+    ("value-away", [r"\b(give|hand over|gift|donate|offer|let them have|leave them)\b"],
+     r"\b(pay|price|fee|exchange|in return|trade|sell|for \d|gp|reward|wage)\w*",
+     "giving value away for nothing: what comes back for it?"),
+]
+
+
+def check_plan(call):
+    """[(who, what)] of the profile breaking points and table heuristics a call touches: a cheap read before the party
+    agent (not a substitute for it)."""
+    low = str(call).lower()
+    out = []
+    for who, needs, unless, what in PLAN_RULES:
+        if all(re.search(n, low) for n in needs) and not re.search(unless, low):
+            out.append((who, what))
+    return out
+
+
+def cmd_check_plan(args):
+    call = " ".join(a for a in args if not a.startswith("--"))
+    hits = check_plan(call)
+    for who, what in hits:
+        print(f"TOUCHES [{who}] {what}")
+    print("no breaking point or table rule touched" if not hits else f"{len(hits)} point(s): put them to the party "
+                                                                       "agent, or change the call")
+    sys.exit(3 if hits else 0)
+
+
 # ---------------------------------------------------------------- args
 def val(args, k, default=None):
     return args[args.index(k) + 1] if k in args and args.index(k) + 1 < len(args) else default
@@ -807,9 +858,10 @@ def vals(args, k):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2 or sys.argv[1] not in ("stub", "impulse", "build", "check", "talk", "memory", "costs"):
+    if len(sys.argv) < 2 or sys.argv[1] not in ("stub", "impulse", "build", "check", "talk", "memory", "costs",
+                                                "check-plan"):
         print(__doc__); sys.exit(1)
     a = sys.argv[2:]
     if "--players" in a:
         ONLY = set(val(a, "--players").split(","))
-    globals()["cmd_" + sys.argv[1]](a)
+    globals()["cmd_" + sys.argv[1].replace("-", "_")](a)

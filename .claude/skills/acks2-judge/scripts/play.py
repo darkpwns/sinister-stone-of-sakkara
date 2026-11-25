@@ -179,6 +179,121 @@ def walk(a):
     return 0
 
 
+EDGE = re.compile(r"^\s*[-*]\s*([\w.]+)\s*(?:-|–|<->|->)\s*([\w.]+)\s*:\s*(\d+)\s*(?:ft|')?\s*(.*)$")
+
+
+def route_graph(hub):
+    """({room: {room: feet}}, stops, notes) from a hub's `## Route graph` section:
+
+        ## Route graph
+        - 15 - 9: 60 (cave passage)
+        - 9 - 38: 120 door
+        - stop: 38, 26              (keyed rooms the walk halts at)
+    """
+    text = open(jlib.path(hub), encoding="utf-8").read()
+    m = re.search(r"^## Route graph\s*\n(.*?)(?=^## |\Z)", text, re.M | re.S)
+    if not m:
+        return None, set(), {}
+    g, stops, notes = {}, set(), {}
+    for ln in m.group(1).splitlines():
+        e = EDGE.match(ln)
+        if e:
+            a, b, ft, note = e.group(1), e.group(2), int(e.group(3)), e.group(4).strip()
+            g.setdefault(a, {})[b] = ft
+            g.setdefault(b, {})[a] = ft
+            if note:
+                notes[(a, b)] = notes[(b, a)] = note
+            continue
+        sm = re.match(r"^\s*[-*]\s*stop\s*:\s*(.+)$", ln, re.I)
+        if sm:
+            stops |= {x.strip() for x in sm.group(1).split(",") if x.strip()}
+    return g, stops, notes
+
+
+def shortest(g, a, b):
+    import heapq
+    best, prev, q = {a: 0}, {}, [(0, a)]
+    while q:
+        d, u = heapq.heappop(q)
+        if u == b:
+            break
+        if d > best.get(u, 1e18):
+            continue
+        for v, w in g.get(u, {}).items():
+            if d + w < best.get(v, 1e18):
+                best[v], prev[v] = d + w, u
+                heapq.heappush(q, (d + w, v))
+    if b not in best:
+        return None
+    path = [b]
+    while path[-1] != a:
+        path.append(prev[path[-1]])
+    return path[::-1]
+
+
+def route(a):
+    """C3 (7.25.0 proposals): `play.py route 15 38 26 31 [--hub NOTE]`: the rooms in order, walked along the hub's
+    route graph (shortest way between each pair): the turns each passage takes at the party's exploration speed
+    (its slowest member's), with rests and relights (as `walk`), `location --room R` on reaching each room (the
+    room's settings applied and ended), stopping at a room of the graph's `stop:` list, at an encounter and at
+    anything left to the Judge. Exit 0: arrived; 3: stopped."""
+    import math
+    E = Engine()
+    with open(E.ctx["xstate"], encoding="utf-8") as f:
+        xs = json.load(f)
+    loc = xs.get("location") or {}
+    hub = a.hub or ((loc.get("source") or {}).get("hub"))
+    if not hub:
+        print("route: no hub (give --hub NOTE, or a location set from its hub)")
+        return 2
+    g, stops, notes = route_graph(hub)
+    if not g:
+        print(f"route: {hub} has no `## Route graph` section (lines '- A - B: FEET [note]' and '- stop: R, R')")
+        return 2
+    rooms = list(a.rooms)
+    if loc.get("room") and rooms[0] != str(loc["room"]):
+        rooms.insert(0, str(loc["room"]))
+    legs = []
+    for x, y in zip(rooms, rooms[1:]):
+        p = shortest(g, x, y)
+        if not p:
+            print(f"route: no way from {x} to {y} in the graph")
+            return 2
+        legs += list(zip(p, p[1:]))
+    speeds = []
+    for mid in xs.get("party") or {}:
+        code, d = E.data("move-rate", mid)
+        v = (d.get("data") or {}).get("exploration")
+        if v:
+            speeds.append(int(v))
+    ft_turn = min(speeds) if speeds else 120
+    print(f"route: {' -> '.join([legs[0][0]] + [b for _a, b in legs])} ({sum(g[x][y] for x, y in legs)}'; "
+          f"{ft_turn}'/turn)")
+    carry = 0
+    for x, y in legs:
+        carry += g[x][y]
+        turns = carry // ft_turn
+        carry -= turns * ft_turn
+        if turns:
+            ns = argparse.Namespace(turns=turns, rest_every=a.rest_every, relight=a.relight, kind=a.kind,
+                                    past_timers=False)
+            if walk(ns) != 0:
+                print(f"-- route stopped between {x} and {y}")
+                return 3
+        code, out = E.run("location", "--room", y)
+        print(f"room {y}" + (f" [{notes[(x, y)].strip('()')}]" if (x, y) in notes else "") + ": " + short(out, 160))
+        if code:
+            print(f"-- route stopped: `location --room {y}` refused")
+            return 3
+        if y in stops and y != rooms[-1]:
+            print(f"-- stop at room {y} (a keyed room on the way: the Judge plays it)")
+            return 3
+    if carry:
+        print(f"({carry}' left over: less than a turn)")
+    print(f"arrived: room {rooms[-1]}")
+    return 0
+
+
 def party_ids(E):
     with open(E.ctx["xstate"], encoding="utf-8") as f:
         return list((json.load(f).get("party") or {}))
@@ -440,6 +555,18 @@ def depart(a):
     mem = tv.get("members") or {}
     st = I.load(ctx["istate"]) if os.path.exists(ctx["istate"]) else None
     meta = 0
+    # 7.25.0 (A6): food is eaten as the travel block shares it (`supplies share`): the party's days against the trip,
+    # not each member's own (S15: moving food to satisfy the per-member check overloaded Varro)
+    share = ((xs.get("travel") or {}).get("share_food") or "all")
+    alive = [i for i in ids if not (mem.get(i) or {}).get("dead")]
+    if share == "all" and alive:
+        tot = sum(sum(float(x.get("days") or 0) for x in (mem.get(i) or {}).get("food") or []) for i in alive)
+        need_all = trip * len(alive)
+        if tot + 1e-9 < need_all:
+            out("WARN" if a.resupply else "FAIL", f"food: the party {tot:g} person-day(s) for {len(alive)} x {trip} "
+                                                  f"day(s) out (shared)")
+        else:
+            out("OK", f"food: the party {tot:g} person-day(s) for {len(alive)} x {trip} day(s) (shared)")
     for i in ids:
         m = mem.get(i) or {}
         if m.get("dead"):
@@ -450,7 +577,9 @@ def depart(a):
             else {}
         meta += cnt.get("metamphora", 0)
         need = trip
-        if food + 1e-9 < need:
+        if share == "all":
+            out("OK", f"food: {i} carries {food:g} day(s) (shared)")
+        elif food + 1e-9 < need:
             hint = f"; {cnt.get('ration', 0)} ration item(s) packed: `inv provision`" if cnt.get("ration") else ""
             out("WARN" if a.resupply else "FAIL", f"food: {i} {food:g} day(s) provisioned for {trip} day(s) out{hint}")
         else:
@@ -506,6 +635,281 @@ def depart(a):
         print(ln)
     print("READY" if not fails else f"NOT READY: {fails} line(s) fail")
     return 0 if not fails else 3
+
+
+def ready(a):
+    """C2 (7.25.0 proposals): `depart` and the checks that fix themselves: loads with supplies (the engine's
+    load-before-march guard), water sources on the route, training courses whose trainer goes, where the animals are
+    stabled. Writes the fixes it can name as a batch file (--fix FILE, default Campaign/ready-fix.txt) for
+    `acks.sh batch FILE` after the Judge reads it; nothing is changed here."""
+    import contextlib
+    import io
+    from acks import inventory as I
+    from acks import travel as TV
+    from acks.result import Result
+    E = Engine()
+    ctx = E.ctx
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        code = depart(a)
+    lines = [ln for ln in buf.getvalue().splitlines() if ln and not ln.startswith(("READY", "NOT READY"))]
+    fails = sum(1 for ln in lines if ln.startswith("FAIL"))
+    fixes = []
+    for ln in lines:
+        if ln.startswith("FAIL"):
+            fixes += [c for c in re.findall(r"`([^`]+)`", ln) if not c.startswith("acks.sh downtime")]
+    with open(ctx["xstate"], encoding="utf-8") as f:
+        xs = json.load(f)
+    day = xs["clock"]["day"]
+    ids = [x for x in (a.ids or "").split(",") if x] or list(xs.get("party") or {})
+    route = [x for x in (a.route or "").split(",") if x]
+    trip = max(0, int(a.return_day) - day)
+
+    def out(kind, text):
+        nonlocal fails
+        fails += kind == "FAIL"
+        lines.append(f"{kind:4} {text}")
+    jacks._apply_env(jacks.env_for(ctx, "travel", []))
+    st = I.load(ctx["istate"]) if os.path.exists(ctx["istate"]) else None
+    # loads (the engine's own guard, with the inventory's movable items)
+    if xs.get("travel") and st is not None:
+        TV.LOAD["items"] = lambda mid: I.movable_items(st, mid)
+        TV.WATER["room"] = lambda x_, mid: I.water_room(st, x_, mid)
+        try:
+            lg = TV.load_guard(xs, Result("ready"))
+        except Exception as e:  # noqa: BLE001 - a member the engine cannot read: said, not fatal
+            lg = None
+            out("WARN", f"load: not checked ({e})")
+        finally:
+            TV.LOAD["items"] = None
+        if lg:
+            out("FAIL", "load: " + lg.split("; to march anyway")[0])
+            fixes.append("# load: " + lg.split("; to march anyway")[0])
+        else:
+            out("OK", "load: no member slows the column with a load another could take")
+    # water on the route
+    if xs.get("travel") and route:
+        try:
+            hm = TV.hexmap(xs, ctx["hexes"], [])
+            known = (xs["travel"].get("water_sources") or {})
+            src = []
+            for h in route:
+                try:
+                    info = hm.get(h)
+                except Exception:  # noqa: BLE001
+                    continue
+                w = info.get("river") or info.get("lake") or known.get(h) or (info.get("settlement") and "town")
+                if w:
+                    src.append(f"{h} ({w})")
+            low = [i for i in ids if float(((xs["travel"].get("members") or {}).get(i) or {}).get("water") or 0) < 1]
+            if src:
+                out("OK", "water on the route: " + ", ".join(src) + " (camp or stop there: the engine fills the skins)")
+            elif low:
+                out("FAIL", f"water: no source on the route and {', '.join(low)} under a day: fill before leaving")
+                fixes.append("water")
+        except Exception as e:  # noqa: BLE001
+            out("WARN", f"water on the route: not checked ({e})")
+    # training courses whose trainer goes
+    tsp = ctx.get("tstate")
+    if tsp and os.path.exists(tsp):
+        with open(tsp, encoding="utf-8") as f:
+            ts = json.load(f)
+        for co in (ts.get("courses") or {}).values():
+            if co.get("status") == "active" and co.get("trainer") in ids and \
+                    not any(p.get("to") is None for p in co.get("paused") or []):
+                out("FAIL", f"training: {co['id']} ({co.get('creature')}) runs while its trainer {co['trainer']} leaves")
+                fixes.append(f"train pause {co['id']} --day {day} --reason \"{co['trainer']} away\"")
+    # where the animals are
+    if st is not None:
+        for hid, h in st["holders"].items():
+            if h.get("kind") == "animal" and h.get("status") == "stabled":
+                sb = h.get("stabled") or {}
+                out("OK", f"animal: {hid} stabled at {sb.get('at')} since day {sb.get('day')} (stays; `inv unstable "
+                          f"{hid} --day D` where it is, if it goes)")
+    for ln in lines:
+        print(ln)
+    if fixes:
+        fp = jlib.path(a.fix or "Campaign/ready-fix.txt")
+        with open(fp, "w", encoding="utf-8") as f:
+            f.write("# play.py ready: fixes to read, then `acks.sh batch " + os.path.relpath(fp, jlib.ROOT) + "`\n")
+            f.write("\n".join(fixes) + "\n")
+        print(f"fixes written: {os.path.relpath(fp, jlib.ROOT)} ({len(fixes)} line(s))")
+    print("READY" if not fails else f"NOT READY: {fails} line(s) fail")
+    return 0 if not fails else 3
+
+
+AURA = re.compile(r"\*\*([A-Z][\w ]*):\*\*([^\n]*?)within (\d+)['’][^\n]*?\b(Death|Paralysis|Blast|Implements|Spells) "
+                  r"save(?: at ([+-]\d+))? or ([a-z]+)", re.I)
+
+
+def note_auras(st):
+    """[(name, group, ids, radius, save, mod, fail)] of the auras the foes' bestiary notes describe ('**Stench:**
+    humans ... within 5': Death save at -2 or queasy'), one per group."""
+    from acks import monsters as M
+    out, seen = [], set()
+    for c in st["combatants"].values():
+        if c.get("side") in (st.get("options") or {}).get("party_sides", ["party"]) or c.get("status") != "active":
+            continue
+        m = (c.get("stats") or {}).get("monster") or {}
+        try:
+            sb = M.statblocks(M.find_note(m.get("name") or c["name"]))[0][0] or {}
+        except Exception:  # noqa: BLE001 - a monster without a note
+            continue
+        for x in AURA.finditer(str(sb.get("combat") or "") + "\n" + str(sb.get("notes") or "")):
+            key = (x.group(1).lower(), c["group"])
+            if key in seen:
+                continue
+            seen.add(key)
+            ids = [y["id"] for y in st["combatants"].values() if y["group"] == c["group"] and y.get("status") == "active"]
+            out.append((x.group(1).strip().lower().replace(" ", "-"), c["group"], ids, int(x.group(3)),
+                        x.group(4).lower(), x.group(5), x.group(6).lower()))
+    return out
+
+
+def round_cmd(a):
+    """C1 (7.25.0 proposals): one fight round from a small declarations file (YAML):
+
+        declare: {faustina: spell, galerius: withdraw}     # before initiative (spell, retreat, withdraw)
+        orders: {varro: close-and-attack, corvus: shoot-nearest}
+        tactics: {trogs: close-and-attack}                 # foe groups; `trogs: {tactic: ..., weapon: Javelin}`
+        place: {trogs: hall, faustina: tunnel}             # optional zones
+        mods: ["galerius:2"]                               # optional initiative modifiers (round-start --mod)
+        until: round-end                                   # or party-down, judge
+
+    Declared casters and withdrawers get the order `none` (the runner stops for them), the auras the foes' notes
+    describe are added once (stench, fear), then round-start and round-auto run in this process; a compact log."""
+    import yaml
+    E = Engine()
+    with open(a.file, encoding="utf-8") as f:
+        d = yaml.safe_load(f) or {}
+    log = []
+
+    def go(*argv):
+        code, out = E.run(*argv)
+        log.append((argv, code, out))
+        return code, out
+    for g, t in (d.get("tactics") or {}).items():
+        t = t if isinstance(t, dict) else {"tactic": t}
+        go("act", g, "--tactic", t["tactic"], *(["--weapon", t["weapon"]] if t.get("weapon") else []),
+           *(["--missile", t["missile"]] if t.get("missile") else []),
+           *(["--routine", str(t["routine"])] if t.get("routine") is not None else []))
+    decl = d.get("declare") or {}
+    for cid, o in (d.get("orders") or {}).items():
+        go("state", "order", cid, "none" if cid in decl and decl[cid] in ("spell", "withdraw", "retreat") else o)
+    for cid in decl:
+        if cid not in (d.get("orders") or {}):
+            go("state", "order", cid, "none")
+    for who, z in (d.get("place") or {}).items():
+        go("state", "place", who, "--zone", z)
+    from acks import state as T
+    st = T.load(E.ctx["state"])
+    have = {x.get("name") for x in (st.get("auras") or [])} if isinstance(st.get("auras"), list) else set()
+    if not d.get("no_auras"):
+        for name, g, ids, rad, save, mod, fail in note_auras(st):
+            nm = f"{name}-{g}"
+            if nm in have or not ids:
+                continue
+            go("state", "aura", "add", nm, "--sources", ",".join(ids), "--radius", str(rad), "--save", save,
+               "--fail", fail, *(["--save-mod", mod] if mod else []), "--source", "the monster's bestiary note")
+    rs = ["round-start"] + [x for cid, w in decl.items() for x in ("--declare", f"{cid}:{w}")]
+    for m in d.get("mods") or []:
+        rs += ["--mod", str(m)]
+    code, out = go(*rs)
+    if code == 0:
+        go("round-auto", "--until", str(d.get("until") or "round-end"))
+    for argv, code, out in log:
+        head = " ".join(argv[:3])
+        print(f"$ {head}" + ("" if code == 0 else f"  (exit {code})"))
+        for ln in out.strip().splitlines():
+            if ln.startswith(("REMINDER", "NOTE")):
+                continue
+            for part in SRC.sub("", ln).split(" | "):
+                if part.strip().startswith("NOTE"):
+                    continue
+                for b in (part.split("; ") if argv[0] in ("round-auto", "round-start") else [part]):
+                    b = b.strip()
+                    if b and not re.match(r"(RR|TT|MM|JJ|BTA) p\.|sheet |REMINDER|after a parley|\(src:", b):
+                        print("  " + b[:200])
+    return 0 if all(c == 0 for _a, c, _o in log) else 3
+
+
+def rest_plan(a):
+    """C9 (7.25.0 proposals): `play.py rest-plan [--ids ...]`: days of rest the party needs and what they cost. Each
+    member's hp short of his maximum against the day's natural healing (1d3 a full day of rest, RR p. 303; +1d3 with a
+    healer's Healing proficiency, RR p. 114: averages used for the plan, the engine rolls the days), the cures the
+    party's casters can cast a day (their slots and repertoires; 1d6+1 a Cure Light Injury), bed rest still owed;
+    food and water for those days (shared, as the travel block eats them); and whether the place is a ruled safe rest
+    (no wandering checks: a settlement, or a site rate of none). Plans only: nothing is rolled or written."""
+    from acks import data as D
+    E = Engine()
+    jacks._apply_env(jacks.env_for(E.ctx, "actor", []))
+    with open(E.ctx["xstate"], encoding="utf-8") as f:
+        xs = json.load(f)
+    ids = [x for x in (a.ids or "").split(",") if x] or list(xs.get("party") or {})
+    tm = ((xs.get("travel") or {}).get("members") or {})
+    nat, nref = D.rule("heal.natural")
+    avg = lambda spec: sum((int(m.group(2)) + 1) / 2 * int(m.group(1) or 1) for m in re.finditer(r"(\d*)d(\d+)", spec))
+    nat_avg = avg(str(nat))
+    from acks import actors as AC
+    healer = False
+    cures = 0.0
+    short = {}
+    owed = {}
+    for i in ids:
+        try:
+            v = AC.read(i)
+            raw, _p = AC.load_id(i)
+        except Exception:  # noqa: BLE001
+            continue
+        hp = (tm.get(i) or {}).get("hp")
+        hp = int(hp if hp is not None else (raw.get("state") or {}).get("hp") or v.get("hp_max") or 0)
+        short[i] = max(0, int(v.get("hp_max") or 0) - hp)
+        owed[i] = int((tm.get(i) or {}).get("bed_rest") or 0)
+        profs = " ".join(str(p.get("name") if isinstance(p, dict) else p) for g in (v.get("proficiencies") or {}).values()
+                         for p in (g if isinstance(g, list) else [])).lower()
+        healer = healer or "healing" in profs
+        sp = v.get("spells") or {}
+        rep = {str(n).lower() for ns in (sp.get("repertoire") or {}).values() for n in (ns or [])}
+        per = list(sp.get("per_day") or []) or list(sp.get("per_day_divine") or [])
+        if "cure light injury" in rep and per and per[0]:
+            cures += int(per[0]) * avg("1d6+1")
+        if "cure serious injury" in rep and len(per) > 3 and per[3]:
+            cures += int(per[3]) * (avg("2d6") + int(v.get("level") or 1))
+        if any(n in rep for n in ("cure moderate injury",)):
+            print(f"{i}: also Cure Moderate Injury in the repertoire (not counted: the Judge reads its note)")
+    per_day = nat_avg + (avg("1d3") if healer else 0)
+    total = sum(short.values())
+    days, left = 0, dict(short)
+    while any(x > 0 for x in left.values()) and days < 60:
+        days += 1
+        pool = cures
+        for k in sorted(left, key=lambda k: -left[k]):
+            give = min(left[k], pool)
+            left[k] -= give
+            pool -= give
+        for k in left:
+            left[k] = max(0, left[k] - per_day)
+    days = max([days] + list(owed.values()))
+    for i in ids:
+        if i in short:
+            print(f"{i}: {short[i]} hp short" + (f"; bed rest owed {owed[i]} d" if owed[i] else ""))
+    print(f"healing a day: natural {nat} each ({nref.get('book', 'RR')} {nref.get('page', 'p. 303')})"
+          + (" + 1d3 (a healer)" if healer else "") + f"; cures about {cures:g} hp a day from the casters' slots")
+    print(f"rest needed: about {days} day(s) for {total} hp short (averages; the engine rolls each day)")
+    alive = [i for i in ids if not (tm.get(i) or {}).get("dead")]
+    food = sum(sum(float(x.get("days") or 0) for x in (tm.get(i) or {}).get("food") or []) for i in alive)
+    water = sum(float((tm.get(i) or {}).get("water") or 0) for i in alive)
+    need = days * len(alive)
+    print(f"supplies: {need:g} person-days of food and water for {days} day(s); carried {food:g} food, {water:g} water"
+          + ("" if food >= need and water >= need else " (SHORT: buy, forage or rest where there is water)"))
+    loc = xs.get("location") or {}
+    w = loc.get("wandering") or {}
+    safe = loc.get("kind") == "settlement" or (isinstance(w, dict) and w.get("none"))
+    print(("SAFE REST: " if safe else "NOT A RULED SAFE REST: ") + f"{loc.get('site') or 'no site'}"
+          + (f" room {loc.get('room')}" if loc.get("room") else "")
+          + ("" if safe else " (wandering checks run here; a rest day is interrupted by any encounter longer than "
+                             "1 turn, RR p. 303)"))
+    return 0
 
 
 MARCH_STOP = re.compile(r"loses \d+ CON|\bCON\b[^;|]{0,20}lost|DEHYDRATED|STARVING|missed|not paid|calamity|loyalty roll|"
@@ -833,6 +1237,22 @@ def main(argv=None):
     p.add_argument("--resupply", action="store_true", help="food short of the whole trip is a warning (resupply on "
                                                            "the way)")
     p.add_argument("--ids", help="the members who go (default: the exploration party)")
+    p = sub.add_parser("rest-plan")
+    p.add_argument("--ids")
+    p = sub.add_parser("route")
+    p.add_argument("rooms", nargs="+")
+    p.add_argument("--hub", help="the site hub note with the `## Route graph` (default: the location's hub)")
+    p.add_argument("--rest-every", type=int, default=5)
+    p.add_argument("--relight")
+    p.add_argument("--kind", default="torch")
+    p = sub.add_parser("round")
+    p.add_argument("file", help="the round's declarations (YAML)")
+    p = sub.add_parser("ready")
+    p.add_argument("--route", default="")
+    p.add_argument("--return-day", required=True, type=int)
+    p.add_argument("--resupply", action="store_true")
+    p.add_argument("--ids")
+    p.add_argument("--fix", help="the batch file of fixes (default Campaign/ready-fix.txt)")
     p = sub.add_parser("march")
     p.add_argument("days", type=int)
     p.add_argument("--route", required=True)
@@ -862,7 +1282,7 @@ def main(argv=None):
     if rest:
         ap.error("unrecognized arguments: " + " ".join(rest))
     return {"walk": walk, "supplies": supplies, "bank": bank, "bank-balances": bank_balances, "cond": cond,
-            "depart": depart, "march": march, "city-week": city_week, "month-end": month_end}[a.cmd](a)
+            "depart": depart, "ready": ready, "round": round_cmd, "route": route, "rest-plan": rest_plan, "march": march, "city-week": city_week, "month-end": month_end}[a.cmd](a)
 
 
 if __name__ == "__main__":

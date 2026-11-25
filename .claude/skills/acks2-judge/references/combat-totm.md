@@ -219,3 +219,27 @@ reminds when an action is taken out of its count.
   (Campaign/engine-rulings.yaml `heal.below_zero: zero`, Rulings S07); a survivor owing bed rest stays at 1 hp.
 - **Companions:** a totem animal (`companion new|show|rescale|dies`) joins the fight with its owner; `state end`
   writes its hp; its death costs the owner a Death save or its maximum hp and the totem benefit.
+
+## Engine 7.25 (Sakkara run 2 S14-S16 requests)
+- **One call per round:** `play.py round DECL.yaml` (declare, orders, tactics, place, mods, until): sets the orders,
+  `none` for declared casters and withdrawers, adds the auras the foes' notes describe (stench: `--save-mod -2`), then
+  `round-start --declare ...` and `round-auto`, with a compact log.
+- `round-auto` **stops at a declared spell** whatever the order, and **moves a declared withdrawal or retreat** (half
+  combat speed / running speed and disordered; no attack). By hand: `state withdraw ID`, `state retreat ID`.
+- A second `round-end` for the same round is refused (durations were counted twice). `state show` gives rounds left
+  (`paralyzed(2r)`).
+- **A passage held:** `state zone tunnel --via mouth` + `state frontage mouth 2`: nobody walks into the tunnel past the
+  two holding the mouth (round-auto's movers fight the holders; `state place` refuses).
+- **Routines `3 or 1 (2 claws, bite or weapon)`:** two routines; round-auto makes every attack of the first, or of the
+  weapon routine when the group has a weapon; `act G --routine N`.
+- **Monster spells** load from the bestiary note (names in ACKS II terms; slots per day); `cast` resolves **Choking
+  Grip** (a Death save at each of the caster's initiatives while he concentrates) and **Holy Blessing** (blessed, 6 turns).
+- `encounter surprise --apply-note-penalty` is allowed until the fight (also after `reaction`).
+- **Leaders** from the ecology line where there is no leader table (`state add --monster Troglodyte --leader chieftain`).
+- **Missiles at a held line:** the Precise Shooting refusal names the line and who can shoot past it.
+- **Objects:** `object add stone --hp 20 --harmed-by magic,str16-heavy --on-damage "..." --on-destroy "..."`; `object
+  strike stone --by ID [--magic] [--heavy] [--weapon W]` (a hit; the striker's damage; the triggers as JUDGE items).
+  **Compulsion:** `state cond ID compelled:stone`; `object threaten stone --by ID` turns the compelled; the object's
+  destruction (or `state uncond ID compelled`) ends it and restores the side.
+- **Nonlethal knockouts:** `state end` waits: `capture ID --how helpless --by WHO`, treat it, or `state end --leave ID`.
+- **After the fight** an ended combat state is no fight: `cast` heals the actor.

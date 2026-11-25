@@ -36,7 +36,7 @@ STAGE4 = {"travel-init", "travel", "forced-march", "navigate", "weather", "forag
 STAGE5A = {"treasure", "place", "item", "recover", "appraise", "identify", "use", "sell"}
 STAGE5B = {"payout", "level-up", "advance-0th", "death"}
 STAGE3 = {"retinue", "recruit", "candidate", "offer", "hire", "dismiss", "transfer", "wages", "loyalty", "obey",
-          "npc-party", "npc-class", "wait", "spellcasting"}
+          "npc-party", "npc-class", "wait", "spellcasting", "retain"}
 
 
 def context():
@@ -127,6 +127,8 @@ def extra_for(ctx, cmd, args):
             ex += ["--bestiary", b]
     if cmd in ("roll", "version", "check", "monster"):
         pass
+    elif cmd in ("roster", "alarm", "band"):
+        ex += ["--state", S, "--xstate", X]          # engine 7.25.0 (B4, B5): a site's people and its alarms
     elif cmd in ("lesson", "schedule", "compact"):
         ex += ["--xstate", X]
     elif cmd == "domain":
@@ -219,6 +221,23 @@ def _apply_env(env):
             os.environ[k] = v
 
 
+class _Tee(io.TextIOBase):
+    """stdout that is also kept (the slip catcher reads a printed command's output)."""
+
+    def __init__(self, real):
+        self.real, self.buf = real, io.StringIO()
+
+    def write(self, s):
+        self.buf.write(s)
+        return self.real.write(s)
+
+    def flush(self):
+        self.real.flush()
+
+    def text(self):
+        return self.buf.getvalue()
+
+
 def run(argv, ctx=None, capture=True):
     """Run one engine command as acks.sh does. Returns (exit code, output text) (text '' when not captured)."""
     cli = _engine()
@@ -249,7 +268,10 @@ def run(argv, ctx=None, capture=True):
             with contextlib.redirect_stdout(buf), contextlib.redirect_stderr(buf):
                 code = cli.run(full)
         else:
-            code = cli.run(full)
+            tee = _Tee(sys.stdout)
+            with contextlib.redirect_stdout(tee):
+                code = cli.run(full)
+            ctx["_tee"] = tee.text()
     except SystemExit as e:
         code = e.code if isinstance(e.code, int) else 2
     out = buf.getvalue()
@@ -264,6 +286,15 @@ def run(argv, ctx=None, capture=True):
         out += warn + "\n"
         if not capture:
             print(warn)
+    try:                                     # C11 (7.25.0 proposals): known slips recorded as they happen
+        import slips as _slips
+        for s_ in _slips.catch(ctx, [cmd, *args], int(code or 0), buf.getvalue() if capture else ctx.get("_tee", ""),
+                               run):
+            out += s_ + "\n"
+            if not capture:
+                print(s_)
+    except Exception:  # noqa: BLE001
+        pass
     return int(code or 0), out
 
 

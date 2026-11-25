@@ -129,3 +129,14 @@ A published module that gives its own encounter check and table for some hexes (
 - **Lodging:** `lodging --inn "Traveler's Inn" --nights N --members … --animals donkey1:draft --payer faustina` by
   `Campaign/lodging.yaml` (or RR p. 131); `downtime ID --activity "…" --from D --to D` before `play.py depart` (the
   table rule: `party.downtime_required` in campaign.yaml).
+
+## Engine 7.25 (Sakkara run 2 S14-S16 requests)
+- **One load:** `move-rate ID` counts carried food, water and firewood as `travel` does (`--no-supplies` leaves them
+  out). `travel` refuses while a member slows the column and a lighter member (not only an animal) or an animal could
+  take the load: it names the items and lots (`recover --give L# --carrier ID`).
+- **Water at known sources:** `camp`, or a travel that stops, in a hex with a river, lake or a source found
+  (`water --source`) fills the skins while anyone holds under a day (ACKS_ACK=water-at-source leaves them).
+- A day's weather rolled ahead (`weather --at H --day N`) is that day's weather when the party gets there.
+- `play.py depart` checks food as the travel block shares it; **`play.py ready --route ... --return-day N`** adds
+  loads, water on the route, training courses whose trainer goes (`train pause`) and where the animals are, and writes
+  the fixes it can name to Campaign/ready-fix.txt (`acks.sh batch` after reading it).
