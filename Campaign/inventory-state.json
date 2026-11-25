@@ -32,7 +32,7 @@
    "kind": "pc",
    "name": "fulvia",
    "actor": "fulvia",
-   "status": "active"
+   "status": "dead"
   },
   "eskil": {
    "kind": "pc",
@@ -123,6 +123,17 @@
      "day": 65,
      "nights": 5,
      "cause": null
+    },
+    {
+     "stabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 68,
+     "cause": null
+    },
+    {
+     "unstabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 69,
+     "nights": 1,
+     "cause": null
     }
    ]
   },
@@ -130,7 +141,7 @@
    "kind": "henchman",
    "name": "Gaius Rufo",
    "actor": "gaius-rufo",
-   "status": "active"
+   "status": "dead"
   },
   "ione": {
    "kind": "henchman",
@@ -172,13 +183,13 @@
    "kind": "pc",
    "name": "septimia",
    "actor": "septimia",
-   "status": "active"
+   "status": "dead"
   },
   "aedo": {
    "kind": "pc",
    "name": "aedo",
    "actor": "aedo",
-   "status": "active"
+   "status": "dead"
   },
   "company-chest": {
    "kind": "cache",
@@ -190,7 +201,7 @@
    "kind": "henchman",
    "name": "Tullus Brocchus",
    "actor": "tullus-brocchus",
-   "status": "active"
+   "status": "dead"
   },
   "decimus-ruga": {
    "kind": "henchman",
@@ -202,7 +213,7 @@
    "kind": "henchman",
    "name": "Herennius Bow",
    "actor": "herennius-bow",
-   "status": "active"
+   "status": "dead"
   },
   "donkey2": {
    "kind": "animal",
@@ -245,6 +256,17 @@
      "day": 65,
      "nights": 5,
      "cause": null
+    },
+    {
+     "stabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 68,
+     "cause": null
+    },
+    {
+     "unstabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 69,
+     "nights": 1,
+     "cause": null
     }
    ]
   },
@@ -256,6 +278,55 @@
    "animal": "Mule, Riding",
    "note": "lent by Quartermaster Thales against Aedo's pledge (day 65); return or repay 30gp",
    "owner": null
+  },
+  "ground:buried-temple": {
+   "kind": "cache",
+   "name": "ground:buried-temple",
+   "actor": null,
+   "status": "active"
+  },
+  "urza-kobolds": {
+   "kind": "cache",
+   "name": "Urza's kobolds (L1 3-4)",
+   "actor": null,
+   "status": "active",
+   "note": "stripped from the fallen company in the Great Hall, day 68"
+  },
+  "body:septimia": {
+   "kind": "body",
+   "name": "body of septimia",
+   "actor": null,
+   "status": "active"
+  },
+  "body:gaius-rufo": {
+   "kind": "body",
+   "name": "body of Gaius Rufo",
+   "actor": null,
+   "status": "active"
+  },
+  "body:tullus-brocchus": {
+   "kind": "body",
+   "name": "body of Tullus Brocchus",
+   "actor": null,
+   "status": "active"
+  },
+  "body:herennius-bow": {
+   "kind": "body",
+   "name": "body of Herennius Bow",
+   "actor": null,
+   "status": "active"
+  },
+  "body:aedo": {
+   "kind": "body",
+   "name": "body of aedo",
+   "actor": null,
+   "status": "active"
+  },
+  "body:fulvia": {
+   "kind": "body",
+   "name": "body of fulvia",
+   "actor": null,
+   "status": "active"
   }
  },
  "custom": {},
@@ -10925,6 +10996,1893 @@
    "price_cp": 200,
    "cmd": "inv buy",
    "n": 436
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 68,
+   "time": "day 68 07:56",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "shield",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "aedo",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 437
+  },
+  {
+   "op": "light",
+   "cause": "lantern4 lit (lantern)",
+   "day": 68,
+   "time": "day 68 07:56",
+   "deltas": [
+    {
+     "who": "octavia",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern4",
+   "cmd": "light on",
+   "n": 438
+  },
+  {
+   "op": "shoot",
+   "cause": "1 arrow shot (miss): it lies at ground:buried-temple",
+   "day": 68,
+   "time": "day 68 08:06",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:buried-temple",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 439
+  },
+  {
+   "op": "shoot",
+   "cause": "1 sling stone shot (hit): destroyed",
+   "day": 68,
+   "time": "day 68 08:06",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 440
+  },
+  {
+   "op": "wield",
+   "cause": "Short Sword taken in hand",
+   "day": 68,
+   "time": "day 68 08:06",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "#w12",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "fulvia",
+     "item": "#w12",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w12",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 441
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 68,
+   "time": "day 68 08:06",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "#w32",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "#w32",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 442
+  },
+  {
+   "op": "wield",
+   "cause": "Short Sword taken in hand",
+   "day": 68,
+   "time": "day 68 08:06",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "#w33",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "#w33",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w33",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 443
+  },
+  {
+   "op": "break",
+   "cause": "natural 1 with the Spear: the shaft breaks",
+   "day": 68,
+   "time": "day 68 08:06",
+   "deltas": [],
+   "coins": [],
+   "why": "broken",
+   "breaks": [
+    {
+     "id": "w16",
+     "form": "dagger"
+    }
+   ],
+   "holder": "eskil",
+   "cmd": "attack",
+   "n": 444
+  },
+  {
+   "op": "pay",
+   "cause": "a week's wages as a bribe (2gp a head; Judge's call)",
+   "day": 68,
+   "time": "day 68 08:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -16
+    }
+   ],
+   "to": "eight orcs in the Entry Way (L1 1)",
+   "price_cp": 1600,
+   "cmd": "inv pay",
+   "n": 445
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "eskil",
+     "item": "#w16",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "eskil",
+     "item": "#w16",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 446
+  },
+  {
+   "op": "wield",
+   "cause": "Dagger taken in hand",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "eskil",
+     "item": "#w18",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "eskil",
+     "item": "#w18",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w18",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 447
+  },
+  {
+   "op": "give",
+   "cause": "octavia gives to septimia",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "octavia",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "septimia",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 448
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "#w33",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "#w33",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 449
+  },
+  {
+   "op": "wield",
+   "cause": "Short Bow taken in hand",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "#w32",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "#w32",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w32",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 450
+  },
+  {
+   "op": "break",
+   "cause": "natural 1 with the Spear: the shaft breaks",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [],
+   "why": "broken",
+   "breaks": [
+    {
+     "id": "w26",
+     "form": "dagger"
+    }
+   ],
+   "holder": "aedo",
+   "cmd": "attack",
+   "n": 451
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "#w12",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "fulvia",
+     "item": "#w12",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 452
+  },
+  {
+   "op": "shoot",
+   "cause": "1 sling stone shot (hit): destroyed",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 453
+  },
+  {
+   "op": "shoot",
+   "cause": "1 sling stone shot (hit): destroyed",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "spent",
+   "cmd": "attack",
+   "n": 454
+  },
+  {
+   "op": "throw",
+   "cause": "Dagger thrown: it lies at ground:buried-temple",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "octavia",
+     "item": "#w8",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "ground:buried-temple",
+     "item": "#w8",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 455
+  },
+  {
+   "op": "take",
+   "cause": "taken from ground:buried-temple",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "ground:buried-temple",
+     "item": "#w8",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "octavia",
+     "item": "#w8",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv take",
+   "n": 456
+  },
+  {
+   "op": "shoot",
+   "cause": "1 sling stone shot (miss): it lies at ground:buried-temple",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "ground:buried-temple",
+     "item": "sling stone",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "attack",
+   "n": 457
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "gp": -23
+    },
+    {
+     "who": "urza-kobolds",
+     "gp": 23
+    }
+   ],
+   "cmd": "inv give",
+   "n": 458
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "sp": -8
+    },
+    {
+     "who": "urza-kobolds",
+     "sp": 8
+    }
+   ],
+   "cmd": "inv give",
+   "n": 459
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "cp": -10
+    },
+    {
+     "who": "urza-kobolds",
+     "cp": 10
+    }
+   ],
+   "cmd": "inv give",
+   "n": 460
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "#w34",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "urza-kobolds",
+     "item": "#w34",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 461
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "#w12",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "urza-kobolds",
+     "item": "#w12",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 462
+  },
+  {
+   "op": "give",
+   "cause": "fulvia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "thieves' tools",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "urza-kobolds",
+     "item": "thieves' tools",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 463
+  },
+  {
+   "op": "give",
+   "cause": "eskil gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "gp": -5
+    },
+    {
+     "who": "urza-kobolds",
+     "gp": 5
+    }
+   ],
+   "cmd": "inv give",
+   "n": 464
+  },
+  {
+   "op": "give",
+   "cause": "eskil gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "sp": -1
+    },
+    {
+     "who": "urza-kobolds",
+     "sp": 1
+    }
+   ],
+   "cmd": "inv give",
+   "n": 465
+  },
+  {
+   "op": "give",
+   "cause": "gaius-rufo gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "gp": -29
+    },
+    {
+     "who": "urza-kobolds",
+     "gp": 29
+    }
+   ],
+   "cmd": "inv give",
+   "n": 466
+  },
+  {
+   "op": "give",
+   "cause": "gaius-rufo gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "sp": -4
+    },
+    {
+     "who": "urza-kobolds",
+     "sp": 4
+    }
+   ],
+   "cmd": "inv give",
+   "n": 467
+  },
+  {
+   "op": "give",
+   "cause": "gaius-rufo gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "cp": -8
+    },
+    {
+     "who": "urza-kobolds",
+     "cp": 8
+    }
+   ],
+   "cmd": "inv give",
+   "n": 468
+  },
+  {
+   "op": "give",
+   "cause": "gaius-rufo gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "gaius-rufo",
+     "item": "#w20",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "urza-kobolds",
+     "item": "#w20",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 469
+  },
+  {
+   "op": "give",
+   "cause": "septimia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "gp": -16
+    },
+    {
+     "who": "urza-kobolds",
+     "gp": 16
+    }
+   ],
+   "cmd": "inv give",
+   "n": 470
+  },
+  {
+   "op": "give",
+   "cause": "septimia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "sp": -2
+    },
+    {
+     "who": "urza-kobolds",
+     "sp": 2
+    }
+   ],
+   "cmd": "inv give",
+   "n": 471
+  },
+  {
+   "op": "give",
+   "cause": "septimia gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "septimia",
+     "cp": -5
+    },
+    {
+     "who": "urza-kobolds",
+     "cp": 5
+    }
+   ],
+   "cmd": "inv give",
+   "n": 472
+  },
+  {
+   "op": "give",
+   "cause": "tullus-brocchus gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "tullus-brocchus",
+     "gp": -10
+    },
+    {
+     "who": "urza-kobolds",
+     "gp": 10
+    }
+   ],
+   "cmd": "inv give",
+   "n": 473
+  },
+  {
+   "op": "give",
+   "cause": "tullus-brocchus gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "#w29",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "urza-kobolds",
+     "item": "#w29",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 474
+  },
+  {
+   "op": "give",
+   "cause": "herennius-bow gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "silver arrow",
+     "slot": "backpack",
+     "qty": -3
+    },
+    {
+     "who": "urza-kobolds",
+     "item": "silver arrow",
+     "slot": "here",
+     "qty": 3
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 475
+  },
+  {
+   "op": "give",
+   "cause": "aedo gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aedo",
+     "gp": -5
+    },
+    {
+     "who": "urza-kobolds",
+     "gp": 5
+    }
+   ],
+   "cmd": "inv give",
+   "n": 476
+  },
+  {
+   "op": "give",
+   "cause": "aedo gives to urza-kobolds",
+   "day": 68,
+   "time": "day 68 08:26",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "aedo",
+     "sp": -6
+    },
+    {
+     "who": "urza-kobolds",
+     "sp": 6
+    }
+   ],
+   "cmd": "inv give",
+   "n": 477
+  },
+  {
+   "op": "death",
+   "cause": "septimia died; body carried",
+   "day": 68,
+   "time": "day 68 09:04",
+   "deltas": [
+    {
+     "who": "septimia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "septimia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:septimia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "septimia",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "rations, iron (one week)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "septimia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "septimia",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -6
+    },
+    {
+     "who": "body:septimia",
+     "item": "torch",
+     "slot": "here",
+     "qty": 6
+    },
+    {
+     "who": "septimia",
+     "item": "holy water (1 pint)",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "body:septimia",
+     "item": "holy water (1 pint)",
+     "slot": "here",
+     "qty": 2
+    },
+    {
+     "who": "septimia",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "body:septimia",
+     "item": "oil, common (1 pint)",
+     "slot": "here",
+     "qty": 2
+    },
+    {
+     "who": "septimia",
+     "item": "#w24",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "#w24",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "septimia",
+     "item": "#w25",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "#w25",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "septimia",
+     "item": "holy symbol",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "septimia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:septimia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 478
+  },
+  {
+   "op": "death",
+   "cause": "gaius-rufo died; body carried",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "gaius-rufo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "#w19",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "#w19",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "rations, iron (one week)",
+     "slot": "here",
+     "qty": 2
+    },
+    {
+     "who": "gaius-rufo",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:gaius-rufo",
+     "item": "torch",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 479
+  },
+  {
+   "op": "death",
+   "cause": "tullus-brocchus died; body carried",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "tullus-brocchus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:tullus-brocchus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tullus-brocchus",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:tullus-brocchus",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tullus-brocchus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:tullus-brocchus",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tullus-brocchus",
+     "item": "#w28",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:tullus-brocchus",
+     "item": "#w28",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "tullus-brocchus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "body:tullus-brocchus",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 480
+  },
+  {
+   "op": "death",
+   "cause": "herennius-bow died; body carried",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "herennius-bow",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:herennius-bow",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:herennius-bow",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "#w32",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:herennius-bow",
+     "item": "#w32",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -19
+    },
+    {
+     "who": "body:herennius-bow",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 19
+    },
+    {
+     "who": "herennius-bow",
+     "item": "#w33",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:herennius-bow",
+     "item": "#w33",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "herennius-bow",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:herennius-bow",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 481
+  },
+  {
+   "op": "death",
+   "cause": "aedo died; body carried",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "aedo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aedo",
+     "item": "#w27",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "#w27",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aedo",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -2
+    },
+    {
+     "who": "body:aedo",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 2
+    },
+    {
+     "who": "aedo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aedo",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -6
+    },
+    {
+     "who": "body:aedo",
+     "item": "torch",
+     "slot": "here",
+     "qty": 6
+    },
+    {
+     "who": "aedo",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aedo",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aedo",
+     "item": "#w26",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "#w26",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aedo",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -20
+    },
+    {
+     "who": "body:aedo",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 20
+    },
+    {
+     "who": "aedo",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "worn",
+     "qty": -1
+    },
+    {
+     "who": "body:aedo",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 482
+  },
+  {
+   "op": "give",
+   "cause": "body:tullus-brocchus gives to donkey1",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:tullus-brocchus",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey1",
+     "item": "banded plate armor",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 483
+  },
+  {
+   "op": "give",
+   "cause": "body:tullus-brocchus gives to donkey1",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:tullus-brocchus",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey1",
+     "item": "shield",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 484
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to donkey1",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey1",
+     "item": "scale armor",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 485
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "shield",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey2",
+     "item": "shield",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 486
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "#w27",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey2",
+     "item": "#w27",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 487
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "arrow",
+     "slot": "here",
+     "qty": -20
+    },
+    {
+     "who": "donkey2",
+     "item": "arrow",
+     "slot": "pack",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 488
+  },
+  {
+   "op": "give",
+   "cause": "body:herennius-bow gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:herennius-bow",
+     "item": "#w32",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey2",
+     "item": "#w32",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 489
+  },
+  {
+   "op": "give",
+   "cause": "body:herennius-bow gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:herennius-bow",
+     "item": "#w33",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey2",
+     "item": "#w33",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 490
+  },
+  {
+   "op": "give",
+   "cause": "body:herennius-bow gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:herennius-bow",
+     "item": "arrow",
+     "slot": "here",
+     "qty": -19
+    },
+    {
+     "who": "donkey2",
+     "item": "arrow",
+     "slot": "pack",
+     "qty": 19
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 491
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "donkey2",
+     "item": "holy symbol",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 492
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to donkey2",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "holy water (1 pint)",
+     "slot": "here",
+     "qty": -2
+    },
+    {
+     "who": "donkey2",
+     "item": "holy water (1 pint)",
+     "slot": "pack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 493
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to octavia",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "oil, common (1 pint)",
+     "slot": "here",
+     "qty": -2
+    },
+    {
+     "who": "octavia",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 494
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to ione",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "rations, iron (one week)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "ione",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 495
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to ione",
+   "day": 69,
+   "time": "day 69 08:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "rations, iron (one week)",
+     "slot": "here",
+     "qty": -2
+    },
+    {
+     "who": "ione",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 496
+  },
+  {
+   "op": "death",
+   "cause": "fulvia died; body carried",
+   "day": 70,
+   "time": "day 70 08:14",
+   "deltas": [
+    {
+     "who": "fulvia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:fulvia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "fulvia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -6
+    },
+    {
+     "who": "body:fulvia",
+     "item": "torch",
+     "slot": "here",
+     "qty": 6
+    },
+    {
+     "who": "fulvia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "sack, large (holds 6 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "#w15",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "#w15",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "#w13",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "#w13",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "#w14",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "#w14",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "fulvia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": -26
+    },
+    {
+     "who": "body:fulvia",
+     "item": "sling stone",
+     "slot": "here",
+     "qty": 26
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 497
+  },
+  {
+   "op": "give",
+   "cause": "donkey1 gives to donkey2",
+   "day": 70,
+   "time": "day 70 08:14",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "shield",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "donkey2",
+     "item": "shield",
+     "slot": "pack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 498
   }
  ],
  "holdings": {
@@ -10937,45 +12895,19 @@
     "waterskin": 5,
     "tinderbox (flint & steel)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 5,
-    "mirror (hand-sized, steel)": 1
+    "oil, common (1 pint)": 4,
+    "mirror (hand-sized, steel)": 1,
+    "#w8": 1
    },
    "worn": {
     "sack, large (holds 6 stone)": 1
-   },
-   "right_hand": {
-    "#w8": 1
-   }
-  },
-  "fulvia": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "tinderbox (flint & steel)": 1,
-    "torch": 6,
-    "thieves' tools": 1,
-    "sack, large (holds 6 stone)": 1,
-    "#w34": 1
-   },
-   "armor": {
-    "leather armor": 1
-   },
-   "right_hand": {
-    "#w15": 1
-   },
-   "belt": {
-    "#w13": 1,
-    "#w14": 1,
-    "sling stone": 30,
-    "#w12": 1
    }
   },
   "eskil": {
    "back": {
     "backpack (holds 4 stone)": 1,
-    "#w17": 1
+    "#w17": 1,
+    "#w16": 1
    },
    "backpack": {
     "waterskin": 5,
@@ -10986,11 +12918,10 @@
     "leather armor": 1
    },
    "right_hand": {
-    "#w16": 1
+    "#w18": 1
    },
    "belt": {
     "sling stone": 30,
-    "#w18": 1,
     "whistle": 1
    }
   },
@@ -11001,30 +12932,9 @@
     "crowbar": 1,
     "torch": 12,
     "waterskin": 6,
-    "#w23": 1
-   }
-  },
-  "gaius-rufo": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "leather armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w19": 1
-   },
-   "belt": {
-    "#w20": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "tinderbox (flint & steel)": 1,
-    "rations, iron (one week)": 2,
-    "torch": 1
+    "#w23": 1,
+    "banded plate armor": 1,
+    "scale armor": 1
    }
   },
   "ione": {
@@ -11036,7 +12946,8 @@
    },
    "backpack": {
     "waterskin": 5,
-    "sack, small (holds 2 stone)": 1
+    "sack, small (holds 2 stone)": 1,
+    "rations, iron (one week)": 3
    }
   },
   "body:lepidus": {
@@ -11052,52 +12963,6 @@
   "body:silvanus": {
    "here": {
     "waterskin": 5
-   }
-  },
-  "septimia": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "rations, iron (one week)": 1,
-    "tinderbox (flint & steel)": 1,
-    "torch": 6,
-    "holy water (1 pint)": 2
-   },
-   "right_hand": {
-    "#w24": 1
-   },
-   "belt": {
-    "#w25": 1,
-    "holy symbol": 1
-   },
-   "worn": {
-    "sack, large (holds 6 stone)": 1
-   }
-  },
-  "aedo": {
-   "back": {
-    "backpack (holds 4 stone)": 1,
-    "#w27": 1
-   },
-   "backpack": {
-    "waterskin": 2,
-    "tinderbox (flint & steel)": 1,
-    "torch": 6,
-    "shield": 1
-   },
-   "armor": {
-    "scale armor": 1
-   },
-   "right_hand": {
-    "#w26": 1
-   },
-   "belt": {
-    "arrow": 20
-   },
-   "worn": {
-    "sack, large (holds 6 stone)": 1
    }
   },
   "company-chest": {
@@ -11123,26 +12988,6 @@
     "leather armor": 1
    }
   },
-  "tullus-brocchus": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "banded plate armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w28": 1
-   },
-   "belt": {
-    "#w29": 1
-   },
-   "backpack": {
-    "waterskin": 2
-   }
-  },
   "decimus-ruga": {
    "back": {
     "backpack (holds 4 stone)": 1
@@ -11163,28 +13008,92 @@
     "waterskin": 2
    }
   },
-  "herennius-bow": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "leather armor": 1
-   },
-   "right_hand": {
-    "#w32": 1
-   },
-   "belt": {
-    "arrow": 20,
-    "#w33": 1
-   },
-   "backpack": {
-    "waterskin": 5,
+  "donkey2": {
+   "pack": {
+    "waterskin": 9,
+    "shield": 2,
+    "#w27": 1,
+    "arrow": 39,
+    "#w32": 1,
+    "#w33": 1,
+    "holy symbol": 1,
+    "holy water (1 pint)": 2
+   }
+  },
+  "ground:buried-temple": {
+   "here": {
+    "arrow": 1,
+    "sling stone": 1
+   }
+  },
+  "urza-kobolds": {
+   "here": {
+    "#w34": 1,
+    "#w12": 1,
+    "thieves' tools": 1,
+    "#w20": 1,
+    "#w29": 1,
     "silver arrow": 3
    }
   },
-  "donkey2": {
-   "pack": {
-    "waterskin": 9
+  "body:septimia": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "#w24": 1,
+    "#w25": 1,
+    "sack, large (holds 6 stone)": 1
+   }
+  },
+  "body:gaius-rufo": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "leather armor": 1,
+    "shield": 1,
+    "#w19": 1,
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 1
+   }
+  },
+  "body:tullus-brocchus": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "#w28": 1,
+    "waterskin": 2
+   }
+  },
+  "body:herennius-bow": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "leather armor": 1,
+    "waterskin": 5
+   }
+  },
+  "body:aedo": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 2,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "#w26": 1,
+    "sack, large (holds 6 stone)": 1
+   }
+  },
+  "body:fulvia": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "sack, large (holds 6 stone)": 1,
+    "leather armor": 1,
+    "#w15": 1,
+    "#w13": 1,
+    "#w14": 1,
+    "sling stone": 26
    }
   }
  },
@@ -11193,15 +13102,6 @@
    "gp": 28,
    "cp": 9,
    "sp": 5
-  },
-  "fulvia": {
-   "gp": 39,
-   "sp": 8,
-   "cp": 10
-  },
-  "eskil": {
-   "gp": 5,
-   "sp": 1
   },
   "ione": {
    "gp": 97,
@@ -11223,25 +13123,13 @@
    "sp": 3,
    "gp": 4
   },
-  "gaius-rufo": {
-   "cp": 8,
-   "sp": 4,
-   "gp": 29
-  },
-  "septimia": {
-   "gp": 16,
-   "sp": 2,
-   "cp": 5
-  },
-  "aedo": {
-   "gp": 5,
-   "sp": 6
-  },
-  "tullus-brocchus": {
-   "gp": 10
-  },
   "decimus-ruga": {
    "sp": 2
+  },
+  "urza-kobolds": {
+   "gp": 88,
+   "sp": 21,
+   "cp": 23
   }
  },
  "rolls": {
@@ -12249,6 +14137,9 @@
       "row": 4
      }
     }
+   },
+   "broken": {
+    "form": "dagger"
    }
   },
   "w17": {
@@ -12867,6 +14758,9 @@
       "row": 4
      }
     }
+   },
+   "broken": {
+    "form": "dagger"
    }
   },
   "w27": {
@@ -13197,7 +15091,7 @@
     "medium": 150,
     "long": 300
    },
-   "grip": 1,
+   "grip": 2,
    "lot": null,
    "cause": "equipment on hiring (legion issue, kept under the legate's scroll: Rulings R3 S02)",
    "magic": {
@@ -13362,7 +15256,8 @@
  },
  "notes_shown": [
   "availability.month_reading",
-  "weapon.tiny_one_hand"
+  "weapon.tiny_one_hand",
+  "weapon.two_handed_other_hand"
  ],
  "checkpoint": {
   "events": 6,

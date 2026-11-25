@@ -1,0 +1,4177 @@
+{
+ "schema": "acks-combat/3",
+ "round": 29,
+ "order": [
+  "kobold-sleeper3",
+  "kobold-sleeper5",
+  "kobold-sleeper1",
+  "kobold-sleeper4",
+  "kobold-sleeper2",
+  "kobold-sleeper6",
+  "kobold-sleeper7",
+  "giant-rat10"
+ ],
+ "count_index": 0,
+ "options": {
+  "group_initiative": false,
+  "party_sides": [
+   "party"
+  ]
+ },
+ "combatants": {
+  "octavia": {
+   "id": "octavia",
+   "side": "party",
+   "status": "fled",
+   "conditions": [],
+   "group": "octavia",
+   "perceived": "Octavia",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2
+   ],
+   "felled": {
+    "round": 2,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat3",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Octavia",
+   "stats": {
+    "name": "Octavia",
+    "actor": "octavia",
+    "kind": "pc",
+    "level": 1,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 13,
+      "blast": 15,
+      "implements": 11,
+      "spells": 12
+     },
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "ac_options": {
+     "shield": 0,
+     "no_shield": 0,
+     "dex_only": 0
+    },
+    "hp_max": 6,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Loremastery",
+     "Adventuring",
+     "Mapping",
+     "Knowledge (Ancient History)",
+     "Caving"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "loremastery": "",
+     "adventuring": "",
+     "mapping": "",
+     "knowledge (ancient history)": "",
+     "caving": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "octavia",
+   "hp_max": 6,
+   "hp": 1,
+   "hp_start": 1,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": 20,
+    "d20": 17,
+    "d6": 4,
+    "table": "mortal-wounds-savage",
+    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of rest.",
+    "wound": "1d3 fingers on one hand are bitten off (3 lost fingers on one hand make it useless).",
+    "band": "16-20"
+   },
+   "attacked_round": 20
+  },
+  "fulvia": {
+   "id": "fulvia",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 22,
+     "note": null
+    }
+   ],
+   "group": "fulvia",
+   "perceived": "Fulvia",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2,
+    3,
+    22
+   ],
+   "felled": {
+    "round": 22,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat7",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Fulvia",
+   "stats": {
+    "name": "Fulvia",
+    "actor": "fulvia",
+    "kind": "pc",
+    "level": 1,
+    "class": "Thief",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "thief-attack-and-saving-throws",
+      "title": "Thief Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "block": "^tbl-thief-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 31",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 13,
+      "blast": 13,
+      "implements": 14,
+      "spells": 15
+     },
+     {
+      "table": "thief-attack-and-saving-throws",
+      "title": "Thief Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "block": "^tbl-thief-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 31",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.thief.hit_die",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "book": "RR",
+      "page": "p. 30"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.thief.cleave",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "book": "RR",
+      "page": "p. 30"
+     }
+    ],
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 1
+    },
+    "hp_max": 5,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Sling",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d4",
+      "range": {
+       "short": 60,
+       "medium": 120,
+       "long": 240
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "left hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Silver Dagger",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "backpack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Trapfinding",
+     "Adventuring",
+     "Bargaining",
+     "Streetwise"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "trapfinding": "",
+     "adventuring": "",
+     "bargaining": "",
+     "streetwise": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "fulvia",
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": 20,
+    "d20": 11,
+    "d6": 3,
+    "table": "mortal-wounds-savage",
+    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of rest.",
+    "wound": "1d3 toes on one foot are bitten off (3 lost toes on one foot make it useless).",
+    "band": "16-20"
+   },
+   "attacked_round": 21
+  },
+  "eskil": {
+   "id": "eskil",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 5,
+     "note": null
+    }
+   ],
+   "group": "eskil",
+   "perceived": "Eskil",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    4,
+    4,
+    5,
+    5
+   ],
+   "felled": {
+    "round": 5,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat9",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Eskil",
+   "stats": {
+    "name": "Eskil",
+    "actor": "eskil",
+    "kind": "pc",
+    "level": 1,
+    "class": "Shaman",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "shaman-attack-and-saving-throws",
+      "title": "Shaman (Crusader) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "block": "^tbl-shaman-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 69",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 10,
+      "blast": 16,
+      "implements": 13,
+      "spells": 15
+     },
+     {
+      "table": "shaman-attack-and-saving-throws",
+      "title": "Shaman (Crusader) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "block": "^tbl-shaman-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 69",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.shaman.hit_die",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "book": "RR",
+      "page": "p. 68"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.shaman.cleave",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "book": "RR",
+      "page": "p. 68"
+     }
+    ],
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 1
+    },
+    "hp_max": 5,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Spear (broken shaft: as dagger)",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Staff Sling",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d4/1d6",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "back"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Animal Training",
+     "Adventuring",
+     "Animal Husbandry",
+     "Diplomacy"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "animal training": "",
+     "adventuring": "",
+     "animal husbandry": "",
+     "diplomacy": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "eskil",
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "attacked_round": 3,
+   "last_types": [
+    "piercing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 6
+   },
+   "mortal_wounds": {
+    "total": 15,
+    "d20": 10,
+    "d6": 6,
+    "table": "mortal-wounds-savage",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "The fang marks on your neck are only somewhat visible (minor scarring).",
+    "band": "11-15"
+   }
+  },
+  "eskil-dog": {
+   "id": "eskil-dog",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 1,
+     "note": null
+    }
+   ],
+   "group": "eskil-dog",
+   "perceived": "Eskil's dog",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1,
+    1,
+    20
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat7",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Eskil's dog",
+   "stats": {},
+   "monster": {
+    "base": "hunting-dog",
+    "sha256": "d4a7751476d997400046a4ae67bcb715255bba2b6c15b02ec16fdc0b8de07f01",
+    "actor": "eskil-dog",
+    "overrides": {
+     "attacks": [
+      {
+       "count": 1,
+       "names": [
+        "bite"
+       ],
+       "raw": "1 (bite 9+)",
+       "throw": 12
+      }
+     ],
+     "damage": [
+      {
+       "pieces": [
+        {
+         "dice": "1d4",
+         "extraordinary": false,
+         "raw": "1d4",
+         "types": [
+          "piercing"
+         ]
+        }
+       ],
+       "raw": "1d4"
+      }
+     ],
+     "hd": {
+      "text": "1/2",
+      "dice": 0,
+      "half": true,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": "1/2"
+     },
+     "name": "Eskil's dog",
+     "save_as": [
+      "F",
+      0
+     ]
+    }
+   },
+   "hp_max": 2,
+   "hp": -1,
+   "companion": {
+    "owner": "eskil",
+    "actor": "eskil-dog"
+   },
+   "hp_start": 2,
+   "attacked_round": 1,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "gaius-rufo": {
+   "id": "gaius-rufo",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 8,
+     "note": null
+    }
+   ],
+   "group": "gaius-rufo",
+   "perceived": "Gaius Rufo",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    5,
+    7,
+    8,
+    8,
+    24
+   ],
+   "felled": {
+    "round": 8,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat2",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Gaius Rufo",
+   "stats": {
+    "name": "Gaius Rufo",
+    "actor": "gaius-rufo",
+    "kind": "pc",
+    "level": 0,
+    "class": "None (0th level)",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     11,
+     {
+      "table": "attack-throws-by-level-and-hd",
+      "title": "Attack Throws by Level and HD",
+      "note": "ACKS II Rules/07 Adventures/Conducting an Attack.md",
+      "block": "^tbl-attack-throws-by-level-and-hd",
+      "book": "RR",
+      "page": "p. 296",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 14,
+      "death": 15,
+      "blast": 16,
+      "implements": 17,
+      "spells": 18
+     },
+     {
+      "table": "fighter-saving-throws",
+      "title": "Fighter Saving Throws",
+      "note": "ACKS II Rules/07 Adventures/Saving Throws.md",
+      "block": "^tbl-fighter-saving-throws",
+      "book": "RR",
+      "page": "p. 304",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1/2 HD",
+     {
+      "actor": "gaius-rufo"
+     }
+    ],
+    "cleaves": [
+     0,
+     null
+    ],
+    "progression": "fighter",
+    "zero_level": true,
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": -1
+    },
+    "hp_max": 5,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Spear",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6+1",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6+1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": -1,
+    "proficiencies": [
+     "As type + second rank of Manual of Arms"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "as type + second rank of manual of arms": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "gaius-rufo",
+   "hp_max": 5,
+   "hp": -3,
+   "hp_start": 5,
+   "last_types": [
+    "piercing"
+   ],
+   "attacked_round": 6,
+   "mortal_wounds": {
+    "total": 23,
+    "d20": 14,
+    "d6": 6,
+    "table": "mortal-wounds-savage",
+    "condition": "You were knocked out. You recover with 1 hp. You need magical healing or one night of bed rest.",
+    "wound": "A vision of the afterlife haunts you, then fades as you awaken.",
+    "band": "21-25"
+   }
+  },
+  "septimia": {
+   "id": "septimia",
+   "side": "party",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 11,
+     "note": null
+    }
+   ],
+   "group": "septimia",
+   "perceived": "Septimia",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    10,
+    11,
+    11
+   ],
+   "felled": {
+    "round": 11,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat5",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Septimia",
+   "stats": {
+    "name": "Septimia",
+    "actor": "septimia",
+    "kind": "pc",
+    "level": 1,
+    "class": "Priestess",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "priestess-attack-throws",
+      "title": "Priestess (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-attack-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 10,
+      "blast": 16,
+      "implements": 13,
+      "spells": 15
+     },
+     {
+      "table": "priestess-saving-throws",
+      "title": "Priestess (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-saving-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.priestess.hit_die",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.priestess.cleave",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "ac_options": {
+     "shield": 0,
+     "no_shield": 0,
+     "dex_only": 0
+    },
+    "hp_max": 4,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4-1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Laying on Hands",
+     "Adventuring",
+     "Healing",
+     "Survival"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "laying on hands": "",
+     "adventuring": "",
+     "healing": "",
+     "survival": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "septimia",
+   "hp_max": 4,
+   "hp": -1,
+   "hp_start": 4,
+   "spells_cast": {
+    "cure light injury": 1
+   },
+   "last_types": [
+    "piercing"
+   ],
+   "attacked_round": 10,
+   "dying": {
+    "within": "round",
+    "since_round": 12,
+    "deadline_round": 13
+   },
+   "mortal_wounds": {
+    "total": 5,
+    "d20": 4,
+    "d6": 3,
+    "table": "mortal-wounds-savage",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Both legs are torn off (DEX reduced to 3 for AC purposes, two crutches required, movement reduced by 60', cannot force march).",
+    "band": "1-5"
+   }
+  },
+  "tullus-brocchus": {
+   "id": "tullus-brocchus",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "cowering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 7,
+     "note": "engaged: cowers until he can flee"
+    },
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 8,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 9,
+     "note": null
+    }
+   ],
+   "group": "tullus-brocchus",
+   "perceived": "Tullus Brocchus",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    8,
+    9,
+    9
+   ],
+   "felled": {
+    "round": 9,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat8",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Tullus Brocchus",
+   "stats": {
+    "name": "Tullus Brocchus",
+    "actor": "tullus-brocchus",
+    "kind": "henchman",
+    "level": 0,
+    "class": "None (0th level)",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     11,
+     {
+      "table": "attack-throws-by-level-and-hd",
+      "title": "Attack Throws by Level and HD",
+      "note": "ACKS II Rules/07 Adventures/Conducting an Attack.md",
+      "block": "^tbl-attack-throws-by-level-and-hd",
+      "book": "RR",
+      "page": "p. 296",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 14,
+      "death": 15,
+      "blast": 16,
+      "implements": 17,
+      "spells": 18
+     },
+     {
+      "table": "fighter-saving-throws",
+      "title": "Fighter Saving Throws",
+      "note": "ACKS II Rules/07 Adventures/Saving Throws.md",
+      "block": "^tbl-fighter-saving-throws",
+      "book": "RR",
+      "page": "p. 304",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1-1 HD",
+     {
+      "actor": "tullus-brocchus"
+     }
+    ],
+    "cleaves": [
+     0,
+     null
+    ],
+    "progression": "fighter",
+    "zero_level": true,
+    "ac_options": {
+     "shield": 5,
+     "no_shield": 5,
+     "dex_only": 0
+    },
+    "hp_max": 5,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Spear",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+2",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6/1d8+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Profession (merchant)",
+     "Craft (candlemaking)",
+     "Bargaining",
+     "Folkways"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "profession (merchant)": "",
+     "craft (candlemaking)": "",
+     "bargaining": "",
+     "folkways": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "tullus-brocchus",
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "attacked_round": 6,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "herennius-bow": {
+   "id": "herennius-bow",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 9,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 10,
+     "note": null
+    }
+   ],
+   "group": "herennius-bow",
+   "perceived": "Herennius Bow",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    9,
+    10,
+    20
+   ],
+   "felled": {
+    "round": 10,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat1",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Herennius Bow",
+   "stats": {
+    "name": "Herennius Bow",
+    "actor": "herennius-bow",
+    "kind": "henchman",
+    "level": 0,
+    "class": "None (0th level)",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     11,
+     {
+      "table": "attack-throws-by-level-and-hd",
+      "title": "Attack Throws by Level and HD",
+      "note": "ACKS II Rules/07 Adventures/Conducting an Attack.md",
+      "block": "^tbl-attack-throws-by-level-and-hd",
+      "book": "RR",
+      "page": "p. 296",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 14,
+      "death": 15,
+      "blast": 16,
+      "implements": 17,
+      "spells": 18
+     },
+     {
+      "table": "fighter-saving-throws",
+      "title": "Fighter Saving Throws",
+      "note": "ACKS II Rules/07 Adventures/Saving Throws.md",
+      "block": "^tbl-fighter-saving-throws",
+      "book": "RR",
+      "page": "p. 304",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1-1 HD",
+     {
+      "actor": "herennius-bow"
+     }
+    ],
+    "cleaves": [
+     0,
+     null
+    ],
+    "progression": "fighter",
+    "zero_level": true,
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 0
+    },
+    "hp_max": 3,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d6",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d6",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "back"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Art (any) 3",
+     "Craft (related to art)",
+     "Folkways",
+     "Revelry"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "art (any) 3": "",
+     "craft (related to art)": "",
+     "folkways": "",
+     "revelry": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "herennius-bow",
+   "hp_max": 3,
+   "hp": -2,
+   "hp_start": 2,
+   "last_types": [
+    "bludgeoning"
+   ],
+   "damaged_by": [
+    "blunt"
+   ]
+  },
+  "aedo": {
+   "id": "aedo",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 15,
+     "note": null
+    }
+   ],
+   "group": "aedo",
+   "perceived": "Aedo",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    15,
+    15
+   ],
+   "felled": {
+    "round": 15,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat1",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Aedo",
+   "stats": {
+    "name": "Aedo",
+    "actor": "aedo",
+    "kind": "pc",
+    "level": 1,
+    "class": "Explorer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      -2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 1
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 14,
+      "blast": 15,
+      "implements": 16,
+      "spells": 17
+     },
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.explorer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 26"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     1,
+     {
+      "rule": "class.explorer.cleave",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 4,
+     "no_shield": 3,
+     "dex_only": 0
+    },
+    "hp_max": 5,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Spear",
+      "init_bonus": "",
+      "attack_throw": 8,
+      "damage": "1d6+3",
+      "range": {
+       "short": 30,
+       "medium": 60,
+       "long": 120
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6+1",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "back"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Navigation",
+     "Adventuring",
+     "Healing"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "navigation": "",
+     "adventuring": "",
+     "healing": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "aedo",
+   "hp_max": 5,
+   "hp": 0,
+   "hp_start": 5,
+   "attacked_round": 15,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "giant-rat1": {
+   "id": "giant-rat1",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 27,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 1",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    27,
+    27,
+    27
+   ],
+   "felled": {
+    "round": 27,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-sleeper7",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 3,
+   "hp": -2,
+   "hp_start": 3,
+   "attacked_round": 27,
+   "last_types": [
+    "piercing"
+   ],
+   "dying": {
+    "within": "turn",
+    "since_round": 29
+   },
+   "mortal_wounds": {
+    "total": 9,
+    "d20": 20,
+    "d6": 6,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "A puncture wound to the throat leaves several vocal cords severed (raspy voice, -2 to throws involving speech).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat2": {
+   "id": "giant-rat2",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 13,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 2",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    13,
+    13
+   ],
+   "felled": {
+    "round": 13,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-band6",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 0,
+   "hp_start": 4,
+   "attacked_round": 12,
+   "last_types": [
+    "piercing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 29
+   },
+   "mortal_wounds": {
+    "total": 13,
+    "d20": 14,
+    "d6": 5,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat3": {
+   "id": "giant-rat3",
+   "side": "foe",
+   "status": "recovering",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 3",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    10,
+    14,
+    14
+   ],
+   "felled": {
+    "round": 14,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-band1",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 3,
+   "hp": 1,
+   "hp_start": 3,
+   "attacked_round": 14,
+   "last_types": [
+    "piercing"
+   ],
+   "damaged_by": [
+    "blunt"
+   ],
+   "mortal_wounds": {
+    "total": 17,
+    "d20": 18,
+    "d6": 6,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of bed rest.",
+    "wound": "Ghostly visions of lost companions flicker before your eyes as you awaken.",
+    "band": "16-20"
+   },
+   "xp_recorded": {
+    "judge": "captured"
+   }
+  },
+  "giant-rat4": {
+   "id": "giant-rat4",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 15,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 4",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    14,
+    15,
+    15
+   ],
+   "felled": {
+    "round": 15,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-band2",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 3,
+   "hp": -3,
+   "hp_start": 3,
+   "attacked_round": 14,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": 0,
+    "d20": 11,
+    "d6": 4,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "A ghastly puncture that left your guts spilling out messily betrays your grisly end.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat5": {
+   "id": "giant-rat5",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 16,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 5",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    16
+   ],
+   "felled": {
+    "round": 16,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-band3",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 2,
+   "hp": -2,
+   "hp_start": 2,
+   "attacked_round": 16,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": -1,
+    "d20": 10,
+    "d6": 5,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "A deep stab wound reveals your harsh demise.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat6": {
+   "id": "giant-rat6",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 17,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 6",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    17
+   ],
+   "felled": {
+    "round": 17,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-band3",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": -1,
+   "hp_start": 4,
+   "attacked_round": 16,
+   "last_types": [
+    "piercing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 29
+   },
+   "mortal_wounds": {
+    "total": 11,
+    "d20": 19,
+    "d6": 2,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "The deep wound has destroyed your manhood/womanhood (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat7": {
+   "id": "giant-rat7",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "cowering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 27,
+     "note": "engaged: cowers until it can flee with defensive movement"
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 28,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 7",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    14,
+    18,
+    19,
+    28
+   ],
+   "felled": {
+    "round": 28,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-sleeper5",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": -2,
+   "hp_start": 4,
+   "attacked_round": 27,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": 0,
+    "d20": 8,
+    "d6": 5,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "A deep stab wound reveals your harsh demise.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat8": {
+   "id": "giant-rat8",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 27,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 8",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    27
+   ],
+   "felled": {
+    "round": 27,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-sleeper1",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 1,
+   "hp": -3,
+   "hp_start": 1,
+   "attacked_round": 27,
+   "last_types": [
+    "piercing"
+   ],
+   "mortal_wounds": {
+    "total": -13,
+    "d20": 13,
+    "d6": 4,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "Air wheezes from the hole in your chest as your lungs deflate for the last time.",
+    "band": "-6 or less"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat9": {
+   "id": "giant-rat9",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 17,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 20,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 9",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    20
+   ],
+   "felled": {
+    "round": 20,
+    "types": [
+     "bludgeoning"
+    ],
+    "natural": false,
+    "by": "fulvia",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 3,
+   "hp": 0,
+   "hp_start": 3,
+   "attacked_round": 19,
+   "last_types": [
+    "bludgeoning"
+   ],
+   "damaged_by": [
+    "blunt"
+   ],
+   "dying": {
+    "within": "round",
+    "since_round": 29,
+    "deadline_round": 30
+   },
+   "mortal_wounds": {
+    "total": 3,
+    "d20": 4,
+    "d6": 6,
+    "table": "mortal-wounds-arcane-bludgeoning-seismic",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your jaw is irreparably broken, and all your teeth pulverized (cannot speak clearly, cast spells, or use magic items involving speech, -4 to reaction rolls).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat10": {
+   "id": "giant-rat10",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "cowering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 27,
+     "note": "engaged: cowers until it can flee with defensive movement"
+    },
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 28,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 29,
+     "note": null
+    }
+   ],
+   "group": "giant-rat",
+   "perceived": "giant rat 10",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    28,
+    29
+   ],
+   "felled": {
+    "round": 29,
+    "types": [
+     "piercing"
+    ],
+    "natural": false,
+    "by": "kobold-sleeper3",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 3,
+   "hp": 0,
+   "hp_start": 3,
+   "attacked_round": 27,
+   "last_types": [
+    "piercing"
+   ],
+   "dying": {
+    "within": "turn",
+    "since_round": 29
+   },
+   "mortal_wounds": {
+    "total": 9,
+    "d20": 10,
+    "d6": 6,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "A puncture wound to the throat leaves several vocal cords severed (raspy voice, -2 to throws involving speech).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M6",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "kobold-guard1": {
+   "id": "kobold-guard1",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 11,
+     "note": null
+    }
+   ],
+   "group": "kobold-guard",
+   "perceived": "kobold door-guard 1",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    11,
+    11,
+    20,
+    21,
+    21,
+    23
+   ],
+   "felled": {
+    "round": 11,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat3",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": null,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 4,
+   "hp": -9,
+   "hp_start": 4,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-guard2": {
+   "id": "kobold-guard2",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 12,
+     "note": null
+    }
+   ],
+   "group": "kobold-guard",
+   "perceived": "kobold door-guard 2",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    12,
+    12,
+    24
+   ],
+   "felled": {
+    "round": 12,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat4",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": -4,
+   "hp_start": 3,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-guard3": {
+   "id": "kobold-guard3",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 13,
+     "note": null
+    }
+   ],
+   "group": "kobold-guard",
+   "perceived": "kobold door-guard 3",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    13
+   ],
+   "felled": {
+    "round": 13,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat5",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 0,
+   "hp_start": 3,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-guard4": {
+   "id": "kobold-guard4",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 15,
+     "note": null
+    }
+   ],
+   "group": "kobold-guard",
+   "perceived": "kobold door-guard 4",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    13,
+    15
+   ],
+   "felled": {
+    "round": 15,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat5",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 2,
+   "hp": -2,
+   "hp_start": 2,
+   "last_types": [
+    "piercing"
+   ],
+   "attacked_round": 14
+  },
+  "kobold-band1": {
+   "id": "kobold-band1",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 16,
+     "note": null
+    }
+   ],
+   "group": "kobold-band",
+   "perceived": "kobold from the guard room 1",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    15,
+    16
+   ],
+   "felled": {
+    "round": 16,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat6",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 4,
+   "hp": -1,
+   "hp_start": 4,
+   "attacked_round": 16,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-band2": {
+   "id": "kobold-band2",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 17,
+     "note": null
+    }
+   ],
+   "group": "kobold-band",
+   "perceived": "kobold from the guard room 2",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    16,
+    17
+   ],
+   "felled": {
+    "round": 17,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat9",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 4,
+   "hp": 0,
+   "hp_start": 4,
+   "attacked_round": 16,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-band3": {
+   "id": "kobold-band3",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 18,
+     "note": null
+    }
+   ],
+   "group": "kobold-band",
+   "perceived": "kobold from the guard room 3",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    18
+   ],
+   "felled": {
+    "round": 18,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat10",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 0,
+   "hp_start": 3,
+   "attacked_round": 17,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-band4": {
+   "id": "kobold-band4",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 19,
+     "note": null
+    }
+   ],
+   "group": "kobold-band",
+   "perceived": "kobold from the guard room 4",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    19,
+    19,
+    21
+   ],
+   "felled": {
+    "round": 19,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat9",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": -3,
+   "hp_start": 3,
+   "attacked_round": 19,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-band5": {
+   "id": "kobold-band5",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 14,
+     "note": null
+    }
+   ],
+   "group": "kobold-band",
+   "perceived": "kobold from the guard room 5",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    14,
+    20
+   ],
+   "felled": {
+    "round": 14,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat3",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 2,
+   "hp": 0,
+   "hp_start": 2,
+   "attacked_round": 13,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-band6": {
+   "id": "kobold-band6",
+   "side": "party",
+   "status": "unconscious",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 19,
+     "note": null
+    }
+   ],
+   "group": "kobold-band",
+   "perceived": "kobold from the guard room 6",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    19,
+    21,
+    23
+   ],
+   "felled": {
+    "round": 19,
+    "types": [
+     "piercing"
+    ],
+    "natural": true,
+    "by": "giant-rat7",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 1,
+   "hp": -6,
+   "hp_start": 1,
+   "attacked_round": 18,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-sleeper1": {
+   "id": "kobold-sleeper1",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 1",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    27
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 1,
+   "hp_start": 3,
+   "attacked_round": 28,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-sleeper2": {
+   "id": "kobold-sleeper2",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 2",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 3,
+   "hp_start": 3,
+   "attacked_round": 28
+  },
+  "kobold-sleeper3": {
+   "id": "kobold-sleeper3",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 3",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 3,
+   "hp_start": 3,
+   "attacked_round": 29
+  },
+  "kobold-sleeper4": {
+   "id": "kobold-sleeper4",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 4",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 3,
+   "hp_start": 3,
+   "attacked_round": 28
+  },
+  "kobold-sleeper5": {
+   "id": "kobold-sleeper5",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 5",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 3,
+   "hp_start": 3,
+   "attacked_round": 28
+  },
+  "kobold-sleeper6": {
+   "id": "kobold-sleeper6",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 6",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [
+    27
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 1,
+   "hp_start": 3,
+   "attacked_round": 28,
+   "last_types": [
+    "piercing"
+   ]
+  },
+  "kobold-sleeper7": {
+   "id": "kobold-sleeper7",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "kobold-sleeper",
+   "perceived": "kobold from the dormitory 7",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Spear"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Kobold",
+   "stats": {},
+   "monster": {
+    "base": "kobold",
+    "sha256": "ca088521d3e33de2e2ab625ded46570ea8aa00f3249e3a8574013515a82f45f8"
+   },
+   "hp_max": 3,
+   "hp": 3,
+   "hp_start": 3,
+   "attacked_round": 28
+  }
+ },
+ "groups": {
+  "octavia": {
+   "side": "party",
+   "members": [
+    "octavia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    2
+   ]
+  },
+  "fulvia": {
+   "side": "party",
+   "members": [
+    "fulvia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    3,
+    22
+   ]
+  },
+  "eskil": {
+   "side": "party",
+   "members": [
+    "eskil"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    5
+   ]
+  },
+  "eskil-dog": {
+   "side": "party",
+   "members": [
+    "eskil-dog"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    1
+   ]
+  },
+  "gaius-rufo": {
+   "side": "party",
+   "members": [
+    "gaius-rufo"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    7,
+    8,
+    8
+   ]
+  },
+  "septimia": {
+   "side": "party",
+   "members": [
+    "septimia"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    11
+   ]
+  },
+  "tullus-brocchus": {
+   "side": "party",
+   "members": [
+    "tullus-brocchus"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    9
+   ]
+  },
+  "herennius-bow": {
+   "side": "party",
+   "members": [
+    "herennius-bow"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    10
+   ]
+  },
+  "aedo": {
+   "side": "party",
+   "members": [
+    "aedo"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1,
+   "felled_rounds": [
+    15
+   ]
+  },
+  "giant-rat": {
+   "side": "foe",
+   "members": [
+    "giant-rat1",
+    "giant-rat2",
+    "giant-rat3",
+    "giant-rat4",
+    "giant-rat5",
+    "giant-rat6",
+    "giant-rat7",
+    "giant-rat8",
+    "giant-rat9",
+    "giant-rat10"
+   ],
+   "morale": {
+    "state": "faltering",
+    "rolls": [
+     {
+      "round": 16,
+      "total": 7,
+      "result": "Fight On",
+      "reason": "1/3 of the group felled (4/10)"
+     },
+     {
+      "round": 17,
+      "total": 4,
+      "result": "Morale Faltering",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 20,
+      "total": 9,
+      "result": "Advance and Pursue",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 27,
+      "total": 0,
+      "result": "Frightened Retreat",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 28,
+      "total": 3,
+      "result": "Morale Faltering",
+      "reason": "another member felled this round"
+     }
+    ],
+    "triggered": true,
+    "last_trigger_round": 28,
+    "first_round": 16
+   },
+   "start_count": 10,
+   "felled_rounds": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    27,
+    27,
+    28,
+    29
+   ]
+  },
+  "kobold-guard": {
+   "side": "party",
+   "members": [
+    "kobold-guard1",
+    "kobold-guard2",
+    "kobold-guard3",
+    "kobold-guard4"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 4,
+   "felled_rounds": [
+    11,
+    12,
+    13,
+    15
+   ]
+  },
+  "kobold-band": {
+   "side": "party",
+   "members": [
+    "kobold-band1",
+    "kobold-band2",
+    "kobold-band3",
+    "kobold-band4",
+    "kobold-band5",
+    "kobold-band6"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 6,
+   "felled_rounds": [
+    14,
+    16,
+    17,
+    18,
+    19,
+    19
+   ]
+  },
+  "kobold-sleeper": {
+   "side": "party",
+   "members": [
+    "kobold-sleeper1",
+    "kobold-sleeper2",
+    "kobold-sleeper3",
+    "kobold-sleeper4",
+    "kobold-sleeper5",
+    "kobold-sleeper6",
+    "kobold-sleeper7"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 7
+  }
+ },
+ "engaged": [],
+ "engaged_at_round_start": [
+  [
+   "giant-rat10",
+   "kobold-sleeper1"
+  ],
+  [
+   "giant-rat10",
+   "kobold-sleeper2"
+  ],
+  [
+   "giant-rat10",
+   "kobold-sleeper4"
+  ]
+ ],
+ "distances": {
+  "giant-rat1|octavia": 50,
+  "giant-rat2|octavia": 50,
+  "giant-rat3|octavia": 5,
+  "giant-rat4|octavia": 10,
+  "giant-rat5|octavia": 10,
+  "giant-rat6|octavia": 50,
+  "giant-rat7|octavia": 50,
+  "giant-rat8|octavia": 5,
+  "giant-rat9|octavia": 50,
+  "giant-rat10|octavia": 50,
+  "fulvia|giant-rat1": 5,
+  "fulvia|giant-rat2": 5,
+  "fulvia|giant-rat3": 50,
+  "fulvia|giant-rat4": 10,
+  "fulvia|giant-rat5": 5,
+  "fulvia|giant-rat6": 10,
+  "fulvia|giant-rat7": 5,
+  "fulvia|giant-rat8": 10,
+  "fulvia|giant-rat9": 10,
+  "fulvia|giant-rat10": 10,
+  "eskil|giant-rat1": 20,
+  "eskil|giant-rat2": 5,
+  "eskil|giant-rat3": 5,
+  "eskil|giant-rat4": 5,
+  "eskil|giant-rat5": 5,
+  "eskil|giant-rat6": 5,
+  "eskil|giant-rat7": 5,
+  "eskil|giant-rat8": 5,
+  "eskil|giant-rat9": 5,
+  "eskil|giant-rat10": 5,
+  "gaius-rufo|giant-rat1": 15,
+  "gaius-rufo|giant-rat2": 5,
+  "gaius-rufo|giant-rat3": 50,
+  "gaius-rufo|giant-rat4": 5,
+  "gaius-rufo|giant-rat5": 10,
+  "gaius-rufo|giant-rat6": 5,
+  "gaius-rufo|giant-rat7": 10,
+  "gaius-rufo|giant-rat8": 10,
+  "gaius-rufo|giant-rat9": 10,
+  "gaius-rufo|giant-rat10": 10,
+  "giant-rat1|septimia": 50,
+  "giant-rat2|septimia": 5,
+  "giant-rat3|septimia": 5,
+  "giant-rat4|septimia": 5,
+  "giant-rat5|septimia": 5,
+  "giant-rat6|septimia": 10,
+  "giant-rat7|septimia": 5,
+  "giant-rat8|septimia": 10,
+  "giant-rat9|septimia": 10,
+  "giant-rat10|septimia": 10,
+  "giant-rat1|tullus-brocchus": 5,
+  "giant-rat2|tullus-brocchus": 10,
+  "giant-rat3|tullus-brocchus": 5,
+  "giant-rat4|tullus-brocchus": 50,
+  "giant-rat5|tullus-brocchus": 5,
+  "giant-rat6|tullus-brocchus": 5,
+  "giant-rat7|tullus-brocchus": 5,
+  "giant-rat8|tullus-brocchus": 5,
+  "giant-rat9|tullus-brocchus": 5,
+  "giant-rat10|tullus-brocchus": 5,
+  "giant-rat1|herennius-bow": 5,
+  "giant-rat2|herennius-bow": 50,
+  "giant-rat3|herennius-bow": 50,
+  "giant-rat4|herennius-bow": 50,
+  "giant-rat5|herennius-bow": 50,
+  "giant-rat6|herennius-bow": 50,
+  "giant-rat7|herennius-bow": 50,
+  "giant-rat8|herennius-bow": 50,
+  "giant-rat9|herennius-bow": 50,
+  "giant-rat10|herennius-bow": 50,
+  "aedo|giant-rat1": 5,
+  "aedo|giant-rat2": 50,
+  "aedo|giant-rat3": 50,
+  "aedo|giant-rat4": 50,
+  "aedo|giant-rat5": 50,
+  "aedo|giant-rat6": 5,
+  "aedo|giant-rat7": 50,
+  "aedo|giant-rat8": 5,
+  "aedo|giant-rat9": 5,
+  "aedo|giant-rat10": 5,
+  "eskil-dog|giant-rat1": 5,
+  "eskil-dog|giant-rat2": 5,
+  "eskil-dog|giant-rat9": 5,
+  "eskil-dog|giant-rat10": 5,
+  "eskil-dog|giant-rat7": 5,
+  "giant-rat7|kobold-guard1": 5,
+  "giant-rat2|kobold-guard1": 5,
+  "giant-rat3|kobold-guard1": 5,
+  "giant-rat5|kobold-guard2": 5,
+  "giant-rat2|kobold-guard2": 5,
+  "giant-rat7|kobold-guard2": 5,
+  "giant-rat4|kobold-guard2": 5,
+  "giant-rat3|kobold-guard3": 5,
+  "giant-rat2|kobold-band1": 5,
+  "giant-rat5|kobold-guard3": 5,
+  "giant-rat7|kobold-guard4": 5,
+  "giant-rat2|kobold-band6": 5,
+  "giant-rat3|kobold-band4": 5,
+  "giant-rat4|kobold-guard4": 5,
+  "giant-rat3|kobold-band3": 5,
+  "giant-rat3|kobold-band2": 5,
+  "giant-rat3|kobold-band5": 5,
+  "giant-rat5|kobold-guard4": 5,
+  "giant-rat3|kobold-band6": 5,
+  "giant-rat3|kobold-band1": 5,
+  "giant-rat4|kobold-band3": 5,
+  "giant-rat4|kobold-band1": 5,
+  "giant-rat4|kobold-band2": 5,
+  "giant-rat5|kobold-band3": 5,
+  "giant-rat7|kobold-band1": 5,
+  "giant-rat5|kobold-band4": 5,
+  "giant-rat5|kobold-band6": 5,
+  "giant-rat6|kobold-band1": 5,
+  "giant-rat9|kobold-band1": 10,
+  "giant-rat10|kobold-band1": 10,
+  "giant-rat5|kobold-band2": 5,
+  "giant-rat7|kobold-band2": 5,
+  "giant-rat9|kobold-band2": 5,
+  "giant-rat1|kobold-band2": 10,
+  "giant-rat8|kobold-band2": 10,
+  "giant-rat6|kobold-band3": 5,
+  "giant-rat7|kobold-band6": 5,
+  "giant-rat1|kobold-band3": 10,
+  "giant-rat10|kobold-band3": 5,
+  "giant-rat7|kobold-band4": 5,
+  "giant-rat8|kobold-band3": 10,
+  "giant-rat1|kobold-band4": 5,
+  "giant-rat9|kobold-band4": 5,
+  "giant-rat8|kobold-band4": 5,
+  "giant-rat7|kobold-sleeper1": 5,
+  "giant-rat1|kobold-sleeper3": 5,
+  "giant-rat8|kobold-sleeper1": 5,
+  "giant-rat1|kobold-sleeper2": 5,
+  "giant-rat1|kobold-sleeper7": 5,
+  "giant-rat1|kobold-sleeper5": 5,
+  "giant-rat10|kobold-sleeper1": 5,
+  "giant-rat1|kobold-sleeper4": 5,
+  "giant-rat1|kobold-sleeper6": 5,
+  "giant-rat7|kobold-sleeper5": 5,
+  "giant-rat7|kobold-sleeper4": 5,
+  "giant-rat7|kobold-sleeper6": 5,
+  "giant-rat7|kobold-sleeper7": 5,
+  "giant-rat7|kobold-sleeper3": 5,
+  "giant-rat10|kobold-sleeper2": 5,
+  "giant-rat10|kobold-sleeper4": 5,
+  "giant-rat10|kobold-sleeper3": 5
+ },
+ "log": [],
+ "encounter_id": "enc60",
+ "placed": {
+  "giant-rat": "hall",
+  "fulvia": "doors",
+  "eskil": "party",
+  "eskil-dog": "hall",
+  "gaius-rufo": "party",
+  "tullus-brocchus": "party",
+  "aedo": "party",
+  "herennius-bow": "doors",
+  "septimia": "hall",
+  "octavia": "doors",
+  "giant-rat3": "hall",
+  "giant-rat1": "hall",
+  "giant-rat7": "hall",
+  "giant-rat5": "hall",
+  "giant-rat2": "hall",
+  "giant-rat10": "hall",
+  "giant-rat4": "hall",
+  "giant-rat9": "hall",
+  "giant-rat6": "hall",
+  "giant-rat8": "hall",
+  "kobold-guard": "hall",
+  "kobold-band": "hall",
+  "kobold-sleeper": "hall"
+ },
+ "zones": {
+  "hall": {
+   "ranges": {
+    "party": 50,
+    "doors": 30
+   }
+  },
+  "party": {
+   "ranges": {
+    "hall": 50
+   }
+  },
+  "doors": {
+   "ranges": {
+    "hall": 30
+   }
+  }
+ },
+ "notes_shown": [
+  "morale.modifier_tiers",
+  "mw.d6_unmodified"
+ ],
+ "orders": {
+  "gaius-rufo": {
+   "tactic": "flee",
+   "group": null
+  },
+  "tullus-brocchus": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "eskil": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "eskil-dog": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "herennius-bow": {
+   "tactic": "hold",
+   "group": null
+  },
+  "fulvia": {
+   "tactic": "shoot-nearest",
+   "group": null
+  },
+  "octavia": {
+   "tactic": "flee",
+   "group": null
+  },
+  "septimia": {
+   "tactic": "flee",
+   "group": null
+  },
+  "kobold-guard2": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-guard3": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-guard4": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-band1": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-band2": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-band3": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-band4": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-band5": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-band6": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "aedo": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper1": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper2": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper3": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper4": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper5": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper6": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "kobold-sleeper7": {
+   "tactic": "close-and-attack",
+   "group": null
+  }
+ },
+ "tactics": {
+  "giant-rat": {
+   "tactic": "close-and-attack"
+  },
+  "kobold-guard": {
+   "tactic": "close-and-attack"
+  }
+ },
+ "round_ended": 29,
+ "retinue": {
+  "tullus-brocchus": {
+   "hp_triggered": false,
+   "party_triggered": true,
+   "calamity_queued": true,
+   "party_first": 3
+  },
+  "herennius-bow": {
+   "hp_triggered": true,
+   "party_triggered": true,
+   "calamity_queued": true,
+   "party_first": 8,
+   "hp_first": 9
+  }
+ },
+ "party_hp_written": [
+  "octavia",
+  "fulvia",
+  "eskil",
+  "gaius-rufo",
+  "septimia",
+  "tullus-brocchus",
+  "herennius-bow",
+  "aedo"
+ ],
+ "ended": {
+  "round": 29,
+  "felled_foes": [
+   {
+    "id": "giant-rat1",
+    "name": "Giant Rat",
+    "perceived": "giant rat 1",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "A puncture wound to the throat leaves several vocal cords severed (raspy voice, -2 to throws involving speech).",
+    "total": 9
+   },
+   {
+    "id": "giant-rat2",
+    "name": "Giant Rat",
+    "perceived": "giant rat 2",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "total": 13
+   },
+   {
+    "id": "giant-rat3",
+    "name": "Giant Rat",
+    "perceived": "giant rat 3",
+    "outcome": "recovering",
+    "hp": 1,
+    "condition": "You are in shock. You recover with 1 hp. You need magical healing and one night of bed rest, or 1 week of bed rest.",
+    "wound": "Ghostly visions of lost companions flicker before your eyes as you awaken.",
+    "total": 17
+   },
+   {
+    "id": "giant-rat4",
+    "name": "Giant Rat",
+    "perceived": "giant rat 4",
+    "outcome": "slain",
+    "hp": -3,
+    "condition": "You were instantly killed.",
+    "wound": "A ghastly puncture that left your guts spilling out messily betrays your grisly end.",
+    "total": 0
+   },
+   {
+    "id": "giant-rat5",
+    "name": "Giant Rat",
+    "perceived": "giant rat 5",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You were instantly killed.",
+    "wound": "A deep stab wound reveals your harsh demise.",
+    "total": -1
+   },
+   {
+    "id": "giant-rat6",
+    "name": "Giant Rat",
+    "perceived": "giant rat 6",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "The deep wound has destroyed your manhood/womanhood (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
+    "total": 11
+   },
+   {
+    "id": "giant-rat7",
+    "name": "Giant Rat",
+    "perceived": "giant rat 7",
+    "outcome": "slain",
+    "hp": -2,
+    "condition": "You were instantly killed.",
+    "wound": "A deep stab wound reveals your harsh demise.",
+    "total": 0
+   },
+   {
+    "id": "giant-rat8",
+    "name": "Giant Rat",
+    "perceived": "giant rat 8",
+    "outcome": "slain",
+    "hp": -3,
+    "condition": "You were instantly killed.",
+    "wound": "Air wheezes from the hole in your chest as your lungs deflate for the last time.",
+    "total": -13
+   },
+   {
+    "id": "giant-rat9",
+    "name": "Giant Rat",
+    "perceived": "giant rat 9",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your jaw is irreparably broken, and all your teeth pulverized (cannot speak clearly, cast spells, or use magic items involving speech, -4 to reaction rolls).",
+    "total": 3
+   },
+   {
+    "id": "giant-rat10",
+    "name": "Giant Rat",
+    "perceived": "giant rat 10",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "A puncture wound to the throat leaves several vocal cords severed (raspy voice, -2 to throws involving speech).",
+    "total": 9
+   }
+  ]
+ }
+}

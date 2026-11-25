@@ -34,6 +34,7 @@
 "items": [{"type":"proficiency","name":"Art (any)","list":"general","ranks":3},{"type":"proficiency","name":"Craft (related to art)","list":"general"},{"type":"proficiency","name":"Folkways","list":"general"},{"type":"proficiency","name":"Revelry","list":"general"}],
 "modifiers": [],
 "possessions": {"gems":""},
-"state": {"hp":3,"conditions":[],"spells_used":[]},
-"judge": {"loyalty":0,"morale":-1,"notes":"equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge","retinue_id":"herennius-bow"}
+"state": {"hp":-2,"conditions":["symptomatic: Bloody Flux (incapacitated)"],"spells_used":[]},
+"judge": {"loyalty":0,"morale":-1,"notes":"equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge","retinue_id":"herennius-bow"},
+"changes": [{"field":"state.hp","from":3,"to":2,"cause":"fight ended: the fight with 9 Giant Rat, encounter enc58, round 10"},{"field":"state.hp","from":2,"to":-2,"cause":"fight ended: the fight with 10 Giant Rat, encounter enc60, round 29"},{"field":"state.conditions","from":[],"to":["symptomatic: Bloody Flux (incapacitated)"],"cause":"disease: Bloody Flux"}]
 }

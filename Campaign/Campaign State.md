@@ -10,109 +10,115 @@ public:
   date:
     year: ''
     season: spring
-    day: 68
-  time: 03:30
-  weather: Brisk (63 to 67 F) by day, Chilly (57 to 62 F) at night; overcast; wind gentle
+    day: 72
+  time: '12:14'
+  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind moderate
   place: Türos Tem
-  hex: '19.19'
+  hex: '22.20'
   party:
   - name: Eskil
     sheet: Characters/eskil.json
     role: pc
-    hp: 5
+    hp: 1
     hp_max: 5
     conditions:
     - 'intestines mangled and ruined (Mortal Wounds, day 16): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, -4 to reaction rolls'
     - ghostly visions of lost companions (Mortal Wounds, day 45)
+    - 'symptomatic: Bilious Fever (incapacitated)'
     spells_used: []
-    encumbrance_st: 6.673
+    encumbrance_st: 6.667
   - name: Fulvia
     sheet: Characters/fulvia.json
     role: pc
-    hp: 5
+    hp: 2
     hp_max: 5
-    conditions: []
+    conditions:
+    - 'symptomatic: Ague (incapacitated)'
     spells_used: []
-    encumbrance_st: 5.557
+    encumbrance_st: 0
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
-    hp: 6
+    hp: 4
     hp_max: 6
-    conditions: []
+    conditions:
+    - 'in shock (day 68): magical healing given (Septimia laid on hands): one night of bed rest'
+    - smallest finger of one hand bitten off (Mortal Wounds, day 68)
+    - ghostly visions of lost companions (Mortal Wounds, day 68)
+    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
-    encumbrance_st: 4.542
+    encumbrance_st: 4.375
   - name: Gaius Rufo
     sheet: Characters/gaius-rufo.json
     role: pc
-    hp: 5
+    hp: -3
     hp_max: 5
     conditions:
     - 'one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC'
+    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
-    encumbrance_st: 7.541
+    encumbrance_st: 0
   - name: Ione
     sheet: Characters/ione.json
-    role: henchman
+    role: pc
     hp: 3
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 1.446
+    encumbrance_st: 4.446
   - name: Aedo
     sheet: Characters/aedo.json
     role: pc
-    hp: 5
+    hp: 0
     hp_max: 5
     conditions:
     - 'grievously wounded (day 45, giant rats): 2 weeks of bed rest'
     - 'intestines mangled and ruined (Mortal Wounds, day 45): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
     - 'calf almost chewed through (day 45): cannot force march unless mounted'
+    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
-    encumbrance_st: 7.178
+    encumbrance_st: 0
   - name: Septimia
     sheet: Characters/septimia.json
     role: pc
-    hp: 4
+    hp: -1
     hp_max: 4
     conditions: []
-    spells_used: []
-    encumbrance_st: 5.023
+    spells_used:
+    - Cure Light Injury
+    encumbrance_st: 0
   - name: Decimus Ruga
     sheet: Characters/decimus-ruga.json
     role: henchman
     hp: 3
     hp_max: 3
-    conditions:
-    - 'symptomatic: Ague (incapacitated)'
+    conditions: []
     spells_used: []
     encumbrance_st: 7.669
   - name: Herennius Bow
     sheet: Characters/herennius-bow.json
     role: henchman
-    hp: 3
+    hp: -2
     hp_max: 3
-    conditions: []
+    conditions:
+    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
-    encumbrance_st: 3.667
+    encumbrance_st: 0
   - name: Tullus Brocchus
     sheet: Characters/tullus-brocchus.json
     role: henchman
-    hp: 5
+    hp: 0
     hp_max: 5
     conditions:
     - 'in shock (day 45): magical healing and a night of bed rest (given), or a week of rest'
     - two fingers of one hand bitten off (Mortal Wounds, day 45)
     spells_used: []
-    encumbrance_st: 7.677
-  light: torch (Gaius Rufo) out; lantern (Octavia) out; torch (Gaius Rufo) out
-  rations: 'Octavia: food 2 d, water 3 d; Fulvia: food 2 d, water 0.8 d; Eskil: food 2 d, water 2.2 d; Gaius Rufo: food 16 d, water 1 d; Septimia: food 27 d, water 1 d; Tullus Brocchus: food 2 d, water 0.4 d; Herennius Bow: food 2 d, water 1 d; Ione: food 3 d, water 1 d; Aedo: food 12 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 0
+  light: torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out
+  rations: 'Octavia: food 0 d, water 3.2 d; Ione: food 34 d, water 1.2 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '21.18'
-  - '21.19'
-  - '22.19'
   - '20.18'
   - '20.19'
   - '21.20'
@@ -130,7 +136,10 @@ public:
   - '21.20'
   - '20.19'
   - '19.19'
-clock_day: 68
+  - '20.19'
+  - '21.20'
+  - '22.20'
+clock_day: 72
 ---
 # Campaign State
 

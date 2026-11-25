@@ -229,3 +229,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 65 | Traveler's Inn | stabling the donkey, nights of days 60-64 |  |  | 1gp | eskil |
 | 65 | Traveler's Inn | stabling the second donkey, nights of days 60-64 |  |  | 1gp | fulvia |
 | 65 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | gaius-rufo |
+| 68 | eight orcs in the Entry Way (L1 1) | a week's wages as a bribe (2gp a head; Judge's call) |  |  | 16gp | fulvia |
