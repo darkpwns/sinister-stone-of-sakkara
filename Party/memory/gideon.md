@@ -16,4 +16,5 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Opinions of NPCs
 
 ## Henchmen and hirelings
+- S04: Gaius Rufo lost a foot to the wolf; he needs a peg and is sour about it.
 - S02: Gaius Rufo, light-infantry sergeant, 12gp a month, paid to day 30.

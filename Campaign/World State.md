@@ -14,6 +14,8 @@ records only state. Run 3 starts from the modules as printed: nothing of runs 1 
 | --- | --- | --- | --- |
 | 21.20 | farmland | day 2 | Giant tarantulas' lair (2, MM; met at dusk day 4 about 6 miles in from 20.19, evaded unseen: the spiders were surprised) |
 | 20.19 | forest (Viaspen edge) | day 2 | an arch of living yew in a glade (portal, sight only; Rulings R3 S03); ground-wasp nest near the day-2 camp (insect swarm, in lair, not roused); dwarf furriers met day 2 (Neutral) |
+| 21.17 | forest | day 15 | passed |
+| 21.18 | forest | day 16 | a second warped giant wolf (fled at 2 hp); giant frogs (3) at night |
 | 19.17 | forest (Viaspen) | day 11 | lost; the rabid giant wolf slain (Viaspen encounter 2) |
 | 20.17 | forest | day 12 | lost (aware by evening) |
 | 20.16 | swamp (Viamir edge) | day 13 | a bald knoll (vista: the dome in sight); marsh water; a giant frog's pool (Indifferent) |
@@ -52,7 +54,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Scheduled events
 
 ## Prep queue (Judge only)
-- **At the save (day 15, 06:00, 20.16, marsh edge):** A2 open (L2-L4 carried; monsters M1-M3). Home by 20.17/20.18 → 21.19? → 21.20 → 22.20 (2-3 days; forest). Food 4 days each (Sextus 0: shares). CON lost to thirst recovering 3 a day. Wages: Gaius and Ione day 31, Sextus day 37.
+- **At the save (day 22, 06:00, true hex 20.18; the party believes 22.20 and knows it is lost):** no food (all hungry and underfed since day 19-21: starving after 5 days underfed without food); Eskil (bed rest 14 d from day 16, CON 9) and Gaius (bed rest to day 24, one foot) incapacitated: half speed. A wounded giant wolf (2 hp) is loose in 21.18. True hexes while lost (Judge only, not in the explored table): 20.18 (days 17-19, 21-22), 20.17 (day 20). Wages day 31 (Gaius, Ione), 37 (Sextus).
+- **Former (day 15, 06:00, 20.16, marsh edge):** A2 open (L2-L4 carried; monsters M1-M3). Home by 20.17/20.18 → 21.19? → 21.20 → 22.20 (2-3 days; forest). Food 4 days each (Sextus 0: shares). CON lost to thirst recovering 3 a day. Wages: Gaius and Ione day 31, Sextus day 37.
 - Thethamun (Friendly) is bed-bound; the hobgoblin stair at 53 leads to L2 18 (wizard-locked from below: the Lady). Possessed crab spider in 56 (the hobgoblins pass it).
 - The kobold toll is paid (faction kobolds); the brigand drinking gang (Friendly) may vouch for the company with Drusus.
 - **Former (day 7):** next, day 8: Lepidus' 0th-level search week 2 brings one arrival (`recruit --employer lepidus … --week 2`); the Parade Ground volunteers who hesitated may be offered again only with a better offer. The donkey is stabled at the inn (`inv unstable donkey1` before the march; 2sp a night, paid to day 7). Lepidus and Aurelia are at 7.01 st (60'): move waterskins or supplies onto the donkey before marching.

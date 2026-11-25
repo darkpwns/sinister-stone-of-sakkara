@@ -66,7 +66,7 @@ None new from the tables; what the chief, the brigands and the goblins said is i
 
 ## Next time
 Dawn of day 15 at the marsh edge in 20.16, rested and watered, CON coming back (Aurelia 3 below, Gaius 3, Octavia and
-Silvanus 2, Ione 1). Food: four days each, Sextus none (share). Home to Türos Tem by 20.17/20.18 south and 21.20
+Silvanus 2, Ione 1). Food: four days each, Sextus none (share). Home to Türos Tem south through the forest and 21.20
 (two or three days): sell the symbols and the eggs, pay wages on day 31.
 
 > [!judge]- Judge rolls

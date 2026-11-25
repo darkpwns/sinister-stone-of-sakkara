@@ -16,3 +16,4 @@ Run 3 (from 2026-11-25). Earlier runs' logs: `Archive/Run 1 (S01-S54)/Session Lo
 - [[S01 — Five Lives Each]] (2026-11-25): run 3 set up; six PCs, the best of five sets each, built without templates
 - [[S02 — The Black Hill]] (2026-11-25): days 1-7; three henchmen; the temple found; the legate Friendly
 - [[S03 — The Chief's Knife]] (2026-11-25): days 8-14; Urza paid; the hobgoblins befriended, their plotters slain; lost and thirsty on the way home
+- [[S04 — The Forest Will Not Let Go]] (2026-11-25): days 15-21; a second giant wolf: Eskil and Gaius maimed; lost in the Viaspen, out of food

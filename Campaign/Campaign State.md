@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 3
+session: 4
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 15
+    day: 22
   time: 06:00
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; heavy rain; wind strong (rainy)
   place: Türos Tem
-  hex: '20.16'
+  hex: '22.20'
   party:
   - name: Aurelia
     sheet: Characters/aurelia.json
@@ -27,9 +27,11 @@ public:
   - name: Eskil
     sheet: Characters/eskil.json
     role: pc
-    hp: 5
+    hp: 1
     hp_max: 5
-    conditions: []
+    conditions:
+    - 'grievously wounded (day 16, a giant wolf): 2 weeks of bed rest (to day 30)'
+    - 'intestines mangled and ruined (Mortal Wounds, day 16): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
     spells_used: []
     encumbrance_st: 6.68
   - name: Fulvia
@@ -43,7 +45,7 @@ public:
   - name: Lepidus
     sheet: Characters/lepidus.json
     role: pc
-    hp: 6
+    hp: 3
     hp_max: 6
     conditions: []
     spells_used: []
@@ -67,9 +69,11 @@ public:
   - name: Gaius Rufo
     sheet: Characters/gaius-rufo.json
     role: henchman
-    hp: 5
+    hp: 1
     hp_max: 5
-    conditions: []
+    conditions:
+    - bed rest 1 week (day 17 to day 24), after a critical wound (day 16, a giant wolf)
+    - 'one foot chewed off (Mortal Wounds, day 16): peg required, movement -30 feet, DEX reduced by 1/3 for AC'
     spells_used: []
     encumbrance_st: 5.833
   - name: Ione
@@ -89,7 +93,7 @@ public:
     spells_used: []
     encumbrance_st: 7.333
   light: none
-  rations: 'Lepidus: food 4 d, water 3 d; Aurelia: food 4 d, water 3 d; Octavia: food 4 d, water 3 d; Silvanus: food 4 d, water 0 d; Fulvia: food 4 d, water 0 d; Eskil: food 4 d, water 0 d; Gaius Rufo: food 4 d, water 0 d; Sextus Varo: food 0 d, water 0 d; Ione: food 5 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Lepidus: food 0 d, water 3 d (hungry, underfed); Aurelia: food 0 d, water 3 d (hungry, underfed, fatigued); Octavia: food 0 d, water 3 d (hungry, underfed, fatigued); Silvanus: food 0 d, water 0 d (hungry, underfed, fatigued); Fulvia: food 0 d, water 0 d (hungry, underfed, fatigued); Eskil: food 0 d, water 0 d (hungry, underfed, fatigued, incapacitated); Gaius Rufo: food 0 d, water 0 d (hungry, underfed, fatigued, incapacitated); Sextus Varo: food 0 d, water 0 d (hungry, underfed, fatigued); Ione: food 0 d, water 0 d (hungry, underfed, fatigued); Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -107,7 +111,12 @@ public:
   - '21.20'
   - '22.20'
   - '20.16'
-clock_day: 15
+  - '21.17'
+  - '21.18'
+  - '21.19'
+  - '22.19'
+  - '22.20'
+clock_day: 22
 ---
 # Campaign State
 

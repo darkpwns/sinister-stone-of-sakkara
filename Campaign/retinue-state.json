@@ -893,7 +893,7 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": 2,
+   "loyalty": 0,
    "morale": -2,
    "morale_src": "noncombatant (JJ p. 253)",
    "wage_gp": 12.0,
@@ -911,6 +911,13 @@
     {
      "day": 1,
      "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 16,
+     "event": "loyalty roll (calamity: reduced to 0 hp (round 4))",
+     "total": 8,
+     "result": "Grudging Loyalty",
+     "loyalty": 0
     }
    ],
    "actor": "gaius-rufo",
@@ -953,6 +960,12 @@
     {
      "day": 1,
      "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (his employer Eskil fell (a shock))",
+     "total": 13,
+     "result": "Victory or Death"
     }
    ],
    "actor": "ione",
@@ -995,6 +1008,12 @@
     {
      "day": 7,
      "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (his employer Eskil fell (a shock))",
+     "total": 12,
+     "result": "Victory or Death"
     }
    ],
    "actor": "sextus-varo",
@@ -1015,6 +1034,7 @@
   "cand.classed_chances",
   "fatigue.endurance",
   "hire.prof_stacking",
+  "loyal.calamity_order",
   "wage.timing"
  ]
 }

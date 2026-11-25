@@ -28,6 +28,9 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
 - S03: Spider eggs in a web in the kobolds' ground: whatever laid them is behind the curtain with the jars.
 
 ## Plans
+- S04: Lost in the southern Viaspen with no food (dawn, day 22). Hunt with the hound, or strike south-east for the
+  farms by the river; carry Eskil and Gaius. Next trip: two weeks of food each and a mule; turn for the river the
+  moment the trees close in.
 - S03: Sell the four silver suns and the spider eggs in Türos Tem (an animal trainer or the mage at the fort);
   wages for Gaius Rufo and Ione on day 31, Sextus on day 37. Ask Thethamun what lies below and how to reach the Lady.
 - S03: Never leave the river without full skins; Silvanus leads in the forest; carry more water than we think.
