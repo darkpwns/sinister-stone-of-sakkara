@@ -1,16 +1,16 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 8,
- "generated": 1795564228,
+ "session": 9,
+ "generated": 1795565895,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 59
+  "day": 63
  },
- "time": "07:01",
+ "time": "06:01",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate",
  "place": "Türos Tem",
- "hex": "22.20",
+ "hex": "19.19",
  "party": [
   {
    "name": "Callista",
@@ -40,7 +40,7 @@
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.74
+   "encumbrance_st": 4.677
   },
   {
    "name": "Galerius",
@@ -80,7 +80,7 @@
    "hp_max": 4,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 3.56
+   "encumbrance_st": 5.56
   },
   {
    "name": "Petra",
@@ -110,19 +110,14 @@
    "hp_max": 3,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 8.217
+   "encumbrance_st": 7.217
   }
  ],
  "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 0 d, water 5.4 d; Faustina: food 0 d, water 0 d; Callista: food 0 d, water 3 d; Corvus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Galerius: food 3 d, water 5.4 d; Faustina: food 3 d, water 0 d; Callista: food 3 d, water 3 d; Corvus: food 3 d, water 0 d; Marius: food 7 d, water 0 d; Varro: food 3 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "21.20",
-  "22.20",
-  "23.21",
-  "22.20",
-  "21.20",
   "20.19",
   "19.19",
   "20.19",
@@ -137,7 +132,12 @@
   "25.19",
   "24.19",
   "23.20",
-  "22.20"
+  "22.20",
+  "21.20",
+  "20.19",
+  "21.20",
+  "20.19",
+  "19.19"
  ],
  "explored_hexes": [
   {
@@ -835,11 +835,9 @@
      "stone": 1
     },
     "sack": {
-     "contents": [
-      "Rations, Iron (one week)"
-     ],
+     "contents": [],
      "items": 0,
-     "stone": 1
+     "stone": 0
     },
     "worn": {
      "contents": [],
@@ -850,11 +848,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 1725,
+    "gp": 1672,
     "sp": 0,
-    "cp": 15
+    "cp": 5
    },
-   "encumbrance_st": 5.74,
+   "encumbrance_st": 4.677,
    "weapons": [
     {
      "name": "Staff",
@@ -926,10 +924,10 @@
     ]
    },
    "movement": {
-    "exploration": 90,
-    "combat": 30,
-    "running": 90,
-    "expedition": 18
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1707,10 +1705,10 @@
    "movement": {
     "stealth": 0,
     "climb": 0,
-    "exploration": 120,
-    "combat": 40,
-    "running": 120,
-    "expedition": 24
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
    },
    "healing_rate": "",
    "mortal_wounds": 0,
@@ -1810,9 +1808,9 @@
    },
    "gear": {
     "back": {
-     "item": "Backpack (holds 4 stone)",
+     "item": "Backpack (holds 4 stone), Cask of Krysean wine (gift)",
      "items": 1,
-     "stone": 0
+     "stone": 2
     },
     "armor": {
      "item": "Padded Armor",
@@ -1873,7 +1871,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 3.56,
+   "encumbrance_st": 5.56,
    "weapons": [
     {
      "name": "Spear (broken shaft: as dagger)",
@@ -2851,11 +2849,10 @@
      "contents": [
       "Holy Book",
       "Holy Symbol",
-      "Rations, Iron (one week)",
       "Waterskin"
      ],
      "items": 2,
-     "stone": 1.5
+     "stone": 0.5
     },
     "worn": {
      "contents": [
@@ -2874,7 +2871,7 @@
     "sp": 25,
     "cp": 0
    },
-   "encumbrance_st": 8.217,
+   "encumbrance_st": 7.217,
    "weapons": [
     {
      "name": "Mace",
@@ -3015,12 +3012,365 @@
  ],
  "open_rolls": [
   {
-   "label": "search fee 1st level (Class V)",
-   "spec": "1d6",
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
    "rolls": [
+    3,
+    1
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    5
+   ],
+   "total": 11
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
     3
    ],
+   "total": 6
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    4
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    2
+   ],
    "total": 3
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    5
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    4
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    1
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    1
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    4
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    3
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    6
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    4
+   ],
+   "total": 10
+  },
+  {
+   "label": "Varro surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    1
+   ],
+   "total": 4
+  },
+  {
+   "label": "Galerius death save",
+   "spec": "1d20+1",
+   "rolls": [
+    9
+   ],
+   "total": 10
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    16
+   ],
+   "total": 19
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    11
+   ],
+   "total": 14
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    10
+   ],
+   "total": 13
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    15
+   ],
+   "total": 18
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    15
+   ],
+   "total": 18
+  },
+  {
+   "label": "Varro death save",
+   "spec": "1d20+3",
+   "rolls": [
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather wind (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    3
+   ],
+   "total": 5
   }
  ],
  "rumours_heard": [

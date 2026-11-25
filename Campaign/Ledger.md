@@ -215,3 +215,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 52 | his own purse | equipment on hiring (Crusader template Priest, rolled 11) |  | 2gp 5sp |  | varro |
 | 52 | Malyn the Misshapen | Callista copies Malyn's formula of Discern Magic into her spell book (Neutral; Rulings R2 S08: a 1st-level formula at a 1st-level spell scroll's base cost, TT p. 96) |  |  | 500gp | faustina |
 | 59 | Traveler's Inn | nights of days 52-58: six private rooms (5sp), four henchmen in the courtyard (1sp), meals for ten (1sp a head a day), two donkeys stabled (2sp) |  |  | 33gp 6sp | faustina |
+| 59 | the retinue | wages paid |  |  | 25gp | faustina |
+| 59 | the retinue | wages paid |  |  | 12gp | faustina |
+| 59 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 59 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 59 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 59 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 59 | a wine-seller in the forum | a cask of Krysean wine (gift for a tribe's chief) |  |  | 10gp | faustina |
+| 59 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 59-66 |  |  | 2gp 5sp | faustina |
