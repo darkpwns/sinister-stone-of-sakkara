@@ -2,36 +2,45 @@
 type: session
 session: 16
 date_real: 2026-11-25
-date_game: days 139-141, summer (in progress)
-location: '[[Level 2 - Catacombs]]'
+date_game: days 139-148, summer
+location: '[[Level 2 - Catacombs]], [[Troglodyte Warren]], [[Turos Tem]]'
 tags:
 - sakkara/session
 ---
 # Session S16 — The Warren Below
 
 ## Recap
-(In progress.) From the freeholder's well the company came back to the temple in heat, rain and mud (days 139-140), paid Apsa's orcs for the donkeys and went down to the Black Fangs. Ur-Shet, who lost a gnoll to the stinking ones the night before, would not come: he gave the way. At dawn of day 141 the company followed the stinking ones' trail south-east from the Inner Fane: four ragged brigands of Drusus' lost patrol were pointed to the long stair; a shapeless flesh-thing was burned with oil (Galerius set himself alight with a fumbled flask). On the narrow path round the bloody water five scaly men ambushed the company with barbed darts, then closed. Two died, one was taken asleep and bound, two fled broken. Zaira fell; Faustina's cures saved her, but she lost a hand and says she will leave Callista's service. The company went back to the Black Fangs' cavern.
+Back to the temple through heat, rain and mud. Ur-Shet, who had lost a gnoll to the stinking ones, would not come at first. On day 141 the company followed their trail south-east: a flesh-thing burned with oil, then an ambush by five scaly men on the path round the bloody water; two died, one was taken, two fled. Zaira fell and lost a hand. In the Black Fangs' cavern the captive, overawed, told of the warren through Zaira; a bigger offer brought Ur-Shet and three gnolls. On day 143 the company went down the crack to the warren, held the tunnel mouth into the chieftain's hall, and broke the warband with sleep and holding prayers; the chieftain and every warrior died. Galerius beat the Stone half to pieces and Faustina broke it with Varro's mace; the red cloud passed her by. The Inner Fane's altar was smashed and hallowed. Home on day 145: the fragments to Genelen for Mityara's order, the legate's last reward, and levels for nearly everyone. Zaira left Callista's service; Quintus will leave Galerius' at the month's end.
 
 ## Where they went
-- Days 139-140: 21.20 to the temple (20.19); down by L1 27 and the long stair to L2 15.
-- Day 141: 15, 9, the squeeze, 38, 36, 25, the path of 26; back to 15.
+- Days 139-140: 21.20 to the temple; down to the Black Fangs (L2 15).
+- Day 141: south-east from the Inner Fane (36, 25, the path of 26); back to 15.
+- Days 141-142: rest in 15.
+- Day 143: 38, 36, 25, 26, 28 (the ghoul hole), 30, 31, the crack, the long slope, the guard cave, the chieftain's hall; back up to 38 (the altar smashed) and 15.
+- Days 144-145: out, the donkeys, home across 21.20 (mastiffs, toads, a great hawk).
+- Days 145-148: Türos Tem.
 
 ## Who they met
-- Ur-Shet (Indifferent to the hunt: the Black Fangs guard their cave; Gargash was taken by the stinking ones).
-- Four of Drusus' lost brigands (Neutral; sent up the long stair).
-- A shapeless flesh-thing (burned). Five stinking ones (two slain, one captive, two fled). Three walking corpses near room 1 (driven off by Varro).
+- Ur-Shet and the Black Fangs (Friendly; partners against the stinking ones, paid in their coin).
+- The stinking ones (troglodytes): the ambushers, their chieftain and his warband (destroyed); a captive (let go south).
+- Drusus' lost brigands (two bands; pointed to the stair). Two starving hobgoblin deserters (fed). Ghouls in their hole (watched us pass).
+- Feral war-mastiffs and giant toads on the farm tracks (let be); a great hawk (killed).
+- Genelen (the fragments received). The legate (paid in full). Zaira (left service).
 
 ## Treasure and XP
-- None yet (A12 open).
+- A12 (day 145): 13,681 XP (the warband's silver, electrum, stones and trinkets; the stinking ones and the flesh-thing; 10,000 for the fragments given to Mityara's order) and 200 XP each to Galerius, Faustina and Varro for hallowing the Inner Fane; the legate's 1,500gp. Galerius Fighter 4, Faustina Priestess 4 (Healing 2), Corvus Explorer 4, Severina Venturer 4 (Animal Training 2), Varro Crusader 3, Quintus Fighter 2, Marius Thief 3.
+- Kept: a flask that looks like lantern oil and smells of cloves (from the warband's niche). Galerius' Zaharan blade is known for a +1 sword.
 
 ## Rumours given
-- The lost brigands: the scaly ones dragged a hyena-man south through the Lady's fane two nights back.
+- The captive (through Zaira): the warren's lay, the 'Heart' on a pillar of skulls, the chief who fed it a hyena-man.
 
 ## Changes to the world
-- The stinking ones know the company is coming.
+- The Stone of Sakkara is destroyed; the Lady's household is masterless; the Inner Fane is hallowed.
+- The stinking ones' warband is gone; their females and eggs remain below.
+- The road beyond the temple is open again.
 
 ## Next time
-(In progress.)
+Evening of day 148 in Türos Tem: rest, henchmen to find, and the road open: the shrine, the arch, and the 'Lord of Secrets'.
 
 > [!judge]- Judge rolls
 > **Site build: Troglodyte Warren** (rolled under session 15 before `session:` was set; also `treasure --monster Troglodyte` → H2 (TT G) and `place --stock 3 --level 3` → monster, trap (H3, TT I), monster; `encounter.py` fallback rolls void):
@@ -73,7 +82,10 @@ tags:
 > - warren build: locust hp: 2d8 → [7, 3] = 10
 > - warren build: locust hp: 2d8 → [5, 1] = 6
 >
-> **S16 hidden rolls** (troglodyte raid of day 139: 1; victim 3 = a Black Fang gnoll (Gargash); day 139. Ur-Shet's reaction 9 Indifferent. Brigands' reaction 7 Neutral. Trog ambush: reaction 2 Hostile; gang A hp 16, 13, 12, 7, 4. Zaira's calamity loyalty 4: Resignation):
+> **S16 Judge notes:** troglodyte raid of day 139 (1; victim 3 = Gargash; day 139). Zaira's stay roll 6 (to the surface); the captive overawed (22). The warned chieftain's dispositions 6 (all males in W6, two lookouts). Ur-Shet: 9 Indifferent, then the coin offer 19 Friendly (Ur-Shet and three gnolls). In W6: Faustina's first Halt held one, the second one; Callista's Slumbers took three; Black Fang gnoll 3 failed his save vs the Stone (9) and was dragged out; the Stone took 23 (Galerius 6, 7; Faustina 4, 1, 5); Faustina's save 20; none of the five called abominations came on (6, 3, 5, 3, 3). Quintus' stay roll 6 (to the month's end). Orc raid week of 148: 1, repulsed (6).
+> - Judge's corrections: two troglodytes who slipped past the held tunnel mouth (frontage did not block the zone) voided, Faustina restored to 15; cures cast outside a fight written to the stale combat state (Galerius 20, Faustina 15 set on the actors); training courses paused 137-145 retroactively. The great hawk died to an untreated Mortal Wounds roll before it could be captured (slip). An open-roll label named Galerius' sword's bonus: resolved by the owed identification by use.
+> - NPC voices: the captive troglodyte (hisses, a few bent Elvish words through Zaira; calls the Stone 'the Heart'); Ur-Shet (gravel voice, counts coin aloud).
+> **S16 hidden rolls:**
 > - troglodyte-victim-raid: a troglodyte gang raids level 2 for a sacrifice (1-2): 1d6 → [1] = 1
 > - troglodyte raid: the victim (1-3 a Black Fang gnoll, 4-5 one of Drusus' trapped brigands, 6 an orc raider): 1d6 → [3] = 3
 > - troglodyte raid: day of the raid (138 + 1d6): 1d6 → [1] = 1
@@ -231,3 +243,413 @@ tags:
 > - init Zombie: 1d6 → [4] = 4
 > - init Zombie: 1d6 → [3] = 3
 > - wandering check (day 141 08:20): 1d6 → [5] = 5
+> - Zaira and Callista's offer to stay (2d6+2: 9+ stays at 50gp, 6-8 to the surface, 5- goes) (Rulings R2 S16): 2d6+2 → [3, 1] +2 = 6
+> - reaction (intimidating): 2d6+11 → [6, 5] +11 = 22
+> - the warned troglodyte chieftain's dispositions (Rulings R2 S16): 1d6 → [6] = 6
+> - reaction (diplomatic): 2d6+7 → [6, 6] +7 = 19
+> - wandering check (day 143 05:40): 1d6 → [3] = 3
+> - wandering check (day 143 06:00): 1d6 → [2] = 2
+> - wandering check (day 143 06:20): 1d6 → [2] = 2
+> - wandering check (day 143 06:40): 1d6 → [6] = 6
+> - minute of the turn: 1d10 → [6] = 6
+> - Wandering Monster Table - Catacombs (Level 2) (1d8): 1d8 → [1] = 1
+> - number appearing: 2d4 → [3, 1] = 4
+> - encounter distance (x10'): 2d6 → [1, 1] = 2
+> - monster surprise: 1d6 → [4] = 4
+> - reaction (diplomatic): 2d6+4 → [1, 3] +4 = 8
+> - encounter distance (x10'): 2d6 → [2, 6] = 8
+> - monster surprise: 1d6 → [1] = 1
+> - reaction (diplomatic): 2d6+2 → [4, 1] +2 = 7
+> - wandering check (day 143 07:00): 1d6 → [6] = 6
+> - minute of the turn: 1d10 → [7] = 7
+> - Wandering Monster Table - Catacombs (Level 2) (1d8): 1d8 → [1] = 1
+> - number appearing: 2d4 → [4, 3] = 7
+> - encounter distance (x10'): 2d6 → [2, 2] = 4
+> - monster surprise: 1d6 → [6] = 6
+> - reaction (diplomatic): 2d6+3 → [4, 4] +3 = 11
+> - wandering check (day 143 07:20): 1d6 → [2] = 2
+> - wandering check (day 143 07:40): 1d6 → [4] = 4
+> - wandering check (day 143 08:00): 1d6 → [1] = 1
+> - encounter distance (x10'): 2d6 → [1, 4] = 5
+> - hp Troglodyte: 2d8 → [3, 3] = 6
+> - hp Troglodyte: 2d8 → [1, 5] = 6
+> - hp Troglodyte: 2d8 → [8, 6] = 14
+> - hp Troglodyte: 2d8 → [5, 3] = 8
+> - hp Troglodyte: 2d8 → [8, 6] = 14
+> - hp Troglodyte: 2d8 → [2, 4] = 6
+> - hp Troglodyte: 2d8 → [4, 5] = 9
+> - hp Troglodyte: 2d8 → [4, 3] = 7
+> - hp Troglodyte: 2d8 → [4, 1] = 5
+> - hp Troglodyte: 2d8 → [8, 3] = 11
+> - hp Troglodyte: 2d8 → [5, 7] = 12
+> - hp Troglodyte: 2d8 → [7, 3] = 10
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [5] = 5
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [9] = 9
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [3] = 3
+> - halt humanoids: targets: 1d4 → [2] = 2
+> - Troglodyte paralysis save: 1d20 → [15] = 15
+> - Troglodyte paralysis save: 1d20 → [2] = 2
+> - Troglodyte paralysis save: 1d20 → [15] = 15
+> - Troglodyte paralysis save: 1d20 → [6] = 6
+> - Troglodyte paralysis save: 1d20 → [1] = 1
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [5] = 5
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [14] = 14
+> - attack Troglodyte vs Galerius: 1d20 → [12] = 12
+> - attack Galerius vs scaly crested man 6: 1d20+3 → [7] +3 = 10
+> - attack Troglodyte vs Galerius: 1d20 → [18] = 18
+> - damage to Galerius: 1d4 → [1] = 1
+> - halt humanoids: targets: 1d4 → [1] = 1
+> - Troglodyte paralysis save: 1d20 → [4] = 4
+> - Troglodyte paralysis save: 1d20 → [3] = 3
+> - Troglodyte paralysis save: 1d20 → [14] = 14
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [5] = 5
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [6] = 6
+> - attack Troglodyte vs Galerius: 1d20 → [20] = 20
+> - damage to Galerius: 1d4 → [1] = 1
+> - attack Troglodyte vs Galerius: 1d20 → [20] = 20
+> - damage to Galerius: 1d4 → [1] = 1
+> - attack Galerius vs scaly crested man 6: 1d20+3 → [19] +3 = 22
+> - damage to scaly crested man 6: 1d6+5 → [4] +5 = 9
+> - attack Troglodyte vs Galerius: 1d20 → [13] = 13
+> - attack Troglodyte vs Faustina: 1d20 → [12] = 12
+> - damage to Faustina: 1d4 → [2] = 2
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - attack Galerius vs a scaly man with a stone axe: 1d20+3 → [9] +3 = 12
+> - attack Troglodyte vs Faustina: 1d20 → [16] = 16
+> - damage to Faustina: 1d4 → [2] = 2
+> - attack Troglodyte vs Galerius: 1d20 → [19] = 19
+> - damage to Galerius: 1d4 → [1] = 1
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [8] = 8
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [12] = 12
+> - attack Troglodyte vs Galerius: 1d20 → [17] = 17
+> - damage to Galerius: 1d4 → [4] = 4
+> - attack Troglodyte vs Faustina: 1d20 → [10] = 10
+> - damage to Faustina: 1d4 → [2] = 2
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [3] = 3
+> - attack Troglodyte vs Galerius: 1d20 → [9] = 9
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [7] = 7
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [9] = 9
+> - attack Troglodyte vs Faustina: 1d20 → [19] = 19
+> - damage to Faustina: 1d4 → [2] = 2
+> - attack Troglodyte vs Faustina: 1d20 → [11] = 11
+> - damage to Faustina: 1d4 → [2] = 2
+> - attack Troglodyte vs Galerius: 1d20 → [16] = 16
+> - attack Galerius vs scaly crested man 8: 1d20+3 → [6] +3 = 9
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - attack Galerius vs scaly crested man 8: 1d20+3 → [19] +3 = 22
+> - damage to scaly crested man 8: 1d6+5 → [1] +5 = 6
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [1] = 1
+> - attack Troglodyte vs Galerius: 1d20 → [1] = 1
+> - attack Troglodyte vs Galerius: 1d20 → [11] = 11
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [14] = 14
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [2] = 2
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [16] = 16
+> - damage to Ur-Shet: 1d4 → [3] = 3
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [7] = 7
+> - attack Troglodyte vs Galerius: 1d20 → [20] = 20
+> - damage to Galerius: 1d4 → [4] = 4
+> - attack Troglodyte vs Galerius: 1d20 → [1] = 1
+> - attack Galerius vs a scaly man with a stone axe: 1d20+3 → [19] +3 = 22
+> - damage to a scaly man with a stone axe: 1d6+5 → [6] +5 = 11
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [2] = 2
+> - attack Galerius vs scaly crested man 8: 1d20+3 → [20] +3 = 23
+> - damage to scaly crested man 8: 1d6+5 → [4] +5 = 9
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [18] = 18
+> - damage to Ur-Shet: 1d4 → [2] = 2
+> - attack Troglodyte vs Galerius: 1d20 → [1] = 1
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [1] = 1
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [1] = 1
+> - attack Troglodyte vs Hrodric: 1d20 → [11] = 11
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [19] = 19
+> - damage to Ur-Shet: 1d4 → [3] = 3
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [6] = 6
+> - attack Troglodyte vs Hrodric: 1d20 → [10] = 10
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [15] = 15
+> - damage to Ur-Shet: 1d4 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [4] = 4
+> - attack Troglodyte vs Hrodric: 1d20 → [10] = 10
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [2] = 2
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [4] = 4
+> - attack Troglodyte vs Hrodric: 1d20 → [14] = 14
+> - damage to Hrodric: 1d4 → [1] = 1
+> - morale troglodyte: 2d6-1 → [3, 2] -1 = 4
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [2] = 2
+> - attack Troglodyte vs Hrodric: 1d20-2 → [19] -2 = 17
+> - damage to Hrodric: 1d4 → [2] = 2
+> - attack Galerius vs scaly crested man 7: 1d20+3 → [10] +3 = 13
+> - damage to scaly crested man 7: 1d6+5 → [5] +5 = 10
+> - morale troglodyte: 2d6-1 → [5, 1] -1 = 5
+> - morale troglodyte: 2d6-1 → [6, 5] -1 = 10
+> - Black Fang gnoll 1 save vs Spells, the Stone's call (16+): 1d20 → [20] = 20
+> - Black Fang gnoll 2 save vs Spells, the Stone's call (16+): 1d20 → [17] = 17
+> - Black Fang gnoll 3 save vs Spells, the Stone's call (16+): 1d20 → [9] = 9
+> - morale troglodyte: 2d6-1 → [3, 2] -1 = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [3] = 3
+> - attack Troglodyte vs Gnoll: 1d20-2 → [2] -2 = 0
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [6] = 6
+> - morale troglodyte: 2d6-1 → [5, 6] -1 = 10
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [3] = 3
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [6] = 6
+> - attack Troglodyte vs Gnoll: 1d20 → [13] = 13
+> - damage to Black Fang gnoll 2: 1d4 → [2] = 2
+> - init Troglodyte: 1d6 → [3] = 3
+> - init Troglodyte: 1d6 → [2] = 2
+> - init Troglodyte: 1d6 → [6] = 6
+> - init Troglodyte: 1d6 → [2] = 2
+> - attack Galerius vs scaly man with a club 2: 1d20+3 → [15] +3 = 18
+> - damage to scaly man with a club 2: 1d6+5 → [3] +5 = 8
+> - attack Troglodyte vs Hrodric: 1d20 → [4] = 4
+> - attack Troglodyte vs Galerius: 1d20 → [1] = 1
+> - attack Troglodyte vs Ur-Shet (Sakkara): 1d20 → [7] = 7
+> - morale troglodyte: 2d6-4 → [1, 3] -4 = 0
+> - morale troglodyte: 2d6-4 → [2, 2] -4 = 0
+> - morale troglodyte: 2d6-4 → [1, 1] -4 = -2
+> - init Troglodyte: 1d6 → [4] = 4
+> - init Troglodyte: 1d6 → [5] = 5
+> - init Troglodyte: 1d6 → [5] = 5
+> - attack Galerius vs scaly man with a club 2: 1d20+3 → [2] +3 = 5
+> - attack Troglodyte vs Severina: 1d20 → [6] = 6
+> - attack Troglodyte vs Hrodric: 1d20 → [19] = 19
+> - damage to Hrodric: 1d4 → [1] = 1
+> - attack Varro vs scaly man with a club 1: 1d20+2 → [17] +2 = 19
+> - damage to scaly man with a club 1: 1d6+2 → [1] +2 = 3
+> - init Troglodyte: 1d6 → [1] = 1
+> - init Troglodyte: 1d6 → [4] = 4
+> - attack Galerius vs scaly man with a club 2: 1d20+3 → [11] +3 = 14
+> - damage to scaly man with a club 2: 1d6+5 → [3] +5 = 8
+> - init Troglodyte: 1d6 → [4] = 4
+> - wandering check (day 143 08:20): 1d6 → [6] = 6
+> - minute of the turn: 1d10 → [6] = 6
+> - Wandering Monster Table - Troglodyte Warren (below the Catacombs) (1d6): 1d6 → [1] = 1
+> - number appearing: 1d8 → [3] = 3
+> - encounter distance (x10'): 2d6 → [1, 4] = 5
+> - Mortal Wounds Troglodyte table (1 piercing, 2 slashing): 1d2 → [1] = 1
+> - Mortal Wounds Troglodyte d20: 1d20 → [18] = 18
+> - Mortal Wounds Troglodyte d6: 1d6 → [5] = 5
+> - Mortal Wounds Troglodyte d20: 1d20 → [15] = 15
+> - Mortal Wounds Troglodyte d6: 1d6 → [4] = 4
+> - Mortal Wounds Troglodyte d20: 1d20 → [17] = 17
+> - Mortal Wounds Troglodyte d6: 1d6 → [6] = 6
+> - Mortal Wounds Troglodyte table (1 piercing, 2 slashing): 1d2 → [1] = 1
+> - Mortal Wounds Troglodyte d20: 1d20 → [12] = 12
+> - Mortal Wounds Troglodyte d6: 1d6 → [3] = 3
+> - Mortal Wounds Troglodyte d20: 1d20 → [18] = 18
+> - Mortal Wounds Troglodyte d6: 1d6 → [2] = 2
+> - Mortal Wounds Troglodyte table (1 piercing, 2 slashing): 1d2 → [2] = 2
+> - Mortal Wounds Troglodyte d20: 1d20 → [4] = 4
+> - Mortal Wounds Troglodyte d6: 1d6 → [6] = 6
+> - Mortal Wounds Troglodyte d20: 1d20 → [16] = 16
+> - Mortal Wounds Troglodyte d6: 1d6 → [2] = 2
+> - Mortal Wounds Troglodyte d20: 1d20 → [6] = 6
+> - Mortal Wounds Troglodyte d6: 1d6 → [4] = 4
+> - Mortal Wounds Troglodyte table (1 piercing, 2 slashing): 1d2 → [2] = 2
+> - Mortal Wounds Troglodyte d20: 1d20 → [19] = 19
+> - Mortal Wounds Troglodyte d6: 1d6 → [2] = 2
+> - Mortal Wounds Troglodyte table (1 piercing, 2 slashing): 1d2 → [1] = 1
+> - Mortal Wounds Troglodyte d20: 1d20 → [13] = 13
+> - Mortal Wounds Troglodyte d6: 1d6 → [2] = 2
+> - Mortal Wounds Troglodyte table (1 piercing, 2 slashing): 1d2 → [1] = 1
+> - Mortal Wounds Troglodyte d20: 1d20 → [3] = 3
+> - Mortal Wounds Troglodyte d6: 1d6 → [2] = 2
+> - abomination of L2 16 comes on after the Stone's end (1-2): 1d6 → [6] = 6
+> - abomination A of L2 19 (1-2): 1d6 → [3] = 3
+> - abomination B of L2 19 (1-2): 1d6 → [5] = 5
+> - abomination A of L2 20 (1-2): 1d6 → [3] = 3
+> - abomination B of L2 20 (1-2): 1d6 → [3] = 3
+> - wandering check (day 143 08:40): 1d6 → [5] = 5
+> - wandering check (day 143 09:00): 1d6 → [3] = 3
+> - wandering check (day 143 09:20): 1d6 → [4] = 4
+> - wandering check (day 143 09:40): 1d6 → [6] = 6
+> - minute of the turn: 1d10 → [8] = 8
+> - Wandering Monster Table - Catacombs (Level 2) (1d8): 1d8 → [7] = 7
+> - number appearing: 1d6 → [2] = 2
+> - encounter distance (x10'): 2d6 → [4, 3] = 7
+> - monster surprise: 1d6 → [6] = 6
+> - reaction (intimidating): 2d6+9 → [5, 3] +9 = 17
+> - wandering check (day 143 10:00): 1d6 → [4] = 4
+> - wandering check (day 143 10:20): 1d6 → [2] = 2
+> - wandering check (day 143 10:40): 1d6 → [3] = 3
+> - wandering check (day 143 11:00): 1d6 → [1] = 1
+> - wandering check (day 143 11:20): 1d6 → [5] = 5
+> - wandering check (day 143 11:40): 1d6 → [1] = 1
+> - wandering check (day 144 06:00): 1d6 → [3] = 3
+> - wandering check (day 144 06:20): 1d6 → [3] = 3
+> - wandering check (day 144 06:40): 1d6 → [1] = 1
+> - wandering check (day 144 07:00): 1d6 → [5] = 5
+> - navigation: 1d20 → [8] = 8
+> - encounter throw (Outlands or Unsettled + Road): 1d20 → [14] = 14
+> - miles into the hex: 1d6 → [5] = 5
+> - monster rarity (outlands): 1d20 → [7] = 7
+> - encounter table (Monster Encounter by Terrain Type and Rarity - Grassland (Farmland/Prairie)): 1d100 → [17] = 17
+> - lair check (War Dog 10%): 1d100 → [52] = 52
+> - number appearing: 2d4 → [2, 3] = 5
+> - encounter distance (Grassland (other): 4d6 x 30'): 4d6 → [6, 3, 2, 5] = 16
+> - reaction (diplomatic): 2d6 → [5, 1] = 6
+> - night encounter throw (Outlands or Unsettled + Road): 1d20 → [13] = 13
+> - hour from dusk: 1d12 → [11] = 11
+> - turn of the hour: 1d6 → [3] = 3
+> - monster rarity (outlands): 1d20 → [11] = 11
+> - encounter table (Monster Encounter by Terrain Type and Rarity - Grassland (Farmland/Prairie)): 1d100 → [79] = 79
+> - lair check (Giant Toad 25%): 1d100 → [69] = 69
+> - number appearing: 1d4 → [3] = 3
+> - encounter distance (Grassland (other): 4d6 x 30'): 4d6 → [3, 2, 6, 1] = 12
+> - monster surprise: 1d6 → [3] = 3
+> - reaction (diplomatic): 2d6 → [6, 2] = 8
+> - navigation: 1d20 → [17] = 17
+> - monster rarity (outlands): 1d20 → [14] = 14
+> - encounter table (Monster Encounter by Terrain Type and Rarity - Grassland (Farmland/Prairie)): 1d100 → [62] = 62
+> - lair check (Large Raptor 20%): 1d100 → [74] = 74
+> - number appearing: 1d6 → [1] = 1
+> - encounter distance (Grassland (other): 4d6 x 30'): 4d6 → [1, 5, 6, 1] = 13
+> - reaction (diplomatic): 2d6 → [2, 1] = 3
+> - hp Large Raptor: 1d8+1 → [3] +1 = 4
+> - init Large Raptor: 1d6 → [1] = 1
+> - init Large Raptor: 1d6 → [2] = 2
+> - morale large-raptor: 2d6-1 → [6, 5] -1 = 10
+> - attack Large Raptor vs Hrodric: 1d20 → [5] = 5
+> - init Large Raptor: 1d6 → [5] = 5
+> - Mortal Wounds Large Raptor table (1 piercing, 2 slashing): 1d2 → [1] = 1
+> - Mortal Wounds Large Raptor d20: 1d20 → [3] = 3
+> - Mortal Wounds Large Raptor d6: 1d6 → [4] = 4
+> - encounter throw (Outlands or Unsettled + Road): 1d20 → [8] = 8
+> - loyalty Varro (level): 2d6+3 → [2, 2] +3 = 7
+> - loyalty Quintus (level): 2d6+1 → [2, 2] +1 = 5
+> - loyalty Marius (level): 2d6+4 → [3, 6] +4 = 13
+> - Quintus and Galerius' offer to stay (2d6+2: 9+ stays at 50gp, 6-8 to month's end, 5- goes) (Rulings R2 S16): 2d6+2 → [2, 2] +2 = 6
+> - orc-raid-hobgoblins: orc raid on the hobgoblins (1-2) (Rulings R2 S12): 1d6 → [1] = 1
+> - orc raid on the hobgoblins, week of day 148: outcome (as days 73-86: 1-2 light, 3-4 heavy, 5-6 repulsed): 1d6 → [6] = 6

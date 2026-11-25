@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 12,
-  "L": 101,
+  "L": 102,
   "H": 3,
-  "M": 32
+  "M": 33
  },
  "adventure": {
   "id": "A12",
@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 7771,
     "level_before": 3,
     "class": "Fighter",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 1881
    },
    "faustina": {
     "id": "faustina",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 7418,
     "level_before": 3,
     "class": "Priestess",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 1796
    },
    "callista": {
     "id": "callista",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 7418,
     "level_before": 3,
     "class": "Mage",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 1796
    },
    "corvus": {
     "id": "corvus",
@@ -64,12 +70,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 7418,
     "level_before": 3,
     "class": "Explorer",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 1796
    },
    "hrodric": {
     "id": "hrodric",
@@ -79,12 +87,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 6903,
     "level_before": 4,
     "class": "Shaman",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 1796
    },
    "severina": {
     "id": "severina",
@@ -94,12 +104,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 4243,
     "level_before": 3,
     "class": "Venturer",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 1796
    },
    "varro": {
     "id": "varro",
@@ -109,12 +121,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "varro",
     "xp_before": 2109,
     "level_before": 2,
     "class": "Crusader",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 898
    },
    "quintus": {
     "id": "quintus",
@@ -124,12 +138,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "quintus",
     "xp_before": 1953,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 898
    },
    "zaira": {
     "id": "zaira",
@@ -139,12 +155,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "zaira",
     "xp_before": 1860,
     "level_before": 1,
     "class": "Elven Spellsword",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 855
    },
    "marius": {
     "id": "marius",
@@ -154,12 +172,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "marius",
     "xp_before": 2135,
     "level_before": 2,
     "class": "Thief",
-    "joined_day": 140
+    "joined_day": 140,
+    "returned_day": 145,
+    "xp_award": 898
    }
   },
   "monsters": [
@@ -280,12 +300,164 @@
      ],
      "text": "the fight with 12 Troglodyte, encounter enc180, round 20"
     }
+   },
+   {
+    "id": "M33",
+    "monster": "Large Raptor",
+    "source": "Large Raptor (MM p. 259)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 21,
+    "fight": {
+     "ids": [
+      "large-raptor1"
+     ],
+     "text": "the fight with Large Raptor, encounter enc185, round 3"
+    }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 145,
+   "at": "Türos Tem",
+   "total": 13681.0,
+   "per_share": 1710.125,
+   "awards": {
+    "galerius": {
+     "share": 1.0,
+     "why": null,
+     "base": 1710,
+     "pct": 10,
+     "pen": 0,
+     "award": 1881,
+     "xp_before": 7771,
+     "xp_after": 9652,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "faustina": {
+     "share": 1.0,
+     "why": null,
+     "base": 1710,
+     "pct": 5,
+     "pen": 0,
+     "award": 1796,
+     "xp_before": 7418,
+     "xp_after": 9214,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "callista": {
+     "share": 1.0,
+     "why": null,
+     "base": 1710,
+     "pct": 5,
+     "pen": 0,
+     "award": 1796,
+     "xp_before": 7418,
+     "xp_after": 9214,
+     "capped": null,
+     "zero": false
+    },
+    "corvus": {
+     "share": 1.0,
+     "why": null,
+     "base": 1710,
+     "pct": 5,
+     "pen": 0,
+     "award": 1796,
+     "xp_before": 7418,
+     "xp_after": 9214,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "hrodric": {
+     "share": 1.0,
+     "why": null,
+     "base": 1710,
+     "pct": 5,
+     "pen": 0,
+     "award": 1796,
+     "xp_before": 6903,
+     "xp_after": 8699,
+     "capped": null,
+     "zero": false
+    },
+    "severina": {
+     "share": 1.0,
+     "why": null,
+     "base": 1710,
+     "pct": 5,
+     "pen": 0,
+     "award": 1796,
+     "xp_before": 4243,
+     "xp_after": 6039,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 855,
+     "pct": 5,
+     "pen": 0,
+     "award": 898,
+     "xp_before": 2109,
+     "xp_after": 3007,
+     "capped": null,
+     "zero": false,
+     "level_up": 3
+    },
+    "quintus": {
+     "share": 0.5,
+     "why": null,
+     "base": 855,
+     "pct": 5,
+     "pen": 0,
+     "award": 898,
+     "xp_before": 1953,
+     "xp_after": 2851,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    },
+    "zaira": {
+     "share": 0.5,
+     "why": null,
+     "base": 855,
+     "pct": 0,
+     "pen": 0,
+     "award": 855,
+     "xp_before": 1860,
+     "xp_after": 2715,
+     "capped": null,
+     "zero": false
+    },
+    "marius": {
+     "share": 0.5,
+     "why": null,
+     "base": 855,
+     "pct": 5,
+     "pen": 0,
+     "award": 898,
+     "xp_before": 2135,
+     "xp_after": 3033,
+     "capped": null,
+     "zero": false,
+     "level_up": 3
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 145,
+   "where": "Türos Tem"
+  }
  },
  "closed": [
   {
@@ -7469,8 +7641,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "left",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7495,7 +7667,11 @@
    "used": false,
    "sold": null,
    "judge": [],
-   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure"
+   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure",
+   "left_at": {
+    "where": "given to Priestess Genelen for Mityara's order (day 145)",
+    "day": 145
+   }
   },
   "L91": {
    "id": "L91",
@@ -7503,8 +7679,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "left",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7529,7 +7705,11 @@
    "used": false,
    "sold": null,
    "judge": [],
-   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure"
+   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure",
+   "left_at": {
+    "where": "given to Priestess Genelen for Mityara's order (day 145)",
+    "day": 145
+   }
   },
   "L92": {
    "id": "L92",
@@ -7537,8 +7717,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.1,
-   "carrier": "faustina",
-   "status": "carried",
+   "carrier": null,
+   "status": "left",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7563,7 +7743,11 @@
    "used": false,
    "sold": null,
    "judge": [],
-   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure"
+   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure",
+   "left_at": {
+    "where": "given to Priestess Genelen for Mityara's order (day 145)",
+    "day": 145
+   }
   },
   "L93": {
    "id": "L93",
@@ -7571,8 +7755,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7589,15 +7773,35 @@
    },
    "player": {
     "desc": "an ornamental stone",
-    "value_gp": null,
+    "value_gp": 25,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 27.5,
+    "market": "Turos Tem (Market)",
+    "day": 145,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.44,
+     "faustina": 3.44,
+     "callista": 3.44,
+     "corvus": 3.44,
+     "hrodric": 3.44,
+     "severina": 3.44,
+     "varro": 1.72,
+     "quintus": 1.72,
+     "zaira": 1.72,
+     "marius": 1.72
+    }
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H2",
@@ -7610,8 +7814,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7628,15 +7832,35 @@
    },
    "player": {
     "desc": "an ornamental stone",
-    "value_gp": null,
+    "value_gp": 50,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 55.0,
+    "market": "Turos Tem (Market)",
+    "day": 145,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 6.88,
+     "faustina": 6.88,
+     "callista": 6.88,
+     "corvus": 6.88,
+     "hrodric": 6.88,
+     "severina": 6.88,
+     "varro": 3.44,
+     "quintus": 3.44,
+     "zaira": 3.44,
+     "marius": 3.44
+    }
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H2",
@@ -7649,8 +7873,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7667,15 +7891,35 @@
    },
    "player": {
     "desc": "an ornamental stone",
-    "value_gp": null,
+    "value_gp": 25,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 27.5,
+    "market": "Turos Tem (Market)",
+    "day": 145,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 3.44,
+     "faustina": 3.44,
+     "callista": 3.44,
+     "corvus": 3.44,
+     "hrodric": 3.44,
+     "severina": 3.44,
+     "varro": 1.72,
+     "quintus": 1.72,
+     "zaira": 1.72,
+     "marius": 1.72
+    }
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H2",
@@ -7688,8 +7932,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7706,15 +7950,35 @@
    },
    "player": {
     "desc": "a piece of jewelry (fine wood)",
-    "value_gp": null,
+    "value_gp": 300,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 330.0,
+    "market": "Turos Tem (Market)",
+    "day": 145,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 41.25,
+     "faustina": 41.25,
+     "callista": 41.25,
+     "corvus": 41.25,
+     "hrodric": 41.25,
+     "severina": 41.25,
+     "varro": 20.62,
+     "quintus": 20.62,
+     "zaira": 20.62,
+     "marius": 20.62
+    }
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H2",
@@ -7727,8 +7991,8 @@
    "kind": "jewelry",
    "qty": 1,
    "stone": 0.16666666666666666,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6"
@@ -7745,15 +8009,35 @@
    },
    "player": {
     "desc": "a piece of jewelry (glass)",
-    "value_gp": null,
+    "value_gp": 200,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 220.0,
+    "market": "Turos Tem (Market)",
+    "day": 145,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 27.5,
+     "faustina": 27.5,
+     "callista": 27.5,
+     "corvus": 27.5,
+     "hrodric": 27.5,
+     "severina": 27.5,
+     "varro": 13.75,
+     "quintus": 13.75,
+     "zaira": 13.75,
+     "marius": 13.75
+    }
+   },
    "judge": [],
    "from_hoard": {
     "hoard": "H2",
@@ -7817,7 +8101,7 @@
    "qty": 2000,
    "stone": 2.0,
    "carrier": "marius",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6 (the company's half)"
@@ -7841,7 +8125,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 145
   },
   "L100": {
    "id": "L100",
@@ -7850,7 +8135,7 @@
    "qty": 2000,
    "stone": 2.0,
    "carrier": "hrodric",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6 (the company's half)"
@@ -7874,7 +8159,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 145
   },
   "L101": {
    "id": "L101",
@@ -7883,7 +8169,7 @@
    "qty": 500,
    "stone": 0.5,
    "carrier": "corvus",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 143,
     "where": "Troglodyte Warren W6 (the company's half)"
@@ -7907,7 +8193,41 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 145
+  },
+  "L102": {
+   "id": "L102",
+   "adventure": "A12",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "faustina",
+   "status": "divided",
+   "found": {
+    "day": 145,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0,
+    "name": "reward 1500.0gp"
+   },
+   "player": {
+    "desc": "reward of 1500.0gp",
+    "value_gp": 1500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 145
   }
  },
  "hoards": {

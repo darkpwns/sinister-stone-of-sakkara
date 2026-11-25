@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S16: A tunnel mouth held by two is worth a dozen spears; their sleeping and holding spells did the rest. Fight only where they must come to us.
 - S02: Talking first went badly at the temple door (the kobolds attacked); Slumber saved us twice. Keep the mage's spell for the swarm.
 
 ## Opinions of NPCs

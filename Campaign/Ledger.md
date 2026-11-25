@@ -83,6 +83,19 @@ tags:
 | 133 | A11 The Lady Below (Buried Temple, level 2) | gem worth 1000.0gp | 1,000 | severina |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | the Lady's spellbook (iron-bound, pages of flayed skin) | 5,000 | callista |
 | 134 | A11 The Lady Below (Buried Temple, level 2) | the legate's reward for the Lady's death (late, L89; shared by A11's shares) | 500 | faustina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | a fragment of the Stone (red-black, runes inside) | 0 (a purchase or gift (--no-xp)) | left |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | a fragment of the Stone (red-black, runes inside) | 0 (a purchase or gift (--no-xp)) | left |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | a fragment of the Stone (red-black, runes inside) | 0 (a purchase or gift (--no-xp)) | left |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | ornamental worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | severina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | ornamental worth 50gp (Bloodstone, crystal, citrine, jasper, moonstone, onyx) | 50 | severina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | ornamental worth 25gp (Agate, lapis lazuli, tiger eye, turquoise) | 25 | severina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | trinket worth 300gp (Fine wood, porcelain, or wrought silver) | 300 | severina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | trinket worth 200gp (Glass, shells, or wrought copper, brass, or bronze) | 200 | severina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Oil of the Secret Fire | 25 | severina |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | 2,000 silver pieces | 200 | marius |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | 2,000 silver pieces | 200 | hrodric |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | 500 electrum pieces | 250 | corvus |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | reward 1500.0gp | 1,500 | faustina |
 
 ## Monster XP
 
@@ -112,6 +125,15 @@ tags:
 | 133 | A11 The Lady Below (Buried Temple, level 2) | Zakiti (Sakkara) | 1 | 660 | 660 |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | Troglodyte | 3 | 20 | 60 |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | Zombie | 2 | 29 | 58 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Abomination (Sakkara) | 1 | 135 | 135 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 1 | 50 | 50 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 1 | 20 | 20 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 1 | 20 | 20 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 1 | 320 | 320 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 1 | 80 | 80 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 2 | 50 | 100 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Troglodyte | 8 | 20 | 160 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Large Raptor | 1 | 21 | 21 |
 
 ## Shares and XP awarded
 
@@ -208,6 +230,19 @@ tags:
 | 133 | A11 The Lady Below (Buried Temple, level 2) | Quintus | 0.5 | 593 | 59 | 0 | +5% | 685 |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | Zaira | 0.5 | 593 | 59 | 0 | +0% | 652 |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | Marius | 0.5 | 593 | 59 | 0 | +5% | 685 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Galerius | 1 | 347 | 113 | 1,250 | +10% | 1,881 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Faustina | 1 | 347 | 113 | 1,250 | +5% | 1,796 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Callista | 1 | 347 | 113 | 1,250 | +5% | 1,796 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Corvus | 1 | 347 | 113 | 1,250 | +5% | 1,796 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Hrodric | 1 | 347 | 113 | 1,250 | +5% | 1,796 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Severina | 1 | 347 | 113 | 1,250 | +5% | 1,796 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Varro | 0.5 | 173 | 57 | 625 | +5% | 898 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Quintus | 0.5 | 173 | 57 | 625 | +5% | 898 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Zaira | 0.5 | 173 | 57 | 625 | +0% | 855 |
+| 145 | A12 The Stone Below (Buried Temple, level 2, and the troglodyte warren) | Marius | 0.5 | 173 | 57 | 625 | +5% | 898 |
+| 145 | A12 (cleansing the Inner Fane, Lawful) | Galerius | - | - | - | 200 | - | 200 |
+| 145 | A12 (cleansing the Inner Fane, Lawful) | Faustina | - | - | - | 200 | - | 200 |
+| 145 | A12 (cleansing the Inner Fane, Lawful) | Varro | - | - | - | 200 | - | 200 |
 
 ## Wages
 
@@ -765,3 +800,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | severina |
 | 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
 | 140 | Apsa's orcs (L1 27) | stabling the two donkeys days 131-140 (2sp a night each, rounded up) (day 140) |  |  | 4gp | faustina |
+| 144 | Apsa's orcs (L1 27) | stabling the two donkeys days 140-144 (day 144) |  |  | 2gp | faustina |
+| 145 |  | treasure share |  | 268gp 7sp 5cp |  | galerius |
+| 145 |  | treasure share |  | 268gp 7sp 5cp |  | faustina |
+| 145 |  | treasure share |  | 268gp 7sp 5cp |  | callista |
+| 145 |  | treasure share |  | 268gp 7sp 5cp |  | corvus |
+| 145 |  | treasure share |  | 268gp 7sp 5cp |  | hrodric |
+| 145 |  | treasure share |  | 268gp 7sp 5cp |  | severina |
+| 145 |  | treasure share |  | 134gp 3sp 8cp |  | varro |
+| 145 |  | treasure share |  | 134gp 3sp 8cp |  | quintus |
+| 145 |  | treasure share |  | 134gp 3sp 8cp |  | zaira |
+| 145 |  | treasure share |  | 134gp 3sp 8cp |  | marius |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 82gp 5sp 1cp |  | galerius |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 82gp 5sp 1cp |  | faustina |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 82gp 5sp 1cp |  | callista |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 82gp 5sp 1cp |  | corvus |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 82gp 5sp 1cp |  | hrodric |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 82gp 5sp 1cp |  | severina |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 41gp 2sp 5cp |  | varro |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 41gp 2sp 5cp |  | quintus |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 41gp 2sp 5cp |  | zaira |
+| 145 | market | his share of the sale of L93,L94,L95,L96,L97 (after the payout) |  | 41gp 2sp 5cp |  | marius |
+| 145 | the inn | lodging, 3 night(s) |  |  | 13gp 5sp | faustina |

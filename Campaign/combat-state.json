@@ -1,24 +1,21 @@
 {
  "schema": "acks-combat/3",
- "round": 20,
+ "round": 3,
  "order": [
-  "faustina",
-  "fangs3",
-  "fangs1",
-  "fangs2",
-  "ur-shet",
   "callista",
-  "troglodyte7",
-  "varro",
+  "corvus",
   "quintus",
+  "galerius",
+  "marius",
+  "large-raptor1",
+  "zaira",
   "hrodric",
   "hrodric-eagle",
-  "marius",
-  "galerius",
-  "corvus",
+  "faustina",
+  "varro",
   "severina"
  ],
- "count_index": 14,
+ "count_index": null,
  "options": {
   "group_initiative": false,
   "party_sides": [
@@ -30,30 +27,15 @@
    "id": "galerius",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM p. 317 Troglodyte)",
-     "rounds_left": null,
-     "since_round": 2,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "galerius",
    "perceived": "Galerius",
    "judge_set": {},
-   "hp_lost_rounds": [
-    2,
-    3,
-    3,
-    4,
-    4,
-    7
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 0,
+   "cleaves_used": 1,
    "declared": {},
-   "init": 1,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -197,10 +179,10 @@
     "movement_running": 60,
     "weapons": [
      {
-      "name": "Sword",
+      "name": "Sword +1",
       "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d6+4",
+      "attack_throw": 6,
+      "damage": "1d6+5",
       "range": {
        "short": 0,
        "medium": 0,
@@ -231,43 +213,22 @@
    "actor": "galerius",
    "hp_max": 20,
    "hp": 14,
-   "hp_start": 20,
-   "aura_counts": {
-    "stench": 13
-   },
-   "attacked_round": 19,
-   "last_types": [
-    "slashing"
-   ],
-   "acted_round": 20
+   "hp_start": 14,
+   "attacked_round": 3
   },
   "faustina": {
    "id": "faustina",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM p. 317 Troglodyte)",
-     "rounds_left": null,
-     "since_round": 11,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "faustina",
    "perceived": "Faustina",
    "judge_set": {},
-   "hp_lost_rounds": [
-    3,
-    4,
-    4,
-    5,
-    5
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -453,19 +414,7 @@
    "actor": "faustina",
    "hp_max": 15,
    "hp": 15,
-   "hp_start": 15,
-   "spells_cast": {
-    "halt humanoids": 2,
-    "cure light injury": 1
-   },
-   "last_types": [
-    "slashing"
-   ],
-   "attacked_round": 5,
-   "aura_counts": {
-    "stench": 5
-   },
-   "acted_round": 20
+   "hp_start": 15
   },
   "callista": {
    "id": "callista",
@@ -479,7 +428,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -667,11 +616,7 @@
    "actor": "callista",
    "hp_max": 8,
    "hp": 8,
-   "hp_start": 8,
-   "spells_cast": {
-    "slumber": 2
-   },
-   "acted_round": 20
+   "hp_start": 8
   },
   "corvus": {
    "id": "corvus",
@@ -685,7 +630,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -897,9 +842,7 @@
    "actor": "corvus",
    "hp_max": 16,
    "hp": 13,
-   "hp_start": 13,
-   "attacked_round": 16,
-   "acted_round": 20
+   "hp_start": 13
   },
   "varro": {
    "id": "varro",
@@ -913,7 +856,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1099,35 +1042,21 @@
    "actor": "varro",
    "hp_max": 5,
    "hp": 5,
-   "hp_start": 5,
-   "attacked_round": 18,
-   "acted_round": 20
+   "hp_start": 5
   },
   "hrodric": {
    "id": "hrodric",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM p. 317 Troglodyte)",
-     "rounds_left": null,
-     "since_round": 10,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "hrodric",
    "perceived": "Hrodric",
    "judge_set": {},
-   "hp_lost_rounds": [
-    12,
-    13,
-    18
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1315,15 +1244,8 @@
    "actor": "hrodric",
    "hp_max": 18,
    "hp": 14,
-   "hp_start": 18,
-   "aura_counts": {
-    "stench": 5
-   },
-   "attacked_round": 18,
-   "last_types": [
-    "slashing"
-   ],
-   "acted_round": 20
+   "hp_start": 14,
+   "attacked_round": 2
   },
   "hrodric-eagle": {
    "id": "hrodric-eagle",
@@ -1337,7 +1259,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -1379,8 +1301,7 @@
     "owner": "hrodric",
     "actor": "hrodric-eagle"
    },
-   "hp_start": 9,
-   "acted_round": 20
+   "hp_start": 9
   },
   "quintus": {
    "id": "quintus",
@@ -1394,7 +1315,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1580,22 +1501,13 @@
    "actor": "quintus",
    "hp_max": 7,
    "hp": 7,
-   "hp_start": 7,
-   "acted_round": 20
+   "hp_start": 7
   },
   "severina": {
    "id": "severina",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM p. 317 Troglodyte)",
-     "rounds_left": null,
-     "since_round": 18,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "severina",
    "perceived": "Severina",
    "judge_set": {
@@ -1603,7 +1515,7 @@
    },
    "hp_lost_rounds": [],
    "felled": null,
-   "cleaves_used": 1,
+   "cleaves_used": 0,
    "declared": {},
    "init": 1,
    "nonlethal": 0,
@@ -1791,25 +1703,13 @@
    "actor": "severina",
    "hp_max": 17,
    "hp": 17,
-   "hp_start": 17,
-   "attacked_round": 20,
-   "aura_counts": {
-    "stench": 0
-   }
+   "hp_start": 17
   },
   "marius": {
    "id": "marius",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "queasy",
-     "source": "aura stench (MM p. 317 Troglodyte)",
-     "rounds_left": null,
-     "since_round": 17,
-     "note": null
-    }
-   ],
+   "conditions": [],
    "group": "marius",
    "perceived": "Marius",
    "judge_set": {},
@@ -1817,7 +1717,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2013,408 +1913,15 @@
    "actor": "marius",
    "hp_max": 6,
    "hp": 6,
-   "hp_start": 6,
-   "attacked_round": 19,
-   "aura_counts": {
-    "stench": 2
-   },
-   "acted_round": 20
+   "hp_start": 6
   },
-  "troglodyte1": {
-   "id": "troglodyte1",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 14,
-     "note": null
-    }
-   ],
-   "group": "chief",
-   "perceived": "the big scaly man with the polished axe",
-   "judge_set": {
-    "hd": "6",
-    "group": "chief"
-   },
-   "hp_lost_rounds": [
-    4,
-    8,
-    10,
-    13,
-    13,
-    14
-   ],
-   "felled": {
-    "round": 14,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "severina",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 28,
-   "hp": -5,
-   "hp_start": 6,
-   "hd": 6,
-   "ac": 7,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "dying": {
-    "within": "day",
-    "since_round": 20
-   },
-   "mortal_wounds": {
-    "total": 12,
-    "d20": 18,
-    "d6": 5,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M29",
-    "how": "killed",
-    "xp": 320
-   }
-  },
-  "troglodyte2": {
-   "id": "troglodyte2",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 12,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 15,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "a scaly man with a stone axe",
-   "judge_set": {
-    "hd": "4"
-   },
-   "hp_lost_rounds": [
-    7,
-    13,
-    15
-   ],
-   "felled": {
-    "round": 15,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "hrodric",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 20,
-   "hp": 0,
-   "hp_start": 6,
-   "hd": 4,
-   "ac": 6,
-   "attacked_round": 14,
-   "last_types": [
-    "slashing"
-   ],
-   "dying": {
-    "within": "day",
-    "since_round": 20
-   },
-   "mortal_wounds": {
-    "total": 14,
-    "d20": 15,
-    "d6": 4,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One hand is cut off (cannot dual-wield or use two-handed weapons).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M30",
-    "how": "killed",
-    "xp": 80
-   }
-  },
-  "troglodyte3": {
-   "id": "troglodyte3",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 18,
-     "note": null
-    }
-   ],
-   "group": "chief",
-   "perceived": "scaly man with a club 1",
-   "judge_set": {
-    "hd": "3",
-    "group": "chief"
-   },
-   "hp_lost_rounds": [
-    16,
-    18,
-    18
-   ],
-   "felled": {
-    "round": 18,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "hrodric",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 16,
-   "hp": -1,
-   "hp_start": 14,
-   "hd": 3,
-   "ac": 5,
-   "last_types": [
-    "slashing"
-   ],
-   "attacked_round": 18,
-   "damaged_by": [
-    "blunt"
-   ],
-   "dying": {
-    "within": "day",
-    "since_round": 20
-   },
-   "mortal_wounds": {
-    "total": 11,
-    "d20": 17,
-    "d6": 6,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M31",
-    "how": "killed",
-    "xp": 50
-   }
-  },
-  "troglodyte4": {
-   "id": "troglodyte4",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 19,
-     "note": null
-    }
-   ],
-   "group": "chief",
-   "perceived": "scaly man with a club 2",
-   "judge_set": {
-    "hd": "3",
-    "group": "chief"
-   },
-   "hp_lost_rounds": [
-    17,
-    17,
-    18,
-    19
-   ],
-   "felled": {
-    "round": 19,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "galerius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 16,
-   "hp": -6,
-   "hp_start": 8,
-   "hd": 3,
-   "ac": 5,
-   "attacked_round": 18,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "dying": {
-    "within": "round",
-    "since_round": 20,
-    "deadline_round": 21
-   },
-   "mortal_wounds": {
-    "total": 4,
-    "d20": 12,
-    "d6": 3,
-    "table": "mortal-wounds-piercing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M31",
-    "how": "killed",
-    "xp": 50
-   }
-  },
-  "troglodyte5": {
-   "id": "troglodyte5",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 9,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 1",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    4,
-    7,
-    8,
-    9
-   ],
-   "felled": {
-    "round": 9,
-    "types": [],
-    "natural": true,
-    "by": "ur-shet",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 16,
-   "hp": -7,
-   "hp_start": 14,
-   "hd": 2,
-   "ac": 4,
-   "attacked_round": 8,
-   "dying": {
-    "within": "turn",
-    "since_round": 20
-   },
-   "mortal_wounds": {
-    "total": 10,
-    "d20": 18,
-    "d6": 2,
-    "table": "mortal-wounds-savage",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte6": {
-   "id": "troglodyte6",
-   "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 12,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 2",
+  "zaira": {
+   "id": "zaira",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "zaira",
+   "perceived": "Zaira",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
@@ -2423,234 +1930,181 @@
    "init": 4,
    "nonlethal": 0,
    "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 13,
-   "hp": -13,
-   "hp_start": 6,
-   "hd": 2,
-   "ac": 4,
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte7": {
-   "id": "troglodyte7",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "cowering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 17,
-     "note": "engaged: cowers until it can flee with defensive movement"
+   "kind": "henchman",
+   "name": "Zaira",
+   "stats": {
+    "name": "Zaira",
+    "actor": "zaira",
+    "kind": "henchman",
+    "level": 1,
+    "class": "Elven Spellsword",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "DEX": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ]
     },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 20,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 3",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    18,
-    18,
-    20,
-    20
-   ],
-   "felled": {
-    "round": 20,
-    "types": [
-     "piercing",
-     "slashing"
+    "attack_throw": [
+     10,
+     {
+      "table": "elven-spellsword-attack-and-saving-throws",
+      "title": "Elven Spellsword Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Elven Spellsword.md",
+      "block": "^tbl-elven-spellsword-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 91",
+      "row": 0
+     }
     ],
-    "natural": false,
-    "by": "severina",
-    "tier": "mundane",
-    "nonlethal": false
+    "saves": [
+     {
+      "paralysis": 12,
+      "death": 14,
+      "blast": 15,
+      "implements": 16,
+      "spells": 16
+     },
+     {
+      "table": "elven-spellsword-attack-and-saving-throws",
+      "title": "Elven Spellsword Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Elven Spellsword.md",
+      "block": "^tbl-elven-spellsword-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 91",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.elven_spellsword.hit_die",
+      "note": "ACKS II Rules/03 Classes/Elven Spellsword.md",
+      "book": "RR",
+      "page": "p. 90"
+     }
+    ],
+    "progression": null,
+    "cleaves": [
+     1,
+     {
+      "rule": "class.elven_spellsword.cleave",
+      "note": "ACKS II Rules/03 Classes/Elven Spellsword.md",
+      "book": "RR",
+      "page": "p. 90"
+     }
+    ],
+    "ac_options": {
+     "shield": 5,
+     "no_shield": 4,
+     "dex_only": 2
+    },
+    "hp_max": 5,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Mystic Aura",
+     "Adventuring",
+     "Healing"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "mystic aura": "",
+     "adventuring": "",
+     "healing": ""
+    },
+    "ac_mode": "shield"
    },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 16,
-   "hp": 0,
-   "hp_start": 9,
-   "hd": 2,
-   "ac": 4,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "acted_round": 20,
-   "dying": {
-    "within": "round",
-    "since_round": 20,
-    "deadline_round": 21
-   },
-   "mortal_wounds": {
-    "total": 3,
-    "d20": 4,
-    "d6": 6,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
-    "band": "1-5"
-   },
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
+   "actor": "zaira",
+   "hp_max": 5,
+   "hp": 1,
+   "hp_start": 1
   },
-  "troglodyte8": {
-   "id": "troglodyte8",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 17,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 4",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    16,
-    17
-   ],
-   "felled": {
-    "round": 17,
-    "types": [],
-    "natural": true,
-    "by": "ur-shet",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 8,
-   "hp": -1,
-   "hp_start": 7,
-   "hd": 2,
-   "ac": 4,
-   "attacked_round": 17,
-   "dying": {
-    "within": "turn",
-    "since_round": 20
-   },
-   "mortal_wounds": {
-    "total": 10,
-    "d20": 16,
-    "d6": 2,
-    "table": "mortal-wounds-savage",
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
-    "band": "6-10"
-   },
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte9": {
-   "id": "troglodyte9",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 12,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 5",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    2,
-    12
-   ],
-   "felled": {
-    "round": 12,
-    "types": [],
-    "natural": true,
-    "by": "ur-shet",
-    "tier": "mundane",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 6,
-   "hp": -4,
-   "hp_start": 5,
-   "hd": 2,
-   "ac": 4,
-   "attacked_round": 11,
-   "mortal_wounds": {
-    "total": -5,
-    "d20": 6,
-    "d6": 4,
-    "table": "mortal-wounds-savage",
-    "condition": "You were instantly killed.",
-    "wound": "Entrails spill from your sliced belly like noodles in an overflowing bowl, betraying a grisly end.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte10": {
-   "id": "troglodyte10",
+  "large-raptor1": {
+   "id": "large-raptor1",
    "side": "foe",
    "status": "dead",
    "conditions": [
@@ -2662,8 +2116,8 @@
      "note": null
     }
    ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 6",
+   "group": "large-raptor",
+   "perceived": "the great hawk 1",
    "judge_set": {},
    "hp_lost_rounds": [
     3
@@ -2677,388 +2131,47 @@
     "natural": false,
     "by": "galerius",
     "tier": "extraordinary",
-    "nonlethal": false
+    "nonlethal": true
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
-   "nonlethal": 0,
+   "init": 5,
+   "nonlethal": 4,
    "notes": [],
    "kind": "monster",
-   "name": "Troglodyte",
+   "name": "Large Raptor",
    "stats": {},
    "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+    "base": "large-raptor",
+    "sha256": "dac8b4e396357a3a1646b075348890f5cd8a9d83ff356c570c65e5845050c6a6"
    },
-   "hp_max": 8,
-   "hp": -1,
-   "hp_start": 11,
-   "hd": 2,
-   "ac": 4,
-   "attacked_round": 3,
+   "hp_max": 4,
+   "hp": 0,
+   "hp_start": 4,
+   "attacked_round": 2,
    "last_types": [
     "piercing",
     "slashing"
    ],
    "dying": {
-    "within": "day",
-    "since_round": 20
+    "within": "round",
+    "since_round": 3,
+    "deadline_round": 4
    },
    "mortal_wounds": {
-    "total": 13,
-    "d20": 19,
-    "d6": 2,
-    "table": "mortal-wounds-slashing",
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "Your scrotum is sliced away or your womb cut open (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
-    "band": "11-15"
-   },
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte11": {
-   "id": "troglodyte11",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "faltering",
-     "source": "morale",
-     "rounds_left": null,
-     "since_round": 12,
-     "note": null
-    },
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 13,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 7",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    13
-   ],
-   "felled": {
-    "round": 13,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "galerius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 4,
-   "hp": -6,
-   "hp_start": 12,
-   "hd": 2,
-   "ac": 4,
-   "attacked_round": 5,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "mortal_wounds": {
-    "total": -3,
-    "d20": 13,
-    "d6": 2,
-    "table": "mortal-wounds-piercing",
-    "condition": "You were instantly killed.",
-    "wound": "Blood leaking everywhere around your hips reveals the terrible wound in your groin.",
-    "band": "-5 to 0"
-   },
-   "xp_recorded": {
-    "record": "M32",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte12": {
-   "id": "troglodyte12",
-   "side": "foe",
-   "status": "dead",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 8,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 8",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    6,
-    8
-   ],
-   "felled": {
-    "round": 8,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "galerius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 7,
-   "hp": -8,
-   "hp_start": 10,
-   "hd": 2,
-   "ac": 4,
-   "attacked_round": 7,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
-   "mortal_wounds": {
-    "total": -13,
+    "total": 2,
     "d20": 3,
-    "d6": 2,
+    "d6": 4,
     "table": "mortal-wounds-piercing",
-    "condition": "You were instantly killed.",
-    "wound": "A terrible wound penetrates the soft tissue of your upper palate and you die choking on your own leaking brain fluid. Awful.",
-    "band": "-6 or less"
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
+    "band": "1-5"
    },
    "xp_recorded": {
-    "record": "M32",
+    "record": "M33",
     "how": "killed",
-    "xp": 20
+    "xp": 21
    }
-  },
-  "fangs1": {
-   "id": "fangs1",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 1",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 10,
-   "hp": 10,
-   "hp_start": 10,
-   "attacked_round": 20,
-   "acted_round": 20
-  },
-  "fangs2": {
-   "id": "fangs2",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 2",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [
-    16
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 9,
-   "hp": 7,
-   "hp_start": 9,
-   "attacked_round": 20,
-   "last_types": [
-    "slashing"
-   ],
-   "acted_round": 20
-  },
-  "fangs3": {
-   "id": "fangs3",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 3",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 8,
-   "hp": 8,
-   "hp_start": 8,
-   "attacked_round": 13,
-   "acted_round": 20
-  },
-  "ur-shet": {
-   "id": "ur-shet",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "ur-shet",
-   "perceived": "Ur-Shet",
-   "judge_set": {
-    "hp": "given"
-   },
-   "hp_lost_rounds": [
-    7,
-    8,
-    9,
-    10
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Ur-Shet (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Ur-Shet (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ur-Shet (Sakkara).md",
-     "page": 57,
-     "needs_judge": [],
-     "checks": [],
-     "type": "beastman",
-     "type_text": "Humanoid Beastman (gnoll chieftain)",
-     "size_index": 1,
-     "size": "man-sized",
-     "ac": 6,
-     "hd": {
-      "text": "4 (20 hp)",
-      "dice": 4,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 4,
-      "fixed_hp": 20
-     },
-     "attacks": [
-      {
-       "raw": "1 (weapon 7+)",
-       "count": 1,
-       "names": [
-        "weapon"
-       ],
-       "throw": 7
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d6+2 by weapon",
-       "pieces": [
-        {
-         "raw": "1d6+2 by weapon",
-         "dice": "1d6+2",
-         "extraordinary": false,
-         "types": []
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      4
-     ],
-     "morale": 0,
-     "attack_throw_by_hd": 7,
-     "speed": "30’ / 90’",
-     "xp": "80",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ur-Shet (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 20,
-   "hp": 11,
-   "hp_start": 20,
-   "attacked_round": 20,
-   "last_types": [
-    "slashing"
-   ],
-   "acted_round": 20
   }
  },
  "groups": {
@@ -3182,105 +2295,10 @@
    },
    "start_count": 1
   },
-  "troglodyte": {
-   "side": "foe",
-   "members": [
-    "troglodyte2",
-    "troglodyte5",
-    "troglodyte6",
-    "troglodyte7",
-    "troglodyte8",
-    "troglodyte9",
-    "troglodyte10",
-    "troglodyte11",
-    "troglodyte12"
-   ],
-   "morale": {
-    "state": "frightened",
-    "rolls": [
-     {
-      "round": 12,
-      "total": 4,
-      "result": "Morale Faltering",
-      "reason": "1/3 of the group felled (4/12)"
-     },
-     {
-      "round": 13,
-      "total": 5,
-      "result": "Morale Faltering",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 13,
-      "total": 10,
-      "result": "Advance and Pursue",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 13,
-      "total": 4,
-      "result": "Morale Faltering",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 15,
-      "total": 10,
-      "result": "Advance and Pursue",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 17,
-      "total": 0,
-      "result": "Frightened Retreat",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 17,
-      "total": 0,
-      "result": "Frightened Retreat",
-      "reason": "another member felled this round"
-     },
-     {
-      "round": 17,
-      "total": -2,
-      "result": "Frightened Retreat",
-      "reason": "another member felled this round"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 17,
-    "first_round": 12
-   },
-   "start_count": 12,
-   "felled_rounds": [
-    3,
-    8,
-    9,
-    12,
-    13,
-    15,
-    17,
-    20
-   ]
-  },
-  "fangs": {
+  "zaira": {
    "side": "party",
    "members": [
-    "fangs1",
-    "fangs2",
-    "fangs3"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 3
-  },
-  "ur-shet": {
-   "side": "party",
-   "members": [
-    "ur-shet"
+    "zaira"
    ],
    "morale": {
     "state": "steady",
@@ -3289,324 +2307,54 @@
    },
    "start_count": 1
   },
-  "chief": {
+  "large-raptor": {
    "side": "foe",
    "members": [
-    "troglodyte1",
-    "troglodyte3",
-    "troglodyte4"
+    "large-raptor1"
    ],
    "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
+    "state": "advance and pursue",
+    "rolls": [
+     {
+      "round": 2,
+      "total": 10,
+      "result": "Advance and Pursue",
+      "reason": "Judge's call"
+     }
+    ],
+    "triggered": false,
+    "last_trigger_round": 2,
+    "first_round": 2
    },
-   "start_count": 12,
+   "start_count": 1,
    "felled_rounds": [
-    14,
-    18,
-    19
+    3
    ]
   }
  },
  "engaged": [],
  "engaged_at_round_start": [
   [
-   "fangs1",
-   "troglodyte7"
-  ],
-  [
-   "troglodyte7",
-   "ur-shet"
+   "hrodric",
+   "large-raptor1"
   ]
  ],
  "distances": {
-  "galerius|troglodyte1": 50,
-  "galerius|troglodyte2": 5,
-  "galerius|troglodyte3": 50,
-  "galerius|troglodyte4": 5,
-  "galerius|troglodyte5": 50,
-  "galerius|troglodyte6": 50,
-  "galerius|troglodyte7": 30,
-  "galerius|troglodyte8": 50,
-  "galerius|troglodyte9": 50,
-  "galerius|troglodyte10": 5,
-  "galerius|troglodyte11": 5,
-  "galerius|troglodyte12": 5,
-  "faustina|troglodyte1": 50,
-  "faustina|troglodyte2": 10,
-  "faustina|troglodyte3": 50,
-  "faustina|troglodyte4": 50,
-  "faustina|troglodyte5": 50,
-  "faustina|troglodyte6": 50,
-  "faustina|troglodyte7": 50,
-  "faustina|troglodyte8": 5,
-  "faustina|troglodyte9": 50,
-  "faustina|troglodyte10": 50,
-  "faustina|troglodyte11": 5,
-  "faustina|troglodyte12": 50,
-  "callista|troglodyte1": 50,
-  "callista|troglodyte2": 50,
-  "callista|troglodyte3": 50,
-  "callista|troglodyte4": 50,
-  "callista|troglodyte5": 50,
-  "callista|troglodyte6": 50,
-  "callista|troglodyte7": 50,
-  "callista|troglodyte8": 50,
-  "callista|troglodyte9": 50,
-  "callista|troglodyte10": 50,
-  "callista|troglodyte11": 50,
-  "callista|troglodyte12": 50,
-  "corvus|troglodyte1": 50,
-  "corvus|troglodyte2": 50,
-  "corvus|troglodyte3": 50,
-  "corvus|troglodyte4": 50,
-  "corvus|troglodyte5": 50,
-  "corvus|troglodyte6": 50,
-  "corvus|troglodyte7": 50,
-  "corvus|troglodyte8": 50,
-  "corvus|troglodyte9": 50,
-  "corvus|troglodyte10": 50,
-  "corvus|troglodyte11": 50,
-  "corvus|troglodyte12": 50,
-  "troglodyte1|varro": 30,
-  "troglodyte2|varro": 50,
-  "troglodyte3|varro": 5,
-  "troglodyte4|varro": 50,
-  "troglodyte5|varro": 50,
-  "troglodyte6|varro": 50,
-  "troglodyte7|varro": 10,
-  "troglodyte8|varro": 50,
-  "troglodyte9|varro": 50,
-  "troglodyte10|varro": 50,
-  "troglodyte11|varro": 50,
-  "troglodyte12|varro": 50,
-  "hrodric|troglodyte1": 50,
-  "hrodric|troglodyte2": 5,
-  "hrodric|troglodyte3": 5,
-  "hrodric|troglodyte4": 20,
-  "hrodric|troglodyte5": 50,
-  "hrodric|troglodyte6": 50,
-  "hrodric|troglodyte7": 20,
-  "hrodric|troglodyte8": 50,
-  "hrodric|troglodyte9": 50,
-  "hrodric|troglodyte10": 50,
-  "hrodric|troglodyte11": 50,
-  "hrodric|troglodyte12": 50,
-  "quintus|troglodyte1": 30,
-  "quintus|troglodyte2": 50,
-  "quintus|troglodyte3": 10,
-  "quintus|troglodyte4": 10,
-  "quintus|troglodyte5": 50,
-  "quintus|troglodyte6": 50,
-  "quintus|troglodyte7": 30,
-  "quintus|troglodyte8": 50,
-  "quintus|troglodyte9": 50,
-  "quintus|troglodyte10": 50,
-  "quintus|troglodyte11": 50,
-  "quintus|troglodyte12": 50,
-  "severina|troglodyte1": 5,
-  "severina|troglodyte2": 50,
-  "severina|troglodyte3": 50,
-  "severina|troglodyte4": 5,
-  "severina|troglodyte5": 50,
-  "severina|troglodyte6": 50,
-  "severina|troglodyte7": 5,
-  "severina|troglodyte8": 50,
-  "severina|troglodyte9": 50,
-  "severina|troglodyte10": 50,
-  "severina|troglodyte11": 50,
-  "severina|troglodyte12": 50,
-  "marius|troglodyte1": 10,
-  "marius|troglodyte2": 50,
-  "marius|troglodyte3": 50,
-  "marius|troglodyte4": 5,
-  "marius|troglodyte5": 50,
-  "marius|troglodyte6": 50,
-  "marius|troglodyte7": 10,
-  "marius|troglodyte8": 50,
-  "marius|troglodyte9": 50,
-  "marius|troglodyte10": 50,
-  "marius|troglodyte11": 50,
-  "marius|troglodyte12": 50,
-  "troglodyte5|ur-shet": 5,
-  "troglodyte9|ur-shet": 5,
-  "fangs1|troglodyte2": 5,
-  "troglodyte8|ur-shet": 5,
-  "fangs2|troglodyte1": 5,
-  "fangs3|troglodyte1": 5,
-  "fangs2|troglodyte4": 5,
-  "fangs1|troglodyte7": 5,
-  "troglodyte7|ur-shet": 5,
-  "fangs2|troglodyte7": 5
+  "galerius|large-raptor1": 5,
+  "faustina|large-raptor1": 390,
+  "callista|large-raptor1": 390,
+  "corvus|large-raptor1": 390,
+  "large-raptor1|varro": 390,
+  "hrodric|large-raptor1": 5,
+  "large-raptor1|quintus": 390,
+  "large-raptor1|severina": 390,
+  "large-raptor1|marius": 390,
+  "large-raptor1|zaira": 390
  },
  "log": [],
- "encounter_id": "enc180",
- "orders": {
-  "fangs1": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs2": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs3": {
-   "tactic": "hold",
-   "group": null
-  },
-  "ur-shet": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "corvus": {
-   "tactic": "hold",
-   "group": null
-  },
-  "varro": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "hrodric": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "quintus": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "severina": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "hrodric-eagle": {
-   "tactic": "hold",
-   "group": null
-  },
-  "callista": {
-   "tactic": "hold",
-   "group": null
-  },
-  "galerius": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "faustina": {
-   "tactic": "hold",
-   "group": null
-  },
-  "marius": {
-   "tactic": "close-and-attack",
-   "group": null
-  }
- },
- "notes_shown": [
-  "morale.modifier_tiers"
- ],
- "auras": [
-  {
-   "name": "stench",
-   "sources": [
-    "troglodyte1",
-    "troglodyte2",
-    "troglodyte3",
-    "troglodyte4",
-    "troglodyte5",
-    "troglodyte6",
-    "troglodyte7",
-    "troglodyte8",
-    "troglodyte9",
-    "troglodyte10",
-    "troglodyte11",
-    "troglodyte12"
-   ],
-   "radius": 5,
-   "save": "death",
-   "per_extra": 0,
-   "mods": [],
-   "fail": "queasy",
-   "fail_rounds": null,
-   "immune_turns": null,
-   "affects": [
-    "galerius",
-    "faustina",
-    "callista",
-    "corvus",
-    "varro",
-    "hrodric",
-    "quintus",
-    "severina",
-    "marius"
-   ],
-   "while_failed": null,
-   "source": "MM p. 317 Troglodyte",
-   "hears": [],
-   "noted": [],
-   "silenced_by": []
-  }
- ],
- "placed": {
-  "troglodyte1": "alcove",
-  "troglodyte3": "alcove",
-  "troglodyte4": "alcove",
-  "troglodyte2": "mouth",
-  "troglodyte5": "mouth",
-  "troglodyte6": "hall",
-  "troglodyte7": "hall",
-  "troglodyte8": "hall",
-  "troglodyte9": "mouth",
-  "troglodyte10": "mouth",
-  "troglodyte11": "hall",
-  "troglodyte12": "mouth",
-  "galerius": "alcove",
-  "ur-shet": "hall",
-  "faustina": "tunnel",
-  "callista": "tunnel",
-  "corvus": "tunnel",
-  "varro": "alcove",
-  "hrodric": "alcove",
-  "quintus": "tunnel",
-  "severina": "hall",
-  "marius": "alcove",
-  "hrodric-eagle": "tunnel",
-  "fangs1": "hall",
-  "fangs2": "tunnel",
-  "fangs3": "tunnel"
- },
- "zones": {
-  "alcove": {
-   "ranges": {
-    "mouth": 60
-   }
-  },
-  "mouth": {
-   "ranges": {
-    "alcove": 60,
-    "hall": 40,
-    "tunnel": 10
-   },
-   "frontage": 2
-  },
-  "hall": {
-   "ranges": {
-    "mouth": 40
-   }
-  },
-  "tunnel": {
-   "ranges": {
-    "mouth": 10
-   }
-  }
- },
- "tactics": {
-  "chief": {
-   "tactic": "hold"
-  },
-  "troglodyte": {
-   "tactic": "hold"
-  }
- },
- "round_ended": 19,
+ "encounter_id": "enc185",
+ "notes_shown": [],
+ "round_ended": 2,
  "retinue": {
   "varro": {
    "hp_triggered": false,
@@ -3624,6 +2372,53 @@
    "calamity_queued": false
   }
  },
+ "tactics": {
+  "large-raptor": {
+   "tactic": "close-and-attack"
+  }
+ },
+ "orders": {
+  "galerius": {
+   "tactic": "hold",
+   "group": null
+  },
+  "faustina": {
+   "tactic": "hold",
+   "group": null
+  },
+  "callista": {
+   "tactic": "hold",
+   "group": null
+  },
+  "varro": {
+   "tactic": "hold",
+   "group": null
+  },
+  "quintus": {
+   "tactic": "hold",
+   "group": null
+  },
+  "severina": {
+   "tactic": "hold",
+   "group": null
+  },
+  "marius": {
+   "tactic": "hold",
+   "group": null
+  },
+  "zaira": {
+   "tactic": "hold",
+   "group": null
+  },
+  "hrodric-eagle": {
+   "tactic": "hold",
+   "group": null
+  },
+  "hrodric": {
+   "tactic": "hold",
+   "group": null
+  }
+ },
  "party_hp_written": [
   "galerius",
   "faustina",
@@ -3633,120 +2428,21 @@
   "hrodric",
   "quintus",
   "severina",
-  "marius"
+  "marius",
+  "zaira"
  ],
  "ended": {
-  "round": 20,
+  "round": 3,
   "felled_foes": [
    {
-    "id": "troglodyte1",
-    "name": "Troglodyte",
-    "perceived": "the big scaly man with the polished axe",
-    "outcome": "slain",
-    "hp": -5,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
-    "total": 12
-   },
-   {
-    "id": "troglodyte2",
-    "name": "Troglodyte",
-    "perceived": "a scaly man with a stone axe",
-    "outcome": "slain",
-    "hp": 0,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "One hand is cut off (cannot dual-wield or use two-handed weapons).",
-    "total": 14
-   },
-   {
-    "id": "troglodyte3",
-    "name": "Troglodyte",
-    "perceived": "scaly man with a club 1",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
-    "total": 11
-   },
-   {
-    "id": "troglodyte4",
-    "name": "Troglodyte",
-    "perceived": "scaly man with a club 2",
-    "outcome": "slain",
-    "hp": -6,
-    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
-    "total": 4
-   },
-   {
-    "id": "troglodyte5",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 1",
-    "outcome": "slain",
-    "hp": -7,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
-    "total": 10
-   },
-   {
-    "id": "troglodyte7",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 3",
+    "id": "large-raptor1",
+    "name": "Large Raptor",
+    "perceived": "the great hawk 1",
     "outcome": "slain",
     "hp": 0,
     "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
-    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
-    "total": 3
-   },
-   {
-    "id": "troglodyte8",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 4",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
-    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
-    "total": 10
-   },
-   {
-    "id": "troglodyte9",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 5",
-    "outcome": "slain",
-    "hp": -4,
-    "condition": "You were instantly killed.",
-    "wound": "Entrails spill from your sliced belly like noodles in an overflowing bowl, betraying a grisly end.",
-    "total": -5
-   },
-   {
-    "id": "troglodyte10",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 6",
-    "outcome": "slain",
-    "hp": -1,
-    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
-    "wound": "Your scrotum is sliced away or your womb cut open (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
-    "total": 13
-   },
-   {
-    "id": "troglodyte11",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 7",
-    "outcome": "slain",
-    "hp": -6,
-    "condition": "You were instantly killed.",
-    "wound": "Blood leaking everywhere around your hips reveals the terrible wound in your groin.",
-    "total": -3
-   },
-   {
-    "id": "troglodyte12",
-    "name": "Troglodyte",
-    "perceived": "scaly crested man 8",
-    "outcome": "slain",
-    "hp": -8,
-    "condition": "You were instantly killed.",
-    "wound": "A terrible wound penetrates the soft tissue of your upper palate and you die choking on your own leaking brain fluid. Awful.",
-    "total": -13
+    "wound": "A puncture in the abdominal cavity leaves you infection-prone and weak (CON reduced by 1/3, -4 to saving throws vs. diseases and poisons).",
+    "total": 2
    }
   ]
  }
