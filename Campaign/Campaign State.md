@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: summer
-    day: 131
-  time: 07:50
+    day: 132
+  time: 05:40
   weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; clear; wind still
   place: Türos Tem
   hex: '20.19'
@@ -97,8 +97,8 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5.209
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) 15 turns left
-  rations: 'Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 9 d, water 1 d; Varro: food 8 d, water 1 d; Hrodric: food 8 d, water 1 d; Quintus: food 14 d, water 1 d; Zaira: food 14 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 13 d, water 1 d'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
+  rations: 'Galerius: food 7 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 7 d, water 1 d; Corvus: food 7 d, water 1 d; Varro: food 7 d, water 1 d; Hrodric: food 7 d, water 1 d; Quintus: food 7 d, water 1 d; Zaira: food 13 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 12 d, water 1 d'
   tracker: {}
   threads: []
   trail:
@@ -122,7 +122,7 @@ public:
   - '21.21'
   - '21.20'
   - '20.19'
-clock_day: 131
+clock_day: 132
 ---
 # Campaign State
 
