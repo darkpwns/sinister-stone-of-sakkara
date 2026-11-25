@@ -17,6 +17,11 @@ Prefix bullets with the session (`S03:`). Run 2 (from 2026-11-24).
 - S02: Red Eye gnolls (hyena-men) in the buried temple say 'the Lady Below' pays any band that wipes out one of her lesser tribes. So the beastmen there serve a mistress, and she sets them on each other.
 
 ## Plans
+- S09: **The hobgoblins are our friends now.** We went to them with a cask of wine and talk, not swords. Shulgi (a champion) told us the witch doctor Abgal and Hepteth meant to give their wounded chief Thethamun to the Lady. Faustina healed the chief; his warriors stood with him and with us; Abgal, Hepteth and four others ran north toward the old stair, likely to the Lady. Thethamun paid us 300gp and four silver winged-sun symbols of Ammonar (Varro holds them: sell them or give them to a temple of his god?), gave us free passage, and let us take the beetle nest his people feared.
+- S09: Two Slumbers took four glowing beetles and their eggs without a blow. Two broke loose on the way home; the rest sold in town (150gp). Raising beetles needs four ranks of Animal Training; we have none yet.
+- S09: The orcs still take us for the Lady's recruits. One band had come to raid the hobgoblins and left when they saw us with them; another told us the Red Eyes guard the stair under the stepped tower and the Black Fangs below are out of the Lady's favour.
+- S09: In the forest, 'merchants' with a bloodied wagon heading away from every track tried to lure us in; Corvus saw through it and we slipped away in the rain. Seven elves on the farm tracks ignored us.
+- S09: Watch for Abgal: he knows our faces and has gone below.
 - S08: Home on day 52. The cache paid 12,930gp; the five pilgrims are 2nd level. 13,000gp is with Guildmaster Karanos for a month (free if we leave it till day 82; he takes 15% if we draw it early). The purse (Faustina) about 1,700gp.
 - S08: Faustina hired **Varro**, a priest-crusader of Ammonar (banded plate, mace; rebukes the dead): good for the temple's lower levels. Four henchmen now: Marius, Petra, Titus (Severina's), Varro (Faustina's). More only from day 61.
 - S08: The legate is now friendly to us: he gave Faustina a scroll to recruit soldiers at the Parade Ground (one in four of those drilling will listen) and introduced Callista to Malyn. Malyn (cold, but civil) sold her a copy of his Discern Magic formula for 500gp: she knows it now.

@@ -1,190 +1,214 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 4,
-  "L": 38,
+  "A": 5,
+  "L": 43,
   "H": 1,
-  "M": 8
+  "M": 9
  },
  "adventure": {
-  "id": "A4",
-  "name": "Pilgrimage to the Shrine of the White Lady",
-  "start_day": 46,
+  "id": "A5",
+  "name": "The hobgoblins' alliance (Buried Temple, level 1)",
+  "start_day": 63,
   "participants": {
    "galerius": {
     "id": "galerius",
     "name": "Galerius",
     "actor": "galerius",
     "kind": "pc",
-    "player": null,
+    "player": "gideon",
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 647,
-    "level_before": 1,
+    "xp_before": 3353,
+    "level_before": 2,
     "class": "Fighter",
-    "joined_day": 46,
-    "returned_day": 52,
-    "xp_award": 2706
+    "joined_day": 63,
+    "returned_day": 64,
+    "xp_award": 218
    },
    "faustina": {
     "id": "faustina",
     "name": "Faustina",
     "actor": "faustina",
     "kind": "pc",
-    "player": null,
+    "player": "ingrid",
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 617,
-    "level_before": 1,
+    "xp_before": 3200,
+    "level_before": 2,
     "class": "Priestess",
-    "joined_day": 46,
-    "returned_day": 52,
-    "xp_award": 2583
-   },
-   "hrodric": {
-    "id": "hrodric",
-    "name": "Hrodric",
-    "actor": "hrodric",
-    "kind": "pc",
-    "player": null,
-    "status": "alive",
-    "body": null,
-    "returned": true,
-    "retinue_id": null,
-    "xp_before": 453,
-    "level_before": 1,
-    "class": "Shaman",
-    "joined_day": 46,
-    "returned_day": 52,
-    "xp_award": 2546
+    "joined_day": 63,
+    "returned_day": 64,
+    "xp_award": 208
    },
    "callista": {
     "id": "callista",
     "name": "Callista",
     "actor": "callista",
     "kind": "pc",
-    "player": null,
+    "player": "priya",
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 617,
-    "level_before": 1,
+    "xp_before": 3200,
+    "level_before": 2,
     "class": "Mage",
-    "joined_day": 46,
-    "returned_day": 52,
-    "xp_award": 2583
+    "joined_day": 63,
+    "returned_day": 64,
+    "xp_award": 208
    },
    "corvus": {
     "id": "corvus",
     "name": "Corvus",
     "actor": "corvus",
     "kind": "pc",
+    "player": "tomasz",
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 3200,
+    "level_before": 2,
+    "class": "Explorer",
+    "joined_day": 63,
+    "returned_day": 64,
+    "xp_award": 208
+   },
+   "marius": {
+    "id": "marius",
+    "name": "Marius",
+    "actor": "marius",
+    "kind": "henchman",
     "player": null,
     "status": "alive",
     "body": null,
     "returned": true,
     "retinue_id": null,
-    "xp_before": 617,
+    "xp_before": 78,
+    "level_before": 0,
+    "class": "None (0th level)",
+    "joined_day": 63,
+    "returned_day": 64,
+    "xp_award": 99
+   },
+   "varro": {
+    "id": "varro",
+    "name": "Varro",
+    "actor": "varro",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": true,
+    "retinue_id": null,
+    "xp_before": 0,
     "level_before": 1,
-    "class": "Explorer",
-    "joined_day": 46,
-    "returned_day": 52,
-    "xp_award": 2583
+    "class": "Crusader",
+    "joined_day": 63,
+    "returned_day": 64,
+    "xp_award": 104
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M9",
+    "monster": "Luminous Beetle",
+    "source": "Luminous Beetle (MM p. 61)",
+    "number": 4,
+    "how": "captured",
+    "xp_each": 15
+   }
+  ],
   "awards": [],
   "status": "paid",
   "payout": {
-   "day": 52,
+   "day": 64,
    "at": "Turos Tem",
-   "total": 12300.0,
-   "per_share": 2460.0,
+   "total": 990.0,
+   "per_share": 198.0,
    "awards": {
     "galerius": {
      "share": 1.0,
      "why": null,
-     "base": 2460,
+     "base": 198,
      "pct": 10,
      "pen": 0,
-     "award": 2706,
-     "xp_before": 647,
-     "xp_after": 3353,
+     "award": 218,
+     "xp_before": 3353,
+     "xp_after": 3571,
      "capped": null,
-     "zero": false,
-     "level_up": 2
+     "zero": false
     },
     "faustina": {
      "share": 1.0,
      "why": null,
-     "base": 2460,
+     "base": 198,
      "pct": 5,
      "pen": 0,
-     "award": 2583,
-     "xp_before": 617,
-     "xp_after": 3200,
+     "award": 208,
+     "xp_before": 3200,
+     "xp_after": 3408,
      "capped": null,
-     "zero": false,
-     "level_up": 2
-    },
-    "hrodric": {
-     "share": 1.0,
-     "why": null,
-     "base": 2460,
-     "pct": 5,
-     "pen": 0,
-     "award": 2546,
-     "xp_before": 453,
-     "xp_after": 2999,
-     "capped": [
-      2583,
-      2546
-     ],
-     "zero": false,
-     "level_up": 2
+     "zero": false
     },
     "callista": {
      "share": 1.0,
      "why": null,
-     "base": 2460,
+     "base": 198,
      "pct": 5,
      "pen": 0,
-     "award": 2583,
-     "xp_before": 617,
-     "xp_after": 3200,
+     "award": 208,
+     "xp_before": 3200,
+     "xp_after": 3408,
      "capped": null,
-     "zero": false,
-     "level_up": 2
+     "zero": false
     },
     "corvus": {
      "share": 1.0,
      "why": null,
-     "base": 2460,
+     "base": 198,
      "pct": 5,
      "pen": 0,
-     "award": 2583,
-     "xp_before": 617,
-     "xp_after": 3200,
+     "award": 208,
+     "xp_before": 3200,
+     "xp_after": 3408,
      "capped": null,
-     "zero": false,
-     "level_up": 2
+     "zero": false
+    },
+    "marius": {
+     "share": 0.5,
+     "why": null,
+     "base": 99,
+     "pct": 0,
+     "pen": 0,
+     "award": 99,
+     "xp_before": 78,
+     "xp_after": 177,
+     "capped": null,
+     "zero": true
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 99,
+     "pct": 5,
+     "pen": 0,
+     "award": 104,
+     "xp_before": 0,
+     "xp_after": 104,
+     "capped": null,
+     "zero": false
     }
    }
   },
   "events": [],
-  "bearers": {
-   "donkey1": {
-    "name": "donkey1",
-    "day": 50
-   }
-  },
   "returned": {
-   "day": 52,
+   "day": 64,
    "where": "Turos Tem"
   }
  },
@@ -940,6 +964,188 @@
    "events": [],
    "returned": {
     "day": 35,
+    "where": "Turos Tem"
+   }
+  },
+  {
+   "id": "A4",
+   "name": "Pilgrimage to the Shrine of the White Lady",
+   "start_day": 46,
+   "participants": {
+    "galerius": {
+     "id": "galerius",
+     "name": "Galerius",
+     "actor": "galerius",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 647,
+     "level_before": 1,
+     "class": "Fighter",
+     "joined_day": 46,
+     "returned_day": 52,
+     "xp_award": 2706
+    },
+    "faustina": {
+     "id": "faustina",
+     "name": "Faustina",
+     "actor": "faustina",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 617,
+     "level_before": 1,
+     "class": "Priestess",
+     "joined_day": 46,
+     "returned_day": 52,
+     "xp_award": 2583
+    },
+    "hrodric": {
+     "id": "hrodric",
+     "name": "Hrodric",
+     "actor": "hrodric",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 453,
+     "level_before": 1,
+     "class": "Shaman",
+     "joined_day": 46,
+     "returned_day": 52,
+     "xp_award": 2546
+    },
+    "callista": {
+     "id": "callista",
+     "name": "Callista",
+     "actor": "callista",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 617,
+     "level_before": 1,
+     "class": "Mage",
+     "joined_day": 46,
+     "returned_day": 52,
+     "xp_award": 2583
+    },
+    "corvus": {
+     "id": "corvus",
+     "name": "Corvus",
+     "actor": "corvus",
+     "kind": "pc",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 617,
+     "level_before": 1,
+     "class": "Explorer",
+     "joined_day": 46,
+     "returned_day": 52,
+     "xp_award": 2583
+    }
+   },
+   "monsters": [],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 52,
+    "at": "Turos Tem",
+    "total": 12300.0,
+    "per_share": 2460.0,
+    "awards": {
+     "galerius": {
+      "share": 1.0,
+      "why": null,
+      "base": 2460,
+      "pct": 10,
+      "pen": 0,
+      "award": 2706,
+      "xp_before": 647,
+      "xp_after": 3353,
+      "capped": null,
+      "zero": false,
+      "level_up": 2
+     },
+     "faustina": {
+      "share": 1.0,
+      "why": null,
+      "base": 2460,
+      "pct": 5,
+      "pen": 0,
+      "award": 2583,
+      "xp_before": 617,
+      "xp_after": 3200,
+      "capped": null,
+      "zero": false,
+      "level_up": 2
+     },
+     "hrodric": {
+      "share": 1.0,
+      "why": null,
+      "base": 2460,
+      "pct": 5,
+      "pen": 0,
+      "award": 2546,
+      "xp_before": 453,
+      "xp_after": 2999,
+      "capped": [
+       2583,
+       2546
+      ],
+      "zero": false,
+      "level_up": 2
+     },
+     "callista": {
+      "share": 1.0,
+      "why": null,
+      "base": 2460,
+      "pct": 5,
+      "pen": 0,
+      "award": 2583,
+      "xp_before": 617,
+      "xp_after": 3200,
+      "capped": null,
+      "zero": false,
+      "level_up": 2
+     },
+     "corvus": {
+      "share": 1.0,
+      "why": null,
+      "base": 2460,
+      "pct": 5,
+      "pen": 0,
+      "award": 2583,
+      "xp_before": 617,
+      "xp_after": 3200,
+      "capped": null,
+      "zero": false,
+      "level_up": 2
+     }
+    }
+   },
+   "events": [],
+   "bearers": {
+    "donkey1": {
+     "name": "donkey1",
+     "day": 50
+    }
+   },
+   "returned": {
+    "day": 52,
     "where": "Turos Tem"
    }
   }
@@ -2675,6 +2881,200 @@
     "index": 0
    },
    "divided_day": 52
+  },
+  "L39": {
+   "id": "L39",
+   "adventure": "A5",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "faustina",
+   "status": "divided",
+   "found": {
+    "day": 63,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 300.0,
+    "stone": 0,
+    "name": "reward 300.0gp"
+   },
+   "player": {
+    "desc": "reward of 300.0gp",
+    "value_gp": 300.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 64
+  },
+  "L40": {
+   "id": "L40",
+   "adventure": "A5",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.67,
+   "carrier": "varro",
+   "status": "carried",
+   "found": {
+    "day": 63,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 480.0,
+    "stone": 0.67,
+    "name": "4 silver holy symbols of Ammonar (winged suns), from Chief Thethamun",
+    "merch": null
+   },
+   "player": {
+    "desc": "4 silver holy symbols of Ammonar (winged suns), from Chief Thethamun",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L41": {
+   "id": "L41",
+   "adventure": "A5",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 64,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Beetle, Giant Luminous (adult, adult value)",
+    "qty": 1,
+    "value_gp": 15.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Beetle, Giant Luminous (adult, adult value)",
+    "value_gp": 15.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 15.0,
+    "market": "Turos Tem (Market)",
+    "day": 64,
+    "class": "V",
+    "by": "callista",
+    "identified": true,
+    "used": false
+   },
+   "judge": [
+    "training state luminous-beetle1"
+   ],
+   "divided_day": 64
+  },
+  "L42": {
+   "id": "L42",
+   "adventure": "A5",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 64,
+    "where": "Buried Temple"
+   },
+   "true": {
+    "kind": "goods",
+    "name": "Beetle, Giant Luminous (adult, adult value)",
+    "qty": 1,
+    "value_gp": 15.0,
+    "stone": 0
+   },
+   "player": {
+    "desc": "Beetle, Giant Luminous (adult, adult value)",
+    "value_gp": 15.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 15.0,
+    "market": "Turos Tem (Market)",
+    "day": 64,
+    "class": "V",
+    "by": "callista",
+    "identified": true,
+    "used": false
+   },
+   "judge": [
+    "training state luminous-beetle3"
+   ],
+   "divided_day": 64
+  },
+  "L43": {
+   "id": "L43",
+   "adventure": "A5",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 0.27,
+   "carrier": null,
+   "status": "sold",
+   "found": {
+    "day": 64,
+    "where": ""
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 120.0,
+    "stone": 0.27,
+    "name": "a clutch of 8 luminous beetle eggs (AX1 L1 50)",
+    "merch": null
+   },
+   "player": {
+    "desc": "a clutch of 8 luminous beetle eggs (AX1 L1 50)",
+    "value_gp": 120.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": {
+    "price": 120.0,
+    "market": "Turos Tem (Market)",
+    "day": 64,
+    "class": "V",
+    "by": "callista",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 64
   }
  },
  "hoards": {
@@ -2868,6 +3268,10 @@
   "lupa": {
    "id": "lupa",
    "actor": "lupa"
+  },
+  "varro": {
+   "id": "varro",
+   "actor": "varro"
   }
  }
 }

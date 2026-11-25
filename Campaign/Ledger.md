@@ -32,6 +32,11 @@ tags:
 | 52 | Pilgrimage to the Shrine of the White Lady | jewelry worth 4,000gp (Wrought orichalcum, silver studded with turquoise, moonstone, or opal) | 4,000 | sold |
 | 52 | Pilgrimage to the Shrine of the White Lady | jewelry worth 1,100gp (Alabaster, chryselephantine, ivory, or wrought gold) | 1,100 | sold |
 | 52 | Pilgrimage to the Shrine of the White Lady | 6,000 gold pieces | 6,000 | donkey1 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | reward 300.0gp | 300 | faustina |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | 4 silver holy symbols of Ammonar (winged suns), from Chief Thethamun | 480 | varro |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Beetle, Giant Luminous (adult, adult value) | 15 | sold |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Beetle, Giant Luminous (adult, adult value) | 15 | sold |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | a clutch of 8 luminous beetle eggs (AX1 L1 50) | 120 | sold |
 
 ## Monster XP
 
@@ -45,6 +50,7 @@ tags:
 | S04 | A2 AX1 Buried Temple, delve 3 (the spider-mothers) | Giant Crab Spider | 2 | 29 | 58 |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Ogre | 1 | 140 | 140 |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Stirge (Sakkara) | 6 | 13 | 78 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Luminous Beetle | 4 | 15 | 60 |
 
 ## Shares and XP awarded
 
@@ -80,6 +86,12 @@ tags:
 | 52 | Pilgrimage to the Shrine of the White Lady | Hrodric | 1 | 2,460 | 0 | 0 | +5% (capped) | 2,546 |
 | 52 | Pilgrimage to the Shrine of the White Lady | Callista | 1 | 2,460 | 0 | 0 | +5% | 2,583 |
 | 52 | Pilgrimage to the Shrine of the White Lady | Corvus | 1 | 2,460 | 0 | 0 | +5% | 2,583 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Galerius | 1 | 186 | 12 | 0 | +10% | 218 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Faustina | 1 | 186 | 12 | 0 | +5% | 208 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Callista | 1 | 186 | 12 | 0 | +5% | 208 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Corvus | 1 | 186 | 12 | 0 | +5% | 208 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Marius | 0.5 | 93 | 6 | 0 | +0% | 99 |
+| 64 | The hobgoblins' alliance (Buried Temple, level 1) | Varro | 0.5 | 93 | 6 | 0 | +5% | 104 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -223,3 +235,11 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 59 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
 | 59 | a wine-seller in the forum | a cask of Krysean wine (gift for a tribe's chief) |  |  | 10gp | faustina |
 | 59 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 59-66 |  |  | 2gp 5sp | faustina |
+| 64 |  | treasure share |  | 90gp |  | galerius |
+| 64 |  | treasure share |  | 90gp |  | faustina |
+| 64 |  | treasure share |  | 90gp |  | callista |
+| 64 |  | treasure share |  | 90gp |  | corvus |
+| 64 |  | treasure share |  | 45gp |  | marius |
+| 64 |  | treasure share |  | 45gp |  | varro |
+| 66 | Traveler's Inn | nights of days 59-63 for Hrodric and Severina (private rooms), Petra and Titus (courtyard), meals |  |  | 8gp | faustina |
+| 66 | Traveler's Inn | nights of days 64-65: six private rooms, four henchmen in the courtyard, meals for ten, two donkeys |  |  | 9gp 6sp | faustina |

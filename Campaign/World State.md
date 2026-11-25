@@ -40,10 +40,18 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - 44 Ogre's Cave (day 5): door forced; the ogre demanded meat or gold; the party backed out (Indifferent). **Day 33: the ogre killed** (Slumber resisted; it broke and cowered; Callista's dart, Galerius' coup de grace); its knucklebones harvested (L31); the bag under the furs taken (3,000sp L32, 300gp L33). The secret door NW (to 74) not found.
 - West corridor by Area 4 (day 5): 7 stirges killed (3 slumbered, coup de grace); proboscises harvested (L7). Three Red Eye gnolls (Friendly) and two goblins (Indifferent) met on the way out.
 
+- Area 5, hobgoblins (day 63): Faustina's gift (a cask of wine) and talk turned the guards of 45 Neutral; **Shulgi** (champion) came out, Friendly after Faustina offered healing: told of Abgal and Hepteth's plot to give the wounded chief to the Lady. Faustina's cure raised **Thethamun** to 5 hp; the barracks (58) and the guards (45) stood with him; Abgal, Hepteth and the four warriors of 60 (Abgal's) were cowed (intimidated, 18 against 6) and **fled through 56 toward the stair at 53** (to the Lady, Judge's reading). **Thethamun Friendly**: paid 300gp and the 4 silver Ammonar symbols (L39, L40), free passage, the beetle nest. Hobgoblins now: Thethamun (5/13 hp, half speed to about day 73), Shulgi, 6 of 58, 4 of 45.
+- 50 Fire Beetle Nest (day 63): the 4 luminous beetles slumbered (two castings) and taken alive with a clutch of 8 eggs; two adults escaped on the way home (days 63, 64), two sold with the eggs in Türos Tem (150gp). Room empty.
+- 51 Priest Room (day 63): searched for hiding places by Corvus and Callista: nothing found (the hidden silver key not found).
+- Orcs (day 63): a band of 7 in the hobgoblin wing (Indifferent: they had come to raid the hobgoblins and left); a band of 6 at 19 (Friendly, helpful: told that the Red Eyes guard the long stair under the stepped tower and the Black Fangs below are out of the Lady's favour).
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 63 | the hobgoblin coup averted: Thethamun healed and restored; Abgal, Hepteth and four warriors fled toward the stair to level 2; four luminous beetles and a clutch taken alive (two escaped) | Buried Temple L1 45, 60, 50 | A5 paid out day 64 (990 XP); the hobgoblins allied |
+| 63 | the wagon of Antonius' brigands (Viaspen encounter 6) in heavy rain: Corvus saw through the merchants' act; the company evaded (lost a while, found itself at 21.20); seven elves on the farm tracks (Indifferent) | 20.19, 21.20 | — |
+| 59-62 | to the temple on dry ground (the town week's weather rolled: mud dried day 55); a natural-1 navigation (back to 21.20); giant leeches cowed at night; heat fatigue (day 61) | 22.20-19.19 | — |
 | 52 | payout of A4 (12,300 XP; 12,930gp with the jewelry sold by Severina); Galerius, Faustina, Hrodric, Callista, Corvus to 2nd level | Türos Tem | 13,000gp deposited with Guildmaster Karanos (free if left to day 82); the purse about 1,700gp |
 | 52 | Faustina hired Varro (Crusader 1, a temple priest of Ammonar), 25gp a month, a month's signing | Türos Tem | henchmen: Marius, Petra, Titus (Severina), Varro (Faustina) |
 | 52 | the legate turned Friendly (Faustina's petition): two rumours, the scroll to recruit at the Parade Ground, an introduction to Malyn | Türos Tem | Callista met Malyn (Neutral); copied his formula of Discern Magic (500gp), learned it by day 59 |
@@ -65,6 +73,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
+- Buried Temple (day 63): **Chief Thethamun Friendly** (Faustina: healed and restored him), **Shulgi Friendly**; the hobgoblins of 45 and 58 loyal to the chief; **Abgal and Hepteth** fled (enemies of the party now; gone to the Lady with four warriors); orc bands Indifferent and Friendly (the tribe still counts the party as the Lady's recruits); Antonius' brigands (fooled no one; evaded; their wagon heads for a camp in the Viaspen).
 - Türos Tem (day 52): **Legate Ulrand Valerian Friendly** (Faustina's petition: two rumours, the Parade Ground scroll, an introduction to Malyn); **Malyn the Misshapen Neutral** (Callista, introduced by the legate; Miren's disparagement counted): let her copy one formula for 500gp; Varro (Faustina's henchman) loyal.
 
 - Türos Tem (day 1): Legate Ulrand Valerian Neutral (Faustina); Priestess Genelen Indifferent (Faustina); Malyn's apprentices Indifferent (Callista); Guildmaster Aeropos Karanos **Unfriendly** (Tertia); Quartermaster Koinos Thales **Unfriendly** (Hrodric, over kyrpeges at the inn); Centurion Axios Ilarion Neutral (Faustina).
@@ -85,6 +94,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
+- **Abgal's flight (day 63):** Abgal, Hepteth and four hobgoblins went down the stair at 53 to L2 18 (its door wizard-locked: the Lady opens it or they wait). Judge: the Lady learns that strangers healed the chief and that the hobgoblins have Lawful friends; the Red Eyes' and the orcs' view of the party as 'recruits' may sour once word spreads (decide by a hidden roll when the party next meets them). Thethamun's tribe may ask the party's help against Abgal's return.
+- The orcs meant to raid the hobgoblins for the Lady's reward; they held off on day 63. A weekly 1d6 (1-2) that they try again while the party is away is the Judge's (unscheduled).
 
 - Buried Temple replacements (AX1 p. 35): from day 11 a weekly 1d6 per cleared room while the Lady lives (1-3: 1d6 more of the tribe); the bodiless heads of 43 and Area 4's stirges are wanderers, not rooms. The kobolds of room 1 (one killed) count as a cleared post only if the Judge decides the door was abandoned: it was not (three returned).
 - Henchman searches: month 2 (days 31-60) done for 0th level (Marius, Petra, Titus) and 1st level (Varro, day 52; weeks 2-3 bring no more). Month 3 from day 61. The party has 4 henchmen (its cap while above the delve floor, Rulings R2 S02).
