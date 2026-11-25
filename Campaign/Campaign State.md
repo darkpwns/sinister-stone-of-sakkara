@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 13
+session: 14
 mode: wilderness
 location: 21.20 (camp on the road to the temple)
 adventure: A8 The Black Fangs' war (Buried Temple, level 2) (open since day 94)
