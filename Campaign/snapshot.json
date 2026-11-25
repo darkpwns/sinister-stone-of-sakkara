@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 14,
- "generated": 1795595466,
+ "session": 15,
+ "generated": 1795596486,
  "date": {
   "year": "",
   "season": "summer",
   "day": 132
  },
- "time": "05:40",
+ "time": "09:16",
  "weather": "Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; clear; wind still",
  "place": "Türos Tem",
  "hex": "20.19",
@@ -19,8 +19,11 @@
    "hp": 8,
    "hp_max": 8,
    "conditions": [],
-   "spells_used": [],
-   "encumbrance_st": 5.036
+   "spells_used": [
+    "Slumber",
+    "Slumber"
+   ],
+   "encumbrance_st": 5.703
   },
   {
    "name": "Corvus",
@@ -39,7 +42,10 @@
    "hp": 15,
    "hp_max": 15,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Halt Humanoids",
+    "Halt Humanoids"
+   ],
    "encumbrance_st": 4.512
   },
   {
@@ -61,8 +67,10 @@
    "hp": 17,
    "hp_max": 17,
    "conditions": [],
-   "spells_used": [],
-   "encumbrance_st": 5.703
+   "spells_used": [
+    "Holy Blessing"
+   ],
+   "encumbrance_st": 5.869
   },
   {
    "name": "Severina",
@@ -78,7 +86,7 @@
    "name": "Marius",
    "sheet": "Characters/marius.json",
    "role": "henchman",
-   "hp": 6,
+   "hp": 2,
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
@@ -115,7 +123,7 @@
    "encumbrance_st": 5.209
   }
  ],
- "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
+ "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) 22 turns 6 rounds left",
  "rations": "Galerius: food 7 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 7 d, water 1 d; Corvus: food 7 d, water 1 d; Varro: food 7 d, water 1 d; Hrodric: food 7 d, water 1 d; Quintus: food 7 d, water 1 d; Zaira: food 13 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 12 d, water 1 d",
  "tracker": {},
  "threads": [],
@@ -334,17 +342,17 @@
       "Craftsman's Tools (any)",
       "Iron draconic-eye unholy symbol (copy)",
       "Lantern",
+      "Letter in Ancient Zaharan (the Lady's, unsent)",
+      "Oil, Military (1 pint) ×4",
       "Tinderbox (flint & steel)",
       "Waterskin ×5"
      ],
-     "items": 7,
+     "items": 12,
      "stone": 2
     },
     "sack": {
-     "contents": [
-      "Oil, Common (1 pint)"
-     ],
-     "items": 1,
+     "contents": [],
+     "items": 0,
      "stone": 0
     },
     "worn": {
@@ -360,7 +368,7 @@
     "sp": 14,
     "cp": 22
    },
-   "encumbrance_st": 5.036,
+   "encumbrance_st": 5.703,
    "weapons": [
     {
      "name": "Staff",
@@ -403,6 +411,12 @@
       "a scroll of ward against undead, written in Ancient Zaharan: read aloud by someone who reads that tongue, or bought translated (Socolo)"
      ],
      "stone": 0.167
+    },
+    {
+     "id": "L88",
+     "looks": "the Lady's spellbook (iron-bound, pages of flayed skin)",
+     "qty": 1,
+     "stone": 0.5
     }
    ],
    "movement": {
@@ -555,7 +569,7 @@
      "stone": 2
     },
     "right_hand": {
-     "item": "Short Sword",
+     "item": "Short Bow",
      "items": 1,
      "stone": 0
     },
@@ -565,8 +579,8 @@
      "stone": 0
     },
     "belt": {
-     "item": "Bola, Net, Oil, Military (1 pint)",
-     "items": 2,
+     "item": "Bola, Net, Oil, Military (1 pint), Short Sword",
+     "items": 3,
      "stone": 1
     },
     "head": {
@@ -588,13 +602,12 @@
      "contents": [
       "Iron draconic-eye unholy symbol (copy)",
       "Rope, 50'",
-      "Short Bow",
       "Waterskin ×5",
       "arrow ×13",
       "iron spike ×6",
       "torch ×6"
      ],
-     "items": 15,
+     "items": 14,
      "stone": 1
     },
     "sack": {
@@ -618,6 +631,18 @@
    "encumbrance_st": 7.203,
    "weapons": [
     {
+     "name": "Short Bow",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6+2",
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "held": "right hand, two-handed"
+    },
+    {
      "name": "Short Sword",
      "init_bonus": "",
      "attack_throw": 9,
@@ -627,7 +652,7 @@
       "medium": 0,
       "long": 0
      },
-     "held": "right hand"
+     "held": "belt"
     },
     {
      "name": "Bola",
@@ -652,18 +677,6 @@
       "long": 20
      },
      "held": "belt"
-    },
-    {
-     "name": "Short Bow",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6+2",
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "held": "backpack"
     }
    ],
    "treasure": [],
@@ -1326,7 +1339,16 @@
      "held": "backpack"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L79",
+     "looks": "a great axe of blackened steel, its edge bright",
+     "qty": 1,
+     "apparent_value_gp": 660,
+     "magical": true,
+     "stone": 0.167
+    }
+   ],
    "movement": {
     "exploration": 60,
     "combat": 20,
@@ -1515,9 +1537,10 @@
      "contents": [
       "Iron draconic-eye unholy symbol (copy)",
       "Net",
+      "Unholy symbol (serpent eating its tail)",
       "Waterskin ×5"
      ],
-     "items": 6,
+     "items": 7,
      "stone": 1
     },
     "sack": {
@@ -1538,7 +1561,7 @@
     "sp": 14,
     "cp": 22
    },
-   "encumbrance_st": 5.703,
+   "encumbrance_st": 5.869,
    "weapons": [
     {
      "name": "Spear",
@@ -2344,7 +2367,16 @@
     }
    ],
    "gems": "",
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L81",
+     "looks": "a suit of black plate, finely fitted",
+     "qty": 1,
+     "apparent_value_gp": 710,
+     "magical": true,
+     "stone": 6.0
+    }
+   ],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 14,
@@ -2597,6 +2629,53 @@
       "identity"
      ],
      "stone": 0.167
+    },
+    {
+     "id": "L80",
+     "looks": "a ring of red-gold set with a smoky orange stone",
+     "qty": 1,
+     "apparent_value_gp": 40,
+     "magical": true,
+     "stone": 0.167
+    },
+    {
+     "id": "L82",
+     "looks": "750 silver pieces",
+     "qty": 750,
+     "value_gp": 75.0,
+     "stone": 0.75
+    },
+    {
+     "id": "L83",
+     "looks": "500 gold pieces",
+     "qty": 500,
+     "value_gp": 500.0,
+     "stone": 0.5
+    },
+    {
+     "id": "L84",
+     "looks": "100 platinum pieces",
+     "qty": 100,
+     "value_gp": 500.0,
+     "stone": 0.1
+    },
+    {
+     "id": "L85",
+     "looks": "a black sapphire",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L86",
+     "looks": "a black sapphire",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L87",
+     "looks": "a black diamond",
+     "qty": 1,
+     "stone": 0.001
     }
    ],
    "movement": {
@@ -3322,7 +3401,31 @@
  ],
  "open_rolls": [
   {
-   "label": "init Ur-Shet (Sakkara)",
+   "label": "damage to scaly crested man 4",
+   "spec": "1d6+2",
+   "rolls": [
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "attack Ulmash (Sakkara) vs scaly crested man 3",
+   "spec": "1d20",
+   "rolls": [
+    20
+   ],
+   "total": 20
+  },
+  {
+   "label": "damage to scaly crested man 3",
+   "spec": "1d6+2",
+   "rolls": [
+    4
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Galerius",
    "spec": "1d6",
    "rolls": [
     6
@@ -3330,183 +3433,47 @@
    "total": 6
   },
   {
-   "label": "init Ulmash (Sakkara)",
+   "label": "init Faustina",
    "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Hrodric vs a walking corpse {n} 1",
-   "spec": "1d20",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "attack Ur-Shet (Sakkara) vs a walking corpse {n} 1",
-   "spec": "1d20",
-   "rolls": [
-    19
-   ],
-   "total": 19
-  },
-  {
-   "label": "damage to a walking corpse {n} 1",
-   "spec": "1d6+2",
-   "rolls": [
-    5
-   ],
-   "total": 7
-  },
-  {
-   "label": "attack Hrodric's eagle vs a walking corpse {n} 5",
-   "spec": "1d20",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "attack Gnoll vs a walking corpse {n} 1",
-   "spec": "1d20",
-   "rolls": [
-    17
-   ],
-   "total": 17
-  },
-  {
-   "label": "damage to a walking corpse {n} 1",
-   "spec": "1d6+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Gnoll vs a walking corpse {n} 4",
-   "spec": "1d20",
    "rolls": [
     1
    ],
    "total": 1
   },
   {
-   "label": "attack Gnoll vs a walking corpse {n} 1",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to a walking corpse {n} 1",
-   "spec": "1d6+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Gnoll vs a walking corpse {n} 2",
-   "spec": "1d20",
-   "rolls": [
-    15
-   ],
-   "total": 15
-  },
-  {
-   "label": "damage to a walking corpse {n} 2",
-   "spec": "1d6+1",
-   "rolls": [
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "attack Ulmash (Sakkara) vs a walking corpse {n} 3",
-   "spec": "1d20",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "attack Gnoll vs a walking corpse {n} 3",
-   "spec": "1d20",
-   "rolls": [
-    13
-   ],
-   "total": 13
-  },
-  {
-   "label": "damage to a walking corpse {n} 3",
-   "spec": "1d6+1",
-   "rolls": [
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "attack Gnoll vs a walking corpse {n} 3",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to a walking corpse {n} 3",
-   "spec": "1d6+1",
-   "rolls": [
-    4
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
    "label": "init Callista",
    "spec": "1d6",
    "rolls": [
-    2
+    3
    ],
-   "total": 2
+   "total": 3
   },
   {
    "label": "init Corvus",
    "spec": "1d6",
    "rolls": [
-    6
+    1
    ],
-   "total": 6
+   "total": 1
   },
   {
    "label": "init Varro",
    "spec": "1d6",
    "rolls": [
-    5
+    3
    ],
-   "total": 5
+   "total": 3
   },
   {
    "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Hrodric's eagle",
    "spec": "1d6",
    "rolls": [
     4
@@ -3517,68 +3484,12 @@
    "label": "init Quintus",
    "spec": "1d6",
    "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Zaira",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Severina",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Marius",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Gnoll",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Gnoll",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Gnoll",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Gnoll",
-   "spec": "1d6",
-   "rolls": [
     4
    ],
    "total": 4
   },
   {
-   "label": "init Gnoll",
+   "label": "init Zaira",
    "spec": "1d6",
    "rolls": [
     6
@@ -3586,7 +3497,23 @@
    "total": 6
   },
   {
-   "label": "init Gnoll",
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Ulmash (Sakkara)",
    "spec": "1d6",
    "rolls": [
     1
@@ -3597,100 +3524,149 @@
    "label": "init Ur-Shet (Sakkara)",
    "spec": "1d6",
    "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "attack Marius vs scaly crested man 1",
+   "spec": "1d20+3",
+   "rolls": [
+    11
+   ],
+   "total": 14
+  },
+  {
+   "label": "damage to scaly crested man 1",
+   "spec": "2d4",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Hrodric vs scaly crested man 6",
+   "spec": "1d20+3",
+   "rolls": [
+    3
+   ],
+   "total": 6
+  },
+  {
+   "label": "attack Ur-Shet (Sakkara) vs scaly crested man 1",
+   "spec": "1d20",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Ulmash (Sakkara) vs scaly crested man 3",
+   "spec": "1d20",
+   "rolls": [
+    8
+   ],
+   "total": 8
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
     1
    ],
    "total": 1
+  },
+  {
+   "label": "init Hrodric's eagle",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Zaira",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
   },
   {
    "label": "init Ulmash (Sakkara)",
    "spec": "1d6",
    "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "attack Zaira vs a walking corpse {n} 4",
-   "spec": "1d20+1",
-   "rolls": [
-    12
-   ],
-   "total": 13
-  },
-  {
-   "label": "damage to a walking corpse {n} 4",
-   "spec": "1d6+2",
-   "rolls": [
-    2
-   ],
-   "total": 4
-  },
-  {
-   "label": "attack Gnoll vs a walking corpse {n} 4",
-   "spec": "1d20",
-   "rolls": [
-    14
-   ],
-   "total": 14
-  },
-  {
-   "label": "damage to a walking corpse {n} 4",
-   "spec": "1d6+1",
-   "rolls": [
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "attack Ulmash (Sakkara) vs a walking corpse {n} 5",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "damage to a walking corpse {n} 5",
-   "spec": "1d6+2",
-   "rolls": [
-    4
-   ],
-   "total": 6
-  },
-  {
-   "label": "attack Hrodric vs a walking corpse {n} 5",
-   "spec": "1d20",
-   "rolls": [
     2
    ],
    "total": 2
   },
   {
-   "label": "attack Gnoll vs a walking corpse {n} 5",
-   "spec": "1d20",
-   "rolls": [
-    18
-   ],
-   "total": 18
-  },
-  {
-   "label": "damage to a walking corpse {n} 5",
-   "spec": "1d6+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "Mortal Wounds Hrodric's eagle d20",
-   "spec": "1d20",
-   "rolls": [
-    14
-   ],
-   "total": 14
-  },
-  {
-   "label": "Mortal Wounds Hrodric's eagle d6",
+   "label": "init Ur-Shet (Sakkara)",
    "spec": "1d6",
    "rolls": [
     1
@@ -3698,28 +3674,132 @@
    "total": 1
   },
   {
-   "label": "Marius sneaking",
-   "spec": "1d20",
+   "label": "attack Marius vs scaly crested man 1",
+   "spec": "1d20+3",
    "rolls": [
     4
    ],
-   "total": 4
+   "total": 7
   },
   {
-   "label": "Marius hiding",
+   "label": "attack Hrodric vs scaly crested man 6",
+   "spec": "1d20+1",
+   "rolls": [
+    11
+   ],
+   "total": 12
+  },
+  {
+   "label": "attack Ulmash (Sakkara) vs scaly crested man 3",
    "spec": "1d20",
    "rolls": [
-    4
+    2
    ],
-   "total": 4
+   "total": 2
   },
   {
-   "label": "Faustina's Cure Light Injury on the eagle",
-   "spec": "1d6+1",
+   "label": "attack Ur-Shet (Sakkara) vs scaly crested man 1",
+   "spec": "1d20",
    "rolls": [
     3
    ],
+   "total": 3
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
    "total": 4
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Hrodric's eagle",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Zaira",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Ur-Shet (Sakkara)",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
   }
  ],
  "rumours_heard": [

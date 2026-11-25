@@ -64,6 +64,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Days 126-131 (S14): fifteen iron copies of the draconic-eye symbol (the smith talked; Genelen, told by Faustina, Friendly and helpful: two vials of holy water); A11 out day 128 (a natural 1: 21.21); day 131 below: the Black Fangs join against the Lady; a mutated Red Eye survivor caught and killed by 9; five wandering zombies destroyed in 9 (the eagle felled, saved); the Lady heard and gathered her dead into 38; Marius' scouting failed (seen); the Black Fangs' 'captives for the altar' ruse failed (Unfriendly); the company withdrew to 15.
 
 ### [[Level 2 - Catacombs]] (entered day 87)
+- **38 Inner Fane (day 132): the Lady (Zakiti) slain** (held by Faustina's Halt Humanoids after Hrodric's parley; Hrodric's coup de grace). Her dead had gone back to their posts at 08:40 (23, 34, 35 hold their guards again: masterless now, still attacking anyone without the sign). Two prisoners freed from the altar (Teukros, Ianthe). **The Stone was wrenched off the altar by troglodytes** (eight came at the noise of the chest; three slain; five fled with it) and carried below by their crack beyond the cave-in past 31 (Judge only: Rulings R2 S15). Ulmash, gripped by the Stone, chased them and lost them; he comes back after 2 turns, sullen. The fane is not cleansed (no Stone to destroy).
+- **39 the Lady's chamber:** chest hacked open (the needle still live in the broken lock); coins halved with the Black Fangs (750sp, 500gp, 100pp to Ur-Shet); the gems, the spellbook and the letter to the company. Couch, table, stool left.
 - 1 Catacomb Entrance: the three Red Eye guards of 10 came out (they know the company as the hobgoblins' Lawful friends): Neutral for a week's bribe (10gp, to day 94); one ran to tell Hepsis (15), who waits.
 - Hewn room through the pillars, 8: the Black Fang guards and Ulmash **Friendly** (seven days of iron rations as a gift).
 - 9 Black Fang cavern: **Ur-Shet Friendly** (partners against the ogres, then the Red Eyes); the seep at the back (tainted) purified by Faustina for the company's skins. The chest in the cave's southern tip not found.
@@ -75,6 +77,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 132 | the Lady slain in her Inner Fane; the Stone carried off below by troglodytes; two prisoners freed | Catacombs L2 38-39 | A11: 660 XP (the Lady) + 60 (troglodytes); the Lady's arms, ring and chest taken |
 | 94 | a brigand host (about 37, eight gangs) on the road in 22.20, two miles from Türos Tem; the company slipped away unseen | 22.20 | not reported to the fort |
 | 87 | the two ogres of L2 7 killed by the Black Fangs with the company; their den held | Catacombs L2 7 | the Black Fangs Friendly; Ur-Shet's 600gp; the den a safe rest |
 | 87 | a truce bought between the orcs and the hobgoblins (Apsa, 100gp; to day 120) | Buried Temple L1 27 | the hobgoblins keep the wing; the company's toll waived |

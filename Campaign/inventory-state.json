@@ -291,6 +291,24 @@
    "base": "Holy Symbol",
    "note": null,
    "judge": true
+  },
+  "unholy symbol (serpent eating its tail)": {
+   "name": "Unholy symbol (serpent eating its tail)",
+   "items_each": 1,
+   "stone_each": "0",
+   "value_cp": 2500,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "letter in ancient zaharan (the lady's, unsent)": {
+   "name": "Letter in Ancient Zaharan (the Lady's, unsent)",
+   "items_each": 1,
+   "stone_each": "0",
+   "value_cp": 0,
+   "base": null,
+   "note": null,
+   "judge": true
   }
  },
  "log": [
@@ -9665,6 +9683,128 @@
    "why": "given away",
    "cmd": "inv remove",
    "n": 777
+  },
+  {
+   "op": "add",
+   "cause": "taken from the Lady's body (L2 38, day 132)",
+   "day": 132,
+   "time": "day 132 08:52",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "oil, military (1 pint)",
+     "slot": "backpack",
+     "qty": 4
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 778
+  },
+  {
+   "op": "add",
+   "cause": "the Lady's unholy symbol (L2 38, day 132)",
+   "day": 132,
+   "time": "day 132 08:52",
+   "deltas": [
+    {
+     "who": "hrodric",
+     "item": "unholy symbol (serpent eating its tail)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 779
+  },
+  {
+   "op": "light",
+   "cause": "lantern12 lit (lantern)",
+   "day": 132,
+   "time": "day 132 09:02",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "oil, common (1 pint)",
+     "slot": "sack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern12",
+   "cmd": "light on",
+   "n": 780
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 132,
+   "time": "day 132 09:12",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "#w14",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "corvus",
+     "item": "#w14",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 781
+  },
+  {
+   "op": "wield",
+   "cause": "Short Bow taken in hand",
+   "day": 132,
+   "time": "day 132 09:12",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "#w18",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "corvus",
+     "item": "#w18",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w18",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 782
+  },
+  {
+   "op": "add",
+   "cause": "found among the coins in the Lady's chest (L2 39, day 132)",
+   "day": 132,
+   "time": "day 132 09:16",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "letter in ancient zaharan (the lady's, unsent)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 783
   }
  ],
  "holdings": {
@@ -9730,7 +9870,8 @@
    "backpack": {
     "#w10": 1,
     "waterskin": 5,
-    "iron draconic-eye unholy symbol (copy)": 1
+    "iron draconic-eye unholy symbol (copy)": 1,
+    "unholy symbol (serpent eating its tail)": 1
    }
   },
   "callista": {
@@ -9750,10 +9891,9 @@
     "lantern": 1,
     "waterskin": 5,
     "tinderbox (flint & steel)": 1,
-    "iron draconic-eye unholy symbol (copy)": 1
-   },
-   "sack": {
-    "oil, common (1 pint)": 1
+    "iron draconic-eye unholy symbol (copy)": 1,
+    "oil, military (1 pint)": 4,
+    "letter in ancient zaharan (the lady's, unsent)": 1
    }
   },
   "corvus": {
@@ -9766,7 +9906,8 @@
    "belt": {
     "#w15": 1,
     "#w16": 1,
-    "oil, military (1 pint)": 1
+    "oil, military (1 pint)": 1,
+    "#w14": 1
    },
    "backpack": {
     "rope, 50'": 1,
@@ -9774,11 +9915,10 @@
     "iron spike": 6,
     "torch": 6,
     "arrow": 13,
-    "#w18": 1,
     "iron draconic-eye unholy symbol (copy)": 1
    },
    "right_hand": {
-    "#w14": 1
+    "#w18": 1
    }
   },
   "donkey1": {

@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 132,
-  "round_of_day": 340,
-  "total_rounds": 188500
+  "round_of_day": 556,
+  "total_rounds": 188716
  },
  "party": {
   "galerius": {
@@ -13,7 +13,7 @@
    "perceived": "Galerius",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.0
+   "treasure_stone": 0.16666666666666666
   },
   "faustina": {
    "id": "faustina",
@@ -31,7 +31,7 @@
    "perceived": "Callista",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.16666666666666666
+   "treasure_stone": 0.6666666666666666
   },
   "corvus": {
    "id": "corvus",
@@ -67,7 +67,7 @@
    "perceived": "Quintus",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.0
+   "treasure_stone": 6.0
   },
   "zaira": {
    "id": "zaira",
@@ -85,7 +85,7 @@
    "perceived": "Severina",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.3333333333333333
+   "treasure_stone": 1.855
   },
   "marius": {
    "id": "marius",
@@ -104,7 +104,7 @@
    "carrier": "callista",
    "lit": false,
    "closed": false,
-   "rounds_left": 48,
+   "rounds_left": 8,
    "tallow": false
   },
   {
@@ -214,11 +214,29 @@
    "closed": false,
    "rounds_left": 100,
    "tallow": false
+  },
+  {
+   "id": "lantern12",
+   "kind": "lantern",
+   "carrier": "callista",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 226,
+   "tallow": false
   }
  ],
- "timers": [],
+ "timers": [
+  {
+   "id": "t2",
+   "label": "Holy Blessing (Hrodric)",
+   "rounds_left": 34,
+   "hidden": false,
+   "source": null,
+   "started": "day 132 08:50"
+  }
+ ],
  "rest": {
-  "rounds_since_rest": 0,
+  "rounds_since_rest": 46,
   "rest_rounds": 0,
   "winded": []
  },
@@ -226,96 +244,27 @@
   "site": "Catacombs",
   "kind": "dungeon",
   "level": 2,
-  "room": "15",
+  "room": "39",
   "wandering": {
-   "none": true
+   "none": false,
+   "die": "1d6",
+   "every": 2,
+   "target": 6
   },
   "table": "Adventure/Tables/level2-wandering.yaml",
   "source": {
-   "wandering": "area setting: 'none'"
+   "wandering": "site setting: '1d6 every 2 turns, 6+'"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 131 08:00",
-   "roll": 3,
+   "at": "day 132 09:12",
+   "roll": 6,
    "target": 6,
-   "encounter": false
+   "encounter": true
   },
   "history": [
-   {
-    "at": "day 122 07:20",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 07:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 08:00",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 08:20",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 08:40",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 09:00",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 09:30",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 122 09:40",
-    "roll": 4,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 122 09:50",
-    "roll": 2,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 122 10:00",
-    "roll": 2,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 122 10:10",
-    "roll": 4,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 130 14:20",
-    "roll": 4,
-    "target": 5,
-    "encounter": false
-   },
    {
     "at": "day 130 14:30",
     "roll": 1,
@@ -363,13 +312,85 @@
     "roll": 3,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 132 06:10",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 06:10",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 06:30",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 06:50",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 07:10",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 07:30",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 07:50",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 08:10",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 08:30",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 08:50",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 09:10",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 132 09:12",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
    }
   ],
-  "turn_start_done": 187210,
+  "turn_start_done": 188710,
   "pending_at": null
  },
  "turn_actions": {
-  "turn": 18850,
+  "turn": 18871,
   "listened": [],
   "actions": []
  },
@@ -410,8 +431,8 @@
    "rest_rounds": 1330
   },
   "132": {
-   "delve_rounds": 0,
-   "rest_rounds": 340
+   "delve_rounds": 86,
+   "rest_rounds": 470
   }
  },
  "events": [
@@ -1317,10 +1338,10 @@
   }
  ],
  "next_ids": {
-  "enc": 162,
-  "lantern": 11,
+  "enc": 165,
+  "lantern": 12,
   "torch": 20,
-  "t": 1
+  "t": 2
  },
  "travel": {
   "hex_source": "/home/user/sinister-stone-of-sakkara/Campaign/campaign.yaml",
@@ -2196,7 +2217,7 @@
     "pack": null
    },
    "marius": {
-    "hp": 6,
+    "hp": 2,
     "hp_max": 6,
     "con": 13,
     "con_mod": 1,
@@ -4355,6 +4376,168 @@
      "in_settlement": true,
      "slept_restful": 8
     }
+   },
+   "132": {
+    "galerius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "faustina": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "callista": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "corvus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "varro": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "hrodric": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "quintus": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "zaira": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "severina": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    },
+    "marius": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": null,
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": false,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 0.0,
+     "cared_by": null,
+     "hunted": false
+    }
    }
   },
   "trail": [
@@ -4648,30 +4831,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc143",
-   "at": "day 110 08:14",
-   "monster_name": "Gnoll",
-   "number": 2,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc144",
-   "at": "day 110 10:30",
-   "monster_name": "Brigand",
-   "number": 5,
-   "reaction": "friendly",
-   "status": "reaction"
-  },
-  {
-   "id": "enc145",
-   "at": "day 110 17:59",
-   "monster_name": "Large Herd Animal",
-   "number": 28,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
    "id": "enc146",
    "at": "day 112 10:26",
    "monster_name": "Medium Raptor",
@@ -4806,6 +4965,30 @@
    "number": 1,
    "reaction": "unfriendly",
    "status": "reaction"
+  },
+  {
+   "id": "enc163",
+   "at": "day 132 06:10",
+   "monster_name": "Zakiti (Sakkara)",
+   "number": 1,
+   "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc164",
+   "at": "day 132 08:50",
+   "monster_name": "Zakiti (Sakkara)",
+   "number": 1,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc165",
+   "at": "day 132 09:12",
+   "monster_name": "Troglodyte",
+   "number": 8,
+   "reaction": "neutral",
+   "status": "fighting"
   }
  ],
  "staying": {

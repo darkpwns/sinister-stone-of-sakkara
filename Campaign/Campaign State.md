@@ -2,16 +2,16 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 14
-mode: wilderness
-location: 21.20 (camp on the road to the temple)
-adventure: A8 The Black Fangs' war (Buried Temple, level 2) (open since day 94)
+session: 15
+mode: dungeon
+location: '[[Level 2 - Catacombs]] 38-39 (the Inner Fane)'
+adventure: A11 The Lady Below (Buried Temple, level 2) (open)
 public:
   date:
     year: ''
     season: summer
     day: 132
-  time: 05:40
+  time: 09:16
   weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; clear; wind still
   place: Türos Tem
   hex: '20.19'
@@ -22,8 +22,10 @@ public:
     hp: 8
     hp_max: 8
     conditions: []
-    spells_used: []
-    encumbrance_st: 5.036
+    spells_used:
+    - Slumber
+    - Slumber
+    encumbrance_st: 5.703
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -38,7 +40,9 @@ public:
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used: []
+    spells_used:
+    - Halt Humanoids
+    - Halt Humanoids
     encumbrance_st: 4.512
   - name: Galerius
     sheet: Characters/galerius.json
@@ -55,8 +59,9 @@ public:
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used: []
-    encumbrance_st: 5.703
+    spells_used:
+    - Holy Blessing
+    encumbrance_st: 5.869
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -68,7 +73,7 @@ public:
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
-    hp: 6
+    hp: 2
     hp_max: 6
     conditions: []
     spells_used: []
@@ -97,7 +102,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5.209
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) 22 turns 6 rounds left
   rations: 'Galerius: food 7 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 7 d, water 1 d; Corvus: food 7 d, water 1 d; Varro: food 7 d, water 1 d; Hrodric: food 7 d, water 1 d; Quintus: food 7 d, water 1 d; Zaira: food 13 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 12 d, water 1 d'
   tracker: {}
   threads: []
