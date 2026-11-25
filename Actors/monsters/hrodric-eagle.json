@@ -3,8 +3,8 @@
 "id": "hrodric-eagle",
 "type": "monster",
 "name": "Hrodric's eagle",
-"state": {"hp_max":8,"hp":8},
-"changes": [{"cause":"made: owner level 3 (RR Shaman, Totem Animal)","hd":"2","hp_max":8,"ac":3}],
+"state": {"hp_max":8,"hp":1,"conditions":["bed rest 1 week (Mortal Wounds, day 97)","minor scarring: fang marks on the neck","bilious fever (infected day 97 by a rat bite; symptoms from day 99 for 4 weeks; survivable; Judge record, the engine has no disease for companions)"]},
+"changes": [{"cause":"made: owner level 3 (RR Shaman, Totem Animal)","hd":"2","hp_max":8,"ac":3},{"field":"state.conditions","from":null,"to":["bed rest 1 week (Mortal Wounds, day 97)","minor scarring: fang marks on the neck","bilious fever (infected day 97 by a rat bite; symptoms from day 99 for 4 weeks; survivable; Judge record, the engine has no disease for companions)"],"cause":"rat fight in L1 27, day 97"}],
 "base": "medium-raptor",
 "overrides": {"hd":{"text":"2","dice":2,"half":false,"bonus":0,"stars":0,"attack_hd":2},"ac":3,"save_as":["F",1],"attacks":[{"count":2,"names":["talons"],"raw":"2 (talons 12+)","throw":9}],"damage":[{"pieces":[{"dice":"1d4+1","extraordinary":false,"raw":"1d4+1","types":["slashing"]},{"dice":"1d4","extraordinary":false,"raw":"1d4","types":["slashing"]}],"raw":"1d4+1 / 1d4"}]},
 "companion": {"owner":"hrodric","rule":"shaman-totem","totem":"Eagle","damage":"1d4+1/1d4","level":3,"status":"alive"}

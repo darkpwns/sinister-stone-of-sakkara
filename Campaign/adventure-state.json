@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 8,
-  "L": 47,
+  "L": 60,
   "H": 1,
-  "M": 11
+  "M": 13
  },
  "adventure": {
   "id": "A8",
@@ -162,11 +162,54 @@
     "joined_day": 94
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M12",
+    "monster": "Idimmu (Sakkara)",
+    "source": "Idimmu (Sakkara) (MM p. 52)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 820,
+    "fight": {
+     "ids": [
+      "idimmu-sakkara1"
+     ],
+     "text": "the fight with Idimmu (Sakkara), encounter enc128, round 2"
+    }
+   },
+   {
+    "id": "M13",
+    "monster": "Giant Rat",
+    "source": "Giant Rat (MM p. 325)",
+    "number": 9,
+    "how": "killed",
+    "xp_each": 5,
+    "fight": {
+     "ids": [
+      "giant-rat1",
+      "giant-rat2",
+      "giant-rat3",
+      "giant-rat4",
+      "giant-rat5",
+      "giant-rat6",
+      "giant-rat7",
+      "giant-rat8",
+      "giant-rat10"
+     ],
+     "text": "the fight with 10 Giant Rat, encounter enc130, round 15"
+    }
+   }
+  ],
   "awards": [],
   "status": "open",
   "payout": null,
-  "events": []
+  "events": [],
+  "bearers": {
+   "donkey1": {
+    "name": "donkey1",
+    "day": 97
+   }
+  }
  },
  "closed": [
   {
@@ -3912,6 +3955,469 @@
      "day": 89
     }
    ]
+  },
+  "L48": {
+   "id": "L48",
+   "adventure": "A8",
+   "kind": "coins",
+   "qty": 2500,
+   "stone": 2.5,
+   "carrier": "quintus",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 2500,
+    "value_gp": 2500.0,
+    "stone": 2.5,
+    "name": "2,500 gold pieces"
+   },
+   "player": {
+    "desc": "2,500 gold pieces",
+    "value_gp": 2500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L49": {
+   "id": "L49",
+   "adventure": "A8",
+   "kind": "coins",
+   "qty": 1000,
+   "stone": 1.0,
+   "carrier": "zaira",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 1000,
+    "value_gp": 100.0,
+    "stone": 1.0,
+    "name": "1,000 silver pieces"
+   },
+   "player": {
+    "desc": "1,000 silver pieces",
+    "value_gp": 100.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L50": {
+   "id": "L50",
+   "adventure": "A8",
+   "kind": "coins",
+   "qty": 2500,
+   "stone": 2.5,
+   "carrier": "faustina",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 2500,
+    "value_gp": 2500.0,
+    "stone": 2.5,
+    "name": "2,500 gold pieces"
+   },
+   "player": {
+    "desc": "2,500 gold pieces",
+    "value_gp": 2500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "no_xp": "a purchase or gift (recover --no-xp): no adventure's treasure"
+  },
+  "L51": {
+   "id": "L51",
+   "adventure": "A8",
+   "kind": "goods",
+   "qty": 53,
+   "stone": 10.6,
+   "carrier": "donkey1",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 53,
+    "value_gp": 106.0,
+    "stone": 10.6,
+    "name": "mountain gazelle horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "mountain gazelle horns",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L52": {
+   "id": "L52",
+   "adventure": "A8",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 4.0,
+   "carrier": "severina",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 400.0,
+    "stone": 4.0,
+    "name": "roll of fine Somirean silk",
+    "merch": null
+   },
+   "player": {
+    "desc": "roll of fine Somirean silk",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L53": {
+   "id": "L53",
+   "adventure": "A8",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 1.0,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 1.0,
+    "name": "silver fox fur cape",
+    "merch": null
+   },
+   "player": {
+    "desc": "silver fox fur cape",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L54": {
+   "id": "L54",
+   "adventure": "A8",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "qty": 1,
+    "value_gp": 1500.0,
+    "stone": 0.16666666666666666,
+    "name": "jewelry worth 1500.0gp"
+   },
+   "player": {
+    "desc": "a carved jade wyvern",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L55": {
+   "id": "L55",
+   "adventure": "A8",
+   "kind": "jewelry",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "jewelry",
+    "qty": 1,
+    "value_gp": 3000.0,
+    "stone": 0.16666666666666666,
+    "name": "jewelry worth 3000.0gp"
+   },
+   "player": {
+    "desc": "a necklace of blood-red pearls",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L56": {
+   "id": "L56",
+   "adventure": "A8",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "Potion of Alacrity",
+    "note": "ACKS II Rules/Magic Items/Potions/Potion of Alacrity.md",
+    "category": "Potion",
+    "base_gp": 3000,
+    "apparent_gp": 25,
+    "base_cost_text": "3,000gp: Single charge 6th level effect",
+    "apparent_text": "25gp",
+    "rarity": "uncommon",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a potion (tan, mocha-scented)",
+    "value_gp": null,
+    "apparent_gp": 25,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L57": {
+   "id": "L57",
+   "adventure": "A8",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "AX1 Philter of Love",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/AX1 Philter of Love.md",
+    "category": "Potion",
+    "base_gp": 500,
+    "apparent_gp": 500,
+    "base_cost_text": "500gp",
+    "apparent_text": "500gp",
+    "rarity": "common",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a potion (pale amber, jasmine and vanilla)",
+    "value_gp": null,
+    "apparent_gp": 500,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L58": {
+   "id": "L58",
+   "adventure": "A8",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "AX1 Scroll of Growth of Animals",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/AX1 Scroll of Growth of Animals.md",
+    "category": "Scroll",
+    "base_gp": 750,
+    "apparent_gp": 750,
+    "base_cost_text": "750gp",
+    "apparent_text": "750gp",
+    "rarity": "common",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a scroll in Elvish",
+    "value_gp": null,
+    "apparent_gp": 750,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L59": {
+   "id": "L59",
+   "adventure": "A8",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "callista",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, the wyrm's vault (the bronze-and-wood chest)"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "AX1 Scroll of Ward Against Undead",
+    "note": "/home/user/sinister-stone-of-sakkara/Adventure/Items/AX1 Scroll of Ward Against Undead.md",
+    "category": "Scroll",
+    "base_gp": 1000,
+    "apparent_gp": 1000,
+    "base_cost_text": "1000gp",
+    "apparent_text": "1000gp",
+    "rarity": "common",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a scroll in Ancient Zaharan",
+    "value_gp": null,
+    "apparent_gp": 1000,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L60": {
+   "id": "L60",
+   "adventure": "A8",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "galerius",
+   "status": "carried",
+   "found": {
+    "day": 97,
+    "where": "L1 75, atop the wyrm's hoard"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "name": "Sword +1, Death Drinker",
+    "note": "ACKS II Rules/Magic Items/Swords/Sword +1, Death Drinker.md",
+    "category": "Sword",
+    "base_gp": 11000,
+    "apparent_gp": 660,
+    "base_cost_text": "11,000gp: Sword +1 5,000gp; 3/day not more than 1/hour (periodic with cooldown) Necromantic Potence 2nd level effect 12,000gp; 3/day drawback 1st level effect -6,000gp",
+    "apparent_text": "660gp",
+    "rarity": "rare",
+    "obviously_magical": false,
+    "magical": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a black backward-curved sword inscribed in Ancient Zaharan",
+    "value_gp": null,
+    "apparent_gp": 660,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
   }
  },
  "hoards": {
@@ -4125,5 +4631,8 @@
    "how": "Naturalism"
   }
  },
- "component_fails": []
+ "component_fails": [
+  "callista|Idimmu (Sakkara)|naturalism|2/1",
+  "callista|Idimmu (Sakkara)|alchemy|2/1"
+ ]
 }

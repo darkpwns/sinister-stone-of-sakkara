@@ -47,7 +47,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by callista",
    "owner": "callista",
@@ -67,13 +67,14 @@
      "stabled": "Buried Temple L1 27 (Marius and the toll orcs)",
      "day": 97,
      "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
+    },
+    {
+     "unstabled": "Buried Temple L1 27 (Marius and the toll orcs)",
+     "day": 97,
+     "nights": 0,
+     "cause": "the company back from below (day 97)"
     }
-   ],
-   "stabled": {
-    "at": "Buried Temple L1 27 (Marius and the toll orcs)",
-    "day": 97,
-    "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
-   }
+   ]
   },
   "ground:buried-temple": {
    "kind": "cache",
@@ -109,7 +110,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by faustina",
    "owner": "faustina",
@@ -129,13 +130,14 @@
      "stabled": "Buried Temple L1 27 (Marius and the toll orcs)",
      "day": 97,
      "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
+    },
+    {
+     "unstabled": "Buried Temple L1 27 (Marius and the toll orcs)",
+     "day": 97,
+     "nights": 0,
+     "cause": "the company back from below (day 97)"
     }
-   ],
-   "stabled": {
-    "at": "Buried Temple L1 27 (Marius and the toll orcs)",
-    "day": 97,
-    "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
-   }
+   ]
   },
   "marius": {
    "kind": "henchman",
@@ -192,6 +194,15 @@
    "items_each": 0,
    "stone_each": "2",
    "value_cp": 1000,
+   "base": null,
+   "note": null,
+   "judge": true
+  },
+  "gold-painted key": {
+   "name": "Gold-painted key",
+   "items_each": 1,
+   "stone_each": "0",
+   "value_cp": 0,
    "base": null,
    "note": null,
    "judge": true
@@ -9868,6 +9879,182 @@
    "price_cp": 1000,
    "cmd": "inv pay",
    "n": 555
+  },
+  {
+   "op": "move",
+   "cause": "slung to draw the sword (day 97)",
+   "day": 97,
+   "time": "day 97 15:37",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "#w13",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "#w13",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 556
+  },
+  {
+   "op": "wield",
+   "cause": "Short Sword taken in hand",
+   "day": 97,
+   "time": "day 97 15:37",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "#w17",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "severina",
+     "item": "#w17",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w17",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 557
+  },
+  {
+   "op": "add",
+   "cause": "found in Idimmu's hoard (L1 75, day 97)",
+   "day": 97,
+   "time": "day 97 15:39",
+   "deltas": [
+    {
+     "who": "severina",
+     "item": "gold-painted key",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv add",
+   "n": 558
+  },
+  {
+   "op": "give",
+   "cause": "jars for the wyrm's components (day 97)",
+   "day": 97,
+   "time": "day 97 16:29",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "metamphora (60gp)",
+     "slot": "pack",
+     "qty": -2
+    },
+    {
+     "who": "hrodric",
+     "item": "metamphora (60gp)",
+     "slot": "sack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 559
+  },
+  {
+   "op": "give",
+   "cause": "jars for the wyrm's components (day 97)",
+   "day": 97,
+   "time": "day 97 16:29",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "metamphora (60gp)",
+     "slot": "pack",
+     "qty": -2
+    },
+    {
+     "who": "zaira",
+     "item": "metamphora (60gp)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 560
+  },
+  {
+   "op": "give",
+   "cause": "jars for the wyrm's components (day 97)",
+   "day": 97,
+   "time": "day 97 16:29",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "metamphora (60gp)",
+     "slot": "pack",
+     "qty": -2
+    },
+    {
+     "who": "quintus",
+     "item": "metamphora (60gp)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 561
+  },
+  {
+   "op": "light",
+   "cause": "torch13 lit (torch, light auto)",
+   "day": 97,
+   "time": "day 97 17:09",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch13",
+   "cmd": "turn (light auto)",
+   "n": 562
+  },
+  {
+   "op": "light",
+   "cause": "torch14 lit (torch, light auto)",
+   "day": 97,
+   "time": "day 97 17:59",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch14",
+   "cmd": "turn (light auto)",
+   "n": 563
   }
  ],
  "holdings": {
@@ -9932,6 +10119,9 @@
     "#w10": 1,
     "rope, 50'": 1,
     "waterskin": 5
+   },
+   "sack": {
+    "metamphora (60gp)": 2
    }
   },
   "callista": {
@@ -9973,7 +10163,6 @@
     "rope, 50'": 1,
     "waterskin": 5,
     "iron spike": 6,
-    "torch": 2,
     "arrow": 13,
     "#w18": 1
    },
@@ -9984,8 +10173,7 @@
   "donkey1": {
    "pack": {
     "#w3": 1,
-    "#w9": 1,
-    "metamphora (60gp)": 6
+    "#w9": 1
    }
   },
   "ground:buried-temple": {
@@ -10008,7 +10196,6 @@
     "scale armor": 1
    },
    "belt": {
-    "#w17": 1,
     "oil, military (1 pint)": 1
    },
    "worn": {
@@ -10017,10 +10204,14 @@
    "backpack": {
     "waterskin": 5,
     "rations, iron (one week)": 1,
-    "arrow": 10
+    "arrow": 10,
+    "gold-painted key": 1
+   },
+   "back": {
+    "#w13": 1
    },
    "right_hand": {
-    "#w13": 1
+    "#w17": 1
    }
   },
   "donkey2": {
@@ -10141,7 +10332,8 @@
    },
    "backpack": {
     "waterskin": 5,
-    "torch": 4
+    "torch": 4,
+    "metamphora (60gp)": 2
    },
    "armor": {
     "hide and fur armor": 1
@@ -10155,7 +10347,8 @@
     "#w28": 1
    },
    "backpack": {
-    "waterskin": 5
+    "waterskin": 5,
+    "metamphora (60gp)": 2
    },
    "armor": {
     "leather armor": 1
