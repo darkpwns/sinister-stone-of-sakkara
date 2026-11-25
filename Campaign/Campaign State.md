@@ -16,26 +16,6 @@ public:
   place: Türos Tem
   hex: '22.20'
   party:
-  - name: Eskil
-    sheet: Characters/eskil.json
-    role: pc
-    hp: 1
-    hp_max: 5
-    conditions:
-    - 'intestines mangled and ruined (Mortal Wounds, day 16): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, -4 to reaction rolls'
-    - ghostly visions of lost companions (Mortal Wounds, day 45)
-    - 'symptomatic: Bilious Fever (incapacitated)'
-    spells_used: []
-    encumbrance_st: 6.667
-  - name: Fulvia
-    sheet: Characters/fulvia.json
-    role: pc
-    hp: 2
-    hp_max: 5
-    conditions:
-    - 'symptomatic: Ague (incapacitated)'
-    spells_used: []
-    encumbrance_st: 0
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
@@ -47,15 +27,6 @@ public:
     - ghostly visions of lost companions (Mortal Wounds, day 68)
     spells_used: []
     encumbrance_st: 4.376
-  - name: Gaius Rufo
-    sheet: Characters/gaius-rufo.json
-    role: pc
-    hp: -3
-    hp_max: 5
-    conditions:
-    - 'one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC'
-    spells_used: []
-    encumbrance_st: 0
   - name: Ione
     sheet: Characters/ione.json
     role: pc
@@ -64,53 +35,6 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.438
-  - name: Aedo
-    sheet: Characters/aedo.json
-    role: pc
-    hp: 0
-    hp_max: 5
-    conditions:
-    - 'grievously wounded (day 45, giant rats): 2 weeks of bed rest'
-    - 'intestines mangled and ruined (Mortal Wounds, day 45): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
-    - 'calf almost chewed through (day 45): cannot force march unless mounted'
-    spells_used: []
-    encumbrance_st: 0
-  - name: Septimia
-    sheet: Characters/septimia.json
-    role: pc
-    hp: -1
-    hp_max: 4
-    conditions: []
-    spells_used:
-    - Cure Light Injury
-    encumbrance_st: 0
-  - name: Decimus Ruga
-    sheet: Characters/decimus-ruga.json
-    role: henchman
-    hp: 3
-    hp_max: 3
-    conditions: []
-    spells_used: []
-    encumbrance_st: 7.669
-  - name: Herennius Bow
-    sheet: Characters/herennius-bow.json
-    role: henchman
-    hp: -2
-    hp_max: 3
-    conditions: []
-    spells_used: []
-    encumbrance_st: 0
-  - name: Tullus Brocchus
-    sheet: Characters/tullus-brocchus.json
-    role: henchman
-    hp: 0
-    hp_max: 5
-    conditions:
-    - 'in shock (day 45): magical healing and a night of bed rest (given), or a week of rest'
-    - two fingers of one hand bitten off (Mortal Wounds, day 45)
-    - 'symptomatic: Spotted Pox (incapacitated)'
-    spells_used: []
-    encumbrance_st: 0
   - name: Caelia
     sheet: Characters/caelia.json
     role: pc
