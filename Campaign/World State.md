@@ -40,20 +40,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - 44 Ogre's Cave (day 5): door forced; the ogre demanded meat or gold; the party backed out (Indifferent). **Day 33: the ogre killed** (Slumber resisted; it broke and cowered; Callista's dart, Galerius' coup de grace); its knucklebones harvested (L31); the bag under the furs taken (3,000sp L32, 300gp L33). The secret door NW (to 74) not found.
 - West corridor by Area 4 (day 5): 7 stirges killed (3 slumbered, coup de grace); proboscises harvested (L7). Three Red Eye gnolls (Friendly) and two goblins (Indifferent) met on the way out.
 
-- 43 Great Hall north (day 66): **47 goblins** (the band met at the spring camp, night of day 64-65) camped here: Friendly to Hrodric; they want revenge on the hobgoblins who butchered their kin (Area 4) and asked the party's help (nothing promised). The north door to 61 forced (day 66).
-- 61 Courtyard, 75 Ziggurat (day 66): the kobolds of 64 came out; **Idimmu awake, Friendly** (Faustina): took 800gp tribute (100 a head for 8) and let the party down; he let it back up the same morning. Three Red Eye tribute-collectors met in 61 (Neutral, then Indifferent for 9gp).
-
-### [[Level 2 - Catacombs]] (entered day 66, from L1 75)
-- 1 Catacomb Entrance (day 66): the Red Eye guards of 10 (3, door open) Indifferent: waved the party on unescorted. **Marius' body** lies hidden behind the moldy crates under the stair (his gear with it: inventory holder `body:marius`).
-- 5 Failed Assault: four slain Black Fangs (seen).
-- 7 Ogre Den (day 66): ambushed (both surprised); Slumber resisted by both; a losing fight (Marius killed; Galerius, Faustina, Hrodric, Corvus, Varro (voided), Hrodric's eagle felled). **Ransom**: weapons down, the purse (846gp) for the fallen's lives (Indifferent). The ogres keep it with their 1,000gp: hp ogre1 (the larger, sword +1) 10/20, ogre2 5/15 at day 66 07:20 (they heal naturally); not defeated, no XP. Hrodric's eagle died there (its body left).
-
 ## Events triggered
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
-| 66 | the delve to level 2: ogre den ambush failed; Marius killed; Faustina, Hrodric, Corvus maimed; Hrodric's eagle dead; the purse (846gp) paid as ransom | Buried Temple L1 43/61/75, L2 1, 5, 7 | the party out at 08:50; camp at the spring (19.19) |
-| 59-65 | mud on every road and track (from the rain of day 47; the town week's weather rolled late); a false start (back to the fort day 61); the forest crossed days 62-64; 47 goblins passed the spring camp at night (Indifferent) | 22.20-19.19 | rest day 65 |
 | 52 | payout of A4 (12,300 XP; 12,930gp with the jewelry sold by Severina); Galerius, Faustina, Hrodric, Callista, Corvus to 2nd level | Türos Tem | 13,000gp deposited with Guildmaster Karanos (free if left to day 82); the purse about 1,700gp |
 | 52 | Faustina hired Varro (Crusader 1, a temple priest of Ammonar), 25gp a month, a month's signing | Türos Tem | henchmen: Marius, Petra, Titus (Severina), Varro (Faustina) |
 | 52 | the legate turned Friendly (Faustina's petition): two rumours, the scroll to recruit at the Parade Ground, an introduction to Malyn | Türos Tem | Callista met Malyn (Neutral); copied his formula of Discern Magic (500gp), learned it by day 59 |
@@ -75,7 +65,6 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
-- Buried Temple (day 66): goblin band of 47 in L1 43 **Friendly** (Hrodric); Idimmu **Friendly** (Faustina; tribute paid); Red Eye collectors (L1 61) Indifferent (bribed); Red Eye guards of L2 10 Indifferent; the ogres of L2 7 Indifferent after the ransom.
 - Türos Tem (day 52): **Legate Ulrand Valerian Friendly** (Faustina's petition: two rumours, the Parade Ground scroll, an introduction to Malyn); **Malyn the Misshapen Neutral** (Callista, introduced by the legate; Miren's disparagement counted): let her copy one formula for 500gp; Varro (Faustina's henchman) loyal.
 
 - Türos Tem (day 1): Legate Ulrand Valerian Neutral (Faustina); Priestess Genelen Indifferent (Faustina); Malyn's apprentices Indifferent (Callista); Guildmaster Aeropos Karanos **Unfriendly** (Tertia); Quartermaster Koinos Thales **Unfriendly** (Hrodric, over kyrpeges at the inn); Centurion Axios Ilarion Neutral (Faustina).
@@ -93,11 +82,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Faction standing
 
 ## Scheduled events
-- **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): PAUSED; next trick 1 day 1000000023; C22 K17 (hrodric): PAUSED; next trick 1 day 1000000023; C23 K18 (hrodric): PAUSED; next trick 1 day 1000000023; C24 K19 (severina): PAUSED; next trick 1 day 1000000020; C25 K20 (severina): PAUSED; next trick 1 day 1000000020
 
 ## Prep queue (Judge only)
-- **The party at the spring camp in 19.19 (dawn of day 67):** Faustina (1 week of bed rest from day 66), Hrodric and Corvus (in shock: a cure and one night of bed rest, or a week) incapacitated; Galerius 1 hp. Varro has his one cure again (day 67). The night encounter rolled for the night of day 67 waits if they stay camped (hour 1 after dusk). Adventure A5 open, no treasure; Marius' body in L2 1. The company purse is empty (Faustina 2sp 5cp): 13,000gp with Karanos (15% to draw before day 82).
-- Buried Temple level 2 replacement rolls (AX1 p. 53) apply to rooms cleared; none cleared yet. The goblin band in L1 43 changes L1's balance (they want the hobgoblins of Area 5).
 
 - Buried Temple replacements (AX1 p. 35): from day 11 a weekly 1d6 per cleared room while the Lady lives (1-3: 1d6 more of the tribe); the bodiless heads of 43 and Area 4's stirges are wanderers, not rooms. The kobolds of room 1 (one killed) count as a cleared post only if the Judge decides the door was abandoned: it was not (three returned).
 - Henchman searches: month 2 (days 31-60) done for 0th level (Marius, Petra, Titus) and 1st level (Varro, day 52; weeks 2-3 bring no more). Month 3 from day 61. The party has 4 henchmen (its cap while above the delve floor, Rulings R2 S02).

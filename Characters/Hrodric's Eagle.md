@@ -10,7 +10,7 @@ Hrodric's totem animal (RR Shaman, Totem Animal; chosen at creation, S01). Kept 
 animals (the user, 2026-11-24: to be added after the Sakkara playtest, before SOTN). Its current hp are kept on this
 note: update the line below after every fight or injury.
 
-**Dead** (day 66, the ogre den on the temple's second level: a sword blow, then grievously wounded with no healing magic able to reach it within the turn). Hrodric saved vs Death (no damage) and lost Command. A new eagle comes to him when he next gains a level (RR Shaman).
+**Current hp: 4 / 4** (day 52: Hrodric 2nd level, rescaled)
 
 ## Numbers (Hrodric at 2nd level, from day 52)
 

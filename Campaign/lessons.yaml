@@ -371,3 +371,27 @@ lessons:
   without: [--familiar]
   text: "Corvus guides in his surveyed hexes (22.20, 21.20, 20.19, 19.19; Rulings R2 S05): pass `--familiar corvus` when he leads there; on day 61 the bonus was left out and a navigation die that would have succeeded failed"
   source: "R2 S09 day 61 (judge-notes)"
+
+- id: combat-failure-state
+  category: party-play
+  status: remind
+  since: R2 S09
+  on: ["encounter fight", "state init"]
+  text: "the user's table rule: combat is a failure state; a fight starts only when the foe cannot fight back or is plainly outmatched by the party and its allies. Before this command: was parley, tribute, trade, an alliance with a rival tribe, or walking away tried? Count the foe's HD and one blow's damage against the party's hp; name the fallback if the edge fails"
+  source: "R2 S09 (user: the void run's ogre den)"
+
+- id: town-days-weather
+  category: overland
+  status: remind
+  since: R2 S09
+  on: [travel, forced-march]
+  text: "days spent in a settlement roll no weather, so mud never dries: before the first march out of town, `weather --at HEX --day N` for each town day since the last roll"
+  source: "R2 S09 (judge-notes)"
+
+- id: round-auto-current
+  category: combat
+  status: remind
+  since: R2 S09
+  on: [round-auto]
+  text: "round-auto acts for the current combatant itself: never call `round-next` just before it (Corvus lost an attack, void run of S09); after a parley ends a fight, `state end` at once: a standing `hold` still attacks a foe in reach"
+  source: "R2 S09 void run (judge-notes)"

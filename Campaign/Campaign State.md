@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 9
+session: 8
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,59 +10,52 @@ public:
   date:
     year: ''
     season: spring
-    day: 67
-  time: 05:50
+    day: 59
+  time: 07:01
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; clear; wind moderate
   place: Türos Tem
-  hex: '19.19'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 4
+    hp: 6
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.5
+    encumbrance_st: 4.667
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 1
+    hp: 8
     hp_max: 8
-    conditions:
-    - 'in shock (day 66): magical healing and one night of bed rest, or 1 week of bed rest: incapacitated'
-    - 'three fingers smashed on one hand: the hand is useless (permanent, day 66)'
+    conditions: []
     spells_used: []
     encumbrance_st: 6.333
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
-    hp: 2
-    hp_max: 6
-    conditions:
-    - 'bed rest 1 week (critically wounded day 66, healed by Varro): incapacitated'
-    - 'shattered ribs (permanent, day 66): constant fatigue and pain; must rest 2 turns every 6; expedition speed reduced by 1/3; cannot force march; CON reduced by 1/3'
-    - 'gruesome scarring (day 66): nose flattened, cheek crushed, ear turned to cauliflower'
+    hp: 10
+    hp_max: 10
+    conditions: []
     spells_used: []
-    encumbrance_st: 5.007
+    encumbrance_st: 5.74
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 1
+    hp: 7
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 8.5
+    encumbrance_st: 8
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 1
+    hp: 7
     hp_max: 7
-    conditions:
-    - 'in shock (day 66): magical healing and one night of bed rest, or 1 week of bed rest: incapacitated'
-    - two fingers smashed on one hand (permanent, day 66)
+    conditions: []
     spells_used: []
-    encumbrance_st: 6.833
+    encumbrance_st: 7.833
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -71,6 +64,14 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 5
+  - name: Marius
+    sheet: Characters/marius.json
+    role: henchman
+    hp: 4
+    hp_max: 4
+    conditions: []
+    spells_used: []
+    encumbrance_st: 3.56
   - name: Petra
     sheet: Characters/petra.json
     role: henchman
@@ -94,12 +95,17 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 7.217
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; lantern (Callista) out
-  rations: 'Galerius: food 7 d, water 5.4 d; Faustina: food 7 d, water 0 d (incapacitated); Callista: food 7 d, water 2.8 d; Corvus: food 7 d, water 0 d (incapacitated); Hrodric: food 10 d, water 0 d (incapacitated); Severina: food 5 d, water 0 d; Varro: food 7 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 8.217
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
+  rations: 'Galerius: food 0 d, water 5.4 d; Faustina: food 0 d, water 0 d; Callista: food 0 d, water 3 d; Corvus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Marius: food 4 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
+  - '21.20'
+  - '22.20'
+  - '23.21'
+  - '22.20'
+  - '21.20'
   - '20.19'
   - '19.19'
   - '20.19'
@@ -115,12 +121,7 @@ public:
   - '24.19'
   - '23.20'
   - '22.20'
-  - '21.20'
-  - '22.20'
-  - '21.20'
-  - '20.19'
-  - '19.19'
-clock_day: 67
+clock_day: 59
 ---
 # Campaign State
 
@@ -139,6 +140,7 @@ Carried from run 1 (user's choices 2026-11-20 to 2026-11-21) except where marked
 - Henchman control: the AI players direct routine actions and combat tactics; the Judge plays personality, morale, obedience
 - Party structure: AI party (six AI players; the user watches). Caller Gideon. The Judge plays the AI players by their profiles, `Party/heuristics.md` and the party notes (no party-agent calls; run 1 S06 user decision)
 - **Party goal (run 2, user):** the players' primary, standing goal is to found a magical kingdom the like of which the world has not seen since ancient times. They always keep Animal Training (magical beasts as mounts, guards and war-beasts) and the harvesting proficiencies (Alchemy, Animal Husbandry, Healing, Naturalism, Magical Engineering: monster special components) in the party, and every session goal they set advances that goal. They engage factions only when a faction brings them closer to it or costs no recurring obligation (Party/heuristics.md "The kingdom")
+- **Combat and factions (run 2, user, S09 rerun):** combat is a failure state: the party draws steel only when the enemy cannot fight back or is plainly outmatched (by the party and its allies); talk, trade, tribute, bribery, deception and alliances come first, and a failed edge means breaking off, not fighting it out. Dungeon and wilderness factions carry no lasting obligation and are used actively (allies, guides, cat's paws, safe passage); settled factions (guilds, temples, legions, cults) make members and are dealt with only for the kingdom. The delve floors are minimums, not a measure of strength (Party/heuristics.md)
 - **Character creation (run 2, user): no templates** (RR optional rule: 3d6 × 10 gp, gear bought at the market, proficiencies and spells chosen). The players build as they wish, balancing competence with progress toward the goal
 - A PC's death (user, 2026-11-21): the player takes over the dead PC's henchman (RR p. 311 successor, `death <pc> --successor <henchman> --player <p>`); without one, a second-level henchman in the party; otherwise a new 1st-level character with the player's reserve XP. Characters retire only when their injuries make further adventures unlikely
 - AI players hire their own henchmen: yes

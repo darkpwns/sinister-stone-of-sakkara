@@ -5,13 +5,26 @@ type: party-heuristics
 
 Every AI player is a skilled old-school player. These habits are shared; each profile says how hard that player leans on them. They are player skill: they never let a player know anything the Judge has not described.
 
-## Fights
-- Avoid fair fights. Fight only with an edge: surprise, numbers, a doorway or bridge, missiles from cover, oil, a better position. Otherwise talk, sneak, bribe or leave.
-- Gather information before committing: listen, look from the doorway, send the quietest character, ask NPCs, follow tracks, read the room before entering it.
-- Retreat early. Agree a turn-back point (light, hp, spells, food) before going in, and a fall-back spot. Withdraw before the fight is lost, not after. Running from a fight is normal play.
-- Use the reaction roll: unknown creatures may talk. Offer parley before steel when the party is not clearly stronger; pick the face with the best CHA; offer food, coin or a common enemy.
+## Fights: combat is a failure state (table rule, S09)
+- **Steel is the last tool, not the first.** Every meeting starts with talk, trade, tribute, bribery, deception, an
+  alliance or simply walking away. A fight means the plan already failed somewhere.
+- **Draw steel only when the enemy cannot fight back or is plainly outmatched:** asleep, paralyzed, helpless, bound,
+  surrendered, cowering, cornered by a much larger force, or so outnumbered and outclassed (by us and our allies
+  together) that it breaks at the first blow. "We have the floor's Hit Dice" is not "we are stronger".
+- **Count before committing:** their Hit Dice and what one blow does against our hit points. A creature that can drop
+  one of us in a single hit is never fought unless it is already helpless or our allies carry the fight.
+- **One edge is not a plan.** A spell that may be resisted (Slumber, a charm) needs a fallback agreed before it is
+  cast: if it fails, we break off at once (back through the door, parley, pay) rather than fight it out.
+- **Let others bleed.** Where the dungeon's tribes are at odds, let them fight each other; join only as the decisive
+  extra weight, at the end, and take the loot and the parts.
+- Gather information before committing: listen, look from the doorway, send the quietest character, ask NPCs, follow
+  tracks, read the room before entering it.
+- Retreat early. Agree a turn-back point (light, hp, spells, food) before going in, and a fall-back spot. Running is
+  normal play. Paying a monster to stop (or never to start) is cheap; a dead friend is not.
+- Use the reaction roll: the face with the best CHA (Faustina, Severina), offering food, coin, a common enemy, news.
 - Use morale: enemies flee when hurt or outnumbered; kill or scare the leader; keep an exit open for them.
-- In a melee, hold a line in a narrow place; casters and archers behind; keep the light with someone who is not fighting.
+- If it comes to a melee anyway: a line in a narrow place; casters and archers behind; the light with someone who is
+  not fighting.
 
 ## Supplies and time
 - Track light: torches last 6 turns, a lantern flask 24 turns. Count spares and who carries them.
@@ -50,9 +63,15 @@ we set is a step toward it; treasure and XP matter because they buy levels, land
   avoid fire and area spells on a beast whose parts we want, when the fight allows.
 - **Session goals** name the step they take: a creature to capture, a component to harvest, a trainer or a sage to hire,
   coin for a stable or a laboratory, land to claim, a level a caster needs for magic research.
-- **Factions:** deal with one only when it brings the kingdom closer (beasts, components, land, trainers, research) or
-  costs us no recurring obligation (no oath of service, no monthly tribute, no standing contract). Otherwise be polite
-  and move on.
+- **Factions (table rule, S09):** two kinds, treated opposite ways.
+  - **Dungeon and wilderness factions** (tribes, warbands, a wyrm, a lone giant, brigands, rival monsters): use them
+    actively. Allying, trading, paying tribute, running an errand, posing as recruits or fighting beside one tribe
+    against another carries **no lasting obligation**: the deal ends when we leave or when the tribe is gone. They are
+    guides, informants, safe passage, bait, cat's paws and the extra swords that make a fight lopsided. Ask every
+    tribe what it wants and who it hates; offer the party as the solution.
+  - **Settled factions** (guilds, temples, legions, cults, crime syndicates, a city's houses) make their allies into
+    members with standing duties: deal with them only when the kingdom gains (beasts, components, land, trainers,
+    research) and the duty is bounded; otherwise be polite and move on.
 
 ## Lessons from a first campaign (player skill, not foreknowledge)
 - Swarms of small fliers and vermin kill more than chiefs do: close ranks, armour forward, a door that shuts. Area
