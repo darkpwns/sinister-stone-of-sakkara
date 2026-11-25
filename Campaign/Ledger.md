@@ -19,6 +19,11 @@ tags:
 
 | Session | Adventure | Character | Share | Treasure XP | Monster XP | Other XP | Adjustment | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S05 | A2 | Octavia | 1 | 193.75 | 49.5 | 0 | +10% | 267 |
+| S05 | A2 | Fulvia | 1 | 193.75 | 49.5 | 0 | +5% | 255 |
+| S05 | A2 | Eskil | 1 | 193.75 | 49.5 | 0 | 0 | 243 |
+| S05 | A2 | Gaius Rufo | 0.5 | 96.88 | 24.75 | 0 | 0 | 122 |
+| S05 | A2 | Ione | 0.5 | 96.88 | 24.75 | 0 | 0 | 122 |
 
 ## Wages
 
@@ -114,3 +119,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 24gp | silvanus |
 | 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 23gp | fulvia |
 | 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 24gp | eskil |
+| 28 |  | treasure share |  | 193gp 7sp 5cp |  | octavia |
+| 28 |  | treasure share |  | 193gp 7sp 5cp |  | fulvia |
+| 28 |  | treasure share |  | 193gp 7sp 5cp |  | eskil |
+| 28 |  | treasure share |  | 96gp 8sp 8cp |  | gaius-rufo |
+| 28 |  | treasure share |  | 96gp 8sp 8cp |  | ione |
+| 28 | Traveler's Inn | private room and meals, day 28 |  |  | 5sp 5cp | octavia |
+| 28 | Traveler's Inn | private room and meals, day 28 |  |  | 5sp 5cp | fulvia |
+| 28 | Traveler's Inn | private room and meals, day 28 (bed rest) |  |  | 5sp 5cp | eskil |
+| 28 | Traveler's Inn | private room and meals, day 28 (bed rest) |  |  | 5sp 5cp | gaius-rufo |
+| 28 | Traveler's Inn | stabling the donkey, night of day 28 |  |  | 2sp | eskil |

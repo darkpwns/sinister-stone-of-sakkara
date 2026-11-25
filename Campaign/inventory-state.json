@@ -8,13 +8,13 @@
    "kind": "pc",
    "name": "lepidus",
    "actor": "lepidus",
-   "status": "active"
+   "status": "dead"
   },
   "aurelia": {
    "kind": "pc",
    "name": "aurelia",
    "actor": "aurelia",
-   "status": "active"
+   "status": "dead"
   },
   "octavia": {
    "kind": "pc",
@@ -26,7 +26,7 @@
    "kind": "pc",
    "name": "silvanus",
    "actor": "silvanus",
-   "status": "active"
+   "status": "dead"
   },
   "fulvia": {
    "kind": "pc",
@@ -53,7 +53,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by eskil",
    "owner": "eskil",
@@ -79,8 +79,18 @@
      "day": 11,
      "nights": 1,
      "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 28,
+     "cause": "in town"
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Traveler's Inn",
+    "day": 28,
+    "cause": "in town"
+   }
   },
   "gaius-rufo": {
    "kind": "henchman",
@@ -98,6 +108,30 @@
    "kind": "henchman",
    "name": "Sextus Varo",
    "actor": "sextus-varo",
+   "status": "dead"
+  },
+  "body:lepidus": {
+   "kind": "body",
+   "name": "body of lepidus",
+   "actor": null,
+   "status": "active"
+  },
+  "body:aurelia": {
+   "kind": "body",
+   "name": "body of aurelia",
+   "actor": null,
+   "status": "active"
+  },
+  "body:silvanus": {
+   "kind": "body",
+   "name": "body of silvanus",
+   "actor": null,
+   "status": "active"
+  },
+  "body:sextus-varo": {
+   "kind": "body",
+   "name": "body of Sextus Varo",
+   "actor": null,
    "status": "active"
   }
  },
@@ -5641,57 +5675,674 @@
    ],
    "cmd": "inv wield",
    "n": 225
+  },
+  {
+   "op": "death",
+   "cause": "lepidus died; body left_behind",
+   "day": 26,
+   "time": "day 26 05:40",
+   "deltas": [
+    {
+     "who": "lepidus",
+     "item": "chain mail armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "chain mail armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "#w1",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "#w1",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "#w2",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "#w2",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "#w3",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "#w3",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "#w4",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "#w4",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "#w5",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "#w5",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "lepidus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:lepidus",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "lepidus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:lepidus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lepidus",
+     "cp": -5,
+     "sp": -5,
+     "gp": -1
+    },
+    {
+     "who": "body:lepidus",
+     "cp": 5,
+     "sp": 5,
+     "gp": 1
+    }
+   ],
+   "cmd": "death",
+   "n": 226
+  },
+  {
+   "op": "death",
+   "cause": "aurelia died; body left_behind",
+   "day": 26,
+   "time": "day 26 05:40",
+   "deltas": [
+    {
+     "who": "aurelia",
+     "item": "chain mail armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "chain mail armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "#w6",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "#w6",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "holy symbol",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "holy symbol",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "#w7",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "#w7",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": -30
+    },
+    {
+     "who": "body:aurelia",
+     "item": "sling stone",
+     "slot": "here",
+     "qty": 30
+    },
+    {
+     "who": "aurelia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -4
+    },
+    {
+     "who": "body:aurelia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 4
+    },
+    {
+     "who": "aurelia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "aurelia",
+     "item": "holy water (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:aurelia",
+     "item": "holy water (1 pint)",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "aurelia",
+     "cp": -5,
+     "sp": -3,
+     "gp": -4
+    },
+    {
+     "who": "body:aurelia",
+     "cp": 5,
+     "sp": 3,
+     "gp": 4
+    }
+   ],
+   "cmd": "death",
+   "n": 227
+  },
+  {
+   "op": "death",
+   "cause": "silvanus died; body left_behind",
+   "day": 26,
+   "time": "day 26 05:40",
+   "deltas": [
+    {
+     "who": "silvanus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "silvanus",
+     "item": "#w10",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "#w10",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "silvanus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -5
+    },
+    {
+     "who": "body:silvanus",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 5
+    },
+    {
+     "who": "silvanus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "silvanus",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "scale armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "silvanus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "silvanus",
+     "item": "#w9",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "#w9",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "silvanus",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": -20
+    },
+    {
+     "who": "body:silvanus",
+     "item": "arrow",
+     "slot": "here",
+     "qty": 20
+    },
+    {
+     "who": "silvanus",
+     "item": "#w11",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "body:silvanus",
+     "item": "#w11",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "silvanus",
+     "cp": -5,
+     "sp": -3,
+     "gp": -4
+    },
+    {
+     "who": "body:silvanus",
+     "cp": 5,
+     "sp": 3,
+     "gp": 4
+    }
+   ],
+   "cmd": "death",
+   "n": 228
+  },
+  {
+   "op": "death",
+   "cause": "sextus-varo died; body left_behind",
+   "day": 26,
+   "time": "day 26 05:40",
+   "deltas": [
+    {
+     "who": "sextus-varo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "back",
+     "qty": -1
+    },
+    {
+     "who": "body:sextus-varo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sextus-varo",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "body:sextus-varo",
+     "item": "banded plate armor",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sextus-varo",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:sextus-varo",
+     "item": "shield",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sextus-varo",
+     "item": "#w22",
+     "slot": "right_hand",
+     "qty": -1
+    },
+    {
+     "who": "body:sextus-varo",
+     "item": "#w22",
+     "slot": "here",
+     "qty": 1
+    },
+    {
+     "who": "sextus-varo",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "body:sextus-varo",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "death",
+   "n": 229
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "cp": 5,
+     "sp": 7,
+     "gp": 193
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 230
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "cp": 5,
+     "sp": 7,
+     "gp": 193
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 231
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "cp": 5,
+     "sp": 7,
+     "gp": 193
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 232
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "cp": 8,
+     "sp": 8,
+     "gp": 96
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 233
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "cp": 8,
+     "sp": 8,
+     "gp": 96
+    }
+   ],
+   "cmd": "payout --apply",
+   "n": 234
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 28",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "cp": -5,
+     "sp": -5
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 235
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 28",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "fulvia",
+     "cp": -5,
+     "sp": -5
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 236
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 28 (bed rest)",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "cp": -5,
+     "sp": -5
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 237
+  },
+  {
+   "op": "pay",
+   "cause": "private room and meals, day 28 (bed rest)",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "gaius-rufo",
+     "cp": -5,
+     "sp": -5
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 55,
+   "cmd": "inv pay",
+   "n": 238
+  },
+  {
+   "op": "pay",
+   "cause": "stabling the donkey, night of day 28",
+   "day": 28,
+   "time": "day 28 13:40",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "eskil",
+     "sp": -2
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 20,
+   "cmd": "inv pay",
+   "n": 239
   }
  ],
  "holdings": {
-  "lepidus": {
-   "armor": {
-    "chain mail armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w1": 1
-   },
-   "belt": {
-    "#w2": 1
-   },
-   "back": {
-    "#w3": 1,
-    "#w4": 1,
-    "#w5": 1,
-    "backpack (holds 4 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 4,
-    "tinderbox (flint & steel)": 1
-   }
-  },
-  "aurelia": {
-   "armor": {
-    "chain mail armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w6": 1
-   },
-   "belt": {
-    "holy symbol": 1,
-    "#w7": 1,
-    "sling stone": 30
-   },
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "backpack": {
-    "waterskin": 4,
-    "tinderbox (flint & steel)": 1,
-    "holy water (1 pint)": 1
-   }
-  },
   "octavia": {
    "back": {
     "backpack (holds 4 stone)": 1,
@@ -5706,29 +6357,6 @@
    },
    "belt": {
     "#w8": 1
-   }
-  },
-  "silvanus": {
-   "back": {
-    "backpack (holds 4 stone)": 1,
-    "#w10": 1
-   },
-   "backpack": {
-    "waterskin": 5,
-    "tinderbox (flint & steel)": 1
-   },
-   "armor": {
-    "scale armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w9": 1
-   },
-   "belt": {
-    "arrow": 20,
-    "#w11": 1
    }
   },
   "fulvia": {
@@ -5821,57 +6449,97 @@
     "sack, small (holds 2 stone)": 1
    }
   },
-  "sextus-varo": {
-   "back": {
-    "backpack (holds 4 stone)": 1
-   },
-   "armor": {
-    "banded plate armor": 1
-   },
-   "left_hand": {
-    "shield": 1
-   },
-   "right_hand": {
-    "#w22": 1
-   },
-   "backpack": {
+  "body:lepidus": {
+   "here": {
+    "chain mail armor": 1,
+    "shield": 1,
+    "#w1": 1,
+    "#w2": 1,
+    "#w3": 1,
+    "#w4": 1,
+    "#w5": 1,
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 4,
+    "tinderbox (flint & steel)": 1
+   }
+  },
+  "body:aurelia": {
+   "here": {
+    "chain mail armor": 1,
+    "shield": 1,
+    "#w6": 1,
+    "holy symbol": 1,
+    "#w7": 1,
+    "sling stone": 30,
+    "backpack (holds 4 stone)": 1,
+    "waterskin": 4,
+    "tinderbox (flint & steel)": 1,
+    "holy water (1 pint)": 1
+   }
+  },
+  "body:silvanus": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "#w10": 1,
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "scale armor": 1,
+    "shield": 1,
+    "#w9": 1,
+    "arrow": 20,
+    "#w11": 1
+   }
+  },
+  "body:sextus-varo": {
+   "here": {
+    "backpack (holds 4 stone)": 1,
+    "banded plate armor": 1,
+    "shield": 1,
+    "#w22": 1,
     "waterskin": 1
    }
   }
  },
  "coins": {
-  "lepidus": {
-   "gp": 1,
-   "sp": 5,
-   "cp": 5
-  },
-  "aurelia": {
-   "gp": 4,
-   "sp": 3,
-   "cp": 5
-  },
   "octavia": {
-   "gp": 2,
+   "gp": 195,
    "cp": 4,
-   "sp": 2
-  },
-  "silvanus": {
-   "gp": 4,
-   "sp": 3,
-   "cp": 5
+   "sp": 4
   },
   "fulvia": {
-   "gp": 4,
-   "sp": 5,
+   "gp": 197,
+   "sp": 7,
    "cp": 5
   },
   "eskil": {
-   "gp": 3,
+   "gp": 196,
    "sp": 5,
    "cp": 5
   },
   "ione": {
-   "gp": 3
+   "gp": 99,
+   "cp": 8,
+   "sp": 8
+  },
+  "body:lepidus": {
+   "cp": 5,
+   "sp": 5,
+   "gp": 1
+  },
+  "body:aurelia": {
+   "cp": 5,
+   "sp": 3,
+   "gp": 4
+  },
+  "body:silvanus": {
+   "cp": 5,
+   "sp": 3,
+   "gp": 4
+  },
+  "gaius-rufo": {
+   "cp": 3,
+   "sp": 3,
+   "gp": 96
   }
  },
  "rolls": {},

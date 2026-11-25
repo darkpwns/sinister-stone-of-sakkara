@@ -12,6 +12,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S05: Ran, lived, and carried the silver home. 480 for the suns.
 - S02: Bronze doors and glazed mosaics at the hill. We will be back.
 
 ## Opinions of NPCs

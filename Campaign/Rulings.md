@@ -458,3 +458,8 @@ factions and events do not hold. Run-3 rows carry the session as `R3 S##`.
 | 2026-11-25 | R3 S04 | Laying on hands on a dying character after his Mortal Wounds roll ("dies unless healed to 1 hp within 1 turn") | Heals 2 hp per level from 0 (heal.below_zero): enough; he then owes his bed rest at 1 hp | Judge's ruling (RR p. 113) |
 | 2026-11-25 | R3 S04 | A camp moved 60' in the dark to evade a night encounter | No navigation throw: the party is not lost (`navigate --found` the same hex) | Judge's call |
 | 2026-11-25 | R3 S04 | The Viaspen table's 'rabid beast' rolled again | Another warped giant wolf (the Stone's taint makes more): module numbers (hp 18) | Judge's call |
+| 2026-11-25 | R3 S05 | A lost party that has camped by a stream: can it follow it out? | Yes: following a known watercourse to a known hex needs no navigation throw (`navigate --found`; then Pathfinding in familiar hexes) | Judge's call (RR p. 275 by analogy with rivers) |
+| 2026-11-25 | R3 S05 | Dropping food for a devil boar in pursuit | No effect: a devil boar is not of bestial intelligence (MM p. 99: a shapeshifting man) | Judge's reading (RR p. 308) |
+| 2026-11-25 | R3 S05 | A man-eater (Victory or Death) with fallen prey and others fleeing | It stops to feed on the first fallen; anyone coming back within its reach is attacked on 1-2 on 1d6 | Judge's call |
+| 2026-11-25 | R3 S05 | Arrival at a settlement in its own hex at half speed | The party in the settlement's hex at the end of a travel day reaches it (`location --settlement`) | Judge's call |
+| 2026-11-25 | R3 S05 | Can an incapacitated (bed rest) caster cast a cure? | No (RR p. 511: cannot cast spells) | RR p. 511 |

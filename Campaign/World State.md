@@ -12,7 +12,7 @@ records only state. Run 3 starts from the modules as printed: nothing of runs 1 
 
 | Hex | Terrain | First visited | Notes |
 | --- | --- | --- | --- |
-| 21.20 | farmland | day 2 | Giant tarantulas' lair (2, MM; met at dusk day 4 about 6 miles in from 20.19, evaded unseen: the spiders were surprised) |
+| 21.20 | farmland | day 2 | **the black boar's ground (night of day 25: Lepidus, Aurelia, Silvanus, Sextus killed; their bodies and gear at the camp site)**; giant tarantulas' lair (2, MM; met at dusk day 4 about 6 miles in from 20.19, evaded unseen: the spiders were surprised) |
 | 20.19 | forest (Viaspen edge) | day 2 | an arch of living yew in a glade (portal, sight only; Rulings R3 S03); ground-wasp nest near the day-2 camp (insect swarm, in lair, not roused); dwarf furriers met day 2 (Neutral) |
 | 21.17 | forest | day 15 | passed |
 | 21.18 | forest | day 16 | a second warped giant wolf (fled at 2 hp); giant frogs (3) at night |
@@ -41,6 +41,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 3-4 | Short water: Silvanus, Fulvia and Eskil dehydrated one night (CON lost; recovering 3 a day) | 19.19 | Ingrid's lesson: more waterskins |
 
 ## NPC attitudes
+- **Malyn the Misshapen: Friendly** (day 28, Octavia): bought the eggs (295gp); free spellcasting, library and workshop for Octavia's company.
 - Legate Ulrand Valerian: Indifferent (day 1, Eskil); **Friendly** at Lady Celena's dinner (day 6, Eskil, +2 re-roll): two rumours and the scroll to recruit at the Parade Ground (in Eskil's keeping).
 - **Lady Celena Valerian: Friendly** (day 6, Octavia, bathhouse warm room): dinner invitations; her plot seed (stealing the party's glory for her husband) stands.
 - Annalist Socolo: Indifferent (day 1, Octavia). Priestess Genelen: Indifferent (day 1, Aurelia). Guildmaster Karanos: Indifferent (day 1, Fulvia).
@@ -54,7 +55,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Scheduled events
 
 ## Prep queue (Judge only)
-- **At the save (day 22, 06:00, true hex 20.18; the party believes 22.20 and knows it is lost):** no food (all hungry and underfed since day 19-21: starving after 5 days underfed without food); Eskil (bed rest 14 d from day 16, CON 9) and Gaius (bed rest to day 24, one foot) incapacitated: half speed. A wounded giant wolf (2 hp) is loose in 21.18. True hexes while lost (Judge only, not in the explored table): 20.18 (days 17-19, 21-22), 20.17 (day 20). Wages day 31 (Gaius, Ione), 37 (Sextus).
+- **At the save (day 28, 19:40, Türos Tem):** A2 paid. Dead: Lepidus (eaten), Aurelia, Silvanus, Sextus (bodies and gear in 21.20 at the camp site, `body:` holders; Lepidus' remains). **The devil boar (MM p. 99) lairs in 21.20** (Judge: a hugely obese farmer by day; 1d3 thralls 75%; HD 9**, 30 hp, immune to mundane damage, silver deals extraordinary damage): it now knows the company's scent. Owed: Ingrid's and Tomasz's new characters (back-ups in `Characters/backups/`, reserve XP 0: `death aurelia --new-character --player ingrid --prior-xp 0` etc.). Eskil's bed rest ends day 30; Gaius' too (owed to day 24 but counted only on rest days). Ione's wage due day 31 (Eskil).
+- **Former (day 22, 06:00, true hex 20.18; the party believes 22.20 and knows it is lost):** no food (all hungry and underfed since day 19-21: starving after 5 days underfed without food); Eskil (bed rest 14 d from day 16, CON 9) and Gaius (bed rest to day 24, one foot) incapacitated: half speed. A wounded giant wolf (2 hp) is loose in 21.18. True hexes while lost (Judge only, not in the explored table): 20.18 (days 17-19, 21-22), 20.17 (day 20). Wages day 31 (Gaius, Ione), 37 (Sextus).
 - **Former (day 15, 06:00, 20.16, marsh edge):** A2 open (L2-L4 carried; monsters M1-M3). Home by 20.17/20.18 → 21.19? → 21.20 → 22.20 (2-3 days; forest). Food 4 days each (Sextus 0: shares). CON lost to thirst recovering 3 a day. Wages: Gaius and Ione day 31, Sextus day 37.
 - Thethamun (Friendly) is bed-bound; the hobgoblin stair at 53 leads to L2 18 (wizard-locked from below: the Lady). Possessed crab spider in 56 (the hobgoblins pass it).
 - The kobold toll is paid (faction kobolds); the brigand drinking gang (Friendly) may vouch for the company with Drusus.

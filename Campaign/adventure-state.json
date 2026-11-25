@@ -17,14 +17,15 @@
     "actor": "lepidus",
     "kind": "pc",
     "player": null,
-    "status": "alive",
-    "body": null,
+    "status": "dead",
+    "body": "left_behind",
     "returned": false,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 8
+    "joined_day": 8,
+    "died_day": 26
    },
    "aurelia": {
     "id": "aurelia",
@@ -32,14 +33,15 @@
     "actor": "aurelia",
     "kind": "pc",
     "player": null,
-    "status": "alive",
-    "body": null,
+    "status": "dead",
+    "body": "left_behind",
     "returned": false,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Crusader",
-    "joined_day": 8
+    "joined_day": 8,
+    "died_day": 26
    },
    "octavia": {
     "id": "octavia",
@@ -49,12 +51,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Mage",
-    "joined_day": 8
+    "joined_day": 8,
+    "returned_day": 28,
+    "xp_award": 267
    },
    "silvanus": {
     "id": "silvanus",
@@ -62,14 +66,15 @@
     "actor": "silvanus",
     "kind": "pc",
     "player": null,
-    "status": "alive",
-    "body": null,
+    "status": "dead",
+    "body": "left_behind",
     "returned": false,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Explorer",
-    "joined_day": 8
+    "joined_day": 8,
+    "died_day": 26
    },
    "fulvia": {
     "id": "fulvia",
@@ -79,12 +84,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Thief",
-    "joined_day": 8
+    "joined_day": 8,
+    "returned_day": 28,
+    "xp_award": 255
    },
    "eskil": {
     "id": "eskil",
@@ -94,27 +101,31 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 0,
     "level_before": 1,
     "class": "Shaman",
-    "joined_day": 8
+    "joined_day": 8,
+    "returned_day": 28,
+    "xp_award": 243
    },
    "gaius-rufo": {
     "id": "gaius-rufo",
     "name": "Gaius Rufo",
     "actor": "gaius-rufo",
-    "kind": "henchman",
-    "player": null,
+    "kind": "pc",
+    "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "gaius-rufo",
     "xp_before": 0,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 8
+    "joined_day": 8,
+    "returned_day": 28,
+    "xp_award": 122
    },
    "ione": {
     "id": "ione",
@@ -124,12 +135,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "ione",
     "xp_before": 0,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 8
+    "joined_day": 8,
+    "returned_day": 28,
+    "xp_award": 122
    },
    "sextus-varo": {
     "id": "sextus-varo",
@@ -137,14 +150,15 @@
     "actor": "sextus-varo",
     "kind": "henchman",
     "player": null,
-    "status": "alive",
-    "body": null,
+    "status": "dead",
+    "body": "left_behind",
     "returned": false,
     "retinue_id": "sextus-varo",
     "xp_before": 0,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 8
+    "joined_day": 8,
+    "died_day": 26
    }
   },
   "monsters": [
@@ -192,9 +206,96 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 28,
+   "at": null,
+   "total": 973.0,
+   "per_share": 243.25,
+   "awards": {
+    "lepidus": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "aurelia": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "octavia": {
+     "share": 1.0,
+     "why": null,
+     "base": 243,
+     "pct": 10,
+     "pen": 0,
+     "award": 267,
+     "xp_before": 0,
+     "xp_after": 267,
+     "capped": null,
+     "zero": false
+    },
+    "silvanus": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "fulvia": {
+     "share": 1.0,
+     "why": null,
+     "base": 243,
+     "pct": 5,
+     "pen": 0,
+     "award": 255,
+     "xp_before": 0,
+     "xp_after": 255,
+     "capped": null,
+     "zero": false
+    },
+    "eskil": {
+     "share": 1.0,
+     "why": null,
+     "base": 243,
+     "pct": 0,
+     "pen": 0,
+     "award": 243,
+     "xp_before": 0,
+     "xp_after": 243,
+     "capped": null,
+     "zero": false
+    },
+    "gaius-rufo": {
+     "share": 0.5,
+     "why": null,
+     "base": 122,
+     "pct": 0,
+     "pen": 0,
+     "award": 122,
+     "xp_before": 0,
+     "xp_after": 122,
+     "capped": null,
+     "zero": true
+    },
+    "ione": {
+     "share": 0.5,
+     "why": null,
+     "base": 122,
+     "pct": 0,
+     "pen": 0,
+     "award": 122,
+     "xp_before": 0,
+     "xp_after": 122,
+     "capped": null,
+     "zero": true
+    },
+    "sextus-varo": {
+     "share": 0.0,
+     "why": "left behind"
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 28,
+   "where": null
+  }
  },
  "closed": [
   {
@@ -530,8 +631,8 @@
    "kind": "goods",
    "qty": 4,
    "stone": 0.67,
-   "carrier": "aurelia",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 11,
     "where": ""
@@ -546,16 +647,25 @@
    },
    "player": {
     "desc": "holy symbols of Ammonar (silver winged suns)",
-    "value_gp": null,
+    "value_gp": 480.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
-   "judge": []
+   "sold": {
+    "price": 480.0,
+    "market": "Turos Tem (Market)",
+    "day": 28,
+    "class": "V",
+    "by": "fulvia",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 28
   },
   "L4": {
    "id": "L4",
@@ -563,8 +673,8 @@
    "kind": "goods",
    "qty": 15,
    "stone": 1.0,
-   "carrier": "eskil",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 11,
     "where": ""
@@ -579,16 +689,25 @@
    },
    "player": {
     "desc": "crab spider eggs in their web (15)",
-    "value_gp": null,
+    "value_gp": 295.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
-   "judge": []
+   "sold": {
+    "price": 295.0,
+    "market": "Turos Tem (Market)",
+    "day": 28,
+    "class": "V",
+    "by": "octavia",
+    "identified": true,
+    "used": false
+   },
+   "judge": [],
+   "divided_day": 28
   }
  },
  "hoards": {},

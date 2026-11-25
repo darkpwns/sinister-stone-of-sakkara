@@ -14,6 +14,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 - S03: The way home from the hill drifts north in mist; keep the dome behind and the sun to the left in the morning.
 
 ## Opinions of NPCs
+- S05: Malyn the Misshapen is kind to Octavia; his library and workshop are open to her.
 - S02: Lady Celena enjoys a learned conversation; she invited Octavia to dine.
 
 ## Henchmen and hirelings

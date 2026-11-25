@@ -28,6 +28,9 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
 - S03: Spider eggs in a web in the kobolds' ground: whatever laid them is behind the curtain with the jars.
 
 ## Plans
+- S05: A black boar the size of an ox in the farmland west of the fort, a day's walk out: our blades did not bite it;
+  it killed Lepidus, Aurelia, Silvanus and Sextus. Never camp in 21.20 again; find out what it is (Malyn, Socolo).
+- S05: Bring the bodies home for burial (a cart; the quartermaster lends mounts). New companions for Ingrid and Tomasz.
 - S04: Lost in the southern Viaspen with no food (dawn, day 22). Hunt with the hound, or strike south-east for the
   farms by the river; carry Eskil and Gaius. Next trip: two weeks of food each and a mule; turn for the river the
   moment the trees close in.
