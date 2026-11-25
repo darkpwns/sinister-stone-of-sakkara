@@ -1,16 +1,16 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 14,
- "generated": 1795592434,
+ "generated": 1795592605,
  "date": {
   "year": "",
   "season": "summer",
-  "day": 105
+  "day": 110
  },
- "time": "13:09",
+ "time": "07:04",
  "weather": "Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)",
  "place": "Türos Tem",
- "hex": "22.20",
+ "hex": "19.19",
  "party": [
   {
    "name": "Callista",
@@ -20,7 +20,7 @@
    "hp_max": 8,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.845
+   "encumbrance_st": 5.679
   },
   {
    "name": "Corvus",
@@ -39,10 +39,8 @@
    "hp": 15,
    "hp_max": 15,
    "conditions": [],
-   "spells_used": [
-    "Cure Light Injury"
-   ],
-   "encumbrance_st": 4.389
+   "spells_used": [],
+   "encumbrance_st": 4.36
   },
   {
    "name": "Galerius",
@@ -117,14 +115,11 @@
    "encumbrance_st": 4.839
   }
  ],
- "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out",
- "rations": "Galerius: food 7 d, water 1.4 d; Faustina: food 8 d, water 1 d; Callista: food 9 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 7 d, water 0.6 d; Hrodric: food 7 d, water 1 d; Quintus: food 16 d, water 1 d; Zaira: food 13 d, water 1 d; Severina: food 17 d, water 1 d; Marius: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out",
+ "rations": "Galerius: food 10 d, water 0 d; Faustina: food 11 d, water 0 d; Callista: food 12 d, water 0 d; Corvus: food 11 d, water 0 d; Varro: food 10 d, water 0 d; Hrodric: food 10 d, water 0 d; Quintus: food 14 d, water 0 d; Zaira: food 9 d, water 0 d; Severina: food 13 d, water 0 d; Marius: food 10 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "21.20",
-  "22.20",
-  "21.20",
   "20.19",
   "21.19",
   "20.19",
@@ -141,7 +136,10 @@
   "22.21",
   "22.20",
   "21.20",
-  "22.20"
+  "22.20",
+  "21.20",
+  "20.19",
+  "19.19"
  ],
  "explored_hexes": [
   {
@@ -333,11 +331,11 @@
      "contents": [
       "Craftsman's Tools (any)",
       "Lantern",
-      "Oil, Common (1 pint) ×3",
+      "Oil, Common (1 pint) ×2",
       "Tinderbox (flint & steel)",
       "Waterskin ×5"
      ],
-     "items": 9,
+     "items": 8,
      "stone": 2
     },
     "sack": {
@@ -360,7 +358,7 @@
     "sp": 5,
     "cp": 7
    },
-   "encumbrance_st": 5.845,
+   "encumbrance_st": 5.679,
    "weapons": [
     {
      "name": "Staff",
@@ -917,11 +915,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 653,
+    "gp": 624,
     "sp": 27,
     "cp": 42
    },
-   "encumbrance_st": 4.389,
+   "encumbrance_st": 4.36,
    "weapons": [
     {
      "name": "Staff",
@@ -3293,23 +3291,23 @@
  ],
  "open_rolls": [
   {
-   "label": "Severina surprise",
+   "label": "init Marius",
    "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "attack Hrodric's eagle vs stirge 5",
+   "spec": "1d20",
    "rolls": [
     5
    ],
    "total": 5
   },
   {
-   "label": "Marius surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Hrodric surprise",
+   "label": "init Galerius",
    "spec": "1d6",
    "rolls": [
     6
@@ -3317,130 +3315,127 @@
    "total": 6
   },
   {
-   "label": "Zaira surprise",
+   "label": "init Faustina",
    "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    2
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    1
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    3
-   ],
-   "total": 6
-  },
-  {
-   "label": "Galerius HD 1",
-   "spec": "1d8",
    "rolls": [
     4
    ],
    "total": 4
   },
   {
-   "label": "Galerius HD 2",
-   "spec": "1d8",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "Galerius HD 3",
-   "spec": "1d8",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "Faustina HD 1",
-   "spec": "1d4",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Faustina HD 2",
-   "spec": "1d4",
+   "label": "init Callista",
+   "spec": "1d6",
    "rolls": [
     3
    ],
    "total": 3
   },
   {
-   "label": "Faustina HD 3",
-   "spec": "1d4",
+   "label": "init Corvus",
+   "spec": "1d6",
    "rolls": [
     4
    ],
    "total": 4
   },
   {
-   "label": "Callista HD 1",
-   "spec": "1d4",
+   "label": "init Varro",
+   "spec": "1d6",
    "rolls": [
-    2
+    3
    ],
-   "total": 2
+   "total": 3
   },
   {
-   "label": "Callista HD 2",
-   "spec": "1d4",
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Hrodric's eagle",
+   "spec": "1d6",
    "rolls": [
     1
    ],
    "total": 1
   },
   {
-   "label": "Callista HD 3",
-   "spec": "1d4",
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Zaira",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Hrodric's eagle vs stirge 9",
+   "spec": "1d20",
+   "rolls": [
+    20
+   ],
+   "total": 20
+  },
+  {
+   "label": "damage to stirge 9",
+   "spec": "1d4+1",
+   "rolls": [
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
    "rolls": [
     2
    ],
    "total": 2
   },
   {
-   "label": "Corvus HD 1",
+   "label": "init Faustina",
    "spec": "1d6",
    "rolls": [
-    4
+    1
    ],
-   "total": 4
+   "total": 1
   },
   {
-   "label": "Corvus HD 2",
+   "label": "init Callista",
    "spec": "1d6",
    "rolls": [
-    3
+    1
    ],
-   "total": 3
+   "total": 1
   },
   {
-   "label": "Corvus HD 3",
+   "label": "init Corvus",
    "spec": "1d6",
    "rolls": [
     6
@@ -3448,7 +3443,23 @@
    "total": 6
   },
   {
-   "label": "Severina HD 1",
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Hrodric's eagle",
    "spec": "1d6",
    "rolls": [
     3
@@ -3456,90 +3467,164 @@
    "total": 3
   },
   {
-   "label": "Severina HD 2",
+   "label": "init Quintus",
    "spec": "1d6",
    "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Marius HD 1",
-   "spec": "1d4",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
     2
    ],
+   "total": 2
+  },
+  {
+   "label": "init Zaira",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
    "total": 6
   },
   {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
+   "label": "init Marius",
+   "spec": "1d6",
    "rolls": [
-    6,
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Hrodric's eagle vs stirge 9",
+   "spec": "1d20",
+   "rolls": [
+    9
+   ],
+   "total": 9
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Hrodric's eagle",
+   "spec": "1d6",
+   "rolls": [
     6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Zaira",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "attack Marius vs stirge 9",
+   "spec": "1d20-1",
+   "rolls": [
+    13
    ],
    "total": 12
   },
   {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
+   "label": "damage to stirge 9",
+   "spec": "1d4",
    "rolls": [
-    6,
-    1
+    3
    ],
-   "total": 7
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    4
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    2
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    5
-   ],
-   "total": 9
+   "total": 3
   },
   {
    "label": "Galerius surprise",
    "spec": "1d6",
    "rolls": [
-    3
+    6
    ],
-   "total": 3
+   "total": 6
   },
   {
    "label": "Faustina surprise",
    "spec": "1d6",
    "rolls": [
-    6
+    2
    ],
-   "total": 6
+   "total": 2
   },
   {
    "label": "Callista surprise",
@@ -3553,9 +3638,9 @@
    "label": "Corvus surprise",
    "spec": "1d6",
    "rolls": [
-    6
+    4
    ],
-   "total": 6
+   "total": 4
   },
   {
    "label": "Varro surprise",
@@ -3569,17 +3654,17 @@
    "label": "Hrodric surprise",
    "spec": "1d6",
    "rolls": [
-    4
+    3
    ],
-   "total": 4
+   "total": 3
   },
   {
    "label": "Quintus surprise",
    "spec": "1d6",
    "rolls": [
-    6
+    2
    ],
-   "total": 6
+   "total": 2
   },
   {
    "label": "Zaira surprise",
@@ -3593,122 +3678,17 @@
    "label": "Severina surprise",
    "spec": "1d6",
    "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Marius surprise",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather temperature (R06.06)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    4
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather precipitation (R06.06)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    1
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather wind (R06.06)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    3
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    2
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    4
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    6
-   ],
-   "total": 11
-  },
-  {
-   "label": "Varro surprise",
-   "spec": "1d6",
-   "rolls": [
     1
    ],
    "total": 1
   },
   {
-   "label": "Severina surprise",
+   "label": "Marius surprise",
    "spec": "1d6",
    "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
     2
    ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    3
-   ],
-   "total": 7
-  },
-  {
-   "label": "Faustina's Cure Light Injury on the eagle",
-   "spec": "1d6+1",
-   "rolls": [
-    4
-   ],
-   "total": 5
+   "total": 2
   }
  ],
  "rumours_heard": [

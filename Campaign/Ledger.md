@@ -414,3 +414,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 105 | a caster in Türos Tem | spellcasting: Cure Disease |  |  | 45gp | faustina |
 | 105 | a caster in Türos Tem | spellcasting: Cure Disease |  |  | 45gp | faustina |
 | 105 | Traveler's Inn | lodging, 1 night(s) |  |  | 5gp 6sp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 106 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 107 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 108 | Apsa's orcs of 27 | two nights' shelter in the toll room and minding the donkeys (Judge's call; the truce) |  |  | 20gp | faustina |

@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 105
-  time: '13:09'
+    day: 110
+  time: 07:04
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)
   place: Türos Tem
-  hex: '22.20'
+  hex: '19.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -23,7 +23,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 5.845
+    encumbrance_st: 5.679
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -38,9 +38,8 @@ public:
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Cure Light Injury
-    encumbrance_st: 4.389
+    spells_used: []
+    encumbrance_st: 4.36
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -98,14 +97,11 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.839
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out
-  rations: 'Galerius: food 7 d, water 1.4 d; Faustina: food 8 d, water 1 d; Callista: food 9 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 7 d, water 0.6 d; Hrodric: food 7 d, water 1 d; Quintus: food 16 d, water 1 d; Zaira: food 13 d, water 1 d; Severina: food 17 d, water 1 d; Marius: food 7 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out
+  rations: 'Galerius: food 10 d, water 0 d; Faustina: food 11 d, water 0 d; Callista: food 12 d, water 0 d; Corvus: food 11 d, water 0 d; Varro: food 10 d, water 0 d; Hrodric: food 10 d, water 0 d; Quintus: food 14 d, water 0 d; Zaira: food 9 d, water 0 d; Severina: food 13 d, water 0 d; Marius: food 10 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '21.20'
-  - '22.20'
-  - '21.20'
   - '20.19'
   - '21.19'
   - '20.19'
@@ -123,7 +119,10 @@ public:
   - '22.20'
   - '21.20'
   - '22.20'
-clock_day: 105
+  - '21.20'
+  - '20.19'
+  - '19.19'
+clock_day: 110
 ---
 # Campaign State
 
