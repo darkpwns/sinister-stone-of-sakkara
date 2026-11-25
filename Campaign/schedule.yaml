@@ -1,7 +1,7 @@
 # The campaign's recurring procedures (acks-schedule/1): what falls due on which day, the rolls it takes and what the
 # Judge then does. Read by `acks.sh schedule due|run|done|skip` and named on every clock command (ACKS_SCHEDULE).
-# Run 2 (2026-11-24): started empty. Every roll is hidden (the world's). What was done is logged in
-# Campaign/schedule-log.jsonl. Run 1's schedule is in Archive/Run 1 (S01-S54)/Campaign/schedule.yaml. Judge only.
+# Run 3 (2026-11-25): started empty. Every roll is hidden (the world's). What was done is logged in
+# Campaign/schedule-log.jsonl. Earlier runs' schedules are in Archive/. Judge only.
 schema: acks-schedule/1
 month_days: 30
 items:
@@ -13,29 +13,3 @@ items:
   steps:
   - "wages and market month (30-day months); training courses' milestones (`train due`); no domains or incomes yet"
   source: "Table rules (month length 30 days)"
-
-- id: troglodyte-victim-raid
-  title: The troglodytes seek a victim for the Stone (Troglodyte Warren)
-  every: 7
-  anchor: 139
-  from: 139
-  until: 143                          # the warband destroyed and the Stone broken, day 143 (S16)
-  rolls:
-  - label: "a troglodyte gang raids level 2 for a sacrifice (1-2)"
-    dice: 1d6
-    outcomes: {"1-2": "a gang (gang B if not met) goes up the crack for a victim: a Black Fang gnoll, a wanderer, an orc", "3-6": "nothing yet"}
-  steps:
-  - "on a raid: decide the victim (a hidden roll), deduct it from its faction; the chieftain feeds it to the Stone (the first sacrifice makes him its favoured; the most makes him its owner, AX1 App. II)"
-  - "month 5 ends day 150: the Stone loses 5 hp unless fed 200 XP of victims this month"
-  source: "Troglodyte Warren hub (R2 S16 build); AX1 App. II"
-
-- id: orc-raid-hobgoblins
-  title: Apsa's orcs raid the hobgoblins (L1)
-  every: 7
-  anchor: 141
-  from: 141
-  rolls:
-  - label: "orc raid on the hobgoblins (1-2) (Rulings R2 S12)"
-    dice: 1d6
-    outcomes: {"1-2": "a raid: outcome 1d6 as days 73-86", "3-6": "none"}
-  source: "Rulings R2 S12, R2 S14 (weekly from day 120; week of day 134 rolled in S15: none)"

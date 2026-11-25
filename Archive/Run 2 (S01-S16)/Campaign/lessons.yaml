@@ -1,0 +1,429 @@
+# Lessons index (acks-lessons/1): what this campaign has learned, as data the engine checks on every command
+# (acks.sh exports it as ACKS_LESSONS). Format and facts: acks2-tools engine/acks/lessons.py and
+# engine/docs/judge-memory.md. status: engine = enforced by the engine or a script (nothing to remember);
+# remind = a REMINDER part on the command's line; refuse = the command is not run until ACKS_ACK=<id>;
+# judge = prose only. A slip is recorded with `acks.sh lesson slip ID --day N --note "…"` (Campaign/slips.jsonl);
+# `acks.sh lesson check` lists what to escalate. Judge only.
+schema: acks-lessons/1
+run: 2                       # the current run (engine 7.24.0, B4): a lesson with `run: 1` no longer fires
+lessons:
+
+# ---- the sixteen kinds of slip recorded through S28 (Playtest/OPEN-ITEMS.md section D)
+- id: meals-in-town
+  category: town-routine
+  status: engine
+  since: S09
+  triggered_since: S29
+  text: "a day that ends in a settlement counts as eaten and drunk in town; no `eat --in-town` needed (pay the inn)"
+  source: "judge-notes day 175, 241, 393, 438; S19 deaths"
+  enforced_by: "engine 7.17.0: the rollover assumes town meals in a settlement location (--carried-food opts out)"
+
+- id: location-after-return
+  category: town-routine
+  status: remind
+  since: S17
+  triggered_since: S29
+  on: [wait]
+  where: ["location.kind == dungeon", "argv ~ --days|--hours[ =]([4-9]|\\d\\d)"]
+  text: "a long wait under a dungeon location rolls wandering checks and gives no town night: if the company is back in the city, `location --settlement Cyfaraun` first"
+  source: "judge-notes days 317-318 (S17)"
+  enforced_by: "engine 7.17.0: `location --settlement NAME` leaves the dungeon, sets the settlement, resets the rest count"
+
+- id: encounter-open
+  category: encounter-procedure
+  status: engine
+  since: S20
+  triggered_since: S29
+  text: "`encounter start` refuses while an encounter is open: `encounter end` first (or --replace)"
+  source: "judge-notes days 362, 406"
+  enforced_by: "engine 7.13.7"
+
+- id: surprise-members
+  category: encounter-procedure
+  status: refuse
+  since: S21
+  triggered_since: S35
+  on: ["encounter surprise"]
+  without: [--members]
+  text: "`encounter surprise` rolls for the whole exploration party: pass --members for those actually present (made a refusal S35 after the day-523 slip; ACKS_ACK=surprise-members when the whole party is truly present)"
+  source: "judge-notes day 399"
+
+- id: initiative-order
+  category: combat-procedure
+  status: remind
+  since: S20
+  triggered_since: S29
+  on: [attack, rebuke, sweep]
+  where: ["actor.fight.out_of_turn"]
+  text: "this combatant's initiative is not the current count (`round-next` names who acts): resolve actions in order, or say why (a delayed or readied action)"
+  source: "judge-notes days 354, 362, 367, 425, 467"
+
+- id: surprised-cannot-act
+  category: combat-procedure
+  status: engine
+  since: S22
+  triggered_since: S29
+  text: "a surprised combatant takes no action in round 1"
+  source: "judge-notes days 424, 440, 453, 467; RR pp. 282, 514"
+  enforced_by: "engine 7.17.0: surprise lasts through round 1; attack, rebuke, sweep refuse a combatant who cannot act"
+
+- id: spell-targets
+  category: spell-procedure
+  status: remind
+  since: S14
+  triggered_since: S29
+  on: [round-start]
+  with: [--declare]
+  where: ["argv ~ :spell"]
+  text: "a spell is declared: read its range, target count, HD limit and area (judge-screen §1, the vault note) BEFORE rolling any save"
+  source: "judge-notes days 296, 452"
+
+- id: distances-before-melee
+  category: combat-procedure
+  status: remind
+  since: S14
+  triggered_since: S29
+  on: [round-start]
+  where: ["fight.foes > 0", "fight.distances == 0"]
+  text: "no distance or engagement is recorded in this fight: set `state distance A B FT` (or `state engage`) for every foe before melee, or attacks are refused or taken as in reach"
+  source: "judge-notes days 296, 399; S28 G13"
+
+- id: backstab
+  category: combat-procedure
+  status: engine
+  since: S17
+  triggered_since: S28
+  on: [attack]
+  where: ["actor.class == Thief"]
+  text: "backstab is automatic on a vulnerable target and from the rear of a foe engaged by two allies: never add --ambush or --extra-dice backstab; order Vettius after the front line"
+  source: "judge-notes S17, S19, day 399, S28; Rulings S28"
+  enforced_by: "engine 7.15.0"
+
+- id: standing-bonuses
+  category: standing-modifier
+  status: engine
+  since: S11
+  triggered_since: S29
+  text: "a worn item or standing power is entered once as a modifier on the actor (`actor mod`) with its rule; every roll then applies and names it (Divine Blessing +2 on saves is the engine's since 7.14.0)"
+  source: "judge-notes day 261, S28 (cloak and boots, rings)"
+  enforced_by: "engine 7.17.0: throws.<name>, saves.all, flat throws and note.<command> modifiers"
+
+- id: enervation-pinnacle
+  category: standing-modifier
+  status: remind
+  since: S10
+  triggered_since: S29
+  on: [wait, camp, rest-day]
+  where: ["party.conditions ~ enervat", "location.site ~ Cyfaraun"]
+  text: "an enervated character in Cyfaraun sleeps under the Citadel's oculus (hallowed +2; free for the Captain's companions) with Neris' Salving Rest (+4, two passes end it): `enervation set ID --pinnacle hallowed --salving-rest --source \"Rulings S10, S14\"` before the night; the morning save is then the engine's"
+  source: "Rulings S10, S14; judge-notes S10 (Quirinus), S27-S28 (Vettius)"
+  enforced_by: "engine 7.17.0: `enervate` once, the rollover makes each morning's Death save with the standing modifiers"
+
+- id: slab-no-minus-12
+  category: module-ruling
+  status: refuse
+  since: S18
+  triggered_since: S29
+  on: ["explore force-door"]
+  where: ["argv ~ (:|=| )-12\\b"]
+  text: "Rulings S18 dropped SOTN's −12 on slab doors: use `--door-kind \"stone slab\"` (the campaign's doors ruling) and `--helpers`, no hand modifier"
+  source: "Rulings S18; judge-notes S18, day 472"
+  enforced_by: "engine 7.17.0: door kinds are campaign data; Campaign/engine-rulings.yaml `doors:` wins over the module's row"
+
+- id: henchmen-join-kind
+  category: adventure-procedure
+  status: engine
+  since: S16
+  triggered_since: S29
+  text: "`adventure join ID` takes a retinue member as a henchman by itself"
+  source: "judge-notes days 198, 303"
+  enforced_by: "engine 7.17.0: the kind is read from the retinue or the actor's role"
+
+- id: order-roll-on-schedule
+  category: schedule
+  status: engine
+  since: S20
+  triggered_since: S29
+  text: "the Order's roll, the weekly rolls and month's end are in Campaign/schedule.yaml: every clock command names what is due; `schedule run --due`"
+  source: "judge-notes day 417"
+  enforced_by: "engine 7.16.0: `acks schedule`, due items named on turn, wait, clock …"
+
+- id: npc-rolls-hidden
+  category: secrecy
+  status: refuse
+  since: S22
+  triggered_since: S55
+  on: [roll]
+  without: [--hidden]
+  where: ["argv ~ reaction|morale|loyalty|answer|repl(y|ies)|decides|decision|wandering|\\bNPC\\b"]
+  enforced_by: "S55 (engine 7.19.8): `mortal-wounds --name` off the combat state (an NPC's: S32 Irial) is hidden unless --open"
+  text: "rolls for NPCs and the world (reactions, answers, morale, loyalty, decisions, wandering checks) are hidden: add --hidden"
+  source: "SKILL.md §4; judge-notes day 429"
+
+- id: torches-relit
+  category: light
+  status: remind
+  since: S20
+  triggered_since: S29
+  on: [turn, rest]
+  where: ["location.kind == dungeon", "light.lit == 0"]
+  text: "no light is lit in the dungeon: `light on --kind torch --carrier ID` (or `light auto on --carriers A,B` once per delve; `play.py walk N --relight A,B` relights by itself)"
+  source: "judge-notes days 349, 352, 354, 406, 427, 430"
+  enforced_by: "engine 7.17.0: `light auto`; `turn N` stops in the turn the last light burns out"
+
+- id: handoff-facts
+  category: bookkeeping
+  status: engine
+  since: S22
+  triggered_since: S29
+  text: "numbers in the handoff (XP, hp, wage days, what is due) are generated from the state files by handoff.py; never copy a number forward by hand"
+  source: "judge-notes S22-S23 (Thief 9 XP), S28 (wage dates)"
+  enforced_by: "skill: handoff.py, brief.py (Campaign/handoff.md)"
+
+# ---- other standing routine from the handoffs (S08-S28)
+- id: adventure-before-delve
+  category: adventure-procedure
+  status: remind
+  since: S10
+  triggered_since: S29
+  on: [turn]
+  where: ["location.kind == dungeon", "not adventure.open"]
+  text: "no adventure is open: `adventure start --name …` and `adventure join` everyone before the delve, or treasure and monsters have no ledger"
+  source: "HANDOFF routine S10-S28"
+
+- id: fight-end-by-hand
+  category: combat-procedure
+  status: engine
+  since: S13
+  triggered_since: S29
+  text: "`state end` records the defeated monsters in the adventure ledger and writes party hp to the actors: no `recover --monster` or hp copy by hand (fled or captured foes: the JUDGE line gives the command)"
+  source: "judge-notes day 367, S28"
+  enforced_by: "engine 7.17.0"
+
+- id: wage-days
+  category: bookkeeping
+  status: engine
+  since: S28
+  triggered_since: S55
+  text: "a wage falls due on the hiring day + k × 30 (`wages show`: \"next due day N\"); \"paid through day N−1\" is not the due day"
+  source: "judge-notes S28; OPEN-ITEMS 40; slips S47-S48 (wages missed on the road)"
+  enforced_by: "engine: `wages show`; handoff.py prints it; S55 (skill C6): `play.py depart` FAILs on every wage due before the return plus a month and `play.py march` stops on a missed wage or loyalty roll (the S47-S48 slips were helpers that cut those lines)"
+
+- id: hp-reroll-by-the-book
+  category: module-ruling
+  status: engine
+  since: S29
+  text: "a level gained while enervated re-rolls maximum hp with full Hit Dice and takes the roll if higher than the reduced maximum; nothing is subtracted afterwards (MM pp. 17-18; RR p. 509). Decided S29 (user): by the book; Brennus' and Vettius' later level-up rolls beat the corrected maxima, so their present maxima stand (Rulings S29)"
+  source: "OPEN-ITEMS 24 (triage S29); Rulings S29"
+  enforced_by: "engine `level-up` (enervation.level_up)"
+
+- id: underwatch-ward
+  category: module-ruling
+  status: judge  # retired S34 (day 518): Iulia dead, the Underwatch shield returned to the Citadel
+  since: S14
+  triggered_since: S29
+  on: ["encounter fight"]
+  where: ["party.ids ~ iulia"]
+  text: "Iulia bears the Underwatch shield (a Holy Circle that moves with her): once the fight is set up, `state ward add iulia --name \"the Underwatch shield\" --radius 10 --within party --evil foes --fall creature --source \"Rulings S14\"` (`state ward out iulia ID` for anyone beyond 10'); the engine then bars enchanted creatures and drops the barrier per creature; `state ward close iulia` at the next turn"
+  source: "Rulings S14 (row 103), S15, S16, S19; RR p. 225"
+  enforced_by: "engine 7.17.6 `state ward`"
+
+- id: faewyrd-whispers
+  category: module-ruling
+  status: remind
+  since: S28
+  triggered_since: S29
+  on: ["encounter fight", "state add"]
+  where: ["argv ~ (?i)faewyrd"]
+  text: "faewyrd whisper: `state aura add whispers --sources ID,… --radius 5 --save death --per-extra -1 --fail maddened --while-failed \"loses 1 WIS at the start of this initiative while it hears a faewyrd (returns 8 turns after the whispers stop, Rulings S28)\" --source \"SOTN pp. 142-143\"` (greater faewyrd: radius 20); set `state distance` for everyone so the engine knows who hears; the saves are then `round-next`'s"
+  source: "SOTN pp. 142-143; Rulings S28 (row 161); judge-notes S28"
+  enforced_by: "engine 7.17.6 `state aura`"
+
+- id: location-site-keeps-settings
+  category: dungeon-routine
+  status: remind
+  since: S33
+  on: [location]
+  where: ["argv ~ --site", "argv !~ --level"]
+  text: "`location --site NAME` without --level/--wandering/--table resets the site to the JJ default (every 2 turns, no level, no table): pass the hub column's settings with it (Adventure/SOTN/SOTN Hub.md)"
+  source: "judge-notes day 514 (S33)"
+
+- id: driver-loop-stop
+  category: fight-procedure
+  status: engine
+  since: S34
+  triggered_since: S55
+  enforced_by: "engine 7.19.1: `round-auto` steps the rounds in one process and stops at a fallen member, a JUDGE item, a refusal or a side gone; the drivers are retired"
+  text: "a bash loop around a fight driver must break on the driver's non-zero exit (3 a fallen member, 4 a choice left to the Judge): `python3 driver.py … || break`; never let the loop start the next round"
+  source: "judge-notes day 517 (S34: the insect plague placed two rounds late)"
+
+- id: lasting-wounds-in-town
+  category: town-procedure
+  status: remind
+  since: S35
+  on: ["wait"]
+  where: ['party.conditions ~ (lost|ruined|mangled|crippled|destroyed|shattered|blinded)[^;\"\]]{0,60}\(Mortal Wounds|Mortal Wounds, day [0-9]+\): [^;\"\]]{0,60}(lost|ruined|mangled|crippled|destroyed|shattered|blinded)', "location.site ~ Cyfaraun"]
+  text: "a party member carries a disabling lasting wound (Mortal Wounds) while in Cyfaraun: offer Repair Disfigurement and Disability (Arëtar, 185gp, Rulings S12) or record why not; a henchman with his own coin seeks it himself (Judge plays his wishes)"
+  source: "S35 slip: Hrodvar's (day 499) and Phaedra's (day 517) wounds left untreated until the user asked, day 540"
+
+- id: tomb-jacks
+  category: standing-modifier
+  status: remind
+  since: S35
+  on: ["explore force-door"]
+  with: [--door-kind]
+  text: "Hrodvar's tomb-jacks (Rulings S35): on a slab, lid or stone door that lifts or slides, a turn to set them gives the heaver +2 (one with Engineering) or +1 (anyone else, as Hrodvar showed them; Hrodvar left day 567 and Vettius bought the jacks): `--mod \"Hrodvar's tomb-jacks:+2\"` and `turn 1` for the setting; not on hinged doors"
+  source: "Rulings S35 (Hrodvar's tomb-jacks, built day 554)"
+- id: hands-before-delve
+  category: delve-routine
+  status: remind
+  since: S38
+  on: ["adventure start"]
+  text: "before the first turn below, look at every member's hands (`inv show ID`): front-liners hold melee weapons, archers may hold bows only at the rear, a priest's symbol in one hand and a weapon at the belt; a driver must stop (never run on) when an attack is refused"
+  source: "judge-notes S38 (I7: Cotta's and Neris' lost actions)"
+
+- id: lots-before-treasure-delve
+  category: treasure
+  status: remind
+  since: S46
+  on: ["adventure start"]
+  text: "before a descent for a site's treasure, list what was already taken there: `python3 -c` over Campaign/adventure-state.json lots by found.where (or `acks.sh adventure show`), not only World State prose (S45 took N's emptied laboratory a second time)"
+  source: "judge-notes S46 day 625"
+
+- id: secret-entries-first
+  category: town-routine
+  run: 1                              # engine 7.24.0 (B4): never fires in run 2
+  status: judge                       # scoped to run 1 (user, 2026-11-24): was refuse; it fired on every `schedule run --due`
+  scope: "run 1 (S01-S54) only: the Family's (thieves' guild's) weekly secret; run 2 has no such schedule item. Restore status refuse only if a run-2 schedule gains a weekly-secret item"
+  since: S47
+  on: ["schedule run"]
+  where: ["argv ~ weekly-secret"]
+  text: "the Family's week's secret is rolled on six entries written first in World State (Rulings S25): write them, then run with ACKS_ACK=secret-entries-first"
+  source: "judge-notes day 638 (S47): the schedule rolled the secret before the entries were written"
+
+- id: wages-before-split
+  category: bookkeeping
+  status: remind
+  since: S47
+  on: ["party remove", "travel", "camp", "rest-day"]
+  text: "before days pass away from the employers' eyes: `wages show` and pay every wage that falls due before the expected return PLUS A MONTH (the march may run long) (a missed wage is a calamity roll at the rollover); a helper script that cuts engine lines must stop on 'missed' and 'loyalty'"
+  source: "judge-notes days 666-680 (S47): Ennia, Phaedra (Hostility) and Tiberius missed"
+
+- id: lady-favour-reroll
+  category: rulings
+  status: judge                      # lapsed day 773 (S50): no actor carries the favour now
+  since: S49
+  on: [save]
+  where: ["party.conditions ~ Lady's favour[^;\"\\]]{0,200}unused"]
+  text: "a party member who fails this save may carry the Lady's favour (Calefa's boon, day 743, to day 773): the AI player re-rolls once if it matters (the first result stands if the second is worse); then mark it used on his conditions"
+  source: "Rulings S48 (Calefa's boon), S49 (granted day 743)"
+
+- id: move-within-speed
+  category: combat
+  status: remind
+  since: S49
+  on: ["state distance"]
+  where: ["fight.open"]
+  text: "a party member's move in a round is at most his running speed (combat speed if he also attacks or casts): `acks.sh move-rate ID` (loaded Lucilla, Brennus and Aelia run 30'); a charge is refused past running speed, a plain move is not"
+  source: "judge-notes S49 day 743 round 13 (Lucilla and Vettius moved 90')"
+
+- id: hench-level-loyalty-once
+  category: henchmen
+  status: remind
+  since: S49
+  on: [loyalty]
+  where: ["argv ~ --trigger level"]
+  text: "`level-up --member ID --apply` already rolls a henchman's level loyalty: do not roll it again"
+  source: "judge-notes S49 day 743 (Ennia's second roll void)"
+
+# ---- run 2 (from 2026-11-24)
+- id: camp-past-encounter
+  category: overland
+  status: engine
+  triggered_since: R2 S13
+  since: R2 S03
+  on: [camp, rest-day, water, travel, forced-march, wait, forage, hunt, search, firewood]
+  where: ["encounter.open"]
+  text: "an encounter is open (a night encounter the camp stopped at): resolve it (`encounter surprise|reaction|fight`, then `encounter end`) and `camp --resume`; a second `camp` ran 12 hours past the wraiths (Rulings R2 S03)"
+  source: "R2 S03 day 8 (Tertia's death replayed)"
+  enforced_by: "engine 7.23.0 (A1): encounter end refuses an arrived unplayed encounter without --unplayed; acks.sh batch stops after a command that brought one; camp, wait, travel, location and the day commands refuse while one is unresolved (ACKS_ACK=encounter-open)"
+
+- id: load-before-march
+  category: overland
+  status: engine
+  triggered_since: R2 S13
+  since: R2 S02
+  on: [travel, forced-march]
+  text: "after any load change, check that every `inv give` went through and every member's `move-rate` band is what the march needs: one refused give left Galerius at 30' for an afternoon"
+  source: "R2 S02 day 5"
+  enforced_by: "engine 7.23.0 (B2): travel refuses while a member is slower than the column and his load could ride a pack animal with room; it names the items, the animal and the miles gained (ACKS_ACK=load-before-march)"
+
+- id: rest-due
+  category: dungeon
+  status: engine
+  triggered_since: R2 S13
+  since: R2 S02
+  on: [turn]
+  where: ["location.kind == dungeon"]
+  text: "a rest turn after every five turns in a dungeon (`rest`); the line says 'rest due': the party left the temple winded on day 4"
+  source: "R2 S02 day 4"
+  enforced_by: "engine 7.23.0 (B1): turn refuses the sixth dungeon turn without a rest turn (ACKS_ACK=rest-due); turn N --auto-rest"
+
+- id: familiar-guide
+  category: overland
+  status: remind
+  since: R2 S09
+  on: [travel, forced-march]
+  without: [--familiar]
+  text: "Corvus guides in his surveyed hexes (22.20, 21.20, 20.19, 19.19; Rulings R2 S05): pass `--familiar corvus` when he leads there; on day 61 the bonus was left out and a navigation die that would have succeeded failed"
+  source: "R2 S09 day 61 (judge-notes)"
+
+- id: combat-failure-state
+  category: party-play
+  status: remind
+  since: R2 S09
+  on: ["encounter fight", "state init"]
+  text: "the user's table rule: combat is a failure state; a fight starts only when the foe cannot fight back or is plainly outmatched by the party and its allies. Before this command: was parley, tribute, trade, an alliance with a rival tribe, or walking away tried? Count the foe's HD and one blow's damage against the party's hp; name the fallback if the edge fails"
+  source: "R2 S09 (user: the void run's ogre den)"
+
+- id: town-days-weather
+  category: overland
+  status: remind
+  since: R2 S09
+  on: [travel, forced-march]
+  text: "days spent in a settlement roll no weather, so mud never dries: before the first march out of town, `weather --at HEX --day N` for each town day since the last roll"
+  source: "R2 S09 (judge-notes)"
+
+- id: round-auto-current
+  category: combat
+  status: remind
+  since: R2 S09
+  on: [round-auto]
+  text: "round-auto acts for the current combatant itself: never call `round-next` just before it (Corvus lost an attack, void run of S09); after a parley ends a fight, `state end` at once: a standing `hold` still attacks a foe in reach"
+  source: "R2 S09 void run (judge-notes)"
+
+- id: temple-corridor
+  category: overland
+  status: remind
+  since: R2 S12
+  on: [travel, forced-march]
+  text: "the user's table rule until the Buried Temple is complete: wilderness travel only between Türos Tem and the temple (22.20, 21.20, 20.19, 19.19); a route anywhere else is refused by the Judge (a lost party returns to the corridor)"
+  source: "R2 S12 (user)"
+
+- id: water-at-known-source
+  category: overland
+  status: remind
+  run: 2
+  since: R2 S15
+  on: [camp, travel]
+  text: "before camp and before the day's march, fill the skins where the party stands or passes a known source (`water --source \"<the travel block's water_sources name>\"`, or `water` at a river): 5 skins hold one day, hot and sweltering days need more; the AI players (Ingrid) never march on with empty skins past a well"
+  source: "R2 S15 days 137-138 (Judge's correction: CON lost to thirst beside the 21.20 well, restored)"
+
+- id: note-penalty-before-reaction
+  category: encounters
+  status: remind
+  run: 2
+  since: R2 S16
+  on: [reaction]
+  text: "if the surprise line just offered a monster note's penalty (chameleon scales, hunters, translucent), run `encounter surprise --apply-note-penalty` BEFORE this reaction: afterwards it is refused"
+  source: "R2 S15 day 132 (troglodytes), R2 S16 night of day 144 (giant toads)"

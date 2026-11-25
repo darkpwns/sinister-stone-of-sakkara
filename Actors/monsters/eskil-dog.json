@@ -1,0 +1,11 @@
+{
+"schema": "acks-actor/2",
+"id": "eskil-dog",
+"type": "monster",
+"name": "Eskil's dog",
+"state": {"hp_max":2,"hp":2},
+"changes": [{"cause":"made: owner level 1 (RR Shaman, Totem Animal)","hd":"1/2","hp_max":2,"ac":2},{"cause":"rescaled: owner level 1 (RR Shaman, Totem Animal)","hd":"1/2","hp_max":2,"ac":2}],
+"base": "hunting-dog",
+"overrides": {"hd":{"text":"1/2","dice":0,"half":true,"bonus":0,"stars":0,"attack_hd":"1/2"},"ac":2,"save_as":["F",0],"attacks":[{"count":1,"names":["bite"],"raw":"1 (bite 9+)","throw":12}],"damage":[{"pieces":[{"dice":"1d4","extraordinary":false,"raw":"1d4","types":["piercing"]}],"raw":"1d4"}]},
+"companion": {"owner":"eskil","rule":"shaman-totem","totem":"Dog","damage":"1d4","level":1,"status":"alive"}
+}

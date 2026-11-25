@@ -1,0 +1,21 @@
+{
+"schema": "acks-actor/2",
+"id": "fulvia",
+"type": "character",
+"role": "pc",
+"name": "Fulvia",
+"class": "Thief",
+"level": 1,
+"xp": 0,
+"alignment": "Neutral",
+"birthplace": "Türos Tem",
+"age": 21,
+"gender": "female",
+"hp_max": 5,
+"attributes": {"STR":12,"INT":15,"WIL":15,"DEX":15,"CON":14,"CHA":11},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Trapfinding","list":"class"},{"type":"proficiency","name":"Bargaining","list":"general"},{"type":"proficiency","name":"Streetwise","list":"general"}],
+"modifiers": [],
+"state": {"conditions":[],"spells_used":[],"hp":5},
+"changes": [{"field":"attributes.DEX","from":null,"to":15,"cause":"chargen: attribute DEX (5d6)"},{"field":"attributes.INT","from":null,"to":15,"cause":"chargen: attribute INT (4d6)"},{"field":"attributes.CHA","from":null,"to":11,"cause":"chargen: attribute CHA (4d6)"},{"field":"attributes.STR","from":null,"to":12,"cause":"chargen: attribute STR (3d6)"},{"field":"attributes.WIL","from":null,"to":15,"cause":"chargen: attribute WIL (3d6)"},{"field":"attributes.CON","from":null,"to":14,"cause":"chargen: attribute CON (3d6)"},{"field":"id","from":"rosa-4","to":"fulvia","cause":"chargen: Rosa's set 4 of 5 selected as the PC (Rulings R3 S01)"},{"field":"class","from":null,"to":"Thief","cause":"chargen: class Thief"},{"field":"level","from":null,"to":1,"cause":"chargen: class Thief"},{"field":"xp","from":null,"to":0,"cause":"chargen: class Thief"},{"field":"hp_max","from":null,"to":5,"cause":"chargen: hit points (1d4)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Adventuring","list":"general"},"cause":"chargen: starting proficiency"},{"field":"age","from":null,"to":21,"cause":"chargen: starting age (17 + 1d6)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Trapfinding","list":"class"},"cause":"chargen: class proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Bargaining","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Streetwise","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"alignment","from":null,"to":"Neutral","cause":"chargen: set alignment"},{"field":"gender","from":null,"to":"female","cause":"chargen: set gender"},{"field":"birthplace","from":null,"to":"Türos Tem","cause":"chargen: set birthplace"},{"field":"inventory_holder","from":null,"to":true,"cause":"chargen: inventory holder: starting gold (3d6 x 10)"},{"field":"chargen","from":{"method":"no-templates","done":["attributes","class","hp","gold","age","equipment"],"owed":{"class":0,"general":0,"spells":0},"template":null,"next":"finish ID"},"to":null,"cause":"chargen: finished"}]
+}

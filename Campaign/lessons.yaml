@@ -5,7 +5,7 @@
 # judge = prose only. A slip is recorded with `acks.sh lesson slip ID --day N --note "…"` (Campaign/slips.jsonl);
 # `acks.sh lesson check` lists what to escalate. Judge only.
 schema: acks-lessons/1
-run: 2                       # the current run (engine 7.24.0, B4): a lesson with `run: 1` no longer fires
+run: 3                       # the current run (engine 7.24.0, B4): a lesson with `run: 1` no longer fires
 lessons:
 
 # ---- the sixteen kinds of slip recorded through S28 (Playtest/OPEN-ITEMS.md section D)
@@ -413,7 +413,6 @@ lessons:
 - id: water-at-known-source
   category: overland
   status: remind
-  run: 2
   since: R2 S15
   on: [camp, travel]
   text: "before camp and before the day's march, fill the skins where the party stands or passes a known source (`water --source \"<the travel block's water_sources name>\"`, or `water` at a river): 5 skins hold one day, hot and sweltering days need more; the AI players (Ingrid) never march on with empty skins past a well"
@@ -422,7 +421,6 @@ lessons:
 - id: note-penalty-before-reaction
   category: encounters
   status: remind
-  run: 2
   since: R2 S16
   on: [reaction]
   text: "if the surprise line just offered a monster note's penalty (chameleon scales, hunters, translucent), run `encounter surprise --apply-note-penalty` BEFORE this reaction: afterwards it is refused"

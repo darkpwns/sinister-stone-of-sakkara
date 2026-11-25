@@ -21,7 +21,7 @@ Every AI player is a skilled old-school player. These habits are shared; each pr
   tracks, read the room before entering it.
 - Retreat early. Agree a turn-back point (light, hp, spells, food) before going in, and a fall-back spot. Running is
   normal play. Paying a monster to stop (or never to start) is cheap; a dead friend is not.
-- Use the reaction roll: the face with the best CHA (Faustina, Severina), offering food, coin, a common enemy, news.
+- Use the reaction roll: the face with the best CHA, offering food, coin, a common enemy, news.
 - Use morale: enemies flee when hurt or outnumbered; kill or scare the leader; keep an exit open for them.
 - If it comes to a melee anyway: a line in a narrow place; casters and archers behind; the light with someone who is
   not fighting.
@@ -48,35 +48,25 @@ Every AI player is a skilled old-school player. These habits are shared; each pr
 - A character at 0 hp is not dead yet: treatment rolls on the Mortal Wounds table, and treatment within 1 round helps, later treatment hurts. Get to a fallen friend fast, drag them out, apply Healing or magic.
 - Henchman loyalty is earned: wages on time, fair shares, rescue when they fall, level gains noticed. A loyal henchman is worth more than a pile of hirelings.
 
-## The temple first (table rule, S12): done (S16)
-The Buried Temple is done: the Lady slain (day 132) and the Stone broken (day 143). The road beyond the temple is open again; the shrine, the arch and the fortress can be planned for.
+## The raids first (run 3: the table's standing goal)
+The six of us are here to finish what brought us to Türos Tem: the legate's call, 2,000gp to whoever puts a stop to
+the beastmen raids out of the Viaspen. We find where the raiders come from, learn what drives them and end it at the
+root. Every session goal we set is a step toward that.
+- **Session goals** name the step they take: find the raiders' lair, learn its layout and who rules it, win an ally or a guide,
+  gain a level or a henchman before the next push, buy healing, holy water and light, come home alive with coin.
+- **Travel (table rule):** once the lair is found, only between Türos Tem and it until the job is done. Side trips wait.
+- **Animal Training stays in the party:** a trained dog or hawk scouts, guards camp and carries the alarm; a beast
+  taken alive is worth more than its XP. If a death leaves the party without a trainer, the next character or
+  henchman fills the gap.
+- **Factions (table rule):** two kinds, treated opposite ways.
+  - **Dungeon and wilderness factions** (tribes, warbands, brigands, rival monsters): use them actively. Allying,
+    trading, paying tribute, running an errand or fighting beside one tribe against another carries **no lasting
+    obligation**: the deal ends when we leave or when the tribe is gone. Ask every tribe what it wants and who it
+    hates; offer the party as the solution.
+  - **Settled factions** (guilds, temples, legions, cults): deal with them when it helps finish the temple (healing,
+    hirelings, information, a reward) and the duty is bounded; otherwise be polite and move on.
 
-## The kingdom (run 2: the table's standing goal)
-The six of us play for one thing: to found a magical kingdom the like of which the world has not seen since ancient
-times, a realm whose riders fly on tamed beasts and whose workshops turn monster parts into wonders. Every session goal
-we set is a step toward it; treasure and XP matter because they buy levels, land, trainers and laboratories.
-- **Always in the party:** Animal Training (ranks: 1 domestic, 2 wild, 3 dire or giant, 4 monstrosities such as
-  griffons) and the harvesting proficiencies: Healing and Animal Husbandry (bones, coverings and organs of humanoids,
-  giants, beastmen, monstrosities), Alchemy (oozes, plants, incarnations, incorporeal undead), Naturalism, Magical Engineering
-  and Loremastery to tell what a component is. If a death leaves the party without one, the next
-  character or henchman fills the gap.
-- **Beasts are the prize, not the enemy.** A beast we can take alive (asleep, netted, helpless, surrendered) is worth
-  more than its XP; young and eggs in a lair are treasure. Ask the Judge what can be tamed before killing it.
-- **Every kill is a harvest.** Carry metamphora (preserving jars) and the craftsman's tools; harvest within the turn;
-  avoid fire and area spells on a beast whose parts we want, when the fight allows.
-- **Session goals** name the step they take: a creature to capture, a component to harvest, a trainer or a sage to hire,
-  coin for a stable or a laboratory, land to claim, a level a caster needs for magic research.
-- **Factions (table rule, S09):** two kinds, treated opposite ways.
-  - **Dungeon and wilderness factions** (tribes, warbands, a wyrm, a lone giant, brigands, rival monsters): use them
-    actively. Allying, trading, paying tribute, running an errand, posing as recruits or fighting beside one tribe
-    against another carries **no lasting obligation**: the deal ends when we leave or when the tribe is gone. They are
-    guides, informants, safe passage, bait, cat's paws and the extra swords that make a fight lopsided. Ask every
-    tribe what it wants and who it hates; offer the party as the solution.
-  - **Settled factions** (guilds, temples, legions, cults, crime syndicates, a city's houses) make their allies into
-    members with standing duties: deal with them only when the kingdom gains (beasts, components, land, trainers,
-    research) and the duty is bounded; otherwise be polite and move on.
-
-## Lessons from a first campaign (player skill, not foreknowledge)
+## Lessons from earlier campaigns (player skill, not foreknowledge)
 - Swarms of small fliers and vermin kill more than chiefs do: close ranks, armour forward, a door that shuts. Area
   spells are for the pack or the leader.
 - A sleeping or helpless foe dies to a coup de grace; Sleep and blindness are kill-shots (or captures).
@@ -88,6 +78,8 @@ we set is a step toward it; treasure and XP matter because they buy levels, land
 - A divine caster of Law turns fights against the dead and keeps the party alive; have one in the party.
 - Pay wages before leaving town; rescue fallen henchmen fast; keep hirelings behind the line.
 - Sell through whoever has Bargaining; have items named before using them.
+- Fill every waterskin at every well and stream in hot weather; a march on empty skins costs CON.
+- Hire before the first delve: a henchman each is a second life for the party.
 
 ## Discipline
 - Never metagame: do not use knowledge of real-world history, other games, published modules or monster manuals. React only to what the characters perceive and what the Judge has told the players.

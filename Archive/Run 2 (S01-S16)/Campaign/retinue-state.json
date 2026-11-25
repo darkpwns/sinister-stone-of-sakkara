@@ -1,0 +1,1386 @@
+{
+ "schema": "acks-retinue/2",
+ "month_days": 30,
+ "employers": {
+  "galerius": {
+   "id": "galerius",
+   "actor": "galerius",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "faustina": {
+   "id": "faustina",
+   "actor": "faustina",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "hrodric": {
+   "id": "hrodric",
+   "actor": "hrodric",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "callista": {
+   "id": "callista",
+   "actor": "callista",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "corvus": {
+   "id": "corvus",
+   "actor": "corvus",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "tertia": {
+   "id": "tertia",
+   "actor": "tertia",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "severina": {
+   "id": "severina",
+   "actor": "severina",
+   "domain_ruler": false,
+   "powers": []
+  }
+ },
+ "searches": {
+  "Turos Tem|henchman|0th level": {
+   "market": "Turos Tem",
+   "market_class": "V",
+   "kind": "henchman",
+   "type": "0th level",
+   "table": "henchmen-availability",
+   "row": 0,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C1"
+   ],
+   "region": "Turos Tem",
+   "level": 0,
+   "wage": "12gp/month",
+   "race": "human"
+  },
+  "Turos Tem|henchman|0th level|month 2": {
+   "market": "Turos Tem",
+   "market_class": "V",
+   "kind": "henchman",
+   "type": "0th level",
+   "table": "henchmen-availability",
+   "row": 0,
+   "total": 4,
+   "by_week": [
+    2,
+    1,
+    1
+   ],
+   "weeks": [
+    1,
+    2,
+    3
+   ],
+   "candidates": [
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+   ],
+   "region": "Turos Tem",
+   "level": 0,
+   "wage": "12gp/month",
+   "race": "human"
+  },
+  "Turos Tem|henchman|1st level|month 2": {
+   "market": "Turos Tem",
+   "market_class": "V",
+   "kind": "henchman",
+   "type": "1st level",
+   "table": "henchmen-availability",
+   "row": 1,
+   "total": 1,
+   "by_week": [
+    1,
+    0,
+    0
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C6"
+   ],
+   "region": "Turos Tem",
+   "level": 1,
+   "wage": "25gp/month",
+   "race": "human"
+  }
+ },
+ "candidates": {
+  "C1": {
+   "id": "C1",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Ansgar",
+   "status": "refused",
+   "attempts": [
+    {
+     "employer": "callista",
+     "party": "party",
+     "total": 5,
+     "result": "Refuse",
+     "day": 1,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "tertia",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 1,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "tertia",
+     "party": "party",
+     "total": 5,
+     "result": "Refuse",
+     "day": 1,
+     "wage": 12.0,
+     "signing": "week"
+    }
+   ],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Profession (merchant), JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 11,
+     "mod": 0
+    },
+    "INT": {
+     "score": 5,
+     "mod": -2
+    },
+    "WIL": {
+     "score": 6,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 11,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "occupation": "Lumbermonger",
+   "occupation_group": "Licensed Merchant",
+   "proficiencies": [
+    {
+     "name": "Profession (merchant)",
+     "ranks": 2
+    },
+    {
+     "name": "Bargaining",
+     "ranks": 1
+    },
+    {
+     "name": "Labor (lumberjacking)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    }
+   ],
+   "age": 35,
+   "prof_slots": 6,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 2,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 600,
+   "prof_count": 6,
+   "class": "None (0th level)",
+   "ac": 1,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level",
+   "week": 1,
+   "actor": "c1",
+   "try_again": false
+  },
+  "C2": {
+   "id": "C2",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Marius",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "faustina",
+     "party": "party",
+     "total": 4,
+     "result": "Refuse",
+     "day": 31,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "severina",
+     "party": "party",
+     "total": 14,
+     "result": "Accept with élan",
+     "day": 31,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 11,
+     "mod": 0
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 8,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "occupation": "Cantinakeeper",
+   "occupation_group": "Hosteller",
+   "proficiencies": [
+    {
+     "name": "Profession (cantinakeeper)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Labor (cooking)",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    },
+    {
+     "name": "Streetwise",
+     "ranks": 1
+    }
+   ],
+   "age": 27,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 4,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 1,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 2",
+   "week": 1,
+   "actor": "marius",
+   "try_again": false,
+   "accepted_by": "severina",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C3": {
+   "id": "C3",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Lupa",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "faustina",
+     "party": "party",
+     "total": 5,
+     "result": "Refuse",
+     "day": 31,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "severina",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 31,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "the package uses 5 slots, 1 more than the age allows: book package kept",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 12,
+     "mod": 0
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 16,
+     "mod": 2
+    },
+    "DEX": {
+     "score": 9,
+     "mod": 0
+    },
+    "CON": {
+     "score": 11,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "occupation": "Butcher",
+   "occupation_group": "Journeyman Crafter",
+   "proficiencies": [
+    {
+     "name": "Labor (butchery)",
+     "ranks": 2
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    },
+    {
+     "name": "Weapon Proficiency (swords/daggers)",
+     "ranks": 1
+    }
+   ],
+   "age": 21,
+   "prof_slots": 4,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 2",
+   "week": 1,
+   "actor": "lupa",
+   "try_again": false,
+   "accepted_by": "severina",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C4": {
+   "id": "C4",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Petra",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "severina",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 38,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Craft (tailoring), JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 14,
+     "mod": 1
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 11,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 8,
+     "mod": -1
+    },
+    "CON": {
+     "score": 11,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 14,
+     "mod": 1
+    }
+   },
+   "occupation": "Tailor/Seamstress",
+   "occupation_group": "Apprentice Crafter",
+   "proficiencies": [
+    {
+     "name": "Craft (tailoring)",
+     "ranks": 1
+    },
+    {
+     "name": "Craft (weaving)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": -1,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 2",
+   "week": 2,
+   "actor": "petra",
+   "try_again": false,
+   "accepted_by": "severina",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C5": {
+   "id": "C5",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Titus",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "severina",
+     "party": "party",
+     "total": 14,
+     "result": "Accept with élan",
+     "day": 45,
+     "wage": 12.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 6,
+     "mod": -1
+    },
+    "INT": {
+     "score": 8,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 17,
+     "mod": 2
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 9,
+     "mod": 0
+    }
+   },
+   "occupation": "Bookbinder",
+   "occupation_group": "Master Crafter",
+   "proficiencies": [
+    {
+     "name": "Craft (bookbinding)",
+     "ranks": 3
+    },
+    {
+     "name": "Art (embossing)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 33,
+   "prof_slots": 6,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 600,
+   "prof_count": 6,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 2",
+   "week": 3,
+   "actor": "titus",
+   "try_again": false,
+   "accepted_by": "severina",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C6": {
+   "id": "C6",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Varro",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "faustina",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 52,
+     "wage": 25.0,
+     "signing": null
+    },
+    {
+     "employer": "faustina",
+     "party": "party",
+     "total": 14,
+     "result": "Accept with élan",
+     "day": 52,
+     "wage": 25.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 10,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 4,
+     "mod": -2
+    },
+    "CON": {
+     "score": 8,
+     "mod": -1
+    },
+    "CHA": {
+     "score": 15,
+     "mod": 1
+    }
+   },
+   "class": "Crusader",
+   "hit_die": "1d6",
+   "hp_max": 3,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 10,
+    "blast": 16,
+    "implements": 13,
+    "spells": 15
+   },
+   "caster": true,
+   "morale": 0,
+   "ac": -2,
+   "wage_table": "25gp/month",
+   "search": "Turos Tem|henchman|1st level|month 2",
+   "week": 1,
+   "actor": "varro",
+   "try_again": false,
+   "accepted_by": "faustina",
+   "elan": true,
+   "offer_wage": 25.0,
+   "morale_src": "as Heavy Infantry"
+  },
+  "C7": {
+   "id": "C7",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Quintus",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "galerius",
+     "party": "party",
+     "total": 8,
+     "result": "Try Again",
+     "day": 74,
+     "wage": 25.0,
+     "signing": null
+    },
+    {
+     "employer": "galerius",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 74,
+     "wage": 25.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 15,
+     "mod": 1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 8,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 11,
+     "mod": 0
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "class": "Fighter",
+   "hit_die": "1d8",
+   "hp_max": 7,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 17
+   },
+   "caster": false,
+   "morale": null,
+   "ac": 0,
+   "wage_table": "25gp/month",
+   "actor": "quintus",
+   "try_again": false,
+   "accepted_by": "galerius",
+   "elan": true,
+   "offer_wage": 25.0
+  },
+  "C8": {
+   "id": "C8",
+   "kind": "henchman",
+   "level": 1,
+   "race": "Elf",
+   "name": "Zaira",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "callista",
+     "party": "party",
+     "total": 12,
+     "result": "Accept with élan",
+     "day": 74,
+     "wage": 25.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 15,
+     "mod": 1
+    },
+    "INT": {
+     "score": 12,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 10,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 16,
+     "mod": 2
+    },
+    "CON": {
+     "score": 11,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 16,
+     "mod": 2
+    }
+   },
+   "class": "Elven Spellsword",
+   "hit_die": "1d6",
+   "hp_max": 5,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 12,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 16
+   },
+   "caster": true,
+   "morale": null,
+   "ac": 0,
+   "wage_table": "25gp/month",
+   "actor": "zaira",
+   "try_again": false,
+   "accepted_by": "callista",
+   "elan": true,
+   "offer_wage": 25.0
+  }
+ },
+ "members": {
+  "marius": {
+   "id": "marius",
+   "name": "Marius",
+   "candidate": "C2",
+   "employer": "severina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 3,
+   "class": "None (0th level)",
+   "occupation": "Cantinakeeper",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 4,
+   "morale": -1,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 100.0,
+   "wage_per": "month",
+   "hired_day": 31,
+   "periods_paid": 5,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 31,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 31,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 32,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 59,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 94,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 100,
+     "event": "loyalty roll (level)",
+     "total": 14,
+     "result": "Fanatic Loyalty",
+     "loyalty": 4
+    },
+    {
+     "day": 119,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 123,
+     "event": "wage 12 -> 50 gp/month (level 2; RR p. 168)"
+    },
+    {
+     "day": 123,
+     "event": "loyalty roll (level)",
+     "total": 11,
+     "result": "Loyalty",
+     "loyalty": 4
+    },
+    {
+     "day": null,
+     "event": "morale in combat (lost 1/3 of his hp (4/6))",
+     "total": 9,
+     "result": "Advance and Pursue"
+    },
+    {
+     "day": 145,
+     "event": "wage 50 -> 100 gp/month (level 3; RR p. 168)"
+    },
+    {
+     "day": 145,
+     "event": "loyalty roll (level)",
+     "total": 13,
+     "result": "Fanatic Loyalty",
+     "loyalty": 4
+    }
+   ],
+   "actor": "marius",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "lupa": {
+   "id": "lupa",
+   "name": "Lupa",
+   "candidate": "C3",
+   "employer": "severina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Butcher",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 1,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 31,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "left (resigned)",
+   "history": [
+    {
+     "day": 31,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 31,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 32,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 33,
+     "event": "loyalty roll (calamity: reduced to 0 hp (round 2))",
+     "total": 4,
+     "result": "Resignation",
+     "loyalty": 1
+    }
+   ],
+   "actor": "lupa",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "petra": {
+   "id": "petra",
+   "name": "Petra",
+   "candidate": "C4",
+   "employer": "severina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Tailor/Seamstress",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 38,
+   "periods_paid": 3,
+   "missed": [],
+   "status": "dismissed",
+   "history": [
+    {
+     "day": 38,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 38,
+     "event": "wages paid: 2 month(s), 24 gp"
+    },
+    {
+     "day": 69,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 74,
+     "event": "left: released with honour and a month's pay: the company takes on classed henchmen (S11, Rosa's choice)"
+    }
+   ],
+   "actor": "petra",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "titus": {
+   "id": "titus",
+   "name": "Titus",
+   "candidate": "C5",
+   "employer": "severina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Bookbinder",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 45,
+   "periods_paid": 3,
+   "missed": [],
+   "status": "dismissed",
+   "history": [
+    {
+     "day": 45,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 45,
+     "event": "wages paid: 2 month(s), 24 gp"
+    },
+    {
+     "day": 69,
+     "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 74,
+     "event": "left: released with honour and a month's pay: the company takes on classed henchmen (S11, Rosa's choice)"
+    }
+   ],
+   "actor": "titus",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "varro": {
+   "id": "varro",
+   "name": "Varro",
+   "candidate": "C6",
+   "employer": "faustina",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 3,
+   "class": "Crusader",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 2,
+   "morale": null,
+   "morale_src": null,
+   "wage_gp": 100.0,
+   "wage_per": "month",
+   "hired_day": 52,
+   "periods_paid": 4,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 52,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 52,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 59,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 82,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 102,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 133,
+     "event": "wage 25 -> 50 gp/month (level 2; RR p. 168)"
+    },
+    {
+     "day": 133,
+     "event": "loyalty roll (level)",
+     "total": 6,
+     "result": "Grudging Loyalty",
+     "loyalty": 2
+    },
+    {
+     "day": 145,
+     "event": "wage 50 -> 100 gp/month (level 3; RR p. 168)"
+    },
+    {
+     "day": 145,
+     "event": "loyalty roll (level)",
+     "total": 7,
+     "result": "Grudging Loyalty",
+     "loyalty": 2
+    }
+   ],
+   "actor": "varro",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "quintus": {
+   "id": "quintus",
+   "name": "Quintus",
+   "candidate": "C7",
+   "employer": "galerius",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 2,
+   "class": "Fighter",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 1,
+   "morale": 0,
+   "morale_src": null,
+   "wage_gp": 50.0,
+   "wage_per": "month",
+   "hired_day": 74,
+   "periods_paid": 4,
+   "missed": [],
+   "status": "left (resigned)",
+   "history": [
+    {
+     "day": 74,
+     "event": "hired",
+     "loyalty": 0
+    },
+    {
+     "day": 74,
+     "event": "wages paid: 2 month(s), 50 gp"
+    },
+    {
+     "day": 74,
+     "event": "set morale: None -> 0 (Judge: light infantry (hide armor, sword, shield), RR p. 167)"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (his employer Galerius fell (a shock))",
+     "total": 14,
+     "result": "Victory or Death"
+    },
+    {
+     "day": 96,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (lost 1/3 of his hp (3/7))",
+     "total": 5,
+     "result": "Morale Faltering"
+    },
+    {
+     "day": 128,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 145,
+     "event": "wage 25 -> 50 gp/month (level 2; RR p. 168)"
+    },
+    {
+     "day": 145,
+     "event": "loyalty roll (level)",
+     "total": 5,
+     "result": "Resignation",
+     "loyalty": 1
+    },
+    {
+     "day": 148,
+     "event": "left: dismissed"
+    }
+   ],
+   "actor": "quintus",
+   "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "zaira": {
+   "id": "zaira",
+   "name": "Zaira",
+   "candidate": "C8",
+   "employer": "callista",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Elven Spellsword",
+   "occupation": null,
+   "race": "Elf",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 0,
+   "morale": 0,
+   "morale_src": null,
+   "wage_gp": 25.0,
+   "wage_per": "month",
+   "hired_day": 74,
+   "periods_paid": 4,
+   "missed": [],
+   "status": "left (resigned)",
+   "history": [
+    {
+     "day": 74,
+     "event": "hired",
+     "loyalty": 1
+    },
+    {
+     "day": 74,
+     "event": "wages paid: 2 month(s), 50 gp"
+    },
+    {
+     "day": 74,
+     "event": "set morale: None -> 0 (Judge: as a mercenary of her kit, RR p. 167)"
+    },
+    {
+     "day": 96,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": 128,
+     "event": "wages paid: 1 month(s), 25 gp"
+    },
+    {
+     "day": null,
+     "event": "morale in combat (lost 1/3 of his hp (3/5))",
+     "total": 9,
+     "result": "Advance and Pursue"
+    },
+    {
+     "day": 141,
+     "event": "loyalty roll (calamity: reduced to -2 hp (round 7))",
+     "total": 4,
+     "result": "Resignation",
+     "loyalty": 0
+    },
+    {
+     "day": 145,
+     "event": "left: dismissed"
+    }
+   ],
+   "actor": "zaira",
+   "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  }
+ },
+ "slander": [],
+ "never_rehire": [],
+ "pending": [],
+ "events": [],
+ "seq": 8,
+ "notes_shown": [
+  "cand.age_row_merchant",
+  "cand.classed_chances",
+  "cand.market_class",
+  "fatigue.six_day_onset",
+  "hire.bribery_signing",
+  "hire.prof_stacking",
+  "loyal.calamity_order",
+  "npcp.class_axes",
+  "wage.timing"
+ ],
+ "spellcasting": {
+  "Türos Tem|Divine-3rd level|day 105": {
+   "available": 5,
+   "used": 2,
+   "attempts": [
+    {
+     "payer": "faustina",
+     "total": 9,
+     "result": "Accept",
+     "spell": "Cure Disease"
+    },
+    {
+     "payer": "faustina",
+     "total": 12,
+     "result": "Accept with élan",
+     "spell": "Cure Disease"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+"schema": "acks-actor/2",
+"id": "silvanus",
+"type": "character",
+"role": "pc",
+"name": "Silvanus",
+"class": "Explorer",
+"level": 1,
+"xp": 0,
+"alignment": "Lawful",
+"birthplace": "Türos Spen",
+"age": 21,
+"gender": "male",
+"hp_max": 6,
+"attributes": {"STR":16,"INT":13,"WIL":11,"DEX":14,"CON":13,"CHA":12},
+"inventory_holder": true,
+"items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Eavesdropping","list":"class"},{"type":"proficiency","name":"Animal Training","list":"general"},{"type":"proficiency","name":"Naturalism","list":"general"}],
+"modifiers": [],
+"state": {"conditions":[],"spells_used":[],"hp":6},
+"changes": [{"field":"attributes.CON","from":null,"to":13,"cause":"chargen: attribute CON (5d6)"},{"field":"attributes.DEX","from":null,"to":14,"cause":"chargen: attribute DEX (4d6)"},{"field":"attributes.STR","from":null,"to":16,"cause":"chargen: attribute STR (4d6)"},{"field":"attributes.INT","from":null,"to":13,"cause":"chargen: attribute INT (3d6)"},{"field":"attributes.WIL","from":null,"to":11,"cause":"chargen: attribute WIL (3d6)"},{"field":"attributes.CHA","from":null,"to":12,"cause":"chargen: attribute CHA (3d6)"},{"field":"id","from":"tomasz-5","to":"silvanus","cause":"chargen: Tomasz's set 5 of 5 selected as the PC (Rulings R3 S01)"},{"field":"class","from":null,"to":"Explorer","cause":"chargen: class Explorer"},{"field":"level","from":null,"to":1,"cause":"chargen: class Explorer"},{"field":"xp","from":null,"to":0,"cause":"chargen: class Explorer"},{"field":"hp_max","from":null,"to":6,"cause":"chargen: hit points (1d6)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Adventuring","list":"general"},"cause":"chargen: starting proficiency"},{"field":"age","from":null,"to":21,"cause":"chargen: starting age (17 + 1d6)"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Eavesdropping","list":"class"},"cause":"chargen: class proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Animal Training","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"items.proficiency","from":null,"to":{"type":"proficiency","name":"Naturalism","list":"general"},"cause":"chargen: general proficiency owed"},{"field":"alignment","from":null,"to":"Lawful","cause":"chargen: set alignment"},{"field":"gender","from":null,"to":"male","cause":"chargen: set gender"},{"field":"birthplace","from":null,"to":"Türos Spen","cause":"chargen: set birthplace"},{"field":"inventory_holder","from":null,"to":true,"cause":"chargen: inventory holder: starting gold (3d6 x 10)"},{"field":"chargen","from":{"method":"no-templates","done":["attributes","class","hp","gold","age","equipment"],"owed":{"class":0,"general":0,"spells":0},"template":null,"next":"finish ID"},"to":null,"cause":"chargen: finished"}]
+}

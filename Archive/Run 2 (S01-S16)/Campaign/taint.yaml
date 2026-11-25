@@ -1,0 +1,30 @@
+# AX1 taint and mutations (engine 7.24.0, C6): the Stone of Sakkara's taint on level 2 (Adventure/AX1 Magic Items.md) and the Abominable Mutation table (Adventure/Level 2 - Catacombs.md room 16, p. 57). Judge only. Purified water carries no taint (Rulings R2 S13).
+schema: acks-taint/1
+module: "AX1 The Sinister Stone of Sakkara, p. 57 (Level 2, room 16; AX1 Magic Items: the Stone's taint)"
+places: [Catacombs]
+save: spells
+die: 1d20
+transform_at: -12
+immersion: {heal: 1d4}
+touch: {heal: 1d4, reaction: -1}
+rows:
+  1: {name: Deformity, reaction: 0, text: "roll on the mortal wound table, modified only by CON"}
+  2: {name: Beast eyes, reaction: -2, text: "infravision 60'"}
+  3: {name: Discoloration, reaction: -2}
+  4: {name: Fur, reaction: -2, text: "+1 save vs cold"}
+  5: {name: Scales, reaction: -4, text: "+2 AC; max movement -25%"}
+  6: {name: Claws, reaction: -2, text: "two claw attacks 1d4-1"}
+  7: {name: Distorted muscles, reaction: 0, text: "+1 STR (max 18), -1 CHA (min 3)"}
+  8: {name: Flexible bones, reaction: 0, text: "+1 DEX (max 18), -1 CON (min 3)"}
+  9: {name: Bulging brain, reaction: 0, text: "+1 INT (max 18), -1 CHA (min 3)"}
+  10: {name: Seductive musk, reaction: 1, text: "with humanoids"}
+  11: {name: Fish scales, reaction: -2}
+  12: {name: Tentacles, reaction: -2}
+  13: {name: Third eye, reaction: -2}
+  14: {name: Crystal body, reaction: -4, text: "+3 AC"}
+  15: {name: Arcane eyes, reaction: -2}
+  16: {name: Wings, reaction: 0}
+  17: {name: Viscous bile, reaction: 0}
+  18: {name: Bubbling skin, reaction: -2}
+  19: {name: Eye stalks, reaction: -4}
+  20: {name: Goat legs, reaction: -2}

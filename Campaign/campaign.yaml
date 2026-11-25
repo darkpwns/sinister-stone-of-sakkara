@@ -1,9 +1,9 @@
-# Sakkara campaign, run 2 (2026-11-24): AX1 The Sinister Stone of Sakkara, then AX2 Secrets of the Nethercity, as an
-# acks2-judge campaign, AI party of six with new characters. Run 1 (S01-S54) is in Archive/Run 1 (S01-S54)/.
+# Sakkara campaign, run 3 (2026-11-25): AX1 The Sinister Stone of Sakkara as an acks2-judge campaign, AI party of six
+# with new characters. Runs 1 (S01-S54) and 2 (S01-S16) are in Archive/.
 # Kardakia's master state is untouched. Schema: .claude/skills/acks2-judge/references/config-schema.md.
 
 campaign:
-  name: Sakkara Run 2
+  name: Sakkara Run 3
   repo: darkpwns/sinister-stone-of-sakkara
   clone_dir: /home/user/sinister-stone-of-sakkara
   resume_phrase: resume Sakkara
@@ -95,7 +95,7 @@ secrecy:
   judge_only_callout: '> [!danger] Judge only'
   player_facing:
   - Party/
-  revealed: [Turos Tem, Viaspen Forest, Cyfaraun]   # run 2: Callista and Tertia are from Cyfaraun; Corvus knows the Viaspen
+  revealed: [Turos Tem, Viaspen Forest, Cyfaraun]
 logs:
   session_log:
     folder: Session Log/
@@ -127,17 +127,17 @@ party:
   user_pc: ''
   active_players:
   - id: gideon
-    pc: Characters/galerius.json
+    pc: Characters/lepidus.json
   - id: priya
-    pc: Characters/callista.json
+    pc: Characters/octavia.json
   - id: tomasz
-    pc: Characters/corvus.json
+    pc: Characters/silvanus.json
   - id: rosa
-    pc: Characters/severina.json
+    pc: Characters/fulvia.json
   - id: kwame
-    pc: Characters/hrodric.json
+    pc: Characters/eskil.json
   - id: ingrid
-    pc: Characters/faustina.json
+    pc: Characters/aurelia.json
   pc_pdf_template: ''
   pc_pdf_source: none
   agent:
@@ -148,7 +148,7 @@ party:
     heuristics: Party/heuristics.md
     memory: Party/memory/
     party_notes: Party/party-notes.md
-    call_dir: /tmp/claude-0/-home-user/dce210e1-9026-53ff-b2cc-eb3e36c0a5d9/scratchpad/party
+    call_dir: /tmp/claude-0/-home-user/78d5a01b-f234-5616-b93a-f9e6a8ea467c/scratchpad/party
     call_log: Campaign/party-log.jsonl
     retries: 1
     rules_refused:
@@ -198,7 +198,7 @@ hexes:
     lake:
       acks: null
   classification_map: {}                   # the CSV's 'wilderness' is read by the engine as unsettled (RR p. 338, engine 7.18.0)
-  domains: []                              # a domain's hexes take its classification (engine 7.18.0); run 2 has none yet
+  domains: []                              # a domain's hexes take its classification (engine 7.18.0); run 3 has none yet
   climate:
     by_column:
       below: 99
@@ -214,7 +214,7 @@ hexes:
     types:
     - stronghold
     - town
-month_end:                                 # play.py month-end (skill C4); run 2 has no domains or incomes yet
+month_end:                                 # play.py month-end (skill C4); run 3 has no domains or incomes yet
   schedule_item: month-end
   domains: []
   incomes: []
