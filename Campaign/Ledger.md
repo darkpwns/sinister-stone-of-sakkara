@@ -91,3 +91,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | fulvia |
 | 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | eskil |
 | 7 | Traveler's Inn | stabling the donkey, nights of days 6-7 |  |  | 4sp | eskil |
+| 8 | brokers and criers | recruiting fee (a week's search) |  |  | 3gp | lepidus |
+| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | lepidus |
+| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | aurelia |
+| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | octavia |
+| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | silvanus |
+| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | fulvia |
+| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | eskil |
+| 8 | Traveler's Inn | stabling the donkey, night of day 7 |  |  | 2sp | eskil |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | aurelia |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | octavia |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | silvanus |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | fulvia |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | eskil |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | silvanus |
+| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | fulvia |
+| 8 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | fulvia |
+| 8 | Fulvia | repaying two weeks' rations for Ione and Sextus |  |  | 2gp | eskil |
+| 8 | Eskil | repaid for two weeks' rations |  | 2gp |  | fulvia |
+| 8 | Traveler's Inn | stabling the donkey, night of day 7 (balance) |  |  | 2sp | eskil |
+| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 10gp | octavia |
+| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 24gp | silvanus |
+| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 23gp | fulvia |
+| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 24gp | eskil |

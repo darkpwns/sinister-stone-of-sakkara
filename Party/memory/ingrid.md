@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S03: Lost three days in the forest: everyone went dry on day 13. Fill every skin at every stream, and turn for the river at once when lost.
 - S02: Two waterskins hold under half a day. Five each now; fill at every stream.
 
 ## Opinions of NPCs

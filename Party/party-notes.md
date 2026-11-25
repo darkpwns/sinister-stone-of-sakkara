@@ -20,7 +20,17 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
   (Thales) and purple dragon scales (the legate) sound like tavern talk.
 - S02: Drusus, a scheming brigand, is wanted (750gp from the quartermaster, posted in the fort).
 
+- S03: Inside the black hill: a long hall of frescoes; kobolds hold the west (Urza, paid: they leave us alone for good);
+  brigands hold the east (Drusus is their king; the guards at the double doors dislike us, but a drinking gang
+  liked us and asked us to join); orcs somewhere north-west; hobgoblins in the north-east (our friends now). The
+  hobgoblins say "the Lady" calls the tribes and takes sacrifices; their witch doctor meant to give her their chief.
+- S03: The goblins of the old warrens were butchered by the hobgoblins; a few newcomers remain, angry.
+- S03: Spider eggs in a web in the kobolds' ground: whatever laid them is behind the curtain with the jars.
+
 ## Plans
+- S03: Sell the four silver suns and the spider eggs in Türos Tem (an animal trainer or the mage at the fort);
+  wages for Gaius Rufo and Ione on day 31, Sextus on day 37. Ask Thethamun what lies below and how to reach the Lady.
+- S03: Never leave the river without full skins; Silvanus leads in the forest; carry more water than we think.
 - S02: Back to the hill with Gaius Rufo, Ione and Sextus Varo; pay Urza's toll or talk past the guards; find out
   who "the Lady" is. Carry five waterskins each; the stream near the hill has water.
 - S02: Lepidus' notice brings one more applicant next week. The legate's scroll lets us recruit at the Parade Ground.

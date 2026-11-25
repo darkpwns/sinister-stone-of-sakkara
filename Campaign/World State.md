@@ -13,7 +13,10 @@ records only state. Run 3 starts from the modules as printed: nothing of runs 1 
 | Hex | Terrain | First visited | Notes |
 | --- | --- | --- | --- |
 | 21.20 | farmland | day 2 | Giant tarantulas' lair (2, MM; met at dusk day 4 about 6 miles in from 20.19, evaded unseen: the spiders were surprised) |
-| 20.19 | forest (Viaspen edge) | day 2 | Ground-wasp nest near the day-2 camp (insect swarm, in lair, not roused); dwarf furriers met day 2 (Neutral) |
+| 20.19 | forest (Viaspen edge) | day 2 | an arch of living yew in a glade (portal, sight only; Rulings R3 S03); ground-wasp nest near the day-2 camp (insect swarm, in lair, not roused); dwarf furriers met day 2 (Neutral) |
+| 19.17 | forest (Viaspen) | day 11 | lost; the rabid giant wolf slain (Viaspen encounter 2) |
+| 20.17 | forest | day 12 | lost (aware by evening) |
+| 20.16 | swamp (Viamir edge) | day 13 | a bald knoll (vista: the dome in sight); marsh water; a giant frog's pool (Indifferent) |
 | 19.19 | forest (Viaspen) | day 3 | The black granite hill and its crack (the Buried Temple, L1 1); a stream near the camp (water found day 4) |
 
 ## Dungeons and lairs
@@ -23,6 +26,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 ### [[Level 1 - Buried Temple]]
 - Day 4: Silvanus and Fulvia watched room 1 unseen from the tree line (the kobolds surprised). At 12:40 the party parleyed openly at 60': the four kobold guards Unfriendly, then **Indifferent** after Eskil's influence (natural 12): they named Urza's toll, 10gp a head. Nobody entered.
+- Day 10: **Urza** (Neutral) took 81gp (9 a head for nine, Fulvia's Bargaining): the kobolds leave the company alone for good (`faction` kobolds, tribute). Room 2 frescoes not understood (lore failed). **14** brigand guards Unfriendly (the company withdrew). West corridor: brigand drinking gang (8) Friendly. **45** guards Friendly; **60** Thethamun Friendly (Aurelia laid hands: 1→3 hp; bed-bound to about day 20).
+- Night of day 10 (01:00): **Abgal and Hepteth slain asleep in 60** (Shulgi led the strike). The chief's gift: 4 holy symbols of Ammonar (L3). Abgal's spellbook to Octavia (L2: Choking Grip, magic mouth). Abgal's lamellar and the champions' kit left with the hobgoblins. The hobgoblins' politics: Thethamun and Shulgi rule; the Lady's next call for a sacrifice will find no plotters.
+- Day 11: room 11: the crab-spider eggs taken (L4); room 12 not entered (2 crab spiders, the jars, the garnet still there). Orcs (2, Unfriendly) met in 2.
 
 ## Events triggered
 
@@ -46,7 +52,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 ## Scheduled events
 
 ## Prep queue (Judge only)
-- **At the save (day 7, 20:40, Türos Tem):** next, day 8: Lepidus' 0th-level search week 2 brings one arrival (`recruit --employer lepidus … --week 2`); the Parade Ground volunteers who hesitated may be offered again only with a better offer. The donkey is stabled at the inn (`inv unstable donkey1` before the march; 2sp a night, paid to day 7). Lepidus and Aurelia are at 7.01 st (60'): move waterskins or supplies onto the donkey before marching.
+- **At the save (day 15, 06:00, 20.16, marsh edge):** A2 open (L2-L4 carried; monsters M1-M3). Home by 20.17/20.18 → 21.19? → 21.20 → 22.20 (2-3 days; forest). Food 4 days each (Sextus 0: shares). CON lost to thirst recovering 3 a day. Wages: Gaius and Ione day 31, Sextus day 37.
+- Thethamun (Friendly) is bed-bound; the hobgoblin stair at 53 leads to L2 18 (wizard-locked from below: the Lady). Possessed crab spider in 56 (the hobgoblins pass it).
+- The kobold toll is paid (faction kobolds); the brigand drinking gang (Friendly) may vouch for the company with Drusus.
+- **Former (day 7):** next, day 8: Lepidus' 0th-level search week 2 brings one arrival (`recruit --employer lepidus … --week 2`); the Parade Ground volunteers who hesitated may be offered again only with a better offer. The donkey is stabled at the inn (`inv unstable donkey1` before the march; 2sp a night, paid to day 7). Lepidus and Aurelia are at 7.01 st (60'): move waterskins or supplies onto the donkey before marching.
 - **The kobolds' toll:** Urza, 10gp a head, then the kobolds leave the party alone for good (L1 faction note). The door-guards are Indifferent and know the party's faces.
 - **Thales (Friendly):** loans from the commissary (18f) or mounts from the stables against a pledge.
 

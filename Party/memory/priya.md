@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S03: The way home from the hill drifts north in mist; keep the dome behind and the sun to the left in the morning.
 
 ## Opinions of NPCs
 - S02: Lady Celena enjoys a learned conversation; she invited Octavia to dine.

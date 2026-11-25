@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S03: The strike on the sleeping witch doctor worked because the chief's man led us. Allies first.
 
 ## Opinions of NPCs
 
