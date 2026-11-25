@@ -14,6 +14,8 @@ tags:
 
 | Session | Adventure | Monster | Number | XP each | XP |
 | --- | --- | --- | --- | --- | --- |
+| S09 | A4 | Giant Rat (L1 1, M5) | 9 | 5 | 45 |
+| S09 | A4 | Giant Rat (L1 2, M6) | 9 | 5 | 45 |
 
 ## Shares and XP awarded
 
@@ -24,6 +26,8 @@ tags:
 | S05 | A2 | Eskil | 1 | 193.75 | 49.5 | 0 | 0 | 243 |
 | S05 | A2 | Gaius Rufo | 0.5 | 96.88 | 24.75 | 0 | 0 | 122 |
 | S05 | A2 | Ione | 0.5 | 96.88 | 24.75 | 0 | 0 | 122 |
+| S09 | A4 | Octavia | 1 | 0 | 60 | 0 | +10% | 66 |
+| S09 | A4 | Ione | 0.5 | 0 | 30 | 0 | 0 | 30 |
 
 ## Wages
 
@@ -32,6 +36,8 @@ tags:
 | 1 | Gaius Rufo | 1 (to day 30) | 12 | Lepidus |
 | 1 | Ione | 1 (to day 30) + 3gp signing gift | 15 | Eskil |
 | 7 | Sextus Varo | 1 (to day 36) | 12 | Eskil |
+| 57 | Ione, Tullus Brocchus, Herennius Bow | 1 each (to day 120) | 36 | Eskil, Octavia, Fulvia |
+| 72 | Pallas Cornu | 1 (to day 101) | 12 | Severus |
 
 ## Purchases and sales
 
@@ -230,3 +236,20 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 65 | Traveler's Inn | stabling the second donkey, nights of days 60-64 |  |  | 1gp | fulvia |
 | 65 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | gaius-rufo |
 | 68 | eight orcs in the Entry Way (L1 1) | a week's wages as a bribe (2gp a head; Judge's call) |  |  | 16gp | fulvia |
+| 72 |  | treasure share |  |  |  |  |
+| 72 |  | treasure share |  |  |  |  |
+| 72 | Turos Tem | Spear | 1 |  | 2gp 7sp | lucan |
+| 72 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | valeria |
+| 72 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | severus |
+| 72 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | lucan |
+| 72 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | caelia |
+| 72 | Turos Tem | torch | 6 |  | 1sp | severus |
+| 72 | brokers and criers | recruiting fee (a week's search) |  |  | 5gp | severus |
+| 72 | the retinue | wages paid |  |  | 12gp | severus |
+| 79 | Traveler's Inn | courtyard and meals, nights of days 72-79 |  |  | 1gp 2sp | ione |
+| 79 | Traveler's Inn | courtyard and meals, nights of days 72-79 |  |  | 1gp 2sp | valeria |
+| 79 | Traveler's Inn | courtyard and meals, nights of days 72-79 |  |  | 1gp 2sp | severus |
+| 79 | Traveler's Inn | courtyard and meals, nights of days 72-79 |  |  | 1gp 2sp | lucan |
+| 79 | Traveler's Inn | courtyard and meals, nights of days 72-79 |  |  | 1gp 2sp | caelia |
+| 79 | the hospital of Mityara | a cot in the hospital courtyard, nights of days 72-79 (bloody flux) |  |  | 8sp | octavia |
+| 79 | Traveler's Inn | stabling the two donkeys, nights of days 72-79 |  |  | 3gp 2sp | ione |

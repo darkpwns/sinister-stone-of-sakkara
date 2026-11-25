@@ -32,6 +32,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Night of day 10 (01:00): **Abgal and Hepteth slain asleep in 60** (Shulgi led the strike). The chief's gift: 4 holy symbols of Ammonar (L3). Abgal's spellbook to Octavia (L2: Choking Grip, magic mouth). Abgal's lamellar and the champions' kit left with the hobgoblins. The hobgoblins' politics: Thethamun and Shulgi rule; the Lady's next call for a sacrifice will find no plotters.
 - Day 11: room 11: the crab-spider eggs taken (L4); room 12 not entered (2 crab spiders, the jars, the garnet still there). Orcs (2, Unfriendly) met in 2.
 
+- Day 68 (S09): Entry Way (1): 9 giant rats killed (Slumber, coups de grace); 8 orcs paid 16gp to leave (Neutral). Great Hall (2), west end: 10 giant rats; the company fell; Septimia died there; Urza's door-guards (4) and guard room (6) fought beside the company and fell (most dead); the dormitory's 7 kobolds finished the rats and **stripped the fallen** (about 90gp, Fulvia's silver dagger, Herennius' 3 silver arrows, 2 short swords, Tullus' sword, thieves' tools: holder `urza-kobolds`). Rooms 3 and 4 now hold few kobolds (replacement rolls due weekly, AX1 p. 35: kobolds are not 'leaders killed').
+- Day 69-70: the dead (Septimia, Eskil, Gaius Rufo, Aedo, Tullus, Herennius, Fulvia, Eskil's dog) buried by the stream under the black hill (19.19); `body:` holders keep what was buried with them.
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |
@@ -40,6 +43,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6-7 | The legate's scroll; Eskil hired Sextus Varo (heavy infantry, 0th) at the Parade Ground; Caius Nepo (Silvanus) and Marcus Tullo (Octavia) hesitated | Türos Tem | henchmen 3 |
 | 3-4 | Short water: Silvanus, Fulvia and Eskil dehydrated one night (CON lost; recovering 3 a day) | 19.19 | Ingrid's lesson: more waterskins |
 
+| 53-54 | Genelen cured Septimia, Fulvia, Eskil, Aedo, Octavia (45gp each) | Türos Tem | after four days of Try Again |
+| 68-70 | Seven of the company and Eskil's dog died of the rat packs in the black hill | L1 1-2 | new characters Valeria, Severus, Lucan, Caelia; Ione becomes Kwame's PC; Decimus resigned |
 ## NPC attitudes
 - **Malyn the Misshapen: Friendly** (day 28, Octavia): bought the eggs (295gp); free spellcasting, library and workshop for Octavia's company.
 - Legate Ulrand Valerian: Indifferent (day 1, Eskil); **Friendly** at Lady Celena's dinner (day 6, Eskil, +2 re-roll): two rumours and the scroll to recruit at the Parade Ground (in Eskil's keeping).
@@ -48,14 +53,17 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - Centurion Ilarion: Indifferent (day 1, Aurelia). Subaltern Methori: Indifferent (day 1, Eskil). **Quartermaster Thales: Friendly** (day 1, Lepidus: loans of gear and mounts against a pledge; rumour given).
 - Duty subaltern at the Avenue day 1: Lynara Miren.
 - Dwarf furriers (12, Viaspen): Neutral (day 2).
-- Kobold door-guards (L1 1): Indifferent (day 4).
+- Kobold door-guards (L1 1): Indifferent (day 4); **the guards and the guard room died fighting rats beside the company (day 68) on Septimia's promise of 10gp a head (unpaid); the dormitory's kobolds then robbed the fallen.** Urza's standing: Judge's watch (the promise, the robbery).
+- Sprites (8, 19.19 forest, night of day 67): Friendly to Aedo (dead).
+- Priestess Genelen: Indifferent (cured five on days 53-54).
 
 ## Faction standing
 
 ## Scheduled events
 
 ## Prep queue (Judge only)
-- **At the save (day 49, 18:16, Türos Tem):** A3 paid (75 XP). Diseases (engine `disease show`): Eskil Ague symptomatic to day 76; Octavia Spotted Pox (symptoms day 49), Aedo Putrid Fever (49), Gaius Bloody Flux (49), Decimus Ague (51), Fulvia and Septimia Bilious Fever (53). Cures: Genelen (Indifferent: Class V price; cure disease is 3rd level: 1d6 castings a day, 45gp) or Septimia's Healing (rank 1 diagnoses only). Aedo bed rest 14 days (from day 45). In L1: 15 giant rats dead in the west corridor; the hobgoblins Friendly (their guards fought beside the company).
+- **At the save (day 79, 20:14, Türos Tem):** A4 paid (90 XP). Survivors Octavia (Mage 1, one hand useless: Judge to rule on gestures before her next casting: ACKS II somatic components) and Ione (0th, Kwame's PC, 157 XP, cannot hire). New PCs Valeria (Priestess), Severus (Fighter; henchman Pallas Cornu, 1 hp, wage paid to day 101), Lucan (Explorer, Animal Training: the party's trainer now), Caelia (Thief, no tools: none in the market this month). Donkeys at the inn (stabling paid to day 79). The kobolds hold the company's stripped kit (`urza-kobolds`) and Septimia's unpaid promise of 10gp a head. Thethamun's hobgoblins (Friendly) not yet reached this run since day 45. The sprites' 'rock that opens' = L2 27's secret door (outside location not placed: place it before the party searches for it, within 19.19 or a neighbour). Unprepped sites within ~3 days: unchanged (corridor rule).
+- **Former (day 49, 18:16, Türos Tem):** A3 paid (75 XP). Diseases (engine `disease show`): Eskil Ague symptomatic to day 76; Octavia Spotted Pox (symptoms day 49), Aedo Putrid Fever (49), Gaius Bloody Flux (49), Decimus Ague (51), Fulvia and Septimia Bilious Fever (53). Cures: Genelen (Indifferent: Class V price; cure disease is 3rd level: 1d6 castings a day, 45gp) or Septimia's Healing (rank 1 diagnoses only). Aedo bed rest 14 days (from day 45). In L1: 15 giant rats dead in the west corridor; the hobgoblins Friendly (their guards fought beside the company).
 - **Former (day 42, 18:40, Türos Tem):** Eskil up (hp 3/5). Loads: Aedo 11.2 st, Tullus and Decimus 10.5 (30'): pack food on donkey1 and donkey2 before `travel` (`supplies show ID --on donkeyN`). The legate knows of the hill and the Lady (day 37). Socolo Neutral.
 - **Former (day 35, 19:40, Türos Tem):** the dead buried (day 30); the company chest (holder `company-chest`, the inn) holds Lepidus' and Aurelia's kit, Aedo's old leather and a spare shield. Henchmen: Ione and Decimus (Eskil), Tullus (Octavia), Herennius (Fulvia); wages next due day 60/61. Eskil bed rest about 7 more rest days; Gaius up (peg). The legion may ask after Sextus' lost banded plate (Judge's watch). Malyn Friendly (library open; Octavia found the Scale excerpt, AX1 p. 21). Socolo's archive (patrol reports) still needs Socolo Friendly.
 - **Former (day 28, 19:40, Türos Tem):** A2 paid. Dead: Lepidus (eaten), Aurelia, Silvanus, Sextus (bodies and gear in 21.20 at the camp site, `body:` holders; Lepidus' remains). **The devil boar (MM p. 99) lairs in 21.20** (Judge: a hugely obese farmer by day; 1d3 thralls 75%; HD 9**, 30 hp, immune to mundane damage, silver deals extraordinary damage): it now knows the company's scent. Owed: Ingrid's and Tomasz's new characters (back-ups in `Characters/backups/`, reserve XP 0: `death aurelia --new-character --player ingrid --prior-xp 0` etc.). Eskil's bed rest ends day 30; Gaius' too (owed to day 24 but counted only on rest days). Ione's wage due day 31 (Eskil).

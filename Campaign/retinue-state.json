@@ -49,6 +49,30 @@
    "actor": "aedo",
    "domain_ruler": false,
    "powers": []
+  },
+  "severus": {
+   "id": "severus",
+   "actor": "severus",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "valeria": {
+   "id": "valeria",
+   "actor": "valeria",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "lucan": {
+   "id": "lucan",
+   "actor": "lucan",
+   "domain_ruler": false,
+   "powers": []
+  },
+  "caelia": {
+   "id": "caelia",
+   "actor": "caelia",
+   "domain_ruler": false,
+   "powers": []
   }
  },
  "searches": {
@@ -74,6 +98,31 @@
     "C2",
     "C3",
     "C9"
+   ],
+   "region": "Turos Tem",
+   "level": 0,
+   "wage": "12gp/month",
+   "race": "human"
+  },
+  "Turos Tem|henchman|0th level|month 3": {
+   "market": "Turos Tem",
+   "market_class": "V",
+   "kind": "henchman",
+   "type": "0th level",
+   "table": "henchmen-availability",
+   "row": 0,
+   "total": 3,
+   "by_week": [
+    2,
+    1,
+    0
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C15",
+    "C16"
    ],
    "region": "Turos Tem",
    "level": 0,
@@ -1353,6 +1402,207 @@
    "accepted_by": "fulvia",
    "elan": false,
    "offer_wage": 12.0
+  },
+  "C15": {
+   "id": "C15",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Pallas Cornu",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "severus",
+     "party": "party",
+     "total": 14,
+     "result": "Accept with élan",
+     "day": 72,
+     "wage": 12.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Craft (hornworking), JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 7,
+     "mod": -1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 7,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 10,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 13,
+     "mod": 1
+    }
+   },
+   "occupation": "Hornworker",
+   "occupation_group": "Apprentice Crafter",
+   "proficiencies": [
+    {
+     "name": "Craft (hornworking)",
+     "ranks": 1
+    },
+    {
+     "name": "Art (ornamentation)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 1,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 3",
+   "week": 1,
+   "actor": "pallas-cornu",
+   "try_again": false,
+   "accepted_by": "severus",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C16": {
+   "id": "C16",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Bibulus Vinarius",
+   "status": "refused",
+   "attempts": [
+    {
+     "employer": "severus",
+     "party": "party",
+     "total": 8,
+     "result": "Try Again",
+     "day": 72,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "severus",
+     "party": "party",
+     "total": 5,
+     "result": "Refuse",
+     "day": 72,
+     "wage": 12.0,
+     "signing": "week"
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 11,
+     "mod": 0
+    },
+    "INT": {
+     "score": 14,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 10,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 12,
+     "mod": 0
+    },
+    "CON": {
+     "score": 15,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 9,
+     "mod": 0
+    }
+   },
+   "occupation": "Tavernkeeper",
+   "occupation_group": "Hosteller",
+   "proficiencies": [
+    {
+     "name": "Profession (tavernkeeper)",
+     "ranks": 1
+    },
+    {
+     "name": "Craft (brewing)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    },
+    {
+     "name": "Streetwise",
+     "ranks": 1
+    }
+   ],
+   "age": 22,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 5,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level|month 3",
+   "week": 1,
+   "actor": "c16",
+   "try_again": false
   }
  },
  "members": {
@@ -1657,7 +1907,7 @@
    "id": "decimus-ruga",
    "name": "Decimus Ruga",
    "candidate": "C10",
-   "employer": "eskil",
+   "employer": "octavia",
    "kind": "henchman",
    "type": null,
    "count": 1,
@@ -1668,7 +1918,7 @@
    "monster": null,
    "animal": false,
    "caster": false,
-   "loyalty": 1,
+   "loyalty": 0,
    "morale": 0,
    "morale_src": "as Heavy Infantry",
    "wage_gp": 12.0,
@@ -1676,7 +1926,7 @@
    "hired_day": 31,
    "periods_paid": 2,
    "missed": [],
-   "status": "active",
+   "status": "left (resigned)",
    "history": [
     {
      "day": 31,
@@ -1696,6 +1946,18 @@
      "event": "morale in combat (lost 1/3 of his hp (2/3))",
      "total": 6,
      "result": "Fight On"
+    },
+    {
+     "day": 72,
+     "event": "transferred to octavia",
+     "loyalty": 1
+    },
+    {
+     "day": 72,
+     "event": "loyalty roll (calamity: transfer of employment (RR p. 163))",
+     "total": 4,
+     "result": "Resignation",
+     "loyalty": 0
     }
    ],
    "actor": "decimus-ruga",
@@ -1776,26 +2038,55 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "pallas-cornu": {
+   "id": "pallas-cornu",
+   "name": "Pallas Cornu",
+   "candidate": "C15",
+   "employer": "severus",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Hornworker",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 3,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 72,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 72,
+     "event": "hired",
+     "loyalty": 3
+    },
+    {
+     "day": 72,
+     "event": "wages paid: 1 month(s), 12 gp"
+    }
+   ],
+   "actor": "pallas-cornu",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
- "pending": [
-  {
-   "member": "tullus-brocchus",
-   "trigger": "calamity",
-   "why": "reduced to 0 hp (round 9)",
-   "day": null
-  },
-  {
-   "member": "herennius-bow",
-   "trigger": "calamity",
-   "why": "reduced to -2 hp (round 10)",
-   "day": null
-  }
- ],
+ "pending": [],
  "events": [],
- "seq": 14,
+ "seq": 16,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",

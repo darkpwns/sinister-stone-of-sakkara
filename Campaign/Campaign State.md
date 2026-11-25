@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 72
-  time: '12:14'
+    day: 79
+  time: '20:14'
   weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind moderate
   place: Türos Tem
   hex: '22.20'
@@ -39,15 +39,14 @@ public:
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
-    hp: 4
+    hp: 6
     hp_max: 6
     conditions:
-    - 'in shock (day 68): magical healing given (Septimia laid on hands): one night of bed rest'
     - smallest finger of one hand bitten off (Mortal Wounds, day 68)
+    - 'three fingers of the other hand bitten off: that hand is useless (Mortal Wounds, day 68)'
     - ghostly visions of lost companions (Mortal Wounds, day 68)
-    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
-    encumbrance_st: 4.375
+    encumbrance_st: 4.376
   - name: Gaius Rufo
     sheet: Characters/gaius-rufo.json
     role: pc
@@ -55,7 +54,6 @@ public:
     hp_max: 5
     conditions:
     - 'one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC'
-    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
     encumbrance_st: 0
   - name: Ione
@@ -65,7 +63,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 4.446
+    encumbrance_st: 4.438
   - name: Aedo
     sheet: Characters/aedo.json
     role: pc
@@ -75,7 +73,6 @@ public:
     - 'grievously wounded (day 45, giant rats): 2 weeks of bed rest'
     - 'intestines mangled and ruined (Mortal Wounds, day 45): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls'
     - 'calf almost chewed through (day 45): cannot force march unless mounted'
-    - 'symptomatic: Bloody Flux (incapacitated)'
     spells_used: []
     encumbrance_st: 0
   - name: Septimia
@@ -100,8 +97,7 @@ public:
     role: henchman
     hp: -2
     hp_max: 3
-    conditions:
-    - 'symptomatic: Bloody Flux (incapacitated)'
+    conditions: []
     spells_used: []
     encumbrance_st: 0
   - name: Tullus Brocchus
@@ -112,10 +108,51 @@ public:
     conditions:
     - 'in shock (day 45): magical healing and a night of bed rest (given), or a week of rest'
     - two fingers of one hand bitten off (Mortal Wounds, day 45)
+    - 'symptomatic: Spotted Pox (incapacitated)'
     spells_used: []
     encumbrance_st: 0
+  - name: Caelia
+    sheet: Characters/caelia.json
+    role: pc
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 6.095
+  - name: Lucan
+    sheet: Characters/lucan.json
+    role: pc
+    hp: 7
+    hp_max: 7
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.076
+  - name: Severus
+    sheet: Characters/severus.json
+    role: pc
+    hp: 7
+    hp_max: 7
+    conditions: []
+    spells_used: []
+    encumbrance_st: 10.38
+  - name: Valeria
+    sheet: Characters/valeria.json
+    role: pc
+    hp: 6
+    hp_max: 6
+    conditions: []
+    spells_used: []
+    encumbrance_st: 4.908
+  - name: Pallas Cornu
+    sheet: Characters/pallas-cornu.json
+    role: henchman
+    hp: 1
+    hp_max: 1
+    conditions: []
+    spells_used: []
+    encumbrance_st: 4.167
   light: torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out
-  rations: 'Octavia: food 0 d, water 3.2 d; Ione: food 34 d, water 1.2 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Octavia: food 0 d, water 1 d; Ione: food 34 d, water 1 d; Valeria: food 0 d, water 0 d; Severus: food 0 d, water 0 d; Lucan: food 0 d, water 0 d; Caelia: food 0 d, water 0 d'
   tracker: {}
   threads: []
   trail:
@@ -139,7 +176,7 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 72
+clock_day: 79
 ---
 # Campaign State
 

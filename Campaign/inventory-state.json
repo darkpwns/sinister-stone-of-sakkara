@@ -53,7 +53,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by eskil",
    "owner": "eskil",
@@ -134,8 +134,18 @@
      "day": 69,
      "nights": 1,
      "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 79,
+     "cause": null
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Traveler's Inn",
+    "day": 79,
+    "cause": null
+   }
   },
   "gaius-rufo": {
    "kind": "henchman",
@@ -219,7 +229,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by fulvia",
    "owner": "fulvia",
@@ -267,8 +277,18 @@
      "day": 69,
      "nights": 1,
      "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 79,
+     "cause": null
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Traveler's Inn",
+    "day": 79,
+    "cause": null
+   }
   },
   "mule1": {
    "kind": "animal",
@@ -326,6 +346,36 @@
    "kind": "body",
    "name": "body of fulvia",
    "actor": null,
+   "status": "active"
+  },
+  "valeria": {
+   "kind": "pc",
+   "name": "valeria",
+   "actor": "valeria",
+   "status": "active"
+  },
+  "severus": {
+   "kind": "pc",
+   "name": "severus",
+   "actor": "severus",
+   "status": "active"
+  },
+  "lucan": {
+   "kind": "pc",
+   "name": "lucan",
+   "actor": "lucan",
+   "status": "active"
+  },
+  "caelia": {
+   "kind": "pc",
+   "name": "caelia",
+   "actor": "caelia",
+   "status": "active"
+  },
+  "pallas-cornu": {
+   "kind": "henchman",
+   "name": "Pallas Cornu",
+   "actor": "pallas-cornu",
    "status": "active"
   }
  },
@@ -12883,6 +12933,1508 @@
    "coins": [],
    "cmd": "inv give",
    "n": 498
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "valeria",
+     "gp": 70
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 499
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severus",
+     "gp": 60
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 500
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucan",
+     "gp": 80
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 501
+  },
+  {
+   "op": "open",
+   "cause": "starting gold (3d6 x 10)",
+   "day": null,
+   "time": null,
+   "deltas": [],
+   "coins": [
+    {
+     "who": "caelia",
+     "gp": 90
+    }
+   ],
+   "cmd": "chargen equip",
+   "n": 502
+  },
+  {
+   "op": "give",
+   "cause": "donkey1 gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "banded plate armor",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 503
+  },
+  {
+   "op": "give",
+   "cause": "donkey1 gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "#w23",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "#w23",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 504
+  },
+  {
+   "op": "give",
+   "cause": "donkey1 gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "scale armor",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 505
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "#w27",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "#w27",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 506
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 507
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "#w15",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "#w15",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 508
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "#w13",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "body:fulvia",
+     "item": "#w14",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "#w13",
+     "slot": "belt",
+     "qty": 1
+    },
+    {
+     "who": "caelia",
+     "item": "#w14",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 509
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "#w33",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "#w33",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 510
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "#w24",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "valeria",
+     "item": "#w24",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 511
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "#w25",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "valeria",
+     "item": "#w25",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 512
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "valeria",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 513
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -5
+    },
+    {
+     "who": "valeria",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 514
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "valeria",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 515
+  },
+  {
+   "op": "give",
+   "cause": "body:septimia gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:septimia",
+     "item": "torch",
+     "slot": "here",
+     "qty": -6
+    },
+    {
+     "who": "valeria",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 516
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 517
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 518
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "torch",
+     "slot": "here",
+     "qty": -6
+    },
+    {
+     "who": "lucan",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 519
+  },
+  {
+   "op": "give",
+   "cause": "body:aedo gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:aedo",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -2
+    },
+    {
+     "who": "lucan",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 520
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 521
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -5
+    },
+    {
+     "who": "severus",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 522
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 523
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "#w19",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "#w19",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 524
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "backpack (holds 4 stone)",
+     "slot": "worn",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 525
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "waterskin",
+     "slot": "here",
+     "qty": -5
+    },
+    {
+     "who": "caelia",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 5
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 526
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "tinderbox (flint & steel)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 527
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "torch",
+     "slot": "here",
+     "qty": -6
+    },
+    {
+     "who": "caelia",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 528
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to severus",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "shield",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "shield",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 529
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "arrow",
+     "slot": "pack",
+     "qty": -20
+    },
+    {
+     "who": "lucan",
+     "item": "arrow",
+     "slot": "belt",
+     "qty": 20
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 530
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to lucan",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "shield",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "shield",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 531
+  },
+  {
+   "op": "give",
+   "cause": "body:fulvia gives to caelia",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:fulvia",
+     "item": "sling stone",
+     "slot": "here",
+     "qty": -26
+    },
+    {
+     "who": "caelia",
+     "item": "sling stone",
+     "slot": "belt",
+     "qty": 26
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 532
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "holy symbol",
+     "slot": "pack",
+     "qty": -1
+    },
+    {
+     "who": "valeria",
+     "item": "holy symbol",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 533
+  },
+  {
+   "op": "give",
+   "cause": "donkey2 gives to valeria",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "holy water (1 pint)",
+     "slot": "pack",
+     "qty": -2
+    },
+    {
+     "who": "valeria",
+     "item": "holy water (1 pint)",
+     "slot": "backpack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 534
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "severus",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "banded plate armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 535
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "severus",
+     "item": "shield",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "shield",
+     "slot": "left_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 536
+  },
+  {
+   "op": "wield",
+   "cause": "Sword taken in hand",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "severus",
+     "item": "#w23",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "severus",
+     "item": "#w23",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w23",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 537
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "lucan",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "scale armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 538
+  },
+  {
+   "op": "move",
+   "cause": "rearranged",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "caelia",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv move",
+   "n": 539
+  },
+  {
+   "op": "wield",
+   "cause": "Short Sword taken in hand",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "caelia",
+     "item": "#w33",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "#w33",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w33",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 540
+  },
+  {
+   "op": "wield",
+   "cause": "Short Bow taken in hand",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "lucan",
+     "item": "#w27",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "#w27",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w27",
+     "grip": 2
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 541
+  },
+  {
+   "op": "wield",
+   "cause": "Staff taken in hand",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "valeria",
+     "item": "#w24",
+     "slot": "belt",
+     "qty": -1
+    },
+    {
+     "who": "valeria",
+     "item": "#w24",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w24",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 542
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 543
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 544
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "lucan",
+     "item": "#w35",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucan",
+     "sp": 3,
+     "gp": -3
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 3,
+   "row": "Spear",
+   "packs": 1,
+   "price_cp": 270,
+   "cmd": "inv buy",
+   "new_instances": [
+    {
+     "id": "w35",
+     "key": "spear",
+     "row": "Spear",
+     "table": "weapons-spears-polearms",
+     "table_row": 4,
+     "type": "Med. Melee/Missile",
+     "size": "Medium",
+     "dice": {
+      "1h": "1d6",
+      "2h": "1d8"
+     },
+     "types": [
+      "piercing"
+     ],
+     "special": [
+      "Impact",
+      "Long",
+      "Thrown"
+     ],
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "grip": 1,
+     "lot": null,
+     "cause": "bought in Turos Tem",
+     "magic": {
+      "value": 0,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "masterwork": {
+      "value": null,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "silvered": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     },
+     "extraordinary": {
+      "value": false,
+      "source": {
+       "catalog": {
+        "table": "weapons-spears-polearms",
+        "row": 4
+       }
+      }
+     }
+    }
+   ],
+   "n": 545
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "valeria",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "valeria",
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 3,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 100,
+   "cmd": "inv buy",
+   "n": 546
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "severus",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "severus",
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 3,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 100,
+   "cmd": "inv buy",
+   "n": 547
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "lucan",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "lucan",
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 3,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 100,
+   "cmd": "inv buy",
+   "n": 548
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "caelia",
+     "item": "rations, iron (one week)",
+     "slot": "backpack",
+     "qty": 1
+    }
+   ],
+   "coins": [
+    {
+     "who": "caelia",
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 3,
+   "row": "Rations, Iron (one week)",
+   "packs": 1,
+   "price_cp": 100,
+   "cmd": "inv buy",
+   "n": 549
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "severus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": 6
+    }
+   ],
+   "coins": [
+    {
+     "who": "severus",
+     "sp": 9,
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 3,
+   "row": "Torches (6)",
+   "packs": 1,
+   "price_cp": 10,
+   "cmd": "inv buy",
+   "n": 550
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severus",
+     "gp": -5
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 500,
+   "cmd": "inv pay",
+   "n": 551
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severus",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 552
+  },
+  {
+   "op": "give",
+   "cause": "body:herennius-bow gives to pallas-cornu",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:herennius-bow",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "pallas-cornu",
+     "item": "leather armor",
+     "slot": "armor",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 553
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to pallas-cornu",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "leather armor",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "pallas-cornu",
+     "item": "leather armor",
+     "slot": "back",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 554
+  },
+  {
+   "op": "give",
+   "cause": "body:gaius-rufo gives to pallas-cornu",
+   "day": 72,
+   "time": "day 72 12:14",
+   "deltas": [
+    {
+     "who": "body:gaius-rufo",
+     "item": "torch",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "pallas-cornu",
+     "item": "torch",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 555
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 72-79",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "sp": -2,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 120,
+   "cmd": "inv pay",
+   "n": 556
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 72-79",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "valeria",
+     "sp": 8,
+     "gp": -2
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 120,
+   "cmd": "inv pay",
+   "n": 557
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 72-79",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severus",
+     "sp": -2,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 120,
+   "cmd": "inv pay",
+   "n": 558
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 72-79",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucan",
+     "sp": -2,
+     "gp": -1
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 120,
+   "cmd": "inv pay",
+   "n": 559
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 72-79",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "caelia",
+     "sp": 8,
+     "gp": -2
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 120,
+   "cmd": "inv pay",
+   "n": 560
+  },
+  {
+   "op": "pay",
+   "cause": "a cot in the hospital courtyard, nights of days 72-79 (bloody flux)",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "sp": 2,
+     "gp": -1
+    }
+   ],
+   "to": "the hospital of Mityara",
+   "price_cp": 80,
+   "cmd": "inv pay",
+   "n": 561
+  },
+  {
+   "op": "pay",
+   "cause": "stabling the two donkeys, nights of days 72-79",
+   "day": 79,
+   "time": "day 79 20:14",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "sp": -2,
+     "gp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 320,
+   "cmd": "inv pay",
+   "n": 562
   }
  ],
  "holdings": {
@@ -12931,10 +14483,7 @@
     "iron spike": 6,
     "crowbar": 1,
     "torch": 12,
-    "waterskin": 6,
-    "#w23": 1,
-    "banded plate armor": 1,
-    "scale armor": 1
+    "waterskin": 6
    }
   },
   "ione": {
@@ -13011,13 +14560,8 @@
   "donkey2": {
    "pack": {
     "waterskin": 9,
-    "shield": 2,
-    "#w27": 1,
-    "arrow": 39,
-    "#w32": 1,
-    "#w33": 1,
-    "holy symbol": 1,
-    "holy water (1 pint)": 2
+    "arrow": 19,
+    "#w32": 1
    }
   },
   "ground:buried-temple": {
@@ -13038,24 +14582,12 @@
   },
   "body:septimia": {
    "here": {
-    "backpack (holds 4 stone)": 1,
-    "waterskin": 5,
-    "tinderbox (flint & steel)": 1,
-    "torch": 6,
-    "#w24": 1,
-    "#w25": 1,
     "sack, large (holds 6 stone)": 1
    }
   },
   "body:gaius-rufo": {
    "here": {
-    "backpack (holds 4 stone)": 1,
-    "leather armor": 1,
-    "shield": 1,
-    "#w19": 1,
-    "waterskin": 5,
-    "tinderbox (flint & steel)": 1,
-    "torch": 1
+    "shield": 1
    }
   },
   "body:tullus-brocchus": {
@@ -13068,45 +14600,129 @@
   "body:herennius-bow": {
    "here": {
     "backpack (holds 4 stone)": 1,
-    "leather armor": 1,
     "waterskin": 5
    }
   },
   "body:aedo": {
    "here": {
-    "backpack (holds 4 stone)": 1,
-    "waterskin": 2,
-    "tinderbox (flint & steel)": 1,
-    "torch": 6,
     "#w26": 1,
     "sack, large (holds 6 stone)": 1
    }
   },
   "body:fulvia": {
    "here": {
-    "backpack (holds 4 stone)": 1,
+    "sack, large (holds 6 stone)": 1
+   }
+  },
+  "severus": {
+   "armor": {
+    "banded plate armor": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
     "waterskin": 5,
     "tinderbox (flint & steel)": 1,
+    "#w19": 1,
+    "rations, iron (one week)": 1,
+    "torch": 6
+   },
+   "left_hand": {
+    "shield": 1
+   },
+   "right_hand": {
+    "#w23": 1
+   }
+  },
+  "lucan": {
+   "armor": {
+    "scale armor": 1
+   },
+   "belt": {
+    "arrow": 20
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "tinderbox (flint & steel)": 1,
     "torch": 6,
-    "sack, large (holds 6 stone)": 1,
-    "leather armor": 1,
+    "waterskin": 2,
+    "#w35": 1,
+    "rations, iron (one week)": 1
+   },
+   "back": {
+    "shield": 1
+   },
+   "right_hand": {
+    "#w27": 1
+   }
+  },
+  "caelia": {
+   "armor": {
+    "leather armor": 1
+   },
+   "belt": {
     "#w15": 1,
     "#w13": 1,
     "#w14": 1,
     "sling stone": 26
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "rations, iron (one week)": 1
+   },
+   "right_hand": {
+    "#w33": 1
+   }
+  },
+  "valeria": {
+   "belt": {
+    "#w25": 1,
+    "holy symbol": 1
+   },
+   "worn": {
+    "backpack (holds 4 stone)": 1
+   },
+   "backpack": {
+    "waterskin": 5,
+    "tinderbox (flint & steel)": 1,
+    "torch": 6,
+    "holy water (1 pint)": 2,
+    "rations, iron (one week)": 1
+   },
+   "right_hand": {
+    "#w24": 1
+   }
+  },
+  "pallas-cornu": {
+   "armor": {
+    "leather armor": 1
+   },
+   "back": {
+    "leather armor": 1
+   },
+   "belt": {
+    "torch": 1
    }
   }
  },
  "coins": {
   "octavia": {
-   "gp": 28,
+   "gp": 27,
    "cp": 9,
-   "sp": 5
+   "sp": 7
   },
   "ione": {
-   "gp": 97,
+   "gp": 93,
    "cp": 8,
-   "sp": 8
+   "sp": 4
   },
   "body:lepidus": {
    "cp": 5,
@@ -13130,6 +14746,22 @@
    "gp": 88,
    "sp": 21,
    "cp": 23
+  },
+  "valeria": {
+   "gp": 67,
+   "sp": 8
+  },
+  "severus": {
+   "gp": 40,
+   "sp": 7
+  },
+  "lucan": {
+   "gp": 75,
+   "sp": 1
+  },
+  "caelia": {
+   "gp": 87,
+   "sp": 8
   }
  },
  "rolls": {
@@ -13140,6 +14772,11 @@
   },
   "Turos Tem|2|Dog, War": {
    "roll": 98,
+   "chance": "1/4",
+   "present": false
+  },
+  "Turos Tem|3|Thieves' Tools": {
+   "roll": 77,
    "chance": "1/4",
    "present": false
   }
@@ -14784,7 +16421,7 @@
     "medium": 150,
     "long": 300
    },
-   "grip": 1,
+   "grip": 2,
    "lot": null,
    "cause": "starting equipment (no templates: list price, Rulings R2 S01)",
    "magic": {
@@ -15249,6 +16886,71 @@
      "catalog": {
       "table": "weapons-swords-daggers",
       "row": 2
+     }
+    }
+   }
+  },
+  "w35": {
+   "id": "w35",
+   "key": "spear",
+   "row": "Spear",
+   "table": "weapons-spears-polearms",
+   "table_row": 4,
+   "type": "Med. Melee/Missile",
+   "size": "Medium",
+   "dice": {
+    "1h": "1d6",
+    "2h": "1d8"
+   },
+   "types": [
+    "piercing"
+   ],
+   "special": [
+    "Impact",
+    "Long",
+    "Thrown"
+   ],
+   "range": {
+    "short": 30,
+    "medium": 60,
+    "long": 120
+   },
+   "grip": 1,
+   "lot": null,
+   "cause": "bought in Turos Tem",
+   "magic": {
+    "value": 0,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "masterwork": {
+    "value": null,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "silvered": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
+     }
+    }
+   },
+   "extraordinary": {
+    "value": false,
+    "source": {
+     "catalog": {
+      "table": "weapons-spears-polearms",
+      "row": 4
      }
     }
    }

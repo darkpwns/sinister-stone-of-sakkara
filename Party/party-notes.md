@@ -35,7 +35,18 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
 - S08: The hobgoblin guards came out and fought beside us against the rats. Thethamun's people keep faith.
 - S08: Rat bites carry sickness. Eskil is down with a fever; others may follow.
 
+- S09: The rat bites gave us fevers; Genelen cured five of us for 45gp each after four days of 'come back tomorrow'.
+- S09: The black hill's halls are full of giant rats that come in packs of ten. Two packs on one morning killed
+  Septimia, Eskil, Gaius, Aedo, Fulvia, Tullus, Herennius and Eskil's dog. We had no healer left standing.
+- S09: Urza's door-guards and guard room fought the rats beside us for a promise of 10gp a head (Septimia's; unpaid)
+  and died; the kobolds from the dormitory then robbed our fallen (coin, Fulvia's silver dagger, the silver arrows,
+  swords, thieves' tools).
+- S09: Sprites near the hill giggled to Aedo about a rock in the forest that opens like a door, where a tall woman
+  with an axe once stepped out smelling of blood.
+
 ## Plans
+- S09: Rebuild: men-at-arms, a second healer, holy water, cure disease money. Never go into the halls without a
+  door we can shut behind us and two people who can heal. Find the sprites' door in the rock.
 - S08: Rest and cures at the hospital; never march into the temple fatigued.
 - S07: Eskil is up (day 42). Two weeks' food each, two donkeys. Next: the black hill; through the kobolds (paid) to
   the hobgoblins (friends); ask Thethamun the way to the Lady. Keep clear of the farms of 21.20, above all at night.

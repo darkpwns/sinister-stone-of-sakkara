@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 3",
  "session": 9,
- "generated": 1795613001,
+ "generated": 1795613294,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 72
+  "day": 79
  },
- "time": "12:14",
+ "time": "20:14",
  "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind moderate",
  "place": "Türos Tem",
  "hex": "22.20",
@@ -42,16 +42,15 @@
    "name": "Octavia",
    "sheet": "Characters/octavia.json",
    "role": "pc",
-   "hp": 4,
+   "hp": 6,
    "hp_max": 6,
    "conditions": [
-    "in shock (day 68): magical healing given (Septimia laid on hands): one night of bed rest",
     "smallest finger of one hand bitten off (Mortal Wounds, day 68)",
-    "ghostly visions of lost companions (Mortal Wounds, day 68)",
-    "symptomatic: Bloody Flux (incapacitated)"
+    "three fingers of the other hand bitten off: that hand is useless (Mortal Wounds, day 68)",
+    "ghostly visions of lost companions (Mortal Wounds, day 68)"
    ],
    "spells_used": [],
-   "encumbrance_st": 4.375
+   "encumbrance_st": 4.376
   },
   {
    "name": "Gaius Rufo",
@@ -60,8 +59,7 @@
    "hp": -3,
    "hp_max": 5,
    "conditions": [
-    "one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC",
-    "symptomatic: Bloody Flux (incapacitated)"
+    "one foot chewed off (Mortal Wounds, day 16): wooden peg (day 35), movement -30 feet, DEX reduced by 1/3 for AC"
    ],
    "spells_used": [],
    "encumbrance_st": 0
@@ -74,7 +72,7 @@
    "hp_max": 3,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.446
+   "encumbrance_st": 4.438
   },
   {
    "name": "Aedo",
@@ -85,8 +83,7 @@
    "conditions": [
     "grievously wounded (day 45, giant rats): 2 weeks of bed rest",
     "intestines mangled and ruined (Mortal Wounds, day 45): must rest 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence: -4 to reaction rolls",
-    "calf almost chewed through (day 45): cannot force march unless mounted",
-    "symptomatic: Bloody Flux (incapacitated)"
+    "calf almost chewed through (day 45): cannot force march unless mounted"
    ],
    "spells_used": [],
    "encumbrance_st": 0
@@ -119,9 +116,7 @@
    "role": "henchman",
    "hp": -2,
    "hp_max": 3,
-   "conditions": [
-    "symptomatic: Bloody Flux (incapacitated)"
-   ],
+   "conditions": [],
    "spells_used": [],
    "encumbrance_st": 0
   },
@@ -133,14 +128,65 @@
    "hp_max": 5,
    "conditions": [
     "in shock (day 45): magical healing and a night of bed rest (given), or a week of rest",
-    "two fingers of one hand bitten off (Mortal Wounds, day 45)"
+    "two fingers of one hand bitten off (Mortal Wounds, day 45)",
+    "symptomatic: Spotted Pox (incapacitated)"
    ],
    "spells_used": [],
    "encumbrance_st": 0
+  },
+  {
+   "name": "Caelia",
+   "sheet": "Characters/caelia.json",
+   "role": "pc",
+   "hp": 5,
+   "hp_max": 5,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 6.095
+  },
+  {
+   "name": "Lucan",
+   "sheet": "Characters/lucan.json",
+   "role": "pc",
+   "hp": 7,
+   "hp_max": 7,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 8.076
+  },
+  {
+   "name": "Severus",
+   "sheet": "Characters/severus.json",
+   "role": "pc",
+   "hp": 7,
+   "hp_max": 7,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 10.38
+  },
+  {
+   "name": "Valeria",
+   "sheet": "Characters/valeria.json",
+   "role": "pc",
+   "hp": 6,
+   "hp_max": 6,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 4.908
+  },
+  {
+   "name": "Pallas Cornu",
+   "sheet": "Characters/pallas-cornu.json",
+   "role": "henchman",
+   "hp": 1,
+   "hp_max": 1,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 4.167
   }
  ],
  "light": "torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out",
- "rations": "Octavia: food 0 d, water 3.2 d; Ione: food 34 d, water 1.2 d (fatigued); Donkey, Draft: fodder 0 st, water 0 st",
+ "rations": "Octavia: food 0 d, water 1 d; Ione: food 34 d, water 1 d; Valeria: food 0 d, water 0 d; Severus: food 0 d, water 0 d; Lucan: food 0 d, water 0 d; Caelia: food 0 d, water 0 d",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -407,6 +453,331 @@
       {
        "level": 5,
        "power": "Experience and Hardiness"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "character",
+   "role": "pc",
+   "name": "Caelia",
+   "class": "Thief",
+   "level": 1,
+   "xp": 0,
+   "alignment": "Neutral",
+   "birthplace": "Türos Tem",
+   "age": 23,
+   "gender": "female",
+   "hp_max": 5,
+   "attributes": {
+    "STR": {
+     "score": 6,
+     "mod": -1
+    },
+    "INT": {
+     "score": 15,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 12,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 14,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 16,
+     "mod": 2
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 13,
+    "blast": 13,
+    "implements": 14,
+    "spells": 15
+   },
+   "hit_die": "1d4",
+   "cleaves": 0,
+   "title": "Footpad",
+   "xp_next": 1250,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Skulking",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Bargaining",
+      "throw": ""
+     },
+     {
+      "name": "Healing",
+      "throw": ""
+     }
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Leather Armor",
+     "stone": 2
+    },
+    "right_hand": {
+     "item": "Short Sword",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "Dagger ×2, Sling, sling stone ×26",
+     "items": 4,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [
+      "Rations, Iron (one week)",
+      "Tinderbox (flint & steel)",
+      "Waterskin ×5",
+      "torch ×6"
+     ],
+     "items": 12,
+     "stone": 1
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 87,
+    "sp": 8,
+    "cp": 0
+   },
+   "encumbrance_st": 6.095,
+   "weapons": [
+    {
+     "name": "Short Sword",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d6-1",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "right hand"
+    },
+    {
+     "name": "Dagger",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d4-1",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "belt"
+    },
+    {
+     "name": "Dagger",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d4-1",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "belt"
+    },
+    {
+     "name": "Sling",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d4",
+     "range": {
+      "short": 60,
+      "medium": 120,
+      "long": 240
+     },
+     "held": "belt"
+    }
+   ],
+   "movement": {
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
+   },
+   "proficiency_throws": {
+    "climbing": 6,
+    "dungeonbashing": 22,
+    "listening": 14,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 3,
+    "no_shield": 3,
+    "dex_only": 1
+   },
+   "sheet": {
+    "profile": "thief",
+    "class": "Thief",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "class_skills",
+     "possessions",
+     "retinue"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {
+     "Climbing": {
+      "value": "6+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Hiding": {
+      "value": "19+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Listening": {
+      "value": "14+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Lockpicking": {
+      "value": "18+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Pickpocketing": {
+      "value": "17+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Searching": {
+      "value": "18+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Sneaking": {
+      "value": "17+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     },
+     "Trapbreaking": {
+      "value": "18+",
+      "kind": "throw",
+      "table": "thief-skills",
+      "row": 0
+     }
+    },
+    "level_columns": {
+     "Backstab": {
+      "value": "+1d",
+      "kind": "backstab-dice",
+      "table": "thief-level-progression",
+      "row": 0
+     }
+    },
+    "powers": {
+     "starting": [
+      "Backstabbing",
+      "Climbing",
+      "Hiding",
+      "Listening",
+      "Lockpicking",
+      "Pickpocketing",
+      "Searching",
+      "Shadowy Senses",
+      "Sneaking",
+      "Streetwise",
+      "Trapbreaking"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 4,
+       "power": "Deciphering"
       }
      ]
     }
@@ -1716,7 +2087,7 @@
    "class": "None (0th level)",
    "occupation": "Florist",
    "level": 0,
-   "xp": 127,
+   "xp": 157,
    "xp_bonus": "",
    "alignment": "",
    "birthplace": "",
@@ -1897,11 +2268,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 97,
-    "sp": 8,
+    "gp": 93,
+    "sp": 4,
     "cp": 8
    },
-   "encumbrance_st": 4.446,
+   "encumbrance_st": 4.438,
    "weapons": [
     {
      "name": "Dagger",
@@ -1950,10 +2321,258 @@
   {
    "type": "character",
    "role": "pc",
+   "name": "Lucan",
+   "class": "Explorer",
+   "level": 1,
+   "xp": 0,
+   "alignment": "Neutral",
+   "birthplace": "Türos Spen",
+   "age": 23,
+   "gender": "male",
+   "hp_max": 7,
+   "attributes": {
+    "STR": {
+     "score": 9,
+     "mod": 0
+    },
+    "INT": {
+     "score": 14,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 8,
+     "mod": -1
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 17
+   },
+   "hit_die": "1d6",
+   "cleaves": 1,
+   "title": "Scout",
+   "xp_next": 2000,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Navigation",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Animal Training",
+      "throw": ""
+     },
+     {
+      "name": "Healing",
+      "throw": ""
+     }
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "Shield",
+     "items": 0,
+     "stone": 1
+    },
+    "armor": {
+     "item": "Scale Armor",
+     "stone": 3
+    },
+    "right_hand": {
+     "item": "Short Bow",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "arrow ×20",
+     "items": 1,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [
+      "Rations, Iron (one week)",
+      "Spear",
+      "Tinderbox (flint & steel)",
+      "Waterskin ×2",
+      "torch ×6"
+     ],
+     "items": 9,
+     "stone": 2
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 75,
+    "sp": 1,
+    "cp": 0
+   },
+   "encumbrance_st": 8.076,
+   "weapons": [
+    {
+     "name": "Short Bow",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6+1",
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "held": "right hand, two-handed"
+    },
+    {
+     "name": "Spear",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d6/1d8+1",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "backpack"
+    }
+   ],
+   "movement": {
+    "exploration": 60,
+    "combat": 20,
+    "running": 60,
+    "expedition": 12
+   },
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 18,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 4,
+    "no_shield": 4,
+    "dex_only": 1
+   },
+   "sheet": {
+    "profile": "explorer",
+    "class": "Explorer",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "possessions",
+     "retinue"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {
+     "Damage Bonus": {
+      "value": "+1",
+      "kind": "damage-bonus",
+      "table": "explorer-level-progression",
+      "row": 0
+     }
+    },
+    "powers": {
+     "starting": [
+      "Alertness",
+      "Ambushing",
+      "Animal Reflexes",
+      "Endurance",
+      "Evasion",
+      "Pathfinding",
+      "Natural Stealth"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Experience and Hardiness"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "character",
+   "role": "pc",
    "name": "Octavia",
    "class": "Mage",
    "level": 1,
-   "xp": 277,
+   "xp": 343,
    "alignment": "Neutral",
    "birthplace": "Cyfaraun",
    "age": 27,
@@ -2126,11 +2745,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 28,
-    "sp": 5,
+    "gp": 27,
+    "sp": 7,
     "cp": 9
    },
-   "encumbrance_st": 4.375,
+   "encumbrance_st": 4.376,
    "weapons": [
     {
      "name": "Dagger",
@@ -2205,6 +2824,225 @@
       }
      ]
     }
+   }
+  },
+  {
+   "type": "character",
+   "role": "henchman",
+   "name": "Pallas Cornu",
+   "class": "None (0th level)",
+   "occupation": "Hornworker",
+   "level": 0,
+   "xp": 0,
+   "xp_bonus": "",
+   "alignment": "",
+   "birthplace": "",
+   "age": 23,
+   "gender": "",
+   "size": "man-sized",
+   "hp_max": 1,
+   "initiative": 0,
+   "surprise": 0,
+   "avoid_surprise": 0,
+   "save_mods": {
+    "paralysis": "",
+    "death": "",
+    "blast": "",
+    "implements": "",
+    "spells": ""
+   },
+   "movement": {
+    "stealth": 0,
+    "climb": 0,
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
+   },
+   "healing_rate": "",
+   "mortal_wounds": 0,
+   "class_features": "",
+   "languages": [],
+   "hired": {
+    "date": "day 72",
+    "wage_gp": 12.0,
+    "market": "Turos Tem",
+    "employer": "Severus",
+    "terms": ""
+   },
+   "attributes": {
+    "STR": {
+     "score": 7,
+     "mod": -1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 7,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 10,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 13,
+     "mod": 1
+    }
+   },
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "hit_die": "1/2 HD",
+   "xp_next": 660,
+   "attack_table": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "proficiencies": {
+    "class": [],
+    "general": [
+     {
+      "name": "Craft (hornworking)",
+      "throw": ""
+     },
+     {
+      "name": "Art (ornamentation)",
+      "throw": ""
+     },
+     {
+      "name": "Folkways",
+      "throw": ""
+     },
+     {
+      "name": "Revelry",
+      "throw": ""
+     }
+    ],
+    "gained_at": ""
+   },
+   "spells": {
+    "repertoire": {
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "gear": {
+    "back": {
+     "item": "Leather Armor",
+     "items": 0,
+     "stone": 2
+    },
+    "armor": {
+     "item": "Leather Armor",
+     "stone": 2
+    },
+    "right_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "torch",
+     "items": 1,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
+   },
+   "encumbrance_st": 4.167,
+   "weapons": [],
+   "gems": "",
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 22,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 2,
+    "no_shield": 2,
+    "dex_only": 0
+   },
+   "sheet": {
+    "profile": "0th-level",
+    "class": "None (0th level)",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "possessions"
+    ]
    }
   },
   {
@@ -2556,6 +3394,244 @@
   },
   {
    "type": "character",
+   "role": "pc",
+   "name": "Severus",
+   "class": "Fighter",
+   "level": 1,
+   "xp": 0,
+   "alignment": "Lawful",
+   "birthplace": "Cyfaraun",
+   "age": 22,
+   "gender": "male",
+   "hp_max": 7,
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 12,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 12,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 16,
+     "mod": 2
+    },
+    "CHA": {
+     "score": 17,
+     "mod": 2
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 17
+   },
+   "hit_die": "1d8",
+   "cleaves": 1,
+   "title": "Man-at-Arms",
+   "xp_next": 2000,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Combat Reflexes",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Leadership",
+      "throw": ""
+     }
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "Banded Plate Armor",
+     "stone": 5
+    },
+    "right_hand": {
+     "item": "Sword",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "Shield",
+     "items": 0,
+     "stone": 1
+    },
+    "belt": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [
+      "Rations, Iron (one week)",
+      "Spear",
+      "Tinderbox (flint & steel)",
+      "Waterskin ×5",
+      "torch ×6"
+     ],
+     "items": 12,
+     "stone": 2
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 40,
+    "sp": 7,
+    "cp": 0
+   },
+   "encumbrance_st": 10.38,
+   "weapons": [
+    {
+     "name": "Sword",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6+2",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "right hand"
+    },
+    {
+     "name": "Spear",
+     "init_bonus": "",
+     "attack_throw": 9,
+     "damage": "1d6/1d8+2",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "backpack"
+    }
+   ],
+   "movement": {
+    "exploration": 30,
+    "combat": 10,
+    "running": 30,
+    "expedition": 6
+   },
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 14,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 7,
+    "no_shield": 6,
+    "dex_only": 1
+   },
+   "sheet": {
+    "profile": "fighter",
+    "class": "Fighter",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "possessions",
+     "retinue"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {
+     "Damage Bonus": {
+      "value": "+1",
+      "kind": "damage-bonus",
+      "table": "fighter-level-progression",
+      "row": 0
+     }
+    },
+    "powers": {
+     "starting": [
+      "Manual of Arms"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Battlefield Prowess"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "character",
    "role": "henchman",
    "name": "Tullus Brocchus",
    "class": "None (0th level)",
@@ -2773,121 +3849,384 @@
      "possessions"
     ]
    }
+  },
+  {
+   "type": "character",
+   "role": "pc",
+   "name": "Valeria",
+   "class": "Priestess",
+   "level": 1,
+   "xp": 0,
+   "alignment": "Lawful",
+   "birthplace": "Türos Tem",
+   "age": 21,
+   "gender": "female",
+   "hp_max": 6,
+   "attributes": {
+    "STR": {
+     "score": 9,
+     "mod": 0
+    },
+    "INT": {
+     "score": 12,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 12,
+     "mod": 0
+    },
+    "CON": {
+     "score": 16,
+     "mod": 2
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 10,
+    "blast": 16,
+    "implements": 13,
+    "spells": 15
+   },
+   "hit_die": "1d4",
+   "cleaves": 0,
+   "title": "Novice",
+   "xp_next": 2000,
+   "attack_table": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "proficiencies": {
+    "class": [
+     {
+      "name": "Laying on Hands",
+      "throw": ""
+     }
+    ],
+    "general": [
+     {
+      "name": "Adventuring",
+      "throw": ""
+     },
+     {
+      "name": "Healing",
+      "throw": ""
+     }
+    ]
+   },
+   "gear": {
+    "back": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "armor": {
+     "item": "",
+     "stone": 0
+    },
+    "right_hand": {
+     "item": "Staff",
+     "items": 0,
+     "stone": 1
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "Dagger, Holy Symbol",
+     "items": 2,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [
+      "Holy Water (1 pint) ×2",
+      "Rations, Iron (one week)",
+      "Tinderbox (flint & steel)",
+      "Waterskin ×5",
+      "torch ×6"
+     ],
+     "items": 14,
+     "stone": 1
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [
+      "Backpack (holds 4 stone)"
+     ],
+     "items": 1,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 67,
+    "sp": 8,
+    "cp": 0
+   },
+   "encumbrance_st": 4.908,
+   "weapons": [
+    {
+     "name": "Staff",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d4",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "right hand"
+    },
+    {
+     "name": "Dagger",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d4",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "belt"
+    }
+   ],
+   "spells": {
+    "repertoire": {
+     "1": [
+      "Allure",
+      "Angelic Choir",
+      "Counterspell",
+      "Cure Light Injury",
+      "Delay Disease",
+      "Discern Evil",
+      "Discern Magic",
+      "Holy Circle",
+      "Illumination",
+      "Purify Food and Water",
+      "Remove Fear",
+      "Salving Rest",
+      "Sanctuary",
+      "Shatter Blade",
+      "Word of Command"
+     ],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    },
+    "per_day": [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "movement": {
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
+   },
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 18,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 0,
+    "no_shield": 0,
+    "dex_only": 0
+   },
+   "sheet": {
+    "profile": "priestess",
+    "class": "Priestess",
+    "caster": true,
+    "magic": "divine",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "class_powers",
+     "spells",
+     "possessions",
+     "retinue"
+    ],
+    "level": 1,
+    "max_level": 14,
+    "class_skills": {},
+    "level_columns": {},
+    "powers": {
+     "starting": [
+      "Consolation",
+      "Diplomacy",
+      "Divine Magic",
+      "Lay on Hands",
+      "Purity of the Body",
+      "Theology"
+     ],
+     "gained": [],
+     "next": [
+      {
+       "level": 5,
+       "power": "Minor Magical Research"
+      }
+     ]
+    },
+    "prayerful_repertoire": {
+     "1": [
+      "Allure",
+      "Angelic Choir",
+      "Counterspell",
+      "Cure Light Injury",
+      "Delay Disease",
+      "Discern Evil",
+      "Discern Magic",
+      "Holy Circle",
+      "Illumination",
+      "Purify Food and Water",
+      "Remove Fear",
+      "Salving Rest",
+      "Sanctuary",
+      "Shatter Blade",
+      "Word of Command"
+     ],
+     "2": [
+      "Augury",
+      "Bewitch Beast",
+      "Cure Moderate Injury",
+      "Delay Poison",
+      "Divine Armor",
+      "Divine Grace",
+      "Discern Bewitchment",
+      "Energy Protection",
+      "Halt Humanoids",
+      "Holy Blessing",
+      "Holy Chant",
+      "Noiselessness",
+      "Physical Protection",
+      "Slumber",
+      "Speak with Beasts"
+     ],
+     "3": [
+      "Avian Messenger",
+      "Cure Blindness",
+      "Cure Disease",
+      "Cure Major Injury",
+      "Deflect Ordinary Missiles",
+      "Discern Curse",
+      "Dispel Magic",
+      "Holy Circle, Sustained",
+      "Holy Prayer",
+      "Illumination, Perpetual",
+      "Remove Curse",
+      "Rune of Warding",
+      "Speak with Dead",
+      "Spellward",
+      "Water Walking"
+     ],
+     "4": [
+      "Angelic Aura",
+      "Create Water",
+      "Cure Serious Injury",
+      "Death Ward",
+      "Divination",
+      "Energy Invulnerability",
+      "Inspire Awe",
+      "Neutralize Poison",
+      "Physical Invulnerability",
+      "Repair Disfigurement and Disability",
+      "Smite Undead",
+      "Snakes to Staffs",
+      "Spellward Other",
+      "Spirit of Healing",
+      "Tongues"
+     ],
+     "5": [
+      "Atonement",
+      "Blast Ward",
+      "Communion",
+      "Cone of Fear",
+      "Create Food",
+      "Cure Critical Injury",
+      "Deflect Ordinary Weapons",
+      "Dominate Monster",
+      "Fate",
+      "Healing Circle",
+      "Restore Life and Limb",
+      "Scry",
+      "Strength of Mind",
+      "Summon Insect Plague",
+      "True Seeing"
+     ],
+     "6": [
+      "Anti-Magic Sphere",
+      "Banner of Invincibility",
+      "Bath of the Goddess",
+      "Blast Ward, Greater",
+      "Clairaudiency, Greater",
+      "Clairvoyancy, Greater",
+      "Dispel Evil",
+      "Home Ward",
+      "Locate Place of Power",
+      "Level Water",
+      "Prophetic Dream",
+      "Quest",
+      "Salvific Rain",
+      "Spellwarded Zone",
+      "Summon Winged Herald"
+     ]
+    }
+   }
   }
  ],
  "open_rolls": [
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "attack Kobold vs giant rat 7",
-   "spec": "1d20+2",
-   "rolls": [
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "attack Kobold vs giant rat 7",
-   "spec": "1d20+2",
-   "rolls": [
-    2
-   ],
-   "total": 4
-  },
-  {
-   "label": "attack Kobold vs giant rat 7",
-   "spec": "1d20+2",
-   "rolls": [
-    2
-   ],
-   "total": 4
-  },
-  {
-   "label": "attack Kobold vs giant rat 7",
-   "spec": "1d20+2",
-   "rolls": [
-    6
-   ],
-   "total": 8
-  },
-  {
-   "label": "attack Kobold vs giant rat 7",
-   "spec": "1d20+2",
-   "rolls": [
-    20
-   ],
-   "total": 22
-  },
-  {
-   "label": "damage to giant rat 7",
-   "spec": "1d6-1",
-   "rolls": [
-    4
-   ],
-   "total": 3
-  },
-  {
-   "label": "attack Kobold vs giant rat 10",
-   "spec": "1d20+2",
-   "rolls": [
-    16
-   ],
-   "total": 18
-  },
-  {
-   "label": "damage to giant rat 10",
-   "spec": "1d6-1",
-   "rolls": [
-    2
-   ],
-   "total": 1
-  },
-  {
-   "label": "attack Kobold vs giant rat 10",
-   "spec": "1d20+2",
-   "rolls": [
-    11
-   ],
-   "total": 13
-  },
   {
    "label": "init Kobold",
    "spec": "1d6",
@@ -3184,6 +4523,126 @@
     4
    ],
    "total": 9
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d4",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "starting gold (3d6 x 10)",
+   "spec": "3d6",
+   "rolls": [
+    1,
+    2,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d8",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "starting gold (3d6 x 10)",
+   "spec": "3d6",
+   "rolls": [
+    1,
+    3,
+    2
+   ],
+   "total": 6
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "starting gold (3d6 x 10)",
+   "spec": "3d6",
+   "rolls": [
+    6,
+    1,
+    1
+   ],
+   "total": 8
+  },
+  {
+   "label": "starting hit points",
+   "spec": "1d4",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "starting gold (3d6 x 10)",
+   "spec": "3d6",
+   "rolls": [
+    4,
+    2,
+    3
+   ],
+   "total": 9
+  },
+  {
+   "label": "starting age",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "starting age",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "starting age",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "starting age",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "search fee 0th level (Class V)",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "octavia natural healing",
+   "spec": "1d3",
+   "rolls": [
+    2
+   ],
+   "total": 2
   }
  ],
  "rumours_heard": [

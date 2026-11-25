@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 277,
     "level_before": 1,
     "class": "Mage",
-    "joined_day": 68
+    "joined_day": 68,
+    "returned_day": 72,
+    "xp_award": 66
    },
    "fulvia": {
     "id": "fulvia",
@@ -146,12 +148,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": "ione",
     "xp_before": 127,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 68
+    "joined_day": 68,
+    "returned_day": 72,
+    "xp_award": 30
    }
   },
   "monsters": [
@@ -201,9 +205,72 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 72,
+   "at": null,
+   "total": 90.0,
+   "per_share": 60.0,
+   "awards": {
+    "octavia": {
+     "share": 1.0,
+     "why": null,
+     "base": 60,
+     "pct": 10,
+     "pen": 0,
+     "award": 66,
+     "xp_before": 277,
+     "xp_after": 343,
+     "capped": null,
+     "zero": false
+    },
+    "fulvia": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "eskil": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "gaius-rufo": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "septimia": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "aedo": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "tullus-brocchus": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "herennius-bow": {
+     "share": 0.0,
+     "why": "left behind"
+    },
+    "ione": {
+     "share": 0.5,
+     "why": null,
+     "base": 30,
+     "pct": 0,
+     "pen": 0,
+     "award": 30,
+     "xp_before": 127,
+     "xp_after": 157,
+     "capped": null,
+     "zero": true
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 72,
+   "where": null
+  }
  },
  "closed": [
   {
