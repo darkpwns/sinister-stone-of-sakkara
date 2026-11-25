@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 87,
-  "round_of_day": 473,
-  "total_rounds": 123833
+  "round_of_day": 1235,
+  "total_rounds": 124595
  },
  "party": {
   "galerius": {
@@ -22,7 +22,7 @@
    "perceived": "Faustina",
    "conditions": [],
    "endurance": false,
-   "treasure_stone": 0.16666666666666666
+   "treasure_stone": 3.1666666666666665
   },
   "callista": {
    "id": "callista",
@@ -65,7 +65,8 @@
    "name": "Quintus",
    "perceived": "Quintus",
    "conditions": [],
-   "endurance": false
+   "endurance": false,
+   "treasure_stone": 0.5666666666666667
   },
   "zaira": {
    "id": "zaira",
@@ -162,9 +163,27 @@
    "id": "torch10",
    "kind": "torch",
    "carrier": "corvus",
-   "lit": true,
+   "lit": false,
    "closed": false,
-   "rounds_left": 24,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch11",
+   "kind": "torch",
+   "carrier": "corvus",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 0,
+   "tallow": false
+  },
+  {
+   "id": "torch12",
+   "kind": "torch",
+   "carrier": "corvus",
+   "lit": false,
+   "closed": false,
+   "rounds_left": 42,
    "tallow": false
   }
  ],
@@ -178,39 +197,24 @@
   "site": "Catacombs",
   "kind": "dungeon",
   "level": 2,
-  "room": "9 (Black Fang cavern)",
+  "room": "7 (Ogre Den)",
   "wandering": {
-   "none": false,
-   "die": "1d6",
-   "every": 2,
-   "target": 6
+   "none": true
   },
   "table": "Adventure/Tables/level2-wandering.yaml",
   "source": {
-   "wandering": "site setting: '1d6 every 2 turns, 6+'"
+   "wandering": "area setting: 'none'"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 87 07:40",
+   "at": "day 87 08:20",
    "roll": 6,
    "target": 6,
    "encounter": true
   },
   "history": [
-   {
-    "at": "day 87 01:30",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 87 01:50",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 87 02:10",
     "roll": 1,
@@ -318,13 +322,25 @@
     "roll": 6,
     "target": 6,
     "encounter": true
+   },
+   {
+    "at": "day 87 08:00",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 87 08:20",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
    }
   ],
-  "turn_start_done": 123830,
+  "turn_start_done": 123860,
   "pending_at": null
  },
  "turn_actions": {
-  "turn": 12383,
+  "turn": 12459,
   "listened": [],
   "actions": []
  },
@@ -365,8 +381,8 @@
    "rest_rounds": 473
   },
   "87": {
-   "delve_rounds": 126,
-   "rest_rounds": 347
+   "delve_rounds": 878,
+   "rest_rounds": 357
   }
  },
  "events": [
@@ -1146,9 +1162,9 @@
   }
  ],
  "next_ids": {
-  "enc": 115,
+  "enc": 119,
   "lantern": 4,
-  "torch": 10
+  "torch": 12
  },
  "travel": {
   "hex_source": "/home/user/sinister-stone-of-sakkara/Campaign/campaign.yaml",
@@ -1368,7 +1384,7 @@
   },
   "members": {
    "galerius": {
-    "hp": 7,
+    "hp": 2,
     "hp_max": 7,
     "con": 10,
     "con_mod": 0,
@@ -4749,7 +4765,7 @@
   ],
   "water_sources": {
    "21.20": "a freeholder's well (Rulings S08: 1sp a head)",
-   "19.19": "the orcs' pool (L1 24), carried away",
+   "19.19": "the seep in L2 9, purified by Faustina (Purify Food and Water)",
    "20.19": "found day 6",
    "25.18": "found day 48",
    "22.20": "the fort's cistern",
@@ -4758,38 +4774,6 @@
   "night_pending": null
  },
  "past_encounters": [
-  {
-   "id": "enc96",
-   "at": "day 83 19:30",
-   "monster_name": "Dire Wolf",
-   "number": 4,
-   "reaction": "indifferent",
-   "status": "reaction"
-  },
-  {
-   "id": "enc97",
-   "at": "day 85 13:41",
-   "monster_name": "Stirge (Sakkara)",
-   "number": 4,
-   "reaction": "indifferent",
-   "status": "reaction"
-  },
-  {
-   "id": "enc98",
-   "at": "day 86 15:31",
-   "monster_name": "Chief Thethamun",
-   "number": 1,
-   "reaction": "friendly",
-   "status": "reaction"
-  },
-  {
-   "id": "enc99",
-   "at": "day 86 16:10",
-   "monster_name": "Stirge (Sakkara)",
-   "number": 8,
-   "reaction": null,
-   "status": "begun"
-  },
   {
    "id": "enc100",
    "at": "day 86 18:50",
@@ -4927,6 +4911,39 @@
    "number": 2,
    "reaction": null,
    "status": "begun"
+  },
+  {
+   "id": "enc116",
+   "at": "day 87 07:53",
+   "monster_name": "Hobgoblin",
+   "number": 2,
+   "reaction": "indifferent",
+   "status": "reaction"
+  },
+  {
+   "id": "enc117",
+   "at": "day 87 08:00",
+   "monster_name": "Orc",
+   "number": 5,
+   "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc118",
+   "at": "day 87 08:10",
+   "monster_name": "Ogre",
+   "number": 2,
+   "reaction": null,
+   "status": "fighting",
+   "closed": "superseded"
+  },
+  {
+   "id": "enc119",
+   "at": "day 87 08:20",
+   "monster_name": "Zombie",
+   "number": 7,
+   "reaction": null,
+   "status": "begun"
   }
  ],
  "staying": {
@@ -4968,7 +4985,7 @@
   }
  },
  "light_auto": {
-  "on": true,
+  "on": false,
   "carriers": [
    "corvus",
    "quintus"

@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 13,
- "generated": 1795569219,
+ "generated": 1795569521,
  "date": {
   "year": "",
   "season": "spring",
   "day": 87
  },
- "time": "07:53",
+ "time": "20:35",
  "weather": "Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; overcast; wind moderate",
  "place": "Türos Tem",
  "hex": "19.19",
@@ -19,8 +19,10 @@
    "hp": 6,
    "hp_max": 6,
    "conditions": [],
-   "spells_used": [],
-   "encumbrance_st": 6.333
+   "spells_used": [
+    "Slumber"
+   ],
+   "encumbrance_st": 5.333
   },
   {
    "name": "Corvus",
@@ -30,7 +32,7 @@
    "hp_max": 8,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.667
+   "encumbrance_st": 6.333
   },
   {
    "name": "Faustina",
@@ -39,18 +41,24 @@
    "hp": 10,
    "hp_max": 10,
    "conditions": [],
-   "spells_used": [],
-   "encumbrance_st": 5.002
+   "spells_used": [
+    "Cure Light Injury",
+    "Purify Food and Water"
+   ],
+   "encumbrance_st": 4.002
   },
   {
    "name": "Galerius",
    "sheet": "Characters/galerius.json",
    "role": "pc",
-   "hp": 7,
+   "hp": 2,
    "hp_max": 7,
-   "conditions": [],
+   "conditions": [
+    "shock (Mortal Wounds): needs one night of bed rest",
+    "gruesome scarring: nose flattened, cheek crushed, ear cauliflowered"
+   ],
    "spells_used": [],
-   "encumbrance_st": 9.667
+   "encumbrance_st": 8.667
   },
   {
    "name": "Hrodric",
@@ -59,7 +67,9 @@
    "hp": 7,
    "hp_max": 7,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Cure Light Injury"
+   ],
    "encumbrance_st": 6.5
   },
   {
@@ -113,7 +123,7 @@
    "encumbrance_st": 4.167
   }
  ],
- "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) 2 turns 4 rounds left",
+ "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) out",
  "rations": "Galerius: food 4 d, water 1 d; Faustina: food 6 d, water 1 d; Callista: food 6 d, water 1 d; Corvus: food 6 d, water 1 d; Varro: food 4 d, water 1 d; Hrodric: food 4 d, water 1 d; Quintus: food 4 d, water 1 d; Zaira: food 2 d, water 1 d",
  "tracker": {},
  "threads": [],
@@ -337,11 +347,9 @@
      "stone": 2
     },
     "sack": {
-     "contents": [
-      "Metamphora (60gp)"
-     ],
+     "contents": [],
      "items": 0,
-     "stone": 1
+     "stone": 0
     },
     "worn": {
      "contents": [],
@@ -356,7 +364,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.333,
+   "encumbrance_st": 5.333,
    "weapons": [
     {
      "name": "Staff",
@@ -566,9 +574,9 @@
       "Waterskin ×5",
       "arrow ×13",
       "iron spike ×6",
-      "torch ×4"
+      "torch ×2"
      ],
-     "items": 12,
+     "items": 10,
      "stone": 1
     },
     "sack": {
@@ -589,7 +597,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.667,
+   "encumbrance_st": 6.333,
    "weapons": [
     {
      "name": "Short Sword",
@@ -837,11 +845,9 @@
      "stone": 1
     },
     "sack": {
-     "contents": [
-      "Metamphora (60gp)"
-     ],
+     "contents": [],
      "items": 0,
-     "stone": 1
+     "stone": 0
     },
     "worn": {
      "contents": [],
@@ -856,7 +862,7 @@
     "sp": 6,
     "cp": 5
    },
-   "encumbrance_st": 5.002,
+   "encumbrance_st": 4.002,
    "weapons": [
     {
      "name": "Staff",
@@ -891,6 +897,12 @@
      "apparent_value_gp": 250,
      "magical": true,
      "stone": 0.167
+    },
+    {
+     "id": "L46",
+     "looks": "ogre knucklebones (2 ogres; 3 metamphora)",
+     "qty": 1,
+     "stone": 3.0
     }
    ],
    "spells": {
@@ -928,10 +940,10 @@
     ]
    },
    "movement": {
-    "exploration": 90,
-    "combat": 30,
-    "running": 90,
-    "expedition": 18
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1195,9 +1207,9 @@
      "stone": 1
     },
     "belt": {
-     "item": "Metamphora (60gp), Net, Oil, Military (1 pint), arrow ×20",
+     "item": "Net, Oil, Military (1 pint), arrow ×20",
      "items": 2,
-     "stone": 2
+     "stone": 1
     },
     "head": {
      "item": "",
@@ -1240,7 +1252,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 9.667,
+   "encumbrance_st": 8.667,
    "weapons": [
     {
      "name": "Sword",
@@ -2143,7 +2155,23 @@
     }
    ],
    "gems": "",
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L45",
+     "looks": "400 gold pieces",
+     "qty": 400,
+     "value_gp": 400.0,
+     "stone": 0.4
+    },
+    {
+     "id": "L47",
+     "looks": "a backward-curved Zaharan blade with a cobra hilt",
+     "qty": 1,
+     "apparent_value_gp": 660,
+     "magical": true,
+     "stone": 0.167
+    }
+   ],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 14,
@@ -3066,42 +3094,15 @@
  ],
  "open_rolls": [
   {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    3
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    1
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather wind (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    6
-   ],
-   "total": 9
-  },
-  {
-   "label": "Galerius surprise",
+   "label": "init Gnoll",
    "spec": "1d6",
    "rolls": [
-    1
+    6
    ],
-   "total": 1
+   "total": 6
   },
   {
-   "label": "Faustina surprise",
+   "label": "init Gnoll",
    "spec": "1d6",
    "rolls": [
     4
@@ -3109,7 +3110,23 @@
    "total": 4
   },
   {
-   "label": "Callista surprise",
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Gnoll",
    "spec": "1d6",
    "rolls": [
     5
@@ -3117,31 +3134,127 @@
    "total": 5
   },
   {
-   "label": "Corvus surprise",
-   "spec": "1d6",
+   "label": "attack Corvus vs the bigger brute with a curved sword",
+   "spec": "1d20",
    "rolls": [
-    2
+    13
+   ],
+   "total": 13
+  },
+  {
+   "label": "damage to the bigger brute with a curved sword",
+   "spec": "1d6+1",
+   "rolls": [
+    1
    ],
    "total": 2
   },
   {
-   "label": "Varro surprise",
-   "spec": "1d6",
+   "label": "attack Gnoll vs the bigger brute with a curved sword",
+   "spec": "1d20",
    "rolls": [
-    4
+    1
    ],
-   "total": 4
+   "total": 1
   },
   {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
+   "label": "attack Gnoll vs the bigger brute with a curved sword",
+   "spec": "1d20",
    "rolls": [
     3
    ],
    "total": 3
   },
   {
-   "label": "Quintus surprise",
+   "label": "attack Gnoll vs the bigger brute with a curved sword",
+   "spec": "1d20",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Gnoll vs the bigger brute with a curved sword",
+   "spec": "1d20",
+   "rolls": [
+    13
+   ],
+   "total": 13
+  },
+  {
+   "label": "damage to the bigger brute with a curved sword",
+   "spec": "1d6+1",
+   "rolls": [
+    2
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Gnoll vs the bigger brute with a curved sword",
+   "spec": "1d20",
+   "rolls": [
+    9
+   ],
+   "total": 9
+  },
+  {
+   "label": "attack Gnoll vs the bigger brute with a curved sword",
+   "spec": "1d20",
+   "rolls": [
+    14
+   ],
+   "total": 14
+  },
+  {
+   "label": "damage to the bigger brute with a curved sword",
+   "spec": "1d6+1",
+   "rolls": [
+    3
+   ],
+   "total": 4
+  },
+  {
+   "label": "attack Ulmash (Sakkara) vs the bigger brute with a curved sword",
+   "spec": "1d20",
+   "rolls": [
+    18
+   ],
+   "total": 18
+  },
+  {
+   "label": "damage to the bigger brute with a curved sword",
+   "spec": "1d6+2",
+   "rolls": [
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "attack Ulmash (Sakkara) vs the brute with a stone club",
+   "spec": "1d20",
+   "rolls": [
+    20
+   ],
+   "total": 20
+  },
+  {
+   "label": "damage to the brute with a stone club",
+   "spec": "1d6+2",
+   "rolls": [
+    1
+   ],
+   "total": 3
+  },
+  {
+   "label": "attack Ur-Shet (Sakkara) vs the brute with a stone club",
+   "spec": "1d20",
+   "rolls": [
+    9
+   ],
+   "total": 9
+  },
+  {
+   "label": "init Faustina",
    "spec": "1d6",
    "rolls": [
     2
@@ -3149,7 +3262,87 @@
    "total": 2
   },
   {
-   "label": "Zaira surprise",
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Zaira",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Ur-Shet (Sakkara)",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Ulmash (Sakkara)",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Gnoll",
    "spec": "1d6",
    "rolls": [
     2
@@ -3157,23 +3350,79 @@
    "total": 2
   },
   {
-   "label": "Galerius surprise",
-   "spec": "1d6",
+   "label": "attack Zaira vs the brute with a stone club",
+   "spec": "1d20+1",
+   "rolls": [
+    15
+   ],
+   "total": 16
+  },
+  {
+   "label": "damage to the brute with a stone club",
+   "spec": "1d6+2",
+   "rolls": [
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Ur-Shet (Sakkara) vs the brute with a stone club",
+   "spec": "1d20",
+   "rolls": [
+    8
+   ],
+   "total": 8
+  },
+  {
+   "label": "attack Ulmash (Sakkara) vs the brute with a stone club",
+   "spec": "1d20",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Quintus vs the brute with a stone club",
+   "spec": "1d20+1",
+   "rolls": [
+    19
+   ],
+   "total": 20
+  },
+  {
+   "label": "damage to the brute with a stone club",
+   "spec": "1d6+2",
+   "rolls": [
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Gnoll vs the brute with a stone club",
+   "spec": "1d20",
+   "rolls": [
+    20
+   ],
+   "total": 20
+  },
+  {
+   "label": "damage to the brute with a stone club",
+   "spec": "1d6+1",
    "rolls": [
     6
    ],
-   "total": 6
+   "total": 7
   },
   {
-   "label": "Faustina surprise",
-   "spec": "1d6",
+   "label": "Mortal Wounds Galerius d20",
+   "spec": "1d20",
    "rolls": [
-    4
+    5
    ],
-   "total": 4
+   "total": 5
   },
   {
-   "label": "Callista surprise",
+   "label": "Mortal Wounds Galerius d6",
    "spec": "1d6",
    "rolls": [
     1
@@ -3181,44 +3430,68 @@
    "total": 1
   },
   {
-   "label": "Corvus surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Varro surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Quintus surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Zaira surprise",
-   "spec": "1d6",
+   "label": "Faustina's Cure Light Injury on Galerius",
+   "spec": "1d6+1",
    "rolls": [
     1
    ],
-   "total": 1
+   "total": 2
+  },
+  {
+   "label": "Mortal Wounds Gnoll d20",
+   "spec": "1d20",
+   "rolls": [
+    15
+   ],
+   "total": 15
+  },
+  {
+   "label": "Mortal Wounds Gnoll d6",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Mortal Wounds Gnoll d20",
+   "spec": "1d20",
+   "rolls": [
+    19
+   ],
+   "total": 19
+  },
+  {
+   "label": "Mortal Wounds Gnoll d6",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Mortal Wounds Gnoll d20",
+   "spec": "1d20",
+   "rolls": [
+    11
+   ],
+   "total": 11
+  },
+  {
+   "label": "Mortal Wounds Gnoll d6",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Hrodric's Cure Light Injury on the Black Fang gnoll",
+   "spec": "1d6+1",
+   "rolls": [
+    1
+   ],
+   "total": 2
   }
  ],
  "rumours_heard": [

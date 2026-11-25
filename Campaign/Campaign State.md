@@ -11,7 +11,7 @@ public:
     year: ''
     season: spring
     day: 87
-  time: 07:53
+  time: '20:35'
   weather: Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; overcast; wind moderate
   place: Türos Tem
   hex: '19.19'
@@ -22,8 +22,9 @@ public:
     hp: 6
     hp_max: 6
     conditions: []
-    spells_used: []
-    encumbrance_st: 6.333
+    spells_used:
+    - Slumber
+    encumbrance_st: 5.333
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -31,30 +32,35 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 6.667
+    encumbrance_st: 6.333
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
     hp: 10
     hp_max: 10
     conditions: []
-    spells_used: []
-    encumbrance_st: 5.002
+    spells_used:
+    - Cure Light Injury
+    - Purify Food and Water
+    encumbrance_st: 4.002
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 7
+    hp: 2
     hp_max: 7
-    conditions: []
+    conditions:
+    - 'shock (Mortal Wounds): needs one night of bed rest'
+    - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered'
     spells_used: []
-    encumbrance_st: 9.667
+    encumbrance_st: 8.667
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
     hp: 7
     hp_max: 7
     conditions: []
-    spells_used: []
+    spells_used:
+    - Cure Light Injury
     encumbrance_st: 6.5
   - name: Severina
     sheet: Characters/severina.json
@@ -96,7 +102,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.167
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) 2 turns 4 rounds left
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) out
   rations: 'Galerius: food 4 d, water 1 d; Faustina: food 6 d, water 1 d; Callista: food 6 d, water 1 d; Corvus: food 6 d, water 1 d; Varro: food 4 d, water 1 d; Hrodric: food 4 d, water 1 d; Quintus: food 4 d, water 1 d; Zaira: food 2 d, water 1 d'
   tracker: {}
   threads: []

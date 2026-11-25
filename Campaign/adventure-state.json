@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 7,
-  "L": 44,
+  "L": 47,
   "H": 1,
-  "M": 10
+  "M": 11
  },
  "adventure": {
   "id": "A7",
@@ -147,7 +147,23 @@
     "joined_day": 86
    }
   },
-  "monsters": [],
+  "monsters": [
+   {
+    "id": "M11",
+    "monster": "Ogre",
+    "source": "Ogre (MM p. 250)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 140,
+    "fight": {
+     "ids": [
+      "ogre1",
+      "ogre2"
+     ],
+     "text": "the fight with 2 Ogre, encounter enc118, round 3"
+    }
+   }
+  ],
   "awards": [],
   "status": "open",
   "payout": null,
@@ -3467,6 +3483,113 @@
    "sold": null,
    "judge": [],
    "divided_day": 74
+  },
+  "L45": {
+   "id": "L45",
+   "adventure": "A7",
+   "kind": "coins",
+   "qty": 400,
+   "stone": 0.4,
+   "carrier": "quintus",
+   "status": "carried",
+   "found": {
+    "day": 87,
+    "where": "L2 7 ogre den (the party's half by Ur-Shet's terms)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 400,
+    "value_gp": 400.0,
+    "stone": 0.4,
+    "name": "400 gold pieces"
+   },
+   "player": {
+    "desc": "400 gold pieces",
+    "value_gp": 400.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L46": {
+   "id": "L46",
+   "adventure": "A7",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 3.0,
+   "carrier": "faustina",
+   "status": "carried",
+   "found": {
+    "day": 87,
+    "where": "L2 7 ogre den"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 180.0,
+    "stone": 3.0,
+    "name": "ogre knucklebones (2 ogres; 3 metamphora)",
+    "merch": null
+   },
+   "player": {
+    "desc": "ogre knucklebones (2 ogres; 3 metamphora)",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L47": {
+   "id": "L47",
+   "adventure": "A7",
+   "kind": "item",
+   "qty": 1,
+   "stone": 0.16666666666666666,
+   "carrier": "quintus",
+   "status": "carried",
+   "found": {
+    "day": 87,
+    "where": "L2 7 ogre den"
+   },
+   "true": {
+    "kind": "item",
+    "qty": 1,
+    "cue": null,
+    "magical": true,
+    "rarity": "uncommon",
+    "base_gp": 5000,
+    "category": "Sword",
+    "arms_type": "Sword",
+    "name": "Sword +1",
+    "note": null,
+    "apparent_gp": 660,
+    "apparent_text": "650gp + 10gp (Sword; TT p. 231)",
+    "generic": true,
+    "stone": 0.16666666666666666
+   },
+   "player": {
+    "desc": "a backward-curved Zaharan blade with a cobra hilt",
+    "value_gp": null,
+    "apparent_gp": 660,
+    "magical": true,
+    "known": []
+   },
+   "appraised": false,
+   "identified": false,
+   "used": false,
+   "sold": null,
+   "judge": []
   }
  },
  "hoards": {
@@ -3673,5 +3796,12 @@
    "id": "zaira",
    "actor": "zaira"
   }
- }
+ },
+ "components_known": {
+  "ogre": {
+   "by": "callista",
+   "how": "Naturalism"
+  }
+ },
+ "component_fails": []
 }

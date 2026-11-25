@@ -16,5 +16,6 @@
 "inventory_holder": true,
 "items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Fighting Style Specialization","list":"class"},{"type":"proficiency","name":"Animal Training","list":"general"},{"type":"proficiency","name":"Riding","list":"general"}],
 "modifiers": [],
-"state": {"conditions":[],"spells_used":[],"hp":7}
+"state": {"conditions":["shock (Mortal Wounds): needs one night of bed rest","gruesome scarring: nose flattened, cheek crushed, ear cauliflowered"],"spells_used":[],"hp":2},
+"changes": [{"field":"state.hp","from":7,"to":2,"cause":"fight ended: the fight with 2 Ogre, encounter enc118, round 3"},{"field":"state.conditions","from":[],"to":["shock (Mortal Wounds): needs one night of bed rest","gruesome scarring: nose flattened, cheek crushed, ear cauliflowered"],"cause":"the ogre's club, day 87"}]
 }
