@@ -290,8 +290,9 @@ def run(argv, ctx=None, capture=True):
         import slips as _slips
         for s_ in _slips.catch(ctx, [cmd, *args], int(code or 0), buf.getvalue() if capture else ctx.get("_tee", ""),
                                run):
-            out += s_ + "\n"
-            if not capture:
+            if capture:
+                out += s_ + "\n"
+            else:
                 print(s_)
     except Exception:  # noqa: BLE001
         pass
