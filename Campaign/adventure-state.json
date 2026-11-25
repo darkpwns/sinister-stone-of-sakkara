@@ -4,7 +4,7 @@
   "A": 11,
   "L": 88,
   "H": 1,
-  "M": 23
+  "M": 24
  },
  "adventure": {
   "id": "A11",
@@ -19,12 +19,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 6269,
     "level_before": 3,
     "class": "Fighter",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 1434
    },
    "faustina": {
     "id": "faustina",
@@ -34,12 +36,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 5984,
     "level_before": 3,
     "class": "Priestess",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 1369
    },
    "callista": {
     "id": "callista",
@@ -49,12 +53,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 5984,
     "level_before": 3,
     "class": "Mage",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 1369
    },
    "corvus": {
     "id": "corvus",
@@ -64,12 +70,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 5984,
     "level_before": 3,
     "class": "Explorer",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 1369
    },
    "hrodric": {
     "id": "hrodric",
@@ -79,12 +87,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 5469,
     "level_before": 3,
     "class": "Shaman",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 1369
    },
    "severina": {
     "id": "severina",
@@ -94,12 +104,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 2809,
     "level_before": 2,
     "class": "Venturer",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 1369
    },
    "varro": {
     "id": "varro",
@@ -109,12 +121,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1391,
     "level_before": 1,
     "class": "Crusader",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 685
    },
    "quintus": {
     "id": "quintus",
@@ -124,12 +138,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1235,
     "level_before": 1,
     "class": "Fighter",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 685
    },
    "zaira": {
     "id": "zaira",
@@ -139,12 +155,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1177,
     "level_before": 1,
     "class": "Elven Spellsword",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 652
    },
    "marius": {
     "id": "marius",
@@ -154,12 +172,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 1417,
     "level_before": 2,
     "class": "Thief",
-    "joined_day": 128
+    "joined_day": 128,
+    "returned_day": 133,
+    "xp_award": 685
    }
   },
   "monsters": [
@@ -224,12 +244,161 @@
      ],
      "text": "the fight with 8 Troglodyte, encounter enc165, round 4"
     }
+   },
+   {
+    "id": "M24",
+    "monster": "Zombie",
+    "source": "Zombie (MM p. 346)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 29,
+    "fight": {
+     "ids": [
+      "zombie1",
+      "zombie2"
+     ],
+     "text": "the fight with 2 Zombie, encounter enc166, round 5"
+    }
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 133,
+   "at": "Türos Tem",
+   "total": 10428.0,
+   "per_share": 1303.5,
+   "awards": {
+    "galerius": {
+     "share": 1.0,
+     "why": null,
+     "base": 1304,
+     "pct": 10,
+     "pen": 0,
+     "award": 1434,
+     "xp_before": 6269,
+     "xp_after": 7703,
+     "capped": null,
+     "zero": false
+    },
+    "faustina": {
+     "share": 1.0,
+     "why": null,
+     "base": 1304,
+     "pct": 5,
+     "pen": 0,
+     "award": 1369,
+     "xp_before": 5984,
+     "xp_after": 7353,
+     "capped": null,
+     "zero": false
+    },
+    "callista": {
+     "share": 1.0,
+     "why": null,
+     "base": 1304,
+     "pct": 5,
+     "pen": 0,
+     "award": 1369,
+     "xp_before": 5984,
+     "xp_after": 7353,
+     "capped": null,
+     "zero": false
+    },
+    "corvus": {
+     "share": 1.0,
+     "why": null,
+     "base": 1304,
+     "pct": 5,
+     "pen": 0,
+     "award": 1369,
+     "xp_before": 5984,
+     "xp_after": 7353,
+     "capped": null,
+     "zero": false
+    },
+    "hrodric": {
+     "share": 1.0,
+     "why": null,
+     "base": 1304,
+     "pct": 5,
+     "pen": 0,
+     "award": 1369,
+     "xp_before": 5469,
+     "xp_after": 6838,
+     "capped": null,
+     "zero": false,
+     "level_up": 4
+    },
+    "severina": {
+     "share": 1.0,
+     "why": null,
+     "base": 1304,
+     "pct": 5,
+     "pen": 0,
+     "award": 1369,
+     "xp_before": 2809,
+     "xp_after": 4178,
+     "capped": null,
+     "zero": false,
+     "level_up": 3
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 652,
+     "pct": 5,
+     "pen": 0,
+     "award": 685,
+     "xp_before": 1391,
+     "xp_after": 2076,
+     "capped": null,
+     "zero": false,
+     "level_up": 2
+    },
+    "quintus": {
+     "share": 0.5,
+     "why": null,
+     "base": 652,
+     "pct": 5,
+     "pen": 0,
+     "award": 685,
+     "xp_before": 1235,
+     "xp_after": 1920,
+     "capped": null,
+     "zero": false
+    },
+    "zaira": {
+     "share": 0.5,
+     "why": null,
+     "base": 652,
+     "pct": 0,
+     "pen": 0,
+     "award": 652,
+     "xp_before": 1177,
+     "xp_after": 1829,
+     "capped": null,
+     "zero": false
+    },
+    "marius": {
+     "share": 0.5,
+     "why": null,
+     "base": 652,
+     "pct": 5,
+     "pen": 0,
+     "award": 685,
+     "xp_before": 1417,
+     "xp_after": 2102,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 133,
+   "where": "Türos Tem"
+  }
  },
  "closed": [
   {
@@ -6637,7 +6806,7 @@
    "qty": 750,
    "stone": 0.75,
    "carrier": "severina",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -6661,7 +6830,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 133
   },
   "L83": {
    "id": "L83",
@@ -6670,7 +6840,7 @@
    "qty": 500,
    "stone": 0.5,
    "carrier": "severina",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -6694,7 +6864,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 133
   },
   "L84": {
    "id": "L84",
@@ -6703,7 +6874,7 @@
    "qty": 100,
    "stone": 0.1,
    "carrier": "severina",
-   "status": "carried",
+   "status": "divided",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -6727,7 +6898,8 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "divided_day": 133
   },
   "L85": {
    "id": "L85",
@@ -7016,7 +7188,8 @@
   "zero.hp_min4",
   "zero.xp_carry",
   "loyal.calamity_order",
-  "loyal.clamp"
+  "loyal.clamp",
+  "totem.ordinary_hd"
  ],
  "roster": {
   "galerius": {

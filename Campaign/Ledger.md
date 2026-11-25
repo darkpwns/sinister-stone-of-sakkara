@@ -72,6 +72,16 @@ tags:
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | gem worth 300.0gp | 300 | severina |
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | gem worth 75.0gp | 75 | severina |
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | sack of legionary iron rations (two weeks) | 6 | marius |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Great Axe +1 | 660 | galerius |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Ring of Fire Protection | 40 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Plate +1 | 710 | quintus |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | 750 silver pieces | 75 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | 500 gold pieces | 500 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | 100 platinum pieces | 500 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | gem worth 500.0gp | 500 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | gem worth 500.0gp | 500 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | gem worth 1000.0gp | 1,000 | severina |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | the Lady's spellbook (iron-bound, pages of flayed skin) | 5,000 | callista |
 
 ## Monster XP
 
@@ -96,6 +106,11 @@ tags:
 | 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Hepsis (Sakkara) | 1 | 80 | 80 |
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | Catechist (Sakkara) | 4 | 10 | 40 |
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | Ur-Namu (Sakkara) | 1 | 100 | 100 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Gnoll | 1 | 20 | 20 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Zombie | 5 | 29 | 145 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Zakiti (Sakkara) | 1 | 660 | 660 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Troglodyte | 3 | 20 | 60 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Zombie | 2 | 29 | 58 |
 
 ## Shares and XP awarded
 
@@ -182,6 +197,16 @@ tags:
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | Quintus | 0.5 | 134 | 9 | 19 | +5% | 170 |
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | Zaira | 0.5 | 134 | 9 | 19 | +0% | 162 |
 | 123 | A10 The Outer Fane (Buried Temple, level 2) | Marius | 0.5 | 134 | 9 | 19 | +5% | 170 |; RR p. 311 xp.pc_share; RR p. 311 xp.henchman_share; RR p. 14 Key Attribute; RR p. 168 Henchmen) | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Galerius | 1 | 1,186 | 118 | 0 | +10% | 1,434 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Faustina | 1 | 1,186 | 118 | 0 | +5% | 1,369 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Callista | 1 | 1,186 | 118 | 0 | +5% | 1,369 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Corvus | 1 | 1,186 | 118 | 0 | +5% | 1,369 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Hrodric | 1 | 1,186 | 118 | 0 | +5% | 1,369 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Severina | 1 | 1,186 | 118 | 0 | +5% | 1,369 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Varro | 0.5 | 593 | 59 | 0 | +5% | 685 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Quintus | 0.5 | 593 | 59 | 0 | +5% | 685 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Zaira | 0.5 | 593 | 59 | 0 | +0% | 652 |
+| 133 | A11 The Lady Below (Buried Temple, level 2) | Marius | 0.5 | 593 | 59 | 0 | +5% | 685 |
 
 ## Wages
 
@@ -563,3 +588,13 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
 | 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
 | 130 | Apsa's orcs of 27 | a night's shelter and minding the donkeys (day 130) |  |  | 10gp | faustina |
+| 133 |  | treasure share |  | 134gp 3sp 8cp |  | galerius |
+| 133 |  | treasure share |  | 134gp 3sp 8cp |  | faustina |
+| 133 |  | treasure share |  | 134gp 3sp 8cp |  | callista |
+| 133 |  | treasure share |  | 134gp 3sp 8cp |  | corvus |
+| 133 |  | treasure share |  | 134gp 3sp 8cp |  | hrodric |
+| 133 |  | treasure share |  | 134gp 3sp 8cp |  | severina |
+| 133 |  | treasure share |  | 67gp 1sp 9cp |  | varro |
+| 133 |  | treasure share |  | 67gp 1sp 9cp |  | quintus |
+| 133 |  | treasure share |  | 67gp 1sp 9cp |  | zaira |
+| 133 |  | treasure share |  | 67gp 1sp 9cp |  | marius |

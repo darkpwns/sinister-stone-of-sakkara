@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 132
-  time: 09:16
-  weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; clear; wind still
+    day: 133
+  time: '14:54'
+  weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; mostly cloudy; wind moderate
   place: Türos Tem
-  hex: '20.19'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -22,10 +22,8 @@ public:
     hp: 8
     hp_max: 8
     conditions: []
-    spells_used:
-    - Slumber
-    - Slumber
-    encumbrance_st: 5.703
+    spells_used: []
+    encumbrance_st: 5.848
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -33,17 +31,15 @@ public:
     hp_max: 16
     conditions: []
     spells_used: []
-    encumbrance_st: 7.203
+    encumbrance_st: 7.348
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used:
-    - Halt Humanoids
-    - Halt Humanoids
-    encumbrance_st: 4.512
+    spells_used: []
+    encumbrance_st: 4.657
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -52,24 +48,23 @@ public:
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
     spells_used: []
-    encumbrance_st: 9.036
+    encumbrance_st: 9.181
   - name: Hrodric
     sheet: Characters/hrodric.json
+    role: pc
+    hp: 18
+    hp_max: 18
+    conditions: []
+    spells_used: []
+    encumbrance_st: 7.034
+  - name: Severina
+    sheet: Characters/severina.json
     role: pc
     hp: 17
     hp_max: 17
     conditions: []
-    spells_used:
-    - Holy Blessing
-    encumbrance_st: 5.869
-  - name: Severina
-    sheet: Characters/severina.json
-    role: pc
-    hp: 11
-    hp_max: 11
-    conditions: []
     spells_used: []
-    encumbrance_st: 5.036
+    encumbrance_st: 5.181
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
@@ -77,15 +72,15 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.364
+    encumbrance_st: 5.441
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
-    hp: 3
-    hp_max: 3
+    hp: 5
+    hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 9.021
+    encumbrance_st: 9.098
   - name: Quintus
     sheet: Characters/quintus.json
     role: henchman
@@ -93,7 +88,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 5.068
+    encumbrance_st: 3.458
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
@@ -101,14 +96,12 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.209
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) 22 turns 6 rounds left
-  rations: 'Galerius: food 7 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 7 d, water 1 d; Corvus: food 7 d, water 1 d; Varro: food 7 d, water 1 d; Hrodric: food 7 d, water 1 d; Quintus: food 7 d, water 1 d; Zaira: food 13 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 12 d, water 1 d'
+    encumbrance_st: 5.953
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
+  rations: 'Galerius: food 0 d, water 1 d (fatigued); Faustina: food 11 d, water 1 d; Callista: food 11 d, water 1 d; Corvus: food 6 d, water 1 d (fatigued); Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 0 d, water 1 d (fatigued); Zaira: food 12 d, water 1 d (fatigued); Severina: food 6 d, water 1 d; Marius: food 18 d, water 1 d'
   tracker: {}
   threads: []
   trail:
-  - '22.21'
-  - '22.20'
   - '21.20'
   - '22.20'
   - '21.20'
@@ -127,7 +120,9 @@ public:
   - '21.21'
   - '21.20'
   - '20.19'
-clock_day: 132
+  - '21.20'
+  - '22.20'
+clock_day: 133
 ---
 # Campaign State
 

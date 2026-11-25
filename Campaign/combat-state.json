@@ -1,20 +1,24 @@
 {
  "schema": "acks-combat/3",
- "round": 4,
+ "round": 5,
  "order": [
-  "hrodric-eagle",
   "callista",
-  "zaira",
-  "severina",
-  "troglodyte7",
-  "galerius",
-  "hrodric",
-  "marius",
-  "faustina",
   "corvus",
   "quintus",
-  "varro",
-  "ur-shet"
+  "fangs2",
+  "fangs1",
+  "fangs3",
+  "fangs5",
+  "galerius",
+  "hrodric",
+  "zaira",
+  "fangs4",
+  "hrodric-eagle",
+  "marius",
+  "fangs6",
+  "faustina",
+  "severina",
+  "varro"
  ],
  "count_index": null,
  "options": {
@@ -44,7 +48,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -247,7 +251,7 @@
    "hp_max": 20,
    "hp": 20,
    "hp_start": 20,
-   "attacked_round": 3
+   "attacked_round": 2
   },
   "faustina": {
    "id": "faustina",
@@ -261,7 +265,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -447,10 +451,7 @@
    "actor": "faustina",
    "hp_max": 15,
    "hp": 15,
-   "hp_start": 15,
-   "spells_cast": {
-    "halt humanoids": 1
-   }
+   "hp_start": 15
   },
   "callista": {
    "id": "callista",
@@ -464,7 +465,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -652,10 +653,7 @@
    "actor": "callista",
    "hp_max": 8,
    "hp": 8,
-   "hp_start": 8,
-   "spells_cast": {
-    "slumber": 2
-   }
+   "hp_start": 8
   },
   "corvus": {
    "id": "corvus",
@@ -669,7 +667,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -813,6 +811,18 @@
     "movement_running": 60,
     "weapons": [
      {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+2",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "right hand, two-handed"
+     },
+     {
       "name": "Short Sword",
       "init_bonus": "",
       "attack_throw": 9,
@@ -822,7 +832,7 @@
        "medium": 0,
        "long": 0
       },
-      "held": "right hand"
+      "held": "belt"
      },
      {
       "name": "Bola",
@@ -847,18 +857,6 @@
        "long": 20
       },
       "held": "belt"
-     },
-     {
-      "name": "Short Bow",
-      "init_bonus": "",
-      "attack_throw": 9,
-      "damage": "1d6+2",
-      "range": {
-       "short": 75,
-       "medium": 150,
-       "long": 300
-      },
-      "held": "backpack"
      }
     ],
     "save_mods_text": {},
@@ -903,7 +901,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": -1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1103,7 +1101,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1281,6 +1279,18 @@
        "long": 20
       },
       "held": "backpack"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6/1d8",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "backpack"
      }
     ],
     "save_mods_text": {},
@@ -1303,8 +1313,7 @@
    "actor": "hrodric",
    "hp_max": 17,
    "hp": 17,
-   "hp_start": 17,
-   "attacked_round": 3
+   "hp_start": 17
   },
   "hrodric-eagle": {
    "id": "hrodric-eagle",
@@ -1318,7 +1327,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -1397,7 +1406,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1538,7 +1547,7 @@
      "dex_only": 0
     },
     "hp_max": 7,
-    "movement_running": 90,
+    "movement_running": 120,
     "weapons": [
      {
       "name": "Sword",
@@ -1551,18 +1560,6 @@
        "long": 0
       },
       "held": "right hand"
-     },
-     {
-      "name": "Sword",
-      "init_bonus": "",
-      "attack_throw": 9,
-      "damage": "1d6/1d8+2",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "backpack"
      }
     ],
     "save_mods_text": {},
@@ -1785,7 +1782,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 0,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1981,9 +1978,7 @@
    "group": "marius",
    "perceived": "Marius",
    "judge_set": {},
-   "hp_lost_rounds": [
-    2
-   ],
+   "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
@@ -2183,277 +2178,68 @@
    "actor": "marius",
    "hp_max": 6,
    "hp": 2,
-   "hp_start": 6,
-   "attacked_round": 3,
-   "last_types": [
-    "slashing"
-   ]
+   "hp_start": 2
   },
-  "troglodyte1": {
-   "id": "troglodyte1",
+  "zombie1": {
+   "id": "zombie1",
    "side": "foe",
-   "status": "fled",
+   "status": "destroyed",
    "conditions": [],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 1",
+   "group": "zombie",
+   "perceived": "shambling corpse 1",
    "judge_set": {},
    "hp_lost_rounds": [
-    2
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 13,
-   "hp": 8,
-   "hp_start": 13,
-   "attacked_round": 3,
-   "last_types": [
-    "piercing"
-   ],
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "troglodyte2": {
-   "id": "troglodyte2",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 2",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 12,
-   "hp": 12,
-   "hp_start": 12,
-   "attacked_round": 3,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "troglodyte3": {
-   "id": "troglodyte3",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 3",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 7,
-   "hp": 1,
-   "hp_start": 7,
-   "attacked_round": 3,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "troglodyte4": {
-   "id": "troglodyte4",
-   "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 4",
-   "judge_set": {},
-   "hp_lost_rounds": [
+    1,
     1
    ],
    "felled": {
     "round": 1,
-    "types": [],
-    "natural": true,
-    "by": "ulmash",
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "fangs3",
     "tier": "mundane",
     "nonlethal": false
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Troglodyte",
+   "name": "Zombie",
    "stats": {},
    "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 3,
-   "hp": -3,
-   "hp_start": 3,
-   "attacked_round": 1,
-   "xp_recorded": {
-    "record": "M23",
-    "how": "killed",
-    "xp": 20
-   }
-  },
-  "troglodyte5": {
-   "id": "troglodyte5",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 5",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 15,
-   "hp": 15,
-   "hp_start": 15,
-   "attacked_round": 3,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "troglodyte6": {
-   "id": "troglodyte6",
-   "side": "foe",
-   "status": "fled",
-   "conditions": [],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 6",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
-   },
-   "hp_max": 4,
-   "hp": 4,
-   "hp_start": 4,
-   "xp_recorded": {
-    "judge": "outsmarted"
-   }
-  },
-  "troglodyte7": {
-   "id": "troglodyte7",
-   "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "slumbering",
-     "source": "callista",
-     "rounds_left": 27,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 7",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Troglodyte",
-   "stats": {},
-   "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+    "base": "zombie",
+    "sha256": "198fdde649aa9725bb9de95e6eb12e7499d4d7ae63e749220a41d026a3a11e2c"
    },
    "hp_max": 7,
-   "hp": -7,
+   "hp": -2,
    "hp_start": 7,
+   "last_types": [
+    "slashing"
+   ],
+   "attacked_round": 1,
    "xp_recorded": {
-    "record": "M23",
+    "record": "M24",
     "how": "killed",
-    "xp": 20
+    "xp": 29
    }
   },
-  "troglodyte8": {
-   "id": "troglodyte8",
+  "zombie2": {
+   "id": "zombie2",
    "side": "foe",
-   "status": "slain",
-   "conditions": [
-    {
-     "name": "unconscious",
-     "source": null,
-     "rounds_left": null,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "troglodyte",
-   "perceived": "scaly crested man 8",
+   "status": "destroyed",
+   "conditions": [],
+   "group": "zombie",
+   "perceived": "shambling corpse 2",
    "judge_set": {},
    "hp_lost_rounds": [
-    1
+    2
    ],
    "felled": {
-    "round": 1,
+    "round": 2,
     "types": [
      "piercing",
      "slashing"
@@ -2465,216 +2251,207 @@
    },
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Troglodyte",
+   "name": "Zombie",
    "stats": {},
    "monster": {
-    "base": "troglodyte",
-    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+    "base": "zombie",
+    "sha256": "198fdde649aa9725bb9de95e6eb12e7499d4d7ae63e749220a41d026a3a11e2c"
    },
-   "hp_max": 9,
-   "hp": -9,
-   "hp_start": 9,
+   "hp_max": 3,
+   "hp": -6,
+   "hp_start": 3,
    "last_types": [
     "piercing",
     "slashing"
    ],
    "xp_recorded": {
-    "record": "M23",
+    "record": "M24",
     "how": "killed",
-    "xp": 20
+    "xp": 29
    }
   },
-  "ulmash": {
-   "id": "ulmash",
-   "side": "party",
-   "status": "left",
-   "conditions": [],
-   "group": "ulmash",
-   "perceived": "Ulmash",
-   "judge_set": {
-    "hp": "given"
-   },
-   "hp_lost_rounds": [
-    1,
-    3
-   ],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 2,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Ulmash (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Ulmash (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ulmash (Sakkara).md",
-     "page": 55,
-     "needs_judge": [],
-     "checks": [],
-     "type": "beastman",
-     "type_text": "Humanoid Beastman (gnoll champion)",
-     "size_index": 1,
-     "size": "man-sized",
-     "ac": 5,
-     "hd": {
-      "text": "3 (16 hp)",
-      "dice": 3,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 3,
-      "fixed_hp": 16
-     },
-     "attacks": [
-      {
-       "raw": "1 (morning star 8+)",
-       "count": 1,
-       "names": [
-        "morning star"
-       ],
-       "throw": 8
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d6+2 by weapon",
-       "pieces": [
-        {
-         "raw": "1d6+2 by weapon",
-         "dice": "1d6+2",
-         "extraordinary": false,
-         "types": []
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      3
-     ],
-     "morale": 0,
-     "attack_throw_by_hd": 8,
-     "speed": "30’ / 90’",
-     "xp": "50",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ulmash (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
-   },
-   "hp_max": 16,
-   "hp": 13,
-   "hp_start": 16,
-   "last_types": [
-    "slashing"
-   ],
-   "attacked_round": 3
-  },
-  "ur-shet": {
-   "id": "ur-shet",
+  "fangs1": {
+   "id": "fangs1",
    "side": "party",
    "status": "active",
    "conditions": [],
-   "group": "ur-shet",
-   "perceived": "Ur-Shet",
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 1",
    "judge_set": {
-    "hp": "given"
+    "hp": "given",
+    "weapon": "Battle Axe"
    },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Ur-Shet (Sakkara)",
-   "stats": {
-    "monster": {
-     "name": "Ur-Shet (Sakkara)",
-     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ur-Shet (Sakkara).md",
-     "page": 57,
-     "needs_judge": [],
-     "checks": [],
-     "type": "beastman",
-     "type_text": "Humanoid Beastman (gnoll chieftain)",
-     "size_index": 1,
-     "size": "man-sized",
-     "ac": 6,
-     "hd": {
-      "text": "4 (20 hp)",
-      "dice": 4,
-      "half": false,
-      "bonus": 0,
-      "stars": 0,
-      "attack_hd": 4,
-      "fixed_hp": 20
-     },
-     "attacks": [
-      {
-       "raw": "1 (weapon 7+)",
-       "count": 1,
-       "names": [
-        "weapon"
-       ],
-       "throw": 7
-      }
-     ],
-     "damage": [
-      {
-       "raw": "1d6+2 by weapon",
-       "pieces": [
-        {
-         "raw": "1d6+2 by weapon",
-         "dice": "1d6+2",
-         "extraordinary": false,
-         "types": []
-        }
-       ]
-      }
-     ],
-     "save_as": [
-      "F",
-      4
-     ],
-     "morale": 0,
-     "attack_throw_by_hd": 7,
-     "speed": "30’ / 90’",
-     "xp": "80",
-     "tier": null,
-     "defenses": {
-      "status": "none",
-      "records": [],
-      "effects": [],
-      "traits": [],
-      "judge": [],
-      "flaw": null,
-      "source": {
-       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ur-Shet (Sakkara).md",
-       "parsed_at_load": true
-      }
-     }
-    }
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
    },
-   "hp_max": 20,
-   "hp": 20,
-   "hp_start": 20,
-   "attacked_round": 3
+   "hp_max": 10,
+   "hp": 10,
+   "hp_start": 10
+  },
+  "fangs2": {
+   "id": "fangs2",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 2",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 9,
+   "hp": 9,
+   "hp_start": 9,
+   "attacked_round": 1
+  },
+  "fangs3": {
+   "id": "fangs3",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 3",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 8,
+   "hp": 8,
+   "hp_start": 8,
+   "attacked_round": 1
+  },
+  "fangs4": {
+   "id": "fangs4",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 4",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 10,
+   "hp": 10,
+   "hp_start": 10,
+   "attacked_round": 1
+  },
+  "fangs5": {
+   "id": "fangs5",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 5",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 9,
+   "hp": 9,
+   "hp_start": 9,
+   "attacked_round": 1
+  },
+  "fangs6": {
+   "id": "fangs6",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 6",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 8,
+   "hp": 8,
+   "hp_start": 8,
+   "attacked_round": 1
   }
  },
  "groups": {
@@ -2810,161 +2587,149 @@
    },
    "start_count": 1
   },
-  "troglodyte": {
+  "zombie": {
    "side": "foe",
    "members": [
-    "troglodyte1",
-    "troglodyte2",
-    "troglodyte3",
-    "troglodyte4",
-    "troglodyte5",
-    "troglodyte6",
-    "troglodyte7",
-    "troglodyte8"
+    "zombie1",
+    "zombie2"
    ],
    "morale": {
-    "state": "fight on",
-    "rolls": [
-     {
-      "round": 3,
-      "total": 6,
-      "result": "Fight On",
-      "reason": "1/3 of the group felled (3/8)"
-     }
-    ],
-    "triggered": true,
-    "last_trigger_round": 3,
-    "first_round": 3
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
    },
-   "start_count": 8,
+   "start_count": 2,
    "felled_rounds": [
     1,
-    1
+    2
    ]
   },
-  "ulmash": {
+  "fangs": {
    "side": "party",
    "members": [
-    "ulmash"
+    "fangs1",
+    "fangs2",
+    "fangs3",
+    "fangs4",
+    "fangs5",
+    "fangs6"
    ],
    "morale": {
     "state": "steady",
     "rolls": [],
     "triggered": false
    },
-   "start_count": 1
-  },
-  "ur-shet": {
-   "side": "party",
-   "members": [
-    "ur-shet"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 1
+   "start_count": 6
   }
  },
  "engaged": [],
  "engaged_at_round_start": [],
  "distances": {
-  "galerius|troglodyte1": 30,
-  "galerius|troglodyte2": 30,
-  "galerius|troglodyte3": 30,
-  "galerius|troglodyte4": 30,
-  "galerius|troglodyte5": 5,
-  "galerius|troglodyte6": 5,
-  "galerius|troglodyte7": 30,
-  "galerius|troglodyte8": 5,
-  "faustina|troglodyte1": 30,
-  "faustina|troglodyte2": 30,
-  "faustina|troglodyte3": 30,
-  "faustina|troglodyte4": 30,
-  "faustina|troglodyte5": 30,
-  "faustina|troglodyte6": 30,
-  "faustina|troglodyte7": 30,
-  "faustina|troglodyte8": 30,
-  "callista|troglodyte1": 30,
-  "callista|troglodyte2": 30,
-  "callista|troglodyte3": 30,
-  "callista|troglodyte4": 30,
-  "callista|troglodyte5": 30,
-  "callista|troglodyte6": 30,
-  "callista|troglodyte7": 30,
-  "callista|troglodyte8": 30,
-  "corvus|troglodyte1": 30,
-  "corvus|troglodyte2": 30,
-  "corvus|troglodyte3": 30,
-  "corvus|troglodyte4": 30,
-  "corvus|troglodyte5": 30,
-  "corvus|troglodyte6": 30,
-  "corvus|troglodyte7": 30,
-  "corvus|troglodyte8": 30,
-  "troglodyte1|varro": 30,
-  "troglodyte2|varro": 30,
-  "troglodyte3|varro": 30,
-  "troglodyte4|varro": 30,
-  "troglodyte5|varro": 30,
-  "troglodyte6|varro": 30,
-  "troglodyte7|varro": 30,
-  "troglodyte8|varro": 30,
-  "hrodric|troglodyte1": 30,
-  "hrodric|troglodyte2": 30,
-  "hrodric|troglodyte3": 30,
-  "hrodric|troglodyte4": 30,
-  "hrodric|troglodyte5": 30,
-  "hrodric|troglodyte6": 5,
-  "hrodric|troglodyte7": 30,
-  "hrodric|troglodyte8": 30,
-  "quintus|troglodyte1": 30,
-  "quintus|troglodyte2": 30,
-  "quintus|troglodyte3": 30,
-  "quintus|troglodyte4": 30,
-  "quintus|troglodyte5": 30,
-  "quintus|troglodyte6": 30,
-  "quintus|troglodyte7": 30,
-  "quintus|troglodyte8": 30,
-  "troglodyte1|zaira": 30,
-  "troglodyte2|zaira": 30,
-  "troglodyte3|zaira": 30,
-  "troglodyte4|zaira": 30,
-  "troglodyte5|zaira": 30,
-  "troglodyte6|zaira": 30,
-  "troglodyte7|zaira": 30,
-  "troglodyte8|zaira": 30,
-  "severina|troglodyte1": 30,
-  "severina|troglodyte2": 30,
-  "severina|troglodyte3": 30,
-  "severina|troglodyte4": 30,
-  "severina|troglodyte5": 30,
-  "severina|troglodyte6": 30,
-  "severina|troglodyte7": 30,
-  "severina|troglodyte8": 30,
-  "marius|troglodyte1": 5,
-  "marius|troglodyte2": 30,
-  "marius|troglodyte3": 30,
-  "marius|troglodyte4": 30,
-  "marius|troglodyte5": 30,
-  "marius|troglodyte6": 30,
-  "marius|troglodyte7": 30,
-  "marius|troglodyte8": 30,
-  "troglodyte1|ulmash": 5,
-  "troglodyte2|ulmash": 5,
-  "troglodyte3|ulmash": 5,
-  "troglodyte4|ulmash": 5,
-  "troglodyte1|ur-shet": 5,
-  "troglodyte5|ulmash": 5
+  "galerius|zombie1": 40,
+  "galerius|zombie2": 5,
+  "faustina|zombie1": 60,
+  "faustina|zombie2": 60,
+  "callista|zombie1": 60,
+  "callista|zombie2": 60,
+  "corvus|zombie1": 60,
+  "corvus|zombie2": 60,
+  "varro|zombie1": 60,
+  "varro|zombie2": 60,
+  "hrodric|zombie1": 60,
+  "hrodric|zombie2": 60,
+  "quintus|zombie1": 20,
+  "quintus|zombie2": 60,
+  "zaira|zombie1": 60,
+  "zaira|zombie2": 60,
+  "severina|zombie1": 60,
+  "severina|zombie2": 60,
+  "marius|zombie1": 60,
+  "marius|zombie2": 60,
+  "fangs4|zombie1": 5,
+  "fangs5|zombie1": 5,
+  "fangs2|zombie1": 5,
+  "fangs3|zombie1": 5,
+  "fangs6|zombie2": 5
  },
  "log": [],
- "encounter_id": "enc165",
- "notes_shown": [
-  "morale.hireling_leadership",
-  "morale.hireling_triggers",
-  "morale.modifier_tiers"
- ],
- "round_ended": 3,
+ "encounter_id": "enc166",
+ "notes_shown": [],
+ "orders": {
+  "fangs1": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs2": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs3": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs4": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs5": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs6": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "galerius": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "quintus": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "zaira": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "hrodric": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "faustina": {
+   "tactic": "hold",
+   "group": null
+  },
+  "callista": {
+   "tactic": "hold",
+   "group": null
+  },
+  "marius": {
+   "tactic": "hold",
+   "group": null
+  },
+  "varro": {
+   "tactic": "hold",
+   "group": null
+  },
+  "severina": {
+   "tactic": "hold",
+   "group": null
+  },
+  "corvus": {
+   "tactic": "hold",
+   "group": null
+  },
+  "hrodric-eagle": {
+   "tactic": "hold",
+   "group": null
+  }
+ },
+ "tactics": {
+  "zombie": {
+   "tactic": "close-and-attack"
+  }
+ },
+ "round_ended": 4,
  "retinue": {
   "varro": {
    "hp_triggered": false,
@@ -2982,10 +2747,9 @@
    "calamity_queued": false
   },
   "marius": {
-   "hp_triggered": true,
+   "hp_triggered": false,
    "party_triggered": false,
-   "calamity_queued": false,
-   "hp_first": 2
+   "calamity_queued": false
   }
  },
  "party_hp_written": [
@@ -3001,7 +2765,7 @@
   "marius"
  ],
  "ended": {
-  "round": 4,
+  "round": 5,
   "felled_foes": []
  }
 }
