@@ -426,3 +426,14 @@ lessons:
   on: [reaction]
   text: "if the surprise line just offered a monster note's penalty (chameleon scales, hunters, translucent), run `encounter surprise --apply-note-penalty` BEFORE this reaction: afterwards it is refused"
   source: "R2 S15 day 132 (troglodytes), R2 S16 night of day 144 (giant toads)"
+
+- id: wanderers-meet-tribe
+  category: encounter-procedure
+  status: remind
+  since: R3 S10
+  triggered_since: S11
+  run: 3
+  on: [location]
+  where: ["argv ~ --wandering none"]
+  text: "user ruling (R3 S10): keep the site's wandering checks on in a tribe's rooms; a wanderer arriving there meets the tribe in front of the party: 2d6 hidden (+2 shared master or truce, -2 a named feud): 2-5 fight between them, 6-8 standoff or bargain, 9-12 business, news or a message; never close it unplayed"
+  source: "user, 2026-11-25 (supersedes Rulings R3 S03 lodged-with-a-tribe and R3 S10 tribe-meets-first)"

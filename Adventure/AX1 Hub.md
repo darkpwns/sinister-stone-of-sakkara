@@ -55,6 +55,7 @@ Party of 6-10 characters of 1st-3rd level, 8-12 total levels (p. 3).
 - **Night in the Viaspen:** navigation throw **7+** or become lost (ACKS p. 94).
 
 ### Dungeon (both levels)
+- **Wanderers where a tribe lives (user ruling, R3 S10):** the checks stay on in a tribe's rooms; an arrival there is a meeting of the wanderers and the tribe (fight, standoff or business: Rulings R3 S10 'Wanderers rolled where a tribe lives').
 - **Wandering:** encounter throw every 2 turns, and whenever the party makes a lot of noise: 6 on 1d6 → encounter at standard distance, direction random. Roll 1d8 on the level's table (or the core tables at the Judge's discretion). Wanderer flavour and loot: see each level note.
 - **Area-specific rates (level 1):** Area 1 (kobold territory, rooms 1-13): **5-6 on 1d6 each turn**. Room 19 (Crossroads): **5-6 each turn**. Area 4 (former goblin territory, rooms 33-44): **5-6 every turn**.
 - **Rooftops (level 1, p. 35):** open-air rooms **13, 18, 19, 42 and 61** can be climbed out of / into (a 12’5” climb up the wall) and the party can travel across the temple roofs between them. On the roofs the only wandering encounters are **giant rats or stirges** (ignore other results). Beastmen never use the roofs.
