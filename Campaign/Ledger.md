@@ -394,3 +394,20 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 447gp 2sp 8cp |  | zaira |
 | 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 447gp 2sp 8cp |  | marius |
 | 100 | Traveler's Inn | lodging, 2 night(s) |  |  | 11gp 2sp | faustina |
+| 102 | the retinue | wages paid |  |  | 25gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 102 | Türos Tem | Waterskin | 2 |  | 1gp 2sp | faustina |
+| 102 | Türos Tem | Waterskin | 4 |  | 2gp 4sp | faustina |
+| 102 | Türos Tem | torch | 6 |  | 1sp | faustina |
+| 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 103 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 104 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
