@@ -11,8 +11,8 @@ public:
     year: ''
     season: summer
     day: 105
-  time: 04:10
-  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; mostly cloudy; wind gentle
+  time: '13:09'
+  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)
   place: Türos Tem
   hex: '22.20'
   party:
@@ -38,8 +38,9 @@ public:
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used: []
-    encumbrance_st: 4.49
+    spells_used:
+    - Cure Light Injury
+    encumbrance_st: 4.389
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -47,7 +48,6 @@ public:
     hp_max: 20
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
-    - 'symptomatic: Bilious Fever (incapacitated)'
     spells_used: []
     encumbrance_st: 8.845
   - name: Hrodric

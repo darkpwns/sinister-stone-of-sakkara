@@ -411,3 +411,6 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 102 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
 | 103 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
 | 104 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 105 | a caster in Türos Tem | spellcasting: Cure Disease |  |  | 45gp | faustina |
+| 105 | a caster in Türos Tem | spellcasting: Cure Disease |  |  | 45gp | faustina |
+| 105 | Traveler's Inn | lodging, 1 night(s) |  |  | 5gp 6sp | faustina |
