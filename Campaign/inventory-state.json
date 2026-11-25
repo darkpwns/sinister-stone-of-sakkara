@@ -47,7 +47,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by callista",
    "owner": "callista",
@@ -67,13 +67,14 @@
      "stabled": "Buried Temple L1 27 (Marius and the toll orcs)",
      "day": 97,
      "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
+    },
+    {
+     "unstabled": "Buried Temple L1 27 (Marius and the toll orcs)",
+     "day": 97,
+     "nights": 0,
+     "cause": "the company back from below (day 97)"
     }
-   ],
-   "stabled": {
-    "at": "Buried Temple L1 27 (Marius and the toll orcs)",
-    "day": 97,
-    "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
-   }
+   ]
   },
   "ground:buried-temple": {
    "kind": "cache",
@@ -109,7 +110,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "stabled",
+   "status": "active",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by faustina",
    "owner": "faustina",
@@ -129,13 +130,14 @@
      "stabled": "Buried Temple L1 27 (Marius and the toll orcs)",
      "day": 97,
      "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
+    },
+    {
+     "unstabled": "Buried Temple L1 27 (Marius and the toll orcs)",
+     "day": 97,
+     "nights": 0,
+     "cause": "the company back from below (day 97)"
     }
-   ],
-   "stabled": {
-    "at": "Buried Temple L1 27 (Marius and the toll orcs)",
-    "day": 97,
-    "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
-   }
+   ]
   },
   "marius": {
    "kind": "henchman",
@@ -9868,6 +9870,44 @@
    "price_cp": 1000,
    "cmd": "inv pay",
    "n": 555
+  },
+  {
+   "op": "light",
+   "cause": "torch13 lit (torch, light auto)",
+   "day": 97,
+   "time": "day 97 16:52",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch13",
+   "cmd": "turn (light auto)",
+   "n": 556
+  },
+  {
+   "op": "light",
+   "cause": "torch14 lit (torch, light auto)",
+   "day": 97,
+   "time": "day 97 17:52",
+   "deltas": [
+    {
+     "who": "corvus",
+     "item": "torch",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "torch14",
+   "cmd": "turn (light auto)",
+   "n": 557
   }
  ],
  "holdings": {
@@ -9973,7 +10013,6 @@
     "rope, 50'": 1,
     "waterskin": 5,
     "iron spike": 6,
-    "torch": 2,
     "arrow": 13,
     "#w18": 1
    },
