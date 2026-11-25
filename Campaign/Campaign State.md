@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 12
+session: 13
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -11,8 +11,8 @@ public:
     year: ''
     season: spring
     day: 87
-  time: 06:07
-  weather: Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; misty; wind still
+  time: 07:53
+  weather: Warm (83 to 86 F) by day, Warm (80 to 82 F) at night; overcast; wind moderate
   place: Türos Tem
   hex: '19.19'
   party:
@@ -23,7 +23,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.667
+    encumbrance_st: 6.333
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -31,7 +31,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 6.333
+    encumbrance_st: 6.667
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.145
+    encumbrance_st: 5.002
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 8
+    encumbrance_st: 9.667
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -55,7 +55,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 5.833
+    encumbrance_st: 6.5
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -71,7 +71,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 6.322
+    encumbrance_st: 3.655
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -79,7 +79,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 7.312
+    encumbrance_st: 7.978
   - name: Quintus
     sheet: Characters/quintus.json
     role: henchman
@@ -87,7 +87,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 2.525
+    encumbrance_st: 3.858
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
@@ -95,9 +95,9 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 3.5
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Marius) 1 turn left
-  rations: 'Galerius: food 6 d, water 5.4 d; Faustina: food 6 d, water 0 d; Callista: food 6 d, water 3 d; Corvus: food 6 d, water 0 d; Marius: food 3 d, water 0 d; Varro: food 6 d, water 0.2 d; Hrodric: food 5 d, water 0 d; Quintus: food 6 d, water 0.2 d; Zaira: food 2 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 4.167
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) 2 turns 4 rounds left
+  rations: 'Galerius: food 4 d, water 1 d; Faustina: food 6 d, water 1 d; Callista: food 6 d, water 1 d; Corvus: food 6 d, water 1 d; Varro: food 4 d, water 1 d; Hrodric: food 4 d, water 1 d; Quintus: food 4 d, water 1 d; Zaira: food 2 d, water 1 d'
   tracker: {}
   threads: []
   trail:

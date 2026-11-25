@@ -300,3 +300,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 82 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
 | 82 | the retinue | wages paid |  |  | 25gp | faustina |
 | 87 | Apsa, king of the orcs | a gift for peace with the hobgoblins this spring (a month's bribe; Friendly, helpful), day 87 |  |  | 100gp | faustina |
+| 87 | Idimmu (L1 75) | tribute: passage below for eight (100gp a head) |  |  | 800gp | faustina |
+| 87 | the Red Eye guards of L2 10 | a week's bribe on the talk at the stair foot |  |  | 10gp | faustina |
