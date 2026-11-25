@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 16,
- "generated": 1795599151,
+ "generated": 1795599321,
  "date": {
   "year": "",
   "season": "summer",
-  "day": 143
+  "day": 144
  },
- "time": "08:25",
+ "time": "05:47",
  "weather": "Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; heavy rain; wind very strong (rainy, windy)",
  "place": "Türos Tem",
  "hex": "20.19",
@@ -19,10 +19,7 @@
    "hp": 8,
    "hp_max": 8,
    "conditions": [],
-   "spells_used": [
-    "Slumber",
-    "Slumber"
-   ],
+   "spells_used": [],
    "encumbrance_st": 6.516
   },
   {
@@ -42,12 +39,8 @@
    "hp": 15,
    "hp_max": 15,
    "conditions": [],
-   "spells_used": [
-    "Halt Humanoids",
-    "Halt Humanoids",
-    "Cure Light Injury"
-   ],
-   "encumbrance_st": 5.616
+   "spells_used": [],
+   "encumbrance_st": 5.449
   },
   {
    "name": "Galerius",
@@ -68,9 +61,7 @@
    "hp": 14,
    "hp_max": 18,
    "conditions": [],
-   "spells_used": [
-    "Holy Blessing"
-   ],
+   "spells_used": [],
    "encumbrance_st": 5.034
   },
   {
@@ -126,8 +117,8 @@
    "encumbrance_st": 4.782
   }
  ],
- "light": "torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out | winded: Galerius, Faustina, Callista, Corvus, Varro, Hrodric, Quintus, Severina, Marius",
- "rations": "Galerius: food 0 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 4 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 4 d, water 1 d",
+ "light": "torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
+ "rations": "Galerius: food 0 d, water 0 d; Faustina: food 2 d, water 0 d; Callista: food 0 d, water 0 d; Corvus: food 0 d, water 0 d; Varro: food 0 d, water 0 d; Hrodric: food 5 d, water 0 d; Quintus: food 3 d, water 0 d; Severina: food 6 d, water 0 d; Marius: food 0 d, water 0 d; Zaira: food 0 d, water 0 d (incapacitated)",
  "tracker": {},
  "threads": [
   "The Stone carried below by the stinking ones (troglodytes), south past the ghoul hole and the slime caves",
@@ -681,7 +672,15 @@
      "held": "belt"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L101",
+     "looks": "500 electrum pieces",
+     "qty": 500,
+     "value_gp": 250.0,
+     "stone": 0.5
+    }
+   ],
    "movement": {
     "exploration": 60,
     "combat": 20,
@@ -921,12 +920,12 @@
     "backpack": {
      "contents": [
       "Craftsman's Tools (any)",
-      "Holy Water (1 pint) ×2",
+      "Holy Water (1 pint)",
       "Tinderbox (flint & steel)",
       "Waterskin ×5",
       "torch ×4"
      ],
-     "items": 12,
+     "items": 11,
      "stone": 1
     },
     "sack": {
@@ -947,7 +946,7 @@
     "sp": 31,
     "cp": 65
    },
-   "encumbrance_st": 5.616,
+   "encumbrance_st": 5.449,
    "weapons": [
     {
      "name": "Staff",
@@ -982,6 +981,24 @@
      "apparent_value_gp": 250,
      "magical": true,
      "stone": 0.167
+    },
+    {
+     "id": "L90",
+     "looks": "a fragment of the Stone (red-black, runes inside)",
+     "qty": 1,
+     "stone": 0.1
+    },
+    {
+     "id": "L91",
+     "looks": "a fragment of the Stone (red-black, runes inside)",
+     "qty": 1,
+     "stone": 0.1
+    },
+    {
+     "id": "L92",
+     "looks": "a fragment of the Stone (red-black, runes inside)",
+     "qty": 1,
+     "stone": 0.1
     }
    ],
    "movement": {
@@ -1246,7 +1263,7 @@
      "stone": 6
     },
     "right_hand": {
-     "item": "Sword",
+     "item": "Sword +1",
      "items": 1,
      "stone": 0
     },
@@ -1306,10 +1323,10 @@
    "encumbrance_st": 8.853,
    "weapons": [
     {
-     "name": "Sword",
+     "name": "Sword +1",
      "init_bonus": "",
-     "attack_throw": 7,
-     "damage": "1d6+4",
+     "attack_throw": 6,
+     "damage": "1d6+5",
      "range": {
       "short": 0,
       "medium": 0,
@@ -1558,7 +1575,15 @@
      "held": "backpack"
     }
    ],
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L100",
+     "looks": "2,000 silver pieces",
+     "qty": 2000,
+     "value_gp": 200.0,
+     "stone": 2.0
+    }
+   ],
    "spells": {
     "repertoire": {
      "1": [
@@ -1984,7 +2009,15 @@
     }
    ],
    "gems": "",
-   "treasure": [],
+   "treasure": [
+    {
+     "id": "L99",
+     "looks": "2,000 silver pieces",
+     "qty": 2000,
+     "value_gp": 200.0,
+     "stone": 2.0
+    }
+   ],
    "proficiency_throws": {
     "climbing": 5,
     "dungeonbashing": 18,
@@ -2588,6 +2621,44 @@
      "known": [
       "permanent effect when worn or used (as experienced)"
      ],
+     "stone": 0.167
+    },
+    {
+     "id": "L93",
+     "looks": "an ornamental stone",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L94",
+     "looks": "an ornamental stone",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L95",
+     "looks": "an ornamental stone",
+     "qty": 1,
+     "stone": 0.001
+    },
+    {
+     "id": "L96",
+     "looks": "a piece of jewelry (fine wood)",
+     "qty": 1,
+     "stone": 0.167
+    },
+    {
+     "id": "L97",
+     "looks": "a piece of jewelry (glass)",
+     "qty": 1,
+     "stone": 0.167
+    },
+    {
+     "id": "L98",
+     "looks": "a potion (appears to be lantern oil)",
+     "qty": 1,
+     "apparent_value_gp": 25,
+     "magical": true,
      "stone": 0.167
     }
    ],
@@ -3315,127 +3386,6 @@
  ],
  "open_rolls": [
   {
-   "label": "init Ur-Shet (Sakkara)",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "attack Marius vs scaly man with a club 2",
-   "spec": "1d20+3",
-   "rolls": [
-    17
-   ],
-   "total": 20
-  },
-  {
-   "label": "damage to scaly man with a club 2",
-   "spec": "2d4",
-   "rolls": [
-    1,
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Gnoll vs scaly man with a club 2",
-   "spec": "1d20",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "attack Hrodric vs scaly man with a club 1",
-   "spec": "1d20",
-   "rolls": [
-    14
-   ],
-   "total": 14
-  },
-  {
-   "label": "damage to scaly man with a club 1",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "attack Gnoll vs scaly crested man 3",
-   "spec": "1d20+2",
-   "rolls": [
-    16
-   ],
-   "total": 18
-  },
-  {
-   "label": "damage to scaly crested man 3",
-   "spec": "1d6+1",
-   "rolls": [
-    1
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Ur-Shet (Sakkara) vs scaly crested man 3",
-   "spec": "1d20+2",
-   "rolls": [
-    14
-   ],
-   "total": 16
-  },
-  {
-   "label": "damage to scaly crested man 3",
-   "spec": "1d6+2",
-   "rolls": [
-    5
-   ],
-   "total": 7
-  },
-  {
-   "label": "Severina death save",
-   "spec": "1d20-1",
-   "rolls": [
-    10
-   ],
-   "total": 9
-  },
-  {
-   "label": "attack Severina vs scaly man with a club 2",
-   "spec": "1d20",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
    "label": "init Corvus",
    "spec": "1d6",
    "rolls": [
@@ -3714,6 +3664,126 @@
     5
    ],
    "total": 5
+  },
+  {
+   "label": "Galerius strikes the Stone (sword +1)",
+   "spec": "1d6+5",
+   "rolls": [
+    1
+   ],
+   "total": 6
+  },
+  {
+   "label": "Galerius strikes the Stone again",
+   "spec": "1d6+5",
+   "rolls": [
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "Faustina strikes the cracked Stone with Varro's mace",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Faustina strikes the Stone again",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Faustina strikes the Stone a third time",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Faustina save vs Death, the shattering Stone's corruption (need 9+)",
+   "spec": "1d20+1",
+   "rolls": [
+    19
+   ],
+   "total": 20
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Varro surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Quintus surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Severina surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Marius surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
   }
  ],
  "rumours_heard": [
