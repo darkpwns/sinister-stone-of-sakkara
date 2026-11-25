@@ -1,14 +1,14 @@
 {
  "campaign": "Sakkara Run 3",
- "session": 9,
- "generated": 1795613327,
+ "session": 10,
+ "generated": 1795613797,
  "date": {
   "year": "",
-  "season": "spring",
-  "day": 79
+  "season": "summer",
+  "day": 91
  },
- "time": "20:14",
- "weather": "Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind moderate",
+ "time": "06:14",
+ "weather": "Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind gentle",
  "place": "Türos Tem",
  "hex": "22.20",
  "party": [
@@ -24,7 +24,7 @@
     "ghostly visions of lost companions (Mortal Wounds, day 68)"
    ],
    "spells_used": [],
-   "encumbrance_st": 4.376
+   "encumbrance_st": 4.516
   },
   {
    "name": "Ione",
@@ -34,7 +34,7 @@
    "hp_max": 3,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.438
+   "encumbrance_st": 7.762
   },
   {
    "name": "Caelia",
@@ -44,7 +44,7 @@
    "hp_max": 5,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.095
+   "encumbrance_st": 5.733
   },
   {
    "name": "Lucan",
@@ -54,7 +54,7 @@
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 8.076
+   "encumbrance_st": 8.415
   },
   {
    "name": "Severus",
@@ -64,7 +64,7 @@
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 10.38
+   "encumbrance_st": 9.697
   },
   {
    "name": "Valeria",
@@ -74,7 +74,7 @@
    "hp_max": 6,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.908
+   "encumbrance_st": 4.405
   },
   {
    "name": "Pallas Cornu",
@@ -84,11 +84,31 @@
    "hp_max": 1,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.167
+   "encumbrance_st": 7.333
+  },
+  {
+   "name": "Flavia Scriba",
+   "sheet": "Characters/flavia-scriba.json",
+   "role": "henchman",
+   "hp": 2,
+   "hp_max": 2,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 1.333
+  },
+  {
+   "name": "Gnaeus Fossor",
+   "sheet": "Characters/gnaeus-fossor.json",
+   "role": "henchman",
+   "hp": 3,
+   "hp_max": 3,
+   "conditions": [],
+   "spells_used": [],
+   "encumbrance_st": 6
   }
  ],
  "light": "torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out",
- "rations": "Octavia: food 0 d, water 1 d; Ione: food 34 d, water 1 d; Valeria: food 0 d, water 0 d; Severus: food 0 d, water 0 d; Lucan: food 0 d, water 0 d; Caelia: food 0 d, water 0 d",
+ "rations": "Octavia: food 0 d, water 4.2 d; Ione: food 90 d, water 1 d; Valeria: food 7 d, water 0 d; Severus: food 21 d, water 0 d; Lucan: food 7 d, water 3 d; Caelia: food 7 d, water 0 d; Pallas Cornu: food 0 d, water 0 d; Gnaeus Fossor: food 0 d, water 0 d; Flavia Scriba: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
@@ -235,8 +255,8 @@
    },
    "gear": {
     "back": {
-     "item": "",
-     "items": 0,
+     "item": "Javelin ×2",
+     "items": 2,
      "stone": 0
     },
     "armor": {
@@ -254,8 +274,8 @@
      "stone": 0
     },
     "belt": {
-     "item": "Dagger ×2, Sling, sling stone ×26",
-     "items": 4,
+     "item": "Dagger ×2, Oil, Common (1 pint) ×2, Sling, sling stone ×26",
+     "items": 6,
      "stone": 0
     },
     "head": {
@@ -275,13 +295,12 @@
     },
     "backpack": {
      "contents": [
-      "Rations, Iron (one week)",
       "Tinderbox (flint & steel)",
       "Waterskin ×5",
       "torch ×6"
      ],
      "items": 12,
-     "stone": 1
+     "stone": 0
     },
     "sack": {
      "contents": [],
@@ -299,11 +318,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 87,
-    "sp": 8,
-    "cp": 0
+    "gp": 60,
+    "sp": 5,
+    "cp": 1
    },
-   "encumbrance_st": 6.095,
+   "encumbrance_st": 5.733,
    "weapons": [
     {
      "name": "Short Sword",
@@ -352,8 +371,33 @@
       "long": 240
      },
      "held": "belt"
+    },
+    {
+     "name": "Javelin",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d6-1",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "back"
+    },
+    {
+     "name": "Javelin",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d6-1",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "back"
     }
    ],
+   "treasure": [],
    "movement": {
     "exploration": 90,
     "combat": 30,
@@ -475,6 +519,496 @@
   },
   {
    "type": "character",
+   "role": "henchman",
+   "name": "Flavia Scriba",
+   "class": "None (0th level)",
+   "occupation": "Scribe",
+   "level": 0,
+   "xp": 0,
+   "xp_bonus": "",
+   "alignment": "",
+   "birthplace": "",
+   "age": 29,
+   "gender": "",
+   "size": "man-sized",
+   "hp_max": 2,
+   "initiative": 0,
+   "surprise": 0,
+   "avoid_surprise": 0,
+   "save_mods": {
+    "paralysis": "",
+    "death": "",
+    "blast": "",
+    "implements": "",
+    "spells": ""
+   },
+   "movement": {
+    "stealth": 0,
+    "climb": 0,
+    "exploration": 120,
+    "combat": 40,
+    "running": 120,
+    "expedition": 24
+   },
+   "healing_rate": "",
+   "mortal_wounds": 0,
+   "class_features": "",
+   "languages": [],
+   "hired": {
+    "date": "day 91",
+    "wage_gp": 12.0,
+    "market": "Turos Tem",
+    "employer": "Octavia",
+    "terms": ""
+   },
+   "attributes": {
+    "STR": {
+     "score": 8,
+     "mod": -1
+    },
+    "INT": {
+     "score": 15,
+     "mod": 1
+    },
+    "WIL": {
+     "score": 9,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 12,
+     "mod": 0
+    },
+    "CON": {
+     "score": 12,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 7,
+     "mod": -1
+    }
+   },
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "hit_die": "1/2 HD",
+   "xp_next": 600,
+   "attack_table": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "proficiencies": {
+    "class": [],
+    "general": [
+     {
+      "name": "Craft (scribe) 2",
+      "throw": ""
+     },
+     {
+      "name": "Art (illumination)",
+      "throw": ""
+     },
+     {
+      "name": "Folkways",
+      "throw": ""
+     },
+     {
+      "name": "Revelry",
+      "throw": ""
+     }
+    ],
+    "gained_at": ""
+   },
+   "spells": {
+    "repertoire": {
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "gear": {
+    "back": {
+     "item": "Waterskin ×5",
+     "items": 5,
+     "stone": 0
+    },
+    "armor": {
+     "item": "",
+     "stone": 0
+    },
+    "right_hand": {
+     "item": "Short Bow",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "belt": {
+     "item": "Dagger, arrow ×20",
+     "items": 2,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
+   },
+   "encumbrance_st": 1.333,
+   "weapons": [
+    {
+     "name": "Short Bow",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d6",
+     "range": {
+      "short": 75,
+      "medium": 150,
+      "long": 300
+     },
+     "held": "right hand, two-handed"
+    },
+    {
+     "name": "Dagger",
+     "init_bonus": "",
+     "attack_throw": 12,
+     "damage": "1d4-1",
+     "range": {
+      "short": 15,
+      "medium": 30,
+      "long": 45
+     },
+     "held": "belt"
+    }
+   ],
+   "gems": "",
+   "treasure": [],
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 22,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 0,
+    "no_shield": 0,
+    "dex_only": 0
+   },
+   "sheet": {
+    "profile": "0th-level",
+    "class": "None (0th level)",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "possessions"
+    ]
+   }
+  },
+  {
+   "type": "character",
+   "role": "henchman",
+   "name": "Gnaeus Fossor",
+   "class": "None (0th level)",
+   "occupation": "Unskilled Laborer",
+   "level": 0,
+   "xp": 0,
+   "xp_bonus": "",
+   "alignment": "",
+   "birthplace": "",
+   "age": 23,
+   "gender": "",
+   "size": "man-sized",
+   "hp_max": 3,
+   "initiative": 1,
+   "surprise": 0,
+   "avoid_surprise": 0,
+   "save_mods": {
+    "paralysis": "",
+    "death": "",
+    "blast": "",
+    "implements": "",
+    "spells": ""
+   },
+   "movement": {
+    "stealth": 0,
+    "climb": 0,
+    "exploration": 90,
+    "combat": 30,
+    "running": 90,
+    "expedition": 18
+   },
+   "healing_rate": "",
+   "mortal_wounds": 0,
+   "class_features": "",
+   "languages": [],
+   "hired": {
+    "date": "day 91",
+    "wage_gp": 12.0,
+    "market": "Turos Tem",
+    "employer": "Caelia",
+    "terms": ""
+   },
+   "attributes": {
+    "STR": {
+     "score": 7,
+     "mod": -1
+    },
+    "INT": {
+     "score": 12,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 12,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "hit_die": "1/2 HD",
+   "xp_next": 660,
+   "attack_table": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "proficiencies": {
+    "class": [],
+    "general": [
+     {
+      "name": "Endurance",
+      "throw": ""
+     },
+     {
+      "name": "Folkways",
+      "throw": ""
+     },
+     {
+      "name": "Revelry",
+      "throw": ""
+     },
+     {
+      "name": "Streetwise",
+      "throw": ""
+     }
+    ],
+    "gained_at": ""
+   },
+   "spells": {
+    "repertoire": {
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "gear": {
+    "back": {
+     "item": "Spear, Waterskin ×5, torch ×6",
+     "items": 11,
+     "stone": 1
+    },
+    "armor": {
+     "item": "Leather Armor",
+     "stone": 2
+    },
+    "right_hand": {
+     "item": "Sword",
+     "items": 1,
+     "stone": 0
+    },
+    "left_hand": {
+     "item": "Shield",
+     "items": 0,
+     "stone": 1
+    },
+    "belt": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "head": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "pouch": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "hidden": {
+     "item": "",
+     "items": 0,
+     "stone": 0
+    },
+    "backpack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "sack": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    },
+    "worn": {
+     "contents": [],
+     "items": 0,
+     "stone": 0
+    }
+   },
+   "coins": {
+    "pp": 0,
+    "ep": 0,
+    "gp": 0,
+    "sp": 0,
+    "cp": 0
+   },
+   "encumbrance_st": 6,
+   "weapons": [
+    {
+     "name": "Sword",
+     "init_bonus": "",
+     "attack_throw": 12,
+     "damage": "1d6-1",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "right hand"
+    },
+    {
+     "name": "Spear",
+     "init_bonus": "",
+     "attack_throw": 12,
+     "damage": "1d6/1d8-1",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "back"
+    }
+   ],
+   "gems": "",
+   "treasure": [],
+   "proficiency_throws": {
+    "climbing": 8,
+    "dungeonbashing": 22,
+    "listening": 18,
+    "searching": 18,
+    "trapbreaking": 18
+   },
+   "ac": {
+    "shield": 2,
+    "no_shield": 2,
+    "dex_only": 1
+   },
+   "sheet": {
+    "profile": "0th-level",
+    "class": "None (0th level)",
+    "caster": false,
+    "magic": "none",
+    "panels": [
+     "header",
+     "attributes",
+     "combat",
+     "weapons",
+     "adventuring_throws",
+     "proficiencies",
+     "possessions"
+    ]
+   }
+  },
+  {
+   "type": "character",
    "role": "pc",
    "name": "Ione",
    "class": "None (0th level)",
@@ -501,10 +1035,10 @@
    "movement": {
     "stealth": 0,
     "climb": 0,
-    "exploration": 120,
-    "combat": 40,
-    "running": 120,
-    "expedition": 24
+    "exploration": 60,
+    "combat": 20,
+    "running": 60,
+    "expedition": 12
    },
    "healing_rate": "",
    "mortal_wounds": 0,
@@ -605,22 +1139,22 @@
      "stone": 0
     },
     "armor": {
-     "item": "",
-     "stone": 0
+     "item": "Chain Mail Armor",
+     "stone": 4
     },
     "right_hand": {
-     "item": "",
+     "item": "Spear",
      "items": 0,
-     "stone": 0
+     "stone": 1
     },
     "left_hand": {
-     "item": "",
+     "item": "Shield",
      "items": 0,
-     "stone": 0
+     "stone": 1
     },
     "belt": {
-     "item": "Dagger",
-     "items": 1,
+     "item": "Dagger, Oil, Common (1 pint) ×2",
+     "items": 3,
      "stone": 0
     },
     "head": {
@@ -640,12 +1174,11 @@
     },
     "backpack": {
      "contents": [
-      "Rations, Iron (one week) ×3",
       "Sack, Small (holds 2 stone)",
       "Waterskin ×5"
      ],
      "items": 6,
-     "stone": 3
+     "stone": 0
     },
     "sack": {
      "contents": [],
@@ -661,12 +1194,24 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 93,
-    "sp": 4,
-    "cp": 8
+    "gp": 78,
+    "sp": 8,
+    "cp": 9
    },
-   "encumbrance_st": 4.438,
+   "encumbrance_st": 7.762,
    "weapons": [
+    {
+     "name": "Spear",
+     "init_bonus": "",
+     "attack_throw": 11,
+     "damage": "1d6",
+     "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 120
+     },
+     "held": "right hand"
+    },
     {
      "name": "Dagger",
      "init_bonus": "",
@@ -690,8 +1235,8 @@
     "trapbreaking": 18
    },
    "ac": {
-    "shield": 0,
-    "no_shield": 0,
+    "shield": 4,
+    "no_shield": 4,
     "dex_only": 0
    },
    "sheet": {
@@ -798,9 +1343,9 @@
    },
    "gear": {
     "back": {
-     "item": "Shield",
+     "item": "Rope, 50', Shield",
      "items": 0,
-     "stone": 1
+     "stone": 2
     },
     "armor": {
      "item": "Scale Armor",
@@ -817,8 +1362,8 @@
      "stone": 0
     },
     "belt": {
-     "item": "arrow ×20",
-     "items": 1,
+     "item": "Oil, Common (1 pint) ×2, arrow ×20",
+     "items": 3,
      "stone": 0
     },
     "head": {
@@ -838,14 +1383,13 @@
     },
     "backpack": {
      "contents": [
-      "Rations, Iron (one week)",
       "Spear",
       "Tinderbox (flint & steel)",
       "Waterskin ×2",
       "torch ×6"
      ],
      "items": 9,
-     "stone": 2
+     "stone": 1
     },
     "sack": {
      "contents": [],
@@ -863,11 +1407,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 75,
-    "sp": 1,
-    "cp": 0
+    "gp": 72,
+    "sp": 9,
+    "cp": 1
    },
-   "encumbrance_st": 8.076,
+   "encumbrance_st": 8.415,
    "weapons": [
     {
      "name": "Short Bow",
@@ -894,6 +1438,7 @@
      "held": "backpack"
     }
    ],
+   "treasure": [],
    "movement": {
     "exploration": 60,
     "combat": 20,
@@ -1091,8 +1636,8 @@
      "stone": 0
     },
     "belt": {
-     "item": "",
-     "items": 0,
+     "item": "Sling",
+     "items": 1,
      "stone": 0
     },
     "head": {
@@ -1138,12 +1683,24 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 27,
-    "sp": 7,
-    "cp": 9
+    "gp": 11,
+    "sp": 1,
+    "cp": 4
    },
-   "encumbrance_st": 4.376,
+   "encumbrance_st": 4.516,
    "weapons": [
+    {
+     "name": "Sling",
+     "init_bonus": "",
+     "attack_throw": 10,
+     "damage": "1d4",
+     "range": {
+      "short": 60,
+      "medium": 120,
+      "long": 240
+     },
+     "held": "belt"
+    },
     {
      "name": "Dagger",
      "init_bonus": "",
@@ -1247,10 +1804,10 @@
    "movement": {
     "stealth": 0,
     "climb": 0,
-    "exploration": 120,
-    "combat": 40,
-    "running": 120,
-    "expedition": 24
+    "exploration": 60,
+    "combat": 20,
+    "running": 60,
+    "expedition": 12
    },
    "healing_rate": "",
    "mortal_wounds": 0,
@@ -1346,23 +1903,23 @@
    },
    "gear": {
     "back": {
-     "item": "Leather Armor",
-     "items": 0,
-     "stone": 2
+     "item": "Crowbar, Leather Armor, Rope, 50', Waterskin ×5",
+     "items": 6,
+     "stone": 3
     },
     "armor": {
      "item": "Leather Armor",
      "stone": 2
     },
     "right_hand": {
-     "item": "",
-     "items": 0,
+     "item": "Mace",
+     "items": 1,
      "stone": 0
     },
     "left_hand": {
-     "item": "",
+     "item": "Shield",
      "items": 0,
-     "stone": 0
+     "stone": 1
     },
     "belt": {
      "item": "torch",
@@ -1407,9 +1964,23 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 4.167,
-   "weapons": [],
+   "encumbrance_st": 7.333,
+   "weapons": [
+    {
+     "name": "Mace",
+     "init_bonus": "",
+     "attack_throw": 12,
+     "damage": "1d6-1",
+     "range": {
+      "short": 0,
+      "medium": 0,
+      "long": 0
+     },
+     "held": "right hand"
+    }
+   ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 22,
@@ -1540,8 +2111,8 @@
      "stone": 1
     },
     "belt": {
-     "item": "",
-     "items": 0,
+     "item": "Oil, Common (1 pint) ×2",
+     "items": 2,
      "stone": 0
     },
     "head": {
@@ -1562,13 +2133,12 @@
     "backpack": {
      "contents": [
       "Rations, Iron (one week)",
-      "Spear",
       "Tinderbox (flint & steel)",
       "Waterskin ×5",
       "torch ×6"
      ],
      "items": 12,
-     "stone": 2
+     "stone": 1
     },
     "sack": {
      "contents": [],
@@ -1586,11 +2156,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 40,
-    "sp": 7,
-    "cp": 0
+    "gp": 24,
+    "sp": 5,
+    "cp": 1
    },
-   "encumbrance_st": 10.38,
+   "encumbrance_st": 9.697,
    "weapons": [
     {
      "name": "Sword",
@@ -1603,25 +2173,14 @@
       "long": 0
      },
      "held": "right hand"
-    },
-    {
-     "name": "Spear",
-     "init_bonus": "",
-     "attack_throw": 9,
-     "damage": "1d6/1d8+2",
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "held": "backpack"
     }
    ],
+   "treasure": [],
    "movement": {
-    "exploration": 30,
-    "combat": 10,
-    "running": 30,
-    "expedition": 6
+    "exploration": 60,
+    "combat": 20,
+    "running": 60,
+    "expedition": 12
    },
    "proficiency_throws": {
     "climbing": 8,
@@ -1778,8 +2337,8 @@
      "stone": 0
     },
     "belt": {
-     "item": "Dagger, Holy Symbol",
-     "items": 2,
+     "item": "Dagger, Holy Symbol, Oil, Common (1 pint) ×2",
+     "items": 4,
      "stone": 0
     },
     "head": {
@@ -1799,14 +2358,13 @@
     },
     "backpack": {
      "contents": [
-      "Holy Water (1 pint) ×2",
-      "Rations, Iron (one week)",
+      "Holy Water (1 pint) ×3",
       "Tinderbox (flint & steel)",
       "Waterskin ×5",
       "torch ×6"
      ],
-     "items": 14,
-     "stone": 1
+     "items": 15,
+     "stone": 0
     },
     "sack": {
      "contents": [],
@@ -1824,11 +2382,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 67,
-    "sp": 8,
-    "cp": 0
+    "gp": 65,
+    "sp": 6,
+    "cp": 1
    },
-   "encumbrance_st": 4.908,
+   "encumbrance_st": 4.405,
    "weapons": [
     {
      "name": "Staff",
@@ -1855,6 +2413,7 @@
      "held": "belt"
     }
    ],
+   "treasure": [],
    "spells": {
     "repertoire": {
      "1": [
@@ -2054,243 +2613,34 @@
  ],
  "open_rolls": [
   {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "init Kobold",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "attack Kobold vs giant rat 10",
-   "spec": "1d20+2",
-   "rolls": [
-    19
-   ],
-   "total": 21
-  },
-  {
-   "label": "damage to giant rat 10",
-   "spec": "1d6-1",
-   "rolls": [
-    3
-   ],
-   "total": 2
-  },
-  {
-   "label": "Mortal Wounds Fulvia d20",
-   "spec": "1d20",
-   "rolls": [
-    16
-   ],
-   "total": 16
-  },
-  {
-   "label": "Mortal Wounds Fulvia d6",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Mortal Wounds Gaius Rufo d20",
-   "spec": "1d20",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "Mortal Wounds Gaius Rufo d6",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Mortal Wounds Tullus Brocchus d20",
-   "spec": "1d20",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Mortal Wounds Tullus Brocchus d6",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "Mortal Wounds Herennius Bow d20",
-   "spec": "1d20",
-   "rolls": [
-    7
-   ],
-   "total": 7
-  },
-  {
-   "label": "Mortal Wounds Herennius Bow d6",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Mortal Wounds Aedo d20",
-   "spec": "1d20",
-   "rolls": [
-    12
-   ],
-   "total": 12
-  },
-  {
-   "label": "Mortal Wounds Aedo d6",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Mortal Wounds Eskil's dog d20",
-   "spec": "1d20",
-   "rolls": [
-    16
-   ],
-   "total": 16
-  },
-  {
-   "label": "Mortal Wounds Eskil's dog d6",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "Eskil death save",
-   "spec": "1d20+2",
-   "rolls": [
-    11
-   ],
-   "total": 13
-  },
-  {
-   "label": "octavia natural healing",
-   "spec": "1d3",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "fulvia natural healing",
-   "spec": "1d3",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "eskil natural healing",
-   "spec": "1d3",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    3
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather precipitation (R05.05)",
+   "label": "weather precipitation (R06.05)",
    "spec": "2d6",
    "rolls": [
     6,
-    4
+    5
    ],
-   "total": 10
+   "total": 11
   },
   {
-   "label": "weather wind (R05.05)",
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R06.05)",
    "spec": "2d6",
    "rolls": [
     1,
-    6
-   ],
-   "total": 7
-  },
-  {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    3
+    5
    ],
    "total": 6
   },
   {
-   "label": "weather precipitation (R05.05)",
+   "label": "weather precipitation (R06.05)",
    "spec": "2d6",
    "rolls": [
     6,
@@ -2299,7 +2649,88 @@
    "total": 8
   },
   {
-   "label": "weather wind (R05.05)",
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    5
+   ],
+   "total": 11
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    2
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    2
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    5
+   ],
+   "total": 11
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R06.05)",
    "spec": "2d6",
    "rolls": [
     5,
@@ -2308,20 +2739,193 @@
    "total": 8
   },
   {
-   "label": "Octavia surprise",
-   "spec": "1d6",
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
    "rolls": [
+    2,
     6
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    3
    ],
    "total": 6
   },
   {
-   "label": "Ione surprise",
-   "spec": "1d6",
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
    "rolls": [
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    2
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    1
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    1
+   ],
+   "total": 6
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    5
+   ],
+   "total": 11
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
     4
    ],
-   "total": 4
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    1
+   ],
+   "total": 3
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    2
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    3
+   ],
+   "total": 5
   },
   {
    "label": "weather temperature (R06.05)",
@@ -2336,13 +2940,76 @@
    "label": "weather precipitation (R06.05)",
    "spec": "2d6",
    "rolls": [
-    4,
-    2
+    5,
+    3
    ],
-   "total": 6
+   "total": 8
   },
   {
    "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    2
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    3
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    2
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    6
+   ],
+   "total": 12
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    5,
+    5
+   ],
+   "total": 10
+  },
+  {
+   "label": "weather temperature (R06.05)",
    "spec": "2d6",
    "rolls": [
     5,
@@ -2351,124 +3018,49 @@
    "total": 9
   },
   {
-   "label": "starting hit points",
-   "spec": "1d4",
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
    "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    1,
-    2,
-    4
-   ],
-   "total": 7
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d8",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    1,
-    3,
-    2
-   ],
-   "total": 6
-  },
-  {
-   "label": "starting hit points",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
-   "rolls": [
-    6,
-    1,
-    1
+    5,
+    3
    ],
    "total": 8
   },
   {
-   "label": "starting hit points",
-   "spec": "1d4",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "starting gold (3d6 x 10)",
-   "spec": "3d6",
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
    "rolls": [
     4,
-    2,
-    3
+    5
    ],
    "total": 9
   },
   {
-   "label": "starting age",
-   "spec": "1d6",
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
    "rolls": [
+    5,
+    3
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
     4
    ],
-   "total": 4
+   "total": 8
   },
   {
-   "label": "starting age",
-   "spec": "1d6",
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
    "rolls": [
+    1,
     5
    ],
-   "total": 5
-  },
-  {
-   "label": "starting age",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
    "total": 6
-  },
-  {
-   "label": "starting age",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "search fee 0th level (Class V)",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "octavia natural healing",
-   "spec": "1d3",
-   "rolls": [
-    2
-   ],
-   "total": 2
   }
  ],
  "rumours_heard": [
@@ -2476,7 +3068,8 @@
   "Day 1, Türos Tem: the legate (Indifferent, to Eskil): there is a place in the Viaspen Forest so evil the gods sealed it beneath a mountain of rock.",
   "Day 1, Türos Tem, the inn eatery: Quartermaster Thales (Friendly, to Lepidus): behind the beastman raiders is an elven wizard-lord, bent on revenge against the Empire.",
   "Day 2, the Viaspen (20.19): twelve dwarf furriers (Neutral): they have seen beastmen going in and out of a cave in a rocky hill nearby, and gave the way to it.",
-  "Day 4, the crack in the black hill (19.19): the kobold door-guards (Indifferent, to Eskil): this is the Lady's house; whoever wants to pass pays Urza ten gold a head."
+  "Day 4, the crack in the black hill (19.19): the kobold door-guards (Indifferent, to Eskil): this is the Lady's house; whoever wants to pass pays Urza ten gold a head.",
+  "Day 80, Türos Tem: the legate (Indifferent, to Severus): the brigands hereabouts are led by a scheming warrior named Drusus; he is not to be trusted."
  ],
  "requests_done": []
 }

@@ -253,3 +253,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 79 | Traveler's Inn | courtyard and meals, nights of days 72-79 |  |  | 1gp 2sp | caelia |
 | 79 | the hospital of Mityara | a cot in the hospital courtyard, nights of days 72-79 (bloody flux) |  |  | 8sp | octavia |
 | 79 | Traveler's Inn | stabling the two donkeys, nights of days 72-79 |  |  | 3gp 2sp | ione |
+| 80 | Turos Tem | Oil, Common (1 pint) | 2 |  | 5sp 4cp | caelia |
+| 80 | Turos Tem | Oil, Common (1 pint) | 2 |  | 5sp 4cp | severus |
+| 80 | Turos Tem | Oil, Common (1 pint) | 2 |  | 5sp 4cp | lucan |
+| 80 | Turos Tem | Oil, Common (1 pint) | 2 |  | 5sp 4cp | valeria |
+| 80 | Turos Tem | Oil, Common (1 pint) | 2 |  | 5sp 4cp | ione |
+| 91 | brokers and criers | recruiting fee (a week's search) |  |  | 2gp | caelia |
+| 91 | the retinue | wages paid |  |  | 12gp | caelia |
+| 91 | the retinue | wages paid |  |  | 12gp | octavia |
+| 91 | Gnaeus Fossor | signing bonus (a week's wage) |  |  | 3gp | caelia |
+| 91 | Flavia Scriba | signing bonus (a week's wage) |  |  | 3gp | octavia |
+| 91 | Traveler's Inn | courtyard and meals, nights of days 80-90 |  |  | 1gp 6sp 5cp | octavia |
+| 91 | Traveler's Inn | courtyard and meals, nights of days 80-90 |  |  | 1gp 6sp 5cp | valeria |
+| 91 | Traveler's Inn | courtyard and meals, nights of days 80-90 |  |  | 1gp 6sp 5cp | severus |
+| 91 | Traveler's Inn | courtyard and meals, nights of days 80-90 |  |  | 1gp 6sp 5cp | lucan |
+| 91 | Traveler's Inn | courtyard and meals, nights of days 80-90 |  |  | 1gp 6sp 5cp | caelia |
+| 91 | Traveler's Inn | courtyard and meals, nights of days 80-90 |  |  | 1gp 6sp 5cp | ione |
+| 91 | Traveler's Inn | stabling the two donkeys, nights of days 80-90 |  |  | 4gp 4sp | ione |
+| 91 | Turos Tem | Rations, Iron (one week) | 8 |  | 8gp | ione |
+| 91 | the retinue | wages paid |  |  | 12gp | severus |
+| 91 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | caelia |
+| 91 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | caelia |
+| 91 | Turos Tem | Waterskin | 5 |  | 2gp 7sp | caelia |
+| 91 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | severus |

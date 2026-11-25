@@ -2,17 +2,17 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 9
+session: 10
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
 public:
   date:
     year: ''
-    season: spring
-    day: 79
-  time: '20:14'
-  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind moderate
+    season: summer
+    day: 91
+  time: 06:14
+  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; overcast; wind gentle
   place: Türos Tem
   hex: '22.20'
   party:
@@ -26,7 +26,7 @@ public:
     - 'three fingers of the other hand bitten off: that hand is useless (Mortal Wounds, day 68)'
     - ghostly visions of lost companions (Mortal Wounds, day 68)
     spells_used: []
-    encumbrance_st: 4.376
+    encumbrance_st: 4.516
   - name: Ione
     sheet: Characters/ione.json
     role: pc
@@ -34,7 +34,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 4.438
+    encumbrance_st: 7.762
   - name: Caelia
     sheet: Characters/caelia.json
     role: pc
@@ -42,7 +42,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6.095
+    encumbrance_st: 5.733
   - name: Lucan
     sheet: Characters/lucan.json
     role: pc
@@ -50,7 +50,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 8.076
+    encumbrance_st: 8.415
   - name: Severus
     sheet: Characters/severus.json
     role: pc
@@ -58,7 +58,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 10.38
+    encumbrance_st: 9.697
   - name: Valeria
     sheet: Characters/valeria.json
     role: pc
@@ -66,7 +66,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.908
+    encumbrance_st: 4.405
   - name: Pallas Cornu
     sheet: Characters/pallas-cornu.json
     role: henchman
@@ -74,9 +74,25 @@ public:
     hp_max: 1
     conditions: []
     spells_used: []
-    encumbrance_st: 4.167
+    encumbrance_st: 7.333
+  - name: Flavia Scriba
+    sheet: Characters/flavia-scriba.json
+    role: henchman
+    hp: 2
+    hp_max: 2
+    conditions: []
+    spells_used: []
+    encumbrance_st: 1.333
+  - name: Gnaeus Fossor
+    sheet: Characters/gnaeus-fossor.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
+    encumbrance_st: 6
   light: torch (gaius-rufo) out; lantern (Octavia) out; torch (gaius-rufo) out; lantern (Octavia) out
-  rations: 'Octavia: food 0 d, water 1 d; Ione: food 34 d, water 1 d; Valeria: food 0 d, water 0 d; Severus: food 0 d, water 0 d; Lucan: food 0 d, water 0 d; Caelia: food 0 d, water 0 d'
+  rations: 'Octavia: food 0 d, water 4.2 d; Ione: food 90 d, water 1 d; Valeria: food 7 d, water 0 d; Severus: food 21 d, water 0 d; Lucan: food 7 d, water 3 d; Caelia: food 7 d, water 0 d; Pallas Cornu: food 0 d, water 0 d; Gnaeus Fossor: food 0 d, water 0 d; Flavia Scriba: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -100,7 +116,7 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 79
+clock_day: 91
 ---
 # Campaign State
 
