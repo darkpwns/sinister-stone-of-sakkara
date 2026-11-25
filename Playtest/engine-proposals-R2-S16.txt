@@ -1,0 +1,204 @@
+ENGINE FIXES, ENHANCEMENTS AND SUPPORTING TOOLS
+Proposals from the Sakkara playtest, run 2, sessions 15-16 (days 132-148), with earlier open findings.
+Sources: Playtest/judge-notes.txt ("Run 2 S15", "Run 2 S16"), Campaign/slips.jsonl, Campaign/lessons.yaml.
+Priority: P1 = caused wrong play or a Judge's correction this run; P2 = cost time or needed hand work.
+
+====================================================================================================
+0. PERFORMANCE REQUIREMENT (applies to every item below)
+====================================================================================================
+
+0.1 No noticeable slowdown. No change may make the engine noticeably slower than engine 7.24.0 as used now.
+    Baseline: engine/docs/speed/after-7.24.0.json (the measured per-command timings of the current release).
+    Acceptance: on the same benchmark set, the median wall time per command and the time of a typical combat
+    round and a typical turn of exploration stay within the noise of that baseline; any single command that
+    grows must be justified and stay below what a player would notice at the table.
+0.2 Faster is preferred, only without loss of accuracy. A speed-up is welcome only if outputs are unchanged:
+    the same results for the same seeds, the same logged rolls (labels, visibility, order), the same refusals,
+    the same state files byte for byte where nothing changed, and every rule number and source still named.
+    Verify with golden runs (recorded command sequences replayed before and after) and `acks check`.
+0.3 Design notes for the items below:
+    - New checks (leak checks, load and water checks, label checks) must reuse state already loaded in the
+      process (stateio, fastload caches) and work incrementally; no extra full replays of the inventory log.
+    - New scans that run at save time (leak check, front-matter validation) run once per save, not per command.
+    - New commands that replace many calls (one-command rounds, route walking) should make play faster overall
+      by cutting process starts; run them in one process as `acks batch` and `jacks.py` already do.
+    - Record each release's timings in engine/docs/speed/ as now, so a regression is visible.
+
+====================================================================================================
+A. ENGINE FIXES (bugs seen in play)
+====================================================================================================
+
+P1
+A1. round-auto skips declared actions.
+    Seen: it passed Faustina's declared spell three times (S14, S16 x2); it turned Galerius' declared
+    withdrawal into an attack (S16).
+    Fix: stop at any combatant with a declaration (spell, retreat, withdraw) whatever his standing order;
+    resolve retreat and withdrawal as movement, never as an attack.
+
+A2. Zone frontage does not block a passage.
+    Seen: `state frontage mouth 2` limited attackers per defender, but two troglodytes walked from the hall
+    into the 'tunnel' zone behind the two-man front and attacked Faustina (S16, Judge's correction).
+    Fix: zone links with access through another zone (e.g. `state zone tunnel --via mouth`); while the via-zone
+    is held (its frontage filled by defenders), movement into the zone behind is refused.
+
+A3. Healing outside a fight goes to the wrong file.
+    Seen: `cast ID "Cure Light Injury"` after a fight wrote the healing into the leftover combat-state.json,
+    not the actor (Galerius stayed at 4 hp while the line said 4 -> 20; S16).
+    Fix: `state end` archives and clears the combat state; `cast` with no active fight writes the actor.
+
+A4. Conditions expire early.
+    Seen: a 3-round Halt Humanoids paralysis was gone by round 3; rounds showed no countdown (S16).
+    Fix: audit condition timers at round-end against their stated durations; show rounds left in `state show`.
+
+A5. Nonlethal knockouts roll Mortal Wounds.
+    Seen: a large raptor knocked out with nonlethal damage for capture died at `state end` (S16).
+    Fix: a foe felled only by nonlethal damage is unconscious, not dying; `state end` asks for `capture`
+    (or lists it as a JUDGE item) before closing.
+
+A6. Load checks disagree and the march refusal has a hole.
+    Seen: `move-rate` leaves out carried food and water, `travel` counts them (Galerius 9.2 st vs 11.2 st);
+    load-before-march refuses only when a pack animal has room; three slips (S15 days 132, 133, 137).
+    `play.py depart` fails a member who carries no food although the rollover shares food; satisfying it
+    overloaded Varro.
+    Fix: one weight calculation used by every command (gear, treasure, coins, supplies); `travel` refuses
+    while any member is over his band and a lighter member or an animal could take the difference, naming the
+    items to move; `depart` checks food for the party as shared, not per member.
+
+A7. Water is not filled at known sources.
+    Seen: the party camped beside the 21.20 well and the Krysivor without filling skins; the rollover took
+    2-7 CON from everyone (S15, Judge's correction).
+    Fix: `camp` or `travel` ending in a hex whose travel block names a water source fills the skins, or refuses
+    while anyone carries under a day (ACKS_ACK to override).
+
+P2
+A8. Surprise note penalty refused after a reaction.
+    Seen: the troglodytes' chameleon -2 (S15) and the giant toads' (S16) could not be applied once `reaction`
+    had run.
+    Fix: allow `--apply-note-penalty` until the first action, or apply it at the surprise roll with a waiver flag.
+
+A9. Monster spells.
+    Load a monster's spell list from its bestiary note (the Lady's was typed in by hand). Add Choking Grip
+    (Death save at each of the caster's initiatives, concentration, target cannot act) and Holy Blessing
+    (party-wide +1 attack, AC, morale, saves vs magical fear, 6 turns) to `cast`.
+
+A10. "N or M" attack routines.
+    Seen: Troglodyte "3 or 1 (2 claws, bite or weapon)" made one attack whatever the routine.
+    Fix: parse alternatives into selectable routines; round-auto uses the first unless told otherwise.
+
+A11. `encounter fight --perceived "x {n}"` leaves {n} in every label (S14, S15).
+
+A12. `state aura add` has no save modifier; troglodyte stench is Death at -2. Add `--save-mod`.
+
+A13. Weather for one day differs by command.
+    Seen: `weather --at 22.20 --day N` (region R05.05) and `travel` (R06.05) gave different weather for the
+    same days. Fix: one day's weather per hex whichever command rolls it first.
+
+A14. `adventure start NAME` takes the name as the id ("adventure"). Refuse a positional name or take --name.
+
+A15. A room's wandering rate leaks to the site.
+    Seen: room 15's "none" (set with --wandering at the room) stayed after leaving it; a walk ran with no
+    checks (S15). Fix: a rate set while in a room is the room's and ends when the party leaves it.
+
+A16. `wander-check` does not reset the turn count; the next `turn` rolled a second check at the same minute.
+
+A17. Open-roll labels are not checked for secrets.
+    Seen: a label named Galerius' weapon "sword +1" before the players knew its bonus; only the snapshot
+    caught it and the roll log cannot be edited (S16).
+    Fix: `roll` (and every command that logs an open roll) refuses a label containing an unidentified lot's
+    true name or a monster's name the party has not learned.
+
+A18. Compaction breaks `inv check`.
+    Seen: the archived lighting of lanterns still burning failed the check (S14 twice); fixed by hand with
+    settings.lights_before. Fix: the checkpoint carries the ids of lights still lit.
+
+A19. Earlier findings still open:
+    - a wandering band's `reaction --faction` overwrites the whole faction's attitude (S14);
+    - `restore` without --apply rolls and logs; `restore --apply` does not revive (holder status, hp, body
+      items, party membership) (S12);
+    - waterskins on donkeys or on a dead carrier do not serve the party (S12, S13);
+    - `disease expose` and `cast` refuse a companion actor outside a fight (S14);
+    - the helpless automatic hit is limited by size in `attack` (rules check wanted; S14).
+
+====================================================================================================
+B. ENGINE ENHANCEMENTS
+====================================================================================================
+
+B1. Retention offers. `retain ID --offer "50gp/month; item w32"` for a henchman whose loyalty roll resigns:
+    rolls the hiring reaction and returns the answer as a CHOICE for the employer (e.g. "stays to the month's
+    end: accept or withdraw?"); nothing is recorded until the choice. (S16: the Quintus offer was recorded as
+    if accepted; user's correction.)
+
+B2. Objects with hit points and triggers. `object add stone --hp 20 --harmed-by magic,str16-heavy
+    --on-damage "call abominations 2000'" --on-destroy "striker Death save; within 5' Death save or mutation"`;
+    blows through `attack`. (The Stone of Sakkara was resolved with plain rolls.)
+
+B3. Compulsion as a condition. `state cond ID compelled:<object>`: the creature changes side when someone
+    threatens the object; the condition ends when the object is destroyed or out of sight. Also serves charm
+    effects and a master's control of undead.
+
+B4. Site population lists. A lair's roster (who, hp, where) that wandering results and placed encounters draw
+    from and subtract from; an empty roster gives "no one" instead of a phantom encounter (S16 needed
+    `encounter end --unplayed` for it).
+
+B5. Alarms within a site. `site alarm W3 --heard-in W6 --rounds 3`: a shriek or fight brings defined
+    responders after N rounds (hand-ruled each time: the Lady, the catechists, the warren).
+
+B6. Monster leaders from the bestiary's ecology lines: `state add --leader champion|sub-chieftain|chieftain`
+    for any statblock whose ecology lists leaders (troglodyte leaders were set by editing the state file).
+
+B7. Missiles and held lines: the precise-shooting refusal names which members can shoot past a held mouth,
+    from the zones and engagements.
+
+B8. Schedules that end themselves: `until_faction_destroyed: ID` (the troglodyte raid item was retired by hand).
+
+B9. `party status`: one line per member with hp, spells left, load including supplies, food and water days,
+    light, conditions and fatigue; one call before each decision point.
+
+====================================================================================================
+C. TOOLS OUTSIDE THE ENGINE (scripts that drive it)
+====================================================================================================
+
+C1. One command per fight round: `play.py round DECL.yaml`. Declarations, standing orders and positions in a
+    small file; the script runs round-start, sets order `none` for declared casters and withdrawers so the
+    runner stops for them, adds auras named in monster notes (stench, fear) and prints a compact log.
+    Today a fight takes 10-20 tool calls; this makes it one per round (and faster overall: fewer processes).
+
+C2. Departure check that fixes problems: `play.py ready --route ...`. Loads with supplies, water sources on the
+    route, food shared across the party, light, wages, downtime records, training courses to pause, where the
+    animals are stabled; writes an `inv give` / `supplies give` / `train pause` batch to fix what fails.
+    (Would have caught the water, overload, training-pause and donkey slips of S15-S16.)
+
+C3. Route walker from a site map: `play.py route 15 38 26 31 W6`. Reads the plain-text map in a site hub as a
+    graph with distances; walks with turns, rests, relights and wandering checks; applies and ends room
+    settings; stops at keyed rooms, encounters and anything left to the Judge.
+
+C4. Site builder: `build_site.py` (the unprepped-sites steps as a script). Refuses to start until Campaign State
+    `session:` is current (the S16 build rolls landed under session 15); rolls population from the bestiary
+    ecology, hp lists, treasure and stocking; writes the hub and room skeletons, the wandering table from the
+    roster and the Rulings row; checks that every [[link]] resolves.
+
+C5. Terms before the roll: `ruling.py --terms "..." --roll 1d6`. Writes the Rulings row, then rolls hidden with
+    a label citing it; searches existing rulings for a precedent first.
+
+C6. Plan check against the player profiles: `party.py check-plan "<call>"`. Lists which profile breaking point
+    or heuristic the call touches (Rosa leaving treasure, Ingrid's turn-back point, the combat-failure table
+    rule, giving value away for nothing). Cheap compared with a party-agent call.
+
+C7. Session log composer. Drafts "Where they went / Who they met / Treasure and XP" from the session's location
+    changes, encounters, payouts and levels; builds the Judge block from the hidden-roll dump and the judge
+    notes; validates the front matter of every state note (an unquoted colon in Campaign State broke dice.py
+    in S16).
+
+C8. Leak check on player-facing writes, run by save.sh: party notes, memory notes and session logs scanned for
+    Judge-only facts and unrevealed item properties (S15: a memory note implied the chest's needle was real).
+
+C9. Rest planner: `play.py rest-plan`. From wounds, conditions, bed rest and spell slots: days of rest needed,
+    cures per day, food and water cost; checks that the place is a ruled safe rest (no wandering checks).
+
+C10. Recurring wandering groups. Unique groups (Drusus' lost patrol, a troglodyte gang) tracked so a repeat
+     result is the same band with its earlier attitude; a band led out does not reappear.
+
+C11. Slip catcher. Watches commands for known slip patterns and records the slip automatically so lessons
+     escalate without the Judge remembering: `state end` with a nonlethal-felled foe and no capture; travel or
+     camp with skins under a day beside a known source; a trainer leaving town with a course running; a
+     reaction rolled after a surprise note penalty was offered.
