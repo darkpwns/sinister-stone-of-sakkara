@@ -202,3 +202,30 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 49 | the hospital of Mityara | a cot in the hospital courtyard, day 49 (Judge's price) |  |  | 1sp | aedo |
 | 49 | Traveler's Inn | courtyard and meals, day 49 |  |  | 1sp 5cp | septimia |
 | 49 | Traveler's Inn | stabling the two donkeys, night of day 49 |  |  | 4sp | fulvia |
+| 53 | a caster in Turos Tem | spellcasting: Cure Disease |  |  | 45gp | octavia |
+| 53 | a caster in Turos Tem | spellcasting: Cure Disease |  |  | 45gp | octavia |
+| 53 | a caster in Turos Tem | spellcasting: Cure Disease |  |  | 45gp | octavia |
+| 53 | a caster in Turos Tem | spellcasting: Cure Disease |  |  | 45gp | octavia |
+| 54 | a caster in Turos Tem | spellcasting: Cure Disease |  |  | 45gp | octavia |
+| 57 | Traveler's Inn | private room and meals, nights of days 50-56 |  |  | 3gp 8sp 5cp | octavia |
+| 57 | Traveler's Inn | private room and meals, nights of days 50-56 |  |  | 3gp 8sp 5cp | fulvia |
+| 57 | Traveler's Inn | private room and meals, nights of days 50-56 |  |  | 3gp 8sp 5cp | gaius-rufo |
+| 57 | Traveler's Inn | courtyard and meals, nights of days 50-56 |  |  | 1gp 5cp | septimia |
+| 57 | the hospital of Mityara | a cot in the hospital courtyard, nights of days 50-56 |  |  | 7sp | eskil |
+| 57 | the hospital of Mityara | a cot in the hospital courtyard, nights of days 50-56 |  |  | 7sp | aedo |
+| 57 | Traveler's Inn | stabling the donkey, nights of days 50-56 |  |  | 1gp 4sp | eskil |
+| 57 | Traveler's Inn | stabling the second donkey, nights of days 50-56 |  |  | 1gp 4sp | fulvia |
+| 57 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | septimia |
+| 57 | the retinue | wages paid |  |  | 12gp | eskil |
+| 57 | the retinue | wages paid |  |  | 12gp | octavia |
+| 57 | the retinue | wages paid |  |  | 12gp | fulvia |
+| 65 | Traveler's Inn | courtyard and meals, nights of days 60-64 |  |  | 7sp 5cp | octavia |
+| 65 | Traveler's Inn | courtyard and meals, nights of days 60-64 |  |  | 7sp 5cp | fulvia |
+| 65 | Traveler's Inn | courtyard and meals, nights of days 60-64 |  |  | 7sp 5cp | gaius-rufo |
+| 65 | Traveler's Inn | courtyard and meals, nights of days 60-64 |  |  | 7sp 5cp | septimia |
+| 65 | Traveler's Inn | courtyard and meals, nights of days 60-64 |  |  | 7sp 5cp | eskil |
+| 65 | the hospital of Mityara | a cot in the hospital courtyard, nights of days 57-64 |  |  | 8sp | aedo |
+| 65 | the hospital of Mityara | a cot in the hospital courtyard, nights of days 57-64 |  |  | 8sp | decimus-ruga |
+| 65 | Traveler's Inn | stabling the donkey, nights of days 60-64 |  |  | 1gp | eskil |
+| 65 | Traveler's Inn | stabling the second donkey, nights of days 60-64 |  |  | 1gp | fulvia |
+| 65 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | gaius-rufo |
