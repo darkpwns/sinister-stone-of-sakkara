@@ -3,18 +3,18 @@ type: campaign-state
 tags:
 - sakkara/campaign
 session: 15
-mode: dungeon
-location: '[[Level 2 - Catacombs]] 38-39 (the Inner Fane)'
-adventure: A11 The Lady Below (Buried Temple, level 2) (open)
+mode: wilderness
+location: 21.20 (camp at the freeholder's well, on the road to the temple)
+adventure: none open (A11 paid out day 133; A12 starts at the temple)
 public:
   date:
     year: ''
     season: summer
-    day: 133
-  time: '14:54'
-  weather: Balmy (75 to 79 F) by day, Balmy (68 to 71 F) at night; mostly cloudy; wind moderate
+    day: 139
+  time: 05:54
+  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; heavy rain; wind very strong (rainy, windy)
   place: Türos Tem
-  hex: '22.20'
+  hex: '21.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -23,7 +23,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 5.848
+    encumbrance_st: 6.683
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -31,7 +31,7 @@ public:
     hp_max: 16
     conditions: []
     spells_used: []
-    encumbrance_st: 7.348
+    encumbrance_st: 7.535
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 4.657
+    encumbrance_st: 4.953
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -48,7 +48,7 @@ public:
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
     spells_used: []
-    encumbrance_st: 9.181
+    encumbrance_st: 9.019
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -56,7 +56,7 @@ public:
     hp_max: 18
     conditions: []
     spells_used: []
-    encumbrance_st: 7.034
+    encumbrance_st: 6.034
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -64,15 +64,15 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 5.181
+    encumbrance_st: 5.701
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
-    hp: 2
+    hp: 6
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.441
+    encumbrance_st: 4.448
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -80,7 +80,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 9.098
+    encumbrance_st: 8.14
   - name: Quintus
     sheet: Characters/quintus.json
     role: henchman
@@ -88,7 +88,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 3.458
+    encumbrance_st: 8.281
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
@@ -96,13 +96,15 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.953
+    encumbrance_st: 5.115
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 0 d, water 1 d (fatigued); Faustina: food 11 d, water 1 d; Callista: food 11 d, water 1 d; Corvus: food 6 d, water 1 d (fatigued); Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 0 d, water 1 d (fatigued); Zaira: food 12 d, water 1 d (fatigued); Severina: food 6 d, water 1 d; Marius: food 18 d, water 1 d'
+  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 16 d, water 1 d; Callista: food 5 d, water 1 d; Corvus: food 6 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 11 d, water 1 d; Quintus: food 7 d, water 1 d; Zaira: food 8 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 16 d, water 1 d'
   tracker: {}
-  threads: []
+  threads:
+  - The Stone carried below by the stinking ones (troglodytes), south past the ghoul hole and the slime caves
+  - The legate's remaining reward when the raids stop
+  - The Lady's letter to a 'Lord of Secrets'
   trail:
-  - '21.20'
   - '22.20'
   - '21.20'
   - '20.19'
@@ -122,7 +124,8 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 133
+  - '21.20'
+clock_day: 139
 ---
 # Campaign State
 

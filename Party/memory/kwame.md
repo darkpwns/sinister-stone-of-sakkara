@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S15: Talking bought us the moment we needed: she let me walk back up to her.
 - S02: The northman in the woods listened when I spoke his tongue. The kobolds did not listen at all.
 
 ## Opinions of NPCs

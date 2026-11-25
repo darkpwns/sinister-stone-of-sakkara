@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 11,
-  "L": 88,
+  "L": 89,
   "H": 1,
   "M": 24
  },
@@ -398,7 +398,17 @@
   "returned": {
    "day": 133,
    "where": "Türos Tem"
-  }
+  },
+  "late_rewards": [
+   {
+    "lot": "L89",
+    "gp": 500.0,
+    "xp": 500.0,
+    "day": 133,
+    "paid": true,
+    "paid_day": 133
+   }
+  ]
  },
  "closed": [
   {
@@ -6684,7 +6694,7 @@
    "qty": 1,
    "stone": 0.16666666666666666,
    "carrier": "galerius",
-   "status": "carried",
+   "status": "instance",
    "found": {
     "day": 132,
     "where": "L2 38, the Lady's body"
@@ -6710,13 +6720,25 @@
     "value_gp": null,
     "apparent_gp": 660,
     "magical": true,
-    "known": []
+    "known": [
+     "permanent effect when worn or used (as experienced)"
+    ]
    },
    "appraised": false,
    "identified": false,
-   "used": false,
+   "used": true,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "instance": "w32",
+   "instance_holder": "galerius",
+   "history": [
+    {
+     "instance": "w32",
+     "holder": "galerius",
+     "cause": "lot L79 used",
+     "day": 134
+    }
+   ]
   },
   "L80": {
    "id": "L80",
@@ -6750,11 +6772,13 @@
     "value_gp": null,
     "apparent_gp": 40,
     "magical": true,
-    "known": []
+    "known": [
+     "permanent effect when worn or used (as experienced)"
+    ]
    },
    "appraised": false,
    "identified": false,
-   "used": false,
+   "used": true,
    "sold": null,
    "judge": []
   },
@@ -6765,7 +6789,7 @@
    "qty": 1,
    "stone": 6.0,
    "carrier": "quintus",
-   "status": "carried",
+   "status": "instance",
    "found": {
     "day": 132,
     "where": "L2 38, the Lady's body"
@@ -6791,13 +6815,25 @@
     "value_gp": null,
     "apparent_gp": 710,
     "magical": true,
-    "known": []
+    "known": [
+     "permanent effect when worn or used (as experienced)"
+    ]
    },
    "appraised": false,
    "identified": false,
-   "used": false,
+   "used": true,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "instance": "worn:galerius:Plate Armor",
+   "instance_holder": "galerius",
+   "history": [
+    {
+     "worn": "Plate Armor",
+     "holder": "galerius",
+     "cause": "divided by agreement (day 134): Galerius wears the black plate",
+     "day": 134
+    }
+   ]
   },
   "L82": {
    "id": "L82",
@@ -6907,8 +6943,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -6922,15 +6958,35 @@
    },
    "player": {
     "desc": "a black sapphire",
-    "value_gp": null,
+    "value_gp": 500.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 500.0,
+    "market": "Turos Tem (Market)",
+    "day": 134,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 62.5,
+     "faustina": 62.5,
+     "callista": 62.5,
+     "corvus": 62.5,
+     "hrodric": 62.5,
+     "severina": 62.5,
+     "varro": 31.25,
+     "quintus": 31.25,
+     "zaira": 31.25,
+     "marius": 31.25
+    }
+   },
    "judge": []
   },
   "L86": {
@@ -6939,8 +6995,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -6954,15 +7010,35 @@
    },
    "player": {
     "desc": "a black sapphire",
-    "value_gp": null,
+    "value_gp": 500.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 500.0,
+    "market": "Turos Tem (Market)",
+    "day": 134,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 62.5,
+     "faustina": 62.5,
+     "callista": 62.5,
+     "corvus": 62.5,
+     "hrodric": 62.5,
+     "severina": 62.5,
+     "varro": 31.25,
+     "quintus": 31.25,
+     "zaira": 31.25,
+     "marius": 31.25
+    }
+   },
    "judge": []
   },
   "L87": {
@@ -6971,8 +7047,8 @@
    "kind": "gem",
    "qty": 1,
    "stone": 0.001,
-   "carrier": "severina",
-   "status": "carried",
+   "carrier": null,
+   "status": "sold",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -6986,15 +7062,35 @@
    },
    "player": {
     "desc": "a black diamond",
-    "value_gp": null,
+    "value_gp": 1000.0,
     "apparent_gp": null,
     "magical": false,
     "known": []
    },
-   "appraised": false,
+   "appraised": true,
    "identified": true,
    "used": false,
-   "sold": null,
+   "sold": {
+    "price": 1000.0,
+    "market": "Turos Tem (Market)",
+    "day": 134,
+    "class": "V",
+    "by": "severina",
+    "identified": true,
+    "used": false,
+    "split": {
+     "galerius": 125.0,
+     "faustina": 125.0,
+     "callista": 125.0,
+     "corvus": 125.0,
+     "hrodric": 125.0,
+     "severina": 125.0,
+     "varro": 62.5,
+     "quintus": 62.5,
+     "zaira": 62.5,
+     "marius": 62.5
+    }
+   },
    "judge": []
   },
   "L88": {
@@ -7003,8 +7099,8 @@
    "kind": "goods",
    "qty": 1,
    "stone": 0.5,
-   "carrier": "callista",
-   "status": "carried",
+   "carrier": null,
+   "status": "stored",
    "found": {
     "day": 132,
     "where": "L2 39, the Lady's chest"
@@ -7028,7 +7124,61 @@
    "identified": true,
    "used": false,
    "sold": null,
-   "judge": []
+   "judge": [],
+   "stored": {
+    "place": "the company chest at the inn",
+    "day": 137
+   }
+  },
+  "L89": {
+   "id": "L89",
+   "adventure": "A11",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": null,
+   "status": "divided",
+   "found": {
+    "day": 133,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 0,
+    "name": "reward 500.0gp"
+   },
+   "player": {
+    "desc": "reward of 500.0gp",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "stored": {
+    "place": "civilization",
+    "day": 133
+   },
+   "late": true,
+   "late_split": {
+    "galerius": 62.5,
+    "faustina": 62.5,
+    "callista": 62.5,
+    "corvus": 62.5,
+    "hrodric": 62.5,
+    "severina": 62.5,
+    "varro": 31.25,
+    "quintus": 31.25,
+    "zaira": 31.25,
+    "marius": 31.25
+   },
+   "divided_day": 133
   }
  },
  "hoards": {

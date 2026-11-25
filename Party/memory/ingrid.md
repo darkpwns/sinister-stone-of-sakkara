@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S15: Fill every skin at every well, even a day from town; hot days drink twice. And a held caster is a dead caster: Halt first, talk later.
 - S02: Water is the limit in the forest: one skin each is a fifth of a day. Buy skins and keep a well on the route. Check loads before marching: one heavy man sets the pace.
 
 ## Opinions of NPCs

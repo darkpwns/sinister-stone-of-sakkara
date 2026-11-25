@@ -82,6 +82,7 @@ tags:
 | 133 | A11 The Lady Below (Buried Temple, level 2) | gem worth 500.0gp | 500 | severina |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | gem worth 1000.0gp | 1,000 | severina |
 | 133 | A11 The Lady Below (Buried Temple, level 2) | the Lady's spellbook (iron-bound, pages of flayed skin) | 5,000 | callista |
+| 134 | A11 The Lady Below (Buried Temple, level 2) | the legate's reward for the Lady's death (late, L89; shared by A11's shares) | 500 | faustina |
 
 ## Monster XP
 
@@ -598,3 +599,34 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 133 |  | treasure share |  | 67gp 1sp 9cp |  | quintus |
 | 133 |  | treasure share |  | 67gp 1sp 9cp |  | zaira |
 | 133 |  | treasure share |  | 67gp 1sp 9cp |  | marius |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 62gp 5sp |  | galerius |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 62gp 5sp |  | faustina |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 62gp 5sp |  | callista |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 62gp 5sp |  | corvus |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 62gp 5sp |  | hrodric |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 62gp 5sp |  | severina |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 31gp 2sp 5cp |  | varro |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 31gp 2sp 5cp |  | quintus |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 31gp 2sp 5cp |  | zaira |
+| 133 | the reward | his share of L89 (a reward after the payout) |  | 31gp 2sp 5cp |  | marius |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 250gp |  | galerius |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 250gp |  | faustina |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 250gp |  | callista |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 250gp |  | corvus |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 250gp |  | hrodric |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 250gp |  | severina |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 125gp |  | varro |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 125gp |  | quintus |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 125gp |  | zaira |
+| 134 | market | his share of the sale of L85,L86,L87 (after the payout) |  | 125gp |  | marius |
+| 134 | Türos Tem | Oil, Common (1 pint) | 6 |  | 1gp 8sp | callista |
+| 134 | Türos Tem | Hide and Fur Armor | 1 | 10gp |  | quintus |
+| 134 | Türos Tem | Oil, Military (1 pint) | 3 |  | 6gp | galerius |
+| 134 | the fort's quartermaster | 5 flasks of military oil from the legion's stores on the legate's writ (day 134) |  |  | 50gp | galerius |
+| 134 | the fort's quartermaster | Judge's correction: the legion's oil at the market price, 2gp a flask (day 134) |  | 40gp |  | galerius |
+| 134 | Annalist Socolo | reading the Lady's letter (Ancient Zaharan), day 134 |  |  | 10gp | callista |
+| 134 | the inn | lodging, 4 night(s) |  |  | 20gp | faustina |
+| 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | quintus |
+| 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | hrodric |
+| 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | severina |
+| 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
