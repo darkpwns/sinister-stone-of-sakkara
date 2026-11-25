@@ -39,15 +39,401 @@
    "powers": []
   }
  },
- "searches": {},
- "candidates": {},
- "members": {},
+ "searches": {
+  "Turos Tem|henchman|0th level": {
+   "market": "Turos Tem",
+   "market_class": "V",
+   "kind": "henchman",
+   "type": "0th level",
+   "table": "henchmen-availability",
+   "row": 0,
+   "total": 6,
+   "by_week": [
+    3,
+    1,
+    2
+   ],
+   "weeks": [
+    1
+   ],
+   "candidates": [
+    "C1",
+    "C2",
+    "C3"
+   ],
+   "region": "Turos Tem",
+   "level": 0,
+   "wage": "12gp/month",
+   "race": "human"
+  }
+ },
+ "candidates": {
+  "C1": {
+   "id": "C1",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Ione",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "eskil",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 1,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "eskil",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 1,
+     "wage": 12.0,
+     "signing": "week"
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 12,
+     "mod": 0
+    },
+    "INT": {
+     "score": 7,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 10,
+     "mod": 0
+    },
+    "CON": {
+     "score": 16,
+     "mod": 2
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "occupation": "Florist",
+   "occupation_group": "Apprentice Crafter",
+   "proficiencies": [
+    {
+     "name": "Art (floral arrangement)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Naturalism",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 19,
+   "prof_slots": 4,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 720,
+   "prof_count": 4,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level",
+   "week": 1,
+   "actor": "ione",
+   "try_again": false,
+   "accepted_by": "eskil",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C2": {
+   "id": "C2",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Brasidas",
+   "status": "available",
+   "attempts": [],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 9,
+     "mod": 0
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 8,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 13,
+     "mod": 1
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 8,
+     "mod": -1
+    }
+   },
+   "occupation": "Draper",
+   "occupation_group": "Licensed Merchant",
+   "proficiencies": [
+    {
+     "name": "Profession (merchant)",
+     "ranks": 2
+    },
+    {
+     "name": "Craft (weaving)",
+     "ranks": 1
+    },
+    {
+     "name": "Bargaining",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 2,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 1,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level",
+   "week": 1,
+   "actor": "c2"
+  },
+  "C3": {
+   "id": "C3",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Gaius Rufo",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "lepidus",
+     "party": "party",
+     "total": 12,
+     "result": "Accept with élan",
+     "day": 1,
+     "wage": 12.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "Marshal (Light Infantry): 'As type + second rank of Manual of Arms' - the military type's package plus the ranks named",
+    "4 more general proficiency slot(s): Judge's choice (usually ranks in As type + second rank of Manual of Arms, JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 6,
+     "mod": -1
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 7,
+     "mod": -1
+    },
+    "CON": {
+     "score": 14,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 11,
+     "mod": 0
+    }
+   },
+   "occupation": "Marshal (Light Infantry)",
+   "occupation_group": "Specialist",
+   "proficiencies": [
+    {
+     "name": "As type + second rank of Manual of Arms",
+     "ranks": 1
+    }
+   ],
+   "age": 29,
+   "prof_slots": 5,
+   "training": "Commoner",
+   "hit_die": "1/2 HD",
+   "hp_max": 5,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": -1,
+   "wage_table": "12gp/month",
+   "search": "Turos Tem|henchman|0th level",
+   "week": 1,
+   "actor": "gaius-rufo",
+   "try_again": false,
+   "accepted_by": "lepidus",
+   "elan": true,
+   "offer_wage": 12.0
+  }
+ },
+ "members": {
+  "gaius-rufo": {
+   "id": "gaius-rufo",
+   "name": "Gaius Rufo",
+   "candidate": "C3",
+   "employer": "lepidus",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Marshal (Light Infantry)",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 1,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 1,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 1,
+     "event": "wages paid: 1 month(s), 12 gp"
+    }
+   ],
+   "actor": "gaius-rufo",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "ione": {
+   "id": "ione",
+   "name": "Ione",
+   "candidate": "C1",
+   "employer": "eskil",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Florist",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": -2,
+   "morale_src": "noncombatant (JJ p. 253)",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 1,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 1,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 1,
+     "event": "wages paid: 1 month(s), 12 gp"
+    }
+   ],
+   "actor": "ione",
+   "market": "Turos Tem",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  }
+ },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 0,
+ "seq": 3,
  "notes_shown": [
+  "cand.age_row_merchant",
+  "cand.classed_chances",
+  "hire.prof_stacking",
   "wage.timing"
  ]
 }

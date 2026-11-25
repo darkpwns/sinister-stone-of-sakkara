@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 1
+session: 2
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,9 +10,9 @@ public:
   date:
     year: ''
     season: spring
-    day: 1
-  time: 08:00
-  weather: Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)
+    day: 5
+  time: '12:40'
+  weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; heavy rain; wind strong (rainy)
   place: Türos Tem
   hex: '22.20'
   party:
@@ -23,7 +23,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 8.516
+    encumbrance_st: 6.519
   - name: Eskil
     sheet: Characters/eskil.json
     role: pc
@@ -31,7 +31,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 7.25
+    encumbrance_st: 6.226
   - name: Fulvia
     sheet: Characters/fulvia.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 7.033
+    encumbrance_st: 4.878
   - name: Lepidus
     sheet: Characters/lepidus.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 9.702
+    encumbrance_st: 6.52
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
@@ -55,7 +55,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 4.698
+    encumbrance_st: 3.692
   - name: Silvanus
     sheet: Characters/silvanus.json
     role: pc
@@ -63,14 +63,36 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 9.208
+    encumbrance_st: 6.211
+  - name: Gaius Rufo
+    sheet: Characters/gaius-rufo.json
+    role: henchman
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 4.833
+  - name: Ione
+    sheet: Characters/ione.json
+    role: henchman
+    hp: 3
+    hp_max: 3
+    conditions: []
+    spells_used: []
+    encumbrance_st: 0.836
   light: none
-  rations: 'Lepidus: food 0 d, water 0 d; Aurelia: food 0 d, water 0 d; Octavia: food 0 d, water 0 d; Silvanus: food 0 d, water 0 d; Fulvia: food 0 d, water 0 d; Eskil: food 0 d, water 0 d'
+  rations: 'Lepidus: food 4 d, water 2.4 d (fatigued); Aurelia: food 4 d, water 0 d; Octavia: food 4 d, water 0 d; Silvanus: food 4 d, water 0 d (fatigued); Fulvia: food 4 d, water 0 d; Eskil: food 4 d, water 0 d (fatigued); Gaius Rufo: food 4 d, water 0.4 d (fatigued); Ione: food 4 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
   - '22.20'
-clock_day: 1
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+  - '22.20'
+clock_day: 5
 ---
 # Campaign State
 

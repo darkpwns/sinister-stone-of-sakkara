@@ -12,18 +12,32 @@ records only state. Run 3 starts from the modules as printed: nothing of runs 1 
 
 | Hex | Terrain | First visited | Notes |
 | --- | --- | --- | --- |
+| 21.20 | farmland | day 2 | Giant tarantulas' lair (2, MM; met at dusk day 4 about 6 miles in from 20.19, evaded unseen: the spiders were surprised) |
+| 20.19 | forest (Viaspen edge) | day 2 | Ground-wasp nest near the day-2 camp (insect swarm, in lair, not roused); dwarf furriers met day 2 (Neutral) |
+| 19.19 | forest (Viaspen) | day 3 | The black granite hill and its crack (the Buried Temple, L1 1); a stream near the camp (water found day 4) |
 
 ## Dungeons and lairs
 
 One subsection per site entered, headed with its wiki link. List each room entered and its state (opened, looted,
 monsters slain or fled, survivors of `state end`, traps sprung).
 
+### [[Level 1 - Buried Temple]]
+- Day 4: Silvanus and Fulvia watched room 1 unseen from the tree line (the kobolds surprised). At 12:40 the party parleyed openly at 60': the four kobold guards Unfriendly, then **Indifferent** after Eskil's influence (natural 12): they named Urza's toll, 10gp a head. Nobody entered.
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 1 | Lepidus hired Gaius Rufo (marshal, light infantry, 0th) and Eskil hired Ione (florist, 0th), 12gp a month each | Türos Tem | henchmen; Lepidus' 0th-level search of month 1 is spent (weeks 2-3 bring 1 and 2 more arrivals, engine) |
+| 3-4 | Short water: Silvanus, Fulvia and Eskil dehydrated one night (CON lost; recovering 3 a day) | 19.19 | Ingrid's lesson: more waterskins |
 
 ## NPC attitudes
+- Legate Ulrand Valerian: Indifferent (day 1, Eskil).
+- Annalist Socolo: Indifferent (day 1, Octavia). Priestess Genelen: Indifferent (day 1, Aurelia). Guildmaster Karanos: Indifferent (day 1, Fulvia).
+- Centurion Ilarion: Indifferent (day 1, Aurelia). Subaltern Methori: Indifferent (day 1, Eskil). **Quartermaster Thales: Friendly** (day 1, Lepidus: loans of gear and mounts against a pledge; rumour given).
+- Duty subaltern at the Avenue day 1: Lynara Miren.
+- Dwarf furriers (12, Viaspen): Neutral (day 2).
+- Kobold door-guards (L1 1): Indifferent (day 4).
 
 ## Faction standing
 
