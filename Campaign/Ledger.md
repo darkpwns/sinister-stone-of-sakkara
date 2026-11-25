@@ -38,6 +38,9 @@ tags:
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Beetle, Giant Luminous (adult, adult value) | 15 | sold |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | a clutch of 8 luminous beetle eggs (AX1 L1 50) | 120 | sold |
 | 74 | The tower's prisoners (Buried Temple, level 1) | reward 500.0gp | 500 | faustina |
+| 89 | Below the stepped tower (Buried Temple, level 2) | 400 gold pieces | 400 | quintus |
+| 89 | Below the stepped tower (Buried Temple, level 2) | ogre knucklebones (2 ogres; 3 metamphora) | 180 | sold |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Sword +1 | 660 | quintus |
 
 ## Monster XP
 
@@ -53,6 +56,7 @@ tags:
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Stirge (Sakkara) | 6 | 13 | 78 |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Luminous Beetle | 4 | 15 | 60 |
 | 74 | The tower's prisoners (Buried Temple, level 1) | Giant Rat | 1 | 5 | 5 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Ogre | 2 | 140 | 280 |
 
 ## Shares and XP awarded
 
@@ -100,6 +104,15 @@ tags:
 | 74 | The tower's prisoners (Buried Temple, level 1) | Corvus | 1 | 100 | 1 | 0 | +5% | 106 |
 | 74 | The tower's prisoners (Buried Temple, level 1) | Marius | 0.5 | 50 | 0 | 0 | +0% | 50 |
 | 74 | The tower's prisoners (Buried Temple, level 1) | Varro | 0.5 | 50 | 0 | 0 | +5% | 52 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 89 | Below the stepped tower (Buried Temple, level 2) | Galerius | 1 | 177 | 40 | 0 | +10% | 239 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Faustina | 1 | 177 | 40 | 0 | +5% | 228 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Callista | 1 | 177 | 40 | 0 | +5% | 228 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Corvus | 1 | 177 | 40 | 0 | +5% | 228 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Hrodric | 1 | 177 | 40 | 0 | +5% | 228 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Varro | 0.5 | 89 | 20 | 0 | +5% | 114 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Quintus | 0.5 | 89 | 20 | 0 | +5% | 114 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Zaira | 0.5 | 89 | 20 | 0 | +0% | 109 |
+| 89 | Below the stepped tower (Buried Temple, level 2) | Marius | 0.5 | 89 | 20 | 0 | +0% | 109 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -302,3 +315,24 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 87 | Apsa, king of the orcs | a gift for peace with the hobgoblins this spring (a month's bribe; Friendly, helpful), day 87 |  |  | 100gp | faustina |
 | 87 | Idimmu (L1 75) | tribute: passage below for eight (100gp a head) |  |  | 800gp | faustina |
 | 87 | the Red Eye guards of L2 10 | a week's bribe on the talk at the stair foot |  |  | 10gp | faustina |
+| 89 |  | treasure share |  | 82gp 8sp 6cp |  | galerius |
+| 89 |  | treasure share |  | 82gp 8sp 6cp |  | faustina |
+| 89 |  | treasure share |  | 82gp 8sp 6cp |  | callista |
+| 89 |  | treasure share |  | 82gp 8sp 6cp |  | corvus |
+| 89 |  | treasure share |  | 82gp 8sp 6cp |  | hrodric |
+| 89 |  | treasure share |  | 41gp 4sp 3cp |  | varro |
+| 89 |  | treasure share |  | 41gp 4sp 3cp |  | quintus |
+| 89 |  | treasure share |  | 41gp 4sp 3cp |  | zaira |
+| 89 |  | treasure share |  | 41gp 4sp 3cp |  | marius |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 89 | Turos Tem | Oil, Common (1 pint) | 4 |  | 1gp 2sp | faustina |
+| 89 | Turos Tem | Metamphora (60gp) | 3 |  | 15gp | faustina |
+| 89 | Turos Tem | torch | 12 |  | 2sp | faustina |

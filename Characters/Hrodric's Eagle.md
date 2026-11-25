@@ -10,7 +10,9 @@ Hrodric's totem animal (RR Shaman, Totem Animal; chosen at creation, S01). Kept 
 animals (the user, 2026-11-24: to be added after the Sakkara playtest, before SOTN). Its current hp are kept on this
 note: update the line below after every fight or injury.
 
-**Current hp: 4 / 4** (day 52: Hrodric 2nd level, rescaled)
+**Current hp: 8 / 8** (day 89: Hrodric 3rd level, rescaled)
+
+**From day 89 (Hrodric 3rd level):** HD 2, hp 8, AC 3 (1 HD of difference: +1/2, rounded to even: no change), talons 1d4+1 / 1d4 (average 4 + 2 = 6), attack throw 9+ (a monster of 2 HD), saves as a Fighter 1. The table below is the 2nd-level record.
 
 ## Numbers (Hrodric at 2nd level, from day 52)
 
