@@ -810,3 +810,12 @@ Run 3 S09 day 68: Judge slip (corrected): a helper loop (gnaw.py) mis-read the c
 Run 3 S09 day 68: Judge slip: Gaius' coup de grace on giant rat 2 was rolled before his count came round (count 0); his turn was then passed.
 Run 3 S09 day 69: `death eskil --successor ione` left eskil's possessions on holder eskil (no body:eskil) and eskil in the travel members ('eskil 0 days of water' refused travel until `party remove eskil`).
 Run 3 S09 day 72: `adventure return` and `payout` gave Ione (Eskil's henchwoman, taken over as Kwame's PC on day 69) a half share (henchman at the time of earning): left as computed.
+Run 3 S10 day 92: a wilderness lair roll in a corridor hex (120 brigands in lair, 20.19) edited by hand to one gang on the move (Rulings R3 S10): the engine could weigh a lair result against hexes the party has camped in (travel block 'visited').
+Run 3 S10 day 91: engine finding: iron rations bought with `inv buy` and also added with `supplies add` count twice in `play.py depart`'s loads (38 st on donkey1 by depart, 18.8 by `mounts show`); the items were removed with `inv remove … --why other` to leave the supplies.
+Run 3 S10 day 94: Judge slips: the sprites' door search rolled four hours and four secret-door turns ahead (hours 2-4 and turns 3-4 void); the clock was not advanced for the hour and twenty minutes of searching (the party entered the tunnel at 08:00 instead of about 09:20).
+Run 3 S10 day 94: `reaction --current friendly` on Thethamun's guards (10 with +3) came out Indifferent and set the whole faction to Indifferent; `--band` was meant (a guard post of a Friendly tribe). Left as rolled.
+Run 3 S10 day 95: `light on --kind lantern` lit a new flask although lantern5 still had 18 turns (a pint wasted).
+Run 3 S10 day 97: Valeria's week-2 search was run at once and its candidate offered the same day; the week was not waited out (the party left on day 98).
+Run 3 S10 day 102: the stirges' blood drain (attached, 1d3 a round) was run as ordinary attacks each round by round-auto (the note says automatic once latched); Octavia's fall came from those rolls.
+Run 3 S10 day 103: Judge slip: the company camped in 21.20 (the day's travel ended there) without the devil boar's 1-in-6; rolled late (3, no).
+Run 3 S10: the slip catcher's water-at-known-source fires at every stop beside a source because henchmen with five skins and members packed on donkeys count separately (false positives, about 10 this session).

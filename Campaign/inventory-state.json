@@ -53,7 +53,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by eskil",
    "owner": "eskil",
@@ -156,8 +156,29 @@
      "day": 94,
      "nights": 0,
      "cause": null
+    },
+    {
+     "stabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 102,
+     "cause": null
+    },
+    {
+     "unstabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 102,
+     "nights": 0,
+     "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 104,
+     "cause": null
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Traveler's Inn",
+    "day": 104,
+    "cause": null
+   }
   },
   "gaius-rufo": {
    "kind": "henchman",
@@ -241,7 +262,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by fulvia",
    "owner": "fulvia",
@@ -311,8 +332,29 @@
      "day": 94,
      "nights": 0,
      "cause": null
+    },
+    {
+     "stabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 102,
+     "cause": null
+    },
+    {
+     "unstabled": "the crack of the black hill (L1 1), under the kobolds' toll",
+     "day": 102,
+     "nights": 0,
+     "cause": null
+    },
+    {
+     "stabled": "Traveler's Inn",
+     "day": 104,
+     "cause": null
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Traveler's Inn",
+    "day": 104,
+    "cause": null
+   }
   },
   "mule1": {
    "kind": "animal",
@@ -417,5545 +459,6 @@
  },
  "custom": {},
  "log": [
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "chain mail armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 7
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "shield",
-     "slot": "left_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 8
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "#w1",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w1",
-     "key": "sword",
-     "row": "Sword",
-     "table": "weapons-swords-daggers",
-     "table_row": 4,
-     "type": "Medium Melee",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "piercing",
-      "slashing"
-     ],
-     "special": [],
-     "range": null,
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     }
-    }
-   ],
-   "n": 9
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "#w2",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w2",
-     "key": "dagger",
-     "row": "Dagger",
-     "table": "weapons-swords-daggers",
-     "table_row": 1,
-     "type": "Tiny Melee/Missile",
-     "size": "Tiny",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     }
-    }
-   ],
-   "n": 10
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "#w3",
-     "slot": "back",
-     "qty": 1
-    },
-    {
-     "who": "lepidus",
-     "item": "#w4",
-     "slot": "back",
-     "qty": 1
-    },
-    {
-     "who": "lepidus",
-     "item": "#w5",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w3",
-     "key": "javelin",
-     "row": "Javelin",
-     "table": "weapons-spears-polearms",
-     "table_row": 1,
-     "type": "Small Melee/Missile",
-     "size": "Small",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     }
-    },
-    {
-     "id": "w4",
-     "key": "javelin",
-     "row": "Javelin",
-     "table": "weapons-spears-polearms",
-     "table_row": 1,
-     "type": "Small Melee/Missile",
-     "size": "Small",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     }
-    },
-    {
-     "id": "w5",
-     "key": "javelin",
-     "row": "Javelin",
-     "table": "weapons-spears-polearms",
-     "table_row": 1,
-     "type": "Small Melee/Missile",
-     "size": "Small",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 1
-       }
-      }
-     }
-    }
-   ],
-   "n": 11
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 12
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 13
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 14
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 15
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 16
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "rope, 50'",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 17
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "iron spike",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 18
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "chain mail armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 19
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "shield",
-     "slot": "left_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 20
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "#w6",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w6",
-     "key": "mace",
-     "row": "Mace",
-     "table": "weapons-bludgeons",
-     "table_row": 2,
-     "type": "Medium Melee",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "bludgeoning"
-     ],
-     "special": [],
-     "range": null,
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-bludgeons",
-        "row": 2
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-bludgeons",
-        "row": 2
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-bludgeons",
-        "row": 2
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-bludgeons",
-        "row": 2
-       }
-      }
-     }
-    }
-   ],
-   "n": 21
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "holy symbol",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 22
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 23
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 24
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 25
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 26
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 27
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "holy water (1 pint)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 28
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "#w7",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w7",
-     "key": "sling",
-     "row": "Sling",
-     "table": "weapons-other-weapons",
-     "table_row": 6,
-     "type": "Missile",
-     "size": null,
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "bludgeoning"
-     ],
-     "special": [
-      "Handy"
-     ],
-     "range": {
-      "short": 60,
-      "medium": 120,
-      "long": 240
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     }
-    }
-   ],
-   "n": 29
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "sling stone",
-     "slot": "belt",
-     "qty": 30
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 30
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 31
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 32
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 33
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 34
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "#w8",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w8",
-     "key": "dagger",
-     "row": "Dagger",
-     "table": "weapons-swords-daggers",
-     "table_row": 1,
-     "type": "Tiny Melee/Missile",
-     "size": "Tiny",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     }
-    }
-   ],
-   "n": 35
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "lantern",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 36
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "oil, common (1 pint)",
-     "slot": "backpack",
-     "qty": 4
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 37
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "pole, wooden",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 38
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "mirror (hand-sized, steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 39
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 40
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 41
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 42
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 43
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 44
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "scale armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 45
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "shield",
-     "slot": "left_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 46
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "#w9",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w9",
-     "key": "spear",
-     "row": "Spear",
-     "table": "weapons-spears-polearms",
-     "table_row": 4,
-     "type": "Med. Melee/Missile",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Impact",
-      "Long",
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     }
-    }
-   ],
-   "n": 47
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "#w10",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w10",
-     "key": "short bow",
-     "row": "Short Bow",
-     "table": "weapons-bows-crossbows",
-     "table_row": 5,
-     "type": "Missile",
-     "size": null,
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [],
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-bows-crossbows",
-        "row": 5
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-bows-crossbows",
-        "row": 5
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-bows-crossbows",
-        "row": 5
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-bows-crossbows",
-        "row": 5
-       }
-      }
-     }
-    }
-   ],
-   "n": 48
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "arrow",
-     "slot": "belt",
-     "qty": 20
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 49
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "#w11",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w11",
-     "key": "hand axe",
-     "row": "Hand Axe",
-     "table": "weapons-axes",
-     "table_row": 2,
-     "type": "Small Melee/Missile",
-     "size": "Small",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "slashing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-axes",
-        "row": 2
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-axes",
-        "row": 2
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-axes",
-        "row": 2
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-axes",
-        "row": 2
-       }
-      }
-     }
-    }
-   ],
-   "n": 50
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rope, 50'",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 51
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 52
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 53
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 54
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 55
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 56
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "leather armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 57
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "#w12",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w12",
-     "key": "short sword",
-     "row": "Short Sword",
-     "table": "weapons-swords-daggers",
-     "table_row": 3,
-     "type": "Small Melee",
-     "size": "Small",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "piercing",
-      "slashing"
-     ],
-     "special": [],
-     "range": null,
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     }
-    }
-   ],
-   "n": 58
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "#w13",
-     "slot": "belt",
-     "qty": 1
-    },
-    {
-     "who": "fulvia",
-     "item": "#w14",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w13",
-     "key": "dagger",
-     "row": "Dagger",
-     "table": "weapons-swords-daggers",
-     "table_row": 1,
-     "type": "Tiny Melee/Missile",
-     "size": "Tiny",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     }
-    },
-    {
-     "id": "w14",
-     "key": "dagger",
-     "row": "Dagger",
-     "table": "weapons-swords-daggers",
-     "table_row": 1,
-     "type": "Tiny Melee/Missile",
-     "size": "Tiny",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     }
-    }
-   ],
-   "n": 59
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "#w15",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w15",
-     "key": "sling",
-     "row": "Sling",
-     "table": "weapons-other-weapons",
-     "table_row": 6,
-     "type": "Missile",
-     "size": null,
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "bludgeoning"
-     ],
-     "special": [
-      "Handy"
-     ],
-     "range": {
-      "short": 60,
-      "medium": 120,
-      "long": 240
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 6
-       }
-      }
-     }
-    }
-   ],
-   "n": 60
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "sling stone",
-     "slot": "belt",
-     "qty": 30
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 61
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "thieves' tools",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 62
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "sack, large (holds 6 stone)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 63
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rope, 50'",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 64
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "crowbar",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 65
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 66
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 67
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 68
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 69
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 70
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "leather armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 71
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "#w16",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w16",
-     "key": "spear",
-     "row": "Spear",
-     "table": "weapons-spears-polearms",
-     "table_row": 4,
-     "type": "Med. Melee/Missile",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Impact",
-      "Long",
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     }
-    }
-   ],
-   "n": 72
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "#w17",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w17",
-     "key": "staff sling",
-     "row": "Staff Sling",
-     "table": "weapons-other-weapons",
-     "table_row": 7,
-     "type": "Medium Melee/Missile",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d6"
-     },
-     "types": [
-      "bludgeoning"
-     ],
-     "special": [],
-     "range": {
-      "short": 75,
-      "medium": 150,
-      "long": 300
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 7
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 7
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 7
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-other-weapons",
-        "row": 7
-       }
-      }
-     }
-    }
-   ],
-   "n": 73
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "sling stone",
-     "slot": "belt",
-     "qty": 30
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 74
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "#w18",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w18",
-     "key": "dagger",
-     "row": "Dagger",
-     "table": "weapons-swords-daggers",
-     "table_row": 1,
-     "type": "Tiny Melee/Missile",
-     "size": "Tiny",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     }
-    }
-   ],
-   "n": 75
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "whistle",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 76
-  },
-  {
-   "op": "pay",
-   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "sp": 9,
-     "gp": -74
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 7310,
-   "cmd": "inv pay",
-   "n": 77
-  },
-  {
-   "op": "pay",
-   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "aurelia",
-     "sp": 9,
-     "gp": -113
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 11210,
-   "cmd": "inv pay",
-   "n": 78
-  },
-  {
-   "op": "pay",
-   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "cp": 9,
-     "sp": 7,
-     "gp": -25
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 2421,
-   "cmd": "inv pay",
-   "n": 79
-  },
-  {
-   "op": "pay",
-   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "sp": 9,
-     "gp": -58
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 5710,
-   "cmd": "inv pay",
-   "n": 80
-  },
-  {
-   "op": "pay",
-   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "sp": 1,
-     "gp": -68
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 6790,
-   "cmd": "inv pay",
-   "n": 81
-  },
-  {
-   "op": "pay",
-   "cause": "starting equipment at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": 9,
-     "gp": -36
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 3510,
-   "cmd": "inv pay",
-   "n": 82
-  },
-  {
-   "op": "add",
-   "cause": "starting equipment (no templates: list price, Rulings R2 S01): a hunting dog",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [],
-   "row": "Dog, Hunting",
-   "animal": "silvanus-hound",
-   "holder": "silvanus",
-   "cmd": "inv add",
-   "n": 83
-  },
-  {
-   "op": "pay",
-   "cause": "a hunting dog at list price (no templates, Rulings R2 S01)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "gp": -10
-    }
-   ],
-   "to": "outfitters (character creation)",
-   "price_cp": 1000,
-   "cmd": "inv pay",
-   "n": 84
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -10
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Donkey, Draft",
-   "packs": 1,
-   "price_cp": 1000,
-   "cmd": "inv buy",
-   "animal": "donkey1",
-   "n": 85
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to lepidus: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 0 d, water 0 d, firewood 0 st; octavia food 0 d, water 0 d, firewood 0 st; silvanus food 0 d, water 0 d, firewood 0 st; fulvia food 0 d, water 0 d, firewood 0 st; eskil food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 86
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to aurelia: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 0 d, water 0 d, firewood 0 st; silvanus food 0 d, water 0 d, firewood 0 st; fulvia food 0 d, water 0 d, firewood 0 st; eskil food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 87
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to octavia: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 7 d, water 0 d, firewood 0 st; silvanus food 0 d, water 0 d, firewood 0 st; fulvia food 0 d, water 0 d, firewood 0 st; eskil food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 88
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to silvanus: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 7 d, water 0 d, firewood 0 st; silvanus food 7 d, water 0 d, firewood 0 st; fulvia food 0 d, water 0 d, firewood 0 st; eskil food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 89
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to fulvia: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 7 d, water 0 d, firewood 0 st; silvanus food 7 d, water 0 d, firewood 0 st; fulvia food 7 d, water 0 d, firewood 0 st; eskil food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 90
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to eskil: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 7 d, water 0 d, firewood 0 st; silvanus food 7 d, water 0 d, firewood 0 st; fulvia food 7 d, water 0 d, firewood 0 st; eskil food 7 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 91
-  },
-  {
-   "op": "give",
-   "cause": "lepidus gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "rope, 50'",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "rope, 50'",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 92
-  },
-  {
-   "op": "give",
-   "cause": "lepidus gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "iron spike",
-     "slot": "backpack",
-     "qty": -6
-    },
-    {
-     "who": "donkey1",
-     "item": "iron spike",
-     "slot": "pack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 93
-  },
-  {
-   "op": "give",
-   "cause": "silvanus gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rope, 50'",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "rope, 50'",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 94
-  },
-  {
-   "op": "give",
-   "cause": "fulvia gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rope, 50'",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "rope, 50'",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 95
-  },
-  {
-   "op": "give",
-   "cause": "fulvia gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "crowbar",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "crowbar",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 96
-  },
-  {
-   "op": "give",
-   "cause": "lepidus gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -6
-    },
-    {
-     "who": "donkey1",
-     "item": "torch",
-     "slot": "pack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 97
-  },
-  {
-   "op": "give",
-   "cause": "aurelia gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -6
-    },
-    {
-     "who": "donkey1",
-     "item": "torch",
-     "slot": "pack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 98
-  },
-  {
-   "op": "give",
-   "cause": "silvanus gives to donkey1",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -6
-    },
-    {
-     "who": "donkey1",
-     "item": "torch",
-     "slot": "pack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 99
-  },
-  {
-   "op": "pay",
-   "cause": "recruiting fee (a week's search)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "gp": -6
-    }
-   ],
-   "to": "brokers and criers",
-   "price_cp": 600,
-   "cmd": "inv pay",
-   "n": 100
-  },
-  {
-   "op": "wages",
-   "cause": "wages paid",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "gp": -12
-    }
-   ],
-   "to": "the retinue",
-   "price_cp": 1200,
-   "cmd": "inv wages",
-   "n": 101
-  },
-  {
-   "op": "wages",
-   "cause": "wages paid",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -12
-    }
-   ],
-   "to": "the retinue",
-   "price_cp": 1200,
-   "cmd": "inv wages",
-   "n": 102
-  },
-  {
-   "op": "pay",
-   "cause": "signing gift: a week's wage",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -3
-    }
-   ],
-   "to": "Ione",
-   "price_cp": 300,
-   "cmd": "inv pay",
-   "n": 103
-  },
-  {
-   "op": "receive",
-   "cause": "signing gift: a week's wage",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "ione",
-     "gp": 3
-    }
-   ],
-   "frm": "Eskil",
-   "cmd": "inv receive",
-   "n": 104
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 105
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "leather armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 106
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "shield",
-     "slot": "left_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 107
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "#w19",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w19",
-     "key": "spear",
-     "row": "Spear",
-     "table": "weapons-spears-polearms",
-     "table_row": 4,
-     "type": "Med. Melee/Missile",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Impact",
-      "Long",
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "equipment on hiring (his own)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     }
-    }
-   ],
-   "n": 108
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "#w20",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w20",
-     "key": "short sword",
-     "row": "Short Sword",
-     "table": "weapons-swords-daggers",
-     "table_row": 3,
-     "type": "Small Melee",
-     "size": "Small",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d6"
-     },
-     "types": [
-      "piercing",
-      "slashing"
-     ],
-     "special": [],
-     "range": null,
-     "grip": 1,
-     "lot": null,
-     "cause": "equipment on hiring (his own)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 3
-       }
-      }
-     }
-    }
-   ],
-   "n": 109
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 110
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "tinderbox (flint & steel)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 111
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (her own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "ione",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 112
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (her own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "ione",
-     "item": "#w21",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w21",
-     "key": "dagger",
-     "row": "Dagger",
-     "table": "weapons-swords-daggers",
-     "table_row": 1,
-     "type": "Tiny Melee/Missile",
-     "size": "Tiny",
-     "dice": {
-      "1h": "1d4",
-      "2h": "1d4"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Thrown"
-     ],
-     "range": {
-      "short": 15,
-      "medium": 30,
-      "long": 45
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "equipment on hiring (her own)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 1
-       }
-      }
-     }
-    }
-   ],
-   "n": 113
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (her own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "ione",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 114
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (her own)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "ione",
-     "item": "sack, small (holds 2 stone)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 115
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 2
-    }
-   ],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 2,
-   "price_cp": 200,
-   "cmd": "inv buy",
-   "n": 116
-  },
-  {
-   "op": "give",
-   "cause": "eskil gives to gaius-rufo",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "gaius-rufo",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 117
-  },
-  {
-   "op": "give",
-   "cause": "eskil gives to ione",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "ione",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 118
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to gaius-rufo: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 7 d, water 0 d, firewood 0 st; silvanus food 7 d, water 0 d, firewood 0 st; fulvia food 7 d, water 0 d, firewood 0 st; eskil food 7 d, water 0 d, firewood 0 st; gaius-rufo food 7 d, water 0 d, firewood 0 st; ione food 0 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of lepidus, aurelia, octavia, silvanus, fulvia, eskil)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 119
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to ione: 7 days of iron rations; supplies: lepidus food 7 d, water 0 d, firewood 0 st; aurelia food 7 d, water 0 d, firewood 0 st; octavia food 7 d, water 0 d, firewood 0 st; silvanus food 7 d, water 0 d, firewood 0 st; fulvia food 7 d, water 0 d, firewood 0 st; eskil food 7 d, water 0 d, firewood 0 st; gaius-rufo food 7 d, water 0 d, firewood 0 st; ione food 7 d, water 0 d, firewood 0 st; donkey1 fodder 0 st, water 0 st (carries the supplies of lepidus, aurelia, octavia, silvanus, fulvia, eskil)",
-   "day": 1,
-   "time": "day 1 08:00",
-   "deltas": [
-    {
-     "who": "ione",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 120
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard, night of day 1",
-   "day": 1,
-   "time": "day 1 18:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 10,
-   "cmd": "inv pay",
-   "n": 121
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard, night of day 1",
-   "day": 1,
-   "time": "day 1 18:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "aurelia",
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 10,
-   "cmd": "inv pay",
-   "n": 122
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard, night of day 1",
-   "day": 1,
-   "time": "day 1 18:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 10,
-   "cmd": "inv pay",
-   "n": 123
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard, night of day 1",
-   "day": 1,
-   "time": "day 1 18:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 10,
-   "cmd": "inv pay",
-   "n": 124
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard, night of day 1",
-   "day": 1,
-   "time": "day 1 18:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 10,
-   "cmd": "inv pay",
-   "n": 125
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard, night of day 1",
-   "day": 1,
-   "time": "day 1 18:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 10,
-   "cmd": "inv pay",
-   "n": 126
-  },
-  {
-   "op": "pay",
-   "cause": "meals, day 1",
-   "day": 2,
-   "time": "day 2 06:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "cp": 5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 5,
-   "cmd": "inv pay",
-   "n": 127
-  },
-  {
-   "op": "pay",
-   "cause": "meals, day 1",
-   "day": 2,
-   "time": "day 2 06:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "aurelia",
-     "cp": 5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 5,
-   "cmd": "inv pay",
-   "n": 128
-  },
-  {
-   "op": "pay",
-   "cause": "meals, day 1",
-   "day": 2,
-   "time": "day 2 06:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "cp": -5
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 5,
-   "cmd": "inv pay",
-   "n": 129
-  },
-  {
-   "op": "pay",
-   "cause": "meals, day 1",
-   "day": 2,
-   "time": "day 2 06:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "cp": 5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 5,
-   "cmd": "inv pay",
-   "n": 130
-  },
-  {
-   "op": "pay",
-   "cause": "meals, day 1",
-   "day": 2,
-   "time": "day 2 06:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "cp": 5,
-     "sp": 9,
-     "gp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 5,
-   "cmd": "inv pay",
-   "n": 131
-  },
-  {
-   "op": "pay",
-   "cause": "meals, day 1",
-   "day": 2,
-   "time": "day 2 06:00",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "cp": 5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 5,
-   "cmd": "inv pay",
-   "n": 132
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 133
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 134
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 135
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 136
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 137
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 138
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 139
-  },
-  {
-   "op": "payout",
-   "cause": "treasure share",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [],
-   "cmd": "payout --apply",
-   "n": 140
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "lepidus",
-     "sp": 2,
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 141
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "aurelia",
-     "sp": 2,
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 142
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "octavia",
-     "sp": 2,
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 143
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "silvanus",
-     "sp": 2,
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 144
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "fulvia",
-     "sp": -8,
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 145
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": 2,
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 146
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "lepidus",
-     "sp": -8,
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 147
-  },
-  {
-   "op": "give",
-   "cause": "lepidus gives to gaius-rufo",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": -3
-    },
-    {
-     "who": "gaius-rufo",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 148
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": -8,
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Waterskin",
-   "packs": 3,
-   "price_cp": 180,
-   "cmd": "inv buy",
-   "n": 149
-  },
-  {
-   "op": "give",
-   "cause": "eskil gives to ione",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": -3
-    },
-    {
-     "who": "ione",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 3
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 150
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "cp": -5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 151
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "aurelia",
-     "cp": -5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 152
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "cp": 5,
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 153
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "cp": -5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 154
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "cp": -5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 155
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "cp": -5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 156
-  },
-  {
-   "op": "pay",
-   "cause": "stabling the donkey, night of day 5",
-   "day": 5,
-   "time": "day 5 12:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": 8,
-     "gp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 20,
-   "cmd": "inv pay",
-   "n": 157
-  },
-  {
-   "op": "wages",
-   "cause": "wages paid",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -12
-    }
-   ],
-   "to": "the retinue",
-   "price_cp": 1200,
-   "cmd": "inv wages",
-   "n": 158
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "backpack (holds 4 stone)",
-     "slot": "back",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 159
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "banded plate armor",
-     "slot": "armor",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 160
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "shield",
-     "slot": "left_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 161
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "#w22",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w22",
-     "key": "spear",
-     "row": "Spear",
-     "table": "weapons-spears-polearms",
-     "table_row": 4,
-     "type": "Med. Melee/Missile",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "piercing"
-     ],
-     "special": [
-      "Impact",
-      "Long",
-      "Thrown"
-     ],
-     "range": {
-      "short": 30,
-      "medium": 60,
-      "long": 120
-     },
-     "grip": 1,
-     "lot": null,
-     "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-spears-polearms",
-        "row": 4
-       }
-      }
-     }
-    }
-   ],
-   "n": 162
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "#w23",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "new_instances": [
-    {
-     "id": "w23",
-     "key": "sword",
-     "row": "Sword",
-     "table": "weapons-swords-daggers",
-     "table_row": 4,
-     "type": "Medium Melee",
-     "size": "Medium",
-     "dice": {
-      "1h": "1d6",
-      "2h": "1d8"
-     },
-     "types": [
-      "piercing",
-      "slashing"
-     ],
-     "special": [],
-     "range": null,
-     "grip": 1,
-     "lot": null,
-     "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-     "magic": {
-      "value": 0,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     },
-     "masterwork": {
-      "value": null,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     },
-     "silvered": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     },
-     "extraordinary": {
-      "value": false,
-      "source": {
-       "catalog": {
-        "table": "weapons-swords-daggers",
-        "row": 4
-       }
-      }
-     }
-    }
-   ],
-   "n": 163
-  },
-  {
-   "op": "add",
-   "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": 5
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 164
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "sp": 7,
-     "gp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 30,
-   "cmd": "inv pay",
-   "n": 165
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "aurelia",
-     "sp": -3
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 30,
-   "cmd": "inv pay",
-   "n": 166
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "sp": -3
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 30,
-   "cmd": "inv pay",
-   "n": 167
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "sp": -3
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 30,
-   "cmd": "inv pay",
-   "n": 168
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "sp": 7,
-     "gp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 30,
-   "cmd": "inv pay",
-   "n": 169
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": -3
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 30,
-   "cmd": "inv pay",
-   "n": 170
-  },
-  {
-   "op": "pay",
-   "cause": "stabling the donkey, nights of days 6-7",
-   "day": 7,
-   "time": "day 7 10:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": -4
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 40,
-   "cmd": "inv pay",
-   "n": 171
-  },
-  {
-   "op": "pay",
-   "cause": "recruiting fee (a week's search)",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "gp": -3
-    }
-   ],
-   "to": "brokers and criers",
-   "price_cp": 300,
-   "cmd": "inv pay",
-   "n": 172
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "lepidus",
-     "cp": 5,
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 173
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "aurelia",
-     "cp": 5,
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 174
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "cp": -5,
-     "sp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 175
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "cp": 5,
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 176
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "cp": 5,
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 177
-  },
-  {
-   "op": "pay",
-   "cause": "lodging in the courtyard and meals, day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "cp": 5,
-     "sp": 8,
-     "gp": -1
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 15,
-   "cmd": "inv pay",
-   "n": 178
-  },
-  {
-   "op": "pay",
-   "cause": "stabling the donkey, night of day 7",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 20,
-   "cmd": "inv pay",
-   "n": 179
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "aurelia",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 180
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "octavia",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 181
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "silvanus",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 182
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "fulvia",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 183
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 184
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "silvanus",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 185
-  },
-  {
-   "op": "give",
-   "cause": "silvanus gives to lepidus",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "lepidus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 186
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "sack",
-     "qty": 1
-    }
-   ],
-   "coins": [
-    {
-     "who": "fulvia",
-     "gp": -1
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 1,
-   "price_cp": 100,
-   "cmd": "inv buy",
-   "n": 187
-  },
-  {
-   "op": "give",
-   "cause": "fulvia gives to gaius-rufo",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "gaius-rufo",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 188
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to eskil: 7 days of iron rations; supplies: lepidus food 4 d, water 1 d, firewood 0 st; aurelia food 4 d, water 0 d, firewood 0 st; octavia food 4 d, water 0 d, firewood 0 st; silvanus food 4 d, water 0 d, firewood 0 st; fulvia food 4 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 4 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "eskil",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 189
-  },
-  {
-   "op": "buy",
-   "cause": "bought in Turos Tem",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "sack",
-     "qty": 2
-    }
-   ],
-   "coins": [
-    {
-     "who": "fulvia",
-     "gp": -2
-    }
-   ],
-   "market": "Turos Tem",
-   "market_class": "V",
-   "month": 1,
-   "row": "Rations, Iron (one week)",
-   "packs": 2,
-   "price_cp": 200,
-   "cmd": "inv buy",
-   "n": 190
-  },
-  {
-   "op": "pay",
-   "cause": "repaying two weeks' rations for Ione and Sextus",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -2
-    }
-   ],
-   "to": "Fulvia",
-   "price_cp": 200,
-   "cmd": "inv pay",
-   "n": 191
-  },
-  {
-   "op": "receive",
-   "cause": "repaid for two weeks' rations",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "gp": 2
-    }
-   ],
-   "frm": "Eskil",
-   "cmd": "inv receive",
-   "n": 192
-  },
-  {
-   "op": "give",
-   "cause": "fulvia gives to ione",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "ione",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 193
-  },
-  {
-   "op": "give",
-   "cause": "fulvia gives to sextus-varo",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "sack",
-     "qty": -1
-    },
-    {
-     "who": "sextus-varo",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 194
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to lepidus: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 4 d, water 0 d, firewood 0 st; octavia food 4 d, water 0 d, firewood 0 st; silvanus food 4 d, water 0 d, firewood 0 st; fulvia food 4 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 4 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 195
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to aurelia: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 4 d, water 0 d, firewood 0 st; silvanus food 4 d, water 0 d, firewood 0 st; fulvia food 4 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 4 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 196
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to octavia: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 11 d, water 0 d, firewood 0 st; silvanus food 4 d, water 0 d, firewood 0 st; fulvia food 4 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 4 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 197
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to silvanus: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 11 d, water 0 d, firewood 0 st; silvanus food 11 d, water 0 d, firewood 0 st; fulvia food 4 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 4 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "silvanus",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 198
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to fulvia: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 11 d, water 0 d, firewood 0 st; silvanus food 11 d, water 0 d, firewood 0 st; fulvia food 11 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 4 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "rations, iron (one week)",
-     "slot": "sack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 199
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to gaius-rufo: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 11 d, water 0 d, firewood 0 st; silvanus food 11 d, water 0 d, firewood 0 st; fulvia food 11 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 11 d, water 0.4 d, firewood 0 st; ione food 4 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 200
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to ione: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 11 d, water 0 d, firewood 0 st; silvanus food 11 d, water 0 d, firewood 0 st; fulvia food 11 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 11 d, water 0.4 d, firewood 0 st; ione food 11 d, water 0.4 d, firewood 0 st; sextus-varo food 0 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "ione",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 201
-  },
-  {
-   "op": "provision",
-   "cause": "packed as supplies: supplies added to sextus-varo: 7 days of iron rations; supplies: lepidus food 11 d, water 1 d, firewood 0 st; aurelia food 11 d, water 0 d, firewood 0 st; octavia food 11 d, water 0 d, firewood 0 st; silvanus food 11 d, water 0 d, firewood 0 st; fulvia food 11 d, water 0 d, firewood 0 st; eskil food 11 d, water 0 d, firewood 0 st; gaius-rufo food 11 d, water 0.4 d, firewood 0 st; ione food 11 d, water 0.4 d, firewood 0 st; sextus-varo food 7 d, water 0 d, firewood 0 st",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "rations, iron (one week)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv provision",
-   "n": 202
-  },
-  {
-   "op": "give",
-   "cause": "lepidus gives to donkey1",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "lepidus",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "waterskin",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 203
-  },
-  {
-   "op": "give",
-   "cause": "aurelia gives to donkey1",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "aurelia",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "waterskin",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 204
-  },
-  {
-   "op": "give",
-   "cause": "sextus-varo gives to donkey1",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "waterskin",
-     "slot": "backpack",
-     "qty": -4
-    },
-    {
-     "who": "donkey1",
-     "item": "waterskin",
-     "slot": "pack",
-     "qty": 4
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 205
-  },
-  {
-   "op": "give",
-   "cause": "sextus-varo gives to donkey1",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [
-    {
-     "who": "sextus-varo",
-     "item": "#w23",
-     "slot": "belt",
-     "qty": -1
-    },
-    {
-     "who": "donkey1",
-     "item": "#w23",
-     "slot": "pack",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 206
-  },
-  {
-   "op": "pay",
-   "cause": "stabling the donkey, night of day 7 (balance)",
-   "day": 8,
-   "time": "day 8 07:40",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "sp": -2
-    }
-   ],
-   "to": "Traveler's Inn",
-   "price_cp": 20,
-   "cmd": "inv pay",
-   "n": 207
-  },
-  {
-   "op": "pay",
-   "cause": "toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%)",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "octavia",
-     "gp": -10
-    }
-   ],
-   "to": "Urza, the kobold chief",
-   "price_cp": 1000,
-   "cmd": "inv pay",
-   "n": 208
-  },
-  {
-   "op": "pay",
-   "cause": "toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%)",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "silvanus",
-     "gp": -24
-    }
-   ],
-   "to": "Urza, the kobold chief",
-   "price_cp": 2400,
-   "cmd": "inv pay",
-   "n": 209
-  },
-  {
-   "op": "pay",
-   "cause": "toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%)",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "fulvia",
-     "gp": -23
-    }
-   ],
-   "to": "Urza, the kobold chief",
-   "price_cp": 2300,
-   "cmd": "inv pay",
-   "n": 210
-  },
-  {
-   "op": "pay",
-   "cause": "toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%)",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [],
-   "coins": [
-    {
-     "who": "eskil",
-     "gp": -24
-    }
-   ],
-   "to": "Urza, the kobold chief",
-   "price_cp": 2400,
-   "cmd": "inv pay",
-   "n": 211
-  },
-  {
-   "op": "give",
-   "cause": "donkey1 gives to gaius-rufo",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [
-    {
-     "who": "donkey1",
-     "item": "torch",
-     "slot": "pack",
-     "qty": -6
-    },
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 6
-    }
-   ],
-   "coins": [],
-   "cmd": "inv give",
-   "n": 212
-  },
-  {
-   "op": "light",
-   "cause": "torch1 lit (torch)",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch1",
-   "cmd": "light on",
-   "n": 213
-  },
-  {
-   "op": "light",
-   "cause": "lantern1 lit (lantern)",
-   "day": 10,
-   "time": "day 10 14:45",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "oil, common (1 pint)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "lantern1",
-   "cmd": "light on",
-   "n": 214
-  },
-  {
-   "op": "light",
-   "cause": "torch2 lit (torch, light auto)",
-   "day": 10,
-   "time": "day 10 23:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch2",
-   "cmd": "wait (light auto)",
-   "n": 215
-  },
-  {
-   "op": "light",
-   "cause": "torch3 lit (torch, light auto)",
-   "day": 10,
-   "time": "day 10 23:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch3",
-   "cmd": "wait (light auto)",
-   "n": 216
-  },
-  {
-   "op": "light",
-   "cause": "torch4 lit (torch, light auto)",
-   "day": 10,
-   "time": "day 10 23:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch4",
-   "cmd": "wait (light auto)",
-   "n": 217
-  },
-  {
-   "op": "light",
-   "cause": "torch5 lit (torch, light auto)",
-   "day": 10,
-   "time": "day 10 23:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch5",
-   "cmd": "wait (light auto)",
-   "n": 218
-  },
-  {
-   "op": "light",
-   "cause": "torch6 lit (torch, light auto)",
-   "day": 10,
-   "time": "day 10 23:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch6",
-   "cmd": "wait (light auto)",
-   "n": 219
-  },
-  {
-   "op": "add",
-   "cause": "Judge's correction: the torches lit by the standing light order during the wait in the hobgoblins' rooms were never lit (guests sit in the dark; day 10)",
-   "day": 10,
-   "time": "day 10 23:45",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": 5
-    }
-   ],
-   "coins": [],
-   "cmd": "inv add",
-   "n": 220
-  },
-  {
-   "op": "light",
-   "cause": "lantern2 lit (lantern)",
-   "day": 11,
-   "time": "day 11 00:45",
-   "deltas": [
-    {
-     "who": "octavia",
-     "item": "oil, common (1 pint)",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "lantern2",
-   "cmd": "light on",
-   "n": 221
-  },
-  {
-   "op": "light",
-   "cause": "torch7 lit (torch)",
-   "day": 11,
-   "time": "day 11 08:50",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch7",
-   "cmd": "light on",
-   "n": 222
-  },
-  {
-   "op": "light",
-   "cause": "torch8 lit (torch, light auto)",
-   "day": 11,
-   "time": "day 11 09:55",
-   "deltas": [
-    {
-     "who": "gaius-rufo",
-     "item": "torch",
-     "slot": "backpack",
-     "qty": -1
-    }
-   ],
-   "coins": [],
-   "why": "used",
-   "light": "torch8",
-   "cmd": "turn (light auto)",
-   "n": 223
-  },
-  {
-   "op": "move",
-   "cause": "rearranged",
-   "day": 11,
-   "time": "day 11 18:35",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "#w12",
-     "slot": "right_hand",
-     "qty": -1
-    },
-    {
-     "who": "fulvia",
-     "item": "#w12",
-     "slot": "belt",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "cmd": "inv move",
-   "n": 224
-  },
-  {
-   "op": "wield",
-   "cause": "Sling taken in hand",
-   "day": 11,
-   "time": "day 11 18:35",
-   "deltas": [
-    {
-     "who": "fulvia",
-     "item": "#w15",
-     "slot": "belt",
-     "qty": -1
-    },
-    {
-     "who": "fulvia",
-     "item": "#w15",
-     "slot": "right_hand",
-     "qty": 1
-    }
-   ],
-   "coins": [],
-   "grips": [
-    {
-     "id": "w15",
-     "grip": 1
-    }
-   ],
-   "cmd": "inv wield",
-   "n": 225
-  },
   {
    "op": "death",
    "cause": "lepidus died; body left_behind",
@@ -16108,6 +10611,590 @@
    "frm": "market",
    "cmd": "sell",
    "n": 638
+  },
+  {
+   "op": "pay",
+   "cause": "recruiting fee (a week's search)",
+   "day": 97,
+   "time": "day 97 08:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "valeria",
+     "gp": -6
+    }
+   ],
+   "to": "brokers and criers",
+   "price_cp": 600,
+   "cmd": "inv pay",
+   "n": 639
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "sp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 30,
+   "cmd": "inv pay",
+   "n": 640
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "valeria",
+     "sp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 30,
+   "cmd": "inv pay",
+   "n": 641
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severus",
+     "sp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 30,
+   "cmd": "inv pay",
+   "n": 642
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucan",
+     "sp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 30,
+   "cmd": "inv pay",
+   "n": 643
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "caelia",
+     "sp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 30,
+   "cmd": "inv pay",
+   "n": 644
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "sp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 30,
+   "cmd": "inv pay",
+   "n": 645
+  },
+  {
+   "op": "pay",
+   "cause": "stabling the two donkeys, nights of days 96-97",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "sp": -8
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 80,
+   "cmd": "inv pay",
+   "n": 646
+  },
+  {
+   "op": "buy",
+   "cause": "bought in Turos Tem",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [
+    {
+     "who": "flavia-scriba",
+     "item": "oil, common (1 pint)",
+     "slot": "back",
+     "qty": 4
+    }
+   ],
+   "coins": [
+    {
+     "who": "octavia",
+     "cp": -8,
+     "gp": -1
+    }
+   ],
+   "market": "Turos Tem",
+   "market_class": "V",
+   "month": 4,
+   "row": "Oil, Common (1 pint)",
+   "packs": 4,
+   "price_cp": 108,
+   "cmd": "inv buy",
+   "n": 647
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "caelia",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 648
+  },
+  {
+   "op": "wages",
+   "cause": "wages paid",
+   "day": 98,
+   "time": "day 98 06:00",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "gp": -12
+    }
+   ],
+   "to": "the retinue",
+   "price_cp": 1200,
+   "cmd": "inv wages",
+   "n": 649
+  },
+  {
+   "op": "light",
+   "cause": "lantern7 lit (lantern)",
+   "day": 102,
+   "time": "day 102 13:20",
+   "deltas": [
+    {
+     "who": "flavia-scriba",
+     "item": "oil, common (1 pint)",
+     "slot": "back",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern7",
+   "cmd": "light on",
+   "n": 650
+  },
+  {
+   "op": "pay",
+   "cause": "Septimia's promise to the kobolds who died beside the company (day 68), half",
+   "day": 102,
+   "time": "day 102 13:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "valeria",
+     "gp": -50
+    }
+   ],
+   "to": "Urza (L1 9)",
+   "price_cp": 5000,
+   "cmd": "inv pay",
+   "n": 651
+  },
+  {
+   "op": "pay",
+   "cause": "Septimia's promise to the kobolds who died beside the company (day 68), half",
+   "day": 102,
+   "time": "day 102 13:30",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "caelia",
+     "gp": -50
+    }
+   ],
+   "to": "Urza (L1 9)",
+   "price_cp": 5000,
+   "cmd": "inv pay",
+   "n": 652
+  },
+  {
+   "op": "give",
+   "cause": "urza-kobolds gives to caelia",
+   "day": 102,
+   "time": "day 102 13:30",
+   "deltas": [
+    {
+     "who": "urza-kobolds",
+     "item": "thieves' tools",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "caelia",
+     "item": "thieves' tools",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 653
+  },
+  {
+   "op": "give",
+   "cause": "urza-kobolds gives to lucan",
+   "day": 102,
+   "time": "day 102 13:30",
+   "deltas": [
+    {
+     "who": "urza-kobolds",
+     "item": "#w12",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "lucan",
+     "item": "#w12",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 654
+  },
+  {
+   "op": "give",
+   "cause": "urza-kobolds gives to pallas-cornu",
+   "day": 102,
+   "time": "day 102 13:30",
+   "deltas": [
+    {
+     "who": "urza-kobolds",
+     "item": "#w20",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "pallas-cornu",
+     "item": "#w20",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 655
+  },
+  {
+   "op": "give",
+   "cause": "urza-kobolds gives to ione",
+   "day": 102,
+   "time": "day 102 13:30",
+   "deltas": [
+    {
+     "who": "urza-kobolds",
+     "item": "#w29",
+     "slot": "here",
+     "qty": -1
+    },
+    {
+     "who": "ione",
+     "item": "#w29",
+     "slot": "belt",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 656
+  },
+  {
+   "op": "wield",
+   "cause": "Dagger taken in hand",
+   "day": 102,
+   "time": "day 102 13:40",
+   "deltas": [
+    {
+     "who": "octavia",
+     "item": "#w8",
+     "slot": "backpack",
+     "qty": -1
+    },
+    {
+     "who": "octavia",
+     "item": "#w8",
+     "slot": "right_hand",
+     "qty": 1
+    }
+   ],
+   "coins": [],
+   "grips": [
+    {
+     "id": "w8",
+     "grip": 1
+    }
+   ],
+   "cmd": "inv wield",
+   "n": 657
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 658
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 659
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 660
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 661
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 662
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 663
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 664
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 665
+  },
+  {
+   "op": "payout",
+   "cause": "treasure share",
+   "day": 104,
+   "time": "day 104 13:57",
+   "deltas": [],
+   "coins": [],
+   "cmd": "payout --apply",
+   "n": 666
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "octavia",
+     "sp": -9
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 90,
+   "cmd": "inv pay",
+   "n": 667
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "valeria",
+     "sp": -9
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 90,
+   "cmd": "inv pay",
+   "n": 668
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "severus",
+     "sp": -9
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 90,
+   "cmd": "inv pay",
+   "n": 669
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "lucan",
+     "sp": -9
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 90,
+   "cmd": "inv pay",
+   "n": 670
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "caelia",
+     "sp": -9
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 90,
+   "cmd": "inv pay",
+   "n": 671
+  },
+  {
+   "op": "pay",
+   "cause": "courtyard and meals, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "sp": -9
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 90,
+   "cmd": "inv pay",
+   "n": 672
+  },
+  {
+   "op": "pay",
+   "cause": "stabling the two donkeys, nights of days 104-109",
+   "day": 109,
+   "time": "day 109 19:57",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "ione",
+     "cp": -20,
+     "sp": 8,
+     "gp": -3
+    }
+   ],
+   "to": "Traveler's Inn",
+   "price_cp": 240,
+   "cmd": "inv pay",
+   "n": 673
   }
  ],
  "holdings": {
@@ -16120,14 +11207,16 @@
     "waterskin": 5,
     "tinderbox (flint & steel)": 1,
     "oil, common (1 pint)": 1,
-    "mirror (hand-sized, steel)": 1,
-    "#w8": 1
+    "mirror (hand-sized, steel)": 1
    },
    "belt": {
     "#w7": 1
    },
    "worn": {
     "sack, large (holds 6 stone)": 1
+   },
+   "right_hand": {
+    "#w8": 1
    }
   },
   "eskil": {
@@ -16166,7 +11255,8 @@
    },
    "belt": {
     "#w21": 1,
-    "oil, common (1 pint)": 2
+    "oil, common (1 pint)": 2,
+    "#w29": 1
    },
    "backpack": {
     "waterskin": 5,
@@ -16244,10 +11334,6 @@
   "urza-kobolds": {
    "here": {
     "#w34": 1,
-    "#w12": 1,
-    "thieves' tools": 1,
-    "#w20": 1,
-    "#w29": 1,
     "silver arrow": 3
    }
   },
@@ -16314,7 +11400,8 @@
    },
    "belt": {
     "arrow": 20,
-    "oil, common (1 pint)": 2
+    "oil, common (1 pint)": 2,
+    "#w12": 1
    },
    "worn": {
     "backpack (holds 4 stone)": 1
@@ -16342,7 +11429,8 @@
     "#w13": 1,
     "#w14": 1,
     "sling stone": 26,
-    "oil, common (1 pint)": 2
+    "oil, common (1 pint)": 2,
+    "thieves' tools": 1
    },
    "worn": {
     "backpack (holds 4 stone)": 1
@@ -16390,7 +11478,8 @@
     "crowbar": 1
    },
    "belt": {
-    "torch": 1
+    "torch": 1,
+    "#w20": 1
    },
    "right_hand": {
     "#w6": 1
@@ -16425,7 +11514,7 @@
    "back": {
     "waterskin": 5,
     "#w10": 1,
-    "oil, common (1 pint)": 1
+    "oil, common (1 pint)": 4
    },
    "left_hand": {
     "lantern": 1
@@ -16434,14 +11523,14 @@
  },
  "coins": {
   "octavia": {
-   "gp": 103,
-   "cp": 17,
-   "sp": 13
+   "gp": 90,
+   "cp": 9,
+   "sp": 1
   },
   "ione": {
-   "gp": 170,
-   "cp": 22,
-   "sp": 20
+   "gp": 167,
+   "cp": 2,
+   "sp": 8
   },
   "body:lepidus": {
    "cp": 5,
@@ -16467,23 +11556,23 @@
    "cp": 23
   },
   "valeria": {
-   "gp": 157,
-   "sp": 18,
+   "gp": 101,
+   "sp": 6,
    "cp": 14
   },
   "severus": {
    "gp": 116,
-   "sp": 17,
+   "sp": 5,
    "cp": 14
   },
   "lucan": {
    "gp": 164,
-   "sp": 21,
+   "sp": 9,
    "cp": 14
   },
   "caelia": {
-   "gp": 152,
-   "sp": 17,
+   "gp": 90,
+   "sp": 5,
    "cp": 14
   },
   "pallas-cornu": {
@@ -18720,33 +13809,1765 @@
   "weapon.two_handed_other_hand"
  ],
  "checkpoint": {
-  "events": 6,
-  "through_day": -84,
-  "holdings": {},
-  "coins": {
+  "events": 225,
+  "through_day": 18,
+  "holdings": {
    "lepidus": {
-    "gp": 100
+    "armor": {
+     "chain mail armor": 1
+    },
+    "left_hand": {
+     "shield": 1
+    },
+    "right_hand": {
+     "#w1": 1
+    },
+    "belt": {
+     "#w2": 1
+    },
+    "back": {
+     "#w3": 1,
+     "#w4": 1,
+     "#w5": 1,
+     "backpack (holds 4 stone)": 1
+    },
+    "backpack": {
+     "waterskin": 4,
+     "tinderbox (flint & steel)": 1
+    }
    },
    "aurelia": {
-    "gp": 120
+    "armor": {
+     "chain mail armor": 1
+    },
+    "left_hand": {
+     "shield": 1
+    },
+    "right_hand": {
+     "#w6": 1
+    },
+    "belt": {
+     "holy symbol": 1,
+     "#w7": 1,
+     "sling stone": 30
+    },
+    "back": {
+     "backpack (holds 4 stone)": 1
+    },
+    "backpack": {
+     "waterskin": 4,
+     "tinderbox (flint & steel)": 1,
+     "holy water (1 pint)": 1
+    }
    },
    "octavia": {
-    "gp": 40
+    "back": {
+     "backpack (holds 4 stone)": 1,
+     "pole, wooden": 1
+    },
+    "backpack": {
+     "waterskin": 5,
+     "tinderbox (flint & steel)": 1,
+     "lantern": 1,
+     "oil, common (1 pint)": 2,
+     "mirror (hand-sized, steel)": 1
+    },
+    "belt": {
+     "#w8": 1
+    }
    },
    "silvanus": {
-    "gp": 100
+    "back": {
+     "backpack (holds 4 stone)": 1,
+     "#w10": 1
+    },
+    "backpack": {
+     "waterskin": 5,
+     "tinderbox (flint & steel)": 1
+    },
+    "armor": {
+     "scale armor": 1
+    },
+    "left_hand": {
+     "shield": 1
+    },
+    "right_hand": {
+     "#w9": 1
+    },
+    "belt": {
+     "arrow": 20,
+     "#w11": 1
+    }
    },
    "fulvia": {
-    "gp": 100
+    "back": {
+     "backpack (holds 4 stone)": 1
+    },
+    "backpack": {
+     "waterskin": 5,
+     "tinderbox (flint & steel)": 1,
+     "torch": 6,
+     "thieves' tools": 1,
+     "sack, large (holds 6 stone)": 1
+    },
+    "armor": {
+     "leather armor": 1
+    },
+    "right_hand": {
+     "#w15": 1
+    },
+    "belt": {
+     "#w13": 1,
+     "#w14": 1,
+     "sling stone": 30,
+     "#w12": 1
+    }
    },
    "eskil": {
-    "gp": 110
+    "back": {
+     "backpack (holds 4 stone)": 1,
+     "#w17": 1
+    },
+    "backpack": {
+     "waterskin": 5,
+     "tinderbox (flint & steel)": 1,
+     "torch": 6
+    },
+    "armor": {
+     "leather armor": 1
+    },
+    "right_hand": {
+     "#w16": 1
+    },
+    "belt": {
+     "sling stone": 30,
+     "#w18": 1,
+     "whistle": 1
+    }
+   },
+   "donkey1": {
+    "pack": {
+     "rope, 50'": 3,
+     "iron spike": 6,
+     "crowbar": 1,
+     "torch": 12,
+     "waterskin": 6,
+     "#w23": 1
+    }
+   },
+   "gaius-rufo": {
+    "back": {
+     "backpack (holds 4 stone)": 1
+    },
+    "armor": {
+     "leather armor": 1
+    },
+    "left_hand": {
+     "shield": 1
+    },
+    "right_hand": {
+     "#w19": 1
+    },
+    "belt": {
+     "#w20": 1
+    },
+    "backpack": {
+     "waterskin": 5,
+     "tinderbox (flint & steel)": 1,
+     "torch": 3
+    }
+   },
+   "ione": {
+    "back": {
+     "backpack (holds 4 stone)": 1
+    },
+    "belt": {
+     "#w21": 1
+    },
+    "backpack": {
+     "waterskin": 5,
+     "sack, small (holds 2 stone)": 1
+    }
+   },
+   "sextus-varo": {
+    "back": {
+     "backpack (holds 4 stone)": 1
+    },
+    "armor": {
+     "banded plate armor": 1
+    },
+    "left_hand": {
+     "shield": 1
+    },
+    "right_hand": {
+     "#w22": 1
+    },
+    "backpack": {
+     "waterskin": 1
+    }
    }
   },
-  "instances": {},
-  "ledger_rows": [],
+  "coins": {
+   "lepidus": {
+    "gp": 1,
+    "sp": 5,
+    "cp": 5
+   },
+   "aurelia": {
+    "gp": 4,
+    "sp": 3,
+    "cp": 5
+   },
+   "octavia": {
+    "gp": 2,
+    "cp": 4,
+    "sp": 2
+   },
+   "silvanus": {
+    "gp": 4,
+    "sp": 3,
+    "cp": 5
+   },
+   "fulvia": {
+    "gp": 4,
+    "sp": 5,
+    "cp": 5
+   },
+   "eskil": {
+    "gp": 3,
+    "sp": 5,
+    "cp": 5
+   },
+   "ione": {
+    "gp": 3
+   }
+  },
+  "instances": {
+   "w1": {
+    "id": "w1",
+    "key": "sword",
+    "row": "Sword",
+    "table": "weapons-swords-daggers",
+    "table_row": 4,
+    "type": "Medium Melee",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "special": [],
+    "range": null,
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    }
+   },
+   "w2": {
+    "id": "w2",
+    "key": "dagger",
+    "row": "Dagger",
+    "table": "weapons-swords-daggers",
+    "table_row": 1,
+    "type": "Tiny Melee/Missile",
+    "size": "Tiny",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w3": {
+    "id": "w3",
+    "key": "javelin",
+    "row": "Javelin",
+    "table": "weapons-spears-polearms",
+    "table_row": 1,
+    "type": "Small Melee/Missile",
+    "size": "Small",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w4": {
+    "id": "w4",
+    "key": "javelin",
+    "row": "Javelin",
+    "table": "weapons-spears-polearms",
+    "table_row": 1,
+    "type": "Small Melee/Missile",
+    "size": "Small",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w5": {
+    "id": "w5",
+    "key": "javelin",
+    "row": "Javelin",
+    "table": "weapons-spears-polearms",
+    "table_row": 1,
+    "type": "Small Melee/Missile",
+    "size": "Small",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w6": {
+    "id": "w6",
+    "key": "mace",
+    "row": "Mace",
+    "table": "weapons-bludgeons",
+    "table_row": 2,
+    "type": "Medium Melee",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "bludgeoning"
+    ],
+    "special": [],
+    "range": null,
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-bludgeons",
+       "row": 2
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-bludgeons",
+       "row": 2
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-bludgeons",
+       "row": 2
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-bludgeons",
+       "row": 2
+      }
+     }
+    }
+   },
+   "w7": {
+    "id": "w7",
+    "key": "sling",
+    "row": "Sling",
+    "table": "weapons-other-weapons",
+    "table_row": 6,
+    "type": "Missile",
+    "size": null,
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "bludgeoning"
+    ],
+    "special": [
+     "Handy"
+    ],
+    "range": {
+     "short": 60,
+     "medium": 120,
+     "long": 240
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    }
+   },
+   "w8": {
+    "id": "w8",
+    "key": "dagger",
+    "row": "Dagger",
+    "table": "weapons-swords-daggers",
+    "table_row": 1,
+    "type": "Tiny Melee/Missile",
+    "size": "Tiny",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w9": {
+    "id": "w9",
+    "key": "spear",
+    "row": "Spear",
+    "table": "weapons-spears-polearms",
+    "table_row": 4,
+    "type": "Med. Melee/Missile",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Impact",
+     "Long",
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    }
+   },
+   "w10": {
+    "id": "w10",
+    "key": "short bow",
+    "row": "Short Bow",
+    "table": "weapons-bows-crossbows",
+    "table_row": 5,
+    "type": "Missile",
+    "size": null,
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [],
+    "range": {
+     "short": 75,
+     "medium": 150,
+     "long": 300
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-bows-crossbows",
+       "row": 5
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-bows-crossbows",
+       "row": 5
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-bows-crossbows",
+       "row": 5
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-bows-crossbows",
+       "row": 5
+      }
+     }
+    }
+   },
+   "w11": {
+    "id": "w11",
+    "key": "hand axe",
+    "row": "Hand Axe",
+    "table": "weapons-axes",
+    "table_row": 2,
+    "type": "Small Melee/Missile",
+    "size": "Small",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "slashing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-axes",
+       "row": 2
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-axes",
+       "row": 2
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-axes",
+       "row": 2
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-axes",
+       "row": 2
+      }
+     }
+    }
+   },
+   "w12": {
+    "id": "w12",
+    "key": "short sword",
+    "row": "Short Sword",
+    "table": "weapons-swords-daggers",
+    "table_row": 3,
+    "type": "Small Melee",
+    "size": "Small",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "special": [],
+    "range": null,
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    }
+   },
+   "w13": {
+    "id": "w13",
+    "key": "dagger",
+    "row": "Dagger",
+    "table": "weapons-swords-daggers",
+    "table_row": 1,
+    "type": "Tiny Melee/Missile",
+    "size": "Tiny",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w14": {
+    "id": "w14",
+    "key": "dagger",
+    "row": "Dagger",
+    "table": "weapons-swords-daggers",
+    "table_row": 1,
+    "type": "Tiny Melee/Missile",
+    "size": "Tiny",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w15": {
+    "id": "w15",
+    "key": "sling",
+    "row": "Sling",
+    "table": "weapons-other-weapons",
+    "table_row": 6,
+    "type": "Missile",
+    "size": null,
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "bludgeoning"
+    ],
+    "special": [
+     "Handy"
+    ],
+    "range": {
+     "short": 60,
+     "medium": 120,
+     "long": 240
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 6
+      }
+     }
+    }
+   },
+   "w16": {
+    "id": "w16",
+    "key": "spear",
+    "row": "Spear",
+    "table": "weapons-spears-polearms",
+    "table_row": 4,
+    "type": "Med. Melee/Missile",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Impact",
+     "Long",
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    }
+   },
+   "w17": {
+    "id": "w17",
+    "key": "staff sling",
+    "row": "Staff Sling",
+    "table": "weapons-other-weapons",
+    "table_row": 7,
+    "type": "Medium Melee/Missile",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d6"
+    },
+    "types": [
+     "bludgeoning"
+    ],
+    "special": [],
+    "range": {
+     "short": 75,
+     "medium": 150,
+     "long": 300
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 7
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 7
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 7
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-other-weapons",
+       "row": 7
+      }
+     }
+    }
+   },
+   "w18": {
+    "id": "w18",
+    "key": "dagger",
+    "row": "Dagger",
+    "table": "weapons-swords-daggers",
+    "table_row": 1,
+    "type": "Tiny Melee/Missile",
+    "size": "Tiny",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "starting equipment (no templates: any item on the equipment list at list price, Rulings R2 S01)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w19": {
+    "id": "w19",
+    "key": "spear",
+    "row": "Spear",
+    "table": "weapons-spears-polearms",
+    "table_row": 4,
+    "type": "Med. Melee/Missile",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Impact",
+     "Long",
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "equipment on hiring (his own)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    }
+   },
+   "w20": {
+    "id": "w20",
+    "key": "short sword",
+    "row": "Short Sword",
+    "table": "weapons-swords-daggers",
+    "table_row": 3,
+    "type": "Small Melee",
+    "size": "Small",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d6"
+    },
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "special": [],
+    "range": null,
+    "grip": 1,
+    "lot": null,
+    "cause": "equipment on hiring (his own)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 3
+      }
+     }
+    }
+   },
+   "w21": {
+    "id": "w21",
+    "key": "dagger",
+    "row": "Dagger",
+    "table": "weapons-swords-daggers",
+    "table_row": 1,
+    "type": "Tiny Melee/Missile",
+    "size": "Tiny",
+    "dice": {
+     "1h": "1d4",
+     "2h": "1d4"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Thrown"
+    ],
+    "range": {
+     "short": 15,
+     "medium": 30,
+     "long": 45
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "equipment on hiring (her own)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 1
+      }
+     }
+    }
+   },
+   "w22": {
+    "id": "w22",
+    "key": "spear",
+    "row": "Spear",
+    "table": "weapons-spears-polearms",
+    "table_row": 4,
+    "type": "Med. Melee/Missile",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "piercing"
+    ],
+    "special": [
+     "Impact",
+     "Long",
+     "Thrown"
+    ],
+    "range": {
+     "short": 30,
+     "medium": 60,
+     "long": 120
+    },
+    "grip": 1,
+    "lot": null,
+    "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-spears-polearms",
+       "row": 4
+      }
+     }
+    }
+   },
+   "w23": {
+    "id": "w23",
+    "key": "sword",
+    "row": "Sword",
+    "table": "weapons-swords-daggers",
+    "table_row": 4,
+    "type": "Medium Melee",
+    "size": "Medium",
+    "dice": {
+     "1h": "1d6",
+     "2h": "1d8"
+    },
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "special": [],
+    "range": null,
+    "grip": 1,
+    "lot": null,
+    "cause": "equipment on hiring (his legion issue, kept under the legate's scroll: Judge's call)",
+    "magic": {
+     "value": 0,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    },
+    "masterwork": {
+     "value": null,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    },
+    "silvered": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    },
+    "extraordinary": {
+     "value": false,
+     "source": {
+      "catalog": {
+       "table": "weapons-swords-daggers",
+       "row": 4
+      }
+     }
+    }
+   }
+  },
+  "ledger_rows": [
+   "| 1 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 73gp 1sp | lepidus |",
+   "| 1 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 112gp 1sp | aurelia |",
+   "| 1 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 24gp 2sp 1cp | octavia |",
+   "| 1 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 57gp 1sp | silvanus |",
+   "| 1 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 67gp 9sp | fulvia |",
+   "| 1 | outfitters (character creation) | starting equipment at list price (no templates, Rulings R2 S01) |  |  | 35gp 1sp | eskil |",
+   "| 1 | outfitters (character creation) | a hunting dog at list price (no templates, Rulings R2 S01) |  |  | 10gp | silvanus |",
+   "| 1 | Turos Tem | bought in Turos Tem |  |  | 10gp | eskil |",
+   "| 1 | brokers and criers | recruiting fee (a week's search) |  |  | 6gp | lepidus |",
+   "| 1 | the retinue | wages paid |  |  | 12gp | lepidus |",
+   "| 1 | the retinue | wages paid |  |  | 12gp | eskil |",
+   "| 1 | Ione | signing gift: a week's wage |  |  | 3gp | eskil |",
+   "| 1 | Eskil | signing gift: a week's wage |  | 3gp |  | ione |",
+   "| 1 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | eskil |",
+   "| 1 | Traveler's Inn | lodging in the courtyard, night of day 1 |  |  | 1sp | lepidus |",
+   "| 1 | Traveler's Inn | lodging in the courtyard, night of day 1 |  |  | 1sp | aurelia |",
+   "| 1 | Traveler's Inn | lodging in the courtyard, night of day 1 |  |  | 1sp | octavia |",
+   "| 1 | Traveler's Inn | lodging in the courtyard, night of day 1 |  |  | 1sp | silvanus |",
+   "| 1 | Traveler's Inn | lodging in the courtyard, night of day 1 |  |  | 1sp | fulvia |",
+   "| 1 | Traveler's Inn | lodging in the courtyard, night of day 1 |  |  | 1sp | eskil |",
+   "| 2 | Traveler's Inn | meals, day 1 |  |  | 5cp | lepidus |",
+   "| 2 | Traveler's Inn | meals, day 1 |  |  | 5cp | aurelia |",
+   "| 2 | Traveler's Inn | meals, day 1 |  |  | 5cp | octavia |",
+   "| 2 | Traveler's Inn | meals, day 1 |  |  | 5cp | silvanus |",
+   "| 2 | Traveler's Inn | meals, day 1 |  |  | 5cp | fulvia |",
+   "| 2 | Traveler's Inn | meals, day 1 |  |  | 5cp | eskil |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 |  | treasure share |  |  |  |  |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | lepidus |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | aurelia |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | octavia |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | silvanus |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | fulvia |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | eskil |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | lepidus |",
+   "| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | eskil |",
+   "| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | lepidus |",
+   "| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | aurelia |",
+   "| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | octavia |",
+   "| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | silvanus |",
+   "| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | fulvia |",
+   "| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | eskil |",
+   "| 5 | Traveler's Inn | stabling the donkey, night of day 5 |  |  | 2sp | eskil |",
+   "| 7 | the retinue | wages paid |  |  | 12gp | eskil |",
+   "| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | lepidus |",
+   "| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | aurelia |",
+   "| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | octavia |",
+   "| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | silvanus |",
+   "| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | fulvia |",
+   "| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | eskil |",
+   "| 7 | Traveler's Inn | stabling the donkey, nights of days 6-7 |  |  | 4sp | eskil |",
+   "| 8 | brokers and criers | recruiting fee (a week's search) |  |  | 3gp | lepidus |",
+   "| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | lepidus |",
+   "| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | aurelia |",
+   "| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | octavia |",
+   "| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | silvanus |",
+   "| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | fulvia |",
+   "| 8 | Traveler's Inn | lodging in the courtyard and meals, day 7 |  |  | 1sp 5cp | eskil |",
+   "| 8 | Traveler's Inn | stabling the donkey, night of day 7 |  |  | 2sp | eskil |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | aurelia |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | octavia |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | silvanus |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | fulvia |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | eskil |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | silvanus |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 1 |  | 1gp | fulvia |",
+   "| 8 | Turos Tem | Rations, Iron (one week) | 2 |  | 2gp | fulvia |",
+   "| 8 | Fulvia | repaying two weeks' rations for Ione and Sextus |  |  | 2gp | eskil |",
+   "| 8 | Eskil | repaid for two weeks' rations |  | 2gp |  | fulvia |",
+   "| 8 | Traveler's Inn | stabling the donkey, night of day 7 (balance) |  |  | 2sp | eskil |",
+   "| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 10gp | octavia |",
+   "| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 24gp | silvanus |",
+   "| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 23gp | fulvia |",
+   "| 10 | Urza, the kobold chief | toll for safe passage through kobold territory (9gp a head for nine, Fulvia's Bargaining -10%) |  |  | 24gp | eskil |"
+  ],
+  "lights": [
+   "lantern1",
+   "lantern2",
+   "torch1",
+   "torch2",
+   "torch3",
+   "torch4",
+   "torch5",
+   "torch6",
+   "torch7",
+   "torch8"
+  ],
   "archives": [
-   "inventory-S02.jsonl"
+   "inventory-S02.jsonl",
+   "inventory-S10.jsonl"
   ]
  }
 }

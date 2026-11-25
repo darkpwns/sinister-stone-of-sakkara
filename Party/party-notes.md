@@ -43,6 +43,10 @@ Prefix bullets with the session (`S03:`). Run 3 (from 2026-11-25).
   swords, thieves' tools).
 - S09: Sprites near the hill giggled to Aedo about a rock in the forest that opens like a door, where a tall woman
   with an axe once stepped out smelling of blood.
+- S10: The sprites' door is real: a moving stone in a thicket gully on the black hill's north-west side; a tunnel
+  goes down two hundred feet to a beach on a crescent of warm red water under the hill. Roots bleed when cut.
+- S10: The goblin chief hid gold in his wall (we found it). Urza took Septimia's promised 100gp and gave back our
+  tools and swords; he kept the coin and the silver. Blood-sucking fliers hunt in the Great Hall.
 
 ## Plans
 - S09: Rebuild: men-at-arms, a second healer, holy water, cure disease money. Never go into the halls without a

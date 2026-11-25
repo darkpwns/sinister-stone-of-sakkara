@@ -23,3 +23,4 @@ Run 3 (from 2026-11-25). Earlier runs' logs: `Archive/Run 1 (S01-S54)/Session Lo
 - [[S07 — Waiting on Eskil]] (2026-11-25): days 36-42; town week; supplies for the next push; Eskil up
 - [[S08 — The Rat Tide]] (2026-11-25): days 43-49; a tide of giant rats at the hobgoblins' door; Aedo maimed; disease; home
 - [[S09 — The Hall of Rats]] (2026-11-25): days 50-79; fevers cured; two rat packs in the black hill kill seven of the company; four new adventurers
+- [[S10 — Debts Paid]] (2026-11-25): days 80-109; rebuilding; the sprites' door found; the goblin chief's cache; Urza's debt paid; stirges in the hall

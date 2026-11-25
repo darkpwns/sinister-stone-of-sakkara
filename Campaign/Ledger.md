@@ -20,6 +20,7 @@ tags:
 | --- | --- | --- | --- | --- | --- |
 | S09 | A4 | Giant Rat (L1 1, M5) | 9 | 5 | 45 |
 | S09 | A4 | Giant Rat (L1 2, M6) | 9 | 5 | 45 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Stirge (Sakkara) | 4 | 13 | 52 |
 
 ## Shares and XP awarded
 
@@ -41,6 +42,15 @@ tags:
 | 96 | A5 The Buried Temple: the new company | Pallas Cornu | 0.5 | 63 | 0 | 0 | +0% | 63 |
 | 96 | A5 The Buried Temple: the new company | Gnaeus Fossor | 0.5 | 63 | 0 | 0 | +0% | 63 |
 | 96 | A5 The Buried Temple: the new company | Flavia Scriba | 0.5 | 63 | 0 | 0 | +0% | 63 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Octavia | 1 | 0 | 7 | 0 | +10% | 8 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Ione | 1 | 0 | 7 | 0 | +0% | 7 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Valeria | 1 | 0 | 7 | 0 | +0% | 7 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Severus | 1 | 0 | 7 | 0 | +5% | 7 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Lucan | 1 | 0 | 7 | 0 | +5% | 7 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Caelia | 1 | 0 | 7 | 0 | +5% | 7 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Pallas Cornu | 0.5 | 0 | 3 | 0 | +0% | 3 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Gnaeus Fossor | 0.5 | 0 | 3 | 0 | +0% | 3 |
+| 104 | A6 The Buried Temple: Urza and the hobgoblins | Flavia Scriba | 0.5 | 0 | 3 | 0 | +0% | 3 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -307,3 +317,32 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 96 | market | his share of the sale of L6,L7 (after the payout) |  | 13gp 3sp 4cp |  | pallas-cornu |
 | 96 | market | his share of the sale of L6,L7 (after the payout) |  | 13gp 3sp 4cp |  | gnaeus-fossor |
 | 96 | market | his share of the sale of L6,L7 (after the payout) |  | 13gp 3sp 4cp |  | flavia-scriba |
+| 97 | brokers and criers | recruiting fee (a week's search) |  |  | 6gp | valeria |
+| 98 | Traveler's Inn | courtyard and meals, nights of days 96-97 |  |  | 3sp | octavia |
+| 98 | Traveler's Inn | courtyard and meals, nights of days 96-97 |  |  | 3sp | valeria |
+| 98 | Traveler's Inn | courtyard and meals, nights of days 96-97 |  |  | 3sp | severus |
+| 98 | Traveler's Inn | courtyard and meals, nights of days 96-97 |  |  | 3sp | lucan |
+| 98 | Traveler's Inn | courtyard and meals, nights of days 96-97 |  |  | 3sp | caelia |
+| 98 | Traveler's Inn | courtyard and meals, nights of days 96-97 |  |  | 3sp | ione |
+| 98 | Traveler's Inn | stabling the two donkeys, nights of days 96-97 |  |  | 8sp | ione |
+| 98 | Turos Tem | Oil, Common (1 pint) | 4 |  | 1gp 8cp | octavia |
+| 98 | the retinue | wages paid |  |  | 12gp | caelia |
+| 98 | the retinue | wages paid |  |  | 12gp | octavia |
+| 102 | Urza (L1 9) | Septimia's promise to the kobolds who died beside the company (day 68), half |  |  | 50gp | valeria |
+| 102 | Urza (L1 9) | Septimia's promise to the kobolds who died beside the company (day 68), half |  |  | 50gp | caelia |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 104 |  | treasure share |  |  |  |  |
+| 109 | Traveler's Inn | courtyard and meals, nights of days 104-109 |  |  | 9sp | octavia |
+| 109 | Traveler's Inn | courtyard and meals, nights of days 104-109 |  |  | 9sp | valeria |
+| 109 | Traveler's Inn | courtyard and meals, nights of days 104-109 |  |  | 9sp | severus |
+| 109 | Traveler's Inn | courtyard and meals, nights of days 104-109 |  |  | 9sp | lucan |
+| 109 | Traveler's Inn | courtyard and meals, nights of days 104-109 |  |  | 9sp | caelia |
+| 109 | Traveler's Inn | courtyard and meals, nights of days 104-109 |  |  | 9sp | ione |
+| 109 | Traveler's Inn | stabling the two donkeys, nights of days 104-109 |  |  | 2gp 4sp | ione |
