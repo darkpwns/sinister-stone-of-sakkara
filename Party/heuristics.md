@@ -48,6 +48,9 @@ Every AI player is a skilled old-school player. These habits are shared; each pr
 - A character at 0 hp is not dead yet: treatment rolls on the Mortal Wounds table, and treatment within 1 round helps, later treatment hurts. Get to a fallen friend fast, drag them out, apply Healing or magic.
 - Henchman loyalty is earned: wages on time, fair shares, rescue when they fall, level gains noticed. A loyal henchman is worth more than a pile of hirelings.
 
+## The temple first (table rule, S12)
+Until the Buried Temple is done (its stone destroyed, its Lady dealt with) we travel only between Türos Tem and the temple. Every trip out is a trip to the temple; everything else (the shrine, the fortress, scouting) waits.
+
 ## The kingdom (run 2: the table's standing goal)
 The six of us play for one thing: to found a magical kingdom the like of which the world has not seen since ancient
 times, a realm whose riders fly on tamed beasts and whose workshops turn monster parts into wonders. Every session goal

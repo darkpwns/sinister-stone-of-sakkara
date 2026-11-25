@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 12
+session: 11
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,20 +10,18 @@ public:
   date:
     year: ''
     season: spring
-    day: 82
-  time: '11:36'
-  weather: Chilly (57 to 62 F) by day, Chilly (51 to 56 F) at night; mostly cloudy; wind strong
+    day: 80
+  time: '18:05'
+  weather: Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; misty; wind still
   place: Türos Tem
   hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
     role: pc
-    hp: 1
+    hp: 6
     hp_max: 6
-    conditions:
-    - You feel blessed by your god and recover 1d6 days quicker than you normally would. All negative side effects are removed. (Tampering with Mortality, day 82)
-    - 'bed rest: 2 weeks less the blessing 4 days = 10 days, from day 82 to day 92 (incapacitated)'
+    conditions: []
     spells_used: []
     encumbrance_st: 4.667
   - name: Corvus
@@ -41,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 3.196
+    encumbrance_st: 4.283
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -99,7 +97,7 @@ public:
     spells_used: []
     encumbrance_st: 3.5
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out
-  rations: 'Galerius: food 11 d, water 5.4 d; Faustina: food 11 d, water 0 d; Corvus: food 11 d, water 0 d; Marius: food 8 d, water 0 d; Varro: food 11 d, water 0 d; Hrodric: food 10 d, water 0 d; Quintus: food 7 d, water 0.2 d; Zaira: food 7 d, water 0.2 d; Callista: food 11 d, water 3 d (incapacitated); Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Quintus: food 0 d, water 0 d; Zaira: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
@@ -123,7 +121,7 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 82
+clock_day: 80
 ---
 # Campaign State
 
@@ -143,6 +141,7 @@ Carried from run 1 (user's choices 2026-11-20 to 2026-11-21) except where marked
 - Party structure: AI party (six AI players; the user watches). Caller Gideon. The Judge plays the AI players by their profiles, `Party/heuristics.md` and the party notes (no party-agent calls; run 1 S06 user decision)
 - **Party goal (run 2, user):** the players' primary, standing goal is to found a magical kingdom the like of which the world has not seen since ancient times. They always keep Animal Training (magical beasts as mounts, guards and war-beasts) and the harvesting proficiencies (Alchemy, Animal Husbandry, Healing, Naturalism, Magical Engineering: monster special components) in the party, and every session goal they set advances that goal. They engage factions only when a faction brings them closer to it or costs no recurring obligation (Party/heuristics.md "The kingdom")
 - **Combat and factions (run 2, user, S09 rerun):** combat is a failure state: the party draws steel only when the enemy cannot fight back or is plainly outmatched (by the party and its allies); talk, trade, tribute, bribery, deception and alliances come first, and a failed edge means breaking off, not fighting it out. Dungeon and wilderness factions carry no lasting obligation and are used actively (allies, guides, cat's paws, safe passage); settled factions (guilds, temples, legions, cults) make members and are dealt with only for the kingdom. The delve floors are minimums, not a measure of strength (Party/heuristics.md)
+- **Travel until the temple is done (run 2, user, S12 rewind):** no wilderness travel except between Türos Tem and the Buried Temple (the corridor 22.20, 21.20, 20.19, 19.19) until the Buried Temple is complete (AX1's goal: the Stone of Sakkara destroyed and the Lady Below dealt with). Pilgrimages, scouting trips and other sites wait; a party that strays off the corridor while lost makes its way back to it
 - **Character creation (run 2, user): no templates** (RR optional rule: 3d6 × 10 gp, gear bought at the market, proficiencies and spells chosen). The players build as they wish, balancing competence with progress toward the goal
 - A PC's death (user, 2026-11-21): the player takes over the dead PC's henchman (RR p. 311 successor, `death <pc> --successor <henchman> --player <p>`); without one, a second-level henchman in the party; otherwise a new 1st-level character with the player's reserve XP. Characters retire only when their injuries make further adventures unlikely
 - AI players hire their own henchmen: yes
