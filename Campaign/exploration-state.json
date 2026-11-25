@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 97,
-  "round_of_day": 772,
-  "total_rounds": 138532
+  "round_of_day": 862,
+  "total_rounds": 138622
  },
  "party": {
   "galerius": {
@@ -75,15 +75,6 @@
    "perceived": "Zaira",
    "conditions": [],
    "endurance": false
-  },
-  "marius": {
-   "id": "marius",
-   "actor": "marius",
-   "name": "Marius",
-   "perceived": "Marius",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.0
   },
   "severina": {
    "id": "severina",
@@ -166,63 +157,49 @@
    "closed": false,
    "rounds_left": 42,
    "tallow": false
+  },
+  {
+   "id": "lantern5",
+   "kind": "lantern",
+   "carrier": "callista",
+   "lit": true,
+   "closed": false,
+   "rounds_left": 150,
+   "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 0,
+  "rounds_since_rest": 30,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "19.19",
-  "kind": "wilderness"
+  "site": "Buried Temple",
+  "kind": "dungeon",
+  "level": 1,
+  "room": "75",
+  "wandering": {
+   "none": false,
+   "die": "1d6",
+   "every": 2,
+   "target": 6
+  },
+  "table": "Adventure/Tables/level1-wandering.yaml",
+  "source": {
+   "hub": "Adventure/AX1 Hub.md",
+   "wandering": "area setting: '1d6 every 2 turns, 6+'"
+  }
  },
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 88 10:50",
-   "roll": 3,
-   "target": 5,
+   "at": "day 97 14:20",
+   "roll": 1,
+   "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 87 05:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 87 05:30",
-    "roll": 2,
-    "target": 5,
-    "encounter": false
-   },
-   {
-    "at": "day 87 05:40",
-    "roll": 6,
-    "target": 5,
-    "encounter": true
-   },
-   {
-    "at": "day 87 06:00",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 87 06:20",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 87 06:40",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 87 07:00",
     "roll": 5,
@@ -306,13 +283,49 @@
     "roll": 3,
     "target": 5,
     "encounter": false
+   },
+   {
+    "at": "day 97 13:00",
+    "roll": 3,
+    "target": 5,
+    "encounter": false
+   },
+   {
+    "at": "day 97 13:10",
+    "roll": 4,
+    "target": 5,
+    "encounter": false
+   },
+   {
+    "at": "day 97 13:20",
+    "roll": 4,
+    "target": 5,
+    "encounter": false
+   },
+   {
+    "at": "day 97 13:40",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 97 14:00",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 97 14:20",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
    }
   ],
-  "turn_start_done": 125450,
+  "turn_start_done": 138620,
   "pending_at": null
  },
  "turn_actions": {
-  "turn": 13853,
+  "turn": 13862,
   "listened": [],
   "actions": []
  },
@@ -361,8 +374,8 @@
    "rest_rounds": 0
   },
   "97": {
-   "delve_rounds": 0,
-   "rest_rounds": 0
+   "delve_rounds": 80,
+   "rest_rounds": 10
   }
  },
  "events": [
@@ -1232,8 +1245,8 @@
   }
  ],
  "next_ids": {
-  "enc": 124,
-  "lantern": 4,
+  "enc": 125,
+  "lantern": 5,
   "torch": 12
  },
  "travel": {
@@ -1565,7 +1578,7 @@
     },
     "mount": null,
     "passenger": false,
-    "pack": "donkey1"
+    "pack": null
    },
    "faustina": {
     "hp": 10,
@@ -1658,7 +1671,7 @@
     },
     "mount": null,
     "passenger": false,
-    "pack": "donkey1"
+    "pack": null
    },
    "hrodric": {
     "hp": 17,
@@ -2174,7 +2187,7 @@
       "dungeon": 0.0
      }
     ],
-    "water": 0.6000000000000001,
+    "water": 0.2,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -2247,7 +2260,7 @@
     },
     "mount": null,
     "passenger": false,
-    "pack": "donkey2"
+    "pack": null
    },
    "lupa": {
     "hp": 3,
@@ -2542,7 +2555,7 @@
       "dungeon": 0.0
      }
     ],
-    "water": 0.2,
+    "water": 0.6000000000000001,
     "firewood": 0.0,
     "hist": {
      "food": [
@@ -2616,7 +2629,7 @@
     },
     "mount": null,
     "passenger": false,
-    "pack": "donkey1"
+    "pack": null
    },
    "quintus": {
     "hp": 7,
@@ -2815,122 +2828,7 @@
     "passenger": false
    }
   },
-  "animals": {
-   "donkey1": {
-    "id": "donkey1",
-    "kind": "Donkey",
-    "name": "Donkey, Draft",
-    "cargo": 9.333333333333334,
-    "riders_st": {},
-    "food": 0.0,
-    "water": 0.0,
-    "led": true,
-    "forced_days": 0,
-    "feed_inv": 0.0,
-    "supplies_st": 5.0,
-    "hist": [
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ]
-    ],
-    "cond": {
-     "hungry": false,
-     "underfed": false,
-     "starving": false
-    },
-    "drank_day": 97
-   },
-   "donkey2": {
-    "id": "donkey2",
-    "kind": "Donkey",
-    "name": "Donkey, Draft",
-    "cargo": 2.3333333333333335,
-    "riders_st": {},
-    "food": 0.0,
-    "water": 0.0,
-    "led": true,
-    "forced_days": 0,
-    "feed_inv": 0.0,
-    "supplies_st": 1.5,
-    "hist": [
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ],
-     [
-      1,
-      1
-     ]
-    ],
-    "cond": {
-     "hungry": false,
-     "underfed": false,
-     "starving": false
-    },
-    "drank_day": 97
-   }
-  },
+  "animals": {},
   "days": {
    "88": {
     "_party": {
@@ -5333,15 +5231,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc105",
-   "at": "day 86 22:10",
-   "monster_name": "Giant Rat",
-   "number": 8,
-   "reaction": null,
-   "status": "begun",
-   "closed": "superseded"
-  },
-  {
    "id": "enc106",
    "at": "day 87 00:50",
    "monster_name": "Hobgoblin",
@@ -5498,6 +5387,14 @@
    "number": 37,
    "reaction": null,
    "status": "evaded"
+  },
+  {
+   "id": "enc125",
+   "at": "day 97 14:22",
+   "monster_name": "Idimmu (Sakkara)",
+   "number": 1,
+   "reaction": "indifferent",
+   "status": "reaction"
   }
  ],
  "staying": {
@@ -5512,13 +5409,26 @@
     "conditions": [],
     "endurance": false
    }
+  },
+  "marius": {
+   "place": "Buried Temple L1 27 (with the toll orcs)",
+   "since": 97,
+   "member": {
+    "id": "marius",
+    "actor": "marius",
+    "name": "Marius",
+    "perceived": "Marius",
+    "conditions": [],
+    "endurance": false,
+    "treasure_stone": 0.0
+   }
   }
  },
  "light_auto": {
-  "on": false,
+  "on": true,
   "carriers": [
-   "corvus",
-   "quintus"
+   "callista",
+   "corvus"
   ],
   "kind": "torch"
  },

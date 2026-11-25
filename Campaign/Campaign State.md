@@ -11,7 +11,7 @@ public:
     year: ''
     season: summer
     day: 97
-  time: '12:52'
+  time: '14:22'
   weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; overcast; wind gentle
   place: Türos Tem
   hex: '19.19'
@@ -23,7 +23,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6
+    encumbrance_st: 5.833
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.666
+    encumbrance_st: 4.423
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -48,7 +48,7 @@ public:
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
     spells_used: []
-    encumbrance_st: 8.167
+    encumbrance_st: 8.833
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -80,7 +80,7 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 7.36
+    encumbrance_st: 7.693
   - name: Quintus
     sheet: Characters/quintus.json
     role: henchman
@@ -97,8 +97,8 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.215
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out
-  rations: 'Galerius: food 6 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 8 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 6 d, water 0.2 d; Hrodric: food 6 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 5 d, water 1 d; Marius: food 6 d, water 0.6 d; Severina: food 9 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) out; lantern (Callista) 15 turns left
+  rations: 'Galerius: food 6 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 8 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 6 d, water 0.6 d; Hrodric: food 6 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 5 d, water 1 d; Severina: food 9 d, water 1 d'
   tracker: {}
   threads: []
   trail:

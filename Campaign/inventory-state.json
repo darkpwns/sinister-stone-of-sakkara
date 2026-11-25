@@ -47,7 +47,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by callista",
    "owner": "callista",
@@ -62,8 +62,18 @@
      "day": 88,
      "nights": 1,
      "cause": "the company back from below"
+    },
+    {
+     "stabled": "Buried Temple L1 27 (Marius and the toll orcs)",
+     "day": 97,
+     "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Buried Temple L1 27 (Marius and the toll orcs)",
+    "day": 97,
+    "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
+   }
   },
   "ground:buried-temple": {
    "kind": "cache",
@@ -99,7 +109,7 @@
    "kind": "animal",
    "name": "Donkey, Draft",
    "actor": null,
-   "status": "active",
+   "status": "stabled",
    "animal": "Donkey, Draft",
    "note": "bought in Turos Tem by faustina",
    "owner": "faustina",
@@ -114,8 +124,18 @@
      "day": 88,
      "nights": 1,
      "cause": "the company back from below"
+    },
+    {
+     "stabled": "Buried Temple L1 27 (Marius and the toll orcs)",
+     "day": 97,
+     "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
     }
-   ]
+   ],
+   "stabled": {
+    "at": "Buried Temple L1 27 (Marius and the toll orcs)",
+    "day": 97,
+    "cause": "left with Marius among Apsa's orcs while the company goes below (Rulings R2 S13)"
+   }
   },
   "marius": {
    "kind": "henchman",
@@ -9709,6 +9729,128 @@
    "price_cp": 2500,
    "cmd": "inv wages",
    "n": 548
+  },
+  {
+   "op": "light",
+   "cause": "lantern5 lit (lantern)",
+   "day": 97,
+   "time": "day 97 12:52",
+   "deltas": [
+    {
+     "who": "callista",
+     "item": "oil, common (1 pint)",
+     "slot": "backpack",
+     "qty": -1
+    }
+   ],
+   "coins": [],
+   "why": "used",
+   "light": "lantern5",
+   "cmd": "light on",
+   "n": 549
+  },
+  {
+   "op": "give",
+   "cause": "a day's water each below (Rulings R2 S13)",
+   "day": 97,
+   "time": "day 97 13:42",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": -4
+    },
+    {
+     "who": "galerius",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 4
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 550
+  },
+  {
+   "op": "give",
+   "cause": "a day's water each below (Rulings R2 S13)",
+   "day": 97,
+   "time": "day 97 13:42",
+   "deltas": [
+    {
+     "who": "donkey1",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": -4
+    },
+    {
+     "who": "faustina",
+     "item": "waterskin",
+     "slot": "backpack",
+     "qty": 4
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 551
+  },
+  {
+   "op": "give",
+   "cause": "water below (Rulings R2 S13)",
+   "day": 97,
+   "time": "day 97 13:42",
+   "deltas": [
+    {
+     "who": "donkey2",
+     "item": "waterskin",
+     "slot": "pack",
+     "qty": -2
+    },
+    {
+     "who": "varro",
+     "item": "waterskin",
+     "slot": "sack",
+     "qty": 2
+    }
+   ],
+   "coins": [],
+   "cmd": "inv give",
+   "n": 552
+  },
+  {
+   "op": "pay",
+   "cause": "for minding Marius and the donkeys (Judge's call; Apsa's truce)",
+   "day": 97,
+   "time": "day 97 13:42",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -10
+    }
+   ],
+   "to": "the toll orcs of 27",
+   "price_cp": 1000,
+   "cmd": "inv pay",
+   "n": 553
+  },
+  {
+   "op": "pay",
+   "cause": "tribute for the long stair, 100gp a head for nine (Rulings R2 S13)",
+   "day": 97,
+   "time": "day 97 14:22",
+   "deltas": [],
+   "coins": [
+    {
+     "who": "faustina",
+     "gp": -900
+    }
+   ],
+   "to": "Idimmu",
+   "price_cp": 90000,
+   "cmd": "inv pay",
+   "n": 554
   }
  ],
  "holdings": {
@@ -9731,7 +9873,7 @@
     "oil, military (1 pint)": 1
    },
    "backpack": {
-    "waterskin": 1,
+    "waterskin": 5,
     "tinderbox (flint & steel)": 1,
     "#w1": 1
    }
@@ -9750,7 +9892,7 @@
    },
    "backpack": {
     "craftsman's tools (any)": 1,
-    "waterskin": 1,
+    "waterskin": 5,
     "tinderbox (flint & steel)": 1
    }
   },
@@ -9790,7 +9932,7 @@
    "backpack": {
     "craftsman's tools (any)": 1,
     "lantern": 1,
-    "oil, common (1 pint)": 4,
+    "oil, common (1 pint)": 3,
     "waterskin": 5,
     "tinderbox (flint & steel)": 1
    },
@@ -9824,7 +9966,6 @@
   },
   "donkey1": {
    "pack": {
-    "waterskin": 8,
     "#w3": 1,
     "#w9": 1,
     "metamphora (60gp)": 6
@@ -9867,7 +10008,6 @@
   },
   "donkey2": {
    "pack": {
-    "waterskin": 2,
     "torch": 12
    }
   },
@@ -9969,7 +10109,7 @@
    "sack": {
     "holy symbol": 1,
     "holy book": 1,
-    "waterskin": 1
+    "waterskin": 3
    }
   },
   "quintus": {
@@ -10010,7 +10150,7 @@
  },
  "coins": {
   "faustina": {
-   "gp": 1594,
+   "gp": 684,
    "cp": 35,
    "sp": 37
   },

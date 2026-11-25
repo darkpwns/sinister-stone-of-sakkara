@@ -344,3 +344,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 95 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
 | 96 | the retinue | wages paid |  |  | 25gp | faustina |
 | 96 | the retinue | wages paid |  |  | 25gp | faustina |
+| 97 | the toll orcs of 27 | for minding Marius and the donkeys (Judge's call; Apsa's truce) |  |  | 10gp | faustina |
+| 97 | Idimmu | tribute for the long stair, 100gp a head for nine (Rulings R2 S13) |  |  | 900gp | faustina |
