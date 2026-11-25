@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 126
-  time: 06:14
-  weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; partly cloudy; wind still
+    day: 131
+  time: 07:50
+  weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; clear; wind still
   place: Türos Tem
-  hex: '22.20'
+  hex: '20.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -23,7 +23,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 5.203
+    encumbrance_st: 5.036
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -31,7 +31,7 @@ public:
     hp_max: 16
     conditions: []
     spells_used: []
-    encumbrance_st: 7.036
+    encumbrance_st: 7.203
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 4.633
+    encumbrance_st: 4.512
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -56,7 +56,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 5.536
+    encumbrance_st: 5.703
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -64,7 +64,7 @@ public:
     hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 4.869
+    encumbrance_st: 5.036
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
@@ -72,7 +72,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 5.198
+    encumbrance_st: 5.364
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -88,7 +88,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 4.901
+    encumbrance_st: 5.068
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
@@ -96,15 +96,12 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 5.043
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 11 d, water 1 d; Faustina: food 5 d, water 1 d; Callista: food 6 d, water 1 d; Corvus: food 5 d, water 1 d; Varro: food 11 d, water 1 d; Hrodric: food 11 d, water 1 d; Quintus: food 18 d, water 1 d; Zaira: food 10 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 10 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
+    encumbrance_st: 5.209
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) 15 turns left
+  rations: 'Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 9 d, water 1 d; Varro: food 8 d, water 1 d; Hrodric: food 8 d, water 1 d; Quintus: food 14 d, water 1 d; Zaira: food 14 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 13 d, water 1 d'
   tracker: {}
   threads: []
   trail:
-  - '20.19'
-  - '21.20'
-  - '22.20'
   - '22.21'
   - '22.20'
   - '21.20'
@@ -122,7 +119,10 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 126
+  - '21.21'
+  - '21.20'
+  - '20.19'
+clock_day: 131
 ---
 # Campaign State
 

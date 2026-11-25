@@ -525,3 +525,14 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 26gp 1sp 9cp |  | zaira |
 | 123 | market | his share of the sale of L76,L77,L78 (after the payout) |  | 26gp 1sp 9cp |  | marius |
 | 123 | Traveler's Inn | lodging, 3 night(s) |  |  | 16gp 8sp | faustina |
+| 126 | the fort's smith | fifteen iron copies of the draconic-eye symbol, 25gp each (Rulings R2 S14), ready day 128 |  |  | 375gp | faustina |
+| 126 | Traveler's Inn | lodging, 2 night(s) |  |  | 11gp 2sp | faustina |
+| 128 | the retinue | wages paid |  |  | 25gp | faustina |
+| 128 | the retinue | wages paid |  |  | 25gp | faustina |
+| 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 128 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 130 | Apsa's orcs of 27 | a night's shelter and minding the donkeys (day 130) |  |  | 10gp | faustina |
