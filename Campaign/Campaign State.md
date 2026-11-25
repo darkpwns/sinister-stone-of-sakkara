@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 110
-  time: 07:04
+    day: 112
+  time: 05:59
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; drizzle; wind moderate (drizzly)
   place: Türos Tem
-  hex: '19.19'
+  hex: '21.21'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -23,7 +23,7 @@ public:
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 5.679
+    encumbrance_st: 5.512
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 4.36
+    encumbrance_st: 4.349
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -52,7 +52,7 @@ public:
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 17
+    hp: 13
     hp_max: 17
     conditions: []
     spells_used: []
@@ -97,14 +97,11 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.839
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out
-  rations: 'Galerius: food 10 d, water 0 d; Faustina: food 11 d, water 0 d; Callista: food 12 d, water 0 d; Corvus: food 11 d, water 0 d; Varro: food 10 d, water 0 d; Hrodric: food 10 d, water 0 d; Quintus: food 14 d, water 0 d; Zaira: food 9 d, water 0 d; Severina: food 13 d, water 0 d; Marius: food 10 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out
+  rations: 'Galerius: food 8 d, water 1 d; Faustina: food 9 d, water 1 d; Callista: food 10 d, water 1 d; Corvus: food 9 d, water 1 d; Varro: food 8 d, water 1 d; Hrodric: food 8 d, water 1 d; Quintus: food 14 d, water 1 d; Zaira: food 7 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 8 d, water 1 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '20.19'
-  - '21.19'
-  - '20.19'
   - '19.19'
   - '20.19'
   - '21.20'
@@ -122,7 +119,10 @@ public:
   - '21.20'
   - '20.19'
   - '19.19'
-clock_day: 110
+  - '20.19'
+  - '21.20'
+  - '21.21'
+clock_day: 112
 ---
 # Campaign State
 

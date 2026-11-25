@@ -55,6 +55,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Days 98-104 (S14): home on day 100 with the hoard (payout A8; levels; goods sold; 9,688gp to Karanos); A9 opened day 102 for the strike with the Black Fangs; mud and a lost day (22.21, the naiads) slowed the march; on day 104 Galerius fell ill (bilious fever from the rats of day 97) and the company turned back for the fort.
 
+- Days 105-111 (S14): Galerius cured of bilious fever (Cure Disease, Genelen's temple, day 105; the eagle too); back to the temple days 106-108 (mud); nine stirges killed at the Crossroads (day 108); two nights with Apsa's orcs (27); day 110 below: the five Red Eyes at the stair foot took a bribe (Indifferent), the Black Fangs forgave the missed strike (Friendly), and together they destroyed the Red Eyes: five at the stair foot (Faustina's Slumber, the Black Fangs' coups de grace), then Hepsis and his two bowmen in 15 (Slumber; Ur-Shet slew Hepsis). Loot pile split with Ur-Shet (Rulings R2 S14). Out the same day; lost to 21.21 on day 111 (a natural 1).
+
 ### [[Level 2 - Catacombs]] (entered day 87)
 - 1 Catacomb Entrance: the three Red Eye guards of 10 came out (they know the company as the hobgoblins' Lawful friends): Neutral for a week's bribe (10gp, to day 94); one ran to tell Hepsis (15), who waits.
 - Hewn room through the pillars, 8: the Black Fang guards and Ulmash **Friendly** (seven days of iron rations as a gift).
@@ -129,7 +131,9 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
-- **Open at the save (night of day 104-105, 22.20 by the Krysivor, 7 hours of mud from the fort):** three giant weasels at 04:10 on day 105 (enc136), during Severina and Varro's watch: they have seen the camp, the camp has not seen them (225'). Resolve first: surprise (sleepers slumbering), reaction.
+- **At the save (dawn of day 112, camp in 21.21 by the Krysivor, half a day from the fort):** A9 open (the Red Eyes' loot: L61-L72 carried, the goods on the donkeys). In town: `adventure return`, payout A9, sell the pottery, horns and wine, bank.
+- **The Red Eyes are destroyed (day 110):** Hepsis and all seven gnolls killed by the Black Fangs with the company; the Black Fangs (Ur-Shet 20, Ulmash 16, six gnolls, one at 3 hp) now hold cavern 15, beside the Bloody Shore (16: the abomination in the birthing pool, untouched). The Lady loses her favoured tribe: Judge: her answer (Ur-Namu's priests and the undead of 23, 34, 35; a raid on the Black Fangs in 15?) before the company next goes below. Replacement rolls (AX1 p. 53): a tribe wiped out does not return.
+- **The long stair** has no toll and, since day 110, no guards.
 - **Galerius:** bilious fever, symptomatic from day 104 (incapacitated, rides donkey2); survivable, 4 weeks unless cured. The company is taking him to Genelen's hospital: Cure Disease (divine 3rd, RR pp. 172-173: `acks.sh spellcasting`, class V market). Faustina's diagnosis failed (no retry until further symptoms).
 - **Ur-Shet's strike (deal to day 104) lapsed unmet:** the company never came back down. Judge: the Black Fangs' attitude when next met (a hidden roll: they waited; the Red Eyes may have struck first). The stair guards' bribe ended on day 104.
 - **The Lady and Idimmu's death:** the kobolds took the news down on the night of day 97. Decide her answer before the company next goes below.

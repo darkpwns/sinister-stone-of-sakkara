@@ -2,9 +2,9 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 9,
-  "L": 60,
+  "L": 72,
   "H": 1,
-  "M": 14
+  "M": 17
  },
  "adventure": {
   "id": "A9",
@@ -184,12 +184,69 @@
      ],
      "text": "the fight with 9 Stirge (Sakkara), encounter enc138, round 6"
     }
+   },
+   {
+    "id": "M15",
+    "monster": "Gnoll",
+    "source": "Gnoll (MM p. 49)",
+    "number": 5,
+    "how": "killed",
+    "xp_each": 20,
+    "fight": {
+     "ids": [
+      "gnoll1",
+      "gnoll2",
+      "gnoll3",
+      "gnoll4",
+      "gnoll5"
+     ],
+     "text": "the fight with 5 Gnoll, encounter enc142, round 3"
+    }
+   },
+   {
+    "id": "M16",
+    "monster": "Gnoll",
+    "source": "Gnoll (MM p. 49)",
+    "number": 2,
+    "how": "killed",
+    "xp_each": 20,
+    "fight": {
+     "ids": [
+      "gnoll1",
+      "gnoll2"
+     ],
+     "text": "the fight with 2 Gnoll, Hepsis (Sakkara), encounter enc143, round 2"
+    }
+   },
+   {
+    "id": "M17",
+    "monster": "Hepsis (Sakkara)",
+    "source": "Hepsis (Sakkara) (MM p. 57)",
+    "number": 1,
+    "how": "killed",
+    "xp_each": 80,
+    "fight": {
+     "ids": [
+      "hepsis"
+     ],
+     "text": "the fight with 2 Gnoll, Hepsis (Sakkara), encounter enc143, round 2"
+    }
    }
   ],
   "awards": [],
   "status": "open",
   "payout": null,
-  "events": []
+  "events": [],
+  "bearers": {
+   "donkey1": {
+    "name": "donkey1",
+    "day": 110
+   },
+   "donkey2": {
+    "name": "donkey2",
+    "day": 110
+   }
+  }
  },
  "closed": [
   {
@@ -4886,6 +4943,407 @@
      "day": 100
     }
    ]
+  },
+  "L61": {
+   "id": "L61",
+   "adventure": "A9",
+   "kind": "coins",
+   "qty": 31,
+   "stone": 0.031,
+   "carrier": "severina",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 1, the Red Eyes' purses (half; half to the Black Fangs)"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "gp",
+    "qty": 31,
+    "value_gp": 31.0,
+    "stone": 0.031,
+    "name": "31 gold pieces"
+   },
+   "player": {
+    "desc": "31 gold pieces",
+    "value_gp": 31.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L62": {
+   "id": "L62",
+   "adventure": "A9",
+   "kind": "coins",
+   "qty": 500,
+   "stone": 0.5,
+   "carrier": "marius",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "cp",
+    "qty": 500,
+    "value_gp": 5.0,
+    "stone": 0.5,
+    "name": "500 copper pieces"
+   },
+   "player": {
+    "desc": "500 copper pieces",
+    "value_gp": 5.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L63": {
+   "id": "L63",
+   "adventure": "A9",
+   "kind": "coins",
+   "qty": 500,
+   "stone": 0.5,
+   "carrier": "zaira",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "sp",
+    "qty": 500,
+    "value_gp": 50.0,
+    "stone": 0.5,
+    "name": "500 silver pieces"
+   },
+   "player": {
+    "desc": "500 silver pieces",
+    "value_gp": 50.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L64": {
+   "id": "L64",
+   "adventure": "A9",
+   "kind": "coins",
+   "qty": 500,
+   "stone": 0.5,
+   "carrier": "quintus",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "coins",
+    "coin": "ep",
+    "qty": 500,
+    "value_gp": 250.0,
+    "stone": 0.5,
+    "name": "500 electrum pieces"
+   },
+   "player": {
+    "desc": "500 electrum pieces",
+    "value_gp": 250.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L65": {
+   "id": "L65",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": "donkey2",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 100.0,
+    "stone": 5.0,
+    "name": "crate of Krysean pottery",
+    "merch": null
+   },
+   "player": {
+    "desc": "crate of Krysean pottery",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L66": {
+   "id": "L66",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 21,
+   "stone": 4.2,
+   "carrier": "donkey1",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 21,
+    "value_gp": 42.0,
+    "stone": 4.2,
+    "name": "cattle horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "cattle horns",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L67": {
+   "id": "L67",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 18,
+   "stone": 3.6,
+   "carrier": "donkey2",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 18,
+    "value_gp": 270.0,
+    "stone": 3.6,
+    "name": "bottles of fine Tirenean wine",
+    "merch": null
+   },
+   "player": {
+    "desc": "bottles of fine Tirenean wine",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": []
+  },
+  "L68": {
+   "id": "L68",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 22,
+   "stone": 4.4,
+   "carrier": "donkey1",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 22,
+    "value_gp": 44.0,
+    "stone": 4.4,
+    "name": "cattle horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "cattle horns",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "split_from": "L66"
+  },
+  "L69": {
+   "id": "L69",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 22,
+   "stone": 4.4,
+   "carrier": "hrodric",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 22,
+    "value_gp": 44.0,
+    "stone": 4.4,
+    "name": "cattle horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "cattle horns",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "split_from": "L66"
+  },
+  "L70": {
+   "id": "L70",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 22,
+   "stone": 4.4,
+   "carrier": "severina",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 22,
+    "value_gp": 44.0,
+    "stone": 4.4,
+    "name": "cattle horns",
+    "merch": null
+   },
+   "player": {
+    "desc": "cattle horns",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "split_from": "L66"
+  },
+  "L71": {
+   "id": "L71",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 1,
+   "stone": 5.0,
+   "carrier": "donkey2",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 1,
+    "value_gp": 100.0,
+    "stone": 5.0,
+    "name": "crate of Krysean pottery",
+    "merch": null
+   },
+   "player": {
+    "desc": "crate of Krysean pottery",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "split_from": "L65"
+  },
+  "L72": {
+   "id": "L72",
+   "adventure": "A9",
+   "kind": "goods",
+   "qty": 18,
+   "stone": 3.6,
+   "carrier": "zaira",
+   "status": "carried",
+   "found": {
+    "day": 110,
+    "where": "L2 15, the Red Eyes' loot pile"
+   },
+   "true": {
+    "kind": "goods",
+    "qty": 18,
+    "value_gp": 270.0,
+    "stone": 3.6,
+    "name": "bottles of fine Tirenean wine",
+    "merch": null
+   },
+   "player": {
+    "desc": "bottles of fine Tirenean wine",
+    "value_gp": null,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": false,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "split_from": "L67"
   }
  },
  "hoards": {

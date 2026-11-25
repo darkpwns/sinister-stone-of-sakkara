@@ -424,3 +424,5 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 106 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
 | 107 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
 | 108 | Apsa's orcs of 27 | two nights' shelter in the toll room and minding the donkeys (Judge's call; the truce) |  |  | 20gp | faustina |
+| 110 | the Red Eyes at the long stair's foot | a week's bribe (day 110) |  |  | 10gp | faustina |
+| 111 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
