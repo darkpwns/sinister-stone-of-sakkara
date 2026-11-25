@@ -764,3 +764,4 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | hrodric |
 | 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | severina |
 | 137 | Türos Tem | Rations, Iron (one week) | 1 |  | 1gp | faustina |
+| 140 | Apsa's orcs (L1 27) | stabling the two donkeys days 131-140 (2sp a night each, rounded up) (day 140) |  |  | 4gp | faustina |

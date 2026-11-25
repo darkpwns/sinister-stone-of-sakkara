@@ -1,24 +1,20 @@
 {
  "schema": "acks-combat/3",
- "round": 5,
+ "round": 2,
  "order": [
-  "callista",
   "corvus",
-  "quintus",
-  "fangs2",
-  "fangs1",
-  "fangs3",
-  "fangs5",
-  "galerius",
-  "hrodric",
-  "zaira",
-  "fangs4",
-  "hrodric-eagle",
   "marius",
-  "fangs6",
+  "hrodric-eagle",
   "faustina",
-  "severina",
-  "varro"
+  "zombie2",
+  "varro",
+  "hrodric",
+  "zombie1",
+  "zombie3",
+  "galerius",
+  "callista",
+  "quintus",
+  "severina"
  ],
  "count_index": null,
  "options": {
@@ -32,15 +28,7 @@
    "id": "galerius",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "fatigued",
-     "source": "travel (hunger, fatigue)",
-     "rounds_left": null,
-     "since_round": 0,
-     "note": "1"
-    }
-   ],
+   "conditions": [],
    "group": "galerius",
    "perceived": "Galerius",
    "judge_set": {},
@@ -48,7 +36,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -184,8 +172,8 @@
      }
     ],
     "ac_options": {
-     "shield": 6,
-     "no_shield": 5,
+     "shield": 8,
+     "no_shield": 7,
      "dex_only": 0
     },
     "hp_max": 20,
@@ -202,30 +190,6 @@
        "long": 0
       },
       "held": "right hand"
-     },
-     {
-      "name": "Net",
-      "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "",
-      "range": {
-       "short": 10,
-       "medium": 15,
-       "long": 20
-      },
-      "held": "belt"
-     },
-     {
-      "name": "Sword",
-      "init_bonus": "",
-      "attack_throw": 7,
-      "damage": "1d6/1d8+4",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "backpack"
      }
     ],
     "save_mods_text": {},
@@ -249,9 +213,8 @@
    },
    "actor": "galerius",
    "hp_max": 20,
-   "hp": 20,
-   "hp_start": 20,
-   "attacked_round": 2
+   "hp": 4,
+   "hp_start": 4
   },
   "faustina": {
    "id": "faustina",
@@ -265,7 +228,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": 4,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -406,7 +369,7 @@
      "dex_only": 0
     },
     "hp_max": 15,
-    "movement_running": 120,
+    "movement_running": 90,
     "weapons": [
      {
       "name": "Staff",
@@ -450,8 +413,8 @@
    },
    "actor": "faustina",
    "hp_max": 15,
-   "hp": 15,
-   "hp_start": 15
+   "hp": 11,
+   "hp_start": 11
   },
   "callista": {
    "id": "callista",
@@ -465,7 +428,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -878,22 +841,14 @@
    },
    "actor": "corvus",
    "hp_max": 16,
-   "hp": 16,
-   "hp_start": 16
+   "hp": 10,
+   "hp_start": 10
   },
   "varro": {
    "id": "varro",
    "side": "party",
    "status": "active",
-   "conditions": [
-    {
-     "name": "fatigued",
-     "source": "travel (hunger, fatigue)",
-     "rounds_left": null,
-     "since_round": 0,
-     "note": "1"
-    }
-   ],
+   "conditions": [],
    "group": "varro",
    "perceived": "Varro",
    "judge_set": {},
@@ -901,7 +856,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": -1,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -910,7 +865,7 @@
     "name": "Varro",
     "actor": "varro",
     "kind": "henchman",
-    "level": 1,
+    "level": 2,
     "class": "Crusader",
     "size": "man-sized",
     "mods": {
@@ -1028,7 +983,7 @@
     ],
     "progression": "crusader/thief",
     "cleaves": [
-     0,
+     1,
      {
       "rule": "class.crusader.cleave",
       "note": "ACKS II Rules/03 Classes/Crusader.md",
@@ -1041,7 +996,7 @@
      "no_shield": 3,
      "dex_only": -2
     },
-    "hp_max": 3,
+    "hp_max": 5,
     "movement_running": 60,
     "weapons": [
      {
@@ -1085,9 +1040,9 @@
     "ac_mode": "shield"
    },
    "actor": "varro",
-   "hp_max": 3,
-   "hp": 3,
-   "hp_start": 3
+   "hp_max": 5,
+   "hp": 5,
+   "hp_start": 5
   },
   "hrodric": {
    "id": "hrodric",
@@ -1101,7 +1056,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1110,7 +1065,7 @@
     "name": "Hrodric",
     "actor": "hrodric",
     "kind": "pc",
-    "level": 3,
+    "level": 4,
     "class": "Shaman",
     "size": "man-sized",
     "mods": {
@@ -1228,7 +1183,7 @@
     ],
     "progression": "crusader/thief",
     "cleaves": [
-     1,
+     2,
      {
       "rule": "class.shaman.cleave",
       "note": "ACKS II Rules/03 Classes/Shaman.md",
@@ -1241,21 +1196,9 @@
      "no_shield": 3,
      "dex_only": 1
     },
-    "hp_max": 17,
+    "hp_max": 18,
     "movement_running": 90,
     "weapons": [
-     {
-      "name": "Spear",
-      "init_bonus": "",
-      "attack_throw": 9,
-      "damage": "1d6",
-      "range": {
-       "short": 30,
-       "medium": 60,
-       "long": 120
-      },
-      "held": "right hand"
-     },
      {
       "name": "Hand Axe",
       "init_bonus": "",
@@ -1266,7 +1209,7 @@
        "medium": 30,
        "long": 45
       },
-      "held": "belt"
+      "held": "right hand"
      },
      {
       "name": "Net",
@@ -1279,31 +1222,19 @@
        "long": 20
       },
       "held": "backpack"
-     },
-     {
-      "name": "Sword",
-      "init_bonus": "",
-      "attack_throw": 9,
-      "damage": "1d6/1d8",
-      "range": {
-       "short": 0,
-       "medium": 0,
-       "long": 0
-      },
-      "held": "backpack"
      }
     ],
     "save_mods_text": {},
     "initiative_sheet": null,
     "proficiencies": [
-     "Animal Training",
+     "Animal Training 2",
      "Command",
      "Adventuring",
      "Animal Husbandry"
     ],
     "proficiency_throws": {},
     "prof_throw_list": {
-     "animal training": "",
+     "animal training 2": "",
      "command": "",
      "adventuring": "",
      "animal husbandry": ""
@@ -1311,9 +1242,9 @@
     "ac_mode": "shield"
    },
    "actor": "hrodric",
-   "hp_max": 17,
-   "hp": 17,
-   "hp_start": 17
+   "hp_max": 18,
+   "hp": 16,
+   "hp_start": 16
   },
   "hrodric-eagle": {
    "id": "hrodric-eagle",
@@ -1327,7 +1258,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -1345,39 +1276,16 @@
         "talons"
        ],
        "raw": "2 (talons 12+)",
-       "throw": 9
-      }
-     ],
-     "damage": [
-      {
-       "pieces": [
-        {
-         "dice": "1d4+1",
-         "extraordinary": false,
-         "raw": "1d4+1",
-         "types": [
-          "slashing"
-         ]
-        },
-        {
-         "dice": "1d4",
-         "extraordinary": false,
-         "raw": "1d4",
-         "types": [
-          "slashing"
-         ]
-        }
-       ],
-       "raw": "1d4+1 / 1d4"
+       "throw": 8
       }
      ],
      "hd": {
-      "text": "2",
-      "dice": 2,
+      "text": "3",
+      "dice": 3,
       "half": false,
       "bonus": 0,
       "stars": 0,
-      "attack_hd": 2
+      "attack_hd": 3
      },
      "name": "Hrodric's eagle",
      "save_as": [
@@ -1386,13 +1294,13 @@
      ]
     }
    },
-   "hp_max": 8,
-   "hp": 5,
+   "hp_max": 12,
+   "hp": 9,
    "companion": {
     "owner": "hrodric",
     "actor": "hrodric-eagle"
    },
-   "hp_start": 5
+   "hp_start": 9
   },
   "quintus": {
    "id": "quintus",
@@ -1406,7 +1314,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 6,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1542,12 +1450,12 @@
      }
     ],
     "ac_options": {
-     "shield": 2,
-     "no_shield": 1,
+     "shield": 6,
+     "no_shield": 5,
      "dex_only": 0
     },
     "hp_max": 7,
-    "movement_running": 120,
+    "movement_running": 60,
     "weapons": [
      {
       "name": "Sword",
@@ -1560,6 +1468,18 @@
        "long": 0
       },
       "held": "right hand"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6/1d8+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "backpack"
      }
     ],
     "save_mods_text": {},
@@ -1585,7 +1505,7 @@
   "zaira": {
    "id": "zaira",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "zaira",
    "perceived": "Zaira",
@@ -1594,7 +1514,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1735,7 +1655,7 @@
      "dex_only": 2
     },
     "hp_max": 5,
-    "movement_running": 90,
+    "movement_running": 120,
     "weapons": [
      {
       "name": "Sword",
@@ -1767,8 +1687,8 @@
    },
    "actor": "zaira",
    "hp_max": 5,
-   "hp": 5,
-   "hp_start": 5
+   "hp": 1,
+   "hp_start": 1
   },
   "severina": {
    "id": "severina",
@@ -1777,12 +1697,14 @@
    "conditions": [],
    "group": "severina",
    "perceived": "Severina",
-   "judge_set": {},
+   "judge_set": {
+    "resist": "fire:both"
+   },
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 0,
+   "init": 1,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -1791,7 +1713,7 @@
     "name": "Severina",
     "actor": "severina",
     "kind": "pc",
-    "level": 2,
+    "level": 3,
     "class": "Venturer",
     "size": "man-sized",
     "mods": {
@@ -1869,7 +1791,7 @@
      ]
     },
     "attack_throw": [
-     10,
+     9,
      {
       "table": "venturer-attack-and-saving-throws",
       "title": "Venturer (Thief) Attack and Saving Throws",
@@ -1877,16 +1799,16 @@
       "block": "^tbl-venturer-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 41",
-      "row": 0
+      "row": 1
      }
     ],
     "saves": [
      {
-      "paralysis": 13,
-      "death": 13,
-      "blast": 13,
-      "implements": 14,
-      "spells": 15
+      "paralysis": 12,
+      "death": 12,
+      "blast": 12,
+      "implements": 13,
+      "spells": 14
      },
      {
       "table": "venturer-attack-and-saving-throws",
@@ -1895,7 +1817,7 @@
       "block": "^tbl-venturer-attack-and-saving-throws",
       "book": "RR",
       "page": "p. 41",
-      "row": 0
+      "row": 1
      }
     ],
     "hit_die": [
@@ -1922,13 +1844,13 @@
      "no_shield": 2,
      "dex_only": -1
     },
-    "hp_max": 11,
+    "hp_max": 17,
     "movement_running": 90,
     "weapons": [
      {
       "name": "Short Sword",
       "init_bonus": "",
-      "attack_throw": 10,
+      "attack_throw": 9,
       "damage": "1d6",
       "range": {
        "short": 0,
@@ -1940,7 +1862,7 @@
      {
       "name": "Short Bow",
       "init_bonus": "",
-      "attack_throw": 11,
+      "attack_throw": 10,
       "damage": "1d6",
       "range": {
        "short": 75,
@@ -1966,9 +1888,9 @@
     "ac_mode": "shield"
    },
    "actor": "severina",
-   "hp_max": 11,
-   "hp": 11,
-   "hp_start": 11
+   "hp_max": 17,
+   "hp": 17,
+   "hp_start": 17
   },
   "marius": {
    "id": "marius",
@@ -1982,7 +1904,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 3,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -2123,7 +2045,7 @@
      "dex_only": 1
     },
     "hp_max": 6,
-    "movement_running": 90,
+    "movement_running": 120,
     "weapons": [
      {
       "name": "Spear (broken shaft: as dagger)",
@@ -2177,31 +2099,27 @@
    },
    "actor": "marius",
    "hp_max": 6,
-   "hp": 2,
-   "hp_start": 2
+   "hp": 6,
+   "hp_start": 6
   },
   "zombie1": {
    "id": "zombie1",
    "side": "foe",
-   "status": "destroyed",
-   "conditions": [],
-   "group": "zombie",
-   "perceived": "shambling corpse 1",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    1,
-    1
+   "status": "fled",
+   "conditions": [
+    {
+     "name": "frightened",
+     "source": "rebuked by varro",
+     "rounds_left": 10,
+     "since_round": 2,
+     "note": "rebuked: flees from the crusader at running speed; cowers while it cannot flee"
+    }
    ],
-   "felled": {
-    "round": 1,
-    "types": [
-     "slashing"
-    ],
-    "natural": false,
-    "by": "fangs3",
-    "tier": "mundane",
-    "nonlethal": false
-   },
+   "group": "zombie",
+   "perceived": "walking corpse 1",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
    "cleaves_used": 0,
    "declared": {},
    "init": 3,
@@ -2214,44 +2132,71 @@
     "base": "zombie",
     "sha256": "198fdde649aa9725bb9de95e6eb12e7499d4d7ae63e749220a41d026a3a11e2c"
    },
-   "hp_max": 7,
-   "hp": -2,
-   "hp_start": 7,
-   "last_types": [
-    "slashing"
-   ],
-   "attacked_round": 1,
+   "hp_max": 13,
+   "hp": 13,
+   "hp_start": 13,
    "xp_recorded": {
-    "record": "M24",
-    "how": "killed",
-    "xp": 29
+    "judge": "outsmarted"
    }
   },
   "zombie2": {
    "id": "zombie2",
    "side": "foe",
-   "status": "destroyed",
-   "conditions": [],
-   "group": "zombie",
-   "perceived": "shambling corpse 2",
-   "judge_set": {},
-   "hp_lost_rounds": [
-    2
+   "status": "fled",
+   "conditions": [
+    {
+     "name": "frightened",
+     "source": "rebuked by varro",
+     "rounds_left": 10,
+     "since_round": 2,
+     "note": "rebuked: flees from the crusader at running speed; cowers while it cannot flee"
+    }
    ],
-   "felled": {
-    "round": 2,
-    "types": [
-     "piercing",
-     "slashing"
-    ],
-    "natural": false,
-    "by": "galerius",
-    "tier": "extraordinary",
-    "nonlethal": false
-   },
+   "group": "zombie",
+   "perceived": "walking corpse 2",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 5,
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Zombie",
+   "stats": {},
+   "monster": {
+    "base": "zombie",
+    "sha256": "198fdde649aa9725bb9de95e6eb12e7499d4d7ae63e749220a41d026a3a11e2c"
+   },
+   "hp_max": 9,
+   "hp": 9,
+   "hp_start": 9,
+   "xp_recorded": {
+    "judge": "outsmarted"
+   }
+  },
+  "zombie3": {
+   "id": "zombie3",
+   "side": "foe",
+   "status": "fled",
+   "conditions": [
+    {
+     "name": "frightened",
+     "source": "rebuked by varro",
+     "rounds_left": 10,
+     "since_round": 2,
+     "note": "rebuked: flees from the crusader at running speed; cowers while it cannot flee"
+    }
+   ],
+   "group": "zombie",
+   "perceived": "walking corpse 3",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
@@ -2262,196 +2207,11 @@
     "sha256": "198fdde649aa9725bb9de95e6eb12e7499d4d7ae63e749220a41d026a3a11e2c"
    },
    "hp_max": 3,
-   "hp": -6,
+   "hp": 3,
    "hp_start": 3,
-   "last_types": [
-    "piercing",
-    "slashing"
-   ],
    "xp_recorded": {
-    "record": "M24",
-    "how": "killed",
-    "xp": 29
+    "judge": "outsmarted"
    }
-  },
-  "fangs1": {
-   "id": "fangs1",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 1",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 10,
-   "hp": 10,
-   "hp_start": 10
-  },
-  "fangs2": {
-   "id": "fangs2",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 2",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 9,
-   "attacked_round": 1
-  },
-  "fangs3": {
-   "id": "fangs3",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 3",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 8,
-   "hp": 8,
-   "hp_start": 8,
-   "attacked_round": 1
-  },
-  "fangs4": {
-   "id": "fangs4",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 4",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 4,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 10,
-   "hp": 10,
-   "hp_start": 10,
-   "attacked_round": 1
-  },
-  "fangs5": {
-   "id": "fangs5",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 5",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 5,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 9,
-   "hp": 9,
-   "hp_start": 9,
-   "attacked_round": 1
-  },
-  "fangs6": {
-   "id": "fangs6",
-   "side": "party",
-   "status": "active",
-   "conditions": [],
-   "group": "fangs",
-   "perceived": "Black Fang gnoll 6",
-   "judge_set": {
-    "hp": "given",
-    "weapon": "Battle Axe"
-   },
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 3,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Gnoll",
-   "stats": {},
-   "monster": {
-    "base": "gnoll",
-    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
-   },
-   "hp_max": 8,
-   "hp": 8,
-   "hp_start": 8,
-   "attacked_round": 1
   }
  },
  "groups": {
@@ -2591,108 +2351,78 @@
    "side": "foe",
    "members": [
     "zombie1",
-    "zombie2"
+    "zombie2",
+    "zombie3"
    ],
    "morale": {
     "state": "steady",
     "rolls": [],
     "triggered": false
    },
-   "start_count": 2,
-   "felled_rounds": [
-    1,
-    2
-   ]
-  },
-  "fangs": {
-   "side": "party",
-   "members": [
-    "fangs1",
-    "fangs2",
-    "fangs3",
-    "fangs4",
-    "fangs5",
-    "fangs6"
-   ],
-   "morale": {
-    "state": "steady",
-    "rolls": [],
-    "triggered": false
-   },
-   "start_count": 6
+   "start_count": 3
   }
  },
  "engaged": [],
  "engaged_at_round_start": [],
  "distances": {
   "galerius|zombie1": 40,
-  "galerius|zombie2": 5,
-  "faustina|zombie1": 60,
-  "faustina|zombie2": 60,
-  "callista|zombie1": 60,
-  "callista|zombie2": 60,
-  "corvus|zombie1": 60,
-  "corvus|zombie2": 60,
-  "varro|zombie1": 60,
-  "varro|zombie2": 60,
-  "hrodric|zombie1": 60,
-  "hrodric|zombie2": 60,
-  "quintus|zombie1": 20,
-  "quintus|zombie2": 60,
-  "zaira|zombie1": 60,
-  "zaira|zombie2": 60,
-  "severina|zombie1": 60,
-  "severina|zombie2": 60,
-  "marius|zombie1": 60,
-  "marius|zombie2": 60,
-  "fangs4|zombie1": 5,
-  "fangs5|zombie1": 5,
-  "fangs2|zombie1": 5,
-  "fangs3|zombie1": 5,
-  "fangs6|zombie2": 5
+  "galerius|zombie2": 40,
+  "galerius|zombie3": 40,
+  "faustina|zombie1": 40,
+  "faustina|zombie2": 40,
+  "faustina|zombie3": 40,
+  "callista|zombie1": 40,
+  "callista|zombie2": 40,
+  "callista|zombie3": 40,
+  "corvus|zombie1": 40,
+  "corvus|zombie2": 40,
+  "corvus|zombie3": 40,
+  "varro|zombie1": 40,
+  "varro|zombie2": 40,
+  "varro|zombie3": 40,
+  "hrodric|zombie1": 10,
+  "hrodric|zombie2": 40,
+  "hrodric|zombie3": 40,
+  "quintus|zombie1": 40,
+  "quintus|zombie2": 40,
+  "quintus|zombie3": 40,
+  "zaira|zombie1": 40,
+  "zaira|zombie2": 40,
+  "zaira|zombie3": 40,
+  "severina|zombie1": 40,
+  "severina|zombie2": 40,
+  "severina|zombie3": 40,
+  "marius|zombie1": 40,
+  "marius|zombie2": 40,
+  "marius|zombie3": 40
  },
  "log": [],
- "encounter_id": "enc166",
+ "encounter_id": "enc174",
  "notes_shown": [],
+ "tactics": {
+  "zombie": {
+   "tactic": "close-and-attack"
+  }
+ },
  "orders": {
-  "fangs1": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs2": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs3": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs4": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs5": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
-  "fangs6": {
-   "tactic": "close-and-attack",
-   "group": null
-  },
   "galerius": {
-   "tactic": "close-and-attack",
+   "tactic": "hold",
    "group": null
   },
   "quintus": {
    "tactic": "close-and-attack",
    "group": null
   },
-  "zaira": {
+  "hrodric": {
    "tactic": "close-and-attack",
    "group": null
   },
-  "hrodric": {
-   "tactic": "close-and-attack",
+  "corvus": {
+   "tactic": "hold",
+   "group": null
+  },
+  "varro": {
+   "tactic": "hold",
    "group": null
   },
   "faustina": {
@@ -2703,19 +2433,11 @@
    "tactic": "hold",
    "group": null
   },
-  "marius": {
-   "tactic": "hold",
-   "group": null
-  },
-  "varro": {
-   "tactic": "hold",
-   "group": null
-  },
   "severina": {
    "tactic": "hold",
    "group": null
   },
-  "corvus": {
+  "marius": {
    "tactic": "hold",
    "group": null
   },
@@ -2724,12 +2446,7 @@
    "group": null
   }
  },
- "tactics": {
-  "zombie": {
-   "tactic": "close-and-attack"
-  }
- },
- "round_ended": 4,
+ "round_ended": 1,
  "retinue": {
   "varro": {
    "hp_triggered": false,
@@ -2741,17 +2458,13 @@
    "party_triggered": false,
    "calamity_queued": false
   },
-  "zaira": {
-   "hp_triggered": false,
-   "party_triggered": false,
-   "calamity_queued": false
-  },
   "marius": {
    "hp_triggered": false,
    "party_triggered": false,
    "calamity_queued": false
   }
  },
+ "rebuke_failed": {},
  "party_hp_written": [
   "galerius",
   "faustina",
@@ -2765,7 +2478,7 @@
   "marius"
  ],
  "ended": {
-  "round": 5,
+  "round": 2,
   "felled_foes": []
  }
 }

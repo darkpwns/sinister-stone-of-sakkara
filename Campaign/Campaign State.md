@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: summer
-    day: 139
-  time: 05:54
+    day: 141
+  time: 08:33
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; heavy rain; wind very strong (rainy, windy)
   place: Türos Tem
-  hex: '21.20'
+  hex: '20.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -22,12 +22,13 @@ public:
     hp: 8
     hp_max: 8
     conditions: []
-    spells_used: []
-    encumbrance_st: 6.683
+    spells_used:
+    - Slumber
+    encumbrance_st: 6.516
   - name: Corvus
     sheet: Characters/corvus.json
     role: pc
-    hp: 16
+    hp: 10
     hp_max: 16
     conditions: []
     spells_used: []
@@ -35,28 +36,32 @@ public:
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
-    hp: 15
+    hp: 11
     hp_max: 15
     conditions: []
-    spells_used: []
-    encumbrance_st: 4.953
+    spells_used:
+    - Halt Humanoids
+    - Cure Light Injury
+    - Cure Light Injury
+    encumbrance_st: 5.616
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 20
+    hp: 4
     hp_max: 20
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
     spells_used: []
-    encumbrance_st: 9.019
+    encumbrance_st: 8.853
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 18
+    hp: 16
     hp_max: 18
     conditions: []
-    spells_used: []
-    encumbrance_st: 6.034
+    spells_used:
+    - Holy Blessing
+    encumbrance_st: 5.034
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -64,7 +69,7 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 5.701
+    encumbrance_st: 5.368
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
@@ -88,24 +93,24 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 8.281
+    encumbrance_st: 7.614
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
-    hp: 5
+    hp: 1
     hp_max: 5
-    conditions: []
+    conditions:
+    - 'one hand bitten off: cannot dual-wield or use two-handed weapons (Mortal Wounds, day 141)'
     spells_used: []
-    encumbrance_st: 5.115
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 16 d, water 1 d; Callista: food 5 d, water 1 d; Corvus: food 6 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 11 d, water 1 d; Quintus: food 7 d, water 1 d; Zaira: food 8 d, water 1 d; Severina: food 11 d, water 1 d; Marius: food 16 d, water 1 d'
+    encumbrance_st: 4.782
+  light: lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
+  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 14 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 3 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 9 d, water 1 d; Quintus: food 6 d, water 1 d; Zaira: food 6 d, water 1 d (incapacitated); Severina: food 9 d, water 1 d; Marius: food 14 d, water 1 d'
   tracker: {}
   threads:
   - The Stone carried below by the stinking ones (troglodytes), south past the ghoul hole and the slime caves
   - The legate's remaining reward when the raids stop
   - The Lady's letter to a 'Lord of Secrets'
   trail:
-  - '22.20'
   - '21.20'
   - '20.19'
   - '19.19'
@@ -125,7 +130,8 @@ public:
   - '21.20'
   - '22.20'
   - '21.20'
-clock_day: 139
+  - '20.19'
+clock_day: 141
 ---
 # Campaign State
 

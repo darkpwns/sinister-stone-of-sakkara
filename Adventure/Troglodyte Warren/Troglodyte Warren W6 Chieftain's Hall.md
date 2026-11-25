@@ -19,7 +19,7 @@ A long cavern, sixty feet by forty, its roof lost in the dark twenty feet up. Bo
 ### Monsters
 - **Chieftain** ([[Troglodyte]] lair chieftain): AC 7, HD 6, 28 hp, natural attacks +3 (+2), a polished stone axe; 320 XP. Morale +2 to all while he lives. Stays by the Stone with the champions; fights to the death for it.
 - **Sub-chieftain**: AC 6, HD 4, 20 hp, +2 (+1), stone axe; 80 XP. Leads gang A to an alarm (3 rounds after a shriek from W3).
-- **Gang A** (the raiders of L2 38, healed by day 139): champion 16 hp (stone club), warriors 13, 12, 7, 4 hp. They know the company's faces.
+- **Gang A** (the raiders of L2 38): **after day 141 only two warriors** (2 and 7 hp on day 141, healing 1 a day) came back from the ambush on L2 26; the champion and one warrior died there, one warrior (13 hp) is the company's captive. They know the company's faces.
 - At rest they sleep in heaps around the alcove; one always watches the Stone.
 
 ### Treasure

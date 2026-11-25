@@ -1,9 +1,9 @@
 {
  "schema": "acks-exploration/3",
  "clock": {
-  "day": 139,
-  "round_of_day": 354,
-  "total_rounds": 198594
+  "day": 141,
+  "round_of_day": 513,
+  "total_rounds": 201633
  },
  "party": {
   "galerius": {
@@ -104,7 +104,7 @@
    "carrier": "callista",
    "lit": false,
    "closed": false,
-   "rounds_left": 8,
+   "rounds_left": 0,
    "tallow": false
   },
   {
@@ -113,7 +113,7 @@
    "carrier": "callista",
    "lit": false,
    "closed": false,
-   "rounds_left": 89,
+   "rounds_left": 0,
    "tallow": false
   },
   {
@@ -122,7 +122,7 @@
    "carrier": "callista",
    "lit": false,
    "closed": false,
-   "rounds_left": 161,
+   "rounds_left": 28,
    "tallow": false
   },
   {
@@ -227,89 +227,32 @@
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 0,
+  "rounds_since_rest": 20,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "21.20",
-  "kind": "wilderness"
+  "site": "Catacombs",
+  "kind": "dungeon",
+  "level": 2,
+  "room": "15",
+  "wandering": {
+   "none": true
+  },
+  "table": "Adventure/Tables/level2-wandering.yaml",
+  "source": {
+   "wandering": "area setting: 'none'"
+  }
  },
  "wandering": {
-  "turns_since_check": 0,
+  "turns_since_check": 1,
   "last_check": {
-   "at": "day 132 10:50",
-   "roll": 2,
+   "at": "day 141 08:20",
+   "roll": 5,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 131 07:20",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 131 07:40",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 131 08:00",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 06:10",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 06:10",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 06:30",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 06:50",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 07:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 07:30",
-    "roll": 1,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 07:50",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 08:10",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 132 08:30",
     "roll": 5,
@@ -363,13 +306,79 @@
     "roll": 2,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 140 14:00",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 140 14:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 140 14:40",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 141 06:00",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 141 06:20",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 141 06:40",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 141 07:00",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 141 07:20",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 141 07:40",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 141 08:00",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 141 08:20",
+    "roll": 5,
+    "target": 6,
+    "encounter": false
    }
   ],
-  "turn_start_done": 188810,
+  "turn_start_done": 201630,
   "pending_at": null
  },
  "turn_actions": {
-  "turn": 19859,
+  "turn": 20163,
   "listened": [],
   "actions": []
  },
@@ -412,6 +421,14 @@
   "139": {
    "delve_rounds": 0,
    "rest_rounds": 0
+  },
+  "140": {
+   "delve_rounds": 69,
+   "rest_rounds": 550
+  },
+  "141": {
+   "delve_rounds": 128,
+   "rest_rounds": 385
   }
  },
  "events": [
@@ -1314,19 +1331,37 @@
     "rest_rounds": 0
    },
    "carried_food": false
+  },
+  {
+   "event": "day_rollover",
+   "day": 140,
+   "previous": {
+    "delve_rounds": 0,
+    "rest_rounds": 0
+   },
+   "carried_food": false
+  },
+  {
+   "event": "day_rollover",
+   "day": 141,
+   "previous": {
+    "delve_rounds": 69,
+    "rest_rounds": 550
+   },
+   "carried_food": false
   }
  ],
  "next_ids": {
-  "enc": 168,
+  "enc": 174,
   "lantern": 12,
   "torch": 20,
-  "t": 2
+  "t": 3
  },
  "travel": {
   "hex_source": "/home/user/sinister-stone-of-sakkara/Campaign/campaign.yaml",
   "given": {},
-  "hex": "21.20",
-  "believed": "21.20",
+  "hex": "20.19",
+  "believed": "20.19",
   "lost": null,
   "season": "summer",
   "season_start": {
@@ -1338,31 +1373,21 @@
   "month_days": 30,
   "formation_width": 15,
   "pace": "normal",
-  "progress": {
-   "hex": "21.20",
-   "from": "22.20",
-   "hours_need": 16.0,
-   "hours_done": 0.8888888888888857,
-   "mph": 0.375,
-   "fac": 0.25,
-   "route": [
-    "20.19"
-   ]
-  },
+  "progress": null,
   "weather": {
    "R06.05": {
     "climate": "Cfb",
     "season": "summer",
     "rolls": {
-     "T": 7,
-     "P": 11,
-     "W": 12
+     "T": 8,
+     "P": 4,
+     "W": 7
     },
     "modified": {
-     "T": 10,
-     "T_night": 8,
-     "P": 10,
-     "W": 12
+     "T": 11,
+     "T_night": 9,
+     "P": 3,
+     "W": 7
     },
     "mods": {
      "T_day": 3,
@@ -1370,35 +1395,32 @@
      "P": -1,
      "W": 0
     },
-    "temp_day": "Warm (83 to 86 F)",
-    "temp_night": "Balmy (75 to 79 F)",
+    "temp_day": "Hot (87 to 90 F)",
+    "temp_night": "Warm (80 to 82 F)",
     "temp_cond": "moderate",
     "night_cond": "moderate",
-    "precip_table": "Rainy",
-    "precip": "rainy",
-    "wind": "Very Strong, Windy",
-    "conditions": [
-     "rainy",
-     "windy"
-    ],
+    "precip_table": "Clear",
+    "precip": "clear",
+    "wind": "Moderate",
+    "conditions": [],
     "fronts": [],
     "notes": [],
-    "day": 139,
+    "day": 140,
     "region": "R06.05"
    },
    "R05.05": {
     "climate": "Cfb",
     "season": "summer",
     "rolls": {
-     "T": 9,
-     "P": 6,
-     "W": 4
+     "T": 8,
+     "P": 4,
+     "W": 7
     },
     "modified": {
-     "T": 12,
-     "T_night": 10,
-     "P": 5,
-     "W": 4
+     "T": 11,
+     "T_night": 9,
+     "P": 3,
+     "W": 7
     },
     "mods": {
      "T_day": 3,
@@ -1406,18 +1428,19 @@
      "P": -1,
      "W": 0
     },
-    "temp_day": "Hot (91 to 94 F)",
-    "temp_night": "Warm (83 to 86 F)",
+    "temp_day": "Hot (87 to 90 F)",
+    "temp_night": "Warm (80 to 82 F)",
     "temp_cond": "moderate",
     "night_cond": "moderate",
-    "precip_table": "Mostly Cloudy",
-    "precip": "mostly",
-    "wind": "Still",
+    "precip_table": "Clear",
+    "precip": "clear",
+    "wind": "Moderate",
     "conditions": [],
     "fronts": [],
     "notes": [],
-    "day": 132,
-    "region": "R05.05"
+    "day": 140,
+    "region": "R05.05",
+    "kept_from": "R06.05"
    },
    "R06.06": {
     "climate": "Cfb",
@@ -1491,26 +1514,23 @@
   "weather_days": {
    "R06.05": {
     "modified": {
-     "T": 10,
-     "T_night": 8,
-     "P": 10,
-     "W": 12
+     "T": 11,
+     "T_night": 9,
+     "P": 3,
+     "W": 7
     },
-    "conditions": [
-     "rainy",
-     "windy"
-    ],
-    "day": 139
+    "conditions": [],
+    "day": 140
    },
    "R05.05": {
     "modified": {
-     "T": 12,
-     "T_night": 10,
-     "P": 5,
-     "W": 4
+     "T": 11,
+     "T_night": 9,
+     "P": 3,
+     "W": 7
     },
     "conditions": [],
-    "day": 132
+    "day": 140
    },
    "R06.06": {
     "modified": {
@@ -1537,7 +1557,7 @@
   },
   "ground": {
    "R06.05": {
-    "mud": true,
+    "mud": false,
     "snow": false
    },
    "R05.05": {
@@ -1555,7 +1575,7 @@
   },
   "members": {
    "galerius": {
-    "hp": 20,
+    "hp": 4,
     "hp_max": 20,
     "con": 10,
     "con_mod": 0,
@@ -1607,7 +1627,7 @@
      "heat_fatigued": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -1643,7 +1663,7 @@
     "vehicle": null
    },
    "faustina": {
-    "hp": 15,
+    "hp": 11,
     "hp_max": 15,
     "con": 16,
     "con_mod": 2,
@@ -1655,33 +1675,33 @@
     "food": [
      {
       "kind": "iron",
-      "days": 4.0,
-      "wild": 17.0,
-      "dungeon": 3.0
+      "days": 2.0,
+      "wild": 18.0,
+      "dungeon": 4.0
      },
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 9.0,
-      "dungeon": 2.0
+      "wild": 10.0,
+      "dungeon": 3.0
      },
      {
       "kind": "iron",
       "days": 1.0,
-      "wild": 9.0,
-      "dungeon": 2.0
+      "wild": 10.0,
+      "dungeon": 3.0
      },
      {
       "kind": "iron",
       "days": -2.0,
-      "wild": 6.0,
-      "dungeon": 0.0
+      "wild": 7.0,
+      "dungeon": 1.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 2.0,
-      "dungeon": 0.0
+      "wild": 3.0,
+      "dungeon": 1.0
      }
     ],
     "water": 1.0,
@@ -1725,7 +1745,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -1760,7 +1780,7 @@
     "pack": null
    },
    "hrodric": {
-    "hp": 18,
+    "hp": 16,
     "hp_max": 18,
     "con": 13,
     "con_mod": 1,
@@ -1772,15 +1792,15 @@
     "food": [
      {
       "kind": "iron",
-      "days": 4.0,
-      "wild": 17.0,
-      "dungeon": 3.0
+      "days": 2.0,
+      "wild": 18.0,
+      "dungeon": 4.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 2.0,
-      "dungeon": 0.0
+      "wild": 3.0,
+      "dungeon": 1.0
      }
     ],
     "water": 1.0,
@@ -1824,7 +1844,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -1868,14 +1888,7 @@
      "water": 0,
      "cold": 0
     },
-    "food": [
-     {
-      "kind": "iron",
-      "days": 5.0,
-      "wild": 9.0,
-      "dungeon": 2.0
-     }
-    ],
+    "food": [],
     "water": 1.0,
     "firewood": 0.0,
     "hist": {
@@ -1917,7 +1930,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -1952,7 +1965,7 @@
     "pack": null
    },
    "corvus": {
-    "hp": 16,
+    "hp": 10,
     "hp_max": 16,
     "con": 13,
     "con_mod": 1,
@@ -1964,9 +1977,9 @@
     "food": [
      {
       "kind": "iron",
-      "days": 6.0,
-      "wild": 9.0,
-      "dungeon": 2.0
+      "days": 3.0,
+      "wild": 10.0,
+      "dungeon": 3.0
      }
     ],
     "water": 1.0,
@@ -2010,7 +2023,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2139,15 +2152,15 @@
     "food": [
      {
       "kind": "iron",
-      "days": 4.0,
-      "wild": 9.0,
-      "dungeon": 2.0
+      "days": 2.0,
+      "wild": 10.0,
+      "dungeon": 3.0
      },
      {
       "kind": "iron",
       "days": 7.0,
-      "wild": 2.0,
-      "dungeon": 0.0
+      "wild": 3.0,
+      "dungeon": 1.0
      }
     ],
     "water": 1.0,
@@ -2191,7 +2204,7 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2238,39 +2251,39 @@
     "food": [
      {
       "kind": "iron",
-      "days": 3.0,
-      "wild": 17.0,
-      "dungeon": 3.0
+      "days": 1.0,
+      "wild": 18.0,
+      "dungeon": 4.0
      },
      {
       "kind": "iron",
       "days": 6.0,
-      "wild": 17.0,
-      "dungeon": 3.0
+      "wild": 18.0,
+      "dungeon": 4.0
      },
      {
       "kind": "iron",
       "days": 2.0,
-      "wild": 17.0,
+      "wild": 18.0,
+      "dungeon": 4.0
+     },
+     {
+      "kind": "iron",
+      "days": -1.0,
+      "wild": 16.0,
+      "dungeon": 3.0
+     },
+     {
+      "kind": "iron",
+      "days": 7.0,
+      "wild": 10.0,
       "dungeon": 3.0
      },
      {
       "kind": "iron",
       "days": -1.0,
-      "wild": 15.0,
-      "dungeon": 2.0
-     },
-     {
-      "kind": "iron",
-      "days": 7.0,
       "wild": 9.0,
-      "dungeon": 2.0
-     },
-     {
-      "kind": "iron",
-      "days": -1.0,
-      "wild": 8.0,
-      "dungeon": 2.0
+      "dungeon": 3.0
      }
     ],
     "water": 1.0,
@@ -2664,7 +2677,7 @@
      "heat_fatigued": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2711,9 +2724,9 @@
     "food": [
      {
       "kind": "iron",
-      "days": 7.0,
-      "wild": 2.0,
-      "dungeon": 0.0
+      "days": 6.0,
+      "wild": 3.0,
+      "dungeon": 1.0
      }
     ],
     "water": 1.0,
@@ -2758,7 +2771,7 @@
      "heat_fatigued": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
     "bed_rest": 0,
@@ -2793,7 +2806,7 @@
     "pack": null
    },
    "zaira": {
-    "hp": 5,
+    "hp": 1,
     "hp_max": 5,
     "con": 11,
     "con_mod": 0,
@@ -2805,15 +2818,9 @@
     "food": [
      {
       "kind": "iron",
-      "days": 1.0,
-      "wild": 17.0,
+      "days": 6.0,
+      "wild": 10.0,
       "dungeon": 3.0
-     },
-     {
-      "kind": "iron",
-      "days": 7.0,
-      "wild": 9.0,
-      "dungeon": 2.0
      }
     ],
     "water": 1.0,
@@ -2857,10 +2864,10 @@
      "hypothermic": false
     },
     "underfed_hist": [],
-    "strenuous_run": 2,
+    "strenuous_run": 4,
     "forced_run": 0,
     "sleep_due": null,
-    "bed_rest": 0,
+    "bed_rest": 7,
     "protective": null,
     "wet": false,
     "native": null,
@@ -4359,7 +4366,13 @@
    },
    "139": {
     "_party": {
-     "nav": null,
+     "nav": {
+      "thrown": true,
+      "ok": true,
+      "natural": 10,
+      "total": 12,
+      "target": 6
+     },
      "water_tried": false,
      "weather_regions": [
       "R06.05",
@@ -4368,179 +4381,421 @@
      "encounter_checks": []
     },
     "galerius": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "faustina": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 16.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 16.0
     },
     "callista": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 16.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 16.0
     },
     "corvus": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "varro": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "hrodric": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "quintus": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "zaira": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "severina": {
-     "travel_hours": 0.0,
+     "travel_hours": 8.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "travel",
      "ancillary": 0,
-     "strenuous": false,
+     "strenuous": true,
      "rest": false,
-     "outdoor_hours": 0.0,
+     "outdoor_hours": 8.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 12.0,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "drank_at_source": true,
+     "slept_restful": 12.0
     },
     "marius": {
+     "travel_hours": 8.0,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 8.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 12.0,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 12.0
+    },
+    "lupa": {
      "travel_hours": 0.0,
      "forced": false,
-     "dedicated": null,
+     "dedicated": "rest",
      "ancillary": 0,
      "strenuous": false,
-     "rest": false,
+     "rest": true,
      "outdoor_hours": 0.0,
      "ration": null,
      "water_ration": null,
      "forage": false,
      "interrupt_rounds": 0,
-     "sleep_hours": 0.0,
+     "sleep_hours": 8,
      "cared_by": null,
      "hunted": false,
-     "drank_at_source": true
+     "in_settlement": true,
+     "slept_restful": 8
+    }
+   },
+   "140": {
+    "galerius": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "faustina": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "callista": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "corvus": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "varro": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "hrodric": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "quintus": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "zaira": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "severina": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "marius": {
+     "travel_hours": 7.777777777777779,
+     "forced": false,
+     "dedicated": "travel",
+     "ancillary": 0,
+     "strenuous": true,
+     "rest": false,
+     "outdoor_hours": 7.777777777777779,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "drank_at_source": true,
+     "slept_restful": 8
+    },
+    "_party": {
+     "nav": {
+      "thrown": true,
+      "ok": true,
+      "natural": 12,
+      "total": 16,
+      "target": 6
+     },
+     "water_tried": false,
+     "weather_regions": [
+      "R06.05",
+      "R05.05"
+     ],
+     "encounter_checks": []
+    },
+    "lupa": {
+     "travel_hours": 0.0,
+     "forced": false,
+     "dedicated": "rest",
+     "ancillary": 0,
+     "strenuous": false,
+     "rest": true,
+     "outdoor_hours": 0.0,
+     "ration": null,
+     "water_ration": null,
+     "forage": false,
+     "interrupt_rounds": 0,
+     "sleep_hours": 8,
+     "cared_by": null,
+     "hunted": false,
+     "in_settlement": true,
+     "slept_restful": 8
     }
    }
   },
   "trail": [
-   "20.19",
    "21.20",
    "22.20",
    "21.20",
@@ -4579,7 +4834,8 @@
    "20.19",
    "21.20",
    "22.20",
-   "21.20"
+   "21.20",
+   "20.19"
   ],
   "visited": [
    "22.20",
@@ -4613,11 +4869,6 @@
   "vehicles": {},
   "weather_hist": {
    "R06.05": [
-    {
-     "day": 133,
-     "conditions": [],
-     "temp": "moderate"
-    },
     {
      "day": 134,
      "conditions": [
@@ -4671,16 +4922,14 @@
       "windy"
      ],
      "temp": "moderate"
+    },
+    {
+     "day": 140,
+     "conditions": [],
+     "temp": "moderate"
     }
    ],
    "R05.05": [
-    {
-     "day": 107,
-     "conditions": [
-      "drizzly"
-     ],
-     "temp": "moderate"
-    },
     {
      "day": 108,
      "conditions": [
@@ -4729,6 +4978,11 @@
     },
     {
      "day": 132,
+     "conditions": [],
+     "temp": "moderate"
+    },
+    {
+     "day": 140,
      "conditions": [],
      "temp": "moderate"
     }
@@ -4824,54 +5078,6 @@
   "night_pending": null
  },
  "past_encounters": [
-  {
-   "id": "enc149",
-   "at": "day 121 15:50",
-   "monster_name": "Kobold",
-   "number": 4,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
-   "id": "enc150",
-   "at": "day 122 06:20",
-   "monster_name": "Kobold",
-   "number": 8,
-   "reaction": "intimidated",
-   "status": "reaction"
-  },
-  {
-   "id": "enc151",
-   "at": "day 122 06:57",
-   "monster_name": "Ur-Shet (Sakkara)",
-   "number": 1,
-   "reaction": "friendly",
-   "status": "reaction"
-  },
-  {
-   "id": "enc152",
-   "at": "day 122 07:22",
-   "monster_name": "Ur-Namu (Sakkara)",
-   "number": 1,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc153",
-   "at": "day 122 08:34",
-   "monster_name": "Ur-Namu (captive)",
-   "number": 1,
-   "reaction": "intimidated",
-   "status": "reaction"
-  },
-  {
-   "id": "enc154",
-   "at": "day 123 14:14",
-   "monster_name": "Zombie",
-   "number": 18,
-   "reaction": "unfriendly",
-   "status": "reaction"
-  },
   {
    "id": "enc155",
    "at": "day 123 14:14",
@@ -4983,6 +5189,55 @@
    "number": 1,
    "reaction": "neutral",
    "status": "reaction"
+  },
+  {
+   "id": "enc169",
+   "at": "day 140 05:00",
+   "monster_name": "Small Herd Animal",
+   "number": 24,
+   "reaction": null,
+   "status": "begun",
+   "unplayed": "a flock of 24 sheep with a shepherd boy drifting past the camp at dawn; Varro waved, the boy waved back; nothing to resolve"
+  },
+  {
+   "id": "enc170",
+   "at": "day 140 15:00",
+   "monster_name": "Ur-Shet",
+   "number": 1,
+   "reaction": "indifferent",
+   "status": "reaction"
+  },
+  {
+   "id": "enc171",
+   "at": "day 141 06:20",
+   "monster_name": "Brigand",
+   "number": 4,
+   "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc172",
+   "at": "day 141 06:35",
+   "monster_name": "Abomination (Sakkara)",
+   "number": 1,
+   "reaction": null,
+   "status": "fighting"
+  },
+  {
+   "id": "enc173",
+   "at": "day 141 06:40",
+   "monster_name": "Troglodyte",
+   "number": 5,
+   "reaction": "hostile",
+   "status": "fighting"
+  },
+  {
+   "id": "enc174",
+   "at": "day 141 08:00",
+   "monster_name": "Zombie",
+   "number": 3,
+   "reaction": null,
+   "status": "fighting"
   }
  ],
  "staying": {
