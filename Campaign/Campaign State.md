@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 15
+session: 16
 mode: wilderness
 location: 21.20 (camp at the freeholder's well, on the road to the temple)
 adventure: none open (A11 paid out day 133; A12 starts at the temple)
