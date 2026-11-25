@@ -1,13 +1,13 @@
 {
  "campaign": "Sakkara Run 2",
  "session": 16,
- "generated": 1795598840,
+ "generated": 1795599151,
  "date": {
   "year": "",
   "season": "summer",
   "day": 143
  },
- "time": "05:33",
+ "time": "08:25",
  "weather": "Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; heavy rain; wind very strong (rainy, windy)",
  "place": "Türos Tem",
  "hex": "20.19",
@@ -19,7 +19,10 @@
    "hp": 8,
    "hp_max": 8,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Slumber",
+    "Slumber"
+   ],
    "encumbrance_st": 6.516
   },
   {
@@ -30,7 +33,7 @@
    "hp_max": 16,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 7.535
+   "encumbrance_st": 7.369
   },
   {
    "name": "Faustina",
@@ -39,14 +42,18 @@
    "hp": 15,
    "hp_max": 15,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Halt Humanoids",
+    "Halt Humanoids",
+    "Cure Light Injury"
+   ],
    "encumbrance_st": 5.616
   },
   {
    "name": "Galerius",
    "sheet": "Characters/galerius.json",
    "role": "pc",
-   "hp": 20,
+   "hp": 14,
    "hp_max": 20,
    "conditions": [
     "gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)"
@@ -58,10 +65,12 @@
    "name": "Hrodric",
    "sheet": "Characters/hrodric.json",
    "role": "pc",
-   "hp": 18,
+   "hp": 14,
    "hp_max": 18,
    "conditions": [],
-   "spells_used": [],
+   "spells_used": [
+    "Holy Blessing"
+   ],
    "encumbrance_st": 5.034
   },
   {
@@ -117,8 +126,8 @@
    "encumbrance_st": 4.782
   }
  ],
- "light": "lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out",
- "rations": "Galerius: food 0 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 4 d, water 1 d; Zaira: food 4 d, water 1 d (incapacitated); Severina: food 7 d, water 1 d; Marius: food 4 d, water 1 d",
+ "light": "torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out | winded: Galerius, Faustina, Callista, Corvus, Varro, Hrodric, Quintus, Severina, Marius",
+ "rations": "Galerius: food 0 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 4 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 4 d, water 1 d",
  "tracker": {},
  "threads": [
   "The Stone carried below by the stinking ones (troglodytes), south past the ghoul hole and the slime caves",
@@ -596,11 +605,11 @@
       "Iron draconic-eye unholy symbol (copy)",
       "Rope, 50'",
       "Waterskin ×5",
-      "arrow ×31",
+      "arrow ×19",
       "iron spike ×6",
       "torch ×6"
      ],
-     "items": 15,
+     "items": 14,
      "stone": 1
     },
     "sack": {
@@ -621,7 +630,7 @@
     "sp": 22,
     "cp": 30
    },
-   "encumbrance_st": 7.535,
+   "encumbrance_st": 7.369,
    "weapons": [
     {
      "name": "Short Bow",
@@ -3306,175 +3315,7 @@
  ],
  "open_rolls": [
   {
-   "label": "Quintus death save",
-   "spec": "1d20-1",
-   "rolls": [
-    5
-   ],
-   "total": 4
-  },
-  {
-   "label": "Galerius death save",
-   "spec": "1d20+1",
-   "rolls": [
-    20
-   ],
-   "total": 21
-  },
-  {
-   "label": "Mortal Wounds Zaira d20",
-   "spec": "1d20",
-   "rolls": [
-    8
-   ],
-   "total": 8
-  },
-  {
-   "label": "Mortal Wounds Zaira d6",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Cure Light Injury on zaira",
-   "spec": "1d6+1",
-   "rolls": [
-    3
-   ],
-   "total": 4
-  },
-  {
-   "label": "Galerius surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Faustina surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Callista surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Corvus surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Varro surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Hrodric surprise",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "Quintus surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "Severina surprise",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "Marius surprise",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Varro",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Hrodric",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Hrodric's eagle",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Quintus",
+   "label": "init Ur-Shet (Sakkara)",
    "spec": "1d6",
    "rolls": [
     1
@@ -3482,232 +3323,397 @@
    "total": 1
   },
   {
-   "label": "init Severina",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Marius",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Galerius",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Faustina",
-   "spec": "1d6",
-   "rolls": [
-    4
-   ],
-   "total": 4
-  },
-  {
-   "label": "init Callista",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Corvus",
-   "spec": "1d6",
-   "rolls": [
-    6
-   ],
-   "total": 6
-  },
-  {
-   "label": "init Varro",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Hrodric",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Hrodric's eagle",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "init Quintus",
-   "spec": "1d6",
-   "rolls": [
-    1
-   ],
-   "total": 1
-  },
-  {
-   "label": "init Severina",
-   "spec": "1d6",
-   "rolls": [
-    2
-   ],
-   "total": 2
-  },
-  {
-   "label": "init Marius",
-   "spec": "1d6",
-   "rolls": [
-    5
-   ],
-   "total": 5
-  },
-  {
-   "label": "rebuking throw Varro",
-   "spec": "1d20",
+   "label": "attack Marius vs scaly man with a club 2",
+   "spec": "1d20+3",
    "rolls": [
     17
    ],
-   "total": 17
+   "total": 20
   },
   {
-   "label": "rebuking Hit Dice Varro",
-   "spec": "2d6",
+   "label": "damage to scaly man with a club 2",
+   "spec": "2d4",
    "rolls": [
     1,
-    5
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "attack Gnoll vs scaly man with a club 2",
+   "spec": "1d20",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "attack Hrodric vs scaly man with a club 1",
+   "spec": "1d20",
+   "rolls": [
+    14
+   ],
+   "total": 14
+  },
+  {
+   "label": "damage to scaly man with a club 1",
+   "spec": "1d6",
+   "rolls": [
+    6
    ],
    "total": 6
   },
   {
-   "label": "Cure Light Injury on galerius",
+   "label": "attack Gnoll vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    16
+   ],
+   "total": 18
+  },
+  {
+   "label": "damage to scaly crested man 3",
    "spec": "1d6+1",
    "rolls": [
-    6
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "attack Ur-Shet (Sakkara) vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    14
+   ],
+   "total": 16
+  },
+  {
+   "label": "damage to scaly crested man 3",
+   "spec": "1d6+2",
+   "rolls": [
+    5
    ],
    "total": 7
   },
   {
-   "label": "Cure Light Injury on galerius",
-   "spec": "1d6+1",
+   "label": "Severina death save",
+   "spec": "1d20-1",
+   "rolls": [
+    10
+   ],
+   "total": 9
+  },
+  {
+   "label": "attack Severina vs scaly man with a club 2",
+   "spec": "1d20",
    "rolls": [
     5
-   ],
-   "total": 6
-  },
-  {
-   "label": "Cure Light Injury on galerius",
-   "spec": "1d6+1",
-   "rolls": [
-    3
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather temperature (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    3
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather precipitation (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    2,
-    1
-   ],
-   "total": 3
-  },
-  {
-   "label": "weather wind (R05.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    1
    ],
    "total": 5
   },
   {
-   "label": "Cure Light Injury on corvus",
-   "spec": "1d6+1",
+   "label": "init Galerius",
+   "spec": "1d6",
    "rolls": [
-    2
-   ],
-   "total": 3
-  },
-  {
-   "label": "Cure Light Injury on faustina",
-   "spec": "1d6+1",
-   "rolls": [
-    5
-   ],
-   "total": 6
-  },
-  {
-   "label": "Cure Light Injury on hrodric",
-   "spec": "1d6+1",
-   "rolls": [
-    3
+    4
    ],
    "total": 4
   },
   {
-   "label": "galerius natural healing",
-   "spec": "1d3",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "faustina natural healing",
-   "spec": "1d3",
+   "label": "init Faustina",
+   "spec": "1d6",
    "rolls": [
     2
    ],
    "total": 2
   },
   {
-   "label": "corvus natural healing",
-   "spec": "1d3",
+   "label": "init Callista",
+   "spec": "1d6",
    "rolls": [
     3
    ],
    "total": 3
   },
   {
-   "label": "hrodric natural healing",
-   "spec": "1d3",
-   "rolls": [
-    3
-   ],
-   "total": 3
-  },
-  {
-   "label": "zaira natural healing",
-   "spec": "1d3",
+   "label": "init Corvus",
+   "spec": "1d6",
    "rolls": [
     2
    ],
    "total": 2
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Hrodric's eagle",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Ur-Shet (Sakkara)",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Gnoll vs scaly man with a club 2",
+   "spec": "1d20",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "attack Marius vs scaly man with a club 2",
+   "spec": "1d20+3",
+   "rolls": [
+    5
+   ],
+   "total": 8
+  },
+  {
+   "label": "attack Ur-Shet (Sakkara) vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    3
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Gnoll vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "init Galerius",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Faustina",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Callista",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "init Corvus",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Varro",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Hrodric",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Hrodric's eagle",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Quintus",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "init Severina",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "init Marius",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "init Gnoll",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "init Ur-Shet (Sakkara)",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "attack Gnoll vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    5
+   ],
+   "total": 7
+  },
+  {
+   "label": "attack Gnoll vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    17
+   ],
+   "total": 19
+  },
+  {
+   "label": "damage to scaly crested man 3",
+   "spec": "1d6+1",
+   "rolls": [
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "attack Ur-Shet (Sakkara) vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    8
+   ],
+   "total": 10
+  },
+  {
+   "label": "attack Severina vs scaly crested man 3",
+   "spec": "1d20+2",
+   "rolls": [
+    16
+   ],
+   "total": 18
+  },
+  {
+   "label": "damage to scaly crested man 3",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
   }
  ],
  "rumours_heard": [

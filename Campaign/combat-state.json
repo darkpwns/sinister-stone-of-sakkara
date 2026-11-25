@@ -1,18 +1,3753 @@
 {
  "schema": "acks-combat/3",
- "round": 0,
- "order": [],
- "count_index": null,
+ "round": 20,
+ "order": [
+  "faustina",
+  "fangs3",
+  "fangs1",
+  "fangs2",
+  "ur-shet",
+  "callista",
+  "troglodyte7",
+  "varro",
+  "quintus",
+  "hrodric",
+  "hrodric-eagle",
+  "marius",
+  "galerius",
+  "corvus",
+  "severina"
+ ],
+ "count_index": 14,
  "options": {
   "group_initiative": false,
   "party_sides": [
    "party"
   ]
  },
- "combatants": {},
- "groups": {},
+ "combatants": {
+  "galerius": {
+   "id": "galerius",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM p. 317 Troglodyte)",
+     "rounds_left": null,
+     "since_round": 2,
+     "note": null
+    }
+   ],
+   "group": "galerius",
+   "perceived": "Galerius",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2,
+    3,
+    3,
+    4,
+    4,
+    7
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Galerius",
+   "stats": {
+    "name": "Galerius",
+    "actor": "galerius",
+    "kind": "pc",
+    "level": 3,
+    "class": "Fighter",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CHA": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ]
+    },
+    "attack_throw": [
+     9,
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 12,
+      "death": 13,
+      "blast": 14,
+      "implements": 15,
+      "spells": 16
+     },
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 1
+     }
+    ],
+    "hit_die": [
+     "1d8",
+     {
+      "rule": "class.fighter.hit_die",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     3,
+     {
+      "rule": "class.fighter.cleave",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 8,
+     "no_shield": 7,
+     "dex_only": 0
+    },
+    "hp_max": 20,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 7,
+      "damage": "1d6+4",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Fighting Style Specialization",
+     "Leadership",
+     "Adventuring",
+     "Animal Training",
+     "Riding"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "fighting style specialization": "",
+     "leadership": "",
+     "adventuring": "",
+     "animal training": "",
+     "riding": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "galerius",
+   "hp_max": 20,
+   "hp": 14,
+   "hp_start": 20,
+   "aura_counts": {
+    "stench": 13
+   },
+   "attacked_round": 19,
+   "last_types": [
+    "slashing"
+   ],
+   "acted_round": 20
+  },
+  "faustina": {
+   "id": "faustina",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM p. 317 Troglodyte)",
+     "rounds_left": null,
+     "since_round": 11,
+     "note": null
+    }
+   ],
+   "group": "faustina",
+   "perceived": "Faustina",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    3,
+    4,
+    4,
+    5,
+    5
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Faustina",
+   "stats": {
+    "name": "Faustina",
+    "actor": "faustina",
+    "kind": "pc",
+    "level": 3,
+    "class": "Priestess",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "priestess-attack-throws",
+      "title": "Priestess (Mage) Attack Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-attack-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 12,
+      "death": 9,
+      "blast": 15,
+      "implements": 12,
+      "spells": 14
+     },
+     {
+      "table": "priestess-saving-throws",
+      "title": "Priestess (Crusader) Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "block": "^tbl-priestess-saving-throws",
+      "book": "RR",
+      "page": "p. 65",
+      "row": 1
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.priestess.hit_die",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.priestess.cleave",
+      "note": "ACKS II Rules/03 Classes/Priestess.md",
+      "book": "RR",
+      "page": "p. 64"
+     }
+    ],
+    "ac_options": {
+     "shield": 0,
+     "no_shield": 0,
+     "dex_only": 0
+    },
+    "hp_max": 15,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4-1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Healing",
+     "Adventuring",
+     "Animal Husbandry"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "healing": "",
+     "adventuring": "",
+     "animal husbandry": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "faustina",
+   "hp_max": 15,
+   "hp": 15,
+   "hp_start": 15,
+   "spells_cast": {
+    "halt humanoids": 2,
+    "cure light injury": 1
+   },
+   "last_types": [
+    "slashing"
+   ],
+   "attacked_round": 5,
+   "aura_counts": {
+    "stench": 5
+   },
+   "acted_round": 20
+  },
+  "callista": {
+   "id": "callista",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "callista",
+   "perceived": "Callista",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Callista",
+   "stats": {
+    "name": "Callista",
+    "actor": "callista",
+    "kind": "pc",
+    "level": 3,
+    "class": "Mage",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "INT": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 13,
+      "blast": 15,
+      "implements": 11,
+      "spells": 12
+     },
+     {
+      "table": "mage-attack-and-saving-throws",
+      "title": "Mage Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "block": "^tbl-mage-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 35",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.mage.hit_die",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "progression": "mage",
+    "cleaves": [
+     0,
+     {
+      "rule": "class.mage.cleave",
+      "note": "ACKS II Rules/03 Classes/Mage.md",
+      "book": "RR",
+      "page": "p. 34"
+     }
+    ],
+    "ac_options": {
+     "shield": 0,
+     "no_shield": 0,
+     "dex_only": 0
+    },
+    "hp_max": 8,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Staff",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4-1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Dagger",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4-1",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Alchemy",
+     "Adventuring",
+     "Naturalism",
+     "Healing"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "alchemy": "",
+     "adventuring": "",
+     "naturalism": "",
+     "healing": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "callista",
+   "hp_max": 8,
+   "hp": 8,
+   "hp_start": 8,
+   "spells_cast": {
+    "slumber": 2
+   },
+   "acted_round": 20
+  },
+  "corvus": {
+   "id": "corvus",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "corvus",
+   "perceived": "Corvus",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Corvus",
+   "stats": {
+    "name": "Corvus",
+    "actor": "corvus",
+    "kind": "pc",
+    "level": 3,
+    "class": "Explorer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     9,
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 12,
+      "death": 13,
+      "blast": 14,
+      "implements": 15,
+      "spells": 16
+     },
+     {
+      "table": "explorer-attack-and-saving-throws",
+      "title": "Explorer (Fighter) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "block": "^tbl-explorer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 1
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.explorer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 26"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     3,
+     {
+      "rule": "class.explorer.cleave",
+      "note": "ACKS II Rules/03 Classes/Explorer.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 0
+    },
+    "hp_max": 16,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+2",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "right hand, two-handed"
+     },
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Bola",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d2+2",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     },
+     {
+      "name": "Net",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "",
+      "range": {
+       "short": 10,
+       "medium": 15,
+       "long": 20
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Beast Friendship",
+     "Naturalism",
+     "Adventuring",
+     "Trapping"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "beast friendship": "",
+     "naturalism": "",
+     "adventuring": "",
+     "trapping": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "corvus",
+   "hp_max": 16,
+   "hp": 13,
+   "hp_start": 13,
+   "attacked_round": 16,
+   "acted_round": 20
+  },
+  "varro": {
+   "id": "varro",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "varro",
+   "perceived": "Varro",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Varro",
+   "stats": {
+    "name": "Varro",
+    "actor": "varro",
+    "kind": "henchman",
+    "level": 2,
+    "class": "Crusader",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      -2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 1
+      }
+     ],
+     "CON": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "crusader-attack-and-saving-throws",
+      "title": "Crusader Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "block": "^tbl-crusader-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 37",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 10,
+      "blast": 16,
+      "implements": 13,
+      "spells": 15
+     },
+     {
+      "table": "crusader-attack-and-saving-throws",
+      "title": "Crusader Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "block": "^tbl-crusader-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 37",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.crusader.hit_die",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "book": "RR",
+      "page": "p. 36"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     1,
+     {
+      "rule": "class.crusader.cleave",
+      "note": "ACKS II Rules/03 Classes/Crusader.md",
+      "book": "RR",
+      "page": "p. 36"
+     }
+    ],
+    "ac_options": {
+     "shield": 4,
+     "no_shield": 3,
+     "dex_only": -2
+    },
+    "hp_max": 5,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Mace",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Mace",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6/1d8+1",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "sack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": -2,
+    "proficiencies": [
+     "Divine Blessing",
+     "Adventuring",
+     "Theology"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "divine blessing": "",
+     "adventuring": "",
+     "theology": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "varro",
+   "hp_max": 5,
+   "hp": 5,
+   "hp_start": 5,
+   "attacked_round": 18,
+   "acted_round": 20
+  },
+  "hrodric": {
+   "id": "hrodric",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM p. 317 Troglodyte)",
+     "rounds_left": null,
+     "since_round": 10,
+     "note": null
+    }
+   ],
+   "group": "hrodric",
+   "perceived": "Hrodric",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    12,
+    13,
+    18
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Hrodric",
+   "stats": {
+    "name": "Hrodric",
+    "actor": "hrodric",
+    "kind": "pc",
+    "level": 4,
+    "class": "Shaman",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     9,
+     {
+      "table": "shaman-attack-and-saving-throws",
+      "title": "Shaman (Crusader) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "block": "^tbl-shaman-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 69",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 12,
+      "death": 9,
+      "blast": 15,
+      "implements": 12,
+      "spells": 14
+     },
+     {
+      "table": "shaman-attack-and-saving-throws",
+      "title": "Shaman (Crusader) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "block": "^tbl-shaman-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 69",
+      "row": 1
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.shaman.hit_die",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "book": "RR",
+      "page": "p. 68"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     2,
+     {
+      "rule": "class.shaman.cleave",
+      "note": "ACKS II Rules/03 Classes/Shaman.md",
+      "book": "RR",
+      "page": "p. 68"
+     }
+    ],
+    "ac_options": {
+     "shield": 3,
+     "no_shield": 3,
+     "dex_only": 1
+    },
+    "hp_max": 18,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Hand Axe",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Net",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "",
+      "range": {
+       "short": 10,
+       "medium": 15,
+       "long": 20
+      },
+      "held": "backpack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Animal Training 2",
+     "Command",
+     "Adventuring",
+     "Animal Husbandry"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "animal training 2": "",
+     "command": "",
+     "adventuring": "",
+     "animal husbandry": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "hrodric",
+   "hp_max": 18,
+   "hp": 14,
+   "hp_start": 18,
+   "aura_counts": {
+    "stench": 5
+   },
+   "attacked_round": 18,
+   "last_types": [
+    "slashing"
+   ],
+   "acted_round": 20
+  },
+  "hrodric-eagle": {
+   "id": "hrodric-eagle",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "hrodric-eagle",
+   "perceived": "Hrodric's eagle",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Hrodric's eagle",
+   "stats": {},
+   "monster": {
+    "base": "medium-raptor",
+    "sha256": "4ed8a16f65dec40aa0827f2316449801290d11f9004e2074d918d11d6e1d4d91",
+    "actor": "hrodric-eagle",
+    "overrides": {
+     "attacks": [
+      {
+       "count": 2,
+       "names": [
+        "talons"
+       ],
+       "raw": "2 (talons 12+)",
+       "throw": 8
+      }
+     ],
+     "hd": {
+      "text": "3",
+      "dice": 3,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 3
+     },
+     "name": "Hrodric's eagle",
+     "save_as": [
+      "F",
+      1
+     ]
+    }
+   },
+   "hp_max": 12,
+   "hp": 9,
+   "companion": {
+    "owner": "hrodric",
+    "actor": "hrodric-eagle"
+   },
+   "hp_start": 9,
+   "acted_round": 20
+  },
+  "quintus": {
+   "id": "quintus",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "quintus",
+   "perceived": "Quintus",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Quintus",
+   "stats": {
+    "name": "Quintus",
+    "actor": "quintus",
+    "kind": "henchman",
+    "level": 1,
+    "class": "Fighter",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "DEX": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 14,
+      "blast": 15,
+      "implements": 16,
+      "spells": 17
+     },
+     {
+      "table": "fighter-attack-and-saving-throws",
+      "title": "Fighter Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "block": "^tbl-fighter-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 25",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d8",
+     {
+      "rule": "class.fighter.hit_die",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "progression": "fighter",
+    "cleaves": [
+     1,
+     {
+      "rule": "class.fighter.cleave",
+      "note": "ACKS II Rules/03 Classes/Fighter.md",
+      "book": "RR",
+      "page": "p. 24"
+     }
+    ],
+    "ac_options": {
+     "shield": 6,
+     "no_shield": 5,
+     "dex_only": 0
+    },
+    "hp_max": 7,
+    "movement_running": 60,
+    "weapons": [
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6/1d8+2",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "backpack"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 0,
+    "proficiencies": [
+     "Berserkergang",
+     "Adventuring",
+     "Survival"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "berserkergang": "",
+     "adventuring": "",
+     "survival": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "quintus",
+   "hp_max": 7,
+   "hp": 7,
+   "hp_start": 7,
+   "acted_round": 20
+  },
+  "severina": {
+   "id": "severina",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM p. 317 Troglodyte)",
+     "rounds_left": null,
+     "since_round": 18,
+     "note": null
+    }
+   ],
+   "group": "severina",
+   "perceived": "Severina",
+   "judge_set": {
+    "resist": "fire:both"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 1,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "pc",
+   "name": "Severina",
+   "stats": {
+    "name": "Severina",
+    "actor": "severina",
+    "kind": "pc",
+    "level": 3,
+    "class": "Venturer",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "WIL": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "DEX": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "CON": [
+      2,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 5
+      }
+     ],
+     "CHA": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ]
+    },
+    "attack_throw": [
+     9,
+     {
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 1
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 12,
+      "death": 12,
+      "blast": 12,
+      "implements": 13,
+      "spells": 14
+     },
+     {
+      "table": "venturer-attack-and-saving-throws",
+      "title": "Venturer (Thief) Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "block": "^tbl-venturer-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 41",
+      "row": 1
+     }
+    ],
+    "hit_die": [
+     "1d6",
+     {
+      "rule": "class.venturer.hit_die",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "book": "RR",
+      "page": "p. 40"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     1,
+     {
+      "rule": "class.venturer.cleave",
+      "note": "ACKS II Rules/03 Classes/Venturer.md",
+      "book": "RR",
+      "page": "p. 40"
+     }
+    ],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": -1
+    },
+    "hp_max": 17,
+    "movement_running": 90,
+    "weapons": [
+     {
+      "name": "Short Sword",
+      "init_bonus": "",
+      "attack_throw": 9,
+      "damage": "1d6",
+      "range": {
+       "short": 0,
+       "medium": 0,
+       "long": 0
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Short Bow",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d6",
+      "range": {
+       "short": 75,
+       "medium": 150,
+       "long": 300
+      },
+      "held": "back"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": null,
+    "proficiencies": [
+     "Bargaining",
+     "Adventuring",
+     "Animal Training"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "bargaining": "",
+     "adventuring": "",
+     "animal training": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "severina",
+   "hp_max": 17,
+   "hp": 17,
+   "hp_start": 17,
+   "attacked_round": 20,
+   "aura_counts": {
+    "stench": 0
+   }
+  },
+  "marius": {
+   "id": "marius",
+   "side": "party",
+   "status": "active",
+   "conditions": [
+    {
+     "name": "queasy",
+     "source": "aura stench (MM p. 317 Troglodyte)",
+     "rounds_left": null,
+     "since_round": 17,
+     "note": null
+    }
+   ],
+   "group": "marius",
+   "perceived": "Marius",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "henchman",
+   "name": "Marius",
+   "stats": {
+    "name": "Marius",
+    "actor": "marius",
+    "kind": "henchman",
+    "level": 2,
+    "class": "Thief",
+    "size": "man-sized",
+    "mods": {
+     "STR": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ],
+     "INT": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "WIL": [
+      -1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 2
+      }
+     ],
+     "DEX": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CON": [
+      1,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 4
+      }
+     ],
+     "CHA": [
+      0,
+      {
+       "table": "attribute-modifiers",
+       "title": "Attribute Modifiers",
+       "note": "ACKS II Rules/02 Characters/Character Attributes.md",
+       "block": "^tbl-attribute-modifiers",
+       "book": "RR",
+       "page": "p. 14",
+       "row": 3
+      }
+     ]
+    },
+    "attack_throw": [
+     10,
+     {
+      "table": "thief-attack-and-saving-throws",
+      "title": "Thief Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "block": "^tbl-thief-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 31",
+      "row": 0
+     }
+    ],
+    "saves": [
+     {
+      "paralysis": 13,
+      "death": 13,
+      "blast": 13,
+      "implements": 14,
+      "spells": 15
+     },
+     {
+      "table": "thief-attack-and-saving-throws",
+      "title": "Thief Attack and Saving Throws",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "block": "^tbl-thief-attack-and-saving-throws",
+      "book": "RR",
+      "page": "p. 31",
+      "row": 0
+     }
+    ],
+    "hit_die": [
+     "1d4",
+     {
+      "rule": "class.thief.hit_die",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "book": "RR",
+      "page": "p. 30"
+     }
+    ],
+    "progression": "crusader/thief",
+    "cleaves": [
+     1,
+     {
+      "rule": "class.thief.cleave",
+      "note": "ACKS II Rules/03 Classes/Thief.md",
+      "book": "RR",
+      "page": "p. 30"
+     }
+    ],
+    "ac_options": {
+     "shield": 2,
+     "no_shield": 2,
+     "dex_only": 1
+    },
+    "hp_max": 6,
+    "movement_running": 120,
+    "weapons": [
+     {
+      "name": "Spear (broken shaft: as dagger)",
+      "init_bonus": "",
+      "attack_throw": 11,
+      "damage": "1d4",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "right hand"
+     },
+     {
+      "name": "Knife",
+      "init_bonus": "",
+      "attack_throw": 10,
+      "damage": "1d3",
+      "range": {
+       "short": 15,
+       "medium": 30,
+       "long": 45
+      },
+      "held": "belt"
+     }
+    ],
+    "save_mods_text": {},
+    "initiative_sheet": 1,
+    "proficiencies": [
+     "Alertness",
+     "Profession (cantinakeeper)",
+     "Folkways",
+     "Labor (cooking)",
+     "Revelry",
+     "Streetwise",
+     "Adventuring",
+     "Animal Husbandry"
+    ],
+    "proficiency_throws": {},
+    "prof_throw_list": {
+     "alertness": "",
+     "profession (cantinakeeper)": "",
+     "folkways": "",
+     "labor (cooking)": "",
+     "revelry": "",
+     "streetwise": "",
+     "adventuring": "",
+     "animal husbandry": ""
+    },
+    "ac_mode": "shield"
+   },
+   "actor": "marius",
+   "hp_max": 6,
+   "hp": 6,
+   "hp_start": 6,
+   "attacked_round": 19,
+   "aura_counts": {
+    "stench": 2
+   },
+   "acted_round": 20
+  },
+  "troglodyte1": {
+   "id": "troglodyte1",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 14,
+     "note": null
+    }
+   ],
+   "group": "chief",
+   "perceived": "the big scaly man with the polished axe",
+   "judge_set": {
+    "hd": "6",
+    "group": "chief"
+   },
+   "hp_lost_rounds": [
+    4,
+    8,
+    10,
+    13,
+    13,
+    14
+   ],
+   "felled": {
+    "round": 14,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "severina",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 28,
+   "hp": -5,
+   "hp_start": 6,
+   "hd": 6,
+   "ac": 7,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 20
+   },
+   "mortal_wounds": {
+    "total": 12,
+    "d20": 18,
+    "d6": 5,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M29",
+    "how": "killed",
+    "xp": 320
+   }
+  },
+  "troglodyte2": {
+   "id": "troglodyte2",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 12,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 15,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "a scaly man with a stone axe",
+   "judge_set": {
+    "hd": "4"
+   },
+   "hp_lost_rounds": [
+    7,
+    13,
+    15
+   ],
+   "felled": {
+    "round": 15,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "hrodric",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 20,
+   "hp": 0,
+   "hp_start": 6,
+   "hd": 4,
+   "ac": 6,
+   "attacked_round": 14,
+   "last_types": [
+    "slashing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 20
+   },
+   "mortal_wounds": {
+    "total": 14,
+    "d20": 15,
+    "d6": 4,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One hand is cut off (cannot dual-wield or use two-handed weapons).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M30",
+    "how": "killed",
+    "xp": 80
+   }
+  },
+  "troglodyte3": {
+   "id": "troglodyte3",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 18,
+     "note": null
+    }
+   ],
+   "group": "chief",
+   "perceived": "scaly man with a club 1",
+   "judge_set": {
+    "hd": "3",
+    "group": "chief"
+   },
+   "hp_lost_rounds": [
+    16,
+    18,
+    18
+   ],
+   "felled": {
+    "round": 18,
+    "types": [
+     "slashing"
+    ],
+    "natural": false,
+    "by": "hrodric",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 16,
+   "hp": -1,
+   "hp_start": 14,
+   "hd": 3,
+   "ac": 5,
+   "last_types": [
+    "slashing"
+   ],
+   "attacked_round": 18,
+   "damaged_by": [
+    "blunt"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 20
+   },
+   "mortal_wounds": {
+    "total": 11,
+    "d20": 17,
+    "d6": 6,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M31",
+    "how": "killed",
+    "xp": 50
+   }
+  },
+  "troglodyte4": {
+   "id": "troglodyte4",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 19,
+     "note": null
+    }
+   ],
+   "group": "chief",
+   "perceived": "scaly man with a club 2",
+   "judge_set": {
+    "hd": "3",
+    "group": "chief"
+   },
+   "hp_lost_rounds": [
+    17,
+    17,
+    18,
+    19
+   ],
+   "felled": {
+    "round": 19,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "galerius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 1,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 16,
+   "hp": -6,
+   "hp_start": 8,
+   "hd": 3,
+   "ac": 5,
+   "attacked_round": 18,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "dying": {
+    "within": "round",
+    "since_round": 20,
+    "deadline_round": 21
+   },
+   "mortal_wounds": {
+    "total": 4,
+    "d20": 12,
+    "d6": 3,
+    "table": "mortal-wounds-piercing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M31",
+    "how": "killed",
+    "xp": 50
+   }
+  },
+  "troglodyte5": {
+   "id": "troglodyte5",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 9,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 1",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    4,
+    7,
+    8,
+    9
+   ],
+   "felled": {
+    "round": 9,
+    "types": [],
+    "natural": true,
+    "by": "ur-shet",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 3,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 16,
+   "hp": -7,
+   "hp_start": 14,
+   "hd": 2,
+   "ac": 4,
+   "attacked_round": 8,
+   "dying": {
+    "within": "turn",
+    "since_round": 20
+   },
+   "mortal_wounds": {
+    "total": 10,
+    "d20": 18,
+    "d6": 2,
+    "table": "mortal-wounds-savage",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte6": {
+   "id": "troglodyte6",
+   "side": "foe",
+   "status": "slain",
+   "conditions": [
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 12,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 2",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 13,
+   "hp": -13,
+   "hp_start": 6,
+   "hd": 2,
+   "ac": 4,
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte7": {
+   "id": "troglodyte7",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "cowering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 17,
+     "note": "engaged: cowers until it can flee with defensive movement"
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 20,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 3",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    18,
+    18,
+    20,
+    20
+   ],
+   "felled": {
+    "round": 20,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "severina",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 16,
+   "hp": 0,
+   "hp_start": 9,
+   "hd": 2,
+   "ac": 4,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "acted_round": 20,
+   "dying": {
+    "within": "round",
+    "since_round": 20,
+    "deadline_round": 21
+   },
+   "mortal_wounds": {
+    "total": 3,
+    "d20": 4,
+    "d6": 6,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
+    "band": "1-5"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte8": {
+   "id": "troglodyte8",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 17,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 4",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    16,
+    17
+   ],
+   "felled": {
+    "round": 17,
+    "types": [],
+    "natural": true,
+    "by": "ur-shet",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 8,
+   "hp": -1,
+   "hp_start": 7,
+   "hd": 2,
+   "ac": 4,
+   "attacked_round": 17,
+   "dying": {
+    "within": "turn",
+    "since_round": 20
+   },
+   "mortal_wounds": {
+    "total": 10,
+    "d20": 16,
+    "d6": 2,
+    "table": "mortal-wounds-savage",
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
+    "band": "6-10"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte9": {
+   "id": "troglodyte9",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 12,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 5",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    2,
+    12
+   ],
+   "felled": {
+    "round": 12,
+    "types": [],
+    "natural": true,
+    "by": "ur-shet",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 6,
+   "hp": -4,
+   "hp_start": 5,
+   "hd": 2,
+   "ac": 4,
+   "attacked_round": 11,
+   "mortal_wounds": {
+    "total": -5,
+    "d20": 6,
+    "d6": 4,
+    "table": "mortal-wounds-savage",
+    "condition": "You were instantly killed.",
+    "wound": "Entrails spill from your sliced belly like noodles in an overflowing bowl, betraying a grisly end.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte10": {
+   "id": "troglodyte10",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 3,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 6",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    3
+   ],
+   "felled": {
+    "round": 3,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "galerius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 8,
+   "hp": -1,
+   "hp_start": 11,
+   "hd": 2,
+   "ac": 4,
+   "attacked_round": 3,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 20
+   },
+   "mortal_wounds": {
+    "total": 13,
+    "d20": 19,
+    "d6": 2,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "Your scrotum is sliced away or your womb cut open (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte11": {
+   "id": "troglodyte11",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "faltering",
+     "source": "morale",
+     "rounds_left": null,
+     "since_round": 12,
+     "note": null
+    },
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 13,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 7",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    13
+   ],
+   "felled": {
+    "round": 13,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "galerius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 4,
+   "hp": -6,
+   "hp_start": 12,
+   "hd": 2,
+   "ac": 4,
+   "attacked_round": 5,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "mortal_wounds": {
+    "total": -3,
+    "d20": 13,
+    "d6": 2,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "Blood leaking everywhere around your hips reveals the terrible wound in your groin.",
+    "band": "-5 to 0"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "troglodyte12": {
+   "id": "troglodyte12",
+   "side": "foe",
+   "status": "dead",
+   "conditions": [
+    {
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 8,
+     "note": null
+    }
+   ],
+   "group": "troglodyte",
+   "perceived": "scaly crested man 8",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    6,
+    8
+   ],
+   "felled": {
+    "round": 8,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "galerius",
+    "tier": "extraordinary",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 2,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Troglodyte",
+   "stats": {},
+   "monster": {
+    "base": "troglodyte",
+    "sha256": "fb36c3a9406ace16bc9c5e41398d1009be0e6cd73a7c8ca1d4632b7ec18f58b3"
+   },
+   "hp_max": 7,
+   "hp": -8,
+   "hp_start": 10,
+   "hd": 2,
+   "ac": 4,
+   "attacked_round": 7,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "mortal_wounds": {
+    "total": -13,
+    "d20": 3,
+    "d6": 2,
+    "table": "mortal-wounds-piercing",
+    "condition": "You were instantly killed.",
+    "wound": "A terrible wound penetrates the soft tissue of your upper palate and you die choking on your own leaking brain fluid. Awful.",
+    "band": "-6 or less"
+   },
+   "xp_recorded": {
+    "record": "M32",
+    "how": "killed",
+    "xp": 20
+   }
+  },
+  "fangs1": {
+   "id": "fangs1",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 1",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 10,
+   "hp": 10,
+   "hp_start": 10,
+   "attacked_round": 20,
+   "acted_round": 20
+  },
+  "fangs2": {
+   "id": "fangs2",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 2",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [
+    16
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 9,
+   "hp": 7,
+   "hp_start": 9,
+   "attacked_round": 20,
+   "last_types": [
+    "slashing"
+   ],
+   "acted_round": 20
+  },
+  "fangs3": {
+   "id": "fangs3",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "fangs",
+   "perceived": "Black Fang gnoll 3",
+   "judge_set": {
+    "hp": "given",
+    "weapon": "Battle Axe"
+   },
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Gnoll",
+   "stats": {},
+   "monster": {
+    "base": "gnoll",
+    "sha256": "86cc7e3c27f06fbb329d157b9a6f1bec593f488cc72967f4db5708a96265cf09"
+   },
+   "hp_max": 8,
+   "hp": 8,
+   "hp_start": 8,
+   "attacked_round": 13,
+   "acted_round": 20
+  },
+  "ur-shet": {
+   "id": "ur-shet",
+   "side": "party",
+   "status": "active",
+   "conditions": [],
+   "group": "ur-shet",
+   "perceived": "Ur-Shet",
+   "judge_set": {
+    "hp": "given"
+   },
+   "hp_lost_rounds": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Ur-Shet (Sakkara)",
+   "stats": {
+    "monster": {
+     "name": "Ur-Shet (Sakkara)",
+     "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ur-Shet (Sakkara).md",
+     "page": 57,
+     "needs_judge": [],
+     "checks": [],
+     "type": "beastman",
+     "type_text": "Humanoid Beastman (gnoll chieftain)",
+     "size_index": 1,
+     "size": "man-sized",
+     "ac": 6,
+     "hd": {
+      "text": "4 (20 hp)",
+      "dice": 4,
+      "half": false,
+      "bonus": 0,
+      "stars": 0,
+      "attack_hd": 4,
+      "fixed_hp": 20
+     },
+     "attacks": [
+      {
+       "raw": "1 (weapon 7+)",
+       "count": 1,
+       "names": [
+        "weapon"
+       ],
+       "throw": 7
+      }
+     ],
+     "damage": [
+      {
+       "raw": "1d6+2 by weapon",
+       "pieces": [
+        {
+         "raw": "1d6+2 by weapon",
+         "dice": "1d6+2",
+         "extraordinary": false,
+         "types": []
+        }
+       ]
+      }
+     ],
+     "save_as": [
+      "F",
+      4
+     ],
+     "morale": 0,
+     "attack_throw_by_hd": 7,
+     "speed": "30’ / 90’",
+     "xp": "80",
+     "tier": null,
+     "defenses": {
+      "status": "none",
+      "records": [],
+      "effects": [],
+      "traits": [],
+      "judge": [],
+      "flaw": null,
+      "source": {
+       "note": "/home/user/sinister-stone-of-sakkara/Adventure/Bestiary/Ur-Shet (Sakkara).md",
+       "parsed_at_load": true
+      }
+     }
+    }
+   },
+   "hp_max": 20,
+   "hp": 11,
+   "hp_start": 20,
+   "attacked_round": 20,
+   "last_types": [
+    "slashing"
+   ],
+   "acted_round": 20
+  }
+ },
+ "groups": {
+  "galerius": {
+   "side": "party",
+   "members": [
+    "galerius"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "faustina": {
+   "side": "party",
+   "members": [
+    "faustina"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "callista": {
+   "side": "party",
+   "members": [
+    "callista"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "corvus": {
+   "side": "party",
+   "members": [
+    "corvus"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "varro": {
+   "side": "party",
+   "members": [
+    "varro"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "hrodric": {
+   "side": "party",
+   "members": [
+    "hrodric"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "hrodric-eagle": {
+   "side": "party",
+   "members": [
+    "hrodric-eagle"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "quintus": {
+   "side": "party",
+   "members": [
+    "quintus"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "severina": {
+   "side": "party",
+   "members": [
+    "severina"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "marius": {
+   "side": "party",
+   "members": [
+    "marius"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "troglodyte": {
+   "side": "foe",
+   "members": [
+    "troglodyte2",
+    "troglodyte5",
+    "troglodyte6",
+    "troglodyte7",
+    "troglodyte8",
+    "troglodyte9",
+    "troglodyte10",
+    "troglodyte11",
+    "troglodyte12"
+   ],
+   "morale": {
+    "state": "frightened",
+    "rolls": [
+     {
+      "round": 12,
+      "total": 4,
+      "result": "Morale Faltering",
+      "reason": "1/3 of the group felled (4/12)"
+     },
+     {
+      "round": 13,
+      "total": 5,
+      "result": "Morale Faltering",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 13,
+      "total": 10,
+      "result": "Advance and Pursue",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 13,
+      "total": 4,
+      "result": "Morale Faltering",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 15,
+      "total": 10,
+      "result": "Advance and Pursue",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 17,
+      "total": 0,
+      "result": "Frightened Retreat",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 17,
+      "total": 0,
+      "result": "Frightened Retreat",
+      "reason": "another member felled this round"
+     },
+     {
+      "round": 17,
+      "total": -2,
+      "result": "Frightened Retreat",
+      "reason": "another member felled this round"
+     }
+    ],
+    "triggered": true,
+    "last_trigger_round": 17,
+    "first_round": 12
+   },
+   "start_count": 12,
+   "felled_rounds": [
+    3,
+    8,
+    9,
+    12,
+    13,
+    15,
+    17,
+    20
+   ]
+  },
+  "fangs": {
+   "side": "party",
+   "members": [
+    "fangs1",
+    "fangs2",
+    "fangs3"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 3
+  },
+  "ur-shet": {
+   "side": "party",
+   "members": [
+    "ur-shet"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 1
+  },
+  "chief": {
+   "side": "foe",
+   "members": [
+    "troglodyte1",
+    "troglodyte3",
+    "troglodyte4"
+   ],
+   "morale": {
+    "state": "steady",
+    "rolls": [],
+    "triggered": false
+   },
+   "start_count": 12,
+   "felled_rounds": [
+    14,
+    18,
+    19
+   ]
+  }
+ },
  "engaged": [],
- "engaged_at_round_start": [],
- "distances": {},
- "log": []
+ "engaged_at_round_start": [
+  [
+   "fangs1",
+   "troglodyte7"
+  ],
+  [
+   "troglodyte7",
+   "ur-shet"
+  ]
+ ],
+ "distances": {
+  "galerius|troglodyte1": 50,
+  "galerius|troglodyte2": 5,
+  "galerius|troglodyte3": 50,
+  "galerius|troglodyte4": 5,
+  "galerius|troglodyte5": 50,
+  "galerius|troglodyte6": 50,
+  "galerius|troglodyte7": 30,
+  "galerius|troglodyte8": 50,
+  "galerius|troglodyte9": 50,
+  "galerius|troglodyte10": 5,
+  "galerius|troglodyte11": 5,
+  "galerius|troglodyte12": 5,
+  "faustina|troglodyte1": 50,
+  "faustina|troglodyte2": 10,
+  "faustina|troglodyte3": 50,
+  "faustina|troglodyte4": 50,
+  "faustina|troglodyte5": 50,
+  "faustina|troglodyte6": 50,
+  "faustina|troglodyte7": 50,
+  "faustina|troglodyte8": 5,
+  "faustina|troglodyte9": 50,
+  "faustina|troglodyte10": 50,
+  "faustina|troglodyte11": 5,
+  "faustina|troglodyte12": 50,
+  "callista|troglodyte1": 50,
+  "callista|troglodyte2": 50,
+  "callista|troglodyte3": 50,
+  "callista|troglodyte4": 50,
+  "callista|troglodyte5": 50,
+  "callista|troglodyte6": 50,
+  "callista|troglodyte7": 50,
+  "callista|troglodyte8": 50,
+  "callista|troglodyte9": 50,
+  "callista|troglodyte10": 50,
+  "callista|troglodyte11": 50,
+  "callista|troglodyte12": 50,
+  "corvus|troglodyte1": 50,
+  "corvus|troglodyte2": 50,
+  "corvus|troglodyte3": 50,
+  "corvus|troglodyte4": 50,
+  "corvus|troglodyte5": 50,
+  "corvus|troglodyte6": 50,
+  "corvus|troglodyte7": 50,
+  "corvus|troglodyte8": 50,
+  "corvus|troglodyte9": 50,
+  "corvus|troglodyte10": 50,
+  "corvus|troglodyte11": 50,
+  "corvus|troglodyte12": 50,
+  "troglodyte1|varro": 30,
+  "troglodyte2|varro": 50,
+  "troglodyte3|varro": 5,
+  "troglodyte4|varro": 50,
+  "troglodyte5|varro": 50,
+  "troglodyte6|varro": 50,
+  "troglodyte7|varro": 10,
+  "troglodyte8|varro": 50,
+  "troglodyte9|varro": 50,
+  "troglodyte10|varro": 50,
+  "troglodyte11|varro": 50,
+  "troglodyte12|varro": 50,
+  "hrodric|troglodyte1": 50,
+  "hrodric|troglodyte2": 5,
+  "hrodric|troglodyte3": 5,
+  "hrodric|troglodyte4": 20,
+  "hrodric|troglodyte5": 50,
+  "hrodric|troglodyte6": 50,
+  "hrodric|troglodyte7": 20,
+  "hrodric|troglodyte8": 50,
+  "hrodric|troglodyte9": 50,
+  "hrodric|troglodyte10": 50,
+  "hrodric|troglodyte11": 50,
+  "hrodric|troglodyte12": 50,
+  "quintus|troglodyte1": 30,
+  "quintus|troglodyte2": 50,
+  "quintus|troglodyte3": 10,
+  "quintus|troglodyte4": 10,
+  "quintus|troglodyte5": 50,
+  "quintus|troglodyte6": 50,
+  "quintus|troglodyte7": 30,
+  "quintus|troglodyte8": 50,
+  "quintus|troglodyte9": 50,
+  "quintus|troglodyte10": 50,
+  "quintus|troglodyte11": 50,
+  "quintus|troglodyte12": 50,
+  "severina|troglodyte1": 5,
+  "severina|troglodyte2": 50,
+  "severina|troglodyte3": 50,
+  "severina|troglodyte4": 5,
+  "severina|troglodyte5": 50,
+  "severina|troglodyte6": 50,
+  "severina|troglodyte7": 5,
+  "severina|troglodyte8": 50,
+  "severina|troglodyte9": 50,
+  "severina|troglodyte10": 50,
+  "severina|troglodyte11": 50,
+  "severina|troglodyte12": 50,
+  "marius|troglodyte1": 10,
+  "marius|troglodyte2": 50,
+  "marius|troglodyte3": 50,
+  "marius|troglodyte4": 5,
+  "marius|troglodyte5": 50,
+  "marius|troglodyte6": 50,
+  "marius|troglodyte7": 10,
+  "marius|troglodyte8": 50,
+  "marius|troglodyte9": 50,
+  "marius|troglodyte10": 50,
+  "marius|troglodyte11": 50,
+  "marius|troglodyte12": 50,
+  "troglodyte5|ur-shet": 5,
+  "troglodyte9|ur-shet": 5,
+  "fangs1|troglodyte2": 5,
+  "troglodyte8|ur-shet": 5,
+  "fangs2|troglodyte1": 5,
+  "fangs3|troglodyte1": 5,
+  "fangs2|troglodyte4": 5,
+  "fangs1|troglodyte7": 5,
+  "troglodyte7|ur-shet": 5,
+  "fangs2|troglodyte7": 5
+ },
+ "log": [],
+ "encounter_id": "enc180",
+ "orders": {
+  "fangs1": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs2": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "fangs3": {
+   "tactic": "hold",
+   "group": null
+  },
+  "ur-shet": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "corvus": {
+   "tactic": "hold",
+   "group": null
+  },
+  "varro": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "hrodric": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "quintus": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "severina": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "hrodric-eagle": {
+   "tactic": "hold",
+   "group": null
+  },
+  "callista": {
+   "tactic": "hold",
+   "group": null
+  },
+  "galerius": {
+   "tactic": "close-and-attack",
+   "group": null
+  },
+  "faustina": {
+   "tactic": "hold",
+   "group": null
+  },
+  "marius": {
+   "tactic": "close-and-attack",
+   "group": null
+  }
+ },
+ "notes_shown": [
+  "morale.modifier_tiers"
+ ],
+ "auras": [
+  {
+   "name": "stench",
+   "sources": [
+    "troglodyte1",
+    "troglodyte2",
+    "troglodyte3",
+    "troglodyte4",
+    "troglodyte5",
+    "troglodyte6",
+    "troglodyte7",
+    "troglodyte8",
+    "troglodyte9",
+    "troglodyte10",
+    "troglodyte11",
+    "troglodyte12"
+   ],
+   "radius": 5,
+   "save": "death",
+   "per_extra": 0,
+   "mods": [],
+   "fail": "queasy",
+   "fail_rounds": null,
+   "immune_turns": null,
+   "affects": [
+    "galerius",
+    "faustina",
+    "callista",
+    "corvus",
+    "varro",
+    "hrodric",
+    "quintus",
+    "severina",
+    "marius"
+   ],
+   "while_failed": null,
+   "source": "MM p. 317 Troglodyte",
+   "hears": [],
+   "noted": [],
+   "silenced_by": []
+  }
+ ],
+ "placed": {
+  "troglodyte1": "alcove",
+  "troglodyte3": "alcove",
+  "troglodyte4": "alcove",
+  "troglodyte2": "mouth",
+  "troglodyte5": "mouth",
+  "troglodyte6": "hall",
+  "troglodyte7": "hall",
+  "troglodyte8": "hall",
+  "troglodyte9": "mouth",
+  "troglodyte10": "mouth",
+  "troglodyte11": "hall",
+  "troglodyte12": "mouth",
+  "galerius": "alcove",
+  "ur-shet": "hall",
+  "faustina": "tunnel",
+  "callista": "tunnel",
+  "corvus": "tunnel",
+  "varro": "alcove",
+  "hrodric": "alcove",
+  "quintus": "tunnel",
+  "severina": "hall",
+  "marius": "alcove",
+  "hrodric-eagle": "tunnel",
+  "fangs1": "hall",
+  "fangs2": "tunnel",
+  "fangs3": "tunnel"
+ },
+ "zones": {
+  "alcove": {
+   "ranges": {
+    "mouth": 60
+   }
+  },
+  "mouth": {
+   "ranges": {
+    "alcove": 60,
+    "hall": 40,
+    "tunnel": 10
+   },
+   "frontage": 2
+  },
+  "hall": {
+   "ranges": {
+    "mouth": 40
+   }
+  },
+  "tunnel": {
+   "ranges": {
+    "mouth": 10
+   }
+  }
+ },
+ "tactics": {
+  "chief": {
+   "tactic": "hold"
+  },
+  "troglodyte": {
+   "tactic": "hold"
+  }
+ },
+ "round_ended": 19,
+ "retinue": {
+  "varro": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
+  "quintus": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  },
+  "marius": {
+   "hp_triggered": false,
+   "party_triggered": false,
+   "calamity_queued": false
+  }
+ },
+ "party_hp_written": [
+  "galerius",
+  "faustina",
+  "callista",
+  "corvus",
+  "varro",
+  "hrodric",
+  "quintus",
+  "severina",
+  "marius"
+ ],
+ "ended": {
+  "round": 20,
+  "felled_foes": [
+   {
+    "id": "troglodyte1",
+    "name": "Troglodyte",
+    "perceived": "the big scaly man with the polished axe",
+    "outcome": "slain",
+    "hp": -5,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One of your eyes is damaged (-2 to missile attack throws at medium and long range).",
+    "total": 12
+   },
+   {
+    "id": "troglodyte2",
+    "name": "Troglodyte",
+    "perceived": "a scaly man with a stone axe",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One hand is cut off (cannot dual-wield or use two-handed weapons).",
+    "total": 14
+   },
+   {
+    "id": "troglodyte3",
+    "name": "Troglodyte",
+    "perceived": "scaly man with a club 1",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "A whirling stroke leaves a thin scar just below your throat (minor scarring).",
+    "total": 11
+   },
+   {
+    "id": "troglodyte4",
+    "name": "Troglodyte",
+    "perceived": "scaly man with a club 2",
+    "outcome": "slain",
+    "hp": -6,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "A puncture near the heart leaves you an invalid (CON reduced by 1/3, movement rate reduced by 30', must make Death save each year or die from complications).",
+    "total": 4
+   },
+   {
+    "id": "troglodyte5",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 1",
+    "outcome": "slain",
+    "hp": -7,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
+    "total": 10
+   },
+   {
+    "id": "troglodyte7",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 3",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are mortally wounded. You die unless healed to 1 hp within 1 round. If you are healed, you need 1 month of bed rest.",
+    "wound": "Your lips and tongue are severed (mute, cannot speak, cast spells, or use magic items involving speech, and -4 to reaction rolls).",
+    "total": 3
+   },
+   {
+    "id": "troglodyte8",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 4",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are grievously wounded. You die unless healed to 1 hp within 1 turn. If you are healed, you need 2 weeks of bed rest.",
+    "wound": "Your intestines are mangled and ruined (must rest for 2 turns of 6, CON reduced by 1/3, -4 to save vs. poison, chronic indigestion and flatulence cause -4 to reaction rolls).",
+    "total": 10
+   },
+   {
+    "id": "troglodyte9",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 5",
+    "outcome": "slain",
+    "hp": -4,
+    "condition": "You were instantly killed.",
+    "wound": "Entrails spill from your sliced belly like noodles in an overflowing bowl, betraying a grisly end.",
+    "total": -5
+   },
+   {
+    "id": "troglodyte10",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 6",
+    "outcome": "slain",
+    "hp": -1,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "Your scrotum is sliced away or your womb cut open (cannot reproduce, -3 to reaction rolls if loss of manhood / womanhood is known).",
+    "total": 13
+   },
+   {
+    "id": "troglodyte11",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 7",
+    "outcome": "slain",
+    "hp": -6,
+    "condition": "You were instantly killed.",
+    "wound": "Blood leaking everywhere around your hips reveals the terrible wound in your groin.",
+    "total": -3
+   },
+   {
+    "id": "troglodyte12",
+    "name": "Troglodyte",
+    "perceived": "scaly crested man 8",
+    "outcome": "slain",
+    "hp": -8,
+    "condition": "You were instantly killed.",
+    "wound": "A terrible wound penetrates the soft tissue of your upper palate and you die choking on your own leaking brain fluid. Awful.",
+    "total": -13
+   }
+  ]
+ }
 }

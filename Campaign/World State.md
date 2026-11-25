@@ -77,6 +77,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 143 | the troglodyte warband destroyed in its hall (the chieftain, his second, both champions and eight warriors) by the company with Ur-Shet and three Black Fangs, holding the tunnel mouth: Slumber and Halt Humanoids broke the rush | Troglodyte Warren W6 | the Stone unguarded but for a Black Fang gnoll gripped by it; fifteen females and their eggs in W5; the hoard (H2) in the niche |
 | 141 | troglodyte gang A ambushed the company on the bloody water's path: the champion and one warrior slain, one captured asleep (bound), two fled faltering (2 and 7 hp) toward the warren; an abomination burned in 36; Zaira lost a hand (bed rest a week) and resigns from Callista's service | Catacombs L2 26, 36 | A12 open; the warren will know the company is coming |
 | 139 | a troglodyte gang (B) took Gargash, a Black Fang gnoll, from the Bloody Shore at night and fed him to the Stone (the chieftain is its favoured) | Catacombs L2 16; Troglodyte Warren W6 | Black Fangs 7; the Stone fed 20 XP of the 200 it needs by day 150 |
 | 132 | the Lady slain in her Inner Fane; the Stone carried off below by troglodytes; two prisoners freed | Catacombs L2 38-39 | A11: 660 XP (the Lady) + 60 (troglodytes); the Lady's arms, ring and chest taken |

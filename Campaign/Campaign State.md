@@ -11,7 +11,7 @@ public:
     year: ''
     season: summer
     day: 143
-  time: 05:33
+  time: 08:25
   weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; heavy rain; wind very strong (rainy, windy)
   place: Türos Tem
   hex: '20.19'
@@ -22,7 +22,9 @@ public:
     hp: 8
     hp_max: 8
     conditions: []
-    spells_used: []
+    spells_used:
+    - Slumber
+    - Slumber
     encumbrance_st: 6.516
   - name: Corvus
     sheet: Characters/corvus.json
@@ -31,19 +33,22 @@ public:
     hp_max: 16
     conditions: []
     spells_used: []
-    encumbrance_st: 7.535
+    encumbrance_st: 7.369
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
     hp: 15
     hp_max: 15
     conditions: []
-    spells_used: []
+    spells_used:
+    - Halt Humanoids
+    - Halt Humanoids
+    - Cure Light Injury
     encumbrance_st: 5.616
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 20
+    hp: 14
     hp_max: 20
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
@@ -52,10 +57,11 @@ public:
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
-    hp: 18
+    hp: 14
     hp_max: 18
     conditions: []
-    spells_used: []
+    spells_used:
+    - Holy Blessing
     encumbrance_st: 5.034
   - name: Severina
     sheet: Characters/severina.json
@@ -98,8 +104,8 @@ public:
     - 'one hand bitten off: cannot dual-wield or use two-handed weapons (Mortal Wounds, day 141)'
     spells_used: []
     encumbrance_st: 4.782
-  light: lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out
-  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 4 d, water 1 d; Zaira: food 4 d, water 1 d (incapacitated); Severina: food 7 d, water 1 d; Marius: food 4 d, water 1 d'
+  light: 'torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out | winded: Galerius, Faustina, Callista, Corvus, Varro, Hrodric, Quintus, Severina, Marius'
+  rations: 'Galerius: food 0 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 0 d, water 1 d; Corvus: food 0 d, water 1 d; Varro: food 0 d, water 1 d; Hrodric: food 6 d, water 1 d; Quintus: food 4 d, water 1 d; Severina: food 7 d, water 1 d; Marius: food 4 d, water 1 d'
   tracker: {}
   threads:
   - The Stone carried below by the stinking ones (troglodytes), south past the ghoul hole and the slime caves

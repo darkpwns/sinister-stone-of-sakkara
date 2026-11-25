@@ -16,6 +16,6 @@
 "inventory_holder": true,
 "items": [{"type":"proficiency","name":"Adventuring","list":"general"},{"type":"proficiency","name":"Alchemy","list":"class"},{"type":"proficiency","name":"Naturalism","list":"general"},{"type":"proficiency","name":"Healing","list":"general"},{"type":"spell","name":"Slumber","level":1},{"type":"spell","name":"Desiccate","level":1},{"type":"spell","name":"Discern Magic","level":1},{"type":"spell","name":"Illusory Duplicates","level":2}],
 "modifiers": [],
-"state": {"conditions":[],"spells_used":[],"hp":8},
-"changes": [{"field":"state.spells_used","from":[],"to":["Slumber"],"cause":"cast Slumber (engine 7.23.0)"},{"field":"state.spells_used","from":["Slumber"],"to":[],"cause":"a night's restful sleep: spells regained (engine stage 4)"}]
+"state": {"conditions":[],"spells_used":["Slumber","Slumber"],"hp":8},
+"changes": [{"field":"state.spells_used","from":[],"to":["Slumber"],"cause":"cast Slumber (engine 7.23.0)"},{"field":"state.spells_used","from":["Slumber"],"to":[],"cause":"a night's restful sleep: spells regained (engine stage 4)"},{"field":"state.spells_used","from":[],"to":["Slumber"],"cause":"cast Slumber (engine 7.23.0)"},{"field":"state.spells_used","from":["Slumber"],"to":["Slumber","Slumber"],"cause":"cast Slumber (engine 7.23.0)"}]
 }

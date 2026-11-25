@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 143,
-  "round_of_day": 333,
-  "total_rounds": 204333
+  "round_of_day": 505,
+  "total_rounds": 204505
  },
  "party": {
   "galerius": {
@@ -69,15 +69,6 @@
    "endurance": false,
    "treasure_stone": 0.0
   },
-  "zaira": {
-   "id": "zaira",
-   "actor": "zaira",
-   "name": "Zaira",
-   "perceived": "Zaira",
-   "conditions": [],
-   "endurance": false,
-   "treasure_stone": 0.16666666666666666
-  },
   "severina": {
    "id": "severina",
    "actor": "severina",
@@ -122,7 +113,7 @@
    "carrier": "callista",
    "lit": false,
    "closed": false,
-   "rounds_left": 28,
+   "rounds_left": 0,
    "tallow": false
   },
   {
@@ -131,7 +122,7 @@
    "carrier": "callista",
    "lit": false,
    "closed": false,
-   "rounds_left": 119,
+   "rounds_left": 0,
    "tallow": false
   },
   {
@@ -225,88 +216,56 @@
    "tallow": false
   }
  ],
- "timers": [],
+ "timers": [
+  {
+   "id": "t4",
+   "label": "Holy Blessing (Hrodric)",
+   "rounds_left": 34,
+   "hidden": false,
+   "source": null,
+   "started": "day 143 07:59"
+  }
+ ],
  "rest": {
-  "rounds_since_rest": 0,
+  "rounds_since_rest": 56,
   "rest_rounds": 0,
-  "winded": []
+  "winded": [
+   "galerius",
+   "faustina",
+   "callista",
+   "corvus",
+   "varro",
+   "hrodric",
+   "quintus",
+   "severina",
+   "marius"
+  ]
  },
  "location": {
-  "site": "Catacombs",
+  "site": "Troglodyte Warren",
   "kind": "dungeon",
-  "level": 2,
-  "room": "15",
+  "level": 3,
+  "room": "W6",
   "wandering": {
-   "none": true
+   "none": false,
+   "die": "1d6",
+   "every": 2,
+   "target": 6
   },
-  "table": "Adventure/Tables/level2-wandering.yaml",
+  "table": "Adventure/Troglodyte Warren/warren-wandering.yaml",
   "source": {
-   "wandering": "area setting: 'none'"
+   "wandering": "site setting: '1d6 every 2 turns, 6+'"
   }
  },
  "wandering": {
-  "turns_since_check": 1,
+  "turns_since_check": 0,
   "last_check": {
-   "at": "day 141 08:20",
-   "roll": 5,
+   "at": "day 143 08:20",
+   "roll": 6,
    "target": 6,
-   "encounter": false
+   "encounter": true
   },
   "history": [
-   {
-    "at": "day 132 08:30",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 08:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 09:10",
-    "roll": 4,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 09:12",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 132 09:30",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 09:50",
-    "roll": 6,
-    "target": 6,
-    "encounter": true
-   },
-   {
-    "at": "day 132 10:10",
-    "roll": 3,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 10:30",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 132 10:50",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 140 14:00",
     "roll": 1,
@@ -372,13 +331,67 @@
     "roll": 5,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 143 05:40",
+    "roll": 3,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 143 06:00",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 143 06:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 143 06:40",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 143 07:00",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
+   },
+   {
+    "at": "day 143 07:20",
+    "roll": 2,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 143 07:40",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 143 08:00",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 143 08:20",
+    "roll": 6,
+    "target": 6,
+    "encounter": true
    }
   ],
-  "turn_start_done": 201630,
+  "turn_start_done": 204500,
   "pending_at": null
  },
  "turn_actions": {
-  "turn": 20433,
+  "turn": 20450,
   "listened": [],
   "actions": []
  },
@@ -435,8 +448,8 @@
    "rest_rounds": 1440
   },
   "143": {
-   "delve_rounds": 0,
-   "rest_rounds": 333
+   "delve_rounds": 152,
+   "rest_rounds": 353
   }
  },
  "events": [
@@ -1378,10 +1391,10 @@
   }
  ],
  "next_ids": {
-  "enc": 176,
+  "enc": 181,
   "lantern": 12,
   "torch": 20,
-  "t": 3
+  "t": 4
  },
  "travel": {
   "hex_source": "/home/user/sinister-stone-of-sakkara/Campaign/campaign.yaml",
@@ -1600,7 +1613,7 @@
   },
   "members": {
    "galerius": {
-    "hp": 7,
+    "hp": 20,
     "hp_max": 20,
     "con": 10,
     "con_mod": 0,
@@ -1688,7 +1701,7 @@
     "vehicle": null
    },
    "faustina": {
-    "hp": 13,
+    "hp": 15,
     "hp_max": 15,
     "con": 16,
     "con_mod": 2,
@@ -5454,46 +5467,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc157",
-   "at": "day 129 03:30",
-   "monster_name": "Hunting Dog",
-   "number": 13,
-   "reaction": "neutral",
-   "status": "reaction"
-  },
-  {
-   "id": "enc158",
-   "at": "day 129 10:07",
-   "monster_name": "Large Herd Animal",
-   "number": 25,
-   "reaction": "indifferent",
-   "status": "reaction"
-  },
-  {
-   "id": "enc159",
-   "at": "day 131 07:00",
-   "monster_name": "Ur-Shet (Sakkara)",
-   "number": 1,
-   "reaction": "friendly",
-   "status": "reaction"
-  },
-  {
-   "id": "enc160",
-   "at": "day 131 07:20",
-   "monster_name": "Gnoll",
-   "number": 1,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
-   "id": "enc161",
-   "at": "day 131 07:40",
-   "monster_name": "Zombie",
-   "number": 5,
-   "reaction": null,
-   "status": "fighting"
-  },
-  {
    "id": "enc162",
    "at": "day 131 07:50",
    "monster_name": "Zakiti (Sakkara)",
@@ -5613,6 +5586,48 @@
    "number": 1,
    "reaction": "friendly",
    "status": "reaction"
+  },
+  {
+   "id": "enc177",
+   "at": "day 143 06:40",
+   "monster_name": "Brigand",
+   "number": 4,
+   "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc178",
+   "at": "day 143 06:45",
+   "monster_name": "Grave Ghoul",
+   "number": 4,
+   "reaction": "neutral",
+   "status": "reaction"
+  },
+  {
+   "id": "enc179",
+   "at": "day 143 07:00",
+   "monster_name": "Brigand",
+   "number": 7,
+   "reaction": "indifferent",
+   "status": "reaction"
+  },
+  {
+   "id": "enc180",
+   "at": "day 143 08:09",
+   "monster_name": "Troglodyte",
+   "number": 12,
+   "reaction": null,
+   "status": "fighting",
+   "closed": "superseded"
+  },
+  {
+   "id": "enc181",
+   "at": "day 143 08:20",
+   "monster_name": "Troglodyte",
+   "number": 3,
+   "reaction": null,
+   "status": "begun",
+   "unplayed": "Troglodyte Warren hub: wanderers are the keyed population, and every male was in W6 (all down): no troglodyte remains abroad"
   }
  ],
  "staying": {
@@ -5626,6 +5641,19 @@
     "perceived": "Lupa",
     "conditions": [],
     "endurance": false
+   }
+  },
+  "zaira": {
+   "place": "L2 15 with the Black Fangs (bed rest; guarding the captive)",
+   "since": 143,
+   "member": {
+    "id": "zaira",
+    "actor": "zaira",
+    "name": "Zaira",
+    "perceived": "Zaira",
+    "conditions": [],
+    "endurance": false,
+    "treasure_stone": 0.16666666666666666
    }
   }
  },
