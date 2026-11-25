@@ -15,3 +15,5 @@ type: rumours
 - Day 52, Türos Tem: the legate (Friendly, to Faustina): the Black Fang and Red Eye gnolls are the toughest of the beastman warbands hereabouts.
 - Day 87, the Catacombs (L2 9): Ur-Shet of the Black Fangs (Friendly): the Lady never leaves her inner fane; black-robed priests at the fane east of the stair test visitors; the Red Eyes tend her breeding pool by their cavern; the dead guard her doors; the stinking ones stalk the tunnels and hate her; the red water changes those who drink it.
 - Day 88, the Buried Temple (L1 20): drinking brigands (Friendly): Drusus lost a patrol down the spiral stair weeks ago, when the dead came up it.
+- Day 108, the Buried Temple (L1 27): Apsa's orcs: five Red Eyes wait at the foot of the wyrm's stair; Hepsis wants the wyrm-slayers brought to him.
+- Day 122, the Catacombs (L2 22): Ur-Namu, captive (intimidated): the Lady keeps the Stone on a bone altar in the Inner Fane with captives; twelve skeletons and eight zombies guard its south side, six zombies the bend south of the Outer Fane; the dead let pass only those who show her sign; the short way in is two doors sealed by her magic, a horror between them.
