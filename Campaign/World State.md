@@ -45,10 +45,14 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - 51 Priest Room (day 63): searched for hiding places by Corvus and Callista: nothing found (the hidden silver key not found).
 - Orcs (day 63): a band of 7 in the hobgoblin wing (Indifferent: they had come to raid the hobgoblins and left); a band of 6 at 19 (Friendly, helpful: told that the Red Eyes guard the long stair under the stepped tower and the Black Fangs below are out of the Lady's favour).
 
+- Day 72: the hobgoblins repulsed an orc raid while the party was away (2 hobgoblins, 1 orc dead; Judge's rolls); Abgal had not returned. 13 giant rats in the north corridor (one killed by Galerius; the party withdrew into 45). Thethamun told of the wyrm's prisoners. 43 north door forced again; **Idimmu awake, Friendly** (Faustina): sold the seven prisoners of 65 and 71 (Daros Thenes, Odysios Panas, Thorwell, Thorcigar; Quintus, Vestus, Zaira) for 700gp and Vestus' and Zaira's spellbooks for 100gp; told that the Lady's black-robed priests buy prisoners from him and that Abgal went below past the Red Eyes. Rooms 65 and 71 empty of prisoners now. Kobolds (twice) and goblins (Neutral) in the corridors.
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 72 | the prisoners of the stepped tower bought from Idimmu (800gp with the spellbooks) | Buried Temple L1 61, 65, 71 | the merchants are owed 250gp each by Karanos alive; Thorwell, Thorcigar and the Fierce Brethren offer service (the party is at its cap of 4 henchmen) |
+| 67-71 | mud from the rains of days 63 and 68; the party waited two days in town, then marched (Varro overloaded on day 69: a slow day) | 22.20-19.19 | — |
 | 63 | the hobgoblin coup averted: Thethamun healed and restored; Abgal, Hepteth and four warriors fled toward the stair to level 2; four luminous beetles and a clutch taken alive (two escaped) | Buried Temple L1 45, 60, 50 | A5 paid out day 64 (990 XP); the hobgoblins allied |
 | 63 | the wagon of Antonius' brigands (Viaspen encounter 6) in heavy rain: Corvus saw through the merchants' act; the company evaded (lost a while, found itself at 21.20); seven elves on the farm tracks (Indifferent) | 20.19, 21.20 | — |
 | 59-62 | to the temple on dry ground (the town week's weather rolled: mud dried day 55); a natural-1 navigation (back to 21.20); giant leeches cowed at night; heat fatigue (day 61) | 22.20-19.19 | — |
@@ -73,6 +77,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
+- Buried Temple (day 72): **Idimmu Friendly** (Faustina; sold the prisoners); Thethamun and Shulgi Friendly (told of the prisoners); kobold bands Indifferent/Neutral; goblins Neutral.
+- Freed (day 72): Daros Thenes and Odysios Panas (merchants, grateful), Thorwell and Thorcigar (men-at-arms, brothers: offer a year's service for shares), Quintus the Rager, Vestus the Unlikely, Zaira the Beautiful (the Fierce Brethren: offer service to their rescuers; their inn bill of 7gp 4sp 2cp unpaid).
 - Buried Temple (day 63): **Chief Thethamun Friendly** (Faustina: healed and restored him), **Shulgi Friendly**; the hobgoblins of 45 and 58 loyal to the chief; **Abgal and Hepteth** fled (enemies of the party now; gone to the Lady with four warriors); orc bands Indifferent and Friendly (the tribe still counts the party as the Lady's recruits); Antonius' brigands (fooled no one; evaded; their wagon heads for a camp in the Viaspen).
 - Türos Tem (day 52): **Legate Ulrand Valerian Friendly** (Faustina's petition: two rumours, the Parade Ground scroll, an introduction to Malyn); **Malyn the Misshapen Neutral** (Callista, introduced by the legate; Miren's disparagement counted): let her copy one formula for 500gp; Varro (Faustina's henchman) loyal.
 
@@ -94,6 +100,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
+- **Day 74 (dawn) at 21.20 with seven freed captives:** into Türos Tem (half a day). Deliver Daros and Odysios to Karanos: 250gp each (`recover --reward 500 --carrier faustina`, adventure A6) and **Karanos automatically Friendly** (AX1 Türos Tem: fees 3%, 1d4-1 shipping contracts). Payout A6. The rescued offer service: Thorwell and Thorcigar (0th level, one year for shares only), the Fierce Brethren (Quintus Fighter 1, Vestus Mage 1, Zaira Elven Spellsword 1: actors via `npc.py` / `candidate` when hired): the party holds 4 henchmen (cap, Rulings R2 S02): the players decide (release 0th-level henchmen to take them, or decline). Vestus' book (magic missile = Mage Missile; protection from evil: its ACKS II arcane equivalent to be read from the spell lists when copied) and Zaira's (charm person = Beguile Humanoid): Callista may copy formulas (RR p. 183).
 - **Abgal's flight (day 63):** Abgal, Hepteth and four hobgoblins went down the stair at 53 to L2 18 (its door wizard-locked: the Lady opens it or they wait). Judge: the Lady learns that strangers healed the chief and that the hobgoblins have Lawful friends; the Red Eyes' and the orcs' view of the party as 'recruits' may sour once word spreads (decide by a hidden roll when the party next meets them). Thethamun's tribe may ask the party's help against Abgal's return.
 - The orcs meant to raid the hobgoblins for the Lady's reward; they held off on day 63. A weekly 1d6 (1-2) that they try again while the party is away is the Judge's (unscheduled).
 

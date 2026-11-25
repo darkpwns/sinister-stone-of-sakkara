@@ -243,3 +243,16 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 64 |  | treasure share |  | 45gp |  | varro |
 | 66 | Traveler's Inn | nights of days 59-63 for Hrodric and Severina (private rooms), Petra and Titus (courtyard), meals |  |  | 8gp | faustina |
 | 66 | Traveler's Inn | nights of days 64-65: six private rooms, four henchmen in the courtyard, meals for ten, two donkeys |  |  | 9gp 6sp | faustina |
+| 69 | Traveler's Inn | nights of days 66-68: six private rooms, four henchmen in the courtyard, meals for ten, two donkeys |  |  | 14gp 4sp | faustina |
+| 69 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 69-75 (Corvus hunted for them days 67-68) |  |  | 2gp 5sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 2 |  | 1gp 8sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 69 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 69 | the retinue | wages paid |  |  | 12gp | faustina |
+| 69 | the retinue | wages paid |  |  | 12gp | faustina |
+| 72 | Idimmu the purple wyrm | seven prisoners bought at 100gp a head (Daros Thenes, Odysios Panas, Thorwell, Thorcigar; Quintus, Vestus, Zaira) and Vestus' and Zaira's spellbooks for 100gp (Friendly; Rulings R2 S10) |  |  | 800gp | faustina |

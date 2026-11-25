@@ -2,16 +2,19 @@
  "schema": "acks-combat/3",
  "round": 2,
  "order": [
-  "callista",
-  "luminous-beetle2",
-  "luminous-beetle4",
   "galerius",
-  "faustina",
-  "corvus",
-  "marius",
-  "luminous-beetle1",
-  "varro",
-  "luminous-beetle3"
+  "giant-rat9",
+  "giant-rat10",
+  "giant-rat11",
+  "giant-rat13",
+  "giant-rat2",
+  "giant-rat3",
+  "giant-rat4",
+  "giant-rat5",
+  "giant-rat6",
+  "giant-rat7",
+  "giant-rat1",
+  "giant-rat12"
  ],
  "count_index": null,
  "options": {
@@ -24,18 +27,20 @@
   "galerius": {
    "id": "galerius",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "galerius",
    "perceived": "Galerius",
    "judge_set": {},
-   "hp_lost_rounds": [],
+   "hp_lost_rounds": [
+    1
+   ],
    "felled": null,
    "cleaves_used": 0,
    "declared": {
     "withdraw": true
    },
-   "init": 4,
+   "init": 6,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -222,13 +227,17 @@
    },
    "actor": "galerius",
    "hp_max": 7,
-   "hp": 7,
-   "hp_start": 7
+   "hp": 6,
+   "hp_start": 7,
+   "attacked_round": 1,
+   "last_types": [
+    "piercing"
+   ]
   },
   "faustina": {
    "id": "faustina",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "faustina",
    "perceived": "Faustina",
@@ -237,7 +246,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -428,7 +437,7 @@
   "callista": {
    "id": "callista",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "callista",
    "perceived": "Callista",
@@ -436,10 +445,8 @@
    "hp_lost_rounds": [],
    "felled": null,
    "cleaves_used": 0,
-   "declared": {
-    "spell": "cast"
-   },
-   "init": 6,
+   "declared": {},
+   "init": 5,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -627,15 +634,12 @@
    "actor": "callista",
    "hp_max": 6,
    "hp": 6,
-   "hp_start": 6,
-   "spells_cast": {
-    "slumber": 2
-   }
+   "hp_start": 6
   },
   "corvus": {
    "id": "corvus",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "corvus",
    "perceived": "Corvus",
@@ -644,7 +648,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 4,
+   "init": 2,
    "nonlethal": 0,
    "notes": [],
    "kind": "pc",
@@ -859,7 +863,7 @@
   "marius": {
    "id": "marius",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "marius",
    "perceived": "Marius",
@@ -868,7 +872,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 2,
+   "init": null,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1056,7 +1060,7 @@
   "varro": {
    "id": "varro",
    "side": "party",
-   "status": "active",
+   "status": "left",
    "conditions": [],
    "group": "varro",
    "perceived": "Varro",
@@ -1065,7 +1069,7 @@
    "felled": null,
    "cleaves_used": 0,
    "declared": {},
-   "init": 1,
+   "init": -1,
    "nonlethal": 0,
    "notes": [],
    "kind": "henchman",
@@ -1241,21 +1245,352 @@
    "hp": 3,
    "hp_start": 3
   },
-  "luminous-beetle1": {
-   "id": "luminous-beetle1",
+  "giant-rat1": {
+   "id": "giant-rat1",
    "side": "foe",
-   "status": "captured",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 1",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat2": {
+   "id": "giant-rat2",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 2",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat3": {
+   "id": "giant-rat3",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 3",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 2,
+   "hp": 2,
+   "hp_start": 2,
+   "attacked_round": 1
+  },
+  "giant-rat4": {
+   "id": "giant-rat4",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 4",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat5": {
+   "id": "giant-rat5",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 5",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat6": {
+   "id": "giant-rat6",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 6",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 2,
+   "hp": 2,
+   "hp_start": 2,
+   "attacked_round": 1
+  },
+  "giant-rat7": {
+   "id": "giant-rat7",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 7",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 5,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat8": {
+   "id": "giant-rat8",
+   "side": "foe",
+   "status": "dead",
    "conditions": [
     {
-     "name": "slumbering",
-     "source": "callista",
-     "rounds_left": 20,
-     "since_round": 2,
+     "name": "unconscious",
+     "source": null,
+     "rounds_left": null,
+     "since_round": 1,
      "note": null
     }
    ],
-   "group": "luminous-beetle",
-   "perceived": "glowing giant beetle 1",
+   "group": "giant-rat",
+   "perceived": "giant rat 8",
+   "judge_set": {},
+   "hp_lost_rounds": [
+    1
+   ],
+   "felled": {
+    "round": 1,
+    "types": [
+     "piercing",
+     "slashing"
+    ],
+    "natural": false,
+    "by": "galerius",
+    "tier": "mundane",
+    "nonlethal": false
+   },
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 4,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 0,
+   "hp_start": 4,
+   "attacked_round": 1,
+   "last_types": [
+    "piercing",
+    "slashing"
+   ],
+   "dying": {
+    "within": "day",
+    "since_round": 2
+   },
+   "mortal_wounds": {
+    "total": 14,
+    "d20": 15,
+    "d6": 5,
+    "table": "mortal-wounds-slashing",
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One eye is damaged by downward slash through brow ridge (-2 to missile attack throws at medium/long range).",
+    "band": "11-15"
+   },
+   "xp_recorded": {
+    "record": "M10",
+    "how": "killed",
+    "xp": 5
+   }
+  },
+  "giant-rat9": {
+   "id": "giant-rat9",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 9",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat10": {
+   "id": "giant-rat10",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 10",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 4,
+   "hp": 4,
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat11": {
+   "id": "giant-rat11",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 11",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 2,
+   "hp": 2,
+   "hp_start": 2,
+   "attacked_round": 1
+  },
+  "giant-rat12": {
+   "id": "giant-rat12",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 12",
    "judge_set": {},
    "hp_lost_rounds": [],
    "felled": null,
@@ -1265,134 +1600,43 @@
    "nonlethal": 0,
    "notes": [],
    "kind": "monster",
-   "name": "Luminous Beetle",
+   "name": "Giant Rat",
    "stats": {},
    "monster": {
-    "base": "luminous-beetle",
-    "sha256": "b04e1185f0b7e6447522f49bd191ff5153370a446f0c2284f1ed9e8db063b1b1"
-   },
-   "hp_max": 8,
-   "hp": 8,
-   "hp_start": 10,
-   "attacked_round": 1,
-   "captured_as": "luminous-beetle1",
-   "xp_recorded": {
-    "judge": "captured"
-   }
-  },
-  "luminous-beetle2": {
-   "id": "luminous-beetle2",
-   "side": "foe",
-   "status": "captured",
-   "conditions": [
-    {
-     "name": "slumbering",
-     "source": "callista",
-     "rounds_left": 19,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "luminous-beetle",
-   "perceived": "glowing giant beetle 2",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Luminous Beetle",
-   "stats": {},
-   "monster": {
-    "base": "luminous-beetle",
-    "sha256": "b04e1185f0b7e6447522f49bd191ff5153370a446f0c2284f1ed9e8db063b1b1"
-   },
-   "hp_max": 7,
-   "hp": 7,
-   "hp_start": 9,
-   "captured_as": "luminous-beetle2",
-   "xp_recorded": {
-    "judge": "captured"
-   }
-  },
-  "luminous-beetle3": {
-   "id": "luminous-beetle3",
-   "side": "foe",
-   "status": "captured",
-   "conditions": [
-    {
-     "name": "slumbering",
-     "source": "callista",
-     "rounds_left": 19,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "luminous-beetle",
-   "perceived": "glowing giant beetle 3",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 1,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Luminous Beetle",
-   "stats": {},
-   "monster": {
-    "base": "luminous-beetle",
-    "sha256": "b04e1185f0b7e6447522f49bd191ff5153370a446f0c2284f1ed9e8db063b1b1"
-   },
-   "hp_max": 6,
-   "hp": 6,
-   "hp_start": 5,
-   "captured_as": "luminous-beetle3",
-   "xp_recorded": {
-    "judge": "captured"
-   }
-  },
-  "luminous-beetle4": {
-   "id": "luminous-beetle4",
-   "side": "foe",
-   "status": "captured",
-   "conditions": [
-    {
-     "name": "slumbering",
-     "source": "callista",
-     "rounds_left": 19,
-     "since_round": 1,
-     "note": null
-    }
-   ],
-   "group": "luminous-beetle",
-   "perceived": "glowing giant beetle 4",
-   "judge_set": {},
-   "hp_lost_rounds": [],
-   "felled": null,
-   "cleaves_used": 0,
-   "declared": {},
-   "init": 6,
-   "nonlethal": 0,
-   "notes": [],
-   "kind": "monster",
-   "name": "Luminous Beetle",
-   "stats": {},
-   "monster": {
-    "base": "luminous-beetle",
-    "sha256": "b04e1185f0b7e6447522f49bd191ff5153370a446f0c2284f1ed9e8db063b1b1"
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
    },
    "hp_max": 4,
    "hp": 4,
-   "hp_start": 6,
-   "captured_as": "luminous-beetle4",
-   "xp_recorded": {
-    "judge": "captured"
-   }
+   "hp_start": 4,
+   "attacked_round": 1
+  },
+  "giant-rat13": {
+   "id": "giant-rat13",
+   "side": "foe",
+   "status": "active",
+   "conditions": [],
+   "group": "giant-rat",
+   "perceived": "giant rat 13",
+   "judge_set": {},
+   "hp_lost_rounds": [],
+   "felled": null,
+   "cleaves_used": 0,
+   "declared": {},
+   "init": 6,
+   "nonlethal": 0,
+   "notes": [],
+   "kind": "monster",
+   "name": "Giant Rat",
+   "stats": {},
+   "monster": {
+    "base": "giant-rat",
+    "sha256": "e32db2e3f9782b9782a64596c244234a50d8ab313b5c10e8565175c1a974eb49"
+   },
+   "hp_max": 1,
+   "hp": 1,
+   "hp_start": 1,
+   "attacked_round": 1
   }
  },
  "groups": {
@@ -1468,88 +1712,189 @@
    },
    "start_count": 1
   },
-  "luminous-beetle": {
+  "giant-rat": {
    "side": "foe",
    "members": [
-    "luminous-beetle1",
-    "luminous-beetle2",
-    "luminous-beetle3",
-    "luminous-beetle4"
+    "giant-rat1",
+    "giant-rat2",
+    "giant-rat3",
+    "giant-rat4",
+    "giant-rat5",
+    "giant-rat6",
+    "giant-rat7",
+    "giant-rat8",
+    "giant-rat9",
+    "giant-rat10",
+    "giant-rat11",
+    "giant-rat12",
+    "giant-rat13"
    ],
    "morale": {
     "state": "steady",
     "rolls": [],
     "triggered": false
    },
-   "start_count": 4
+   "start_count": 13,
+   "felled_rounds": [
+    1
+   ]
   }
  },
  "engaged": [],
  "engaged_at_round_start": [
   [
    "galerius",
-   "luminous-beetle1"
+   "giant-rat10"
+  ],
+  [
+   "galerius",
+   "giant-rat13"
+  ],
+  [
+   "galerius",
+   "giant-rat2"
+  ],
+  [
+   "galerius",
+   "giant-rat7"
+  ],
+  [
+   "galerius",
+   "giant-rat1"
+  ],
+  [
+   "galerius",
+   "giant-rat4"
+  ],
+  [
+   "galerius",
+   "giant-rat9"
+  ],
+  [
+   "galerius",
+   "giant-rat3"
+  ],
+  [
+   "galerius",
+   "giant-rat5"
+  ],
+  [
+   "galerius",
+   "giant-rat6"
+  ],
+  [
+   "galerius",
+   "giant-rat11"
+  ],
+  [
+   "galerius",
+   "giant-rat12"
   ]
  ],
  "distances": {
-  "galerius|luminous-beetle1": 5,
-  "galerius|luminous-beetle2": 20,
-  "galerius|luminous-beetle3": 20,
-  "galerius|luminous-beetle4": 20,
-  "faustina|luminous-beetle1": 20,
-  "faustina|luminous-beetle2": 20,
-  "faustina|luminous-beetle3": 20,
-  "faustina|luminous-beetle4": 20,
-  "callista|luminous-beetle1": 20,
-  "callista|luminous-beetle2": 20,
-  "callista|luminous-beetle3": 20,
-  "callista|luminous-beetle4": 20,
-  "corvus|luminous-beetle1": 20,
-  "corvus|luminous-beetle2": 20,
-  "corvus|luminous-beetle3": 20,
-  "corvus|luminous-beetle4": 20,
-  "luminous-beetle1|marius": 20,
-  "luminous-beetle2|marius": 20,
-  "luminous-beetle3|marius": 20,
-  "luminous-beetle4|marius": 20,
-  "luminous-beetle1|varro": 20,
-  "luminous-beetle2|varro": 20,
-  "luminous-beetle3|varro": 20,
-  "luminous-beetle4|varro": 20
+  "galerius|giant-rat1": 5,
+  "galerius|giant-rat2": 5,
+  "galerius|giant-rat3": 5,
+  "galerius|giant-rat4": 5,
+  "galerius|giant-rat5": 5,
+  "galerius|giant-rat6": 5,
+  "galerius|giant-rat7": 5,
+  "galerius|giant-rat8": 5,
+  "galerius|giant-rat9": 5,
+  "galerius|giant-rat10": 5,
+  "galerius|giant-rat11": 5,
+  "galerius|giant-rat12": 5,
+  "galerius|giant-rat13": 5,
+  "faustina|giant-rat1": 40,
+  "faustina|giant-rat2": 40,
+  "faustina|giant-rat3": 40,
+  "faustina|giant-rat4": 40,
+  "faustina|giant-rat5": 40,
+  "faustina|giant-rat6": 40,
+  "faustina|giant-rat7": 40,
+  "faustina|giant-rat8": 40,
+  "faustina|giant-rat9": 40,
+  "faustina|giant-rat10": 40,
+  "faustina|giant-rat11": 40,
+  "faustina|giant-rat12": 40,
+  "faustina|giant-rat13": 40,
+  "callista|giant-rat1": 40,
+  "callista|giant-rat2": 40,
+  "callista|giant-rat3": 40,
+  "callista|giant-rat4": 40,
+  "callista|giant-rat5": 40,
+  "callista|giant-rat6": 40,
+  "callista|giant-rat7": 40,
+  "callista|giant-rat8": 40,
+  "callista|giant-rat9": 40,
+  "callista|giant-rat10": 40,
+  "callista|giant-rat11": 40,
+  "callista|giant-rat12": 40,
+  "callista|giant-rat13": 40,
+  "corvus|giant-rat1": 40,
+  "corvus|giant-rat2": 40,
+  "corvus|giant-rat3": 40,
+  "corvus|giant-rat4": 40,
+  "corvus|giant-rat5": 40,
+  "corvus|giant-rat6": 40,
+  "corvus|giant-rat7": 40,
+  "corvus|giant-rat8": 40,
+  "corvus|giant-rat9": 40,
+  "corvus|giant-rat10": 40,
+  "corvus|giant-rat11": 40,
+  "corvus|giant-rat12": 40,
+  "corvus|giant-rat13": 40,
+  "giant-rat1|marius": 40,
+  "giant-rat2|marius": 40,
+  "giant-rat3|marius": 40,
+  "giant-rat4|marius": 40,
+  "giant-rat5|marius": 40,
+  "giant-rat6|marius": 40,
+  "giant-rat7|marius": 40,
+  "giant-rat8|marius": 40,
+  "giant-rat9|marius": 40,
+  "giant-rat10|marius": 40,
+  "giant-rat11|marius": 40,
+  "giant-rat12|marius": 40,
+  "giant-rat13|marius": 40,
+  "giant-rat1|varro": 40,
+  "giant-rat2|varro": 40,
+  "giant-rat3|varro": 40,
+  "giant-rat4|varro": 40,
+  "giant-rat5|varro": 40,
+  "giant-rat6|varro": 40,
+  "giant-rat7|varro": 40,
+  "giant-rat8|varro": 40,
+  "giant-rat9|varro": 40,
+  "giant-rat10|varro": 40,
+  "giant-rat11|varro": 40,
+  "giant-rat12|varro": 40,
+  "giant-rat13|varro": 40
  },
  "log": [],
- "encounter_id": "enc81",
+ "encounter_id": "enc87",
  "notes_shown": [],
  "tactics": {
-  "luminous-beetle": {
+  "giant-rat": {
    "tactic": "close-and-attack"
   }
  },
  "orders": {
-  "varro": {
-   "tactic": "hold",
-   "group": null
-  },
   "corvus": {
    "tactic": "hold",
    "group": null
   },
-  "faustina": {
+  "callista": {
    "tactic": "hold",
    "group": null
   },
-  "marius": {
+  "varro": {
    "tactic": "hold",
    "group": null
   }
  },
  "round_ended": 1,
  "retinue": {
-  "marius": {
-   "hp_triggered": false,
-   "party_triggered": false,
-   "calamity_queued": false
-  },
   "varro": {
    "hp_triggered": false,
    "party_triggered": false,
@@ -1566,6 +1911,17 @@
  ],
  "ended": {
   "round": 2,
-  "felled_foes": []
+  "felled_foes": [
+   {
+    "id": "giant-rat8",
+    "name": "Giant Rat",
+    "perceived": "giant rat 8",
+    "outcome": "slain",
+    "hp": 0,
+    "condition": "You are critically wounded. You die unless healed to 1 hp within 1 day. If you are healed, you need 1 week of bed rest.",
+    "wound": "One eye is damaged by downward slash through brow ridge (-2 to missile attack throws at medium/long range).",
+    "total": 14
+   }
+  ]
  }
 }

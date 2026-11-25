@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 9
+session: 10
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 66
-  time: '17:35'
+    day: 74
+  time: 07:05
   weather: Brisk (63 to 67 F) by day, Chilly (57 to 62 F) at night; mostly cloudy; wind still
   place: Türos Tem
-  hex: '22.20'
+  hex: '21.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -39,11 +39,11 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 5.023
+    encumbrance_st: 4.174
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 7
+    hp: 6
     hp_max: 7
     conditions: []
     spells_used: []
@@ -71,7 +71,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 6.105
+    encumbrance_st: 5.605
   - name: Petra
     sheet: Characters/petra.json
     role: henchman
@@ -96,16 +96,11 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 7.262
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out
-  rations: 'Galerius: food 2 d, water 5.4 d; Faustina: food 2 d, water 0 d; Callista: food 2 d, water 3 d; Corvus: food 2 d, water 0 d; Marius: food 6 d, water 0 d; Varro: food 2 d, water 0.2 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out
+  rations: 'Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '21.20'
-  - '22.20'
-  - '22.19'
-  - '23.19'
-  - '23.18'
   - '23.17'
   - '23.16'
   - '22.16'
@@ -121,7 +116,12 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 66
+  - '21.20'
+  - '20.19'
+  - '19.19'
+  - '20.19'
+  - '21.20'
+clock_day: 74
 ---
 # Campaign State
 

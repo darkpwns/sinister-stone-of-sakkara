@@ -22,3 +22,4 @@ Run 2 (from 2026-11-24). Run 1's log: `Archive/Run 1 (S01-S54)/Session Log/Campa
 - [[S07 — The Wrong Road to the Shrine]] (2026-11-24): days 43-50: Titus hired; pups tamed; lost on the way to the shrine; Türos Aster and the legate's offer on the ruined fortress; a 12,300gp cache by the road
 - [[S08 — Home Rich, Two Levels Up]] (2026-11-24): days 50-59: home with the cache; payout A4, five PCs to 2nd level; 13,000gp banked; Varro hired; the legate Friendly; Discern Magic from Malyn; a week of downtime
 - [[S09 — The Chief's Debt]] (2026-11-25; replayed): days 59-66: the hobgoblins' coup averted by talk and healing; the chief's reward; four beetles slumbered and taken with their eggs; Antonius' wagon evaded
+- [[S10 — Bought from the Wyrm]] (2026-11-25): days 66-73: mud and a wait; through the hobgoblins to Idimmu; seven prisoners and two spellbooks bought for 800gp; the rats shut out; home to 21.20
