@@ -54,6 +54,18 @@ tags:
 | 100 | The Black Fangs' war (Buried Temple, level 2) | AX1 Scroll of Growth of Animals | 750 | callista |
 | 100 | The Black Fangs' war (Buried Temple, level 2) | AX1 Scroll of Ward Against Undead | 1,000 | callista |
 | 100 | The Black Fangs' war (Buried Temple, level 2) | Sword +1, Death Drinker | 660 | galerius |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | 31 gold pieces | 31 | severina |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | 500 copper pieces | 5 | marius |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | 500 silver pieces | 50 | zaira |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | 500 electrum pieces | 250 | quintus |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | crate of Krysean pottery | 100 | donkey2 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | cattle horns | 42 | donkey1 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | bottles of fine Tirenean wine | 270 | donkey2 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | cattle horns | 44 | donkey1 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | cattle horns | 44 | hrodric |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | cattle horns | 44 | severina |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | crate of Krysean pottery | 100 | donkey2 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | bottles of fine Tirenean wine | 270 | zaira |
 
 ## Monster XP
 
@@ -72,6 +84,10 @@ tags:
 | 89 | Below the stepped tower (Buried Temple, level 2) | Ogre | 2 | 140 | 280 |
 | 100 | The Black Fangs' war (Buried Temple, level 2) | Idimmu (Sakkara) | 1 | 820 | 820 |
 | 100 | The Black Fangs' war (Buried Temple, level 2) | Giant Rat | 9 | 5 | 45 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Stirge (Sakkara) | 9 | 13 | 117 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Gnoll | 5 | 20 | 100 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Gnoll | 2 | 20 | 40 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Hepsis (Sakkara) | 1 | 80 | 80 |
 
 ## Shares and XP awarded
 
@@ -138,6 +154,16 @@ tags:
 | 100 | The Black Fangs' war (Buried Temple, level 2) | Quintus | 0.5 | 753 | 54 | 0 | +5% | 847 |
 | 100 | The Black Fangs' war (Buried Temple, level 2) | Zaira | 0.5 | 753 | 54 | 0 | +0% | 807 |
 | 100 | The Black Fangs' war (Buried Temple, level 2) | Marius | 0.5 | 753 | 54 | 0 | +0% | 807 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Galerius | 1 | 156 | 42 | 0 | +10% | 218 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Faustina | 1 | 156 | 42 | 0 | +5% | 208 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Callista | 1 | 156 | 42 | 0 | +5% | 208 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Corvus | 1 | 156 | 42 | 0 | +5% | 208 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Hrodric | 1 | 156 | 42 | 0 | +5% | 208 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Severina | 1 | 156 | 42 | 0 | +5% | 208 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Varro | 0.5 | 78 | 21 | 0 | +5% | 104 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Quintus | 0.5 | 78 | 21 | 0 | +5% | 104 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Zaira | 0.5 | 78 | 21 | 0 | +0% | 99 |
+| 112 | A9 The strike on the Red Eyes (Buried Temple, level 2) | Marius | 0.5 | 78 | 21 | 0 | +5% | 104 | | NOTE: sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -426,3 +452,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 108 | Apsa's orcs of 27 | two nights' shelter in the toll room and minding the donkeys (Judge's call; the truce) |  |  | 20gp | faustina |
 | 110 | the Red Eyes at the long stair's foot | a week's bribe (day 110) |  |  | 10gp | faustina |
 | 111 | the freeholder of 21.20 | well water, 1sp a head for ten (Rulings S08) |  |  | 1gp | faustina |
+| 112 |  | treasure share |  | 42gp |  | galerius |
+| 112 |  | treasure share |  | 42gp |  | faustina |
+| 112 |  | treasure share |  | 42gp |  | callista |
+| 112 |  | treasure share |  | 42gp |  | corvus |
+| 112 |  | treasure share |  | 42gp |  | hrodric |
+| 112 |  | treasure share |  | 42gp |  | severina |
+| 112 |  | treasure share |  | 21gp |  | varro |
+| 112 |  | treasure share |  | 21gp |  | quintus |
+| 112 |  | treasure share |  | 21gp |  | zaira |
+| 112 |  | treasure share |  | 21gp |  | marius |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 125gp 6sp 7cp |  | galerius |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 125gp 6sp 7cp |  | faustina |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 125gp 6sp 7cp |  | callista |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 125gp 6sp 7cp |  | corvus |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 125gp 6sp 7cp |  | hrodric |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 125gp 6sp 7cp |  | severina |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 62gp 8sp 3cp |  | varro |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 62gp 8sp 3cp |  | quintus |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 62gp 8sp 3cp |  | zaira |
+| 112 | market | his share of the sale of L65,L66,L67,L68,L69,L70,L71,L72 (after the payout) |  | 62gp 8sp 3cp |  | marius |
+| 112 | Malyn the Misshapen | a 2nd-level formula copied into Callista's book: Invisibility (Rulings R2 S14) |  |  | 1,000gp | faustina |
+| 112 | Traveler's Inn | lodging, 7 night(s) |  |  | 39gp 2sp | faustina |
+| 112 | Annalist Hometri Socolo | reading the Ancient Zaharan scroll (Neutral: his fee, AX1 Türos Tem) |  |  | 40gp | faustina |
