@@ -291,3 +291,12 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 80 | Traveler's Inn | nights of days 75-80: seven private rooms, three henchmen in the courtyard, meals for ten, two donkeys |  |  | 33gp 6sp | faustina |
 | 80 | a farmhand of 22.19 | a local guide for Corvus' survey of 22.19 (days 76-78, 5sp a day) |  |  | 1gp 5sp | faustina |
 | 80 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 76-82 |  |  | 2gp 5sp | faustina |
+| 82 | Traveler's Inn | nights of days 80-81 (six private rooms, four henchmen in the courtyard, meals for ten, two donkeys) |  |  | 9gp 6sp | faustina |
+| 82 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 83-89 |  |  | 2gp 5sp | faustina |
+| 82 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 82 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 82 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 82 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 82 | Turos Tem | Rations, Iron (one week) | 1 |  | 9sp | faustina |
+| 82 | the retinue | wages paid |  |  | 25gp | faustina |
+| 87 | Apsa, king of the orcs | a gift for peace with the hobgoblins this spring (a month's bribe; Friendly, helpful), day 87 |  |  | 100gp | faustina |

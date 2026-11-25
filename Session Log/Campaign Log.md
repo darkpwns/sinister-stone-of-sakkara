@@ -24,3 +24,4 @@ Run 2 (from 2026-11-24). Run 1's log: `Archive/Run 1 (S01-S54)/Session Log/Campa
 - [[S09 — The Chief's Debt]] (2026-11-25; replayed): days 59-66: the hobgoblins' coup averted by talk and healing; the chief's reward; four beetles slumbered and taken with their eggs; Antonius' wagon evaded
 - [[S10 — Bought from the Wyrm]] (2026-11-25): days 66-73: mud and a wait; through the hobgoblins to Idimmu; seven prisoners and two spellbooks bought for 800gp; the rats shut out; home to 21.20
 - [[S11 — The Arch Above the River]] (2026-11-25): days 74-80: the merchants home, Karanos Friendly; Quintus and Zaira hired, Petra and Titus released; the arch that shows the unicorn's pool; a wet week of downtime
+- [[S12 — The Orc King's Truce]] (2026-11-25; replayed): days 80-87: the temple road only; a ruined castle seen; the hobgoblins sheltered the company and told of level 2; a truce bought from the orc king

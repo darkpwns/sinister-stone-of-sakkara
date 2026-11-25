@@ -1,16 +1,16 @@
 {
  "campaign": "Sakkara Run 2",
- "session": 11,
- "generated": 1795567187,
+ "session": 12,
+ "generated": 1795568276,
  "date": {
   "year": "",
   "season": "spring",
-  "day": 80
+  "day": 87
  },
- "time": "18:05",
+ "time": "06:07",
  "weather": "Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; misty; wind still",
  "place": "Türos Tem",
- "hex": "22.20",
+ "hex": "19.19",
  "party": [
   {
    "name": "Callista",
@@ -40,7 +40,7 @@
    "hp_max": 10,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 4.283
+   "encumbrance_st": 4.145
   },
   {
    "name": "Galerius",
@@ -60,7 +60,7 @@
    "hp_max": 7,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 6.833
+   "encumbrance_st": 5.833
   },
   {
    "name": "Severina",
@@ -80,7 +80,7 @@
    "hp_max": 4,
    "conditions": [],
    "spells_used": [],
-   "encumbrance_st": 5.655
+   "encumbrance_st": 6.322
   },
   {
    "name": "Varro",
@@ -113,16 +113,11 @@
    "encumbrance_st": 3.5
   }
  ],
- "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out",
- "rations": "Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Quintus: food 0 d, water 0 d; Zaira: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st",
+ "light": "lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Marius) 1 turn left",
+ "rations": "Galerius: food 6 d, water 5.4 d; Faustina: food 6 d, water 0 d; Callista: food 6 d, water 3 d; Corvus: food 6 d, water 0 d; Marius: food 3 d, water 0 d; Varro: food 6 d, water 0.2 d; Hrodric: food 5 d, water 0 d; Quintus: food 6 d, water 0.2 d; Zaira: food 2 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st",
  "tracker": {},
  "threads": [],
  "trail": [
-  "23.16",
-  "22.16",
-  "25.19",
-  "24.19",
-  "23.20",
   "22.20",
   "21.20",
   "20.19",
@@ -137,7 +132,12 @@
   "19.19",
   "20.19",
   "21.20",
-  "22.20"
+  "22.20",
+  "21.20",
+  "20.19",
+  "21.19",
+  "20.19",
+  "19.19"
  ],
  "explored_hexes": [
   {
@@ -848,11 +848,11 @@
    "coins": {
     "pp": 0,
     "ep": 0,
-    "gp": 1276,
-    "sp": 2,
+    "gp": 1134,
+    "sp": 6,
     "cp": 5
    },
-   "encumbrance_st": 4.283,
+   "encumbrance_st": 4.145,
    "weapons": [
     {
      "name": "Staff",
@@ -1458,10 +1458,8 @@
      "stone": 2
     },
     "sack": {
-     "contents": [
-      "torch ×6"
-     ],
-     "items": 6,
+     "contents": [],
+     "items": 0,
      "stone": 0
     },
     "worn": {
@@ -1477,7 +1475,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 6.833,
+   "encumbrance_st": 5.833,
    "weapons": [
     {
      "name": "Spear",
@@ -1847,9 +1845,10 @@
     },
     "backpack": {
      "contents": [
-      "Waterskin"
+      "Waterskin",
+      "torch ×4"
      ],
-     "items": 1,
+     "items": 5,
      "stone": 0
     },
     "sack": {
@@ -1870,7 +1869,7 @@
     "sp": 0,
     "cp": 0
    },
-   "encumbrance_st": 5.655,
+   "encumbrance_st": 6.322,
    "weapons": [
     {
      "name": "Spear (broken shaft: as dagger)",
@@ -2140,6 +2139,7 @@
     }
    ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 14,
@@ -3004,6 +3004,7 @@
     }
    ],
    "gems": "",
+   "treasure": [],
    "proficiency_throws": {
     "climbing": 8,
     "dungeonbashing": 14,
@@ -3064,10 +3065,37 @@
    "label": "weather temperature (R06.05)",
    "spec": "2d6",
    "rolls": [
-    6,
+    1,
+    1
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
     5
    ],
-   "total": 11
+   "total": 9
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    4
+   ],
+   "total": 7
+  },
+  {
+   "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    4
+   ],
+   "total": 6
   },
   {
    "label": "weather precipitation (R06.05)",
@@ -3082,13 +3110,128 @@
    "label": "weather wind (R06.05)",
    "spec": "2d6",
    "rolls": [
-    3,
-    3
+    4,
+    6
+   ],
+   "total": 10
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
    ],
    "total": 6
   },
   {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Varro surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Quintus surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Zaira surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Marius surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
    "label": "weather temperature (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    1
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather precipitation (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    1,
+    4
+   ],
+   "total": 5
+  },
+  {
+   "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    2,
+    6
+   ],
+   "total": 8
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Quintus surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "weather temperature (R05.05)",
    "spec": "2d6",
    "rolls": [
     4,
@@ -3097,25 +3240,7 @@
    "total": 5
   },
   {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    5
-   ],
-   "total": 10
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    5
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather temperature (R06.05)",
+   "label": "weather precipitation (R05.05)",
    "spec": "2d6",
    "rolls": [
     3,
@@ -3124,87 +3249,24 @@
    "total": 9
   },
   {
-   "label": "weather precipitation (R06.05)",
+   "label": "weather wind (R05.05)",
    "spec": "2d6",
    "rolls": [
-    1,
+    4,
     1
    ],
-   "total": 2
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    5
-   ],
-   "total": 10
+   "total": 5
   },
   {
    "label": "weather temperature (R06.05)",
    "spec": "2d6",
    "rolls": [
-    2,
+    6,
     2
-   ],
-   "total": 4
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    3
    ],
    "total": 8
   },
   {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    3
-   ],
-   "total": 9
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    4,
-    2
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    5,
-    1
-   ],
-   "total": 6
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    5
-   ],
-   "total": 11
-  },
-  {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    3,
-    1
-   ],
-   "total": 4
-  },
-  {
    "label": "weather precipitation (R06.05)",
    "spec": "2d6",
    "rolls": [
@@ -3215,6 +3277,105 @@
   },
   {
    "label": "weather wind (R06.05)",
+   "spec": "2d6",
+   "rolls": [
+    3,
+    6
+   ],
+   "total": 9
+  },
+  {
+   "label": "Galerius surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
+   "rolls": [
+    1
+   ],
+   "total": 1
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Varro surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Quintus surprise",
+   "spec": "1d6",
+   "rolls": [
+    3
+   ],
+   "total": 3
+  },
+  {
+   "label": "Zaira surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Marius surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "weather temperature (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    6,
+    2
+   ],
+   "total": 8
+  },
+  {
+   "label": "weather precipitation (R05.05)",
+   "spec": "2d6",
+   "rolls": [
+    4,
+    5
+   ],
+   "total": 9
+  },
+  {
+   "label": "weather wind (R05.05)",
    "spec": "2d6",
    "rolls": [
     1,
@@ -3223,39 +3384,76 @@
    "total": 7
   },
   {
-   "label": "weather temperature (R06.05)",
-   "spec": "2d6",
+   "label": "Galerius surprise",
+   "spec": "1d6",
    "rolls": [
-    5,
-    3
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather precipitation (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    6,
-    2
-   ],
-   "total": 8
-  },
-  {
-   "label": "weather wind (R06.05)",
-   "spec": "2d6",
-   "rolls": [
-    1,
     1
    ],
-   "total": 2
+   "total": 1
   },
   {
-   "label": "galerius natural healing",
-   "spec": "1d3",
+   "label": "Faustina surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Callista surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Corvus surprise",
+   "spec": "1d6",
    "rolls": [
     3
    ],
    "total": 3
+  },
+  {
+   "label": "Hrodric surprise",
+   "spec": "1d6",
+   "rolls": [
+    6
+   ],
+   "total": 6
+  },
+  {
+   "label": "Varro surprise",
+   "spec": "1d6",
+   "rolls": [
+    4
+   ],
+   "total": 4
+  },
+  {
+   "label": "Quintus surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
+  },
+  {
+   "label": "Zaira surprise",
+   "spec": "1d6",
+   "rolls": [
+    2
+   ],
+   "total": 2
+  },
+  {
+   "label": "Marius surprise",
+   "spec": "1d6",
+   "rolls": [
+    5
+   ],
+   "total": 5
   }
  ],
  "rumours_heard": [

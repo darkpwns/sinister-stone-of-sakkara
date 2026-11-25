@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 11
+session: 12
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 80
-  time: '18:05'
+    day: 87
+  time: 06:07
   weather: Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; misty; wind still
   place: Türos Tem
-  hex: '22.20'
+  hex: '19.19'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -39,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.283
+    encumbrance_st: 4.145
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -55,7 +55,7 @@ public:
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 6.833
+    encumbrance_st: 5.833
   - name: Severina
     sheet: Characters/severina.json
     role: pc
@@ -71,7 +71,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 5.655
+    encumbrance_st: 6.322
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -96,16 +96,11 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 3.5
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out
-  rations: 'Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Quintus: food 0 d, water 0 d; Zaira: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Marius) 1 turn left
+  rations: 'Galerius: food 6 d, water 5.4 d; Faustina: food 6 d, water 0 d; Callista: food 6 d, water 3 d; Corvus: food 6 d, water 0 d; Marius: food 3 d, water 0 d; Varro: food 6 d, water 0.2 d; Hrodric: food 5 d, water 0 d; Quintus: food 6 d, water 0.2 d; Zaira: food 2 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '23.16'
-  - '22.16'
-  - '25.19'
-  - '24.19'
-  - '23.20'
   - '22.20'
   - '21.20'
   - '20.19'
@@ -121,7 +116,12 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 80
+  - '21.20'
+  - '20.19'
+  - '21.19'
+  - '20.19'
+  - '19.19'
+clock_day: 87
 ---
 # Campaign State
 

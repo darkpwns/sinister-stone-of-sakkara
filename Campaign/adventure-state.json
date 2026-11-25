@@ -1,15 +1,15 @@
 {
  "schema": "acks-adventure/2",
  "seq": {
-  "A": 6,
+  "A": 7,
   "L": 44,
   "H": 1,
   "M": 10
  },
  "adventure": {
-  "id": "A6",
-  "name": "The tower's prisoners (Buried Temple, level 1)",
-  "start_day": 72,
+  "id": "A7",
+  "name": "Below the stepped tower (Buried Temple, level 2)",
+  "start_day": 86,
   "participants": {
    "galerius": {
     "id": "galerius",
@@ -19,14 +19,12 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 3571,
+    "xp_before": 3682,
     "level_before": 2,
     "class": "Fighter",
-    "joined_day": 72,
-    "returned_day": 74,
-    "xp_award": 111
+    "joined_day": 86
    },
    "faustina": {
     "id": "faustina",
@@ -36,14 +34,12 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 3408,
+    "xp_before": 3514,
     "level_before": 2,
     "class": "Priestess",
-    "joined_day": 72,
-    "returned_day": 74,
-    "xp_award": 106
+    "joined_day": 86
    },
    "callista": {
     "id": "callista",
@@ -53,14 +49,12 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 3408,
+    "xp_before": 3514,
     "level_before": 2,
     "class": "Mage",
-    "joined_day": 72,
-    "returned_day": 74,
-    "xp_award": 106
+    "joined_day": 86
    },
    "corvus": {
     "id": "corvus",
@@ -70,31 +64,27 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 3408,
+    "xp_before": 3514,
     "level_before": 2,
     "class": "Explorer",
-    "joined_day": 72,
-    "returned_day": 74,
-    "xp_award": 106
+    "joined_day": 86
    },
-   "marius": {
-    "id": "marius",
-    "name": "Marius",
-    "actor": "marius",
-    "kind": "henchman",
-    "player": null,
+   "hrodric": {
+    "id": "hrodric",
+    "name": "Hrodric",
+    "actor": "hrodric",
+    "kind": "pc",
+    "player": "kwame",
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 177,
-    "level_before": 0,
-    "class": "None (0th level)",
-    "joined_day": 72,
-    "returned_day": 74,
-    "xp_award": 50
+    "xp_before": 2999,
+    "level_before": 2,
+    "class": "Shaman",
+    "joined_day": 86
    },
    "varro": {
     "id": "varro",
@@ -104,119 +94,64 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": true,
+    "returned": false,
     "retinue_id": null,
-    "xp_before": 104,
+    "xp_before": 156,
     "level_before": 1,
     "class": "Crusader",
-    "joined_day": 72,
-    "returned_day": 74,
-    "xp_award": 52
+    "joined_day": 86
+   },
+   "quintus": {
+    "id": "quintus",
+    "name": "Quintus",
+    "actor": "quintus",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 0,
+    "level_before": 1,
+    "class": "Fighter",
+    "joined_day": 86
+   },
+   "zaira": {
+    "id": "zaira",
+    "name": "Zaira",
+    "actor": "zaira",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 0,
+    "level_before": 1,
+    "class": "Elven Spellsword",
+    "joined_day": 86
+   },
+   "marius": {
+    "id": "marius",
+    "name": "Marius",
+    "actor": "marius",
+    "kind": "henchman",
+    "player": null,
+    "status": "alive",
+    "body": null,
+    "returned": false,
+    "retinue_id": null,
+    "xp_before": 227,
+    "level_before": 0,
+    "class": "None (0th level)",
+    "joined_day": 86
    }
   },
-  "monsters": [
-   {
-    "id": "M10",
-    "monster": "Giant Rat",
-    "source": "Giant Rat (MM p. 325)",
-    "number": 1,
-    "how": "killed",
-    "xp_each": 5,
-    "fight": {
-     "ids": [
-      "giant-rat8"
-     ],
-     "text": "the fight with 13 Giant Rat, encounter enc87, round 2"
-    }
-   }
-  ],
+  "monsters": [],
   "awards": [],
-  "status": "paid",
-  "payout": {
-   "day": 74,
-   "at": "Turos Tem",
-   "total": 505.0,
-   "per_share": 101.0,
-   "awards": {
-    "galerius": {
-     "share": 1.0,
-     "why": null,
-     "base": 101,
-     "pct": 10,
-     "pen": 0,
-     "award": 111,
-     "xp_before": 3571,
-     "xp_after": 3682,
-     "capped": null,
-     "zero": false
-    },
-    "faustina": {
-     "share": 1.0,
-     "why": null,
-     "base": 101,
-     "pct": 5,
-     "pen": 0,
-     "award": 106,
-     "xp_before": 3408,
-     "xp_after": 3514,
-     "capped": null,
-     "zero": false
-    },
-    "callista": {
-     "share": 1.0,
-     "why": null,
-     "base": 101,
-     "pct": 5,
-     "pen": 0,
-     "award": 106,
-     "xp_before": 3408,
-     "xp_after": 3514,
-     "capped": null,
-     "zero": false
-    },
-    "corvus": {
-     "share": 1.0,
-     "why": null,
-     "base": 101,
-     "pct": 5,
-     "pen": 0,
-     "award": 106,
-     "xp_before": 3408,
-     "xp_after": 3514,
-     "capped": null,
-     "zero": false
-    },
-    "marius": {
-     "share": 0.5,
-     "why": null,
-     "base": 50,
-     "pct": 0,
-     "pen": 0,
-     "award": 50,
-     "xp_before": 177,
-     "xp_after": 227,
-     "capped": null,
-     "zero": true
-    },
-    "varro": {
-     "share": 0.5,
-     "why": null,
-     "base": 50,
-     "pct": 5,
-     "pen": 0,
-     "award": 52,
-     "xp_before": 104,
-     "xp_after": 156,
-     "capped": null,
-     "zero": false
-    }
-   }
-  },
-  "events": [],
-  "returned": {
-   "day": 74,
-   "where": "Turos Tem"
-  }
+  "status": "open",
+  "payout": null,
+  "events": []
  },
  "closed": [
   {
@@ -1358,6 +1293,218 @@
    "events": [],
    "returned": {
     "day": 64,
+    "where": "Turos Tem"
+   }
+  },
+  {
+   "id": "A6",
+   "name": "The tower's prisoners (Buried Temple, level 1)",
+   "start_day": 72,
+   "participants": {
+    "galerius": {
+     "id": "galerius",
+     "name": "Galerius",
+     "actor": "galerius",
+     "kind": "pc",
+     "player": "gideon",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 3571,
+     "level_before": 2,
+     "class": "Fighter",
+     "joined_day": 72,
+     "returned_day": 74,
+     "xp_award": 111
+    },
+    "faustina": {
+     "id": "faustina",
+     "name": "Faustina",
+     "actor": "faustina",
+     "kind": "pc",
+     "player": "ingrid",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 3408,
+     "level_before": 2,
+     "class": "Priestess",
+     "joined_day": 72,
+     "returned_day": 74,
+     "xp_award": 106
+    },
+    "callista": {
+     "id": "callista",
+     "name": "Callista",
+     "actor": "callista",
+     "kind": "pc",
+     "player": "priya",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 3408,
+     "level_before": 2,
+     "class": "Mage",
+     "joined_day": 72,
+     "returned_day": 74,
+     "xp_award": 106
+    },
+    "corvus": {
+     "id": "corvus",
+     "name": "Corvus",
+     "actor": "corvus",
+     "kind": "pc",
+     "player": "tomasz",
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 3408,
+     "level_before": 2,
+     "class": "Explorer",
+     "joined_day": 72,
+     "returned_day": 74,
+     "xp_award": 106
+    },
+    "marius": {
+     "id": "marius",
+     "name": "Marius",
+     "actor": "marius",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 177,
+     "level_before": 0,
+     "class": "None (0th level)",
+     "joined_day": 72,
+     "returned_day": 74,
+     "xp_award": 50
+    },
+    "varro": {
+     "id": "varro",
+     "name": "Varro",
+     "actor": "varro",
+     "kind": "henchman",
+     "player": null,
+     "status": "alive",
+     "body": null,
+     "returned": true,
+     "retinue_id": null,
+     "xp_before": 104,
+     "level_before": 1,
+     "class": "Crusader",
+     "joined_day": 72,
+     "returned_day": 74,
+     "xp_award": 52
+    }
+   },
+   "monsters": [
+    {
+     "id": "M10",
+     "monster": "Giant Rat",
+     "source": "Giant Rat (MM p. 325)",
+     "number": 1,
+     "how": "killed",
+     "xp_each": 5,
+     "fight": {
+      "ids": [
+       "giant-rat8"
+      ],
+      "text": "the fight with 13 Giant Rat, encounter enc87, round 2"
+     }
+    }
+   ],
+   "awards": [],
+   "status": "paid",
+   "payout": {
+    "day": 74,
+    "at": "Turos Tem",
+    "total": 505.0,
+    "per_share": 101.0,
+    "awards": {
+     "galerius": {
+      "share": 1.0,
+      "why": null,
+      "base": 101,
+      "pct": 10,
+      "pen": 0,
+      "award": 111,
+      "xp_before": 3571,
+      "xp_after": 3682,
+      "capped": null,
+      "zero": false
+     },
+     "faustina": {
+      "share": 1.0,
+      "why": null,
+      "base": 101,
+      "pct": 5,
+      "pen": 0,
+      "award": 106,
+      "xp_before": 3408,
+      "xp_after": 3514,
+      "capped": null,
+      "zero": false
+     },
+     "callista": {
+      "share": 1.0,
+      "why": null,
+      "base": 101,
+      "pct": 5,
+      "pen": 0,
+      "award": 106,
+      "xp_before": 3408,
+      "xp_after": 3514,
+      "capped": null,
+      "zero": false
+     },
+     "corvus": {
+      "share": 1.0,
+      "why": null,
+      "base": 101,
+      "pct": 5,
+      "pen": 0,
+      "award": 106,
+      "xp_before": 3408,
+      "xp_after": 3514,
+      "capped": null,
+      "zero": false
+     },
+     "marius": {
+      "share": 0.5,
+      "why": null,
+      "base": 50,
+      "pct": 0,
+      "pen": 0,
+      "award": 50,
+      "xp_before": 177,
+      "xp_after": 227,
+      "capped": null,
+      "zero": true
+     },
+     "varro": {
+      "share": 0.5,
+      "why": null,
+      "base": 50,
+      "pct": 5,
+      "pen": 0,
+      "award": 52,
+      "xp_before": 104,
+      "xp_after": 156,
+      "capped": null,
+      "zero": false
+     }
+    }
+   },
+   "events": [],
+   "returned": {
+    "day": 74,
     "where": "Turos Tem"
    }
   }
@@ -3517,6 +3664,14 @@
   "varro": {
    "id": "varro",
    "actor": "varro"
+  },
+  "quintus": {
+   "id": "quintus",
+   "actor": "quintus"
+  },
+  "zaira": {
+   "id": "zaira",
+   "actor": "zaira"
   }
  }
 }

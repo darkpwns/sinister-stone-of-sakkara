@@ -17,7 +17,7 @@ records only state. Run 2 starts from the modules as printed: nothing of run 1 (
 | 25.19 | Türos Aster (fort, ford) | day 49 | Legate Nicus Balens Indifferent; his offer on the Ruined Imperial Fortress; a cache by the road (day 50) |
 | 24.19 | hills, road | day 50 | — |
 | 23.20 | farmland, road | day 51 | an old imperial victory column by the road (reliefs of riders on winged beasts; an inscription in Classical Auran, unread); pilgrims on the road (Neutral) |
-| 22.20 | Türos Tem (fort, ford, farmland) | day 1 | farmers by the road (Neutral, day 51); a knoll above the Krysivor with an old standing-stone arch (day 74): at sunset its shimmer shows a pool among white birches with a white horned beast (day 75) |
+| 22.20 | Türos Tem (fort, ford, farmland) | day 1 | farmers by the road (Neutral, day 51); a knoll above the Krysivor with an old standing-stone arch (day 74): at sunset its shimmer shows a pool among white birches with a white horned beast (day 75); a ruined castle on a rise above the river (day 82; Judge: valuable terrain, worth 2,040gp as it stands) |
 | 21.20 | farmland | day 2 | camp; a freeholder's well (water 1sp a head) |
 | 20.19 | Viaspen forest | day 3 | beastman tracks found (first hour of searching) leading west |
 | 19.19 | Viaspen forest | day 3 | the Buried Temple found day 4; a spring found day 3 (water) |
@@ -47,10 +47,15 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 - Day 72: the hobgoblins repulsed an orc raid while the party was away (2 hobgoblins, 1 orc dead; Judge's rolls); Abgal had not returned. 13 giant rats in the north corridor (one killed by Galerius; the party withdrew into 45). Thethamun told of the wyrm's prisoners. 43 north door forced again; **Idimmu awake, Friendly** (Faustina): sold the seven prisoners of 65 and 71 (Daros Thenes, Odysios Panas, Thorwell, Thorcigar; Quintus, Vestus, Zaira) for 700gp and Vestus' and Zaira's spellbooks for 100gp; told that the Lady's black-robed priests buy prisoners from him and that Abgal went below past the Red Eyes. Rooms 65 and 71 empty of prisoners now. Kobolds (twice) and goblins (Neutral) in the corridors.
 
+- Days 73-86 (Judge's rolls): two more orc raids on the hobgoblins, both repulsed: 6 hobgoblins and 3 orcs dead; the hobgoblins now Thethamun (healed), Shulgi and 4 warriors. Abgal has not returned. Day 86: the company sheltered a night in 60 (8 stirges in 56 beyond the barred doors). Thethamun (Friendly, helpful) told of level 2: Red Eyes at the wyrm's stair and the breeding pools, the exiled Black Fangs in the west caves (beaten by two ogres), priests at a fane east, the dead at the Lady's door.
+- Day 87: the toll orcs of 26 turned Friendly; **Apsa** (Friendly, helpful) took 100gp to leave the hobgoblins alone for the rest of spring (to day 120), waived the company's toll, and hinted that the Black Fangs below would pay to see the Red Eyes humbled.
+
 ## Events triggered
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 87 | a truce bought between the orcs and the hobgoblins (Apsa, 100gp; to day 120) | Buried Temple L1 27 | the hobgoblins keep the wing; the company's toll waived |
+| 82-86 | to the temple (bombardier beetles' nest skirted, 21.20; dire wolves at night, Indifferent; lost a day in 21.19; the module's stirges skirted, 20.19); a ruined castle seen in 22.20 | 22.20-19.19 | — |
 | 74 | the merchants delivered: Karanos paid 500gp and is **Friendly** (fees 3%; offered three shipping contracts, declined); payout A6 (505 XP) | Türos Tem | — |
 | 74 | Petra and Titus released with a month's pay; **Quintus** (Fighter 1, Galerius') and **Zaira** (Elven Spellsword 1, Callista's) hired; Vestus thanked (20gp) and gone; the brothers home with the merchants; the Brethren's inn bill paid (innkeeper Friendly) | Türos Tem | henchmen: Varro, Marius, Quintus, Zaira |
 | 74-75 | a Portal (unique terrain, 22.20): a standing-stone arch on a knoll above the Krysivor; at sunset it shows the Shrine of the White Lady's pool and its unicorn | 22.20 | Judge only: travel through it only at the full moon (Rulings R2 S11) |
@@ -81,6 +86,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
+- Buried Temple (day 87): **Apsa Friendly** (the truce; the company's toll waived); the toll orcs of 26 Friendly; Thethamun Friendly (helpful).
 - Türos Tem (day 74): **Guildmaster Karanos Friendly** (his merchants returned); the **innkeeper Friendly** (the Brethren's bill paid); Daros Thenes and Odysios Panas grateful; Vestus (gone to seek work), Thorwell and Thorcigar (gone home with the merchants).
 - Buried Temple (day 72): **Idimmu Friendly** (Faustina; sold the prisoners); Thethamun and Shulgi Friendly (told of the prisoners); kobold bands Indifferent/Neutral; goblins Neutral.
 - Freed (day 72): Daros Thenes and Odysios Panas (merchants, grateful), Thorwell and Thorcigar (men-at-arms, brothers: offer a year's service for shares), Quintus the Rager, Vestus the Unlikely, Zaira the Beautiful (the Fierce Brethren: offer service to their rescuers; their inn bill of 7gp 4sp 2cp unpaid).
@@ -105,6 +111,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
+- **In the temple (day 87 06:07, L1 27):** adventure A7 open (9 members). Next: Idimmu (Friendly) and the stair to level 2 (100gp a head: 900gp; purse 1,134gp), the Black Fangs (west caves, +2 peaceful; Ur-Shet partners against the ogres or the Red Eyes). Hrodric's courses paused from day 82; Severina's run (next trick day 94).
+- The orcs' truce lasts to day 120; after that the weekly raid rolls resume (1-2 a week).
 - **Table rule (S12):** no travel off the Türos Tem-temple corridor until the Buried Temple is complete: the Shrine of the White Lady and the arch wait.
 - **The Shrine of the White Lady (23.16)** is the party's next goal (a pilgrimage, Faustina leading, once the ground dries): **UNPREPPED**: build it with `unprepped-sites.md` before arrival (AX1 seed: the unicorn, 20 hp; the pool: removes one Tampering side effect from a Lawful drinker once a lifetime and lays a geas to destroy Chaotic creatures in Southern Argollë). Route: 22.20, 22.19 (Corvus familiar), 23.18 (?), 23.17, 23.16 or by the river; mud while it is wet (weather rolled to day 80: wet).
 - The arch in 22.20 (Rulings R2 S11): sight and sound of the shrine's pool at sunset; travel only at the full moon (moon phase: config travel moon 'half' on day 1: the Judge sets the full moon's days when the party tries).
