@@ -2,8 +2,8 @@
  "schema": "acks-exploration/3",
  "clock": {
   "day": 97,
-  "round_of_day": 862,
-  "total_rounds": 138622
+  "round_of_day": 902,
+  "total_rounds": 138662
  },
  "party": {
   "galerius": {
@@ -164,54 +164,41 @@
    "carrier": "callista",
    "lit": true,
    "closed": false,
-   "rounds_left": 150,
+   "rounds_left": 110,
    "tallow": false
   }
  ],
  "timers": [],
  "rest": {
-  "rounds_since_rest": 30,
+  "rounds_since_rest": 20,
   "rest_rounds": 0,
   "winded": []
  },
  "location": {
-  "site": "Buried Temple",
+  "site": "Catacombs",
   "kind": "dungeon",
-  "level": 1,
-  "room": "75",
+  "level": 2,
+  "room": "9",
   "wandering": {
    "none": false,
    "die": "1d6",
    "every": 2,
    "target": 6
   },
-  "table": "Adventure/Tables/level1-wandering.yaml",
+  "table": "Adventure/Tables/level2-wandering.yaml",
   "source": {
-   "hub": "Adventure/AX1 Hub.md",
-   "wandering": "area setting: '1d6 every 2 turns, 6+'"
+   "wandering": "site setting: '1d6 every 2 turns, 6+'"
   }
  },
  "wandering": {
   "turns_since_check": 0,
   "last_check": {
-   "at": "day 97 14:20",
-   "roll": 1,
+   "at": "day 97 15:00",
+   "roll": 4,
    "target": 6,
    "encounter": false
   },
   "history": [
-   {
-    "at": "day 87 07:00",
-    "roll": 5,
-    "target": 6,
-    "encounter": false
-   },
-   {
-    "at": "day 87 07:20",
-    "roll": 2,
-    "target": 6,
-    "encounter": false
-   },
    {
     "at": "day 87 07:40",
     "roll": 6,
@@ -319,13 +306,25 @@
     "roll": 1,
     "target": 6,
     "encounter": false
+   },
+   {
+    "at": "day 97 14:40",
+    "roll": 1,
+    "target": 6,
+    "encounter": false
+   },
+   {
+    "at": "day 97 15:00",
+    "roll": 4,
+    "target": 6,
+    "encounter": false
    }
   ],
-  "turn_start_done": 138620,
+  "turn_start_done": 138660,
   "pending_at": null
  },
  "turn_actions": {
-  "turn": 13862,
+  "turn": 13866,
   "listened": [],
   "actions": []
  },
@@ -374,8 +373,8 @@
    "rest_rounds": 0
   },
   "97": {
-   "delve_rounds": 80,
-   "rest_rounds": 10
+   "delve_rounds": 110,
+   "rest_rounds": 20
   }
  },
  "events": [
@@ -1245,7 +1244,7 @@
   }
  ],
  "next_ids": {
-  "enc": 125,
+  "enc": 127,
   "lantern": 5,
   "torch": 12
  },
@@ -5231,24 +5230,6 @@
  },
  "past_encounters": [
   {
-   "id": "enc106",
-   "at": "day 87 00:50",
-   "monster_name": "Hobgoblin",
-   "number": 4,
-   "reaction": null,
-   "status": "begun",
-   "closed": "superseded"
-  },
-  {
-   "id": "enc107",
-   "at": "day 87 02:30",
-   "monster_name": "Stirge (Sakkara)",
-   "number": 9,
-   "reaction": null,
-   "status": "begun",
-   "closed": "superseded"
-  },
-  {
    "id": "enc108",
    "at": "day 87 04:10",
    "monster_name": "Brigand",
@@ -5394,6 +5375,22 @@
    "monster_name": "Idimmu (Sakkara)",
    "number": 1,
    "reaction": "indifferent",
+   "status": "reaction"
+  },
+  {
+   "id": "enc126",
+   "at": "day 97 14:32",
+   "monster_name": "Gnoll",
+   "number": 3,
+   "reaction": "friendly",
+   "status": "reaction"
+  },
+  {
+   "id": "enc127",
+   "at": "day 97 14:52",
+   "monster_name": "Gnoll",
+   "number": 3,
+   "reaction": "friendly",
    "status": "reaction"
   }
  ],

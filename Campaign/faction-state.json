@@ -3,14 +3,24 @@
  "factions": {
   "black-fangs": {
    "name": "Black Fang gnolls (Ur-Shet; L2 8-9)",
-   "attitude": {},
+   "attitude": {
+    "party": {
+     "attitude": "friendly",
+     "day": 97
+    }
+   },
    "knows": [],
    "deals": [],
    "rebuild": []
   },
   "red-eyes": {
    "name": "Red Eye gnolls (Hepsis; L2 10, 15, 16)",
-   "attitude": {},
+   "attitude": {
+    "party": {
+     "attitude": "friendly",
+     "day": 97
+    }
+   },
    "knows": [
     {
      "tag": "the hobgoblins' Lawful friends",
@@ -26,6 +36,15 @@
      "terms": "the stair guards of L2 1/10 stay Neutral for a week's bribe (10gp)",
      "mod": 0,
      "source": "Rulings R2 S13",
+     "made": 97,
+     "ended_noted": true
+    },
+    {
+     "kind": "bribe",
+     "until": 104,
+     "terms": "the stair guards of L2 10 Friendly for a week's bribe (10gp, day 97)",
+     "mod": 0,
+     "source": "reaction 12 with a week's bribe (day 97)",
      "made": 97
     }
    ],

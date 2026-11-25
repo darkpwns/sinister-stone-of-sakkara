@@ -11,7 +11,7 @@ public:
     year: ''
     season: summer
     day: 97
-  time: '14:22'
+  time: '15:02'
   weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; overcast; wind gentle
   place: Türos Tem
   hex: '19.19'
@@ -39,7 +39,7 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.423
+    encumbrance_st: 4.413
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
@@ -97,7 +97,7 @@ public:
     conditions: []
     spells_used: []
     encumbrance_st: 4.215
-  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) out; lantern (Callista) 15 turns left
+  light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (marius) out; torch (marius) out; torch (marius) out; torch (Corvus) out; lantern (Callista) 11 turns left
   rations: 'Galerius: food 6 d, water 1 d; Faustina: food 7 d, water 1 d; Callista: food 8 d, water 1 d; Corvus: food 8 d, water 1 d; Varro: food 6 d, water 0.6 d; Hrodric: food 6 d, water 1 d; Quintus: food 10 d, water 1 d; Zaira: food 5 d, water 1 d; Severina: food 9 d, water 1 d'
   tracker: {}
   threads: []
