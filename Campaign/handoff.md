@@ -17,7 +17,7 @@ One file, rewritten each session by `handoff.py`; never appended to. The first b
 - **Left behind:** decimus-ruga at Turos Tem (since day 57)
 - **Adventure:** A4 A4 The Buried Temple: Thethamun and the way down (paid): Octavia (pc), Fulvia (pc, dead), Eskil (pc, dead), Gaius Rufo (pc, dead), Septimia (pc, dead), Aedo (pc, dead), Tullus Brocchus (henchman, dead), Herennius Bow (henchman, dead), Ione (henchman); lots 0; monsters 2 (90 XP); hoards unfound 0
 - **Wages:** pallas-cornu Pallas Cornu: 12 gp/month; next due day 102; owed now: 0 gp | NOTE: wage timing: reading wage.timing
-- **Fight in the combat state:** round 29; octavia[party] fled hp 1/6 init 5; fulvia[party] unconscious hp 0/5 init 5 unconscious; eskil[party] unconscious hp 0/5 init 6 unconscious; eskil-dog[party] unconscious hp -1/2 init 6 unconscious; gaius-rufo[party] unconscious hp -3/5 init 4 unconscious; septimia[party] dead hp -1/4 init 4 unconscious; tullus-brocchus[party] unconscious hp 0/5 init 4 cowering,faltering,unconscious; herennius-bow[party] unconscious hp -2/3 init 4 faltering,unconscious; aedo[party] unconscious hp 0/5 ini
+- **Fight in the combat state:** round 0; engaged
 - **Schedule:** nothing due on day 79
 - **Standing reminders (lessons whose conditions hold now):**
   - no standing reminder applies to the current state
