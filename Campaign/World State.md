@@ -17,7 +17,7 @@ records only state. Run 2 starts from the modules as printed: nothing of run 1 (
 | 25.19 | Türos Aster (fort, ford) | day 49 | Legate Nicus Balens Indifferent; his offer on the Ruined Imperial Fortress; a cache by the road (day 50) |
 | 24.19 | hills, road | day 50 | — |
 | 23.20 | farmland, road | day 51 | an old imperial victory column by the road (reliefs of riders on winged beasts; an inscription in Classical Auran, unread); pilgrims on the road (Neutral) |
-| 22.20 | Türos Tem (fort, ford, farmland) | day 1 | farmers by the road (Neutral, day 51); the party camped by their farm the night of day 51 |
+| 22.20 | Türos Tem (fort, ford, farmland) | day 1 | farmers by the road (Neutral, day 51); a knoll above the Krysivor with an old standing-stone arch (day 74): at sunset its shimmer shows a pool among white birches with a white horned beast (day 75) |
 | 21.20 | farmland | day 2 | camp; a freeholder's well (water 1sp a head) |
 | 20.19 | Viaspen forest | day 3 | beastman tracks found (first hour of searching) leading west |
 | 19.19 | Viaspen forest | day 3 | the Buried Temple found day 4; a spring found day 3 (water) |
@@ -51,6 +51,10 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 
 | Day | Event | Where | Consequence |
 | --- | --- | --- | --- |
+| 74 | the merchants delivered: Karanos paid 500gp and is **Friendly** (fees 3%; offered three shipping contracts, declined); payout A6 (505 XP) | Türos Tem | — |
+| 74 | Petra and Titus released with a month's pay; **Quintus** (Fighter 1, Galerius') and **Zaira** (Elven Spellsword 1, Callista's) hired; Vestus thanked (20gp) and gone; the brothers home with the merchants; the Brethren's inn bill paid (innkeeper Friendly) | Türos Tem | henchmen: Varro, Marius, Quintus, Zaira |
+| 74-75 | a Portal (unique terrain, 22.20): a standing-stone arch on a knoll above the Krysivor; at sunset it shows the Shrine of the White Lady's pool and its unicorn | 22.20 | Judge only: travel through it only at the full moon (Rulings R2 S11) |
+| 76-80 | a wet week: downtime; Corvus surveyed 22.19 with a farmhand (familiar); Callista copied Mage Missile and Beguile Humanoid formulas; Genelen told of the White Lady's pool | Türos Tem | — |
 | 72 | the prisoners of the stepped tower bought from Idimmu (800gp with the spellbooks) | Buried Temple L1 61, 65, 71 | the merchants are owed 250gp each by Karanos alive; Thorwell, Thorcigar and the Fierce Brethren offer service (the party is at its cap of 4 henchmen) |
 | 67-71 | mud from the rains of days 63 and 68; the party waited two days in town, then marched (Varro overloaded on day 69: a slow day) | 22.20-19.19 | — |
 | 63 | the hobgoblin coup averted: Thethamun healed and restored; Abgal, Hepteth and four warriors fled toward the stair to level 2; four luminous beetles and a clutch taken alive (two escaped) | Buried Temple L1 45, 60, 50 | A5 paid out day 64 (990 XP); the hobgoblins allied |
@@ -77,6 +81,7 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 | 6 | navigation failed | 20.19 → 20.17 | the party lost (aware since 15:43); true path 20.18, 20.17 (a lone berserker, night of day 6, Neutral), 21.18 (day 7, camp at dusk; believed 23.21). Add these to Explored hexes only once the party knows where it was |
 
 ## NPC attitudes
+- Türos Tem (day 74): **Guildmaster Karanos Friendly** (his merchants returned); the **innkeeper Friendly** (the Brethren's bill paid); Daros Thenes and Odysios Panas grateful; Vestus (gone to seek work), Thorwell and Thorcigar (gone home with the merchants).
 - Buried Temple (day 72): **Idimmu Friendly** (Faustina; sold the prisoners); Thethamun and Shulgi Friendly (told of the prisoners); kobold bands Indifferent/Neutral; goblins Neutral.
 - Freed (day 72): Daros Thenes and Odysios Panas (merchants, grateful), Thorwell and Thorcigar (men-at-arms, brothers: offer a year's service for shares), Quintus the Rager, Vestus the Unlikely, Zaira the Beautiful (the Fierce Brethren: offer service to their rescuers; their inn bill of 7gp 4sp 2cp unpaid).
 - Buried Temple (day 63): **Chief Thethamun Friendly** (Faustina: healed and restored him), **Shulgi Friendly**; the hobgoblins of 45 and 58 loyal to the chief; **Abgal and Hepteth** fled (enemies of the party now; gone to the Lady with four warriors); orc bands Indifferent and Friendly (the tribe still counts the party as the Lady's recruits); Antonius' brigands (fooled no one; evaded; their wagon heads for a camp in the Viaspen).
@@ -100,6 +105,8 @@ monsters slain or fled, survivors of `state end`, traps sprung).
 - **Day 60 (S9): month 2's end.** schedule: ; training: C21 K16 (hrodric): next trick 1 day 82; C22 K17 (hrodric): next trick 1 day 82; C23 K18 (hrodric): next trick 1 day 82; C24 K19 (severina): next trick 1 day 79; C25 K20 (severina): next trick 1 day 79
 
 ## Prep queue (Judge only)
+- **The Shrine of the White Lady (23.16)** is the party's next goal (a pilgrimage, Faustina leading, once the ground dries): **UNPREPPED**: build it with `unprepped-sites.md` before arrival (AX1 seed: the unicorn, 20 hp; the pool: removes one Tampering side effect from a Lawful drinker once a lifetime and lays a geas to destroy Chaotic creatures in Southern Argollë). Route: 22.20, 22.19 (Corvus familiar), 23.18 (?), 23.17, 23.16 or by the river; mud while it is wet (weather rolled to day 80: wet).
+- The arch in 22.20 (Rulings R2 S11): sight and sound of the shrine's pool at sunset; travel only at the full moon (moon phase: config travel moon 'half' on day 1: the Judge sets the full moon's days when the party tries).
 - **Day 74 (dawn) at 21.20 with seven freed captives:** into Türos Tem (half a day). Deliver Daros and Odysios to Karanos: 250gp each (`recover --reward 500 --carrier faustina`, adventure A6) and **Karanos automatically Friendly** (AX1 Türos Tem: fees 3%, 1d4-1 shipping contracts). Payout A6. The rescued offer service: Thorwell and Thorcigar (0th level, one year for shares only), the Fierce Brethren (Quintus Fighter 1, Vestus Mage 1, Zaira Elven Spellsword 1: actors via `npc.py` / `candidate` when hired): the party holds 4 henchmen (cap, Rulings R2 S02): the players decide (release 0th-level henchmen to take them, or decline). Vestus' book (magic missile = Mage Missile; protection from evil: its ACKS II arcane equivalent to be read from the spell lists when copied) and Zaira's (charm person = Beguile Humanoid): Callista may copy formulas (RR p. 183).
 - **Abgal's flight (day 63):** Abgal, Hepteth and four hobgoblins went down the stair at 53 to L2 18 (its door wizard-locked: the Lady opens it or they wait). Judge: the Lady learns that strangers healed the chief and that the hobgoblins have Lawful friends; the Red Eyes' and the orcs' view of the party as 'recruits' may sour once word spreads (decide by a hidden roll when the party next meets them). Thethamun's tribe may ask the party's help against Abgal's return.
 - The orcs meant to raid the hobgoblins for the Lady's reward; they held off on day 63. A weekly 1d6 (1-2) that they try again while the party is away is the Judge's (unscheduled).

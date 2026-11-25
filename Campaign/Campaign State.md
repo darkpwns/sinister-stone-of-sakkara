@@ -2,7 +2,7 @@
 type: campaign-state
 tags:
 - sakkara/campaign
-session: 10
+session: 11
 mode: town
 location: '[[Turos Tem]]'
 adventure: none yet (AX1 The Sinister Stone of Sakkara opens at the first delve or journey)
@@ -10,11 +10,11 @@ public:
   date:
     year: ''
     season: spring
-    day: 74
-  time: 07:05
-  weather: Brisk (63 to 67 F) by day, Chilly (57 to 62 F) at night; mostly cloudy; wind still
+    day: 80
+  time: '18:05'
+  weather: Warm (80 to 82 F) by day, Balmy (75 to 79 F) at night; misty; wind still
   place: Türos Tem
-  hex: '21.20'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
@@ -39,11 +39,11 @@ public:
     hp_max: 10
     conditions: []
     spells_used: []
-    encumbrance_st: 4.174
+    encumbrance_st: 4.283
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 6
+    hp: 7
     hp_max: 7
     conditions: []
     spells_used: []
@@ -71,23 +71,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 5.605
-  - name: Petra
-    sheet: Characters/petra.json
-    role: henchman
-    hp: 3
-    hp_max: 3
-    conditions: []
-    spells_used: []
-    encumbrance_st: 3.5
-  - name: Titus
-    sheet: Characters/titus.json
-    role: henchman
-    hp: 3
-    hp_max: 3
-    conditions: []
-    spells_used: []
-    encumbrance_st: 2.5
+    encumbrance_st: 5.655
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -95,13 +79,28 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 7.262
+    encumbrance_st: 7.312
+  - name: Quintus
+    sheet: Characters/quintus.json
+    role: henchman
+    hp: 7
+    hp_max: 7
+    conditions: []
+    spells_used: []
+    encumbrance_st: 2.525
+  - name: Zaira
+    sheet: Characters/zaira.json
+    role: henchman
+    hp: 5
+    hp_max: 5
+    conditions: []
+    spells_used: []
+    encumbrance_st: 3.5
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out
-  rations: 'Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 4 d, water 5.4 d; Faustina: food 11 d, water 0 d; Callista: food 11 d, water 3 d; Corvus: food 11 d, water 0 d; Marius: food 1 d, water 0 d; Varro: food 11 d, water 0.2 d; Petra: food 0 d, water 0 d; Titus: food 0 d, water 0 d; Hrodric: food 3 d, water 0 d; Severina: food 5 d, water 0 d; Quintus: food 0 d, water 0 d; Zaira: food 0 d, water 0 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '23.17'
   - '23.16'
   - '22.16'
   - '25.19'
@@ -121,7 +120,8 @@ public:
   - '19.19'
   - '20.19'
   - '21.20'
-clock_day: 74
+  - '22.20'
+clock_day: 80
 ---
 # Campaign State
 

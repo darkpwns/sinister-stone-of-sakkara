@@ -2,7 +2,7 @@
  "schema": "acks-adventure/2",
  "seq": {
   "A": 6,
-  "L": 43,
+  "L": 44,
   "H": 1,
   "M": 10
  },
@@ -19,12 +19,14 @@
     "player": "gideon",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3571,
     "level_before": 2,
     "class": "Fighter",
-    "joined_day": 72
+    "joined_day": 72,
+    "returned_day": 74,
+    "xp_award": 111
    },
    "faustina": {
     "id": "faustina",
@@ -34,12 +36,14 @@
     "player": "ingrid",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3408,
     "level_before": 2,
     "class": "Priestess",
-    "joined_day": 72
+    "joined_day": 72,
+    "returned_day": 74,
+    "xp_award": 106
    },
    "callista": {
     "id": "callista",
@@ -49,12 +53,14 @@
     "player": "priya",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3408,
     "level_before": 2,
     "class": "Mage",
-    "joined_day": 72
+    "joined_day": 72,
+    "returned_day": 74,
+    "xp_award": 106
    },
    "corvus": {
     "id": "corvus",
@@ -64,12 +70,14 @@
     "player": "tomasz",
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 3408,
     "level_before": 2,
     "class": "Explorer",
-    "joined_day": 72
+    "joined_day": 72,
+    "returned_day": 74,
+    "xp_award": 106
    },
    "marius": {
     "id": "marius",
@@ -79,12 +87,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 177,
     "level_before": 0,
     "class": "None (0th level)",
-    "joined_day": 72
+    "joined_day": 72,
+    "returned_day": 74,
+    "xp_award": 50
    },
    "varro": {
     "id": "varro",
@@ -94,12 +104,14 @@
     "player": null,
     "status": "alive",
     "body": null,
-    "returned": false,
+    "returned": true,
     "retinue_id": null,
     "xp_before": 104,
     "level_before": 1,
     "class": "Crusader",
-    "joined_day": 72
+    "joined_day": 72,
+    "returned_day": 74,
+    "xp_award": 52
    }
   },
   "monsters": [
@@ -119,9 +131,92 @@
    }
   ],
   "awards": [],
-  "status": "open",
-  "payout": null,
-  "events": []
+  "status": "paid",
+  "payout": {
+   "day": 74,
+   "at": "Turos Tem",
+   "total": 505.0,
+   "per_share": 101.0,
+   "awards": {
+    "galerius": {
+     "share": 1.0,
+     "why": null,
+     "base": 101,
+     "pct": 10,
+     "pen": 0,
+     "award": 111,
+     "xp_before": 3571,
+     "xp_after": 3682,
+     "capped": null,
+     "zero": false
+    },
+    "faustina": {
+     "share": 1.0,
+     "why": null,
+     "base": 101,
+     "pct": 5,
+     "pen": 0,
+     "award": 106,
+     "xp_before": 3408,
+     "xp_after": 3514,
+     "capped": null,
+     "zero": false
+    },
+    "callista": {
+     "share": 1.0,
+     "why": null,
+     "base": 101,
+     "pct": 5,
+     "pen": 0,
+     "award": 106,
+     "xp_before": 3408,
+     "xp_after": 3514,
+     "capped": null,
+     "zero": false
+    },
+    "corvus": {
+     "share": 1.0,
+     "why": null,
+     "base": 101,
+     "pct": 5,
+     "pen": 0,
+     "award": 106,
+     "xp_before": 3408,
+     "xp_after": 3514,
+     "capped": null,
+     "zero": false
+    },
+    "marius": {
+     "share": 0.5,
+     "why": null,
+     "base": 50,
+     "pct": 0,
+     "pen": 0,
+     "award": 50,
+     "xp_before": 177,
+     "xp_after": 227,
+     "capped": null,
+     "zero": true
+    },
+    "varro": {
+     "share": 0.5,
+     "why": null,
+     "base": 50,
+     "pct": 5,
+     "pen": 0,
+     "award": 52,
+     "xp_before": 104,
+     "xp_after": 156,
+     "capped": null,
+     "zero": false
+    }
+   }
+  },
+  "events": [],
+  "returned": {
+   "day": 74,
+   "where": "Turos Tem"
+  }
  },
  "closed": [
   {
@@ -3192,6 +3287,39 @@
    },
    "judge": [],
    "divided_day": 64
+  },
+  "L44": {
+   "id": "L44",
+   "adventure": "A6",
+   "kind": "reward",
+   "qty": 1,
+   "stone": 0,
+   "carrier": "faustina",
+   "status": "divided",
+   "found": {
+    "day": 74,
+    "where": ""
+   },
+   "true": {
+    "kind": "reward",
+    "qty": 1,
+    "value_gp": 500.0,
+    "stone": 0,
+    "name": "reward 500.0gp"
+   },
+   "player": {
+    "desc": "reward of 500.0gp",
+    "value_gp": 500.0,
+    "apparent_gp": null,
+    "magical": false,
+    "known": []
+   },
+   "appraised": true,
+   "identified": true,
+   "used": false,
+   "sold": null,
+   "judge": [],
+   "divided_day": 74
   }
  },
  "hoards": {

@@ -720,6 +720,155 @@
    "elan": true,
    "offer_wage": 25.0,
    "morale_src": "as Heavy Infantry"
+  },
+  "C7": {
+   "id": "C7",
+   "kind": "henchman",
+   "level": 1,
+   "race": "human",
+   "name": "Quintus",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "galerius",
+     "party": "party",
+     "total": 8,
+     "result": "Try Again",
+     "day": 74,
+     "wage": 25.0,
+     "signing": null
+    },
+    {
+     "employer": "galerius",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 74,
+     "wage": 25.0,
+     "signing": "month"
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 15,
+     "mod": 1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 8,
+     "mod": -1
+    },
+    "DEX": {
+     "score": 11,
+     "mod": 0
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "class": "Fighter",
+   "hit_die": "1d8",
+   "hp_max": 7,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 13,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 17
+   },
+   "caster": false,
+   "morale": null,
+   "ac": 0,
+   "wage_table": "25gp/month",
+   "actor": "quintus",
+   "try_again": false,
+   "accepted_by": "galerius",
+   "elan": true,
+   "offer_wage": 25.0
+  },
+  "C8": {
+   "id": "C8",
+   "kind": "henchman",
+   "level": 1,
+   "race": "Elf",
+   "name": "Zaira",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "callista",
+     "party": "party",
+     "total": 12,
+     "result": "Accept with élan",
+     "day": 74,
+     "wage": 25.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "class proficiencies, class powers chosen at 1st level, spells, alignment: Judge (class note)",
+    "morale: as a mercenary with similar equipment (RR p. 167): give --kit TROOP when the gear is known",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 15,
+     "mod": 1
+    },
+    "INT": {
+     "score": 12,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 10,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 16,
+     "mod": 2
+    },
+    "CON": {
+     "score": 11,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 16,
+     "mod": 2
+    }
+   },
+   "class": "Elven Spellsword",
+   "hit_die": "1d6",
+   "hp_max": 5,
+   "attack_throw": 10,
+   "saves": {
+    "paralysis": 12,
+    "death": 14,
+    "blast": 15,
+    "implements": 16,
+    "spells": 16
+   },
+   "caster": true,
+   "morale": null,
+   "ac": 0,
+   "wage_table": "25gp/month",
+   "actor": "zaira",
+   "try_again": false,
+   "accepted_by": "callista",
+   "elan": true,
+   "offer_wage": 25.0
   }
  },
  "members": {
@@ -849,7 +998,7 @@
    "hired_day": 38,
    "periods_paid": 3,
    "missed": [],
-   "status": "active",
+   "status": "dismissed",
    "history": [
     {
      "day": 38,
@@ -863,6 +1012,10 @@
     {
      "day": 69,
      "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 74,
+     "event": "left: released with honour and a month's pay: the company takes on classed henchmen (S11, Rosa's choice)"
     }
    ],
    "actor": "petra",
@@ -895,7 +1048,7 @@
    "hired_day": 45,
    "periods_paid": 3,
    "missed": [],
-   "status": "active",
+   "status": "dismissed",
    "history": [
     {
      "day": 45,
@@ -909,6 +1062,10 @@
     {
      "day": 69,
      "event": "wages paid: 1 month(s), 12 gp"
+    },
+    {
+     "day": 74,
+     "event": "left: released with honour and a month's pay: the company takes on classed henchmen (S11, Rosa's choice)"
     }
    ],
    "actor": "titus",
@@ -963,13 +1120,105 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "quintus": {
+   "id": "quintus",
+   "name": "Quintus",
+   "candidate": "C7",
+   "employer": "galerius",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Fighter",
+   "occupation": null,
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 0,
+   "morale": 0,
+   "morale_src": null,
+   "wage_gp": 25.0,
+   "wage_per": "month",
+   "hired_day": 74,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 74,
+     "event": "hired",
+     "loyalty": 0
+    },
+    {
+     "day": 74,
+     "event": "wages paid: 2 month(s), 50 gp"
+    },
+    {
+     "day": 74,
+     "event": "set morale: None -> 0 (Judge: light infantry (hide armor, sword, shield), RR p. 167)"
+    }
+   ],
+   "actor": "quintus",
+   "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
+  },
+  "zaira": {
+   "id": "zaira",
+   "name": "Zaira",
+   "candidate": "C8",
+   "employer": "callista",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 1,
+   "class": "Elven Spellsword",
+   "occupation": null,
+   "race": "Elf",
+   "monster": null,
+   "animal": false,
+   "caster": true,
+   "loyalty": 1,
+   "morale": 0,
+   "morale_src": null,
+   "wage_gp": 25.0,
+   "wage_per": "month",
+   "hired_day": 74,
+   "periods_paid": 2,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 74,
+     "event": "hired",
+     "loyalty": 1
+    },
+    {
+     "day": 74,
+     "event": "wages paid: 2 month(s), 50 gp"
+    },
+    {
+     "day": 74,
+     "event": "set morale: None -> 0 (Judge: as a mercenary of her kit, RR p. 167)"
+    }
+   ],
+   "actor": "zaira",
+   "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 6,
+ "seq": 8,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",

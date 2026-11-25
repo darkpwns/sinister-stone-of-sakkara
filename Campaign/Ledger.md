@@ -37,6 +37,7 @@ tags:
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Beetle, Giant Luminous (adult, adult value) | 15 | sold |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Beetle, Giant Luminous (adult, adult value) | 15 | sold |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | a clutch of 8 luminous beetle eggs (AX1 L1 50) | 120 | sold |
+| 74 | The tower's prisoners (Buried Temple, level 1) | reward 500.0gp | 500 | faustina |
 
 ## Monster XP
 
@@ -51,6 +52,7 @@ tags:
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Ogre | 1 | 140 | 140 |
 | S06 | A3 AX1 Buried Temple, delve 4 (the ogre) | Stirge (Sakkara) | 6 | 13 | 78 |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Luminous Beetle | 4 | 15 | 60 |
+| 74 | The tower's prisoners (Buried Temple, level 1) | Giant Rat | 1 | 5 | 5 |
 
 ## Shares and XP awarded
 
@@ -92,6 +94,12 @@ tags:
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Corvus | 1 | 186 | 12 | 0 | +5% | 208 |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Marius | 0.5 | 93 | 6 | 0 | +0% | 99 |
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Varro | 0.5 | 93 | 6 | 0 | +5% | 104 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 74 | The tower's prisoners (Buried Temple, level 1) | Galerius | 1 | 100 | 1 | 0 | +10% | 111 |
+| 74 | The tower's prisoners (Buried Temple, level 1) | Faustina | 1 | 100 | 1 | 0 | +5% | 106 |
+| 74 | The tower's prisoners (Buried Temple, level 1) | Callista | 1 | 100 | 1 | 0 | +5% | 106 |
+| 74 | The tower's prisoners (Buried Temple, level 1) | Corvus | 1 | 100 | 1 | 0 | +5% | 106 |
+| 74 | The tower's prisoners (Buried Temple, level 1) | Marius | 0.5 | 50 | 0 | 0 | +0% | 50 |
+| 74 | The tower's prisoners (Buried Temple, level 1) | Varro | 0.5 | 50 | 0 | 0 | +5% | 52 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -256,3 +264,30 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 69 | the retinue | wages paid |  |  | 12gp | faustina |
 | 69 | the retinue | wages paid |  |  | 12gp | faustina |
 | 72 | Idimmu the purple wyrm | seven prisoners bought at 100gp a head (Daros Thenes, Odysios Panas, Thorwell, Thorcigar; Quintus, Vestus, Zaira) and Vestus' and Zaira's spellbooks for 100gp (Friendly; Rulings R2 S10) |  |  | 800gp | faustina |
+| 74 |  | treasure share |  | 100gp |  | galerius |
+| 74 |  | treasure share |  | 100gp |  | faustina |
+| 74 |  | treasure share |  | 100gp |  | callista |
+| 74 |  | treasure share |  | 100gp |  | corvus |
+| 74 |  | treasure share |  | 50gp |  | marius |
+| 74 |  | treasure share |  | 50gp |  | varro |
+| 74 | Petra and Titus | a month's pay each on release (severance) |  |  | 24gp | faustina |
+| 74 | the retinue | wages paid |  |  | 50gp | faustina |
+| 74 | the retinue | wages paid |  |  | 50gp | faustina |
+| 74 | Quintus | signing bonus, a month's wage |  |  | 25gp | faustina |
+| 74 | Faustina | signing bonus paid by Faustina |  | 25gp |  | quintus |
+| 74 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | faustina |
+| 74 | Turos Tem | Sword | 1 |  | 9gp | faustina |
+| 74 | Turos Tem | Shield | 1 |  | 9gp | faustina |
+| 74 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | faustina |
+| 74 | Turos Tem | Backpack (holds 4 stone) | 1 |  | 1gp 8sp | faustina |
+| 74 | Turos Tem | Sword | 1 |  | 9gp | faustina |
+| 74 | Turos Tem | Waterskin | 1 |  | 5sp 4cp | faustina |
+| 74 | Turos Tem | Leather Armor | 1 |  | 18gp | faustina |
+| 74 | Turos Tem | Shield | 1 |  | 9gp | faustina |
+| 74 | Turos Tem | Hide and Fur Armor | 1 |  | 9gp | faustina |
+| 74 | Vestus the Unlikely | a parting gift to start over (he declined service: the company at its cap of 4 henchmen) |  |  | 20gp | faustina |
+| 74 | Traveler's Inn | the Fierce Brethren's unpaid bill (AX1: paying makes the innkeeper Friendly and yields a rumour) |  |  | 7gp 4sp 2cp | faustina |
+| 74 | Traveler's Inn | night of day 74 (company and henchmen; Quintus and Zaira in the courtyard) |  |  | 4gp 8sp | faustina |
+| 80 | Traveler's Inn | nights of days 75-80: seven private rooms, three henchmen in the courtyard, meals for ten, two donkeys |  |  | 33gp 6sp | faustina |
+| 80 | a farmhand of 22.19 | a local guide for Corvus' survey of 22.19 (days 76-78, 5sp a day) |  |  | 1gp 5sp | faustina |
+| 80 | Traveler's Inn (feed for the pups) | war-dog pups' supply, days 76-82 |  |  | 2gp 5sp | faustina |
