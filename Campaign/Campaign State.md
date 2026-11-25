@@ -10,45 +10,45 @@ public:
   date:
     year: ''
     season: summer
-    day: 98
-  time: 06:09
-  weather: Balmy (72 to 74 F) by day, Brisk (63 to 67 F) at night; overcast; wind gentle
+    day: 100
+  time: '10:09'
+  weather: Warm (83 to 86 F) by day, Balmy (75 to 79 F) at night; mostly cloudy; wind gentle
   place: Türos Tem
-  hex: '19.19'
+  hex: '22.20'
   party:
   - name: Callista
     sheet: Characters/callista.json
-    role: pc
-    hp: 6
-    hp_max: 6
-    conditions: []
-    spells_used: []
-    encumbrance_st: 5.833
-  - name: Corvus
-    sheet: Characters/corvus.json
     role: pc
     hp: 8
     hp_max: 8
     conditions: []
     spells_used: []
-    encumbrance_st: 6
+    encumbrance_st: 5.845
+  - name: Corvus
+    sheet: Characters/corvus.json
+    role: pc
+    hp: 16
+    hp_max: 16
+    conditions: []
+    spells_used: []
+    encumbrance_st: 6.012
   - name: Faustina
     sheet: Characters/faustina.json
     role: pc
-    hp: 10
-    hp_max: 10
+    hp: 15
+    hp_max: 15
     conditions: []
     spells_used: []
-    encumbrance_st: 4.413
+    encumbrance_st: 4.538
   - name: Galerius
     sheet: Characters/galerius.json
     role: pc
-    hp: 2
-    hp_max: 7
+    hp: 20
+    hp_max: 20
     conditions:
     - 'gruesome scarring: nose flattened, cheek crushed, ear cauliflowered (day 87)'
     spells_used: []
-    encumbrance_st: 8.833
+    encumbrance_st: 8.845
   - name: Hrodric
     sheet: Characters/hrodric.json
     role: pc
@@ -56,23 +56,23 @@ public:
     hp_max: 17
     conditions: []
     spells_used: []
-    encumbrance_st: 8.5
+    encumbrance_st: 5.512
   - name: Severina
     sheet: Characters/severina.json
     role: pc
-    hp: 7
-    hp_max: 7
+    hp: 11
+    hp_max: 11
     conditions: []
     spells_used: []
-    encumbrance_st: 5.833
+    encumbrance_st: 5.845
   - name: Marius
     sheet: Characters/marius.json
     role: henchman
-    hp: 4
-    hp_max: 4
+    hp: 5
+    hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 3.703
+    encumbrance_st: 4.327
   - name: Varro
     sheet: Characters/varro.json
     role: henchman
@@ -80,15 +80,15 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 7.693
+    encumbrance_st: 8.317
   - name: Quintus
     sheet: Characters/quintus.json
     role: henchman
-    hp: 4
+    hp: 7
     hp_max: 7
     conditions: []
     spells_used: []
-    encumbrance_st: 5.906
+    encumbrance_st: 4.697
   - name: Zaira
     sheet: Characters/zaira.json
     role: henchman
@@ -96,15 +96,12 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6.215
+    encumbrance_st: 4.839
   light: lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; lantern (Callista) out; torch (Marius) out; torch (Marius) out; torch (Marius) out; torch (Corvus) out; torch (Corvus) out
-  rations: 'Galerius: food 5 d, water 1 d; Faustina: food 6 d, water 1 d; Callista: food 7 d, water 1 d; Corvus: food 7 d, water 1 d; Varro: food 5 d, water 0.6 d; Hrodric: food 5 d, water 1 d; Quintus: food 9 d, water 1 d; Zaira: food 4 d, water 1 d; Severina: food 8 d, water 1 d; Marius: food 5 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Galerius: food 3 d, water 1 d (fatigued); Faustina: food 4 d, water 1 d (fatigued); Callista: food 5 d, water 1 d (fatigued); Corvus: food 4 d, water 1 d (fatigued); Varro: food 3 d, water 0.6 d (fatigued); Hrodric: food 3 d, water 1 d (fatigued); Quintus: food 9 d, water 1 d (fatigued); Zaira: food 2 d, water 1 d (fatigued); Severina: food 6 d, water 1 d (fatigued); Marius: food 3 d, water 0.2 d; Donkey, Draft: fodder 0 st, water 0 st'
   tracker: {}
   threads: []
   trail:
-  - '20.19'
-  - '21.20'
-  - '22.20'
   - '21.20'
   - '20.19'
   - '19.19'
@@ -122,7 +119,10 @@ public:
   - '21.20'
   - '20.19'
   - '19.19'
-clock_day: 98
+  - '20.19'
+  - '21.20'
+  - '22.20'
+clock_day: 100
 ---
 # Campaign State
 

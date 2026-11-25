@@ -41,6 +41,19 @@ tags:
 | 89 | Below the stepped tower (Buried Temple, level 2) | 400 gold pieces | 400 | quintus |
 | 89 | Below the stepped tower (Buried Temple, level 2) | ogre knucklebones (2 ogres; 3 metamphora) | 180 | sold |
 | 89 | Below the stepped tower (Buried Temple, level 2) | Sword +1 | 660 | quintus |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | 2,500 gold pieces | 2,500 | quintus |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | 1,000 silver pieces | 100 | zaira |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | 2,500 gold pieces | 0 (a purchase or gift (--no-xp)) | donkey1 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | mountain gazelle horns | 106 | donkey1 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | roll of fine Somirean silk | 400 | donkey2 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | silver fox fur cape | 1,500 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | jewelry worth 1500.0gp | 1,500 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | jewelry worth 3000.0gp | 3,000 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Potion of Alacrity | 25 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | AX1 Philter of Love | 500 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | AX1 Scroll of Growth of Animals | 750 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | AX1 Scroll of Ward Against Undead | 1,000 | callista |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Sword +1, Death Drinker | 660 | galerius |
 
 ## Monster XP
 
@@ -57,6 +70,8 @@ tags:
 | 64 | The hobgoblins' alliance (Buried Temple, level 1) | Luminous Beetle | 4 | 15 | 60 |
 | 74 | The tower's prisoners (Buried Temple, level 1) | Giant Rat | 1 | 5 | 5 |
 | 89 | Below the stepped tower (Buried Temple, level 2) | Ogre | 2 | 140 | 280 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Idimmu (Sakkara) | 1 | 820 | 820 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Giant Rat | 9 | 5 | 45 |
 
 ## Shares and XP awarded
 
@@ -113,6 +128,16 @@ tags:
 | 89 | Below the stepped tower (Buried Temple, level 2) | Quintus | 0.5 | 89 | 20 | 0 | +5% | 114 |
 | 89 | Below the stepped tower (Buried Temple, level 2) | Zaira | 0.5 | 89 | 20 | 0 | +0% | 109 |
 | 89 | Below the stepped tower (Buried Temple, level 2) | Marius | 0.5 | 89 | 20 | 0 | +0% | 109 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Galerius | 1 | 1,505 | 108 | 0 | +10% | 1,774 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Faustina | 1 | 1,505 | 108 | 0 | +5% | 1,694 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Callista | 1 | 1,505 | 108 | 0 | +5% | 1,694 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Corvus | 1 | 1,505 | 108 | 0 | +5% | 1,694 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Hrodric | 1 | 1,505 | 108 | 0 | +5% | 1,694 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Severina | 1 | 1,505 | 108 | 0 | +5% | 1,694 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Varro | 0.5 | 753 | 54 | 0 | +5% | 847 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Quintus | 0.5 | 753 | 54 | 0 | +5% | 847 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Zaira | 0.5 | 753 | 54 | 0 | +0% | 807 |
+| 100 | The Black Fangs' war (Buried Temple, level 2) | Marius | 0.5 | 753 | 54 | 0 | +0% | 807 | | NOTE: 0th level: no key-attribute adjustment; the per-adventure cap applies when the Judge chooses his class (advance-0th; reading zero.cap) / sheets not written (pass --apply) / preview only: the ledger is unchanged (pass --apply to record it)
 
 ## Wages
 
@@ -347,3 +372,25 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 97 | the toll orcs of 27 | for minding Marius and the donkeys (Judge's call; Apsa's truce) |  |  | 10gp | faustina |
 | 97 | Idimmu | tribute for the long stair, 100gp a head for nine (Rulings R2 S13) |  |  | 900gp | faustina |
 | 97 | the Red Eye guards of L2 10 | a week's bribe (Rulings R2 S13) |  |  | 10gp | faustina |
+| 100 |  | treasure share |  | 325gp |  | galerius |
+| 100 |  | treasure share |  | 325gp |  | faustina |
+| 100 |  | treasure share |  | 325gp |  | callista |
+| 100 |  | treasure share |  | 325gp |  | corvus |
+| 100 |  | treasure share |  | 325gp |  | hrodric |
+| 100 |  | treasure share |  | 325gp |  | severina |
+| 100 |  | treasure share |  | 162gp 5sp |  | varro |
+| 100 |  | treasure share |  | 162gp 5sp |  | quintus |
+| 100 |  | treasure share |  | 162gp 5sp |  | zaira |
+| 100 |  | treasure share |  | 162gp 5sp |  | marius |
+| 100 | L50, the company's own tribute recovered from Idimmu's hoard | the pooled purse's tribute back (Rulings R2 S14), day 100 |  | 2,500gp |  | faustina |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 894gp 5sp 7cp |  | galerius |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 894gp 5sp 7cp |  | faustina |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 894gp 5sp 7cp |  | callista |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 894gp 5sp 7cp |  | corvus |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 894gp 5sp 7cp |  | hrodric |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 894gp 5sp 7cp |  | severina |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 447gp 2sp 8cp |  | varro |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 447gp 2sp 8cp |  | quintus |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 447gp 2sp 8cp |  | zaira |
+| 100 | market | his share of the sale of L51,L52,L53,L54,L55 (after the payout) |  | 447gp 2sp 8cp |  | marius |
+| 100 | Traveler's Inn | lodging, 2 night(s) |  |  | 11gp 2sp | faustina |
