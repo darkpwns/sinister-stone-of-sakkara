@@ -24,6 +24,9 @@ tags:
 
 | Date (game) | Henchman | Months | gp | Paid by |
 | --- | --- | --- | --- | --- |
+| 1 | Gaius Rufo | 1 (to day 30) | 12 | Lepidus |
+| 1 | Ione | 1 (to day 30) + 3gp signing gift | 15 | Eskil |
+| 7 | Sextus Varo | 1 (to day 36) | 12 | Eskil |
 
 ## Purchases and sales
 
@@ -65,3 +68,26 @@ Generated from the inventory log (`acks.sh inv ledger --md`) by save.sh; never e
 | 5 |  | treasure share |  |  |  |  |
 | 5 |  | treasure share |  |  |  |  |
 | 5 |  | treasure share |  |  |  |  |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | lepidus |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | aurelia |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | octavia |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | silvanus |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | fulvia |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | eskil |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | lepidus |
+| 5 | Turos Tem | Waterskin | 3 |  | 1gp 8sp | eskil |
+| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | lepidus |
+| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | aurelia |
+| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | octavia |
+| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | silvanus |
+| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | fulvia |
+| 5 | Traveler's Inn | lodging in the courtyard and meals, day 5 |  |  | 1sp 5cp | eskil |
+| 5 | Traveler's Inn | stabling the donkey, night of day 5 |  |  | 2sp | eskil |
+| 7 | the retinue | wages paid |  |  | 12gp | eskil |
+| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | lepidus |
+| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | aurelia |
+| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | octavia |
+| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | silvanus |
+| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | fulvia |
+| 7 | Traveler's Inn | lodging in the courtyard and meals, days 6-7 |  |  | 3sp | eskil |
+| 7 | Traveler's Inn | stabling the donkey, nights of days 6-7 |  |  | 4sp | eskil |

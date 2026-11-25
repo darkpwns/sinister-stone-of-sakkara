@@ -15,3 +15,4 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Opinions of NPCs
 
 ## Henchmen and hirelings
+- S02: Gaius Rufo, light-infantry sergeant, 12gp a month, paid to day 30.

@@ -13,5 +13,6 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Lessons learned
 
 ## Opinions of NPCs
+- S02: The little door-guards can be talked round. The legate warms to a good dinner.
 
 ## Henchmen and hirelings

@@ -179,7 +179,26 @@
    "race": "human",
    "name": "Brasidas",
    "status": "available",
-   "attempts": [],
+   "attempts": [
+    {
+     "employer": "fulvia",
+     "party": "party",
+     "total": 6,
+     "result": "Try Again",
+     "day": 6,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "fulvia",
+     "party": "party",
+     "total": 8,
+     "result": "Try Again",
+     "day": 6,
+     "wage": 13.0,
+     "signing": null
+    }
+   ],
    "judge_items": [
     "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
    ],
@@ -251,7 +270,8 @@
    "wage_table": "12gp/month",
    "search": "Turos Tem|henchman|0th level",
    "week": 1,
-   "actor": "c2"
+   "actor": "c2",
+   "try_again": true
   },
   "C3": {
    "id": "C3",
@@ -337,6 +357,441 @@
    "accepted_by": "lepidus",
    "elan": true,
    "offer_wage": 12.0
+  },
+  "C4": {
+   "id": "C4",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Lucius Pera",
+   "status": "available",
+   "attempts": [],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Labor (grooming), JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 8,
+     "mod": -1
+    },
+    "INT": {
+     "score": 10,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 9,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 7,
+     "mod": -1
+    },
+    "CON": {
+     "score": 9,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 7,
+     "mod": -1
+    }
+   },
+   "occupation": "Hostler/Stablehand",
+   "occupation_group": "Laborer",
+   "proficiencies": [
+    {
+     "name": "Labor (grooming)",
+     "ranks": 1
+    },
+    {
+     "name": "Driving",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Riding",
+     "ranks": 1
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Militia/Mercenary",
+   "hit_die": "1-1 HD",
+   "hp_max": 3,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": 0,
+   "morale_src": "as Heavy Infantry",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": -1,
+   "wage_table": "12gp/month",
+   "actor": "p1"
+  },
+  "C5": {
+   "id": "C5",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Sextus Varo",
+   "status": "hired",
+   "attempts": [
+    {
+     "employer": "eskil",
+     "party": "party",
+     "total": 13,
+     "result": "Accept with élan",
+     "day": 7,
+     "wage": 12.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 14,
+     "mod": 1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 13,
+     "mod": 1
+    },
+    "DEX": {
+     "score": 12,
+     "mod": 0
+    },
+    "CON": {
+     "score": 8,
+     "mod": -1
+    },
+    "CHA": {
+     "score": 7,
+     "mod": -1
+    }
+   },
+   "occupation": "Mercer",
+   "occupation_group": "Master Merchant",
+   "proficiencies": [
+    {
+     "name": "Profession (merchant)",
+     "ranks": 3
+    },
+    {
+     "name": "Craft (weaving)",
+     "ranks": 1
+    },
+    {
+     "name": "Bargaining",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    }
+   ],
+   "age": 38,
+   "prof_slots": 6,
+   "training": "Militia/Mercenary",
+   "hit_die": "1-1 HD",
+   "hp_max": 2,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": 0,
+   "morale_src": "as Heavy Infantry",
+   "xp_next": 600,
+   "prof_count": 6,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "actor": "sextus-varo",
+   "try_again": false,
+   "accepted_by": "eskil",
+   "elan": true,
+   "offer_wage": 12.0
+  },
+  "C6": {
+   "id": "C6",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Marcus Tullo",
+   "status": "available",
+   "attempts": [
+    {
+     "employer": "octavia",
+     "party": "party",
+     "total": 7,
+     "result": "Try Again",
+     "day": 7,
+     "wage": 12.0,
+     "signing": null
+    }
+   ],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Divine Blessing, JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 9,
+     "mod": 0
+    },
+    "INT": {
+     "score": 11,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 16,
+     "mod": 2
+    },
+    "DEX": {
+     "score": 12,
+     "mod": 0
+    },
+    "CON": {
+     "score": 9,
+     "mod": 0
+    },
+    "CHA": {
+     "score": 9,
+     "mod": 0
+    }
+   },
+   "occupation": "Seminarian",
+   "occupation_group": "Minor Ecclesiastic",
+   "proficiencies": [
+    {
+     "name": "Divine Blessing",
+     "ranks": 1
+    },
+    {
+     "name": "Theology",
+     "ranks": 2
+    },
+    {
+     "name": "Weapon Proficiency (bludgeons)",
+     "ranks": 1
+    }
+   ],
+   "age": 24,
+   "prof_slots": 5,
+   "training": "Militia/Mercenary",
+   "hit_die": "1-1 HD",
+   "hp_max": 1,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": 0,
+   "morale_src": "as Heavy Infantry",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 0,
+   "wage_table": "12gp/month",
+   "actor": "C6",
+   "try_again": true
+  },
+  "C7": {
+   "id": "C7",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Caius Nepo",
+   "status": "available",
+   "attempts": [
+    {
+     "employer": "silvanus",
+     "party": "party",
+     "total": 8,
+     "result": "Try Again",
+     "day": 7,
+     "wage": 12.0,
+     "signing": null
+    },
+    {
+     "employer": "silvanus",
+     "party": "party",
+     "total": 8,
+     "result": "Try Again",
+     "day": 7,
+     "wage": 12.0,
+     "signing": "week"
+    }
+   ],
+   "judge_items": [
+    "1 more general proficiency slot(s): Judge's choice (usually ranks in Arcane Dabbling, JJ p. 253)",
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 13,
+     "mod": 1
+    },
+    "INT": {
+     "score": 9,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 4,
+     "mod": -2
+    },
+    "DEX": {
+     "score": 14,
+     "mod": 1
+    },
+    "CON": {
+     "score": 13,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "occupation": "Apprentice Mage",
+   "occupation_group": "Minor Magician",
+   "proficiencies": [
+    {
+     "name": "Arcane Dabbling",
+     "ranks": 1
+    },
+    {
+     "name": "Collegiate Wizardry",
+     "ranks": 1
+    },
+    {
+     "name": "Knowledge (history)",
+     "ranks": 2
+    }
+   ],
+   "age": 23,
+   "prof_slots": 5,
+   "training": "Militia/Mercenary",
+   "hit_die": "1-1 HD",
+   "hp_max": 2,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": 0,
+   "morale_src": "as Heavy Infantry",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": 1,
+   "wage_table": "12gp/month",
+   "actor": "C7",
+   "try_again": true
+  },
+  "C8": {
+   "id": "C8",
+   "kind": "henchman",
+   "level": 0,
+   "race": "human",
+   "name": "Atticus Rho",
+   "status": "available",
+   "attempts": [],
+   "judge_items": [
+    "equipment: appropriate to occupation, class or level (RR p. 163; no list in the rules): Judge"
+   ],
+   "attributes": {
+    "STR": {
+     "score": 3,
+     "mod": -3
+    },
+    "INT": {
+     "score": 10,
+     "mod": 0
+    },
+    "WIL": {
+     "score": 10,
+     "mod": 0
+    },
+    "DEX": {
+     "score": 7,
+     "mod": -1
+    },
+    "CON": {
+     "score": 15,
+     "mod": 1
+    },
+    "CHA": {
+     "score": 10,
+     "mod": 0
+    }
+   },
+   "occupation": "Tanner/Tawer",
+   "occupation_group": "Journeyman Crafter",
+   "proficiencies": [
+    {
+     "name": "Craft (tanning)",
+     "ranks": 2
+    },
+    {
+     "name": "Labor (butchery)",
+     "ranks": 1
+    },
+    {
+     "name": "Folkways",
+     "ranks": 1
+    },
+    {
+     "name": "Revelry",
+     "ranks": 1
+    }
+   ],
+   "age": 25,
+   "prof_slots": 5,
+   "training": "Militia/Mercenary",
+   "hit_die": "1-1 HD",
+   "hp_max": 1,
+   "attack_throw": 11,
+   "saves": {
+    "paralysis": 14,
+    "death": 15,
+    "blast": 16,
+    "implements": 17,
+    "spells": 18
+   },
+   "morale": -1,
+   "morale_src": "as Bowmen",
+   "xp_next": 660,
+   "prof_count": 5,
+   "class": "None (0th level)",
+   "ac": -1,
+   "wage_table": "12gp/month",
+   "actor": "C8"
   }
  },
  "members": {
@@ -423,16 +878,59 @@
    "adventure_penalty": null,
    "temp": [],
    "secret": null
+  },
+  "sextus-varo": {
+   "id": "sextus-varo",
+   "name": "Sextus Varo",
+   "candidate": "C5",
+   "employer": "eskil",
+   "kind": "henchman",
+   "type": null,
+   "count": 1,
+   "level": 0,
+   "class": "None (0th level)",
+   "occupation": "Mercer",
+   "race": "human",
+   "monster": null,
+   "animal": false,
+   "caster": false,
+   "loyalty": 2,
+   "morale": 0,
+   "morale_src": "as Heavy Infantry",
+   "wage_gp": 12.0,
+   "wage_per": "month",
+   "hired_day": 7,
+   "periods_paid": 1,
+   "missed": [],
+   "status": "active",
+   "history": [
+    {
+     "day": 7,
+     "event": "hired",
+     "loyalty": 2
+    },
+    {
+     "day": 7,
+     "event": "wages paid: 1 month(s), 12 gp"
+    }
+   ],
+   "actor": "sextus-varo",
+   "market": "",
+   "terms": "",
+   "adventure_penalty": null,
+   "temp": [],
+   "secret": null
   }
  },
  "slander": [],
  "never_rehire": [],
  "pending": [],
  "events": [],
- "seq": 3,
+ "seq": 8,
  "notes_shown": [
   "cand.age_row_merchant",
   "cand.classed_chances",
+  "fatigue.endurance",
   "hire.prof_stacking",
   "wage.timing"
  ]

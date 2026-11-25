@@ -13,5 +13,6 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Lessons learned
 
 ## Opinions of NPCs
+- S02: Lady Celena enjoys a learned conversation; she invited Octavia to dine.
 
 ## Henchmen and hirelings

@@ -11,6 +11,7 @@ Player-facing notes kept by the Judge. One bullet per item, prefixed with the se
 ## Debts
 
 ## Lessons learned
+- S02: We watched the crack an hour unseen. Spiders' lair in the farmland of 21.20: give it a wide berth.
 
 ## Opinions of NPCs
 

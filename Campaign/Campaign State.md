@@ -10,8 +10,8 @@ public:
   date:
     year: ''
     season: spring
-    day: 5
-  time: '12:40'
+    day: 7
+  time: '20:40'
   weather: Balmy (72 to 74 F) by day, Balmy (68 to 71 F) at night; heavy rain; wind strong (rainy)
   place: Türos Tem
   hex: '22.20'
@@ -23,7 +23,7 @@ public:
     hp_max: 4
     conditions: []
     spells_used: []
-    encumbrance_st: 6.519
+    encumbrance_st: 7.01
   - name: Eskil
     sheet: Characters/eskil.json
     role: pc
@@ -31,7 +31,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 6.226
+    encumbrance_st: 6.699
   - name: Fulvia
     sheet: Characters/fulvia.json
     role: pc
@@ -39,7 +39,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 4.878
+    encumbrance_st: 5.369
   - name: Lepidus
     sheet: Characters/lepidus.json
     role: pc
@@ -47,7 +47,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.52
+    encumbrance_st: 7.011
   - name: Octavia
     sheet: Characters/octavia.json
     role: pc
@@ -55,7 +55,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 3.692
+    encumbrance_st: 4.192
   - name: Silvanus
     sheet: Characters/silvanus.json
     role: pc
@@ -63,7 +63,7 @@ public:
     hp_max: 6
     conditions: []
     spells_used: []
-    encumbrance_st: 6.211
+    encumbrance_st: 6.702
   - name: Gaius Rufo
     sheet: Characters/gaius-rufo.json
     role: henchman
@@ -71,7 +71,7 @@ public:
     hp_max: 5
     conditions: []
     spells_used: []
-    encumbrance_st: 4.833
+    encumbrance_st: 5.333
   - name: Ione
     sheet: Characters/ione.json
     role: henchman
@@ -79,9 +79,17 @@ public:
     hp_max: 3
     conditions: []
     spells_used: []
-    encumbrance_st: 0.836
+    encumbrance_st: 1.336
+  - name: Sextus Varo
+    sheet: Characters/sextus-varo.json
+    role: henchman
+    hp: 2
+    hp_max: 2
+    conditions: []
+    spells_used: []
+    encumbrance_st: 8.167
   light: none
-  rations: 'Lepidus: food 4 d, water 2.4 d (fatigued); Aurelia: food 4 d, water 0 d; Octavia: food 4 d, water 0 d; Silvanus: food 4 d, water 0 d (fatigued); Fulvia: food 4 d, water 0 d; Eskil: food 4 d, water 0 d (fatigued); Gaius Rufo: food 4 d, water 0.4 d (fatigued); Ione: food 4 d, water 0.4 d; Donkey, Draft: fodder 0 st, water 0 st'
+  rations: 'Lepidus: food 4 d, water 1 d; Aurelia: food 4 d, water 0 d; Octavia: food 4 d, water 0 d; Silvanus: food 4 d, water 0 d; Fulvia: food 4 d, water 0 d; Eskil: food 4 d, water 0 d; Gaius Rufo: food 4 d, water 0.4 d; Ione: food 4 d, water 0.4 d; Sextus Varo: food 0 d, water 0 d'
   tracker: {}
   threads: []
   trail:
@@ -92,7 +100,7 @@ public:
   - '20.19'
   - '21.20'
   - '22.20'
-clock_day: 5
+clock_day: 7
 ---
 # Campaign State
 
